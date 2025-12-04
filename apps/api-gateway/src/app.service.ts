@@ -6,10 +6,6 @@ import { Sequelize } from 'sequelize';
 export class AppService {
   constructor(@InjectConnection() private readonly sequelize: Sequelize) {}
 
-  getHello(): string {
-    return 'Hello World!';
-  }
-
   async checkHealthDb() {
     await this.sequelize.authenticate();
     return { db: 'ok' };

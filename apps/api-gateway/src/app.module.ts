@@ -8,6 +8,7 @@ import configuration from './config/configuration';
 import { SequelizeModule, SequelizeModuleOptions } from '@nestjs/sequelize';
 import { DatabaseConfig } from './config/configuration.interface';
 import { AuthModule } from './modules/auth/auth.module';
+import { PrismaModule } from '../prisma/prisma.module';
 
 @Module({
   imports: [
@@ -22,6 +23,7 @@ import { AuthModule } from './modules/auth/auth.module';
       inject: [ConfigService],
     }),
     MainModule,
+  PrismaModule,
     AuthModule,
   ],
   controllers: [AppController],

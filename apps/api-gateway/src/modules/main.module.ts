@@ -9,9 +9,18 @@ import { PlansModule } from './plans/plans.module';
 import { SrsModule } from './srs/srs.module';
 import { DictionaryModule } from './dictionary/dictionary.module';
 import { NotificationsModule } from './notifications/notifications.module';
+import { UsersModule } from './users/users.module';
 
 const modules: any[] = [
   AuthModule,
+	CmsModule,
+	ExamsModule,
+	AssessmentsModule,
+	ReportsModule,
+	PlansModule,
+	SrsModule,
+	DictionaryModule,
+	NotificationsModule,
 ];
 
 @Module({
@@ -26,14 +35,7 @@ const modules: any[] = [
         })),
       },
     ]),
-    CmsModule,
-    ExamsModule,
-    AssessmentsModule,
-    ReportsModule,
-    PlansModule,
-    SrsModule,
-    DictionaryModule,
-    NotificationsModule,
+    UsersModule,
   ],
   // providers: [
   //   {

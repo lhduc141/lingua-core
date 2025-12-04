@@ -7,15 +7,6 @@ import { ApiTag } from './decorators/api-tag.decorator';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get()
-  getHello(): string {
-    return this.appService.getHello();
-  }
-
-  @Get('health')
-  health() {
-    return { status: 'ok', time: new Date().toISOString() };
-  }
 
   @Get('health/db')
   async checkHealthDb() {
