@@ -10,9 +10,10 @@ import { SrsModule } from './srs/srs.module';
 import { DictionaryModule } from './dictionary/dictionary.module';
 import { NotificationsModule } from './notifications/notifications.module';
 import { UsersModule } from './users/users.module';
+import { AuthGuard } from '../guards/auth.guard';
 
 const modules: any[] = [
-  AuthModule,
+	AuthModule,
 	CmsModule,
 	ExamsModule,
 	AssessmentsModule,
@@ -21,32 +22,28 @@ const modules: any[] = [
 	SrsModule,
 	DictionaryModule,
 	NotificationsModule,
+	UsersModule,
 ];
 
 @Module({
-  imports: [
-    ...modules,
-    RouterModule.register([
-      {
-        path: '/api',
-        children: modules.map((module) => ({
-          path: '/',
-          module: module,
-        })),
-      },
-    ]),
-    UsersModule,
-  ],
-  // providers: [
-  //   {
-  //     provide: APP_GUARD,
-  //     useClass: AuthGuard,
-  //   },
-    // {
-    // 	provide: APP_GUARD,
-    // 	useClass: PermissionGuard,
-    // },
-  // ],
-  // exports: [AuthModule],
+	imports: [
+		...modules,
+		RouterModule.register([
+			{
+				path: '/api',
+				children: modules.map((module) => ({
+					path: '/',
+					module: module,
+				})),
+			},
+		]),
+	],
+	providers: [
+		{
+			provide: APP_GUARD,
+			useClass: AuthGuard,
+		},
+	],
+	exports: [AuthModule],
 })
 export class MainModule {}

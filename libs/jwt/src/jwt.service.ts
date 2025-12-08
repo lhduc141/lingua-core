@@ -1,7 +1,8 @@
+// libs/jwt/src/jwt.service.ts
 import { Inject, Injectable, Logger, Optional } from '@nestjs/common';
-import type { JwtModuleOptions } from './jwt.interface';
 import * as jwt from 'jsonwebtoken';
-import {JWT_DEFAULTS, JWT_MODULE_OPTIONS } from "./jwt.constants";
+import { JWT_DEFAULTS, JWT_MODULE_OPTIONS } from './jwt.constants';
+import type { JwtModuleOptions, JwtPayloadDto, JwtSignOptions, JwtVerifyOptions } from './jwt.interface';
 
 @Injectable()
 export class JwtService {
@@ -13,108 +14,143 @@ export class JwtService {
 		private readonly options: JwtModuleOptions = {},
 	) {}
 
-	/* ================== HIGH-LEVEL ================== */
+	/* ================== HIGH-LEVEL API ================== */
 
-	// Ký ACCESS token
-	async signAccess(p: { userId: string; email: string; isAdmin: boolean; sessionId?: string }) {
-		const payload = {
+	private get accessSecret(): jwt.Secret {
+		return this.options.accessTokenSecret || JWT_DEFAULTS.ACCESS_SECRET;
+	}
+
+	private get refreshSecret(): jwt.Secret {
+		return this.options.refreshTokenSecret || JWT_DEFAULTS.REFRESH_SECRET;
+	}
+
+	private get issuer(): string {
+		return this.options.issuer || JWT_DEFAULTS.ISS;
+	}
+
+	private get audience(): string {
+		return this.options.audience || JWT_DEFAULTS.AUD;
+	}
+
+	private get accessTtlSec(): number {
+		return this.options.accessTokenTtlSec || JWT_DEFAULTS.ACCESS_TTL_SEC;
+	}
+
+	private get refreshTtlSec(): number {
+		return this.options.refreshTokenTtlSec || JWT_DEFAULTS.REFRESH_TTL_SEC;
+	}
+
+	async signAccessToken(payload: JwtPayloadDto): Promise<string> {
+		const pl: JwtPayloadDto = {
+			...payload,
 			token_type: 'access',
-			sub: p.userId,
-			email: p.email,
-			isAdmin: p.isAdmin,
-			session_id: p.sessionId,
 		};
 
-		return this.signAsync(payload, {
-			expiresIn: JWT_DEFAULTS.ACCESS_TTL_SEC, // 15 phút
+		return this.signAsync(pl, {
+			secret: this.accessSecret,
+			expiresIn: this.accessTtlSec,
+			issuer: this.issuer,
+			audience: this.audience,
 			algorithm: JWT_DEFAULTS.ALG as jwt.Algorithm,
-			issuer: JWT_DEFAULTS.ISS,
-			audience: JWT_DEFAULTS.AUD,
 			keyid: JWT_DEFAULTS.KID,
 		});
 	}
 
-	async verifyAccess(token: string) {
-		const pl = await this.verifyAsync<any>(token);
-		if (pl.token_type !== 'access') throw new Error('Invalid token type');
-		return pl;
-	}
-
-	// Ký REFRESH token
-	async signRefresh(p: { userId: string; sessionId: string }) {
-		const payload = {
+	async signRefreshToken(payload: JwtPayloadDto): Promise<string> {
+		const pl: JwtPayloadDto = {
+			...payload,
 			token_type: 'refresh',
-			sub: p.userId,
-			session_id: p.sessionId,
 		};
 
-		return this.signAsync(payload, {
-			expiresIn: JWT_DEFAULTS.REFRESH_TTL_SEC, // 30 ngày
+		return this.signAsync(pl, {
+			secret: this.refreshSecret,
+			expiresIn: this.refreshTtlSec,
+			issuer: this.issuer,
+			audience: this.audience,
 			algorithm: JWT_DEFAULTS.ALG as jwt.Algorithm,
-			issuer: JWT_DEFAULTS.ISS,
-			audience: JWT_DEFAULTS.AUD,
 			keyid: JWT_DEFAULTS.KID,
 		});
 	}
 
-	async verifyRefresh(token: string) {
-		const pl = await this.verifyAsync<any>(token);
-		if (pl.token_type !== 'refresh') throw new Error('Invalid token type');
-		return pl;
-	}
-
-	/* ================== LOW-LEVEL ================== */
-
-	sign(payload: string | Buffer | object, options?: jwt.SignOptions): string {
-		const secret: jwt.Secret = (this.options.secret ?? process.env.JWT_SECRET ?? 'dev-secret') as jwt.Secret;
-		const mergedOpts: jwt.SignOptions = this._mergeSignOptions(options);
-		return jwt.sign(payload as any, secret, mergedOpts);
-	}
-
-	signAsync(payload: string | Buffer | object, options?: jwt.SignOptions): Promise<string> {
-		const secret: jwt.Secret = (this.options.secret ?? process.env.JWT_SECRET ?? 'dev-secret') as jwt.Secret;
-		const mergedOpts: jwt.SignOptions = this._mergeSignOptions(options);
-		return new Promise<string>((resolve, reject) => {
-			jwt.sign(payload as any, secret, mergedOpts, (err, tok) => (err ? reject(err) : resolve(tok!)));
-		});
-	}
-
-	verify<T = any>(token: string, options?: jwt.VerifyOptions): T {
-		const secret: jwt.Secret = (this.options.secret ?? process.env.JWT_SECRET ?? 'dev-secret') as jwt.Secret;
-		const verifyOpts = this._mergeVerifyOptions(options);
-		return jwt.verify(token, secret, verifyOpts) as T;
-	}
-
-	verifyAsync<T = any>(token: string, options?: jwt.VerifyOptions): Promise<T> {
-		const secret: jwt.Secret = (this.options.secret ?? process.env.JWT_SECRET ?? 'dev-secret') as jwt.Secret;
-		const verifyOpts = this._mergeVerifyOptions(options);
-		return new Promise<T>((resolve, reject) => {
-			jwt.verify(token, secret, verifyOpts, (err, decoded) => (err ? reject(err) : resolve(decoded as T)));
-		});
-	}
-
-	decode<T = any>(token: string): T | null {
-		return jwt.decode(token) as T | null;
-	}
-
-	/* ================== PRIVATE ================== */
-
-	private _mergeSignOptions(options?: jwt.SignOptions): jwt.SignOptions {
-		const defaults: jwt.SignOptions = {
-			algorithm: JWT_DEFAULTS.ALG as jwt.Algorithm,
-			issuer: JWT_DEFAULTS.ISS,
-			audience: JWT_DEFAULTS.AUD,
-			keyid: JWT_DEFAULTS.KID,
-		};
-		return { ...defaults, ...(options || {}) };
-	}
-
-	private _mergeVerifyOptions(options?: jwt.VerifyOptions): jwt.VerifyOptions {
-		const defaults: jwt.VerifyOptions = {
+	async verifyAccessToken<T extends JwtPayloadDto = JwtPayloadDto>(token: string): Promise<T> {
+		const payload = await this.verifyAsync<T>(token, {
+			secret: this.accessSecret,
+			issuer: this.issuer,
+			audience: this.audience,
 			algorithms: [JWT_DEFAULTS.ALG as jwt.Algorithm],
-			issuer: JWT_DEFAULTS.ISS,
-			audience: JWT_DEFAULTS.AUD,
-		};
-		return { ...defaults, ...(options || {}) };
+		});
+
+		if (payload.token_type !== 'access') {
+			throw new Error('Invalid token type');
+		}
+
+		return payload;
+	}
+
+	async verifyRefreshToken<T extends JwtPayloadDto = JwtPayloadDto>(token: string): Promise<T> {
+		const payload = await this.verifyAsync<T>(token, {
+			secret: this.refreshSecret,
+			issuer: this.issuer,
+			audience: this.audience,
+			algorithms: [JWT_DEFAULTS.ALG as jwt.Algorithm],
+		});
+
+		if (payload.token_type !== 'refresh') {
+			throw new Error('Invalid token type');
+		}
+
+		return payload;
+	}
+
+	/* ================== LOW-LEVEL API ================== */
+
+	sign(payload: string | Buffer | object, options?: JwtSignOptions): string {
+		const { secret, ...rest } = options || {};
+
+		const finalSecret: jwt.Secret = secret || this.accessSecret;
+
+		return jwt.sign(payload, finalSecret, {
+			issuer: this.issuer,
+			audience: this.audience,
+			algorithm: JWT_DEFAULTS.ALG as jwt.Algorithm,
+			keyid: JWT_DEFAULTS.KID,
+			...rest,
+		});
+	}
+
+	signAsync(payload: string | Buffer | object, options?: JwtSignOptions): Promise<string> {
+		return new Promise((resolve, reject) => {
+			try {
+				const token = this.sign(payload, options);
+				resolve(token);
+			} catch (err) {
+				this.logger.error('Error signing JWT', err);
+				reject(err);
+			}
+		});
+	}
+
+	verify<T = any>(token: string, options?: JwtVerifyOptions): T {
+		const { secret, ...rest } = options || {};
+		const finalSecret: jwt.Secret = secret || this.accessSecret;
+
+		return jwt.verify(token, finalSecret, {
+			issuer: this.issuer,
+			audience: this.audience,
+			algorithms: [JWT_DEFAULTS.ALG as jwt.Algorithm],
+			...rest,
+		}) as T;
+	}
+
+	verifyAsync<T = any>(token: string, options?: JwtVerifyOptions): Promise<T> {
+		return new Promise((resolve, reject) => {
+			try {
+				const payload = this.verify<T>(token, options);
+				resolve(payload);
+			} catch (err) {
+				this.logger.error('Error verifying JWT', err);
+				reject(err);
+			}
+		});
 	}
 }

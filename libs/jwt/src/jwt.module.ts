@@ -1,9 +1,8 @@
-// jwt.module.ts
 import { DynamicModule, Global, Module, Provider } from '@nestjs/common';
 import type { JwtModuleAsyncOptions, JwtModuleOptions, JwtOptionsFactory } from './jwt.interface';
 import { createJwtProvider } from './jwt.providers';
 import { JwtService } from './jwt.service';
-import { JWT_MODULE_OPTIONS } from "./jwt.constants";
+import { JWT_MODULE_OPTIONS } from './jwt.constants';
 
 @Global()
 @Module({
@@ -14,7 +13,6 @@ export class JwtModule {
 	static register(options: JwtModuleOptions = {}): DynamicModule {
 		return {
 			module: JwtModule,
-			global: options.global,
 			providers: [...createJwtProvider(options), JwtService],
 			exports: [JwtService],
 		};
@@ -23,9 +21,8 @@ export class JwtModule {
 	static registerAsync(options: JwtModuleAsyncOptions): DynamicModule {
 		return {
 			module: JwtModule,
-			global: options.global,
 			imports: options.imports || [],
-			providers: [...this.createAsyncProviders(options), JwtService, ...(options.extraProviders ?? [])],
+			providers: [...this.createAsyncProviders(options), JwtService],
 			exports: [JwtService],
 		};
 	}
@@ -54,7 +51,7 @@ export class JwtModule {
 		return {
 			provide: JWT_MODULE_OPTIONS,
 			useFactory: async (factory: JwtOptionsFactory) => await factory.createJwtOptions(),
-			inject: [options.useExisting || options.useClass!],
+			inject: [options.useExisting || (options.useClass as any)],
 		};
 	}
 }
