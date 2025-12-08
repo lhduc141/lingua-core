@@ -171,8 +171,9 @@ model User {
   notifications     Notification[]
   srsCollections    SrsCollection[]
   srsCards          SrsCard[]
+	onboardingSurvey OnboardingSurvey?
 
-  @@map("users")
+	@@map("users")
 }
 model Profile {
   profileId String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("profile_id")
@@ -193,6 +194,49 @@ model Profile {
   user User @relation(fields: [userId], references: [userId])
 
   @@map("profiles")
+}
+
+// ===========================
+// ====       Survey
+// ===========================
+model OnboardingSurvey {
+	surveyId  String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("survey_id")
+	userId    String   @db.Uuid @unique @map("user_id")
+
+	// Tóm tắt nội dung form (để AI dùng)
+	metaJson  Json?    @map("meta_json")
+
+	plannedStudyHoursPerWeek Int?     @map("planned_study_hours_per_week")
+	primaryFocusSkills       Json?    @map("primary_focus_skills")      
+	targetDeadlineDate       DateTime? @db.Date @map("target_deadline_date")
+	targetGoal               String?  @map("target_goal")               
+
+	createdAt DateTime @default(now()) @map("created_at")
+	updatedAt DateTime @updatedAt @map("updated_at")
+	deletedAt DateTime? @map("deleted_at")
+
+	user    User                     @relation(fields: [userId], references: [userId])
+	answers OnboardingSurveyAnswer[]
+
+	@@map("onboarding_surveys")
+}
+
+
+model OnboardingSurveyAnswer {
+	answerId      String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("answer_id")
+	surveyId      String   @db.Uuid @map("survey_id")
+
+	questionKey   String   @map("question_key")   // vd: "target_goal", "hours_per_week"
+	answerValue   Json?    @map("answer_value")   // string/number/list => Json cho linh hoạt
+	questionOrder Int?     @map("question_order") // để giữ thứ tự câu hỏi nếu bạn muốn
+
+	createdAt     DateTime @default(now()) @map("created_at")
+	updatedAt     DateTime @updatedAt @map("updated_at")
+	deletedAt     DateTime? @map("deleted_at")
+
+	survey        OnboardingSurvey @relation(fields: [surveyId], references: [surveyId])
+
+	@@map("onboarding_survey_answers")
 }
 
 // ===========================

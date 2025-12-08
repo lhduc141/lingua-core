@@ -11,6 +11,7 @@ import { DictionaryModule } from './dictionary/dictionary.module';
 import { NotificationsModule } from './notifications/notifications.module';
 import { UsersModule } from './users/users.module';
 import { AuthGuard } from '../guards/auth.guard';
+import { OnboardingModule } from './onboarding/onboarding.module';
 
 const modules: any[] = [
 	AuthModule,
@@ -37,6 +38,7 @@ const modules: any[] = [
 				})),
 			},
 		]),
+		OnboardingModule,
 	],
 	providers: [
 		{
