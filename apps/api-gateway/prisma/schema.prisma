@@ -140,20 +140,31 @@ enum NotificationStatus {
 // ===========================
 model User {
   userId      String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("user_id")
-  username    String?   @unique
-  email       String    @unique
+
+  //  Google identity
+  email     	String 		@unique
+	googleSub		String		@unique
+	googleName 	String?
+	googleAvatarUrl String?
+
+	//	Permission
   isAdmin     Boolean   @default(false) @map("is_admin")
   isActive    Boolean   @default(true) @map("is_active")
   lastLoginAt DateTime? @map("last_login_at")
+
+	// 	Refresh token
+	currentRefreshTokenHash      String?   @map("current_refresh_token_hash")
+	currentRefreshTokenExpiresAt DateTime? @map("current_refresh_token_expires_at")
+
   createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @default(now()) @map("updated_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
   deletedAt   DateTime? @map("deleted_at")
 
-  accounts          Account[]
-  attempts          Attempt[]
+  //	Relationship
+	profiles          Profile?
+	attempts          Attempt[]
   assessments       Assessment[]
   availabilities    UserAvailability[]
-  profiles          Profile[]
   reports           AssessmentReport[]
   learningPlanItems LearningPlanItem[]
   studySessions     StudySession[]
@@ -163,35 +174,20 @@ model User {
 
   @@map("users")
 }
-model Account {
-  accountId         String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("account_id")
-  userId            String       @db.Uuid @map("user_id")
-  provider          AuthProvider @default(local)
-  providerAccountId String?      @map("provider_account_id")
-  emailLogin        String?      @map("email_login")
-  password          String?
-  emailVerifiedAt   DateTime?    @map("email_verified_at")
-  isActive          Boolean      @default(true) @map("is_active")
-  createdAt         DateTime     @default(now()) @map("created_at")
-  updatedAt         DateTime     @default(now()) @map("updated_at")
-  deletedAt         DateTime?    @map("deleted_at")
-
-  user User @relation(fields: [userId], references: [userId])
-
-  @@map("accounts")
-}
 model Profile {
   profileId String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("profile_id")
-  userId    String    @db.Uuid @map("user_id")
+
+  userId    String    @db.Uuid @map("user_id") @unique
   fullName  String?   @map("full_name")
   dob       DateTime? @db.Date
   gender    String?
   phone     String?
   levelNote String?   @map("level_note")
   goalNote  String?   @map("goal_note")
+	
   isActive  Boolean   @default(true) @map("is_active")
   createdAt DateTime  @default(now()) @map("created_at")
-  updatedAt DateTime  @default(now()) @map("updated_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
   user User @relation(fields: [userId], references: [userId])
@@ -214,7 +210,7 @@ model Assessment {
   score         Decimal?          @db.Decimal()
   displayLocale String?           @map("display_locale")
   createdAt     DateTime          @default(now()) @map("created_at")
-  updatedAt     DateTime          @default(now()) @map("updated_at")
+  updatedAt     DateTime          @updatedAt @map("updated_at")
   deletedAt     DateTime?         @map("deleted_at")
 
   user            User               @relation(fields: [userId], references: [userId])
@@ -245,7 +241,7 @@ model Attempt {
   manualOverrideScore Decimal?         @db.Decimal() @map("manual_override_score")
   raterId             String?          @db.Uuid @map("rater_id")
   createdAt           DateTime         @default(now()) @map("created_at")
-  updatedAt           DateTime         @default(now()) @map("updated_at")
+  updatedAt           DateTime         @updatedAt @map("updated_at")
   deletedAt           DateTime?        @map("deleted_at")
 
   user        User                @relation(fields: [userId], references: [userId])
@@ -269,7 +265,7 @@ model AttemptAnswer {
   numericAnswer Decimal?  @db.Decimal() @map("numeric_answer")
   jsonAnswer    Json?     @map("json_answer")
   createdAt     DateTime  @default(now()) @map("created_at")
-  updatedAt     DateTime  @default(now()) @map("updated_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
   deletedAt     DateTime? @map("deleted_at")
 
   attempt Attempt         @relation(fields: [attemptId], references: [attemptId])
@@ -286,7 +282,7 @@ model Prompt {
   variablesJson Json?     @map("variables_json")
   createdBy     String?   @db.Uuid @map("created_by")
   createdAt     DateTime  @default(now()) @map("created_at")
-  updatedAt     DateTime  @default(now()) @map("updated_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
   deletedAt     DateTime? @map("deleted_at")
 
   aiCalls AttemptAiCall[]
@@ -316,7 +312,7 @@ model AttemptAiCall {
   toolCallsJson       Json?        @map("tool_calls_json")
   traceId             String?      @map("trace_id")
   createdAt           DateTime     @default(now()) @map("created_at")
-  updatedAt           DateTime     @default(now()) @map("updated_at")
+  updatedAt           DateTime     @updatedAt @map("updated_at")
   deletedAt           DateTime?    @map("deleted_at")
 
   attempt Attempt @relation(fields: [attemptId], references: [attemptId])
@@ -334,7 +330,7 @@ model AttemptEvaluation {
   evidenceJson  Json?     @map("evidence_json")
   rubricVersion String?   @map("rubric_version")
   createdAt     DateTime  @default(now()) @map("created_at")
-  updatedAt     DateTime  @default(now()) @map("updated_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
   deletedAt     DateTime? @map("deleted_at")
 
   attempt    Attempt         @relation(fields: [attemptId], references: [attemptId])
@@ -350,7 +346,7 @@ model EvalDimension {
   evidenceJson  Json?     @map("evidence_json")
   position      Int?
   createdAt     DateTime  @default(now()) @map("created_at")
-  updatedAt     DateTime  @default(now()) @map("updated_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
   deletedAt     DateTime? @map("deleted_at")
 
   attemptEvaluation AttemptEvaluation @relation(fields: [attemptEvalId], references: [id])
@@ -369,7 +365,7 @@ model Topic {
   reviewerId  String?       @db.Uuid @map("reviewer_id")
   publishedAt DateTime?     @map("published_at")
   createdAt   DateTime      @default(now()) @map("created_at")
-  updatedAt   DateTime      @default(now()) @map("updated_at")
+  updatedAt   DateTime      @updatedAt @map("updated_at")
   deletedAt   DateTime?     @map("deleted_at")
 
   lessons      Lesson[]
@@ -386,7 +382,7 @@ model Lesson {
   reviewerId  String?       @db.Uuid @map("reviewer_id")
   publishedAt DateTime?     @map("published_at")
   createdAt   DateTime      @default(now()) @map("created_at")
-  updatedAt   DateTime      @default(now()) @map("updated_at")
+  updatedAt   DateTime      @updatedAt @map("updated_at")
   deletedAt   DateTime?     @map("deleted_at")
 
   topic           Topic?              @relation(fields: [topicId], references: [topicId])
@@ -410,7 +406,7 @@ model Question {
   timeLimitSec Int?          @map("time_limit_sec")
   maxScore     Int?          @default(1) @map("max_score")
   createdAt    DateTime      @default(now()) @map("created_at")
-  updatedAt    DateTime      @default(now()) @map("updated_at")
+  updatedAt    DateTime      @updatedAt @map("updated_at")
   deletedAt    DateTime?     @map("deleted_at")
 
   options              QuestionOption[]
@@ -441,7 +437,7 @@ model QuestionOption {
   isCorrect  Boolean   @default(false) @map("is_correct")
   position   Int?
   createdAt  DateTime  @default(now()) @map("created_at")
-  updatedAt  DateTime  @default(now()) @map("updated_at")
+  updatedAt  DateTime  @updatedAt @map("updated_at")
   deletedAt  DateTime? @map("deleted_at")
 
   question       Question            @relation(fields: [questionId], references: [questionId])
@@ -464,7 +460,7 @@ model Asset {
   metaJson     Json?     @map("meta_json")
   checksum     String?
   createdAt    DateTime  @default(now()) @map("created_at")
-  updatedAt    DateTime  @default(now()) @map("updated_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
   deletedAt    DateTime? @map("deleted_at")
 
   examSectionQuestions ExamSectionQuestion[] @relation("PassageAsset")
@@ -482,7 +478,7 @@ model QuestionPayload {
   answerKeysJson Json?    @map("answer_keys_json")
   scoringJson    Json?    @map("scoring_json")
   validationJson Json?    @map("validation_json")
-  updatedAt      DateTime @default(now()) @map("updated_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
 
   question Question @relation(fields: [questionId], references: [questionId])
 
@@ -560,7 +556,7 @@ model ExamCycle {
   endDate   DateTime?     @db.Date @map("end_date")
   notes     String?
   createdAt DateTime      @default(now()) @map("created_at")
-  updatedAt DateTime      @default(now()) @map("updated_at")
+  updatedAt DateTime      @updatedAt @map("updated_at")
   deletedAt DateTime?     @map("deleted_at")
 
   exams Exam[]
@@ -579,7 +575,7 @@ model Exam {
   scoringScheme   Json?         @map("scoring_scheme")
   proctoringRules Json?         @map("proctoring_rules")
   createdAt       DateTime      @default(now()) @map("created_at")
-  updatedAt       DateTime      @default(now()) @map("updated_at")
+  updatedAt       DateTime      @updatedAt @map("updated_at")
   deletedAt       DateTime?     @map("deleted_at")
 
   cycle    ExamCycle?    @relation(fields: [cycleId], references: [cycleId])
@@ -595,7 +591,7 @@ model ExamSection {
   durationMinutes Int?      @map("duration_minutes")
   standalone      Boolean   @default(false)
   createdAt       DateTime  @default(now()) @map("created_at")
-  updatedAt       DateTime  @default(now()) @map("updated_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
   deletedAt       DateTime? @map("deleted_at")
 
   exam      Exam                  @relation(fields: [examId], references: [examId])
@@ -612,7 +608,7 @@ model ExamSectionQuestion {
   groupKey        String?   @map("group_key")
   passageAssetId  String?   @db.Uuid @map("passage_asset_id")
   createdAt       DateTime  @default(now()) @map("created_at")
-  updatedAt       DateTime  @default(now()) @map("updated_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
   deletedAt       DateTime? @map("deleted_at")
 
   examSection  ExamSection @relation(fields: [examSectionId], references: [sectionId])
@@ -633,7 +629,7 @@ model UserAvailability {
   endMinute      Int       @map("end_minute")
   weight         Decimal?  @db.Decimal() @default(1.0)
   createdAt      DateTime  @default(now()) @map("created_at")
-  updatedAt      DateTime  @default(now()) @map("updated_at")
+  updatedAt      DateTime  @updatedAt @map("updated_at")
   deletedAt      DateTime? @map("deleted_at")
 
   user User @relation(fields: [userId], references: [userId])
@@ -656,7 +652,7 @@ model LearningPlanItem {
   autoGenerated      Boolean        @default(true) @map("auto_generated")
   sourceAssessmentId String?        @db.Uuid @map("source_assessment_id")
   createdAt          DateTime       @default(now()) @map("created_at")
-  updatedAt          DateTime       @default(now()) @map("updated_at")
+  updatedAt          DateTime       @updatedAt @map("updated_at")
   deletedAt          DateTime?      @map("deleted_at")
 
   user             User               @relation(fields: [userId], references: [userId])
@@ -676,7 +672,7 @@ model StudySession {
   status     StudySessionStatus @default(planned)
   notes      String?
   createdAt  DateTime           @default(now()) @map("created_at")
-  updatedAt  DateTime           @default(now()) @map("updated_at")
+  updatedAt  DateTime           @updatedAt @map("updated_at")
   deletedAt  DateTime?          @map("deleted_at")
 
   user     User              @relation(fields: [userId], references: [userId])
@@ -696,7 +692,7 @@ model Notification {
   status         NotificationStatus  @default(scheduled)
   errorJson      Json?               @map("error_json")
   createdAt      DateTime            @default(now()) @map("created_at")
-  updatedAt      DateTime            @default(now()) @map("updated_at")
+  updatedAt      DateTime            @updatedAt @map("updated_at")
   deletedAt      DateTime?           @map("deleted_at")
 
   user User @relation(fields: [userId], references: [userId])
@@ -724,7 +720,7 @@ model AssessmentReport {
   explanationsAssetId String?   @db.Uuid @map("explanations_asset_id")
   reportVersion       Int?      @default(1) @map("report_version")
   createdAt           DateTime  @default(now()) @map("created_at")
-  updatedAt           DateTime  @default(now()) @map("updated_at")
+  updatedAt           DateTime  @updatedAt @map("updated_at")
   deletedAt           DateTime? @map("deleted_at")
 
   assessment       Assessment @relation(fields: [assessmentId], references: [assessmentId])
@@ -742,7 +738,7 @@ model BandScore {
   scoreBand    String?   @map("score_band")
   evidenceJson Json?     @map("evidence_json")
   createdAt    DateTime  @default(now()) @map("created_at")
-  updatedAt    DateTime  @default(now()) @map("updated_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
   deletedAt    DateTime? @map("deleted_at")
 
   assessment Assessment @relation(fields: [assessmentId], references: [assessmentId])
@@ -756,7 +752,7 @@ model RubricCriterion {
   name        String
   description String?
   createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @default(now()) @map("updated_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
   deletedAt   DateTime? @map("deleted_at")
 
   @@map("rubric_criteria")
@@ -773,7 +769,7 @@ model DictEntry {
   ipa       String?
   audioUrl  String?   @map("audio_url")
   createdAt DateTime  @default(now()) @map("created_at")
-  updatedAt DateTime  @default(now()) @map("updated_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
   senses        DictSense[]
@@ -789,7 +785,7 @@ model DictSense {
   order     Int?      @map("order")
   shortDef  String?   @map("short_def")
   createdAt DateTime  @default(now()) @map("created_at")
-  updatedAt DateTime  @default(now()) @map("updated_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
   entry    DictEntry     @relation(fields: [entryId], references: [entryId])
@@ -804,7 +800,7 @@ model DictExample {
   example     String?
   translation String?
   createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @default(now()) @map("updated_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
   deletedAt   DateTime? @map("deleted_at")
 
   sense DictSense @relation(fields: [senseId], references: [senseId])
@@ -818,7 +814,7 @@ model DictForm {
   morphTag  String?   @map("morph_tag")
   isLemma   Boolean   @default(false) @map("is_lemma")
   createdAt DateTime  @default(now()) @map("created_at")
-  updatedAt DateTime  @default(now()) @map("updated_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
   entry DictEntry @relation(fields: [entryId], references: [entryId])
@@ -831,7 +827,7 @@ model DictRelation {
   toEntryId   String    @db.Uuid @map("to_entry_id")
   kind        String?
   createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @default(now()) @map("updated_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
   deletedAt   DateTime? @map("deleted_at")
 
   fromEntry DictEntry @relation("FromRelation", fields: [fromEntryId], references: [entryId])
@@ -851,7 +847,7 @@ model AiCache {
   version    String?
   expiresAt  DateTime? @map("expires_at")
   createdAt  DateTime  @default(now()) @map("created_at")
-  updatedAt  DateTime  @default(now()) @map("updated_at")
+  updatedAt  DateTime  @updatedAt @map("updated_at")
   deletedAt  DateTime? @map("deleted_at")
 
   @@map("ai_cache")
@@ -869,7 +865,7 @@ model SrsCollection {
   position     Int?
   visibility   String?
   createdAt    DateTime  @default(now()) @map("created_at")
-  updatedAt    DateTime  @default(now()) @map("updated_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
   deletedAt    DateTime? @map("deleted_at")
 
   user            User                @relation(fields: [userId], references: [userId])
@@ -891,7 +887,7 @@ model SrsCard {
   lastReviewAt DateTime? @map("last_review_at")
   statsJson    Json?     @map("stats_json")
   createdAt    DateTime  @default(now()) @map("created_at")
-  updatedAt    DateTime  @default(now()) @map("updated_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
   deletedAt    DateTime? @map("deleted_at")
 
   user            User                @relation(fields: [userId], references: [userId])
@@ -905,7 +901,7 @@ model SrsCollectionCard {
   cardId       String    @db.Uuid @map("card_id")
   position     Int?
   createdAt    DateTime  @default(now()) @map("created_at")
-  updatedAt    DateTime  @default(now()) @map("updated_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
   deletedAt    DateTime? @map("deleted_at")
 
   collection SrsCollection @relation(fields: [collectionId], references: [collectionId])
@@ -924,7 +920,7 @@ model SrsReview {
   easeAfter        Decimal?  @db.Decimal() @map("ease_after")
   notes            String?
   createdAt        DateTime  @default(now()) @map("created_at")
-  updatedAt        DateTime  @default(now()) @map("updated_at")
+  updatedAt        DateTime  @updatedAt @map("updated_at")
   deletedAt        DateTime? @map("deleted_at")
 
   card SrsCard @relation(fields: [cardId], references: [cardId])

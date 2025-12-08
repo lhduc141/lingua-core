@@ -6,11 +6,11 @@ export const apiSwaggerConfig = new DocumentBuilder()
 	.setTitle('LinguaPandaCore ')
 	.setVersion('1.0.0')
 	.setDescription('Tài liệu API hệ thống')
-	// .addBearerAuth({ in: 'header', type: 'http' }, 'accessToken')
-	// .addSecurityRequirements('accessToken')
+	.addBearerAuth({ in: 'header', type: 'http' }, 'accessToken')
+	.addSecurityRequirements('accessToken')
 	.build();
 
 export const ApiTag = (tagObject: TagObject) => {
-    (apiSwaggerConfig.tags ??= []).push(tagObject);
-    return applyDecorators(ApiTags(tagObject.name));
+	(apiSwaggerConfig.tags ??= []).push(tagObject);
+	return applyDecorators(ApiTags(tagObject.name));
 };

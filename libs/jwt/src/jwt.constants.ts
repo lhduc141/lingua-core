@@ -8,4 +8,6 @@ export const JWT_DEFAULTS = {
 	REFRESH_TTL_SEC: parseInt(process.env.JWT_REFRESH_TTL || '2592000', 10), // 30d
 	SERVICE_TTL_SEC: parseInt(process.env.JWT_SERVICE_TTL || '300', 10), // 5m
 	KID: process.env.JWT_KID || 'default',
+	ACCESS_SECRET: process.env.JWT_ACCESS_SECRET || 'access-secret-dev',
+	REFRESH_SECRET: process.env.JWT_REFRESH_SECRET || 'refresh-secret-dev',
 };
