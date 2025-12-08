@@ -1,13 +1,16 @@
 import { Injectable } from '@nestjs/common';
-import { InjectConnection } from '@nestjs/sequelize';
-import { Sequelize } from 'sequelize';
+import { PrismaService } from '../prisma/prisma.service';
 
 @Injectable()
 export class AppService {
-  constructor(@InjectConnection() private readonly sequelize: Sequelize) {}
+	constructor(private readonly prisma: PrismaService) {}
 
-  async checkHealthDb() {
-    await this.sequelize.authenticate();
-    return { db: 'ok' };
-  }
+	async checkHealthDb() {
+		try {
+			await this.prisma.$queryRaw`SELECT 1`;
+			return { db: 'ok' };
+		} catch (err) {
+			return { db: 'error', message: (err as Error).message };
+		}
+	}
 }

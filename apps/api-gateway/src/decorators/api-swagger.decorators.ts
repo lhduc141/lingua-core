@@ -1,8 +1,8 @@
 import { DocumentBuilder } from '@nestjs/swagger';
 
 export const apiSwaggerConfig = new DocumentBuilder()
-	.setTitle('My API')
-	.setDescription('API documentation for my application')
+	.setTitle('Lingua Panda')
+	.setDescription('API Documentation for Lingua Panda Thesis')
 	.setVersion('1.0')
 	.addBearerAuth(
 		{
