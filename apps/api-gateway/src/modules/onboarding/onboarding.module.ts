@@ -3,7 +3,8 @@ import { OnboardingService } from './onboarding.service';
 import { OnboardingController } from './onboarding.controller';
 
 @Module({
-  controllers: [OnboardingController],
-  providers: [OnboardingService],
+	controllers: [OnboardingController],
+	providers: [OnboardingService],
+	exports: [OnboardingService],
 })
 export class OnboardingModule {}

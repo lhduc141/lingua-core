@@ -12,6 +12,7 @@ import { NotificationsModule } from './notifications/notifications.module';
 import { UsersModule } from './users/users.module';
 import { AuthGuard } from '../guards/auth.guard';
 import { OnboardingModule } from './onboarding/onboarding.module';
+import { AiModule } from './ai/ai.module';
 
 const modules: any[] = [
 	AuthModule,
@@ -39,6 +40,7 @@ const modules: any[] = [
 			},
 		]),
 		OnboardingModule,
+		AiModule,
 	],
 	providers: [
 		{

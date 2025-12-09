@@ -8,6 +8,7 @@ import configuration from './config/configuration';
 import { AuthModule } from './modules/auth/auth.module';
 import { PrismaModule } from '../prisma/prisma.module';
 import { JwtModule } from '@app/jwt';
+import { AiModule } from './modules/ai/ai.module';
 
 @Module({
 	imports: [
@@ -21,6 +22,7 @@ import { JwtModule } from '@app/jwt';
 		MainModule,
 		PrismaModule,
 		AuthModule,
+		AiModule,
 	],
 	controllers: [AppController],
 	providers: [AppService],

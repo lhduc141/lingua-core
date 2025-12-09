@@ -220,8 +220,6 @@ model OnboardingSurvey {
 
 	@@map("onboarding_surveys")
 }
-
-
 model OnboardingSurveyAnswer {
 	answerId      String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("answer_id")
 	surveyId      String   @db.Uuid @map("survey_id")
