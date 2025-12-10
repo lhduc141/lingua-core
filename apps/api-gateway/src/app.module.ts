@@ -8,7 +8,7 @@ import configuration from './config/configuration';
 import { AuthModule } from './modules/auth/auth.module';
 import { PrismaModule } from '../prisma/prisma.module';
 import { JwtModule } from '@app/jwt';
-import { AiModule } from './modules/ai/ai.module';
+import { ClientsModule, Transport } from '@nestjs/microservices';
 
 @Module({
 	imports: [
@@ -17,12 +17,20 @@ import { AiModule } from './modules/ai/ai.module';
 			isGlobal: true,
 			envFilePath: __dirname + '/../.env',
 		}),
-
+		ClientsModule.register([
+			{
+				name: 'AI_SERVICE',
+				transport: Transport.TCP,
+				options: {
+					host: process.env.AI_SERVICE_HOST || 'localhost',
+					port: Number(process.env.AI_SERVICE_PORT) || 4001,
+				},
+			},
+		]),
 		JwtModule.register({}),
 		MainModule,
 		PrismaModule,
 		AuthModule,
-		AiModule,
 	],
 	controllers: [AppController],
 	providers: [AppService],

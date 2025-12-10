@@ -9,6 +9,6 @@ export * from './interceptors';
 export * from './converters';
 export * from './helpers';
 export * from './sequelize-logger';
-export * from './utils';
+// export * from './utils';
 
 export class AllExceptionsFilter {}
