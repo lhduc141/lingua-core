@@ -11,6 +11,8 @@ import { DictionaryModule } from './dictionary/dictionary.module';
 import { NotificationsModule } from './notifications/notifications.module';
 import { UsersModule } from './users/users.module';
 import { AuthGuard } from '../guards/auth.guard';
+import { OnboardingModule } from './onboarding/onboarding.module';
+import { AiClientModule } from './ai-client/ai-client.module';
 
 const modules: any[] = [
 	AuthModule,
@@ -23,6 +25,8 @@ const modules: any[] = [
 	DictionaryModule,
 	NotificationsModule,
 	UsersModule,
+	OnboardingModule,
+	AiClientModule,
 ];
 
 @Module({
