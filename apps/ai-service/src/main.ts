@@ -1,9 +1,9 @@
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
+import { AiServiceModule } from './ai-service.module';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';
 
 async function bootstrap() {
-	const app = await NestFactory.createMicroservice<MicroserviceOptions>(AppModule, {
+	const app = await NestFactory.createMicroservice<MicroserviceOptions>(AiServiceModule, {
 		transport: Transport.TCP,
 		options: {
 			host: '0.0.0.0', // cho phép connect từ ngoài (VPS)

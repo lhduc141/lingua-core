@@ -209,7 +209,10 @@ model OnboardingSurvey {
 	plannedStudyHoursPerWeek Int?     @map("planned_study_hours_per_week")
 	primaryFocusSkills       Json?    @map("primary_focus_skills")      
 	targetDeadlineDate       DateTime? @db.Date @map("target_deadline_date")
-	targetGoal               String?  @map("target_goal")               
+	targetGoal               String?  @map("target_goal")
+	selfAssessedLevel String? @map("self_assessed_level")
+	usageContext      String? @map("usage_context")
+	difficulties      Json?   @map("difficulties") // ["listening","grammar"]
 
 	createdAt DateTime @default(now()) @map("created_at")
 	updatedAt DateTime @updatedAt @map("updated_at")

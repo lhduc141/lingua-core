@@ -28,9 +28,9 @@ export class AuthService {
 		);
 	}
 
-	//?	================================
-	//?			MAIN-FUNCTION
-	//?	================================
+	//?	================================ ?//
+	//?			MAIN-FUNCTION			 ?//
+	//?	================================ ?//
 	async login(loginData: LoginDto) {
 		return this._handleLogin(loginData);
 	}
@@ -91,6 +91,7 @@ export class AuthService {
 		const jwtPayload = {
 			sub: user.userId,
 			email: user.email,
+			userId: user.userId,
 			isAdmin: user.isAdmin,
 		};
 
@@ -142,6 +143,7 @@ export class AuthService {
 		const jwtPayload = {
 			sub: user.userId,
 			email: user.email,
+			userId: user.userId,
 			isAdmin: user.isAdmin,
 		};
 		const accessToken = await this.jwt.signAccessToken(jwtPayload);
@@ -178,6 +180,7 @@ export class AuthService {
 		const jwtPayload = {
 			sub: user.userId,
 			email: user.email,
+			userId: user.userId,
 			isAdmin: user.isAdmin,
 		};
 
