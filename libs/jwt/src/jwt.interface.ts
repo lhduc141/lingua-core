@@ -9,6 +9,7 @@ import type * as jwt from 'jsonwebtoken';
 export interface JwtPayloadDto {
 	sub: string; // userId
 	email?: string;
+	userId: string;
 	isAdmin?: boolean;
 	token_type?: 'access' | 'refresh';
 	iat?: number;

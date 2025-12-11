@@ -9,6 +9,15 @@
     "webpack": true
   },
   "projects": {
+    "ai-client": {
+      "type": "library",
+      "root": "libs/ai-client",
+      "entryFile": "index",
+      "sourceRoot": "libs/ai-client/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/ai-client/tsconfig.lib.json"
+      }
+    },
     "ai-service": {
       "type": "application",
       "root": "apps/ai-service",

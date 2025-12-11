@@ -22,6 +22,12 @@
     "strictBindCallApply": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
+      "@app/ai-client": [
+        "libs/ai-client/src"
+      ],
+      "@app/ai-client/*": [
+        "libs/ai-client/src/*"
+      ],
       "@app/bullmq": [
         "libs/bullmq/src"
       ],
