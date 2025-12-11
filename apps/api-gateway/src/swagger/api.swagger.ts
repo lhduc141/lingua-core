@@ -1,13 +1,13 @@
 import { INestApplication } from '@nestjs/common';
 import { SwaggerModule } from '@nestjs/swagger';
 import { apiSwaggerConfig } from '../decorators/api-swagger.decorators';
-import { AppModule } from '../app.module';
+import { ApiGatewayModule } from '../api-gateway.module';
 import { MainModule } from '../modules/main.module';
 
 export function useApiSwagger(app: INestApplication, path: string): void {
 	try {
 		const document = SwaggerModule.createDocument(app, apiSwaggerConfig, {
-			include: [AppModule, MainModule],
+			include: [ApiGatewayModule, MainModule],
 			deepScanRoutes: true,
 		});
 		Object.values(document.paths).forEach((path) => {
