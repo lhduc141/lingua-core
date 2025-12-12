@@ -4,79 +4,61 @@ import { Injectable } from '@nestjs/common';
 import { PrismaService } from 'apps/api-gateway/prisma/prisma.service';
 import { UpsertOnboardingSurveyDto } from './dto/upsert-onboarding-survey.dto';
 import type { JwtPayloadDto } from '@app/jwt';
+import { NotFoundException, ResponseDto } from '@app/shared';
+import { OnboardingSurveyDto } from './dto/get-survey-me.dto';
 
 @Injectable()
 export class OnboardingService {
 	constructor(private prisma: PrismaService) {}
 
-	async upsertSurvey(user: JwtPayloadDto, dto: UpsertOnboardingSurveyDto) {
-		const { userId, email } = user;
-		const {
-			targetGoal,
-			targetDeadlineDate,
-			plannedStudyHoursPerWeek,
-			primaryFocusSkills,
-			selfAssessedLevel,
-			usageContext,
-			difficulties,
-			metaJson,
-			answers,
-		} = dto;
-
-		// Upsert survey
-		const survey = await this.prisma.onboardingSurvey.upsert({
-			where: { userId },
-			create: {
-				userId,
-				targetGoal,
-				targetDeadlineDate: targetDeadlineDate ? new Date(targetDeadlineDate) : null,
-				plannedStudyHoursPerWeek,
-				primaryFocusSkills,
-				selfAssessedLevel,
-				usageContext,
-				difficulties,
-				metaJson,
-			},
-			update: {
-				targetGoal,
-				targetDeadlineDate: targetDeadlineDate ? new Date(targetDeadlineDate) : null,
-				plannedStudyHoursPerWeek,
-				primaryFocusSkills,
-				selfAssessedLevel,
-				usageContext,
-				difficulties,
-				metaJson,
-				updatedAt: new Date(),
-			},
-		});
-
-		// Remove old answers → recreate
-		if (answers && answers.length) {
-			await this.prisma.onboardingSurveyAnswer.deleteMany({
-				where: { surveyId: survey.surveyId },
-			});
-
-			await this.prisma.onboardingSurveyAnswer.createMany({
-				data: answers.map((a) => ({
-					surveyId: survey.surveyId,
-					questionKey: a.key,
-					answerValue: a.value,
-					questionOrder: a.order ?? 0,
-				})),
-			});
-		}
-
-		return this.getSurvey(userId);
-	}
-
-	async getSurvey(userId: string) {
-		return this.prisma.onboardingSurvey.findUnique({
+	async getSurvey(userId: string): Promise<ResponseDto<OnboardingSurveyDto>> {
+		const survey = await this.prisma.onboardingSurvey.findUnique({
 			where: { userId },
 			include: {
-				answers: {
-					orderBy: { questionOrder: 'asc' },
-				},
+				answers: { orderBy: { questionOrder: 'asc' } },
 			},
 		});
+		if (!survey) throw NotFoundException;
+
+		return ResponseDto.success(OnboardingSurveyDto, survey, 'Lấy thông tin thành công');
+	}
+
+	async upsertSurvey(user: JwtPayloadDto, dto: UpsertOnboardingSurveyDto): Promise<ResponseDto<OnboardingSurveyDto>> {
+		const targetDeadline = dto.targetDeadlineDate ? new Date(dto.targetDeadlineDate) : null;
+
+		const baseData = {
+			targetGoal: dto.targetGoal,
+			targetDeadlineDate: targetDeadline,
+			plannedStudyHoursPerWeek: dto.plannedStudyHoursPerWeek,
+			primaryFocusSkills: dto.primaryFocusSkills,
+			selfAssessedLevel: dto.selfAssessedLevel,
+			usageContext: dto.usageContext,
+			difficulties: dto.difficulties,
+			metaJson: dto.metaJson,
+		};
+
+		const survey = await this.prisma.onboardingSurvey.upsert({
+			where: { userId: user.userId },
+			create: { userId: user.userId, ...baseData },
+			update: { ...baseData, updatedAt: new Date() },
+		});
+
+		if (dto.answers?.length) {
+			await this.prisma.$transaction([
+				this.prisma.onboardingSurveyAnswer.deleteMany({
+					where: { surveyId: survey.surveyId },
+				}),
+				this.prisma.onboardingSurveyAnswer.createMany({
+					data: dto.answers.map((a) => ({
+						surveyId: survey.surveyId,
+						questionKey: a.key,
+						answerValue: a.value,
+						questionOrder: a.order ?? 0,
+					})),
+				}),
+			]);
+		}
+
+		return this.getSurvey(user.userId);
 	}
 }
