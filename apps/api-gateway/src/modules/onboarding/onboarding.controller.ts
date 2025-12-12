@@ -3,16 +3,16 @@ import { OnboardingService } from './onboarding.service';
 import { ReqUser } from '../../decorators/req-user.decorator';
 import type { JwtPayloadDto } from '@app/jwt';
 import { UpsertOnboardingSurveyDto } from './dto/upsert-onboarding-survey.dto';
-import { Public } from '../../decorators/public.decorator';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('Onboarding')
 @Controller('onboarding')
 export class OnboardingController {
 	constructor(private readonly onboardingService: OnboardingService) {}
 
-	@Public()
 	@Post('survey')
 	async postSurvey(@ReqUser() user: JwtPayloadDto, @Body() onboardSurveyDto: UpsertOnboardingSurveyDto) {
-		return;
+		return this.onboardingService.upsertSurvey(user, onboardSurveyDto);
 	}
 
 	@Get('survey/me')

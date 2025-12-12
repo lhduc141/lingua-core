@@ -6,12 +6,12 @@ async function bootstrap() {
 	const app = await NestFactory.createMicroservice<MicroserviceOptions>(AiServiceModule, {
 		transport: Transport.TCP,
 		options: {
-			host: '0.0.0.0', // cho phép connect từ ngoài (VPS)
-			port: 4001, // port microservice AI
+			host: '0.0.0.0',
+			port: 4001,
 		},
 	});
 
 	await app.listen();
-	console.log('AI service microservice is listening on TCP 4001');
+	console.log('AI service microservice is listening on TCP');
 }
 bootstrap();
