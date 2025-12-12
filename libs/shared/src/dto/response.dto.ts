@@ -1,13 +1,9 @@
 import { HttpStatus } from '@nestjs/common';
 import { ApiProperty, ApiPropertyOptional, ApiPropertyOptions } from '@nestjs/swagger';
-import { ClassConstructor, Expose, Type } from 'class-transformer';
+import { ClassConstructor, Expose, plainToInstance, Type } from 'class-transformer';
 import { messages } from '@app/shared/constants/messages.constant';
 
 export class ResponseDto<T = null> {
-	constructor(partial?: Partial<ResponseDto<T>>) {
-		Object.assign(this, partial);
-	}
-
 	@ApiProperty({ example: HttpStatus.OK })
 	@Expose()
 	statusCode: number = HttpStatus.OK;
@@ -24,6 +20,29 @@ export class ResponseDto<T = null> {
 	@Expose()
 	@Type(() => String)
 	errors?: string[] | null = null;
+
+	constructor(partial?: Partial<ResponseDto<T>>) {
+		Object.assign(this, partial);
+	}
+
+	static success<TClass>(
+		cls: ClassConstructor<TClass>,
+		data: unknown,
+		message: string = messages.success,
+		statusCode: number = HttpStatus.OK,
+	): ResponseDto<TClass> {
+		const transformed = data
+			? plainToInstance(cls, data as object, {
+					excludeExtraneousValues: true,
+				})
+			: null;
+
+		return new ResponseDto<TClass>({
+			statusCode,
+			message,
+			data: transformed,
+		});
+	}
 }
 
 export function ResponseDtoType<T>(cls: ClassConstructor<T>, options: ApiPropertyOptions = {}): typeof ResponseDto<T> {
