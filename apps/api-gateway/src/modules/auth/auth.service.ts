@@ -28,9 +28,9 @@ export class AuthService {
 		);
 	}
 
-	//?	================================ ?//
-	//?			MAIN-FUNCTION			 ?//
-	//?	================================ ?//
+	//TODO	================================
+	//TODO			MAIN-FUNCTION
+	//TODO	================================
 	async login(loginData: LoginDto) {
 		return this._handleLogin(loginData);
 	}
@@ -56,9 +56,10 @@ export class AuthService {
 		return await this._handleUpdateTarget(user, dto);
 	}
 
-	//?	================================
-	//? 	  SUB HANDLE FUNCTION
-	//?	================================
+	//TODO	================================
+	//TODO 	  	SUB HANDLE FUNCTION
+	//TODO	================================
+
 	async _handelSignup(dto: SignupDto) {
 		const ticket: LoginTicket = await this.googleClient.verifyIdToken({
 			idToken: dto.idToken, // dto.idToken: string
@@ -205,18 +206,6 @@ export class AuthService {
 		});
 	}
 	async _handleUpdateTarget(user: JwtPayloadDto, dto: UpdateProfileOnboardingDto) {
-		// const profile = await this.prisma.profile.update({
-		// 	where: { userId: user.sub },
-		// 	data: {
-		// 		goalType: dto.goalType,
-		// 		goalDetail: dto.goalDetail,
-		// 		selfCefr: dto.selfCefr,
-		// 		targetDate: dto.targetDate ? new Date(dto.targetDate) : undefined,
-		// 		studyMinutesPerWeek: dto.studyMinutesPerWeek,
-		// 		focusSkillsJson: dto.focusSkills ?? undefined,
-		// 	},
-		// });
-
 		// TODO: nếu muốn, update luôn user_availabilities ở đây
 
 		// TODO: sau khi cập nhật xong, có thể trigger AI generate plan (Core Flow 1)

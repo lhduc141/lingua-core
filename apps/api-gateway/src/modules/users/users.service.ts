@@ -20,22 +20,17 @@ export class UsersService {
 				googleName: googleName ?? null,
 				googleAvatarUrl: googleAvatarUrl ?? null,
 				lastLoginAt: new Date(),
-				profiles: {
-					create: {
-						fullName: googleName ?? null,
-					},
-				},
+
 			},
 		});
 	}
 
 	async updateProfile(userId: string, updateProfile: UpdateProfileDto) {
-		const { dob, fullName, gender, phone } = updateProfile;
+		const { dob, gender, phone } = updateProfile;
 
-		return await this.prisma.profile.update({
+		return await this.prisma.user.update({
 			where: { userId },
-			data: { dob, fullName, gender, phone },
-			include: { user: true },
+			data: { dob, gender, phone},
 		});
 	}
 
@@ -53,7 +48,7 @@ export class UsersService {
 		return;
 	}
 
-	// tìm user theo googleSub
+	// Tìm user theo google sub
 	async findByGoogleSub(googleSub: string): Promise<User | null> {
 		return this.prisma.user.findUnique({
 			where: { googleSub },

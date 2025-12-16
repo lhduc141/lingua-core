@@ -3,24 +3,18 @@
 // ===========================
 
 generator client {
-  provider        = "prisma-client-js"
-  // output          = "./generated/prisma"
+  provider = "prisma-client-js"
 }
+
 datasource db {
   provider = "postgresql"
-  url = env("DATABASE_URL")
+  url      = env("DATABASE_URL")
 }
 
 // ===========================
 // ====       ENUM       =====
 // ===========================
 
-enum AuthProvider {
-  local  @map("local")
-  google @map("google")
-
-  @@map("auth_provider")
-}
 enum ContentStatus {
   draft     @map("draft")
   reviewed  @map("reviewed")
@@ -29,19 +23,26 @@ enum ContentStatus {
 
   @@map("content_status")
 }
+
 enum QuestionType {
-  mcq_single   @map("mcq_single")
-  mcq_multi    @map("mcq_multi")
-  fill_blank   @map("fill_blank")
-  translation  @map("translation")
-  short_answer @map("short_answer")
-  ordering     @map("ordering")
-  matching     @map("matching")
-  cloze_bank   @map("cloze_bank")
-  dictation    @map("dictation")
+  // ========== OBJECTIVE (auto-graded) ==========
+  mcq_single @map("mcq_single") // Chọn 1 đáp án
+  mcq_multi  @map("mcq_multi") // Chọn nhiều đáp án
+  fill_blank @map("fill_blank") // Điền từ (có đáp án cố định)
+  matching   @map("matching") // Nối cặp
+  ordering   @map("ordering") // Sắp xếp thứ tự
+  cloze_bank @map("cloze_bank") // Chọn từ trong ngân hàng từ
+
+  // ========== SUBJECTIVE (AI-graded) ==========
+  short_answer @map("short_answer") // Viết ngắn (1-3 câu)
+  translation  @map("translation") // Dịch câu
+  essay        @map("essay") // ← THÊM TYPE MỚI (viết dài)
+  speaking     @map("speaking") // ← THÊM TYPE MỚI (nói)
+  dictation    @map("dictation") // Nghe viết
 
   @@map("question_type")
 }
+
 enum ExamKind {
   ielts   @map("ielts")
   toeic   @map("toeic")
@@ -49,26 +50,31 @@ enum ExamKind {
 
   @@map("exam_kind")
 }
+
 enum ExamCycleKind {
   ielts_speaking @map("ielts_speaking")
   custom         @map("custom")
 
   @@map("exam_cycle_kind")
 }
+
 enum ExamCategory {
   ielts   @map("ielts")
   generic @map("generic")
 
   @@map("exam_category")
 }
+
 enum AssessmentRefType {
-  exam         @map("exam")
-  exam_section @map("exam_section")
-  lesson       @map("lesson")
-  topic        @map("topic")
+  exam           @map("exam")
+  exam_section   @map("exam_section")
+  lesson         @map("lesson")
+  topic          @map("topic")
+  placement_test @map("placement_test")
 
   @@map("assessment_ref_type")
 }
+
 enum AssessmentStatus {
   draft       @map("draft")
   in_progress @map("in_progress")
@@ -78,6 +84,7 @@ enum AssessmentStatus {
 
   @@map("assessment_status")
 }
+
 enum AttemptModality {
   reading   @map("reading")
   listening @map("listening")
@@ -88,6 +95,7 @@ enum AttemptModality {
 
   @@map("attempt_modality")
 }
+
 enum GradingStatus {
   pending        @map("pending")
   auto_scored    @map("auto_scored")
@@ -95,6 +103,7 @@ enum GradingStatus {
 
   @@map("grading_status")
 }
+
 enum AiCallStatus {
   pending @map("pending")
   success @map("success")
@@ -102,6 +111,7 @@ enum AiCallStatus {
 
   @@map("ai_call_status")
 }
+
 enum PlanItemStatus {
   pending     @map("pending")
   in_progress @map("in_progress")
@@ -110,6 +120,7 @@ enum PlanItemStatus {
 
   @@map("plan_item_status")
 }
+
 enum StudySessionStatus {
   planned     @map("planned")
   in_progress @map("in_progress")
@@ -118,6 +129,7 @@ enum StudySessionStatus {
 
   @@map("study_session_status")
 }
+
 enum NotificationChannel {
   email  @map("email")
   sms    @map("sms")
@@ -126,6 +138,7 @@ enum NotificationChannel {
 
   @@map("notification_channel")
 }
+
 enum NotificationStatus {
   scheduled @map("scheduled")
   sent      @map("sent")
@@ -135,34 +148,53 @@ enum NotificationStatus {
   @@map("notification_status")
 }
 
-// ===========================
-// ====       AUTH
-// ===========================
+enum SrsCardType {
+  dictionary @map("dictionary")
+  custom     @map("custom")
+
+  @@map("srs_card_type")
+}
+
+// TODO ===========================
+// TODO ====       AUTH
+// TODO ===========================
+
+// Google OAuth (5 fields)
+// Personal Info (4 fields) ← merged
+// Permissions (3 fields)
+// Tokens (2 fields)
+// Timestamps (3 fields)
+
 model User {
-  userId      String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("user_id")
+  userId String @id @default(dbgenerated("gen_random_uuid()")) @map("user_id") @db.Uuid
 
-  //  Google identity
-  email     	String 		@unique
-	googleSub		String		@unique
-	googleName 	String?
-	googleAvatarUrl String?
+  // ===== GOOGLE OAUTH
+  email           String  @unique
+  googleSub       String  @unique @map("google_sub")
+  googleName      String? @map("google_name")
+  googleAvatarUrl String? @map("google_avatar_url")
 
-	//	Permission
+  // ===== PERSONAL INFO (merged from Profile)
+  dob    DateTime? @db.Date
+  gender String?
+  phone  String?
+
+  // ===== PERMISSIONS
   isAdmin     Boolean   @default(false) @map("is_admin")
   isActive    Boolean   @default(true) @map("is_active")
   lastLoginAt DateTime? @map("last_login_at")
 
-	// 	Refresh token
-	currentRefreshTokenHash      String?   @map("current_refresh_token_hash")
-	currentRefreshTokenExpiresAt DateTime? @map("current_refresh_token_expires_at")
+  // ===== REFRESH TOKEN
+  currentRefreshTokenHash      String?   @map("current_refresh_token_hash")
+  currentRefreshTokenExpiresAt DateTime? @map("current_refresh_token_expires_at")
 
-  createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @updatedAt @map("updated_at")
-  deletedAt   DateTime? @map("deleted_at")
+  // ===== TIMESTAMPS
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
-  //	Relationship
-	profiles          Profile?
-	attempts          Attempt[]
+  // ===== RELATIONS (giữ nguyên) =====
+  attempts          Attempt[]
   assessments       Assessment[]
   availabilities    UserAvailability[]
   reports           AssessmentReport[]
@@ -171,83 +203,73 @@ model User {
   notifications     Notification[]
   srsCollections    SrsCollection[]
   srsCards          SrsCard[]
-	onboardingSurvey OnboardingSurvey?
+  onboardingSurvey  OnboardingSurvey?
+  UserVocabulary    UserVocabulary[]
 
-	@@map("users")
+  @@map("users")
 }
-model Profile {
-  profileId String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("profile_id")
 
-  userId    String    @db.Uuid @map("user_id") @unique
-  fullName  String?   @map("full_name")
-  dob       DateTime? @db.Date
-  gender    String?
-  phone     String?
-  levelNote String?   @map("level_note")
-  goalNote  String?   @map("goal_note")
-	
-  isActive  Boolean   @default(true) @map("is_active")
-  createdAt DateTime  @default(now()) @map("created_at")
-  updatedAt DateTime  @updatedAt @map("updated_at")
-  deletedAt DateTime? @map("deleted_at")
+// TODO ===========================
+// TODO ====     ONBOARDING    ====
+// TODO ===========================
+model OnboardingSurvey {
+  surveyId String @id @default(dbgenerated("gen_random_uuid()")) @map("survey_id") @db.Uuid
+  userId   String @unique @map("user_id") @db.Uuid
 
+  //? ============================================
+  //? TIER 1: REQUIRED - AI BẮT BUỘC CẦN
+  //? ============================================
+
+  primaryGoal              String @map("primary_goal") // Mục tiêu chính (dropdown) - Values: 'communication' | 'work' | 'certification' | 'study_abroad' | 'travel' | 'other'
+  plannedStudyHoursPerWeek Int    @map("planned_study_hours_per_week") // Thời gian học mỗi tuần (slider/input) - Min: 1, Max: 40, Recommended: 5-15
+  primaryFocusSkills       Json   @map("primary_focus_skills") // Kỹ năng ưu tiên (multi-select) - Values: ["reading", "writing", "speaking", "listening"] hoặc ["all"]
+
+  //? ============================================
+  //? TIER 2: IMPORTANT - Giúp AI cá nhân hóa tốt hơn
+  //? ============================================
+
+  targetDeadlineDate DateTime? @map("target_deadline_date") @db.Date // Deadline mong muốn (date picker, optional)
+  targetGoal         String?   @map("target_goal") // Chi tiết mục tiêu (conditional input) - Chỉ hiện nếu primaryGoal = 'certification' - Example: "IELTS 7.0", "TOEIC 850"
+  selfAssessedLevel  String?   @map("self_assessed_level") // Tự đánh giá trình độ (dropdown) -  Values: 'beginner' | 'elementary' | 'intermediate' | 'advanced' - Note: User-friendly terms, không dùng CEFR
+  usageContext       String?   @map("usage_context") // Ngữ cảnh sử dụng (dropdown) - Values: 'work_meetings' | 'work_emails' | 'academic' | 'casual' | 'travel' | 'exam_prep'
+  difficulties       Json?     @map("difficulties") // Điểm khó khăn (multi-select) - Values: ["listening", "grammar", "vocabulary", "pronunciation", "writing", "speaking"]
+
+  //? ============================================
+  //? TIER 3: OPTIONAL - Context thêm
+  //? ============================================
+
+  additionalContext          String? @map("additional_context") // Thông tin thêm từ user (textarea, optional) - Max length: 500 chars - Placeholder: "Có điều gì khác bạn muốn chia sẻ? (tùy chọn)"
+  yearsStudied               Int?    @map("years_studied") // Số năm đã học (dropdown, optional) - Values: null | 1 | 2 | 3 | 4 | 5+
+  previousLearningExperience String? @map("previous_learning_experience") // Kinh nghiệm học trước đó (dropdown, optional) - Values: 'never' | 'school' | 'self_study' | 'classes' | 'online_courses'
+
+  //? ============================================
+  //? CERTIFICATION-SPECIFIC (conditional)
+  //? ============================================
+
+  targetCertification String? @map("target_certification") // Chỉ hiện nếu primaryGoal = 'certification' - Values: 'IELTS' | 'TOEIC' | 'TOEFL' | 'Cambridge' | 'other'
+  targetScore         String? @map("target_score") // Điểm số mục tiêu (input, conditional) - Chỉ hiện nếu targetCertification có giá trị - Example: "7.0", "850", "100"
+
+  // Timestamps
+  completedAt DateTime? @map("completed_at")
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+  deletedAt   DateTime? @map("deleted_at")
+
+  // Relations
   user User @relation(fields: [userId], references: [userId])
 
-  @@map("profiles")
-}
-
-// ===========================
-// ====       Survey
-// ===========================
-model OnboardingSurvey {
-	surveyId  String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("survey_id")
-	userId    String   @db.Uuid @unique @map("user_id")
-
-	// Tóm tắt nội dung form (để AI dùng)
-	metaJson  Json?    @map("meta_json")
-
-	plannedStudyHoursPerWeek Int?     @map("planned_study_hours_per_week")
-	primaryFocusSkills       Json?    @map("primary_focus_skills")      
-	targetDeadlineDate       DateTime? @db.Date @map("target_deadline_date")
-	targetGoal               String?  @map("target_goal")
-	selfAssessedLevel String? @map("self_assessed_level")
-	usageContext      String? @map("usage_context")
-	difficulties      Json?   @map("difficulties") // ["listening","grammar"]
-
-	createdAt DateTime @default(now()) @map("created_at")
-	updatedAt DateTime @updatedAt @map("updated_at")
-	deletedAt DateTime? @map("deleted_at")
-
-	user    User                     @relation(fields: [userId], references: [userId])
-	answers OnboardingSurveyAnswer[]
-
-	@@map("onboarding_surveys")
-}
-model OnboardingSurveyAnswer {
-	answerId      String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("answer_id")
-	surveyId      String   @db.Uuid @map("survey_id")
-
-	questionKey   String   @map("question_key")   // vd: "target_goal", "hours_per_week"
-	answerValue   Json?    @map("answer_value")   // string/number/list => Json cho linh hoạt
-	questionOrder Int?     @map("question_order") // để giữ thứ tự câu hỏi nếu bạn muốn
-
-	createdAt     DateTime @default(now()) @map("created_at")
-	updatedAt     DateTime @updatedAt @map("updated_at")
-	deletedAt     DateTime? @map("deleted_at")
-
-	survey        OnboardingSurvey @relation(fields: [surveyId], references: [surveyId])
-
-	@@map("onboarding_survey_answers")
+  @@index([userId, createdAt(sort: Desc)])
+  @@map("onboarding_surveys")
 }
 
 // ===========================
 // ====       ASSESSMENT
 // ===========================
 model Assessment {
-  assessmentId  String            @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("assessment_id")
-  userId        String            @db.Uuid @map("user_id")
+  assessmentId  String            @id @default(dbgenerated("gen_random_uuid()")) @map("assessment_id") @db.Uuid
+  userId        String            @map("user_id") @db.Uuid
   refType       AssessmentRefType @map("ref_type")
-  refId         String            @db.Uuid @map("ref_id")
+  refId         String            @map("ref_id") @db.Uuid
   kind          String?
   status        AssessmentStatus  @default(draft)
   startedAt     DateTime?         @map("started_at")
@@ -269,22 +291,23 @@ model Assessment {
   // lesson      Lesson?      @relation("LessonAssessments", fields: [refId], references: [lessonId])
   @@map("assessments")
 }
+
 model Attempt {
-  attemptId           String           @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("attempt_id")
-  userId              String           @db.Uuid @map("user_id")
-  assessmentId        String           @db.Uuid @map("assessment_id")
-  questionId          String           @db.Uuid @map("question_id")
+  attemptId           String           @id @default(dbgenerated("gen_random_uuid()")) @map("attempt_id") @db.Uuid
+  userId              String           @map("user_id") @db.Uuid
+  assessmentId        String           @map("assessment_id") @db.Uuid
+  questionId          String           @map("question_id") @db.Uuid
   sectionPosition     Int?             @map("section_position")
   modality            AttemptModality?
   submittedAt         DateTime?        @map("submitted_at")
   score               Decimal?         @db.Decimal()
   correct             Boolean?
-  inputAssetId        String?          @db.Uuid @map("input_asset_id")
-  transcriptAssetId   String?          @db.Uuid @map("transcript_asset_id")
-  outputAssetId       String?          @db.Uuid @map("output_asset_id")
+  inputAssetId        String?          @map("input_asset_id") @db.Uuid
+  transcriptAssetId   String?          @map("transcript_asset_id") @db.Uuid
+  outputAssetId       String?          @map("output_asset_id") @db.Uuid
   gradingStatus       GradingStatus    @default(pending) @map("grading_status")
-  manualOverrideScore Decimal?         @db.Decimal() @map("manual_override_score")
-  raterId             String?          @db.Uuid @map("rater_id")
+  manualOverrideScore Decimal?         @map("manual_override_score") @db.Decimal()
+  raterId             String?          @map("rater_id") @db.Uuid
   createdAt           DateTime         @default(now()) @map("created_at")
   updatedAt           DateTime         @updatedAt @map("updated_at")
   deletedAt           DateTime?        @map("deleted_at")
@@ -302,12 +325,13 @@ model Attempt {
 
   @@map("attempts")
 }
+
 model AttemptAnswer {
-  attemptId     String    @db.Uuid @map("attempt_id")
+  attemptId     String    @map("attempt_id") @db.Uuid
   position      Int
-  optionId      String?   @db.Uuid @map("option_id")
+  optionId      String?   @map("option_id") @db.Uuid
   textAnswer    String?   @map("text_answer")
-  numericAnswer Decimal?  @db.Decimal() @map("numeric_answer")
+  numericAnswer Decimal?  @map("numeric_answer") @db.Decimal()
   jsonAnswer    Json?     @map("json_answer")
   createdAt     DateTime  @default(now()) @map("created_at")
   updatedAt     DateTime  @updatedAt @map("updated_at")
@@ -319,13 +343,14 @@ model AttemptAnswer {
   @@id([attemptId, position])
   @@map("attempt_answers")
 }
+
 model Prompt {
-  promptId      String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("prompt_id")
+  promptId      String    @id @default(dbgenerated("gen_random_uuid()")) @map("prompt_id") @db.Uuid
   name          String
   version       Int       @default(1)
   template      String
   variablesJson Json?     @map("variables_json")
-  createdBy     String?   @db.Uuid @map("created_by")
+  createdBy     String?   @map("created_by") @db.Uuid
   createdAt     DateTime  @default(now()) @map("created_at")
   updatedAt     DateTime  @updatedAt @map("updated_at")
   deletedAt     DateTime? @map("deleted_at")
@@ -334,21 +359,22 @@ model Prompt {
 
   @@map("prompts")
 }
+
 model AttemptAiCall {
   id                  String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  attemptId           String       @db.Uuid @map("attempt_id")
+  attemptId           String       @map("attempt_id") @db.Uuid
   provider            String?
   model               String?
   version             String?
-  promptId            String?      @db.Uuid @map("prompt_id")
-  systemPromptId      String?      @db.Uuid @map("system_prompt_id")
+  promptId            String?      @map("prompt_id") @db.Uuid
+  systemPromptId      String?      @map("system_prompt_id") @db.Uuid
   inputHash           String?      @map("input_hash")
   status              AiCallStatus @default(pending)
   errorJson           Json?        @map("error_json")
-  retriedOfCallId     String?      @db.Uuid @map("retried_of_call_id")
+  retriedOfCallId     String?      @map("retried_of_call_id") @db.Uuid
   promptTokens        Int?         @map("prompt_tokens")
   completionTokens    Int?         @map("completion_tokens")
-  costUsd             Decimal?     @db.Decimal() @map("cost_usd")
+  costUsd             Decimal?     @map("cost_usd") @db.Decimal()
   latencyMs           Int?         @map("latency_ms")
   guardrailFlags      Json?        @map("guardrail_flags")
   outputSchemaVersion Int?         @map("output_schema_version")
@@ -365,13 +391,14 @@ model AttemptAiCall {
 
   @@map("attempt_ai_calls")
 }
+
 model AttemptEvaluation {
   id            String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  attemptId     String    @db.Uuid @map("attempt_id")
+  attemptId     String    @map("attempt_id") @db.Uuid
   evalType      String?   @map("eval_type") // ai | human | hybrid
   framework     String? // ielts | cefr | custom
   criteriaJson  Json?     @map("criteria_json")
-  overallScore  Decimal?  @db.Decimal() @map("overall_score")
+  overallScore  Decimal?  @map("overall_score") @db.Decimal()
   evidenceJson  Json?     @map("evidence_json")
   rubricVersion String?   @map("rubric_version")
   createdAt     DateTime  @default(now()) @map("created_at")
@@ -383,9 +410,10 @@ model AttemptEvaluation {
 
   @@map("attempt_evaluations")
 }
+
 model EvalDimension {
-  evalId        String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("eval_id")
-  attemptEvalId String    @db.Uuid @map("attempt_eval_id")
+  evalId        String    @id @default(dbgenerated("gen_random_uuid()")) @map("eval_id") @db.Uuid
+  attemptEvalId String    @map("attempt_eval_id") @db.Uuid
   name          String
   score         Decimal?  @db.Decimal()
   evidenceJson  Json?     @map("evidence_json")
@@ -403,11 +431,11 @@ model EvalDimension {
 // ====       CMS
 // ===========================
 model Topic {
-  topicId     String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("topic_id")
+  topicId     String        @id @default(dbgenerated("gen_random_uuid()")) @map("topic_id") @db.Uuid
   levelHint   String?       @map("level_hint")
   status      ContentStatus @default(draft)
-  authorId    String?       @db.Uuid @map("author_id")
-  reviewerId  String?       @db.Uuid @map("reviewer_id")
+  authorId    String?       @map("author_id") @db.Uuid
+  reviewerId  String?       @map("reviewer_id") @db.Uuid
   publishedAt DateTime?     @map("published_at")
   createdAt   DateTime      @default(now()) @map("created_at")
   updatedAt   DateTime      @updatedAt @map("updated_at")
@@ -418,13 +446,14 @@ model Topic {
 
   @@map("topics")
 }
+
 model Lesson {
-  lessonId    String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("lesson_id")
-  topicId     String?       @db.Uuid @map("topic_id")
+  lessonId    String        @id @default(dbgenerated("gen_random_uuid()")) @map("lesson_id") @db.Uuid
+  topicId     String?       @map("topic_id") @db.Uuid
   version     Int           @default(1)
   status      ContentStatus @default(draft)
-  authorId    String?       @db.Uuid @map("author_id")
-  reviewerId  String?       @db.Uuid @map("reviewer_id")
+  authorId    String?       @map("author_id") @db.Uuid
+  reviewerId  String?       @map("reviewer_id") @db.Uuid
   publishedAt DateTime?     @map("published_at")
   createdAt   DateTime      @default(now()) @map("created_at")
   updatedAt   DateTime      @updatedAt @map("updated_at")
@@ -433,19 +462,21 @@ model Lesson {
   topic           Topic?              @relation(fields: [topicId], references: [topicId])
   lessonQuestions LessonQuestion[]
   translations    LessonTranslation[]
+
   // assessments     Assessment[]        @relation("LessonAssessments")
   @@map("lessons")
 }
+
 model Question {
-  questionId   String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("question_id")
+  questionId   String        @id @default(dbgenerated("gen_random_uuid()")) @map("question_id") @db.Uuid
   skill        String?
   type         QuestionType
   difficulty   Int           @default(1)
   version      Int           @default(1)
   examKind     ExamKind      @default(generic) @map("exam_kind")
   status       ContentStatus @default(draft)
-  authorId     String?       @db.Uuid @map("author_id")
-  reviewerId   String?       @db.Uuid @map("reviewer_id")
+  authorId     String?       @map("author_id") @db.Uuid
+  reviewerId   String?       @map("reviewer_id") @db.Uuid
   publishedAt  DateTime?     @map("published_at")
   sourceTag    String?       @map("source_tag")
   timeLimitSec Int?          @map("time_limit_sec")
@@ -464,9 +495,10 @@ model Question {
 
   @@map("questions")
 }
+
 model LessonQuestion {
-  lessonId   String @db.Uuid @map("lesson_id")
-  questionId String @db.Uuid @map("question_id")
+  lessonId   String @map("lesson_id") @db.Uuid
+  questionId String @map("question_id") @db.Uuid
   position   Int
 
   lesson   Lesson   @relation(fields: [lessonId], references: [lessonId])
@@ -475,9 +507,10 @@ model LessonQuestion {
   @@id([lessonId, questionId])
   @@map("lesson_questions")
 }
+
 model QuestionOption {
-  optionId   String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("option_id")
-  questionId String    @db.Uuid @map("question_id")
+  optionId   String    @id @default(dbgenerated("gen_random_uuid()")) @map("option_id") @db.Uuid
+  questionId String    @map("question_id") @db.Uuid
   weight     Int?      @default(0)
   isCorrect  Boolean   @default(false) @map("is_correct")
   position   Int?
@@ -491,10 +524,11 @@ model QuestionOption {
 
   @@map("question_options")
 }
+
 model Asset {
-  assetId      String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("asset_id")
+  assetId      String    @id @default(dbgenerated("gen_random_uuid()")) @map("asset_id") @db.Uuid
   ownerType    String?   @map("owner_type")
-  ownerId      String?   @db.Uuid @map("owner_id")
+  ownerId      String?   @map("owner_id") @db.Uuid
   kind         String?
   url          String?
   mimeType     String?   @map("mime_type")
@@ -516,8 +550,9 @@ model Asset {
 
   @@map("assets")
 }
+
 model QuestionPayload {
-  questionId     String   @id @db.Uuid @map("question_id")
+  questionId     String   @id @map("question_id") @db.Uuid
   schemaVersion  Int?     @default(1) @map("schema_version")
   configJson     Json?    @map("config_json")
   answerKeysJson Json?    @map("answer_keys_json")
@@ -529,8 +564,9 @@ model QuestionPayload {
 
   @@map("question_payloads")
 }
+
 model QuestionTag {
-  questionId String @db.Uuid @map("question_id")
+  questionId String @map("question_id") @db.Uuid
   tag        String
 
   question Question @relation(fields: [questionId], references: [questionId])
@@ -539,11 +575,11 @@ model QuestionTag {
   @@map("question_tags")
 }
 
-// ===========================
-//        TRANSLATION
-// ===========================
+// TODO ===========================
+// TODO        TRANSLATION
+// TODO ===========================
 model TopicTranslation {
-  topicId     String  @db.Uuid @map("topic_id")
+  topicId     String  @map("topic_id") @db.Uuid
   locale      String
   title       String?
   description String?
@@ -553,8 +589,9 @@ model TopicTranslation {
   @@id([topicId, locale])
   @@map("topic_translations")
 }
+
 model LessonTranslation {
-  lessonId      String  @db.Uuid @map("lesson_id")
+  lessonId      String  @map("lesson_id") @db.Uuid
   locale        String
   title         String?
   description   String?
@@ -566,8 +603,9 @@ model LessonTranslation {
   @@id([lessonId, locale])
   @@map("lesson_translations")
 }
+
 model QuestionTranslation {
-  questionId    String  @db.Uuid @map("question_id")
+  questionId    String  @map("question_id") @db.Uuid
   locale        String
   stemText      String? @map("stem_text")
   contentJson   Json?   @map("content_json")
@@ -578,8 +616,9 @@ model QuestionTranslation {
   @@id([questionId, locale])
   @@map("question_translations")
 }
+
 model OptionTranslation {
-  optionId    String  @db.Uuid @map("option_id")
+  optionId    String  @map("option_id") @db.Uuid
   locale      String
   optionText  String? @map("option_text")
   explanation String?
@@ -594,11 +633,11 @@ model OptionTranslation {
 // ====       EXAM
 // ===========================
 model ExamCycle {
-  cycleId   String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("cycle_id")
+  cycleId   String        @id @default(dbgenerated("gen_random_uuid()")) @map("cycle_id") @db.Uuid
   label     String
   kind      ExamCycleKind @default(custom)
-  startDate DateTime?     @db.Date @map("start_date")
-  endDate   DateTime?     @db.Date @map("end_date")
+  startDate DateTime?     @map("start_date") @db.Date
+  endDate   DateTime?     @map("end_date") @db.Date
   notes     String?
   createdAt DateTime      @default(now()) @map("created_at")
   updatedAt DateTime      @updatedAt @map("updated_at")
@@ -608,10 +647,11 @@ model ExamCycle {
 
   @@map("exam_cycles")
 }
+
 model Exam {
-  examId          String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("exam_id")
+  examId          String        @id @default(dbgenerated("gen_random_uuid()")) @map("exam_id") @db.Uuid
   title           String
-  cycleId         String?       @db.Uuid @map("cycle_id")
+  cycleId         String?       @map("cycle_id") @db.Uuid
   status          ContentStatus @default(draft)
   description     String?
   category        ExamCategory  @default(generic)
@@ -625,12 +665,14 @@ model Exam {
 
   cycle    ExamCycle?    @relation(fields: [cycleId], references: [cycleId])
   sections ExamSection[]
+
   // assessments Assessment[]  @relation("ExamAssessments")
   @@map("exams")
 }
+
 model ExamSection {
-  sectionId       String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("section_id")
-  examId          String    @db.Uuid @map("exam_id")
+  sectionId       String    @id @default(dbgenerated("gen_random_uuid()")) @map("section_id") @db.Uuid
+  examId          String    @map("exam_id") @db.Uuid
   name            String
   position        Int
   durationMinutes Int?      @map("duration_minutes")
@@ -641,17 +683,19 @@ model ExamSection {
 
   exam      Exam                  @relation(fields: [examId], references: [examId])
   questions ExamSectionQuestion[]
+
   // assessments Assessment[]    @relation("ExamSectionAssessments")  // ❌ bỏ hoặc comment
   @@map("exam_sections")
 }
+
 model ExamSectionQuestion {
   id              String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  examSectionId   String    @db.Uuid @map("exam_section_id")
-  questionId      String    @db.Uuid @map("question_id")
+  examSectionId   String    @map("exam_section_id") @db.Uuid
+  questionId      String    @map("question_id") @db.Uuid
   questionVersion Int?      @map("question_version")
   position        Int
   groupKey        String?   @map("group_key")
-  passageAssetId  String?   @db.Uuid @map("passage_asset_id")
+  passageAssetId  String?   @map("passage_asset_id") @db.Uuid
   createdAt       DateTime  @default(now()) @map("created_at")
   updatedAt       DateTime  @updatedAt @map("updated_at")
   deletedAt       DateTime? @map("deleted_at")
@@ -667,12 +711,12 @@ model ExamSectionQuestion {
 // ====       PLANS
 // ===========================
 model UserAvailability {
-  availabilityId String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("availability_id")
-  userId         String    @db.Uuid @map("user_id")
+  availabilityId String    @id @default(dbgenerated("gen_random_uuid()")) @map("availability_id") @db.Uuid
+  userId         String    @map("user_id") @db.Uuid
   dow            Int
   startMinute    Int       @map("start_minute")
   endMinute      Int       @map("end_minute")
-  weight         Decimal?  @db.Decimal() @default(1.0)
+  weight         Decimal?  @default(1.0) @db.Decimal()
   createdAt      DateTime  @default(now()) @map("created_at")
   updatedAt      DateTime  @updatedAt @map("updated_at")
   deletedAt      DateTime? @map("deleted_at")
@@ -681,21 +725,22 @@ model UserAvailability {
 
   @@map("user_availabilities")
 }
+
 model LearningPlanItem {
-  itemId             String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("item_id")
-  userId             String         @db.Uuid @map("user_id")
-  parentItemId       String?        @db.Uuid @map("parent_item_id")
+  itemId             String         @id @default(dbgenerated("gen_random_uuid()")) @map("item_id") @db.Uuid
+  userId             String         @map("user_id") @db.Uuid
+  parentItemId       String?        @map("parent_item_id") @db.Uuid
   title              String
   itemType           String?        @map("item_type")
   refType            String?        @map("ref_type")
-  refId              String?        @db.Uuid @map("ref_id")
+  refId              String?        @map("ref_id") @db.Uuid
   targetLevel        String?        @map("target_level")
-  dueDate            DateTime?      @db.Date @map("due_date")
+  dueDate            DateTime?      @map("due_date") @db.Date
   dueWindowDays      Int?           @map("due_window_days")
   position           Int?
   status             PlanItemStatus @default(pending)
   autoGenerated      Boolean        @default(true) @map("auto_generated")
-  sourceAssessmentId String?        @db.Uuid @map("source_assessment_id")
+  sourceAssessmentId String?        @map("source_assessment_id") @db.Uuid
   createdAt          DateTime       @default(now()) @map("created_at")
   updatedAt          DateTime       @updatedAt @map("updated_at")
   deletedAt          DateTime?      @map("deleted_at")
@@ -708,12 +753,13 @@ model LearningPlanItem {
 
   @@map("learning_plan_items")
 }
+
 model StudySession {
-  sessionId  String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("session_id")
-  userId     String             @db.Uuid @map("user_id")
+  sessionId  String             @id @default(dbgenerated("gen_random_uuid()")) @map("session_id") @db.Uuid
+  userId     String             @map("user_id") @db.Uuid
   startAt    DateTime?          @map("start_at")
   endAt      DateTime?          @map("end_at")
-  planItemId String?            @db.Uuid @map("plan_item_id")
+  planItemId String?            @map("plan_item_id") @db.Uuid
   status     StudySessionStatus @default(planned)
   notes      String?
   createdAt  DateTime           @default(now()) @map("created_at")
@@ -725,9 +771,10 @@ model StudySession {
 
   @@map("study_sessions")
 }
+
 model Notification {
-  notificationId String              @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("notification_id")
-  userId         String              @db.Uuid @map("user_id")
+  notificationId String              @id @default(dbgenerated("gen_random_uuid()")) @map("notification_id") @db.Uuid
+  userId         String              @map("user_id") @db.Uuid
   channel        NotificationChannel
   type           String?
   payloadJson    Json?               @map("payload_json")
@@ -749,20 +796,20 @@ model Notification {
 // ====       REPORT
 // ===========================
 model AssessmentReport {
-  reportId            String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("report_id")
-  assessmentId        String    @db.Uuid @map("assessment_id")
-  userId              String    @db.Uuid @map("user_id")
+  reportId            String    @id @default(dbgenerated("gen_random_uuid()")) @map("report_id") @db.Uuid
+  assessmentId        String    @map("assessment_id") @db.Uuid
+  userId              String    @map("user_id") @db.Uuid
   kind                String?
   framework           String?
   overallBand         String?   @map("overall_band")
   cefr                String?
-  cefrConfidence      Decimal?  @db.Decimal() @map("cefr_confidence")
+  cefrConfidence      Decimal?  @map("cefr_confidence") @db.Decimal()
   strengthsJson       Json?     @map("strengths_json")
   weaknessesJson      Json?     @map("weaknesses_json")
   planJson            Json?     @map("plan_json")
   rubricVersion       String?   @map("rubric_version")
   displayLocale       String?   @map("display_locale")
-  explanationsAssetId String?   @db.Uuid @map("explanations_asset_id")
+  explanationsAssetId String?   @map("explanations_asset_id") @db.Uuid
   reportVersion       Int?      @default(1) @map("report_version")
   createdAt           DateTime  @default(now()) @map("created_at")
   updatedAt           DateTime  @updatedAt @map("updated_at")
@@ -774,12 +821,13 @@ model AssessmentReport {
 
   @@map("assessment_reports")
 }
+
 model BandScore {
-  bandScoreId  String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("band_score_id")
-  assessmentId String    @db.Uuid @map("assessment_id")
+  bandScoreId  String    @id @default(dbgenerated("gen_random_uuid()")) @map("band_score_id") @db.Uuid
+  assessmentId String    @map("assessment_id") @db.Uuid
   skill        String?
   criterion    String?
-  scoreNumeric Decimal?  @db.Decimal() @map("score_numeric")
+  scoreNumeric Decimal?  @map("score_numeric") @db.Decimal()
   scoreBand    String?   @map("score_band")
   evidenceJson Json?     @map("evidence_json")
   createdAt    DateTime  @default(now()) @map("created_at")
@@ -790,8 +838,9 @@ model BandScore {
 
   @@map("band_scores")
 }
+
 model RubricCriterion {
-  criterionId String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("criterion_id")
+  criterionId String    @id @default(dbgenerated("gen_random_uuid()")) @map("criterion_id") @db.Uuid
   framework   String
   version     String
   name        String
@@ -803,172 +852,237 @@ model RubricCriterion {
   @@map("rubric_criteria")
 }
 
-// ===========================
-// ====       DICTIONARY
-// ===========================
+// TODO ===========================
+// TODO DICTIONARY MODULE - 5 TABLES
+// TODO ===========================
+
+// 1. DICT ENTRY
 model DictEntry {
-  entryId   String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("entry_id")
-  lang      String
-  headword  String
-  pos       String?
-  ipa       String?
-  audioUrl  String?   @map("audio_url")
+  entryId String @id @default(dbgenerated("gen_random_uuid()")) @map("entry_id") @db.Uuid
+
+  lang     String // Language code: "en"
+  headword String // Main word: "run", "happy"
+  pos      String? // Part of speech: "verb", "noun", "adjective"
+  ipa      String? // Pronunciation: "/rʌn/"
+
+  frequency Int? // Word frequency rank: 1-10000 (lower = more common)
+  cefrLevel String? // CEFR level: "A1", "A2", "B1", "B2", "C1", "C2"
+  isCommon  Boolean @default(false) @map("is_common") // Is this a common word?
+  variants  Json? // Word forms: ["runs", "running", "ran"]
+
   createdAt DateTime  @default(now()) @map("created_at")
   updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
-  senses        DictSense[]
-  forms         DictForm[]
-  fromRelations DictRelation[] @relation("FromRelation")
-  toRelations   DictRelation[] @relation("ToRelation")
+  senses         DictSense[]
+  userVocabulary UserVocabulary[]
+  collocations   Collocation[]
+  SrsCard        SrsCard[]
 
+  @@index([headword, lang])
+  @@index([cefrLevel])
+  @@index([frequency])
   @@map("dict_entries")
 }
+
+// 2. DICT SENSE
 model DictSense {
-  senseId   String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("sense_id")
-  entryId   String    @db.Uuid @map("entry_id")
-  order     Int?      @map("order")
-  shortDef  String?   @map("short_def")
+  senseId String @id @default(dbgenerated("gen_random_uuid()")) @map("sense_id") @db.Uuid
+  entryId String @map("entry_id") @db.Uuid
+
+  order    Int? // Order of this definition: 1 = most common
+  shortDef String  @map("short_def") // English definition
+  viDef    String? @map("vi_def") // Vietnamese translation
+  synonyms Json? // ["joyful", "glad", "cheerful"] max 5 ← JSON
+  antonyms Json? // ["sad", "unhappy"] max 5 ← JSON
+
   createdAt DateTime  @default(now()) @map("created_at")
   updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
-  entry    DictEntry     @relation(fields: [entryId], references: [entryId])
-  examples DictExample[]
+  entry        DictEntry     @relation(fields: [entryId], references: [entryId])
+  examples     DictExample[]
+  collocations Collocation[]
 
+  @@index([entryId, order])
   @@map("dict_senses")
 }
+
+// 3. DICT EXAMPLE
 model DictExample {
-  exampleId   String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("example_id")
-  senseId     String    @db.Uuid @map("sense_id")
-  locale      String?
-  example     String?
-  translation String?
-  createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @updatedAt @map("updated_at")
-  deletedAt   DateTime? @map("deleted_at")
+  exampleId   String  @id @default(dbgenerated("gen_random_uuid()")) @map("example_id") @db.Uuid
+  senseId     String  @map("sense_id") @db.Uuid
+  example     String // English example sentence
+  translation String? // Vietnamese translation
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   sense DictSense @relation(fields: [senseId], references: [senseId])
 
+  @@index([senseId])
   @@map("dict_examples")
 }
-model DictForm {
-  formId    String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("form_id")
-  entryId   String    @db.Uuid @map("entry_id")
-  form      String
-  morphTag  String?   @map("morph_tag")
-  isLemma   Boolean   @default(false) @map("is_lemma")
+
+// 4. COLLOCATION
+model Collocation {
+  collocationId String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  entryId       String @map("entry_id") @db.Uuid
+  senseId       String @map("sense_id") @db.Uuid
+
+  phrase    String // Collocation phrase: "run a business", "run out of"
+  meaning   String // English meaning: "to manage or operate a business"
+  viMeaning String? @map("vi_meaning") // Vietnamese meaning: "điều hành doanh nghiệp"
+  example   String? // Example sentence using this collocation
+  viExample String? @map("vi_example") // Vietnamese translation of example
+  frequency Int? // Frequency rank: 1-10000
+  cefrLevel String? @map("cefr_level") // CEFR level: "A1"-"C2"
+
   createdAt DateTime  @default(now()) @map("created_at")
   updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
   entry DictEntry @relation(fields: [entryId], references: [entryId])
+  sense DictSense @relation(fields: [senseId], references: [senseId])
 
-  @@map("dict_forms")
-}
-model DictRelation {
-  relationId  String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("relation_id")
-  fromEntryId String    @db.Uuid @map("from_entry_id")
-  toEntryId   String    @db.Uuid @map("to_entry_id")
-  kind        String?
-  createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @updatedAt @map("updated_at")
-  deletedAt   DateTime? @map("deleted_at")
-
-  fromEntry DictEntry @relation("FromRelation", fields: [fromEntryId], references: [entryId])
-  toEntry   DictEntry @relation("ToRelation", fields: [toEntryId], references: [entryId])
-
-  @@map("dict_relations")
-}
-model AiCache {
-  cacheId    String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("cache_id")
-  ownerType  String?   @map("owner_type")
-  ownerId    String?   @db.Uuid @map("owner_id")
-  kind       String?
-  locale     String?
-  promptHash String?   @map("prompt_hash")
-  inputJson  Json?     @map("input_json")
-  outputJson Json?     @map("output_json")
-  version    String?
-  expiresAt  DateTime? @map("expires_at")
-  createdAt  DateTime  @default(now()) @map("created_at")
-  updatedAt  DateTime  @updatedAt @map("updated_at")
-  deletedAt  DateTime? @map("deleted_at")
-
-  @@map("ai_cache")
+  @@index([phrase])
+  @@index([entryId])
+  @@index([senseId])
+  @@index([cefrLevel])
+  @@map("collocations")
 }
 
-// ===========================
-// ====       SRS
-// ===========================
-model SrsCollection {
-  collectionId String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("collection_id")
-  userId       String    @db.Uuid @map("user_id")
-  parentId     String?   @db.Uuid @map("parent_id")
-  name         String
-  description  String?
-  position     Int?
-  visibility   String?
-  createdAt    DateTime  @default(now()) @map("created_at")
-  updatedAt    DateTime  @updatedAt @map("updated_at")
-  deletedAt    DateTime? @map("deleted_at")
+// 5. USER VOCABULARY
+model UserVocabulary {
+  id      String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  userId  String @map("user_id") @db.Uuid
+  entryId String @map("entry_id") @db.Uuid
 
-  user            User                @relation(fields: [userId], references: [userId])
-  parent          SrsCollection?      @relation("CollectionParent", fields: [parentId], references: [collectionId])
-  children        SrsCollection[]     @relation("CollectionParent")
-  collectionCards SrsCollectionCard[]
+  status  String // Learning status: "new", "learning", "familiar", "mastered"
+  note    String? // User's personal note
+  context String? // Where user found this word
 
-  @@map("srs_collections")
+  addedAt    DateTime  @default(now()) @map("added_at")
+  lastSeenAt DateTime? @map("last_seen_at")
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  user  User      @relation(fields: [userId], references: [userId])
+  entry DictEntry @relation(fields: [entryId], references: [entryId])
+
+  @@unique([userId, entryId])
+  @@index([userId, status])
+  @@index([userId, addedAt(sort: Desc)])
+  @@map("user_vocabulary")
 }
+
+// TODO ===========================
+// TODO SRS MODULE - SIMPLIFIED (3 TABLES)
+// TODO ===========================
+
+// 1. SRS CARD
 model SrsCard {
-  cardId       String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("card_id")
-  userId       String    @db.Uuid @map("user_id")
-  refType      String?   @map("ref_type")
-  refId        String?   @db.Uuid @map("ref_id")
-  note         String?
-  ease         Decimal?  @db.Decimal() @default(2.5)
-  intervalDays Int?      @map("interval_days")
-  dueAt        DateTime? @map("due_at")
+  cardId String @id @default(dbgenerated("gen_random_uuid()")) @map("card_id") @db.Uuid
+  userId String @map("user_id") @db.Uuid
+
+  // Card type: "dictionary" or "custom"
+  cardType SrsCardType @default(dictionary) @map("card_type") // "dictionary" | "custom"
+
+  // Link to Dictionary (if cardType = "dictionary")
+  entryId String? @map("entry_id") @db.Uuid
+
+  // Custom card content (if cardType = "custom")
+  front String? // Front of flashcard
+  back  String? // Back of flashcard
+  note  String? // User's personal note
+
+  // SRS Algorithm fields (SM-2)
+  ease         Decimal  @default(2.5) @db.Decimal()
+  intervalDays Int      @default(0) @map("interval_days")
+  dueAt        DateTime @default(now()) @map("due_at")
+
+  // Stats (denormalized for performance)
+  totalReviews Int       @default(0) @map("total_reviews")
+  correctCount Int       @default(0) @map("correct_count")
   lastReviewAt DateTime? @map("last_review_at")
-  statsJson    Json?     @map("stats_json")
-  createdAt    DateTime  @default(now()) @map("created_at")
-  updatedAt    DateTime  @updatedAt @map("updated_at")
-  deletedAt    DateTime? @map("deleted_at")
 
-  user            User                @relation(fields: [userId], references: [userId])
-  collectionLinks SrsCollectionCard[]
-  reviews         SrsReview[]
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
+  user        User                @relation(fields: [userId], references: [userId])
+  entry       DictEntry?          @relation(fields: [entryId], references: [entryId])
+  reviews     SrsReview[]
+  collections SrsCollectionCard[]
+
+  @@index([userId, dueAt])
+  @@index([userId, cardType])
+  @@index([entryId])
   @@map("srs_cards")
 }
+
+// 2. SRS COLLECTION
+model SrsCollection {
+  collectionId String @id @default(dbgenerated("gen_random_uuid()")) @map("collection_id") @db.Uuid
+  userId       String @map("user_id") @db.Uuid
+
+  name        String // "IELTS Vocabulary", "Daily Words"
+  description String? // Optional description
+  color       String? // UI color: "#FF5733"
+  totalCards  Int     @default(0) @map("total_cards") // Count of cards
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  user  User                @relation(fields: [userId], references: [userId])
+  cards SrsCollectionCard[]
+
+  @@index([userId, createdAt(sort: Desc)])
+  @@map("srs_collections")
+}
+
+// 3. SRS COLLECTION CARD (Join table)
+// CHỈ CẦN nếu có SrsCollection
+// Một card có thể ở nhiều collections
 model SrsCollectionCard {
-  collectionId String    @db.Uuid @map("collection_id")
-  cardId       String    @db.Uuid @map("card_id")
-  position     Int?
-  createdAt    DateTime  @default(now()) @map("created_at")
-  updatedAt    DateTime  @updatedAt @map("updated_at")
-  deletedAt    DateTime? @map("deleted_at")
+  collectionId String @map("collection_id") @db.Uuid
+  cardId       String @map("card_id") @db.Uuid
+
+  addedAt   DateTime  @default(now()) @map("added_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   collection SrsCollection @relation(fields: [collectionId], references: [collectionId])
   card       SrsCard       @relation(fields: [cardId], references: [cardId])
 
   @@id([collectionId, cardId])
+  @@index([cardId])
   @@map("srs_collection_cards")
 }
+
+// 4. SRS REVIEW
 model SrsReview {
-  reviewId         String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid @map("review_id")
-  cardId           String    @db.Uuid @map("card_id")
-  reviewedAt       DateTime  @default(now()) @map("reviewed_at")
-  grade            Int?
-  responseMs       Int?      @map("response_ms")
-  nextIntervalDays Int?      @map("next_interval_days")
-  easeAfter        Decimal?  @db.Decimal() @map("ease_after")
-  notes            String?
-  createdAt        DateTime  @default(now()) @map("created_at")
-  updatedAt        DateTime  @updatedAt @map("updated_at")
-  deletedAt        DateTime? @map("deleted_at")
+  reviewId String @id @default(dbgenerated("gen_random_uuid()")) @map("review_id") @db.Uuid
+  cardId   String @map("card_id") @db.Uuid
+
+  reviewedAt DateTime @default(now()) @map("reviewed_at") // When was this review
+  grade      Int // SM-2 grade: 0-5 (0=total blackout, 5=perfect)
+
+  responseMs      Int?    @map("response_ms") // Time to answer (milliseconds)
+  newIntervalDays Int     @map("new_interval_days") // Interval after this review
+  newEase         Decimal @map("new_ease") @db.Decimal() // Ease factor after this review
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   card SrsCard @relation(fields: [cardId], references: [cardId])
 
+  @@index([cardId, reviewedAt(sort: Desc)])
   @@map("srs_reviews")
 }
