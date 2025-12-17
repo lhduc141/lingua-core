@@ -66,11 +66,12 @@ enum ExamCategory {
 }
 
 enum AssessmentRefType {
-  exam           @map("exam")
-  exam_section   @map("exam_section")
-  lesson         @map("lesson")
-  topic          @map("topic")
-  placement_test @map("placement_test")
+  exam             @map("exam")
+  exam_section     @map("exam_section")
+  lesson           @map("lesson")
+  topic            @map("topic")
+  placement_test   @map("placement_test")
+  practice_session @map("practice_session")
 
   @@map("assessment_ref_type")
 }
@@ -155,6 +156,15 @@ enum SrsCardType {
   @@map("srs_card_type")
 }
 
+enum AssetKind {
+  audio    @map("audio")
+  image    @map("image")
+  video    @map("video")
+  document @map("document")
+
+  @@map("asset_kind")
+}
+
 // TODO ===========================
 // TODO ====       AUTH
 // TODO ===========================
@@ -210,7 +220,7 @@ model User {
 }
 
 // TODO ===========================
-// TODO ====     ONBOARDING    ====
+// TODO        ONBOARDING
 // TODO ===========================
 model OnboardingSurvey {
   surveyId String @id @default(dbgenerated("gen_random_uuid()")) @map("survey_id") @db.Uuid
@@ -262,9 +272,9 @@ model OnboardingSurvey {
   @@map("onboarding_surveys")
 }
 
-// ===========================
-// ====       ASSESSMENT
-// ===========================
+//TODO ===========================
+//TODO   ASSESSMENT & PRACTICE
+//TODO ===========================
 model Assessment {
   assessmentId  String            @id @default(dbgenerated("gen_random_uuid()")) @map("assessment_id") @db.Uuid
   userId        String            @map("user_id") @db.Uuid
@@ -427,9 +437,91 @@ model EvalDimension {
   @@map("eval_dimensions")
 }
 
-// ===========================
-// ====       CMS
-// ===========================
+model Skill {
+  skillId String @id @default(dbgenerated("gen_random_uuid()")) @map("skill_id") @db.Uuid
+
+  name        String  @unique // "reading", "writing", "speaking"
+  displayName String  @map("display_name") // "Reading", "Writing", "Speaking"
+  description String?
+  icon        String? // Icon URL hoặc emoji
+
+  isActive Boolean @default(true) @map("is_active")
+  position Int? // Display order
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  lessons          Lesson[]
+  practiceSessions PracticeSession[]
+
+  @@map("skills")
+}
+
+model Passage {
+  passageId String @id @default(dbgenerated("gen_random_uuid()")) @map("passage_id") @db.Uuid
+
+  title     String
+  content   String  @db.Text // Reading text
+  wordCount Int?    @map("word_count")
+  cefrLevel String? @map("cefr_level") // A1-C2
+  topic     String? // "education", "environment", "technology"
+  sourceTag String? @map("source_tag") // "IELTS_2023", "custom"
+
+  audioUrl String? @map("audio_url") // Optional audio version
+  imageUrl String? @map("image_url") // Optional image
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  questions Question[]
+
+  @@index([cefrLevel])
+  @@index([topic])
+  @@map("passages")
+}
+
+model PracticeSession {
+  sessionId String @id @default(dbgenerated("gen_random_uuid()")) @map("session_id") @db.Uuid
+
+  title       String // "Writing Task 2 Practice"
+  description String?
+  skillId     String  @map("skill_id") @db.Uuid
+  cefrLevel   String? @map("cefr_level") // Target level
+
+  estimatedMinutes Int? @map("estimated_minutes")
+
+  isActive Boolean @default(true) @map("is_active")
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  skill     Skill                     @relation(fields: [skillId], references: [skillId])
+  questions PracticeSessionQuestion[]
+
+  @@index([skillId])
+  @@index([cefrLevel])
+  @@map("practice_sessions")
+}
+
+model PracticeSessionQuestion {
+  sessionId  String @map("session_id") @db.Uuid
+  questionId String @map("question_id") @db.Uuid
+  position   Int
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  session  PracticeSession @relation(fields: [sessionId], references: [sessionId])
+  question Question        @relation(fields: [questionId], references: [questionId])
+
+  @@id([sessionId, questionId])
+  @@map("practice_session_questions")
+}
+
 model Topic {
   topicId     String        @id @default(dbgenerated("gen_random_uuid()")) @map("topic_id") @db.Uuid
   levelHint   String?       @map("level_hint")
@@ -448,51 +540,77 @@ model Topic {
 }
 
 model Lesson {
-  lessonId    String        @id @default(dbgenerated("gen_random_uuid()")) @map("lesson_id") @db.Uuid
-  topicId     String?       @map("topic_id") @db.Uuid
-  version     Int           @default(1)
-  status      ContentStatus @default(draft)
-  authorId    String?       @map("author_id") @db.Uuid
-  reviewerId  String?       @map("reviewer_id") @db.Uuid
-  publishedAt DateTime?     @map("published_at")
-  createdAt   DateTime      @default(now()) @map("created_at")
-  updatedAt   DateTime      @updatedAt @map("updated_at")
-  deletedAt   DateTime?     @map("deleted_at")
+  lessonId String @id @default(dbgenerated("gen_random_uuid()")) @map("lesson_id") @db.Uuid
 
+  skillId String? @map("skill_id") @db.Uuid // ← THÊM
+  topicId String? @map("topic_id") @db.Uuid // Keep for backward compat
+
+  title       String // ← THÊM (từ translations?)
+  description String? // ← THÊM
+
+  // Theory content (30%)
+  // Structure: {sections: [{type: "rule"|"example"|"tip", content: "..."}]}
+  theoryContent Json? @map("theory_content") // ← THÊM
+
+  version   Int           @default(1)
+  status    ContentStatus @default(draft)
+  cefrLevel String?       @map("cefr_level") // ← THÊM
+
+  estimatedMinutes Int?  @map("estimated_minutes") // ← THÊM
+  prerequisites    Json? // Array of lessonIds // ← THÊM
+
+  authorId    String?   @map("author_id") @db.Uuid
+  reviewerId  String?   @map("reviewer_id") @db.Uuid
+  publishedAt DateTime? @map("published_at")
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  skill           Skill?              @relation(fields: [skillId], references: [skillId]) // ← THÊM
   topic           Topic?              @relation(fields: [topicId], references: [topicId])
   lessonQuestions LessonQuestion[]
   translations    LessonTranslation[]
 
-  // assessments     Assessment[]        @relation("LessonAssessments")
+  @@index([skillId]) // ← THÊM
+  @@index([cefrLevel]) // ← THÊM
   @@map("lessons")
 }
 
 model Question {
-  questionId   String        @id @default(dbgenerated("gen_random_uuid()")) @map("question_id") @db.Uuid
-  skill        String?
-  type         QuestionType
-  difficulty   Int           @default(1)
-  version      Int           @default(1)
-  examKind     ExamKind      @default(generic) @map("exam_kind")
-  status       ContentStatus @default(draft)
-  authorId     String?       @map("author_id") @db.Uuid
-  reviewerId   String?       @map("reviewer_id") @db.Uuid
-  publishedAt  DateTime?     @map("published_at")
-  sourceTag    String?       @map("source_tag")
-  timeLimitSec Int?          @map("time_limit_sec")
-  maxScore     Int?          @default(1) @map("max_score")
-  createdAt    DateTime      @default(now()) @map("created_at")
-  updatedAt    DateTime      @updatedAt @map("updated_at")
-  deletedAt    DateTime?     @map("deleted_at")
+  questionId String @id @default(dbgenerated("gen_random_uuid()")) @map("question_id") @db.Uuid
 
-  options              QuestionOption[]
-  payload              QuestionPayload?
-  tags                 QuestionTag[]
-  translations         QuestionTranslation[]
-  lessonQuestions      LessonQuestion[]
-  examSectionQuestions ExamSectionQuestion[]
-  attempts             Attempt[]
+  passageId String? @map("passage_id") @db.Uuid // ← THÊM (for Reading)
 
+  skill      String?
+  type       QuestionType
+  difficulty Int           @default(1)
+  version    Int           @default(1)
+  examKind   ExamKind      @default(generic) @map("exam_kind")
+  status     ContentStatus @default(draft)
+
+  authorId     String?   @map("author_id") @db.Uuid
+  reviewerId   String?   @map("reviewer_id") @db.Uuid
+  publishedAt  DateTime? @map("published_at")
+  sourceTag    String?   @map("source_tag")
+  timeLimitSec Int?      @map("time_limit_sec")
+  maxScore     Int?      @default(1) @map("max_score")
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  passage                  Passage?                  @relation(fields: [passageId], references: [passageId]) // ← THÊM
+  options                  QuestionOption[]
+  payload                  QuestionPayload?
+  tags                     QuestionTag[]
+  translations             QuestionTranslation[]
+  lessonQuestions          LessonQuestion[]
+  examSectionQuestions     ExamSectionQuestion[]
+  practiceSessionQuestions PracticeSessionQuestion[] // ← THÊM
+  attempts                 Attempt[]
+
+  @@index([passageId]) // ← THÊM
   @@map("questions")
 }
 
@@ -526,22 +644,26 @@ model QuestionOption {
 }
 
 model Asset {
-  assetId      String    @id @default(dbgenerated("gen_random_uuid()")) @map("asset_id") @db.Uuid
-  ownerType    String?   @map("owner_type")
-  ownerId      String?   @map("owner_id") @db.Uuid
-  kind         String?
-  url          String?
-  mimeType     String?   @map("mime_type")
-  durationMs   Int?      @map("duration_ms")
-  sizeBytes    Int?      @map("size_bytes")
-  waveformJson Json?     @map("waveform_json")
-  transcript   String?
-  metaJson     Json?     @map("meta_json")
-  checksum     String?
-  createdAt    DateTime  @default(now()) @map("created_at")
-  updatedAt    DateTime  @updatedAt @map("updated_at")
-  deletedAt    DateTime? @map("deleted_at")
+  assetId String @id @default(dbgenerated("gen_random_uuid()")) @map("asset_id") @db.Uuid
 
+  // XÓA ownerType, ownerId (polymorphic anti-pattern)
+
+  kind     AssetKind // ← Type-safe enum
+  url      String?
+  mimeType String?   @map("mime_type")
+
+  durationMs   Int?    @map("duration_ms")
+  sizeBytes    Int?    @map("size_bytes")
+  waveformJson Json?   @map("waveform_json")
+  transcript   String?
+  metaJson     Json?   @map("meta_json")
+  checksum     String?
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  // Explicit relations thay vì polymorphic
   examSectionQuestions ExamSectionQuestion[] @relation("PassageAsset")
   assessmentReports    AssessmentReport[]    @relation("ExplanationAsset")
   attemptsInput        Attempt[]             @relation("InputAsset")
@@ -707,9 +829,9 @@ model ExamSectionQuestion {
   @@map("exam_section_questions")
 }
 
-// ===========================
-// ====       PLANS
-// ===========================
+//TODO ===========================
+//TODO ====       PLANS
+//TODO ===========================
 model UserAvailability {
   availabilityId String    @id @default(dbgenerated("gen_random_uuid()")) @map("availability_id") @db.Uuid
   userId         String    @map("user_id") @db.Uuid
@@ -727,23 +849,35 @@ model UserAvailability {
 }
 
 model LearningPlanItem {
-  itemId             String         @id @default(dbgenerated("gen_random_uuid()")) @map("item_id") @db.Uuid
-  userId             String         @map("user_id") @db.Uuid
-  parentItemId       String?        @map("parent_item_id") @db.Uuid
-  title              String
-  itemType           String?        @map("item_type")
-  refType            String?        @map("ref_type")
-  refId              String?        @map("ref_id") @db.Uuid
-  targetLevel        String?        @map("target_level")
-  dueDate            DateTime?      @map("due_date") @db.Date
-  dueWindowDays      Int?           @map("due_window_days")
-  position           Int?
-  status             PlanItemStatus @default(pending)
-  autoGenerated      Boolean        @default(true) @map("auto_generated")
-  sourceAssessmentId String?        @map("source_assessment_id") @db.Uuid
-  createdAt          DateTime       @default(now()) @map("created_at")
-  updatedAt          DateTime       @updatedAt @map("updated_at")
-  deletedAt          DateTime?      @map("deleted_at")
+  itemId String @id @default(dbgenerated("gen_random_uuid()")) @map("item_id") @db.Uuid
+  userId String @map("user_id") @db.Uuid
+
+  parentItemId String? @map("parent_item_id") @db.Uuid
+
+  title    String
+  itemType String? @map("item_type") // "lesson" | "practice_session" | "review"
+
+  refType String? @map("ref_type") // "lesson" | "practice_session"
+  refId   String? @map("ref_id") @db.Uuid
+
+  targetLevel String? @map("target_level")
+
+  dueDate       DateTime? @map("due_date") @db.Date
+  dueWindowDays Int?      @map("due_window_days")
+  position      Int?
+
+  status PlanItemStatus @default(pending)
+
+  autoGenerated      Boolean @default(true) @map("auto_generated")
+  sourceAssessmentId String? @map("source_assessment_id") @db.Uuid
+
+  // Rolling plan fields
+  planCycle   Int?      @map("plan_cycle") // ← THÊM (1, 2, 3...)
+  generatedAt DateTime? @map("generated_at") // ← THÊM
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   user             User               @relation(fields: [userId], references: [userId])
   parentItem       LearningPlanItem?  @relation("PlanItemParent", fields: [parentItemId], references: [itemId])
@@ -751,6 +885,7 @@ model LearningPlanItem {
   sourceAssessment Assessment?        @relation(fields: [sourceAssessmentId], references: [assessmentId])
   studySessions    StudySession[]
 
+  @@index([userId, planCycle]) // ← THÊM
   @@map("learning_plan_items")
 }
 
@@ -864,6 +999,7 @@ model DictEntry {
   headword String // Main word: "run", "happy"
   pos      String? // Part of speech: "verb", "noun", "adjective"
   ipa      String? // Pronunciation: "/rʌn/"
+  source   String? // "ai" | "manual" | "cambridge"
 
   frequency Int? // Word frequency rank: 1-10000 (lower = more common)
   cefrLevel String? // CEFR level: "A1", "A2", "B1", "B2", "C1", "C2"
