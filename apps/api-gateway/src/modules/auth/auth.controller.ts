@@ -1,7 +1,5 @@
 import { AuthService } from './auth.service';
 import { Body, Controller, Get, Patch, Post } from '@nestjs/common';
-import { SignupDto } from './dto/signup.dto';
-import { LoginDto } from './dto/login.dto';
 import { ApiOperation } from '@nestjs/swagger';
 import { ApiTag } from '../../decorators/api-tag.decorator';
 import { Public } from '../../decorators/public.decorator';
@@ -9,8 +7,8 @@ import { ReqUser } from '../../decorators/req-user.decorator';
 import type { JwtPayloadDto } from '@app/jwt';
 import { ResponseDto } from '@app/shared';
 import { ProfileMeDto } from './dto/profile-me.dto';
-import { UpdateProfileOnboardingDto } from './dto/update-profile-onboarding.dto';
 import { UpdateProfileDto } from './dto/update-profile.dto';
+import { GoogleAuthDto } from './dto/google-auth.dto';
 
 @Controller('auth')
 @ApiTag({
@@ -20,22 +18,12 @@ import { UpdateProfileDto } from './dto/update-profile.dto';
 export class AuthController {
 	constructor(private readonly authService: AuthService) {}
 
-	// ========== SIGNUP ==========
 	@Public()
-	@Post('signup')
-	@ApiOperation({ summary: 'Đăng ký tài khoản mới' })
-	async signup(@Body() signupDto: SignupDto) {
-		return this.authService.signup(signupDto);
+	@Post('google')
+	@ApiOperation({ summary: 'Đăng nhập/Đăng ký bằng Google' })
+	async googleAuth(@Body() googleAuthDto: GoogleAuthDto) {
+		return this.authService.googleAuth(googleAuthDto);
 	}
-
-	// ========== LOGIN ==========
-	@Public()
-	@Post('login')
-	@ApiOperation({ summary: 'Đăng nhập' })
-	async login(@Body() loginDto: LoginDto) {
-		return this.authService.login(loginDto);
-	}
-
 	// ========== REFRESH TOKEN ==========
 	@Public()
 	@Post('refresh')
@@ -54,19 +42,13 @@ export class AuthController {
 	// ========== ME ==========
 	@Get('me')
 	async me(@ReqUser() user: JwtPayloadDto): Promise<ResponseDto<ProfileMeDto>> {
-		return this.authService.getProfile(user);
+		return this.authService.getProfile(user.userId);
 	}
 
 	// ========== UPDATE PROFILE (để TODO) ==========
 	@Patch('profile')
 	@ApiOperation({ summary: 'Cập nhật thông tin cá nhân' })
 	async updateProfile(@ReqUser() user: JwtPayloadDto, @Body() profileDto: UpdateProfileDto) {
-		return this.authService.updateProfile(user, profileDto);
-	}
-
-	@Patch('target')
-	@ApiOperation({ summary: 'Thông tin học tập' })
-	async updateTarget(@ReqUser() user: JwtPayloadDto, @Body() dto: UpdateProfileOnboardingDto) {
-		return this.authService.updateTarget(user, dto);
+		return this.authService.updateProfile(user.userId, profileDto);
 	}
 }

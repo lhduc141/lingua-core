@@ -27,6 +27,7 @@ import { ClientsModule, Transport } from '@nestjs/microservices';
 				},
 			},
 		]),
+
 		JwtModule.register({}),
 		MainModule,
 		PrismaModule,

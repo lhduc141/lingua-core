@@ -1,76 +1,161 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException, UnauthorizedException } from '@nestjs/common';
 import { User } from '@prisma/client';
 import { PrismaService } from 'apps/api-gateway/prisma/prisma.service';
-import { CreateUserDto } from './dto/create-user.dto';
-
-import * as argon2 from 'argon2';
 import { UpdateProfileDto } from '../auth/dto/update-profile.dto';
+import { ProfileMeDto } from '../auth/dto/profile-me.dto';
+import { ResponseDto } from '@app/shared';
+import * as argon2 from 'argon2';
+
+interface GoogleUserPayload {
+	googleSub: string;
+	email: string;
+	name?: string;
+	picture?: string;
+}
 
 @Injectable()
 export class UsersService {
 	constructor(private readonly prisma: PrismaService) {}
 
-	async create(user: CreateUserDto): Promise<User> {
-		const { googleSub, email, googleAvatarUrl, googleName } = user;
+	async findOrCreateFromGoogle(googlePayload: GoogleUserPayload): Promise<{ user: User; isNewUser: boolean }> {
+		let user = await this.prisma.user.findUnique({
+			where: { googleSub: googlePayload.googleSub },
+		});
 
-		return this.prisma.user.create({
-			data: {
-				googleSub: googleSub,
-				email: email,
-				googleName: googleName ?? null,
-				googleAvatarUrl: googleAvatarUrl ?? null,
-				lastLoginAt: new Date(),
+		let isNewUser = false;
+		if (!user) {
+			user = await this.prisma.user.create({
+				data: {
+					googleSub: googlePayload.googleSub,
+					email: googlePayload.email,
+					googleName: googlePayload.name ?? null,
+					googleAvatarUrl: googlePayload.picture ?? null,
+					isActive: true,
+					lastLoginAt: new Date(),
+				},
+			});
+			isNewUser = true;
+		} else {
+			this._validateUserStatus(user);
 
+			await this.prisma.user.update({
+				where: { userId: user.userId },
+				data: { lastLoginAt: new Date() },
+			});
+		}
+
+		return { user, isNewUser };
+	}
+
+	async getProfile(userId: string): Promise<ResponseDto<ProfileMeDto>> {
+		const user = await this.prisma.user.findUnique({
+			where: { userId },
+			select: {
+				userId: true,
+				email: true,
+				googleName: true,
+				googleAvatarUrl: true,
+				dob: true,
+				gender: true,
+				phone: true,
+				isAdmin: true,
+				createdAt: true,
 			},
 		});
-	}
 
-	async updateProfile(userId: string, updateProfile: UpdateProfileDto) {
-		const { dob, gender, phone } = updateProfile;
+		if (!user) {
+			throw new NotFoundException('User not found');
+		}
 
-		return await this.prisma.user.update({
-			where: { userId },
-			data: { dob, gender, phone},
+		return new ResponseDto<ProfileMeDto>({
+			message: 'Lấy thông tin thành công',
+			data: user,
 		});
 	}
 
-	async updateToken(userId: string, refreshToken: string) {
-		const refreshHash = await argon2.hash(refreshToken);
+	async updateProfile(userId: string, dto: UpdateProfileDto): Promise<ResponseDto<ProfileMeDto>> {
+		const user = await this.prisma.user.update({
+			where: { userId },
+			data: {
+				dob: dto.dob ? new Date(dto.dob) : undefined,
+				gender: dto.gender,
+				phone: dto.phone,
+			},
+			select: {
+				userId: true,
+				email: true,
+				googleName: true,
+				googleAvatarUrl: true,
+				dob: true,
+				gender: true,
+				phone: true,
+				isAdmin: true,
+				createdAt: true,
+			},
+		});
+
+		return new ResponseDto<ProfileMeDto>({
+			message: 'Cập nhật thông tin thành công',
+			data: user,
+		});
+	}
+
+	async deleteAccount(userId: string): Promise<ResponseDto<null>> {
+		await this.prisma.user.update({
+			where: { userId },
+			data: {
+				deletedAt: new Date(),
+				isActive: false,
+				currentRefreshTokenHash: null,
+				currentRefreshTokenExpiresAt: null,
+			},
+		});
+
+		return new ResponseDto<null>({
+			message: 'Tài khoản đã được xóa thành công',
+		});
+	}
+
+	async saveRefreshToken(userId: string, refreshToken: string): Promise<void> {
+		const hashedToken = await argon2.hash(refreshToken);
+		const expiresAt = new Date();
+		expiresAt.setDate(expiresAt.getDate() + 7);
 
 		await this.prisma.user.update({
 			where: { userId },
 			data: {
-				currentRefreshTokenHash: refreshHash,
-				currentRefreshTokenExpiresAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
+				currentRefreshTokenHash: hashedToken,
+				currentRefreshTokenExpiresAt: expiresAt,
+			},
+		});
+	}
+
+	async validateRefreshToken(userId: string, refreshToken: string) {
+		const user = await this.prisma.user.findUnique({
+			where: { userId },
+			select: {
+				userId: true,
+				email: true,
+				isAdmin: true,
+				isActive: true,
+				deletedAt: true,
+				currentRefreshTokenHash: true,
+				currentRefreshTokenExpiresAt: true,
 			},
 		});
 
-		return;
-	}
-
-	// Tìm user theo google sub
-	async findByGoogleSub(googleSub: string): Promise<User | null> {
-		return this.prisma.user.findUnique({
-			where: { googleSub },
-		});
-	}
-
-	async findById(userId: string): Promise<User | null> {
-		return this.prisma.user.findUnique({ where: { userId } });
-	}
-
-	async findActiveById(userId: string): Promise<User | null> {
-		const user = await this.findById(userId);
 		if (!user) return null;
-		if (!user.isActive || user.deletedAt) return null;
-		return user;
-	}
 
-	async updateLastLogin(userId: string): Promise<void> {
-		await this.prisma.user.update({
-			where: { userId },
-			data: { lastLoginAt: new Date() },
-		});
+		if (!user.isActive || user.deletedAt) return null;
+		if (!user.currentRefreshTokenHash) return null;
+		const isValid = await argon2.verify(refreshToken, user.currentRefreshTokenHash);
+
+		if (!isValid) return null;
+		if (!user.currentRefreshTokenExpiresAt || user.currentRefreshTokenExpiresAt < new Date()) {
+			return null;
+		}
+
+		return user;
 	}
 
 	async clearRefreshToken(userId: string): Promise<void> {
@@ -83,24 +168,10 @@ export class UsersService {
 		});
 	}
 
-	// check user đã tồn tại (googleSub hoặc email)
-	async checkExistedUser(googleSub: string, email: string): Promise<boolean> {
-		return !!(await this.prisma.user.findFirst({
-			where: {
-				OR: [{ googleSub }, { email }],
-			},
-		}));
-	}
-
-	// verify refresh token hash, trả về user nếu hợp lệ
-	async validateRefreshToken(userId: string, refreshToken: string): Promise<User | null> {
-		const user = await this.findActiveById(userId);
-		if (!user) return null;
-		if (!user.currentRefreshTokenHash) return null;
-
-		const match = await argon2.verify(user.currentRefreshTokenHash, refreshToken);
-		if (!match) return null;
-
-		return user;
+	// PRIVATE HELPERS
+	private _validateUserStatus(user: { isActive: boolean; deletedAt: Date | null }): void {
+		if (user.deletedAt)
+			throw new UnauthorizedException('Your account has been deleted. Please contact support to restore.');
+		if (!user.isActive) throw new UnauthorizedException('Your account is inactive. Please contact support.');
 	}
 }

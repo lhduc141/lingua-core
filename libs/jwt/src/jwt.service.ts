@@ -1,5 +1,5 @@
 // libs/jwt/src/jwt.service.ts
-import { Inject, Injectable, Logger, Optional } from '@nestjs/common';
+import { Inject, Injectable, Logger, Optional, UnauthorizedException } from '@nestjs/common';
 import * as jwt from 'jsonwebtoken';
 import { JWT_DEFAULTS, JWT_MODULE_OPTIONS } from './jwt.constants';
 import type { JwtModuleOptions, JwtPayloadDto, JwtSignOptions, JwtVerifyOptions } from './jwt.interface';
@@ -73,33 +73,71 @@ export class JwtService {
 	}
 
 	async verifyAccessToken<T extends JwtPayloadDto = JwtPayloadDto>(token: string): Promise<T> {
-		const payload = await this.verifyAsync<T>(token, {
-			secret: this.accessSecret,
-			issuer: this.issuer,
-			audience: this.audience,
-			algorithms: [JWT_DEFAULTS.ALG as jwt.Algorithm],
-		});
+		try {
+			const payload = await this.verifyAsync<T>(token, {
+				secret: this.accessSecret,
+				issuer: this.issuer,
+				audience: this.audience,
+				algorithms: [JWT_DEFAULTS.ALG as jwt.Algorithm],
+			});
 
-		if (payload.token_type !== 'access') {
-			throw new Error('Invalid token type');
+			if (payload.token_type !== 'access') {
+				throw new UnauthorizedException('Invalid token type: expected access token');
+			}
+
+			return payload;
+		} catch (error) {
+			if (error instanceof UnauthorizedException) {
+				throw error;
+			}
+
+			if (error.name === 'TokenExpiredError') {
+				throw new UnauthorizedException('Access token has expired');
+			}
+
+			if (error.name === 'JsonWebTokenError') {
+				throw new UnauthorizedException('Invalid access token');
+			}
+
+			if (error.name === 'NotBeforeError') {
+				throw new UnauthorizedException('Access token not yet valid');
+			}
+
+			this.logger.error('Unexpected error verifying access token', error);
+			throw new UnauthorizedException('Token verification failed');
 		}
-
-		return payload;
 	}
 
 	async verifyRefreshToken<T extends JwtPayloadDto = JwtPayloadDto>(token: string): Promise<T> {
-		const payload = await this.verifyAsync<T>(token, {
-			secret: this.refreshSecret,
-			issuer: this.issuer,
-			audience: this.audience,
-			algorithms: [JWT_DEFAULTS.ALG as jwt.Algorithm],
-		});
+		try {
+			const payload = await this.verifyAsync<T>(token, {
+				secret: this.refreshSecret,
+				issuer: this.issuer,
+				audience: this.audience,
+				algorithms: [JWT_DEFAULTS.ALG as jwt.Algorithm],
+			});
 
-		if (payload.token_type !== 'refresh') {
-			throw new Error('Invalid token type');
+			if (payload.token_type !== 'refresh') {
+				throw new UnauthorizedException('Invalid token type: expected refresh token');
+			}
+
+			return payload;
+		} catch (error) {
+			if (error instanceof UnauthorizedException) {
+				throw error;
+			}
+
+			if (error.name === 'TokenExpiredError') {
+				throw new UnauthorizedException('Refresh token has expired');
+			}
+
+			if (error.name === 'JsonWebTokenError') {
+				throw new UnauthorizedException('Invalid refresh token');
+			}
+
+			this.logger.error('Unexpected error verifying refresh token', error);
+			throw new UnauthorizedException('Token verification failed');
 		}
-
-		return payload;
 	}
 
 	/* ================== LOW-LEVEL API ================== */
@@ -152,5 +190,27 @@ export class JwtService {
 				reject(err);
 			}
 		});
+	}
+
+	decode<T = any>(token: string): T | null {
+		try {
+			return jwt.decode(token) as T;
+		} catch (error) {
+			this.logger.warn('Failed to decode JWT', error);
+			return null;
+		}
+	}
+
+	getTokenExpiry(token: string): Date | null {
+		const decoded = this.decode<{ exp?: number }>(token);
+		if (decoded?.exp) {
+			return new Date(decoded.exp * 1000);
+		}
+		return null;
+	}
+	isTokenExpired(token: string): boolean {
+		const expiry = this.getTokenExpiry(token);
+		if (!expiry) return true;
+		return expiry < new Date();
 	}
 }

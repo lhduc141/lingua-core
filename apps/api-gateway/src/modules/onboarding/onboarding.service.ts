@@ -15,7 +15,7 @@ export class OnboardingService {
 		const survey = await this.prisma.onboardingSurvey.findUnique({
 			where: { userId },
 			include: {
-				answers: { orderBy: { questionOrder: 'asc' } },
+				// answers: { orderBy: { questionOrder: 'asc' } },
 			},
 		});
 		if (!survey) throw NotFoundException;
@@ -27,35 +27,35 @@ export class OnboardingService {
 		const targetDeadline = dto.targetDeadlineDate ? new Date(dto.targetDeadlineDate) : null;
 
 		const baseData = {
-			targetGoal: dto.targetGoal,
-			targetDeadlineDate: targetDeadline,
-			plannedStudyHoursPerWeek: dto.plannedStudyHoursPerWeek,
-			primaryFocusSkills: dto.primaryFocusSkills,
-			selfAssessedLevel: dto.selfAssessedLevel,
-			usageContext: dto.usageContext,
-			difficulties: dto.difficulties,
-			metaJson: dto.metaJson,
+			primaryGoal: dto.targetGoal,
+			// targetDeadlineDate: targetDeadline,
+			// plannedStudyHoursPerWeek: dto.plannedStudyHoursPerWeek,
+			// primaryFocusSkills: dto.primaryFocusSkills,
+			// selfAssessedLevel: dto.selfAssessedLevel,
+			// usageContext: dto.usageContext,
+			// difficulties: dto.difficulties,
+			// metaJson: dto.metaJson,
 		};
 
-		const survey = await this.prisma.onboardingSurvey.upsert({
-			where: { userId: user.userId },
-			create: { userId: user.userId, ...baseData },
-			update: { ...baseData, updatedAt: new Date() },
-		});
+		// const survey = await this.prisma.onboardingSurvey.upsert({
+		// 	where: { userId: user.userId },
+		// 	create: { userId: user.userId, ...baseData },
+		// 	update: { ...baseData, updatedAt: new Date() },
+		// });
 
 		if (dto.answers?.length) {
 			await this.prisma.$transaction([
-				this.prisma.onboardingSurveyAnswer.deleteMany({
-					where: { surveyId: survey.surveyId },
-				}),
-				this.prisma.onboardingSurveyAnswer.createMany({
-					data: dto.answers.map((a) => ({
-						surveyId: survey.surveyId,
-						questionKey: a.key,
-						answerValue: a.value,
-						questionOrder: a.order ?? 0,
-					})),
-				}),
+				// this.prisma.onboardingSurvey.deleteMany({
+				// 	where: { surveyId: survey.surveyId },
+				// }),
+				// this.prisma.onboardingSurvey.createMany({
+					// data: dto.answers.map((a) => ({
+					// 	surveyId: survey.surveyId,
+					// 	questionKey: a.key,
+					// 	answerValue: a.value,
+					// 	questionOrder: a.order ?? 0,
+					// })),
+				// }),
 			]);
 		}
 
