@@ -15,7 +15,7 @@
 		"g:api": "nest g resource src/modules --no-crud --no-spec",
 		"start:prod": "node dist/apps/api-gateway/main.js",
 		"lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-		"test": "jest"
+		"test": "jest --coverage"
 	},
 	"dependencies": {
 		"@google/genai": "^1.32.0",
