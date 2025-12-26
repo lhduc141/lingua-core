@@ -62,7 +62,7 @@ jobs:
           VPS_USER: ${{ secrets.VPS_USERNAME }}
         run: |
           ssh -i ~/.ssh/deploy_key $VPS_USER@$VPS_HOST << 'ENDSSH'
-            cat > /var/www/linguapanda/.env << 'ENVFILE'
+            cat > /var/www/lingua-core/.env << 'ENVFILE'
           # ===================================
           # LINGUAPANDA - PRODUCTION ENVIRONMENT
           # ===================================
@@ -130,7 +130,7 @@ jobs:
         run: |
           ssh -i ~/.ssh/deploy_key $VPS_USER@$VPS_HOST << 'ENDSSH'
             set -e
-            cd /var/www/linguapanda
+            cd /var/www/lingua-core
           
             echo "=== Pulling latest code ==="
             git fetch origin main
@@ -147,7 +147,7 @@ jobs:
         run: |
           ssh -i ~/.ssh/deploy_key $VPS_USER@$VPS_HOST << 'ENDSSH'
             set -e
-            cd /var/www/linguapanda
+            cd /var/www/lingua-core
           
             echo "=== Stopping old containers ==="
             docker-compose -f docker-compose.prod.yml down || true
@@ -225,7 +225,7 @@ jobs:
           echo "⚠️  Deployment failed! Attempting rollback..."
           
           ssh -i ~/.ssh/deploy_key $VPS_USER@$VPS_HOST << 'ENDSSH'
-            cd /var/www/linguapanda
+            cd /var/www/lingua-core
           
             echo "=== Rolling back to previous commit ==="
             git reset --hard HEAD~1
