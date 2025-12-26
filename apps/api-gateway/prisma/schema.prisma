@@ -1,6 +1,6 @@
-// ===========================
-// ====    CONNECTION    =====
-// ===========================
+//TODO ===========================
+//TODO         CONNECTION
+//TODO ===========================
 
 generator client {
   provider = "prisma-client-js"
@@ -11,9 +11,9 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-// ===========================
-// ====       ENUM       =====
-// ===========================
+//TODO ===========================
+//TODO            ENUM
+//TODO ===========================
 
 enum ContentStatus {
   draft     @map("draft")
@@ -163,6 +163,14 @@ enum AssetKind {
   document @map("document")
 
   @@map("asset_kind")
+}
+
+enum SkillName {
+  reading  @map("reading")
+  writing  @map("writing")
+  speaking @map("speaking")
+
+  @@map("skill_name")
 }
 
 // TODO ===========================
@@ -437,27 +445,6 @@ model EvalDimension {
   @@map("eval_dimensions")
 }
 
-model Skill {
-  skillId String @id @default(dbgenerated("gen_random_uuid()")) @map("skill_id") @db.Uuid
-
-  name        String  @unique // "reading", "writing", "speaking"
-  displayName String  @map("display_name") // "Reading", "Writing", "Speaking"
-  description String?
-  icon        String? // Icon URL hoặc emoji
-
-  isActive Boolean @default(true) @map("is_active")
-  position Int? // Display order
-
-  createdAt DateTime  @default(now()) @map("created_at")
-  updatedAt DateTime  @updatedAt @map("updated_at")
-  deletedAt DateTime? @map("deleted_at")
-
-  lessons          Lesson[]
-  practiceSessions PracticeSession[]
-
-  @@map("skills")
-}
-
 model Passage {
   passageId String @id @default(dbgenerated("gen_random_uuid()")) @map("passage_id") @db.Uuid
 
@@ -487,8 +474,8 @@ model PracticeSession {
 
   title       String // "Writing Task 2 Practice"
   description String?
-  skillId     String  @map("skill_id") @db.Uuid
-  cefrLevel   String? @map("cefr_level") // Target level
+  skillName   SkillName
+  cefrLevel   String?   @map("cefr_level") // Target level
 
   estimatedMinutes Int? @map("estimated_minutes")
 
@@ -498,10 +485,9 @@ model PracticeSession {
   updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
-  skill     Skill                     @relation(fields: [skillId], references: [skillId])
   questions PracticeSessionQuestion[]
 
-  @@index([skillId])
+  @@index([skillName])
   @@index([cefrLevel])
   @@map("practice_sessions")
 }
@@ -542,8 +528,8 @@ model Topic {
 model Lesson {
   lessonId String @id @default(dbgenerated("gen_random_uuid()")) @map("lesson_id") @db.Uuid
 
-  skillId String? @map("skill_id") @db.Uuid // ← THÊM
-  topicId String? @map("topic_id") @db.Uuid // Keep for backward compat
+  skillName SkillName
+  topicId   String?   @map("topic_id") @db.Uuid // Keep for backward compat
 
   title       String // ← THÊM (từ translations?)
   description String? // ← THÊM
@@ -567,12 +553,11 @@ model Lesson {
   updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
-  skill           Skill?              @relation(fields: [skillId], references: [skillId]) // ← THÊM
   topic           Topic?              @relation(fields: [topicId], references: [topicId])
   lessonQuestions LessonQuestion[]
   translations    LessonTranslation[]
 
-  @@index([skillId]) // ← THÊM
+  @@index([skillName]) // ← THÊM
   @@index([cefrLevel]) // ← THÊM
   @@map("lessons")
 }
@@ -751,9 +736,9 @@ model OptionTranslation {
   @@map("option_translations")
 }
 
-// ===========================
-// ====       EXAM
-// ===========================
+//TODO ===========================
+//TODO            EXAM
+//TODO ===========================
 model ExamCycle {
   cycleId   String        @id @default(dbgenerated("gen_random_uuid()")) @map("cycle_id") @db.Uuid
   label     String
@@ -830,7 +815,7 @@ model ExamSectionQuestion {
 }
 
 //TODO ===========================
-//TODO ====       PLANS
+//TODO          PLANS
 //TODO ===========================
 model UserAvailability {
   availabilityId String    @id @default(dbgenerated("gen_random_uuid()")) @map("availability_id") @db.Uuid
@@ -927,9 +912,9 @@ model Notification {
   @@map("notifications")
 }
 
-// ===========================
-// ====       REPORT
-// ===========================
+//TODO ===========================
+//TODO           REPORT
+//TODO ===========================
 model AssessmentReport {
   reportId            String    @id @default(dbgenerated("gen_random_uuid()")) @map("report_id") @db.Uuid
   assessmentId        String    @map("assessment_id") @db.Uuid
@@ -988,10 +973,9 @@ model RubricCriterion {
 }
 
 // TODO ===========================
-// TODO DICTIONARY MODULE - 5 TABLES
+// TODO         DICTIONARY
 // TODO ===========================
 
-// 1. DICT ENTRY
 model DictEntry {
   entryId String @id @default(dbgenerated("gen_random_uuid()")) @map("entry_id") @db.Uuid
 
@@ -1021,7 +1005,6 @@ model DictEntry {
   @@map("dict_entries")
 }
 
-// 2. DICT SENSE
 model DictSense {
   senseId String @id @default(dbgenerated("gen_random_uuid()")) @map("sense_id") @db.Uuid
   entryId String @map("entry_id") @db.Uuid
@@ -1044,7 +1027,6 @@ model DictSense {
   @@map("dict_senses")
 }
 
-// 3. DICT EXAMPLE
 model DictExample {
   exampleId   String  @id @default(dbgenerated("gen_random_uuid()")) @map("example_id") @db.Uuid
   senseId     String  @map("sense_id") @db.Uuid
@@ -1061,7 +1043,6 @@ model DictExample {
   @@map("dict_examples")
 }
 
-// 4. COLLOCATION
 model Collocation {
   collocationId String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   entryId       String @map("entry_id") @db.Uuid
@@ -1089,7 +1070,6 @@ model Collocation {
   @@map("collocations")
 }
 
-// 5. USER VOCABULARY
 model UserVocabulary {
   id      String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   userId  String @map("user_id") @db.Uuid
@@ -1116,7 +1096,7 @@ model UserVocabulary {
 }
 
 // TODO ===========================
-// TODO SRS MODULE - SIMPLIFIED (3 TABLES)
+// TODO             SRS
 // TODO ===========================
 
 // 1. SRS CARD

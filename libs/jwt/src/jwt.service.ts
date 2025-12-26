@@ -94,11 +94,9 @@ export class JwtService {
 			if (error.name === 'TokenExpiredError') {
 				throw new UnauthorizedException('Access token has expired');
 			}
-
 			if (error.name === 'JsonWebTokenError') {
 				throw new UnauthorizedException('Invalid access token');
 			}
-
 			if (error.name === 'NotBeforeError') {
 				throw new UnauthorizedException('Access token not yet valid');
 			}

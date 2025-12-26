@@ -1,295 +1,313 @@
-# CLAUDE.md
+# LINGUAPANDA - AI-POWERED ENGLISH LEARNING PLATFORM
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+**Version**: 2025-12-19  
+**Type**: Thesis MVP (1-person project)  
+**Tech Stack**: NestJS Monorepo, PostgreSQL (Prisma), Redis, Gemini AI  
+**Target**: A1-B2 CEFR English learners
 
-## 1. Project Overview
+---
 
-Project name: LinguaPanda - LinguaPandaCore  
-Type: AI-powered English learning platform (Graduation Thesis – 2026)
+## 🎯 PROJECT CONTEXT
 
-Core goal:
-- Evaluate learner CEFR level accurately
-- Generate adaptive learning plans
-- Support continuous learning loop with measurable progress
+You are working on **Linguapanda**, a personalized English learning platform that uses:
+- **CEFR-based assessment** (A1-B2)
+- **AI-powered adaptive learning plans** (rolling 2-week cycles)
+- **4 skills**: Reading, Writing, Speaking (MVP: no Listening)
+- **AI feedback** for subjective grading (Writing, Speaking)
 
-All decisions MUST align with:
-- runbook.md
-- architecture.md
-- ai.md
-- data.md
-- flows.md
+**Timeline**: Now → Early May 2025  
+**Scope**: MVP with 6 core features, 15 lessons, 10 practice sessions
 
-If there is any conflict: Human decision > Claude suggestion > Runbook 
+---
 
-## 2. ARCHITECTURE (CURRENT – MUST FOLLOW)
+## 🏗️ ARCHITECTURE (NON-NEGOTIABLE)
 
-This is a monorepo with microservices architecture:: lingua-panda-core/
-High-level flow:
-    Frontend (Next.js – later)
-    → API Gateway (NestJS)
-    → AI Service (NestJS microservice)
-    → External LLM (Gemini Pro)
-    → PostgresSQL / Redis
-
-### Key rules (NON-NEGOTIABLE)
-
-- Microservices architecture is mandatory
-- API Gateway NEVER calls LLM directly
-- AI Service NEVER writes to database
-- All AI calls go through MessagePattern
-- Backend validates and decides whether to persist AI output
-
+### Microservices Pattern:
 ```
-Next.js (Future) → API Gateway (NestJS) → AI Service (Gemini Pro) → PostgreSQL
+apps/
+├── api-gateway/     # Main backend (Auth, CRUD, business logic)
+└── ai-service/      # AI microservice (Gemini integration)
 ```
 
-### Core Components
+### Data Ownership:
+- **api-gateway** owns the database
+- **ai-service** NEVER writes to DB directly
+- **ai-service** returns JSON → gateway validates → gateway persists
 
-1. **API Gateway** (`apps/api-gateway`): NestJS backend handling authentication, assessments, CMS, SRS, and user management
-2. **AI Service** (`apps/ai-service`): Gemini API keys service for AI evaluations (CEFR scoring, writing feedback, plan generation)
-3. **Shared Libraries** (`libs/`): Common utilities for AI client, JWT handling, BullMQ queues, and shared code
+### Communication:
+- NestJS MessagePattern (TCP/Redis)
+- Frontend ↔ Gateway: REST APIs (55 endpoints)
 
+---
 
-## 3. SERVICES
+## 📂 KEY FILES TO UNDERSTAND
 
-### API Gateway (`apps/api-gateway`)
-- NestJS 10
-- Owns business logic & database writes
-- Handles:
-    - Auth
-    - Onboarding
-    - Exams & Assessments
-    - Reports
-    - Learning Plans
-    - SRS & Dictionary
+| File | Purpose |
+|------|---------|
+| `docs/Runbook.txt` | **Master guide** - read this first |
+| `docs/BackEnd.txt` | Complete API specification (55 endpoints) |
+| `docs/ContextSnapshot.txt` | Current progress & next steps |
+| `schema.prisma` | Database schema (55+ tables, finalized) |
+| `docs/claude/decisions/` | Architecture decision records |
 
-### AI Service (`apps/ai-service`)
-- NestJS microservice (NOT FastAPI)
-- Responsibilities:
-    - Build prompts
-    - Call Gemini Pro
-    - Parse structured JSON
-    - Apply heuristic fallback if needed
-- Communicates via:
-    - @MessagePattern:
-        - ai.placement.cefr
-        - ai.plan.generate
-        - ai.writing.grade
-        - (future) ai.dictionary.lookup
+---
 
-AI Service:
-- ❌ does NOT own data
-- ❌ does NOT decide flow
-- ❌ does NOT persist anything
+## ✅ CURRENT STATUS (2025-12-19)
 
-## 4. CORE LEARNING FLOWS (VERY IMPORTANT)
+### Completed:
+- ✅ Auth module (6 endpoints) - Production-ready
+- ✅ API Specification (55 endpoints documented)
+- ✅ Prisma schema finalized
 
-### CORE FLOW 1 (CURRENT PRIORITY)
-Onboarding → Placement → CEFR → Learning Plan
+### In Progress:
+- 🔄 Onboarding & Placement module (next priority)
 
-Status:
-- CEFR placement: DONE (ai.placement.cefr)
-- Remaining to implement:
-    - ai.plan.generate
-    - ai.writing.grade
-    - Full onboarding + placement APIs
+### Not Started:
+- ❌ Learning Content
+- ❌ Assessment & Grading
+- ❌ Dictionary & SRS
+- ❌ Learning Plan
+- ❌ Dashboard
+- ❌ Admin
 
-Claude MUST focus on Core Flow 1 first.
+---
 
-### CORE FLOW 2
-Daily practice + AI feedback
+## 🚀 DEVELOPMENT WORKFLOW
 
-### CORE FLOW 3
-Smart Dictionary + SRS
+### 1. **Before Starting Any Task**:
+```bash
+# Always read the relevant section in Runbook.txt first
+# Check ContextSnapshot.txt for current state
+# Review API spec in BackEnd.txt for the module
+```
 
-Claude MUST NOT jump ahead unless explicitly asked.
+### 2. **Implementation Order** (from Runbook):
+```
+Phase 1: Database Setup ✅ DONE
+Phase 2: Backend Development (Month 1-4)
+  Week 1-2:   Auth ✅ + Dictionary
+  Week 3-4:   Onboarding + Placement ← YOU ARE HERE
+  Week 5-6:   Lessons + Practice + Assessment
+  Week 7-8:   SRS + Learning Plan
+  Week 9-10:  Dashboard + Analytics
+  Week 11-12: Admin + Polish
+```
 
-================================================================
+### 3. **Module Implementation Pattern**:
+For each new module (e.g., Onboarding):
+1. Read API spec from `BackEnd.txt`
+2. Create DTOs (request/response validation)
+3. Implement service layer (business logic)
+4. Implement controller (HTTP handlers)
+5. Add to module exports
+6. Test with Postman/Thunder Client
 
-## 5. CURRENT IMPLEMENTATION PRIORITY (STRICT)
+---
 
-You MUST help implement these APIs in order:
+## 🔑 ARCHITECTURE RULES (STRICT)
 
-1. Onboarding Survey
-- POST /onboarding/survey
-- GET  /onboarding/survey/me
+### Database:
+- ✅ Use Prisma ORM only
+- ✅ All tables have `createdAt`, `updatedAt`, `deletedAt` (soft delete)
+- ✅ Use UUIDs for primary keys (`@default(dbgenerated("gen_random_uuid()"))`)
+- ❌ NO raw SQL unless absolutely necessary
 
-2. Placement Test
-- GET  /exams/placement
-- POST /exams/attempt/submit
+### API Design:
+- ✅ RESTful endpoints (follow BackEnd.txt spec)
+- ✅ Use class-validator DTOs
+- ✅ Return structured errors (`{ statusCode, message, errors }`)
+- ✅ JWT auth on all endpoints (except `/auth/*`)
+- ❌ NO endpoints not in the spec (ask first)
 
-3. AI CEFR Evaluation
-- POST /ai/placement/cefr
+### AI Integration:
+- ✅ AI service only returns JSON
+- ✅ Gateway validates AI output before persisting
+- ✅ Store AI results in domain tables (NOT in `AiCache`)
+- ❌ AI service NEVER writes to database
 
-4. Learning Plan Generation
-- POST /ai/plan/generate
+### Code Style:
+- ✅ NestJS standard conventions
+- ✅ Use dependency injection
+- ✅ Separate concerns: Controller → Service → Repository (Prisma)
+- ✅ Use argon2 for password hashing (NOT bcrypt)
 
-Anything outside this list is secondary.
+---
 
-================================================================
+## 📋 MVP SCOPE (FIXED - DO NOT EXPAND)
 
-## 6. AI CONTRACT RULES (FROM ai.md)
+### 6 Core Features:
+1. **Smart Onboarding & Placement**
+    - Survey (12 questions)
+    - Placement test (fixed questions + 1 essay)
+    - AI CEFR evaluation → initial plan
 
-For every AI capability:
-- Input & output MUST be structured JSON
-- Output MUST include confidence / rationale
-- Backend ALWAYS validates AI output
-- Backend can override or reject AI result
+2. **Adaptive Learning Plan**
+    - Rolling 2-week cycles
+    - Auto/manual trigger
+    - Must complete current plan before next
 
-Claude MUST NOT:
-- Add new AI capabilities without updating ai.md
-- Change AI contract silently
+3. **Skill-Based Learning**
+    - 15 Lessons (theory 30% + practice 70%)
+    - 10 Practice Sessions (standalone)
+    - 3 skills: Reading, Writing, Speaking
 
-## 7. DATABASE & DATA OWNERSHIP
+4. **AI-Powered Feedback**
+    - Subjective grading (Writing, Speaking)
+    - Corrections + suggestions
+    - Store in `AttemptEvaluation`
 
-- PostgreSQL 16
-- Prisma ORM
-- ~45 tables (see data.md)
+5. **Dictionary & SRS**
+    - Dictionary lookup (DB → AI fallback)
+    - Collocations (separate table)
+    - SRS cards (SM-2 algorithm)
 
-Rules:
-- Each service owns its domain data
-- AI Service never touches DB
-- AI outputs must be logged for audit
+6. **Dashboard**
+    - Progress overview
+    - Skill breakdown
+    - Study time tracking
 
-## 8. HOW CLAUDE SHOULD WORK
+### What's NOT in MVP:
+- ❌ Listening skill
+- ❌ Audio file storage (use Web Speech API only)
+- ❌ Social features
+- ❌ Exam system (beyond placement test)
+- ❌ Marketplace
 
-Claude is acting as:
-- Senior Backend Engineer
-- System Architect assistant
+---
 
-Claude SHOULD:
-- Follow runbook strictly
-- Propose clean API contracts
-- Respect module boundaries
-- Prefer clarity over cleverness
+## 🤖 AI SERVICE CONTRACTS (FIXED)
 
-Claude SHOULD NOT:
-- Invent features not in runbook
-- Violate microservice rules
-- Make product decisions
+The AI service ONLY handles these 4 contracts:
 
-## Development Commands
+### 1. `ai.dictionary.generate`
+**Input**: `{ word: string }`  
+**Output**:
+```json
+{
+  "ipa": "/rʌn/",
+  "pos": "verb",
+  "senses": [{
+    "definition": "...",
+    "viDefinition": "...",
+    "examples": [{ "text": "...", "viText": "..." }],
+    "synonyms": ["..."],
+    "antonyms": ["..."],
+    "collocations": [{ "phrase": "...", "meaning": "...", "viMeaning": "..." }]
+  }]
+}
+```
 
-### Setup
+### 2. `ai.placement.cefr`
+**Input**: `{ surveyData, testResults, writingSample }`  
+**Output**:
+```json
+{
+  "overallLevel": "B1",
+  "confidence": 0.85,
+  "skillBreakdown": { "reading": "B1", "writing": "A2" },
+  "rationale": "..."
+}
+```
+
+### 3. `ai.plan.generate`
+**Input**: `{ userId, cefrLevel, goals, recentPerformance?, currentCycle }`  
+**Output**:
+```json
+{
+  "planItems": [{
+    "type": "lesson | practice_session",
+    "refId": "uuid",
+    "title": "...",
+    "dueDate": "2025-01-20",
+    "estimatedMinutes": 30
+  }],
+  "cycle": 2,
+  "generatedAt": "2025-01-15"
+}
+```
+
+### 4. `ai.grading.evaluate`
+**Input**: `{ questionType, userText }`  
+**Output**:
+```json
+{
+  "overallScore": 6.5,
+  "dimensions": [{
+    "name": "grammar",
+    "score": 6.0,
+    "issues": [...],
+    "comment": "..."
+  }],
+  "corrections": [{ "original": "...", "corrected": "...", "rule": "..." }],
+  "suggestions": [...]
+}
+```
+
+---
+
+## 🛠️ COMMON COMMANDS
+
 ```bash
 # Install dependencies
 pnpm install
 
-# Setup environment variables
-cp .env.example .env
-# Edit .env with your configuration (DATABASE_URL, JWT secrets, AI API keys, etc.)
-```
-
-### Database
-```bash
-# Run database migrations
+# Run migrations
 npx prisma migrate dev
-
-# Generate Prisma client
 npx prisma generate
 
-# View database in Prisma Studio
+# Start services
+pnpm run start:dev api-gateway
+pnpm run start:dev ai-service
+
+# Database studio
 npx prisma studio
+
+# Format code
+pnpm run format
+
+# Lint
+pnpm run lint
 ```
 
-### Development
-```bash
-# Start both API gateway and AI service in watch mode
-pnpm start-all:dev
+---
 
-# Start only API gateway
-pnpm start:dev
+## 📝 WHEN ASKING FOR HELP
 
-# Start both services in production mode
-pnpm start-all
+Always provide:
+1. **What module** are you working on?
+2. **What specific endpoint/feature**?
+3. **What have you tried**?
+4. **What's the error** (if any)?
+5. **Relevant code snippet**
+
+Example:
+```
+"I'm implementing POST /onboarding/survey endpoint.
+I created the DTO but getting validation error.
+Here's my DTO code: [paste]
+Error: [paste]"
 ```
 
-### Production
-```bash
-# Build the application
-pnpm build
+---
 
-# Start production build
-pnpm start:prod
-```
+## ⚠️ IMPORTANT REMINDERS
 
-### Code Quality
-```bash
-# Run ESLint with auto-fix
-pnpm lint
+1. **Never skip reading Runbook.txt** - it contains all critical decisions
+2. **Auth module is DONE** - don't modify unless bug found
+3. **API spec is finalized** - don't add new endpoints without discussion
+4. **Prisma schema is locked** - migrations only for corrections
+5. **This is a 1-person thesis** - prioritize "good enough & working" over "perfect but complex"
 
-# Format code with Prettier
-pnpm format
+---
 
-# Run all tests
-pnpm test
-```
+## 🎓 FOR CLAUDE CODE
 
-### Docker
-```bash
-# Build Docker image
-docker build -t linguapanda-core .
+When you (Claude Code) work on this project:
+- **Always check ContextSnapshot.txt first** to know current state
+- **Follow the API spec in BackEnd.txt** exactly
+- **Respect the architecture rules** (no shortcuts)
+- **Ask before adding features** not in the spec
+- **Keep code clean and documented**
+- **Test each endpoint before moving to next**
 
-# Run container (ensure DATABASE_URL and other env vars are set)
-docker run -p 3000:3000 linguapanda-core
-```
-
-## Key Technologies
-
-### Backend
-- NestJS 10, TypeScript
-- PostgresSQL 16 + Prisma
-- Redis + BullMQ
-- JWT (access + refresh)
-- Argon2id for password hashing
-
-### AI Service
-- Gemini Pro (called from apps/ai-service via API key in env)
-- AI service is NestJS microservice (MessagePattern-based)
-
-## Module Structure
-
-The API Gateway is organized into modules in `apps/api-gateway/src/modules/`:
-- `auth` - Authentication (local + Google OAuth)
-- `assessments` - AI-powered placement testing
-- `cms` - Content management system
-- `dictionary` - Smart dictionary with AI fallback
-- `exams` - Examination management
-- `notifications` - User notifications
-- `onboarding` - User onboarding flow
-- `plans` - Learning plan generation
-- `reports` - Progress reports
-- `srs` - Spaced Repetition System
-- `users` - User management
-
-## Environment Variables
-
-Required environment variables (see `.env.example`):
-- `DATABASE_URL` - PostgreSQL connection string
-- `AI_SERVICE_HOST` - AI service endpoint
-- `REDIS_HOST`, `REDIS_PORT` - Redis configuration
-- `JWT_SECRET`, `JWT_ACCESS_TTL`, `JWT_REFRESH_TTL` - JWT configuration
-- `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` - Google OAuth
-- `LLM_API_KEY` - OpenAI API key
-- `LLM_MODEL` - AI model to use
-
-## API Documentation
-
-Swagger UI is available at:
-```
-http://localhost:3000/api/docs
-```
-
-## Core Learning Flows
-
-1. **Placement Flow**: User signup → Profile → Placement test → AI CEFR evaluation → Personalized learning plan
-2. **Daily Learning**: Lessons (Reading/Grammar/Vocab) → Writing practice → AI feedback → Progress tracking
-3. **SRS Flow**: Dictionary lookup → Add to flashcards → Daily review → Vocabulary progress
-
-## Important Notes
-
-- The project uses pnpm workspaces for monorepo management
-- Database schema has 45 tables and is managed through Prisma
-- Both services can be run concurrently using the custom `concurrently.js` script
-- The frontend (Next.js) is planned but not yet implemented
-- All API endpoints require JWT authentication (except auth endpoints)
+Good luck building! 🚀
