@@ -150,19 +150,19 @@ jobs:
             cd /var/www/lingua-core
           
             echo "=== Stopping old containers ==="
-            docker-compose -f docker-compose.prod.yml down || true
+            docker compose -f docker compose.prod.yml down || true
           
             echo "=== Building new images ==="
-            docker-compose -f docker-compose.prod.yml build --no-cache
+            docker compose -f docker compose.prod.yml build --no-cache
           
             echo "=== Starting containers ==="
-            docker-compose -f docker-compose.prod.yml up -d
+            docker compose -f docker compose.prod.yml up -d
           
             echo "=== Waiting for containers to be healthy ==="
             sleep 15
           
             echo "=== Container status ==="
-            docker-compose -f docker-compose.prod.yml ps
+            docker compose -f docker compose.prod.yml ps
           
             echo "Deployment completed!"
           ENDSSH
@@ -185,10 +185,9 @@ jobs:
             echo "This might be normal if health endpoint is not yet implemented."
           fi
 
-      # ==========================================
       # STEP 7: Cleanup old Docker images
       # ==========================================
-      - name: 🧹 Cleanup old images
+      - name: Cleanup old images
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USERNAME }}
@@ -203,10 +202,9 @@ jobs:
             echo "Cleanup completed!"
           ENDSSH
 
-      # ==========================================
       # STEP 8: Summary
       # ==========================================
-      - name: 📊 Deployment Summary
+      - name: Deployment Summary
         if: success()
         run: |
           echo "DEPLOYMENT SUCCESSFUL"
@@ -231,7 +229,7 @@ jobs:
             git reset --hard HEAD~1
           
             echo "=== Restarting containers with previous version ==="
-            docker-compose -f docker-compose.prod.yml up -d --build
+            docker compose -f docker compose.prod.yml up -d --build
           
             echo "Rolled back to previous version"
           ENDSSH
