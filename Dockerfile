@@ -17,8 +17,8 @@ RUN corepack enable && corepack prepare pnpm@latest --activate
 RUN pnpm install --frozen-lockfile
 COPY . .
 
-RUN npx prisma generate --schema=./prisma/schema.prisma --force && \
-    echo "✅ Prisma client generated" && \
+RUN pnpm exec prisma generate --schema=./prisma/schema.prisma --force && \
+    echo "Prisma client generated" && \
     ls -la node_modules/.prisma/
 
 ARG SERVICE_NAME
@@ -58,12 +58,12 @@ COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
 
 # Generate Prisma Client fresh for api-gateway
 RUN if [ "$SERVICE_NAME" = "api-gateway" ]; then \
-      echo "📦 Generating Prisma client for ${SERVICE_NAME}..."; \
-      npx prisma generate --schema=./prisma/schema.prisma --force && \
+      echo "Generating Prisma client for ${SERVICE_NAME}..."; \
+      pnpm exec prisma generate --schema=./prisma/schema.prisma --force && \
       chown -R nodejs:nodejs ./node_modules/.prisma && \
-      echo "✅ Prisma client generated"; \
+      echo "Prisma client generated"; \
     else \
-      echo "ℹ️  Skipping Prisma for ${SERVICE_NAME}"; \
+      echo "Skipping Prisma for ${SERVICE_NAME}"; \
     fi
 
 # Copy built app
@@ -71,9 +71,6 @@ COPY --from=builder --chown=nodejs:nodejs /app/dist/apps/${SERVICE_NAME} ./dist
 
 USER nodejs
 EXPOSE ${SERVICE_PORT}
-
-HEALTHCHECK --interval=30s --timeout=3s --start-period=40s --retries=3 \
-  CMD wget --no-verbose --tries=1 --spider http://localhost:${PORT}/health || exit 1
 
 ENTRYPOINT ["dumb-init", "--"]
 CMD ["node", "dist/main.js"]

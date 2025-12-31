@@ -80,7 +80,6 @@ services:
         max-size: "10m"
         max-file: "3"
 
-
   # SERVICE 1: API Gateway (HTTP Server)
   api-gateway:
     build:
