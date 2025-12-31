@@ -101,7 +101,8 @@ COPY --from=builder --chown=nodejs:nodejs /app/package.json ./
 
 # Copy Prisma schema + generated client (for api-gateway)
 COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
-COPY --from=builder --chown=nodejs:nodejs /app/node_modules/.prisma ./node_modules/.prisma
+RUN mkdir -p ./node_modules/.prisma || true
+COPY --from=builder --chown=nodejs:nodejs /app/node_modules/.prisma ./node_modules/.prisma 2>/dev/null || true
 
 # Copy built application from builder stage
 COPY --from=builder --chown=nodejs:nodejs /app/dist/apps/${SERVICE_NAME} ./dist
