@@ -53,7 +53,7 @@ jobs:
   deploy:
     name: Deploy to VPS
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     steps:
       # STEP 1: CHECKOUT CODE
@@ -131,9 +131,7 @@ jobs:
           
           echo ".env file created successfully on VPS"
 
-
       # STEP 4: PULL LATEST CODE
-
       - name: Pull latest code on VPS
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
@@ -157,9 +155,7 @@ jobs:
             echo "Message: $COMMIT_MSG"
           ENDSSH
 
-
       # STEP 5: BACKUP CURRENT STATE (SAFETY)
-
       - name: Backup current containers
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
@@ -174,9 +170,7 @@ jobs:
             echo "Backup created"
           ENDSSH
 
-
       # STEP 6: DEPLOY WITH DOCKER COMPOSE
-
       - name: Deploy containers
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
@@ -190,7 +184,7 @@ jobs:
             docker compose -f docker-compose.prod.yml down || true
           
             echo "Building new images (this may take 5-10 minutes)..."
-            docker compose -f docker-compose.prod.yml build --no-cache
+            docker compose -f docker-compose.prod.yml build
           
             echo "Starting containers..."
             docker compose -f docker-compose.prod.yml up -d
@@ -204,9 +198,7 @@ jobs:
             echo "Deployment completed!"
           ENDSSH
 
-
       # STEP 7: HEALTH CHECK
-
       - name: Health check
         if: ${{ github.event.inputs.skip_tests != 'true' }}
         env:
@@ -228,7 +220,6 @@ jobs:
             echo "This might be normal if /health endpoint is not yet implemented."
           fi
 
-
       # STEP 8: VERIFY LOGS
       - name: Check service logs
         if: always()
@@ -246,7 +237,6 @@ jobs:
             docker logs linguapanda_ai_service --tail 20 2>&1 || echo "Container not running"
           ENDSSH
 
-
       # STEP 9: CLEANUP OLD IMAGES
       - name: Cleanup old Docker images
         env:
@@ -263,7 +253,6 @@ jobs:
             echo "Cleanup completed!"
           ENDSSH
 
-
       # STEP 10: DEPLOYMENT SUMMARY
       - name: Deployment Summary
         if: success()
@@ -273,7 +262,6 @@ jobs:
           echo "Deployed by: ${{ github.actor }}"
           echo "Time: $(date)"
           echo "Access: http://${{ secrets.VPS_HOST }}:3000"
-
 
       # STEP 11: ROLLBACK ON FAILURE
       - name: Rollback on failure
