@@ -6,7 +6,9 @@
 	"private": true,
 	"license": "UNLICENSED",
 	"scripts": {
-		"build": "nest build api-gateway",
+		"build": "nest build",
+		"build:api-gateway": "nest build api-gateway",
+		"build:ai-service": "nest build ai-service",
 		"format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
 		"start": "nest start api-gateway",
 		"start:dev": "nest start api-gateway --watch",

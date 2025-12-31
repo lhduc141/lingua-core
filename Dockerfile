@@ -1,10 +1,6 @@
-# ============================================================
 # LINGUAPANDA - PRODUCTION DOCKERFILE (MONOREPO, PRISMA ONLY FOR api-gateway)
-# ============================================================
 
-# -------------------------
 # STAGE 1: DEPENDENCIES (prod only)
-# -------------------------
 FROM node:20-alpine AS deps
 WORKDIR /app
 
@@ -19,9 +15,7 @@ RUN corepack enable && corepack prepare pnpm@latest --activate
 RUN pnpm install --frozen-lockfile --prod
 
 
-# -------------------------
 # STAGE 2: BUILDER (full deps + build)
-# -------------------------
 FROM node:20-alpine AS builder
 WORKDIR /app
 
@@ -60,9 +54,7 @@ RUN if [ "$SERVICE_NAME" = "api-gateway" ]; then \
 RUN pnpm build ${SERVICE_NAME}
 
 
-# -------------------------
 # STAGE 3: RUNNER (prod runtime)
-# -------------------------
 FROM node:20-alpine AS runner
 WORKDIR /app
 
