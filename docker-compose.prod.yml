@@ -1,12 +1,13 @@
 version: '3.8'
 
-# ===================================
-# LINGUAPANDA - PRODUCTION COMPOSE
-# ===================================
-# Services: Postgres, Redis, API Gateway, Auth, Admin, AI, Learning
-# Network: Internal bridge network for service-to-service communication
+# LINGUAPANDA - PRODUCTION DOCKER COMPOSE
+# Architecture: Modular Monorepo with 2 Services
+# - api-gateway: HTTP server (port 3000)
+# - ai-service: TCP microservice (port 4001)
 
 services:
+
+  # DATABASE: PostgreSQL
   postgres:
     image: postgres:17-alpine
     container_name: linguapanda_postgres
@@ -19,17 +20,17 @@ services:
       TZ: Asia/Ho_Chi_Minh
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./backups:/backups  # For manual backups
+      - ./backups:/backups
     ports:
-      - "5432:5432"  # Expose for external tools (can be removed for security)
+      - "5432:5432"  # Exposed for admin tools (optional: remove for security)
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U linguapanda_prod -d linguapanda_prod"]
       interval: 10s
       timeout: 5s
       retries: 5
+      start_period: 10s
     networks:
       - linguapanda_network
-    # Resource limits
     deploy:
       resources:
         limits:
@@ -38,7 +39,14 @@ services:
         reservations:
           cpus: '0.5'
           memory: 1G
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
 
+
+  # CACHE: Redis
   redis:
     image: redis:7-alpine
     container_name: linguapanda_redis
@@ -50,10 +58,13 @@ services:
       --appendfsync everysec
       --maxmemory 512mb
       --maxmemory-policy allkeys-lru
+      --save 900 1
+      --save 300 10
+      --save 60 10000
     volumes:
       - redis_data:/data
     ports:
-      - "6379:6379"  # Expose for monitoring (can be removed for security)
+      - "6379:6379"  # Exposed for monitoring (optional: remove for security)
     healthcheck:
       test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
       interval: 10s
@@ -66,20 +77,36 @@ services:
         limits:
           cpus: '0.5'
           memory: 512M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
 
-  # API Gateway
+
+  # SERVICE 1: API Gateway (HTTP Server)
   api-gateway:
     build:
-      context: ./apps/api-gateway
-      dockerfile: Dockerfile.prod
+      context: .
+      dockerfile: Dockerfile
       args:
-        NODE_ENV: production
+        SERVICE_NAME: api-gateway
+        SERVICE_PORT: 3000
+      # cache_from:
+      #   - linguapanda-api-gateway:latest  # Use for faster rebuilds
+    image: linguapanda-api-gateway:${IMAGE_TAG:-latest}
     container_name: linguapanda_api_gateway
     restart: unless-stopped
     env_file: .env
     environment:
       - NODE_ENV=production
       - PORT=3000
+      - DATABASE_URL=${DATABASE_URL}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=${REDIS_PASSWORD}
+      - AI_SERVICE_HOST=ai-service
+      - AI_SERVICE_PORT=4001
     ports:
       - "3000:3000"
     depends_on:
@@ -87,8 +114,59 @@ services:
         condition: service_healthy
       redis:
         condition: service_healthy
+      ai-service:
+        condition: service_started
     healthcheck:
       test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    networks:
+      - linguapanda_network
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 1G
+        reservations:
+          cpus: '0.3'
+          memory: 512M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+
+  # SERVICE 2: AI Service (TCP Microservice)
+  ai-service:
+    build:
+      context: .                      # Build context = ROOT (for monorepo)
+      dockerfile: Dockerfile
+      args:
+        SERVICE_NAME: ai-service
+        SERVICE_PORT: 4001
+      # cache_from:
+      #   - linguapanda-ai-service:latest
+    image: linguapanda-ai-service:${IMAGE_TAG:-latest}
+    container_name: linguapanda_ai_service
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - NODE_ENV=production
+      - PORT=4001
+      - LLM_API_KEY=${LLM_API_KEY}
+      - LLM_MODEL=${LLM_MODEL:-gemini-2.0-flash-exp}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=${REDIS_PASSWORD}
+    ports:
+      - "4001:4001"  # TCP port for microservice communication
+    depends_on:
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:4001/health"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -100,122 +178,16 @@ services:
         limits:
           cpus: '0.5'
           memory: 512M
-
-  # Auth Service
-  auth-service:
-    build:
-      context: ./apps/auth-service
-      dockerfile: Dockerfile.prod
-      args:
-        NODE_ENV: production
-    container_name: linguapanda_auth_service
-    restart: unless-stopped
-    env_file: .env
-    environment:
-      - NODE_ENV=production
-      - PORT=4000
-    depends_on:
-      postgres:
-        condition: service_healthy
-      redis:
-        condition: service_healthy
-    healthcheck:
-      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:4000/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-    networks:
-      - linguapanda_network
-    deploy:
-      resources:
-        limits:
-          cpus: '0.3'
+        reservations:
+          cpus: '0.2'
           memory: 256M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
 
-  # Admin Service
-  admin-service:
-    build:
-      context: ./apps/admin-service
-      dockerfile: Dockerfile.prod
-      args:
-        NODE_ENV: production
-    container_name: linguapanda_admin_service
-    restart: unless-stopped
-    env_file: .env
-    environment:
-      - NODE_ENV=production
-      - PORT=4002
-    depends_on:
-      postgres:
-        condition: service_healthy
-      redis:
-        condition: service_healthy
-    networks:
-      - linguapanda_network
-    deploy:
-      resources:
-        limits:
-          cpus: '0.3'
-          memory: 256M
-
-  # AI Service
-  ai-service:
-    build:
-      context: ./apps/ai-service
-      dockerfile: Dockerfile.prod
-      args:
-        NODE_ENV: production
-    container_name: linguapanda_ai_service
-    restart: unless-stopped
-    env_file: .env
-    environment:
-      - NODE_ENV=production
-      - PORT=4001
-      - LLM_API_KEY=${LLM_API_KEY}
-      - LLM_MODEL=${LLM_MODEL:-gemini-2.0-flash-exp}
-    depends_on:
-      redis:
-        condition: service_healthy
-    healthcheck:
-      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:4001/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-    networks:
-      - linguapanda_network
-    deploy:
-      resources:
-        limits:
-          cpus: '0.5'
-          memory: 512M
-
-  # Learning Service
-  learning-service:
-    build:
-      context: ./apps/learning-service
-      dockerfile: Dockerfile.prod
-      args:
-        NODE_ENV: production
-    container_name: linguapanda_learning_service
-    restart: unless-stopped
-    env_file: .env
-    environment:
-      - NODE_ENV=production
-      - PORT=4003
-    depends_on:
-      postgres:
-        condition: service_healthy
-      redis:
-        condition: service_healthy
-    networks:
-      - linguapanda_network
-    deploy:
-      resources:
-        limits:
-          cpus: '0.5'
-          memory: 512M
-
-  # REVERSE PROXY - Nginx
+  # REVERSE PROXY: Nginx
   nginx:
     image: nginx:alpine
     container_name: linguapanda_nginx
@@ -226,8 +198,7 @@ services:
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
       - ./nginx/conf.d:/etc/nginx/conf.d:ro
-      - ./frontend/out:/usr/share/nginx/html:ro  # Next.js static build
-      - ./nginx/ssl:/etc/nginx/ssl:ro  # SSL certificates
+      - ./nginx/ssl:/etc/nginx/ssl:ro
       - nginx_logs:/var/log/nginx
     depends_on:
       - api-gateway
@@ -236,10 +207,18 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.2'
+          cpus: '0.3'
           memory: 128M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    # Only start if nginx config exists
+    profiles:
+      - with-nginx
 
-  # MONITORING - Portainer (Optional)
+  # MONITORING: Portainer
   portainer:
     image: portainer/portainer-ce:latest
     container_name: linguapanda_portainer
@@ -256,14 +235,21 @@ services:
         limits:
           cpus: '0.2'
           memory: 256M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
 
 # NETWORKS
 networks:
   linguapanda_network:
     driver: bridge
     ipam:
+      driver: default
       config:
         - subnet: 172.25.0.0/16
+          gateway: 172.25.0.1
 
 # VOLUMES
 volumes:
@@ -275,23 +261,3 @@ volumes:
     driver: local
   portainer_data:
     driver: local
-
-# ===================================
-# DEPLOYMENT COMMANDS
-# Start all services:
-#   docker-compose -f docker-compose.prod.yml up -d --build
-#
-# View logs:
-#   docker-compose -f docker-compose.prod.yml logs -f [service_name]
-#
-# Stop all services:
-#   docker-compose -f docker-compose.prod.yml down
-#
-# Restart a service:
-#   docker-compose -f docker-compose.prod.yml restart [service_name]
-#
-# Check status:
-#   docker-compose -f docker-compose.prod.yml ps
-#
-# Database backup:
-#   docker exec linguapanda_postgres pg_dump -U linguapanda_prod linguapanda_prod > ./backups/backup_$(date +%Y%m%d_%H%M%S).sql

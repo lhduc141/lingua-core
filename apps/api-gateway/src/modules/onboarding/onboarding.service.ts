@@ -1,7 +1,7 @@
 // onboarding.service.ts
 
 import { Injectable } from '@nestjs/common';
-import { PrismaService } from 'apps/api-gateway/prisma/prisma.service';
+import { PrismaService } from '../../../../../prisma/prisma.service';
 import { UpsertOnboardingSurveyDto } from './dto/upsert-onboarding-survey.dto';
 import type { JwtPayloadDto } from '@app/jwt';
 import { NotFoundException, ResponseDto } from '@app/shared';
@@ -49,12 +49,12 @@ export class OnboardingService {
 				// 	where: { surveyId: survey.surveyId },
 				// }),
 				// this.prisma.onboardingSurvey.createMany({
-					// data: dto.answers.map((a) => ({
-					// 	surveyId: survey.surveyId,
-					// 	questionKey: a.key,
-					// 	answerValue: a.value,
-					// 	questionOrder: a.order ?? 0,
-					// })),
+				// data: dto.answers.map((a) => ({
+				// 	surveyId: survey.surveyId,
+				// 	questionKey: a.key,
+				// 	answerValue: a.value,
+				// 	questionOrder: a.order ?? 0,
+				// })),
 				// }),
 			]);
 		}

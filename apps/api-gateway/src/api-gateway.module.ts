@@ -6,7 +6,7 @@ import { MainModule } from './modules/main.module';
 import { ConfigModule } from '@nestjs/config';
 import configuration from './config/configuration';
 import { AuthModule } from './modules/auth/auth.module';
-import { PrismaModule } from '../prisma/prisma.module';
+import { PrismaModule } from '../../../prisma/prisma.module';
 import { JwtModule } from '@app/jwt';
 import { ClientsModule, Transport } from '@nestjs/microservices';
 

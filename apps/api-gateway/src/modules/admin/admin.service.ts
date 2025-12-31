@@ -1,5 +1,5 @@
 import { BadRequestException, Injectable, Logger, NotFoundException } from '@nestjs/common';
-import { PrismaService } from 'apps/api-gateway/prisma/prisma.service';
+import { PrismaService } from '../../../../../prisma/prisma.service';
 import { CreatePassageDto } from './dto/create-passage.dto';
 import { CreateQuestionDto } from './dto/create-question.dto';
 import { CreateLessonDto } from './dto/create-lesson.dto';

@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException, UnauthorizedException } from '@nestjs/common';
 import { User } from '@prisma/client';
-import { PrismaService } from 'apps/api-gateway/prisma/prisma.service';
+import { PrismaService } from '../../../../../prisma/prisma.service';
 import { UpdateProfileDto } from '../auth/dto/update-profile.dto';
 import { ProfileMeDto } from '../auth/dto/profile-me.dto';
 import { ResponseDto } from '@app/shared';
