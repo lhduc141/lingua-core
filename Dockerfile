@@ -1,29 +1,31 @@
 # ============================================================
-# LINGUAPANDA - PRODUCTION DOCKERFILE (FIXED & PROD-SAFE)
+# LINGUAPANDA - PRODUCTION DOCKERFILE (MONOREPO, PRISMA ONLY FOR api-gateway)
 # ============================================================
 
-# STAGE 1: DEPENDENCIES
+# -------------------------
+# STAGE 1: DEPENDENCIES (prod only)
+# -------------------------
 FROM node:20-alpine AS deps
 WORKDIR /app
 
-# Required for Prisma on Alpine
+# Helpful for native modules on Alpine (safe to have)
 RUN apk add --no-cache libc6-compat openssl
 
-# Copy lockfiles
 COPY package.json pnpm-lock.yaml* ./
 
-# Enable pnpm via Corepack
 RUN corepack enable && corepack prepare pnpm@latest --activate
 
-# Install production dependencies only
+# Production deps only
 RUN pnpm install --frozen-lockfile --prod
 
 
-# STAGE 2: BUILDER
+# -------------------------
+# STAGE 2: BUILDER (full deps + build)
+# -------------------------
 FROM node:20-alpine AS builder
 WORKDIR /app
 
-# Build tools for native deps + Prisma
+# Build tools (needed for some native deps during install/build)
 RUN apk add --no-cache \
     libc6-compat \
     openssl \
@@ -31,19 +33,15 @@ RUN apk add --no-cache \
     make \
     g++
 
-# Copy lockfiles
 COPY package.json pnpm-lock.yaml* ./
 
-# Enable pnpm
 RUN corepack enable && corepack prepare pnpm@latest --activate
 
-# Install full deps (incl. dev)
+# Full deps (incl dev deps)
 RUN pnpm install --frozen-lockfile
 
-# Copy source code
 COPY . .
 
-# Build arg: service name (required)
 ARG SERVICE_NAME
 ENV SERVICE_NAME=${SERVICE_NAME}
 
@@ -51,49 +49,55 @@ RUN if [ -z "$SERVICE_NAME" ]; then \
       echo "ERROR: SERVICE_NAME is required"; exit 1; \
     fi
 
-# Generate Prisma Client ONCE (build-time)
-RUN pnpm exec prisma generate
+# Prisma is only relevant for api-gateway (DB service)
+RUN if [ "$SERVICE_NAME" = "api-gateway" ]; then \
+      pnpm exec prisma generate && echo "Prisma client generated"; \
+    else \
+      echo "Skipping Prisma generate for ${SERVICE_NAME}"; \
+    fi
 
-# Build target service
+# Build the target service
 RUN pnpm build ${SERVICE_NAME}
 
 
-# STAGE 3: RUNNER
+# -------------------------
+# STAGE 3: RUNNER (prod runtime)
+# -------------------------
 FROM node:20-alpine AS runner
 WORKDIR /app
 
-# Runtime deps only
 RUN apk add --no-cache \
     libc6-compat \
     openssl \
     dumb-init \
     tzdata
 
-# Timezone
 ENV TZ=Asia/Ho_Chi_Minh
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-# Non-root user
 RUN addgroup -g 1001 -S nodejs && adduser -S nodejs -u 1001
 
-# Runtime env
 ARG SERVICE_NAME
 ARG SERVICE_PORT=3000
+
 ENV SERVICE_NAME=${SERVICE_NAME}
 ENV PORT=${SERVICE_PORT}
 ENV NODE_ENV=production
 
-# Copy production node_modules
+# Copy production dependencies
 COPY --from=deps --chown=nodejs:nodejs /app/node_modules ./node_modules
 
-# Copy Prisma schema + generated client
-COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
-COPY --from=builder --chown=nodejs:nodejs /app/node_modules/.prisma ./node_modules/.prisma
+# Copy package.json (optional but nice for tooling/metadata)
+COPY --from=builder --chown=nodejs:nodejs /app/package.json ./
 
-# Copy built output
+# Copy Prisma schema (harmless even if ai-service doesn't use it)
+COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
+
+# ai-service doesn't use DB, and your project doesn't have node_modules/.prisma anyway (JS-only prisma client)
+
+# Copy built app
 COPY --from=builder --chown=nodejs:nodejs /app/dist/apps/${SERVICE_NAME} ./dist
 
-# Switch to non-root
 USER nodejs
 
 EXPOSE ${SERVICE_PORT}
