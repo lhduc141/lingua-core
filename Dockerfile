@@ -102,20 +102,21 @@ COPY --from=builder --chown=nodejs:nodejs /app/package.json ./
 # Copy Prisma schema + generated client (for api-gateway)
 COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
 RUN mkdir -p ./node_modules/.prisma || true
-COPY --from=builder --chown=nodejs:nodejs /app/node_modules/.prisma ./node_modules/.prisma 2>/dev/null || true
+RUN --mount=type=bind,from=builder,source=/app/node_modules/.prisma,target=/mnt/prisma-src \
+    if [ -d "/mnt/prisma-src" ] && [ "$(ls -A /mnt/prisma-src)" ]; then \
+      mkdir -p ./node_modules/.prisma && \
+      cp -r /mnt/prisma-src/* ./node_modules/.prisma/ && \
+      chown -R nodejs:nodejs ./node_modules/.prisma; \
+    else \
+      echo "ℹNo Prisma client to copy"; \
+    fi
 
 # Copy built application from builder stage
 COPY --from=builder --chown=nodejs:nodejs /app/dist/apps/${SERVICE_NAME} ./dist
 
-# Verify copied files
-RUN echo "📦 Final image contents:" && \
-    ls -lah ./dist/ && \
-    echo "✅ All files copied successfully"
-
 # Switch to non-root user for security
-USER nodejs
-
 # Expose port (documented, not enforced)
+USER nodejs
 EXPOSE ${SERVICE_PORT}
 
 # Health check
