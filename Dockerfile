@@ -17,7 +17,7 @@ RUN corepack enable && corepack prepare pnpm@latest --activate
 RUN pnpm install --frozen-lockfile
 COPY . .
 
-RUN pnpm exec prisma generate --schema=./prisma/schema.prisma && \
+RUN pnpm exec prisma generate && \
     echo "Prisma client generated" && \
     ls -la node_modules/.prisma/
 
@@ -58,8 +58,7 @@ COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
 
 # Generate Prisma Client fresh for api-gateway
 RUN if [ "$SERVICE_NAME" = "api-gateway" ]; then \
-      echo "Generating Prisma client for ${SERVICE_NAME}..."; \
-      pnpm exec prisma generate --schema=./prisma/schema.prisma && \
+      pnpm exec prisma generate && \
       chown -R nodejs:nodejs ./node_modules/.prisma && \
       echo "Prisma client generated"; \
     else \
