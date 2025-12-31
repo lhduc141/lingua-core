@@ -1,12 +1,9 @@
-version: '3.8'
-
 # LINGUAPANDA - PRODUCTION DOCKER COMPOSE
 # Architecture: Modular Monorepo with 2 Services
 # - api-gateway: HTTP server (port 3000)
 # - ai-service: TCP microservice (port 4001)
 
 services:
-
   # DATABASE: PostgreSQL
   postgres:
     image: postgres:17-alpine

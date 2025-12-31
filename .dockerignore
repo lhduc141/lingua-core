@@ -1,0 +1,65 @@
+# .dockerignore - LINGUAPANDA
+# Purpose: Exclude files from Docker build context
+
+# GIT & VERSION CONTROL
+.git
+.gitignore
+.gitattributes
+.github
+
+# DEPENDENCIES
+node_modules
+.pnpm-store
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# BUILD OUTPUT
+dist
+build
+.next
+out
+
+# DOCUMENTATION
+*.md
+!README.md
+docs/
+
+# ENVIRONMENT FILES
+.env
+.env.*
+!.env.example
+
+# DEVELOPMENT FILES
+.vscode
+.idea
+*.swp
+.DS_Store
+coverage
+.nyc_output
+
+# TESTING FILES
+**/*.test.ts
+**/*.spec.ts
+**/__tests__
+**/__mocks__
+jest.config.js
+
+# LOGS & TEMP
+logs
+*.log
+tmp
+temp
+*.tmp
+
+# DOCKER FILES (avoid recursion)
+Dockerfile
+Dockerfile.*
+docker-compose*.yml
+.dockerignore
+
+# PRISMA CONFIG - IMPORTANT!
+prisma.config.ts
+
+# PRISMA MIGRATIONS
+prisma/migrations

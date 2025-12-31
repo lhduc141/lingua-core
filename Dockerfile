@@ -40,7 +40,7 @@ RUN pnpm install --frozen-lockfile
 COPY . .
 
 # Generate Prisma Client (required for api-gateway)
-RUN npx prisma generate
+RUN npx prisma generate --schema=./prisma/schema.prisma
 
 # Build argument: which service to build
 ARG SERVICE_NAME
