@@ -59,7 +59,7 @@ COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
 # Generate Prisma Client fresh for api-gateway
 RUN if [ "$SERVICE_NAME" = "api-gateway" ]; then \
       echo "Generating Prisma client for ${SERVICE_NAME}..."; \
-      pnpm exec prisma generate --schema=./prisma/schema.prisma --force && \
+      pnpm exec prisma generate --schema=./prisma/schema.prisma && \
       chown -R nodejs:nodejs ./node_modules/.prisma && \
       echo "Prisma client generated"; \
     else \
