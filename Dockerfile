@@ -17,7 +17,10 @@ RUN corepack enable && corepack prepare pnpm@latest --activate
 RUN pnpm install --frozen-lockfile
 COPY . .
 
-# Build argument: which service to build
+RUN npx prisma generate --schema=./prisma/schema.prisma --force && \
+    echo "✅ Prisma client generated" && \
+    ls -la node_modules/.prisma/
+
 ARG SERVICE_NAME
 ENV SERVICE_NAME=${SERVICE_NAME}
 
@@ -44,7 +47,7 @@ ENV SERVICE_NAME=${SERVICE_NAME}
 ENV PORT=${SERVICE_PORT}
 ENV NODE_ENV=production
 
-# Copy dependencies
+# Copy production dependencies
 COPY --from=deps --chown=nodejs:nodejs /app/node_modules ./node_modules
 
 # Copy package.json
@@ -53,13 +56,14 @@ COPY --from=builder --chown=nodejs:nodejs /app/package.json ./
 # Copy Prisma schema
 COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
 
-# Generate Prisma Client in runner stage (avoids copy issues)
+# Generate Prisma Client fresh for api-gateway
 RUN if [ "$SERVICE_NAME" = "api-gateway" ]; then \
-      echo "Generating Prisma client for api-gateway..."; \
-      npx prisma generate --schema=./prisma/schema.prisma && \
-      chown -R nodejs:nodejs ./node_modules/.prisma; \
+      echo "📦 Generating Prisma client for ${SERVICE_NAME}..."; \
+      npx prisma generate --schema=./prisma/schema.prisma --force && \
+      chown -R nodejs:nodejs ./node_modules/.prisma && \
+      echo "✅ Prisma client generated"; \
     else \
-      echo "Skipping Prisma (not needed for ${SERVICE_NAME})"; \
+      echo "ℹ️  Skipping Prisma for ${SERVICE_NAME}"; \
     fi
 
 # Copy built app
