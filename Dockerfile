@@ -17,7 +17,7 @@ RUN corepack enable && corepack prepare pnpm@latest --activate
 RUN pnpm install --frozen-lockfile
 COPY . .
 
-RUN pnpm exec prisma generate --schema=./prisma/schema.prisma --force && \
+RUN pnpm exec prisma generate --schema=./prisma/schema.prisma && \
     echo "Prisma client generated" && \
     ls -la node_modules/.prisma/
 
