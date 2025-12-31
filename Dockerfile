@@ -77,7 +77,20 @@ ENV PORT=${SERVICE_PORT}
 ENV NODE_ENV=production
 
 # Copy production dependencies
+RUN if [ "$SERVICE_NAME" = "api-gateway" ]; then \
+      echo "Using node_modules from builder (includes Prisma client)"; \
+    else \
+      echo "Using node_modules from deps (prod-only)"; \
+    fi
+
 COPY --from=deps --chown=nodejs:nodejs /app/node_modules ./node_modules
+COPY --from=builder --chown=nodejs:nodejs /app/node_modules ./node_modules_builder
+
+RUN if [ "$SERVICE_NAME" = "api-gateway" ]; then \
+      rm -rf ./node_modules && mv ./node_modules_builder ./node_modules; \
+    else \
+      rm -rf ./node_modules_builder; \
+    fi
 
 # Copy package.json (optional but nice for tooling/metadata)
 COPY --from=builder --chown=nodejs:nodejs /app/package.json ./
