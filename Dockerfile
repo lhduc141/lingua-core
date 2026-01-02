@@ -96,9 +96,8 @@ RUN if [ "$SERVICE_NAME" = "api-gateway" ]; then \
 COPY --from=builder --chown=nodejs:nodejs /app/package.json ./
 
 # Copy Prisma schema (harmless even if ai-service doesn't use it)
-COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
-
 # ai-service doesn't use DB, and your project doesn't have node_modules/.prisma anyway (JS-only prisma client)
+COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
 
 # Copy built app
 COPY --from=builder --chown=nodejs:nodejs /app/dist/apps/${SERVICE_NAME} ./dist
