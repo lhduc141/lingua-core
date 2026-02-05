@@ -1,0 +1,7 @@
+export enum ExperienceLevelEnum {
+	NEVER = 'NEVER',
+	SCHOOL = 'SCHOOL',
+	SELF_STUDY = 'SELF_STUDY',
+	CLASSES = 'CLASSES',
+	ONLINE_COURSES = 'ONLINE_COURSES',
+}

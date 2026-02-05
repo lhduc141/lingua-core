@@ -1,0 +1,156 @@
+// onboarding.service.ts
+
+import { BadRequestException, Injectable, Logger } from '@nestjs/common';
+import type { JwtPayloadDto } from '@app/jwt';
+import { NotFoundException, ResponseDto } from '@app/shared';
+import { PrismaService } from 'prisma/prisma.service';
+import { OnboardingSurveyDto } from '../dto/get-survey-me.dto';
+import { SubmitSurveyDto } from '../dto/submit-survey.dto';
+import { SubmitSurveyResponseDto } from '../dto/submit-survey-response.dto';
+import { OnboardingSurveySelect } from 'prisma/selects';
+
+@Injectable()
+export class OnboardingService {
+	private readonly logger = new Logger(OnboardingService.name);
+	constructor(private prisma: PrismaService) {}
+
+	async getSurvey(userId: string): Promise<ResponseDto<OnboardingSurveyDto>> {
+		const survey = await this.prisma.onboardingSurvey.findUnique({
+			where: { userId },
+			select: OnboardingSurveySelect.full,
+		});
+
+		if (!survey) throw new NotFoundException('You do not done it before. Please try it');
+
+		return ResponseDto.success(OnboardingSurveyDto, survey, 'Lấy thông tin thành công');
+	}
+
+	async submitSurvey({ userId }: JwtPayloadDto, dto: SubmitSurveyDto): Promise<ResponseDto<SubmitSurveyResponseDto>> {
+		if (dto.targetGoal === 'certification' && !dto.targetCertification) {
+			throw new BadRequestException('Target certification is required when primary goal is certification');
+		}
+
+		const activeSurvey = await this.prisma.onboardingSurvey.findFirst({
+			where: { userId, isActive: true },
+			select: OnboardingSurveySelect.minimal,
+		});
+		const isUpdate = !!activeSurvey;
+
+		const result = await this.prisma.$transaction(async (tx) => {
+			if (activeSurvey) {
+				await tx.onboardingSurvey.updateMany({
+					where: { userId, isActive: true },
+					data: { isActive: false },
+				});
+
+				this.logger.log(`Disabled previous survey: surveyId=${activeSurvey.surveyId}`);
+			}
+
+			const newSurvey = await tx.onboardingSurvey.create({
+				data: {
+					userId,
+					isActive: true, // New survey is active
+
+					// TIER 1: REQUIRED
+					primaryGoal: dto.primaryGoal,
+					plannedStudyHoursPerWeek: dto.plannedStudyHoursPerWeek,
+					primaryFocusSkills: dto.primaryFocusSkills,
+
+					// TIER 2: IMPORTANT
+					targetDeadlineDate: dto.targetDeadlineDate ? new Date(dto.targetDeadlineDate) : null,
+					targetGoal: dto.targetGoal || null,
+					selfAssessedLevel: dto.selfAssessedLevel || null,
+					usageContext: dto.usageContext || null,
+					difficulties: (dto.difficulties || null) as any,
+
+					// TIER 3: OPTIONAL
+					additionalContext: dto.additionalContext || null,
+					yearsStudied: dto.yearsStudied || null,
+					previousLearningExperience: dto.previousLearningExperience || null,
+
+					// CERTIFICATION
+					targetCertification: dto.targetCertification || null,
+					targetScore: dto.targetScore || null,
+
+					// Timestamps
+					completedAt: new Date(),
+				},
+				select: OnboardingSurveySelect.basic,
+			});
+
+			return { newSurvey, previousSurvey: activeSurvey };
+		});
+
+		const responseData = {
+			surveyId: result.newSurvey.surveyId,
+			completedAt: result.newSurvey.completedAt,
+			isUpdate,
+			message: isUpdate
+				? 'Survey updated successfully. Previous version has been saved for your records.'
+				: 'Survey submitted successfully. You can now take the placement test.',
+			survey: {
+				primaryGoal: result.newSurvey.primaryGoal,
+				plannedStudyHoursPerWeek: result.newSurvey.plannedStudyHoursPerWeek,
+				primaryFocusSkills: result.newSurvey.primaryFocusSkills as string[],
+			},
+		};
+
+		return ResponseDto.success(SubmitSurveyResponseDto, responseData, responseData.message);
+	}
+
+	async getSurveyHistory(userId: string) {
+		const surveys = await this.prisma.onboardingSurvey.findMany({
+			where: { userId },
+			select: OnboardingSurveySelect.basic,
+			orderBy: { completedAt: 'desc' },
+		});
+
+		if (surveys.length === 0) throw new NotFoundException('No survey history found.');
+
+		return {
+			total: surveys.length,
+			activeSurvey: surveys.find((s) => s.isActive),
+			history: surveys,
+		};
+	}
+
+	async isSurveyComplete(userId: string): Promise<boolean> {
+		const survey = await this.prisma.onboardingSurvey.findUnique({
+			where: { userId },
+			select: { completedAt: true },
+		});
+
+		return !!survey?.completedAt;
+	}
+
+	async getActiveSurvey(userId: string) {
+		return this.prisma.onboardingSurvey.findFirst({
+			where: { userId, isActive: true },
+		});
+	}
+
+	async compareSurveyChanges(userId: string) {
+		const surveys = await this.prisma.onboardingSurvey.findMany({
+			where: { userId },
+			orderBy: { completedAt: 'desc' },
+			take: 2,
+		});
+
+		if (surveys.length < 2) return null;
+
+		const [current, previous] = surveys;
+
+		return {
+			goalChanged: current.primaryGoal !== previous.primaryGoal,
+			hoursChanged: current.plannedStudyHoursPerWeek !== previous.plannedStudyHoursPerWeek,
+			skillsChanged: JSON.stringify(current.primaryFocusSkills) !== JSON.stringify(previous.primaryFocusSkills),
+			levelChanged: current.selfAssessedLevel !== previous.selfAssessedLevel,
+
+			changes: {
+				goal: { from: previous.primaryGoal, to: current.primaryGoal },
+				hours: { from: previous.plannedStudyHoursPerWeek, to: current.plannedStudyHoursPerWeek },
+				skills: { from: previous.primaryFocusSkills, to: current.primaryFocusSkills },
+			},
+		};
+	}
+}

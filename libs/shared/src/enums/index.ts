@@ -2,3 +2,8 @@ export * from './cefr-level.enum';
 export * from './theory-section-type.enum';
 export * from './lesson-status.enum';
 export * from './skills.enum';
+export * from './primary-goals.enum';
+export * from './cefr-type.enum';
+export * from './assessed-level.enum';
+export * from './experience.enum';
+export * from './usage-context.enum';

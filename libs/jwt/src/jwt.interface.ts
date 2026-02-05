@@ -6,7 +6,7 @@ import type * as jwt from 'jsonwebtoken';
  * Payload cho app
  * =======================================================*/
 
-export interface JwtPayloadDto {
+export class JwtPayloadDto {
 	sub: string; // userId
 	email?: string;
 	userId: string;
@@ -20,7 +20,7 @@ export interface JwtPayloadDto {
  * Options cho module
  * =======================================================*/
 
-export interface JwtModuleOptions {
+export class JwtModuleOptions {
 	accessTokenSecret?: string;
 	refreshTokenSecret?: string;
 	issuer?: string;
