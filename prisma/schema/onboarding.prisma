@@ -1,0 +1,43 @@
+// TODO:        ONBOARDING
+model OnboardingSurvey {
+  /**
+   * UPDATE
+   * 10/02: Update userId from unique to multi => user can change survey - update => create new and disable old
+   */
+
+  surveyId String @id @default(dbgenerated("gen_random_uuid()")) @map("survey_id") @db.Uuid
+  userId   String @map("user_id") @db.Uuid
+
+  //? TIER 1: REQUIRED
+  primaryGoal              String @map("primary_goal")
+  plannedStudyHoursPerWeek Int    @map("planned_study_hours_per_week")
+  primaryFocusSkills       Json   @map("primary_focus_skills")
+
+  //? TIER 2: IMPORTANT
+  targetDeadlineDate DateTime? @map("target_deadline_date") @db.Date
+  targetGoal         String?   @map("target_goal")
+  selfAssessedLevel  String?   @map("self_assessed_level")
+  usageContext       String?   @map("usage_context")
+  difficulties       Json?     @map("difficulties")
+
+  //? TIER 3: OPTIONAL - Context thêm
+  additionalContext          String? @map("additional_context")
+  yearsStudied               Int?    @map("years_studied")
+  previousLearningExperience String? @map("previous_learning_experience")
+
+  //? CERTIFICATION-SPECIFIC (conditional)
+  targetCertification String? @map("target_certification")
+  targetScore         String? @map("target_score")
+
+  // Timestamps
+  completedAt DateTime? @map("completed_at")
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+  deletedAt   DateTime? @map("deleted_at")
+  isActive Boolean @default(true) @map("is_active")
+
+  user User @relation(fields: [userId], references: [userId])
+
+  @@index([userId, createdAt(sort: Desc)])
+  @@map("onboarding_surveys")
+}

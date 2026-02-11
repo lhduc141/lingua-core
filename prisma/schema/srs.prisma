@@ -1,0 +1,107 @@
+// TODO ===========================
+// TODO             SRS
+// TODO ===========================
+
+// 1. SRS CARD
+model SrsCard {
+  cardId String @id @default(dbgenerated("gen_random_uuid()")) @map("card_id") @db.Uuid
+  userId String @map("user_id") @db.Uuid
+
+  // Card type: "dictionary" or "custom"
+  cardType SrsCardType @default(dictionary) @map("card_type") // "dictionary" | "custom"
+
+  // Link to Dictionary (if cardType = "dictionary")
+  entryId String? @map("entry_id") @db.Uuid
+
+  // Custom card content (if cardType = "custom")
+  front String? // Front of flashcard
+  back  String? // Back of flashcard
+  note  String? // User's personal note
+
+  // SRS Algorithm fields (SM-2)
+  ease         Decimal  @default(2.5) @db.Decimal()
+  intervalDays Int      @default(0) @map("interval_days")
+  dueAt        DateTime @default(now()) @map("due_at")
+
+  // Stats (denormalized for performance)
+  totalReviews Int       @default(0) @map("total_reviews")
+  correctCount Int       @default(0) @map("correct_count")
+  lastReviewAt DateTime? @map("last_review_at")
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  user        User                @relation(fields: [userId], references: [userId])
+  entry       DictEntry?          @relation(fields: [entryId], references: [entryId])
+  reviews     SrsReview[]
+  collections SrsCollectionCard[]
+
+  @@index([userId, dueAt])
+  @@index([userId, cardType])
+  @@index([entryId])
+  @@map("srs_cards")
+}
+
+// 2. SRS COLLECTION
+model SrsCollection {
+  collectionId String @id @default(dbgenerated("gen_random_uuid()")) @map("collection_id") @db.Uuid
+  userId       String @map("user_id") @db.Uuid
+
+  name        String // "IELTS Vocabulary", "Daily Words"
+  description String? // Optional description
+  color       String? // UI color: "#FF5733"
+  totalCards  Int     @default(0) @map("total_cards") // Count of cards
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  user  User                @relation(fields: [userId], references: [userId])
+  cards SrsCollectionCard[]
+
+  @@index([userId, createdAt(sort: Desc)])
+  @@map("srs_collections")
+}
+
+// 3. SRS COLLECTION CARD (Join table)
+// CHỈ CẦN nếu có SrsCollection
+// Một card có thể ở nhiều collections
+model SrsCollectionCard {
+  collectionId String @map("collection_id") @db.Uuid
+  cardId       String @map("card_id") @db.Uuid
+
+  addedAt   DateTime  @default(now()) @map("added_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  collection SrsCollection @relation(fields: [collectionId], references: [collectionId])
+  card       SrsCard       @relation(fields: [cardId], references: [cardId])
+
+  @@id([collectionId, cardId])
+  @@index([cardId])
+  @@map("srs_collection_cards")
+}
+
+// 4. SRS REVIEW
+model SrsReview {
+  reviewId String @id @default(dbgenerated("gen_random_uuid()")) @map("review_id") @db.Uuid
+  cardId   String @map("card_id") @db.Uuid
+
+  reviewedAt DateTime @default(now()) @map("reviewed_at") // When was this review
+  grade      Int // SM-2 grade: 0-5 (0=total blackout, 5=perfect)
+
+  responseMs      Int?    @map("response_ms") // Time to answer (milliseconds)
+  newIntervalDays Int     @map("new_interval_days") // Interval after this review
+  newEase         Decimal @map("new_ease") @db.Decimal() // Ease factor after this review
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  card SrsCard @relation(fields: [cardId], references: [cardId])
+
+  @@index([cardId, reviewedAt(sort: Desc)])
+  @@map("srs_reviews")
+}

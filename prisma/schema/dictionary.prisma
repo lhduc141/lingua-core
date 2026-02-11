@@ -1,0 +1,122 @@
+// TODO ===========================
+// TODO         DICTIONARY
+// TODO ===========================
+
+model DictEntry {
+  entryId String @id @default(dbgenerated("gen_random_uuid()")) @map("entry_id") @db.Uuid
+
+  lang     String // Language code: "en"
+  headword String // Main word: "run", "happy"
+  pos      String? // Part of speech: "verb", "noun", "adjective"
+  ipa      String? // Pronunciation: "/rʌn/"
+  source   String? // "ai" | "manual" | "cambridge"
+
+  frequency Int? // Word frequency rank: 1-10000 (lower = more common)
+  cefrLevel String? // CEFR level: "A1", "A2", "B1", "B2", "C1", "C2"
+  isCommon  Boolean @default(false) @map("is_common") // Is this a common word?
+  variants  Json? // Word forms: ["runs", "running", "ran"]
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  senses         DictSense[]
+  userVocabulary UserVocabulary[]
+  collocations   Collocation[]
+  SrsCard        SrsCard[]
+
+  @@index([headword, lang])
+  @@index([cefrLevel])
+  @@index([frequency])
+  @@map("dict_entries")
+}
+
+model DictSense {
+  senseId String @id @default(dbgenerated("gen_random_uuid()")) @map("sense_id") @db.Uuid
+  entryId String @map("entry_id") @db.Uuid
+
+  order    Int? // Order of this definition: 1 = most common
+  shortDef String  @map("short_def") // English definition
+  viDef    String? @map("vi_def") // Vietnamese translation
+  synonyms Json? // ["joyful", "glad", "cheerful"] max 5 ← JSON
+  antonyms Json? // ["sad", "unhappy"] max 5 ← JSON
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  entry        DictEntry     @relation(fields: [entryId], references: [entryId])
+  examples     DictExample[]
+  collocations Collocation[]
+
+  @@index([entryId, order])
+  @@map("dict_senses")
+}
+
+model DictExample {
+  exampleId   String  @id @default(dbgenerated("gen_random_uuid()")) @map("example_id") @db.Uuid
+  senseId     String  @map("sense_id") @db.Uuid
+  example     String // English example sentence
+  translation String? // Vietnamese translation
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  sense DictSense @relation(fields: [senseId], references: [senseId])
+
+  @@index([senseId])
+  @@map("dict_examples")
+}
+
+model Collocation {
+  collocationId String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  entryId       String @map("entry_id") @db.Uuid
+  senseId       String @map("sense_id") @db.Uuid
+
+  phrase    String // Collocation phrase: "run a business", "run out of"
+  meaning   String // English meaning: "to manage or operate a business"
+  viMeaning String? @map("vi_meaning") // Vietnamese meaning: "điều hành doanh nghiệp"
+  example   String? // Example sentence using this collocation
+  viExample String? @map("vi_example") // Vietnamese translation of example
+  frequency Int? // Frequency rank: 1-10000
+  cefrLevel String? @map("cefr_level") // CEFR level: "A1"-"C2"
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  entry DictEntry @relation(fields: [entryId], references: [entryId])
+  sense DictSense @relation(fields: [senseId], references: [senseId])
+
+  @@index([phrase])
+  @@index([entryId])
+  @@index([senseId])
+  @@index([cefrLevel])
+  @@map("collocations")
+}
+
+model UserVocabulary {
+  id      String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  userId  String @map("user_id") @db.Uuid
+  entryId String @map("entry_id") @db.Uuid
+
+  status  String // Learning status: "new", "learning", "familiar", "mastered"
+  note    String? // User's personal note
+  context String? // Where user found this word
+
+  addedAt    DateTime  @default(now()) @map("added_at")
+  lastSeenAt DateTime? @map("last_seen_at")
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  user  User      @relation(fields: [userId], references: [userId])
+  entry DictEntry @relation(fields: [entryId], references: [entryId])
+
+  @@unique([userId, entryId])
+  @@index([userId, status])
+  @@index([userId, addedAt(sort: Desc)])
+  @@map("user_vocabulary")
+}

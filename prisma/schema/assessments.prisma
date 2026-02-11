@@ -1,0 +1,147 @@
+//TODO   ASSESSMENT & PRACTICE
+model Assessment {
+  assessmentId  String            @id @default(dbgenerated("gen_random_uuid()")) @map("assessment_id") @db.Uuid
+  userId        String            @map("user_id") @db.Uuid
+  refType       AssessmentRefType @map("ref_type")
+  refId         String            @map("ref_id") @db.Uuid
+  kind          String?
+  status        AssessmentStatus  @default(draft)
+  startedAt     DateTime?         @map("started_at")
+  completedAt   DateTime?         @map("completed_at")
+  score         Decimal?          @db.Decimal()
+  displayLocale String?           @map("display_locale")
+  catSessionId  String?           @unique @map("cat_session_id") @db.Uuid
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  // Relations
+  user            User               @relation(fields: [userId], references: [userId])
+  catSession      CatSession?        @relation(name: "AssessmentCatSession", fields: [catSessionId], references: [sessionId])
+  attempts        Attempt[]
+  reports         AssessmentReport[]
+  bandScores      BandScore[]
+  sourcePlanItems LearningPlanItem[]
+
+  @@map("assessments")
+}
+
+model Attempt {
+  attemptId           String           @id @default(dbgenerated("gen_random_uuid()")) @map("attempt_id") @db.Uuid
+  userId              String           @map("user_id") @db.Uuid
+  assessmentId        String           @map("assessment_id") @db.Uuid
+  questionId          String           @map("question_id") @db.Uuid
+  sectionPosition     Int?             @map("section_position")
+  modality            AttemptModality?
+  submittedAt         DateTime?        @map("submitted_at")
+  score               Decimal?         @db.Decimal()
+  correct             Boolean?
+  inputAssetId        String?          @map("input_asset_id") @db.Uuid
+  transcriptAssetId   String?          @map("transcript_asset_id") @db.Uuid
+  outputAssetId       String?          @map("output_asset_id") @db.Uuid
+  gradingStatus       GradingStatus    @default(pending) @map("grading_status")
+  manualOverrideScore Decimal?         @map("manual_override_score") @db.Decimal()
+  raterId             String?          @map("rater_id") @db.Uuid
+  createdAt           DateTime         @default(now()) @map("created_at")
+  updatedAt           DateTime         @updatedAt @map("updated_at")
+  deletedAt           DateTime?        @map("deleted_at")
+
+  user        User                @relation(fields: [userId], references: [userId])
+  assessment  Assessment          @relation(fields: [assessmentId], references: [assessmentId])
+  question    Question            @relation(fields: [questionId], references: [questionId])
+  answers     AttemptAnswer[]
+  aiCalls     AttemptAiCall[]
+  evaluations AttemptEvaluation[]
+
+  inputAsset      Asset? @relation("InputAsset", fields: [inputAssetId], references: [assetId])
+  transcriptAsset Asset? @relation("TranscriptAsset", fields: [transcriptAssetId], references: [assetId])
+  outputAsset     Asset? @relation("OutputAsset", fields: [outputAssetId], references: [assetId])
+
+  @@map("attempts")
+}
+
+model AttemptAnswer {
+  attemptId     String    @map("attempt_id") @db.Uuid
+  position      Int
+  optionId      String?   @map("option_id") @db.Uuid
+  textAnswer    String?   @map("text_answer")
+  numericAnswer Decimal?  @map("numeric_answer") @db.Decimal()
+  jsonAnswer    Json?     @map("json_answer")
+  createdAt     DateTime  @default(now()) @map("created_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
+  deletedAt     DateTime? @map("deleted_at")
+
+  attempt Attempt         @relation(fields: [attemptId], references: [attemptId])
+  option  QuestionOption? @relation(fields: [optionId], references: [optionId])
+
+  @@id([attemptId, position])
+  @@map("attempt_answers")
+}
+
+model AttemptAiCall {
+  id                  String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  attemptId           String       @map("attempt_id") @db.Uuid
+  provider            String?
+  model               String?
+  version             String?
+  promptId            String?      @map("prompt_id") @db.Uuid
+  systemPromptId      String?      @map("system_prompt_id") @db.Uuid
+  inputHash           String?      @map("input_hash")
+  status              AiCallStatus @default(pending)
+  errorJson           Json?        @map("error_json")
+  retriedOfCallId     String?      @map("retried_of_call_id") @db.Uuid
+  promptTokens        Int?         @map("prompt_tokens")
+  completionTokens    Int?         @map("completion_tokens")
+  costUsd             Decimal?     @map("cost_usd") @db.Decimal()
+  latencyMs           Int?         @map("latency_ms")
+  guardrailFlags      Json?        @map("guardrail_flags")
+  outputSchemaVersion Int?         @map("output_schema_version")
+  temperature         Decimal?     @db.Decimal()
+  seed                Int?
+  toolCallsJson       Json?        @map("tool_calls_json")
+  traceId             String?      @map("trace_id")
+  createdAt           DateTime     @default(now()) @map("created_at")
+  updatedAt           DateTime     @updatedAt @map("updated_at")
+  deletedAt           DateTime?    @map("deleted_at")
+
+  attempt Attempt @relation(fields: [attemptId], references: [attemptId])
+  prompt  Prompt? @relation(fields: [promptId], references: [promptId])
+
+  @@map("attempt_ai_calls")
+}
+
+model AttemptEvaluation {
+  id            String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  attemptId     String    @map("attempt_id") @db.Uuid
+  evalType      String?   @map("eval_type") // ai | human | hybrid
+  framework     String? // ielts | cefr | custom
+  criteriaJson  Json?     @map("criteria_json")
+  overallScore  Decimal?  @map("overall_score") @db.Decimal()
+  evidenceJson  Json?     @map("evidence_json")
+  rubricVersion String?   @map("rubric_version")
+  createdAt     DateTime  @default(now()) @map("created_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
+  deletedAt     DateTime? @map("deleted_at")
+
+  attempt    Attempt         @relation(fields: [attemptId], references: [attemptId])
+  dimensions EvalDimension[]
+
+  @@map("attempt_evaluations")
+}
+
+model EvalDimension {
+  evalId        String    @id @default(dbgenerated("gen_random_uuid()")) @map("eval_id") @db.Uuid
+  attemptEvalId String    @map("attempt_eval_id") @db.Uuid
+  name          String
+  score         Decimal?  @db.Decimal()
+  evidenceJson  Json?     @map("evidence_json")
+  position      Int?
+  createdAt     DateTime  @default(now()) @map("created_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
+  deletedAt     DateTime? @map("deleted_at")
+
+  attemptEvaluation AttemptEvaluation @relation(fields: [attemptEvalId], references: [id])
+
+  @@map("eval_dimensions")
+}

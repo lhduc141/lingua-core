@@ -1,0 +1,728 @@
+{
+	"level": "A2",
+	"passages": [
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 1,
+				"wordCount": 112,
+				"topic": "Shopping",
+				"difficulty": 2
+			},
+			"passageText": "Last Saturday, Elena went to the new shopping center in the city center because she needed a dress for her cousin's wedding. The mall was very crowded and noisy, so she felt a bit stressed. She looked for a blue dress in three different stores, but they were all too expensive or too large. Finally, she found a beautiful silk dress in a small boutique. It was cheaper than the others and fit her perfectly. She also bought a pair of silver shoes to match. Elena was very happy because she saved money and found exactly what she wanted. She decided to celebrate by having a cup of coffee and a cake.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why did Elena go to the shopping center?",
+							"options": [
+								{ "text": "To buy a gift for her cousin", "isCorrect": false },
+								{ "text": "To find clothes for a wedding", "isCorrect": true },
+								{ "text": "To meet her cousin for coffee", "isCorrect": false },
+								{ "text": "To work in a small boutique", "isCorrect": false }
+							],
+							"explanation": "The text says she needed a dress for her cousin's wedding."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How did Elena feel at the beginning of her trip?",
+							"options": [
+								{ "text": "Excited about the noise", "isCorrect": false },
+								{ "text": "Unhappy with her shoes", "isCorrect": false },
+								{ "text": "A little bit uncomfortable", "isCorrect": true },
+								{ "text": "Very hungry for cake", "isCorrect": false }
+							],
+							"explanation": "The text states the mall was crowded and noisy, so she felt 'a bit stressed'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What was the problem with the dresses in the first three stores?",
+							"options": [
+								{ "text": "They were the wrong color", "isCorrect": false },
+								{ "text": "They were made of silk", "isCorrect": false },
+								{ "text": "The price was too high or the size was wrong", "isCorrect": true },
+								{ "text": "The stores were closed", "isCorrect": false }
+							],
+							"explanation": "The passage says they were 'all too expensive or too large'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "In this passage, what does 'boutique' mean?",
+							"options": [
+								{ "text": "A large, noisy mall", "isCorrect": false },
+								{ "text": "A place to drink coffee", "isCorrect": false },
+								{ "text": "A small shop that sells clothes", "isCorrect": true },
+								{ "text": "A type of expensive silk", "isCorrect": false }
+							],
+							"explanation": "Context shows she found a dress in a 'small boutique' after looking in stores."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can we infer about the silk dress?",
+							"options": [
+								{ "text": "It was the most expensive one", "isCorrect": false },
+								{ "text": "It was silver and blue", "isCorrect": false },
+								{ "text": "It was a better price than the other dresses", "isCorrect": true },
+								{ "text": "It was too large for Elena", "isCorrect": false }
+							],
+							"explanation": "The text says 'It was cheaper than the others'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main idea of the passage?",
+							"options": [
+								{ "text": "Elena hates shopping in crowded malls", "isCorrect": false },
+								{ "text": "Buying shoes is easier than buying dresses", "isCorrect": false },
+								{ "text": "Elena found the perfect outfit after a long search", "isCorrect": true },
+								{ "text": "How to save money at a wedding", "isCorrect": false }
+							],
+							"explanation": "The story describes her journey to find a dress and shoes and her success."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 2,
+				"wordCount": 108,
+				"topic": "Holiday",
+				"difficulty": 2
+			},
+			"passageText": "Last summer, Mark and his family traveled to Italy for a ten-day holiday. They stayed in a small hotel near the beach. Every morning, they ate a large breakfast and then went swimming in the sea. One day, they rented a car to visit an old castle in the mountains. The road was very narrow and dangerous, so Mark's father drove slowly. When they arrived, the view was amazing. They took many photos and ate delicious pizza for lunch. Mark wants to return next year because he wants to learn Italian. He thinks the people there are friendlier than in his home town.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How long was the family's holiday?",
+							"options": [
+								{ "text": "One week", "isCorrect": false },
+								{ "text": "Ten days", "isCorrect": true },
+								{ "text": "All summer", "isCorrect": false },
+								{ "text": "One month", "isCorrect": false }
+							],
+							"explanation": "The passage mentions a 'ten-day holiday'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why did Mark's father drive slowly?",
+							"options": [
+								{ "text": "He wanted to look at the view", "isCorrect": false },
+								{ "text": "The car was very old", "isCorrect": false },
+								{ "text": "The road was not safe and wide", "isCorrect": true },
+								{ "text": "He was looking for a pizza restaurant", "isCorrect": false }
+							],
+							"explanation": "The text says 'The road was very narrow and dangerous, so Mark's father drove slowly'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where was the castle located?",
+							"options": [
+								{ "text": "Next to the hotel", "isCorrect": false },
+								{ "text": "On the beach", "isCorrect": false },
+								{ "text": "In the mountains", "isCorrect": true },
+								{ "text": "In Mark's home town", "isCorrect": false }
+							],
+							"explanation": "The text says they visited 'an old castle in the mountains'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "In the phrase 'the view was amazing', what does 'amazing' mean?",
+							"options": [
+								{ "text": "Very bad", "isCorrect": false },
+								{ "text": "Very beautiful", "isCorrect": true },
+								{ "text": "Very high", "isCorrect": false },
+								{ "text": "Very noisy", "isCorrect": false }
+							],
+							"explanation": "In context of a view from a mountain, 'amazing' indicates it was wonderful or beautiful."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does Mark think about the Italian people?",
+							"options": [
+								{ "text": "They are not very nice", "isCorrect": false },
+								{ "text": "They are more friendly than people at home", "isCorrect": true },
+								{ "text": "They speak English very well", "isCorrect": false },
+								{ "text": "They all live in the mountains", "isCorrect": false }
+							],
+							"explanation": "The text says 'He thinks the people there are friendlier than in his home town'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is Mark's plan for the future?",
+							"options": [
+								{ "text": "To buy a car in Italy", "isCorrect": false },
+								{ "text": "To move to the mountains", "isCorrect": false },
+								{ "text": "To study a new language", "isCorrect": true },
+								{ "text": "To become a photographer", "isCorrect": false }
+							],
+							"explanation": "Mark 'wants to learn Italian', which is a plan to study a language."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 3,
+				"wordCount": 115,
+				"topic": "Work",
+				"difficulty": 2
+			},
+			"passageText": "Sarah started a new job as a receptionist in a large hospital last month. She has to get up at six o'clock because her shift starts early. Her main task is to help patients find the right room and answer the phone. At first, the job was difficult because the hospital is huge and she got lost often. However, her colleagues are very kind and they helped her a lot. Now, Sarah feels more confident. She likes her job because she enjoys talking to people. Next month, she will receive her first bonus. She plans to buy a new laptop for her studies with the money.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where does Sarah work?",
+							"options": [
+								{ "text": "In a laptop shop", "isCorrect": false },
+								{ "text": "In a big hospital", "isCorrect": true },
+								{ "text": "In a school", "isCorrect": false },
+								{ "text": "In a small office", "isCorrect": false }
+							],
+							"explanation": "The passage says she works in a 'large hospital'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why did Sarah find the job hard in the beginning?",
+							"options": [
+								{ "text": "Her colleagues were not kind", "isCorrect": false },
+								{ "text": "She didn't like talking to patients", "isCorrect": false },
+								{ "text": "The building was very big and confusing", "isCorrect": true },
+								{ "text": "She had to answer the phone too much", "isCorrect": false }
+							],
+							"explanation": "The text mentions 'the hospital is huge and she got lost often'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does Sarah do in her job?",
+							"options": [
+								{ "text": "She cleans the hospital rooms", "isCorrect": false },
+								{ "text": "She gives medicine to patients", "isCorrect": false },
+								{ "text": "She assists people and uses the phone", "isCorrect": true },
+								{ "text": "She teaches new receptionists", "isCorrect": false }
+							],
+							"explanation": "The text says she helps patients find rooms and answers the phone."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How does Sarah feel about her job now?",
+							"options": [
+								{ "text": "She feels bored", "isCorrect": false },
+								{ "text": "She feels more sure of herself", "isCorrect": true },
+								{ "text": "She is still very confused", "isCorrect": false },
+								{ "text": "She wants to find a new job", "isCorrect": false }
+							],
+							"explanation": "'Sarah feels more confident' means she is more sure of herself."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is Sarah going to do with her extra money?",
+							"options": [
+								{ "text": "Go on a holiday", "isCorrect": false },
+								{ "text": "Buy a gift for her colleagues", "isCorrect": false },
+								{ "text": "Pay for a hospital bill", "isCorrect": false },
+								{ "text": "Purchase something for her education", "isCorrect": true }
+							],
+							"explanation": "She plans to buy a 'laptop for her studies'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main topic of this passage?",
+							"options": [
+								{ "text": "A typical day in a hospital", "isCorrect": false },
+								{ "text": "How to become a doctor", "isCorrect": false },
+								{ "text": "A woman's experience starting a new job", "isCorrect": true },
+								{ "text": "The importance of kind colleagues", "isCorrect": false }
+							],
+							"explanation": "The passage follows Sarah's journey starting and adjusting to her new job."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 4,
+				"wordCount": 110,
+				"topic": "Weekend plans",
+				"difficulty": 2
+			},
+			"passageText": "This weekend, James is going to be very busy. On Saturday morning, he must clean his apartment because his parents are coming to visit him. He usually hates cleaning, but he wants his home to look nice. In the afternoon, they are going to have lunch at a traditional restaurant. James booked a table two weeks ago because the restaurant is very popular. On Sunday, if the weather is good, they will go for a walk in the forest. James's mother loves nature and taking photos of birds. James hopes they will have a relaxing time together before they leave on Sunday evening.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why is James cleaning his apartment?",
+							"options": [
+								{ "text": "He enjoys cleaning on Saturdays", "isCorrect": false },
+								{ "text": "His parents are visiting him", "isCorrect": true },
+								{ "text": "He is moving to a new home", "isCorrect": false },
+								{ "text": "He has a lot of free time", "isCorrect": false }
+							],
+							"explanation": "The text says 'he must clean his apartment because his parents are coming to visit'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When did James make the restaurant reservation?",
+							"options": [
+								{ "text": "This morning", "isCorrect": false },
+								{ "text": "Last Saturday", "isCorrect": false },
+								{ "text": "Fourteen days ago", "isCorrect": true },
+								{ "text": "On Sunday", "isCorrect": false }
+							],
+							"explanation": "The text says he 'booked a table two weeks ago', which is 14 days."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What will they do on Sunday if it doesn't rain?",
+							"options": [
+								{ "text": "Visit a restaurant", "isCorrect": false },
+								{ "text": "Stay in the apartment", "isCorrect": false },
+								{ "text": "Walk in the forest", "isCorrect": true },
+								{ "text": "Clean the house again", "isCorrect": false }
+							],
+							"explanation": "The text says 'if the weather is good, they will go for a walk in the forest'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is a hobby of James's mother?",
+							"options": [
+								{ "text": "Cooking traditional food", "isCorrect": false },
+								{ "text": "Cleaning apartments", "isCorrect": false },
+								{ "text": "Photography", "isCorrect": true },
+								{ "text": "Booking tables at restaurants", "isCorrect": false }
+							],
+							"explanation": "The text mentions she loves 'taking photos of birds'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why did James book the table so early?",
+							"options": [
+								{ "text": "Because he wants to save money", "isCorrect": false },
+								{ "text": "Because many people go there", "isCorrect": true },
+								{ "text": "Because it is in the forest", "isCorrect": false },
+								{ "text": "Because his parents told him to", "isCorrect": false }
+							],
+							"explanation": "He booked it early 'because the restaurant is very popular'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When are James's parents leaving?",
+							"options": [
+								{ "text": "Saturday evening", "isCorrect": false },
+								{ "text": "Sunday morning", "isCorrect": false },
+								{ "text": "Sunday evening", "isCorrect": true },
+								{ "text": "Next week", "isCorrect": false }
+							],
+							"explanation": "The last sentence says 'before they leave on Sunday evening'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 5,
+				"wordCount": 118,
+				"topic": "Celebration",
+				"difficulty": 2
+			},
+			"passageText": "Last night, there was a surprise party for my grandfather's 80th birthday. My aunt and uncle planned the event for months. They invited thirty people, including old friends and family members. We met at a community hall at six o'clock. When my grandfather entered the room, everyone shouted \"Surprise!\" He was so shocked that he almost fell down, but he had a big smile on his face. We ate a huge chocolate cake and listened to music from the 1960s. My grandfather told many funny stories about his life. It was a memorable night because I saw relatives I haven't seen for years. We all felt very happy and grateful.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How old is the grandfather?",
+							"options": [
+								{ "text": "Sixty", "isCorrect": false },
+								{ "text": "Seventy", "isCorrect": false },
+								{ "text": "Eighty", "isCorrect": true },
+								{ "text": "Ninety", "isCorrect": false }
+							],
+							"explanation": "The text mentions 'grandfather's 80th birthday'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How did the grandfather react to the surprise?",
+							"options": [
+								{ "text": "He was angry about the noise", "isCorrect": false },
+								{ "text": "He was very surprised but happy", "isCorrect": true },
+								{ "text": "He forgot to smile", "isCorrect": false },
+								{ "text": "He told everyone to be quiet", "isCorrect": false }
+							],
+							"explanation": "The text says 'He was so shocked... but he had a big smile on his face'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where did the party take place?",
+							"options": [
+								{ "text": "At a restaurant", "isCorrect": false },
+								{ "text": "In a community hall", "isCorrect": true },
+								{ "text": "At the grandfather's house", "isCorrect": false },
+								{ "text": "In a forest", "isCorrect": false }
+							],
+							"explanation": "The passage states 'We met at a community hall'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What did they do after eating cake?",
+							"options": [
+								{ "text": "They went to sleep", "isCorrect": false },
+								{ "text": "They listened to 1960s music", "isCorrect": true },
+								{ "text": "They invited thirty more people", "isCorrect": false },
+								{ "text": "They planned another event", "isCorrect": false }
+							],
+							"explanation": "The text says 'We ate... cake and listened to music from the 1960s'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "In the passage, what does 'memorable' mean?",
+							"options": [
+								{ "text": "Easy to forget", "isCorrect": false },
+								{ "text": "Very long", "isCorrect": false },
+								{ "text": "Something you will remember", "isCorrect": true },
+								{ "text": "Very quiet", "isCorrect": false }
+							],
+							"explanation": "Something memorable is worth remembering or easy to remember."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why was the night special for the narrator?",
+							"options": [
+								{ "text": "Because of the chocolate cake", "isCorrect": false },
+								{ "text": "Because they shouted very loudly", "isCorrect": false },
+								{
+									"text": "Because they saw family they hadn't seen in a long time",
+									"isCorrect": true
+								},
+								{ "text": "Because it was at six o'clock", "isCorrect": false }
+							],
+							"explanation": "The text says 'It was a memorable night because I saw relatives I haven't seen for years'."
+						}
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,59 @@
+//TODO ===========================
+//TODO           REPORT
+//TODO ===========================
+model AssessmentReport {
+  reportId            String    @id @default(dbgenerated("gen_random_uuid()")) @map("report_id") @db.Uuid
+  assessmentId        String    @map("assessment_id") @db.Uuid
+  userId              String    @map("user_id") @db.Uuid
+  kind                String?
+  framework           String?
+  overallBand         String?   @map("overall_band")
+  cefr                String?
+  cefrConfidence      Decimal?  @map("cefr_confidence") @db.Decimal()
+  strengthsJson       Json?     @map("strengths_json")
+  weaknessesJson      Json?     @map("weaknesses_json")
+  planJson            Json?     @map("plan_json")
+  rubricVersion       String?   @map("rubric_version")
+  displayLocale       String?   @map("display_locale")
+  explanationsAssetId String?   @map("explanations_asset_id") @db.Uuid
+  reportVersion       Int?      @default(1) @map("report_version")
+  createdAt           DateTime  @default(now()) @map("created_at")
+  updatedAt           DateTime  @updatedAt @map("updated_at")
+  deletedAt           DateTime? @map("deleted_at")
+
+  assessment       Assessment @relation(fields: [assessmentId], references: [assessmentId])
+  user             User       @relation(fields: [userId], references: [userId])
+  explanationAsset Asset?     @relation("ExplanationAsset", fields: [explanationsAssetId], references: [assetId])
+
+  @@map("assessment_reports")
+}
+
+model BandScore {
+  bandScoreId  String    @id @default(dbgenerated("gen_random_uuid()")) @map("band_score_id") @db.Uuid
+  assessmentId String    @map("assessment_id") @db.Uuid
+  skill        String?
+  criterion    String?
+  scoreNumeric Decimal?  @map("score_numeric") @db.Decimal()
+  scoreBand    String?   @map("score_band")
+  evidenceJson Json?     @map("evidence_json")
+  createdAt    DateTime  @default(now()) @map("created_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
+  deletedAt    DateTime? @map("deleted_at")
+
+  assessment Assessment @relation(fields: [assessmentId], references: [assessmentId])
+
+  @@map("band_scores")
+}
+
+model RubricCriterion {
+  criterionId String    @id @default(dbgenerated("gen_random_uuid()")) @map("criterion_id") @db.Uuid
+  framework   String
+  version     String
+  name        String
+  description String?
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+  deletedAt   DateTime? @map("deleted_at")
+
+  @@map("rubric_criteria")
+}

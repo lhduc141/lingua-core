@@ -1,0 +1,117 @@
+//  Question
+model Question {
+  questionId String @id @default(dbgenerated("gen_random_uuid()")) @map("question_id") @db.Uuid
+
+  passageId String? @map("passage_id") @db.Uuid // ← THÊM (for Reading)
+
+  skill      String?
+  type       QuestionType
+  difficulty Int           @default(1)
+  version    Int           @default(1)
+  examKind   ExamKind      @default(generic) @map("exam_kind")
+  status     ContentStatus @default(draft)
+
+  authorId     String?   @map("author_id") @db.Uuid
+  reviewerId   String?   @map("reviewer_id") @db.Uuid
+  publishedAt  DateTime? @map("published_at")
+  sourceTag    String?   @map("source_tag")
+  timeLimitSec Int?      @map("time_limit_sec")
+  maxScore     Int?      @default(1) @map("max_score")
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  passage                  Passage?                  @relation(fields: [passageId], references: [passageId]) // ← THÊM
+  options                  QuestionOption[]
+  payload                  QuestionPayload?
+  tags                     QuestionTag[]
+  translations             QuestionTranslation[]
+  lessonQuestions          LessonQuestion[]
+  examSectionQuestions     ExamSectionQuestion[]
+  practiceSessionQuestions PracticeSessionQuestion[] // ← THÊM
+  attempts                 Attempt[]
+
+  // ===== IRT PARAMETERS (THÊM MỚI) =====
+  irtDifficulty     Decimal?  @map("irt_difficulty") @db.Decimal(4, 2)
+  irtDiscrimination Decimal?  @map("irt_discrimination") @db.Decimal(4, 2)
+  irtGuessing       Decimal?  @map("irt_guessing") @db.Decimal(3, 2)
+  usageCount        Int       @default(0) @map("usage_count")
+  lastUsedAt        DateTime? @map("last_used_at")
+
+  placementAttempts PlacementAttempt[]
+
+  @@index([sourceTag, irtDifficulty])
+  @@index([irtDifficulty, usageCount])
+  @@index([passageId]) // ← THÊM
+  @@map("questions")
+}
+
+model QuestionOption {
+  optionId   String    @id @default(dbgenerated("gen_random_uuid()")) @map("option_id") @db.Uuid
+  questionId String    @map("question_id") @db.Uuid
+  weight     Int?      @default(0)
+  isCorrect  Boolean   @default(false) @map("is_correct")
+  position   Int?
+  createdAt  DateTime  @default(now()) @map("created_at")
+  updatedAt  DateTime  @updatedAt @map("updated_at")
+  deletedAt  DateTime? @map("deleted_at")
+
+  question       Question            @relation(fields: [questionId], references: [questionId])
+  translations   OptionTranslation[]
+  attemptAnswers AttemptAnswer[]
+
+  @@map("question_options")
+}
+
+model QuestionPayload {
+  questionId     String   @id @map("question_id") @db.Uuid
+  schemaVersion  Int?     @default(1) @map("schema_version")
+  configJson     Json?    @map("config_json")
+  answerKeysJson Json?    @map("answer_keys_json")
+  scoringJson    Json?    @map("scoring_json")
+  validationJson Json?    @map("validation_json")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  question Question @relation(fields: [questionId], references: [questionId])
+
+  @@map("question_payloads")
+}
+
+model QuestionTag {
+  questionId String @map("question_id") @db.Uuid
+  tag        String
+
+  question Question @relation(fields: [questionId], references: [questionId])
+
+  @@id([questionId, tag])
+  @@map("question_tags")
+}
+
+model Passage {
+  passageId String @id @default(dbgenerated("gen_random_uuid()")) @map("passage_id") @db.Uuid
+
+  title   String? @default("Untitled")
+  content String  @db.Text
+
+  status ContentStatus @default(published)
+
+  wordCount Int?    @map("word_count")
+  cefrLevel String? @map("cefr_level") // A1-C2
+  topic     String?
+
+  sourceTag String? @map("source_tag")
+
+  audioUrl String? @map("audio_url")
+  imageUrl String? @map("image_url")
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  questions Question[]
+
+  @@index([cefrLevel])
+  @@index([topic])
+  @@map("passages")
+}

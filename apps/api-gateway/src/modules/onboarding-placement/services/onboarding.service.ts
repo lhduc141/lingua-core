@@ -3,11 +3,11 @@
 import { BadRequestException, Injectable, Logger } from '@nestjs/common';
 import type { JwtPayloadDto } from '@app/jwt';
 import { NotFoundException, ResponseDto } from '@app/shared';
-import { PrismaService } from 'prisma/prisma.service';
 import { OnboardingSurveyDto } from '../dto/get-survey-me.dto';
 import { SubmitSurveyDto } from '../dto/submit-survey.dto';
 import { SubmitSurveyResponseDto } from '../dto/submit-survey-response.dto';
-import { OnboardingSurveySelect } from 'prisma/selects';
+import { PrismaService } from '../../../../../../prisma/prisma.service';
+import { OnboardingSurveySelect } from '../../../../../../prisma/selects';
 
 @Injectable()
 export class OnboardingService {
@@ -15,21 +15,16 @@ export class OnboardingService {
 	constructor(private prisma: PrismaService) {}
 
 	async getSurvey(userId: string): Promise<ResponseDto<OnboardingSurveyDto>> {
-		const survey = await this.prisma.onboardingSurvey.findUnique({
-			where: { userId },
+		const survey = await this.prisma.onboardingSurvey.findFirst({
+			where: { userId, isActive: true },
 			select: OnboardingSurveySelect.full,
 		});
-
-		if (!survey) throw new NotFoundException('You do not done it before. Please try it');
+		if (!survey) throw new NotFoundException('No active survey found. Please complete the survey first.');
 
 		return ResponseDto.success(OnboardingSurveyDto, survey, 'Lấy thông tin thành công');
 	}
 
 	async submitSurvey({ userId }: JwtPayloadDto, dto: SubmitSurveyDto): Promise<ResponseDto<SubmitSurveyResponseDto>> {
-		if (dto.targetGoal === 'certification' && !dto.targetCertification) {
-			throw new BadRequestException('Target certification is required when primary goal is certification');
-		}
-
 		const activeSurvey = await this.prisma.onboardingSurvey.findFirst({
 			where: { userId, isActive: true },
 			select: OnboardingSurveySelect.minimal,
@@ -58,19 +53,19 @@ export class OnboardingService {
 
 					// TIER 2: IMPORTANT
 					targetDeadlineDate: dto.targetDeadlineDate ? new Date(dto.targetDeadlineDate) : null,
-					targetGoal: dto.targetGoal || null,
-					selfAssessedLevel: dto.selfAssessedLevel || null,
-					usageContext: dto.usageContext || null,
-					difficulties: (dto.difficulties || null) as any,
+					targetGoal: dto.targetGoal,
+					selfAssessedLevel: dto.selfAssessedLevel,
+					usageContext: dto.usageContext,
+					difficulties: dto.difficulties,
 
 					// TIER 3: OPTIONAL
-					additionalContext: dto.additionalContext || null,
-					yearsStudied: dto.yearsStudied || null,
-					previousLearningExperience: dto.previousLearningExperience || null,
+					additionalContext: dto.additionalContext,
+					yearsStudied: dto.yearsStudied,
+					previousLearningExperience: dto.previousLearningExperience,
 
 					// CERTIFICATION
-					targetCertification: dto.targetCertification || null,
-					targetScore: dto.targetScore || null,
+					targetCertification: dto.targetCertification,
+					targetScore: dto.targetScore,
 
 					// Timestamps
 					completedAt: new Date(),
@@ -116,7 +111,7 @@ export class OnboardingService {
 
 	async isSurveyComplete(userId: string): Promise<boolean> {
 		const survey = await this.prisma.onboardingSurvey.findUnique({
-			where: { userId },
+			where: { userId , isActive: true },
 			select: { completedAt: true },
 		});
 

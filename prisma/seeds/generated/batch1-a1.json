@@ -1,0 +1,581 @@
+{
+	"level": "A1",
+	"passages": [
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 1,
+				"wordCount": 62,
+				"topic": "Family",
+				"difficulty": 1
+			},
+			"passageText": "My name is Sarah. I live in a small house with my family. My mother is a doctor. My father is a teacher. I have one brother. His name is Paul. We have a big white dog. His name is Lucky. On Sundays, we eat dinner together. We are very happy in our home. I love my family very much.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the girl's name?",
+							"options": [
+								{ "text": "Sarah", "isCorrect": true },
+								{ "text": "Lucky", "isCorrect": false },
+								{ "text": "Paul", "isCorrect": false },
+								{ "text": "Sunday", "isCorrect": false }
+							],
+							"explanation": "The first sentence says 'My name is Sarah'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where does Sarah live?",
+							"options": [
+								{ "text": "In a school", "isCorrect": false },
+								{ "text": "In a small house", "isCorrect": true },
+								{ "text": "In a big hospital", "isCorrect": false },
+								{ "text": "In a white dog", "isCorrect": false }
+							],
+							"explanation": "The text states 'I live in a small house'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is her mother's job?",
+							"options": [
+								{ "text": "Teacher", "isCorrect": false },
+								{ "text": "Doctor", "isCorrect": true },
+								{ "text": "Student", "isCorrect": false },
+								{ "text": "Brother", "isCorrect": false }
+							],
+							"explanation": "The passage says 'My mother is a doctor'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Who is Paul?",
+							"options": [
+								{ "text": "The dog", "isCorrect": false },
+								{ "text": "The father", "isCorrect": false },
+								{ "text": "The brother", "isCorrect": true },
+								{ "text": "The teacher", "isCorrect": false }
+							],
+							"explanation": "The text says 'I have one brother. His name is Paul'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What color is the dog?",
+							"options": [
+								{ "text": "Brown", "isCorrect": false },
+								{ "text": "Small", "isCorrect": false },
+								{ "text": "White", "isCorrect": true },
+								{ "text": "Happy", "isCorrect": false }
+							],
+							"explanation": "The passage describes 'a big white dog'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When does the family eat together?",
+							"options": [
+								{ "text": "On Sundays", "isCorrect": true },
+								{ "text": "Every morning", "isCorrect": false },
+								{ "text": "At school", "isCorrect": false },
+								{ "text": "In the garden", "isCorrect": false }
+							],
+							"explanation": "The text says 'On Sundays, we eat dinner together'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 2,
+				"wordCount": 65,
+				"topic": "Daily Routine",
+				"difficulty": 1
+			},
+			"passageText": "Tom gets up at seven o'clock. He washes his face and eats breakfast. He drinks orange juice. At eight o'clock, he goes to work. He takes the bus. Tom works in an office. He eats lunch at one o'clock. In the evening, he comes home. He watches television and goes to bed at ten o'clock. He is tired.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What time does Tom get up?",
+							"options": [
+								{ "text": "Eight o'clock", "isCorrect": false },
+								{ "text": "Seven o'clock", "isCorrect": true },
+								{ "text": "One o'clock", "isCorrect": false },
+								{ "text": "Ten o'clock", "isCorrect": false }
+							],
+							"explanation": "The text says 'Tom gets up at seven o'clock'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does Tom drink?",
+							"options": [
+								{ "text": "Coffee", "isCorrect": false },
+								{ "text": "Milk", "isCorrect": false },
+								{ "text": "Orange juice", "isCorrect": true },
+								{ "text": "Water", "isCorrect": false }
+							],
+							"explanation": "The text says 'He drinks orange juice'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How does he go to work?",
+							"options": [
+								{ "text": "By car", "isCorrect": false },
+								{ "text": "By train", "isCorrect": false },
+								{ "text": "By bus", "isCorrect": true },
+								{ "text": "He walks", "isCorrect": false }
+							],
+							"explanation": "The passage says 'He takes the bus'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where does Tom work?",
+							"options": [
+								{ "text": "In a school", "isCorrect": false },
+								{ "text": "In an office", "isCorrect": true },
+								{ "text": "In a bus", "isCorrect": false },
+								{ "text": "In a house", "isCorrect": false }
+							],
+							"explanation": "The text says 'Tom works in an office'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does he do in the evening?",
+							"options": [
+								{ "text": "Watches television", "isCorrect": true },
+								{ "text": "Works in the office", "isCorrect": false },
+								{ "text": "Eats breakfast", "isCorrect": false },
+								{ "text": "Takes the bus", "isCorrect": false }
+							],
+							"explanation": "The passage says 'In the evening... He watches television'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why does he go to bed?",
+							"options": [
+								{ "text": "Because he is tired", "isCorrect": true },
+								{ "text": "Because it is eight o'clock", "isCorrect": false },
+								{ "text": "Because he is hungry", "isCorrect": false },
+								{ "text": "Because he is at work", "isCorrect": false }
+							],
+							"explanation": "The text says 'He is tired' right after mentioning he goes to bed."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 3,
+				"wordCount": 60,
+				"topic": "Hobbies",
+				"difficulty": 1
+			},
+			"passageText": "Anna has many hobbies. She likes music and sports. On Saturdays, she plays tennis with her friend. She is a good player. On Sundays, she goes to the park. She reads books under a tree. Anna also likes cooking. She makes pasta for her friends. They like her food. She is never bored on the weekend.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does Anna like?",
+							"options": [
+								{ "text": "Music and sports", "isCorrect": true },
+								{ "text": "Working in an office", "isCorrect": false },
+								{ "text": "Watching television", "isCorrect": false },
+								{ "text": "Driving a bus", "isCorrect": false }
+							],
+							"explanation": "The text says 'She likes music and sports'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When does she play tennis?",
+							"options": [
+								{ "text": "Every morning", "isCorrect": false },
+								{ "text": "On Sundays", "isCorrect": false },
+								{ "text": "On Saturdays", "isCorrect": true },
+								{ "text": "At school", "isCorrect": false }
+							],
+							"explanation": "The passage says 'On Saturdays, she plays tennis'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where does she read books?",
+							"options": [
+								{ "text": "In the park", "isCorrect": true },
+								{ "text": "In the kitchen", "isCorrect": false },
+								{ "text": "On a bus", "isCorrect": false },
+								{ "text": "At work", "isCorrect": false }
+							],
+							"explanation": "The text says 'she goes to the park. She reads books under a tree'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What food does Anna make?",
+							"options": [
+								{ "text": "Bread", "isCorrect": false },
+								{ "text": "Pasta", "isCorrect": true },
+								{ "text": "Apples", "isCorrect": false },
+								{ "text": "Breakfast", "isCorrect": false }
+							],
+							"explanation": "The passage says 'She makes pasta for her friends'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Who does she play tennis with?",
+							"options": [
+								{ "text": "Her friend", "isCorrect": true },
+								{ "text": "Her mother", "isCorrect": false },
+								{ "text": "Her brother", "isCorrect": false },
+								{ "text": "Her teacher", "isCorrect": false }
+							],
+							"explanation": "The text says 'she plays tennis with her friend'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How does Anna feel on the weekend?",
+							"options": [
+								{ "text": "Tired", "isCorrect": false },
+								{ "text": "Bored", "isCorrect": false },
+								{ "text": "Not bored", "isCorrect": true },
+								{ "text": "Sad", "isCorrect": false }
+							],
+							"explanation": "The text says 'She is never bored on the weekend'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 4,
+				"wordCount": 68,
+				"topic": "School",
+				"difficulty": 1
+			},
+			"passageText": "David is a student at a big school. He has classes from Monday to Friday. His favorite subject is English. He likes his teacher. Her name is Miss Smith. David has lunch in the school cafe at twelve o'clock. He eats a sandwich and an apple. After school, he goes to the library. He does his homework there. He is a good student.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is David?",
+							"options": [
+								{ "text": "A teacher", "isCorrect": false },
+								{ "text": "A doctor", "isCorrect": false },
+								{ "text": "A student", "isCorrect": true },
+								{ "text": "A library", "isCorrect": false }
+							],
+							"explanation": "The first sentence says 'David is a student'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is his favorite subject?",
+							"options": [
+								{ "text": "English", "isCorrect": true },
+								{ "text": "Music", "isCorrect": false },
+								{ "text": "Sports", "isCorrect": false },
+								{ "text": "Math", "isCorrect": false }
+							],
+							"explanation": "The text says 'His favorite subject is English'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Who is Miss Smith?",
+							"options": [
+								{ "text": "A student", "isCorrect": false },
+								{ "text": "David's friend", "isCorrect": false },
+								{ "text": "The teacher", "isCorrect": true },
+								{ "text": "A doctor", "isCorrect": false }
+							],
+							"explanation": "The text mentions 'His teacher. Her name is Miss Smith'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does David eat for lunch?",
+							"options": [
+								{ "text": "Pasta", "isCorrect": false },
+								{ "text": "A sandwich and an apple", "isCorrect": true },
+								{ "text": "Orange juice", "isCorrect": false },
+								{ "text": "Breakfast", "isCorrect": false }
+							],
+							"explanation": "The passage says 'He eats a sandwich and an apple'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where does David do his homework?",
+							"options": [
+								{ "text": "At home", "isCorrect": false },
+								{ "text": "In the cafe", "isCorrect": false },
+								{ "text": "In the library", "isCorrect": true },
+								{ "text": "On the bus", "isCorrect": false }
+							],
+							"explanation": "The text says 'he goes to the library. He does his homework there'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When does David have classes?",
+							"options": [
+								{ "text": "On Sundays", "isCorrect": false },
+								{ "text": "From Monday to Friday", "isCorrect": true },
+								{ "text": "In the evening", "isCorrect": false },
+								{ "text": "Only at twelve o'clock", "isCorrect": false }
+							],
+							"explanation": "The passage says 'He has classes from Monday to Friday'."
+						}
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,77 @@
+//TODO ===========================
+//TODO            EXAM
+//TODO ===========================
+model ExamCycle {
+  cycleId   String        @id @default(dbgenerated("gen_random_uuid()")) @map("cycle_id") @db.Uuid
+  label     String
+  kind      ExamCycleKind @default(custom)
+  startDate DateTime?     @map("start_date") @db.Date
+  endDate   DateTime?     @map("end_date") @db.Date
+  notes     String?
+  createdAt DateTime      @default(now()) @map("created_at")
+  updatedAt DateTime      @updatedAt @map("updated_at")
+  deletedAt DateTime?     @map("deleted_at")
+
+  exams Exam[]
+
+  @@map("exam_cycles")
+}
+
+model Exam {
+  examId          String        @id @default(dbgenerated("gen_random_uuid()")) @map("exam_id") @db.Uuid
+  title           String
+  cycleId         String?       @map("cycle_id") @db.Uuid
+  status          ContentStatus @default(draft)
+  description     String?
+  category        ExamCategory  @default(generic)
+  level           String?
+  timeStrategy    Json?         @map("time_strategy")
+  scoringScheme   Json?         @map("scoring_scheme")
+  proctoringRules Json?         @map("proctoring_rules")
+  createdAt       DateTime      @default(now()) @map("created_at")
+  updatedAt       DateTime      @updatedAt @map("updated_at")
+  deletedAt       DateTime?     @map("deleted_at")
+
+  cycle    ExamCycle?    @relation(fields: [cycleId], references: [cycleId])
+  sections ExamSection[]
+
+  // assessments Assessment[]  @relation("ExamAssessments")
+  @@map("exams")
+}
+
+model ExamSection {
+  sectionId       String    @id @default(dbgenerated("gen_random_uuid()")) @map("section_id") @db.Uuid
+  examId          String    @map("exam_id") @db.Uuid
+  name            String
+  position        Int
+  durationMinutes Int?      @map("duration_minutes")
+  standalone      Boolean   @default(false)
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
+  deletedAt       DateTime? @map("deleted_at")
+
+  exam      Exam                  @relation(fields: [examId], references: [examId])
+  questions ExamSectionQuestion[]
+
+  // assessments Assessment[]    @relation("ExamSectionAssessments")  // ❌ bỏ hoặc comment
+  @@map("exam_sections")
+}
+
+model ExamSectionQuestion {
+  id              String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  examSectionId   String    @map("exam_section_id") @db.Uuid
+  questionId      String    @map("question_id") @db.Uuid
+  questionVersion Int?      @map("question_version")
+  position        Int
+  groupKey        String?   @map("group_key")
+  passageAssetId  String?   @map("passage_asset_id") @db.Uuid
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
+  deletedAt       DateTime? @map("deleted_at")
+
+  examSection  ExamSection @relation(fields: [examSectionId], references: [sectionId])
+  question     Question    @relation(fields: [questionId], references: [questionId])
+  passageAsset Asset?      @relation("PassageAsset", fields: [passageAssetId], references: [assetId])
+
+  @@map("exam_section_questions")
+}

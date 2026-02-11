@@ -1,8 +1,8 @@
-import { Dialect } from 'sequelize';
 import { AppConfig, DatabaseConfig } from './configuration.interface';
 import * as dotenv from 'dotenv';
 
 dotenv.config();
+type DatabaseDialect = 'postgres' | 'mysql' | 'sqlite';
 
 export default () => {
 	const app: AppConfig = {
@@ -14,7 +14,7 @@ export default () => {
 
 	// 	Connect Database
 	const database: DatabaseConfig = {
-		dialect: (process.env.DATABASE_DIALECT || 'postgres') as Dialect,
+		dialect: (process.env.DATABASE_DIALECT || 'postgres') as DatabaseDialect,
 		host: process.env.DATABASE_HOST || 'localhost',
 		port: parseInt(process.env.DATABASE_PORT || '5432', 10),
 		username: process.env.DATABASE_USERNAME || '',

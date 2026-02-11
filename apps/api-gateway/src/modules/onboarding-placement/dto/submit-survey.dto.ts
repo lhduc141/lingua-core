@@ -9,11 +9,10 @@ import {
 	IsString,
 	Max,
 	MaxLength,
-	Min,
+	Min, ValidateIf,
 } from 'class-validator';
 import { PrimaryGoalsEnum } from '@app/shared/enums/primary-goals.enum';
 import { AssessedLevelEnum, CertificationType, ExperienceLevelEnum, SkillName, UsageContextEnum } from '@app/shared';
-import { AllowNull } from 'sequelize-typescript';
 
 export class SubmitSurveyDto {
 	// TIER 1: REQUIRED - AI cần
@@ -50,7 +49,6 @@ export class SubmitSurveyDto {
 
 	@IsOptional()
 	@IsArray()
-	@AllowNull
 	difficulties?: string[]; // ['listening', 'grammar', 'vocabulary']
 
 	// TIER 3: OPTIONAL (Context thêm)
@@ -72,6 +70,8 @@ export class SubmitSurveyDto {
 	// CERTIFICATION-SPECIFIC (Conditional)
 	@IsOptional()
 	@IsEnum(CertificationType)
+	@ValidateIf((o) => o.primaryGoal === 'certification')
+	@IsNotEmpty({ message: 'Target certification required when goal is certification' })
 	targetCertification?: CertificationType;
 
 	@IsOptional()

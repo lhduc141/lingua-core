@@ -1,0 +1,1010 @@
+{
+	"level": "B1",
+	"passages": [
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 1,
+				"wordCount": 172,
+				"topic": "News",
+				"difficulty": 3
+			},
+			"passageText": "A local community center has recently launched a groundbreaking project aimed at reducing plastic waste. Since the start of the year, over 500 residents have signed up to participate in a 'zero-waste' initiative. Participants are encouraged to avoid single-use plastics and instead use refillable containers provided by the center. Although the project was initially met with some skepticism, it has been surprisingly successful. The center’s manager, Mrs. Gable, stated that if more neighborhoods followed their lead, the city’s total waste could be reduced by 20%. Recently, the initiative was featured on national news, and as a result, several other cities are planning to adopt similar schemes. However, some local business owners are concerned about the costs of changing their packaging. They argue that while the environment is important, they cannot afford a sudden drop in profits. Despite these concerns, the community center is moving forward, and a large recycling fair is being organized for next month to celebrate their progress so far.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the primary goal of the community center's project?",
+							"options": [
+								{ "text": "To provide free containers to all city residents", "isCorrect": false },
+								{ "text": "To lower the amount of plastic waste produced locally", "isCorrect": true },
+								{ "text": "To organize a national recycling competition", "isCorrect": false },
+								{ "text": "To help local businesses increase their profits", "isCorrect": false }
+							],
+							"explanation": "The first sentence states the project is 'aimed at reducing plastic waste'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How did people originally feel about the project?",
+							"options": [
+								{ "text": "They were immediately enthusiastic", "isCorrect": false },
+								{ "text": "They were worried about the cost of containers", "isCorrect": false },
+								{ "text": "They doubted whether it would work", "isCorrect": true },
+								{ "text": "They were annoyed by the manager's statements", "isCorrect": false }
+							],
+							"explanation": "The text says the project was 'initially met with some skepticism', which means doubt."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to Mrs. Gable, what would happen if the project spread to other areas?",
+							"options": [
+								{ "text": "Profits for businesses would increase by 20%", "isCorrect": false },
+								{ "text": "National news would visit every neighborhood", "isCorrect": false },
+								{ "text": "The city's waste would decrease significantly", "isCorrect": true },
+								{ "text": "Single-use plastics would be banned by law", "isCorrect": false }
+							],
+							"explanation": "She stated that if others followed, 'the city’s total waste could be reduced by 20%'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why are some local business owners worried?",
+							"options": [
+								{
+									"text": "They do not believe plastic is bad for the environment",
+									"isCorrect": false
+								},
+								{
+									"text": "They think the community center is taking their customers",
+									"isCorrect": false
+								},
+								{ "text": "The cost of new packaging might lower their earnings", "isCorrect": true },
+								{ "text": "They were not invited to the recycling fair", "isCorrect": false }
+							],
+							"explanation": "The text says they are concerned about the 'costs of changing their packaging' and cannot afford a 'drop in profits'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What has been an effect of the project being on national news?",
+							"options": [
+								{ "text": "Over 500 residents signed up immediately", "isCorrect": false },
+								{ "text": "Other cities want to try the same idea", "isCorrect": true },
+								{ "text": "Plastic waste was reduced by exactly 20%", "isCorrect": false },
+								{ "text": "The community center won a national award", "isCorrect": false }
+							],
+							"explanation": "The text states 'several other cities are planning to adopt similar schemes' because of the news coverage."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "In the text, the phrase 'followed their lead' most likely means:",
+							"options": [
+								{ "text": "To walk behind the center manager", "isCorrect": false },
+								{ "text": "To do the same thing as the project did", "isCorrect": true },
+								{ "text": "To lead a new group of residents", "isCorrect": false },
+								{ "text": "To participate in the recycling fair", "isCorrect": false }
+							],
+							"explanation": "In this context, it refers to other neighborhoods imitating the successful initiative."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the community center planning to do next month?",
+							"options": [
+								{ "text": "Start a new project for businesses", "isCorrect": false },
+								{ "text": "Hand out more refillable containers", "isCorrect": false },
+								{ "text": "Hold an event to mark their success", "isCorrect": true },
+								{ "text": "Ask the national news to return", "isCorrect": false }
+							],
+							"explanation": "A 'large recycling fair is being organized... to celebrate their progress'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 2,
+				"wordCount": 168,
+				"topic": "Social Issue",
+				"difficulty": 3
+			},
+			"passageText": "Many people believe that remote work is the future of employment. Proponents argue that if employees were allowed to work from home, they would be more productive and less stressed. By eliminating the daily commute, workers can save time and money, which often leads to a better work-life balance. Furthermore, companies can reduce their overhead costs by renting smaller office spaces. However, there are significant drawbacks that must be considered. Although technology has made communication easier, it cannot fully replace face-to-face interaction. Many workers have reported feeling isolated or lonely after working from home for long periods. If a company does not encourage social connection, the mental health of its staff might suffer. Therefore, a hybrid model is often suggested as the best solution. This approach allows employees to spend some days in the office and others at home. While it requires careful planning and clear communication, it seems to offer the benefits of flexibility without the negative effects of total isolation.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is one reason proponents support remote work?",
+							"options": [
+								{ "text": "It forces companies to buy better technology", "isCorrect": false },
+								{ "text": "It helps employees save money and time", "isCorrect": true },
+								{ "text": "It makes communication more difficult", "isCorrect": false },
+								{ "text": "It requires workers to move to larger houses", "isCorrect": false }
+							],
+							"explanation": "The text states workers 'can save time and money' by eliminating the commute."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How can companies benefit financially from remote work?",
+							"options": [
+								{ "text": "By charging employees for software", "isCorrect": false },
+								{ "text": "By paying lower salaries to remote staff", "isCorrect": false },
+								{ "text": "By spending less on office rent", "isCorrect": true },
+								{ "text": "By selling office equipment to workers", "isCorrect": false }
+							],
+							"explanation": "The text says companies can 'reduce their overhead costs by renting smaller office spaces'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main problem with using only technology to communicate?",
+							"options": [
+								{ "text": "It is too expensive for most companies", "isCorrect": false },
+								{ "text": "It does not work for long periods of time", "isCorrect": false },
+								{
+									"text": "It cannot perfectly substitute for being together in person",
+									"isCorrect": true
+								},
+								{ "text": "It makes workers more stressed than commuting", "isCorrect": false }
+							],
+							"explanation": "The text says technology 'cannot fully replace face-to-face interaction'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What might happen if companies ignore social connection for remote workers?",
+							"options": [
+								{ "text": "Employees will work more hours", "isCorrect": false },
+								{ "text": "Staff mental health could decline", "isCorrect": true },
+								{ "text": "Offices will become too crowded", "isCorrect": false },
+								{ "text": "Communication will become too easy", "isCorrect": false }
+							],
+							"explanation": "The text says 'the mental health of its staff might suffer' if social connection isn't encouraged."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is a 'hybrid model' in the context of this passage?",
+							"options": [
+								{ "text": "A mix of office and home-based work", "isCorrect": true },
+								{ "text": "A new type of communication technology", "isCorrect": false },
+								{ "text": "Working only on weekends", "isCorrect": false },
+								{ "text": "Employing workers from different countries", "isCorrect": false }
+							],
+							"explanation": "The text defines it as 'spend some days in the office and others at home'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "In the passage, the word 'overhead' refers to:",
+							"options": [
+								{ "text": "The lights in an office", "isCorrect": false },
+								{ "text": "Regular business expenses", "isCorrect": true },
+								{ "text": "A manager's salary", "isCorrect": false },
+								{ "text": "The time spent commuting", "isCorrect": false }
+							],
+							"explanation": "'Overhead costs' in business refers to ongoing operating expenses like rent."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the author's final opinion on the matter?",
+							"options": [
+								{ "text": "Remote work should be banned", "isCorrect": false },
+								{ "text": "Total isolation is better for productivity", "isCorrect": false },
+								{ "text": "A balanced approach is the most effective", "isCorrect": true },
+								{ "text": "Planning and communication are not necessary", "isCorrect": false }
+							],
+							"explanation": "The author concludes that the hybrid model 'seems to offer the benefits... without the negative effects'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 3,
+				"wordCount": 175,
+				"topic": "Description",
+				"difficulty": 3
+			},
+			"passageText": "The Peak District is one of the most beautiful national parks in the United Kingdom. Last autumn, I spent a week there, and it was a truly unforgettable experience. The landscape is characterized by rolling green hills, dramatic limestone cliffs, and charming stone villages. If you enjoy hiking, there are hundreds of trails that offer breathtaking views of the valleys below. Although the weather can be quite unpredictable, I found that the mist only added to the mysterious atmosphere of the moors. During my stay, I visited a famous stately home called Chatsworth House. The gardens were spectacular, and the house was filled with ancient paintings and sculptures. I was told that many famous movies have been filmed there. One evening, I sat in a local pub by a warm fire and tried a traditional Bakewell pudding. It was much sweeter than I had expected! Even though the area is popular with tourists, it never felt too crowded, and I returned home feeling completely refreshed.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When did the author visit the Peak District?",
+							"options": [
+								{ "text": "In the middle of summer", "isCorrect": false },
+								{ "text": "During the autumn season", "isCorrect": true },
+								{ "text": "In the early spring", "isCorrect": false },
+								{ "text": "During the winter holidays", "isCorrect": false }
+							],
+							"explanation": "The text begins with 'Last autumn, I spent a week there'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the author say about the local weather?",
+							"options": [
+								{ "text": "It is always sunny and warm", "isCorrect": false },
+								{ "text": "It is very predictable", "isCorrect": false },
+								{ "text": "It can change unexpectedly", "isCorrect": true },
+								{ "text": "The mist makes it impossible to hike", "isCorrect": false }
+							],
+							"explanation": "The text describes the weather as 'quite unpredictable'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is special about Chatsworth House?",
+							"options": [
+								{ "text": "It is the only stone house in the village", "isCorrect": false },
+								{ "text": "It has been used as a film location", "isCorrect": true },
+								{ "text": "It is located at the top of a limestone cliff", "isCorrect": false },
+								{ "text": "It is famous for serving Bakewell pudding", "isCorrect": false }
+							],
+							"explanation": "The author was told that 'many famous movies have been filmed there'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What was the author's opinion of the Bakewell pudding?",
+							"options": [
+								{ "text": "It was too cold to eat", "isCorrect": false },
+								{ "text": "It was not very traditional", "isCorrect": false },
+								{ "text": "It had more sugar than anticipated", "isCorrect": true },
+								{ "text": "It was better than the pub food", "isCorrect": false }
+							],
+							"explanation": "The author says 'It was much sweeter than I had expected!'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "In the text, the author uses 'moors' to describe:",
+							"options": [
+								{ "text": "The local pubs in the village", "isCorrect": false },
+								{ "text": "Open areas of high wild land", "isCorrect": true },
+								{ "text": "Small stone bridges over rivers", "isCorrect": false },
+								{ "text": "The paintings inside the stately home", "isCorrect": false }
+							],
+							"explanation": "In British geography, moors refer to the wild, open upland areas mentioned."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How did the author feel after the holiday?",
+							"options": [
+								{ "text": "Tired from all the hiking", "isCorrect": false },
+								{ "text": "Bored because it wasn't crowded", "isCorrect": false },
+								{ "text": "Energized and calm", "isCorrect": true },
+								{ "text": "Disappointed by the weather", "isCorrect": false }
+							],
+							"explanation": "The text concludes: 'I returned home feeling completely refreshed'."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which statement is true based on the passage?",
+							"options": [
+								{ "text": "The author only stayed for a weekend", "isCorrect": false },
+								{ "text": "There are no activities for hikers", "isCorrect": false },
+								{ "text": "The gardens at Chatsworth were impressive", "isCorrect": true },
+								{ "text": "The moors were boring without the mist", "isCorrect": false }
+							],
+							"explanation": "The author specifically states 'The gardens were spectacular'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 4,
+				"wordCount": 162,
+				"topic": "Anecdote",
+				"difficulty": 3
+			},
+			"passageText": "I will never forget the time I got lost in the middle of Rome. I had been exploring the city all day and was trying to find my way back to the hotel. Although I had a map, the narrow, winding streets all looked identical. To make matters worse, my phone had run out of battery, so I couldn't use GPS. I tried to ask a local for directions, but my Italian was quite limited, and I couldn't understand his rapid reply. Eventually, I decided to sit down at a small café and have a gelato while I thought about what to do. As I was eating, I heard someone speaking English at the next table. It turned out to be a couple who were staying at the same hotel as me! They were kind enough to let me walk back with them. If I hadn't stopped for that ice cream, I might have been walking for hours.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What was the author trying to do when they got lost?",
+							"options": [
+								{ "text": "Find a good place for gelato", "isCorrect": false },
+								{ "text": "Return to their accommodation", "isCorrect": true },
+								{ "text": "Buy a new map of the city", "isCorrect": false },
+								{ "text": "Charge their phone battery", "isCorrect": false }
+							],
+							"explanation": "The text says they were 'trying to find my way back to the hotel'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why couldn't the author use their phone?",
+							"options": [
+								{ "text": "They had lost it in a café", "isCorrect": false },
+								{ "text": "The GPS didn't work in Rome", "isCorrect": false },
+								{ "text": "It had no power left", "isCorrect": true },
+								{ "text": "They didn't have an Italian SIM card", "isCorrect": false }
+							],
+							"explanation": "The text states 'my phone had run out of battery'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What was the problem with the directions given by the local man?",
+							"options": [
+								{ "text": "He pointed the wrong way on the map", "isCorrect": false },
+								{ "text": "He spoke too quickly for the author", "isCorrect": true },
+								{ "text": "He refused to help the author", "isCorrect": false },
+								{ "text": "He didn't know where the hotel was", "isCorrect": false }
+							],
+							"explanation": "The author says 'I couldn't understand his rapid reply'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why did the author stop at a café?",
+							"options": [
+								{ "text": "To meet a couple staying at their hotel", "isCorrect": false },
+								{ "text": "To ask the waiter for help", "isCorrect": false },
+								{ "text": "To take a break and plan their next move", "isCorrect": true },
+								{ "text": "Because they were very hungry for dinner", "isCorrect": false }
+							],
+							"explanation": "The author 'decided to sit down... while I thought about what to do'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How did the author find the solution to their problem?",
+							"options": [
+								{ "text": "They recognized the couple from the morning", "isCorrect": false },
+								{ "text": "They overheard people speaking their language", "isCorrect": true },
+								{ "text": "The waiter explained the map to them", "isCorrect": false },
+								{ "text": "Their phone suddenly started working again", "isCorrect": false }
+							],
+							"explanation": "The author says 'I heard someone speaking English at the next table'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the author imply by the last sentence?",
+							"options": [
+								{ "text": "Gelato is the best food in Rome", "isCorrect": false },
+								{ "text": "They should have brought a better map", "isCorrect": false },
+								{ "text": "A lucky decision saved them a lot of trouble", "isCorrect": true },
+								{ "text": "They were angry about being lost for hours", "isCorrect": false }
+							],
+							"explanation": "The use of the conditional 'If I hadn't... I might have been walking' implies that stopping for ice cream was a fortunate turn of events."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which word best describes the streets in Rome as mentioned in the text?",
+							"options": [
+								{ "text": "Wide", "isCorrect": false },
+								{ "text": "Straight", "isCorrect": false },
+								{ "text": "Confusing", "isCorrect": true },
+								{ "text": "Modern", "isCorrect": false }
+							],
+							"explanation": "The author says the 'narrow, winding streets all looked identical', making them confusing."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 5,
+				"wordCount": 178,
+				"topic": "Future Plans",
+				"difficulty": 3
+			},
+			"passageText": "In the next fifty years, the way we travel is likely to change beyond recognition. Many experts predict that self-driving cars will be the standard mode of transport by 2075. If this happens, traffic accidents could be almost entirely eliminated because computers are much more reliable than human drivers. Furthermore, high-speed vacuum trains, also known as hyperloops, might allow us to travel between cities in minutes rather than hours. These trains are expected to be much more environmentally friendly than traditional airplanes. However, these changes will not be easy to implement. Building the necessary infrastructure will require huge amounts of money and international cooperation. Although some people are excited about these technological advances, others are worried about privacy and the loss of jobs in the transport sector. For example, if all trucks are automated, what will happen to the millions of people who currently work as drivers? Despite these concerns, most scientists agree that we must find more sustainable ways to move if we want to protect the planet for future generations.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main advantage of self-driving cars according to the text?",
+							"options": [
+								{ "text": "They will be cheaper to buy than regular cars", "isCorrect": false },
+								{ "text": "They will significantly improve road safety", "isCorrect": true },
+								{ "text": "They will look much better than modern cars", "isCorrect": false },
+								{ "text": "They will use less space on the roads", "isCorrect": false }
+							],
+							"explanation": "The text says 'traffic accidents could be almost entirely eliminated'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is a 'hyperloop'?",
+							"options": [
+								{ "text": "A new type of electric airplane", "isCorrect": false },
+								{ "text": "A self-driving truck system", "isCorrect": false },
+								{ "text": "A very fast train that uses vacuum technology", "isCorrect": true },
+								{ "text": "A city designed for pedestrians only", "isCorrect": false }
+							],
+							"explanation": "The text describes hyperloops as 'high-speed vacuum trains'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why are hyperloops considered better than airplanes?",
+							"options": [
+								{ "text": "They can carry more passengers", "isCorrect": false },
+								{ "text": "They are faster than the speed of sound", "isCorrect": false },
+								{ "text": "They are less harmful to the environment", "isCorrect": true },
+								{ "text": "They are easier to build than airports", "isCorrect": false }
+							],
+							"explanation": "The text says they 'are expected to be much more environmentally friendly than traditional airplanes'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is a major obstacle to these future travel changes?",
+							"options": [
+								{ "text": "Computers are not yet reliable enough", "isCorrect": false },
+								{ "text": "The high cost of building new systems", "isCorrect": true },
+								{ "text": "People do not want to travel between cities", "isCorrect": false },
+								{ "text": "Scientists cannot agree on which method is best", "isCorrect": false }
+							],
+							"explanation": "The text states 'Building the necessary infrastructure will require huge amounts of money'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Who might be negatively affected by the automation of transport?",
+							"options": [
+								{ "text": "Scientists and experts", "isCorrect": false },
+								{ "text": "People working in the driving profession", "isCorrect": true },
+								{ "text": "International government leaders", "isCorrect": false },
+								{ "text": "Passengers who want to travel quickly", "isCorrect": false }
+							],
+							"explanation": "The text asks what will happen to the 'millions of people who currently work as drivers'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "In the text, 'implement' most closely means:",
+							"options": [
+								{ "text": "To think of an idea", "isCorrect": false },
+								{ "text": "To put a plan into action", "isCorrect": true },
+								{ "text": "To stop something from happening", "isCorrect": false },
+								{ "text": "To argue about a problem", "isCorrect": false }
+							],
+							"explanation": "To implement a change means to carry it out or put it into effect."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the final justification given for changing the way we travel?",
+							"options": [
+								{ "text": "To make travel as exciting as possible", "isCorrect": false },
+								{ "text": "To save money for international companies", "isCorrect": false },
+								{ "text": "To ensure the safety and health of the earth", "isCorrect": true },
+								{ "text": "To create more jobs for computer experts", "isCorrect": false }
+							],
+							"explanation": "The text ends by saying 'we must find more sustainable ways to move if we want to protect the planet'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 6,
+				"wordCount": 170,
+				"topic": "Comparison",
+				"difficulty": 3
+			},
+			"passageText": "Living in a large city is often compared to living in a small village, and both have unique advantages. In a city, you are always close to theaters, museums, and a wide variety of restaurants. Furthermore, public transport is usually very efficient, meaning that you don't necessarily need a car. However, cities can be incredibly noisy and polluted. On the other hand, village life offers a much slower pace. Residents often enjoy a stronger sense of community where everyone knows their neighbors. Although you might have to drive to the nearest supermarket, the air is cleaner and the surroundings are much quieter. If you value peace and nature, a village would probably suit you better. Nevertheless, younger people often prefer cities because there are more job opportunities and an active nightlife. Ultimately, the choice depends on an individual’s personality and lifestyle. While some people thrive in the excitement of a metropolis, others find the silence of the countryside more rewarding.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is one benefit of city life mentioned in the text?",
+							"options": [
+								{ "text": "A strong sense of community", "isCorrect": false },
+								{ "text": "Access to cultural entertainment", "isCorrect": true },
+								{ "text": "Cleaner air and quiet nights", "isCorrect": false },
+								{ "text": "Cheaper car insurance", "isCorrect": false }
+							],
+							"explanation": "The text mentions cities are 'close to theaters, museums, and... restaurants'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why might you not need a car in a city?",
+							"options": [
+								{ "text": "Everything is within walking distance", "isCorrect": false },
+								{ "text": "Public transport works well", "isCorrect": true },
+								{ "text": "Parking is too expensive", "isCorrect": false },
+								{ "text": "Cars are banned in the center", "isCorrect": false }
+							],
+							"explanation": "The text says 'public transport is usually very efficient'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is a characteristic of village life?",
+							"options": [
+								{ "text": "Efficient buses and trains", "isCorrect": false },
+								{ "text": "A lot of job opportunities", "isCorrect": false },
+								{ "text": "People knowing each other well", "isCorrect": true },
+								{ "text": "High levels of noise pollution", "isCorrect": false }
+							],
+							"explanation": "The text mentions 'a stronger sense of community where everyone knows their neighbors'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is a disadvantage of living in a village?",
+							"options": [
+								{ "text": "The air is not clean", "isCorrect": false },
+								{ "text": "It is too noisy for most people", "isCorrect": false },
+								{ "text": "Shopping for food can be less convenient", "isCorrect": true },
+								{ "text": "There are too many theaters", "isCorrect": false }
+							],
+							"explanation": "The text says 'you might have to drive to the nearest supermarket'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why do younger people often choose cities?",
+							"options": [
+								{ "text": "Because they want to learn to drive", "isCorrect": false },
+								{ "text": "Because they prefer quiet environments", "isCorrect": false },
+								{ "text": "Because of employment and social life", "isCorrect": true },
+								{ "text": "Because they dislike their neighbors", "isCorrect": false }
+							],
+							"explanation": "The text says there are 'more job opportunities and an active nightlife'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "In the sentence 'some people thrive in the excitement', 'thrive' means:",
+							"options": [
+								{ "text": "To feel sick or tired", "isCorrect": false },
+								{ "text": "To be successful and happy", "isCorrect": true },
+								{ "text": "To struggle to survive", "isCorrect": false },
+								{ "text": "To want to leave", "isCorrect": false }
+							],
+							"explanation": "To thrive means to grow or develop well, or to be very successful in an environment."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main conclusion of the passage?",
+							"options": [
+								{ "text": "Cities are objectively better than villages", "isCorrect": false },
+								{ "text": "Everyone should move to the countryside eventually", "isCorrect": false },
+								{ "text": "The best place to live depends on the person", "isCorrect": true },
+								{ "text": "Villages are becoming more like cities", "isCorrect": false }
+							],
+							"explanation": "The text states 'the choice depends on an individual’s personality and lifestyle'."
+						}
+					}
+				}
+			]
+		}
+	]
+}

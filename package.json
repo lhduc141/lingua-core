@@ -9,15 +9,13 @@
 		"build": "nest build",
 		"build:api-gateway": "nest build api-gateway",
 		"build:ai-service": "nest build ai-service",
-		"format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
 		"start": "nest start api-gateway",
 		"start:dev": "nest start api-gateway --watch",
 		"start-all": "node concurrently.js --start",
 		"start-all:dev": "node concurrently.js --dev",
-		"g:api": "nest g resource src/modules --no-crud --no-spec",
 		"start:prod": "node dist/apps/api-gateway/main.js",
-		"lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-		"test": "jest --coverage"
+		"prisma:generate": "prisma generate --schema=./prisma/schema",
+		"prisma:migrate": "prisma migrate dev --schema=./prisma/schema"
 	},
 	"dependencies": {
 		"@google/genai": "^1.32.0",
@@ -45,8 +43,6 @@
 		"pg-hstore": "^2.3.4",
 		"reflect-metadata": "^0.2.2",
 		"rxjs": "^7.8.1",
-		"sequelize": "^6.37.7",
-		"sequelize-typescript": "^2.1.6",
 		"uuid": "^13.0.0"
 	},
 	"devDependencies": {

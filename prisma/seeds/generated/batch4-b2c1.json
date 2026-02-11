@@ -1,0 +1,1659 @@
+{
+	"batches": [
+		{
+			"level": "B2",
+			"passages": [
+				{
+					"passageMetadata": {
+						"level": "B2",
+						"passageNumber": 1,
+						"wordCount": 224,
+						"topic": "Business/Economics",
+						"difficulty": 4
+					},
+					"passageText": "The contemporary landscape of the global gig economy has undergone a significant transformation, necessitating a re-evaluation of labor regulations. Traditionally, the distinction between independent contractors and full-time employees was clearly demarcated; however, the rise of digital platforms has blurred these lines. Proponents of the gig model argue that it offers unparalleled flexibility, allowing individuals to curate their own schedules and diversify their income streams. Rarely have workers had such autonomy over their professional lives. Nevertheless, critics contend that this flexibility comes at a steep price. The absence of traditional benefits, such as health insurance and paid leave, creates a precarious financial situation for many. Should the current trend continue without intervention, a substantial portion of the workforce may find themselves without a safety net. Furthermore, the algorithmic management employed by these platforms often dictates worker behavior in ways that contradict the notion of true independence. This systemic shift suggests that while innovation is vital, it must not come at the expense of fundamental worker protections. Economic analysts suggest that a 'third category' of worker might be the only viable solution to balance innovation with equity. Only by implementing robust legislative frameworks can governments ensure that the digital economy remains sustainable for all stakeholders involved. The challenge lies in drafting laws that are adaptable enough to keep pace with rapid technological advancements.",
+					"questions": [
+						{
+							"questionNumber": 1,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the primary concern raised by critics of the gig economy?",
+									"options": [
+										{ "text": "The lack of digital platforms for workers", "isCorrect": false },
+										{
+											"text": "The financial instability caused by a lack of benefits",
+											"isCorrect": true
+										},
+										{
+											"text": "The excessive flexibility offered to employees",
+											"isCorrect": false
+										},
+										{
+											"text": "The inability of workers to curate their schedules",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The text mentions the 'absence of traditional benefits' creates a 'precarious financial situation'."
+								}
+							}
+						},
+						{
+							"questionNumber": 2,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "hard",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What does the author imply about 'algorithmic management'?",
+									"options": [
+										{ "text": "It supports the idea of worker independence", "isCorrect": false },
+										{ "text": "It is more efficient than human management", "isCorrect": false },
+										{
+											"text": "It restricts the actual autonomy of the workers",
+											"isCorrect": true
+										},
+										{ "text": "It is a requirement for all digital platforms", "isCorrect": false }
+									],
+									"explanation": "The text states it 'dictates worker behavior in ways that contradict the notion of true independence'."
+								}
+							}
+						},
+						{
+							"questionNumber": 3,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "Which word is closest in meaning to 'demarcated' in the text?",
+									"options": [
+										{ "text": "Ignored", "isCorrect": false },
+										{ "text": "Connected", "isCorrect": false },
+										{ "text": "Defined", "isCorrect": true },
+										{ "text": "Complicated", "isCorrect": false }
+									],
+									"explanation": "In this context, it refers to the clear boundaries or definitions between categories."
+								}
+							}
+						},
+						{
+							"questionNumber": 4,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the 'third category' mentioned in the passage?",
+									"options": [
+										{ "text": "A new type of digital platform", "isCorrect": false },
+										{ "text": "A hybrid legal status for gig workers", "isCorrect": true },
+										{ "text": "A group of unemployed economic analysts", "isCorrect": false },
+										{ "text": "A classification for algorithmic software", "isCorrect": false }
+									],
+									"explanation": "The context suggests it is a solution to balance the needs of contractors and employees."
+								}
+							}
+						},
+						{
+							"questionNumber": 5,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "hard",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "According to the author, why is legislative action difficult?",
+									"options": [
+										{ "text": "Workers do not want government intervention", "isCorrect": false },
+										{ "text": "Digital platforms are becoming less popular", "isCorrect": false },
+										{ "text": "Laws must evolve as quickly as technology does", "isCorrect": true },
+										{ "text": "The gig economy is too small to regulate", "isCorrect": false }
+									],
+									"explanation": "The text notes the challenge in drafting laws that 'keep pace with rapid technological advancements'."
+								}
+							}
+						},
+						{
+							"questionNumber": 6,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the main idea of the passage?",
+									"options": [
+										{
+											"text": "Digital platforms are the best way to earn income",
+											"isCorrect": false
+										},
+										{
+											"text": "Innovation should always be the priority in economics",
+											"isCorrect": false
+										},
+										{
+											"text": "Gig workers should be classified as full-time employees",
+											"isCorrect": false
+										},
+										{
+											"text": "New regulations are needed to protect workers in a changing economy",
+											"isCorrect": true
+										}
+									],
+									"explanation": "The passage discusses the need for new frameworks to address the issues in the gig economy."
+								}
+							}
+						},
+						{
+							"questionNumber": 7,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What does 'this systemic shift' refer to in the text?",
+									"options": [
+										{ "text": "The move toward health insurance for all", "isCorrect": false },
+										{ "text": "The overall change in how labor is structured", "isCorrect": true },
+										{
+											"text": "The decrease in the number of digital platforms",
+											"isCorrect": false
+										},
+										{ "text": "The increase in legislative frameworks", "isCorrect": false }
+									],
+									"explanation": "It refers to the transition from traditional employment to the gig-based model."
+								}
+							}
+						}
+					]
+				},
+				{
+					"passageMetadata": {
+						"level": "B2",
+						"passageNumber": 2,
+						"wordCount": 231,
+						"topic": "Environment",
+						"difficulty": 4
+					},
+					"passageText": "The concept of 'rewilding' has emerged as a radical and contentious strategy in conservation biology. Unlike traditional conservation, which often focuses on managing specific species within a fixed environment, rewilding aims to restore self-sustaining ecosystems by reintroducing apex predators and keystone species. Proponents argue that by allowing nature to take its course, we can reverse the ecological degradation caused by centuries of human interference. Had such measures been implemented earlier, many ecosystems might not have reached their current state of collapse. However, the introduction of large carnivores into inhabited landscapes frequently meets with fierce opposition from local farming communities. Their concerns regarding livestock safety and land use are not without merit. Furthermore, the unpredictability of 'wild' ecosystems poses a challenge to traditional land management policies. Critics question whether it is truly possible to return to a 'pristine' state in an era defined by anthropogenic climate change. They suggest that focus should instead be placed on adaptive management that acknowledges human presence. Despite these debates, pilot projects in parts of Europe have shown promising results, with biodiversity levels flourishing in a relatively short timeframe. To succeed, rewilding initiatives must move beyond purely biological goals and integrate socio-economic considerations. Only through transparent dialogue and financial compensation schemes can conservationists hope to gain the necessary public support for these ambitious projects.",
+					"questions": [
+						{
+							"questionNumber": 1,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "How does rewilding differ from traditional conservation?",
+									"options": [
+										{ "text": "It focuses on a single species at a time", "isCorrect": false },
+										{ "text": "It avoids the introduction of predators", "isCorrect": false },
+										{
+											"text": "It seeks to create ecosystems that function independently",
+											"isCorrect": true
+										},
+										{
+											"text": "It requires more human management than traditional methods",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The text states rewilding 'aims to restore self-sustaining ecosystems'."
+								}
+							}
+						},
+						{
+							"questionNumber": 2,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "Why do local farmers often oppose rewilding?",
+									"options": [
+										{ "text": "They believe it will lower biodiversity", "isCorrect": false },
+										{
+											"text": "They are worried about the safety of their animals",
+											"isCorrect": true
+										},
+										{
+											"text": "They prefer apex predators over keystone species",
+											"isCorrect": false
+										},
+										{ "text": "They want more human interference in nature", "isCorrect": false }
+									],
+									"explanation": "The text mentions 'concerns regarding livestock safety'."
+								}
+							}
+						},
+						{
+							"questionNumber": 3,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "hard",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What does the author suggest about the 'pristine' state of nature?",
+									"options": [
+										{ "text": "It is easily achievable through rewilding", "isCorrect": false },
+										{
+											"text": "It is a requirement for all conservation projects",
+											"isCorrect": false
+										},
+										{
+											"text": "It may be an unrealistic goal due to climate change",
+											"isCorrect": true
+										},
+										{ "text": "It was never actually reached in Europe", "isCorrect": false }
+									],
+									"explanation": "Critics question if it's possible in an era of 'anthropogenic climate change'."
+								}
+							}
+						},
+						{
+							"questionNumber": 4,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What does 'anthropogenic' mean in this context?",
+									"options": [
+										{ "text": "Related to ancient history", "isCorrect": false },
+										{ "text": "Caused by human activity", "isCorrect": true },
+										{ "text": "Beneficial to animals", "isCorrect": false },
+										{ "text": "Unpredictable and wild", "isCorrect": false }
+									],
+									"explanation": "In environmental science, anthropogenic refers to human-induced changes."
+								}
+							}
+						},
+						{
+							"questionNumber": 5,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "hard",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What condition is necessary for rewilding to succeed according to the text?",
+									"options": [
+										{ "text": "Farming must be completely abolished", "isCorrect": false },
+										{
+											"text": "Ecosystems must be kept entirely away from humans",
+											"isCorrect": false
+										},
+										{ "text": "It must include social and economic factors", "isCorrect": true },
+										{ "text": "Carnivores should not be reintroduced", "isCorrect": false }
+									],
+									"explanation": "The author states initiatives must 'integrate socio-economic considerations'."
+								}
+							}
+						},
+						{
+							"questionNumber": 6,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What has been the result of rewilding pilot projects in Europe?",
+									"options": [
+										{ "text": "Fierce opposition from scientists", "isCorrect": false },
+										{ "text": "A total collapse of local agriculture", "isCorrect": false },
+										{ "text": "A rapid increase in various forms of life", "isCorrect": true },
+										{ "text": "A decrease in livestock safety", "isCorrect": false }
+									],
+									"explanation": "The text mentions 'biodiversity levels flourishing in a relatively short timeframe'."
+								}
+							}
+						},
+						{
+							"questionNumber": 7,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the author's purpose in writing this article?",
+									"options": [
+										{
+											"text": "To demand the immediate reintroduction of wolves",
+											"isCorrect": false
+										},
+										{ "text": "To criticize farmers for their land use", "isCorrect": false },
+										{
+											"text": "To analyze the benefits and challenges of rewilding",
+											"isCorrect": true
+										},
+										{ "text": "To prove that climate change is not real", "isCorrect": false }
+									],
+									"explanation": "The author presents both sides of the rewilding debate and identifies steps for its success."
+								}
+							}
+						}
+					]
+				},
+				{
+					"passageMetadata": {
+						"level": "B2",
+						"passageNumber": 3,
+						"wordCount": 218,
+						"topic": "Technology",
+						"difficulty": 4
+					},
+					"passageText": "The rapid proliferation of Artificial Intelligence (AI) in creative industries has sparked a nuanced debate regarding the nature of authorship. Large Language Models (LLMs) are now capable of producing prose, poetry, and even visual art that is indistinguishable from human-made work. While enthusiasts herald this as a democratization of creativity, skeptics warn of the potential erosion of human artistic value. Under no circumstances should we ignore the ethical implications of training these models on vast datasets of copyrighted material without consent. This practice raises complex legal questions that current intellectual property laws are ill-equipped to answer. Furthermore, the use of AI tools in professional settings often leads to concerns about job displacement. If an algorithm can generate a marketing campaign in seconds, the role of the traditional copywriter becomes uncertain. However, it is also argued that AI serves as a powerful collaborator, augmenting human capability rather than replacing it. By automating repetitive tasks, AI allows creators to focus on higher-level conceptual work. The key to a successful integration of AI lies in establishing ethical guidelines and clear attribution standards. Only then can the creative community harness the potential of AI without sacrificing the integrity of human expression. The future of art likely involves a synthesis of human intuition and algorithmic precision.",
+					"questions": [
+						{
+							"questionNumber": 1,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What does 'democratization of creativity' imply in the text?",
+									"options": [
+										{ "text": "Creativity is only for experts", "isCorrect": false },
+										{
+											"text": "AI tools make creative expression accessible to more people",
+											"isCorrect": true
+										},
+										{ "text": "Art must be voted on by the public", "isCorrect": false },
+										{ "text": "Large Language Models are expensive to use", "isCorrect": false }
+									],
+									"explanation": "It refers to the idea that AI allows anyone to produce high-quality creative work."
+								}
+							}
+						},
+						{
+							"questionNumber": 2,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "hard",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the ethical concern regarding AI training data?",
+									"options": [
+										{ "text": "The data is not diverse enough", "isCorrect": false },
+										{ "text": "The datasets are too small to be useful", "isCorrect": false },
+										{
+											"text": "Models are trained on protected work without permission",
+											"isCorrect": true
+										},
+										{ "text": "AI cannot understand copyrighted material", "isCorrect": false }
+									],
+									"explanation": "The text mentions 'training these models on vast datasets of copyrighted material without consent'."
+								}
+							}
+						},
+						{
+							"questionNumber": 3,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "Why is the role of a copywriter described as 'uncertain'?",
+									"options": [
+										{ "text": "Copywriters are refusing to use AI", "isCorrect": false },
+										{ "text": "AI can produce similar work much faster", "isCorrect": true },
+										{ "text": "Marketing campaigns are no longer necessary", "isCorrect": false },
+										{ "text": "Algorithms cannot generate marketing text", "isCorrect": false }
+									],
+									"explanation": "The text suggests algorithms can generate campaigns in seconds, potentially displacing human workers."
+								}
+							}
+						},
+						{
+							"questionNumber": 4,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "How might AI benefit a human creator according to the passage?",
+									"options": [
+										{ "text": "By replacing their role entirely", "isCorrect": false },
+										{
+											"text": "By handling the mechanical and repetitive aspects of work",
+											"isCorrect": true
+										},
+										{
+											"text": "By eliminating the need for conceptual thinking",
+											"isCorrect": false
+										},
+										{ "text": "By automatically securing copyrights for them", "isCorrect": false }
+									],
+									"explanation": "The text says AI automates 'repetitive tasks,' allowing focus on 'higher-level conceptual work'."
+								}
+							}
+						},
+						{
+							"questionNumber": 5,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "hard",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What does 'indistinguishable' mean in the second sentence?",
+									"options": [
+										{ "text": "Low quality", "isCorrect": false },
+										{ "text": "Hard to notice", "isCorrect": false },
+										{ "text": "Exactly the same", "isCorrect": true },
+										{ "text": "Very different", "isCorrect": false }
+									],
+									"explanation": "If AI work is indistinguishable from human work, it means they look or sound the same."
+								}
+							}
+						},
+						{
+							"questionNumber": 6,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "hard",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is required to protect the 'integrity of human expression'?",
+									"options": [
+										{ "text": "A total ban on AI in the arts", "isCorrect": false },
+										{
+											"text": "The removal of all LLMs from professional settings",
+											"isCorrect": false
+										},
+										{
+											"text": "The development of ethical and attribution standards",
+											"isCorrect": true
+										},
+										{ "text": "Allowing AI to own copyrights", "isCorrect": false }
+									],
+									"explanation": "The text states integration requires 'establishing ethical guidelines and clear attribution standards'."
+								}
+							}
+						},
+						{
+							"questionNumber": 7,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the author's stance on the future of art?",
+									"options": [
+										{ "text": "Human intuition will become irrelevant", "isCorrect": false },
+										{ "text": "Algorithmic precision will replace all art", "isCorrect": false },
+										{
+											"text": "Art will be a combination of humans and algorithms",
+											"isCorrect": true
+										},
+										{ "text": "There is no future for the creative industry", "isCorrect": false }
+									],
+									"explanation": "The final sentence mentions a 'synthesis of human intuition and algorithmic precision'."
+								}
+							}
+						}
+					]
+				},
+				{
+					"passageMetadata": {
+						"level": "B2",
+						"passageNumber": 4,
+						"wordCount": 220,
+						"topic": "Cultural Critique",
+						"difficulty": 4
+					},
+					"passageText": "The phenomenon of 'doomscrolling'—the tendency to continue to surf through bad news despite the anxiety it causes—has become a defining characteristic of the digital age. Psychologists suggest that this behavior is rooted in an evolutionary desire to stay informed about potential threats. In ancient times, knowing about danger was essential for survival; however, in a 24-hour news cycle, this instinct can become maladaptive. Were we more aware of the psychological toll, we might limit our consumption of negative media. The constant influx of distressing information can lead to 'compassion fatigue,' where individuals become desensitized to the suffering of others. This has profound implications for social cohesion and collective action. Critics of social media platforms argue that algorithms are designed to exploit this negativity bias, as controversial or alarming content typically generates higher engagement. Consequently, users find themselves trapped in a loop of reinforcing anxiety. To counteract this, experts recommend 'digital minimalism' and the intentional curation of one's feed. It is crucial that we foster media literacy to recognize when our instincts are being manipulated by design. Only by regaining control over our digital environments can we protect our mental well-being. Ultimately, the challenge is to remain an informed citizen without sacrificing one's peace of mind to the relentless stream of information.",
+					"questions": [
+						{
+							"questionNumber": 1,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the evolutionary explanation for 'doomscrolling'?",
+									"options": [
+										{ "text": "Humans enjoy being anxious", "isCorrect": false },
+										{ "text": "It is a way to socialize with others", "isCorrect": false },
+										{
+											"text": "An instinct to remain aware of dangers for survival",
+											"isCorrect": true
+										},
+										{ "text": "A desire to ignore modern technology", "isCorrect": false }
+									],
+									"explanation": "The text says it's 'rooted in an evolutionary desire to stay informed about potential threats'."
+								}
+							}
+						},
+						{
+							"questionNumber": 2,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "hard",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What does the author mean by 'maladaptive' in the first paragraph?",
+									"options": [
+										{ "text": "Helpful for modern life", "isCorrect": false },
+										{ "text": "No longer suitable or effective", "isCorrect": true },
+										{ "text": "Very easy to learn", "isCorrect": false },
+										{ "text": "Related to physical health", "isCorrect": false }
+									],
+									"explanation": "It describes an instinct that was useful in the past but is now harmful or counterproductive."
+								}
+							}
+						},
+						{
+							"questionNumber": 3,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is 'compassion fatigue'?",
+									"options": [
+										{ "text": "A physical illness caused by bad news", "isCorrect": false },
+										{ "text": "A loss of sensitivity to the pain of others", "isCorrect": true },
+										{ "text": "A desire to help everyone in the world", "isCorrect": false },
+										{ "text": "A type of social media algorithm", "isCorrect": false }
+									],
+									"explanation": "The text defines it as when 'individuals become desensitized to the suffering of others'."
+								}
+							}
+						},
+						{
+							"questionNumber": 4,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "hard",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "Why do social media algorithms favor negative content?",
+									"options": [
+										{
+											"text": "Because it is more accurate than positive news",
+											"isCorrect": false
+										},
+										{ "text": "To help users find potential threats", "isCorrect": false },
+										{
+											"text": "Because it attracts more interaction from users",
+											"isCorrect": true
+										},
+										{ "text": "To discourage users from doomscrolling", "isCorrect": false }
+									],
+									"explanation": "The text says algorithms exploit 'negativity bias' because such content 'generates higher engagement'."
+								}
+							}
+						},
+						{
+							"questionNumber": 5,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is 'digital minimalism'?",
+									"options": [
+										{ "text": "Deleting all social media accounts", "isCorrect": false },
+										{ "text": "A way of designing smaller computers", "isCorrect": false },
+										{ "text": "Reducing and intentional use of digital tools", "isCorrect": true },
+										{ "text": "Training AI to read the news for you", "isCorrect": false }
+									],
+									"explanation": "It refers to counteracting doomscrolling through 'intentional curation' and reduced usage."
+								}
+							}
+						},
+						{
+							"questionNumber": 6,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "According to the author, what is the 'ultimate challenge'?",
+									"options": [
+										{ "text": "Finding more bad news to read", "isCorrect": false },
+										{
+											"text": "Balanced being an informed citizen with mental peace",
+											"isCorrect": true
+										},
+										{ "text": "Developing better news algorithms", "isCorrect": false },
+										{ "text": "Stopping the 24-hour news cycle entirely", "isCorrect": false }
+									],
+									"explanation": "The final sentence highlights the struggle to stay informed without losing peace of mind."
+								}
+							}
+						},
+						{
+							"questionNumber": 7,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "hard",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "Which statement best describes the author's purpose?",
+									"options": [
+										{
+											"text": "To encourage users to engage more with controversial content",
+											"isCorrect": false
+										},
+										{
+											"text": "To analyze the psychological effects of modern news consumption",
+											"isCorrect": true
+										},
+										{
+											"text": "To explain the history of ancient survival instincts",
+											"isCorrect": false
+										},
+										{ "text": "To promote a specific social media platform", "isCorrect": false }
+									],
+									"explanation": "The author examines doomscrolling, its causes, and its impact on mental health and society."
+								}
+							}
+						}
+					]
+				},
+				{
+					"passageMetadata": {
+						"level": "B2",
+						"passageNumber": 5,
+						"wordCount": 225,
+						"topic": "Health/Science",
+						"difficulty": 4
+					},
+					"passageText": "Recent advancements in CRISPR-Cas9 technology have brought the prospect of gene editing into the mainstream of medical research. This powerful tool allows scientists to make precise alterations to DNA, potentially curing genetic disorders that were once considered terminal. However, the application of such technology is fraught with ethical dilemmas, particularly regarding 'germline' editing. Unlike somatic editing, which affects only the individual patient, germline modifications are heritable and could alter the human gene pool for future generations. Some bioethicists argue that this could lead to a new form of eugenics, where 'desirable' traits are selected by those who can afford the procedure. Rarely has a scientific discovery necessitated such a rigorous global dialogue on ethics. Should we prioritize the eradication of debilitating diseases, or protect the biological integrity of the human species? Furthermore, the potential for 'off-target' effects—where the technology accidentally modifies the wrong part of the genome—remains a significant safety concern. Despite these risks, clinical trials for certain blood disorders have shown extraordinary success. To ensure the safe development of gene editing, a consensus on international regulations is imperative. We must weigh the immense medical benefits against the profound social and biological consequences. The future of medicine depends on our ability to navigate these complex moral landscapes with both caution and ambition.",
+					"questions": [
+						{
+							"questionNumber": 1,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "easy",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is CRISPR-Cas9?",
+									"options": [
+										{ "text": "A type of terminal genetic disorder", "isCorrect": false },
+										{ "text": "A technology used for precise gene editing", "isCorrect": true },
+										{ "text": "A bioethical organization", "isCorrect": false },
+										{ "text": "A new medicine for blood disorders", "isCorrect": false }
+									],
+									"explanation": "The text describes it as a tool that 'allows scientists to make precise alterations to DNA'."
+								}
+							}
+						},
+						{
+							"questionNumber": 2,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the main difference between somatic and germline editing?",
+									"options": [
+										{ "text": "Somatic editing is more expensive", "isCorrect": false },
+										{
+											"text": "Germline editing only affects the individual patient",
+											"isCorrect": false
+										},
+										{ "text": "Germline changes can be passed to children", "isCorrect": true },
+										{
+											"text": "Somatic editing is used only for blood disorders",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The text states germline modifications are 'heritable' and affect the gene pool of 'future generations'."
+								}
+							}
+						},
+						{
+							"questionNumber": 3,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "hard",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the bioethical concern regarding 'desirable' traits?",
+									"options": [
+										{ "text": "Traits are not actually selectable", "isCorrect": false },
+										{
+											"text": "It could lead to inequality based on the ability to pay for edits",
+											"isCorrect": true
+										},
+										{ "text": "Future generations will not want these traits", "isCorrect": false },
+										{ "text": "CRISPR cannot be used for desirable traits", "isCorrect": false }
+									],
+									"explanation": "The text mentions a 'new form of eugenics' where traits are selected by those who can 'afford the procedure'."
+								}
+							}
+						},
+						{
+							"questionNumber": 4,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What does 'off-target' effects refer to?",
+									"options": [
+										{ "text": "The high cost of the technology", "isCorrect": false },
+										{ "text": "Edits that happen to the wrong part of the DNA", "isCorrect": true },
+										{
+											"text": "The technology failing to edit anything at all",
+											"isCorrect": false
+										},
+										{ "text": "Diseases that are too difficult to target", "isCorrect": false }
+									],
+									"explanation": "The text defines it as 'where the technology accidentally modifies the wrong part of the genome'."
+								}
+							}
+						},
+						{
+							"questionNumber": 5,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "hard",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "In the sentence 'a consensus on international regulations is imperative', what does 'imperative' mean?",
+									"options": [
+										{ "text": "Optional", "isCorrect": false },
+										{ "text": "Impossible", "isCorrect": false },
+										{ "text": "Crucial and necessary", "isCorrect": true },
+										{ "text": "Interesting", "isCorrect": false }
+									],
+									"explanation": "Imperative means something that is absolutely required or essential."
+								}
+							}
+						},
+						{
+							"questionNumber": 6,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "moderate",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the result of clinical trials for certain blood disorders?",
+									"options": [
+										{ "text": "Complete failure", "isCorrect": false },
+										{ "text": "Great success", "isCorrect": true },
+										{ "text": "Profound biological consequences", "isCorrect": false },
+										{ "text": "International regulations", "isCorrect": false }
+									],
+									"explanation": "The passage says clinical trials have shown 'extraordinary success'."
+								}
+							}
+						},
+						{
+							"questionNumber": 7,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 4,
+							"humanDifficulty": "hard",
+							"cefrLevel": "B2",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the primary theme of the passage?",
+									"options": [
+										{ "text": "The history of genetic research", "isCorrect": false },
+										{ "text": "The technical process of CRISPR", "isCorrect": false },
+										{
+											"text": "The balance between medical progress and ethical safety",
+											"isCorrect": true
+										},
+										{ "text": "The eradication of all diseases by 2030", "isCorrect": false }
+									],
+									"explanation": "The text explores the medical potential of CRISPR while emphasizing the heavy ethical and safety concerns."
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"level": "C1",
+			"passages": [
+				{
+					"passageMetadata": {
+						"level": "C1",
+						"passageNumber": 1,
+						"wordCount": 282,
+						"topic": "Academic Research Abstract",
+						"difficulty": 5
+					},
+					"passageText": "This research abstract investigates the multifaceted relationship between urban architecture and the psychological well-being of inhabitants, specifically focusing on the concept of 'biophilic design' within high-density metropolitan areas. While prior studies have consistently identified a correlation between access to green space and reduced cortisol levels, this paper seeks to elucidate the specific architectural elements that facilitate these physiological responses in environments where traditional parks are absent. Through a comparative analysis of three major urban hubs, the study examines how the integration of vertical gardens, natural light optimization, and organic fractals in building facades impacts residents' cognitive load and emotional regulation. Preliminary findings suggest that 'perceived naturalness' is a more significant determinant of mental health than the actual presence of diverse biological species. Furthermore, the data indicates that the sudden transition from rigid, brutalist structures to biophilic environments can trigger a 'restorative response,' although the longevity of this effect remains subject to longitudinal inquiry. The study also addresses the socio-economic dimension, noting that biophilic improvements are disproportionately concentrated in affluent districts, thereby exacerbating 'environmental inequality.' Consequently, the researchers advocate for a policy shift that prioritizes biophilic urbanism as a fundamental public health requirement rather than an aesthetic luxury. By synthesizing data from neurobiology, urban planning, and environmental psychology, this paper provides a robust framework for future developments in sustainable city design. The implications of this research are far-reaching, suggesting that the very fabric of our buildings could serve as a non-pharmacological intervention for the burgeoning mental health crisis in urban populations. Ultimately, the work underscores the necessity of interdisciplinary collaboration to harmonize the built environment with the ancestral biological requirements of the human mind.",
+					"questions": [
+						{
+							"questionNumber": 1,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "Based on the abstract, what is a primary focus of the research that distinguishes it from previous studies?",
+									"options": [
+										{
+											"text": "The general link between green space and stress reduction",
+											"isCorrect": false
+										},
+										{
+											"text": "The impact of traditional parks on metropolitan cortisol levels",
+											"isCorrect": false
+										},
+										{
+											"text": "Identifying architectural factors that mimic natural benefits in dense urban settings",
+											"isCorrect": true
+										},
+										{
+											"text": "The measurement of biological diversity within high-density areas",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The paper seeks to 'elucidate the specific architectural elements that facilitate these physiological responses in environments where traditional parks are absent'."
+								}
+							}
+						},
+						{
+							"questionNumber": 2,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What does the term 'perceived naturalness' imply regarding residents' psychological health?",
+									"options": [
+										{
+											"text": "Actual biological diversity is the most critical factor for well-being",
+											"isCorrect": false
+										},
+										{
+											"text": "The subjective feeling of being in a natural setting is more important than real biodiversity",
+											"isCorrect": true
+										},
+										{
+											"text": "Residents are often unable to distinguish between real and artificial plants",
+											"isCorrect": false
+										},
+										{
+											"text": "Naturalness is a quality that can only be found in affluent districts",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The abstract says 'perceived naturalness' is a 'more significant determinant' than the presence of 'diverse biological species'."
+								}
+							}
+						},
+						{
+							"questionNumber": 3,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "Which of the following best captures the researchers' stance on biophilic urbanism policies?",
+									"options": [
+										{
+											"text": "It should be treated as an optional aesthetic enhancement for city luxury",
+											"isCorrect": false
+										},
+										{
+											"text": "It is an expensive luxury that currently exacerbates inequality",
+											"isCorrect": false
+										},
+										{
+											"text": "It is a vital public health measure that should be accessible across all socio-economic levels",
+											"isCorrect": true
+										},
+										{
+											"text": "It is a pharmacological intervention for urban mental health",
+											"isCorrect": false
+										}
+									],
+									"explanation": "They advocate for a shift that 'prioritizes biophilic urbanism as a fundamental public health requirement rather than an aesthetic luxury'."
+								}
+							}
+						},
+						{
+							"questionNumber": 4,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "very_hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "In the context of the passage, the word 'burgeoning' most closely relates to:",
+									"options": [
+										{ "text": "Declining or fading", "isCorrect": false },
+										{ "text": "Rapidly growing and expanding", "isCorrect": true },
+										{ "text": "Hidden and subtle", "isCorrect": false },
+										{ "text": "Stable and unchanging", "isCorrect": false }
+									],
+									"explanation": "It refers to the increasing or 'burgeoning' mental health crisis in cities."
+								}
+							}
+						},
+						{
+							"questionNumber": 5,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "very_hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What can be inferred about the 'restorative response' mentioned in the findings?",
+									"options": [
+										{
+											"text": "It is a permanent neurological change caused by vertical gardens",
+											"isCorrect": false
+										},
+										{
+											"text": "Its long-term sustainability is not yet fully understood and requires further study",
+											"isCorrect": true
+										},
+										{
+											"text": "It is only triggered by brutalist architectural styles",
+											"isCorrect": false
+										},
+										{
+											"text": "It occurs exclusively in residents of affluent districts",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The text states 'the longevity of this effect remains subject to longitudinal inquiry,' implying it is not yet fully understood."
+								}
+							}
+						}
+					]
+				},
+				{
+					"passageMetadata": {
+						"level": "C1",
+						"passageNumber": 2,
+						"wordCount": 271,
+						"topic": "Philosophy/Theoretical",
+						"difficulty": 5
+					},
+					"passageText": "The philosophical inquiry into 'Epistemic Injustice' explores the profound ways in which prejudice influences our recognition of others as knowers. Coined by Miranda Fricker, the concept is bifurcated into testimonial injustice and hermeneutical injustice. Testimonial injustice occurs when a speaker receives a deflated level of credibility due to a listener's prejudice regarding their social identity. This phenomenon not only undermines the individual's status as a rational agent but also distorts the collective pursuit of truth. When specific voices are systematically discounted, the epistemic community suffers from a 'credibility deficit' that hampers the integration of diverse insights. Hermeneutical injustice, conversely, occurs at a structural level, where a gap in collective interpretive resources puts someone at a disadvantage when it comes to making sense of their social experience. This often arises when a group's experiences are not articulated because they lack the conceptual tools or vocabulary—often because those tools are forged by dominant social groups. Such an analysis reveals that knowledge production is not a neutral endeavor but is deeply entangled with power dynamics. Critics of this theory argue that it risks over-politicizing the nature of truth; however, proponents suggest that ignoring these biases merely preserves an unjust status quo. To achieve epistemic justice, we must cultivate 'intellectual humility' and actively seek to rectify the structural imbalances that silence marginalized perspectives. The challenge lies in acknowledging that our own interpretive framework is not universal but is shaped by our social location. Ultimately, the quest for epistemic justice is inextricably linked to the broader pursuit of social equity, requiring a radical rethinking of how we validate information and who we deem worthy of belief.",
+					"questions": [
+						{
+							"questionNumber": 1,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "Which of the following best describes 'testimonial injustice' as presented in the text?",
+									"options": [
+										{
+											"text": "A failure to understand a speaker's complex vocabulary",
+											"isCorrect": false
+										},
+										{
+											"text": "An unfair reduction in a person's believability based on their social group",
+											"isCorrect": true
+										},
+										{
+											"text": "A structural gap in the language available to marginalized groups",
+											"isCorrect": false
+										},
+										{
+											"text": "The over-politicization of scientific and absolute truths",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The text define it as when a speaker receives 'a deflated level of credibility due to a listener's prejudice regarding their social identity'."
+								}
+							}
+						},
+						{
+							"questionNumber": 2,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "How does hermeneutical injustice disadvantage an individual?",
+									"options": [
+										{
+											"text": "By explicitly silencing them during a public debate",
+											"isCorrect": false
+										},
+										{
+											"text": "By preventing them from accessing educational resources",
+											"isCorrect": false
+										},
+										{
+											"text": "By leaving them without the concepts necessary to describe their own life experiences",
+											"isCorrect": true
+										},
+										{
+											"text": "By inflating the credibility of their social peers",
+											"isCorrect": false
+										}
+									],
+									"explanation": "It refers to a 'gap in collective interpretive resources' that prevents someone from 'making sense of their social experience'."
+								}
+							}
+						},
+						{
+							"questionNumber": 3,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "very_hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What does the author imply about 'knowledge production'?",
+									"options": [
+										{
+											"text": "It is a purely objective process unaffected by society",
+											"isCorrect": false
+										},
+										{
+											"text": "It is a neutral endeavor pursued by rational agents",
+											"isCorrect": false
+										},
+										{
+											"text": "It is inherently tied to the social and political power of different groups",
+											"isCorrect": true
+										},
+										{
+											"text": "It is primarily hampered by a lack of intellectual humility in dominant groups",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The text states that 'knowledge production is not a neutral endeavor but is deeply entangled with power dynamics'."
+								}
+							}
+						},
+						{
+							"questionNumber": 4,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "very_hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "In the phrase 'conceptual tools are forged by dominant social groups,' the word 'forged' most closely means:",
+									"options": [
+										{ "text": "Fake or imitated", "isCorrect": false },
+										{ "text": "Created or shaped", "isCorrect": true },
+										{ "text": "Stolen or taken", "isCorrect": false },
+										{ "text": "Destroyed or broken", "isCorrect": false }
+									],
+									"explanation": "In this context, it refers to the development or creation of ideas and language."
+								}
+							}
+						},
+						{
+							"questionNumber": 5,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the primary synthesis of the author's argument regarding epistemic justice?",
+									"options": [
+										{
+											"text": "It requires an increase in the number of rational agents in a community",
+											"isCorrect": false
+										},
+										{
+											"text": "It is a theoretical concept that has no relation to social equity",
+											"isCorrect": false
+										},
+										{
+											"text": "It necessitates a change in how we validate information and recognize the influence of social location",
+											"isCorrect": true
+										},
+										{
+											"text": "It can be achieved solely by giving more credibility to marginalized speakers",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The text concludes that it requires 'a radical rethinking of how we validate information' and acknowledging the role of social location."
+								}
+							}
+						}
+					]
+				},
+				{
+					"passageMetadata": {
+						"level": "C1",
+						"passageNumber": 3,
+						"wordCount": 288,
+						"topic": "Critical Analysis of a Complex Issue",
+						"difficulty": 5
+					},
+					"passageText": "The rapid ascendancy of 'Surveillance Capitalism' represents a tectonic shift in the modern economy, where personal experience is unilaterally claimed as free raw material for translation into behavioral data. As described by Shoshana Zuboff, this process does not merely aim to improve service but to predict and influence future behavior. This 'behavioral futures market' creates a new logic of accumulation that bypasses traditional market dynamics. Unlike the industrial capitalism of the past, which thrived on the exploitation of labor, surveillance capitalism thrives on the exploitation of human experience itself. The data extracted is fed into sophisticated computational architectures—'machine intelligence'—to create 'prediction products' that are sold to business customers. This raises profound questions about individual autonomy and the erosion of the 'right to sanctuary.' In this digital panopticon, the traditional concept of privacy is rendered obsolete, replaced by a transparency that is asymmetrically weighted in favor of large tech conglomerates. Critics argue that this system fundamentally undermines democratic processes, as algorithms can be used to nudge or manipulate public opinion with surgical precision. Furthermore, the lack of transparency regarding how these algorithms operate—often shielded by 'trade secret' laws—precludes any meaningful public oversight. To challenge this paradigm, we must recognize that this is not an inevitable consequence of technology but a specific economic choice. Regulating surveillance capitalism requires more than just better privacy settings; it demands a fundamental reassertion of human agency over the digital structures that increasingly define our reality. We must ask whether we are willing to sacrifice our 'right to the future tense'—the ability to act without being anticipated or directed by an algorithmic shadow—for the sake of convenience and connectivity. The struggle against this extraction-based model is, at its core, a struggle for the soul of the digital age.",
+					"questions": [
+						{
+							"questionNumber": 1,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "How does surveillance capitalism differ from traditional industrial capitalism, according to the text?",
+									"options": [
+										{
+											"text": "It relies more heavily on the manual exploitation of labor",
+											"isCorrect": false
+										},
+										{
+											"text": "It uses raw physical materials for its accumulation logic",
+											"isCorrect": false
+										},
+										{
+											"text": "It treats individual human experience as the primary raw material for profit",
+											"isCorrect": true
+										},
+										{
+											"text": "It seeks to improve services rather than predict future behavior",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The text states it 'unilaterally claimed [personal experience] as free raw material' and 'thrives on the exploitation of human experience itself'."
+								}
+							}
+						},
+						{
+							"questionNumber": 2,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "very_hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the significance of the term 'prediction products'?",
+									"options": [
+										{
+											"text": "They are tools for consumers to manage their own futures",
+											"isCorrect": false
+										},
+										{
+											"text": "They are insights into human behavior sold to third-party businesses",
+											"isCorrect": true
+										},
+										{
+											"text": "They are algorithms that protect users from data extraction",
+											"isCorrect": false
+										},
+										{
+											"text": "They are transparent reports on how tech companies use data",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The text explains data is turned into 'prediction products' that are 'sold to business customers'."
+								}
+							}
+						},
+						{
+							"questionNumber": 3,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "Why is the current digital environment compared to a 'panopticon'?",
+									"options": [
+										{
+											"text": "Because it offers total freedom and transparency for all users",
+											"isCorrect": false
+										},
+										{
+											"text": "Because users are constantly monitored by tech companies without their awareness",
+											"isCorrect": true
+										},
+										{
+											"text": "Because it is a physical structure where data is stored safely",
+											"isCorrect": false
+										},
+										{
+											"text": "Because it allows users to watch and hold tech companies accountable",
+											"isCorrect": false
+										}
+									],
+									"explanation": "A panopticon is a system of total surveillance where privacy is 'rendered obsolete'."
+								}
+							}
+						},
+						{
+							"questionNumber": 4,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "very_hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What does the author suggest about the relationship between technology and surveillance capitalism?",
+									"options": [
+										{
+											"text": "Surveillance is an unavoidable result of technological progress",
+											"isCorrect": false
+										},
+										{
+											"text": "It is a deliberate economic choice rather than an inevitable technological outcome",
+											"isCorrect": true
+										},
+										{
+											"text": "Better privacy settings will solve the problem of data extraction",
+											"isCorrect": false
+										},
+										{
+											"text": "Technology is the only way to challenge the current paradigm",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The author notes that this is 'not an inevitable consequence of technology but a specific economic choice'."
+								}
+							}
+						},
+						{
+							"questionNumber": 5,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "very_hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is meant by the phrase 'right to the future tense'?",
+									"options": [
+										{
+											"text": "The ability of computers to accurately predict the weather",
+											"isCorrect": false
+										},
+										{
+											"text": "The legal right to own one's behavioral data in the future",
+											"isCorrect": false
+										},
+										{
+											"text": "The freedom for individuals to act unpredictably without being manipulated by algorithms",
+											"isCorrect": true
+										},
+										{
+											"text": "The requirement for all companies to disclose their business models",
+											"isCorrect": false
+										}
+									],
+									"explanation": "It refers to the 'ability to act without being anticipated or directed by an algorithmic shadow'."
+								}
+							}
+						}
+					]
+				},
+				{
+					"passageMetadata": {
+						"level": "C1",
+						"passageNumber": 4,
+						"wordCount": 277,
+						"topic": "Advanced Professional/Technical Document",
+						"difficulty": 5
+					},
+					"passageText": "The white paper on 'Decentralized Autonomous Organizations' (DAOs) outlines a revolutionary approach to corporate governance, utilizing blockchain-based smart contracts to automate organizational logic and decision-making. At their core, DAOs are designed to mitigate the 'principal-agent problem,' where a manager's interests might diverge from those of the stakeholders. By encoding rules directly into code, DAOs ensure that operations are executed with programmatic transparency, theoretically eliminating the need for hierarchical oversight. However, the technical elegance of this model is often complicated by the 'legal wrapper' problem—the difficulty of integrating a borderless, ownerless entity into existing national legal frameworks. Furthermore, the reliance on 'token-weighted voting' has drawn criticism for potentially recreating plutocratic structures, where influence is disproportionately concentrated among the wealthiest token holders. This mirrors traditional corporate vulnerabilities while lacking the regulatory safeguards intended to protect minority shareholders. Another critical challenge is 'code vulnerability'; since the organization's rules are immutable once deployed on the blockchain, a flaw in the smart contract can lead to catastrophic financial loss with no mechanism for traditional legal recourse. To achieve true decentralization, the paper suggests implementing 'quadratic voting' and 'reputation-based systems' to distribute power more equitably. Despite these hurdles, the potential for DAOs to facilitate global, permissionless collaboration is immense. They offer a template for a 'permissionless economy' where trust is established through cryptographic proof rather than institutional intermediaries. For DAOs to become a viable alternative to traditional firms, they must develop robust governance protocols that balance the efficiency of automation with the nuance of human judgment. The evolution of this technology represents a fundamental challenge to our classical understanding of the firm and the nature of institutional trust.",
+					"questions": [
+						{
+							"questionNumber": 1,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the primary objective of using blockchain-based smart contracts in a DAO?",
+									"options": [
+										{
+											"text": "To increase the complexity of hierarchical oversight",
+											"isCorrect": false
+										},
+										{
+											"text": "To ensure that stakeholders and managers always have different interests",
+											"isCorrect": false
+										},
+										{
+											"text": "To automate and transparently execute the organization's rules and decisions",
+											"isCorrect": true
+										},
+										{
+											"text": "To replace the need for stakeholders with programmatic code",
+											"isCorrect": false
+										}
+									],
+									"explanation": "DAOs utilize 'smart contracts to automate organizational logic and decision-making' and 'ensure that operations are executed with programmatic transparency'."
+								}
+							}
+						},
+						{
+							"questionNumber": 2,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What is the 'legal wrapper' problem mentioned in the document?",
+									"options": [
+										{
+											"text": "The high cost of hiring lawyers to write smart contracts",
+											"isCorrect": false
+										},
+										{
+											"text": "The difficulty of fitting a decentralized entity into existing national laws",
+											"isCorrect": true
+										},
+										{
+											"text": "The tendency of code to be easily copied by other organizations",
+											"isCorrect": false
+										},
+										{
+											"text": "The lack of transparency in traditional corporate governance",
+											"isCorrect": false
+										}
+									],
+									"explanation": "It refers to 'the difficulty of integrating a borderless, ownerless entity into existing national legal frameworks'."
+								}
+							}
+						},
+						{
+							"questionNumber": 3,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "very_hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "Why is 'token-weighted voting' criticized by some analysts?",
+									"options": [
+										{
+											"text": "It allows everyone to vote regardless of their investment",
+											"isCorrect": false
+										},
+										{
+											"text": "It ensures that only managers have a say in the organization",
+											"isCorrect": false
+										},
+										{
+											"text": "It can give too much power to individuals with the most financial resources",
+											"isCorrect": true
+										},
+										{
+											"text": "It is too slow to be effective in a global economy",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The text says it risks 'recreating plutocratic structures' where influence is concentrated among the 'wealthiest token holders'."
+								}
+							}
+						},
+						{
+							"questionNumber": 4,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "very_hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "What does 'code vulnerability' imply for members of a DAO?",
+									"options": [
+										{
+											"text": "Flaws in the smart contract are easily fixed by legal recourse",
+											"isCorrect": false
+										},
+										{
+											"text": "Errors in the initial code cannot be easily changed and could lead to major losses",
+											"isCorrect": true
+										},
+										{
+											"text": "Software updates are required every day to maintain trust",
+											"isCorrect": false
+										},
+										{
+											"text": "DAOs are immune to financial loss due to cryptographic proof",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The text states rules are 'immutable' and a flaw can lead to 'catastrophic financial loss with no mechanism for traditional legal recourse'."
+								}
+							}
+						},
+						{
+							"questionNumber": 5,
+							"skill": "reading",
+							"type": "mcq_single",
+							"difficulty": 5,
+							"humanDifficulty": "hard",
+							"cefrLevel": "C1",
+							"sourceTag": "placement_test_v1",
+							"status": "published",
+							"translations": {
+								"en": {
+									"stemText": "Which of the following represents the author's vision for a successful DAO?",
+									"options": [
+										{
+											"text": "The total replacement of human judgment with perfect automation",
+											"isCorrect": false
+										},
+										{
+											"text": "A return to hierarchical oversight to solve the plutocracy problem",
+											"isCorrect": false
+										},
+										{
+											"text": "A system that balances the efficiency of code with nuanced human decision-making",
+											"isCorrect": true
+										},
+										{
+											"text": "An economy that relies on institutional intermediaries for trust",
+											"isCorrect": false
+										}
+									],
+									"explanation": "The document suggests DAOs 'must develop robust governance protocols that balance the efficiency of automation with the nuance of human judgment'."
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

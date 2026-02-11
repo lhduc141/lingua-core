@@ -1,0 +1,52 @@
+model CatSession {
+  sessionId String @id @default(dbgenerated("gen_random_uuid()")) @map("session_id") @db.Uuid
+  userId    String @map("user_id") @db.Uuid
+
+  status          String @default("in_progress") @map("status")
+  currentQuestion Int    @default(0) @map("current_question")
+  totalQuestions  Int    @default(20) @map("total_questions")
+
+  thetaEstimate  Decimal  @default(0.0) @map("theta_estimate") @db.Decimal(4, 2)
+  thetaHistory   Json     @map("theta_history")
+  correctCount   Int      @default(0) @map("correct_count")
+  incorrectCount Int      @default(0) @map("incorrect_count")
+  finalTheta     Decimal? @map("final_theta") @db.Decimal(4, 2)
+  cefrLevel      String?  @map("cefr_level")
+  confidence     Decimal? @map("confidence") @db.Decimal(3, 2)
+
+  startedAt   DateTime  @default(now()) @map("started_at")
+  completedAt DateTime? @map("completed_at")
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+
+  user       User               @relation(fields: [userId], references: [userId])
+  attempts   PlacementAttempt[]
+  assessment Assessment?        @relation(name: "AssessmentCatSession")
+
+  @@index([userId, status])
+  @@index([userId, completedAt])
+  @@map("cat_sessions")
+}
+
+model PlacementAttempt {
+  attemptId  String @id @default(dbgenerated("gen_random_uuid()")) @map("attempt_id") @db.Uuid
+  sessionId  String @map("session_id") @db.Uuid
+  questionId String @map("question_id") @db.Uuid
+
+  questionOrder Int     @map("question_order")
+  difficulty    Decimal @map("difficulty") @db.Decimal(4, 2)
+
+  // Response
+  userAnswer     String?  @map("user_answer")
+  isCorrect      Boolean  @map("is_correct")
+  responseTimeMs Int?     @map("response_time_ms")
+  thetaBefore    Decimal  @map("theta_before") @db.Decimal(4, 2)
+  thetaAfter     Decimal  @map("theta_after") @db.Decimal(4, 2)
+  answeredAt     DateTime @default(now()) @map("answered_at")
+
+  session  CatSession @relation(fields: [sessionId], references: [sessionId], onDelete: Cascade)
+  question Question   @relation(fields: [questionId], references: [questionId])
+
+  @@index([sessionId, questionOrder])
+  @@map("placement_attempts")
+}

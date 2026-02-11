@@ -1,0 +1,161 @@
+//TODO ===========================
+//TODO            ENUM
+//TODO ===========================
+
+enum ContentStatus {
+  draft     @map("draft")
+  reviewed  @map("reviewed")
+  published @map("published")
+  archived  @map("archived")
+
+  @@map("content_status")
+}
+
+enum QuestionType {
+  // ========== OBJECTIVE (auto-graded) ==========
+  mcq_single @map("mcq_single") // Chọn 1 đáp án
+  mcq_multi  @map("mcq_multi") // Chọn nhiều đáp án
+  fill_blank @map("fill_blank") // Điền từ (có đáp án cố định)
+  matching   @map("matching") // Nối cặp
+  ordering   @map("ordering") // Sắp xếp thứ tự
+  cloze_bank @map("cloze_bank") // Chọn từ trong ngân hàng từ
+
+  // ========== SUBJECTIVE (AI-graded) ==========
+  short_answer @map("short_answer") // Viết ngắn (1-3 câu)
+  translation  @map("translation") // Dịch câu
+  essay        @map("essay") // ← THÊM TYPE MỚI (viết dài)
+  speaking     @map("speaking") // ← THÊM TYPE MỚI (nói)
+  dictation    @map("dictation") // Nghe viết
+
+  @@map("question_type")
+}
+
+enum ExamKind {
+  ielts   @map("ielts")
+  toeic   @map("toeic")
+  generic @map("generic")
+
+  @@map("exam_kind")
+}
+
+enum ExamCycleKind {
+  ielts_speaking @map("ielts_speaking")
+  custom         @map("custom")
+
+  @@map("exam_cycle_kind")
+}
+
+enum ExamCategory {
+  ielts   @map("ielts")
+  generic @map("generic")
+
+  @@map("exam_category")
+}
+
+enum AssessmentRefType {
+  exam             @map("exam")
+  exam_section     @map("exam_section")
+  lesson           @map("lesson")
+  topic            @map("topic")
+  placement_test   @map("placement_test")
+  practice_session @map("practice_session")
+
+  @@map("assessment_ref_type")
+}
+
+enum AssessmentStatus {
+  draft       @map("draft")
+  in_progress @map("in_progress")
+  submitted   @map("submitted")
+  scored      @map("scored")
+  canceled    @map("canceled")
+
+  @@map("assessment_status")
+}
+
+enum AttemptModality {
+  reading   @map("reading")
+  listening @map("listening")
+  speaking  @map("speaking")
+  writing   @map("writing")
+  vocab     @map("vocab")
+  grammar   @map("grammar")
+
+  @@map("attempt_modality")
+}
+
+enum GradingStatus {
+  pending        @map("pending")
+  auto_scored    @map("auto_scored")
+  human_reviewed @map("human_reviewed")
+
+  @@map("grading_status")
+}
+
+enum AiCallStatus {
+  pending @map("pending")
+  success @map("success")
+  error   @map("error")
+
+  @@map("ai_call_status")
+}
+
+enum PlanItemStatus {
+  pending     @map("pending")
+  in_progress @map("in_progress")
+  completed   @map("completed")
+  skipped     @map("skipped")
+
+  @@map("plan_item_status")
+}
+
+enum StudySessionStatus {
+  planned     @map("planned")
+  in_progress @map("in_progress")
+  completed   @map("completed")
+  canceled    @map("canceled")
+
+  @@map("study_session_status")
+}
+
+enum NotificationChannel {
+  email  @map("email")
+  sms    @map("sms")
+  push   @map("push")
+  in_app @map("in_app")
+
+  @@map("notification_channel")
+}
+
+enum NotificationStatus {
+  scheduled @map("scheduled")
+  sent      @map("sent")
+  failed    @map("failed")
+  canceled  @map("canceled")
+
+  @@map("notification_status")
+}
+
+enum SrsCardType {
+  dictionary @map("dictionary")
+  custom     @map("custom")
+
+  @@map("srs_card_type")
+}
+
+enum AssetKind {
+  audio    @map("audio")
+  image    @map("image")
+  video    @map("video")
+  document @map("document")
+
+  @@map("asset_kind")
+}
+
+enum SkillName {
+  reading  @map("reading")
+  writing  @map("writing")
+  speaking @map("speaking")
+
+  @@map("skill_name")
+}
