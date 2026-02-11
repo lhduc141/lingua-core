@@ -2,13 +2,13 @@ name: Deploy to Production
 
 # TRIGGERS
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - '**.md'
-      - 'docs/**'
-      - '.gitignore'
+  #  push:
+  #    branches:
+  #      - main
+  #    paths-ignore:
+  #      - '**.md'
+  #      - 'docs/**'
+  #      - '.gitignore'
   workflow_dispatch:
     inputs:
       skip_tests:
@@ -18,13 +18,11 @@ on:
 
 # ENVIRONMENT VARIABLES
 env:
-  # Non-sensitive configs
   NODE_ENV: production
   TZ: Asia/Ho_Chi_Minh
   HOST: 0.0.0.0
   PAYLOAD_LIMIT: 50mb
 
-  # Service configs
   AI_SERVICE_HOST: ai-service
   AI_SERVICE_PORT: 4001
   REDIS_HOST: redis
@@ -33,7 +31,6 @@ env:
   REDIS_PREFIX: lp
   DATABASE_HOST: postgres
 
-  # JWT configs
   JWT_ALG: HS256
   JWT_KID: lingua-key-prod-1
   JWT_ISS: linguapanda.api
@@ -42,10 +39,7 @@ env:
   JWT_REFRESH_TTL: 2592000
   JWT_SERVICE_TTL: 300
 
-  # AI configs
   LLM_MODEL: gemini-2.0-flash-exp
-
-  # Logging
   LOG_LEVEL: info
 
 # JOBS
