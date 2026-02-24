@@ -1,6 +1,6 @@
 // onboarding.service.ts
 
-import { BadRequestException, Injectable, Logger } from '@nestjs/common';
+import { Injectable, Logger } from '@nestjs/common';
 import type { JwtPayloadDto } from '@app/jwt';
 import { NotFoundException, ResponseDto } from '@app/shared';
 import { OnboardingSurveyDto } from '../dto/get-survey-me.dto';
@@ -109,14 +109,14 @@ export class OnboardingService {
 		};
 	}
 
-	async isSurveyComplete(userId: string): Promise<boolean> {
-		const survey = await this.prisma.onboardingSurvey.findUnique({
-			where: { userId , isActive: true },
-			select: { completedAt: true },
-		});
-
-		return !!survey?.completedAt;
-	}
+	// async isSurveyComplete(userId: string): Promise<boolean> {
+	// 	const survey = await this.prisma.onboardingSurvey.findUnique({
+	// 		where: { userId , isActive: true },
+	// 		select: { completedAt: true },
+	// 	});
+	//
+	// 	return !!survey?.completedAt;
+	// }
 
 	async getActiveSurvey(userId: string) {
 		return this.prisma.onboardingSurvey.findFirst({

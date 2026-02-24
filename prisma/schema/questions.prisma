@@ -1,8 +1,7 @@
 //  Question
 model Question {
-  questionId String @id @default(dbgenerated("gen_random_uuid()")) @map("question_id") @db.Uuid
-
-  passageId String? @map("passage_id") @db.Uuid // ← THÊM (for Reading)
+  questionId String  @id @default(dbgenerated("gen_random_uuid()")) @map("question_id") @db.Uuid
+  passageId  String? @map("passage_id") @db.Uuid // ← THÊM (for Reading)
 
   skill      String?
   type       QuestionType
@@ -17,10 +16,6 @@ model Question {
   sourceTag    String?   @map("source_tag")
   timeLimitSec Int?      @map("time_limit_sec")
   maxScore     Int?      @default(1) @map("max_score")
-
-  createdAt DateTime  @default(now()) @map("created_at")
-  updatedAt DateTime  @updatedAt @map("updated_at")
-  deletedAt DateTime? @map("deleted_at")
 
   passage                  Passage?                  @relation(fields: [passageId], references: [passageId]) // ← THÊM
   options                  QuestionOption[]
@@ -40,6 +35,10 @@ model Question {
   lastUsedAt        DateTime? @map("last_used_at")
 
   placementAttempts PlacementAttempt[]
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   @@index([sourceTag, irtDifficulty])
   @@index([irtDifficulty, usageCount])
