@@ -2,6 +2,8 @@
 // TODO             SRS
 // TODO ===========================
 
+// Develop later: 25/02/2026
+
 // 1. SRS CARD
 model SrsCard {
   cardId String @id @default(dbgenerated("gen_random_uuid()")) @map("card_id") @db.Uuid

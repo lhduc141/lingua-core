@@ -5,22 +5,25 @@
 model DictEntry {
   entryId String @id @default(dbgenerated("gen_random_uuid()")) @map("entry_id") @db.Uuid
 
-  lang     String // Language code: "en"
-  headword String // Main word: "run", "happy"
-  pos      String? // Part of speech: "verb", "noun", "adjective"
-  ipa      String? // Pronunciation: "/rʌn/"
-  source   String? // "ai" | "manual" | "cambridge"
+  lang      String // Language code: "en"
+  headword  String // Main word: "run", "happy"
+  pos       String? // Part of speech: "verb", "noun", "adjective"
+  ipa       String? // Pronunciation: "/rʌn/"
+  source    String? // "ai" | "manual" | "cambridge"
+  cefrLevel String? // CEFR level: "A1", "A2", "B1", "B2", "C1", "C2"
 
   frequency Int? // Word frequency rank: 1-10000 (lower = more common)
-  cefrLevel String? // CEFR level: "A1", "A2", "B1", "B2", "C1", "C2"
   isCommon  Boolean @default(false) @map("is_common") // Is this a common word?
-  variants  Json? // Word forms: ["runs", "running", "ran"]
+
+  //remove - recorded 25/02/2026
+  // variants  Json? // Word forms: ["runs", "running", "ran"]
 
   createdAt DateTime  @default(now()) @map("created_at")
   updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
   senses         DictSense[]
+  wordForms      WordForm[]
   userVocabulary UserVocabulary[]
   collocations   Collocation[]
   SrsCard        SrsCard[]
@@ -29,6 +32,19 @@ model DictEntry {
   @@index([cefrLevel])
   @@index([frequency])
   @@map("dict_entries")
+}
+
+model WordForm {
+  formId  String @id @default(dbgenerated("gen_random_uuid()")) @map("form_id") @db.Uuid
+  entryId String @map("entry_id") @db.Uuid
+  form    String // "happiness", "happily", "unhappy"
+  pos     String // "noun", "adverb", "adjective"
+
+  entry DictEntry @relation(fields: [entryId], references: [entryId])
+
+  @@unique([form])
+  @@index([form])
+  @@map("word_forms")
 }
 
 model DictSense {
@@ -74,13 +90,13 @@ model Collocation {
   entryId       String @map("entry_id") @db.Uuid
   senseId       String @map("sense_id") @db.Uuid
 
-  phrase    String // Collocation phrase: "run a business", "run out of"
-  meaning   String // English meaning: "to manage or operate a business"
-  viMeaning String? @map("vi_meaning") // Vietnamese meaning: "điều hành doanh nghiệp"
-  example   String? // Example sentence using this collocation
-  viExample String? @map("vi_example") // Vietnamese translation of example
-  frequency Int? // Frequency rank: 1-10000
-  cefrLevel String? @map("cefr_level") // CEFR level: "A1"-"C2"
+  phrase    String
+  meaning   String
+  viMeaning String? @map("vi_meaning")
+  example   String?
+  viExample String? @map("vi_example")
+  frequency Int?
+  cefrLevel String? @map("cefr_level")
 
   createdAt DateTime  @default(now()) @map("created_at")
   updatedAt DateTime  @updatedAt @map("updated_at")
@@ -101,9 +117,9 @@ model UserVocabulary {
   userId  String @map("user_id") @db.Uuid
   entryId String @map("entry_id") @db.Uuid
 
-  status  String // Learning status: "new", "learning", "familiar", "mastered"
-  note    String? // User's personal note
-  context String? // Where user found this word
+  status  String  @default("new") // Learning status: "new", "learning", "familiar", "mastered" — updated by SRS
+  note    String?
+  context String?
 
   addedAt    DateTime  @default(now()) @map("added_at")
   lastSeenAt DateTime? @map("last_seen_at")

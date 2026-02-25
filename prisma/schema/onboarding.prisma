@@ -34,7 +34,7 @@ model OnboardingSurvey {
   createdAt   DateTime  @default(now()) @map("created_at")
   updatedAt   DateTime  @updatedAt @map("updated_at")
   deletedAt   DateTime? @map("deleted_at")
-  isActive Boolean @default(true) @map("is_active")
+  isActive    Boolean   @default(true) @map("is_active")
 
   user User @relation(fields: [userId], references: [userId])
 
