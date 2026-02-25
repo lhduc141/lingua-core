@@ -13,6 +13,7 @@ import { UsersModule } from './users/users.module';
 import { AuthGuard } from '../guards/auth.guard';
 import { AdminModule } from './admin/admin.module';
 import { OnboardingPlacementModule } from './onboarding-placement/onboarding-placement.module';
+import { LearningModule } from './learning/learning.module';
 
 const modules: any[] = [
 	AuthModule,
@@ -26,6 +27,7 @@ const modules: any[] = [
 	NotificationsModule,
 	UsersModule,
 	AdminModule,
+	LearningModule,
 	OnboardingPlacementModule,
 ];
 

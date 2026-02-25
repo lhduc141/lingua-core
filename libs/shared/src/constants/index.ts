@@ -5,6 +5,7 @@ export * from './regex.constant';
 export * from './cefr-theta.constant';
 export * from './default-cat-config.constant';
 export * from './exposure-limit.constant';
+export * from './learning.constant';
 
 export const DEFAULT_PAGE_INDEX = 1;
 export const DEFAULT_PAGE_SIZE = 20;
