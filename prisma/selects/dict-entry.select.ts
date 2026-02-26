@@ -10,6 +10,7 @@ export const DictEntrySelect = {
 		cefrLevel: true,
 		source: true,
 		wordForms: {
+			where: { deletedAt: null },
 			select: { form: true, pos: true },
 		},
 		senses: {

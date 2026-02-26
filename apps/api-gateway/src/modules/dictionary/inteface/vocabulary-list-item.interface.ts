@@ -1,3 +1,5 @@
+import { VocabularyEntryBrief } from './vocabulary-entry-brief.interface';
+
 export interface VocabularyListItem {
 	id: string;
 	status: string;

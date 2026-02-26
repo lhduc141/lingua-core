@@ -1,4 +1,2 @@
-import { Injectable } from '@nestjs/common';
-
-@Injectable()
-export class DictionaryService {}
+export * from './service/vocabulary.service';
+export * from './service/dictionary.service';

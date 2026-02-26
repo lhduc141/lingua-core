@@ -40,6 +40,10 @@ model WordForm {
   form    String // "happiness", "happily", "unhappy"
   pos     String // "noun", "adverb", "adjective"
 
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
   entry DictEntry @relation(fields: [entryId], references: [entryId])
 
   @@unique([form])

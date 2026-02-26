@@ -8,11 +8,16 @@ export class AiServiceController {
 
 	@MessagePattern('ai.ask')
 	async handleAsk(@Payload() prompt: string) {
-		return await this.aiService.ask(prompt);
+		return this.aiService.ask(prompt);
 	}
 
-	@MessagePattern('survey')
-	async evaluateSurvey(@Payload() prompt: any) {
-		return await this.aiService.evaluateSurvey(prompt);
+	@MessagePattern('ai.survey.evaluate')
+	async evaluateSurvey(@Payload() payload: any) {
+		return this.aiService.evaluateSurvey(payload);
+	}
+
+	@MessagePattern('ai.dictionary.lookup')
+	async dictionaryLookup(@Payload() payload: { word: string }) {
+		return this.aiService.generateDictionaryEntry(payload.word);
 	}
 }

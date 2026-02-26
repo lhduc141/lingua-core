@@ -308,7 +308,7 @@ export class AdminService {
 								cefrLevel: entry.cefrLevel,
 								frequency: entry.frequency ? parseInt(entry.frequency) : null,
 								isCommon: entry.isCommon === 'true' || entry.isCommon === true,
-								variants: entry.variants || null,
+								// variants: entry.variants || null,
 							},
 						});
 
