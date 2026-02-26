@@ -20,4 +20,10 @@ export class AiServiceController {
 	async dictionaryLookup(@Payload() payload: { word: string }) {
 		return this.aiService.generateDictionaryEntry(payload.word);
 	}
+
+	// Grading
+	@MessagePattern('ai.grading.evaluate')
+	async gradeSubmission(@Payload() payload: { questionType: string; userText: string }) {
+		return this.aiService.gradeSubmission(payload.questionType, payload.userText);
+	}
 }

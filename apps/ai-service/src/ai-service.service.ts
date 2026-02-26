@@ -18,7 +18,7 @@ export class AiServiceService {
 			model: this.configService.get<string>('LLM_MODEL') || 'gemini-1.5-pro-latest',
 			generationConfig: {
 				maxOutputTokens: 6000,
-				temperature: 0.3, // thấp hơn cho dictionary — cần chính xác hơn sáng tạo
+				temperature: 0.3,
 			},
 		});
 	}
@@ -71,6 +71,19 @@ export class AiServiceService {
 		const parsed = JSON.parse(clean) as AiDictionaryOutput;
 
 		this.logger.log(`Dictionary generated: "${word}" → root "${parsed.headword}", ${parsed.senses?.length} senses`);
+		return parsed;
+	}
+
+	async gradeSubmission(questionType: string, userText: string) {
+		const prompt = this.buildGradingPrompt(questionType, userText);
+		const result = await this.model.generateContent(prompt);
+		const raw = result.response.text();
+		const clean = raw
+			.replace(/```json\s*/gi, '')
+			.replace(/```\s*/g, '')
+			.trim();
+		const parsed = JSON.parse(clean);
+		this.logger.log(`Grading completed: type=${questionType}, score=${parsed.overallScore}`);
 		return parsed;
 	}
 
@@ -130,5 +143,50 @@ export class AiServiceService {
 				${JSON.stringify(survey, null, 2)}
 				
 				Respond only with valid JSON.`;
+	}
+
+	private buildGradingPrompt(questionType: string, userText: string): string {
+		const typeLabel = questionType === 'speaking' ? 'speaking transcript' : 'written essay';
+
+		return `You are an English language examiner for Vietnamese learners (A1-B2 CEFR level).
+				Grade the following ${typeLabel} and provide detailed feedback.
+				
+				USER TEXT:
+				"${userText}"
+				
+				SCORING CRITERIA:
+				- Grammar accuracy
+				- Vocabulary range
+				- Coherence and cohesion
+				- Task achievement
+				
+				RULES:
+				1. overallScore: 0-10 (integer or .5 steps)
+				2. dimensions: array of 4 criteria with name, score (0-10), comment
+				3. corrections: up to 5 specific errors with original text, corrected version, and grammar rule
+				4. suggestions: 2-3 actionable improvement tips
+				
+				Respond ONLY with valid JSON, no markdown, no explanation:
+				
+				{
+				  "overallScore": 7.5,
+				  "dimensions": [
+					{ "name": "Grammar", "score": 7, "comment": "Good use of tenses but some subject-verb agreement errors." },
+					{ "name": "Vocabulary", "score": 8, "comment": "Good range of vocabulary for A2-B1 level." },
+					{ "name": "Coherence", "score": 7.5, "comment": "Ideas are connected logically." },
+					{ "name": "Task Achievement", "score": 7.5, "comment": "Addressed the main points adequately." }
+				  ],
+				  "corrections": [
+					{
+					  "original": "She go to school every day",
+					  "corrected": "She goes to school every day",
+					  "rule": "Third person singular present simple requires -s/-es"
+					}
+				  ],
+				  "suggestions": [
+					"Practice using more complex sentence structures to improve your score.",
+					"Review subject-verb agreement rules for third person singular."
+				  ]
+				}`;
 	}
 }

@@ -1,8 +1,6 @@
 import { Module } from '@nestjs/common';
 import { APP_GUARD, RouterModule } from '@nestjs/core';
 import { AuthModule } from './auth/auth.module';
-import { CmsModule } from './cms/cms.module';
-import { ExamsModule } from './exams/exams.module';
 import { AssessmentsModule } from './assessments/assessments.module';
 import { ReportsModule } from './reports/reports.module';
 import { PlansModule } from './plans/plans.module';
@@ -17,8 +15,6 @@ import { LearningModule } from './learning/learning.module';
 
 const modules: any[] = [
 	AuthModule,
-	CmsModule,
-	ExamsModule,
 	AssessmentsModule,
 	ReportsModule,
 	PlansModule,

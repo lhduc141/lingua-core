@@ -10,3 +10,6 @@ export * from './practice-sessions.select';
 export * from './dict-entry.select';
 export * from './collocation.select';
 export * from './vocabulary.select';
+
+// Assessment
+export * from './assessment.select';
