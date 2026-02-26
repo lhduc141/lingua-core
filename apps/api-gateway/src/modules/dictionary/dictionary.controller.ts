@@ -8,8 +8,8 @@ import { ListCollocationsDto } from './dto/list-collocations.dto';
 import { SaveVocabularyDto } from './dto/save-vocabulary.dto';
 import { ListVocabularyDto } from './dto/list-vocabulary.dto';
 import { UpdateVocabularyDto } from './dto/update-vocabulary.dto';
-import { DictionaryService } from './service/dictionary.service';
-import { VocabularyService } from './service/vocabulary.service';
+import { DictionaryService } from './services/dictionary.service';
+import { VocabularyService } from './services/vocabulary.service';
 
 @ApiTags('Dictionary')
 @Controller()
