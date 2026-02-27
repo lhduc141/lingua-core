@@ -29,4 +29,8 @@ export class AiClientService {
 	gradeSubmission(payload: { questionType: string; userText: string }) {
 		return lastValueFrom(this.client.send('ai.grading.evaluate', payload));
 	}
+
+	generateWeeklyReview(payload: any) {
+		return lastValueFrom(this.client.send('ai.plan.weekly-review', payload));
+	}
 }

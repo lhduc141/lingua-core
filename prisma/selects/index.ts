@@ -13,3 +13,6 @@ export * from './vocabulary.select';
 
 // Assessment
 export * from './assessment.select';
+
+// Learning plan
+export * from './learning-plan.select';

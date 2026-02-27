@@ -3,7 +3,6 @@ import { APP_GUARD, RouterModule } from '@nestjs/core';
 import { AuthModule } from './auth/auth.module';
 import { AssessmentsModule } from './assessments/assessments.module';
 import { ReportsModule } from './reports/reports.module';
-import { PlansModule } from './plans/plans.module';
 import { SrsModule } from './srs/srs.module';
 import { DictionaryModule } from './dictionary/dictionary.module';
 import { NotificationsModule } from './notifications/notifications.module';
@@ -12,12 +11,12 @@ import { AuthGuard } from '../guards/auth.guard';
 import { AdminModule } from './admin/admin.module';
 import { OnboardingPlacementModule } from './onboarding-placement/onboarding-placement.module';
 import { LearningModule } from './learning/learning.module';
+import { LearningPlanModule } from './learning-plan/learning-plan.module';
 
 const modules: any[] = [
 	AuthModule,
 	AssessmentsModule,
 	ReportsModule,
-	PlansModule,
 	SrsModule,
 	DictionaryModule,
 	NotificationsModule,
@@ -25,6 +24,7 @@ const modules: any[] = [
 	AdminModule,
 	LearningModule,
 	OnboardingPlacementModule,
+	LearningPlanModule,
 ];
 
 @Module({

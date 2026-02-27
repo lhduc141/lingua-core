@@ -26,4 +26,15 @@ export class AiServiceController {
 	async gradeSubmission(@Payload() payload: { questionType: string; userText: string }) {
 		return this.aiService.gradeSubmission(payload.questionType, payload.userText);
 	}
+
+	// Learning Plan
+	@MessagePattern('ai.plan.generate')
+	async generatePlanItems(@Payload() payload: any) {
+		return this.aiService.generatePlanItems(payload);
+	}
+
+	@MessagePattern('ai.plan.weekly-review')
+	async generateWeeklyReview(@Payload() payload: any) {
+		return this.aiService.generateWeeklyReview(payload);
+	}
 }

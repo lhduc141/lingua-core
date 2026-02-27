@@ -114,6 +114,9 @@ export class AssessmentsService implements OnModuleInit {
 			`Lesson assessment started | userId=${userId} | lessonId=${lessonId} | assessmentId=${assessment.assessmentId}`,
 		);
 
+		// Auto-track: mark plan item as in_progress
+		await this.markPlanItemInProgress(userId, 'lesson', lessonId);
+
 		const questions: AssessmentQuestion[] = lesson.lessonQuestions.map((lq) => ({
 			questionId: lq.question.questionId,
 			type: lq.question.type,
@@ -227,6 +230,9 @@ export class AssessmentsService implements OnModuleInit {
 		this.logger.log(
 			`Practice assessment started | userId=${userId} | sessionId=${practiceSessionId} | assessmentId=${assessment.assessmentId}`,
 		);
+
+		// Auto-track: mark plan item as in_progress
+		await this.markPlanItemInProgress(userId, 'practice_session', practiceSessionId);
 
 		const questions: AssessmentQuestion[] = session.questions.map((sq) => ({
 			questionId: sq.question.questionId,
@@ -435,6 +441,9 @@ export class AssessmentsService implements OnModuleInit {
 			});
 
 			this.logger.log(`Assessment scored | assessmentId=${assessmentId} | score=${finalScore}%`);
+
+			// Auto-track: mark plan item as completed
+			await this.markPlanItemCompleted(userId, assessment.refType, assessment.refId, finalScore);
 		} else {
 			// Có subjective → submitted, push vào queue
 			const partialScore = totalQuestions > 0 ? (objectiveScore / totalQuestions) * 100 : null;
@@ -637,6 +646,15 @@ export class AssessmentsService implements OnModuleInit {
 		});
 
 		this.logger.log(`Assessment finalized | assessmentId=${assessmentId} | finalScore=${finalScore}%`);
+
+		// Auto-track: mark plan item as completed (async path)
+		const assessment = await this.prisma.assessment.findUnique({
+			where: { assessmentId },
+			select: { userId: true, refType: true, refId: true },
+		});
+		if (assessment) {
+			await this.markPlanItemCompleted(assessment.userId, assessment.refType, assessment.refId, finalScore);
+		}
 	}
 
 	// PRIVATE HELPERS
@@ -796,5 +814,45 @@ export class AssessmentsService implements OnModuleInit {
 			startedAt: assessment.startedAt,
 			completedAt: assessment.completedAt,
 		};
+	}
+
+	// Plan item auto-tracking: updateMany → safe (0 match = 0 update, no error)
+	private async markPlanItemInProgress(userId: string, refType: string, refId: string): Promise<void> {
+		try {
+			await this.prisma.learningPlanItem.updateMany({
+				where: {
+					userId,
+					refType,
+					refId,
+					status: 'pending',
+					deletedAt: null,
+				},
+				data: { status: 'in_progress' as any },
+			});
+		} catch (err) {
+			this.logger.warn(`Failed to mark plan item in_progress: ${err.message}`);
+		}
+	}
+
+	// score param is 0-100 from Assessment; normalize to 0-10 to match custom activity scale + Decimal(4,2)
+	private async markPlanItemCompleted(userId: string, refType: string, refId: string, score: number): Promise<void> {
+		try {
+			const normalizedScore = Math.round((score / 10) * 100) / 100; // 0-100 → 0-10
+			await this.prisma.learningPlanItem.updateMany({
+				where: {
+					userId,
+					refType,
+					refId,
+					status: { in: ['pending', 'in_progress'] },
+					deletedAt: null,
+				},
+				data: {
+					status: 'completed' as any,
+					taskScore: normalizedScore,
+				},
+			});
+		} catch (err) {
+			this.logger.warn(`Failed to mark plan item completed: ${err.message}`);
+		}
 	}
 }
