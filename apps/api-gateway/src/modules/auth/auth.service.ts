@@ -70,7 +70,7 @@ export class AuthService {
 
 		const newAccessToken = await this.jwt.signAccessToken(jwtPayload);
 
-		return { accessToken: newAccessToken };
+		return ResponseDto.success(Object, { accessToken: newAccessToken }, 'Đăng nhập thành công');
 	}
 
 	async _handleGoogleAuth(googleAuthDto: GoogleAuthDto) {
@@ -80,18 +80,22 @@ export class AuthService {
 		const { accessToken, refreshToken } = await this._generateTokens(user);
 		await this.userService.saveRefreshToken(user.userId, refreshToken);
 
-		return {
-			user: {
-				userId: user.userId,
-				email: user.email,
-				googleName: user.googleName,
-				googleAvatarUrl: user.googleAvatarUrl,
-				isAdmin: user.isAdmin,
-				isNewUser,
+		return ResponseDto.success(
+			Object,
+			{
+				user: {
+					userId: user.userId,
+					email: user.email,
+					googleName: user.googleName,
+					googleAvatarUrl: user.googleAvatarUrl,
+					isAdmin: user.isAdmin,
+					isNewUser,
+				},
+				accessToken,
+				refreshToken,
 			},
-			accessToken,
-			refreshToken,
-		};
+			'Đăng nhập thành công',
+		);
 	}
 	private async _verifyGoogleToken(idToken: string) {
 		const ticket: LoginTicket = await this.googleClient.verifyIdToken({

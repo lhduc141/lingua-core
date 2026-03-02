@@ -68,10 +68,7 @@ export class AiServiceService {
 			.replace(/```\s*/g, '')
 			.trim();
 
-		const parsed = JSON.parse(clean) as AiDictionaryOutput;
-
-		this.logger.log(`Dictionary generated: "${word}" → root "${parsed.headword}", ${parsed.senses?.length} senses`);
-		return parsed;
+		return JSON.parse(clean) as AiDictionaryOutput;
 	}
 
 	async gradeSubmission(questionType: string, userText: string) {
@@ -83,7 +80,6 @@ export class AiServiceService {
 			.replace(/```\s*/g, '')
 			.trim();
 		const parsed = JSON.parse(clean);
-		this.logger.log(`Grading completed: type=${questionType}, score=${parsed.overallScore}`);
 		return parsed;
 	}
 
@@ -95,9 +91,8 @@ export class AiServiceService {
 			.replace(/```json\s*/gi, '')
 			.replace(/```\s*/g, '')
 			.trim();
-		const parsed = JSON.parse(clean);
-		this.logger.log(`Plan generated: cycle=${payload.currentCycle}, week=${payload.weekNumber}, items=${parsed.planItems?.length}`);
-		return parsed;
+
+		return JSON.parse(clean);
 	}
 
 	async generateWeeklyReview(payload: any) {
@@ -108,9 +103,8 @@ export class AiServiceService {
 			.replace(/```json\s*/gi, '')
 			.replace(/```\s*/g, '')
 			.trim();
-		const parsed = JSON.parse(clean);
-		this.logger.log(`Weekly review generated: week=${payload.weekNumber}, completionRate=${parsed.summary?.completionRate}`);
-		return parsed;
+
+		return JSON.parse(clean);
 	}
 
 	private buildDictionaryPrompt(word: string): string {
@@ -217,8 +211,17 @@ export class AiServiceService {
 	}
 
 	private buildPlanGenerationPrompt(payload: any): string {
-		const { cefrLevel, goals, weekNumber, currentCycle, previousWeekReview, userFeedback, availableContent, recentPerformance } = payload;
-		const dailyMinutes = Math.ceil((goals?.plannedStudyHoursPerWeek || 7) / 7 * 60);
+		const {
+			cefrLevel,
+			goals,
+			weekNumber,
+			currentCycle,
+			previousWeekReview,
+			userFeedback,
+			availableContent,
+			recentPerformance,
+		} = payload;
+		const dailyMinutes = Math.ceil(((goals?.plannedStudyHoursPerWeek || 7) / 7) * 60);
 
 		return `You are LinguaPanda AI Tutor — an adaptive English learning plan generator for Vietnamese learners.
 
@@ -278,7 +281,8 @@ Respond ONLY with valid JSON, no markdown:
 	}
 
 	private buildWeeklyReviewPrompt(payload: any): string {
-		const { weekNumber, planItems, assessmentResults, completedTasks, totalTasks, skippedTasks, cefrLevel } = payload;
+		const { weekNumber, planItems, assessmentResults, completedTasks, totalTasks, skippedTasks, cefrLevel } =
+			payload;
 
 		return `You are LinguaPanda AI Tutor — generate a weekly learning review for a Vietnamese English learner.
 

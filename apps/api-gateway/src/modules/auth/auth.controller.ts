@@ -41,8 +41,7 @@ export class AuthController {
 	@Post('logout')
 	@ApiOperation({ summary: 'Đăng xuất, xoá refresh token hiện tại' })
 	async logout(@ReqUser() user: JwtPayloadDto) {
-		await this.authService.logout(user.sub);
-		return { success: true };
+		return await this.authService.logout(user.sub);
 	}
 
 	@Get('me')

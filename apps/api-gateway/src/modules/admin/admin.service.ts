@@ -1,4 +1,3 @@
-import { BadRequestException, Injectable, Logger, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../../../../../prisma/prisma.service';
 import { CreatePassageDto } from './dto/create-passage.dto';
 import { CreateQuestionDto } from './dto/create-question.dto';
@@ -6,6 +5,8 @@ import { CreateLessonDto } from './dto/create-lesson.dto';
 import { CreatePracticeSessionDto } from './dto/create-practice-session.dto';
 import { BulkImportDictionaryDto } from './dto/bulk-import-dictionary.dto';
 import { ListUsersQueryDto } from './dto/list-users-query.dto';
+import { Injectable, Logger } from '@nestjs/common';
+import { BadRequestException, NotFoundException } from '@app/shared';
 
 @Injectable()
 export class AdminService {
@@ -60,22 +61,17 @@ export class AdminService {
 		try {
 			const isMcqType = ['mcq_single', 'mcq_multi', 'fill_blank', 'cloze_bank'].includes(dto.type);
 
-			if (isMcqType && (!dto.options || dto.options.length === 0)) {
+			if (isMcqType && (!dto.options || dto.options.length === 0))
 				throw new BadRequestException(`Question type ${dto.type} requires at least one option`);
-			}
 
 			if (isMcqType && dto.type === 'mcq_single') {
 				const correctCount = dto.options?.filter((opt) => opt.isCorrect).length || 0;
-				if (correctCount !== 1) {
-					throw new BadRequestException('MCQ Single must have exactly 1 correct answer');
-				}
+				if (correctCount !== 1) throw new BadRequestException('MCQ Single must have exactly 1 correct answer');
 			}
 
 			if (isMcqType && dto.type === 'mcq_multi') {
 				const correctCount = dto.options?.filter((opt) => opt.isCorrect).length || 0;
-				if (correctCount < 1) {
-					throw new BadRequestException('MCQ Multi must have at least 1 correct answer');
-				}
+				if (correctCount < 1) throw new BadRequestException('MCQ Multi must have at least 1 correct answer');
 			}
 
 			if (dto.passageId) {
@@ -145,33 +141,28 @@ export class AdminService {
 		}
 	}
 
-	// ==========================================
 	// LESSON MANAGEMENT
-	// ==========================================
-
 	async createLesson(dto: CreateLessonDto) {
 		try {
 			if (dto.questionIds && dto.questionIds.length > 0) {
 				const questions = await this.prisma.question.findMany({
 					where: { questionId: { in: dto.questionIds } },
 				});
-				if (questions.length !== dto.questionIds.length) {
+				if (questions.length !== dto.questionIds.length)
 					throw new BadRequestException('Some questions not found');
-				}
 			}
 
 			if (dto.prerequisites && dto.prerequisites.length > 0) {
 				const prereqLessons = await this.prisma.lesson.findMany({
 					where: { lessonId: { in: dto.prerequisites } },
 				});
-				if (prereqLessons.length !== dto.prerequisites.length) {
+				if (prereqLessons.length !== dto.prerequisites.length)
 					throw new BadRequestException('Some prerequisite lessons not found');
-				}
 			}
 
 			const lesson = await this.prisma.lesson.create({
 				data: {
-					skillName: dto.skillName, // ✅ THÊM
+					skillName: dto.skillName,
 					title: dto.title,
 					description: dto.description,
 
@@ -198,36 +189,29 @@ export class AdminService {
 				},
 			});
 
-			this.logger.log(`Lesson created: ${lesson.lessonId}`);
-
 			return {
 				lessonId: lesson.lessonId,
-				skillName: lesson.skillName, // ✅ THÊM
+				skillName: lesson.skillName,
 				title: lesson.title,
-				// questionCount: lesson.lessonQuestions.length,
+				questionCount: lesson.lessonQuestions.length,
 			};
 		} catch (error) {
-			this.logger.error(`Failed to create lesson: ${error.message}`, error.stack);
 			throw error;
 		}
 	}
 
-	// ==========================================
 	// PRACTICE SESSION MANAGEMENT
-	// ==========================================
 
 	async createPracticeSession(dto: CreatePracticeSessionDto) {
 		try {
 			const questions = await this.prisma.question.findMany({
 				where: { questionId: { in: dto.questionIds } },
 			});
-			if (questions.length !== dto.questionIds.length) {
-				throw new BadRequestException('Some questions not found');
-			}
+			if (questions.length !== dto.questionIds.length) throw new BadRequestException('Some questions not found');
 
 			const session = await this.prisma.practiceSession.create({
 				data: {
-					skillName: dto.skillName, // ✅ THÊM
+					skillName: dto.skillName,
 					title: dto.title,
 					description: dto.description,
 					cefrLevel: dto.cefrLevel,
@@ -248,33 +232,26 @@ export class AdminService {
 				},
 			});
 
-			this.logger.log(`Practice session created: ${session.sessionId}`);
-
 			return {
 				sessionId: session.sessionId,
-				skillName: session.skillName, // ✅ THÊM
+				skillName: session.skillName,
 				title: session.title,
 				questionCount: session.questions.length,
 			};
 		} catch (error) {
-			this.logger.error(`Failed to create practice session: ${error.message}`, error.stack);
 			throw error;
 		}
 	}
 
-	// ==========================================
 	// DICTIONARY IMPORT
-	// ==========================================
-
 	async bulkImportDictionary(dto: BulkImportDictionaryDto) {
 		try {
 			const decoded = Buffer.from(dto.data, 'base64').toString('utf-8');
 
 			let entries: any[] = [];
 
-			if (dto.format === 'json') {
-				entries = JSON.parse(decoded);
-			} else if (dto.format === 'csv') {
+			if (dto.format === 'json') entries = JSON.parse(decoded);
+			else if (dto.format === 'csv') {
 				const lines = decoded.split('\n');
 				const headers = lines[0].split(',');
 
@@ -369,11 +346,8 @@ export class AdminService {
 				}
 			}
 
-			this.logger.log(`Dictionary import completed: ${results.imported} imported, ${results.failed} failed`);
-
 			return results;
 		} catch (error) {
-			this.logger.error(`Failed to import dictionary: ${error.message}`, error.stack);
 			throw new BadRequestException('Failed to import dictionary');
 		}
 	}

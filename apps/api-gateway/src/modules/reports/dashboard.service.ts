@@ -22,9 +22,7 @@ export class DashboardService {
 
 	constructor(private readonly prisma: PrismaService) {}
 
-	// ================================================================
 	// 1. GET /dashboard/overview
-	// ================================================================
 	async getOverview(userId: string) {
 		const [
 			cefrData,
@@ -71,9 +69,7 @@ export class DashboardService {
 		return ResponseDto.success(Object, overview);
 	}
 
-	// ================================================================
 	// 2. GET /dashboard/skills/:skillName/progress
-	// ================================================================
 	async getSkillProgress(userId: string, skillName: string) {
 		if (!VALID_SKILLS.includes(skillName)) {
 			throw new BadRequestException(`Invalid skill: ${skillName}. Valid skills: ${VALID_SKILLS.join(', ')}`);
@@ -124,9 +120,7 @@ export class DashboardService {
 		return ResponseDto.success(Object, result);
 	}
 
-	// ================================================================
 	// 3. GET /dashboard/streak
-	// ================================================================
 	async getStreak(userId: string) {
 		const streak = await this.calculateStreak(userId);
 
@@ -149,25 +143,17 @@ export class DashboardService {
 		return ResponseDto.success(Object, result);
 	}
 
-	// ================================================================
 	// 4. GET /dashboard/study-time
-	// ================================================================
 	async getStudyTime(userId: string, dto: GetStudyTimeDto) {
 		const period = dto.period ?? 'week';
 
 		const startDate = new Date();
 		startDate.setHours(0, 0, 0, 0);
 
-		if (period === 'week') {
-			startDate.setDate(startDate.getDate() - 7);
-		} else if (period === 'month') {
-			startDate.setDate(startDate.getDate() - 30);
-		} else {
-			// 'all' — 365 ngày gần nhất (practical limit)
-			startDate.setDate(startDate.getDate() - 365);
-		}
+		if (period === 'week') startDate.setDate(startDate.getDate() - 7);
+		else if (period === 'month') startDate.setDate(startDate.getDate() - 30);
+		else startDate.setDate(startDate.getDate() - 365);
 
-		// Lấy assessments có cả startedAt và completedAt
 		const assessments = await this.prisma.assessment.findMany({
 			where: {
 				userId,
@@ -223,9 +209,7 @@ export class DashboardService {
 		return ResponseDto.success(Object, result);
 	}
 
-	// ================================================================
 	// PRIVATE: CEFR data from latest completed CatSession
-	// ================================================================
 	private async getCefrData(userId: string): Promise<{ cefrLevel: string | null; confidence: number | null }> {
 		const session = await this.prisma.catSession.findFirst({
 			where: { userId, status: 'completed' },
@@ -240,9 +224,7 @@ export class DashboardService {
 		};
 	}
 
-	// ================================================================
 	// PRIVATE: Current plan progress
-	// ================================================================
 	private async getPlanProgress(userId: string) {
 		const latestItem = await this.prisma.learningPlanItem.findFirst({
 			where: { userId, deletedAt: null, planCycle: { not: null } },

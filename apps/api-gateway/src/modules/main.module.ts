@@ -5,7 +5,6 @@ import { AssessmentsModule } from './assessments/assessments.module';
 import { ReportsModule } from './reports/reports.module';
 import { SrsModule } from './srs/srs.module';
 import { DictionaryModule } from './dictionary/dictionary.module';
-import { NotificationsModule } from './notifications/notifications.module';
 import { UsersModule } from './users/users.module';
 import { AuthGuard } from '../guards/auth.guard';
 import { AdminModule } from './admin/admin.module';
@@ -19,7 +18,6 @@ const modules: any[] = [
 	ReportsModule,
 	SrsModule,
 	DictionaryModule,
-	NotificationsModule,
 	UsersModule,
 	AdminModule,
 	LearningModule,

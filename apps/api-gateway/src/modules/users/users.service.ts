@@ -63,14 +63,9 @@ export class UsersService {
 			},
 		});
 
-		if (!user) {
-			throw new NotFoundException('User not found');
-		}
+		if (!user) throw new NotFoundException('User not found');
 
-		return new ResponseDto<ProfileMeDto>({
-			message: 'Lấy thông tin thành công',
-			data: user,
-		});
+		return ResponseDto.success(ProfileMeDto, user, 'Lấy thông tin thành công');
 	}
 
 	async updateProfile(userId: string, dto: UpdateProfileDto): Promise<ResponseDto<ProfileMeDto>> {

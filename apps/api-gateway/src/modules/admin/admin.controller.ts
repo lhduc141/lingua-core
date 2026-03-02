@@ -25,7 +25,6 @@ export class AdminController {
 	@ApiResponse({ status: 400, description: 'Validation error' })
 	async createPassage(@Body() dto: CreatePassageDto) {
 		const data = await this.adminService.createPassage(dto);
-
 		return ResponseDto.success(Object, data, 'Passage created successfully', HttpStatus.CREATED);
 	}
 
@@ -36,7 +35,6 @@ export class AdminController {
 	@ApiResponse({ status: 400, description: 'Validation error' })
 	async createQuestion(@Body() dto: CreateQuestionDto) {
 		const data = await this.adminService.createQuestion(dto);
-
 		return ResponseDto.success(Object, data, 'Question created successfully', HttpStatus.CREATED);
 	}
 
@@ -47,7 +45,6 @@ export class AdminController {
 	@ApiResponse({ status: 400, description: 'Validation error' })
 	async createLesson(@Body() dto: CreateLessonDto) {
 		const data = await this.adminService.createLesson(dto);
-
 		return ResponseDto.success(Object, data, 'Lesson created successfully', HttpStatus.CREATED);
 	}
 
@@ -58,7 +55,6 @@ export class AdminController {
 	@ApiResponse({ status: 400, description: 'Validation error' })
 	async createPracticeSession(@Body() dto: CreatePracticeSessionDto) {
 		const data = await this.adminService.createPracticeSession(dto);
-
 		return ResponseDto.success(Object, data, 'Practice session created successfully', HttpStatus.CREATED);
 	}
 
@@ -69,7 +65,6 @@ export class AdminController {
 	@ApiResponse({ status: 400, description: 'Invalid format or data' })
 	async bulkImportDictionary(@Body() dto: BulkImportDictionaryDto) {
 		const data = await this.adminService.bulkImportDictionary(dto);
-
 		return ResponseDto.success(Object, data, 'Dictionary import completed');
 	}
 
@@ -78,7 +73,6 @@ export class AdminController {
 	@ApiResponse({ status: 200, description: 'Users retrieved successfully' })
 	async listUsers(@Query() query: ListUsersQueryDto) {
 		const data = await this.adminService.listUsers(query);
-
 		return ResponseDto.success(Object, data, 'Users retrieved successfully');
 	}
 
@@ -87,7 +81,6 @@ export class AdminController {
 	@ApiResponse({ status: 200, description: 'System stats retrieved successfully' })
 	async getSystemStats() {
 		const data = await this.adminService.getSystemStats();
-
 		return ResponseDto.success(Object, data, 'System stats retrieved successfully');
 	}
 }

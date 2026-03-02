@@ -37,8 +37,6 @@ export class OnboardingService {
 					where: { userId, isActive: true },
 					data: { isActive: false },
 				});
-
-				this.logger.log(`Disabled previous survey: surveyId=${activeSurvey.surveyId}`);
 			}
 
 			const newSurvey = await tx.onboardingSurvey.create({
