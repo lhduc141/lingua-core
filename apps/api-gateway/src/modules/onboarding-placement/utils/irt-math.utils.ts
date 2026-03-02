@@ -1,4 +1,4 @@
-import { CefrAssignment } from '../interface/cefr-assignment.inteface';
+import { CefrAssignment } from '../interface/cefr-assignment.interface';
 
 export class IrtMathUtils {
 	static logistic(a: number, b: number, theta: number): number {

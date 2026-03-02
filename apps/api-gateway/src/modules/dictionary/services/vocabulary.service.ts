@@ -3,7 +3,7 @@ import { BadRequestException, NotFoundException, PagingDataDto, ResponseDto } fr
 import { PrismaService } from '../../../../../../prisma/prisma.service';
 import { SaveVocabularyDto } from '../dto/save-vocabulary.dto';
 import { ListVocabularyDto } from '../dto/list-vocabulary.dto';
-import { VocabularySelect } from '../../../../../../prisma/selects';
+import { DictEntrySelect, VocabularySelect } from '../../../../../../prisma/selects';
 import { UpdateVocabularyDto } from '../dto/update-vocabulary.dto';
 
 @Injectable()
@@ -15,14 +15,14 @@ export class VocabularyService {
 	async save(userId: string, dto: SaveVocabularyDto) {
 		const entry = await this.prisma.dictEntry.findFirst({
 			where: { entryId: dto.entryId, deletedAt: null },
-			select: { entryId: true },
+			select: DictEntrySelect.minimal,
 		});
 
 		if (!entry) throw new NotFoundException('Dictionary entry not found');
 
 		const existing = await this.prisma.userVocabulary.findUnique({
 			where: { userId_entryId: { userId, entryId: dto.entryId } },
-			select: { id: true, deletedAt: true },
+			select: VocabularySelect.idWithDeletedAt,
 		});
 
 		if (existing) {
@@ -36,7 +36,7 @@ export class VocabularyService {
 					context: dto.context ?? null,
 					addedAt: new Date(),
 				},
-				select: { id: true },
+				select: VocabularySelect.idOnly,
 			});
 
 			return ResponseDto.success(Object, { id: restored.id }, 'Word saved to vocabulary');
@@ -50,7 +50,7 @@ export class VocabularyService {
 				note: dto.note ?? null,
 				context: dto.context ?? null,
 			},
-			select: { id: true },
+			select: VocabularySelect.idOnly,
 		});
 
 		return ResponseDto.success(Object, { id: vocab.id }, 'Word saved to vocabulary');
@@ -78,7 +78,7 @@ export class VocabularyService {
 	async update(userId: string, id: string, dto: UpdateVocabularyDto) {
 		const vocab = await this.prisma.userVocabulary.findFirst({
 			where: { id, userId, deletedAt: null },
-			select: { id: true },
+			select: VocabularySelect.idOnly,
 		});
 
 		if (!vocab) throw new NotFoundException('Vocabulary item not found');
@@ -97,7 +97,7 @@ export class VocabularyService {
 	async remove(userId: string, id: string) {
 		const vocab = await this.prisma.userVocabulary.findFirst({
 			where: { id, userId, deletedAt: null },
-			select: { id: true },
+			select: VocabularySelect.idOnly,
 		});
 
 		if (!vocab) throw new NotFoundException('Vocabulary item not found');

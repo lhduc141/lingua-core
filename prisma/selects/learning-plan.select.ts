@@ -60,6 +60,55 @@ export const LearningPlanSelect = {
 		refId: true,
 		itemType: true,
 	} satisfies Prisma.LearningPlanItemSelect,
+
+	cycleWeek: {
+		planCycle: true,
+		weekNumber: true,
+	} satisfies Prisma.LearningPlanItemSelect,
+
+	historyAggregate: {
+		planCycle: true,
+		weekNumber: true,
+		status: true,
+		dueDate: true,
+		taskScore: true,
+	} satisfies Prisma.LearningPlanItemSelect,
+
+	reviewGate: {
+		description: true,
+		feedbackSubmittedAt: true,
+		dueDate: true,
+	} satisfies Prisma.LearningPlanItemSelect,
+
+	weekItemSummary: {
+		title: true,
+		itemType: true,
+		status: true,
+		skillName: true,
+		taskScore: true,
+		refType: true,
+		refId: true,
+	} satisfies Prisma.LearningPlanItemSelect,
+
+	statusOnly: {
+		status: true,
+	} satisfies Prisma.LearningPlanItemSelect,
+
+	recentActivity: {
+		title: true,
+		skillName: true,
+		taskScore: true,
+		status: true,
+		updatedAt: true,
+	} satisfies Prisma.LearningPlanItemSelect,
+
+	feedbackOnly: {
+		userFeedback: true,
+	} satisfies Prisma.LearningPlanItemSelect,
+
+	updatedAtOnly: {
+		updatedAt: true,
+	} satisfies Prisma.LearningPlanItemSelect,
 } as const;
 
 export const UserAvailabilitySelect = {

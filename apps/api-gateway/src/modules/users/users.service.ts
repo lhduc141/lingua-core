@@ -1,6 +1,7 @@
 import { Injectable, NotFoundException, UnauthorizedException } from '@nestjs/common';
 import { User } from '@prisma/client';
 import { PrismaService } from '../../../../../prisma/prisma.service';
+import { UserSelect } from '../../../../../prisma/selects';
 import { UpdateProfileDto } from '../auth/dto/update-profile.dto';
 import { ProfileMeDto } from '../auth/dto/profile-me.dto';
 import { ResponseDto } from '@app/shared';
@@ -50,17 +51,7 @@ export class UsersService {
 	async getProfile(userId: string): Promise<ResponseDto<ProfileMeDto>> {
 		const user = await this.prisma.user.findUnique({
 			where: { userId },
-			select: {
-				userId: true,
-				email: true,
-				googleName: true,
-				googleAvatarUrl: true,
-				dob: true,
-				gender: true,
-				phone: true,
-				isAdmin: true,
-				createdAt: true,
-			},
+			select: UserSelect.profile,
 		});
 
 		if (!user) throw new NotFoundException('User not found');
@@ -76,17 +67,7 @@ export class UsersService {
 				gender: dto.gender,
 				phone: dto.phone,
 			},
-			select: {
-				userId: true,
-				email: true,
-				googleName: true,
-				googleAvatarUrl: true,
-				dob: true,
-				gender: true,
-				phone: true,
-				isAdmin: true,
-				createdAt: true,
-			},
+			select: UserSelect.profile,
 		});
 
 		return new ResponseDto<ProfileMeDto>({
@@ -128,15 +109,7 @@ export class UsersService {
 	async validateRefreshToken(userId: string, refreshToken: string) {
 		const user = await this.prisma.user.findUnique({
 			where: { userId },
-			select: {
-				userId: true,
-				email: true,
-				isAdmin: true,
-				isActive: true,
-				deletedAt: true,
-				currentRefreshTokenHash: true,
-				currentRefreshTokenExpiresAt: true,
-			},
+			select: UserSelect.authStatus,
 		});
 
 		if (!user) return null;

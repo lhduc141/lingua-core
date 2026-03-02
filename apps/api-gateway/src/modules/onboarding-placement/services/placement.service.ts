@@ -5,8 +5,14 @@ import { SubmitPlacementAnswerDto } from '../dto/submit-placement-answer.dto';
 import { StartPlacementResponse } from '../interface/start-placement-response.interface';
 import { AnswerPlacementResponse } from '../interface/answer-placement-response.interface';
 import { DEFAULT_CAT_CONFIG } from '@app/shared/constants/default-cat-config.constant';
-import { PlacementResult } from '../interface/placement-result.inteface';
-import { CefrAssignment } from '../interface/cefr-assignment.inteface';
+import { PlacementResult } from '../interface/placement-result.interface';
+import { CefrAssignment } from '../interface/cefr-assignment.interface';
+import {
+	AssessmentSelect,
+	CatSessionSelect,
+	PlacementAttemptSelect,
+	QuestionSelect,
+} from '../../../../../../prisma/selects';
 
 /**
  * PlacementService
@@ -65,7 +71,7 @@ export class PlacementService {
 	async startPlacementTest(userId: string): Promise<StartPlacementResponse> {
 		const existing = await this.prisma.catSession.findFirst({
 			where: { userId, status: 'in_progress' },
-			select: { sessionId: true },
+			select: CatSessionSelect.idOnly,
 		});
 		if (existing) {
 			throw new ConflictException(
@@ -183,7 +189,7 @@ export class PlacementService {
 		// 1. Validate assessment → get session
 		const assessment = await this.prisma.assessment.findFirst({
 			where: { assessmentId, userId, deletedAt: null },
-			select: { assessmentId: true, catSessionId: true, status: true },
+			select: AssessmentSelect.placementCheck,
 		});
 		if (!assessment) {
 			throw new NotFoundException('Assessment not found or does not belong to you.');
@@ -206,7 +212,7 @@ export class PlacementService {
 		// 3. Prevent re-answering the same question
 		const alreadyAnswered = await this.prisma.placementAttempt.findFirst({
 			where: { sessionId: session.sessionId, questionId },
-			select: { attemptId: true },
+			select: PlacementAttemptSelect.idOnly,
 		});
 		if (alreadyAnswered) {
 			throw new BadRequestException(`Question ${questionId} has already been answered in this session.`);
@@ -215,16 +221,7 @@ export class PlacementService {
 		// 4. Fetch question + options
 		const question = await this.prisma.question.findFirst({
 			where: { questionId, sourceTag: 'placement_test_v1', deletedAt: null },
-			select: {
-				questionId: true,
-				irtDifficulty: true,
-				irtDiscrimination: true,
-				irtGuessing: true,
-				options: {
-					where: { deletedAt: null },
-					select: { optionId: true, isCorrect: true },
-				},
-			},
+			select: QuestionSelect.placementAnswer,
 		});
 		if (!question) {
 			throw new NotFoundException(`Question ${questionId} not found in the placement test pool.`);
@@ -240,13 +237,7 @@ export class PlacementService {
 		// 6. Fetch all past attempts with IRT params
 		const pastAttempts = await this.prisma.placementAttempt.findMany({
 			where: { sessionId: session.sessionId },
-			select: {
-				questionId: true,
-				isCorrect: true,
-				question: {
-					select: { irtDiscrimination: true, irtDifficulty: true, irtGuessing: true },
-				},
-			},
+			select: PlacementAttemptSelect.withIrt,
 			orderBy: { questionOrder: 'asc' },
 		});
 
@@ -414,9 +405,7 @@ export class PlacementService {
 		// Recalculate SE from actual attempts for accuracy
 		const attempts = await this.prisma.placementAttempt.findMany({
 			where: { sessionId: session.sessionId },
-			select: {
-				question: { select: { irtDiscrimination: true, irtDifficulty: true, irtGuessing: true } },
-			},
+			select: PlacementAttemptSelect.irtOnly,
 		});
 		const params = attempts.map((a) => this.catEngine.extractIrtParams(a.question));
 		const se = params.length > 0 ? this.catEngine.calculateSE(theta, params) : DEFAULT_CAT_CONFIG.initialSe;
@@ -451,9 +440,7 @@ export class PlacementService {
 
 		const attempts = await this.prisma.placementAttempt.findMany({
 			where: { sessionId: session.sessionId },
-			select: {
-				question: { select: { irtDiscrimination: true, irtDifficulty: true, irtGuessing: true } },
-			},
+			select: PlacementAttemptSelect.irtOnly,
 		});
 		const params = attempts.map((a) => this.catEngine.extractIrtParams(a.question));
 		const se = params.length > 0 ? this.catEngine.calculateSE(theta, params) : DEFAULT_CAT_CONFIG.targetSe;

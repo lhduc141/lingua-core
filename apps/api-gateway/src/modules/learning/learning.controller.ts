@@ -3,8 +3,8 @@ import { ApiBearerAuth, ApiNotFoundResponse, ApiOkResponse, ApiOperation, ApiTag
 import { AuthGuard } from '../../guards/auth.guard';
 import { Public } from '../../decorators/public.decorator';
 import { LearningService } from './learning.service';
-import { ListLessonsDto } from './dto/list-lession-query.dto';
-import { ListPracticeSessionsDto } from './dto/list-practice-sessions-query.dto';
+import { ListLessonsDto } from './dto/list-lessons.dto';
+import { ListPracticeSessionsDto } from './dto/list-practice-sessions.dto';
 
 @ApiTags('Learning')
 @Controller()

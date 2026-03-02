@@ -66,4 +66,11 @@ export const OnboardingSurveySelect = {
 		primaryGoal: true,
 		isActive: true,
 	} satisfies Prisma.OnboardingSurveySelect,
+
+	planInput: {
+		primaryGoal: true,
+		plannedStudyHoursPerWeek: true,
+		primaryFocusSkills: true,
+		targetGoal: true,
+	} satisfies Prisma.OnboardingSurveySelect,
 } as const;

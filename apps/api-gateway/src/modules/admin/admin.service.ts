@@ -4,9 +4,10 @@ import { CreateQuestionDto } from './dto/create-question.dto';
 import { CreateLessonDto } from './dto/create-lesson.dto';
 import { CreatePracticeSessionDto } from './dto/create-practice-session.dto';
 import { BulkImportDictionaryDto } from './dto/bulk-import-dictionary.dto';
-import { ListUsersQueryDto } from './dto/list-users-query.dto';
+import { ListUsersDto } from './dto/list-users.dto';
 import { Injectable, Logger } from '@nestjs/common';
 import { BadRequestException, NotFoundException } from '@app/shared';
+import { PassageSelect, UserSelect } from '../../../../../prisma/selects';
 
 @Injectable()
 export class AdminService {
@@ -33,15 +34,7 @@ export class AdminService {
 					audioUrl: dto.audioUrl,
 					imageUrl: dto.imageUrl,
 				},
-				select: {
-					passageId: true,
-					title: true,
-					content: true,
-					wordCount: true,
-					cefrLevel: true,
-					topic: true,
-					sourceTag: true,
-				},
+				select: PassageSelect.create,
 			});
 
 			this.logger.log(`Passage created: ${passage.passageId}`);
@@ -356,7 +349,7 @@ export class AdminService {
 	// USER MANAGEMENT
 	// ==========================================
 
-	async listUsers(query: ListUsersQueryDto) {
+	async listUsers(query: ListUsersDto) {
 		try {
 			const { search, isActive, isAdmin, limit = 50, offset = 0 } = query;
 
@@ -382,16 +375,7 @@ export class AdminService {
 			const [users, total] = await Promise.all([
 				this.prisma.user.findMany({
 					where,
-					select: {
-						userId: true,
-						email: true,
-						googleName: true,
-						googleAvatarUrl: true,
-						isActive: true,
-						isAdmin: true,
-						createdAt: true,
-						lastLoginAt: true,
-					},
+					select: UserSelect.list,
 					orderBy: { createdAt: 'desc' },
 					take: limit,
 					skip: offset,

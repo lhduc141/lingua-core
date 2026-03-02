@@ -1,12 +1,12 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { PrismaService } from '../../../../../prisma/prisma.service';
 import { LESSON_LIST_SELECT, NotFoundException, PagingDataDto, ResponseDto, SKILL_LIST } from '@app/shared';
-import { ListLessonsDto } from './dto/list-lession-query.dto';
+import { ListLessonsDto } from './dto/list-lessons.dto';
 import { LessonSelect, PracticeSessionSelect } from '../../../../../prisma/selects';
 import { LessonDetail } from './interface/lesson-detail.interface';
 import { PracticeSessionDetail } from './interface/practice-session-detail.interface';
 import { QuestionItem } from './interface/question-item.interface';
-import { ListPracticeSessionsDto } from './dto/list-practice-sessions-query.dto';
+import { ListPracticeSessionsDto } from './dto/list-practice-sessions.dto';
 
 @Injectable()
 export class LearningService {

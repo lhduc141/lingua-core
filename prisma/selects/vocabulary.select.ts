@@ -17,4 +17,13 @@ export const VocabularySelect = {
 			},
 		},
 	} satisfies Prisma.UserVocabularySelect,
+
+	idOnly: {
+		id: true,
+	} satisfies Prisma.UserVocabularySelect,
+
+	idWithDeletedAt: {
+		id: true,
+		deletedAt: true,
+	} satisfies Prisma.UserVocabularySelect,
 } as const;

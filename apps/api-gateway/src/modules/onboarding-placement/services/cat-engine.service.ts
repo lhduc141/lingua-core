@@ -9,7 +9,8 @@ import { EXPOSURE_LIMITS } from '@app/shared/constants/exposure-limit.constant';
 import { IrtParameters } from '../interface/irt-parameters.interface';
 import { IrtResponse } from '../interface/irt-response.interface';
 import { DEFAULT_CAT_CONFIG } from '@app/shared/constants/default-cat-config.constant';
-import { CefrAssignment } from '../interface/cefr-assignment.inteface';
+import { CefrAssignment } from '../interface/cefr-assignment.interface';
+import { QuestionSelect } from '../../../../../../prisma/selects';
 
 @Injectable()
 export class CatEngineService {
@@ -51,37 +52,7 @@ export class CatEngineService {
 				deletedAt: null,
 				...(excludeIds.length > 0 && { questionId: { notIn: excludeIds } }),
 			},
-			select: {
-				questionId: true,
-				passageId: true,
-				usageCount: true,
-				irtDifficulty: true,
-				irtDiscrimination: true,
-				irtGuessing: true,
-				passage: {
-					select: {
-						passageId: true,
-						title: true,
-						content: true,
-						cefrLevel: true,
-					},
-				},
-				translations: {
-					select: { locale: true, stemText: true, contentJson: true },
-				},
-				options: {
-					where: { deletedAt: null },
-					orderBy: { position: 'asc' },
-					select: {
-						optionId: true,
-						position: true,
-						isCorrect: true,
-						translations: {
-							select: { locale: true, optionText: true },
-						},
-					},
-				},
-			},
+			select: QuestionSelect.placementCandidate,
 		});
 
 		if (rows.length === 0) {

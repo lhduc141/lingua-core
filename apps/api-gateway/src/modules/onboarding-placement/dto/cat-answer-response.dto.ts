@@ -1,4 +1,4 @@
-import { PlacementResult } from '../interface/placement-result.inteface';
+import { PlacementResult } from '../interface/placement-result.interface';
 
 export interface CatAnswerResponse {
 	isCorrect: boolean;

@@ -2,7 +2,7 @@ import { IsBoolean, IsInt, IsOptional, IsString, Max, Min } from 'class-validato
 import { Transform, Type } from 'class-transformer';
 import { ApiPropertyOptional } from '@nestjs/swagger';
 
-export class ListUsersQueryDto {
+export class ListUsersDto {
 	@ApiPropertyOptional({
 		description: 'Search by email or name',
 		example: 'john@example.com',

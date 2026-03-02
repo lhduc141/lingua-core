@@ -5,7 +5,7 @@ import { CreatePassageDto } from './dto/create-passage.dto';
 import { CreateLessonDto } from './dto/create-lesson.dto';
 import { CreatePracticeSessionDto } from './dto/create-practice-session.dto';
 import { BulkImportDictionaryDto } from './dto/bulk-import-dictionary.dto';
-import { ListUsersQueryDto } from './dto/list-users-query.dto';
+import { ListUsersDto } from './dto/list-users.dto';
 import { ResponseDto } from '@app/shared';
 import { CreateQuestionDto } from './dto/create-question.dto';
 import { AuthGuard } from '../../guards/auth.guard';
@@ -71,7 +71,7 @@ export class AdminController {
 	@Get('users')
 	@ApiOperation({ summary: 'Lấy danh sách users' })
 	@ApiResponse({ status: 200, description: 'Users retrieved successfully' })
-	async listUsers(@Query() query: ListUsersQueryDto) {
+	async listUsers(@Query() query: ListUsersDto) {
 		const data = await this.adminService.listUsers(query);
 		return ResponseDto.success(Object, data, 'Users retrieved successfully');
 	}

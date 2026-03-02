@@ -10,7 +10,15 @@ import { ListPlanHistoryDto } from './dto/list-plan-history.dto';
 import { PlanJob, PlanQueues } from '@app/shared/queues';
 import { Job } from 'bullmq';
 import { GradeCustomActivityJobData } from './interface/grade-custom-activity-job-data.interface';
-import { LearningPlanSelect, UserAvailabilitySelect } from '../../../../../prisma/selects';
+import {
+	AssessmentSelect,
+	CatSessionSelect,
+	LearningPlanSelect,
+	LessonSelect,
+	OnboardingSurveySelect,
+	PracticeSessionSelect,
+	UserAvailabilitySelect,
+} from '../../../../../prisma/selects';
 import { PlanDay } from './interface/plan-day.interface';
 import { PlanTask } from './interface/plan-task.interface';
 import { CurrentPlanResponse } from './interface/current-plan-response.interface';
@@ -44,7 +52,7 @@ export class LearningPlanService implements OnModuleInit {
 		const latestItem = await this.prisma.learningPlanItem.findFirst({
 			where: { userId, deletedAt: null },
 			orderBy: [{ planCycle: 'desc' }, { weekNumber: 'desc' }],
-			select: { planCycle: true, weekNumber: true },
+			select: LearningPlanSelect.cycleWeek,
 		});
 
 		if (!latestItem || !latestItem.planCycle) {
@@ -166,7 +174,7 @@ export class LearningPlanService implements OnModuleInit {
 		const catSession = await this.prisma.catSession.findFirst({
 			where: { userId, status: 'completed' },
 			orderBy: { completedAt: 'desc' },
-			select: { cefrLevel: true, finalTheta: true },
+			select: CatSessionSelect.latestResult,
 		});
 		if (!catSession) {
 			throw new BadRequestException('Please complete a placement test before generating a learning plan.');
@@ -174,12 +182,7 @@ export class LearningPlanService implements OnModuleInit {
 
 		const survey = await this.prisma.onboardingSurvey.findFirst({
 			where: { userId, isActive: true, deletedAt: null },
-			select: {
-				primaryGoal: true,
-				plannedStudyHoursPerWeek: true,
-				primaryFocusSkills: true,
-				targetGoal: true,
-			},
+			select: OnboardingSurveySelect.planInput,
 		});
 		if (!survey) {
 			throw new BadRequestException('Please complete the onboarding survey before generating a learning plan.');
@@ -350,7 +353,7 @@ export class LearningPlanService implements OnModuleInit {
 	async updatePlanItem(userId: string, itemId: string, dto: UpdatePlanItemDto) {
 		const item = await this.prisma.learningPlanItem.findFirst({
 			where: { itemId, userId, deletedAt: null },
-			select: { itemId: true, status: true, itemType: true },
+			select: LearningPlanSelect.minimal,
 		});
 
 		if (!item) throw new NotFoundException('Plan item not found');
@@ -396,13 +399,7 @@ export class LearningPlanService implements OnModuleInit {
 		// Lấy tất cả unique (planCycle, weekNumber) combinations
 		const allItems = await this.prisma.learningPlanItem.findMany({
 			where: { userId, deletedAt: null, planCycle: { not: null } },
-			select: {
-				planCycle: true,
-				weekNumber: true,
-				status: true,
-				dueDate: true,
-				taskScore: true,
-			},
+			select: LearningPlanSelect.historyAggregate,
 			orderBy: [{ planCycle: 'desc' }, { weekNumber: 'desc' }],
 		});
 
@@ -529,15 +526,7 @@ export class LearningPlanService implements OnModuleInit {
 					itemType: { not: 'weekly_review' },
 					deletedAt: null,
 				},
-				select: {
-					title: true,
-					itemType: true,
-					status: true,
-					skillName: true,
-					taskScore: true,
-					refType: true,
-					refId: true,
-				},
+				select: LearningPlanSelect.weekItemSummary,
 			});
 
 			const completedTasks = weekItems.filter((i) => i.status === 'completed').length;
@@ -550,7 +539,7 @@ export class LearningPlanService implements OnModuleInit {
 			const catSession = await this.prisma.catSession.findFirst({
 				where: { userId, status: 'completed' },
 				orderBy: { completedAt: 'desc' },
-				select: { cefrLevel: true },
+				select: CatSessionSelect.latestCefr,
 			});
 
 			const reviewData = await this.aiClient.generateWeeklyReview({
@@ -587,7 +576,7 @@ export class LearningPlanService implements OnModuleInit {
 				deletedAt: null,
 			},
 			orderBy: [{ planCycle: 'desc' }, { weekNumber: 'desc' }],
-			select: { description: true, feedbackSubmittedAt: true, dueDate: true },
+			select: LearningPlanSelect.reviewGate,
 		});
 
 		if (!latestReview) return; // Lần đầu, không cần gate
@@ -614,7 +603,7 @@ export class LearningPlanService implements OnModuleInit {
 		const latest = await this.prisma.learningPlanItem.findFirst({
 			where: { userId, deletedAt: null, planCycle: { not: null } },
 			orderBy: [{ planCycle: 'desc' }, { weekNumber: 'desc' }],
-			select: { planCycle: true, weekNumber: true },
+			select: LearningPlanSelect.cycleWeek,
 		});
 
 		if (!latest) {
@@ -645,11 +634,11 @@ export class LearningPlanService implements OnModuleInit {
 		const [lessons, practiceSessions] = await Promise.all([
 			this.prisma.lesson.findMany({
 				where: { deletedAt: null, status: 'published' },
-				select: { lessonId: true, title: true, skillName: true, cefrLevel: true, estimatedMinutes: true },
+				select: LessonSelect.planAvailable,
 			}),
 			this.prisma.practiceSession.findMany({
 				where: { deletedAt: null, isActive: true },
-				select: { sessionId: true, title: true, skillName: true, cefrLevel: true, estimatedMinutes: true },
+				select: PracticeSessionSelect.planAvailable,
 			}),
 		]);
 
@@ -683,12 +672,7 @@ export class LearningPlanService implements OnModuleInit {
 			},
 			orderBy: { completedAt: 'desc' },
 			take: 10,
-			select: {
-				refType: true,
-				refId: true,
-				score: true,
-				completedAt: true,
-			},
+			select: AssessmentSelect.performance,
 		});
 
 		// Enrich with skill info
@@ -699,13 +683,13 @@ export class LearningPlanService implements OnModuleInit {
 			if (a.refType === 'lesson') {
 				const lesson = await this.prisma.lesson.findFirst({
 					where: { lessonId: a.refId },
-					select: { skillName: true },
+					select: LessonSelect.skillOnly,
 				});
 				skillName = lesson?.skillName ?? null;
 			} else if (a.refType === 'practice_session') {
 				const session = await this.prisma.practiceSession.findFirst({
 					where: { sessionId: a.refId },
-					select: { skillName: true },
+					select: PracticeSessionSelect.skillOnly,
 				});
 				skillName = session?.skillName ?? null;
 			}
@@ -732,7 +716,7 @@ export class LearningPlanService implements OnModuleInit {
 				itemType: 'weekly_review',
 				deletedAt: null,
 			},
-			select: { description: true },
+			select: LearningPlanSelect.reviewGate,
 		});
 
 		if (!review?.description) return null;
@@ -756,7 +740,7 @@ export class LearningPlanService implements OnModuleInit {
 				itemType: 'weekly_review',
 				deletedAt: null,
 			},
-			select: { userFeedback: true },
+			select: LearningPlanSelect.feedbackOnly,
 		});
 
 		return review?.userFeedback ?? null;
@@ -777,12 +761,7 @@ export class LearningPlanService implements OnModuleInit {
 				status: 'scored',
 				deletedAt: null,
 			},
-			select: {
-				refType: true,
-				refId: true,
-				score: true,
-				completedAt: true,
-			},
+			select: AssessmentSelect.performance,
 		});
 
 		return assessments.map((a) => {

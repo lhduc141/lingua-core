@@ -1,4 +1,5 @@
 import { Prisma } from '@prisma/client';
+import { LessonQuestionSelect } from './lesson-question.select';
 import { QuestionSelect } from './question.select';
 
 export const LessonSelect = {
@@ -28,5 +29,34 @@ export const LessonSelect = {
 				question: { select: QuestionSelect.detail },
 			},
 		},
+	} satisfies Prisma.LessonSelect,
+
+	idTitle: {
+		lessonId: true,
+		title: true,
+	} satisfies Prisma.LessonSelect,
+
+	titleSkill: {
+		title: true,
+		skillName: true,
+	} satisfies Prisma.LessonSelect,
+
+	skillOnly: {
+		skillName: true,
+	} satisfies Prisma.LessonSelect,
+
+	planAvailable: {
+		lessonId: true,
+		title: true,
+		skillName: true,
+		cefrLevel: true,
+		estimatedMinutes: true,
+	} satisfies Prisma.LessonSelect,
+
+	assessmentMeta: {
+		title: true,
+		skillName: true,
+		cefrLevel: true,
+		lessonQuestions: { select: LessonQuestionSelect.idOnly },
 	} satisfies Prisma.LessonSelect,
 } as const;

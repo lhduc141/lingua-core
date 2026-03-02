@@ -1,5 +1,5 @@
 import { FormattedQuestion } from './formatted-question.interface';
-import { PlacementResult } from './placement-result.inteface';
+import { PlacementResult } from './placement-result.interface';
 
 export interface AnswerPlacementResponse {
 	isCorrect: boolean;

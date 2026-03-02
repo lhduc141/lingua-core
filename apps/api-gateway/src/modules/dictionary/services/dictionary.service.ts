@@ -3,10 +3,10 @@ import { AiClientService } from '@app/ai-client';
 import { NotFoundException, PagingDataDto, ResponseDto } from '@app/shared';
 import { PrismaService } from '../../../../../../prisma/prisma.service';
 import { LookupWordDto } from '../dto/lookup-word.dto';
-import { DictEntryLookup } from '../inteface/dict-entry-lookup.interface';
-import { CollocationSelect, DictEntrySelect } from '../../../../../../prisma/selects';
+import { DictEntryLookup } from '../interface/dict-entry-lookup.interface';
+import { CollocationSelect, DictEntrySelect, WordFormSelect } from '../../../../../../prisma/selects';
 import { ListCollocationsDto } from '../dto/list-collocations.dto';
-import { AiDictionaryOutput } from '../inteface/ai-dictionary-output.interface';
+import { AiDictionaryOutput } from '../interface/ai-dictionary-output.interface';
 
 @Injectable()
 export class DictionaryService {
@@ -29,10 +29,7 @@ export class DictionaryService {
 
 		const wordForm = await this.prisma.wordForm.findUnique({
 			where: { form: word, deletedAt: null },
-			select: {
-				pos: true,
-				entry: { select: DictEntrySelect.lookup },
-			},
+			select: WordFormSelect.lookup,
 		});
 
 		if (wordForm) return ResponseDto.success(Object, this.formatEntry(wordForm.entry, word));
@@ -43,7 +40,7 @@ export class DictionaryService {
 	async getCollocations(entryId: string, dto: ListCollocationsDto) {
 		const entry = await this.prisma.dictEntry.findFirst({
 			where: { entryId, deletedAt: null },
-			select: { entryId: true },
+			select: DictEntrySelect.minimal,
 		});
 
 		if (!entry) throw new NotFoundException('Dictionary entry not found');

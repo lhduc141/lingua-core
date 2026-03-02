@@ -3,7 +3,15 @@ import { PrismaService } from '../../../../../prisma/prisma.service';
 import { BadRequestException, NotFoundException, PagingDataDto, ResponseDto } from '@app/shared';
 import { BullmqService } from '@app/bullmq';
 import { AiClientService } from '@app/ai-client';
-import { AssessmentSelect } from '../../../../../prisma/selects';
+import {
+	AssessmentSelect,
+	AttemptSelect,
+	LessonQuestionSelect,
+	LessonSelect,
+	PracticeSessionQuestionSelect,
+	PracticeSessionSelect,
+	QuestionSelect,
+} from '../../../../../prisma/selects';
 import { StartLessonAssessmentDto } from './dto/start-lesson-assessment.dto';
 import { StartPracticeAssessmentDto } from './dto/start-practice-assessment.dto';
 import { SubmitAnswerDto } from './dto/submit-answer.dto';
@@ -44,53 +52,7 @@ export class AssessmentsService implements OnModuleInit {
 
 		const lesson = await this.prisma.lesson.findFirst({
 			where: { lessonId, deletedAt: null, status: 'published' },
-			select: {
-				lessonId: true,
-				title: true,
-				skillName: true,
-				cefrLevel: true,
-				estimatedMinutes: true,
-				theoryContent: true,
-				lessonQuestions: {
-					orderBy: { position: 'asc' },
-					select: {
-						position: true,
-						question: {
-							select: {
-								questionId: true,
-								type: true,
-								maxScore: true,
-								translations: {
-									where: { locale: 'en' },
-									select: { stemText: true, contentJson: true },
-								},
-								options: {
-									where: { deletedAt: null },
-									orderBy: { position: 'asc' },
-									select: {
-										optionId: true,
-										position: true,
-										translations: {
-											where: { locale: 'en' },
-											select: { optionText: true },
-										},
-									},
-									// isCorrect KHÔNG được select — bảo mật đáp án
-								},
-								passage: {
-									select: {
-										passageId: true,
-										title: true,
-										content: true,
-										cefrLevel: true,
-										wordCount: true,
-									},
-								},
-							},
-						},
-					},
-				},
-			},
+			select: LessonSelect.detail,
 		});
 
 		if (!lesson) throw new NotFoundException('Lesson not found or not published');
@@ -107,7 +69,7 @@ export class AssessmentsService implements OnModuleInit {
 				status: 'in_progress' as any,
 				startedAt: new Date(),
 			},
-			select: { assessmentId: true },
+			select: AssessmentSelect.idOnly,
 		});
 
 		this.logger.log(
@@ -164,51 +126,7 @@ export class AssessmentsService implements OnModuleInit {
 
 		const session = await this.prisma.practiceSession.findFirst({
 			where: { sessionId: practiceSessionId, deletedAt: null, isActive: true },
-			select: {
-				sessionId: true,
-				title: true,
-				skillName: true,
-				cefrLevel: true,
-				estimatedMinutes: true,
-				questions: {
-					orderBy: { position: 'asc' },
-					select: {
-						position: true,
-						question: {
-							select: {
-								questionId: true,
-								type: true,
-								maxScore: true,
-								translations: {
-									where: { locale: 'en' },
-									select: { stemText: true, contentJson: true },
-								},
-								options: {
-									where: { deletedAt: null },
-									orderBy: { position: 'asc' },
-									select: {
-										optionId: true,
-										position: true,
-										translations: {
-											where: { locale: 'en' },
-											select: { optionText: true },
-										},
-									},
-								},
-								passage: {
-									select: {
-										passageId: true,
-										title: true,
-										content: true,
-										cefrLevel: true,
-										wordCount: true,
-									},
-								},
-							},
-						},
-					},
-				},
-			},
+			select: PracticeSessionSelect.detail,
 		});
 
 		if (!session) throw new NotFoundException('Practice session not found or inactive');
@@ -224,7 +142,7 @@ export class AssessmentsService implements OnModuleInit {
 				status: 'in_progress' as any,
 				startedAt: new Date(),
 			},
-			select: { assessmentId: true },
+			select: AssessmentSelect.idOnly,
 		});
 
 		this.logger.log(
@@ -281,7 +199,7 @@ export class AssessmentsService implements OnModuleInit {
 		// 1. Verify assessment
 		const assessment = await this.prisma.assessment.findFirst({
 			where: { assessmentId, userId, deletedAt: null },
-			select: { assessmentId: true, status: true, refType: true, refId: true },
+			select: AssessmentSelect.statusRef,
 		});
 		if (!assessment) throw new NotFoundException('Assessment not found');
 		if (assessment.status !== 'in_progress') {
@@ -297,7 +215,7 @@ export class AssessmentsService implements OnModuleInit {
 		// 3. Kiểm tra câu này đã có attempt chưa
 		const existing = await this.prisma.attempt.findFirst({
 			where: { assessmentId, questionId, deletedAt: null },
-			select: { attemptId: true },
+			select: AttemptSelect.idOnly,
 		});
 		if (existing) {
 			throw new BadRequestException('This question has already been answered');
@@ -306,7 +224,7 @@ export class AssessmentsService implements OnModuleInit {
 		// 4. Lấy question type để xác định modality
 		const question = await this.prisma.question.findFirst({
 			where: { questionId, deletedAt: null },
-			select: { type: true, skill: true },
+			select: QuestionSelect.skillType,
 		});
 		if (!question) throw new NotFoundException('Question not found');
 
@@ -322,7 +240,7 @@ export class AssessmentsService implements OnModuleInit {
 				gradingStatus: 'pending' as any,
 				submittedAt: new Date(),
 			},
-			select: { attemptId: true },
+			select: AttemptSelect.idOnly,
 		});
 
 		// 6. Tạo AttemptAnswer(s)
@@ -344,7 +262,7 @@ export class AssessmentsService implements OnModuleInit {
 		// 1. Verify assessment
 		const assessment = await this.prisma.assessment.findFirst({
 			where: { assessmentId, userId, deletedAt: null },
-			select: { assessmentId: true, status: true, refType: true, refId: true },
+			select: AssessmentSelect.statusRef,
 		});
 		if (!assessment) throw new NotFoundException('Assessment not found');
 		if (assessment.status !== 'in_progress') {
@@ -357,13 +275,7 @@ export class AssessmentsService implements OnModuleInit {
 		// 3. Kiểm tra tất cả câu đã có attempt chưa
 		const attempts = await this.prisma.attempt.findMany({
 			where: { assessmentId, deletedAt: null },
-			select: {
-				attemptId: true,
-				questionId: true,
-				answers: {
-					select: { optionId: true, textAnswer: true, position: true },
-				},
-			},
+			select: AttemptSelect.withAnswers,
 		});
 
 		const answeredIds = new Set(attempts.map((a) => a.questionId));
@@ -375,17 +287,7 @@ export class AssessmentsService implements OnModuleInit {
 		// 4. Lấy question type để chấm điểm
 		const questions = await this.prisma.question.findMany({
 			where: { questionId: { in: allQuestionIds }, deletedAt: null },
-			select: {
-				questionId: true,
-				type: true,
-				options: {
-					where: { deletedAt: null },
-					select: { optionId: true, isCorrect: true },
-				},
-				payload: {
-					select: { answerKeysJson: true },
-				},
-			},
+			select: QuestionSelect.grade,
 		});
 
 		const questionMap = new Map(questions.map((q) => [q.questionId, q]));
@@ -631,7 +533,7 @@ export class AssessmentsService implements OnModuleInit {
 		// Tính lại score tổng
 		const allAttempts = await this.prisma.attempt.findMany({
 			where: { assessmentId, deletedAt: null },
-			select: { score: true },
+			select: AttemptSelect.scoreOnly,
 		});
 
 		const totalScore = allAttempts.reduce((sum, a) => sum + Number(a.score ?? 0), 0);
@@ -650,7 +552,7 @@ export class AssessmentsService implements OnModuleInit {
 		// Auto-track: mark plan item as completed (async path)
 		const assessment = await this.prisma.assessment.findUnique({
 			where: { assessmentId },
-			select: { userId: true, refType: true, refId: true },
+			select: AssessmentSelect.userRef,
 		});
 		if (assessment) {
 			await this.markPlanItemCompleted(assessment.userId, assessment.refType, assessment.refId, finalScore);
@@ -678,14 +580,14 @@ export class AssessmentsService implements OnModuleInit {
 		if (refType === 'lesson') {
 			const links = await this.prisma.lessonQuestion.findMany({
 				where: { lessonId: refId },
-				select: { questionId: true },
+				select: LessonQuestionSelect.idOnly,
 			});
 			return links.map((l) => l.questionId);
 		}
 		if (refType === 'practice_session') {
 			const links = await this.prisma.practiceSessionQuestion.findMany({
 				where: { sessionId: refId },
-				select: { questionId: true },
+				select: PracticeSessionQuestionSelect.idOnly,
 			});
 			return links.map((l) => l.questionId);
 		}
@@ -779,12 +681,7 @@ export class AssessmentsService implements OnModuleInit {
 		if (assessment.refType === 'lesson') {
 			const lesson = await this.prisma.lesson.findFirst({
 				where: { lessonId: assessment.refId },
-				select: {
-					title: true,
-					skillName: true,
-					cefrLevel: true,
-					lessonQuestions: { select: { questionId: true } },
-				},
+				select: LessonSelect.assessmentMeta,
 			});
 			refTitle = lesson?.title ?? null;
 			skillName = lesson?.skillName ?? null;
@@ -793,7 +690,7 @@ export class AssessmentsService implements OnModuleInit {
 		} else if (assessment.refType === 'practice_session') {
 			const session = await this.prisma.practiceSession.findFirst({
 				where: { sessionId: assessment.refId },
-				select: { title: true, skillName: true, cefrLevel: true, questions: { select: { questionId: true } } },
+				select: PracticeSessionSelect.assessmentMeta,
 			});
 			refTitle = session?.title ?? null;
 			skillName = session?.skillName ?? null;

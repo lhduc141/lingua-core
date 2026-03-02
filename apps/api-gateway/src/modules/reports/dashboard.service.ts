@@ -1,6 +1,13 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { PrismaService } from '../../../../../prisma/prisma.service';
 import { BadRequestException, ResponseDto } from '@app/shared';
+import {
+	AssessmentSelect,
+	CatSessionSelect,
+	LearningPlanSelect,
+	LessonSelect,
+	PracticeSessionSelect,
+} from '../../../../../prisma/selects';
 import { GetStudyTimeDto } from './dto/get-study-time.dto';
 import {
 	ActivityDay,
@@ -162,10 +169,7 @@ export class DashboardService {
 				startedAt: { gte: startDate },
 				completedAt: { not: null },
 			},
-			select: {
-				startedAt: true,
-				completedAt: true,
-			},
+			select: AssessmentSelect.timeRange,
 			orderBy: { startedAt: 'asc' },
 		});
 
@@ -214,7 +218,7 @@ export class DashboardService {
 		const session = await this.prisma.catSession.findFirst({
 			where: { userId, status: 'completed' },
 			orderBy: { completedAt: 'desc' },
-			select: { cefrLevel: true, confidence: true },
+			select: CatSessionSelect.cefrConfidence,
 		});
 
 		return {
@@ -229,14 +233,14 @@ export class DashboardService {
 		const latestItem = await this.prisma.learningPlanItem.findFirst({
 			where: { userId, deletedAt: null, planCycle: { not: null } },
 			orderBy: [{ planCycle: 'desc' }],
-			select: { planCycle: true },
+			select: LearningPlanSelect.cycleWeek,
 		});
 
 		if (!latestItem?.planCycle) return null;
 
 		const items = await this.prisma.learningPlanItem.findMany({
 			where: { userId, planCycle: latestItem.planCycle, deletedAt: null },
-			select: { status: true },
+			select: LearningPlanSelect.statusOnly,
 		});
 
 		return {
@@ -277,11 +281,11 @@ export class DashboardService {
 		const [lessons, practiceSessions] = await Promise.all([
 			this.prisma.lesson.findMany({
 				where: { skillName: skillName as any, deletedAt: null },
-				select: { lessonId: true, title: true },
+				select: LessonSelect.idTitle,
 			}),
 			this.prisma.practiceSession.findMany({
 				where: { skillName: skillName as any, deletedAt: null },
-				select: { sessionId: true, title: true },
+				select: PracticeSessionSelect.idTitle,
 			}),
 		]);
 
@@ -300,12 +304,7 @@ export class DashboardService {
 				deletedAt: null,
 				score: { not: null },
 			},
-			select: {
-				refType: true,
-				refId: true,
-				score: true,
-				completedAt: true,
-			},
+			select: AssessmentSelect.scoreHistory,
 			orderBy: { completedAt: 'asc' },
 		});
 
@@ -335,7 +334,7 @@ export class DashboardService {
 					status: { in: ['scored', 'submitted'] },
 					completedAt: { not: null },
 				},
-				select: { completedAt: true },
+				select: AssessmentSelect.completedOnly,
 			}),
 			this.prisma.learningPlanItem.findMany({
 				where: {
@@ -344,7 +343,7 @@ export class DashboardService {
 					status: 'completed',
 					// updatedAt: { not: null },
 				},
-				select: { updatedAt: true },
+				select: LearningPlanSelect.updatedAtOnly,
 			}),
 		]);
 
@@ -436,7 +435,7 @@ export class DashboardService {
 				startedAt: { not: null },
 				completedAt: { not: null },
 			},
-			select: { startedAt: true, completedAt: true },
+			select: AssessmentSelect.timeRange,
 		});
 
 		let total = 0;
@@ -461,13 +460,7 @@ export class DashboardService {
 				},
 				orderBy: { completedAt: 'desc' },
 				take: 5,
-				select: {
-					refType: true,
-					refId: true,
-					score: true,
-					status: true,
-					completedAt: true,
-				},
+				select: AssessmentSelect.recentActivity,
 			}),
 			this.prisma.learningPlanItem.findMany({
 				where: {
@@ -478,13 +471,7 @@ export class DashboardService {
 				},
 				orderBy: { updatedAt: 'desc' },
 				take: 5,
-				select: {
-					title: true,
-					skillName: true,
-					taskScore: true,
-					status: true,
-					updatedAt: true,
-				},
+				select: LearningPlanSelect.recentActivity,
 			}),
 		]);
 
@@ -531,7 +518,7 @@ export class DashboardService {
 					status: { in: ['scored', 'submitted'] },
 					completedAt: { gte: since },
 				},
-				select: { startedAt: true, completedAt: true },
+				select: AssessmentSelect.timeRange,
 			}),
 			this.prisma.learningPlanItem.findMany({
 				where: {
@@ -541,7 +528,7 @@ export class DashboardService {
 					updatedAt: { gte: since },
 					itemType: { not: 'weekly_review' },
 				},
-				select: { updatedAt: true },
+				select: LearningPlanSelect.updatedAtOnly,
 			}),
 		]);
 
@@ -613,14 +600,14 @@ export class DashboardService {
 		if (refType === 'lesson') {
 			const lesson = await this.prisma.lesson.findFirst({
 				where: { lessonId: refId },
-				select: { title: true, skillName: true },
+				select: LessonSelect.titleSkill,
 			});
 			return { title: lesson?.title ?? null, skillName: lesson?.skillName ?? null };
 		}
 		if (refType === 'practice_session') {
 			const session = await this.prisma.practiceSession.findFirst({
 				where: { sessionId: refId },
-				select: { title: true, skillName: true },
+				select: PracticeSessionSelect.titleSkill,
 			});
 			return { title: session?.title ?? null, skillName: session?.skillName ?? null };
 		}

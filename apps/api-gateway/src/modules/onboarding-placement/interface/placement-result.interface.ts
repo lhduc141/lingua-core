@@ -1,4 +1,4 @@
-import { CefrAssignment } from './cefr-assignment.inteface';
+import { CefrAssignment } from './cefr-assignment.interface';
 
 export interface PlacementResult {
 	sessionId: string;

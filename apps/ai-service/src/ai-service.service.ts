@@ -1,7 +1,7 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { GenerativeModel, GoogleGenerativeAI } from '@google/generative-ai';
-import { AiDictionaryOutput } from '../../api-gateway/src/modules/dictionary/inteface/ai-dictionary-output.interface';
+import { AiDictionaryOutput } from '../../api-gateway/src/modules/dictionary/interface/ai-dictionary-output.interface';
 
 @Injectable()
 export class AiServiceService {
