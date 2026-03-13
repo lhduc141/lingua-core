@@ -6,6 +6,15 @@ export const UserSelect = {
 		email: true,
 		googleName: true,
 		googleAvatarUrl: true,
+
+		onboardingSurvey: { select: { surveyId: true }, take: 1 },
+		catSessions: {
+			select: { cefrLevel: true, status: true },
+			where: { status: 'completed' },
+			take: 1,
+			orderBy: { createdAt: 'desc' },
+		},
+
 		dob: true,
 		gender: true,
 		phone: true,

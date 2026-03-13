@@ -13,15 +13,21 @@ import compression from 'compression';
 
 async function bootstrap() {
 	const logger = new Logger('Application', { timestamp: true });
-	const app = await NestFactory.create(ApiGatewayModule, { cors: true });
+	const app = await NestFactory.create(ApiGatewayModule);
 
 	const configService = app.get(ConfigService);
 	const appConfig = configService.getOrThrow<AppConfig>('app');
 
+	app.enableCors({
+		origin: ['http://localhost:3000', 'http://localhost:3001'],
+		credentials: true,
+		methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+		allowedHeaders: ['Content-Type', 'Authorization'],
+	});
+
 	app.use(urlencoded({ extended: true, limit: appConfig.payloadLimit }));
 	app.use(json({ limit: appConfig.payloadLimit }));
 	app.use(compression());
-
 	app.useGlobalPipes(
 		new ValidationPipe({
 			transform: true,

@@ -9,7 +9,8 @@ import {
 	IsString,
 	Max,
 	MaxLength,
-	Min, ValidateIf,
+	Min,
+	ValidateIf,
 } from 'class-validator';
 import { PrimaryGoalsEnum } from '@app/shared/enums/primary-goals.enum';
 import { AssessedLevelEnum, CertificationType, ExperienceLevelEnum, SkillName, UsageContextEnum } from '@app/shared';
@@ -27,7 +28,7 @@ export class SubmitSurveyDto {
 
 	@IsArray()
 	@ArrayNotEmpty()
-	@IsEnum(SkillName) // ['reading', 'writing', 'speaking'] hoặc ['all']
+	@IsEnum(SkillName, { each: true }) // ['reading', 'writing', 'speaking'] hoặc ['all']
 	primaryFocusSkills: SkillName[];
 
 	// TIER 2: IMPORTANT (Personalization)

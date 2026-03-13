@@ -56,7 +56,16 @@ export class UsersService {
 
 		if (!user) throw new NotFoundException('User not found');
 
-		return ResponseDto.success(ProfileMeDto, user, 'Lấy thông tin thành công');
+		const { onboardingSurvey, catSessions, ...rest } = user;
+
+		const profileData = {
+			...rest,
+			surveyCompleted: onboardingSurvey.length > 0,
+			placementCompleted: catSessions.length > 0,
+			cefrLevel: catSessions[0]?.cefrLevel ?? null,
+		};
+
+		return ResponseDto.success(ProfileMeDto, profileData, 'Lấy thông tin thành công');
 	}
 
 	async updateProfile(userId: string, dto: UpdateProfileDto): Promise<ResponseDto<ProfileMeDto>> {
@@ -70,12 +79,17 @@ export class UsersService {
 			select: UserSelect.profile,
 		});
 
-		return new ResponseDto<ProfileMeDto>({
-			message: 'Cập nhật thông tin thành công',
-			data: user,
-		});
-	}
+		const { onboardingSurvey, catSessions, ...rest } = user;
 
+		const profileData = {
+			...rest,
+			surveyCompleted: onboardingSurvey.length > 0,
+			placementCompleted: catSessions.length > 0,
+			cefrLevel: catSessions[0]?.cefrLevel ?? null,
+		};
+
+		return ResponseDto.success(ProfileMeDto, profileData, 'Cập nhật thông tin thành công');
+	}
 	async deleteAccount(userId: string): Promise<ResponseDto<null>> {
 		await this.prisma.user.update({
 			where: { userId },

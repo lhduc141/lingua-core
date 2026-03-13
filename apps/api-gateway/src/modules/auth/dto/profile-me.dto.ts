@@ -1,15 +1,13 @@
-import { IsBoolean, IsEmail, IsOptional, IsString } from 'class-validator';
+import { Expose } from 'class-transformer';
 
 export class ProfileMeDto {
-	@IsOptional()
-	@IsString()
-	userId: string;
-
-	@IsOptional()
-	@IsEmail()
-	email?: string;
-
-	@IsOptional()
-	@IsBoolean()
-	isAdmin?: boolean;
+	@Expose() userId: string;
+	@Expose() email: string;
+	@Expose() displayName: string;
+	@Expose() avatarUrl: string | null;
+	@Expose() cefrLevel: string | null;
+	@Expose() surveyCompleted: boolean;
+	@Expose() placementCompleted: boolean;
+	@Expose() isAdmin: boolean;
+	@Expose() createdAt: Date;
 }

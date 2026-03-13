@@ -8,7 +8,7 @@ export default () => {
 	const app: AppConfig = {
 		env: process.env.NODE_ENV || 'development',
 		host: process.env.HOST || '0.0.0.0',
-		port: parseInt(process.env.PORT || '3000', 10),
+		port: parseInt(process.env.PORT || '3001', 10),
 		payloadLimit: process.env.PAYLOAD_LIMIT || '50mb',
 	};
 

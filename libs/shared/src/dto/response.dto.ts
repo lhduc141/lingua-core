@@ -32,9 +32,11 @@ export class ResponseDto<T = null> {
 		statusCode: number = HttpStatus.OK,
 	): ResponseDto<TClass> {
 		const transformed = data
-			? plainToInstance(cls, data as object, {
-					excludeExtraneousValues: true,
-				})
+			? (cls as unknown) === Object
+				? (data as TClass)
+				: plainToInstance(cls, data as object, {
+						excludeExtraneousValues: true,
+					})
 			: null;
 
 		return new ResponseDto<TClass>({
