@@ -1,0 +1,2021 @@
+{
+	"level": "A2",
+	"passages": [
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 1,
+				"wordCount": 108,
+				"topic": "A Weekend Trip",
+				"difficulty": 2
+			},
+			"passageText": "Last Saturday, Sarah and her brother Mark went to the mountains. They took the train early in the morning because it was cheaper than the bus. When they arrived, the weather was sunny but very cold. They walked for three hours and saw a beautiful lake. Mark took many photos, but Sarah forgot her camera at home. In the afternoon, they felt exhausted, so they found a small cafe. They drank hot chocolate and ate cake. They went home at 6 p.m. Sarah was tired, but she was very happy because the trip was great.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why did Sarah and Mark choose to travel by train?",
+							"options": [
+								{ "text": "It was faster than the bus.", "isCorrect": false },
+								{ "text": "It cost less money.", "isCorrect": true },
+								{ "text": "The bus was closed.", "isCorrect": false },
+								{ "text": "They liked the view.", "isCorrect": false }
+							],
+							"explanation": "The text states they took the train because it was 'cheaper than the bus'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What was the weather like in the mountains?",
+							"options": [
+								{ "text": "It was warm and sunny.", "isCorrect": false },
+								{ "text": "It was raining and cold.", "isCorrect": false },
+								{ "text": "It was sunny but not warm.", "isCorrect": true },
+								{ "text": "It was cloudy and windy.", "isCorrect": false }
+							],
+							"explanation": "The passage mentions the weather was 'sunny but very cold'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word 'exhausted' in the passage is closest in meaning to...",
+							"options": [
+								{ "text": "very tired", "isCorrect": true },
+								{ "text": "very hungry", "isCorrect": false },
+								{ "text": "very cold", "isCorrect": false },
+								{ "text": "very thirsty", "isCorrect": false }
+							],
+							"explanation": "Exhausted means extremely tired, which fits the context of walking for three hours."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Who took pictures during the trip?",
+							"options": [
+								{ "text": "Only Sarah", "isCorrect": false },
+								{ "text": "Only Mark", "isCorrect": true },
+								{ "text": "Both of them", "isCorrect": false },
+								{ "text": "Neither of them", "isCorrect": false }
+							],
+							"explanation": "The passage says 'Mark took many photos, but Sarah forgot her camera'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which statement about the afternoon is true?",
+							"options": [
+								{ "text": "They ate lunch by the lake.", "isCorrect": false },
+								{ "text": "They went to a cafe before going home.", "isCorrect": true },
+								{ "text": "They took the train at 3 p.m.", "isCorrect": false },
+								{ "text": "They bought a new camera.", "isCorrect": false }
+							],
+							"explanation": "In the afternoon, they found a cafe, ate cake, and then went home at 6 p.m."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How did Sarah feel at the end of the day?",
+							"options": [
+								{ "text": "Sad because she forgot her camera.", "isCorrect": false },
+								{ "text": "Angry with her brother Mark.", "isCorrect": false },
+								{ "text": "Happy despite being tired.", "isCorrect": true },
+								{ "text": "Cold and wanted to stay at the cafe.", "isCorrect": false }
+							],
+							"explanation": "The text ends by saying 'Sarah was tired, but she was very happy'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 2,
+				"wordCount": 112,
+				"topic": "Learning to Cook",
+				"difficulty": 2
+			},
+			"passageText": "David wanted to learn how to cook, so he started a class last month. Every Tuesday evening, he goes to a kitchen near his house. His teacher is a famous chef named Mr. Rossi. First, they learn how to cut vegetables quickly. Then, they cook simple meals like pasta or soup. David is better at making pasta than soup because soup is more difficult. Yesterday, he made a large pizza for his parents. They loved it because the cheese was delicious. David is going to make a chocolate cake next week for his sister's birthday because she loves sweet food.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How often does David go to his cooking class?",
+							"options": [
+								{ "text": "Once a month", "isCorrect": false },
+								{ "text": "Every day", "isCorrect": false },
+								{ "text": "Once a week", "isCorrect": true },
+								{ "text": "Every morning", "isCorrect": false }
+							],
+							"explanation": "He goes 'Every Tuesday evening', which is once a week."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the first thing students learn in the class?",
+							"options": [
+								{ "text": "How to make pasta", "isCorrect": false },
+								{ "text": "How to use the oven", "isCorrect": false },
+								{ "text": "How to cut vegetables", "isCorrect": true },
+								{ "text": "How to bake a cake", "isCorrect": false }
+							],
+							"explanation": "The text says 'First, they learn how to cut vegetables quickly'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "David thinks that making soup is...",
+							"options": [
+								{ "text": "easier than making pasta", "isCorrect": false },
+								{ "text": "more difficult than pasta", "isCorrect": true },
+								{ "text": "more fun than pizza", "isCorrect": false },
+								{ "text": "better with vegetables", "isCorrect": false }
+							],
+							"explanation": "He is better at pasta 'because soup is more difficult'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Who did David cook for yesterday?",
+							"options": [
+								{ "text": "His teacher", "isCorrect": false },
+								{ "text": "His sister", "isCorrect": false },
+								{ "text": "His parents", "isCorrect": true },
+								{ "text": "His friends", "isCorrect": false }
+							],
+							"explanation": "He 'made a large pizza for his parents'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word 'delicious' describes food that...",
+							"options": [
+								{ "text": "tastes very good", "isCorrect": true },
+								{ "text": "is very healthy", "isCorrect": false },
+								{ "text": "costs a lot of money", "isCorrect": false },
+								{ "text": "is easy to cook", "isCorrect": false }
+							],
+							"explanation": "Delicious is used to describe food that has a very pleasant taste."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why is David going to make a cake next week?",
+							"options": [
+								{ "text": "To practice for his exam", "isCorrect": false },
+								{ "text": "To give to Mr. Rossi", "isCorrect": false },
+								{ "text": "To celebrate a family member's birthday", "isCorrect": true },
+								{ "text": "To show his parents his skills", "isCorrect": false }
+							],
+							"explanation": "He is making it 'for his sister's birthday'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 3,
+				"wordCount": 115,
+				"topic": "My Neighborhood",
+				"difficulty": 2
+			},
+			"passageText": "I live in a quiet neighborhood in the city center. There is a big park near my house where I go running every morning. Next to the park, there is a modern library. I often go there to study because it is very silent. My favorite place is the local market. It is open on Saturdays and Sundays. You can buy fresh fruit, vegetables, and bread there. However, there isn't a cinema in my area, so I have to take the bus to the mall to watch films. I like my neighborhood because the people are very friendly and helpful when I have a problem.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where is the writer's neighborhood?",
+							"options": [
+								{ "text": "In the mountains", "isCorrect": false },
+								{ "text": "In the city center", "isCorrect": true },
+								{ "text": "Near a beach", "isCorrect": false },
+								{ "text": "Outside the city", "isCorrect": false }
+							],
+							"explanation": "The first sentence says 'I live in a quiet neighborhood in the city center'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the writer do in the park every morning?",
+							"options": [
+								{ "text": "Studies for school", "isCorrect": false },
+								{ "text": "Buys fresh bread", "isCorrect": false },
+								{ "text": "Goes for a run", "isCorrect": true },
+								{ "text": "Meets friendly people", "isCorrect": false }
+							],
+							"explanation": "The text states 'I go running every morning' in the park."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The writer likes the library because it is...",
+							"options": [
+								{ "text": "modern and large", "isCorrect": false },
+								{ "text": "near the local market", "isCorrect": false },
+								{ "text": "a quiet place to study", "isCorrect": true },
+								{ "text": "open on weekends", "isCorrect": false }
+							],
+							"explanation": "The writer goes there to study 'because it is very silent'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When can you visit the local market?",
+							"options": [
+								{ "text": "Every morning", "isCorrect": false },
+								{ "text": "On Monday and Tuesday", "isCorrect": false },
+								{ "text": "Only on Saturdays", "isCorrect": false },
+								{ "text": "During the weekend", "isCorrect": true }
+							],
+							"explanation": "It is open 'on Saturdays and Sundays', which is the weekend."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word 'modern' in the passage is the opposite of...",
+							"options": [
+								{ "text": "old", "isCorrect": true },
+								{ "text": "new", "isCorrect": false },
+								{ "text": "big", "isCorrect": false },
+								{ "text": "silent", "isCorrect": false }
+							],
+							"explanation": "Modern refers to something new or contemporary, so 'old' is its opposite."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How does the writer get to the cinema?",
+							"options": [
+								{ "text": "By walking to the park", "isCorrect": false },
+								{ "text": "By taking public transport", "isCorrect": true },
+								{ "text": "By running to the mall", "isCorrect": false },
+								{ "text": "By driving a car", "isCorrect": false }
+							],
+							"explanation": "The text says 'I have to take the bus to the mall', and a bus is public transport."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 4,
+				"wordCount": 110,
+				"topic": "A New Job",
+				"difficulty": 2
+			},
+			"passageText": "Elena started a new job in a large office last Monday. She is an assistant for a famous clothing company. Her office is on the fifth floor, and it has a great view of the river. She works from 9 a.m. to 5 p.m. At midday, she usually has lunch with her colleagues in the canteen. Elena likes her new job, but she finds it a bit stressful because she has many emails to write. Her boss is kind and helps her when she has questions. Next month, Elena is going to travel to London for a very important business meeting.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When did Elena begin her new job?",
+							"options": [
+								{ "text": "Last week", "isCorrect": true },
+								{ "text": "Last month", "isCorrect": false },
+								{ "text": "Next Monday", "isCorrect": false },
+								{ "text": "Yesterday", "isCorrect": false }
+							],
+							"explanation": "The text says she started 'last Monday', which was last week."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where is Elena's office located?",
+							"options": [
+								{ "text": "Near London", "isCorrect": false },
+								{ "text": "On the 5th floor", "isCorrect": true },
+								{ "text": "In a clothing shop", "isCorrect": false },
+								{ "text": "Next to a canteen", "isCorrect": false }
+							],
+							"explanation": "The passage says 'Her office is on the fifth floor'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word 'colleagues' refers to people who Elena...",
+							"options": [
+								{ "text": "lives with", "isCorrect": false },
+								{ "text": "works with", "isCorrect": true },
+								{ "text": "meets in London", "isCorrect": false },
+								{ "text": "bought clothes from", "isCorrect": false }
+							],
+							"explanation": "Colleagues are people you work with, and she has lunch with them at the office."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why does Elena sometimes feel stressed at work?",
+							"options": [
+								{ "text": "Her boss is not kind.", "isCorrect": false },
+								{ "text": "She has to travel to London.", "isCorrect": false },
+								{ "text": "She has a lot of writing to do.", "isCorrect": true },
+								{ "text": "She doesn't like the view.", "isCorrect": false }
+							],
+							"explanation": "The text says she finds it stressful 'because she has many emails to write'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does Elena do at 12:00 p.m.?",
+							"options": [
+								{ "text": "She finishes her work.", "isCorrect": false },
+								{ "text": "She writes emails.", "isCorrect": false },
+								{ "text": "She eats at the office.", "isCorrect": true },
+								{ "text": "She meets her boss.", "isCorrect": false }
+							],
+							"explanation": "At midday (12:00 p.m.), she usually has lunch in the canteen."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is Elena's plan for next month?",
+							"options": [
+								{ "text": "To find a new job", "isCorrect": false },
+								{ "text": "To visit a different river", "isCorrect": false },
+								{ "text": "To go on a business trip", "isCorrect": true },
+								{ "text": "To move to the fifth floor", "isCorrect": false }
+							],
+							"explanation": "Next month, she is going to 'travel to London for a business meeting'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 5,
+				"wordCount": 118,
+				"topic": "Shopping for Clothes",
+				"difficulty": 2
+			},
+			"passageText": "Yesterday, Tom went to the shopping mall because he needed new clothes for a wedding. He looked for a blue suit, but he couldn't find his size. Everything was too small or too large. Then, he went to a different shop called 'Style'. He found a nice grey jacket and some black trousers. The jacket was 50 pounds, but the trousers were cheaper. Tom also bought a white shirt because it looked good with the jacket. He didn't buy shoes because he already has a pair of black ones at home. He spent two hours shopping and felt quite tired when he finished.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why did Tom go to the mall?",
+							"options": [
+								{ "text": "To buy a gift for a friend", "isCorrect": false },
+								{ "text": "To get clothes for a special event", "isCorrect": true },
+								{ "text": "To look for a new job", "isCorrect": false },
+								{ "text": "To meet his family", "isCorrect": false }
+							],
+							"explanation": "He needed new clothes 'for a wedding'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why didn't Tom buy a blue suit?",
+							"options": [
+								{ "text": "It was too expensive.", "isCorrect": false },
+								{ "text": "He didn't like the color.", "isCorrect": false },
+								{ "text": "The sizes were not correct for him.", "isCorrect": true },
+								{ "text": "The shop was closed.", "isCorrect": false }
+							],
+							"explanation": "The text says 'he couldn't find his size. Everything was too small or too large'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to the passage, the trousers were...",
+							"options": [
+								{ "text": "50 pounds", "isCorrect": false },
+								{ "text": "more expensive than the jacket", "isCorrect": false },
+								{ "text": "less expensive than the jacket", "isCorrect": true },
+								{ "text": "the same price as the shirt", "isCorrect": false }
+							],
+							"explanation": "The jacket was 50 pounds, 'but the trousers were cheaper'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What color was the shirt Tom bought?",
+							"options": [
+								{ "text": "Blue", "isCorrect": false },
+								{ "text": "Black", "isCorrect": false },
+								{ "text": "Grey", "isCorrect": false },
+								{ "text": "White", "isCorrect": true }
+							],
+							"explanation": "The passage says 'Tom also bought a white shirt'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word 'pair' is used in the text to talk about...",
+							"options": [
+								{ "text": "two shoes", "isCorrect": true },
+								{ "text": "two hours", "isCorrect": false },
+								{ "text": "two shops", "isCorrect": false },
+								{ "text": "two jackets", "isCorrect": false }
+							],
+							"explanation": "A 'pair' of shoes refers to two matching shoes."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can we infer about Tom's shopping trip?",
+							"options": [
+								{ "text": "He bought everything he needed, including shoes.", "isCorrect": false },
+								{ "text": "He found a suit at the second shop.", "isCorrect": false },
+								{ "text": "He chose not to buy shoes because he didn't need them.", "isCorrect": true },
+								{ "text": "He was happy because the shopping was very fast.", "isCorrect": false }
+							],
+							"explanation": "He didn't buy shoes because he 'already has a pair... at home', and he spent two hours, making him tired."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 6,
+				"wordCount": 102,
+				"topic": "An Email to a Friend",
+				"difficulty": 2
+			},
+			"passageText": "Hi Maria, How are you? I am writing to tell you about my new apartment. I moved last week, and I love it! It is bigger than my old flat. There are two bedrooms and a small balcony. My favorite room is the kitchen because it is very bright. I bought a new sofa yesterday, but it was very heavy, so my brother helped me move it. I am having a party next Saturday evening at 8 p.m. Can you come? You can bring your cousin too. Please tell me if you are free. Best, Lucia.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main reason Lucia is writing the email?",
+							"options": [
+								{ "text": "To ask Maria for help", "isCorrect": false },
+								{ "text": "To talk about her new home", "isCorrect": true },
+								{ "text": "To buy a new sofa", "isCorrect": false },
+								{ "text": "To visit Maria's cousin", "isCorrect": false }
+							],
+							"explanation": "Lucia says 'I am writing to tell you about my new apartment'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How is the new apartment different from the old one?",
+							"options": [
+								{ "text": "It has a smaller kitchen.", "isCorrect": false },
+								{ "text": "It is larger.", "isCorrect": true },
+								{ "text": "It is in a different city.", "isCorrect": false },
+								{ "text": "It doesn't have a balcony.", "isCorrect": false }
+							],
+							"explanation": "The text states 'It is bigger than my old flat'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word 'bright' in the text means that the kitchen has...",
+							"options": [
+								{ "text": "lots of space", "isCorrect": false },
+								{ "text": "lots of light", "isCorrect": true },
+								{ "text": "many new machines", "isCorrect": false },
+								{ "text": "very expensive food", "isCorrect": false }
+							],
+							"explanation": "In the context of a room, bright means it is well-lit."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why did Lucia's brother help her?",
+							"options": [
+								{ "text": "To paint the kitchen", "isCorrect": false },
+								{ "text": "To organize the party", "isCorrect": false },
+								{ "text": "To move a heavy sofa", "isCorrect": true },
+								{ "text": "To find the new apartment", "isCorrect": false }
+							],
+							"explanation": "Lucia says 'the sofa... was very heavy, so my brother helped me move it'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Who can Maria bring to the party?",
+							"options": [
+								{ "text": "Her brother", "isCorrect": false },
+								{ "text": "Lucia's brother", "isCorrect": false },
+								{ "text": "A relative", "isCorrect": true },
+								{ "text": "Nobody", "isCorrect": false }
+							],
+							"explanation": "Lucia tells Maria 'You can bring your cousin too'. A cousin is a relative."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What time does the party begin?",
+							"options": [
+								{ "text": "Next week", "isCorrect": false },
+								{ "text": "Last Saturday", "isCorrect": false },
+								{ "text": "8:00 in the morning", "isCorrect": false },
+								{ "text": "8:00 in the evening", "isCorrect": true }
+							],
+							"explanation": "The party is at '8 p.m.', which is in the evening."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 7,
+				"wordCount": 115,
+				"topic": "Public Transport",
+				"difficulty": 2
+			},
+			"passageText": "In my city, public transport is very good. Most people use the underground because it is faster than driving a car. I usually take the bus to university because there is a bus stop right outside my house. The tickets are not expensive, but the buses are often crowded in the morning. Last Friday, the bus was late because there was an accident on the main road. I was twenty minutes late for my lecture. In the future, the city is going to build more cycle paths. This will help people who want to ride their bikes to work safely.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why is the underground popular in the city?",
+							"options": [
+								{ "text": "It is cheaper than the bus.", "isCorrect": false },
+								{ "text": "It is faster than cars.", "isCorrect": true },
+								{ "text": "It is never crowded.", "isCorrect": false },
+								{ "text": "It stops near the university.", "isCorrect": false }
+							],
+							"explanation": "The passage states 'Most people use the underground because it is faster than driving a car'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why does the writer usually take the bus?",
+							"options": [
+								{ "text": "Because it is very fast.", "isCorrect": false },
+								{ "text": "Because it is cheaper than the underground.", "isCorrect": false },
+								{ "text": "Because the stop is very close to home.", "isCorrect": true },
+								{ "text": "Because there are no cycle paths.", "isCorrect": false }
+							],
+							"explanation": "The writer takes the bus 'because there is a bus stop right outside my house'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word 'crowded' means that the bus...",
+							"options": [
+								{ "text": "is very slow", "isCorrect": false },
+								{ "text": "has too many people", "isCorrect": true },
+								{ "text": "arrives very early", "isCorrect": false },
+								{ "text": "has cheap tickets", "isCorrect": false }
+							],
+							"explanation": "Crowded means full of people."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What happened on the main road last Friday?",
+							"options": [
+								{ "text": "They built a new cycle path.", "isCorrect": false },
+								{ "text": "There was an accident.", "isCorrect": true },
+								{ "text": "The underground stopped working.", "isCorrect": false },
+								{ "text": "The bus tickets became expensive.", "isCorrect": false }
+							],
+							"explanation": "The passage says 'the bus was late because there was an accident on the main road'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How much time did the writer lose on Friday morning?",
+							"options": [
+								{ "text": "Two hours", "isCorrect": false },
+								{ "text": "Five minutes", "isCorrect": false },
+								{ "text": "Twenty minutes", "isCorrect": true },
+								{ "text": "The passage doesn't say.", "isCorrect": false }
+							],
+							"explanation": "The writer says 'I was twenty minutes late for my lecture'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the city's plan for the future?",
+							"options": [
+								{ "text": "To make bus tickets free", "isCorrect": false },
+								{ "text": "To build more roads for cars", "isCorrect": false },
+								{ "text": "To create paths for bicycles", "isCorrect": true },
+								{ "text": "To move the university", "isCorrect": false }
+							],
+							"explanation": "The city is 'going to build more cycle paths'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 8,
+				"wordCount": 118,
+				"topic": "A Sports Event",
+				"difficulty": 2
+			},
+			"passageText": "Last night, I went to a football stadium with my father. We went to see a match between the local team and a team from Spain. The stadium was full of people wearing red and white. It was very exciting! In the first half, nobody scored a goal. However, in the second half, the local team played better. They scored two goals in ten minutes! The crowd was very loud and happy. We stayed until the end of the match. My father was happy because his favorite player played very well. After the match, we took a taxi home because it was raining heavily.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where was the guest team from?",
+							"options": [
+								{ "text": "The local town", "isCorrect": false },
+								{ "text": "Spain", "isCorrect": true },
+								{ "text": "France", "isCorrect": false },
+								{ "text": "Portugal", "isCorrect": false }
+							],
+							"explanation": "The match was between the local team and a 'team from Spain'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What happened during the first half of the match?",
+							"options": [
+								{ "text": "The local team scored two goals.", "isCorrect": false },
+								{ "text": "The Spanish team won.", "isCorrect": false },
+								{ "text": "Neither team scored any goals.", "isCorrect": true },
+								{ "text": "It started raining.", "isCorrect": false }
+							],
+							"explanation": "The text says 'In the first half, nobody scored a goal'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word 'loud' is the opposite of...",
+							"options": [
+								{ "text": "quiet", "isCorrect": true },
+								{ "text": "happy", "isCorrect": false },
+								{ "text": "exciting", "isCorrect": false },
+								{ "text": "better", "isCorrect": false }
+							],
+							"explanation": "Loud means making a lot of noise, so quiet is its opposite."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How many goals did the local team score in the second half?",
+							"options": [
+								{ "text": "One", "isCorrect": false },
+								{ "text": "Two", "isCorrect": true },
+								{ "text": "Three", "isCorrect": false },
+								{ "text": "None", "isCorrect": false }
+							],
+							"explanation": "The text says 'They scored two goals in ten minutes!' in the second half."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why did the writer and his father take a taxi home?",
+							"options": [
+								{ "text": "The stadium was too far.", "isCorrect": false },
+								{ "text": "They were very tired.", "isCorrect": false },
+								{ "text": "The weather was bad.", "isCorrect": true },
+								{ "text": "The match ended late.", "isCorrect": false }
+							],
+							"explanation": "They took a taxi 'because it was raining heavily'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why was the father happy during the game?",
+							"options": [
+								{ "text": "He liked the red and white colors.", "isCorrect": false },
+								{ "text": "He got a free taxi ride.", "isCorrect": false },
+								{ "text": "A player he likes performed well.", "isCorrect": true },
+								{ "text": "The match was in Spain.", "isCorrect": false }
+							],
+							"explanation": "He was happy 'because his favorite player played very well'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 9,
+				"wordCount": 114,
+				"topic": "Healthy Habits",
+				"difficulty": 2
+			},
+			"passageText": "Staying healthy is important for everyone. I try to eat fruit and vegetables every day. I also drink a lot of water because it is better for me than soda. I don't like going to the gym, so I walk to work instead. It takes forty minutes, but it is good exercise. My doctor says I should sleep for eight hours every night, but I usually only sleep for six. I often feel tired in the morning, so I am going to try to go to bed earlier. Next month, I am going to start a yoga class with my friend Sarah to relax.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the writer drink to stay healthy?",
+							"options": [
+								{ "text": "Soda", "isCorrect": false },
+								{ "text": "Fruit juice", "isCorrect": false },
+								{ "text": "Water", "isCorrect": true },
+								{ "text": "Coffee", "isCorrect": false }
+							],
+							"explanation": "The writer says 'I also drink a lot of water'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How does the writer get exercise?",
+							"options": [
+								{ "text": "By going to the gym", "isCorrect": false },
+								{ "text": "By walking to work", "isCorrect": true },
+								{ "text": "By sleeping eight hours", "isCorrect": false },
+								{ "text": "By doing yoga every morning", "isCorrect": false }
+							],
+							"explanation": "The text states 'I walk to work instead' of going to the gym."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How long does it take the writer to walk to work?",
+							"options": [
+								{ "text": "Eight hours", "isCorrect": false },
+								{ "text": "Six minutes", "isCorrect": false },
+								{ "text": "Forty minutes", "isCorrect": true },
+								{ "text": "Next month", "isCorrect": false }
+							],
+							"explanation": "The text mentions 'It takes forty minutes'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why is the writer going to try to sleep more?",
+							"options": [
+								{ "text": "The doctor told Sarah to do it.", "isCorrect": false },
+								{ "text": "The writer feels exhausted in the morning.", "isCorrect": true },
+								{ "text": "There is no more time for yoga.", "isCorrect": false },
+								{ "text": "It is a rule at work.", "isCorrect": false }
+							],
+							"explanation": "The writer says 'I often feel tired in the morning, so I am going to try to go to bed earlier'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word 'relax' in the text means to...",
+							"options": [
+								{ "text": "work harder", "isCorrect": false },
+								{ "text": "rest and feel calm", "isCorrect": true },
+								{ "text": "eat more fruit", "isCorrect": false },
+								{ "text": "walk faster", "isCorrect": false }
+							],
+							"explanation": "To relax is to rest or do something that makes you feel less stressed."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What new activity will the writer start next month?",
+							"options": [
+								{ "text": "A yoga class", "isCorrect": true },
+								{ "text": "A walking group", "isCorrect": false },
+								{ "text": "A cooking class", "isCorrect": false },
+								{ "text": "A new job", "isCorrect": false }
+							],
+							"explanation": "The text ends by saying 'Next month, I am going to start a yoga class'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 10,
+				"wordCount": 110,
+				"topic": "Planning a Holiday",
+				"difficulty": 2
+			},
+			"passageText": "My family and I are planning our summer holiday. We want to go to Italy because we love Italian food. We are going to stay in a small hotel near the beach for two weeks. My mother wants to visit museums, but my brother and I want to swim in the sea and play volleyball. My father is going to rent a car so we can visit different towns. We need to buy new suitcases because our old ones are broken. We are leaving on the 15th of July. I am very excited because I can't wait to eat real Italian pizza.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why did the family choose Italy for their holiday?",
+							"options": [
+								{ "text": "Because of the museums", "isCorrect": false },
+								{ "text": "Because they like the food there", "isCorrect": true },
+								{ "text": "Because they have a car there", "isCorrect": false },
+								{ "text": "Because it is close to their home", "isCorrect": false }
+							],
+							"explanation": "The text says 'We want to go to Italy because we love Italian food'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How long will the family stay in Italy?",
+							"options": [
+								{ "text": "One week", "isCorrect": false },
+								{ "text": "The whole summer", "isCorrect": false },
+								{ "text": "Two weeks", "isCorrect": true },
+								{ "text": "Until July 15th", "isCorrect": false }
+							],
+							"explanation": "They are going to stay 'for two weeks'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the writer's mother want to do?",
+							"options": [
+								{ "text": "Swim in the sea", "isCorrect": false },
+								{ "text": "Play volleyball", "isCorrect": false },
+								{ "text": "See museums", "isCorrect": true },
+								{ "text": "Rent a car", "isCorrect": false }
+							],
+							"explanation": "The text states 'My mother wants to visit museums'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How will the family travel between different towns?",
+							"options": [
+								{ "text": "They will walk from the beach.", "isCorrect": false },
+								{ "text": "They will use a car they paid for.", "isCorrect": true },
+								{ "text": "They will take the bus.", "isCorrect": false },
+								{ "text": "They will use their old suitcases.", "isCorrect": false }
+							],
+							"explanation": "The father is going to 'rent a car' to visit different towns."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word 'broken' means the old suitcases are...",
+							"options": [
+								{ "text": "too small", "isCorrect": false },
+								{ "text": "not working correctly", "isCorrect": true },
+								{ "text": "very expensive", "isCorrect": false },
+								{ "text": "too heavy", "isCorrect": false }
+							],
+							"explanation": "Broken means damaged or not in good condition."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When is the family's trip starting?",
+							"options": [
+								{ "text": "In two weeks", "isCorrect": false },
+								{ "text": "On July 15th", "isCorrect": true },
+								{ "text": "At the end of summer", "isCorrect": false },
+								{ "text": "On the 5th of July", "isCorrect": false }
+							],
+							"explanation": "The passage says 'We are leaving on the 15th of July'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 11,
+				"wordCount": 112,
+				"topic": "A Local Festival",
+				"difficulty": 2
+			},
+			"passageText": "Every year in August, there is a big festival in my town. It lasts for three days. There is music in the streets and many people wear traditional clothes. Last year, I went with my cousins. We watched a parade and ate some traditional bread and honey. It was delicious! The festival was very busy, so it was difficult to see the dancers. In the evening, there were beautiful fireworks in the sky. I took many videos on my phone to show my friends. I think the festival is the best time of the year because everyone is smiling and having fun.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "In which month does the festival happen?",
+							"options": [
+								{ "text": "July", "isCorrect": false },
+								{ "text": "August", "isCorrect": true },
+								{ "text": "Every month", "isCorrect": false },
+								{ "text": "Last year", "isCorrect": false }
+							],
+							"explanation": "The first sentence says 'Every year in August'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How long does the festival continue?",
+							"options": [
+								{ "text": "One day", "isCorrect": false },
+								{ "text": "A week", "isCorrect": false },
+								{ "text": "Three days", "isCorrect": true },
+								{ "text": "The whole of August", "isCorrect": false }
+							],
+							"explanation": "The text says 'It lasts for three days'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word 'traditional' in the passage refers to things that...",
+							"options": [
+								{ "text": "are very expensive", "isCorrect": false },
+								{ "text": "belong to a culture's history", "isCorrect": true },
+								{ "text": "are made of plastic", "isCorrect": false },
+								{ "text": "only happen in August", "isCorrect": false }
+							],
+							"explanation": "Traditional refers to customs or styles that have existed for a long time."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What did the writer eat at the festival?",
+							"options": [
+								{ "text": "Only honey", "isCorrect": false },
+								{ "text": "Traditional cake", "isCorrect": false },
+								{ "text": "Bread and honey", "isCorrect": true },
+								{ "text": "Pizza and pasta", "isCorrect": false }
+							],
+							"explanation": "They 'ate some traditional bread and honey'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why was it hard to see the dancers?",
+							"options": [
+								{ "text": "There were too many people.", "isCorrect": true },
+								{ "text": "The dancers were very small.", "isCorrect": false },
+								{ "text": "It was too dark in the street.", "isCorrect": false },
+								{ "text": "The writer was busy taking videos.", "isCorrect": false }
+							],
+							"explanation": "The passage says the festival 'was very busy', which implies there were a lot of people."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What could people see in the sky in the evening?",
+							"options": [
+								{ "text": "A parade", "isCorrect": false },
+								{ "text": "Traditional clothes", "isCorrect": false },
+								{ "text": "Fireworks", "isCorrect": true },
+								{ "text": "Music", "isCorrect": false }
+							],
+							"explanation": "The text says 'there were beautiful fireworks in the sky'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 12,
+				"wordCount": 115,
+				"topic": "My Favorite Season",
+				"difficulty": 2
+			},
+			"passageText": "My favorite season is autumn. I like it because the weather is not too hot and not too cold. The leaves on the trees change color from green to yellow and red. It looks very beautiful. In autumn, I like walking in the park with my dog. I usually wear a light jacket and a scarf. I also love the food in this season, like pumpkin soup and apple pie. Some people think autumn is sad because the days are shorter, but I think it is cozy. I like staying at home in the evening and reading a book with a cup of tea.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why does the writer like the weather in autumn?",
+							"options": [
+								{ "text": "Because it is very hot.", "isCorrect": false },
+								{ "text": "Because it is very cold.", "isCorrect": false },
+								{ "text": "Because it is pleasant and mild.", "isCorrect": true },
+								{ "text": "Because it is always raining.", "isCorrect": false }
+							],
+							"explanation": "The writer likes it because it's 'not too hot and not too cold'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What happens to the trees in autumn?",
+							"options": [
+								{ "text": "They grow new green leaves.", "isCorrect": false },
+								{ "text": "Their leaves change color.", "isCorrect": true },
+								{ "text": "They are cut down.", "isCorrect": false },
+								{ "text": "They grow apples and pumpkins.", "isCorrect": false }
+							],
+							"explanation": "The text says 'leaves on the trees change color from green to yellow and red'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the writer wear when walking the dog?",
+							"options": [
+								{ "text": "A heavy coat", "isCorrect": false },
+								{ "text": "A jacket and a scarf", "isCorrect": true },
+								{ "text": "A dress", "isCorrect": false },
+								{ "text": "Only a scarf", "isCorrect": false }
+							],
+							"explanation": "The writer says 'I usually wear a light jacket and a scarf'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word 'cozy' in the passage is closest in meaning to...",
+							"options": [
+								{ "text": "warm and comfortable", "isCorrect": true },
+								{ "text": "sad and lonely", "isCorrect": false },
+								{ "text": "bright and loud", "isCorrect": false },
+								{ "text": "busy and active", "isCorrect": false }
+							],
+							"explanation": "Cozy describes a feeling of being warm, comfortable, and relaxed."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why do some people dislike autumn?",
+							"options": [
+								{ "text": "They don't like pumpkin soup.", "isCorrect": false },
+								{ "text": "The weather is too hot for them.", "isCorrect": false },
+								{ "text": "The amount of daylight is less.", "isCorrect": true },
+								{ "text": "They can't go to the park.", "isCorrect": false }
+							],
+							"explanation": "The text says 'Some people think autumn is sad because the days are shorter'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is one thing the writer does at home in the evening?",
+							"options": [
+								{ "text": "Makes apple pie", "isCorrect": false },
+								{ "text": "Walks the dog", "isCorrect": false },
+								{ "text": "Reads a book", "isCorrect": true },
+								{ "text": "Cleans the house", "isCorrect": false }
+							],
+							"explanation": "The writer likes 'staying at home in the evening and reading a book'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 13,
+				"wordCount": 118,
+				"topic": "Technology at Home",
+				"difficulty": 2
+			},
+			"passageText": "Technology is very useful in my daily life. I have a new laptop that I use for my homework and for watching movies. It is much faster than my old computer. I also have a smart watch. It tells me the time and counts my steps when I walk to school. My parents bought a new fridge last week. It is very clever because it can tell them when they need more milk. However, I think people use their phones too much. When I am with my friends, we try to put our phones away and talk to each other. We want to enjoy our time together.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the writer use the laptop for?",
+							"options": [
+								{ "text": "To count steps", "isCorrect": false },
+								{ "text": "To do school work", "isCorrect": true },
+								{ "text": "To buy milk", "isCorrect": false },
+								{ "text": "To call friends", "isCorrect": false }
+							],
+							"explanation": "The writer uses the laptop 'for my homework and for watching movies'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The new laptop is better than the old computer because it...",
+							"options": [
+								{ "text": "is bigger", "isCorrect": false },
+								{ "text": "is more expensive", "isCorrect": false },
+								{ "text": "works more quickly", "isCorrect": true },
+								{ "text": "can count steps", "isCorrect": false }
+							],
+							"explanation": "The text says 'It is much faster than my old computer'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What information does the smart watch provide?",
+							"options": [
+								{ "text": "The amount of milk in the fridge", "isCorrect": false },
+								{ "text": "The number of movies watched", "isCorrect": false },
+								{ "text": "The time and the writer's steps", "isCorrect": true },
+								{ "text": "The weather for the walk to school", "isCorrect": false }
+							],
+							"explanation": "It 'tells me the time and counts my steps'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word 'clever' in the text means...",
+							"options": [
+								{ "text": "big", "isCorrect": false },
+								{ "text": "smart", "isCorrect": true },
+								{ "text": "heavy", "isCorrect": false },
+								{ "text": "clean", "isCorrect": false }
+							],
+							"explanation": "Clever means intelligent or smart; in this case, the fridge is 'smart' because it knows about the milk."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can the new fridge do?",
+							"options": [
+								{ "text": "Cook food for the parents", "isCorrect": false },
+								{ "text": "Buy milk automatically", "isCorrect": false },
+								{ "text": "Inform the parents when milk is finished", "isCorrect": true },
+								{ "text": "Watch movies with the family", "isCorrect": false }
+							],
+							"explanation": "The text says 'it can tell them when they need more milk'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the writer do when meeting friends?",
+							"options": [
+								{ "text": "Watches movies on a phone", "isCorrect": false },
+								{ "text": "Uses technology to talk", "isCorrect": false },
+								{ "text": "Avoids using the phone", "isCorrect": true },
+								{ "text": "Takes photos for a project", "isCorrect": false }
+							],
+							"explanation": "The writer and friends 'try to put our phones away and talk'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A2",
+				"passageNumber": 14,
+				"wordCount": 115,
+				"topic": "A School Project",
+				"difficulty": 2
+			},
+			"passageText": "Last week, my class started a project about the environment. We had to work in groups of four. My group decided to study plastic in the ocean. We went to the library to find information and we also watched a documentary. It was very interesting but also a bit scary. We learned that many animals are in danger because of plastic waste. We wrote a report and made a big poster with pictures of turtles and fish. Tomorrow, we are going to present our project to the whole school. I am a little nervous, but I practiced my speech many times.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the topic of the school project?",
+							"options": [
+								{ "text": "The library", "isCorrect": false },
+								{ "text": "The environment", "isCorrect": true },
+								{ "text": "Turtles and fish", "isCorrect": false },
+								{ "text": "How to make posters", "isCorrect": false }
+							],
+							"explanation": "The first sentence says they started 'a project about the environment'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How many students are in the writer's group?",
+							"options": [
+								{ "text": "The whole class", "isCorrect": false },
+								{ "text": "Two", "isCorrect": false },
+								{ "text": "Four", "isCorrect": true },
+								{ "text": "Many", "isCorrect": false }
+							],
+							"explanation": "The text says 'We had to work in groups of four'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where did the group get information for their project?",
+							"options": [
+								{ "text": "From a movie and the library", "isCorrect": true },
+								{ "text": "From a local beach", "isCorrect": false },
+								{ "text": "From their parents", "isCorrect": false },
+								{ "text": "From turtles", "isCorrect": false }
+							],
+							"explanation": "They 'went to the library... and we also watched a documentary'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The phrase 'in danger' means that the animals...",
+							"options": [
+								{ "text": "are very scary", "isCorrect": false },
+								{ "text": "are not safe", "isCorrect": true },
+								{ "text": "like plastic", "isCorrect": false },
+								{ "text": "live in a group", "isCorrect": false }
+							],
+							"explanation": "In danger means at risk of being harmed or killed."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "hard",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How did the group prepare for tomorrow?",
+							"options": [
+								{ "text": "By going to the ocean", "isCorrect": false },
+								{ "text": "By writing more emails", "isCorrect": false },
+								{ "text": "By practicing their presentation", "isCorrect": true },
+								{ "text": "By watching another documentary", "isCorrect": false }
+							],
+							"explanation": "The writer says 'I practiced my speech many times' for the presentation tomorrow."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A2",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What did the group create to show their work?",
+							"options": [
+								{ "text": "A documentary", "isCorrect": false },
+								{ "text": "A library", "isCorrect": false },
+								{ "text": "A written report and a poster", "isCorrect": true },
+								{ "text": "A group of four", "isCorrect": false }
+							],
+							"explanation": "They 'wrote a report and made a big poster'."
+						}
+					}
+				}
+			]
+		}
+	]
+}

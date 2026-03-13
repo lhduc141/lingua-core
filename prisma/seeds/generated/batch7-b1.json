@@ -1,0 +1,2679 @@
+{
+	"level": "B1",
+	"passages": [
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 1,
+				"wordCount": 172,
+				"topic": "The Rise of Remote Work",
+				"difficulty": 3
+			},
+			"passageText": "The way that people work has changed significantly in recent years. Many companies now allow the staff to work from the comfort of the home. This shift started because of global health concerns, but it continues because of the benefits it offers. Employees save time because they do not have to commute to the office. They also feel more productive in a quiet environment. However, there are some challenges. Some workers feel isolated because they lack the social interaction of the office. They might miss the casual conversations with the colleagues. Furthermore, the boundary between the work life and the home life can become blurry. If a person works in the living room, they might find it difficult to stop thinking about the job after the shift ends. Managers also have to find new ways to monitor the progress of the team. In the future, a hybrid model that combines the office and the home might become the standard for most industries.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to the text, why do employees save time when they work from home?",
+							"options": [
+								{ "text": "They do not have to travel to the office.", "isCorrect": true },
+								{ "text": "They work fewer hours each day.", "isCorrect": false },
+								{ "text": "They have more meetings with managers.", "isCorrect": false },
+								{ "text": "They use faster computers at home.", "isCorrect": false }
+							],
+							"explanation": "The passage states that employees save time because they do not have to commute."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is a disadvantage of remote work mentioned in the passage?",
+							"options": [
+								{ "text": "A lack of quiet space to work.", "isCorrect": false },
+								{ "text": "A feeling of being alone or separated from others.", "isCorrect": true },
+								{ "text": "An increase in the cost of electricity.", "isCorrect": false },
+								{ "text": "The difficulty of using new software.", "isCorrect": false }
+							],
+							"explanation": "The text notes that some workers feel isolated due to a lack of social interaction."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the word blurry describe in the context of the work and home life?",
+							"options": [
+								{ "text": "The vision of the worker is not clear.", "isCorrect": false },
+								{ "text": "The difference between two things is hard to see.", "isCorrect": true },
+								{ "text": "The house is very messy and dirty.", "isCorrect": false },
+								{ "text": "The work schedule is very strict.", "isCorrect": false }
+							],
+							"explanation": "Blurry here refers to the lack of clear boundaries between professional and personal time."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can be inferred about the future of work according to the author?",
+							"options": [
+								{ "text": "Physical offices will disappear completely.", "isCorrect": false },
+								{ "text": "A mix of remote and office work will be common.", "isCorrect": true },
+								{ "text": "Most people will prefer to work in the office.", "isCorrect": false },
+								{ "text": "Technology will replace the need for managers.", "isCorrect": false }
+							],
+							"explanation": "The author suggests a hybrid model will likely become the standard."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main idea of this passage?",
+							"options": [
+								{ "text": "The benefits and challenges of the remote work trend.", "isCorrect": true },
+								{ "text": "The history of global health concerns.", "isCorrect": false },
+								{ "text": "How to design a living room for a job.", "isCorrect": false },
+								{ "text": "The best ways for managers to talk to staff.", "isCorrect": false }
+							],
+							"explanation": "The passage discusses the reasons, pros, and cons of the transition to remote work."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the purpose of the author in writing this text?",
+							"options": [
+								{ "text": "To convince people to quit the office job.", "isCorrect": false },
+								{ "text": "To analyze a current change in the work culture.", "isCorrect": true },
+								{ "text": "To advertise a new software for remote teams.", "isCorrect": false },
+								{ "text": "To complain about the lack of social interaction.", "isCorrect": false }
+							],
+							"explanation": "The author provides a balanced view of the shift in work culture."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The text implies that without an office, managers might:",
+							"options": [
+								{ "text": "Close the business immediately.", "isCorrect": false },
+								{ "text": "Have trouble knowing if the work is being done.", "isCorrect": true },
+								{ "text": "Stop paying the salary of the team.", "isCorrect": false },
+								{ "text": "Require everyone to work in the living room.", "isCorrect": false }
+							],
+							"explanation": "The passage mentions managers need new ways to monitor progress, implying it is currently a challenge."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 2,
+				"wordCount": 160,
+				"topic": "Urban Gardening",
+				"difficulty": 3
+			},
+			"passageText": "Urban gardening is a growing trend in many large cities around the world. Since many people live in apartments without a traditional backyard, they use balconies and rooftops to grow plants. These small green spaces provide fresh vegetables and help to reduce the stress of the city life. Community gardens are also popular. This is where a group of neighbors shares a piece of land to grow food together. It is an excellent way to meet people and build a sense of community. Furthermore, urban gardening is good for the environment. Plants help to clean the air and keep the city cool during the hot summer months. However, urban gardeners must be careful about the quality of the soil and the amount of water the plants receive. Growing food in a city requires patience and planning, but the rewards are significant for the health of the individual and the planet.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where do people usually grow plants if they live in an apartment?",
+							"options": [
+								{ "text": "In the basement of the building.", "isCorrect": false },
+								{ "text": "On balconies and rooftops.", "isCorrect": true },
+								{ "text": "Inside the local supermarket.", "isCorrect": false },
+								{ "text": "In the middle of the busy street.", "isCorrect": false }
+							],
+							"explanation": "The text specifies that apartment dwellers use balconies and rooftops."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is one social benefit of a community garden?",
+							"options": [
+								{ "text": "It helps to build a sense of community.", "isCorrect": true },
+								{ "text": "It makes the food very expensive.", "isCorrect": false },
+								{ "text": "It reduces the number of neighbors.", "isCorrect": false },
+								{ "text": "It provides a place for fast cars.", "isCorrect": false }
+							],
+							"explanation": "The passage mentions it is a way to meet people and build community."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can be inferred about the city environment during the summer?",
+							"options": [
+								{ "text": "It is usually very cold.", "isCorrect": false },
+								{ "text": "It can become quite hot.", "isCorrect": true },
+								{ "text": "It has too many gardens already.", "isCorrect": false },
+								{ "text": "The air is naturally very clean.", "isCorrect": false }
+							],
+							"explanation": "The text says plants help keep the city cool in summer, implying the city gets hot."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word rewards in the final sentence refers to:",
+							"options": [
+								{ "text": "Money that the government gives.", "isCorrect": false },
+								{ "text": "The positive results of the effort.", "isCorrect": true },
+								{ "text": "Prizes for the best vegetable.", "isCorrect": false },
+								{ "text": "The tools used for gardening.", "isCorrect": false }
+							],
+							"explanation": "In this context, rewards means the benefits or positive outcomes."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the best title for this passage?",
+							"options": [
+								{ "text": "The High Cost of City Food.", "isCorrect": false },
+								{ "text": "Nature in the Modern City.", "isCorrect": true },
+								{ "text": "How to Build a Balcony.", "isCorrect": false },
+								{ "text": "The Problems of Rural Farming.", "isCorrect": false }
+							],
+							"explanation": "The title Nature in the Modern City captures the essence of urban gardening."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which of the following is a concern for urban gardeners?",
+							"options": [
+								{ "text": "The quality of the soil.", "isCorrect": true },
+								{ "text": "The lack of seeds in the city.", "isCorrect": false },
+								{ "text": "The noise of the birds.", "isCorrect": false },
+								{ "text": "The price of the balcony.", "isCorrect": false }
+							],
+							"explanation": "The text states gardeners must be careful about soil quality."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the tone of the author toward urban gardening?",
+							"options": [
+								{ "text": "Supportive and optimistic.", "isCorrect": true },
+								{ "text": "Doubtful and negative.", "isCorrect": false },
+								{ "text": "Angry and demanding.", "isCorrect": false },
+								{ "text": "Bored and uninterested.", "isCorrect": false }
+							],
+							"explanation": "The author highlights numerous benefits and calls the rewards significant."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 3,
+				"wordCount": 168,
+				"topic": "Social Media and Mental Health",
+				"difficulty": 3
+			},
+			"passageText": "Social media has transformed the way that individuals communicate and share information. While it allows people to stay connected with friends and family, it also has a significant impact on mental health. Many studies suggest that spending too much time on these platforms can lead to feelings of anxiety and low self-esteem. This often happens because users compare the life of themselves to the perfect images that others post. It is important to remember that most people only share the best moments of the day, not the struggles. Furthermore, the constant notifications can cause a person to feel overwhelmed. To maintain a healthy balance, some experts recommend a digital detox. This means taking a break from the phone for a few days to focus on the real world. By setting limits on the use of social media, people can protect the mental well-being while still enjoying the benefits of the digital age.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can lead to low self-esteem according to the text?",
+							"options": [
+								{ "text": "Comparing oneself to the images of others.", "isCorrect": true },
+								{ "text": "Sending too many emails.", "isCorrect": false },
+								{ "text": "Talking to family members.", "isCorrect": false },
+								{ "text": "Reading the news online.", "isCorrect": false }
+							],
+							"explanation": "The passage states comparing one's life to perfect images can cause low self-esteem."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does a digital detox involve?",
+							"options": [
+								{ "text": "Buying a new smartphone.", "isCorrect": false },
+								{ "text": "Taking a break from electronic devices.", "isCorrect": true },
+								{ "text": "Deleting all social media accounts forever.", "isCorrect": false },
+								{ "text": "Updating the software of the phone.", "isCorrect": false }
+							],
+							"explanation": "The text defines it as taking a break from the phone for a few days."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why do people usually see only the best moments of others?",
+							"options": [
+								{ "text": "Because social media hides the bad posts.", "isCorrect": false },
+								{ "text": "Because users choose what to share.", "isCorrect": true },
+								{ "text": "Because nobody has any struggles.", "isCorrect": false },
+								{ "text": "Because the internet is only for happy news.", "isCorrect": false }
+							],
+							"explanation": "The passage notes that people share the best moments, not the struggles."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word overwhelmed suggests that the person feels:",
+							"options": [
+								{ "text": "Extremely excited and happy.", "isCorrect": false },
+								{ "text": "Unable to manage or deal with something.", "isCorrect": true },
+								{ "text": "Very bored with the situation.", "isCorrect": false },
+								{ "text": "Physically strong and healthy.", "isCorrect": false }
+							],
+							"explanation": "Overwhelmed implies a feeling of being burdened by too much information/input."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the primary message of the author?",
+							"options": [
+								{ "text": "Social media is the only way to stay connected.", "isCorrect": false },
+								{ "text": "Balance is necessary when using social media.", "isCorrect": true },
+								{ "text": "Mental health is not affected by technology.", "isCorrect": false },
+								{ "text": "Everyone should stop using phones.", "isCorrect": false }
+							],
+							"explanation": "The author advocates for setting limits and maintaining a healthy balance."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How do notifications affect the user according to the passage?",
+							"options": [
+								{ "text": "They make the user feel more popular.", "isCorrect": false },
+								{ "text": "They help the user to sleep better.", "isCorrect": false },
+								{ "text": "They can cause a sense of being overwhelmed.", "isCorrect": true },
+								{ "text": "They provide useful medical advice.", "isCorrect": false }
+							],
+							"explanation": "The text explicitly states that constant notifications can cause a person to feel overwhelmed."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which of these groups would likely agree most with the text?",
+							"options": [
+								{ "text": "People who want to protect their mental health.", "isCorrect": true },
+								{ "text": "Companies that want to sell more phones.", "isCorrect": false },
+								{ "text": "Individuals who never use social media.", "isCorrect": false },
+								{ "text": "People who believe everything they see online.", "isCorrect": false }
+							],
+							"explanation": "The text focuses on protecting mental well-being in the digital age."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 4,
+				"wordCount": 175,
+				"topic": "Fast Fashion Industry",
+				"difficulty": 3
+			},
+			"passageText": "The fast fashion industry is known for producing large quantities of clothes at a very low cost. These garments are designed to be trendy and are sold in shops shortly after they appear on the fashion runway. While this allows consumers to buy stylish clothes for little money, it has a negative impact on the planet. The production process uses a lot of water and chemicals, which can pollute the environment. Moreover, since the clothes are cheap, many people wear them only a few times before they throw them away. This leads to a massive amount of waste in landfills. To address this problem, some people are choosing to buy second-hand clothes or support brands that focus on sustainability. Sustainable fashion promotes the idea of buying fewer items of higher quality. By making better choices, shoppers can help to reduce the damage that the fashion industry causes to the world. It is a slow but necessary change for the future.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is one characteristic of fast fashion mentioned in the text?",
+							"options": [
+								{ "text": "Clothes are very expensive.", "isCorrect": false },
+								{ "text": "Garments are produced at a low cost.", "isCorrect": true },
+								{ "text": "The clothes are designed for old people.", "isCorrect": false },
+								{ "text": "Items take a long time to reach shops.", "isCorrect": false }
+							],
+							"explanation": "The passage says fast fashion is known for producing clothes at a very low cost."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why does fast fashion contribute to environmental pollution?",
+							"options": [
+								{ "text": "Because it uses a lot of water and chemicals.", "isCorrect": true },
+								{ "text": "Because the shops are too large.", "isCorrect": false },
+								{ "text": "Because the workers travel by plane.", "isCorrect": false },
+								{ "text": "Because the clothes are too colorful.", "isCorrect": false }
+							],
+							"explanation": "The text mentions the production process uses water and chemicals that pollute the environment."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the author mean by sustainable fashion?",
+							"options": [
+								{ "text": "Buying clothes that are currently trendy.", "isCorrect": false },
+								{ "text": "Buying fewer items of better quality.", "isCorrect": true },
+								{ "text": "Producing clothes as fast as possible.", "isCorrect": false },
+								{ "text": "Wearing clothes only one time.", "isCorrect": false }
+							],
+							"explanation": "Sustainable fashion is defined in the text as buying fewer items of higher quality."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What happens to many cheap clothes after they are worn a few times?",
+							"options": [
+								{ "text": "They are sent back to the runway.", "isCorrect": false },
+								{ "text": "They end up in landfills as waste.", "isCorrect": true },
+								{ "text": "They become more valuable.", "isCorrect": false },
+								{ "text": "They are cleaned and sold again.", "isCorrect": false }
+							],
+							"explanation": "The text states people throw them away, leading to waste in landfills."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the primary purpose of the text?",
+							"options": [
+								{ "text": "To encourage people to buy more clothes.", "isCorrect": false },
+								{ "text": "To inform readers about the impact of fast fashion.", "isCorrect": true },
+								{ "text": "To list the best fashion brands of the year.", "isCorrect": false },
+								{ "text": "To explain how to make clothes at home.", "isCorrect": false }
+							],
+							"explanation": "The text informs about the fast fashion industry and its environmental consequences."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word garments is a synonym for:",
+							"options": [
+								{ "text": "Buildings.", "isCorrect": false },
+								{ "text": "Clothes.", "isCorrect": true },
+								{ "text": "Machines.", "isCorrect": false },
+								{ "text": "Chemicals.", "isCorrect": false }
+							],
+							"explanation": "In fashion context, garments refers to pieces of clothing."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can the reader conclude about the author of the text?",
+							"options": [
+								{ "text": "The author prefers cheap clothes.", "isCorrect": false },
+								{ "text": "The author cares about environmental issues.", "isCorrect": true },
+								{ "text": "The author works for a fast fashion company.", "isCorrect": false },
+								{ "text": "The author thinks fashion is not important.", "isCorrect": false }
+							],
+							"explanation": "The author highlights the damage to the world and suggests sustainable alternatives."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 5,
+				"wordCount": 165,
+				"topic": "Electric Vehicles",
+				"difficulty": 3
+			},
+			"passageText": "The popularity of electric vehicles is increasing as people become more concerned about the environment. Unlike traditional cars that use gasoline, electric vehicles run on electricity. This means they do not produce harmful gases that pollute the air of the city. One major benefit is that they are much quieter than engines that use petrol. However, there are still some obstacles that prevent everyone from buying one. For instance, the price of an electric car is often higher than the price of a regular car. Also, the battery of the car needs to be charged regularly. In some places, it is difficult to find a charging station. Despite these problems, technology is improving. Batteries can now last longer, and many governments are providing money to help people buy electric cars. As more charging stations are built, the transition to green transport will become easier for the general public.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is one environmental benefit of electric vehicles?",
+							"options": [
+								{ "text": "They do not produce harmful gases.", "isCorrect": true },
+								{ "text": "They are made of wood.", "isCorrect": false },
+								{ "text": "They can fly over the city.", "isCorrect": false },
+								{ "text": "They use more gasoline.", "isCorrect": false }
+							],
+							"explanation": "The text states they do not produce harmful gases that pollute the air."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is one reason why some people do not buy electric cars yet?",
+							"options": [
+								{ "text": "The cars are too fast.", "isCorrect": false },
+								{ "text": "The price is often higher.", "isCorrect": true },
+								{ "text": "The cars are too noisy.", "isCorrect": false },
+								{ "text": "The cars do not have batteries.", "isCorrect": false }
+							],
+							"explanation": "The passage notes the price is often higher than regular cars."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the text suggest about the role of governments?",
+							"options": [
+								{ "text": "They are banning all petrol cars.", "isCorrect": false },
+								{
+									"text": "They are helping people financially to buy electric cars.",
+									"isCorrect": true
+								},
+								{ "text": "They are building more traditional roads.", "isCorrect": false },
+								{ "text": "They are stopping the production of batteries.", "isCorrect": false }
+							],
+							"explanation": "The text mentions governments provide money to help people buy these cars."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word obstacles in the passage means:",
+							"options": [
+								{ "text": "Opportunities for growth.", "isCorrect": false },
+								{ "text": "Problems or difficulties.", "isCorrect": true },
+								{ "text": "Types of engines.", "isCorrect": false },
+								{ "text": "Methods of charging.", "isCorrect": false }
+							],
+							"explanation": "Obstacles refers to things that block or prevent progress."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main topic of the passage?",
+							"options": [
+								{ "text": "The history of the gasoline engine.", "isCorrect": false },
+								{ "text": "The transition to electric transport.", "isCorrect": true },
+								{ "text": "How to repair a car battery.", "isCorrect": false },
+								{ "text": "The best places for a road trip.", "isCorrect": false }
+							],
+							"explanation": "The entire passage discusses the growth, benefits, and challenges of electric vehicles."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "In some areas, why is it hard to use an electric car?",
+							"options": [
+								{ "text": "There are not enough charging stations.", "isCorrect": true },
+								{ "text": "The electricity is too expensive.", "isCorrect": false },
+								{ "text": "The roads are too narrow for them.", "isCorrect": false },
+								{ "text": "People do not like the sound of them.", "isCorrect": false }
+							],
+							"explanation": "The text mentions it is difficult to find a charging station in some places."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which statement best describes the attitude of the author?",
+							"options": [
+								{ "text": "The author thinks electric cars will never work.", "isCorrect": false },
+								{ "text": "The author is optimistic about future improvements.", "isCorrect": true },
+								{ "text": "The author believes gasoline is better for the city.", "isCorrect": false },
+								{ "text": "The author wants to stop all forms of transport.", "isCorrect": false }
+							],
+							"explanation": "The author mentions technology is improving and the transition will become easier."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 6,
+				"wordCount": 162,
+				"topic": "Coffee Culture Around the World",
+				"difficulty": 3
+			},
+			"passageText": "Coffee is more than just a drink; it is a vital part of the culture in many countries. Each region has its own unique way to prepare and enjoy this popular beverage. In Italy, people often stand at a bar to drink a quick espresso before they go to work. In contrast, coffee in Turkey is served in small cups and is known for being very strong and thick. It is often a social event where friends sit and talk for hours. Meanwhile, in Ethiopia, the birthplace of coffee, there is a traditional coffee ceremony that can take a long time. It involves roasting the beans and serving the drink to guests with respect. These traditions show that coffee is a way to bring people together. Whether it is a fast morning routine or a long social gathering, coffee plays an important role in the daily life of millions.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How do people in Italy usually drink their espresso?",
+							"options": [
+								{ "text": "They sit in a large garden.", "isCorrect": false },
+								{ "text": "They stand at a bar.", "isCorrect": true },
+								{ "text": "They drink it during a long ceremony.", "isCorrect": false },
+								{ "text": "They take it to bed.", "isCorrect": false }
+							],
+							"explanation": "The text says Italians often stand at a bar for a quick espresso."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is unique about the coffee in Turkey?",
+							"options": [
+								{ "text": "It is served in very large bowls.", "isCorrect": false },
+								{ "text": "It is known for being strong and thick.", "isCorrect": true },
+								{ "text": "It is only drunk alone.", "isCorrect": false },
+								{ "text": "It is cold and sweet.", "isCorrect": false }
+							],
+							"explanation": "Turkish coffee is described as strong and thick in the passage."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which country is mentioned as the birthplace of coffee?",
+							"options": [
+								{ "text": "Italy.", "isCorrect": false },
+								{ "text": "Turkey.", "isCorrect": false },
+								{ "text": "Ethiopia.", "isCorrect": true },
+								{ "text": "Brazil.", "isCorrect": false }
+							],
+							"explanation": "The text explicitly names Ethiopia as the birthplace of coffee."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The phrase social gathering in the final sentence means:",
+							"options": [
+								{ "text": "A meeting for work.", "isCorrect": false },
+								{ "text": "A group of people meeting for fun.", "isCorrect": true },
+								{ "text": "A type of coffee bean.", "isCorrect": false },
+								{ "text": "A quiet time alone.", "isCorrect": false }
+							],
+							"explanation": "A social gathering is when people come together for social reasons."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main purpose of the text?",
+							"options": [
+								{ "text": "To describe coffee traditions in different countries.", "isCorrect": true },
+								{ "text": "To teach people how to roast beans.", "isCorrect": false },
+								{ "text": "To explain the health benefits of caffeine.", "isCorrect": false },
+								{ "text": "To compare the price of coffee.", "isCorrect": false }
+							],
+							"explanation": "The passage describes various cultural ways coffee is consumed globally."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The Ethiopian coffee ceremony involves:",
+							"options": [
+								{ "text": "A very fast service.", "isCorrect": false },
+								{ "text": "Roasting the beans.", "isCorrect": true },
+								{ "text": "Drinking only espresso.", "isCorrect": false },
+								{ "text": "Standing at a bar.", "isCorrect": false }
+							],
+							"explanation": "The text mentions it involves roasting the beans."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can be inferred about coffee based on the text?",
+							"options": [
+								{ "text": "It is only popular in Europe.", "isCorrect": false },
+								{ "text": "It is used to facilitate human connection.", "isCorrect": true },
+								{ "text": "It is too expensive for most people.", "isCorrect": false },
+								{ "text": "The taste is the same everywhere.", "isCorrect": false }
+							],
+							"explanation": "The text states coffee is a way to bring people together."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 7,
+				"wordCount": 178,
+				"topic": "The Gig Economy",
+				"difficulty": 3
+			},
+			"passageText": "The gig economy refers to a labor market that consists of short term contracts or freelance work. Instead of working for one employer for a long time, individuals do small jobs, or gigs, for different clients. Technology has made this possible through apps that connect workers with people who need services. For example, a person can drive a car for a ride sharing company or deliver food in the evening. This way of working offers a lot of flexibility. Workers can choose when they want to start and stop. However, there are some negative aspects. Freelancers do not usually receive benefits such as health insurance or paid holidays. Their income can also be very unpredictable from one month to the next. Some people enjoy the freedom of the gig economy, while others prefer the security of a traditional full time position. As the world of work continues to evolve, the gig economy will likely remain a significant part of the global market.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the term gig economy describe?",
+							"options": [
+								{ "text": "A market for permanent long term jobs.", "isCorrect": false },
+								{ "text": "A market for short term or freelance work.", "isCorrect": true },
+								{ "text": "A system where nobody has to work.", "isCorrect": false },
+								{ "text": "A place where people only play music.", "isCorrect": false }
+							],
+							"explanation": "The first sentence defines it as short term contracts or freelance work."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is one main advantage of the gig economy for workers?",
+							"options": [
+								{ "text": "They get many paid holidays.", "isCorrect": false },
+								{ "text": "They have great flexibility with their time.", "isCorrect": true },
+								{ "text": "They always know how much money they will earn.", "isCorrect": false },
+								{ "text": "The government pays for their insurance.", "isCorrect": false }
+							],
+							"explanation": "The text states the way of working offers a lot of flexibility."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why is the income in the gig economy described as unpredictable?",
+							"options": [
+								{ "text": "Because it can change every month.", "isCorrect": true },
+								{ "text": "Because the apps do not work properly.", "isCorrect": false },
+								{ "text": "Because the workers do not like money.", "isCorrect": false },
+								{ "text": "Because it is always the same amount.", "isCorrect": false }
+							],
+							"explanation": "The text mentions income can be unpredictable from month to month."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which of these is a challenge for freelancers in this economy?",
+							"options": [
+								{ "text": "They have too much security.", "isCorrect": false },
+								{ "text": "They lack benefits like health insurance.", "isCorrect": true },
+								{ "text": "They cannot use modern technology.", "isCorrect": false },
+								{ "text": "They are forced to work at night.", "isCorrect": false }
+							],
+							"explanation": "The passage notes freelancers do not usually receive benefits."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the best title for this passage?",
+							"options": [
+								{ "text": "The End of the Modern App.", "isCorrect": false },
+								{ "text": "Freedom and Risk in Freelance Work.", "isCorrect": true },
+								{ "text": "How to Drive a Car for Money.", "isCorrect": false },
+								{ "text": "The History of Full Time Jobs.", "isCorrect": false }
+							],
+							"explanation": "The title summarizes the pros (freedom) and cons (risk) discussed."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can you infer about traditional jobs from the text?",
+							"options": [
+								{ "text": "They are becoming more flexible than gigs.", "isCorrect": false },
+								{ "text": "They generally provide more financial security.", "isCorrect": true },
+								{ "text": "They do not require any technology.", "isCorrect": false },
+								{ "text": "They will completely disappear soon.", "isCorrect": false }
+							],
+							"explanation": "The text contrasts gig work with the security of traditional full-time positions."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word evolve in the final sentence means:",
+							"options": [
+								{ "text": "To stop completely.", "isCorrect": false },
+								{ "text": "To develop and change.", "isCorrect": true },
+								{ "text": "To go back to the past.", "isCorrect": false },
+								{ "text": "To stay the same.", "isCorrect": false }
+							],
+							"explanation": "To evolve means to develop gradually over time."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 8,
+				"wordCount": 165,
+				"topic": "Sleep Science",
+				"difficulty": 3
+			},
+			"passageText": "Sleep is a necessary function that allows the body and the mind to recharge. Without enough sleep, the brain cannot function properly. This can affect the ability to concentrate, think clearly, and process memories. Most adults need between seven and nine hours of sleep each night. However, many people struggle to get enough rest because of busy schedules or stress. Scientists have found that the blue light from electronic devices, such as phones and tablets, can interfere with the quality of sleep. It is recommended to avoid screens at least one hour before bed. Another tip for better sleep is to keep a consistent schedule by going to sleep and waking up at the same time every day. Good sleep habits are essential for long term health and can improve the mood and the productivity of a person during the day. Taking care of the rest of the body is just as important as diet and exercise.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How much sleep do most adults need each night?",
+							"options": [
+								{ "text": "Four to five hours.", "isCorrect": false },
+								{ "text": "Seven to nine hours.", "isCorrect": true },
+								{ "text": "Ten to twelve hours.", "isCorrect": false },
+								{ "text": "As much as possible.", "isCorrect": false }
+							],
+							"explanation": "The passage specifies seven to nine hours for adults."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What effect does a lack of sleep have on the brain?",
+							"options": [
+								{ "text": "It helps with memory processing.", "isCorrect": false },
+								{ "text": "It makes the brain function better.", "isCorrect": false },
+								{ "text": "It affects the ability to concentrate.", "isCorrect": true },
+								{ "text": "It makes the brain very fast.", "isCorrect": false }
+							],
+							"explanation": "The text states lack of sleep can affect concentration and clear thinking."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why should people avoid electronic screens before bed?",
+							"options": [
+								{ "text": "Screens are too expensive to use at night.", "isCorrect": false },
+								{ "text": "Blue light can interfere with sleep quality.", "isCorrect": true },
+								{ "text": "The phones might break in the dark.", "isCorrect": false },
+								{ "text": "It is better to watch a large television.", "isCorrect": false }
+							],
+							"explanation": "The passage mentions blue light from devices interferes with sleep."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does a consistent schedule mean in this context?",
+							"options": [
+								{ "text": "Sleeping at different times every day.", "isCorrect": false },
+								{ "text": "Going to bed at the same time daily.", "isCorrect": true },
+								{ "text": "Working during the entire night.", "isCorrect": false },
+								{ "text": "Buying a very expensive clock.", "isCorrect": false }
+							],
+							"explanation": "The text defines it as going to sleep and waking up at the same time every day."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main idea of the passage?",
+							"options": [
+								{ "text": "The importance of good sleep for health.", "isCorrect": true },
+								{ "text": "The history of the light bulb.", "isCorrect": false },
+								{ "text": "How to use a tablet correctly.", "isCorrect": false },
+								{ "text": "The best diet for a healthy brain.", "isCorrect": false }
+							],
+							"explanation": "The passage covers why sleep is needed and how to get better sleep."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can be inferred about the lifestyle of the author?",
+							"options": [
+								{
+									"text": "The author thinks sleep is less important than exercise.",
+									"isCorrect": false
+								},
+								{ "text": "The author values a balanced and healthy lifestyle.", "isCorrect": true },
+								{ "text": "The author works at night and sleeps during the day.", "isCorrect": false },
+								{ "text": "The author does not use any technology.", "isCorrect": false }
+							],
+							"explanation": "The author links sleep to long-term health, mood, and productivity."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the purpose of the author in the final sentence?",
+							"options": [
+								{ "text": "To warn readers about dangerous exercises.", "isCorrect": false },
+								{ "text": "To emphasize that sleep is a key part of health.", "isCorrect": true },
+								{ "text": "To recommend a specific diet plan.", "isCorrect": false },
+								{ "text": "To complain about busy schedules.", "isCorrect": false }
+							],
+							"explanation": "The author compares sleep to diet and exercise to show its equal importance."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 9,
+				"wordCount": 160,
+				"topic": "Volunteering Benefits",
+				"difficulty": 3
+			},
+			"passageText": "Volunteering is a powerful way to give back to the community and help those in need. Many people choose to spend their free time working at local charities, animal shelters, or schools. While the main goal is to help others, volunteering also provides many benefits for the volunteer. For instance, it is a great way to learn new skills that can be useful in a professional career. It also allows individuals to meet new people and expand the social network. Furthermore, studies have shown that volunteering can improve mental health by reducing stress and providing a sense of purpose. It makes people feel good to know they are making a difference in the world. Whether it is a few hours a week or a longer commitment, the impact of volunteering is significant for both the community and the individual who gives the time.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What are some places where people can volunteer?",
+							"options": [
+								{ "text": "Large factories and malls.", "isCorrect": false },
+								{ "text": "Local charities, shelters, or schools.", "isCorrect": true },
+								{ "text": "Only in other countries.", "isCorrect": false },
+								{ "text": "In expensive hotels.", "isCorrect": false }
+							],
+							"explanation": "The text lists charities, animal shelters, and schools."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How can volunteering help a person in their career?",
+							"options": [
+								{ "text": "By providing a very high salary.", "isCorrect": false },
+								{ "text": "By helping them learn new skills.", "isCorrect": true },
+								{ "text": "By giving them more free time.", "isCorrect": false },
+								{ "text": "By allowing them to avoid work.", "isCorrect": false }
+							],
+							"explanation": "The text mentions it is a way to learn new skills useful for a career."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to the passage, how does volunteering affect mental health?",
+							"options": [
+								{ "text": "It can increase the level of stress.", "isCorrect": false },
+								{ "text": "It can reduce stress and give purpose.", "isCorrect": true },
+								{ "text": "It makes people feel lonely.", "isCorrect": false },
+								{ "text": "It has no effect on the mind.", "isCorrect": false }
+							],
+							"explanation": "The passage states volunteering can improve mental health by reducing stress."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The phrase social network in the text refers to:",
+							"options": [
+								{ "text": "An app like a website.", "isCorrect": false },
+								{ "text": "The group of people a person knows.", "isCorrect": true },
+								{ "text": "A computer cable.", "isCorrect": false },
+								{ "text": "The local government.", "isCorrect": false }
+							],
+							"explanation": "In this context, it refers to the personal connections someone has."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main idea of the passage?",
+							"options": [
+								{
+									"text": "Volunteering benefits both the helper and the community.",
+									"isCorrect": true
+								},
+								{ "text": "How to find a job in an animal shelter.", "isCorrect": false },
+								{ "text": "The history of charities in the city.", "isCorrect": false },
+								{ "text": "Why everyone should stop working for money.", "isCorrect": false }
+							],
+							"explanation": "The text explores benefits for the volunteer and the recipients."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How much time must a person give to volunteer?",
+							"options": [
+								{ "text": "At least forty hours a week.", "isCorrect": false },
+								{ "text": "The amount of time can vary.", "isCorrect": true },
+								{ "text": "Only one hour in the whole life.", "isCorrect": false },
+								{ "text": "Exactly ten hours per month.", "isCorrect": false }
+							],
+							"explanation": "The text says 'Whether it is a few hours a week or a longer commitment'."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the purpose of the author?",
+							"options": [
+								{ "text": "To discourage people from working for free.", "isCorrect": false },
+								{ "text": "To highlight the value of volunteering.", "isCorrect": true },
+								{ "text": "To complain about the state of schools.", "isCorrect": false },
+								{ "text": "To explain how to run a charity.", "isCorrect": false }
+							],
+							"explanation": "The author presents volunteering in a positive light, focusing on its impact."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 10,
+				"wordCount": 163,
+				"topic": "Street Food Markets",
+				"difficulty": 3
+			},
+			"passageText": "Street food markets have become a popular destination for tourists and locals alike. These markets offer a wide variety of dishes that are often cooked right in front of the customer. From spicy noodles to sweet desserts, the options are endless. One of the main attractions of street food is the price; it is usually much cheaper than eating in a restaurant. Additionally, it allows people to try authentic local flavors in a casual environment. However, some people are concerned about the hygiene of the stalls. It is important to choose vendors who appear clean and follow basic safety rules. In many cities, street food is a reflection of the culture and the history of the place. Visiting a market is not just about the food; it is an experience for all the senses. The sights, smells, and sounds of a busy market create a vibrant atmosphere that is hard to forget.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is one reason people like street food?",
+							"options": [
+								{ "text": "It is usually very expensive.", "isCorrect": false },
+								{ "text": "It is cheaper than a restaurant.", "isCorrect": true },
+								{ "text": "It is always served cold.", "isCorrect": false },
+								{ "text": "You have to cook it yourself.", "isCorrect": false }
+							],
+							"explanation": "The passage says it is usually much cheaper than a restaurant."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What should customers look for to ensure safety?",
+							"options": [
+								{ "text": "The most expensive stall.", "isCorrect": false },
+								{ "text": "Vendors who appear clean.", "isCorrect": true },
+								{ "text": "The stall with the longest line.", "isCorrect": false },
+								{ "text": "Stalls that sell only desserts.", "isCorrect": false }
+							],
+							"explanation": "The text advises choosing vendors who appear clean and follow safety rules."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the author mean when they say street food is a reflection of culture?",
+							"options": [
+								{ "text": "The food shows the traditions of the place.", "isCorrect": true },
+								{ "text": "The stalls are made of mirrors.", "isCorrect": false },
+								{ "text": "The food is the same in every country.", "isCorrect": false },
+								{ "text": "People only eat it during festivals.", "isCorrect": false }
+							],
+							"explanation": "A reflection of culture means it represents the local heritage and traditions."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word vibrant in the final paragraph describes:",
+							"options": [
+								{ "text": "A very quiet and boring place.", "isCorrect": false },
+								{ "text": "An atmosphere full of energy and life.", "isCorrect": true },
+								{ "text": "The price of the noodles.", "isCorrect": false },
+								{ "text": "The smell of the garbage.", "isCorrect": false }
+							],
+							"explanation": "Vibrant describes an energetic and lively atmosphere."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main idea of the passage?",
+							"options": [
+								{ "text": "The benefits and experience of street food markets.", "isCorrect": true },
+								{ "text": "The dangers of eating spicy food.", "isCorrect": false },
+								{ "text": "How to start a business in a city.", "isCorrect": false },
+								{ "text": "The history of restaurant chains.", "isCorrect": false }
+							],
+							"explanation": "The passage discusses why these markets are popular and what they offer."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which sense is NOT mentioned as being part of the experience?",
+							"options": [
+								{ "text": "Sight.", "isCorrect": false },
+								{ "text": "Smell.", "isCorrect": false },
+								{ "text": "Sound.", "isCorrect": false },
+								{ "text": "Touch.", "isCorrect": true }
+							],
+							"explanation": "The text mentions sights, smells, and sounds, but not touch."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the overall tone of the passage toward street food?",
+							"options": [
+								{ "text": "Cautious but appreciative.", "isCorrect": true },
+								{ "text": "Very angry and critical.", "isCorrect": false },
+								{ "text": "Indifferent and bored.", "isCorrect": false },
+								{ "text": "Purely medical and scientific.", "isCorrect": false }
+							],
+							"explanation": "The author is positive about the experience but also warns about hygiene."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 11,
+				"wordCount": 168,
+				"topic": "Learning a Second Language",
+				"difficulty": 3
+			},
+			"passageText": "Learning a second language is a challenging but rewarding journey. It opens up a world of opportunities for travel, work, and personal growth. When a person learns a new language, they also learn about the culture and the history of the people who speak it. This can lead to a greater understanding and empathy for different perspectives. Many experts agree that the best way to learn is through immersion. This involves practicing the language every day by listening to music, watching movies, or speaking with native speakers. While it can be frustrating to make mistakes, they are a natural part of the learning process. In fact, making errors is often how students improve. With patience and persistence, anyone can achieve a high level of fluency. In an increasingly globalized world, the ability to communicate in more than one language is a valuable asset that can enhance the life of a person in many ways.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to the text, what can learning a language lead to?",
+							"options": [
+								{ "text": "Greater empathy for others.", "isCorrect": true },
+								{ "text": "A fear of traveling.", "isCorrect": false },
+								{ "text": "Forgetting the first language.", "isCorrect": false },
+								{ "text": "Making fewer friends.", "isCorrect": false }
+							],
+							"explanation": "The text mentions it leads to greater understanding and empathy."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does immersion involve in the context of language learning?",
+							"options": [
+								{ "text": "Only reading grammar books.", "isCorrect": false },
+								{ "text": "Practicing the language daily in real situations.", "isCorrect": true },
+								{ "text": "Staying in a quiet room alone.", "isCorrect": false },
+								{ "text": "Taking a test every week.", "isCorrect": false }
+							],
+							"explanation": "The passage describes it as practicing daily through music, movies, or speaking."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How does the author view mistakes in language learning?",
+							"options": [
+								{ "text": "They should be avoided at all costs.", "isCorrect": false },
+								{ "text": "They are a natural part of the process.", "isCorrect": true },
+								{ "text": "They show that a student is lazy.", "isCorrect": false },
+								{ "text": "They are the end of the journey.", "isCorrect": false }
+							],
+							"explanation": "The author states mistakes are a natural part of learning and how students improve."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word asset in the final paragraph means:",
+							"options": [
+								{ "text": "A heavy burden.", "isCorrect": false },
+								{ "text": "A useful or valuable thing.", "isCorrect": true },
+								{ "text": "A type of dictionary.", "isCorrect": false },
+								{ "text": "A hidden secret.", "isCorrect": false }
+							],
+							"explanation": "An asset is something valuable or beneficial."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main idea of the text?",
+							"options": [
+								{ "text": "The advantages and methods of learning a new language.", "isCorrect": true },
+								{ "text": "Why grammar is the most important part of life.", "isCorrect": false },
+								{ "text": "How to watch movies without subtitles.", "isCorrect": false },
+								{ "text": "The history of global travel.", "isCorrect": false }
+							],
+							"explanation": "The passage covers the benefits and ways to achieve fluency."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the purpose of the author in mentioning a globalized world?",
+							"options": [
+								{
+									"text": "To suggest that everyone should live in the same country.",
+									"isCorrect": false
+								},
+								{
+									"text": "To emphasize why language skills are currently relevant.",
+									"isCorrect": true
+								},
+								{ "text": "To complain about international trade.", "isCorrect": false },
+								{ "text": "To explain the history of the earth.", "isCorrect": false }
+							],
+							"explanation": "It highlights the modern necessity of multi-language communication."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which quality is NOT mentioned as being needed to learn a language?",
+							"options": [
+								{ "text": "Patience.", "isCorrect": false },
+								{ "text": "Persistence.", "isCorrect": false },
+								{ "text": "Luck.", "isCorrect": true },
+								{ "text": "Immersion.", "isCorrect": false }
+							],
+							"explanation": "Patience, persistence, and immersion are mentioned, but luck is not."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 12,
+				"wordCount": 165,
+				"topic": "Minimalism as a Lifestyle",
+				"difficulty": 3
+			},
+			"passageText": "Minimalism is a lifestyle choice that focuses on living with fewer possessions. The main idea is to remove the clutter from the life of a person so they can focus on what is truly important. Many people find that owning too many things causes stress and anxiety. By getting rid of items they do not use, they feel more free and organized. Minimalism is not just about the physical space; it is also about how people spend their time and money. Instead of buying new products, minimalists often invest in experiences, such as travel or learning a new hobby. This approach helps people to appreciate what they already have. However, starting a minimalist journey can be difficult. It requires a lot of discipline to stop buying things that are not necessary. In the end, many find that a simpler life leads to greater happiness and a more meaningful existence.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the primary focus of minimalism?",
+							"options": [
+								{ "text": "Living with fewer possessions.", "isCorrect": true },
+								{ "text": "Buying as many things as possible.", "isCorrect": false },
+								{ "text": "Moving to a very large house.", "isCorrect": false },
+								{ "text": "Collecting rare antiques.", "isCorrect": false }
+							],
+							"explanation": "The first sentence states minimalism focuses on living with fewer possessions."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How can owning too many things affect a person?",
+							"options": [
+								{ "text": "It can cause stress and anxiety.", "isCorrect": true },
+								{ "text": "It makes them feel more free.", "isCorrect": false },
+								{ "text": "It helps them to be more organized.", "isCorrect": false },
+								{ "text": "It makes them forget how to travel.", "isCorrect": false }
+							],
+							"explanation": "The text mentions many people find too many things cause stress and anxiety."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What do minimalists often prefer to spend their money on?",
+							"options": [
+								{ "text": "The latest electronic products.", "isCorrect": false },
+								{ "text": "Experiences like travel or hobbies.", "isCorrect": true },
+								{ "text": "A larger collection of clothes.", "isCorrect": false },
+								{ "text": "Furniture for the living room.", "isCorrect": false }
+							],
+							"explanation": "The text states minimalists often invest in experiences rather than products."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word clutter in the second sentence refers to:",
+							"options": [
+								{ "text": "A group of friends.", "isCorrect": false },
+								{ "text": "Messy or unnecessary items.", "isCorrect": true },
+								{ "text": "Important documents.", "isCorrect": false },
+								{ "text": "New skills for a career.", "isCorrect": false }
+							],
+							"explanation": "Clutter refers to a collection of things lying about in an untidy mass."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main idea of this passage?",
+							"options": [
+								{ "text": "The benefits and challenges of a minimalist lifestyle.", "isCorrect": true },
+								{ "text": "How to clean a house in one day.", "isCorrect": false },
+								{ "text": "The history of expensive products.", "isCorrect": false },
+								{ "text": "Why travel is better than staying home.", "isCorrect": false }
+							],
+							"explanation": "The passage describes what minimalism is, its benefits, and the difficulty of starting it."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can be inferred about the start of a minimalist journey?",
+							"options": [
+								{ "text": "It is easy for everyone to do.", "isCorrect": false },
+								{ "text": "It requires strong mental control.", "isCorrect": true },
+								{ "text": "It costs a lot of money to start.", "isCorrect": false },
+								{ "text": "It only takes a few minutes.", "isCorrect": false }
+							],
+							"explanation": "The text says it requires a lot of discipline, which implies mental control."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the purpose of the author in the final sentence?",
+							"options": [
+								{ "text": "To warn people about the dangers of freedom.", "isCorrect": false },
+								{ "text": "To suggest that minimalism leads to a better life.", "isCorrect": true },
+								{ "text": "To promote a specific brand of products.", "isCorrect": false },
+								{ "text": "To explain the meaning of existence.", "isCorrect": false }
+							],
+							"explanation": "The final sentence highlights that a simpler life can lead to greater happiness."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 13,
+				"wordCount": 175,
+				"topic": "The Sharing Economy",
+				"difficulty": 3
+			},
+			"passageText": "The sharing economy is a socio-economic system built around the sharing of resources. It often involves a platform that connects individuals who have something with those who need it. Common examples include renting a room in the home of someone else or borrowing a car for a short trip. This system allows people to save money and use assets more efficiently. It also has environmental benefits because it reduces the need for everyone to own every item. For example, if ten people share one car, fewer cars are manufactured. However, the sharing economy also faces criticism. Some argue that it creates unfair competition for traditional businesses like hotels or taxi companies. There are also concerns about the safety and the privacy of the users. Despite these issues, the sharing economy continues to grow because of the convenience it offers. It represents a major shift in how modern society thinks about ownership and community resources.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the sharing economy built around?",
+							"options": [
+								{ "text": "The sharing of resources.", "isCorrect": true },
+								{ "text": "The building of new factories.", "isCorrect": false },
+								{ "text": "The selling of old clothes.", "isCorrect": false },
+								{ "text": "The creation of more cars.", "isCorrect": false }
+							],
+							"explanation": "The first sentence states it is built around the sharing of resources."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How does sharing one car among many people help the planet?",
+							"options": [
+								{ "text": "It makes the car go faster.", "isCorrect": false },
+								{ "text": "Fewer cars need to be manufactured.", "isCorrect": true },
+								{ "text": "It helps the car stay clean.", "isCorrect": false },
+								{ "text": "It makes the roads wider.", "isCorrect": false }
+							],
+							"explanation": "The text explains that sharing reduces the need for manufacturing new items."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is one criticism of the sharing economy mentioned in the text?",
+							"options": [
+								{ "text": "It is too difficult to use.", "isCorrect": false },
+								{
+									"text": "It creates unfair competition for traditional businesses.",
+									"isCorrect": true
+								},
+								{ "text": "It makes people too rich.", "isCorrect": false },
+								{ "text": "There are no apps for it.", "isCorrect": false }
+							],
+							"explanation": "The text mentions critics argue it creates unfair competition for hotels or taxis."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word assets in the fourth sentence refers to:",
+							"options": [
+								{ "text": "Useful or valuable resources.", "isCorrect": true },
+								{ "text": "Rules of the government.", "isCorrect": false },
+								{ "text": "Friends in the community.", "isCorrect": false },
+								{ "text": "The price of the rental.", "isCorrect": false }
+							],
+							"explanation": "Assets refers to things of value like rooms or cars."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main topic of this text?",
+							"options": [
+								{ "text": "The growth and impact of the sharing economy.", "isCorrect": true },
+								{ "text": "How to become a taxi driver.", "isCorrect": false },
+								{ "text": "The history of the hotel industry.", "isCorrect": false },
+								{ "text": "The best way to buy a new car.", "isCorrect": false }
+							],
+							"explanation": "The text discusses the system, its benefits, and its challenges."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can be inferred about the future of the sharing economy?",
+							"options": [
+								{ "text": "It will likely disappear due to safety concerns.", "isCorrect": false },
+								{ "text": "It will likely continue because it is convenient.", "isCorrect": true },
+								{ "text": "It will be illegal in every country.", "isCorrect": false },
+								{ "text": "Traditional hotels will buy all the platforms.", "isCorrect": false }
+							],
+							"explanation": "The author notes it continues to grow because of convenience, despite issues."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why do people have concerns about privacy and safety?",
+							"options": [
+								{ "text": "Because they are sharing with individuals.", "isCorrect": true },
+								{ "text": "Because the apps are too slow.", "isCorrect": false },
+								{ "text": "Because everything is free.", "isCorrect": false },
+								{ "text": "Because they do not have phones.", "isCorrect": false }
+							],
+							"explanation": "Privacy and safety concerns arise because users are interacting with individual providers/borrowers."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 14,
+				"wordCount": 160,
+				"topic": "Digital Literacy",
+				"difficulty": 3
+			},
+			"passageText": "In the modern world, digital literacy is a fundamental skill for everyone. It refers to the ability to find, evaluate, and communicate information using various digital platforms. This includes knowing how to use the internet safely and how to identify fake news. As more services move online, people who lack these skills may find it difficult to apply for a job or access healthcare. Schools are now including digital literacy in the curriculum to prepare students for the future. However, it is not just for young people; older adults also benefit from learning how to use technology to stay connected with the family. Furthermore, understanding privacy settings is crucial to protect the personal data of the individual. By improving digital skills, people can navigate the digital landscape with confidence and participate fully in the social and the economic life of the community.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does digital literacy refer to?",
+							"options": [
+								{ "text": "The ability to use digital platforms effectively.", "isCorrect": true },
+								{ "text": "The history of the first computer.", "isCorrect": false },
+								{ "text": "The cost of a new smartphone.", "isCorrect": false },
+								{ "text": "The speed of the internet.", "isCorrect": false }
+							],
+							"explanation": "The text defines it as finding, evaluating, and communicating information digitally."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why is it important to identify fake news?",
+							"options": [
+								{ "text": "To win a prize from the government.", "isCorrect": false },
+								{ "text": "To evaluate information correctly.", "isCorrect": true },
+								{ "text": "To make the internet faster.", "isCorrect": false },
+								{ "text": "To help people buy more products.", "isCorrect": false }
+							],
+							"explanation": "Identifying fake news is part of evaluating digital information."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What might happen to people who lack digital skills?",
+							"options": [
+								{ "text": "They may have trouble applying for jobs.", "isCorrect": true },
+								{ "text": "They will have too much money.", "isCorrect": false },
+								{ "text": "They will never get sick.", "isCorrect": false },
+								{ "text": "They will be forced to leave the city.", "isCorrect": false }
+							],
+							"explanation": "The text states they may find it difficult to apply for jobs or access healthcare."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word crucial in the passage means:",
+							"options": [
+								{ "text": "Very boring.", "isCorrect": false },
+								{ "text": "Extremely important.", "isCorrect": true },
+								{ "text": "Very fast.", "isCorrect": false },
+								{ "text": "Not necessary.", "isCorrect": false }
+							],
+							"explanation": "Crucial means something is of great importance or decisive."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main idea of the passage?",
+							"options": [
+								{ "text": "The necessity of digital literacy for everyone.", "isCorrect": true },
+								{ "text": "How to fix a broken laptop.", "isCorrect": false },
+								{ "text": "The best social media apps for students.", "isCorrect": false },
+								{ "text": "The high price of internet services.", "isCorrect": false }
+							],
+							"explanation": "The passage highlights why digital literacy is fundamental for all age groups."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Who can benefit from learning digital skills besides students?",
+							"options": [
+								{ "text": "Only computer experts.", "isCorrect": false },
+								{ "text": "Older adults.", "isCorrect": true },
+								{ "text": "People who do not use phones.", "isCorrect": false },
+								{ "text": "Nobody else.", "isCorrect": false }
+							],
+							"explanation": "The text explicitly mentions that older adults also benefit."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the tone of the author?",
+							"options": [
+								{ "text": "Informative and encouraging.", "isCorrect": true },
+								{ "text": "Critical and angry.", "isCorrect": false },
+								{ "text": "Indifferent and cold.", "isCorrect": false },
+								{ "text": "Funny and lighthearted.", "isCorrect": false }
+							],
+							"explanation": "The author provides information about digital literacy and encourages its development."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 15,
+				"wordCount": 170,
+				"topic": "Food Waste and Sustainability",
+				"difficulty": 3
+			},
+			"passageText": "Food waste is a major problem that affects the economy and the environment. Every year, a huge amount of food is thrown away by households and businesses. This happens for various reasons, such as overbuying or not understanding the dates on the labels. When food is wasted, all the resources used to produce it, like water and energy, are also wasted. Furthermore, food in landfills produces methane, a gas that contributes to climate change. To be more sustainable, people can take simple steps at home. For instance, they can plan the meals for the week and only buy what they need. Composting is another excellent way to turn food scraps into useful soil for the garden. By being more mindful of the way they consume food, individuals can help to protect the planet and save money. Small changes in the daily routine can lead to a big difference in the future health of the world.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is one reason why food is thrown away?",
+							"options": [
+								{ "text": "Because people do not have enough money.", "isCorrect": false },
+								{ "text": "Because they buy too much food.", "isCorrect": true },
+								{ "text": "Because the food is too healthy.", "isCorrect": false },
+								{ "text": "Because there are no shops.", "isCorrect": false }
+							],
+							"explanation": "The text mentions overbuying as a reason for food waste."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How does food waste affect climate change?",
+							"options": [
+								{ "text": "It produces methane gas in landfills.", "isCorrect": true },
+								{ "text": "It makes the weather very cold.", "isCorrect": false },
+								{ "text": "It stops the rain from falling.", "isCorrect": false },
+								{ "text": "It cleans the air in the city.", "isCorrect": false }
+							],
+							"explanation": "The passage says food in landfills produces methane, which contributes to climate change."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does composting involve?",
+							"options": [
+								{ "text": "Buying more food than necessary.", "isCorrect": false },
+								{ "text": "Turning food scraps into soil.", "isCorrect": true },
+								{ "text": "Throwing food in the garbage bin.", "isCorrect": false },
+								{ "text": "Selling food to neighbors.", "isCorrect": false }
+							],
+							"explanation": "The text describes composting as turning scraps into soil for the garden."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The word mindful in the text suggests being:",
+							"options": [
+								{ "text": "Careful and aware.", "isCorrect": true },
+								{ "text": "Fast and efficient.", "isCorrect": false },
+								{ "text": "Angry and upset.", "isCorrect": false },
+								{ "text": "Lazy and bored.", "isCorrect": false }
+							],
+							"explanation": "Mindful means being conscious or aware of something."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main idea of the passage?",
+							"options": [
+								{ "text": "The impact of food waste and how to reduce it.", "isCorrect": true },
+								{ "text": "The best way to cook a meal.", "isCorrect": false },
+								{ "text": "The history of landfill management.", "isCorrect": false },
+								{ "text": "How to understand food labels.", "isCorrect": false }
+							],
+							"explanation": "The text discusses the problem of waste and provides solutions for sustainability."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which of these is a way to save money according to the text?",
+							"options": [
+								{ "text": "Buying food only when it is on sale.", "isCorrect": false },
+								{ "text": "Planning meals and only buying what is needed.", "isCorrect": true },
+								{ "text": "Throwing away old food every day.", "isCorrect": false },
+								{ "text": "Using more energy to cook.", "isCorrect": false }
+							],
+							"explanation": "The text suggests being mindful helps individuals save money."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the purpose of the author in this passage?",
+							"options": [
+								{ "text": "To encourage sustainable habits regarding food.", "isCorrect": true },
+								{ "text": "To complain about the price of groceries.", "isCorrect": false },
+								{ "text": "To advertise a new composting machine.", "isCorrect": false },
+								{ "text": "To explain the science of methane.", "isCorrect": false }
+							],
+							"explanation": "The author aims to educate readers on the impact of food waste and suggest positive changes."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "B1",
+				"passageNumber": 16,
+				"wordCount": 165,
+				"topic": "Working from Cafes",
+				"difficulty": 3
+			},
+			"passageText": "Working from cafes has become a popular choice for freelancers and remote workers. These spaces offer a change of scenery and a lively atmosphere that many people find inspiring. The smell of coffee and the sound of low conversation can help some individuals to focus better than they do in a quiet office. Most cafes now provide free internet and plenty of power outlets to attract customers who want to work. However, there are some unspoken rules that one should follow. It is polite to buy a drink or a snack every few hours to support the business. Also, it is important to be mindful of the noise level, especially when taking a phone call. While a cafe is a great place for creativity, it can sometimes be distracting if it is too busy. Despite the potential for noise, the trend of using cafes as offices continues to grow in cities all over the world.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why do some people prefer working in a cafe?",
+							"options": [
+								{ "text": "Because they enjoy the lively atmosphere.", "isCorrect": true },
+								{ "text": "Because there is no internet.", "isCorrect": false },
+								{ "text": "Because they want to sleep.", "isCorrect": false },
+								{ "text": "Because it is cheaper than a home.", "isCorrect": false }
+							],
+							"explanation": "The text mentions people find the lively atmosphere and change of scenery inspiring."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What do many cafes provide to attract remote workers?",
+							"options": [
+								{ "text": "Free meals all day.", "isCorrect": false },
+								{ "text": "Free internet and power outlets.", "isCorrect": true },
+								{ "text": "A bed for a nap.", "isCorrect": false },
+								{ "text": "New laptops for everyone.", "isCorrect": false }
+							],
+							"explanation": "The passage says most cafes provide free internet and power outlets."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is one polite thing to do while working in a cafe?",
+							"options": [
+								{ "text": "Buy a drink every few hours.", "isCorrect": true },
+								{ "text": "Talk as loudly as possible.", "isCorrect": false },
+								{ "text": "Stay all day without buying anything.", "isCorrect": false },
+								{ "text": "Use all the power outlets at once.", "isCorrect": false }
+							],
+							"explanation": "The text says it is polite to support the business by buying a drink or snack."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The phrase unspoken rules refers to:",
+							"options": [
+								{ "text": "Laws that are written in books.", "isCorrect": false },
+								{ "text": "Behaviors that are expected but not written down.", "isCorrect": true },
+								{ "text": "Rules about how to make coffee.", "isCorrect": false },
+								{ "text": "The password for the internet.", "isCorrect": false }
+							],
+							"explanation": "Unspoken rules are social expectations that are understood without being explicitly stated."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the main idea of this passage?",
+							"options": [
+								{ "text": "The trend and etiquette of working in cafes.", "isCorrect": true },
+								{ "text": "How to make the best coffee at home.", "isCorrect": false },
+								{ "text": "The history of office furniture.", "isCorrect": false },
+								{ "text": "Why internet should always be free.", "isCorrect": false }
+							],
+							"explanation": "The passage covers why people work in cafes and the manners they should have."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When might a cafe NOT be a good place for work?",
+							"options": [
+								{ "text": "When it is too busy and distracting.", "isCorrect": true },
+								{ "text": "When the coffee is too hot.", "isCorrect": false },
+								{ "text": "When there are too many power outlets.", "isCorrect": false },
+								{ "text": "When the chairs are too comfortable.", "isCorrect": false }
+							],
+							"explanation": "The text mentions it can be distracting if the cafe is too busy."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "moderate",
+					"cefrLevel": "B1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the tone of the author regarding this trend?",
+							"options": [
+								{ "text": "Balanced and practical.", "isCorrect": true },
+								{ "text": "Angry and dismissive.", "isCorrect": false },
+								{ "text": "Extremely religious.", "isCorrect": false },
+								{ "text": "Bored and lazy.", "isCorrect": false }
+							],
+							"explanation": "The author presents both the benefits and the considerations (rules) for working in cafes."
+						}
+					}
+				}
+			]
+		}
+	]
+}

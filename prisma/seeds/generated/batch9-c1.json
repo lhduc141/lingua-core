@@ -1,0 +1,2758 @@
+{
+	"level": "C1",
+	"passages": [
+		{
+			"passageMetadata": {
+				"level": "C1",
+				"passageNumber": 1,
+				"wordCount": 278,
+				"topic": "The Epistemology of Scientific Knowledge",
+				"difficulty": 5
+			},
+			"passageText": "The epistemology of scientific inquiry necessitates a rigorous demarcation between empirical observation and metaphysical speculation. While the logical positivists of the early twentieth century sought to establish verification as the ultimate criterion of meaning, the subsequent intervention of Karl Popper shifted the discourse toward falsifiability. Popper argued that no number of positive observations can definitively prove a universal generalization, such as the claim that all swans are white. Conversely, a single observation of a black swan is sufficient to refute the entire hypothesis. This asymmetry between verification and falsification forms the bedrock of modern scientific methodology. However, the perspective of Thomas Kuhn introduced a historical dimension that challenged this purely logical framework. Kuhn proposed that science does not progress via a linear accumulation of truths but rather through periodic paradigm shifts. During periods of normal science, researchers work within a shared conceptual framework, suppressing fundamental contradictions. Only when the accumulation of anomalies becomes untenable does a revolutionary crisis occur, leading to the adoption of a new paradigm. This suggests that the selection of scientific theories is not merely a matter of objective logic but is also influenced by the sociological and psychological state of the scientific community. Therefore, the pursuit of objective truth is mediated by the interpretive lenses of the era. The transition from Newtonian physics to General Relativity serves as a primary example of such a shift, where the very definitions of space and time underwent a radical transformation. Such transformations indicate that scientific knowledge is tentative and subject to the prevailing consensus of the academic collective.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which statement accurately describes the core distinction between the views of Popper and the logical positivists as presented in the passage?",
+							"options": [
+								{
+									"text": "Popper prioritized the rejection of hypotheses over the accumulation of confirming data.",
+									"isCorrect": true
+								},
+								{
+									"text": "The logical positivists believed that universal generalizations could be refuted by a single anomaly.",
+									"isCorrect": false
+								},
+								{
+									"text": "Popper argued that scientific meaning is derived from the psychological state of the researcher.",
+									"isCorrect": false
+								},
+								{
+									"text": "The logical positivists rejected the use of empirical observation in favor of metaphysical speculation.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage states that Popper shifted the focus toward falsifiability, emphasizing that negative observations refute hypotheses while positive ones do not prove them."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can be inferred about the nature of normal science according to the framework of Kuhn?",
+							"options": [
+								{
+									"text": "It involves the systematic marginalization of data that contradicts the dominant theory.",
+									"isCorrect": true
+								},
+								{
+									"text": "It is characterized by a constant state of revolutionary change and logical refinement.",
+									"isCorrect": false
+								},
+								{
+									"text": "It seeks to prove the invalidity of the prevailing paradigm through rigorous testing.",
+									"isCorrect": false
+								},
+								{
+									"text": "It operates independently of the sociological influences of the scientific community.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The text notes that during normal science, researchers work within a framework and suppress fundamental contradictions or anomalies."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The passage implies that the transition from Newtonian physics to General Relativity was significant because it:",
+							"options": [
+								{
+									"text": "Represented a fundamental alteration in the conceptual categories of the discipline.",
+									"isCorrect": true
+								},
+								{
+									"text": "Demonstrated the linear and cumulative nature of progress in the field of physics.",
+									"isCorrect": false
+								},
+								{
+									"text": "Confirmed that the definitions of space and time remain constant across different eras.",
+									"isCorrect": false
+								},
+								{
+									"text": "Proved that the logical positivists were correct about the nature of verification.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage describes this transition as a radical transformation of definitions, illustrating a paradigm shift rather than linear growth."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "As used in the first paragraph, the word demarcation most nearly means:",
+							"options": [
+								{
+									"text": "the establishment of distinct boundaries between concepts",
+									"isCorrect": true
+								},
+								{
+									"text": "the integration of multiple diverse theoretical perspectives",
+									"isCorrect": false
+								},
+								{
+									"text": "the historical evolution of a specific scientific field",
+									"isCorrect": false
+								},
+								{
+									"text": "the rejection of empirical data in favor of logical proof",
+									"isCorrect": false
+								}
+							],
+							"explanation": "Demarcation refers to the act of setting a boundary or distinguishing between science and non-science (metaphysics)."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which choice best describes the rhetorical strategy of the author in the passage?",
+							"options": [
+								{
+									"text": "Contrasting two major philosophical perspectives to illustrate the complexity of scientific progress.",
+									"isCorrect": true
+								},
+								{
+									"text": "Advocating for the superiority of the views of Popper over the historical approach of Kuhn.",
+									"isCorrect": false
+								},
+								{
+									"text": "Chronologically detailing the history of physics from the early twentieth century to the present.",
+									"isCorrect": false
+								},
+								{
+									"text": "Dismissing the relevance of sociological factors in the pursuit of objective scientific truth.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The author presents both the logical approach of Popper and the historical/sociological approach of Kuhn to explore how knowledge is understood."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the primary function of the second paragraph in the context of the entire passage?",
+							"options": [
+								{
+									"text": "To introduce a contextual factor that complicates the purely logical model of science.",
+									"isCorrect": true
+								},
+								{
+									"text": "To provide empirical evidence that supports the falsification theory of Karl Popper.",
+									"isCorrect": false
+								},
+								{
+									"text": "To argue that scientific revolutions are inevitable consequences of the white swan problem.",
+									"isCorrect": false
+								},
+								{
+									"text": "To define the specific criteria that logical positivists used to verify scientific meaning.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The second paragraph introduces Kuhn, whose ideas about paradigms and sociological influence add a layer of complexity to the logical view of Popper."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The argument of the author regarding paradigm shifts would be most weakened if it were shown that:",
+							"options": [
+								{
+									"text": "Scientists consistently integrate contradictory evidence without changing their core frameworks.",
+									"isCorrect": false
+								},
+								{
+									"text": "New paradigms are adopted purely based on the logical superiority of their predictive power.",
+									"isCorrect": true
+								},
+								{
+									"text": "The community of scientists is largely immune to the psychological pressures of their era.",
+									"isCorrect": false
+								},
+								{
+									"text": "The transition between theories in physics occurs much more slowly than Kuhn hypothesized.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "If shifts were purely logical and objective, the claim of Kuhn that they are influenced by sociological and psychological factors would be undermined."
+						}
+					}
+				},
+				{
+					"questionNumber": 8,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which of the following best summarizes the central thesis of the passage?",
+							"options": [
+								{
+									"text": "Scientific knowledge is a dynamic construct shaped by both logical rigor and shifting social frameworks.",
+									"isCorrect": true
+								},
+								{
+									"text": "The principle of falsification provides the only reliable method for achieving objective truth.",
+									"isCorrect": false
+								},
+								{
+									"text": "Paradigms in science are subjective illusions that prevent the discovery of actual physical laws.",
+									"isCorrect": false
+								},
+								{
+									"text": "The history of science proves that verification is a more robust criterion than falsifiability.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage synthesizes the logical view (Popper) and the social/historical view (Kuhn) to describe the nature of scientific knowledge."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "C1",
+				"passageNumber": 2,
+				"wordCount": 285,
+				"topic": "Post-Colonial Theory in Contemporary Literature",
+				"difficulty": 5
+			},
+			"passageText": "Post-colonial theory serves as a critical lens for investigating the enduring legacies of imperial rule on the literary and cultural productions of formerly subjugated regions. Central to this discourse is the concept of the subaltern, a term popularized by Gayatri Chakravorty Spivak to describe populations excluded from the established structures of power and representation. Spivak famously questioned whether the subaltern can speak, suggesting that the very act of translation into the dominant western idiom inevitably distorts the authentic voice of the marginalized. Furthermore, the work of Homi Bhabha introduces the notion of hybridity, which challenges the binary opposition between the colonizer and the colonized. Bhabha argues that the colonial encounter produces a third space where identities are negotiated and blurred, leading to a state of mimicry. Mimicry, in this context, is not a simple imitation of the master but a subversive performance that exposes the flaws and insecurities of the colonial authority. By adopting the language and customs of the colonizer, the colonized subject creates a blurred copy that is almost the same, but not quite. This slight difference generates an underlying sense of unease for the imperial power, as it reveals the fragility of the supposed superiority of the empire. Contemporary post-colonial literature often utilizes these theoretical frameworks to reclaim narratives and deconstruct the Eurocentric perspectives that have historically dominated the global canon. Authors within this tradition employ linguistic experimentation and non-linear structures to reflect the fragmented reality of post-colonial identity. Consequently, the study of such texts requires an awareness of how power dynamics influence the construction of meaning and the portrayal of history.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to the passage, why did Spivak express skepticism regarding the ability of the subaltern to communicate effectively?",
+							"options": [
+								{
+									"text": "The use of dominant linguistic forms inherently alters the original meaning of their message.",
+									"isCorrect": true
+								},
+								{
+									"text": "Marginalized groups lack the necessary educational resources to articulate their own experiences.",
+									"isCorrect": false
+								},
+								{
+									"text": "The subaltern populations prefer to maintain their own traditions rather than engage with the West.",
+									"isCorrect": false
+								},
+								{
+									"text": "Western audiences are fundamentally incapable of empathizing with the struggles of the colonized.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage states that translation into the dominant western idiom distorts the authentic voice of the marginalized."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "It can be inferred from the discussion of Bhabha that mimicry is considered subversive because it:",
+							"options": [
+								{
+									"text": "Highlights the instability of the cultural dominance claimed by the imperial power.",
+									"isCorrect": true
+								},
+								{
+									"text": "Encourages the colonizer to adopt the superior cultural practices of the colonized.",
+									"isCorrect": false
+								},
+								{
+									"text": "Results in the total erasure of the cultural identity of the colonized subject.",
+									"isCorrect": false
+								},
+								{
+									"text": "Forces the colonizer to provide better education and resources to the subject populations.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "Mimicry is described as exposing the flaws and insecurities of the colonial authority by creating a blurred copy."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The concept of the third space in the passage suggests that identity in a colonial context is:",
+							"options": [
+								{
+									"text": "A fluid negotiation rather than a fixed and separate categorization.",
+									"isCorrect": true
+								},
+								{
+									"text": "An inevitable return to the pre-colonial traditions of the indigenous people.",
+									"isCorrect": false
+								},
+								{
+									"text": "A complete assimilation into the values and beliefs of the ruling empire.",
+									"isCorrect": false
+								},
+								{
+									"text": "A geographical area where the colonizer and colonized are strictly segregated.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The third space is where identities are negotiated and blurred, challenging binary oppositions."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which word is closest in meaning to idiom as it is used in the first paragraph?",
+							"options": [
+								{ "text": "mode of expression", "isCorrect": true },
+								{ "text": "traditional proverb", "isCorrect": false },
+								{ "text": "metaphorical speech", "isCorrect": false },
+								{ "text": "social hierarchy", "isCorrect": false }
+							],
+							"explanation": "In this context, idiom refers to the linguistic and cultural framework or way of expressing ideas."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The tone of the author throughout the passage can best be described as:",
+							"options": [
+								{ "text": "analytically objective and scholarly", "isCorrect": true },
+								{ "text": "overtly critical and polemical", "isCorrect": false },
+								{ "text": "dismissive of modern literary trends", "isCorrect": false },
+								{ "text": "nostalgic for the pre-colonial era", "isCorrect": false }
+							],
+							"explanation": "The passage uses formal academic language to explain theoretical concepts without taking a personal or emotional stance."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the primary function of the final paragraph?",
+							"options": [
+								{
+									"text": "To relate theoretical concepts to the practical characteristics of modern literature.",
+									"isCorrect": true
+								},
+								{
+									"text": "To provide a definitive list of authors who exemplify the post-colonial tradition.",
+									"isCorrect": false
+								},
+								{
+									"text": "To argue that linguistic experimentation is unnecessary for deconstructing Eurocentrism.",
+									"isCorrect": false
+								},
+								{
+									"text": "To explain the historical origins of the subaltern populations mentioned earlier.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The final paragraph explains how the theoretical ideas of Bhabha and Spivak are applied in contemporary post-colonial writing."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which of the following would most directly challenge the argument regarding mimicry presented in the passage?",
+							"options": [
+								{
+									"text": "Evidence that colonized subjects adopt imperial customs solely to gain social status.",
+									"isCorrect": true
+								},
+								{
+									"text": "The discovery of colonial records that show an awareness of the fragility of the empire.",
+									"isCorrect": false
+								},
+								{
+									"text": "A literary analysis showing that many post-colonial authors use linear structures.",
+									"isCorrect": false
+								},
+								{
+									"text": "Proof that the subaltern can indeed speak without the help of western translators.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "If mimicry is done solely for status, it loses its subversive character and its function as a critique of colonial authority."
+						}
+					}
+				},
+				{
+					"questionNumber": 8,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which statement best restates the central thesis of the passage?",
+							"options": [
+								{
+									"text": "Post-colonial theory explores how the nuances of power and identity are reflected and contested in literature.",
+									"isCorrect": true
+								},
+								{
+									"text": "The primary goal of post-colonial authors is the complete rejection of western language and idioms.",
+									"isCorrect": false
+								},
+								{
+									"text": "Imperial rule had a negligible impact on the psychological development of colonized populations.",
+									"isCorrect": false
+								},
+								{
+									"text": "Mimicry is a failed attempt by the colonized to achieve the cultural status of the colonizer.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage explores theoretical tools like the subaltern and hybridity to understand literary representations of post-colonial life."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "C1",
+				"passageNumber": 3,
+				"wordCount": 272,
+				"topic": "Neuroeconomics and Rational Choice Theory",
+				"difficulty": 5
+			},
+			"passageText": "The emergence of neuroeconomics represents a significant departure from the traditional axioms of rational choice theory. For decades, neoclassical economics operated on the assumption of Homo economicus—a hypothetical agent who makes decisions by maximizing utility through perfect logical deduction. However, empirical findings from neuroscience indicate that the decision-making process is far more convoluted and biologically constrained. Neuroeconomics utilizes functional magnetic resonance imaging to observe the brain in real time during economic tasks, revealing a tension between different neural systems. The dual-process model suggests that choices are the result of a competition between the reflexive, emotional responses of the limbic system and the reflective, analytical computations of the prefrontal cortex. When individuals face immediate rewards, the dopaminergic pathways of the brain often override long-term strategic considerations, leading to hyperbolic discounting. This phenomenon explains why people frequently make choices that are detrimental to their future selves, such as failing to save for retirement despite recognizing the necessity of doing so. Furthermore, the influence of hormones like oxytocin on trust and social cooperation demonstrates that economic behavior is not merely a product of cold calculation but is deeply embedded in the social biology of the species. By integrating biological data into economic models, researchers can better account for the deviations from rationality that were previously dismissed as noise. This interdisciplinary approach suggests that a truly comprehensive theory of economics must acknowledge the physiological mechanisms that govern human preference. Consequently, the boundary between the hard sciences and the social sciences is becoming increasingly permeable, fostering a more nuanced understanding of human agency.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to the passage, what is the primary limitation of the Homo economicus model?",
+							"options": [
+								{
+									"text": "It fails to account for the biological constraints that influence human decision-making.",
+									"isCorrect": true
+								},
+								{
+									"text": "It overestimates the role of the limbic system in the strategic planning of individuals.",
+									"isCorrect": false
+								},
+								{
+									"text": "It ignores the fact that most people save too much money for their retirement.",
+									"isCorrect": false
+								},
+								{
+									"text": "It relies too heavily on functional magnetic resonance imaging to explain behavior.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage argues that traditional economics assumes perfect logic, ignoring biological factors found by neuroeconomics."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "It can be inferred from the discussion of hyperbolic discounting that:",
+							"options": [
+								{
+									"text": "Temporal proximity to a reward can stimulate impulsive neural pathways.",
+									"isCorrect": true
+								},
+								{
+									"text": "The prefrontal cortex is the primary driver of immediate gratification responses.",
+									"isCorrect": false
+								},
+								{
+									"text": "Economic agents always prefer larger future rewards over smaller current ones.",
+									"isCorrect": false
+								},
+								{
+									"text": "The dopaminergic system is irrelevant to the decision-making of the agent.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "Hyperbolic discounting refers to choosing immediate rewards over long-term ones, driven by dopaminergic pathways."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the passage imply about the relationship between oxytocin and economic behavior?",
+							"options": [
+								{
+									"text": "Biological factors can facilitate cooperative actions that rational logic might not predict.",
+									"isCorrect": true
+								},
+								{
+									"text": "The presence of hormones makes economic transactions more difficult to complete.",
+									"isCorrect": false
+								},
+								{
+									"text": "Trust is a purely cognitive construct that has no basis in the physiology of the brain.",
+									"isCorrect": false
+								},
+								{
+									"text": "Oxytocin inhibits the ability of the prefrontal cortex to perform analytical computations.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage notes oxytocin influences trust and cooperation, showing behavior is not just cold calculation."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "As used in the passage, the word permeable most nearly means:",
+							"options": [
+								{ "text": "allowing for the exchange of ideas and methodologies", "isCorrect": true },
+								{ "text": "becoming more rigid and clearly defined over time", "isCorrect": false },
+								{
+									"text": "losing the ability to provide accurate scientific data",
+									"isCorrect": false
+								},
+								{
+									"text": "preventing the integration of different academic disciplines",
+									"isCorrect": false
+								}
+							],
+							"explanation": "Permeable here means that the boundaries between sciences are fading, allowing for interdisciplinary work."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The rhetorical purpose of the author in mentioning functional magnetic resonance imaging is to:",
+							"options": [
+								{
+									"text": "Cite a specific technological advancement that validates the neuroeconomic approach.",
+									"isCorrect": true
+								},
+								{
+									"text": "Argue that economics should be classified as a branch of medicine rather than social science.",
+									"isCorrect": false
+								},
+								{
+									"text": "Demonstrate that the findings of neoclassical economics are entirely fraudulent.",
+									"isCorrect": false
+								},
+								{
+									"text": "Suggest that the prefrontal cortex is the only important area for economic theory.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "fMRI is mentioned as the tool that allows neuroeconomics to observe brain activity, grounding the field in physical data."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the function of the sentence describing the dual-process model?",
+							"options": [
+								{
+									"text": "It explains the internal conflict that leads to irrational economic choices.",
+									"isCorrect": true
+								},
+								{
+									"text": "It provides a historical account of the development of rational choice theory.",
+									"isCorrect": false
+								},
+								{
+									"text": "It proves that the limbic system is more important than the prefrontal cortex.",
+									"isCorrect": false
+								},
+								{
+									"text": "It identifies the specific hormones that are responsible for financial risk-taking.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The dual-process model describes the competition between emotional and analytical systems, explaining why rational choices are not always made."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which evidence would most likely lead to a critical evaluation of the neuroeconomic claims made in the passage?",
+							"options": [
+								{
+									"text": "A study showing that brain activity during imaging does not reliably predict market behavior.",
+									"isCorrect": true
+								},
+								{
+									"text": "Data indicating that oxytocin levels are higher in social interactions than in solitary ones.",
+									"isCorrect": false
+								},
+								{
+									"text": "Finding that some individuals are better at strategic planning than others.",
+									"isCorrect": false
+								},
+								{
+									"text": "The realization that the prefrontal cortex is involved in many non-economic tasks.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "If brain imaging does not predict behavior, the core premise that neural data improves economic models is weakened."
+						}
+					}
+				},
+				{
+					"questionNumber": 8,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which of the following is the best restatement of the central thesis?",
+							"options": [
+								{
+									"text": "Neuroeconomics integrates biological insights to provide a more accurate model of human economic behavior.",
+									"isCorrect": true
+								},
+								{
+									"text": "The emotional responses of the limbic system make the study of economics impossible.",
+									"isCorrect": false
+								},
+								{
+									"text": "Traditional economics is superior because it ignores the noise of biological hormones.",
+									"isCorrect": false
+								},
+								{
+									"text": "The prefrontal cortex is the biological equivalent of the Homo economicus agent.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage argues that by acknowledging physiological mechanisms, the field creates a more comprehensive and nuanced theory."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "C1",
+				"passageNumber": 4,
+				"wordCount": 268,
+				"topic": "The Semiotics of Digital Communication",
+				"difficulty": 5
+			},
+			"passageText": "The semiotics of digital communication reveals a profound shift in how meaning is constructed and disseminated in the contemporary era. Traditional semiotics, as established by Ferdinand de Saussure, posits that the sign consists of a signifier and a signified, with the relationship between them being largely arbitrary. However, the rise of digital platforms has introduced new layers of complexity through the use of multimodality. In the digital realm, the sign is no longer confined to linguistic text; it encompasses images, emojis, and hypertextual links that interact in a non-linear fashion. This proliferation of visual signifiers has led to a compression of language, where a single pictograph can convey complex emotional states or social connotations that would previously require multiple sentences. Critics argue that this leads to a reduction in the precision of language, as the nuance of the written word is replaced by the ambiguity of the image. Conversely, proponents suggest that digital semiotics enhances communication by allowing for more immediate and affective expression. The use of memes, for instance, represents a form of cultural shorthand that relies on intertextual knowledge to create meaning. To understand a meme, the viewer must be familiar with the original context of the image and the specific way it has been repurposed by the internet community. This reliance on shared cultural codes indicates that digital communication is not merely a technical process but a deeply social one. As these digital signs become more pervasive, they reshape the cognitive habits of the user, prioritizing rapid recognition over deep reflection. Thus, the study of digital semiotics provides insight into the evolution of the human symbolic system.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to the passage, how does multimodality in digital communication differ from traditional semiotic signs?",
+							"options": [
+								{
+									"text": "It integrates diverse forms of media into a single communicative act.",
+									"isCorrect": true
+								},
+								{
+									"text": "It relies exclusively on the arbitrary nature of the linguistic signifier.",
+									"isCorrect": false
+								},
+								{
+									"text": "It simplifies the relationship between the signifier and the signified.",
+									"isCorrect": false
+								},
+								{
+									"text": "It prevents the use of images and emojis in the construction of meaning.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage states that multimodality involves text, images, and links interacting together."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the author imply about the use of memes as a form of communication?",
+							"options": [
+								{
+									"text": "Their meaning is dependent on the ability of the recipient to recognize cultural references.",
+									"isCorrect": true
+								},
+								{
+									"text": "They are a primitive form of sign that will eventually be replaced by more complex text.",
+									"isCorrect": false
+								},
+								{
+									"text": "They reduce the need for social interaction by providing a universal language.",
+									"isCorrect": false
+								},
+								{
+									"text": "They are primarily used to simplify technical information for a general audience.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The text mentions that understanding a meme requires familiarity with the original context and shared cultural codes."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The passage suggests that the compression of language in digital spaces results in:",
+							"options": [
+								{
+									"text": "A potential loss of detail in exchange for more efficient emotional delivery.",
+									"isCorrect": true
+								},
+								{
+									"text": "An absolute increase in the intellectual depth of modern social discourse.",
+									"isCorrect": false
+								},
+								{
+									"text": "A complete rejection of the theories of Ferdinand de Saussure by the public.",
+									"isCorrect": false
+								},
+								{
+									"text": "The elimination of ambiguity in the way people express themselves online.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "Critics in the passage argue that replacing words with images leads to a reduction in precision and increased ambiguity."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which word is closest in meaning to pervasive as it is used in the final paragraph?",
+							"options": [
+								{ "text": "widespread and influential", "isCorrect": true },
+								{ "text": "obscure and difficult to find", "isCorrect": false },
+								{ "text": "technical and specialized", "isCorrect": false },
+								{ "text": "temporary and insignificant", "isCorrect": false }
+							],
+							"explanation": "Pervasive describes something that is present everywhere or spreading throughout."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the author rhetorical stance regarding the impact of digital semiotics on cognitive habits?",
+							"options": [
+								{
+									"text": "Cautions and evaluative, noting a shift toward immediacy over depth.",
+									"isCorrect": true
+								},
+								{
+									"text": "Enthusiastically supportive of the increased speed of communication.",
+									"isCorrect": false
+								},
+								{
+									"text": "Deeply pessimistic, suggesting that deep reflection has been destroyed.",
+									"isCorrect": false
+								},
+								{
+									"text": "Neutral and indifferent, focusing only on the technical aspects of the sign.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The author notes that digital signs prioritize rapid recognition over deep reflection, indicating an evaluative stance on the cognitive shift."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How does paragraph 1 establish the foundation for the rest of the passage?",
+							"options": [
+								{
+									"text": "By contrasting a traditional linguistic theory with the complexities of modern digital signs.",
+									"isCorrect": true
+								},
+								{
+									"text": "By providing a detailed biography of the semiotician Ferdinand de Saussure.",
+									"isCorrect": false
+								},
+								{
+									"text": "By arguing that emojis are the most important development in the history of language.",
+									"isCorrect": false
+								},
+								{
+									"text": "By dismissing the arbitrary relationship between the signifier and the signified.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The paragraph introduces Saussure's classic model and then explains how digital multimodality complicates it."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The claim that digital communication is a deeply social process would be best supported by which observation?",
+							"options": [
+								{
+									"text": "Meaning is generated through collective familiarity with context and repurposing.",
+									"isCorrect": true
+								},
+								{
+									"text": "Images can be transmitted across the globe in a matter of seconds using fiber optics.",
+									"isCorrect": false
+								},
+								{
+									"text": "Users of digital platforms often spend many hours alone in front of a screen.",
+									"isCorrect": false
+								},
+								{
+									"text": "The technical architecture of the internet allows for non-linear browsing.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage links the social aspect to the reliance on shared cultural codes and the internet community's role in creating meaning."
+						}
+					}
+				},
+				{
+					"questionNumber": 8,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which of the following represents the most accurate synthesis of the central thesis?",
+							"options": [
+								{
+									"text": "Digital communication transforms the symbolic system by integrating multimodal signifiers that reshape cognition.",
+									"isCorrect": true
+								},
+								{
+									"text": "The theories of Saussure are completely irrelevant to the study of modern digital platforms.",
+									"isCorrect": false
+								},
+								{
+									"text": "Language is becoming more precise as emojis replace the need for confusing written sentences.",
+									"isCorrect": false
+								},
+								{
+									"text": "Memes are the primary cause of the decline of deep reflection in the modern era.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage discusses how digital signs (multimodality) change meaning-making and affect cognitive habits."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "C1",
+				"passageNumber": 5,
+				"wordCount": 275,
+				"topic": "Institutional Trust in Democratic Societies",
+				"difficulty": 5
+			},
+			"passageText": "The erosion of institutional trust poses a significant challenge to the stability of contemporary democratic societies. Trust in institutions, such as the judiciary, the press, and the legislative branches, serves as the social glue that ensures compliance with the law and the peaceful resolution of conflict. However, recent data suggests a pervasive decline in this trust, often attributed to the increasing polarization of the political landscape. When citizens perceive that institutions are no longer impartial arbiters but are instead captured by partisan interests, the legitimacy of the system is undermined. This perception is frequently exacerbated by the fragmentation of the media environment, where the echo chamber effect reinforces existing biases and fosters suspicion of alternative viewpoints. Furthermore, the perceived inability of democratic institutions to address systemic issues, such as economic inequality or climate change, contributes to a sense of alienation among the populace. This alienation can lead to the rise of populist movements that promise to dismantle the established order in favor of more direct and often less accountable forms of power. While some theorists argue that a healthy skepticism of authority is necessary for a functioning democracy, the transition from skepticism to cynical distrust can be corrosive. Without a baseline level of trust, the deliberative processes that are essential for democratic governance become impossible, leading to gridlock and social fragmentation. Therefore, the restoration of institutional trust requires not only structural reforms but also a renewed commitment to transparency and inclusivity. Addressing the root causes of this decline is essential for the long-term viability of the democratic project.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to the passage, why does the perception of institutions as partisan interests threaten democratic stability?",
+							"options": [
+								{
+									"text": "It diminishes the perceived legitimacy of the governing system.",
+									"isCorrect": true
+								},
+								{
+									"text": "It forces the judiciary to make decisions that are illegal and unconstitutional.",
+									"isCorrect": false
+								},
+								{
+									"text": "It encourages the media to provide more objective and balanced coverage.",
+									"isCorrect": false
+								},
+								{
+									"text": "It ensures that only populist movements can win elections in the future.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage states that when institutions are seen as partisan, the legitimacy of the system is undermined."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can be inferred from the mention of the echo chamber effect in the media environment?",
+							"options": [
+								{
+									"text": "Information consumption patterns are increasingly isolating citizens from diverse perspectives.",
+									"isCorrect": true
+								},
+								{
+									"text": "The media is becoming more efficient at exposing the corruption of political leaders.",
+									"isCorrect": false
+								},
+								{
+									"text": "Citizens are becoming more critical of their own biases as they consume more digital news.",
+									"isCorrect": false
+								},
+								{
+									"text": "The legislative branch has no influence over the way news is disseminated to the public.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The text explains that the echo chamber reinforces existing biases and fosters suspicion of alternative viewpoints."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The passage implies that populist movements are often a reaction to:",
+							"options": [
+								{
+									"text": "A perceived failure of established institutions to solve profound social and economic problems.",
+									"isCorrect": true
+								},
+								{
+									"text": "An excess of transparency and inclusivity in the current legislative processes.",
+									"isCorrect": false
+								},
+								{
+									"text": "The healthy skepticism that is naturally present in any functioning democratic society.",
+									"isCorrect": false
+								},
+								{
+									"text": "The refusal of the judiciary to engage in partisan political activities.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage links alienation from the inability to address systemic issues to the rise of populist movements."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which word is closest in connotation to corrosive as it is used in the second paragraph?",
+							"options": [
+								{ "text": "gradually destructive", "isCorrect": true },
+								{ "text": "unexpectedly beneficial", "isCorrect": false },
+								{ "text": "highly efficient", "isCorrect": false },
+								{ "text": "logically consistent", "isCorrect": false }
+							],
+							"explanation": "In this context, corrosive refers to the damaging effect that cynical distrust has on the social fabric."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the tone of the author regarding the transition from skepticism to cynical distrust?",
+							"options": [
+								{
+									"text": "Concerned and cautionary about the risks to governance.",
+									"isCorrect": true
+								},
+								{
+									"text": "Optimistic that cynicism will lead to better structural reforms.",
+									"isCorrect": false
+								},
+								{
+									"text": "Indifferent, as both are natural parts of the political process.",
+									"isCorrect": false
+								},
+								{
+									"text": "Mocking toward those who believe institutions can be reformed.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The author warns that cynical distrust is corrosive and makes deliberative processes impossible."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the logical function of the first paragraph of the passage?",
+							"options": [
+								{
+									"text": "To define institutional trust and identify the primary factors contributing to its decline.",
+									"isCorrect": true
+								},
+								{
+									"text": "To argue that the judiciary is the only institution that still maintains public legitimacy.",
+									"isCorrect": false
+								},
+								{
+									"text": "To dismiss the impact of economic inequality on the stability of democratic nations.",
+									"isCorrect": false
+								},
+								{
+									"text": "To provide statistical evidence from a specific study on voter turnout and trust.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The first paragraph sets up the importance of trust and lists polarization and media fragmentation as causes for its erosion."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The conclusion of the author would be most significantly weakened if it were found that:",
+							"options": [
+								{
+									"text": "Societies with very low institutional trust can still maintain high levels of legislative productivity.",
+									"isCorrect": true
+								},
+								{
+									"text": "Transparency and inclusivity have no measurable effect on the satisfaction of the voters.",
+									"isCorrect": false
+								},
+								{
+									"text": "Populist movements are primarily driven by the charismatic personality of a single leader.",
+									"isCorrect": false
+								},
+								{
+									"text": "Economic inequality is more important than institutional trust for democratic stability.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "If a society can function and pass laws (productivity) without trust, the claim that trust is essential for governance is weakened."
+						}
+					}
+				},
+				{
+					"questionNumber": 8,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which of the following is the best restatement of the central thesis of the passage?",
+							"options": [
+								{
+									"text": "The survival of democracy depends on overcoming polarization to rebuild trust in shared institutions.",
+									"isCorrect": true
+								},
+								{
+									"text": "Populism is the only effective way to address the corruption of modern democratic systems.",
+									"isCorrect": false
+								},
+								{
+									"text": "Institutional trust is a secondary concern compared to the fragmentation of the media landscape.",
+									"isCorrect": false
+								},
+								{
+									"text": "Skepticism of authority is the primary reason why democratic societies are currently in crisis.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage emphasizes that declining trust (due to polarization/alienation) is a major challenge that must be addressed for democracy to survive."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "C1",
+				"passageNumber": 6,
+				"wordCount": 265,
+				"topic": "The Philosophy of Personal Identity",
+				"difficulty": 5
+			},
+			"passageText": "The question of what constitutes personal identity over time remains one of the most enduring puzzles in philosophy. Traditionally, two competing theories have dominated the debate: the psychological continuity theory and the physicalist approach. The psychological continuity theory, often associated with John Locke, posits that identity is defined by the persistence of consciousness and memory. According to this view, if a person can remember the thoughts and actions of a past self, they are the same person. This leads to the famous thought experiment involving a prince and a cobbler whose minds are swapped; the person with the body of the cobbler but the memories of the prince would, in a psychological sense, remain the prince. Conversely, physicalism argues that personal identity is rooted in the continuous existence of the biological organism. From this perspective, the person is the body, and the continuity of the brain and its physical structures is what ensures that the individual remains the same over the course of a lifetime. However, contemporary philosophers like Derek Parfit have challenged both views by suggesting that personal identity may not be what actually matters. Parfit argues that what we value is not the survival of a specific ego but rather the degree of psychological connectedness and relevance between different stages of a life. This reductionist view suggests that the self is not a discrete entity but a collection of overlapping mental states. Consequently, the boundaries of the self are more porous than traditional accounts suggest, raising profound questions about moral responsibility and the nature of the future self.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to the passage, the psychological continuity theory defines identity based on:",
+							"options": [
+								{
+									"text": "The ongoing link between present consciousness and past experiences.",
+									"isCorrect": true
+								},
+								{
+									"text": "The physical persistence of the brain and its biological components.",
+									"isCorrect": false
+								},
+								{
+									"text": "The social recognition of an individual by the surrounding community.",
+									"isCorrect": false
+								},
+								{
+									"text": "The successful exchange of minds between different physical bodies.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage states that identity in this theory is defined by the persistence of consciousness and memory."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can be inferred from the prince and cobbler thought experiment mentioned in the text?",
+							"options": [
+								{
+									"text": "Mental data is considered more vital for identity than physical form in the Lockean view.",
+									"isCorrect": true
+								},
+								{
+									"text": "Physical swaps are biologically impossible even within the context of philosophy.",
+									"isCorrect": false
+								},
+								{
+									"text": "The cobbler will eventually forget the memories of the prince over time.",
+									"isCorrect": false
+								},
+								{
+									"text": "Locke intended to prove that the physical body is the only source of the self.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The experiment shows that if the prince's memories are in the cobbler's body, the person is still the prince, meaning the mind is the key to identity."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The reductionist view of Derek Parfit suggests that the concept of a discrete self is:",
+							"options": [
+								{
+									"text": "An inaccurate interpretation of how mental states actually overlap.",
+									"isCorrect": true
+								},
+								{
+									"text": "The only way to ensure that people are held morally responsible for their actions.",
+									"isCorrect": false
+								},
+								{
+									"text": "A necessary biological requirement for the survival of the human species.",
+									"isCorrect": false
+								},
+								{
+									"text": "A more robust foundation for identity than the physicalist approach.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "Parfit argues that the self is not a discrete entity but a collection of overlapping mental states."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "As used in the passage, the word porous most nearly means:",
+							"options": [
+								{ "text": "undefined and easily permeated", "isCorrect": true },
+								{ "text": "solid and structurally sound", "isCorrect": false },
+								{ "text": "physically damaged or broken", "isCorrect": false },
+								{ "text": "exclusively based on biology", "isCorrect": false }
+							],
+							"explanation": "Porous indicates that the boundaries are not fixed or clear, allowing for overlap or change."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which rhetorical strategy does the author use to explore the topic of personal identity?",
+							"options": [
+								{
+									"text": "Presenting established theories before introducing a contemporary critique that reframes the issue.",
+									"isCorrect": true
+								},
+								{
+									"text": "Focusing solely on the biological evidence for physicalism to dismiss other theories.",
+									"isCorrect": false
+								},
+								{
+									"text": "Using emotional anecdotes from modern medical cases to prove the Lockean perspective.",
+									"isCorrect": false
+								},
+								{
+									"text": "Argue that all philosophical questions about the self are inherently impossible to answer.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The author introduces Locke and physicalism, then uses Parfit's reductionism to question the importance of identity itself."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the primary function of the sentence describing the physicalist perspective?",
+							"options": [
+								{
+									"text": "To offer a biological alternative to the mentalistic definition of the self.",
+									"isCorrect": true
+								},
+								{
+									"text": "To demonstrate that memory is an unreliable basis for legal responsibility.",
+									"isCorrect": false
+								},
+								{
+									"text": "To support the thought experiments used by John Locke in the seventeenth century.",
+									"isCorrect": false
+								},
+								{
+									"text": "To argue that the prefrontal cortex is the only organ responsible for identity.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The physicalist view provides the contrast to the psychological view by rooting identity in the body/organism."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The reductionist view of Parfit would be most challenged by an argument stating that:",
+							"options": [
+								{
+									"text": "Moral obligation requires a single, persistent entity to be held accountable over time.",
+									"isCorrect": true
+								},
+								{
+									"text": "Mental states are frequently overlapping and interconnected between different people.",
+									"isCorrect": false
+								},
+								{
+									"text": "The survival of the body is not the most important factor in the survival of the person.",
+									"isCorrect": false
+								},
+								{
+									"text": "Memory is a biological process that occurs within the physical structures of the brain.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "If moral responsibility requires a discrete self, then Parfit's idea of a non-discrete self would be problematic for ethical systems."
+						}
+					}
+				},
+				{
+					"questionNumber": 8,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which statement provides the best restatement of the central thesis?",
+							"options": [
+								{
+									"text": "Personal identity is a complex concept that can be defined by mental continuity, physicalism, or reductionist states.",
+									"isCorrect": true
+								},
+								{
+									"text": "John Locke proved that the mind and the body are two completely separate and unrelated entities.",
+									"isCorrect": false
+								},
+								{
+									"text": "Derek Parfit has successfully replaced all previous theories of identity with a more accurate biological model.",
+									"isCorrect": false
+								},
+								{
+									"text": "The persistence of consciousness is the only scientifically valid way to define who a person is.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage outlines the different philosophical approaches to defining personal identity over time."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "C1",
+				"passageNumber": 7,
+				"wordCount": 270,
+				"topic": "Ecological Economics versus Environmental Economics",
+				"difficulty": 5
+			},
+			"passageText": "The distinction between ecological economics and environmental economics reflects a fundamental disagreement over the relationship between human activity and the natural world. Environmental economics operates primarily within the neoclassical framework, treating the environment as a subset of the economy. It seeks to address issues like pollution and resource depletion by internalizing externalities—assigning a monetary value to the ecosystem services that are often ignored by the market. Through tools such as carbon taxes and cap-and-trade systems, environmental economics attempts to achieve an optimal balance between industrial growth and ecological preservation. In contrast, ecological economics views the economy as a subset of the global ecosystem, which is governed by immutable thermodynamic laws. This perspective emphasizes that infinite economic growth is impossible on a finite planet with limited resources. While environmental economists focus on marginal utility and market efficiency, ecological economists prioritize sustainability and the scale of the human footprint. They argue that the primary goal should not be the maximization of gross domestic product but the maintenance of the biocapacity of the Earth. Furthermore, ecological economics advocates for a steady-state economy, where resource throughput is minimized to stay within planetary boundaries. This divergence has significant implications for policy, as it determines whether the solution to environmental crises should involve the refinement of market mechanisms or a radical restructuring of the global economic order. Consequently, the choice between these two schools of thought influences how societies conceptualize the future of progress and the limits of human intervention.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to the passage, environmental economics seeks to solve ecological problems by:",
+							"options": [
+								{
+									"text": "Incorporating the cost of environmental damage into the existing market prices.",
+									"isCorrect": true
+								},
+								{
+									"text": "Abolishing the gross domestic product as a measure of national success.",
+									"isCorrect": false
+								},
+								{
+									"text": "Prioritizing the thermodynamic laws over the principles of market efficiency.",
+									"isCorrect": false
+								},
+								{
+									"text": "Restructuring the global economy to achieve a steady-state system.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage states that environmental economics internalizes externalities by assigning monetary value to services."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "It can be inferred that ecological economists would be most critical of which economic assumption?",
+							"options": [
+								{
+									"text": "The belief that technological innovation can enable perpetual industrial expansion.",
+									"isCorrect": true
+								},
+								{
+									"text": "The idea that carbon taxes are an effective way to reduce the emissions of greenhouse gases.",
+									"isCorrect": false
+								},
+								{
+									"text": "The claim that the environment provides valuable services to the human population.",
+									"isCorrect": false
+								},
+								{
+									"text": "The use of monetary value to compare the benefits of different industrial projects.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "Ecological economists argue that infinite growth is impossible on a finite planet, challenging the idea of perpetual expansion."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The passage implies that the concept of a steady-state economy is primarily concerned with:",
+							"options": [
+								{
+									"text": "Limiting the consumption of resources to ensure they do not exceed the capacity of the planet.",
+									"isCorrect": true
+								},
+								{
+									"text": "Maximizing the efficiency of the market to ensure the highest possible growth rate.",
+									"isCorrect": false
+								},
+								{
+									"text": "Increasing the throughput of materials to stimulate the global financial markets.",
+									"isCorrect": false
+								},
+								{
+									"text": "Encouraging individuals to invest in the green technology sector for personal profit.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "A steady-state economy involves minimizing resource throughput to stay within planetary boundaries."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which word is closest in meaning to externalities as it is used in the first paragraph?",
+							"options": [
+								{ "text": "unintended side effects of economic activity", "isCorrect": true },
+								{
+									"text": "external sources of funding for environmental projects",
+									"isCorrect": false
+								},
+								{ "text": "foreign markets that trade in natural resources", "isCorrect": false },
+								{ "text": "laws that govern the behavior of the ecosystem", "isCorrect": false }
+							],
+							"explanation": "Externalities are the costs or benefits of an activity that affect other parties but are not reflected in market prices."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the author rhetorical approach in comparing the two schools of economic thought?",
+							"options": [
+								{
+									"text": "Delineating their foundational differences to highlight the underlying philosophical conflict.",
+									"isCorrect": true
+								},
+								{
+									"text": "Advocating for the environmental model as the only practical solution for modern crises.",
+									"isCorrect": false
+								},
+								{
+									"text": "Criticizing both schools for failing to account for the role of social justice in ecology.",
+									"isCorrect": false
+								},
+								{
+									"text": "Suggesting that the two schools are identical in their goals and methodologies.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The author contrasts the subsets, thermodynamic laws, and goals of each to show how they differ fundamentally."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How does the second paragraph of the passage contribute to the overall argument?",
+							"options": [
+								{
+									"text": "It introduces a radical paradigm that challenges the assumptions of the first paragraph.",
+									"isCorrect": true
+								},
+								{
+									"text": "It provides historical evidence for the success of carbon taxes in European nations.",
+									"isCorrect": false
+								},
+								{
+									"text": "It explains the technical process of how ecosystem services are given a monetary value.",
+									"isCorrect": false
+								},
+								{
+									"text": "It argues that the gross domestic product is the most reliable indicator of biocapacity.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The second paragraph introduces ecological economics, which takes a fundamentally different view of the relationship between economy and ecosystem."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The position of the ecological economist would be most undermined if it were shown that:",
+							"options": [
+								{
+									"text": "Material consumption can be fully decoupled from economic growth through technology.",
+									"isCorrect": true
+								},
+								{
+									"text": "The global population is likely to decrease significantly in the next century.",
+									"isCorrect": false
+								},
+								{
+									"text": "Carbon taxes are more popular with the public than a steady-state economy.",
+									"isCorrect": false
+								},
+								{
+									"text": "Planetary boundaries are more flexible than currently believed by scientists.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "If growth can happen without resource use (decoupling), the claim that growth is limited by finite resources is weakened."
+						}
+					}
+				},
+				{
+					"questionNumber": 8,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which statement best restates the central thesis of the passage?",
+							"options": [
+								{
+									"text": "The divergence between environmental and ecological economics centers on whether the economy is a subset of the ecosystem or vice versa.",
+									"isCorrect": true
+								},
+								{
+									"text": "Neoclassical economics is the only discipline capable of addressing the threat of climate change.",
+									"isCorrect": false
+								},
+								{
+									"text": "Market-based solutions like carbon taxes are destined to fail because they ignore thermodynamic laws.",
+									"isCorrect": false
+								},
+								{
+									"text": "A steady-state economy is a theoretical impossibility due to the human desire for infinite growth.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The core of the passage is the comparison of these two perspectives based on their foundational view of the environment/economy relationship."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "C1",
+				"passageNumber": 8,
+				"wordCount": 280,
+				"topic": "Algorithmic Bias and Systemic Inequality",
+				"difficulty": 5
+			},
+			"passageText": "The integration of automated decision systems into the public and private sectors has brought the issue of algorithmic bias to the forefront of social justice debates. While algorithms are often promoted as objective and neutral alternatives to human prejudice, they are frequently trained on datasets that reflect historical inequalities. When an algorithm is designed to predict creditworthiness or recidivism, it may inadvertently learn to associate certain demographic characteristics with risk, simply because those characteristics were correlated with negative outcomes in the past. This creates a feedback loop where the mathematical model reinforces systemic biases, rather than eliminating them. Furthermore, the black box nature of many machine learning systems makes it difficult for individuals to challenge the decisions that affect their lives. Because the underlying logic of the algorithm is often proprietary or too complex for human interpretation, the transparency that is required for accountability is absent. Critics argue that the use of such systems in the criminal justice system or the labor market can result in a form of technological redlining, where marginalized groups are systematically denied opportunities based on the statistical profiles of their communities. To mitigate these risks, researchers are calling for a more interdisciplinary approach to computer science that incorporates ethical considerations and sociological data. They argue that the design of the algorithm is not a purely technical task but is also a social and political one. Ensuring that automated systems promote equity requires a conscious effort to identify and correct the biases that are embedded in the data and the code. Thus, the pursuit of algorithmic fairness is essential for the protection of civil rights in a data-driven society.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to the passage, why do algorithms often fail to be the objective tools they are intended to be?",
+							"options": [
+								{
+									"text": "They are developed using data that contains the prejudices of the past.",
+									"isCorrect": true
+								},
+								{
+									"text": "They are intentionally programmed by computer scientists to be unfair to certain groups.",
+									"isCorrect": false
+								},
+								{
+									"text": "They lack the mathematical complexity required to make accurate predictions.",
+									"isCorrect": false
+								},
+								{
+									"text": "They are only used in sectors where human prejudice is not a significant factor.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The text states that algorithms are trained on datasets that reflect historical inequalities."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The term black box is used to characterize the fact that machine learning systems:",
+							"options": [
+								{
+									"text": "Operate through processes that are not easily understood or scrutinized by humans.",
+									"isCorrect": true
+								},
+								{
+									"text": "Are physically encased in hardware that is difficult for technicians to repair.",
+									"isCorrect": false
+								},
+								{
+									"text": "Exclusively use data from the criminal justice system to make decisions.",
+									"isCorrect": false
+								},
+								{
+									"text": "Always result in the denial of credit to members of marginalized communities.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage explains that the logic of the algorithm is proprietary or too complex for interpretation, preventing transparency."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "It can be inferred from the discussion of technological redlining that algorithms:",
+							"options": [
+								{
+									"text": "Can perpetuate the same types of discrimination that were historically used in banking.",
+									"isCorrect": true
+								},
+								{
+									"text": "Are effective at identifying the specific individuals who are likely to commit crimes.",
+									"isCorrect": false
+								},
+								{
+									"text": "Help to increase the transparency of the labor market for marginalized workers.",
+									"isCorrect": false
+								},
+								{
+									"text": "Require only technical improvements to become perfectly fair and objective.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "Redlining is a historical discriminatory practice; the text uses the term to describe how algorithms deny opportunities to marginalized groups."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "As used in the passage, the word proprietary most nearly means:",
+							"options": [
+								{ "text": "protected by copyright or ownership", "isCorrect": true },
+								{ "text": "widely available for public use", "isCorrect": false },
+								{ "text": "too expensive for most researchers", "isCorrect": false },
+								{ "text": "flawed and logically inconsistent", "isCorrect": false }
+							],
+							"explanation": "Proprietary refers to the fact that the code belongs to a company and is kept secret."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the tone of the author regarding the current state of automated decision systems?",
+							"options": [
+								{
+									"text": "Analytically critical and concerned about social consequences.",
+									"isCorrect": true
+								},
+								{
+									"text": "Indifferent, focusing merely on the mathematical efficiency of code.",
+									"isCorrect": false
+								},
+								{
+									"text": "Enthusiastically supportive of the technological removal of human bias.",
+									"isCorrect": false
+								},
+								{
+									"text": "Skeptical that any form of technology can ever be used in the labor market.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The author highlights the risks of bias, the lack of transparency, and the need for ethical intervention."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the primary function of the third paragraph in the passage?",
+							"options": [
+								{
+									"text": "To suggest a multidimensional solution to the problem of algorithmic bias.",
+									"isCorrect": true
+								},
+								{
+									"text": "To provide a detailed history of redlining practices in the United States.",
+									"isCorrect": false
+								},
+								{
+									"text": "To argue that computer science should remain a purely technical discipline.",
+									"isCorrect": false
+								},
+								{
+									"text": "To list the specific machine learning models that are most prone to error.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The paragraph discusses the call for an interdisciplinary approach that includes ethics and sociology."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The argument that algorithms can be social and political tasks would be most weakened if:",
+							"options": [
+								{
+									"text": "Mathematical logic were found to be completely independent of the data it processes.",
+									"isCorrect": true
+								},
+								{
+									"text": "Human judges were found to be more biased than the automated systems they use.",
+									"isCorrect": false
+								},
+								{
+									"text": "Marginalized groups were able to gain better access to high-speed internet.",
+									"isCorrect": false
+								},
+								{
+									"text": "Data collection methods were improved to include a wider range of participants.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "If logic and data were independent, the idea that bias from data enters the 'social' task of coding would be less valid."
+						}
+					}
+				},
+				{
+					"questionNumber": 8,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which statement best restates the central thesis of the passage?",
+							"options": [
+								{
+									"text": "Algorithmic bias is a systemic issue that requires ethical and social interventions to ensure fairness.",
+									"isCorrect": true
+								},
+								{
+									"text": "Black box systems are the only way to protect the proprietary interests of large corporations.",
+									"isCorrect": false
+								},
+								{
+									"text": "Machine learning is a neutral tool that has been unfairly blamed for human social problems.",
+									"isCorrect": false
+								},
+								{
+									"text": "The only way to achieve social justice is to ban the use of algorithms in the public sector.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage explores how algorithms reinforce bias and why interdisciplinary, ethical correction is necessary."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "C1",
+				"passageNumber": 9,
+				"wordCount": 272,
+				"topic": "The Neuroscience of Language Acquisition",
+				"difficulty": 5
+			},
+			"passageText": "The neuroscience of language acquisition provides profound insights into the plasticity of the human brain and the biological foundations of communication. A central concept in this field is the critical period hypothesis, which suggests that there is a specific window of time in early childhood during which the brain is uniquely receptive to linguistic input. During this phase, the neural pathways that support phonological and syntactic processing are highly adaptable. Research using neuroimaging has shown that the acquisition of a primary language involves the intensive development of Broca's area and Wernicke's area in the left hemisphere. As the child matures, the brain undergoes a process of neural pruning, where unused synaptic connections are eliminated to increase the efficiency of the established networks. This pruning, while beneficial for the fluency of the first language, can make the acquisition of subsequent languages significantly more challenging after the onset of puberty. Furthermore, the study of bilingualism reveals that the brain of the polyglot develops structural differences, such as increased gray matter density in the inferior parietal cortex. These adaptations are thought to enhance executive functions, such as cognitive flexibility and inhibitory control. However, the extent to which these biological factors determine linguistic proficiency remains a subject of intense debate. While the critical period hypothesis highlights the importance of early exposure, recent findings indicate that the adult brain retains a degree of neuroplasticity that allows for language learning throughout the lifespan, albeit through different neural mechanisms. Thus, language acquisition is a dynamic interplay between innate biological structures and environmental stimulation.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to the passage, the process of neural pruning is primarily intended to:",
+							"options": [
+								{
+									"text": "Enhance the operational efficiency of the existing neural networks.",
+									"isCorrect": true
+								},
+								{
+									"text": "Prevent the child from learning more than one language at a time.",
+									"isCorrect": false
+								},
+								{
+									"text": "Destroy the structural density of the inferior parietal cortex.",
+									"isCorrect": false
+								},
+								{
+									"text": "Increase the receptivity of the brain to linguistic input after puberty.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The text states that unused synaptic connections are eliminated to increase the efficiency of the established networks."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "It can be inferred from the discussion of bilingualism that learning multiple languages:",
+							"options": [
+								{
+									"text": "May result in physical changes to the brain that improve general cognitive abilities.",
+									"isCorrect": true
+								},
+								{
+									"text": "Requires the brain to abandon the use of Broca's area for primary communication.",
+									"isCorrect": false
+								},
+								{
+									"text": "Is only possible if the child is exposed to both languages during the critical period.",
+									"isCorrect": false
+								},
+								{
+									"text": "Leads to a decrease in gray matter density due to the stress of linguistic processing.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The text mentions increased gray matter and enhanced executive functions (like flexibility) in bilinguals."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How does the passage address the limitations of the critical period hypothesis?",
+							"options": [
+								{
+									"text": "By noting that the adult brain possesses mechanisms that permit continued learning.",
+									"isCorrect": true
+								},
+								{
+									"text": "By arguing that environmental stimulation is more important than innate structures.",
+									"isCorrect": false
+								},
+								{
+									"text": "By proving that syntactic processing does not actually happen in the left hemisphere.",
+									"isCorrect": false
+								},
+								{
+									"text": "By dismissing neuroplasticity as a factor in the acquisition of subsequent languages.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The text states that recent findings indicate the adult brain retains neuroplasticity for language learning throughout the lifespan."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "As used in the passage, the word inhibitory most nearly means:",
+							"options": [
+								{
+									"text": "the ability to suppress irrelevant information or impulses",
+									"isCorrect": true
+								},
+								{
+									"text": "the tendency to feel shy or anxious in social situations",
+									"isCorrect": false
+								},
+								{
+									"text": "the physical blockage of the neural pathways in the brain",
+									"isCorrect": false
+								},
+								{
+									"text": "the complete cessation of the language learning process",
+									"isCorrect": false
+								}
+							],
+							"explanation": "Inhibitory control in cognitive functions refers to the ability to focus and suppress competing responses."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the rhetorical purpose of the author in mentioning Broca's area and Wernicke's area?",
+							"options": [
+								{
+									"text": "To ground the discussion of language in specific anatomical locations in the brain.",
+									"isCorrect": true
+								},
+								{
+									"text": "To argue that the right hemisphere is irrelevant to the communicative process.",
+									"isCorrect": false
+								},
+								{
+									"text": "To show that primary language acquisition is purely a matter of environmental exposure.",
+									"isCorrect": false
+								},
+								{
+									"text": "To illustrate the damage that can occur during the neural pruning process.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "Mentioning these areas provides a biological basis for the linguistic processing described."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which statement best describes the function of the final sentence in the passage?",
+							"options": [
+								{
+									"text": "It synthesizes the competing biological and environmental factors into a single conclusion.",
+									"isCorrect": true
+								},
+								{
+									"text": "It introduces a new theory that contradicts the critical period hypothesis entirely.",
+									"isCorrect": false
+								},
+								{
+									"text": "It summarizes the specific structural differences found in the brains of polyglots.",
+									"isCorrect": false
+								},
+								{
+									"text": "It identifies the neural mechanisms that are used exclusively by adult learners.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The final sentence concludes that language acquisition is an interplay of biology and environment."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The argument regarding the critical period would be most weakened if research showed that:",
+							"options": [
+								{
+									"text": "Children who are never exposed to language still develop perfect syntactic skills.",
+									"isCorrect": true
+								},
+								{
+									"text": "Neural pruning occurs at the same rate in both monolingual and bilingual children.",
+									"isCorrect": false
+								},
+								{
+									"text": "Adults utilize the prefrontal cortex more than children during linguistic tasks.",
+									"isCorrect": false
+								},
+								{
+									"text": "Gray matter density in the parietal cortex is unrelated to the level of fluency.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "If children could learn language without exposure (input), the idea of a receptive period for that input would be invalidated."
+						}
+					}
+				},
+				{
+					"questionNumber": 8,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which of the following is the best restatement of the central thesis of the passage?",
+							"options": [
+								{
+									"text": "Language acquisition is a complex biological process shaped by neural plasticity and temporal windows.",
+									"isCorrect": true
+								},
+								{
+									"text": "The critical period is the only factor that determines whether an individual can achieve fluency.",
+									"isCorrect": false
+								},
+								{
+									"text": "Bilingualism is detrimental to the efficiency of the neural networks in the left hemisphere.",
+									"isCorrect": false
+								},
+								{
+									"text": "Broca's area is the only part of the brain that remains adaptable after the onset of puberty.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage discusses the biological (plasticity, areas, pruning) and temporal (critical period) aspects of learning language."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "C1",
+				"passageNumber": 10,
+				"wordCount": 278,
+				"topic": "Techno-determinism and Human Agency",
+				"difficulty": 5
+			},
+			"passageText": "The debate between techno-determinism and human agency explores the degree to which technology shapes the trajectory of human history. Techno-determinism posits that technological innovation is the primary driver of social, cultural, and political change. According to this view, the invention of the steam engine or the internet follows an autonomous logic that forces society to adapt to its requirements. This perspective suggests that technology is an exogenous force that dictates the organization of labor, the structure of the family, and the nature of global communication. In contrast, the theory of social constructionism emphasizes human agency, arguing that technology is a product of specific social contexts and human choices. From this viewpoint, technologies are not inevitable; they are the result of conscious decisions made by individuals, corporations, and governments to solve particular problems or serve certain interests. For example, the design of urban infrastructure often reflects the political priorities of the era rather than a neutral technical necessity. Critics of techno-determinism argue that it ignores the role of power and ideology in determining which technologies are developed and how they are deployed. Conversely, critics of social constructionism suggest that it underestimates the momentum that a technology gains once it is integrated into the social fabric. Once a system like the automobile or the digital cloud becomes ubiquitous, the choices of the individual are severely constrained by the existing infrastructure. Thus, the relationship between technology and society is not a simple linear cause and effect but a recursive process of mutual influence. Understanding this interplay is vital for navigating the ethical challenges posed by emerging technologies such as artificial intelligence.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 4,
+					"humanDifficulty": "hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "According to the passage, the techno-deterministic view suggests that technological progress:",
+							"options": [
+								{
+									"text": "Operates independently of social control and necessitates societal adaptation.",
+									"isCorrect": true
+								},
+								{
+									"text": "Is always the result of democratic consensus and transparent human choice.",
+									"isCorrect": false
+								},
+								{
+									"text": "Depends entirely on the political ideology of the ruling government.",
+									"isCorrect": false
+								},
+								{
+									"text": "Has no significant impact on the structure of the family or labor.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage says techno-determinism views technology as an autonomous force society must adapt to."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What can be inferred from the example of urban infrastructure mentioned in the text?",
+							"options": [
+								{
+									"text": "Physical designs are often manifestations of the underlying social and political values.",
+									"isCorrect": true
+								},
+								{
+									"text": "Urban planning is a purely technical task that follows a neutral and logical progression.",
+									"isCorrect": false
+								},
+								{
+									"text": "Governments have no control over the way that technology affects the layout of cities.",
+									"isCorrect": false
+								},
+								{
+									"text": "Infrastructure is the only technology that does not have an autonomous logic.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The text states urban design reflects political priorities rather than just technical necessity."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The passage implies that the automobile serves as an example of:",
+							"options": [
+								{
+									"text": "A technology that creates a structural momentum that limits future human choices.",
+									"isCorrect": true
+								},
+								{
+									"text": "A social construction that can be easily dismantled if human interests change.",
+									"isCorrect": false
+								},
+								{
+									"text": "A neutral tool that has had no impact on the organization of global communication.",
+									"isCorrect": false
+								},
+								{
+									"text": "A failure of techno-determinism to account for the role of individual agency.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage notes that once ubiquitious systems like the automobile exist, they constrain choices."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "As used in the passage, the word recursive most nearly means:",
+							"options": [
+								{
+									"text": "characterized by a process that loops back and affects itself",
+									"isCorrect": true
+								},
+								{
+									"text": "following a strictly linear and predictable sequence of events",
+									"isCorrect": false
+								},
+								{
+									"text": "occurring in a way that is entirely random and without patterns",
+									"isCorrect": false
+								},
+								{
+									"text": "preventing any further change once a system has been established",
+									"isCorrect": false
+								}
+							],
+							"explanation": "Recursive here refers to the mutual influence between technology and society where each affects the other."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the author rhetorical goal in presenting both the techno-deterministic and constructionist views?",
+							"options": [
+								{
+									"text": "To demonstrate that a complete understanding requires acknowledging the validity of both perspectives.",
+									"isCorrect": true
+								},
+								{
+									"text": "To prove that the deterministic view is the only accurate way to predict the future of AI.",
+									"isCorrect": false
+								},
+								{
+									"text": "To dismiss the social constructionists as being too idealistic and detached from reality.",
+									"isCorrect": false
+								},
+								{
+									"text": "To argue that technology and human agency have no actual relationship to one another.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The author concludes that the relationship is a recursive process of mutual influence, implying both views have merit."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How does the first paragraph of the passage contribute to the discussion of technology?",
+							"options": [
+								{
+									"text": "It establishes a theoretical baseline by defining a major school of thought on the subject.",
+									"isCorrect": true
+								},
+								{
+									"text": "It provides a list of the most important inventions in the history of the industrial revolution.",
+									"isCorrect": false
+								},
+								{
+									"text": "It argues that the internet is the only technology that has ever had an autonomous logic.",
+									"isCorrect": false
+								},
+								{
+									"text": "It identifies the specific governments that first promoted the theory of human agency.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The first paragraph introduces techno-determinism, setting the stage for the contrast with constructionism."
+						}
+					}
+				},
+				{
+					"questionNumber": 7,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The theory of social constructionism would be most weakened if it were shown that:",
+							"options": [
+								{
+									"text": "Certain technologies develop in the same way regardless of the cultural context of the society.",
+									"isCorrect": true
+								},
+								{
+									"text": "Human beings often make mistakes when they choose which technology to implement.",
+									"isCorrect": false
+								},
+								{
+									"text": "Corporations have more power than individuals to influence the design of new products.",
+									"isCorrect": false
+								},
+								{
+									"text": "Political priorities can change rapidly within a single generation of the populace.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "If technology develops identically across cultures, it suggests an internal/autonomous logic rather than social construction."
+						}
+					}
+				},
+				{
+					"questionNumber": 8,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 5,
+					"humanDifficulty": "very_hard",
+					"cefrLevel": "C1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which statement best restates the central thesis of the passage?",
+							"options": [
+								{
+									"text": "Technological and social forces are interconnected, with each exerting influence on the development of the other.",
+									"isCorrect": true
+								},
+								{
+									"text": "Human agency is an illusion because the infrastructure of society is entirely controlled by machines.",
+									"isCorrect": false
+								},
+								{
+									"text": "Techno-determinism is the only valid framework for understanding the ethical risks of artificial intelligence.",
+									"isCorrect": false
+								},
+								{
+									"text": "The development of technology is a neutral process that has no relation to the power dynamics of society.",
+									"isCorrect": false
+								}
+							],
+							"explanation": "The passage argues that the relationship is recursive and characterized by mutual influence between deterministic and constructionist forces."
+						}
+					}
+				}
+			]
+		}
+	]
+}

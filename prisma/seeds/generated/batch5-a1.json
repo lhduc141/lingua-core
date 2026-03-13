@@ -1,0 +1,1733 @@
+{
+	"level": "A1",
+	"passages": [
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 1,
+				"wordCount": 55,
+				"topic": "My Family",
+				"difficulty": 1
+			},
+			"passageText": "I live with my family in a big house. My father is a doctor. My mother is a teacher. I have one brother. His name is Sam. He is ten years old. We have a small dog. My dog is brown and white. We play in the green garden. We are a very happy family.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the father's job?",
+							"options": [
+								{ "text": "Doctor", "isCorrect": true },
+								{ "text": "Teacher", "isCorrect": false },
+								{ "text": "Student", "isCorrect": false },
+								{ "text": "Driver", "isCorrect": false }
+							],
+							"explanation": "The passage explicitly states 'My father is a doctor'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How many brothers does the person have?",
+							"options": [
+								{ "text": "One", "isCorrect": true },
+								{ "text": "Two", "isCorrect": false },
+								{ "text": "Three", "isCorrect": false },
+								{ "text": "Zero", "isCorrect": false }
+							],
+							"explanation": "The text says 'I have one brother'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What color is the dog?",
+							"options": [
+								{ "text": "Brown and white", "isCorrect": true },
+								{ "text": "Black and white", "isCorrect": false },
+								{ "text": "Only brown", "isCorrect": false },
+								{ "text": "Green", "isCorrect": false }
+							],
+							"explanation": "The passage describes the dog as 'brown and white'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where does the family play?",
+							"options": [
+								{ "text": "In the garden", "isCorrect": true },
+								{ "text": "In the house", "isCorrect": false },
+								{ "text": "At school", "isCorrect": false },
+								{ "text": "In the street", "isCorrect": false }
+							],
+							"explanation": "The text says 'We play in the green garden'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Who is Sam?",
+							"options": [
+								{ "text": "The narrator's brother", "isCorrect": true },
+								{ "text": "The narrator's father", "isCorrect": false },
+								{ "text": "The narrator's dog", "isCorrect": false },
+								{ "text": "A teacher", "isCorrect": false }
+							],
+							"explanation": "The text states 'I have one brother. His name is Sam'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The family lives in a...",
+							"options": [
+								{ "text": "Large house", "isCorrect": true },
+								{ "text": "Small house", "isCorrect": false },
+								{ "text": "School", "isCorrect": false },
+								{ "text": "Doctor's office", "isCorrect": false }
+							],
+							"explanation": "The text mentions they live in a 'big house', which means large."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 2,
+				"wordCount": 56,
+				"topic": "A Typical Day",
+				"difficulty": 1
+			},
+			"passageText": "I get up at seven o'clock every day. I eat breakfast with my sister. I go to school at eight o'clock. I like my English class very much. I eat lunch at twelve o'clock. In the afternoon, I play football. I go home at four o'clock. I do my homework. I go to bed early.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What time does the narrator get up?",
+							"options": [
+								{ "text": "Seven o'clock", "isCorrect": true },
+								{ "text": "Eight o'clock", "isCorrect": false },
+								{ "text": "Twelve o'clock", "isCorrect": false },
+								{ "text": "Four o'clock", "isCorrect": false }
+							],
+							"explanation": "The text says 'I get up at seven o'clock'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What time is lunch?",
+							"options": [
+								{ "text": "Twelve o'clock", "isCorrect": true },
+								{ "text": "Eight o'clock", "isCorrect": false },
+								{ "text": "Seven o'clock", "isCorrect": false },
+								{ "text": "Four o'clock", "isCorrect": false }
+							],
+							"explanation": "The text says 'I eat lunch at twelve o'clock'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Who eats breakfast with the narrator?",
+							"options": [
+								{ "text": "His sister", "isCorrect": true },
+								{ "text": "His teacher", "isCorrect": false },
+								{ "text": "His brother", "isCorrect": false },
+								{ "text": "His friends", "isCorrect": false }
+							],
+							"explanation": "The text says 'I eat breakfast with my sister'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the person do in the afternoon?",
+							"options": [
+								{ "text": "Plays football", "isCorrect": true },
+								{ "text": "Eats breakfast", "isCorrect": false },
+								{ "text": "Goes to school", "isCorrect": false },
+								{ "text": "Wakes up", "isCorrect": false }
+							],
+							"explanation": "The text says 'In the afternoon, I play football'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which subject does the person enjoy?",
+							"options": [
+								{ "text": "English", "isCorrect": true },
+								{ "text": "Math", "isCorrect": false },
+								{ "text": "Football", "isCorrect": false },
+								{ "text": "Art", "isCorrect": false }
+							],
+							"explanation": "The narrator mentions 'I like my English class very much'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "The person goes home at...",
+							"options": [
+								{ "text": "4:00 PM", "isCorrect": true },
+								{ "text": "7:00 AM", "isCorrect": false },
+								{ "text": "8:00 AM", "isCorrect": false },
+								{ "text": "12:00 PM", "isCorrect": false }
+							],
+							"explanation": "The text says 'I go home at four o'clock' which is 4:00 PM."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 3,
+				"wordCount": 56,
+				"topic": "My Bedroom",
+				"difficulty": 1
+			},
+			"passageText": "My bedroom is small but very nice. The walls are blue. There is a big bed. My desk is next to the window. I have many books on the shelf. There is a computer on my desk. I have a red chair. I like to read in my room. It is a very quiet place.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What color are the walls?",
+							"options": [
+								{ "text": "Blue", "isCorrect": true },
+								{ "text": "Red", "isCorrect": false },
+								{ "text": "White", "isCorrect": false },
+								{ "text": "Green", "isCorrect": false }
+							],
+							"explanation": "The text states 'The walls are blue'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where is the computer?",
+							"options": [
+								{ "text": "On the desk", "isCorrect": true },
+								{ "text": "On the bed", "isCorrect": false },
+								{ "text": "On the shelf", "isCorrect": false },
+								{ "text": "Under the window", "isCorrect": false }
+							],
+							"explanation": "The text says 'There is a computer on my desk'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where is the desk located?",
+							"options": [
+								{ "text": "Next to the window", "isCorrect": true },
+								{ "text": "On the shelf", "isCorrect": false },
+								{ "text": "In the kitchen", "isCorrect": false },
+								{ "text": "Under the bed", "isCorrect": false }
+							],
+							"explanation": "The text says 'My desk is next to the window'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is on the shelf?",
+							"options": [
+								{ "text": "Books", "isCorrect": true },
+								{ "text": "A computer", "isCorrect": false },
+								{ "text": "A chair", "isCorrect": false },
+								{ "text": "A bed", "isCorrect": false }
+							],
+							"explanation": "The text says 'I have many books on the shelf'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Is the bedroom noisy?",
+							"options": [
+								{ "text": "No, it is quiet", "isCorrect": true },
+								{ "text": "Yes, it is very big", "isCorrect": false },
+								{ "text": "Yes, it is blue", "isCorrect": false },
+								{ "text": "No, it is loud", "isCorrect": false }
+							],
+							"explanation": "The text says 'It is a very quiet place'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What item is red?",
+							"options": [
+								{ "text": "The chair", "isCorrect": true },
+								{ "text": "The desk", "isCorrect": false },
+								{ "text": "The walls", "isCorrect": false },
+								{ "text": "The bed", "isCorrect": false }
+							],
+							"explanation": "The text states 'I have a red chair'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 4,
+				"wordCount": 56,
+				"topic": "At the Market",
+				"difficulty": 1
+			},
+			"passageText": "Today is Saturday. I am at the market with my mother. There are many people here today. We see many fruits. My mother buys red apples. I want some yellow bananas. We also need milk and eggs. The bread smells very good. We carry the food in a big bag. It is busy.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What day is it?",
+							"options": [
+								{ "text": "Saturday", "isCorrect": true },
+								{ "text": "Sunday", "isCorrect": false },
+								{ "text": "Monday", "isCorrect": false },
+								{ "text": "Friday", "isCorrect": false }
+							],
+							"explanation": "The text starts with 'Today is Saturday'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Who is at the market with the narrator?",
+							"options": [
+								{ "text": "Mother", "isCorrect": true },
+								{ "text": "Father", "isCorrect": false },
+								{ "text": "Sister", "isCorrect": false },
+								{ "text": "Brother", "isCorrect": false }
+							],
+							"explanation": "The text says 'I am at the market with my mother'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What color are the apples?",
+							"options": [
+								{ "text": "Red", "isCorrect": true },
+								{ "text": "Yellow", "isCorrect": false },
+								{ "text": "Green", "isCorrect": false },
+								{ "text": "Blue", "isCorrect": false }
+							],
+							"explanation": "The text says 'My mother buys red apples'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the narrator want?",
+							"options": [
+								{ "text": "Yellow bananas", "isCorrect": true },
+								{ "text": "Red apples", "isCorrect": false },
+								{ "text": "Milk", "isCorrect": false },
+								{ "text": "Eggs", "isCorrect": false }
+							],
+							"explanation": "The narrator says 'I want some yellow bananas'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How is the market today?",
+							"options": [
+								{ "text": "It is busy", "isCorrect": true },
+								{ "text": "It is quiet", "isCorrect": false },
+								{ "text": "It is empty", "isCorrect": false },
+								{ "text": "It is small", "isCorrect": false }
+							],
+							"explanation": "The text says 'There are many people here' and concludes 'It is busy'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Which food smells good?",
+							"options": [
+								{ "text": "The bread", "isCorrect": true },
+								{ "text": "The eggs", "isCorrect": false },
+								{ "text": "The apples", "isCorrect": false },
+								{ "text": "The milk", "isCorrect": false }
+							],
+							"explanation": "The passage says 'The bread smells very good'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 5,
+				"wordCount": 58,
+				"topic": "The Park",
+				"difficulty": 1
+			},
+			"passageText": "The park is near my house. It is a beautiful day. The sun is hot. Many children play on the grass. Some people sit under the trees. There is a small lake in the middle. I see three white ducks. My friend rides a blue bike. We eat cold ice cream. I love the park.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where is the park?",
+							"options": [
+								{ "text": "Near the house", "isCorrect": true },
+								{ "text": "At school", "isCorrect": false },
+								{ "text": "In the city", "isCorrect": false },
+								{ "text": "In the garden", "isCorrect": false }
+							],
+							"explanation": "The text says 'The park is near my house'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How is the weather?",
+							"options": [
+								{ "text": "The sun is hot", "isCorrect": true },
+								{ "text": "It is raining", "isCorrect": false },
+								{ "text": "It is cold", "isCorrect": false },
+								{ "text": "It is night", "isCorrect": false }
+							],
+							"explanation": "The text says 'The sun is hot'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How many ducks are in the lake?",
+							"options": [
+								{ "text": "Three", "isCorrect": true },
+								{ "text": "Two", "isCorrect": false },
+								{ "text": "Four", "isCorrect": false },
+								{ "text": "Zero", "isCorrect": false }
+							],
+							"explanation": "The narrator says 'I see three white ducks'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is in the middle of the park?",
+							"options": [
+								{ "text": "A small lake", "isCorrect": true },
+								{ "text": "A big house", "isCorrect": false },
+								{ "text": "A school", "isCorrect": false },
+								{ "text": "A market", "isCorrect": false }
+							],
+							"explanation": "The text says 'There is a small lake in the middle'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where are some people sitting?",
+							"options": [
+								{ "text": "Under the trees", "isCorrect": true },
+								{ "text": "On the bike", "isCorrect": false },
+								{ "text": "In the lake", "isCorrect": false },
+								{ "text": "On the ice cream", "isCorrect": false }
+							],
+							"explanation": "The text mentions 'Some people sit under the trees'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What color is the friend's bike?",
+							"options": [
+								{ "text": "Blue", "isCorrect": true },
+								{ "text": "White", "isCorrect": false },
+								{ "text": "Red", "isCorrect": false },
+								{ "text": "Yellow", "isCorrect": false }
+							],
+							"explanation": "The text says 'My friend rides a blue bike'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 6,
+				"wordCount": 56,
+				"topic": "My School",
+				"difficulty": 1
+			},
+			"passageText": "My school is very big. There are twenty classrooms. My classroom is on the second floor. I have a kind teacher. Her name is Miss Green. There are fifteen students in my class. We have many pens and notebooks. There is a playground outside. We play games. I like learning new things.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How many classrooms are in the school?",
+							"options": [
+								{ "text": "Twenty", "isCorrect": true },
+								{ "text": "Fifteen", "isCorrect": false },
+								{ "text": "Two", "isCorrect": false },
+								{ "text": "Ten", "isCorrect": false }
+							],
+							"explanation": "The text says 'There are twenty classrooms'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the teacher's name?",
+							"options": [
+								{ "text": "Miss Green", "isCorrect": true },
+								{ "text": "Miss White", "isCorrect": false },
+								{ "text": "Miss Blue", "isCorrect": false },
+								{ "text": "Miss Brown", "isCorrect": false }
+							],
+							"explanation": "The text says 'Her name is Miss Green'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where is the classroom?",
+							"options": [
+								{ "text": "On the second floor", "isCorrect": true },
+								{ "text": "On the first floor", "isCorrect": false },
+								{ "text": "Outside", "isCorrect": false },
+								{ "text": "In the playground", "isCorrect": false }
+							],
+							"explanation": "The text says 'My classroom is on the second floor'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How many students are in the class?",
+							"options": [
+								{ "text": "Fifteen", "isCorrect": true },
+								{ "text": "Twenty", "isCorrect": false },
+								{ "text": "Fifty", "isCorrect": false },
+								{ "text": "Ten", "isCorrect": false }
+							],
+							"explanation": "The text says 'There are fifteen students in my class'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When do they play games?",
+							"options": [
+								{ "text": "During break / playtime", "isCorrect": true },
+								{ "text": "In the classroom", "isCorrect": false },
+								{ "text": "At night", "isCorrect": false },
+								{ "text": "In the kitchen", "isCorrect": false }
+							],
+							"explanation": "The text says they play games at the playground outside."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is outside the school building?",
+							"options": [
+								{ "text": "A playground", "isCorrect": true },
+								{ "text": "Twenty classrooms", "isCorrect": false },
+								{ "text": "A house", "isCorrect": false },
+								{ "text": "A market", "isCorrect": false }
+							],
+							"explanation": "The text says 'There is a playground outside'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 7,
+				"wordCount": 56,
+				"topic": "Favorite Food",
+				"difficulty": 1
+			},
+			"passageText": "My favorite food is pasta. I like it with tomato sauce. My mother cooks it every Sunday. Sometimes we eat pizza too. I do not like onions. I love sweet fruit for dessert. I eat an orange or an apple. My father drinks hot tea. We talk about our day. Eating is fun.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When does the mother cook pasta?",
+							"options": [
+								{ "text": "Every Sunday", "isCorrect": true },
+								{ "text": "Every Saturday", "isCorrect": false },
+								{ "text": "Every day", "isCorrect": false },
+								{ "text": "Never", "isCorrect": false }
+							],
+							"explanation": "The text says 'My mother cooks it every Sunday'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the father drink?",
+							"options": [
+								{ "text": "Hot tea", "isCorrect": true },
+								{ "text": "Milk", "isCorrect": false },
+								{ "text": "Tomato sauce", "isCorrect": false },
+								{ "text": "Orange juice", "isCorrect": false }
+							],
+							"explanation": "The text says 'My father drinks hot tea'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What kind of sauce is on the pasta?",
+							"options": [
+								{ "text": "Tomato sauce", "isCorrect": true },
+								{ "text": "Onion sauce", "isCorrect": false },
+								{ "text": "Pizza sauce", "isCorrect": false },
+								{ "text": "Sweet sauce", "isCorrect": false }
+							],
+							"explanation": "The text says 'I like it with tomato sauce'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the narrator NOT like?",
+							"options": [
+								{ "text": "Onions", "isCorrect": true },
+								{ "text": "Pasta", "isCorrect": false },
+								{ "text": "Pizza", "isCorrect": false },
+								{ "text": "Fruit", "isCorrect": false }
+							],
+							"explanation": "The text explicitly says 'I do not like onions'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What do they have for dessert?",
+							"options": [
+								{ "text": "Sweet fruit", "isCorrect": true },
+								{ "text": "Pasta", "isCorrect": false },
+								{ "text": "Pizza", "isCorrect": false },
+								{ "text": "Tea", "isCorrect": false }
+							],
+							"explanation": "The text says 'I love sweet fruit for dessert'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What other food does the family sometimes eat?",
+							"options": [
+								{ "text": "Pizza", "isCorrect": true },
+								{ "text": "Fish", "isCorrect": false },
+								{ "text": "Eggs", "isCorrect": false },
+								{ "text": "Burgers", "isCorrect": false }
+							],
+							"explanation": "The text says 'Sometimes we eat pizza too'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 8,
+				"wordCount": 56,
+				"topic": "The Weather Today",
+				"difficulty": 1
+			},
+			"passageText": "Today the weather is very cold. The sky is grey and cloudy. There is no sun today. I wear my warm coat. I also have a hat and gloves. It is very windy. I think it is going to rain. I want to stay at home. I drink hot chocolate in the kitchen.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the weather like today?",
+							"options": [
+								{ "text": "Very cold", "isCorrect": true },
+								{ "text": "Very hot", "isCorrect": false },
+								{ "text": "Sunny", "isCorrect": false },
+								{ "text": "Warm", "isCorrect": false }
+							],
+							"explanation": "The text starts with 'Today the weather is very cold'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is in the sky?",
+							"options": [
+								{ "text": "Grey clouds", "isCorrect": true },
+								{ "text": "Hot sun", "isCorrect": false },
+								{ "text": "Blue birds", "isCorrect": false },
+								{ "text": "A plane", "isCorrect": false }
+							],
+							"explanation": "The text says 'The sky is grey and cloudy'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What clothes does the person wear?",
+							"options": [
+								{ "text": "Coat, hat, and gloves", "isCorrect": true },
+								{ "text": "T-shirt and shorts", "isCorrect": false },
+								{ "text": "A dress", "isCorrect": false },
+								{ "text": "A swimsuit", "isCorrect": false }
+							],
+							"explanation": "The text mentions 'warm coat', 'hat and gloves'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where does the person drink hot chocolate?",
+							"options": [
+								{ "text": "In the kitchen", "isCorrect": true },
+								{ "text": "In the garden", "isCorrect": false },
+								{ "text": "At school", "isCorrect": false },
+								{ "text": "At the park", "isCorrect": false }
+							],
+							"explanation": "The text says 'I drink hot chocolate in the kitchen'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Why does the person want to stay at home?",
+							"options": [
+								{ "text": "Because it is cold and windy", "isCorrect": true },
+								{ "text": "Because it is a sunny day", "isCorrect": false },
+								{ "text": "Because they have homework", "isCorrect": false },
+								{ "text": "To play in the garden", "isCorrect": false }
+							],
+							"explanation": "The person describes the cold, cloudy, windy weather as the reason to stay home."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How is the wind?",
+							"options": [
+								{ "text": "Very windy", "isCorrect": true },
+								{ "text": "No wind", "isCorrect": false },
+								{ "text": "Small wind", "isCorrect": false },
+								{ "text": "Very hot", "isCorrect": false }
+							],
+							"explanation": "The text explicitly says 'It is very windy'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 9,
+				"wordCount": 59,
+				"topic": "My Pet",
+				"difficulty": 1
+			},
+			"passageText": "I have a pet cat. Her name is Luna. She is grey and very soft. Luna has green eyes. She sleeps on my bed every night. In the morning, she is hungry. I give her some milk and fish. She likes to play with a small ball. Luna is my best friend. I love my cat.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the cat's name?",
+							"options": [
+								{ "text": "Luna", "isCorrect": true },
+								{ "text": "Sam", "isCorrect": false },
+								{ "text": "Miss Green", "isCorrect": false },
+								{ "text": "Grey", "isCorrect": false }
+							],
+							"explanation": "The text says 'Her name is Luna'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What color are the cat's eyes?",
+							"options": [
+								{ "text": "Green", "isCorrect": true },
+								{ "text": "Grey", "isCorrect": false },
+								{ "text": "Blue", "isCorrect": false },
+								{ "text": "Black", "isCorrect": false }
+							],
+							"explanation": "The text says 'Luna has green eyes'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When is the cat hungry?",
+							"options": [
+								{ "text": "In the morning", "isCorrect": true },
+								{ "text": "At night", "isCorrect": false },
+								{ "text": "Every Sunday", "isCorrect": false },
+								{ "text": "On Saturday", "isCorrect": false }
+							],
+							"explanation": "The text says 'In the morning, she is hungry'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What does the cat play with?",
+							"options": [
+								{ "text": "A small ball", "isCorrect": true },
+								{ "text": "A dog", "isCorrect": false },
+								{ "text": "Some fish", "isCorrect": false },
+								{ "text": "A notebook", "isCorrect": false }
+							],
+							"explanation": "The text says 'She likes to play with a small ball'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where does Luna sleep?",
+							"options": [
+								{ "text": "On the bed", "isCorrect": true },
+								{ "text": "In the garden", "isCorrect": false },
+								{ "text": "Under the desk", "isCorrect": false },
+								{ "text": "In the kitchen", "isCorrect": false }
+							],
+							"explanation": "The text says 'She sleeps on my bed every night'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What color is the cat?",
+							"options": [
+								{ "text": "Grey", "isCorrect": true },
+								{ "text": "Green", "isCorrect": false },
+								{ "text": "White", "isCorrect": false },
+								{ "text": "Brown", "isCorrect": false }
+							],
+							"explanation": "The text says 'She is grey and very soft'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 10,
+				"wordCount": 58,
+				"topic": "Getting to Work",
+				"difficulty": 1
+			},
+			"passageText": "My father goes to work every morning. He works in an office in the city. He does not drive a car. He takes the bus at eight o'clock. The bus is often late. He walks for ten minutes from the bus stop. He finishes work at five o'clock. He comes home for dinner.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where does the father work?",
+							"options": [
+								{ "text": "In an office", "isCorrect": true },
+								{ "text": "In a school", "isCorrect": false },
+								{ "text": "At a market", "isCorrect": false },
+								{ "text": "At home", "isCorrect": false }
+							],
+							"explanation": "The text states 'He works in an office in the city'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What time is the bus?",
+							"options": [
+								{ "text": "Eight o'clock", "isCorrect": true },
+								{ "text": "Seven o'clock", "isCorrect": false },
+								{ "text": "Five o'clock", "isCorrect": false },
+								{ "text": "Ten o'clock", "isCorrect": false }
+							],
+							"explanation": "The text says 'He takes the bus at eight o'clock'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How does he travel to the city?",
+							"options": [
+								{ "text": "By bus", "isCorrect": true },
+								{ "text": "By car", "isCorrect": false },
+								{ "text": "By bike", "isCorrect": false },
+								{ "text": "By plane", "isCorrect": false }
+							],
+							"explanation": "The text mentions 'He takes the bus'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What time does he finish work?",
+							"options": [
+								{ "text": "Five o'clock", "isCorrect": true },
+								{ "text": "Eight o'clock", "isCorrect": false },
+								{ "text": "Ten o'clock", "isCorrect": false },
+								{ "text": "Four o'clock", "isCorrect": false }
+							],
+							"explanation": "The text says 'He finishes work at five o'clock'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Does the father use a car?",
+							"options": [
+								{ "text": "No", "isCorrect": true },
+								{ "text": "Yes", "isCorrect": false },
+								{ "text": "Only for dinner", "isCorrect": false },
+								{ "text": "Only when late", "isCorrect": false }
+							],
+							"explanation": "The text explicitly says 'He does not drive a car'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How long is the walk from the bus stop?",
+							"options": [
+								{ "text": "Ten minutes", "isCorrect": true },
+								{ "text": "Five minutes", "isCorrect": false },
+								{ "text": "Eight minutes", "isCorrect": false },
+								{ "text": "Twenty minutes", "isCorrect": false }
+							],
+							"explanation": "The text states 'He walks for ten minutes from the bus stop'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 11,
+				"wordCount": 56,
+				"topic": "A Birthday Party",
+				"difficulty": 1
+			},
+			"passageText": "Today is my birthday. I am nine years old. My friends are at my house. We have a big chocolate cake. There are nine candles on the cake. We sing songs together. I have many presents. My favorite gift is a new book. We drink orange juice. It is a great day.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How old is the person today?",
+							"options": [
+								{ "text": "Nine years old", "isCorrect": true },
+								{ "text": "Eight years old", "isCorrect": false },
+								{ "text": "Ten years old", "isCorrect": false },
+								{ "text": "Five years old", "isCorrect": false }
+							],
+							"explanation": "The text says 'I am nine years old'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What kind of cake is it?",
+							"options": [
+								{ "text": "Chocolate cake", "isCorrect": true },
+								{ "text": "Fruit cake", "isCorrect": false },
+								{ "text": "Orange cake", "isCorrect": false },
+								{ "text": "Big cake", "isCorrect": false }
+							],
+							"explanation": "The text says 'We have a big chocolate cake'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "How many candles are on the cake?",
+							"options": [
+								{ "text": "Nine", "isCorrect": true },
+								{ "text": "Ten", "isCorrect": false },
+								{ "text": "One", "isCorrect": false },
+								{ "text": "Five", "isCorrect": false }
+							],
+							"explanation": "The text says 'There are nine candles on the cake'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What is the favorite present?",
+							"options": [
+								{ "text": "A new book", "isCorrect": true },
+								{ "text": "Orange juice", "isCorrect": false },
+								{ "text": "A cake", "isCorrect": false },
+								{ "text": "A song", "isCorrect": false }
+							],
+							"explanation": "The text says 'My favorite gift is a new book'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What do the friends drink?",
+							"options": [
+								{ "text": "Orange juice", "isCorrect": true },
+								{ "text": "Chocolate milk", "isCorrect": false },
+								{ "text": "Water", "isCorrect": false },
+								{ "text": "Tea", "isCorrect": false }
+							],
+							"explanation": "The text states 'We drink orange juice'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Who is at the house?",
+							"options": [
+								{ "text": "The narrator's friends", "isCorrect": true },
+								{ "text": "The narrator's teacher", "isCorrect": false },
+								{ "text": "The narrator's doctor", "isCorrect": false },
+								{ "text": "Luna", "isCorrect": false }
+							],
+							"explanation": "The text says 'My friends are at my house'."
+						}
+					}
+				}
+			]
+		},
+		{
+			"passageMetadata": {
+				"level": "A1",
+				"passageNumber": 12,
+				"wordCount": 56,
+				"topic": "Colors and Clothes",
+				"difficulty": 1
+			},
+			"passageText": "I have many clothes in my cupboard. I like bright colors. My favorite shirt is yellow. I wear blue jeans today. I have a pair of black shoes. My sister has a pink dress. She wears a white hat. In winter, we wear heavy coats. My coat is dark green. We look nice.",
+			"questions": [
+				{
+					"questionNumber": 1,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What color is the favorite shirt?",
+							"options": [
+								{ "text": "Yellow", "isCorrect": true },
+								{ "text": "Blue", "isCorrect": false },
+								{ "text": "Black", "isCorrect": false },
+								{ "text": "Pink", "isCorrect": false }
+							],
+							"explanation": "The text says 'My favorite shirt is yellow'."
+						}
+					}
+				},
+				{
+					"questionNumber": 2,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 1,
+					"humanDifficulty": "very_easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What color are the shoes?",
+							"options": [
+								{ "text": "Black", "isCorrect": true },
+								{ "text": "White", "isCorrect": false },
+								{ "text": "Green", "isCorrect": false },
+								{ "text": "Blue", "isCorrect": false }
+							],
+							"explanation": "The text says 'I have a pair of black shoes'."
+						}
+					}
+				},
+				{
+					"questionNumber": 3,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What color is the sister's dress?",
+							"options": [
+								{ "text": "Pink", "isCorrect": true },
+								{ "text": "Yellow", "isCorrect": false },
+								{ "text": "White", "isCorrect": false },
+								{ "text": "Green", "isCorrect": false }
+							],
+							"explanation": "The text says 'My sister has a pink dress'."
+						}
+					}
+				},
+				{
+					"questionNumber": 4,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 2,
+					"humanDifficulty": "easy",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "When do they wear heavy coats?",
+							"options": [
+								{ "text": "In winter", "isCorrect": true },
+								{ "text": "In summer", "isCorrect": false },
+								{ "text": "Today", "isCorrect": false },
+								{ "text": "On Sunday", "isCorrect": false }
+							],
+							"explanation": "The text says 'In winter, we wear heavy coats'."
+						}
+					}
+				},
+				{
+					"questionNumber": 5,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "What color are the jeans?",
+							"options": [
+								{ "text": "Blue", "isCorrect": true },
+								{ "text": "Black", "isCorrect": false },
+								{ "text": "Dark green", "isCorrect": false },
+								{ "text": "Pink", "isCorrect": false }
+							],
+							"explanation": "The text says 'I wear blue jeans today'."
+						}
+					}
+				},
+				{
+					"questionNumber": 6,
+					"skill": "reading",
+					"type": "mcq_single",
+					"difficulty": 3,
+					"humanDifficulty": "medium",
+					"cefrLevel": "A1",
+					"sourceTag": "placement_test_v1",
+					"status": "published",
+					"translations": {
+						"en": {
+							"stemText": "Where are the clothes kept?",
+							"options": [
+								{ "text": "In the cupboard", "isCorrect": true },
+								{ "text": "In the bedroom", "isCorrect": false },
+								{ "text": "In the garden", "isCorrect": false },
+								{ "text": "At school", "isCorrect": false }
+							],
+							"explanation": "The text mentions 'I have many clothes in my cupboard'."
+						}
+					}
+				}
+			]
+		}
+	]
+}
