@@ -1,0 +1,930 @@
+{
+	"level": "B1",
+	"type": "grammar",
+	"questions": [
+		{
+			"questionNumber": 43,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The laptop ___ by the technician when the electricity suddenly went out.",
+					"options": [
+						{ "text": "was being repaired", "isCorrect": true },
+						{ "text": "is being repaired", "isCorrect": false },
+						{ "text": "repaired", "isCorrect": false },
+						{ "text": "was repairing", "isCorrect": false }
+					],
+					"explanation": "The past continuous passive is used here to describe an action in progress in the past when another event interrupted it."
+				}
+			}
+		},
+		{
+			"questionNumber": 44,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "easy",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "If the weather is good tomorrow, the students ___ a picnic in the park.",
+					"options": [
+						{ "text": "will have", "isCorrect": true },
+						{ "text": "would have", "isCorrect": false },
+						{ "text": "have", "isCorrect": false },
+						{ "text": "had", "isCorrect": false }
+					],
+					"explanation": "This is a first conditional sentence referring to a possible future situation."
+				}
+			}
+		},
+		{
+			"questionNumber": 45,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I ___ to the gym every day, but now I prefer to go for walks.",
+					"options": [
+						{ "text": "used to go", "isCorrect": true },
+						{ "text": "am used to go", "isCorrect": false },
+						{ "text": "use to go", "isCorrect": false },
+						{ "text": "was used to go", "isCorrect": false }
+					],
+					"explanation": "Used to expresses a past habit or state that is no longer true."
+				}
+			}
+		},
+		{
+			"questionNumber": 46,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The manager asked the employees ___ the report before the end of the week.",
+					"options": [
+						{ "text": "to finish", "isCorrect": true },
+						{ "text": "finish", "isCorrect": false },
+						{ "text": "finishing", "isCorrect": false },
+						{ "text": "finished", "isCorrect": false }
+					],
+					"explanation": "The verb ask is followed by the object and then the infinitive with to."
+				}
+			}
+		},
+		{
+			"questionNumber": 47,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "easy",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "That is the colleague ___ helped me with the presentation last Tuesday.",
+					"options": [
+						{ "text": "who", "isCorrect": true },
+						{ "text": "which", "isCorrect": false },
+						{ "text": "where", "isCorrect": false },
+						{ "text": "whose", "isCorrect": false }
+					],
+					"explanation": "Who is the relative pronoun used to refer to people."
+				}
+			}
+		},
+		{
+			"questionNumber": 48,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "We ___ this documentary three times and it is still very interesting.",
+					"options": [
+						{ "text": "have seen", "isCorrect": true },
+						{ "text": "saw", "isCorrect": false },
+						{ "text": "see", "isCorrect": false },
+						{ "text": "are seeing", "isCorrect": false }
+					],
+					"explanation": "The present perfect is used for experiences that happened at an unspecified time in the past."
+				}
+			}
+		},
+		{
+			"questionNumber": 49,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "If I had enough money, I ___ a new car for the family.",
+					"options": [
+						{ "text": "would buy", "isCorrect": true },
+						{ "text": "will buy", "isCorrect": false },
+						{ "text": "buy", "isCorrect": false },
+						{ "text": "bought", "isCorrect": false }
+					],
+					"explanation": "The second conditional uses if plus simple past and would plus infinitive for hypothetical situations."
+				}
+			}
+		},
+		{
+			"questionNumber": 50,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The soup is ___ salty for me to eat, so I will return it.",
+					"options": [
+						{ "text": "too", "isCorrect": true },
+						{ "text": "enough", "isCorrect": false },
+						{ "text": "more", "isCorrect": false },
+						{ "text": "very much", "isCorrect": false }
+					],
+					"explanation": "Too is used before an adjective to indicate an excessive amount that causes a negative result."
+				}
+			}
+		},
+		{
+			"questionNumber": 51,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "They told the tourists that the museum ___ closed on Mondays.",
+					"options": [
+						{ "text": "was", "isCorrect": true },
+						{ "text": "is being", "isCorrect": false },
+						{ "text": "has", "isCorrect": false },
+						{ "text": "will", "isCorrect": false }
+					],
+					"explanation": "In reported speech, we usually shift the tense back from present to past."
+				}
+			}
+		},
+		{
+			"questionNumber": 52,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "easy",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Please remember to ___ the lights before you leave the office.",
+					"options": [
+						{ "text": "turn off", "isCorrect": true },
+						{ "text": "turn down", "isCorrect": false },
+						{ "text": "turn in", "isCorrect": false },
+						{ "text": "turn over", "isCorrect": false }
+					],
+					"explanation": "Turn off is the phrasal verb meaning to stop a device or light from working."
+				}
+			}
+		},
+		{
+			"questionNumber": 53,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The history lesson was very long, but ___ of the students felt bored.",
+					"options": [
+						{ "text": "neither", "isCorrect": true },
+						{ "text": "either", "isCorrect": false },
+						{ "text": "both", "isCorrect": false },
+						{ "text": "none", "isCorrect": false }
+					],
+					"explanation": "Neither is used to indicate not one nor the other of two people or things."
+				}
+			}
+		},
+		{
+			"questionNumber": 54,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "She has worked at the hospital ___ she moved to this city.",
+					"options": [
+						{ "text": "since", "isCorrect": true },
+						{ "text": "for", "isCorrect": false },
+						{ "text": "during", "isCorrect": false },
+						{ "text": "while", "isCorrect": false }
+					],
+					"explanation": "Since is used with the present perfect to indicate the starting point of an action."
+				}
+			}
+		},
+		{
+			"questionNumber": 55,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "easy",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "You ___ wear a seatbelt while you are driving in this country.",
+					"options": [
+						{ "text": "must", "isCorrect": true },
+						{ "text": "might", "isCorrect": false },
+						{ "text": "could", "isCorrect": false },
+						{ "text": "would", "isCorrect": false }
+					],
+					"explanation": "Must is used to express obligation or a rule that is necessary to follow."
+				}
+			}
+		},
+		{
+			"questionNumber": 56,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I enjoy ___ to music while I am studying in the library.",
+					"options": [
+						{ "text": "listening", "isCorrect": true },
+						{ "text": "to listen", "isCorrect": false },
+						{ "text": "listen", "isCorrect": false },
+						{ "text": "listened", "isCorrect": false }
+					],
+					"explanation": "The verb enjoy is followed by the gerund form of the verb."
+				}
+			}
+		},
+		{
+			"questionNumber": 57,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The package ___ to the wrong address by the delivery company yesterday.",
+					"options": [
+						{ "text": "was sent", "isCorrect": true },
+						{ "text": "is sent", "isCorrect": false },
+						{ "text": "sent", "isCorrect": false },
+						{ "text": "has sent", "isCorrect": false }
+					],
+					"explanation": "Yesterday indicates the past, and the package is the object receiving the action, requiring past passive."
+				}
+			}
+		},
+		{
+			"questionNumber": 58,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "They ___ dinner when the doorbell rang and the guests arrived.",
+					"options": [
+						{ "text": "were eating", "isCorrect": true },
+						{ "text": "ate", "isCorrect": false },
+						{ "text": "have eaten", "isCorrect": false },
+						{ "text": "eat", "isCorrect": false }
+					],
+					"explanation": "The past continuous is used to describe an action that was in progress when another event happened."
+				}
+			}
+		},
+		{
+			"questionNumber": 59,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The apartment is not big ___ for a family of five people.",
+					"options": [
+						{ "text": "enough", "isCorrect": true },
+						{ "text": "too", "isCorrect": false },
+						{ "text": "very", "isCorrect": false },
+						{ "text": "so", "isCorrect": false }
+					],
+					"explanation": "Enough comes after an adjective to mean that something is sufficient."
+				}
+			}
+		},
+		{
+			"questionNumber": 60,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "If she ___ the map, she would not be lost right now.",
+					"options": [
+						{ "text": "had", "isCorrect": true },
+						{ "text": "has", "isCorrect": false },
+						{ "text": "will have", "isCorrect": false },
+						{ "text": "would have", "isCorrect": false }
+					],
+					"explanation": "This is a second conditional sentence, using the simple past to describe an imaginary present situation."
+				}
+			}
+		},
+		{
+			"questionNumber": 61,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The scientist said that the temperature ___ to rise every year.",
+					"options": [
+						{ "text": "continued", "isCorrect": true },
+						{ "text": "continue", "isCorrect": false },
+						{ "text": "is continuing", "isCorrect": false },
+						{ "text": "will continue", "isCorrect": false }
+					],
+					"explanation": "In reported speech, we shift the tense back, so continue becomes continued."
+				}
+			}
+		},
+		{
+			"questionNumber": 62,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "easy",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The hotel ___ we stayed during the holiday was very comfortable.",
+					"options": [
+						{ "text": "where", "isCorrect": true },
+						{ "text": "which", "isCorrect": false },
+						{ "text": "who", "isCorrect": false },
+						{ "text": "when", "isCorrect": false }
+					],
+					"explanation": "Where is the relative pronoun used for places."
+				}
+			}
+		},
+		{
+			"questionNumber": 63,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I ___ my keys. Have you seen them anywhere in the house?",
+					"options": [
+						{ "text": "have lost", "isCorrect": true },
+						{ "text": "lost", "isCorrect": false },
+						{ "text": "lose", "isCorrect": false },
+						{ "text": "am losing", "isCorrect": false }
+					],
+					"explanation": "The present perfect is used for a past event that has a result in the present."
+				}
+			}
+		},
+		{
+			"questionNumber": 64,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The students are looking forward to ___ their results next week.",
+					"options": [
+						{ "text": "receiving", "isCorrect": true },
+						{ "text": "receive", "isCorrect": false },
+						{ "text": "to receive", "isCorrect": false },
+						{ "text": "received", "isCorrect": false }
+					],
+					"explanation": "The phrase look forward to is followed by a gerund."
+				}
+			}
+		},
+		{
+			"questionNumber": 65,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "You ___ smoke inside the building because it is strictly forbidden.",
+					"options": [
+						{ "text": "must not", "isCorrect": true },
+						{ "text": "do not have to", "isCorrect": false },
+						{ "text": "might not", "isCorrect": false },
+						{ "text": "could not", "isCorrect": false }
+					],
+					"explanation": "Must not is used to express prohibition."
+				}
+			}
+		},
+		{
+			"questionNumber": 66,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "easy",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "We need to ___ who is responsible for the error in the project.",
+					"options": [
+						{ "text": "find out", "isCorrect": true },
+						{ "text": "look for", "isCorrect": false },
+						{ "text": "give up", "isCorrect": false },
+						{ "text": "take off", "isCorrect": false }
+					],
+					"explanation": "Find out is a phrasal verb meaning to discover information."
+				}
+			}
+		},
+		{
+			"questionNumber": 67,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ the train nor the bus arrives on time during the winter.",
+					"options": [
+						{ "text": "Neither", "isCorrect": true },
+						{ "text": "Either", "isCorrect": false },
+						{ "text": "Both", "isCorrect": false },
+						{ "text": "Whether", "isCorrect": false }
+					],
+					"explanation": "Neither is paired with nor to indicate that two options are not possible."
+				}
+			}
+		},
+		{
+			"questionNumber": 68,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The ancient vase ___ by a young child in the museum yesterday.",
+					"options": [
+						{ "text": "was broken", "isCorrect": true },
+						{ "text": "has broken", "isCorrect": false },
+						{ "text": "broke", "isCorrect": false },
+						{ "text": "was breaking", "isCorrect": false }
+					],
+					"explanation": "The past passive is used to show what happened to the subject in the past."
+				}
+			}
+		},
+		{
+			"questionNumber": 69,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "While the chef ___ the meal, the lights in the kitchen failed.",
+					"options": [
+						{ "text": "was preparing", "isCorrect": true },
+						{ "text": "prepared", "isCorrect": false },
+						{ "text": "has prepared", "isCorrect": false },
+						{ "text": "prepares", "isCorrect": false }
+					],
+					"explanation": "The past continuous describes a background action that was happening when another event occurred."
+				}
+			}
+		},
+		{
+			"questionNumber": 70,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "easy",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "If you do not hurry, you ___ the beginning of the film.",
+					"options": [
+						{ "text": "will miss", "isCorrect": true },
+						{ "text": "would miss", "isCorrect": false },
+						{ "text": "miss", "isCorrect": false },
+						{ "text": "missed", "isCorrect": false }
+					],
+					"explanation": "A first conditional sentence uses if plus present simple and will plus infinitive."
+				}
+			}
+		},
+		{
+			"questionNumber": 71,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "She decided ___ for a new job because she was not happy.",
+					"options": [
+						{ "text": "to look", "isCorrect": true },
+						{ "text": "looking", "isCorrect": false },
+						{ "text": "look", "isCorrect": false },
+						{ "text": "looked", "isCorrect": false }
+					],
+					"explanation": "The verb decide is followed by the to-infinitive."
+				}
+			}
+		},
+		{
+			"questionNumber": 72,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The house ___ is located near the river belongs to my uncle.",
+					"options": [
+						{ "text": "that", "isCorrect": true },
+						{ "text": "who", "isCorrect": false },
+						{ "text": "where", "isCorrect": false },
+						{ "text": "whose", "isCorrect": false }
+					],
+					"explanation": "That is used as a relative pronoun for objects or things."
+				}
+			}
+		},
+		{
+			"questionNumber": 73,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I have not seen my cousin ___ the party last summer.",
+					"options": [
+						{ "text": "since", "isCorrect": true },
+						{ "text": "for", "isCorrect": false },
+						{ "text": "ago", "isCorrect": false },
+						{ "text": "from", "isCorrect": false }
+					],
+					"explanation": "Since indicates the starting point of a period of time up to the present."
+				}
+			}
+		},
+		{
+			"questionNumber": 74,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "He told me that he ___ never visited Paris before that trip.",
+					"options": [
+						{ "text": "had", "isCorrect": true },
+						{ "text": "has", "isCorrect": false },
+						{ "text": "was", "isCorrect": false },
+						{ "text": "did", "isCorrect": false }
+					],
+					"explanation": "Reported speech for the present perfect usually shifts to the past perfect."
+				}
+			}
+		},
+		{
+			"questionNumber": 75,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "easy",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "You ___ study harder if you want to pass the final exam.",
+					"options": [
+						{ "text": "should", "isCorrect": true },
+						{ "text": "might", "isCorrect": false },
+						{ "text": "could", "isCorrect": false },
+						{ "text": "would", "isCorrect": false }
+					],
+					"explanation": "Should is used to give advice or make recommendations."
+				}
+			}
+		},
+		{
+			"questionNumber": 76,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The student used to ___ to school, but now he takes the bus.",
+					"options": [
+						{ "text": "walk", "isCorrect": true },
+						{ "text": "walking", "isCorrect": false },
+						{ "text": "walked", "isCorrect": false },
+						{ "text": "be walking", "isCorrect": false }
+					],
+					"explanation": "Used to is followed by the base form of the verb to describe past habits."
+				}
+			}
+		},
+		{
+			"questionNumber": 77,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Would you mind ___ the window? It is very cold in here.",
+					"options": [
+						{ "text": "closing", "isCorrect": true },
+						{ "text": "to close", "isCorrect": false },
+						{ "text": "close", "isCorrect": false },
+						{ "text": "closed", "isCorrect": false }
+					],
+					"explanation": "The phrase would you mind is followed by the gerund."
+				}
+			}
+		},
+		{
+			"questionNumber": 78,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Many cars ___ in this factory every day for international markets.",
+					"options": [
+						{ "text": "are produced", "isCorrect": true },
+						{ "text": "is produced", "isCorrect": false },
+						{ "text": "produce", "isCorrect": false },
+						{ "text": "were produced", "isCorrect": false }
+					],
+					"explanation": "The present passive is used for actions that happen regularly."
+				}
+			}
+		},
+		{
+			"questionNumber": 79,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "easy",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I forgot to ___ the information on the website yesterday evening.",
+					"options": [
+						{ "text": "look for", "isCorrect": true },
+						{ "text": "look at", "isCorrect": false },
+						{ "text": "look after", "isCorrect": false },
+						{ "text": "look up", "isCorrect": false }
+					],
+					"explanation": "Look for means to try to find something or someone."
+				}
+			}
+		},
+		{
+			"questionNumber": 80,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "You can ___ stay here or go home with your brother.",
+					"options": [
+						{ "text": "either", "isCorrect": true },
+						{ "text": "neither", "isCorrect": false },
+						{ "text": "both", "isCorrect": false },
+						{ "text": "also", "isCorrect": false }
+					],
+					"explanation": "Either is used with or to offer a choice between two possibilities."
+				}
+			}
+		},
+		{
+			"questionNumber": 81,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The director ___ the meeting while the employees were talking loudly.",
+					"options": [
+						{ "text": "started", "isCorrect": true },
+						{ "text": "was starting", "isCorrect": false },
+						{ "text": "has started", "isCorrect": false },
+						{ "text": "starts", "isCorrect": false }
+					],
+					"explanation": "The simple past is used for a completed action that interrupts a longer past action."
+				}
+			}
+		},
+		{
+			"questionNumber": 82,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The woman ___ lives next door is a famous musician.",
+					"options": [
+						{ "text": "who", "isCorrect": true },
+						{ "text": "which", "isCorrect": false },
+						{ "text": "whom", "isCorrect": false },
+						{ "text": "whose", "isCorrect": false }
+					],
+					"explanation": "Who is the relative pronoun for people in a defining relative clause."
+				}
+			}
+		},
+		{
+			"questionNumber": 83,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I ___ to call you many times today, but the line was busy.",
+					"options": [
+						{ "text": "have tried", "isCorrect": true },
+						{ "text": "tried", "isCorrect": false },
+						{ "text": "try", "isCorrect": false },
+						{ "text": "am trying", "isCorrect": false }
+					],
+					"explanation": "The present perfect is used to show an action repeated several times up to now."
+				}
+			}
+		},
+		{
+			"questionNumber": 84,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The coffee is ___ hot for me to drink right now.",
+					"options": [
+						{ "text": "too", "isCorrect": true },
+						{ "text": "enough", "isCorrect": false },
+						{ "text": "much", "isCorrect": false },
+						{ "text": "fairly", "isCorrect": false }
+					],
+					"explanation": "Too indicates that the intensity of the adjective is more than what is desired."
+				}
+			}
+		}
+	]
+}

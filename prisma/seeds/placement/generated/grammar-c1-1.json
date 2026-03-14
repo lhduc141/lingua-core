@@ -1,0 +1,908 @@
+{
+	"level": "C1",
+	"type": "grammar",
+	"questions": [
+		{
+			"questionNumber": 1,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Not until the final audit was completed by the team ___ the full extent of the significant financial discrepancies.",
+					"options": [
+						{ "text": "did the board realize", "isCorrect": true },
+						{ "text": "the board realized it", "isCorrect": false },
+						{ "text": "the board had realized", "isCorrect": false },
+						{ "text": "had the board realized", "isCorrect": false }
+					],
+					"explanation": "After a negative fronted adverbial such as Not until, subject-auxiliary inversion is required, resulting in the form did the board realize."
+				}
+			}
+		},
+		{
+			"questionNumber": 2,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Little ___ that the strategic expansion of the firm into the international market would lead to such a dramatic increase in revenue.",
+					"options": [
+						{ "text": "did the CEO suspect", "isCorrect": true },
+						{ "text": "the CEO had suspect", "isCorrect": false },
+						{ "text": "had the CEO suspect", "isCorrect": false },
+						{ "text": "the CEO did suspect", "isCorrect": false }
+					],
+					"explanation": "The word Little used at the beginning of a sentence for emphasis requires subject-auxiliary inversion, which is the form did the CEO suspect."
+				}
+			}
+		},
+		{
+			"questionNumber": 3,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Were it not for the timely intervention of the legal team, the contract ___ by the regulatory authorities during the review.",
+					"options": [
+						{ "text": "would have been halted", "isCorrect": true },
+						{ "text": "shall have been halted", "isCorrect": false },
+						{ "text": "might have been halted", "isCorrect": false },
+						{ "text": "could have been halted", "isCorrect": false }
+					],
+					"explanation": "This conditional structure uses an inverted subjunctive form to express a hypothetical past situation and its likely result."
+				}
+			}
+		},
+		{
+			"questionNumber": 4,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The chairperson requested that the secretary ___ the minutes of the meeting to all members immediately following the conclusion of the session.",
+					"options": [
+						{ "text": "distribute", "isCorrect": true },
+						{ "text": "distributes", "isCorrect": false },
+						{ "text": "distributed", "isCorrect": false },
+						{ "text": "distributing", "isCorrect": false }
+					],
+					"explanation": "The verb request is followed by a that-clause using the subjunctive mood, which requires the base form of the verb distribute."
+				}
+			}
+		},
+		{
+			"questionNumber": 5,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "It is only recently ___ the true impact of the environmental policy on the local economy has been fully realized by the government.",
+					"options": [
+						{ "text": "that the gravity of", "isCorrect": true },
+						{ "text": "when the gravity of", "isCorrect": false },
+						{ "text": "since the gravity of", "isCorrect": false },
+						{ "text": "while the gravity of", "isCorrect": false }
+					],
+					"explanation": "This complex cleft structure uses the pattern It is only recently that to emphasize the time when something happened."
+				}
+			}
+		},
+		{
+			"questionNumber": 6,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "What the data clearly reveals ___ a significant correlation between the level of education and the annual income of the citizens.",
+					"options": [
+						{ "text": "is specifically", "isCorrect": true },
+						{ "text": "was specifically", "isCorrect": false },
+						{ "text": "be specifically", "isCorrect": false },
+						{ "text": "has specifically", "isCorrect": false }
+					],
+					"explanation": "A pseudo-cleft sentence starting with What the data reveals functions as the subject and requires the singular verb is."
+				}
+			}
+		},
+		{
+			"questionNumber": 7,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The sudden ___ in the stock price of the company led to a comprehensive investigation by the federal commission last month.",
+					"options": [
+						{ "text": "deterioration", "isCorrect": true },
+						{ "text": "degeneration", "isCorrect": false },
+						{ "text": "depreciation", "isCorrect": false },
+						{ "text": "devaluation", "isCorrect": false }
+					],
+					"explanation": "Nominalization is used here where the noun deterioration describes a negative change in quality or value in a formal context."
+				}
+			}
+		},
+		{
+			"questionNumber": 8,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The implementation of the new safety protocols resulted in a significant ___ in the overall productivity of the factory staff.",
+					"options": [
+						{ "text": "augmentation", "isCorrect": true },
+						{ "text": "acceleration", "isCorrect": false },
+						{ "text": "accumulation", "isCorrect": false },
+						{ "text": "appreciation", "isCorrect": false }
+					],
+					"explanation": "Augmentation is a formal noun meaning the action of making something greater by adding to it, appropriate for nominalized academic writing."
+				}
+			}
+		},
+		{
+			"questionNumber": 9,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The former director is reported ___ several million dollars from the pension fund of the company during the previous fiscal year.",
+					"options": [
+						{ "text": "to have embezzled", "isCorrect": true },
+						{ "text": "to be embezzling", "isCorrect": false },
+						{ "text": "to have embezzle", "isCorrect": false },
+						{ "text": "to be embezzle", "isCorrect": false }
+					],
+					"explanation": "The perfect infinitive form to have embezzled is used after a passive verb to refer to an action that happened in the past."
+				}
+			}
+		},
+		{
+			"questionNumber": 10,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The suspect is believed ___ the country before the investigators could serve the warrant for the arrest at the residence.",
+					"options": [
+						{ "text": "to have departed", "isCorrect": true },
+						{ "text": "to have escaped", "isCorrect": false },
+						{ "text": "to have vanished", "isCorrect": false },
+						{ "text": "to have retreated", "isCorrect": false }
+					],
+					"explanation": "This passive construction with the perfect infinitive indicates a belief about a past event that occurred before another past point."
+				}
+			}
+		},
+		{
+			"questionNumber": 11,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Under no circumstances ___ the sensitive documents be removed from the secure facility without written authorization from the senior manager.",
+					"options": [
+						{ "text": "should the employee", "isCorrect": true },
+						{ "text": "must the employee", "isCorrect": false },
+						{ "text": "shall the employee", "isCorrect": false },
+						{ "text": "will the employee", "isCorrect": false }
+					],
+					"explanation": "Negative fronted adverbials such as Under no circumstances require subject-auxiliary inversion, resulting in the order should the employee."
+				}
+			}
+		},
+		{
+			"questionNumber": 12,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "At no point ___ the management acknowledge the potential risk of a data breach during the public hearing last Tuesday.",
+					"options": [
+						{ "text": "did the executive", "isCorrect": true },
+						{ "text": "was the executive", "isCorrect": false },
+						{ "text": "has the executive", "isCorrect": false },
+						{ "text": "had the executive", "isCorrect": false }
+					],
+					"explanation": "The phrase At no point is a negative adverbial that triggers subject-auxiliary inversion when placed at the start of a sentence."
+				}
+			}
+		},
+		{
+			"questionNumber": 13,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ well aware of the potential risks associated with the investment, the board decided to proceed with the acquisition regardless.",
+					"options": [
+						{ "text": "Being indeed", "isCorrect": true },
+						{ "text": "Having been", "isCorrect": false },
+						{ "text": "As they are", "isCorrect": false },
+						{ "text": "Feeling now", "isCorrect": false }
+					],
+					"explanation": "A present participle clause using Being expresses a reason or condition, effectively functioning as an adverbial clause in formal writing."
+				}
+			}
+		},
+		{
+			"questionNumber": 14,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Having been informed of the unexpected delay, the client requested an immediate ___ in the total cost of the project.",
+					"options": [
+						{ "text": "reduction", "isCorrect": true },
+						{ "text": "deduction", "isCorrect": false },
+						{ "text": "abatement", "isCorrect": false },
+						{ "text": "omission", "isCorrect": false }
+					],
+					"explanation": "The perfect participle Having been informed indicates a completed action prior to the main verb, followed by the formal noun reduction."
+				}
+			}
+		},
+		{
+			"questionNumber": 15,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The research team ___ anticipated the extreme complexity of the task without the assistance of the external specialist consultants.",
+					"options": [
+						{ "text": "could not have", "isCorrect": true },
+						{ "text": "might not have", "isCorrect": false },
+						{ "text": "would not have", "isCorrect": false },
+						{ "text": "should not have", "isCorrect": false }
+					],
+					"explanation": "The modal perfect could not have is used to express the impossibility of a past event under certain hypothetical conditions."
+				}
+			}
+		},
+		{
+			"questionNumber": 16,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The supervisor ___ provided the necessary training to the new employees before the commencement of the first production shift.",
+					"options": [
+						{ "text": "ought to have", "isCorrect": true },
+						{ "text": "might to have", "isCorrect": false },
+						{ "text": "would to have", "isCorrect": false },
+						{ "text": "could to have", "isCorrect": false }
+					],
+					"explanation": "Ought to have is a formal modal perfect construction used to express an unfulfilled past obligation or expectation."
+				}
+			}
+		},
+		{
+			"questionNumber": 17,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The regulations, ___ strictly, ensure the safety of the workers and the overall integrity of the entire manufacturing process.",
+					"options": [
+						{ "text": "when applied", "isCorrect": true },
+						{ "text": "while apply", "isCorrect": false },
+						{ "text": "if applying", "isCorrect": false },
+						{ "text": "as applying", "isCorrect": false }
+					],
+					"explanation": "This is an example of ellipsis in formal writing, where when applied is short for when they are applied, maintaining conciseness."
+				}
+			}
+		},
+		{
+			"questionNumber": 18,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The findings, ___ in the final report, suggest a profound need for a fundamental change in the corporate strategy.",
+					"options": [
+						{ "text": "as discussed", "isCorrect": true },
+						{ "text": "when discuss", "isCorrect": false },
+						{ "text": "if discussing", "isCorrect": false },
+						{ "text": "while discuss", "isCorrect": false }
+					],
+					"explanation": "As discussed is a common formal ellipsis meaning as they were discussed, used to refer back to previously mentioned information."
+				}
+			}
+		},
+		{
+			"questionNumber": 19,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The individual to ___ the document was sent has not yet acknowledged the receipt of the package from the courier.",
+					"options": [
+						{ "text": "whom", "isCorrect": true },
+						{ "text": "who", "isCorrect": false },
+						{ "text": "which", "isCorrect": false },
+						{ "text": "whose", "isCorrect": false }
+					],
+					"explanation": "In formal register, the relative pronoun whom is used after a preposition when referring to a person as the object of the verb."
+				}
+			}
+		},
+		{
+			"questionNumber": 20,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The witness alleged that the defendant ___ the signature on the legal document to gain an unfair financial benefit.",
+					"options": [
+						{ "text": "had falsified", "isCorrect": true },
+						{ "text": "has falsified", "isCorrect": false },
+						{ "text": "did falsified", "isCorrect": false },
+						{ "text": "was falsified", "isCorrect": false }
+					],
+					"explanation": "Reported speech with the verb allege requires the past perfect had falsified to indicate an action prior to the time of the allegation."
+				}
+			}
+		},
+		{
+			"questionNumber": 21,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The spokesperson maintained that the company ___ all relevant environmental laws during the previous ten years of operation.",
+					"options": [
+						{ "text": "had observed", "isCorrect": true },
+						{ "text": "has observed", "isCorrect": false },
+						{ "text": "was observed", "isCorrect": false },
+						{ "text": "did observed", "isCorrect": false }
+					],
+					"explanation": "In formal reporting, maintained that is followed by the past perfect to describe actions that took place before the statement was made."
+				}
+			}
+		},
+		{
+			"questionNumber": 22,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ admittedly difficult, the integration of the two departments was completed without any major conflicts between the staff members.",
+					"options": [
+						{ "text": "Although", "isCorrect": true },
+						{ "text": "Despite", "isCorrect": false },
+						{ "text": "Whereas", "isCorrect": false },
+						{ "text": "Because", "isCorrect": false }
+					],
+					"explanation": "Although admittedly is a complex concessive clause structure used to acknowledge a difficulty while emphasizing a success."
+				}
+			}
+		},
+		{
+			"questionNumber": 23,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Despite having faced numerous obstacles during the development, the engineers managed to ___ the prototype ahead of the deadline.",
+					"options": [
+						{ "text": "complete", "isCorrect": true },
+						{ "text": "conclude", "isCorrect": false },
+						{ "text": "finalize", "isCorrect": false },
+						{ "text": "moderate", "isCorrect": false }
+					],
+					"explanation": "Despite having faced is a concessive phrase using a perfect gerund to refer to past difficulties overcome by the subject."
+				}
+			}
+		},
+		{
+			"questionNumber": 24,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The board will approve the proposal ___ that the audit team confirms the absolute accuracy of the financial statements.",
+					"options": [
+						{ "text": "providing", "isCorrect": true },
+						{ "text": "supposing", "isCorrect": false },
+						{ "text": "granting", "isCorrect": false },
+						{ "text": "assuming", "isCorrect": false }
+					],
+					"explanation": "Providing that is a formal alternative to if used in professional contexts to specify a necessary condition for an action."
+				}
+			}
+		},
+		{
+			"questionNumber": 25,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The transaction will proceed ___ that the buyer provides a letter of credit from a reputable and stable international bank.",
+					"options": [
+						{ "text": "on condition", "isCorrect": true },
+						{ "text": "in condition", "isCorrect": false },
+						{ "text": "at condition", "isCorrect": false },
+						{ "text": "by condition", "isCorrect": false }
+					],
+					"explanation": "On condition that is a formal conditional alternative used to state a strict requirement for a legal or financial agreement."
+				}
+			}
+		},
+		{
+			"questionNumber": 26,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The study analyzed both urban growth and rural decline; however, the ___ was attributed to the lack of infrastructure.",
+					"options": [
+						{ "text": "latter", "isCorrect": true },
+						{ "text": "former", "isCorrect": false },
+						{ "text": "second", "isCorrect": false },
+						{ "text": "others", "isCorrect": false }
+					],
+					"explanation": "The latter is a cohesive device used in formal academic writing to refer to the second of two things previously mentioned."
+				}
+			}
+		},
+		{
+			"questionNumber": 27,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The report discussed the costs and the benefits; the ___ were found to be significantly higher than the initial estimates.",
+					"options": [
+						{ "text": "former", "isCorrect": true },
+						{ "text": "latter", "isCorrect": false },
+						{ "text": "second", "isCorrect": false },
+						{ "text": "others", "isCorrect": false }
+					],
+					"explanation": "The former is a cohesive device used to refer to the first of two subjects introduced in a preceding clause or sentence."
+				}
+			}
+		},
+		{
+			"questionNumber": 28,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Only after the heavy rain had ceased ___ the full extent of the significant damage to the urban infrastructure visible.",
+					"options": [
+						{ "text": "was the total", "isCorrect": true },
+						{ "text": "is the total", "isCorrect": false },
+						{ "text": "has the total", "isCorrect": false },
+						{ "text": "had the total", "isCorrect": false }
+					],
+					"explanation": "When a sentence begins with Only after, subject-auxiliary inversion is required in the main clause, resulting in was the total."
+				}
+			}
+		},
+		{
+			"questionNumber": 29,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Seldom ___ such a high level of cooperation between the rival political factions during the legislative session in the capital.",
+					"options": [
+						{ "text": "has there been", "isCorrect": true },
+						{ "text": "there has been", "isCorrect": false },
+						{ "text": "was there been", "isCorrect": false },
+						{ "text": "there was been", "isCorrect": false }
+					],
+					"explanation": "The word Seldom used at the beginning of a sentence triggers inversion between the auxiliary verb and the subject."
+				}
+			}
+		},
+		{
+			"questionNumber": 30,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "If the truth ___ known to the public, the reputation of the politician would be ruined beyond any hope of repair.",
+					"options": [
+						{ "text": "were to become", "isCorrect": true },
+						{ "text": "was to become", "isCorrect": false },
+						{ "text": "is to become", "isCorrect": false },
+						{ "text": "had to become", "isCorrect": false }
+					],
+					"explanation": "This structure uses the subjunctive were to become to discuss a hypothetical future event that is considered highly unlikely."
+				}
+			}
+		},
+		{
+			"questionNumber": 31,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "It is imperative that the supervisor ___ informed of any safety violations immediately upon their occurrence in the facility area.",
+					"options": [
+						{ "text": "be constantly", "isCorrect": true },
+						{ "text": "is constantly", "isCorrect": false },
+						{ "text": "was constantly", "isCorrect": false },
+						{ "text": "has constantly", "isCorrect": false }
+					],
+					"explanation": "The adjective imperative is followed by a that-clause using the mandative subjunctive, which requires the base form be."
+				}
+			}
+		},
+		{
+			"questionNumber": 32,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ that the invention of the steam engine transformed the nature of industrial production and the global economy forever.",
+					"options": [
+						{ "text": "It was then", "isCorrect": true },
+						{ "text": "That was then", "isCorrect": false },
+						{ "text": "This was then", "isCorrect": false },
+						{ "text": "What was then", "isCorrect": false }
+					],
+					"explanation": "This is a cleft structure used to emphasize the time or significance of a historical event in an academic context."
+				}
+			}
+		},
+		{
+			"questionNumber": 33,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ the evidence suggests is that the suspect was not present at the scene of the crime during the incident.",
+					"options": [
+						{ "text": "What", "isCorrect": true },
+						{ "text": "That", "isCorrect": false },
+						{ "text": "Which", "isCorrect": false },
+						{ "text": "This", "isCorrect": false }
+					],
+					"explanation": "What functions here as the start of a pseudo-cleft sentence, which is used to focus on a specific piece of information."
+				}
+			}
+		},
+		{
+			"questionNumber": 34,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "A steady ___ in the quality of the raw materials has led to a reduction in the total lifespan of the products.",
+					"options": [
+						{ "text": "deterioration", "isCorrect": true },
+						{ "text": "degeneration", "isCorrect": false },
+						{ "text": "depreciation", "isCorrect": false },
+						{ "text": "devaluation", "isCorrect": false }
+					],
+					"explanation": "Deterioration is a formal noun used through nominalization to describe the process of becoming progressively worse."
+				}
+			}
+		},
+		{
+			"questionNumber": 35,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The rapid ___ of the urban areas has led to a significant loss of the natural habitats for many native species.",
+					"options": [
+						{ "text": "expansion", "isCorrect": true },
+						{ "text": "extension", "isCorrect": false },
+						{ "text": "evolution", "isCorrect": false },
+						{ "text": "elevation", "isCorrect": false }
+					],
+					"explanation": "Expansion is a formal noun that describes the increase in size or extent of something, fitting the academic register."
+				}
+			}
+		},
+		{
+			"questionNumber": 36,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The artifact is thought ___ to the late bronze age based on the recent carbon dating results from the laboratory.",
+					"options": [
+						{ "text": "to have belonged", "isCorrect": true },
+						{ "text": "to have appeared", "isCorrect": false },
+						{ "text": "to have remained", "isCorrect": false },
+						{ "text": "to have happened", "isCorrect": false }
+					],
+					"explanation": "The perfect infinitive to have belonged is used after the passive thought to refer to a state that existed in the past."
+				}
+			}
+		},
+		{
+			"questionNumber": 37,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The paintings are said ___ by a private collector who wishes to remain anonymous for the time being during the auction.",
+					"options": [
+						{ "text": "to have been bought", "isCorrect": true },
+						{ "text": "to have been sold", "isCorrect": false },
+						{ "text": "to have been lost", "isCorrect": false },
+						{ "text": "to have been kept", "isCorrect": false }
+					],
+					"explanation": "The passive perfect infinitive to have been bought indicates a past action performed on the subject in a formal context."
+				}
+			}
+		},
+		{
+			"questionNumber": 38,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Seldom ___ such a brilliant display of the northern lights been observed in this southern region of the country.",
+					"options": [
+						{ "text": "has there", "isCorrect": true },
+						{ "text": "was there", "isCorrect": false },
+						{ "text": "is there", "isCorrect": false },
+						{ "text": "had there", "isCorrect": false }
+					],
+					"explanation": "Seldom at the start of the sentence requires an inverted structure has there followed by the past participle been."
+				}
+			}
+		},
+		{
+			"questionNumber": 39,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ with the results of the initial experiment, the scientists decided to change the focus of the entire research program.",
+					"options": [
+						{ "text": "Dissatisfied", "isCorrect": true },
+						{ "text": "Disappointed", "isCorrect": false },
+						{ "text": "Disorganized", "isCorrect": false },
+						{ "text": "Disenchanted", "isCorrect": false }
+					],
+					"explanation": "A past participle clause such as Dissatisfied provides the reason for the decision made by the main subject."
+				}
+			}
+		},
+		{
+			"questionNumber": 40,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The error in the calculation ___ noticed during the peer review process to prevent the subsequent delays in the publication.",
+					"options": [
+						{ "text": "ought to have been", "isCorrect": true },
+						{ "text": "might to have been", "isCorrect": false },
+						{ "text": "would to have been", "isCorrect": false },
+						{ "text": "could to have been", "isCorrect": false }
+					],
+					"explanation": "Ought to have been is a complex modal perfect passive construction expressing an unfulfilled obligation in the past."
+				}
+			}
+		},
+		{
+			"questionNumber": 41,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "C1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The contract, ___ by both parties, constitutes a legally binding agreement between the company and the international client.",
+					"options": [
+						{ "text": "once signed", "isCorrect": true },
+						{ "text": "when signed", "isCorrect": false },
+						{ "text": "if signed", "isCorrect": false },
+						{ "text": "as signed", "isCorrect": false }
+					],
+					"explanation": "Once signed is an elliptical form of once it has been signed, common in formal legal and professional writing."
+				}
+			}
+		}
+	]
+}

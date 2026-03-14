@@ -1,0 +1,886 @@
+{
+	"level": "A1",
+	"type": "grammar",
+	"questions": [
+		{
+			"questionNumber": 1,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "very_easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I ___ a teacher at the school.",
+					"options": [
+						{ "text": "am", "isCorrect": true },
+						{ "text": "is", "isCorrect": false },
+						{ "text": "are", "isCorrect": false },
+						{ "text": "be", "isCorrect": false }
+					],
+					"explanation": "The subject I always takes the verb form am."
+				}
+			}
+		},
+		{
+			"questionNumber": 2,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "very_easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The book is ___ the table.",
+					"options": [
+						{ "text": "on", "isCorrect": true },
+						{ "text": "to", "isCorrect": false },
+						{ "text": "at", "isCorrect": false },
+						{ "text": "by", "isCorrect": false }
+					],
+					"explanation": "We use on to describe a position on a surface."
+				}
+			}
+		},
+		{
+			"questionNumber": 3,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "very_easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "He ___ two sisters.",
+					"options": [
+						{ "text": "has", "isCorrect": true },
+						{ "text": "have", "isCorrect": false },
+						{ "text": "having", "isCorrect": false },
+						{ "text": "is", "isCorrect": false }
+					],
+					"explanation": "He takes the third person singular form has."
+				}
+			}
+		},
+		{
+			"questionNumber": 4,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "very_easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "They ___ from Spain.",
+					"options": [
+						{ "text": "are", "isCorrect": true },
+						{ "text": "is", "isCorrect": false },
+						{ "text": "am", "isCorrect": false },
+						{ "text": "was", "isCorrect": false }
+					],
+					"explanation": "The plural subject they requires the verb are."
+				}
+			}
+		},
+		{
+			"questionNumber": 5,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "very_easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "This is ___ apple.",
+					"options": [
+						{ "text": "an", "isCorrect": true },
+						{ "text": "a", "isCorrect": false },
+						{ "text": "the", "isCorrect": false },
+						{ "text": "some", "isCorrect": false }
+					],
+					"explanation": "Use an before words starting with a vowel sound."
+				}
+			}
+		},
+		{
+			"questionNumber": 6,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "very_easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ you like coffee?",
+					"options": [
+						{ "text": "Do", "isCorrect": true },
+						{ "text": "Does", "isCorrect": false },
+						{ "text": "Are", "isCorrect": false },
+						{ "text": "Is", "isCorrect": false }
+					],
+					"explanation": "We use do for questions with the subject you."
+				}
+			}
+		},
+		{
+			"questionNumber": 7,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "very_easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ is my brother.",
+					"options": [
+						{ "text": "He", "isCorrect": true },
+						{ "text": "She", "isCorrect": false },
+						{ "text": "It", "isCorrect": false },
+						{ "text": "They", "isCorrect": false }
+					],
+					"explanation": "He is the subject pronoun for a male person."
+				}
+			}
+		},
+		{
+			"questionNumber": 8,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "very_easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "There ___ a pen on the desk.",
+					"options": [
+						{ "text": "is", "isCorrect": true },
+						{ "text": "are", "isCorrect": false },
+						{ "text": "be", "isCorrect": false },
+						{ "text": "am", "isCorrect": false }
+					],
+					"explanation": "Use there is for singular objects."
+				}
+			}
+		},
+		{
+			"questionNumber": 9,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "very_easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The house is very ***.",
+					"options": [
+						{ "text": "big", "isCorrect": true },
+						{ "text": "much", "isCorrect": false },
+						{ "text": "too", "isCorrect": false },
+						{ "text": "well", "isCorrect": false }
+					],
+					"explanation": "Big is an adjective that describes the house."
+				}
+			}
+		},
+		{
+			"questionNumber": 10,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "very_easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "*** are my friends.",
+					"options": [
+						{ "text": "We", "isCorrect": true },
+						{ "text": "I", "isCorrect": false },
+						{ "text": "He", "isCorrect": false },
+						{ "text": "She", "isCorrect": false }
+					],
+					"explanation": "We is a plural subject pronoun that matches the verb are."
+				}
+			}
+		},
+		{
+			"questionNumber": 11,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "very_easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I ___ a red car.",
+					"options": [
+						{ "text": "have", "isCorrect": true },
+						{ "text": "has", "isCorrect": false },
+						{ "text": "is", "isCorrect": false },
+						{ "text": "am", "isCorrect": false }
+					],
+					"explanation": "I takes the base form have for possession."
+				}
+			}
+		},
+		{
+			"questionNumber": 12,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 1,
+			"humanDifficulty": "very_easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The milk is in the ***.",
+					"options": [
+						{ "text": "fridge", "isCorrect": true },
+						{ "text": "fridges", "isCorrect": false },
+						{ "text": "fridging", "isCorrect": false },
+						{ "text": "fridged", "isCorrect": false }
+					],
+					"explanation": "Fridge is a singular common noun used in everyday context."
+				}
+			}
+		},
+		{
+			"questionNumber": 13,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "She ___ pizza every Friday.",
+					"options": [
+						{ "text": "eats", "isCorrect": true },
+						{ "text": "eat", "isCorrect": false },
+						{ "text": "eating", "isCorrect": false },
+						{ "text": "is eat", "isCorrect": false }
+					],
+					"explanation": "The simple present for she requires an s at the end of the verb."
+				}
+			}
+		},
+		{
+			"questionNumber": 14,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Where ___ the keys?",
+					"options": [
+						{ "text": "are", "isCorrect": true },
+						{ "text": "is", "isCorrect": false },
+						{ "text": "am", "isCorrect": false },
+						{ "text": "be", "isCorrect": false }
+					],
+					"explanation": "Keys is plural, so we use the plural verb form are."
+				}
+			}
+		},
+		{
+			"questionNumber": 15,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "My father ___ not like milk.",
+					"options": [
+						{ "text": "does", "isCorrect": true },
+						{ "text": "do", "isCorrect": false },
+						{ "text": "is", "isCorrect": false },
+						{ "text": "has", "isCorrect": false }
+					],
+					"explanation": "Does not is the correct negative form for he."
+				}
+			}
+		},
+		{
+			"questionNumber": 16,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "*** you a student?",
+					"options": [
+						{ "text": "Are", "isCorrect": true },
+						{ "text": "Is", "isCorrect": false },
+						{ "text": "Am", "isCorrect": false },
+						{ "text": "Be", "isCorrect": false }
+					],
+					"explanation": "Are is used for questions with the subject you."
+				}
+			}
+		},
+		{
+			"questionNumber": 17,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I have two ***.",
+					"options": [
+						{ "text": "cats", "isCorrect": true },
+						{ "text": "cat", "isCorrect": false },
+						{ "text": "a cat", "isCorrect": false },
+						{ "text": "catses", "isCorrect": false }
+					],
+					"explanation": "Plural nouns usually add an s."
+				}
+			}
+		},
+		{
+			"questionNumber": 18,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "This is ___ bag.",
+					"options": [
+						{ "text": "my", "isCorrect": true },
+						{ "text": "me", "isCorrect": false },
+						{ "text": "I", "isCorrect": false },
+						{ "text": "mine", "isCorrect": false }
+					],
+					"explanation": "My is a possessive adjective used before a noun."
+				}
+			}
+		},
+		{
+			"questionNumber": 19,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The class starts ___ eight o clock.",
+					"options": [
+						{ "text": "at", "isCorrect": true },
+						{ "text": "on", "isCorrect": false },
+						{ "text": "in", "isCorrect": false },
+						{ "text": "to", "isCorrect": false }
+					],
+					"explanation": "At is used for specific times of the day."
+				}
+			}
+		},
+		{
+			"questionNumber": 20,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "There ___ some water in the glass.",
+					"options": [
+						{ "text": "is", "isCorrect": true },
+						{ "text": "are", "isCorrect": false },
+						{ "text": "be", "isCorrect": false },
+						{ "text": "am", "isCorrect": false }
+					],
+					"explanation": "Water is uncountable, so we use is."
+				}
+			}
+		},
+		{
+			"questionNumber": 21,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "*** is the library?",
+					"options": [
+						{ "text": "Where", "isCorrect": true },
+						{ "text": "Who", "isCorrect": false },
+						{ "text": "What", "isCorrect": false },
+						{ "text": "When", "isCorrect": false }
+					],
+					"explanation": "Where is used to ask about a location."
+				}
+			}
+		},
+		{
+			"questionNumber": 22,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "We do ___ study on Sundays.",
+					"options": [
+						{ "text": "not", "isCorrect": true },
+						{ "text": "no", "isCorrect": false },
+						{ "text": "is", "isCorrect": false },
+						{ "text": "never", "isCorrect": false }
+					],
+					"explanation": "Do not is the standard negative form for the present simple."
+				}
+			}
+		},
+		{
+			"questionNumber": 23,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "That is ___ big dog.",
+					"options": [
+						{ "text": "a", "isCorrect": true },
+						{ "text": "an", "isCorrect": false },
+						{ "text": "any", "isCorrect": false },
+						{ "text": "some", "isCorrect": false }
+					],
+					"explanation": "A is used before words starting with a consonant sound."
+				}
+			}
+		},
+		{
+			"questionNumber": 24,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ your name Sarah?",
+					"options": [
+						{ "text": "Is", "isCorrect": true },
+						{ "text": "Are", "isCorrect": false },
+						{ "text": "Am", "isCorrect": false },
+						{ "text": "Be", "isCorrect": false }
+					],
+					"explanation": "Your name is singular, so it takes the verb is."
+				}
+			}
+		},
+		{
+			"questionNumber": 25,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The children ___ in the garden.",
+					"options": [
+						{ "text": "are", "isCorrect": true },
+						{ "text": "is", "isCorrect": false },
+						{ "text": "am", "isCorrect": false },
+						{ "text": "be", "isCorrect": false }
+					],
+					"explanation": "Children is plural, so we use the verb are."
+				}
+			}
+		},
+		{
+			"questionNumber": 26,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Does he ___ a car?",
+					"options": [
+						{ "text": "have", "isCorrect": true },
+						{ "text": "has", "isCorrect": false },
+						{ "text": "having", "isCorrect": false },
+						{ "text": "is", "isCorrect": false }
+					],
+					"explanation": "In questions with does, the verb must be in the base form have."
+				}
+			}
+		},
+		{
+			"questionNumber": 27,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Her car is ***.",
+					"options": [
+						{ "text": "red", "isCorrect": true },
+						{ "text": "redly", "isCorrect": false },
+						{ "text": "a red", "isCorrect": false },
+						{ "text": "the red", "isCorrect": false }
+					],
+					"explanation": "Red is the adjective used to describe the noun car."
+				}
+			}
+		},
+		{
+			"questionNumber": 28,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The pen is ___ to the notebook.",
+					"options": [
+						{ "text": "next", "isCorrect": true },
+						{ "text": "near", "isCorrect": false },
+						{ "text": "beside", "isCorrect": false },
+						{ "text": "at", "isCorrect": false }
+					],
+					"explanation": "Next to is a common prepositional phrase for position."
+				}
+			}
+		},
+		{
+			"questionNumber": 29,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "She ___ study English on Saturdays.",
+					"options": [
+						{ "text": "does not", "isCorrect": true },
+						{ "text": "do not", "isCorrect": false },
+						{ "text": "is not", "isCorrect": false },
+						{ "text": "not", "isCorrect": false }
+					],
+					"explanation": "The third person singular negative uses does not."
+				}
+			}
+		},
+		{
+			"questionNumber": 30,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Are ___ your books?",
+					"options": [
+						{ "text": "these", "isCorrect": true },
+						{ "text": "this", "isCorrect": false },
+						{ "text": "that", "isCorrect": false },
+						{ "text": "it", "isCorrect": false }
+					],
+					"explanation": "These is used for plural objects that are close by."
+				}
+			}
+		},
+		{
+			"questionNumber": 31,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "My friend ___ in London.",
+					"options": [
+						{ "text": "lives", "isCorrect": true },
+						{ "text": "live", "isCorrect": false },
+						{ "text": "living", "isCorrect": false },
+						{ "text": "is live", "isCorrect": false }
+					],
+					"explanation": "My friend is singular, so the verb needs an s."
+				}
+			}
+		},
+		{
+			"questionNumber": 32,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "*** often do you play tennis?",
+					"options": [
+						{ "text": "How", "isCorrect": true },
+						{ "text": "What", "isCorrect": false },
+						{ "text": "When", "isCorrect": false },
+						{ "text": "Who", "isCorrect": false }
+					],
+					"explanation": "How often is used to ask about frequency."
+				}
+			}
+		},
+		{
+			"questionNumber": 33,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I ___ understand this question.",
+					"options": [
+						{ "text": "do not", "isCorrect": true },
+						{ "text": "does not", "isCorrect": false },
+						{ "text": "am not", "isCorrect": false },
+						{ "text": "no", "isCorrect": false }
+					],
+					"explanation": "I requires do not for the negative form of understand."
+				}
+			}
+		},
+		{
+			"questionNumber": 34,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Where are ___ shoes?",
+					"options": [
+						{ "text": "my", "isCorrect": true },
+						{ "text": "I", "isCorrect": false },
+						{ "text": "me", "isCorrect": false },
+						{ "text": "mine", "isCorrect": false }
+					],
+					"explanation": "My is the possessive adjective used to modify the noun shoes."
+				}
+			}
+		},
+		{
+			"questionNumber": 35,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The cat is ___ the chair.",
+					"options": [
+						{ "text": "under", "isCorrect": true },
+						{ "text": "to", "isCorrect": false },
+						{ "text": "at", "isCorrect": false },
+						{ "text": "of", "isCorrect": false }
+					],
+					"explanation": "Under is a preposition of place showing position below something."
+				}
+			}
+		},
+		{
+			"questionNumber": 36,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "There are some ___ on the plate.",
+					"options": [
+						{ "text": "eggs", "isCorrect": true },
+						{ "text": "egg", "isCorrect": false },
+						{ "text": "an egg", "isCorrect": false },
+						{ "text": "eggses", "isCorrect": false }
+					],
+					"explanation": "The plural form eggs is required after some and are."
+				}
+			}
+		},
+		{
+			"questionNumber": 37,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ your father a doctor?",
+					"options": [
+						{ "text": "Is", "isCorrect": true },
+						{ "text": "Are", "isCorrect": false },
+						{ "text": "Do", "isCorrect": false },
+						{ "text": "Does", "isCorrect": false }
+					],
+					"explanation": "Is is used for questions about a singular person third party."
+				}
+			}
+		},
+		{
+			"questionNumber": 38,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "We ___ have a big house.",
+					"options": [
+						{ "text": "do not", "isCorrect": true },
+						{ "text": "does not", "isCorrect": false },
+						{ "text": "are not", "isCorrect": false },
+						{ "text": "have not", "isCorrect": false }
+					],
+					"explanation": "We use do not to negate have in the present simple."
+				}
+			}
+		},
+		{
+			"questionNumber": 39,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ he like orange juice?",
+					"options": [
+						{ "text": "Does", "isCorrect": true },
+						{ "text": "Do", "isCorrect": false },
+						{ "text": "Is", "isCorrect": false },
+						{ "text": "Has", "isCorrect": false }
+					],
+					"explanation": "Does is the auxiliary verb for questions with he."
+				}
+			}
+		},
+		{
+			"questionNumber": 40,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A1",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Is there ___ park near here?",
+					"options": [
+						{ "text": "a", "isCorrect": true },
+						{ "text": "an", "isCorrect": false },
+						{ "text": "any", "isCorrect": false },
+						{ "text": "some", "isCorrect": false }
+					],
+					"explanation": "A is the correct article for the singular noun park."
+				}
+			}
+		}
+	]
+}

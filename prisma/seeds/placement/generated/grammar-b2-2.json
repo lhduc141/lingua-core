@@ -1,0 +1,930 @@
+{
+	"level": "B2",
+	"type": "grammar",
+	"questions": [
+		{
+			"questionNumber": 43,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "If the research team ___ the data correctly last month, they would not be facing these errors today.",
+					"options": [
+						{ "text": "had interpreted", "isCorrect": true },
+						{ "text": "would interpret", "isCorrect": false },
+						{ "text": "have interpreted", "isCorrect": false },
+						{ "text": "did interpret", "isCorrect": false }
+					],
+					"explanation": "This is a mixed conditional where a past hypothetical action (past perfect) affects a present situation (would not be)."
+				}
+			}
+		},
+		{
+			"questionNumber": 44,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The final version of the proposal ___ to the executive board before the end of the week.",
+					"options": [
+						{ "text": "must be submitted", "isCorrect": true },
+						{ "text": "must be submit", "isCorrect": false },
+						{ "text": "must submit", "isCorrect": false },
+						{ "text": "must have submit", "isCorrect": false }
+					],
+					"explanation": "The sentence requires the passive voice with a modal verb (must be + past participle) to show necessity for an object."
+				}
+			}
+		},
+		{
+			"questionNumber": 45,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Under no circumstances ___ the safety protocols be bypassed during the assembly of the chemical components.",
+					"options": [
+						{ "text": "should", "isCorrect": true },
+						{ "text": "shall", "isCorrect": false },
+						{ "text": "must", "isCorrect": false },
+						{ "text": "will", "isCorrect": false }
+					],
+					"explanation": "Negative fronting with Under no circumstances requires subject-auxiliary inversion, making should the correct auxiliary for instructions."
+				}
+			}
+		},
+		{
+			"questionNumber": 46,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ the recent acquisition of the rival firm that caused the sudden drop in the stock price.",
+					"options": [
+						{ "text": "It was", "isCorrect": true },
+						{ "text": "What was", "isCorrect": false },
+						{ "text": "That was", "isCorrect": false },
+						{ "text": "There was", "isCorrect": false }
+					],
+					"explanation": "This is an it-cleft sentence used to focus on a specific cause, following the structure It + be + subject + that."
+				}
+			}
+		},
+		{
+			"questionNumber": 47,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The primary investigator interviewed forty participants, none of ___ had previous experience with the experimental software.",
+					"options": [
+						{ "text": "whom", "isCorrect": true },
+						{ "text": "who", "isCorrect": false },
+						{ "text": "which", "isCorrect": false },
+						{ "text": "whose", "isCorrect": false }
+					],
+					"explanation": "In formal relative clauses following a preposition and a quantifier like none of, whom must be used for people."
+				}
+			}
+		},
+		{
+			"questionNumber": 48,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "It is essential that the lead architect ___ the blueprint before the construction phase begins next Monday.",
+					"options": [
+						{ "text": "revise", "isCorrect": true },
+						{ "text": "revises", "isCorrect": false },
+						{ "text": "revised", "isCorrect": false },
+						{ "text": "will revise", "isCorrect": false }
+					],
+					"explanation": "The subjunctive mood is required after adjectives of importance like essential, using the base form of the verb."
+				}
+			}
+		},
+		{
+			"questionNumber": 49,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ the potential risks of the investment, the board decided to postpone the launch of the project.",
+					"options": [
+						{ "text": "Having considered", "isCorrect": true },
+						{ "text": "To have considered", "isCorrect": false },
+						{ "text": "Being considered", "isCorrect": false },
+						{ "text": "Considered", "isCorrect": false }
+					],
+					"explanation": "A perfect participle clause (Having + past participle) is used to indicate that one action happened before another."
+				}
+			}
+		},
+		{
+			"questionNumber": 50,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The results of the survey were inconclusive; ***, the management decided to proceed with the planned expansion.",
+					"options": [
+						{ "text": "nevertheless", "isCorrect": true },
+						{ "text": "furthermore", "isCorrect": false },
+						{ "text": "consequently", "isCorrect": false },
+						{ "text": "whereas", "isCorrect": false }
+					],
+					"explanation": "The discourse marker nevertheless is used to show contrast or concession between two independent clauses."
+				}
+			}
+		},
+		{
+			"questionNumber": 51,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The new tax regulations ___ a significant impact on the annual profits of small business owners.",
+					"options": [
+						{ "text": "appear to have", "isCorrect": true },
+						{ "text": "are having", "isCorrect": false },
+						{ "text": "will have", "isCorrect": false },
+						{ "text": "have had", "isCorrect": false }
+					],
+					"explanation": "Hedging language like appear to is used in academic or professional contexts to make claims less certain."
+				}
+			}
+		},
+		{
+			"questionNumber": 52,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "A significant ___ in the budget for marketing led to a decrease in the visibility of the brand.",
+					"options": [
+						{ "text": "reduction", "isCorrect": true },
+						{ "text": "reducing", "isCorrect": false },
+						{ "text": "reduced", "isCorrect": false },
+						{ "text": "reduce", "isCorrect": false }
+					],
+					"explanation": "Nominalization involves using a noun instead of a verb to create a more formal and academic tone."
+				}
+			}
+		},
+		{
+			"questionNumber": 53,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The senior developers did not approve of the new coding standards, and ___ the junior engineering staff.",
+					"options": [
+						{ "text": "neither did", "isCorrect": true },
+						{ "text": "neither had", "isCorrect": false },
+						{ "text": "neither was", "isCorrect": false },
+						{ "text": "neither is", "isCorrect": false }
+					],
+					"explanation": "Ellipsis and substitution with neither are used to show agreement with a negative statement in the past simple."
+				}
+			}
+		},
+		{
+			"questionNumber": 54,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The laboratory results are inconsistent, which means the samples ___ during the process of transportation.",
+					"options": [
+						{ "text": "might have been contaminated", "isCorrect": true },
+						{ "text": "must have contaminated", "isCorrect": false },
+						{ "text": "should have contaminated", "isCorrect": false },
+						{ "text": "could be contaminated", "isCorrect": false }
+					],
+					"explanation": "An advanced modal construction (might have been + past participle) expresses a past possibility in the passive voice."
+				}
+			}
+		},
+		{
+			"questionNumber": 55,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "If the regional manager ___ the warning signs earlier, the department would have avoided the financial crisis.",
+					"options": [
+						{ "text": "had noticed", "isCorrect": true },
+						{ "text": "noticed", "isCorrect": false },
+						{ "text": "has noticed", "isCorrect": false },
+						{ "text": "would notice", "isCorrect": false }
+					],
+					"explanation": "The third conditional uses the past perfect in the if-clause to describe a hypothetical past situation."
+				}
+			}
+		},
+		{
+			"questionNumber": 56,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The chairperson asked the committee ___ they had reached a consensus regarding the proposed environmental policy.",
+					"options": [
+						{ "text": "whether", "isCorrect": true },
+						{ "text": "that", "isCorrect": false },
+						{ "text": "which", "isCorrect": false },
+						{ "text": "what", "isCorrect": false }
+					],
+					"explanation": "Advanced reported speech for yes/no questions uses whether or if to introduce the subordinate clause."
+				}
+			}
+		},
+		{
+			"questionNumber": 57,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Rarely ___ such a high level of engagement from the audience during a technical seminar.",
+					"options": [
+						{ "text": "have we witnessed", "isCorrect": true },
+						{ "text": "we have witnessed", "isCorrect": false },
+						{ "text": "did we witnessed", "isCorrect": false },
+						{ "text": "we witnessed", "isCorrect": false }
+					],
+					"explanation": "When a sentence starts with a restrictive adverb like Rarely, subject-auxiliary inversion is required."
+				}
+			}
+		},
+		{
+			"questionNumber": 58,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "What the analysts found most concerning ___ the lack of transparency in the financial reports of the company.",
+					"options": [
+						{ "text": "was", "isCorrect": true },
+						{ "text": "being", "isCorrect": false },
+						{ "text": "it was", "isCorrect": false },
+						{ "text": "that was", "isCorrect": false }
+					],
+					"explanation": "This pseudo-cleft sentence focuses on the concern by starting with a what-clause followed by the verb be."
+				}
+			}
+		},
+		{
+			"questionNumber": 59,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The company implemented a new strategy, the success of ___ depends on the cooperation of every employee.",
+					"options": [
+						{ "text": "which", "isCorrect": true },
+						{ "text": "that", "isCorrect": false },
+						{ "text": "whom", "isCorrect": false },
+						{ "text": "whose", "isCorrect": false }
+					],
+					"explanation": "The success of which is a formal relative clause construction used to describe a quality of an object."
+				}
+			}
+		},
+		{
+			"questionNumber": 60,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "All confidential documents ___ in the secure vault before the office closes for the weekend.",
+					"options": [
+						{ "text": "should be stored", "isCorrect": true },
+						{ "text": "should store", "isCorrect": false },
+						{ "text": "should be storing", "isCorrect": false },
+						{ "text": "should have stored", "isCorrect": false }
+					],
+					"explanation": "The passive voice with the modal should (should be + past participle) expresses a recommendation for an object."
+				}
+			}
+		},
+		{
+			"questionNumber": 61,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The human resources director suggested that the applicant ___ for a follow up interview next Thursday.",
+					"options": [
+						{ "text": "be invited", "isCorrect": true },
+						{ "text": "is invited", "isCorrect": false },
+						{ "text": "was invited", "isCorrect": false },
+						{ "text": "being invited", "isCorrect": false }
+					],
+					"explanation": "After the verb suggest, the subjunctive mood in the passive voice (be + past participle) is used to indicate a proposal."
+				}
+			}
+		},
+		{
+			"questionNumber": 62,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "*** by the feedback from the users, the developers modified the interface of the mobile application.",
+					"options": [
+						{ "text": "Encouraged", "isCorrect": true },
+						{ "text": "To encourage", "isCorrect": false },
+						{ "text": "Having encouraged", "isCorrect": false },
+						{ "text": "Encouraging", "isCorrect": false }
+					],
+					"explanation": "A past participle clause is used here to indicate a reason or cause for the action in the main clause."
+				}
+			}
+		},
+		{
+			"questionNumber": 63,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The output of the factory increased by ten percent, ___ the quality of the products remained stable.",
+					"options": [
+						{ "text": "whereas", "isCorrect": true },
+						{ "text": "despite", "isCorrect": false },
+						{ "text": "because", "isCorrect": false },
+						{ "text": "therefore", "isCorrect": false }
+					],
+					"explanation": "The discourse marker whereas is used to compare two facts and show a contrast between them."
+				}
+			}
+		},
+		{
+			"questionNumber": 64,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The global economy ___ toward a period of stability after the recent fluctuations in the market.",
+					"options": [
+						{ "text": "is likely to head", "isCorrect": true },
+						{ "text": "is heading surely", "isCorrect": false },
+						{ "text": "heads certainly", "isCorrect": false },
+						{ "text": "will head definitely", "isCorrect": false }
+					],
+					"explanation": "Is likely to is a common hedging expression used to describe a probable future event or trend."
+				}
+			}
+		},
+		{
+			"questionNumber": 65,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The ___ of the new software system took longer than the technical team had originally anticipated.",
+					"options": [
+						{ "text": "installation", "isCorrect": true },
+						{ "text": "installed", "isCorrect": false },
+						{ "text": "installing", "isCorrect": false },
+						{ "text": "install", "isCorrect": false }
+					],
+					"explanation": "Nominalization uses the noun form installation to serve as the subject, which is standard in professional writing."
+				}
+			}
+		},
+		{
+			"questionNumber": 66,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The manager of the project expects high performance from the consultants, and ___ the client.",
+					"options": [
+						{ "text": "so does", "isCorrect": true },
+						{ "text": "so is", "isCorrect": false },
+						{ "text": "neither does", "isCorrect": false },
+						{ "text": "so has", "isCorrect": false }
+					],
+					"explanation": "Substitution using so + auxiliary + subject shows that a positive statement also applies to another person."
+				}
+			}
+		},
+		{
+			"questionNumber": 67,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The audit suggests that the funds ___ for personal expenses by the former director of the firm.",
+					"options": [
+						{ "text": "may have been used", "isCorrect": true },
+						{ "text": "must be used", "isCorrect": false },
+						{ "text": "should have used", "isCorrect": false },
+						{ "text": "could use", "isCorrect": false }
+					],
+					"explanation": "The phrase may have been used expresses a past possibility in the passive voice, reflecting cautious reporting."
+				}
+			}
+		},
+		{
+			"questionNumber": 68,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "If the government had invested more in infrastructure, the city ___ such heavy traffic today.",
+					"options": [
+						{ "text": "would not have", "isCorrect": true },
+						{ "text": "would not have had", "isCorrect": false },
+						{ "text": "will not have", "isCorrect": false },
+						{ "text": "did not have", "isCorrect": false }
+					],
+					"explanation": "A mixed conditional is used to show how a hypothetical past action affects the present situation."
+				}
+			}
+		},
+		{
+			"questionNumber": 69,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The merger ___ if the two CEOs had reached an agreement on the valuation of the assets.",
+					"options": [
+						{ "text": "would have occurred", "isCorrect": true },
+						{ "text": "would occur", "isCorrect": false },
+						{ "text": "will have occurred", "isCorrect": false },
+						{ "text": "had occurred", "isCorrect": false }
+					],
+					"explanation": "The third conditional (would have + past participle) describes a hypothetical outcome in the past."
+				}
+			}
+		},
+		{
+			"questionNumber": 70,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The consultant suggested that the organization ___ a more flexible approach to remote work policies.",
+					"options": [
+						{ "text": "adopt", "isCorrect": true },
+						{ "text": "adopts", "isCorrect": false },
+						{ "text": "adopted", "isCorrect": false },
+						{ "text": "to adopt", "isCorrect": false }
+					],
+					"explanation": "After the verb suggest, the subjunctive base form adopt is used in a that-clause for formal recommendations."
+				}
+			}
+		},
+		{
+			"questionNumber": 71,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Only after the thorough examination of the evidence ___ the committee decide to file the lawsuit.",
+					"options": [
+						{ "text": "did", "isCorrect": true },
+						{ "text": "had", "isCorrect": false },
+						{ "text": "was", "isCorrect": false },
+						{ "text": "were", "isCorrect": false }
+					],
+					"explanation": "A sentence starting with Only after requires subject-auxiliary inversion, using did for the past simple event."
+				}
+			}
+		},
+		{
+			"questionNumber": 72,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "It is the commitment to innovation ___ distinguishes this organization from its competitors in the industry.",
+					"options": [
+						{ "text": "that", "isCorrect": true },
+						{ "text": "what", "isCorrect": false },
+						{ "text": "which", "isCorrect": false },
+						{ "text": "who", "isCorrect": false }
+					],
+					"explanation": "An it-cleft sentence uses that to link the emphasized subject to the rest of the information."
+				}
+			}
+		},
+		{
+			"questionNumber": 73,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The research paper discusses the method ___ the researchers collected the data from the urban population.",
+					"options": [
+						{ "text": "by which", "isCorrect": true },
+						{ "text": "what", "isCorrect": false },
+						{ "text": "whose", "isCorrect": false },
+						{ "text": "where", "isCorrect": false }
+					],
+					"explanation": "The prepositional relative clause by which is used to describe the process or means used in research."
+				}
+			}
+		},
+		{
+			"questionNumber": 74,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The CEO requested that every department head ___ a detailed report on the quarterly expenditures.",
+					"options": [
+						{ "text": "provide", "isCorrect": true },
+						{ "text": "provides", "isCorrect": false },
+						{ "text": "provided", "isCorrect": false },
+						{ "text": "to provide", "isCorrect": false }
+					],
+					"explanation": "The subjunctive mood is triggered by the verb request, necessitating the base form of the verb provide."
+				}
+			}
+		},
+		{
+			"questionNumber": 75,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "___ the final draft, the editor noticed several inconsistencies in the argument of the author.",
+					"options": [
+						{ "text": "While reviewing", "isCorrect": true },
+						{ "text": "Having reviewed", "isCorrect": false },
+						{ "text": "To review", "isCorrect": false },
+						{ "text": "Reviewed", "isCorrect": false }
+					],
+					"explanation": "A reduced participle clause starting with While is used to show two actions happening at the same time."
+				}
+			}
+		},
+		{
+			"questionNumber": 76,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The proposed strategy is ambitious, ___ expensive, and requires the total commitment of the financial department.",
+					"options": [
+						{ "text": "albeit", "isCorrect": true },
+						{ "text": "whereas", "isCorrect": false },
+						{ "text": "despite", "isCorrect": false },
+						{ "text": "because", "isCorrect": false }
+					],
+					"explanation": "Albeit is a formal discourse marker meaning though it is, used to introduce a concessive or contrasting point."
+				}
+			}
+		},
+		{
+			"questionNumber": 77,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The findings of the study ___ indicate a correlation between sleep patterns and academic performance.",
+					"options": [
+						{ "text": "tend to", "isCorrect": true },
+						{ "text": "are to", "isCorrect": false },
+						{ "text": "must", "isCorrect": false },
+						{ "text": "will", "isCorrect": false }
+					],
+					"explanation": "Tend to is a common hedging verb used to express a general trend without claiming absolute certainty."
+				}
+			}
+		},
+		{
+			"questionNumber": 78,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The sudden ___ of the stock market caused a lot of anxiety among the private investors.",
+					"options": [
+						{ "text": "fluctuation", "isCorrect": true },
+						{ "text": "fluctuate", "isCorrect": false },
+						{ "text": "fluctuated", "isCorrect": false },
+						{ "text": "fluctuating", "isCorrect": false }
+					],
+					"explanation": "Nominalization uses the noun form fluctuation to act as the subject of the sentence in a formal register."
+				}
+			}
+		},
+		{
+			"questionNumber": 79,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The marketing team has not yet finished the campaign, and ___ the sales department.",
+					"options": [
+						{ "text": "neither has", "isCorrect": true },
+						{ "text": "neither did", "isCorrect": false },
+						{ "text": "neither is", "isCorrect": false },
+						{ "text": "neither was", "isCorrect": false }
+					],
+					"explanation": "Neither has is used for substitution to show that a negative present perfect statement applies to another subject."
+				}
+			}
+		},
+		{
+			"questionNumber": 80,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The security breach ___ prevented if the IT department had updated the firewall software earlier.",
+					"options": [
+						{ "text": "could have been", "isCorrect": true },
+						{ "text": "must have been", "isCorrect": false },
+						{ "text": "should be", "isCorrect": false },
+						{ "text": "would be", "isCorrect": false }
+					],
+					"explanation": "This construction uses a modal perfect passive (could have been + past participle) for a hypothetical past possibility."
+				}
+			}
+		},
+		{
+			"questionNumber": 81,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "If the economy were more stable, the central bank ___ the interest rates last month.",
+					"options": [
+						{ "text": "would have lowered", "isCorrect": true },
+						{ "text": "would lower", "isCorrect": false },
+						{ "text": "has lowered", "isCorrect": false },
+						{ "text": "had lowered", "isCorrect": false }
+					],
+					"explanation": "In this mixed conditional, a present hypothetical state (past simple) results in a hypothetical past action (would have)."
+				}
+			}
+		},
+		{
+			"questionNumber": 82,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 5,
+			"humanDifficulty": "very_hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The historical artifacts ___ with extreme care to avoid any damage during the relocation process.",
+					"options": [
+						{ "text": "ought to be handled", "isCorrect": true },
+						{ "text": "ought to handle", "isCorrect": false },
+						{ "text": "ought to be handling", "isCorrect": false },
+						{ "text": "ought have handled", "isCorrect": false }
+					],
+					"explanation": "The semi-modal ought to is used in the passive voice (ought to be + past participle) to express strong obligation."
+				}
+			}
+		},
+		{
+			"questionNumber": 83,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The witnesses were asked ___ they had seen anyone entering the building after the alarm sounded.",
+					"options": [
+						{ "text": "if", "isCorrect": true },
+						{ "text": "that", "isCorrect": false },
+						{ "text": "what", "isCorrect": false },
+						{ "text": "which", "isCorrect": false }
+					],
+					"explanation": "Reported speech for a yes/no question uses the conjunction if to introduce the reported clause."
+				}
+			}
+		},
+		{
+			"questionNumber": 84,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "moderate",
+			"cefrLevel": "B2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The lecture hall ___ the presentation took place was filled to its maximum capacity.",
+					"options": [
+						{ "text": "in which", "isCorrect": true },
+						{ "text": "which", "isCorrect": false },
+						{ "text": "that", "isCorrect": false },
+						{ "text": "where in", "isCorrect": false }
+					],
+					"explanation": "The formal relative clause in which identifies the location where the event mentioned in the clause occurred."
+				}
+			}
+		}
+	]
+}

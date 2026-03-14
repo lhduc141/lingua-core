@@ -1,0 +1,886 @@
+{
+	"level": "A2",
+	"type": "grammar",
+	"questions": [
+		{
+			"questionNumber": 1,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "She ___ to the park every Saturday morning.",
+					"options": [
+						{ "text": "goes", "isCorrect": true },
+						{ "text": "go", "isCorrect": false },
+						{ "text": "going", "isCorrect": false },
+						{ "text": "went", "isCorrect": false }
+					],
+					"explanation": "Every Saturday shows a routine, so the present simple form goes is correct."
+				}
+			}
+		},
+		{
+			"questionNumber": 2,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I ___ a very interesting book yesterday.",
+					"options": [
+						{ "text": "read", "isCorrect": true },
+						{ "text": "reads", "isCorrect": false },
+						{ "text": "reading", "isCorrect": false },
+						{ "text": "am reading", "isCorrect": false }
+					],
+					"explanation": "Yesterday indicates the past tense, so read is the correct form."
+				}
+			}
+		},
+		{
+			"questionNumber": 3,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Look! The children ___ in the garden now.",
+					"options": [
+						{ "text": "are playing", "isCorrect": true },
+						{ "text": "play", "isCorrect": false },
+						{ "text": "plays", "isCorrect": false },
+						{ "text": "played", "isCorrect": false }
+					],
+					"explanation": "Now indicates an action happening at the moment, requiring the present continuous."
+				}
+			}
+		},
+		{
+			"questionNumber": 4,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "How ___ sugar do you want in your coffee?",
+					"options": [
+						{ "text": "much", "isCorrect": true },
+						{ "text": "many", "isCorrect": false },
+						{ "text": "any", "isCorrect": false },
+						{ "text": "some", "isCorrect": false }
+					],
+					"explanation": "Sugar is uncountable, so how much is the correct question form."
+				}
+			}
+		},
+		{
+			"questionNumber": 5,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "He is ___ than his older brother.",
+					"options": [
+						{ "text": "taller", "isCorrect": true },
+						{ "text": "tall", "isCorrect": false },
+						{ "text": "tallest", "isCorrect": false },
+						{ "text": "more tall", "isCorrect": false }
+					],
+					"explanation": "Than shows a comparison, so the comparative form taller is needed."
+				}
+			}
+		},
+		{
+			"questionNumber": 6,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "They ___ to visit us next weekend.",
+					"options": [
+						{ "text": "are going", "isCorrect": true },
+						{ "text": "go", "isCorrect": false },
+						{ "text": "goes", "isCorrect": false },
+						{ "text": "went", "isCorrect": false }
+					],
+					"explanation": "Next weekend shows a future plan, so are going is the correct structure."
+				}
+			}
+		},
+		{
+			"questionNumber": 7,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "There are ___ apples on the table.",
+					"options": [
+						{ "text": "some", "isCorrect": true },
+						{ "text": "any", "isCorrect": false },
+						{ "text": "much", "isCorrect": false },
+						{ "text": "a", "isCorrect": false }
+					],
+					"explanation": "Some is used for plural nouns in positive sentences."
+				}
+			}
+		},
+		{
+			"questionNumber": 8,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "We ___ at home last night.",
+					"options": [
+						{ "text": "were", "isCorrect": true },
+						{ "text": "was", "isCorrect": false },
+						{ "text": "are", "isCorrect": false },
+						{ "text": "is", "isCorrect": false }
+					],
+					"explanation": "Last night requires past tense, and we takes the form were."
+				}
+			}
+		},
+		{
+			"questionNumber": 9,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Please ___ the window. It is cold.",
+					"options": [
+						{ "text": "close", "isCorrect": true },
+						{ "text": "closes", "isCorrect": false },
+						{ "text": "closing", "isCorrect": false },
+						{ "text": "closed", "isCorrect": false }
+					],
+					"explanation": "This is an imperative sentence, so the base form close is used."
+				}
+			}
+		},
+		{
+			"questionNumber": 10,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "You ___ wash your hands before dinner.",
+					"options": [
+						{ "text": "should", "isCorrect": true },
+						{ "text": "could", "isCorrect": false },
+						{ "text": "are", "isCorrect": false },
+						{ "text": "does", "isCorrect": false }
+					],
+					"explanation": "Should is used to give advice or suggestions."
+				}
+			}
+		},
+		{
+			"questionNumber": 11,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I always have breakfast ___ eight o clock.",
+					"options": [
+						{ "text": "at", "isCorrect": true },
+						{ "text": "on", "isCorrect": false },
+						{ "text": "in", "isCorrect": false },
+						{ "text": "to", "isCorrect": false }
+					],
+					"explanation": "At is used for specific times of day."
+				}
+			}
+		},
+		{
+			"questionNumber": 12,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 2,
+			"humanDifficulty": "easy",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "This is the ___ movie I have seen.",
+					"options": [
+						{ "text": "best", "isCorrect": true },
+						{ "text": "good", "isCorrect": false },
+						{ "text": "better", "isCorrect": false },
+						{ "text": "goodest", "isCorrect": false }
+					],
+					"explanation": "The article the indicates a superlative is needed, and best is the superlative of good."
+				}
+			}
+		},
+		{
+			"questionNumber": 13,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "They ___ not like the food at that restaurant.",
+					"options": [
+						{ "text": "did", "isCorrect": true },
+						{ "text": "were", "isCorrect": false },
+						{ "text": "have", "isCorrect": false },
+						{ "text": "are", "isCorrect": false }
+					],
+					"explanation": "The auxiliary verb did is used to form the past simple negative."
+				}
+			}
+		},
+		{
+			"questionNumber": 14,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "We walked ___ the shop to buy bread.",
+					"options": [
+						{ "text": "into", "isCorrect": true },
+						{ "text": "out", "isCorrect": false },
+						{ "text": "up", "isCorrect": false },
+						{ "text": "on", "isCorrect": false }
+					],
+					"explanation": "Into shows movement from outside to inside."
+				}
+			}
+		},
+		{
+			"questionNumber": 15,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "She could ___ the piano when she was five.",
+					"options": [
+						{ "text": "play", "isCorrect": true },
+						{ "text": "played", "isCorrect": false },
+						{ "text": "playing", "isCorrect": false },
+						{ "text": "plays", "isCorrect": false }
+					],
+					"explanation": "After the modal verb could, the base form of the verb is used."
+				}
+			}
+		},
+		{
+			"questionNumber": 16,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "How ___ people are coming to the party?",
+					"options": [
+						{ "text": "many", "isCorrect": true },
+						{ "text": "much", "isCorrect": false },
+						{ "text": "some", "isCorrect": false },
+						{ "text": "any", "isCorrect": false }
+					],
+					"explanation": "People is a countable noun, so how many is correct."
+				}
+			}
+		},
+		{
+			"questionNumber": 17,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I am thirsty ___ I do not have water.",
+					"options": [
+						{ "text": "but", "isCorrect": true },
+						{ "text": "and", "isCorrect": false },
+						{ "text": "so", "isCorrect": false },
+						{ "text": "because", "isCorrect": false }
+					],
+					"explanation": "But is used to show contrast between two ideas."
+				}
+			}
+		},
+		{
+			"questionNumber": 18,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "That car belongs to ___ brother.",
+					"options": [
+						{ "text": "my", "isCorrect": true },
+						{ "text": "me", "isCorrect": false },
+						{ "text": "mine", "isCorrect": false },
+						{ "text": "I", "isCorrect": false }
+					],
+					"explanation": "My is a possessive adjective used before a noun."
+				}
+			}
+		},
+		{
+			"questionNumber": 19,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "We have lived here ___ three years.",
+					"options": [
+						{ "text": "for", "isCorrect": true },
+						{ "text": "since", "isCorrect": false },
+						{ "text": "ago", "isCorrect": false },
+						{ "text": "during", "isCorrect": false }
+					],
+					"explanation": "For is used to describe a period of time."
+				}
+			}
+		},
+		{
+			"questionNumber": 20,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "He ___ football when he hurt his leg.",
+					"options": [
+						{ "text": "was playing", "isCorrect": true },
+						{ "text": "plays", "isCorrect": false },
+						{ "text": "played", "isCorrect": false },
+						{ "text": "play", "isCorrect": false }
+					],
+					"explanation": "The past continuous was playing describes an action in progress when another event happened."
+				}
+			}
+		},
+		{
+			"questionNumber": 21,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I cannot find my keys. Have you seen ***?",
+					"options": [
+						{ "text": "them", "isCorrect": true },
+						{ "text": "they", "isCorrect": false },
+						{ "text": "it", "isCorrect": false },
+						{ "text": "him", "isCorrect": false }
+					],
+					"explanation": "Keys is plural, so the object pronoun them is correct."
+				}
+			}
+		},
+		{
+			"questionNumber": 22,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The train leaves ___ ten minutes.",
+					"options": [
+						{ "text": "in", "isCorrect": true },
+						{ "text": "on", "isCorrect": false },
+						{ "text": "at", "isCorrect": false },
+						{ "text": "to", "isCorrect": false }
+					],
+					"explanation": "In is used to show how much time will pass before an event happens."
+				}
+			}
+		},
+		{
+			"questionNumber": 23,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "Are there ___ chairs in the classroom?",
+					"options": [
+						{ "text": "any", "isCorrect": true },
+						{ "text": "some", "isCorrect": false },
+						{ "text": "much", "isCorrect": false },
+						{ "text": "a", "isCorrect": false }
+					],
+					"explanation": "Any is used for questions with plural nouns."
+				}
+			}
+		},
+		{
+			"questionNumber": 24,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "She ___ finished her homework two hours ago.",
+					"options": [
+						{ "text": "finished", "isCorrect": true },
+						{ "text": "finishing", "isCorrect": false },
+						{ "text": "finish", "isCorrect": false },
+						{ "text": "finishes", "isCorrect": false }
+					],
+					"explanation": "Ago indicates the past tense, so the regular past form finished is correct."
+				}
+			}
+		},
+		{
+			"questionNumber": 25,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "You ___ not use your phone during the exam.",
+					"options": [
+						{ "text": "must", "isCorrect": true },
+						{ "text": "should", "isCorrect": false },
+						{ "text": "can", "isCorrect": false },
+						{ "text": "did", "isCorrect": false }
+					],
+					"explanation": "Must not expresses a strong prohibition."
+				}
+			}
+		},
+		{
+			"questionNumber": 26,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "We often go to the beach ___ the summer.",
+					"options": [
+						{ "text": "during", "isCorrect": true },
+						{ "text": "for", "isCorrect": false },
+						{ "text": "since", "isCorrect": false },
+						{ "text": "ago", "isCorrect": false }
+					],
+					"explanation": "During is used to show when something happens within a period of time."
+				}
+			}
+		},
+		{
+			"questionNumber": 27,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "This phone is ___ expensive than that one.",
+					"options": [
+						{ "text": "more", "isCorrect": true },
+						{ "text": "most", "isCorrect": false },
+						{ "text": "very", "isCorrect": false },
+						{ "text": "too", "isCorrect": false }
+					],
+					"explanation": "Long adjectives like expensive use more for the comparative form."
+				}
+			}
+		},
+		{
+			"questionNumber": 28,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 3,
+			"humanDifficulty": "medium",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I usually ___ coffee, but today I am drinking tea.",
+					"options": [
+						{ "text": "drink", "isCorrect": true },
+						{ "text": "drinking", "isCorrect": false },
+						{ "text": "drinks", "isCorrect": false },
+						{ "text": "drank", "isCorrect": false }
+					],
+					"explanation": "Usually indicates a habit, which requires the present simple form drink."
+				}
+			}
+		},
+		{
+			"questionNumber": 29,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The museum is ___ the hospital and the library.",
+					"options": [
+						{ "text": "between", "isCorrect": true },
+						{ "text": "among", "isCorrect": false },
+						{ "text": "next", "isCorrect": false },
+						{ "text": "through", "isCorrect": false }
+					],
+					"explanation": "Between is used when referring to two distinct items."
+				}
+			}
+		},
+		{
+			"questionNumber": 30,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "He ___ not visit his grandparents last month.",
+					"options": [
+						{ "text": "did", "isCorrect": true },
+						{ "text": "does", "isCorrect": false },
+						{ "text": "was", "isCorrect": false },
+						{ "text": "has", "isCorrect": false }
+					],
+					"explanation": "Last month requires the past auxiliary did for the negative form."
+				}
+			}
+		},
+		{
+			"questionNumber": 31,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "If it rains, we ___ stay at home.",
+					"options": [
+						{ "text": "will", "isCorrect": true },
+						{ "text": "are", "isCorrect": false },
+						{ "text": "did", "isCorrect": false },
+						{ "text": "were", "isCorrect": false }
+					],
+					"explanation": "This is a first conditional sentence expressing a future possibility."
+				}
+			}
+		},
+		{
+			"questionNumber": 32,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "I forgot my bag ___ the bus this morning.",
+					"options": [
+						{ "text": "on", "isCorrect": true },
+						{ "text": "in", "isCorrect": false },
+						{ "text": "at", "isCorrect": false },
+						{ "text": "to", "isCorrect": false }
+					],
+					"explanation": "We use on for public transport like buses and trains."
+				}
+			}
+		},
+		{
+			"questionNumber": 33,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "They are going to the cinema ___ they like movies.",
+					"options": [
+						{ "text": "because", "isCorrect": true },
+						{ "text": "so", "isCorrect": false },
+						{ "text": "but", "isCorrect": false },
+						{ "text": "or", "isCorrect": false }
+					],
+					"explanation": "Because provides the reason for going to the cinema."
+				}
+			}
+		},
+		{
+			"questionNumber": 34,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "This is the ___ house in the whole street.",
+					"options": [
+						{ "text": "oldest", "isCorrect": true },
+						{ "text": "older", "isCorrect": false },
+						{ "text": "old", "isCorrect": false },
+						{ "text": "more old", "isCorrect": false }
+					],
+					"explanation": "The context of the whole street requires the superlative form oldest."
+				}
+			}
+		},
+		{
+			"questionNumber": 35,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "*** you like to go for a walk later?",
+					"options": [
+						{ "text": "Would", "isCorrect": true },
+						{ "text": "Do", "isCorrect": false },
+						{ "text": "Are", "isCorrect": false },
+						{ "text": "Will", "isCorrect": false }
+					],
+					"explanation": "Would you like is a standard polite way to make an invitation."
+				}
+			}
+		},
+		{
+			"questionNumber": 36,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "He ran ___ the street to catch the bus.",
+					"options": [
+						{ "text": "across", "isCorrect": true },
+						{ "text": "over", "isCorrect": false },
+						{ "text": "under", "isCorrect": false },
+						{ "text": "at", "isCorrect": false }
+					],
+					"explanation": "Across indicates movement from one side of the street to the other."
+				}
+			}
+		},
+		{
+			"questionNumber": 37,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "She has not seen her cousin ___ last year.",
+					"options": [
+						{ "text": "since", "isCorrect": true },
+						{ "text": "for", "isCorrect": false },
+						{ "text": "ago", "isCorrect": false },
+						{ "text": "during", "isCorrect": false }
+					],
+					"explanation": "Since is used with a specific point in time in the past."
+				}
+			}
+		},
+		{
+			"questionNumber": 38,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "We ___ not have any milk in the fridge.",
+					"options": [
+						{ "text": "do", "isCorrect": true },
+						{ "text": "are", "isCorrect": false },
+						{ "text": "have", "isCorrect": false },
+						{ "text": "does", "isCorrect": false }
+					],
+					"explanation": "The auxiliary do is used with we to form a negative statement."
+				}
+			}
+		},
+		{
+			"questionNumber": 39,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "The students are listening to ___ teacher.",
+					"options": [
+						{ "text": "their", "isCorrect": true },
+						{ "text": "them", "isCorrect": false },
+						{ "text": "they", "isCorrect": false },
+						{ "text": "theirs", "isCorrect": false }
+					],
+					"explanation": "Their is the possessive adjective used for a group of people."
+				}
+			}
+		},
+		{
+			"questionNumber": 40,
+			"skill": "reading",
+			"type": "mcq_single",
+			"difficulty": 4,
+			"humanDifficulty": "hard",
+			"cefrLevel": "A2",
+			"sourceTag": "placement_test_v1",
+			"status": "published",
+			"translations": {
+				"en": {
+					"stemText": "You ___ park your car here. It is private.",
+					"options": [
+						{ "text": "cannot", "isCorrect": true },
+						{ "text": "could", "isCorrect": false },
+						{ "text": "should", "isCorrect": false },
+						{ "text": "do", "isCorrect": false }
+					],
+					"explanation": "Cannot is used to show that something is not allowed or possible."
+				}
+			}
+		}
+	]
+}
