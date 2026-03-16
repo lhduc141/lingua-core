@@ -38,6 +38,7 @@ export const QuestionSelect = {
 	} satisfies Prisma.QuestionSelect,
 
 	irtParams: {
+		passageId: true,
 		irtDiscrimination: true,
 		irtDifficulty: true,
 		irtGuessing: true,
@@ -62,6 +63,7 @@ export const QuestionSelect = {
 
 	placementAnswer: {
 		questionId: true,
+		passageId: true,
 		irtDifficulty: true,
 		irtDiscrimination: true,
 		irtGuessing: true,

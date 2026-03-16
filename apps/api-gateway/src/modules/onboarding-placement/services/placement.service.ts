@@ -14,27 +14,6 @@ import {
 	QuestionSelect,
 } from '../../../../../../prisma/selects';
 
-/**
- * PlacementService
- *
- * Orchestrates the CAT placement test lifecycle:
- *   start → [answer × N] → finalize
- *
- * Owns all business rules:
- *   - Preventing duplicate sessions
- *   - Validating answer ownership (option belongs to question)
- *   - Preventing re-answering the same question
- *   - Enforcing minQuestions for manual completion
- *   - Atomic finalization (CatSession + Assessment updated together)
- *
- * Delegates pure math to CatEngineService (MLE, SE, question selection, CEFR mapping).
- *
- * Data model:
- *   User → (Assessment + CatSession) ← created together
- *   CatSession → PlacementAttempt[] ← one per answered question
- *   Assessment.catSessionId → CatSession
- *   API uses assessmentId as the user-facing identifier.
- */
 @Injectable()
 export class PlacementService {
 	private readonly logger = new Logger(PlacementService.name);
@@ -44,31 +23,10 @@ export class PlacementService {
 		private readonly catEngine: CatEngineService,
 	) {}
 
-	// ─────────────────────────────────────────────────────────
-	// POST /placement/test/start
-	// ─────────────────────────────────────────────────────────
-
-	/**
-	 * Start a new CAT placement test for the user.
-	 *
-	 * Flow:
-	 *   1. Guard: 409 if user has an in-progress session
-	 *   2. Count completed sessions for exposure rate calculation
-	 *   3. Transaction: create CatSession + Assessment atomically
-	 *   4. Select first question at θ = DEFAULT_CAT_CONFIG.initialTheta (0.0)
-	 *   5. Return assessmentId, sessionId, firstQuestion, config
-	 *
-	 * Why atomic transaction?
-	 *   CatSession and Assessment represent two aspects of the same event.
-	 *   If either fails, we'd have an orphan record that breaks state.
-	 *
-	 * Why count completed sessions here?
-	 *   Exposure rate = usageCount / totalCompletedSessions.
-	 *   This number is read once and passed to selectNextQuestion.
-	 *   It doesn't need to be perfectly fresh on every question —
-	 *   the exposure penalty is a soft control, not a hard constraint.
-	 */
+	//TODO: APIs function caller
+	//POST /placement/test/start
 	async startPlacementTest(userId: string): Promise<StartPlacementResponse> {
+		// Check session
 		const existing = await this.prisma.catSession.findFirst({
 			where: { userId, status: 'in_progress' },
 			select: CatSessionSelect.idOnly,
@@ -83,7 +41,6 @@ export class PlacementService {
 		const totalCompletedSessions = await this.prisma.catSession.count({
 			where: { status: 'completed' },
 		});
-
 		const { catSession, assessment } = await this.prisma.$transaction(async (tx) => {
 			const cat = await tx.catSession.create({
 				data: {
@@ -103,7 +60,6 @@ export class PlacementService {
 					totalQuestions: DEFAULT_CAT_CONFIG.maxQuestions,
 				},
 			});
-
 			const assess = await tx.assessment.create({
 				data: {
 					userId,
@@ -126,10 +82,11 @@ export class PlacementService {
 			DEFAULT_CAT_CONFIG.initialTheta,
 			[],
 			totalCompletedSessions,
+			1,
+			[],
 		);
 
 		if (!firstQuestion) {
-			// Roll back by marking session as abandoned so it doesn't block user
 			await this.prisma.catSession.update({
 				where: { sessionId: catSession.sessionId },
 				data: { status: 'abandoned' as any },
@@ -150,43 +107,11 @@ export class PlacementService {
 		};
 	}
 
-	// ─────────────────────────────────────────────────────────
-	// POST /placement/test/answer
-	// ─────────────────────────────────────────────────────────
-
-	/**
-	 * Submit one answer and receive the next question or the final result.
-	 *
-	 * Flow:
-	 *   1. Find Assessment by assessmentId + userId → get catSessionId
-	 *   2. Find CatSession → validate in_progress
-	 *   3. Check question not already answered in this session
-	 *   4. Find question + options → validate selectedOptionId belongs to question
-	 *   5. Determine isCorrect
-	 *   6. Fetch all past attempts with IRT params for MLE
-	 *   7. Run MLE (past + current) → new theta
-	 *   8. Compute new SE from all administered items at new theta
-	 *   9. Persist PlacementAttempt
-	 *   10. Update question usage tracking
-	 *   11. Update CatSession (theta, thetaHistory, counts, currentQuestion)
-	 *   12. Check stopping criteria
-	 *       → shouldStop: finalize session + return result
-	 *       → continue: select next question + return nextQuestion
-	 *
-	 * Why MLE over all items (not incremental update)?
-	 *   Newton-Raphson can produce slightly different results depending on
-	 *   the starting point and response order. Running over all items from
-	 *   the current theta estimate (warm start) gives the most stable
-	 *   and reproducible result, and is the standard academic approach.
-	 *
-	 * Why update question.usageCount?
-	 *   Exposure control: the next session will penalize this question's
-	 *   priority score if exposureRate exceeds EXPOSURE_LIMITS.maxRate.
-	 */
+	//POST /placement/test/answer
 	async submitAnswer(userId: string, dto: SubmitPlacementAnswerDto): Promise<AnswerPlacementResponse> {
 		const { assessmentId, questionId, selectedOptionId } = dto;
 
-		// 1. Validate assessment → get session
+		// Validate assessment → get session
 		const assessment = await this.prisma.assessment.findFirst({
 			where: { assessmentId, userId, deletedAt: null },
 			select: AssessmentSelect.placementCheck,
@@ -201,7 +126,7 @@ export class PlacementService {
 			throw new NotFoundException('No CAT session linked to this assessment.');
 		}
 
-		// 2. Get CatSession
+		// Get CatSession
 		const session = await this.prisma.catSession.findFirst({
 			where: { sessionId: assessment.catSessionId, userId, status: 'in_progress' },
 		});
@@ -209,7 +134,7 @@ export class PlacementService {
 			throw new NotFoundException('Active placement test session not found.');
 		}
 
-		// 3. Prevent re-answering the same question
+		// Prevent re-answering the same question
 		const alreadyAnswered = await this.prisma.placementAttempt.findFirst({
 			where: { sessionId: session.sessionId, questionId },
 			select: PlacementAttemptSelect.idOnly,
@@ -218,7 +143,7 @@ export class PlacementService {
 			throw new BadRequestException(`Question ${questionId} has already been answered in this session.`);
 		}
 
-		// 4. Fetch question + options
+		// Fetch question + options
 		const question = await this.prisma.question.findFirst({
 			where: { questionId, sourceTag: 'placement_test_v1', deletedAt: null },
 			select: QuestionSelect.placementAnswer,
@@ -227,14 +152,14 @@ export class PlacementService {
 			throw new NotFoundException(`Question ${questionId} not found in the placement test pool.`);
 		}
 
-		// 5. Validate option belongs to question
+		// Validate option belongs to question
 		const selectedOption = question.options.find((o) => o.optionId === selectedOptionId);
 		if (!selectedOption) {
 			throw new BadRequestException(`Option ${selectedOptionId} does not belong to question ${questionId}.`);
 		}
 		const isCorrect = selectedOption.isCorrect;
 
-		// 6. Fetch all past attempts with IRT params
+		// Fetch all past attempts with IRT params
 		const pastAttempts = await this.prisma.placementAttempt.findMany({
 			where: { sessionId: session.sessionId },
 			select: PlacementAttemptSelect.withIrt,
@@ -244,7 +169,7 @@ export class PlacementService {
 		const currentTheta = parseFloat(session.thetaEstimate.toString());
 		const questionOrder = pastAttempts.length + 1; // 1-indexed position
 
-		// 7. MLE: update theta using all responses (past + current)
+		// MLE: update theta using all responses (past + current)
 		const allResponses = this.catEngine.buildResponses([
 			...pastAttempts,
 			{
@@ -258,7 +183,7 @@ export class PlacementService {
 		]);
 		const newTheta = this.catEngine.estimateTheta(allResponses, currentTheta);
 
-		// 8. SE from all administered items at new theta
+		// SE from all administered items at new theta
 		const allParams = allResponses.map(({ a, b, c }) => ({ a, b, c }));
 		const newSe = this.catEngine.calculateSE(newTheta, allParams);
 
@@ -267,7 +192,7 @@ export class PlacementService {
 				`| isCorrect=${isCorrect} | θ: ${currentTheta.toFixed(3)} → ${newTheta.toFixed(3)} | SE: ${newSe.toFixed(3)}`,
 		);
 
-		// 9. Persist PlacementAttempt
+		// Persist PlacementAttempt
 		const irtB = parseFloat(question.irtDifficulty?.toString() ?? '0.0');
 		await this.prisma.placementAttempt.create({
 			data: {
@@ -283,21 +208,20 @@ export class PlacementService {
 			},
 		});
 
-		// 10. Update question exposure tracking
+		// Update question exposure tracking
 		await this.prisma.question.update({
 			where: { questionId },
 			data: { usageCount: { increment: 1 }, lastUsedAt: new Date() },
 		});
 
-		// 11. Build updated session data
+		// Build updated session data
 		const thetaHistory = (session.thetaHistory as any[]) ?? [];
 		thetaHistory.push({ theta: newTheta, se: newSe, q: questionOrder });
 		const newCorrectCount = session.correctCount + (isCorrect ? 1 : 0);
 		const newIncorrectCount = session.incorrectCount + (isCorrect ? 0 : 1);
 
-		// 12. Check stopping criteria
+		// Check stopping criteria
 		const stopping = this.catEngine.checkStoppingCriteria(questionOrder, newSe);
-
 		if (stopping.shouldStop) {
 			this.logger.log(
 				`Stopping: ${stopping.reason} | session=${session.sessionId} | q=${questionOrder} | SE=${newSe}`,
@@ -331,10 +255,19 @@ export class PlacementService {
 		const totalCompletedSessions = await this.prisma.catSession.count({
 			where: { status: 'completed' },
 		});
-		const nextQuestion = await this.catEngine.selectNextQuestion(newTheta, answeredIds, totalCompletedSessions);
+		const answeredPassageIds = [
+			...pastAttempts.map((a) => a.question?.passageId ?? null),
+			question.passageId ?? null,
+		].filter(Boolean) as string[];
+		const nextQuestion = await this.catEngine.selectNextQuestion(
+			newTheta,
+			answeredIds,
+			totalCompletedSessions,
+			questionOrder + 1,
+			answeredPassageIds,
+		);
 
 		if (!nextQuestion) {
-			// Pool exhausted — force finalize
 			this.logger.warn(
 				`Question pool exhausted | session=${session.sessionId} | q=${questionOrder} | Force finalizing.`,
 			);
@@ -364,26 +297,7 @@ export class PlacementService {
 		};
 	}
 
-	// ─────────────────────────────────────────────────────────
-	// POST /placement/test/complete
-	// ─────────────────────────────────────────────────────────
-
-	/**
-	 * Manually finalize an in-progress placement test.
-	 *
-	 * Guard: requires >= minQuestions answered.
-	 * Rationale: fewer than 10 items gives SE > ~0.6 which makes the
-	 * CEFR assignment unreliable. The frontend should disable this button
-	 * until minQuestions is reached.
-	 *
-	 * Flow:
-	 *   1. Find active session for user
-	 *   2. Check >= minQuestions answered
-	 *   3. Recalculate SE from actual attempts (more accurate than stored value)
-	 *   4. Map theta → CEFR
-	 *   5. Finalize CatSession + Assessment
-	 *   6. Return PlacementResult
-	 */
+	//POST /placement/test/complete
 	async completePlacementTest(userId: string): Promise<PlacementResult> {
 		const session = await this.prisma.catSession.findFirst({
 			where: { userId, status: 'in_progress' },
@@ -416,17 +330,7 @@ export class PlacementService {
 		return this.buildResult(session, cefrAssignment, theta, se, questionsAnswered, session.correctCount);
 	}
 
-	// ─────────────────────────────────────────────────────────
-	// GET /placement/test/result
-	// ─────────────────────────────────────────────────────────
-
-	/**
-	 * Retrieve the most recently completed placement test result.
-	 *
-	 * SE is recalculated from actual attempts rather than using the stored
-	 * value, because it's slightly more accurate (stored SE uses theta
-	 * from before the final update; recalculated SE uses finalTheta).
-	 */
+	//GET /placement/test/result
 	async getPlacementResult(userId: string): Promise<PlacementResult> {
 		const session = await this.prisma.catSession.findFirst({
 			where: { userId, status: 'completed' },
@@ -449,14 +353,7 @@ export class PlacementService {
 		return this.buildResult(session, cefrAssignment, theta, se, session.currentQuestion, session.correctCount);
 	}
 
-	// ─────────────────────────────────────────────────────────
-	// Private helpers
-	// ─────────────────────────────────────────────────────────
-
-	/**
-	 * Finalize the session when stopping criteria triggers during submitAnswer.
-	 * Updates DB and returns the AnswerPlacementResponse with result embedded.
-	 */
+	//TODO Private Helpers
 	private async finalizeAndRespond(args: {
 		session: any;
 		isCorrect: boolean;
@@ -516,10 +413,6 @@ export class PlacementService {
 		};
 	}
 
-	/**
-	 * Persist finalized state for CatSession + Assessment.
-	 * Used by completePlacementTest (manual completion).
-	 */
 	private async finalize(
 		session: any,
 		cefrAssignment: CefrAssignment,

@@ -1,7 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { PrismaService } from '../../../../../../prisma/prisma.service';
 import { IrtMathUtils } from '../utils/irt-math.utils';
-import { CatQuestion } from '../interface/cat-question.interface';
 import { FormattedQuestion } from '../interface/formatted-question.interface';
 import { QuestionCandidate } from '../interface/question-candidate.interface';
 import { StopDecision } from '../interface/stop-decision.interface';
@@ -12,76 +11,79 @@ import { DEFAULT_CAT_CONFIG } from '@app/shared/constants/default-cat-config.con
 import { CefrAssignment } from '../interface/cefr-assignment.interface';
 import { QuestionSelect } from '../../../../../../prisma/selects';
 
+// Passage Config
+// Q1-5: Grammar only
+// Q6-20: Passage-based
+const GRAMMAR_PHASE_END = 5;
+const MAX_QUESTIONS_PER_PASSAGE = 4;
+
 @Injectable()
 export class CatEngineService {
 	private readonly logger = new Logger(CatEngineService.name);
-
-	private readonly SOURCE_TAG = 'placement_test_v1';
+	private readonly SOURCE_TAG = 'placement_test_v1'; // Query "placement test" question
 
 	constructor(private readonly prisma: PrismaService) {}
 
-	// ─────────────────────────────────────────────────────────
-	// 1. Question Selection
-	// ─────────────────────────────────────────────────────────
-
-	/**
-	 * Select the most informative unadministered question at the current theta estimate.
-	 *
-	 * Algorithm:
-	 *   1. Load all eligible questions from DB (sourceTag, IRT params not null, not deleted)
-	 *   2. Exclude questions already answered in this session
-	 *   3. For each candidate: score = Fisher Information * exposure penalty
-	 *      - exposure_rate = usageCount / totalCompletedSessions
-	 *      - if exposure_rate > EXPOSURE_LIMITS.maxRate → multiply score by EXPOSURE_LIMITS.penalty
-	 *   4. Sort descending by score → pick first
-	 *   5. Format for API response (locale-preferred text, no isCorrect)
-	 *
-	 * Returns null if no eligible questions remain (edge case: pool exhausted).
-	 */
+	//TODO 1. Question Selection
 	async selectNextQuestion(
 		currentTheta: number,
 		excludeIds: string[],
 		totalCompletedSessions: number,
+		questionOrder: number, // Đang ở câu thứ mấy
+		answeredPassageIds: string[], // Passage nào đã dùng
 	): Promise<FormattedQuestion | null> {
+		//? Phase Check
+		const isGrammarPhase = questionOrder <= GRAMMAR_PHASE_END;
+		const phaseFilter = isGrammarPhase
+			? { passageId: null } // Grammar phase: Q1-5
+			: { passageId: { not: null as any } }; // Passage phase: Q6-20
+
+		//? Query Database
 		const rows = await this.prisma.question.findMany({
 			where: {
 				sourceTag: this.SOURCE_TAG,
+
 				irtDifficulty: { not: null },
 				irtDiscrimination: { not: null },
 				irtGuessing: { not: null },
+
 				deletedAt: null,
 				...(excludeIds.length > 0 && { questionId: { notIn: excludeIds } }),
+				...phaseFilter,
 			},
 			select: QuestionSelect.placementCandidate,
 		});
+		if (rows.length === 0) return null;
 
-		if (rows.length === 0) {
-			this.logger.warn(`No eligible questions found | theta=${currentTheta} | excludeCount=${excludeIds.length}`);
-			return null;
+		//? Tìm active passage
+		let activePassageId: string | null = null;
+		if (!isGrammarPhase && answeredPassageIds.length > 0) {
+			const passageCount: Record<string, number> = {}; // Đếm số câu đã hỏi cho mỗi passage
+			for (const pid of answeredPassageIds) if (pid) passageCount[pid] = (passageCount[pid] ?? 0) + 1;
+
+			const lastPassageId = answeredPassageIds[answeredPassageIds.length - 1]; // Id passage
+			if (lastPassageId && (passageCount[lastPassageId] ?? 0) < MAX_QUESTIONS_PER_PASSAGE)
+				activePassageId = lastPassageId;
 		}
 
-		// Score all candidates
+		//? Score questio: tính điểm cho từng câu
 		const scored: Array<QuestionCandidate & { rowIndex: number }> = rows.map((row, idx) => {
 			const irt: IrtParameters = this.extractIrtParams(row);
-			const catQ: CatQuestion = {
-				questionId: row.questionId,
-				passageId: row.passageId,
-				irt,
-				usageCount: row.usageCount,
-			};
-			const information = IrtMathUtils.calculateInformation(currentTheta, irt.a, irt.b, irt.c);
-			const exposureRate = totalCompletedSessions > 0 ? row.usageCount / totalCompletedSessions : 0;
+
+			const information = IrtMathUtils.calculateInformation(currentTheta, irt.a, irt.b, irt.c); // Độ phù hợp
+			const exposureRate = totalCompletedSessions > 0 ? row.usageCount / totalCompletedSessions : 0; // Câu này đã dùng nhiều chưa
+			const passageBoost = activePassageId && row.passageId === activePassageId ? 1.5 : 1.0;
+
 			const penaltyFactor = exposureRate > EXPOSURE_LIMITS.maxRate ? EXPOSURE_LIMITS.penalty : 1.0;
 
 			return {
-				question: catQ,
+				question: { questionId: row.questionId, passageId: row.passageId, irt, usageCount: row.usageCount },
 				information,
 				exposureRate,
-				priority: information * penaltyFactor,
+				priority: information * penaltyFactor * passageBoost,
 				rowIndex: idx,
 			};
 		});
-
 		scored.sort((a, b) => b.priority - a.priority);
 		const winner = scored[0];
 		const winnerRow = rows[winner.rowIndex];
@@ -95,10 +97,7 @@ export class CatEngineService {
 		return this.formatQuestion(winnerRow);
 	}
 
-	// ─────────────────────────────────────────────────────────
-	// 2. Ability Estimation
-	// ─────────────────────────────────────────────────────────
-
+	//TODO 2. Ability Estimation
 	/**
 	 * Build an IrtResponse array from PlacementAttempt records.
 	 *
@@ -136,9 +135,7 @@ export class CatEngineService {
 		return IrtMathUtils.calculateSE(theta, params);
 	}
 
-	// ─────────────────────────────────────────────────────────
 	// 3. Stopping Criteria
-	// ─────────────────────────────────────────────────────────
 
 	/**
 	 * Evaluate whether the CAT session should terminate.
@@ -158,22 +155,13 @@ export class CatEngineService {
 		return { shouldStop: false, reason: 'continue' };
 	}
 
-	// ─────────────────────────────────────────────────────────
 	// 4. CEFR Mapping
-	// ─────────────────────────────────────────────────────────
 
 	mapToCefr(theta: number, se: number): CefrAssignment {
 		return IrtMathUtils.mapThetaToCEFR(theta, se);
 	}
 
-	// ─────────────────────────────────────────────────────────
 	// 5. Helpers
-	// ─────────────────────────────────────────────────────────
-
-	/**
-	 * Extract IrtParameters from any object that has the three Prisma Decimal fields.
-	 * Used when recalculating SE from PlacementAttempt records.
-	 */
 	extractIrtParams(q: { irtDifficulty: any; irtDiscrimination: any; irtGuessing: any }): IrtParameters {
 		return {
 			a: this.toFloat(q.irtDiscrimination, 1.0),
@@ -182,12 +170,6 @@ export class CatEngineService {
 		};
 	}
 
-	/**
-	 * Format a raw DB question row into FormattedQuestion for API response.
-	 *
-	 * Locale selection: prefer 'vi', fall back to first available translation.
-	 * Security: `isCorrect` is stripped from options before returning.
-	 */
 	formatQuestion(row: {
 		questionId: string;
 		passageId: string | null;
@@ -222,10 +204,7 @@ export class CatEngineService {
 		};
 	}
 
-	// ─────────────────────────────────────────────────────────
 	// Private
-	// ─────────────────────────────────────────────────────────
-
 	private toFloat(value: any, fallback: number): number {
 		const parsed = parseFloat(value?.toString());
 		return isNaN(parsed) ? fallback : parsed;

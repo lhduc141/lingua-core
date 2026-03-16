@@ -5,15 +5,18 @@ export class IrtMathUtils {
 		return 1 / (1 + Math.exp(-a * (theta - b)));
 	}
 
+	// Tính P(theta) theo công thức - P(θ) = c + (1 - c) / (1 + e^(-a(θ - b)))
 	static calculate3PLProbability(theta: number, a: number, b: number, c: number): number {
 		return c + (1 - c) * this.logistic(a, b, theta);
 	}
 
+	// Tính đạo hàm: dP/d(theta) => cần cho Newton Rapshon
 	static calculateDerivative(theta: number, a: number, b: number, c: number): number {
 		const psi = this.logistic(a, b, theta);
 		return a * (1 - c) * psi * (1 - psi);
 	}
 
+	// Tính toán độ phù hợp dựa trên công thức IRT
 	static calculateInformation(theta: number, a: number, b: number, c: number): number {
 		const P = this.calculate3PLProbability(theta, a, b, c);
 		const Q = 1 - P;
