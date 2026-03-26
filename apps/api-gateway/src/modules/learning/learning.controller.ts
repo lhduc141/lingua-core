@@ -4,7 +4,7 @@ import { AuthGuard } from '../../guards/auth.guard';
 import { Public } from '../../decorators/public.decorator';
 import { LearningService } from './learning.service';
 import { ListLessonsDto } from './dto/list-lessons.dto';
-import { ListPracticeSessionsDto } from './dto/list-practice-sessions.dto';
+import { ListQuestionSetsDto } from './dto/list-question-sets.dto';
 
 @ApiTags('Learning')
 @Controller()
@@ -39,7 +39,7 @@ export class LearningController {
 	@Get('practice-sessions')
 	@ApiOperation({ summary: 'Danh sách practice sessions' })
 	@ApiOkResponse({ description: 'Paginated practice sessions' })
-	getPracticeSessions(@Query() query: ListPracticeSessionsDto) {
+	getPracticeSessions(@Query() query: ListQuestionSetsDto) {
 		return this.learningService.getPracticeSessions(query);
 	}
 

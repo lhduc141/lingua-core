@@ -1,18 +1,17 @@
+import { ResponseDto } from '@app/shared';
+import { DEFAULT_CAT_CONFIG } from '@app/shared/constants/default-cat-config.constant';
 import { BadRequestException, ConflictException, Injectable, Logger, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../../../../../../prisma/prisma.service';
-import { CatEngineService } from './cat-engine.service';
-import { SubmitPlacementAnswerDto } from '../dto/submit-placement-answer.dto';
-import { StartPlacementResponse } from '../interface/start-placement-response.interface';
-import { AnswerPlacementResponse } from '../interface/answer-placement-response.interface';
-import { DEFAULT_CAT_CONFIG } from '@app/shared/constants/default-cat-config.constant';
-import { PlacementResult } from '../interface/placement-result.interface';
-import { CefrAssignment } from '../interface/cefr-assignment.interface';
 import {
-	AssessmentSelect,
-	CatSessionSelect,
-	PlacementAttemptSelect,
+	ExerciseRecordSelect,
+	PlacementAnswerSelect,
+	PlacementSessionSelect,
 	QuestionSelect,
 } from '../../../../../../prisma/selects';
+import { SubmitPlacementAnswerDto } from '../dto/submit-placement-answer.dto';
+import { CefrAssignment } from '../interface/cefr-assignment.interface';
+import { PlacementResult } from '../interface/placement-result.interface';
+import { CatEngineService } from './cat-engine.service';
 
 @Injectable()
 export class PlacementService {
@@ -23,26 +22,23 @@ export class PlacementService {
 		private readonly catEngine: CatEngineService,
 	) {}
 
-	//TODO: APIs function caller
-	//POST /placement/test/start
-	async startPlacementTest(userId: string): Promise<StartPlacementResponse> {
-		// Check session
-		const existing = await this.prisma.catSession.findFirst({
+	// POST /placement/start
+	async startPlacementTest(userId: string): Promise<ResponseDto<any>> {
+		const existing = await this.prisma.placementSession.findFirst({
 			where: { userId, status: 'in_progress' },
-			select: CatSessionSelect.idOnly,
+			select: PlacementSessionSelect.idOnly,
 		});
-		if (existing) {
+		if (existing)
 			throw new ConflictException(
 				`You already have an active placement test (sessionId: ${existing.sessionId}). ` +
 					`Submit answers to continue or wait for it to expire.`,
 			);
-		}
 
-		const totalCompletedSessions = await this.prisma.catSession.count({
+		const totalCompletedSessions = await this.prisma.placementSession.count({
 			where: { status: 'completed' },
 		});
-		const { catSession, assessment } = await this.prisma.$transaction(async (tx) => {
-			const cat = await tx.catSession.create({
+		const { placementSession, exerciseRecord } = await this.prisma.$transaction(async (tx) => {
+			const placementSession = await tx.placementSession.create({
 				data: {
 					userId,
 					status: 'in_progress',
@@ -60,22 +56,20 @@ export class PlacementService {
 					totalQuestions: DEFAULT_CAT_CONFIG.maxQuestions,
 				},
 			});
-			const assess = await tx.assessment.create({
+			const exerciseRecord = await tx.exerciseRecord.create({
 				data: {
 					userId,
 					refType: 'placement_test' as any,
-					refId: cat.sessionId,
+					refId: placementSession.sessionId,
 					status: 'in_progress' as any,
-					catSessionId: cat.sessionId,
+					placementSessionId: placementSession.sessionId,
 					startedAt: new Date(),
 				},
 			});
-
-			return { catSession: cat, assessment: assess };
+			return { placementSession, exerciseRecord };
 		});
-
 		this.logger.log(
-			`Placement test started | userId=${userId} | sessionId=${catSession.sessionId} | assessmentId=${assessment.assessmentId}`,
+			`Placement test started | userId=${userId} | placementSession=${placementSession.sessionId} | exerciseRecord=${exerciseRecord.exerciseRecordId}`,
 		);
 
 		const firstQuestion = await this.catEngine.selectNextQuestion(
@@ -87,57 +81,55 @@ export class PlacementService {
 		);
 
 		if (!firstQuestion) {
-			await this.prisma.catSession.update({
-				where: { sessionId: catSession.sessionId },
+			await this.prisma.placementSession.update({
+				where: { sessionId: placementSession.sessionId },
 				data: { status: 'abandoned' as any },
 			});
 			throw new NotFoundException('No placement test questions available. Please contact the administrator.');
 		}
 
-		return {
-			assessmentId: assessment.assessmentId,
-			sessionId: catSession.sessionId,
-			firstQuestion,
-			config: {
-				minQuestions: DEFAULT_CAT_CONFIG.minQuestions,
-				maxQuestions: DEFAULT_CAT_CONFIG.maxQuestions,
-				targetSe: DEFAULT_CAT_CONFIG.targetSe,
-				initialTheta: DEFAULT_CAT_CONFIG.initialTheta,
+		return ResponseDto.success(
+			Object,
+			{
+				assessmentId: placementSession.sessionId,
+				sessionId: placementSession.sessionId,
+				firstQuestion,
+				config: {
+					minQuestions: DEFAULT_CAT_CONFIG.minQuestions,
+					maxQuestions: DEFAULT_CAT_CONFIG.maxQuestions,
+					targetSe: DEFAULT_CAT_CONFIG.targetSe,
+					initialTheta: DEFAULT_CAT_CONFIG.initialTheta,
+				},
 			},
-		};
+			'Placement test started',
+		);
 	}
 
-	//POST /placement/test/answer
-	async submitAnswer(userId: string, dto: SubmitPlacementAnswerDto): Promise<AnswerPlacementResponse> {
-		const { assessmentId, questionId, selectedOptionId } = dto;
+	// POST /placement/answers
+	async submitAnswer(userId: string, dto: SubmitPlacementAnswerDto): Promise<ResponseDto<any>> {
+		const { exerciseRecordId, questionId, selectedOptionId } = dto;
 
-		// Validate assessment → get session
-		const assessment = await this.prisma.assessment.findFirst({
-			where: { assessmentId, userId, deletedAt: null },
-			select: AssessmentSelect.placementCheck,
+		// Validate assessment
+		const exerciseRecord = await this.prisma.exerciseRecord.findFirst({
+			where: { exerciseRecordId, userId, deletedAt: null },
+			select: ExerciseRecordSelect.placementCheck,
 		});
-		if (!assessment) {
-			throw new NotFoundException('Assessment not found or does not belong to you.');
-		}
-		if (assessment.status !== 'in_progress') {
-			throw new BadRequestException(`Assessment is not in progress (current status: ${assessment.status}).`);
-		}
-		if (!assessment.catSessionId) {
-			throw new NotFoundException('No CAT session linked to this assessment.');
-		}
+		if (!exerciseRecord) throw new NotFoundException('Assessment not found or does not belong to you.');
+		if (exerciseRecord.status !== 'in_progress')
+			throw new BadRequestException(`Assessment is not in progress (current status: ${exerciseRecord.status}).`);
+		if (!exerciseRecord.placementSessionId)
+			throw new NotFoundException('No CAT session linked to this exerciseRecord.');
 
 		// Get CatSession
-		const session = await this.prisma.catSession.findFirst({
-			where: { sessionId: assessment.catSessionId, userId, status: 'in_progress' },
+		const session = await this.prisma.placementSession.findFirst({
+			where: { sessionId: exerciseRecord.placementSessionId, userId, status: 'in_progress' },
 		});
-		if (!session) {
-			throw new NotFoundException('Active placement test session not found.');
-		}
+		if (!session) throw new NotFoundException('Active placement test session not found.');
 
-		// Prevent re-answering the same question
-		const alreadyAnswered = await this.prisma.placementAttempt.findFirst({
+		// Prevent re-answering
+		const alreadyAnswered = await this.prisma.placementAnswer.findFirst({
 			where: { sessionId: session.sessionId, questionId },
-			select: PlacementAttemptSelect.idOnly,
+			select: PlacementAnswerSelect.idOnly,
 		});
 		if (alreadyAnswered) {
 			throw new BadRequestException(`Question ${questionId} has already been answered in this session.`);
@@ -148,28 +140,26 @@ export class PlacementService {
 			where: { questionId, sourceTag: 'placement_test_v1', deletedAt: null },
 			select: QuestionSelect.placementAnswer,
 		});
-		if (!question) {
-			throw new NotFoundException(`Question ${questionId} not found in the placement test pool.`);
-		}
+		if (!question) throw new NotFoundException(`Question ${questionId} not found in the placement test pool.`);
 
-		// Validate option belongs to question
+		// Validate option
 		const selectedOption = question.options.find((o) => o.optionId === selectedOptionId);
 		if (!selectedOption) {
 			throw new BadRequestException(`Option ${selectedOptionId} does not belong to question ${questionId}.`);
 		}
 		const isCorrect = selectedOption.isCorrect;
 
-		// Fetch all past attempts with IRT params
-		const pastAttempts = await this.prisma.placementAttempt.findMany({
+		// Fetch past attempts
+		const pastAttempts = await this.prisma.placementAnswer.findMany({
 			where: { sessionId: session.sessionId },
-			select: PlacementAttemptSelect.withIrt,
+			select: PlacementAnswerSelect.withIrt,
 			orderBy: { questionOrder: 'asc' },
 		});
 
 		const currentTheta = parseFloat(session.thetaEstimate.toString());
-		const questionOrder = pastAttempts.length + 1; // 1-indexed position
+		const questionOrder = pastAttempts.length + 1;
 
-		// MLE: update theta using all responses (past + current)
+		// MLE: update theta
 		const allResponses = this.catEngine.buildResponses([
 			...pastAttempts,
 			{
@@ -182,8 +172,6 @@ export class PlacementService {
 			},
 		]);
 		const newTheta = this.catEngine.estimateTheta(allResponses, currentTheta);
-
-		// SE from all administered items at new theta
 		const allParams = allResponses.map(({ a, b, c }) => ({ a, b, c }));
 		const newSe = this.catEngine.calculateSE(newTheta, allParams);
 
@@ -192,9 +180,9 @@ export class PlacementService {
 				`| isCorrect=${isCorrect} | θ: ${currentTheta.toFixed(3)} → ${newTheta.toFixed(3)} | SE: ${newSe.toFixed(3)}`,
 		);
 
-		// Persist PlacementAttempt
+		// Persist attempt
 		const irtB = parseFloat(question.irtDifficulty?.toString() ?? '0.0');
-		await this.prisma.placementAttempt.create({
+		await this.prisma.placementAnswer.create({
 			data: {
 				sessionId: session.sessionId,
 				questionId,
@@ -208,13 +196,13 @@ export class PlacementService {
 			},
 		});
 
-		// Update question exposure tracking
+		// Update question exposure
 		await this.prisma.question.update({
 			where: { questionId },
 			data: { usageCount: { increment: 1 }, lastUsedAt: new Date() },
 		});
 
-		// Build updated session data
+		// Build theta history
 		const thetaHistory = (session.thetaHistory as any[]) ?? [];
 		thetaHistory.push({ theta: newTheta, se: newSe, q: questionOrder });
 		const newCorrectCount = session.correctCount + (isCorrect ? 1 : 0);
@@ -238,8 +226,8 @@ export class PlacementService {
 			});
 		}
 
-		// Update session state and continue
-		await this.prisma.catSession.update({
+		// Update session state
+		await this.prisma.placementSession.update({
 			where: { sessionId: session.sessionId },
 			data: {
 				thetaEstimate: newTheta,
@@ -252,13 +240,14 @@ export class PlacementService {
 
 		// Select next question
 		const answeredIds = [...pastAttempts.map((a) => a.questionId), questionId];
-		const totalCompletedSessions = await this.prisma.catSession.count({
+		const totalCompletedSessions = await this.prisma.placementSession.count({
 			where: { status: 'completed' },
 		});
 		const answeredPassageIds = [
 			...pastAttempts.map((a) => a.question?.passageId ?? null),
 			question.passageId ?? null,
 		].filter(Boolean) as string[];
+
 		const nextQuestion = await this.catEngine.selectNextQuestion(
 			newTheta,
 			answeredIds,
@@ -283,23 +272,27 @@ export class PlacementService {
 			});
 		}
 
-		return {
-			isCorrect,
-			updatedTheta: newTheta,
-			updatedSe: newSe,
-			isCompleted: false,
-			progress: {
-				questionsAnswered: questionOrder,
-				minQuestions: DEFAULT_CAT_CONFIG.minQuestions,
-				maxQuestions: DEFAULT_CAT_CONFIG.maxQuestions,
+		return ResponseDto.success(
+			Object,
+			{
+				isCorrect,
+				updatedTheta: newTheta,
+				updatedSe: newSe,
+				isCompleted: false,
+				progress: {
+					questionsAnswered: questionOrder,
+					minQuestions: DEFAULT_CAT_CONFIG.minQuestions,
+					maxQuestions: DEFAULT_CAT_CONFIG.maxQuestions,
+				},
+				nextQuestion,
 			},
-			nextQuestion,
-		};
+			'Answer submitted',
+		);
 	}
 
-	//POST /placement/test/complete
-	async completePlacementTest(userId: string): Promise<PlacementResult> {
-		const session = await this.prisma.catSession.findFirst({
+	// POST /placement/complete
+	async completePlacementTest(userId: string): Promise<ResponseDto<any>> {
+		const session = await this.prisma.placementSession.findFirst({
 			where: { userId, status: 'in_progress' },
 		});
 		if (!session) {
@@ -315,11 +308,9 @@ export class PlacementService {
 		}
 
 		const theta = parseFloat(session.thetaEstimate.toString());
-
-		// Recalculate SE from actual attempts for accuracy
-		const attempts = await this.prisma.placementAttempt.findMany({
+		const attempts = await this.prisma.placementAnswer.findMany({
 			where: { sessionId: session.sessionId },
-			select: PlacementAttemptSelect.irtOnly,
+			select: PlacementAnswerSelect.irtOnly,
 		});
 		const params = attempts.map((a) => this.catEngine.extractIrtParams(a.question));
 		const se = params.length > 0 ? this.catEngine.calculateSE(theta, params) : DEFAULT_CAT_CONFIG.initialSe;
@@ -327,12 +318,16 @@ export class PlacementService {
 
 		await this.finalize(session, cefrAssignment, theta, se, questionsAnswered, session.correctCount);
 
-		return this.buildResult(session, cefrAssignment, theta, se, questionsAnswered, session.correctCount);
+		return ResponseDto.success(
+			Object,
+			this.buildResult(session, cefrAssignment, theta, se, questionsAnswered, session.correctCount),
+			'Placement test completed',
+		);
 	}
 
-	//GET /placement/test/result
-	async getPlacementResult(userId: string): Promise<PlacementResult> {
-		const session = await this.prisma.catSession.findFirst({
+	// GET /placement/result
+	async getPlacementResult(userId: string): Promise<ResponseDto<any>> {
+		const session = await this.prisma.placementSession.findFirst({
 			where: { userId, status: 'completed' },
 			orderBy: { completedAt: 'desc' },
 		});
@@ -341,19 +336,95 @@ export class PlacementService {
 		}
 
 		const theta = parseFloat((session.finalTheta ?? session.thetaEstimate).toString());
-
-		const attempts = await this.prisma.placementAttempt.findMany({
+		const attempts = await this.prisma.placementAnswer.findMany({
 			where: { sessionId: session.sessionId },
-			select: PlacementAttemptSelect.irtOnly,
+			select: PlacementAnswerSelect.irtOnly,
 		});
 		const params = attempts.map((a) => this.catEngine.extractIrtParams(a.question));
 		const se = params.length > 0 ? this.catEngine.calculateSE(theta, params) : DEFAULT_CAT_CONFIG.targetSe;
 		const cefrAssignment = this.catEngine.mapToCefr(theta, se);
 
-		return this.buildResult(session, cefrAssignment, theta, se, session.currentQuestion, session.correctCount);
+		return ResponseDto.success(
+			Object,
+			this.buildResult(session, cefrAssignment, theta, se, session.currentQuestion, session.correctCount),
+			'Placement test result retrieved',
+		);
 	}
 
-	//TODO Private Helpers
+	// POST /placement/skip
+	async skipPlacementTest(userId: string): Promise<ResponseDto<any>> {
+		// Abandon CAT session đang in-progress nếu có
+		await this.prisma.placementSession.updateMany({
+			where: { userId, status: 'in_progress' },
+			data: { status: 'abandoned' as any },
+		});
+
+		await this.prisma.user.update({
+			where: { userId },
+			data: { placementSkippedAt: new Date() },
+		});
+
+		this.logger.log(`User ${userId} skipped placement test`);
+		return ResponseDto.success(Object, null, 'Placement test skipped successfully');
+	}
+
+	// GET /placement/current
+	async getCurrentSession(userId: string) {
+		const session = await this.prisma.placementSession.findFirst({
+			where: { userId, status: 'in_progress' },
+			orderBy: { createdAt: 'desc' },
+		});
+		if (!session) throw new NotFoundException('No in-progress placement session found.');
+
+		const exerciseRecord = await this.prisma.exerciseRecord.findFirst({
+			where: { userId, status: 'in_progress' },
+			orderBy: { createdAt: 'desc' },
+		});
+		if (!exerciseRecord) throw new NotFoundException('No exerciseRecord linked to this session.');
+
+		const pastAttempts = await this.prisma.placementAnswer.findMany({
+			where: { sessionId: session.sessionId },
+			select: PlacementAnswerSelect.withIrt,
+			orderBy: { questionOrder: 'asc' },
+		});
+		const answeredIds = pastAttempts.map((a) => a.questionId);
+		const answeredPassageIds = pastAttempts.map((a) => a.question?.passageId ?? null).filter(Boolean) as string[];
+
+		const questionOrder = pastAttempts.length + 1;
+		const currentTheta = parseFloat(session.thetaEstimate.toString());
+		const totalCompletedSessions = await this.prisma.placementSession.count({
+			where: { status: 'completed' },
+		});
+
+		const nextQuestion = await this.catEngine.selectNextQuestion(
+			currentTheta,
+			answeredIds,
+			totalCompletedSessions,
+			questionOrder,
+			answeredPassageIds,
+		);
+
+		if (!nextQuestion) throw new NotFoundException('No more questions available.');
+		this.logger.log(`Resume session | userId=${userId} | sessionId=${session.sessionId} | q=${questionOrder}`);
+
+		return ResponseDto.success(
+			Object,
+			{
+				assessmentId: exerciseRecord.placementSessionId,
+				sessionId: session.sessionId,
+				currentQuestion: nextQuestion,
+				questionOrder,
+				progress: {
+					questionsAnswered: pastAttempts.length,
+					minQuestions: DEFAULT_CAT_CONFIG.minQuestions,
+					maxQuestions: DEFAULT_CAT_CONFIG.maxQuestions,
+				},
+			},
+			'Current placement session retrieved',
+		);
+	}
+
+	//  Private Helpers
 	private async finalizeAndRespond(args: {
 		session: any;
 		isCorrect: boolean;
@@ -363,13 +434,13 @@ export class PlacementService {
 		newCorrectCount: number;
 		newIncorrectCount: number;
 		thetaHistory: any[];
-	}): Promise<AnswerPlacementResponse> {
+	}): Promise<ResponseDto<any>> {
 		const { session, isCorrect, newTheta, newSe, questionOrder, newCorrectCount, newIncorrectCount, thetaHistory } =
 			args;
 
 		const cefrAssignment = this.catEngine.mapToCefr(newTheta, newSe);
 
-		await this.prisma.catSession.update({
+		await this.prisma.placementSession.update({
 			where: { sessionId: session.sessionId },
 			data: {
 				status: 'completed',
@@ -385,8 +456,8 @@ export class PlacementService {
 			},
 		});
 
-		await this.prisma.assessment.updateMany({
-			where: { catSessionId: session.sessionId },
+		await this.prisma.exerciseRecord.updateMany({
+			where: { placementSessionId: session.sessionId },
 			data: {
 				status: 'scored' as any,
 				completedAt: new Date(),
@@ -399,18 +470,22 @@ export class PlacementService {
 				`| θ=${newTheta} | SE=${newSe} | q=${questionOrder}`,
 		);
 
-		return {
-			isCorrect,
-			updatedTheta: newTheta,
-			updatedSe: newSe,
-			isCompleted: true,
-			progress: {
-				questionsAnswered: questionOrder,
-				minQuestions: DEFAULT_CAT_CONFIG.minQuestions,
-				maxQuestions: DEFAULT_CAT_CONFIG.maxQuestions,
+		return ResponseDto.success(
+			Object,
+			{
+				isCorrect,
+				updatedTheta: newTheta,
+				updatedSe: newSe,
+				isCompleted: true,
+				progress: {
+					questionsAnswered: questionOrder,
+					minQuestions: DEFAULT_CAT_CONFIG.minQuestions,
+					maxQuestions: DEFAULT_CAT_CONFIG.maxQuestions,
+				},
+				result: this.buildResult(session, cefrAssignment, newTheta, newSe, questionOrder, newCorrectCount),
 			},
-			result: this.buildResult(session, cefrAssignment, newTheta, newSe, questionOrder, newCorrectCount),
-		};
+			'Placement test completed',
+		);
 	}
 
 	private async finalize(
@@ -423,7 +498,7 @@ export class PlacementService {
 	): Promise<void> {
 		const now = new Date();
 
-		await this.prisma.catSession.update({
+		await this.prisma.placementSession.update({
 			where: { sessionId: session.sessionId },
 			data: {
 				status: 'completed',
@@ -434,8 +509,8 @@ export class PlacementService {
 			},
 		});
 
-		await this.prisma.assessment.updateMany({
-			where: { catSessionId: session.sessionId },
+		await this.prisma.exerciseRecord.updateMany({
+			where: { placementSessionId: session.sessionId },
 			data: {
 				status: 'scored' as any,
 				completedAt: now,

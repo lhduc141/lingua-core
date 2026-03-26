@@ -1,13 +1,13 @@
 // onboarding.service.ts
 
-import { Injectable, Logger } from '@nestjs/common';
 import type { JwtPayloadDto } from '@app/jwt';
 import { NotFoundException, ResponseDto } from '@app/shared';
-import { OnboardingSurveyDto } from '../dto/get-survey-me.dto';
-import { SubmitSurveyDto } from '../dto/submit-survey.dto';
-import { SubmitSurveyResponseDto } from '../dto/submit-survey-response.dto';
+import { Injectable, Logger } from '@nestjs/common';
 import { PrismaService } from '../../../../../../prisma/prisma.service';
 import { OnboardingSurveySelect } from '../../../../../../prisma/selects';
+import { OnboardingSurveyDto } from '../dto/get-survey-me.dto';
+import { SubmitSurveyResponseDto } from '../dto/submit-survey-response.dto';
+import { SubmitSurveyDto } from '../dto/submit-survey.dto';
 
 @Injectable()
 export class OnboardingService {
@@ -47,6 +47,7 @@ export class OnboardingService {
 					// TIER 1: REQUIRED
 					primaryGoal: dto.primaryGoal,
 					plannedStudyHoursPerWeek: dto.plannedStudyHoursPerWeek,
+					availableDays: dto.availableDays ?? [],
 					primaryFocusSkills: dto.primaryFocusSkills,
 
 					// TIER 2: IMPORTANT
@@ -105,6 +106,26 @@ export class OnboardingService {
 			activeSurvey: surveys.find((s) => s.isActive),
 			history: surveys,
 		};
+	}
+
+	async skipSurvey(userId: string) {
+		const now = new Date();
+
+		await this.prisma.user.update({
+			where: { userId },
+			data: {
+				surveySkippedAt: now,
+				placementSkippedAt: now,
+			},
+		});
+
+		await this.prisma.placementSession.updateMany({
+			where: { userId, status: 'in_progress' },
+			data: { status: 'abandoned' as any },
+		});
+
+		this.logger.log(`User ${userId} skipped onboarding`);
+		return ResponseDto.success(Object, null, 'Onboarding skipped successfully');
 	}
 
 	// async isSurveyComplete(userId: string): Promise<boolean> {

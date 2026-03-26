@@ -1,5 +1,5 @@
 export interface AssessmentHistoryItem {
-	assessmentId: string;
+	exerciseRecordId: string;
 	refType: string;
 	refId: string;
 	refTitle: string | null;

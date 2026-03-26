@@ -126,16 +126,6 @@ export class CreateQuestionDto {
 	difficulty?: number;
 
 	@ApiPropertyOptional({
-		description: 'Loại đề thi',
-		example: 'generic',
-		enum: ExamKind,
-		default: ExamKind.GENERIC,
-	})
-	@IsOptional()
-	@IsEnum(ExamKind)
-	examKind?: ExamKind;
-
-	@ApiPropertyOptional({
 		description: 'Trạng thái',
 		example: 'draft',
 		enum: ContentStatus,

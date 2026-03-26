@@ -1,4 +1,14 @@
 import {
+	AssessedLevelEnum,
+	CertificationType,
+	DayOfWeek,
+	ExperienceLevelEnum,
+	SkillName,
+	UsageContextEnum,
+} from '@app/shared';
+import { PrimaryGoalsEnum } from '@app/shared/enums/primary-goals.enum';
+import { ApiPropertyOptional } from '@nestjs/swagger';
+import {
 	ArrayNotEmpty,
 	IsArray,
 	IsDateString,
@@ -12,8 +22,6 @@ import {
 	Min,
 	ValidateIf,
 } from 'class-validator';
-import { PrimaryGoalsEnum } from '@app/shared/enums/primary-goals.enum';
-import { AssessedLevelEnum, CertificationType, ExperienceLevelEnum, SkillName, UsageContextEnum } from '@app/shared';
 
 export class SubmitSurveyDto {
 	// TIER 1: REQUIRED - AI cần
@@ -30,6 +38,16 @@ export class SubmitSurveyDto {
 	@ArrayNotEmpty()
 	@IsEnum(SkillName, { each: true }) // ['reading', 'writing', 'speaking'] hoặc ['all']
 	primaryFocusSkills: SkillName[];
+
+	@IsOptional()
+	@IsArray()
+	@IsEnum(DayOfWeek, { each: true })
+	@ApiPropertyOptional({
+		enum: DayOfWeek,
+		isArray: true,
+		example: ['MONDAY', 'WEDNESDAY', 'FRIDAY'],
+	})
+	availableDays?: DayOfWeek[];
 
 	// TIER 2: IMPORTANT (Personalization)
 	@IsOptional()

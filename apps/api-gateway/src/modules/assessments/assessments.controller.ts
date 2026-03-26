@@ -4,7 +4,7 @@ import { AuthGuard } from '../../guards/auth.guard';
 import { ReqUser } from '../../decorators/req-user.decorator';
 import { AssessmentsService } from './assessments.service';
 import { StartLessonAssessmentDto } from './dto/start-lesson-assessment.dto';
-import { StartPracticeAssessmentDto } from './dto/start-practice-assessment.dto';
+import { StartQuestionSetAssessmentDto } from './dto/start-question-set-assessment.dto';
 import { SubmitAnswerDto } from './dto/submit-answer.dto';
 import { ListAssessmentHistoryDto } from './dto/list-assessment-history.dto';
 
@@ -30,12 +30,12 @@ export class AssessmentsController {
 		return this.assessmentsService.startLessonAssessment(userId, dto);
 	}
 
-	@Post('practice/start')
+	@Post('question-set/start')
 	@ApiOperation({ summary: 'Bắt đầu làm bài practice session' })
 	@ApiOkResponse({ description: 'Assessment created, questions returned (no isCorrect)' })
 	@ApiNotFoundResponse({ description: 'Practice session not found or inactive' })
-	startPracticeAssessment(@ReqUser('userId') userId: string, @Body() dto: StartPracticeAssessmentDto) {
-		return this.assessmentsService.startPracticeAssessment(userId, dto);
+	startQuestionSetAssessment(@ReqUser('userId') userId: string, @Body() dto: StartQuestionSetAssessmentDto) {
+		return this.assessmentsService.startQuestionSetAssessment(userId, dto);
 	}
 
 	@Post(':assessmentId/answers')

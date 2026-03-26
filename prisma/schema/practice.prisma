@@ -1,12 +1,17 @@
-model PracticeSession {
-  sessionId String @id @default(dbgenerated("gen_random_uuid()")) @map("session_id") @db.Uuid
+// Model PracticeSession
+model QuestionSet {
+  questionSetId String @id @default(dbgenerated("gen_random_uuid()")) @map("question_set_id") @db.Uuid
 
   title       String // "Writing Task 2 Practice"
   description String?
-  skillName   SkillName
+  skillName   SkillName @map("skill_name")
   cefrLevel   String?   @map("cefr_level") // Target level
 
   estimatedMinutes Int? @map("estimated_minutes")
+
+  // Update (25/03): add_practice_lesson_link
+  // null = standalone
+  lessonId String? @map("lesson_id") @db.Uuid
 
   isActive Boolean @default(true) @map("is_active")
 
@@ -14,25 +19,28 @@ model PracticeSession {
   updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
-  questions PracticeSessionQuestion[]
+  lesson Lesson?           @relation(fields: [lessonId], references: [lessonId])
+  items  QuestionSetItem[]
 
   @@index([skillName])
   @@index([cefrLevel])
-  @@map("practice_sessions")
+  @@index([lessonId])
+  @@map("question_sets")
 }
 
-model PracticeSessionQuestion {
-  sessionId  String @map("session_id") @db.Uuid
-  questionId String @map("question_id") @db.Uuid
-  position   Int
+// Model PracticeSessionQuestion
+model QuestionSetItem {
+  questionSetId String @map("question_set_id") @db.Uuid
+  questionId    String @map("question_id") @db.Uuid
+  position      Int
 
   createdAt DateTime  @default(now()) @map("created_at")
   updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
-  session  PracticeSession @relation(fields: [sessionId], references: [sessionId])
-  question Question        @relation(fields: [questionId], references: [questionId])
+  questionSet QuestionSet @relation(fields: [questionSetId], references: [questionSetId])
+  question    Question    @relation(fields: [questionId], references: [questionId])
 
-  @@id([sessionId, questionId])
-  @@map("practice_session_questions")
+  @@id([questionSetId, questionId])
+  @@map("question_set_items")
 }

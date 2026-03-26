@@ -6,26 +6,19 @@ model Question {
   skill      String?
   type       QuestionType
   difficulty Int           @default(1)
-  version    Int           @default(1)
-  examKind   ExamKind      @default(generic) @map("exam_kind")
   status     ContentStatus @default(draft)
 
-  authorId     String?   @map("author_id") @db.Uuid
-  reviewerId   String?   @map("reviewer_id") @db.Uuid
-  publishedAt  DateTime? @map("published_at")
-  sourceTag    String?   @map("source_tag")
-  timeLimitSec Int?      @map("time_limit_sec")
-  maxScore     Int?      @default(1) @map("max_score")
+  sourceTag    String? @map("source_tag")
+  timeLimitSec Int?    @map("time_limit_sec")
+  maxScore     Int?    @default(1) @map("max_score")
 
-  passage                  Passage?                  @relation(fields: [passageId], references: [passageId]) // ← THÊM
-  options                  QuestionOption[]
-  payload                  QuestionPayload?
-  tags                     QuestionTag[]
-  translations             QuestionTranslation[]
-  lessonQuestions          LessonQuestion[]
-  examSectionQuestions     ExamSectionQuestion[]
-  practiceSessionQuestions PracticeSessionQuestion[] // ← THÊM
-  attempts                 Attempt[]
+  passage          Passage?              @relation(fields: [passageId], references: [passageId]) // ← THÊM
+  options          QuestionOption[]
+  payload          QuestionPayload?
+  translations     QuestionTranslation[]
+  lessonQuestions  LessonQuestion[]
+  questionSetItems QuestionSetItem[]
+  answers          Answer[]
 
   // ===== IRT PARAMETERS (THÊM MỚI) =====
   irtDifficulty     Decimal?  @map("irt_difficulty") @db.Decimal(4, 2)
@@ -34,7 +27,7 @@ model Question {
   usageCount        Int       @default(0) @map("usage_count")
   lastUsedAt        DateTime? @map("last_used_at")
 
-  placementAttempts PlacementAttempt[]
+  placementAnswers PlacementAnswer[]
 
   createdAt DateTime  @default(now()) @map("created_at")
   updatedAt DateTime  @updatedAt @map("updated_at")
@@ -56,9 +49,9 @@ model QuestionOption {
   updatedAt  DateTime  @updatedAt @map("updated_at")
   deletedAt  DateTime? @map("deleted_at")
 
-  question       Question            @relation(fields: [questionId], references: [questionId])
-  translations   OptionTranslation[]
-  attemptAnswers AttemptAnswer[]
+  question      Question            @relation(fields: [questionId], references: [questionId])
+  translations  OptionTranslation[]
+  answerDetails AnswerDetail[]
 
   @@map("question_options")
 }
@@ -77,16 +70,6 @@ model QuestionPayload {
   @@map("question_payloads")
 }
 
-model QuestionTag {
-  questionId String @map("question_id") @db.Uuid
-  tag        String
-
-  question Question @relation(fields: [questionId], references: [questionId])
-
-  @@id([questionId, tag])
-  @@map("question_tags")
-}
-
 model Passage {
   passageId String @id @default(dbgenerated("gen_random_uuid()")) @map("passage_id") @db.Uuid
 
@@ -100,9 +83,6 @@ model Passage {
   topic     String?
 
   sourceTag String? @map("source_tag")
-
-  audioUrl String? @map("audio_url")
-  imageUrl String? @map("image_url")
 
   createdAt DateTime  @default(now()) @map("created_at")
   updatedAt DateTime  @updatedAt @map("updated_at")

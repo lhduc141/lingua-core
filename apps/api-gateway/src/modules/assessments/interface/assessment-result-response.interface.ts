@@ -1,8 +1,7 @@
-import { AttemptResult } from './attempt-result.interface';
+import { AnswerResult } from './answer-result.interface';
 
-// Complete / Result Response
 export interface AssessmentResultResponse {
-	assessmentId: string;
+	exerciseRecordId: string;
 	refType: string;
 	status: string;
 	score: number | null;
@@ -11,5 +10,5 @@ export interface AssessmentResultResponse {
 	startedAt: Date | null;
 	completedAt: Date | null;
 	message?: string;
-	attempts: AttemptResult[];
+	answers: AnswerResult[];
 }

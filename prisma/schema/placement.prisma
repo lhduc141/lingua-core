@@ -1,4 +1,5 @@
-model CatSession {
+// Model - CatSession
+model PlacementSession {
   sessionId String @id @default(dbgenerated("gen_random_uuid()")) @map("session_id") @db.Uuid
   userId    String @map("user_id") @db.Uuid
 
@@ -14,22 +15,23 @@ model CatSession {
   cefrLevel      String?  @map("cefr_level")
   confidence     Decimal? @map("confidence") @db.Decimal(3, 2)
 
+  user             User              @relation(fields: [userId], references: [userId])
+  placementAnswers PlacementAnswer[]
+  exerciseRecord   ExerciseRecord?   @relation(name: "ExerciseRecordPlacementSession")
+
   startedAt   DateTime  @default(now()) @map("started_at")
   completedAt DateTime? @map("completed_at")
   createdAt   DateTime  @default(now()) @map("created_at")
   updatedAt   DateTime  @updatedAt @map("updated_at")
 
-  user       User               @relation(fields: [userId], references: [userId])
-  attempts   PlacementAttempt[]
-  assessment Assessment?        @relation(name: "AssessmentCatSession")
-
   @@index([userId, status])
   @@index([userId, completedAt])
-  @@map("cat_sessions")
+  @@map("placement_sessions")
 }
 
-model PlacementAttempt {
-  attemptId  String @id @default(dbgenerated("gen_random_uuid()")) @map("attempt_id") @db.Uuid
+// Model - Placement Attempt
+model PlacementAnswer {
+  answerId   String @id @default(dbgenerated("gen_random_uuid()")) @map("answer_id") @db.Uuid
   sessionId  String @map("session_id") @db.Uuid
   questionId String @map("question_id") @db.Uuid
 
@@ -44,9 +46,9 @@ model PlacementAttempt {
   thetaAfter     Decimal  @map("theta_after") @db.Decimal(4, 2)
   answeredAt     DateTime @default(now()) @map("answered_at")
 
-  session  CatSession @relation(fields: [sessionId], references: [sessionId], onDelete: Cascade)
-  question Question   @relation(fields: [questionId], references: [questionId])
+  session  PlacementSession @relation(fields: [sessionId], references: [sessionId], onDelete: Cascade)
+  question Question         @relation(fields: [questionId], references: [questionId])
 
   @@index([sessionId, questionOrder])
-  @@map("placement_attempts")
+  @@map("placement_answers")
 }

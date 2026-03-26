@@ -4,9 +4,9 @@ import { IsEnum, IsOptional } from 'class-validator';
 import { SkillName } from '@prisma/client';
 
 export class ListAssessmentHistoryDto extends PagingDto {
-	@ApiPropertyOptional({ enum: ['lesson', 'practice_session'] })
+	@ApiPropertyOptional({ enum: ['lesson', 'question_set'] })
 	@IsOptional()
-	@IsEnum(['lesson', 'practice_session'])
+	@IsEnum(['lesson', 'question_set'])
 	refType?: string;
 
 	@ApiPropertyOptional({ enum: SkillName })

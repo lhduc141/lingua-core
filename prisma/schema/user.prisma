@@ -1,60 +1,44 @@
 model User {
   userId String @id @default(dbgenerated("gen_random_uuid()")) @map("user_id") @db.Uuid
 
-  // ===== GOOGLE OAUTH
+  // GOOGLE OAUTH
   email           String  @unique
   googleSub       String  @unique @map("google_sub")
   googleName      String? @map("google_name")
   googleAvatarUrl String? @map("google_avatar_url")
 
-  // ===== PERSONAL INFO (merged from Profile)
+  // PERSONAL INFO (merged from Profile)
   dob    DateTime? @db.Date
   gender String?
   phone  String?
 
-  // ===== PERMISSIONS
+  // Survey - Placement test (UPDATED 17/03/26)
+  // Purpose: 3 types of onboarding
+  surveySkippedAt    DateTime? @map("survey_skipped_at")
+  placementSkippedAt DateTime? @map("placement_skipped_at")
+
+  // PERMISSIONS
   isAdmin     Boolean   @default(false) @map("is_admin")
   isActive    Boolean   @default(true) @map("is_active")
   lastLoginAt DateTime? @map("last_login_at")
 
-  // ===== REFRESH TOKEN
+  // REFRESH TOKEN
   currentRefreshTokenHash      String?   @map("current_refresh_token_hash")
   currentRefreshTokenExpiresAt DateTime? @map("current_refresh_token_expires_at")
 
-  // ===== TIMESTAMPS
+  // RELATIONS (giữ nguyên)
+  learningPlanItems LearningPlanItem[]
+  onboardingSurvey  OnboardingSurvey[]
+  userVocabulary    UserVocabulary[]
+
+  answers           Answer[]
+  exerciseRecords   ExerciseRecord[]
+  placementSessions PlacementSession[]
+
+  // TIMESTAMPS
   createdAt DateTime  @default(now()) @map("created_at")
   updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
-  // ===== RELATIONS (giữ nguyên) =====
-  attempts          Attempt[]
-  assessments       Assessment[]
-  availabilities    UserAvailability[]
-  reports           AssessmentReport[]
-  learningPlanItems LearningPlanItem[]
-  studySessions     StudySession[]
-  notifications     Notification[]
-  srsCollections    SrsCollection[]
-  srsCards          SrsCard[]
-  onboardingSurvey  OnboardingSurvey[]
-  UserVocabulary    UserVocabulary[]
-  catSessions       CatSession[]
-
   @@map("users")
-}
-
-model UserAvailability {
-  availabilityId String    @id @default(dbgenerated("gen_random_uuid()")) @map("availability_id") @db.Uuid
-  userId         String    @map("user_id") @db.Uuid
-  dow            Int
-  startMinute    Int       @map("start_minute")
-  endMinute      Int       @map("end_minute")
-  weight         Decimal?  @default(1.0) @db.Decimal()
-  createdAt      DateTime  @default(now()) @map("created_at")
-  updatedAt      DateTime  @updatedAt @map("updated_at")
-  deletedAt      DateTime? @map("deleted_at")
-
-  user User @relation(fields: [userId], references: [userId])
-
-  @@map("user_availabilities")
 }

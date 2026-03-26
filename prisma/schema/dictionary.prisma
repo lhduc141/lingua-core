@@ -1,6 +1,4 @@
-// TODO ===========================
 // TODO         DICTIONARY
-// TODO ===========================
 
 model DictEntry {
   entryId String @id @default(dbgenerated("gen_random_uuid()")) @map("entry_id") @db.Uuid
@@ -26,7 +24,6 @@ model DictEntry {
   wordForms      WordForm[]
   userVocabulary UserVocabulary[]
   collocations   Collocation[]
-  SrsCard        SrsCard[]
 
   @@index([headword, lang])
   @@index([cefrLevel])
@@ -90,7 +87,7 @@ model DictExample {
 }
 
 model Collocation {
-  collocationId String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  collocationId String @id @default(dbgenerated("gen_random_uuid()")) @map("collocation_id") @db.Uuid
   entryId       String @map("entry_id") @db.Uuid
   senseId       String @map("sense_id") @db.Uuid
 

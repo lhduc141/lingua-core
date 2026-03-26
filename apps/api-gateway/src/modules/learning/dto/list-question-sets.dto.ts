@@ -3,7 +3,7 @@ import { IsEnum, IsOptional, IsString } from 'class-validator';
 import { SkillName } from '@prisma/client';
 import { PagingDto } from '@app/shared';
 
-export class ListPracticeSessionsDto extends PagingDto {
+export class ListQuestionSetsDto extends PagingDto {
 	@ApiPropertyOptional({ enum: SkillName, description: 'Filter by skill' })
 	@IsOptional()
 	@IsEnum(SkillName)

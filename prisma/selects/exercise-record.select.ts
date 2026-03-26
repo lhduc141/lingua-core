@@ -1,9 +1,9 @@
 import { Prisma } from '@prisma/client';
 
-export const AssessmentSelect = {
+export const ExerciseRecordSelect = {
 	// Dùng cho history list
 	history: {
-		assessmentId: true,
+		exerciseRecordId: true,
 		refType: true,
 		refId: true,
 		status: true,
@@ -11,28 +11,27 @@ export const AssessmentSelect = {
 		startedAt: true,
 		completedAt: true,
 		createdAt: true,
-	} satisfies Prisma.AssessmentSelect,
+	} satisfies Prisma.ExerciseRecordSelect,
 
 	// Dùng cho result — bao gồm attempts + evaluations
 	result: {
-		assessmentId: true,
+		exerciseRecordId: true,
 		refType: true,
 		refId: true,
 		status: true,
 		score: true,
 		startedAt: true,
 		completedAt: true,
-		attempts: {
+		answers: {
 			where: { deletedAt: null },
 			select: {
-				attemptId: true,
+				answerId: true,
 				questionId: true,
-				modality: true,
 				correct: true,
 				score: true,
 				gradingStatus: true,
 				submittedAt: true,
-				answers: {
+				answerDetails: {
 					select: {
 						position: true,
 						optionId: true,
@@ -43,7 +42,7 @@ export const AssessmentSelect = {
 					where: { deletedAt: null },
 					take: 1,
 					select: {
-						id: true,
+						answerEvalId: true,
 						overallScore: true,
 						criteriaJson: true,
 					},
@@ -52,13 +51,12 @@ export const AssessmentSelect = {
 					select: {
 						questionId: true,
 						type: true,
-						// isCorrect KHÔNG được include trong question.options — bảo mật
 						options: {
 							where: { deletedAt: null },
 							select: {
 								optionId: true,
 								position: true,
-								isCorrect: true, // cần để build correctOptionId trong result
+								isCorrect: true,
 								translations: {
 									where: { locale: 'en' },
 									select: { optionText: true },
@@ -69,26 +67,26 @@ export const AssessmentSelect = {
 				},
 			},
 		},
-	} satisfies Prisma.AssessmentSelect,
+	} satisfies Prisma.ExerciseRecordSelect,
 
 	performance: {
 		refType: true,
 		refId: true,
 		score: true,
 		completedAt: true,
-	} satisfies Prisma.AssessmentSelect,
+	} satisfies Prisma.ExerciseRecordSelect,
 
 	scoreHistory: {
 		refType: true,
 		refId: true,
 		score: true,
 		completedAt: true,
-	} satisfies Prisma.AssessmentSelect,
+	} satisfies Prisma.ExerciseRecordSelect,
 
 	timeRange: {
 		startedAt: true,
 		completedAt: true,
-	} satisfies Prisma.AssessmentSelect,
+	} satisfies Prisma.ExerciseRecordSelect,
 
 	recentActivity: {
 		refType: true,
@@ -96,32 +94,32 @@ export const AssessmentSelect = {
 		score: true,
 		status: true,
 		completedAt: true,
-	} satisfies Prisma.AssessmentSelect,
+	} satisfies Prisma.ExerciseRecordSelect,
 
 	completedOnly: {
 		completedAt: true,
-	} satisfies Prisma.AssessmentSelect,
+	} satisfies Prisma.ExerciseRecordSelect,
 
 	idOnly: {
-		assessmentId: true,
-	} satisfies Prisma.AssessmentSelect,
+		exerciseRecordId: true,
+	} satisfies Prisma.ExerciseRecordSelect,
 
 	statusRef: {
-		assessmentId: true,
+		exerciseRecordId: true,
 		status: true,
 		refType: true,
 		refId: true,
-	} satisfies Prisma.AssessmentSelect,
+	} satisfies Prisma.ExerciseRecordSelect,
 
 	placementCheck: {
-		assessmentId: true,
-		catSessionId: true,
+		exerciseRecordId: true,
+		placementSessionId: true,
 		status: true,
-	} satisfies Prisma.AssessmentSelect,
+	} satisfies Prisma.ExerciseRecordSelect,
 
 	userRef: {
 		userId: true,
 		refType: true,
 		refId: true,
-	} satisfies Prisma.AssessmentSelect,
+	} satisfies Prisma.ExerciseRecordSelect,
 } as const;

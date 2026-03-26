@@ -7,14 +7,13 @@ import {
 	ApiOperation,
 	ApiTags,
 } from '@nestjs/swagger';
-import { AuthGuard } from '../../guards/auth.guard';
 import { ReqUser } from '../../decorators/req-user.decorator';
-import { LearningPlanService } from './learning-plan.service';
+import { AuthGuard } from '../../guards/auth.guard';
 import { GeneratePlanDto } from './dto/generate-plan.dto';
-import { SubmitReviewFeedbackDto } from './dto/submit-review-feedback.dto';
 import { ListPlanHistoryDto } from './dto/list-plan-history.dto';
+import { SubmitReviewFeedbackDto } from './dto/submit-review-feedback.dto';
 import { UpdatePlanItemDto } from './dto/update-plan-item.dto';
-import { SetAvailabilityDto } from './dto/set-avaiability-slot.dto';
+import { LearningPlanService } from './learning-plan.service';
 
 @ApiTags('Learning Plan')
 @Controller('learning-plan')
@@ -69,19 +68,5 @@ export class LearningPlanController {
 	@ApiOkResponse({ description: 'Paginated plan history' })
 	getHistory(@ReqUser('userId') userId: string, @Query() query: ListPlanHistoryDto) {
 		return this.planService.getHistory(userId, query);
-	}
-
-	@Post('availability')
-	@ApiOperation({ summary: 'Set weekly availability slots (replaces all existing)' })
-	@ApiOkResponse({ description: 'Availability updated' })
-	setAvailability(@ReqUser('userId') userId: string, @Body() dto: SetAvailabilityDto) {
-		return this.planService.setAvailability(userId, dto);
-	}
-
-	@Get('availability')
-	@ApiOperation({ summary: 'Get current availability slots' })
-	@ApiOkResponse({ description: 'Availability slots' })
-	getAvailability(@ReqUser('userId') userId: string) {
-		return this.planService.getAvailability(userId);
 	}
 }

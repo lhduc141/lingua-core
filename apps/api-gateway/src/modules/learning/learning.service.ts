@@ -2,11 +2,11 @@ import { Injectable, Logger } from '@nestjs/common';
 import { PrismaService } from '../../../../../prisma/prisma.service';
 import { LESSON_LIST_SELECT, NotFoundException, PagingDataDto, ResponseDto, SKILL_LIST } from '@app/shared';
 import { ListLessonsDto } from './dto/list-lessons.dto';
-import { LessonSelect, PracticeSessionSelect } from '../../../../../prisma/selects';
+import { LessonSelect, QuestionSetSelect } from '../../../../../prisma/selects';
 import { LessonDetail } from './interface/lesson-detail.interface';
-import { PracticeSessionDetail } from './interface/practice-session-detail.interface';
 import { QuestionItem } from './interface/question-item.interface';
-import { ListPracticeSessionsDto } from './dto/list-practice-sessions.dto';
+import { ListQuestionSetsDto } from './dto/list-question-sets.dto';
+import { QuestionSetDetail } from './interface/question-set-detail.interface';
 
 @Injectable()
 export class LearningService {
@@ -70,7 +70,7 @@ export class LearningService {
 		return ResponseDto.success(Object, result);
 	}
 
-	async getPracticeSessions(dto: ListPracticeSessionsDto) {
+	async getPracticeSessions(dto: ListQuestionSetsDto) {
 		const { pageIndex, pageSize, skill, cefrLevel } = dto;
 
 		const where = {
@@ -81,41 +81,41 @@ export class LearningService {
 		};
 
 		const [sessions, count] = await Promise.all([
-			this.prisma.practiceSession.findMany({
+			this.prisma.questionSet.findMany({
 				where,
-				select: PracticeSessionSelect.list,
+				select: QuestionSetSelect.list,
 				orderBy: [{ cefrLevel: 'asc' }, { createdAt: 'asc' }],
 				skip: (pageIndex - 1) * pageSize,
 				take: pageSize,
 			}),
-			this.prisma.practiceSession.count({ where }),
+			this.prisma.questionSet.count({ where }),
 		]);
 
 		const rows = sessions.map(({ _count, ...rest }) => ({
 			...rest,
-			questionCount: _count.questions,
+			questionCount: _count.items,
 		}));
 
 		return ResponseDto.success(Object, new PagingDataDto({ count, rows }));
 	}
 
 	async getPracticeSessionById(sessionId: string) {
-		const session = await this.prisma.practiceSession.findFirst({
-			where: { sessionId, deletedAt: null, isActive: true },
-			select: PracticeSessionSelect.detail,
+		const questionSet = await this.prisma.questionSet.findFirst({
+			where: { questionSetId: sessionId, deletedAt: null, isActive: true },
+			select: QuestionSetSelect.detail,
 		});
 
-		if (!session) throw new NotFoundException('Practice session not found');
+		if (!questionSet) throw new NotFoundException('Question Set not found');
 
-		const result: PracticeSessionDetail = {
-			sessionId: session.sessionId,
-			skillName: session.skillName,
-			title: session.title,
-			description: session.description,
-			cefrLevel: session.cefrLevel,
-			estimatedMinutes: session.estimatedMinutes,
-			isActive: session.isActive,
-			questions: session.questions.map(({ position, question }) => this.formatQuestion(position, question)),
+		const result: QuestionSetDetail = {
+			questionSetId: questionSet.questionSetId,
+			skillName: questionSet.skillName,
+			title: questionSet.title,
+			description: questionSet.description,
+			cefrLevel: questionSet.cefrLevel,
+			estimatedMinutes: questionSet.estimatedMinutes,
+			isActive: questionSet.isActive,
+			questions: questionSet.items.map(({ position, question }) => this.formatQuestion(position, question)),
 		};
 
 		return ResponseDto.success(Object, result);

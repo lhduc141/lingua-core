@@ -1,7 +1,7 @@
 import { AssessmentQuestion } from './assessment-question.interface';
 
 export interface AssessmentStartResponse {
-	assessmentId: string;
+	questionSetId: string;
 	refType: string;
 	totalQuestions: number;
 	lesson?: {
@@ -12,8 +12,8 @@ export interface AssessmentStartResponse {
 		estimatedMinutes: number | null;
 		theoryContent: any;
 	};
-	practiceSession?: {
-		sessionId: string;
+	questionSet?: {
+		questionSetId: string;
 		title: string;
 		skillName: string;
 		cefrLevel: string | null;

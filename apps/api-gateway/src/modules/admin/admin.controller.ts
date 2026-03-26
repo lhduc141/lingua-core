@@ -3,7 +3,7 @@ import { ApiBearerAuth, ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagg
 import { AdminService } from './admin.service';
 import { CreatePassageDto } from './dto/create-passage.dto';
 import { CreateLessonDto } from './dto/create-lesson.dto';
-import { CreatePracticeSessionDto } from './dto/create-practice-session.dto';
+import { CreateQuestionSetDto } from './dto/create-question-set.dto';
 import { BulkImportDictionaryDto } from './dto/bulk-import-dictionary.dto';
 import { ListUsersDto } from './dto/list-users.dto';
 import { ResponseDto } from '@app/shared';
@@ -48,14 +48,14 @@ export class AdminController {
 		return ResponseDto.success(Object, data, 'Lesson created successfully', HttpStatus.CREATED);
 	}
 
-	@Post('practice-sessions')
+	@Post('question-sets')
 	@HttpCode(HttpStatus.CREATED)
-	@ApiOperation({ summary: 'Tạo practice session mới' })
-	@ApiResponse({ status: 201, description: 'Practice session created successfully' })
+	@ApiOperation({ summary: 'Tạo question set mới' })
+	@ApiResponse({ status: 201, description: 'Question set created successfully' })
 	@ApiResponse({ status: 400, description: 'Validation error' })
-	async createPracticeSession(@Body() dto: CreatePracticeSessionDto) {
-		const data = await this.adminService.createPracticeSession(dto);
-		return ResponseDto.success(Object, data, 'Practice session created successfully', HttpStatus.CREATED);
+	async createQuestionSet(@Body() dto: CreateQuestionSetDto) {
+		const data = await this.adminService.createQuestionSet(dto);
+		return ResponseDto.success(Object, data, 'Practice set created successfully', HttpStatus.CREATED);
 	}
 
 	@Post('dictionary/import')

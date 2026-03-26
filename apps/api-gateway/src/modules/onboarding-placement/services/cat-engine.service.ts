@@ -1,15 +1,15 @@
+import { DEFAULT_CAT_CONFIG } from '@app/shared/constants/default-cat-config.constant';
+import { EXPOSURE_LIMITS } from '@app/shared/constants/exposure-limit.constant';
 import { Injectable, Logger } from '@nestjs/common';
 import { PrismaService } from '../../../../../../prisma/prisma.service';
-import { IrtMathUtils } from '../utils/irt-math.utils';
+import { QuestionSelect } from '../../../../../../prisma/selects';
+import { CefrAssignment } from '../interface/cefr-assignment.interface';
 import { FormattedQuestion } from '../interface/formatted-question.interface';
-import { QuestionCandidate } from '../interface/question-candidate.interface';
-import { StopDecision } from '../interface/stop-decision.interface';
-import { EXPOSURE_LIMITS } from '@app/shared/constants/exposure-limit.constant';
 import { IrtParameters } from '../interface/irt-parameters.interface';
 import { IrtResponse } from '../interface/irt-response.interface';
-import { DEFAULT_CAT_CONFIG } from '@app/shared/constants/default-cat-config.constant';
-import { CefrAssignment } from '../interface/cefr-assignment.interface';
-import { QuestionSelect } from '../../../../../../prisma/selects';
+import { QuestionCandidate } from '../interface/question-candidate.interface';
+import { StopDecision } from '../interface/stop-decision.interface';
+import { IrtMathUtils } from '../utils/irt-math.utils';
 
 // Passage Config
 // Q1-5: Grammar only
@@ -121,7 +121,7 @@ export class CatEngineService {
 			a: this.toFloat(a.question.irtDiscrimination, 1.0),
 			b: this.toFloat(a.question.irtDifficulty, 0.0),
 			c: this.toFloat(a.question.irtGuessing, 0.25),
-			correct: (a.isCorrect ? 1 : 0) as 0 | 1,
+			correct: a.isCorrect ? 1 : 0,
 		}));
 	}
 

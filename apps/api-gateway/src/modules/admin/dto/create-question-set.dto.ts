@@ -14,7 +14,7 @@ import {
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { SkillName } from '@prisma/client';
 
-export class CreatePracticeSessionDto {
+export class CreateQuestionSetDto {
 	@ApiProperty({
 		description: 'Skill name',
 		enum: SkillName,

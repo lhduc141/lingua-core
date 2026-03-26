@@ -1,10 +1,10 @@
 import { Prisma } from '@prisma/client';
-import { PracticeSessionQuestionSelect } from './practice-session-question.select';
+import { QuestionSetItemSelect } from './question-set-item.select';
 import { QuestionSelect } from './question.select';
 
-export const PracticeSessionSelect = {
+export const QuestionSetSelect = {
 	list: {
-		sessionId: true,
+		questionSetId: true,
 		skillName: true,
 		title: true,
 		description: true,
@@ -12,53 +12,53 @@ export const PracticeSessionSelect = {
 		estimatedMinutes: true,
 		isActive: true,
 		_count: {
-			select: { questions: true },
+			select: { items: true },
 		},
-	} satisfies Prisma.PracticeSessionSelect,
+	} satisfies Prisma.QuestionSetSelect,
 
 	detail: {
-		sessionId: true,
+		questionSetId: true,
 		skillName: true,
 		title: true,
 		description: true,
 		cefrLevel: true,
 		estimatedMinutes: true,
 		isActive: true,
-		questions: {
+		items: {
 			orderBy: { position: 'asc' as const },
 			select: {
 				position: true,
 				question: { select: QuestionSelect.detail },
 			},
 		},
-	} satisfies Prisma.PracticeSessionSelect,
+	} satisfies Prisma.QuestionSetSelect,
 
 	idTitle: {
-		sessionId: true,
+		questionSetId: true,
 		title: true,
-	} satisfies Prisma.PracticeSessionSelect,
+	} satisfies Prisma.QuestionSetSelect,
 
 	titleSkill: {
 		title: true,
 		skillName: true,
-	} satisfies Prisma.PracticeSessionSelect,
+	} satisfies Prisma.QuestionSetSelect,
 
 	skillOnly: {
 		skillName: true,
-	} satisfies Prisma.PracticeSessionSelect,
+	} satisfies Prisma.QuestionSetSelect,
 
 	planAvailable: {
-		sessionId: true,
+		questionSetId: true,
 		title: true,
 		skillName: true,
 		cefrLevel: true,
 		estimatedMinutes: true,
-	} satisfies Prisma.PracticeSessionSelect,
+	} satisfies Prisma.QuestionSetSelect,
 
 	assessmentMeta: {
 		title: true,
 		skillName: true,
 		cefrLevel: true,
-		questions: { select: PracticeSessionQuestionSelect.idOnly },
-	} satisfies Prisma.PracticeSessionSelect,
+		items: { select: QuestionSetItemSelect.idOnly },
+	} satisfies Prisma.QuestionSetSelect,
 } as const;

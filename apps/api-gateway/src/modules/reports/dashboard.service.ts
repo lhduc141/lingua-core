@@ -2,11 +2,11 @@ import { Injectable, Logger } from '@nestjs/common';
 import { PrismaService } from '../../../../../prisma/prisma.service';
 import { BadRequestException, ResponseDto } from '@app/shared';
 import {
-	AssessmentSelect,
-	CatSessionSelect,
+	ExerciseRecordSelect,
 	LearningPlanSelect,
 	LessonSelect,
-	PracticeSessionSelect,
+	PlacementSessionSelect,
+	QuestionSetSelect,
 } from '../../../../../prisma/selects';
 import { GetStudyTimeDto } from './dto/get-study-time.dto';
 import {
@@ -82,7 +82,6 @@ export class DashboardService {
 			throw new BadRequestException(`Invalid skill: ${skillName}. Valid skills: ${VALID_SKILLS.join(', ')}`);
 		}
 
-		// Lấy tất cả assessments scored cho skill này
 		const scoreHistory = await this.getScoreHistoryForSkill(userId, skillName);
 
 		const assessmentCount = scoreHistory.length;
@@ -93,24 +92,12 @@ export class DashboardService {
 
 		const trend = this.calculateTrend(scoreHistory.map((h) => h.score));
 
-		// Plan items cho skill này
 		const [planItemsTotal, planItemsCompleted] = await Promise.all([
 			this.prisma.learningPlanItem.count({
-				where: {
-					userId,
-					skillName,
-					deletedAt: null,
-					itemType: { not: 'weekly_review' },
-				},
+				where: { userId, skillName, deletedAt: null, itemType: { not: 'weekly_review' } },
 			}),
 			this.prisma.learningPlanItem.count({
-				where: {
-					userId,
-					skillName,
-					deletedAt: null,
-					status: 'completed',
-					itemType: { not: 'weekly_review' },
-				},
+				where: { userId, skillName, deletedAt: null, status: 'completed', itemType: { not: 'weekly_review' } },
 			}),
 		]);
 
@@ -131,13 +118,11 @@ export class DashboardService {
 	async getStreak(userId: string) {
 		const streak = await this.calculateStreak(userId);
 
-		// Activity calendar — last 30 days
 		const thirtyDaysAgo = new Date();
 		thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
 		thirtyDaysAgo.setHours(0, 0, 0, 0);
 
 		const activityCalendar = await this.getActivityCalendar(userId, thirtyDaysAgo);
-
 		const lastActiveDate = activityCalendar.length > 0 ? activityCalendar[activityCalendar.length - 1].date : null;
 
 		const result: StreakData = {
@@ -161,7 +146,7 @@ export class DashboardService {
 		else if (period === 'month') startDate.setDate(startDate.getDate() - 30);
 		else startDate.setDate(startDate.getDate() - 365);
 
-		const assessments = await this.prisma.assessment.findMany({
+		const records = await this.prisma.exerciseRecord.findMany({
 			where: {
 				userId,
 				deletedAt: null,
@@ -169,19 +154,16 @@ export class DashboardService {
 				startedAt: { gte: startDate },
 				completedAt: { not: null },
 			},
-			select: AssessmentSelect.timeRange,
+			select: ExerciseRecordSelect.timeRange,
 			orderBy: { startedAt: 'asc' },
 		});
 
-		// Group by date
 		const dayMap = new Map<string, { minutes: number; count: number }>();
 
-		for (const a of assessments) {
+		for (const a of records) {
 			if (!a.startedAt || !a.completedAt) continue;
 			const durationMs = a.completedAt.getTime() - a.startedAt.getTime();
 			const minutes = Math.max(0, Math.round(durationMs / 60000));
-
-			// Cap per-assessment duration at 120 minutes (loại bỏ outlier)
 			const cappedMinutes = Math.min(minutes, 120);
 
 			const dateKey = a.startedAt.toISOString().split('T')[0];
@@ -203,22 +185,17 @@ export class DashboardService {
 		const daysInPeriod = period === 'week' ? 7 : period === 'month' ? 30 : dailyBreakdown.length || 1;
 		const avgMinutesPerDay = Math.round((totalMinutes / daysInPeriod) * 10) / 10;
 
-		const result: StudyTimeData = {
-			period,
-			totalMinutes,
-			avgMinutesPerDay,
-			dailyBreakdown,
-		};
+		const result: StudyTimeData = { period, totalMinutes, avgMinutesPerDay, dailyBreakdown };
 
 		return ResponseDto.success(Object, result);
 	}
 
-	// PRIVATE: CEFR data from latest completed CatSession
+	// PRIVATE: CEFR data
 	private async getCefrData(userId: string): Promise<{ cefrLevel: string | null; confidence: number | null }> {
-		const session = await this.prisma.catSession.findFirst({
+		const session = await this.prisma.placementSession.findFirst({
 			where: { userId, status: 'completed' },
 			orderBy: { completedAt: 'desc' },
-			select: CatSessionSelect.cefrConfidence,
+			select: PlacementSessionSelect.cefrConfidence,
 		});
 
 		return {
@@ -250,9 +227,7 @@ export class DashboardService {
 		};
 	}
 
-	// ================================================================
-	// PRIVATE: Skill summary (avg score + trend per skill)
-	// ================================================================
+	// PRIVATE: Skill summary
 	private async getSkillSummary(userId: string): Promise<Record<string, SkillSummaryItem>> {
 		const summary: Record<string, SkillSummaryItem> = {};
 
@@ -273,30 +248,26 @@ export class DashboardService {
 		return summary;
 	}
 
-	// ================================================================
 	// PRIVATE: Score history for a specific skill
-	// ================================================================
 	private async getScoreHistoryForSkill(userId: string, skillName: string): Promise<ScoreHistoryPoint[]> {
-		// Lấy lessons + practice sessions thuộc skill này
-		const [lessons, practiceSessions] = await Promise.all([
+		const [lessons, questionSets] = await Promise.all([
 			this.prisma.lesson.findMany({
 				where: { skillName: skillName as any, deletedAt: null },
 				select: LessonSelect.idTitle,
 			}),
-			this.prisma.practiceSession.findMany({
+			this.prisma.questionSet.findMany({
 				where: { skillName: skillName as any, deletedAt: null },
-				select: PracticeSessionSelect.idTitle,
+				select: QuestionSetSelect.idTitle,
 			}),
 		]);
 
 		const lessonIds = lessons.map((l) => l.lessonId);
-		const sessionIds = practiceSessions.map((s) => s.sessionId);
-		const allRefIds = [...lessonIds, ...sessionIds];
+		const questionSetIds = questionSets.map((s) => s.questionSetId);
+		const allRefIds = [...lessonIds, ...questionSetIds];
 
 		if (allRefIds.length === 0) return [];
 
-		// Lấy scored assessments
-		const assessments = await this.prisma.assessment.findMany({
+		const records = await this.prisma.exerciseRecord.findMany({
 			where: {
 				userId,
 				refId: { in: allRefIds },
@@ -304,16 +275,15 @@ export class DashboardService {
 				deletedAt: null,
 				score: { not: null },
 			},
-			select: AssessmentSelect.scoreHistory,
+			select: ExerciseRecordSelect.scoreHistory,
 			orderBy: { completedAt: 'asc' },
 		});
 
-		// Build title lookup
 		const titleMap = new Map<string, string>();
 		for (const l of lessons) titleMap.set(l.lessonId, l.title);
-		for (const s of practiceSessions) titleMap.set(s.sessionId, s.title);
+		for (const s of questionSets) titleMap.set(s.questionSetId, s.title);
 
-		return assessments.map((a) => ({
+		return records.map((a) => ({
 			date: a.completedAt?.toISOString().split('T')[0] ?? '',
 			score: Number(a.score),
 			refType: a.refType,
@@ -321,35 +291,26 @@ export class DashboardService {
 		}));
 	}
 
-	// ================================================================
-	// PRIVATE: Calculate current + longest streak
-	// ================================================================
+	// PRIVATE: Calculate streak
 	private async calculateStreak(userId: string): Promise<{ currentDays: number; longestDays: number }> {
-		// Lấy tất cả ngày có activity (assessment scored hoặc plan item completed)
-		const [assessmentDates, planDates] = await Promise.all([
-			this.prisma.assessment.findMany({
+		const [recordDates, planDates] = await Promise.all([
+			this.prisma.exerciseRecord.findMany({
 				where: {
 					userId,
 					deletedAt: null,
 					status: { in: ['scored', 'submitted'] },
 					completedAt: { not: null },
 				},
-				select: AssessmentSelect.completedOnly,
+				select: ExerciseRecordSelect.completedOnly,
 			}),
 			this.prisma.learningPlanItem.findMany({
-				where: {
-					userId,
-					deletedAt: null,
-					status: 'completed',
-					// updatedAt: { not: null },
-				},
+				where: { userId, deletedAt: null, status: 'completed' },
 				select: LearningPlanSelect.updatedAtOnly,
 			}),
 		]);
 
-		// Collect unique dates
 		const dateSet = new Set<string>();
-		for (const a of assessmentDates) {
+		for (const a of recordDates) {
 			if (a.completedAt) dateSet.add(a.completedAt.toISOString().split('T')[0]);
 		}
 		for (const p of planDates) {
@@ -362,7 +323,6 @@ export class DashboardService {
 		const today = new Date().toISOString().split('T')[0];
 		const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
 
-		// Calculate longest streak
 		let longestDays = 1;
 		let currentStreak = 1;
 
@@ -379,7 +339,6 @@ export class DashboardService {
 			}
 		}
 
-		// Calculate current streak (must include today or yesterday)
 		const lastDate = sortedDates[sortedDates.length - 1];
 		if (lastDate !== today && lastDate !== yesterday) {
 			return { currentDays: 0, longestDays };
@@ -401,33 +360,21 @@ export class DashboardService {
 		return { currentDays, longestDays: Math.max(longestDays, currentDays) };
 	}
 
-	// ================================================================
 	// PRIVATE: Vocabulary count
-	// ================================================================
 	private async getVocabularyCount(userId: string): Promise<number> {
-		return this.prisma.userVocabulary.count({
-			where: { userId, deletedAt: null },
-		});
+		return this.prisma.userVocabulary.count({ where: { userId, deletedAt: null } });
 	}
 
-	// ================================================================
-	// PRIVATE: Total assessments (scored/submitted)
-	// ================================================================
+	// PRIVATE: Total exercise records
 	private async getTotalAssessments(userId: string): Promise<number> {
-		return this.prisma.assessment.count({
-			where: {
-				userId,
-				deletedAt: null,
-				status: { in: ['scored', 'submitted'] },
-			},
+		return this.prisma.exerciseRecord.count({
+			where: { userId, deletedAt: null, status: { in: ['scored', 'submitted'] } },
 		});
 	}
 
-	// ================================================================
-	// PRIVATE: Total study minutes (from assessment duration)
-	// ================================================================
+	// PRIVATE: Total study minutes
 	private async getTotalStudyMinutes(userId: string): Promise<number> {
-		const assessments = await this.prisma.assessment.findMany({
+		const records = await this.prisma.exerciseRecord.findMany({
 			where: {
 				userId,
 				deletedAt: null,
@@ -435,32 +382,26 @@ export class DashboardService {
 				startedAt: { not: null },
 				completedAt: { not: null },
 			},
-			select: AssessmentSelect.timeRange,
+			select: ExerciseRecordSelect.timeRange,
 		});
 
 		let total = 0;
-		for (const a of assessments) {
+		for (const a of records) {
 			if (!a.startedAt || !a.completedAt) continue;
 			const minutes = Math.round((a.completedAt.getTime() - a.startedAt.getTime()) / 60000);
-			total += Math.min(Math.max(0, minutes), 120); // cap 120 min
+			total += Math.min(Math.max(0, minutes), 120);
 		}
 		return total;
 	}
 
-	// ================================================================
-	// PRIVATE: Recent activity (last 10 items)
-	// ================================================================
+	// PRIVATE: Recent activity
 	private async getRecentActivity(userId: string): Promise<RecentActivityItem[]> {
-		const [recentAssessments, recentPlanItems] = await Promise.all([
-			this.prisma.assessment.findMany({
-				where: {
-					userId,
-					deletedAt: null,
-					status: { in: ['scored', 'submitted'] },
-				},
+		const [recentRecords, recentPlanItems] = await Promise.all([
+			this.prisma.exerciseRecord.findMany({
+				where: { userId, deletedAt: null, status: { in: ['scored', 'submitted'] } },
 				orderBy: { completedAt: 'desc' },
 				take: 5,
-				select: AssessmentSelect.recentActivity,
+				select: ExerciseRecordSelect.recentActivity,
 			}),
 			this.prisma.learningPlanItem.findMany({
 				where: {
@@ -477,8 +418,7 @@ export class DashboardService {
 
 		const activities: RecentActivityItem[] = [];
 
-		// Enrich assessments with title + skill
-		for (const a of recentAssessments) {
+		for (const a of recentRecords) {
 			const meta = await this.getRefMeta(a.refType, a.refId);
 			activities.push({
 				type: 'assessment',
@@ -490,7 +430,6 @@ export class DashboardService {
 			});
 		}
 
-		// Plan items
 		for (const p of recentPlanItems) {
 			activities.push({
 				type: 'plan_item',
@@ -502,23 +441,20 @@ export class DashboardService {
 			});
 		}
 
-		// Sort by date desc, take 10
 		return activities.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 10);
 	}
 
-	// ================================================================
-	// PRIVATE: Activity calendar (for streak visualization)
-	// ================================================================
+	// PRIVATE: Activity calendar
 	private async getActivityCalendar(userId: string, since: Date): Promise<ActivityDay[]> {
-		const [assessments, planItems] = await Promise.all([
-			this.prisma.assessment.findMany({
+		const [records, planItems] = await Promise.all([
+			this.prisma.exerciseRecord.findMany({
 				where: {
 					userId,
 					deletedAt: null,
 					status: { in: ['scored', 'submitted'] },
 					completedAt: { gte: since },
 				},
-				select: AssessmentSelect.timeRange,
+				select: ExerciseRecordSelect.timeRange,
 			}),
 			this.prisma.learningPlanItem.findMany({
 				where: {
@@ -534,7 +470,7 @@ export class DashboardService {
 
 		const dayMap = new Map<string, ActivityDay>();
 
-		for (const a of assessments) {
+		for (const a of records) {
 			if (!a.completedAt) continue;
 			const dateKey = a.completedAt.toISOString().split('T')[0];
 			const day = dayMap.get(dateKey) ?? {
@@ -569,14 +505,11 @@ export class DashboardService {
 		return Array.from(dayMap.values()).sort((a, b) => a.date.localeCompare(b.date));
 	}
 
-	// ================================================================
-	// PRIVATE: Calculate trend from score history
-	// ================================================================
+	// PRIVATE: Calculate trend
 	private calculateTrend(scores: number[]): 'up' | 'down' | 'stable' | 'new' {
 		if (scores.length === 0) return 'new';
 		if (scores.length === 1) return 'stable';
 
-		// So sánh nửa cuối vs nửa đầu
 		const mid = Math.floor(scores.length / 2);
 		const firstHalf = scores.slice(0, mid);
 		const secondHalf = scores.slice(mid);
@@ -590,9 +523,7 @@ export class DashboardService {
 		return 'stable';
 	}
 
-	// ================================================================
-	// PRIVATE: Get ref metadata (title + skillName)
-	// ================================================================
+	// PRIVATE: Get ref metadata
 	private async getRefMeta(
 		refType: string,
 		refId: string,
@@ -604,12 +535,12 @@ export class DashboardService {
 			});
 			return { title: lesson?.title ?? null, skillName: lesson?.skillName ?? null };
 		}
-		if (refType === 'practice_session') {
-			const session = await this.prisma.practiceSession.findFirst({
-				where: { sessionId: refId },
-				select: PracticeSessionSelect.titleSkill,
+		if (refType === 'question_set') {
+			const questionSet = await this.prisma.questionSet.findFirst({
+				where: { questionSetId: refId },
+				select: QuestionSetSelect.titleSkill,
 			});
-			return { title: session?.title ?? null, skillName: session?.skillName ?? null };
+			return { title: questionSet?.title ?? null, skillName: questionSet?.skillName ?? null };
 		}
 		return { title: null, skillName: null };
 	}

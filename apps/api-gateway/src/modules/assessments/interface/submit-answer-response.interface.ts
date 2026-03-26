@@ -1,5 +1,5 @@
 export interface SubmitAnswerResponse {
-	attemptId: string;
+	answerId: string;
 	questionId: string;
 	gradingStatus: string;
 	saved: true;

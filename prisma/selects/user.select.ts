@@ -8,12 +8,15 @@ export const UserSelect = {
 		googleAvatarUrl: true,
 
 		onboardingSurvey: { select: { surveyId: true }, take: 1 },
-		catSessions: {
+		placementSessions: {
 			select: { cefrLevel: true, status: true },
 			where: { status: 'completed' },
 			take: 1,
 			orderBy: { createdAt: 'desc' },
 		},
+
+		surveySkippedAt: true,
+		placementSkippedAt: true,
 
 		dob: true,
 		gender: true,

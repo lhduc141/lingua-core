@@ -1,22 +1,20 @@
 import { Module } from '@nestjs/common';
 import { APP_GUARD, RouterModule } from '@nestjs/core';
-import { AuthModule } from './auth/auth.module';
-import { AssessmentsModule } from './assessments/assessments.module';
-import { ReportsModule } from './reports/reports.module';
-import { SrsModule } from './srs/srs.module';
-import { DictionaryModule } from './dictionary/dictionary.module';
-import { UsersModule } from './users/users.module';
 import { AuthGuard } from '../guards/auth.guard';
 import { AdminModule } from './admin/admin.module';
-import { OnboardingPlacementModule } from './onboarding-placement/onboarding-placement.module';
-import { LearningModule } from './learning/learning.module';
+import { AssessmentsModule } from './assessments/assessments.module';
+import { AuthModule } from './auth/auth.module';
+import { DictionaryModule } from './dictionary/dictionary.module';
 import { LearningPlanModule } from './learning-plan/learning-plan.module';
+import { LearningModule } from './learning/learning.module';
+import { OnboardingPlacementModule } from './onboarding-placement/onboarding-placement.module';
+import { ReportsModule } from './reports/reports.module';
+import { UsersModule } from './users/users.module';
 
 const modules: any[] = [
 	AuthModule,
 	AssessmentsModule,
 	ReportsModule,
-	SrsModule,
 	DictionaryModule,
 	UsersModule,
 	AdminModule,

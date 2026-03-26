@@ -45,4 +45,11 @@ export class OnboardingController {
 	async getSurveyHistory(@ReqUser() user: JwtPayloadDto) {
 		return this.onboardingService.getSurveyHistory(user.userId);
 	}
+
+	@Post('skip')
+	@HttpCode(HttpStatus.OK)
+	@ApiOperation({ summary: 'Skip both onboarding survey and placement test' })
+	async skipSurvey(@ReqUser() user: JwtPayloadDto) {
+		return await this.onboardingService.skipSurvey(user.userId);
+	}
 }

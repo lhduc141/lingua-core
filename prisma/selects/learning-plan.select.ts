@@ -110,12 +110,3 @@ export const LearningPlanSelect = {
 		updatedAt: true,
 	} satisfies Prisma.LearningPlanItemSelect,
 } as const;
-
-export const UserAvailabilitySelect = {
-	list: {
-		availabilityId: true,
-		dow: true,
-		startMinute: true,
-		endMinute: true,
-	} satisfies Prisma.UserAvailabilitySelect,
-} as const;

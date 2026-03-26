@@ -2,10 +2,10 @@ import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty, IsUUID } from 'class-validator';
 
 export class SubmitPlacementAnswerDto {
-	@ApiProperty({ description: 'Assessment ID returned from POST /placement/test/start' })
+	@ApiProperty({ description: 'Exercise record ID returned from POST /placement/start' })
 	@IsNotEmpty()
 	@IsUUID()
-	assessmentId: string;
+	exerciseRecordId: string;
 
 	@ApiProperty({ description: 'The question being answered' })
 	@IsNotEmpty()

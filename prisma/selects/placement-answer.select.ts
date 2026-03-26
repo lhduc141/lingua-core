@@ -1,18 +1,18 @@
 import { Prisma } from '@prisma/client';
 import { QuestionSelect } from './question.select';
 
-export const PlacementAttemptSelect = {
+export const PlacementAnswerSelect = {
 	idOnly: {
-		attemptId: true,
-	} satisfies Prisma.PlacementAttemptSelect,
+		answerId: true,
+	} satisfies Prisma.PlacementAnswerSelect,
 
 	withIrt: {
 		questionId: true,
 		isCorrect: true,
 		question: { select: QuestionSelect.irtParams },
-	} satisfies Prisma.PlacementAttemptSelect,
+	} satisfies Prisma.PlacementAnswerSelect,
 
 	irtOnly: {
 		question: { select: QuestionSelect.irtParams },
-	} satisfies Prisma.PlacementAttemptSelect,
+	} satisfies Prisma.PlacementAnswerSelect,
 } as const;

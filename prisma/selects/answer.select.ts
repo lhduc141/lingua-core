@@ -1,19 +1,19 @@
 import { Prisma } from '@prisma/client';
 
-export const AttemptSelect = {
+export const AnswerSelect = {
 	idOnly: {
-		attemptId: true,
-	} satisfies Prisma.AttemptSelect,
+		answerId: true,
+	} satisfies Prisma.AnswerSelect,
 
 	withAnswers: {
-		attemptId: true,
+		answerId: true,
 		questionId: true,
-		answers: {
+		answerDetails: {
 			select: { optionId: true, textAnswer: true, position: true },
 		},
-	} satisfies Prisma.AttemptSelect,
+	} satisfies Prisma.AnswerSelect,
 
 	scoreOnly: {
 		score: true,
-	} satisfies Prisma.AttemptSelect,
+	} satisfies Prisma.AnswerSelect,
 } as const;

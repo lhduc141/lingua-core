@@ -1,51 +1,27 @@
-model Topic {
-  topicId     String        @id @default(dbgenerated("gen_random_uuid()")) @map("topic_id") @db.Uuid
-  levelHint   String?       @map("level_hint")
-  status      ContentStatus @default(draft)
-  authorId    String?       @map("author_id") @db.Uuid
-  reviewerId  String?       @map("reviewer_id") @db.Uuid
-  publishedAt DateTime?     @map("published_at")
-  createdAt   DateTime      @default(now()) @map("created_at")
-  updatedAt   DateTime      @updatedAt @map("updated_at")
-  deletedAt   DateTime?     @map("deleted_at")
-
-  lessons      Lesson[]
-  translations TopicTranslation[]
-
-  @@map("topics")
-}
-
 model Lesson {
   lessonId String @id @default(dbgenerated("gen_random_uuid()")) @map("lesson_id") @db.Uuid
 
-  skillName SkillName
-  topicId   String?   @map("topic_id") @db.Uuid // Keep for backward compat
+  skillName SkillName @map("skill_name")
 
   title       String
   description String?
 
   // Theory content (30%)
   // Structure: {sections: [{type: "rule"|"example"|"tip", content: "..."}]}
-  theoryContent Json? @map("theory_content") // ← THÊM
+  theoryContent Json? @map("theory_content")
 
-  version   Int           @default(1)
   status    ContentStatus @default(draft)
   cefrLevel String?       @map("cefr_level") // ← THÊM
 
   estimatedMinutes Int?  @map("estimated_minutes") // ← THÊM
   prerequisites    Json? // Array of lessonIds // ← THÊM
 
-  authorId    String?   @map("author_id") @db.Uuid
-  reviewerId  String?   @map("reviewer_id") @db.Uuid
-  publishedAt DateTime? @map("published_at")
-
   createdAt DateTime  @default(now()) @map("created_at")
   updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
-  topic           Topic?              @relation(fields: [topicId], references: [topicId])
   lessonQuestions LessonQuestion[]
-  translations    LessonTranslation[]
+  questionSets    QuestionSet[]
 
   @@index([skillName]) // ← THÊM
   @@index([cefrLevel]) // ← THÊM

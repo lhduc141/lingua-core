@@ -4,16 +4,16 @@ import { BadRequestException, NotFoundException, PagingDataDto, ResponseDto } fr
 import { BullmqService } from '@app/bullmq';
 import { AiClientService } from '@app/ai-client';
 import {
-	AssessmentSelect,
-	AttemptSelect,
+	AnswerSelect,
+	ExerciseRecordSelect,
 	LessonQuestionSelect,
 	LessonSelect,
-	PracticeSessionQuestionSelect,
-	PracticeSessionSelect,
 	QuestionSelect,
+	QuestionSetItemSelect,
+	QuestionSetSelect,
 } from '../../../../../prisma/selects';
 import { StartLessonAssessmentDto } from './dto/start-lesson-assessment.dto';
-import { StartPracticeAssessmentDto } from './dto/start-practice-assessment.dto';
+import { StartQuestionSetAssessmentDto } from './dto/start-question-set-assessment.dto';
 import { SubmitAnswerDto } from './dto/submit-answer.dto';
 import { ListAssessmentHistoryDto } from './dto/list-assessment-history.dto';
 import { Job } from 'bullmq';
@@ -21,9 +21,9 @@ import { GradeSubjectiveJobData } from './interface/grade-subjective.interface';
 import { AssessmentJob, AssessmentQueues } from '@app/shared/queues';
 import { AssessmentQuestion } from './interface/assessment-question.interface';
 import { AssessmentStartResponse } from './interface/assessment-start-response.interface';
-import { AttemptResult } from './interface/attempt-result.interface';
 import { AssessmentResultResponse } from './interface/assessment-result-response.interface';
 import { AssessmentHistoryItem } from './interface/assessment-history-item.interface';
+import { AnswerResult } from './interface/answer-result.interface';
 
 const SUBJECTIVE_TYPES = ['essay', 'speaking', 'short_answer'];
 const OBJECTIVE_TYPES = ['mcq_single', 'mcq_multi', 'fill_blank', 'matching', 'ordering', 'cloze_bank'];
@@ -61,7 +61,7 @@ export class AssessmentsService implements OnModuleInit {
 			throw new BadRequestException('Lesson has no questions');
 		}
 
-		const assessment = await this.prisma.assessment.create({
+		const exerciseRecord = await this.prisma.exerciseRecord.create({
 			data: {
 				userId,
 				refType: 'lesson' as any,
@@ -69,11 +69,11 @@ export class AssessmentsService implements OnModuleInit {
 				status: 'in_progress' as any,
 				startedAt: new Date(),
 			},
-			select: AssessmentSelect.idOnly,
+			select: ExerciseRecordSelect.idOnly,
 		});
 
 		this.logger.log(
-			`Lesson assessment started | userId=${userId} | lessonId=${lessonId} | assessmentId=${assessment.assessmentId}`,
+			`Lesson assessment started | userId=${userId} | lessonId=${lessonId} | assessmentId=${exerciseRecord.exerciseRecordId}`,
 		);
 
 		// Auto-track: mark plan item as in_progress
@@ -103,7 +103,7 @@ export class AssessmentsService implements OnModuleInit {
 		}));
 
 		const response: AssessmentStartResponse = {
-			assessmentId: assessment.assessmentId,
+			questionSetId: exerciseRecord.exerciseRecordId,
 			refType: 'lesson',
 			totalQuestions: questions.length,
 			lesson: {
@@ -121,38 +121,38 @@ export class AssessmentsService implements OnModuleInit {
 	}
 
 	// 2. START PRACTICE ASSESSMENT
-	async startPracticeAssessment(userId: string, dto: StartPracticeAssessmentDto) {
-		const { practiceSessionId } = dto;
+	async startQuestionSetAssessment(userId: string, dto: StartQuestionSetAssessmentDto) {
+		const { questionSetId } = dto;
 
-		const session = await this.prisma.practiceSession.findFirst({
-			where: { sessionId: practiceSessionId, deletedAt: null, isActive: true },
-			select: PracticeSessionSelect.detail,
+		const questionSet = await this.prisma.questionSet.findFirst({
+			where: { questionSetId, deletedAt: null, isActive: true },
+			select: QuestionSetSelect.detail,
 		});
 
-		if (!session) throw new NotFoundException('Practice session not found or inactive');
-		if (session.questions.length === 0) {
+		if (!questionSet) throw new NotFoundException('Question set not found or inactive');
+		if (questionSet.items.length === 0) {
 			throw new BadRequestException('Practice session has no questions');
 		}
 
-		const assessment = await this.prisma.assessment.create({
+		const exerciseRecord = await this.prisma.exerciseRecord.create({
 			data: {
 				userId,
-				refType: 'practice_session' as any,
-				refId: practiceSessionId,
+				refType: 'question_set' as any,
+				refId: questionSetId,
 				status: 'in_progress' as any,
 				startedAt: new Date(),
 			},
-			select: AssessmentSelect.idOnly,
+			select: ExerciseRecordSelect.idOnly,
 		});
 
 		this.logger.log(
-			`Practice assessment started | userId=${userId} | sessionId=${practiceSessionId} | assessmentId=${assessment.assessmentId}`,
+			`Practice assessment started | userId=${userId} | questionSetId=${questionSetId} | exerciseRecordId=${exerciseRecord.exerciseRecordId}`,
 		);
 
 		// Auto-track: mark plan item as in_progress
-		await this.markPlanItemInProgress(userId, 'practice_session', practiceSessionId);
+		await this.markPlanItemInProgress(userId, 'question_set', questionSetId);
 
-		const questions: AssessmentQuestion[] = session.questions.map((sq) => ({
+		const questions: AssessmentQuestion[] = questionSet.items.map((sq) => ({
 			questionId: sq.question.questionId,
 			type: sq.question.type,
 			position: sq.position,
@@ -176,139 +176,126 @@ export class AssessmentsService implements OnModuleInit {
 		}));
 
 		const response: AssessmentStartResponse = {
-			assessmentId: assessment.assessmentId,
-			refType: 'practice_session',
+			questionSetId: exerciseRecord.exerciseRecordId,
+			refType: 'question_set',
 			totalQuestions: questions.length,
-			practiceSession: {
-				sessionId: session.sessionId,
-				title: session.title,
-				skillName: session.skillName,
-				cefrLevel: session.cefrLevel,
-				estimatedMinutes: session.estimatedMinutes,
+			questionSet: {
+				questionSetId: questionSet.questionSetId,
+				title: questionSet.title,
+				skillName: questionSet.skillName,
+				cefrLevel: questionSet.cefrLevel,
+				estimatedMinutes: questionSet.estimatedMinutes,
 			},
 			questions,
 		};
 
-		return ResponseDto.success(Object, response, 'Practice assessment started');
+		return ResponseDto.success(Object, response, 'Question set assessment started');
 	}
 
 	// 3. SUBMIT ANSWER
-	async submitAnswer(userId: string, assessmentId: string, dto: SubmitAnswerDto) {
+	async submitAnswer(userId: string, exerciseRecordId: string, dto: SubmitAnswerDto) {
 		const { questionId, answer } = dto;
 
 		// 1. Verify assessment
-		const assessment = await this.prisma.assessment.findFirst({
-			where: { assessmentId, userId, deletedAt: null },
-			select: AssessmentSelect.statusRef,
+		const exerciseRecord = await this.prisma.exerciseRecord.findFirst({
+			where: { exerciseRecordId, userId, deletedAt: null },
+			select: ExerciseRecordSelect.statusRef,
 		});
-		if (!assessment) throw new NotFoundException('Assessment not found');
-		if (assessment.status !== 'in_progress') {
-			throw new BadRequestException(`Assessment is not in progress (status: ${assessment.status})`);
+		if (!exerciseRecord) throw new NotFoundException('Assessment not found');
+		if (exerciseRecord.status !== 'in_progress') {
+			throw new BadRequestException(`Assessment is not in progress (status: ${exerciseRecord.status})`);
 		}
 
 		// 2. Verify question thuộc assessment này
-		const questionBelongs = await this.verifyQuestionBelongs(assessment.refType, assessment.refId, questionId);
+		const questionBelongs = await this.verifyQuestionBelongs(
+			exerciseRecord.refType,
+			exerciseRecord.refId,
+			questionId,
+		);
 		if (!questionBelongs) {
 			throw new BadRequestException('Question does not belong to this assessment');
 		}
 
-		// 3. Kiểm tra câu này đã có attempt chưa
-		const existing = await this.prisma.attempt.findFirst({
-			where: { assessmentId, questionId, deletedAt: null },
-			select: AttemptSelect.idOnly,
+		const existing = await this.prisma.answer.findFirst({
+			where: { exerciseRecordId, questionId, deletedAt: null },
+			select: AnswerSelect.idOnly,
 		});
-		if (existing) {
-			throw new BadRequestException('This question has already been answered');
-		}
-
-		// 4. Lấy question type để xác định modality
-		const question = await this.prisma.question.findFirst({
-			where: { questionId, deletedAt: null },
-			select: QuestionSelect.skillType,
-		});
-		if (!question) throw new NotFoundException('Question not found');
-
-		const modality = this.mapSkillToModality(question.skill || 'reading');
+		if (existing) throw new BadRequestException('This question has already been answered');
 
 		// 5. Tạo Attempt
-		const attempt = await this.prisma.attempt.create({
+		const newAnswer = await this.prisma.answer.create({
 			data: {
 				userId,
-				assessmentId,
+				exerciseRecordId,
 				questionId,
-				modality: modality as any,
 				gradingStatus: 'pending' as any,
 				submittedAt: new Date(),
 			},
-			select: AttemptSelect.idOnly,
+			select: AnswerSelect.idOnly,
 		});
 
 		// 6. Tạo AttemptAnswer(s)
-		await this.createAttemptAnswers(attempt.attemptId, answer);
+		await this.createAttemptAnswers(newAnswer.answerId, answer);
 
 		this.logger.log(
-			`Answer submitted | assessmentId=${assessmentId} | questionId=${questionId} | attemptId=${attempt.attemptId}`,
+			`Answer submitted | assessmentId=${newAnswer} | questionId=${questionId} | attemptId=${newAnswer.answerId}`,
 		);
 
 		return ResponseDto.success(
 			Object,
-			{ attemptId: attempt.attemptId, questionId, gradingStatus: 'pending', saved: true },
+			{ attemptId: newAnswer.answerId, questionId, gradingStatus: 'pending', saved: true },
 			'Answer saved',
 		);
 	}
 
 	// 4. COMPLETE ASSESSMENT
-	async completeAssessment(userId: string, assessmentId: string) {
+	async completeAssessment(userId: string, exerciseRecordId: string) {
 		// 1. Verify assessment
-		const assessment = await this.prisma.assessment.findFirst({
-			where: { assessmentId, userId, deletedAt: null },
-			select: AssessmentSelect.statusRef,
+		const exerciseRecord = await this.prisma.exerciseRecord.findFirst({
+			where: { exerciseRecordId, userId, deletedAt: null },
+			select: ExerciseRecordSelect.statusRef,
 		});
-		if (!assessment) throw new NotFoundException('Assessment not found');
-		if (assessment.status !== 'in_progress') {
-			throw new BadRequestException(`Assessment already completed (status: ${assessment.status})`);
+		if (!exerciseRecord) throw new NotFoundException('Assessment not found');
+		if (exerciseRecord.status !== 'in_progress') {
+			throw new BadRequestException(`Assessment already completed (status: ${exerciseRecord.status})`);
 		}
 
 		// 2. Lấy tất cả questionIds của assessment này
-		const allQuestionIds = await this.getAllQuestionIds(assessment.refType, assessment.refId);
+		const allQuestionIds = await this.getAllQuestionIds(exerciseRecord.refType, exerciseRecord.refId);
 
 		// 3. Kiểm tra tất cả câu đã có attempt chưa
-		const attempts = await this.prisma.attempt.findMany({
-			where: { assessmentId, deletedAt: null },
-			select: AttemptSelect.withAnswers,
+		const answer = await this.prisma.answer.findMany({
+			where: { answerId: exerciseRecordId, deletedAt: null },
+			select: AnswerSelect.withAnswers,
 		});
-
-		const answeredIds = new Set(attempts.map((a) => a.questionId));
+		const answeredIds = new Set(answer.map((a) => a.questionId));
 		const unanswered = allQuestionIds.filter((id) => !answeredIds.has(id));
-		if (unanswered.length > 0) {
-			throw new BadRequestException(`${unanswered.length} question(s) not answered yet`);
-		}
+		if (unanswered.length > 0) throw new BadRequestException(`${unanswered.length} question(s) not answered yet`);
 
 		// 4. Lấy question type để chấm điểm
 		const questions = await this.prisma.question.findMany({
 			where: { questionId: { in: allQuestionIds }, deletedAt: null },
 			select: QuestionSelect.grade,
 		});
-
 		const questionMap = new Map(questions.map((q) => [q.questionId, q]));
 
 		// 5. Grade objective questions
 		let objectiveTotal = 0;
 		let objectiveScore = 0;
-		const subjectiveAttempts: { attemptId: string; type: string; textAnswer: string }[] = [];
+		const subjectiveAttempts: { answerId: string; type: string; textAnswer: string }[] = [];
 
-		for (const attempt of attempts) {
+		for (const attempt of answer) {
 			const q = questionMap.get(attempt.questionId);
 			if (!q) continue;
 
 			if (OBJECTIVE_TYPES.includes(q.type)) {
 				objectiveTotal++;
-				const isCorrect = this.gradeObjective(q, attempt.answers);
+				const isCorrect = this.gradeObjective(q, attempt.answerDetails);
 				const score = isCorrect ? 1.0 : 0.0;
 				objectiveScore += score;
 
-				await this.prisma.attempt.update({
-					where: { attemptId: attempt.attemptId },
+				await this.prisma.answer.update({
+					where: { answerId: attempt.answerId },
 					data: {
 						correct: isCorrect,
 						score: score,
@@ -316,9 +303,9 @@ export class AssessmentsService implements OnModuleInit {
 					},
 				});
 			} else if (SUBJECTIVE_TYPES.includes(q.type)) {
-				const textAnswer = attempt.answers[0]?.textAnswer ?? '';
+				const textAnswer = attempt.answerDetails[0]?.textAnswer ?? '';
 				subjectiveAttempts.push({
-					attemptId: attempt.attemptId,
+					answerId: attempt.answerId,
 					type: q.type,
 					textAnswer,
 				});
@@ -330,11 +317,10 @@ export class AssessmentsService implements OnModuleInit {
 		const totalQuestions = allQuestionIds.length;
 
 		if (!hasSubjective) {
-			// Chỉ objective → scored ngay
 			const finalScore = totalQuestions > 0 ? (objectiveScore / totalQuestions) * 100 : 0;
 
-			await this.prisma.assessment.update({
-				where: { assessmentId },
+			await this.prisma.exerciseRecord.update({
+				where: { exerciseRecordId },
 				data: {
 					status: 'scored' as any,
 					score: Math.round(finalScore * 100) / 100,
@@ -342,16 +328,18 @@ export class AssessmentsService implements OnModuleInit {
 				},
 			});
 
-			this.logger.log(`Assessment scored | assessmentId=${assessmentId} | score=${finalScore}%`);
+			this.logger.log(
+				`Exercise scored | exerciseRecord=${exerciseRecord.exerciseRecordId} | score=${finalScore}%`,
+			);
 
 			// Auto-track: mark plan item as completed
-			await this.markPlanItemCompleted(userId, assessment.refType, assessment.refId, finalScore);
+			await this.markPlanItemCompleted(userId, exerciseRecord.refType, exerciseRecord.refId, finalScore);
 		} else {
 			// Có subjective → submitted, push vào queue
 			const partialScore = totalQuestions > 0 ? (objectiveScore / totalQuestions) * 100 : null;
 
-			await this.prisma.assessment.update({
-				where: { assessmentId },
+			await this.prisma.exerciseRecord.update({
+				where: { exerciseRecordId },
 				data: {
 					status: 'submitted' as any,
 					score: partialScore !== null ? Math.round(partialScore * 100) / 100 : null,
@@ -365,8 +353,8 @@ export class AssessmentsService implements OnModuleInit {
 					AssessmentQueues.ASSESSMENT_AI,
 					sub.type === 'speaking' ? AssessmentJob.GRADE_SPEAKING : AssessmentJob.GRADE_WRITING,
 					{
-						attemptId: sub.attemptId,
-						assessmentId,
+						answerId: sub.answerId,
+						exerciseRecordId,
 						questionType: sub.type,
 						textAnswer: sub.textAnswer,
 					},
@@ -374,68 +362,68 @@ export class AssessmentsService implements OnModuleInit {
 			}
 
 			this.logger.log(
-				`Assessment submitted | assessmentId=${assessmentId} | subjective=${subjectiveAttempts.length} pending`,
+				`Assessment submitted | exerciseRecordId=${exerciseRecordId} | subjective=${subjectiveAttempts.length} pending`,
 			);
 		}
 
 		// 7. Trả về result hiện tại
-		return this.getAssessmentResult(userId, assessmentId);
+		return this.getAssessmentResult(userId, exerciseRecordId);
 	}
 
 	// 5. GET RESULT
-	async getAssessmentResult(userId: string, assessmentId: string) {
-		const assessment = await this.prisma.assessment.findFirst({
-			where: { assessmentId, userId, deletedAt: null },
-			select: AssessmentSelect.result,
+	async getAssessmentResult(userId: string, exerciseRecordId: string) {
+		const exerciseRecord = await this.prisma.exerciseRecord.findFirst({
+			where: { exerciseRecordId, userId, deletedAt: null },
+			select: ExerciseRecordSelect.result,
 		});
 
-		if (!assessment) throw new NotFoundException('Assessment not found');
+		if (!exerciseRecord) throw new NotFoundException('Assessment not found');
 
-		const totalQuestions = assessment.attempts.length;
-		const correctCount = assessment.attempts.filter((a) => a.correct === true).length;
+		const totalQuestions = exerciseRecord.answers.length;
+		const correctCount = exerciseRecord.answers.filter((a) => a.correct === true).length;
 
-		const attempts: AttemptResult[] = assessment.attempts.map((attempt) => {
+		const answersResult: AnswerResult[] = exerciseRecord.answers.map((ans) => {
 			// Tìm correctOptionId (chỉ trả khi assessment đã scored)
-			const isScored = ['scored'].includes(assessment.status as string);
-			const correctOption = isScored ? attempt.question.options.find((o) => o.isCorrect) : null;
+			const isScored = ['scored'].includes(exerciseRecord.status as string);
+			const correctOption = isScored ? ans.question.options.find((o) => o.isCorrect) : null;
 
-			const evaluation = attempt.evaluations[0]
+			const evaluation = ans.evaluations[0]
 				? {
-						overallScore: Number(attempt.evaluations[0].overallScore),
-						criteriaJson: attempt.evaluations[0].criteriaJson,
+						overallScore: Number(ans.evaluations[0].overallScore),
+						criteriaJson: ans.evaluations[0].criteriaJson,
 					}
 				: null;
 
 			return {
-				attemptId: attempt.attemptId,
-				questionId: attempt.questionId,
-				type: attempt.question.options.length > 0 ? 'objective' : 'subjective', // simplified
-				modality: attempt.modality,
-				correct: attempt.correct,
-				score: attempt.score !== null ? Number(attempt.score) : null,
-				gradingStatus: attempt.gradingStatus,
+				answerId: ans.answerId,
+				questionId: ans.questionId,
+				type: ans.question.options.length > 0 ? 'objective' : 'subjective', // simplified
+				correct: ans.correct,
+				score: ans.score !== null ? Number(ans.score) : null,
+				gradingStatus: ans.gradingStatus,
 				correctOptionId: correctOption?.optionId ?? null,
 				userAnswer: {
-					optionId: attempt.answers[0]?.optionId ?? null,
-					textAnswer: attempt.answers[0]?.textAnswer ?? null,
+					optionId: ans.answerDetails[0]?.optionId ?? null,
+					textAnswer: ans.answerDetails[0]?.textAnswer ?? null,
 				},
 				evaluation,
 			};
 		});
 
-		const message = assessment.status === 'submitted' ? 'AI đang chấm bài, vui lòng kiểm tra lại sau.' : undefined;
+		const message =
+			exerciseRecord.status === 'submitted' ? 'AI đang chấm bài, vui lòng kiểm tra lại sau.' : undefined;
 
 		const result: AssessmentResultResponse = {
-			assessmentId: assessment.assessmentId,
-			refType: assessment.refType,
-			status: assessment.status as string,
-			score: assessment.score !== null ? Number(assessment.score) : null,
+			exerciseRecordId: exerciseRecord.exerciseRecordId,
+			refType: exerciseRecord.refType,
+			status: exerciseRecord.status as string,
+			score: exerciseRecord.score !== null ? Number(exerciseRecord.score) : null,
 			totalQuestions,
 			correctCount,
-			startedAt: assessment.startedAt,
-			completedAt: assessment.completedAt,
+			startedAt: exerciseRecord.startedAt,
+			completedAt: exerciseRecord.completedAt,
 			message,
-			attempts,
+			answers: answersResult,
 		};
 
 		return ResponseDto.success(Object, result);
@@ -454,14 +442,14 @@ export class AssessmentsService implements OnModuleInit {
 		};
 
 		const [rawRows, count] = await Promise.all([
-			this.prisma.assessment.findMany({
+			this.prisma.exerciseRecord.findMany({
 				where,
-				select: AssessmentSelect.history,
+				select: ExerciseRecordSelect.history,
 				orderBy: { createdAt: 'desc' },
 				skip,
 				take: pageSize,
 			}),
-			this.prisma.assessment.count({ where }),
+			this.prisma.exerciseRecord.count({ where }),
 		]);
 
 		// Enrich với title + skillName từ lesson/practice session
@@ -480,12 +468,12 @@ export class AssessmentsService implements OnModuleInit {
 
 	// BULLMQ WORKER HANDLER
 	private async handleGradeJob(job: Job<GradeSubjectiveJobData>): Promise<void> {
-		const { attemptId, assessmentId, questionType, textAnswer } = job.data;
+		const { answerId, exerciseRecordId, questionType, textAnswer } = job.data;
 
 		if (!textAnswer || textAnswer.trim().length === 0) {
 			// Không có text → cho 0 điểm
-			await this.prisma.attempt.update({
-				where: { attemptId },
+			await this.prisma.answer.update({
+				where: { answerId },
 				data: { score: 0, gradingStatus: 'auto_scored' as any },
 			});
 			return;
@@ -493,11 +481,9 @@ export class AssessmentsService implements OnModuleInit {
 
 		const result = await this.aiClient.gradeSubmission({ questionType, userText: textAnswer });
 
-		await this.prisma.attemptEvaluation.create({
+		await this.prisma.answerEvaluation.create({
 			data: {
-				attemptId,
-				evalType: 'ai',
-				framework: 'cefr',
+				answerId,
 				overallScore: result.overallScore,
 				criteriaJson: {
 					dimensions: result.dimensions,
@@ -508,21 +494,21 @@ export class AssessmentsService implements OnModuleInit {
 		});
 
 		// Update Attempt.score (normalize 0-10 → 0-1)
-		await this.prisma.attempt.update({
-			where: { attemptId },
+		await this.prisma.answer.update({
+			where: { answerId },
 			data: {
 				score: result.overallScore / 10,
 				gradingStatus: 'auto_scored' as any,
 			},
 		});
 
-		await this.tryFinalizeAssessment(assessmentId);
+		await this.tryFinalizeAssessment(answerId);
 	}
 
-	private async tryFinalizeAssessment(assessmentId: string): Promise<void> {
-		const pendingAttempts = await this.prisma.attempt.count({
+	private async tryFinalizeAssessment(answerId: string): Promise<void> {
+		const pendingAttempts = await this.prisma.answer.count({
 			where: {
-				assessmentId,
+				answerId,
 				gradingStatus: 'pending',
 				deletedAt: null,
 			},
@@ -531,28 +517,28 @@ export class AssessmentsService implements OnModuleInit {
 		if (pendingAttempts > 0) return; // còn câu chưa chấm
 
 		// Tính lại score tổng
-		const allAttempts = await this.prisma.attempt.findMany({
-			where: { assessmentId, deletedAt: null },
-			select: AttemptSelect.scoreOnly,
+		const allAttempts = await this.prisma.answer.findMany({
+			where: { answerId, deletedAt: null },
+			select: AnswerSelect.scoreOnly,
 		});
 
 		const totalScore = allAttempts.reduce((sum, a) => sum + Number(a.score ?? 0), 0);
 		const finalScore = allAttempts.length > 0 ? (totalScore / allAttempts.length) * 100 : 0;
 
-		await this.prisma.assessment.update({
-			where: { assessmentId },
+		await this.prisma.exerciseRecord.update({
+			where: { exerciseRecordId: answerId },
 			data: {
 				status: 'scored' as any,
 				score: Math.round(finalScore * 100) / 100,
 			},
 		});
 
-		this.logger.log(`Assessment finalized | assessmentId=${assessmentId} | finalScore=${finalScore}%`);
+		this.logger.log(`Assessment finalized | assessmentId=${answerId} | finalScore=${finalScore}%`);
 
 		// Auto-track: mark plan item as completed (async path)
-		const assessment = await this.prisma.assessment.findUnique({
-			where: { assessmentId },
-			select: AssessmentSelect.userRef,
+		const assessment = await this.prisma.exerciseRecord.findUnique({
+			where: { exerciseRecordId: answerId },
+			select: ExerciseRecordSelect.userRef,
 		});
 		if (assessment) {
 			await this.markPlanItemCompleted(assessment.userId, assessment.refType, assessment.refId, finalScore);
@@ -567,9 +553,9 @@ export class AssessmentsService implements OnModuleInit {
 			});
 			return !!link;
 		}
-		if (refType === 'practice_session') {
-			const link = await this.prisma.practiceSessionQuestion.findFirst({
-				where: { sessionId: refId, questionId },
+		if (refType === 'question_set') {
+			const link = await this.prisma.questionSetItem.findFirst({
+				where: { questionSetId: refId, questionId },
 			});
 			return !!link;
 		}
@@ -584,35 +570,35 @@ export class AssessmentsService implements OnModuleInit {
 			});
 			return links.map((l) => l.questionId);
 		}
-		if (refType === 'practice_session') {
-			const links = await this.prisma.practiceSessionQuestion.findMany({
-				where: { sessionId: refId },
-				select: PracticeSessionQuestionSelect.idOnly,
+		if (refType === 'question_set') {
+			const links = await this.prisma.questionSetItem.findMany({
+				where: { questionSetId: refId },
+				select: QuestionSetItemSelect.idOnly,
 			});
 			return links.map((l) => l.questionId);
 		}
 		return [];
 	}
 
-	private async createAttemptAnswers(attemptId: string, answer: SubmitAnswerDto['answer']): Promise<void> {
+	private async createAttemptAnswers(answerId: string, answer: SubmitAnswerDto['answer']): Promise<void> {
 		if (answer.optionId) {
 			// mcq_single
-			await this.prisma.attemptAnswer.create({
-				data: { attemptId, position: 1, optionId: answer.optionId },
+			await this.prisma.answerDetail.create({
+				data: { answerId, position: 1, optionId: answer.optionId },
 			});
 		} else if (answer.optionIds && answer.optionIds.length > 0) {
 			// mcq_multi
-			await this.prisma.attemptAnswer.createMany({
+			await this.prisma.answerDetail.createMany({
 				data: answer.optionIds.map((optionId, i) => ({
-					attemptId,
+					answerId,
 					position: i + 1,
 					optionId,
 				})),
 			});
 		} else if (answer.textAnswer !== undefined) {
 			// essay / speaking / fill_blank
-			await this.prisma.attemptAnswer.create({
-				data: { attemptId, position: 1, textAnswer: answer.textAnswer },
+			await this.prisma.answerDetail.create({
+				data: { answerId, position: 1, textAnswer: answer.textAnswer },
 			});
 		}
 	}
@@ -651,18 +637,9 @@ export class AssessmentsService implements OnModuleInit {
 		return false;
 	}
 
-	private mapSkillToModality(skill: string): string {
-		const map: Record<string, string> = {
-			reading: 'reading',
-			writing: 'writing',
-			speaking: 'speaking',
-		};
-		return map[skill] ?? 'reading';
-	}
-
 	private async enrichHistoryItem(
 		assessment: {
-			assessmentId: string;
+			exerciseRecordId: string;
 			refType: string;
 			refId: string;
 			status: string;
@@ -687,19 +664,19 @@ export class AssessmentsService implements OnModuleInit {
 			skillName = lesson?.skillName ?? null;
 			cefrLevel = lesson?.cefrLevel ?? null;
 			totalQuestions = lesson?.lessonQuestions.length ?? 0;
-		} else if (assessment.refType === 'practice_session') {
-			const session = await this.prisma.practiceSession.findFirst({
-				where: { sessionId: assessment.refId },
-				select: PracticeSessionSelect.assessmentMeta,
+		} else if (assessment.refType === 'question_set') {
+			const session = await this.prisma.questionSet.findFirst({
+				where: { questionSetId: assessment.refId },
+				select: QuestionSetSelect.assessmentMeta,
 			});
 			refTitle = session?.title ?? null;
 			skillName = session?.skillName ?? null;
 			cefrLevel = session?.cefrLevel ?? null;
-			totalQuestions = session?.questions.length ?? 0;
+			totalQuestions = session?.items.length ?? 0;
 		}
 
 		return {
-			assessmentId: assessment.assessmentId,
+			exerciseRecordId: assessment.exerciseRecordId,
 			refType: assessment.refType,
 			refId: assessment.refId,
 			refTitle,

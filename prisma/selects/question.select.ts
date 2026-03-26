@@ -73,6 +73,30 @@ export const QuestionSelect = {
 		},
 	} satisfies Prisma.QuestionSelect,
 
+	placementResume: {
+		questionId: true,
+		passageId: true,
+		passage: {
+			select: {
+				passageId: true,
+				title: true,
+				content: true,
+				cefrLevel: true,
+			},
+		},
+		translations: { select: { locale: true, stemText: true, contentJson: true } },
+		options: {
+			where: { deletedAt: null },
+			orderBy: { position: 'asc' as const },
+			select: {
+				optionId: true,
+				position: true,
+				isCorrect: true,
+				translations: { select: { locale: true, optionText: true } },
+			},
+		},
+	} satisfies Prisma.QuestionSelect,
+
 	placementCandidate: {
 		questionId: true,
 		passageId: true,

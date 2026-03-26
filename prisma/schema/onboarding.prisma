@@ -1,9 +1,7 @@
-// TODO:        ONBOARDING
-model OnboardingSurvey {
-  /**
-   * UPDATE
-   * 10/02: Update userId from unique to multi => user can change survey - update => create new and disable old
-   */
+model OnboardingSurvey { // TODO: Survey
+  // UPDATE
+  // 10/02: Update userId from unique to multi => user can change survey - update => create new and disable old
+  // 25/03: Update logic availableDays => remove UserAvailablity table
 
   surveyId String @id @default(dbgenerated("gen_random_uuid()")) @map("survey_id") @db.Uuid
   userId   String @map("user_id") @db.Uuid
@@ -11,6 +9,7 @@ model OnboardingSurvey {
   //? TIER 1: REQUIRED
   primaryGoal              String @map("primary_goal")
   plannedStudyHoursPerWeek Int    @map("planned_study_hours_per_week")
+  availableDays            DayOfWeek[]  @map("available_days")  // Update (25/03)
   primaryFocusSkills       Json   @map("primary_focus_skills")
 
   //? TIER 2: IMPORTANT

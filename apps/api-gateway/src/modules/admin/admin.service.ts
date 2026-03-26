@@ -2,7 +2,7 @@ import { PrismaService } from '../../../../../prisma/prisma.service';
 import { CreatePassageDto } from './dto/create-passage.dto';
 import { CreateQuestionDto } from './dto/create-question.dto';
 import { CreateLessonDto } from './dto/create-lesson.dto';
-import { CreatePracticeSessionDto } from './dto/create-practice-session.dto';
+import { CreateQuestionSetDto } from './dto/create-question-set.dto';
 import { BulkImportDictionaryDto } from './dto/bulk-import-dictionary.dto';
 import { ListUsersDto } from './dto/list-users.dto';
 import { Injectable, Logger } from '@nestjs/common';
@@ -15,9 +15,7 @@ export class AdminService {
 
 	constructor(private prisma: PrismaService) {}
 
-	// ==========================================
 	// PASSAGE MANAGEMENT
-	// ==========================================
 
 	async createPassage(dto: CreatePassageDto) {
 		try {
@@ -31,8 +29,6 @@ export class AdminService {
 					cefrLevel: dto.cefrLevel,
 					topic: dto.topic,
 					sourceTag: dto.sourceTag,
-					audioUrl: dto.audioUrl,
-					imageUrl: dto.imageUrl,
 				},
 				select: PassageSelect.create,
 			});
@@ -46,9 +42,7 @@ export class AdminService {
 		}
 	}
 
-	// ==========================================
 	// QUESTION MANAGEMENT
-	// ==========================================
 
 	async createQuestion(dto: CreateQuestionDto) {
 		try {
@@ -81,7 +75,6 @@ export class AdminService {
 					passageId: dto.passageId,
 					type: dto.type,
 					difficulty: dto.difficulty ?? 1,
-					examKind: dto.examKind ?? 'generic',
 					status: dto.status ?? 'draft',
 					timeLimitSec: dto.timeLimitSec,
 					maxScore: dto.maxScore ?? 1,
@@ -195,14 +188,14 @@ export class AdminService {
 
 	// PRACTICE SESSION MANAGEMENT
 
-	async createPracticeSession(dto: CreatePracticeSessionDto) {
+	async createQuestionSet(dto: CreateQuestionSetDto) {
 		try {
 			const questions = await this.prisma.question.findMany({
 				where: { questionId: { in: dto.questionIds } },
 			});
 			if (questions.length !== dto.questionIds.length) throw new BadRequestException('Some questions not found');
 
-			const session = await this.prisma.practiceSession.create({
+			const questionSet = await this.prisma.questionSet.create({
 				data: {
 					skillName: dto.skillName,
 					title: dto.title,
@@ -211,7 +204,7 @@ export class AdminService {
 					estimatedMinutes: dto.estimatedMinutes,
 					isActive: dto.isActive ?? true,
 
-					questions: {
+					items: {
 						create: dto.questionIds.map((qId, index) => ({
 							questionId: qId,
 							position: index + 1,
@@ -219,17 +212,17 @@ export class AdminService {
 					},
 				},
 				include: {
-					questions: {
+					items: {
 						include: { question: true },
 					},
 				},
 			});
 
 			return {
-				sessionId: session.sessionId,
-				skillName: session.skillName,
-				title: session.title,
-				questionCount: session.questions.length,
+				questionSetId: questionSet.questionSetId,
+				skillName: questionSet.skillName,
+				title: questionSet.title,
+				questionCount: questionSet.items.length,
 			};
 		} catch (error) {
 			throw error;
@@ -395,10 +388,7 @@ export class AdminService {
 		}
 	}
 
-	// ==========================================
 	// SYSTEM STATISTICS
-	// ==========================================
-
 	async getSystemStats() {
 		try {
 			const startOfWeek = this.getStartOfWeek();
@@ -408,12 +398,11 @@ export class AdminService {
 				activeUsers,
 				newUsersThisWeek,
 				totalLessons,
-				totalPracticeSessions,
+				totalQuestionSet,
 				totalQuestions,
 				totalPassages,
 				totalDictEntries,
-				assessmentsThisWeek,
-				srsReviewsThisWeek,
+				exerciseRecordsThisWeek,
 			] = await Promise.all([
 				this.prisma.user.count({ where: { deletedAt: null } }),
 				this.prisma.user.count({ where: { isActive: true, deletedAt: null } }),
@@ -425,17 +414,12 @@ export class AdminService {
 				}),
 
 				this.prisma.lesson.count({ where: { deletedAt: null } }),
-				this.prisma.practiceSession.count({ where: { deletedAt: null } }),
+				this.prisma.questionSet.count({ where: { deletedAt: null } }),
 				this.prisma.question.count({ where: { deletedAt: null } }),
 				this.prisma.passage.count({ where: { deletedAt: null } }),
 				this.prisma.dictEntry.count({ where: { deletedAt: null } }),
 
-				this.prisma.assessment.count({
-					where: {
-						createdAt: { gte: startOfWeek },
-					},
-				}),
-				this.prisma.srsReview.count({
+				this.prisma.exerciseRecord.count({
 					where: {
 						createdAt: { gte: startOfWeek },
 					},
@@ -450,14 +434,13 @@ export class AdminService {
 				},
 				content: {
 					lessons: totalLessons,
-					practiceSessions: totalPracticeSessions,
+					questionSets: totalQuestionSet,
 					questions: totalQuestions,
 					passages: totalPassages,
 					dictionaryEntries: totalDictEntries,
 				},
 				activity: {
-					assessmentsThisWeek,
-					srsReviewsThisWeek,
+					exerciseRecordsThisWeek,
 				},
 			};
 		} catch (error) {
@@ -466,10 +449,7 @@ export class AdminService {
 		}
 	}
 
-	// ==========================================
 	// PRIVATE HELPER METHODS
-	// ==========================================
-
 	private calculateWordCount(content: string): number {
 		const words = content.trim().split(/\s+/);
 		return words.filter((word) => word.length > 0).length;

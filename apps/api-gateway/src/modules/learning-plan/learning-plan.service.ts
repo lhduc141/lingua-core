@@ -1,34 +1,38 @@
-import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
-import { PrismaService } from '../../../../../prisma/prisma.service';
-import { BadRequestException, NotFoundException, PagingDataDto, ResponseDto } from '@app/shared';
 import { AiClientService } from '@app/ai-client';
 import { BullmqService } from '@app/bullmq';
-import { GeneratePlanDto } from './dto/generate-plan.dto';
-import { UpdatePlanItemDto } from './dto/update-plan-item.dto';
-import { SubmitReviewFeedbackDto } from './dto/submit-review-feedback.dto';
-import { ListPlanHistoryDto } from './dto/list-plan-history.dto';
+import { BadRequestException, NotFoundException, PagingDataDto, ResponseDto } from '@app/shared';
 import { PlanJob, PlanQueues } from '@app/shared/queues';
+import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
 import { Job } from 'bullmq';
-import { GradeCustomActivityJobData } from './interface/grade-custom-activity-job-data.interface';
+import { PrismaService } from '../../../../../prisma/prisma.service';
 import {
-	AssessmentSelect,
-	CatSessionSelect,
+	ExerciseRecordSelect,
 	LearningPlanSelect,
 	LessonSelect,
 	OnboardingSurveySelect,
-	PracticeSessionSelect,
-	UserAvailabilitySelect,
+	PlacementSessionSelect,
+	QuestionSetSelect,
 } from '../../../../../prisma/selects';
-import { PlanDay } from './interface/plan-day.interface';
-import { PlanTask } from './interface/plan-task.interface';
-import { CurrentPlanResponse } from './interface/current-plan-response.interface';
+import { GeneratePlanDto } from './dto/generate-plan.dto';
+import { ListPlanHistoryDto } from './dto/list-plan-history.dto';
+import { SubmitReviewFeedbackDto } from './dto/submit-review-feedback.dto';
+import { UpdatePlanItemDto } from './dto/update-plan-item.dto';
 import { AiPlanItem } from './interface/ai-plan-item.interface';
+import { CurrentPlanResponse } from './interface/current-plan-response.interface';
+import { GradeCustomActivityJobData } from './interface/grade-custom-activity-job-data.interface';
+import { PlanDay } from './interface/plan-day.interface';
 import { PlanHistoryItem } from './interface/plan-history-item.interface';
-import { SetAvailabilityDto } from './dto/set-avaiability-slot.dto';
+import { PlanTask } from './interface/plan-task.interface';
 
 @Injectable()
 export class LearningPlanService implements OnModuleInit {
 	private readonly logger = new Logger(LearningPlanService.name);
+	private readonly ASSESSED_TO_CEFR: Record<string, string> = {
+		beginner: 'A1',
+		elementary: 'A2',
+		intermediate: 'B1',
+		advanced: 'B2',
+	};
 
 	constructor(
 		private readonly prisma: PrismaService,
@@ -36,7 +40,6 @@ export class LearningPlanService implements OnModuleInit {
 		private readonly bullmq: BullmqService,
 	) {}
 
-	// Register BullMQ worker for custom activity grading
 	onModuleInit() {
 		this.bullmq.registerWorker<GradeCustomActivityJobData>(
 			PlanQueues.PLAN_AI,
@@ -44,11 +47,8 @@ export class LearningPlanService implements OnModuleInit {
 		);
 	}
 
-	// ================================================================
 	// 1. GET /learning-plan/current
-	// ================================================================
 	async getCurrentPlan(userId: string) {
-		// Tìm cycle + week mới nhất
 		const latestItem = await this.prisma.learningPlanItem.findFirst({
 			where: { userId, deletedAt: null },
 			orderBy: [{ planCycle: 'desc' }, { weekNumber: 'desc' }],
@@ -61,14 +61,8 @@ export class LearningPlanService implements OnModuleInit {
 
 		const { planCycle, weekNumber } = latestItem;
 
-		// Lấy tất cả items thuộc cycle + week hiện tại
 		const items = await this.prisma.learningPlanItem.findMany({
-			where: {
-				userId,
-				planCycle,
-				weekNumber,
-				deletedAt: null,
-			},
+			where: { userId, planCycle, weekNumber, deletedAt: null },
 			select: LearningPlanSelect.task,
 			orderBy: [{ dueDate: 'asc' }, { position: 'asc' }],
 		});
@@ -77,14 +71,12 @@ export class LearningPlanService implements OnModuleInit {
 			return ResponseDto.success(Object, null, 'No plan items found for current week.');
 		}
 
-		// Auto-generate weekly review nếu đến ngày
 		const reviewItem = items.find((i) => i.itemType === 'weekly_review' && !i.description);
 		if (reviewItem && reviewItem.dueDate) {
 			const now = new Date();
 			const dueDate = new Date(reviewItem.dueDate);
 			if (now >= dueDate) {
 				await this.autoGenerateWeeklyReview(userId, reviewItem.itemId, planCycle, weekNumber!);
-				// Re-fetch items sau khi generate
 				const updated = await this.prisma.learningPlanItem.findFirst({
 					where: { itemId: reviewItem.itemId },
 					select: LearningPlanSelect.task,
@@ -96,7 +88,6 @@ export class LearningPlanService implements OnModuleInit {
 			}
 		}
 
-		// Group items by dueDate → days
 		const dayMap = new Map<string, typeof items>();
 		for (const item of items) {
 			const dateKey = item.dueDate ? new Date(item.dueDate).toISOString().split('T')[0] : 'no-date';
@@ -136,24 +127,16 @@ export class LearningPlanService implements OnModuleInit {
 						? ('in_progress' as const)
 						: ('pending' as const);
 
-			return {
-				day: dayNumber++,
-				date: dateKey,
-				totalTasks,
-				completedTasks,
-				status: dayStatus,
-				tasks,
-			};
+			return { day: dayNumber++, date: dateKey, totalTasks, completedTasks, status: dayStatus, tasks };
 		});
 
 		const totalTasks = items.length;
 		const completedTasks = items.filter((i) => i.status === 'completed').length;
 		const completedDays = days.filter((d) => d.status === 'completed').length;
-
 		const endDate = sortedDates[sortedDates.length - 1] || startDate;
 
 		const response: CurrentPlanResponse = {
-			planCycle: planCycle!,
+			planCycle,
 			weekNumber: weekNumber!,
 			startDate,
 			endDate,
@@ -166,15 +149,12 @@ export class LearningPlanService implements OnModuleInit {
 		return ResponseDto.success(Object, response);
 	}
 
-	// ================================================================
 	// 2. POST /learning-plan/generate
-	// ================================================================
 	async generatePlan(userId: string, dto: GeneratePlanDto) {
-		// Preconditions: placement test completed + active survey
-		const catSession = await this.prisma.catSession.findFirst({
+		const catSession = await this.prisma.placementSession.findFirst({
 			where: { userId, status: 'completed' },
 			orderBy: { completedAt: 'desc' },
-			select: CatSessionSelect.latestResult,
+			select: PlacementSessionSelect.latestResult,
 		});
 		if (!catSession) {
 			throw new BadRequestException('Please complete a placement test before generating a learning plan.');
@@ -188,15 +168,12 @@ export class LearningPlanService implements OnModuleInit {
 			throw new BadRequestException('Please complete the onboarding survey before generating a learning plan.');
 		}
 
-		// Determine cycle + weekNumber
 		const { planCycle, weekNumber } = await this.determinePlanPhase(userId, dto.phase);
 
-		// Gate check: nếu không phải lần đầu, phải có feedback review trước
 		if (!(planCycle === 1 && weekNumber === 1)) {
 			await this.checkReviewGate(userId);
 		}
 
-		// Gather AI input
 		const availableContent = await this.getAvailableContent();
 		const recentPerformance = await this.getRecentPerformance(userId);
 		const previousWeekReview = weekNumber === 2 ? await this.getLatestReviewData(userId, planCycle) : null;
@@ -208,6 +185,7 @@ export class LearningPlanService implements OnModuleInit {
 				primaryGoal: survey.primaryGoal,
 				focusSkills: survey.primaryFocusSkills,
 				plannedStudyHoursPerWeek: survey.plannedStudyHoursPerWeek,
+				availableDays: survey.availableDays,
 				targetGoal: survey.targetGoal,
 			},
 			currentCycle: planCycle,
@@ -218,7 +196,6 @@ export class LearningPlanService implements OnModuleInit {
 			availableContent,
 		};
 
-		// Call AI
 		let aiResult: { planItems: AiPlanItem[] };
 		try {
 			aiResult = await this.aiClient.generatePlan(aiPayload);
@@ -231,7 +208,6 @@ export class LearningPlanService implements OnModuleInit {
 			throw new BadRequestException('AI returned empty plan. Please try again.');
 		}
 
-		// Calculate real dates for each day
 		const startDate = new Date();
 		startDate.setHours(0, 0, 0, 0);
 
@@ -248,16 +224,11 @@ export class LearningPlanService implements OnModuleInit {
 				rationale: item.rationale,
 				itemType: item.itemType,
 				refType:
-					item.itemType === 'custom_activity'
-						? null
-						: item.itemType === 'lesson'
-							? 'lesson'
-							: 'practice_session',
+					item.itemType === 'custom_activity' ? null : item.itemType === 'lesson' ? 'lesson' : 'question_set',
 				refId: item.refId,
 				dueDate,
 				position: item.position,
 				status: 'pending' as any,
-				autoGenerated: true,
 				planCycle,
 				weekNumber,
 				generatedAt: now,
@@ -266,9 +237,8 @@ export class LearningPlanService implements OnModuleInit {
 			};
 		});
 
-		// Add weekly review placeholder (last day of the week)
 		const reviewDueDate = new Date(startDate);
-		reviewDueDate.setDate(reviewDueDate.getDate() + 6); // Day 7 or Day 14 of week
+		reviewDueDate.setDate(reviewDueDate.getDate() + 6);
 
 		planItems.push({
 			userId,
@@ -281,7 +251,6 @@ export class LearningPlanService implements OnModuleInit {
 			dueDate: reviewDueDate,
 			position: 99,
 			status: 'pending' as any,
-			autoGenerated: true,
 			planCycle,
 			weekNumber,
 			generatedAt: now,
@@ -289,7 +258,6 @@ export class LearningPlanService implements OnModuleInit {
 			skillName: null,
 		});
 
-		// Persist
 		await this.prisma.learningPlanItem.createMany({ data: planItems });
 
 		this.logger.log(
@@ -303,9 +271,7 @@ export class LearningPlanService implements OnModuleInit {
 		);
 	}
 
-	// ================================================================
 	// 3. POST /learning-plan/review/:itemId/feedback
-	// ================================================================
 	async submitReviewFeedback(userId: string, itemId: string, dto: SubmitReviewFeedbackDto) {
 		const item = await this.prisma.learningPlanItem.findFirst({
 			where: { itemId, userId, deletedAt: null },
@@ -338,18 +304,12 @@ export class LearningPlanService implements OnModuleInit {
 
 		return ResponseDto.success(
 			Object,
-			{
-				itemId,
-				feedbackSubmittedAt: new Date(),
-				canGenerateNextWeek: true,
-			},
+			{ itemId, feedbackSubmittedAt: new Date(), canGenerateNextWeek: true },
 			"Feedback submitted. You can now generate the next week's plan.",
 		);
 	}
 
-	// ================================================================
 	// 4. PATCH /learning-plan/items/:itemId
-	// ================================================================
 	async updatePlanItem(userId: string, itemId: string, dto: UpdatePlanItemDto) {
 		const item = await this.prisma.learningPlanItem.findFirst({
 			where: { itemId, userId, deletedAt: null },
@@ -358,7 +318,6 @@ export class LearningPlanService implements OnModuleInit {
 
 		if (!item) throw new NotFoundException('Plan item not found');
 
-		// weekly_review dùng endpoint riêng (review feedback)
 		if (item.itemType === 'weekly_review') {
 			throw new BadRequestException('Use POST /learning-plan/review/:itemId/feedback for weekly reviews');
 		}
@@ -369,12 +328,10 @@ export class LearningPlanService implements OnModuleInit {
 
 		const updateData: any = { status: dto.status as any };
 
-		// Custom activity: save submitted text + trigger AI grading
 		if (dto.submittedText && item.itemType === 'custom_activity') {
 			updateData.submittedText = dto.submittedText;
 
 			if (dto.status === 'completed') {
-				// Push to BullMQ for AI grading
 				await this.bullmq.addJob<GradeCustomActivityJobData>(
 					PlanQueues.PLAN_AI,
 					PlanJob.GRADE_CUSTOM_ACTIVITY,
@@ -396,14 +353,12 @@ export class LearningPlanService implements OnModuleInit {
 	async getHistory(userId: string, dto: ListPlanHistoryDto) {
 		const { pageIndex, pageSize } = dto;
 
-		// Lấy tất cả unique (planCycle, weekNumber) combinations
 		const allItems = await this.prisma.learningPlanItem.findMany({
 			where: { userId, deletedAt: null, planCycle: { not: null } },
 			select: LearningPlanSelect.historyAggregate,
 			orderBy: [{ planCycle: 'desc' }, { weekNumber: 'desc' }],
 		});
 
-		// Group by planCycle + weekNumber
 		const groups = new Map<string, typeof allItems>();
 		for (const item of allItems) {
 			const key = `${item.planCycle}-${item.weekNumber}`;
@@ -433,51 +388,13 @@ export class LearningPlanService implements OnModuleInit {
 			};
 		});
 
-		// Paginate
 		const skip = (pageIndex - 1) * pageSize;
 		const paged = rows.slice(skip, skip + pageSize);
 
 		return ResponseDto.success(Object, new PagingDataDto({ count: rows.length, rows: paged }));
 	}
 
-	// ================================================================
-	// 6. POST /learning-plan/availability
-	// ================================================================
-	async setAvailability(userId: string, dto: SetAvailabilityDto) {
-		// Delete all existing → insert new (simple replace strategy)
-		await this.prisma.$transaction([
-			this.prisma.userAvailability.deleteMany({ where: { userId } }),
-			this.prisma.userAvailability.createMany({
-				data: dto.slots.map((slot) => ({
-					userId,
-					dow: slot.dow,
-					startMinute: slot.startMinute,
-					endMinute: slot.endMinute,
-				})),
-			}),
-		]);
-
-		this.logger.log(`Availability updated | userId=${userId} | slots=${dto.slots.length}`);
-
-		return ResponseDto.success(Object, { slotsCount: dto.slots.length }, 'Availability updated');
-	}
-
-	// ================================================================
-	// 7. GET /learning-plan/availability
-	// ================================================================
-	async getAvailability(userId: string) {
-		const slots = await this.prisma.userAvailability.findMany({
-			where: { userId, deletedAt: null },
-			select: UserAvailabilitySelect.list,
-			orderBy: [{ dow: 'asc' }, { startMinute: 'asc' }],
-		});
-
-		return ResponseDto.success(Object, { slots });
-	}
-
-	// ================================================================
 	// PRIVATE: BullMQ Worker — Grade custom activity
-	// ================================================================
 	private async handleGradeCustomActivity(job: Job<GradeCustomActivityJobData>): Promise<void> {
 		const { itemId, textAnswer } = job.data;
 
@@ -503,13 +420,11 @@ export class LearningPlanService implements OnModuleInit {
 			this.logger.log(`Custom activity graded | itemId=${itemId} | score=${result.overallScore}`);
 		} catch (err) {
 			this.logger.error(`Custom activity grading failed | itemId=${itemId} | error=${err.message}`);
-			throw err; // Let BullMQ retry
+			throw err;
 		}
 	}
 
-	// ================================================================
 	// PRIVATE: Auto-generate weekly review
-	// ================================================================
 	private async autoGenerateWeeklyReview(
 		userId: string,
 		reviewItemId: string,
@@ -517,7 +432,6 @@ export class LearningPlanService implements OnModuleInit {
 		weekNumber: number,
 	): Promise<void> {
 		try {
-			// Gather performance data for this week
 			const weekItems = await this.prisma.learningPlanItem.findMany({
 				where: {
 					userId,
@@ -533,13 +447,12 @@ export class LearningPlanService implements OnModuleInit {
 			const totalTasks = weekItems.length;
 			const skippedTasks = weekItems.filter((i) => i.status === 'skipped').map((i) => i.title);
 
-			// Get assessment results from this week
 			const assessmentResults = await this.getWeekAssessmentResults(userId, weekItems);
 
-			const catSession = await this.prisma.catSession.findFirst({
+			const catSession = await this.prisma.placementSession.findFirst({
 				where: { userId, status: 'completed' },
 				orderBy: { completedAt: 'desc' },
-				select: CatSessionSelect.latestCefr,
+				select: PlacementSessionSelect.latestCefr,
 			});
 
 			const reviewData = await this.aiClient.generateWeeklyReview({
@@ -552,7 +465,6 @@ export class LearningPlanService implements OnModuleInit {
 				skippedTasks,
 			});
 
-			// Save review to description as JSON
 			await this.prisma.learningPlanItem.update({
 				where: { itemId: reviewItemId },
 				data: { description: JSON.stringify(reviewData) },
@@ -561,25 +473,18 @@ export class LearningPlanService implements OnModuleInit {
 			this.logger.log(`Weekly review generated | userId=${userId} | cycle=${planCycle} | week=${weekNumber}`);
 		} catch (err) {
 			this.logger.error(`Weekly review generation failed: ${err.message}`);
-			// Non-blocking: review generation failure should not break /current
 		}
 	}
 
-	// ================================================================
-	// PRIVATE: Gate check — review + feedback required
-	// ================================================================
+	// PRIVATE: Gate check
 	private async checkReviewGate(userId: string): Promise<void> {
 		const latestReview = await this.prisma.learningPlanItem.findFirst({
-			where: {
-				userId,
-				itemType: 'weekly_review',
-				deletedAt: null,
-			},
+			where: { userId, itemType: 'weekly_review', deletedAt: null },
 			orderBy: [{ planCycle: 'desc' }, { weekNumber: 'desc' }],
 			select: LearningPlanSelect.reviewGate,
 		});
 
-		if (!latestReview) return; // Lần đầu, không cần gate
+		if (!latestReview) return;
 
 		if (!latestReview.description) {
 			const dueStr = latestReview.dueDate
@@ -593,9 +498,7 @@ export class LearningPlanService implements OnModuleInit {
 		}
 	}
 
-	// ================================================================
 	// PRIVATE: Determine plan cycle + week
-	// ================================================================
 	private async determinePlanPhase(
 		userId: string,
 		requestedPhase?: 'week1' | 'week2',
@@ -606,15 +509,12 @@ export class LearningPlanService implements OnModuleInit {
 			select: LearningPlanSelect.cycleWeek,
 		});
 
-		if (!latest) {
-			return { planCycle: 1, weekNumber: 1 };
-		}
+		if (!latest) return { planCycle: 1, weekNumber: 1 };
 
 		const currentCycle = latest.planCycle!;
 		const currentWeek = latest.weekNumber ?? 1;
 
 		if (requestedPhase === 'week2' || currentWeek === 1) {
-			// Check items don't already exist for week 2 of this cycle
 			const week2Exists = await this.prisma.learningPlanItem.count({
 				where: { userId, planCycle: currentCycle, weekNumber: 2, deletedAt: null },
 			});
@@ -623,22 +523,19 @@ export class LearningPlanService implements OnModuleInit {
 			}
 		}
 
-		// Both weeks exist → new cycle
 		return { planCycle: currentCycle + 1, weekNumber: 1 };
 	}
 
-	// ================================================================
 	// PRIVATE: Gather available content for AI
-	// ================================================================
 	private async getAvailableContent() {
-		const [lessons, practiceSessions] = await Promise.all([
+		const [lessons, questionSets] = await Promise.all([
 			this.prisma.lesson.findMany({
 				where: { deletedAt: null, status: 'published' },
 				select: LessonSelect.planAvailable,
 			}),
-			this.prisma.practiceSession.findMany({
+			this.prisma.questionSet.findMany({
 				where: { deletedAt: null, isActive: true },
-				select: PracticeSessionSelect.planAvailable,
+				select: QuestionSetSelect.planAvailable,
 			}),
 		]);
 
@@ -650,8 +547,8 @@ export class LearningPlanService implements OnModuleInit {
 				cefrLevel: l.cefrLevel,
 				estimatedMinutes: l.estimatedMinutes,
 			})),
-			practiceSessions: practiceSessions.map((s) => ({
-				refId: s.sessionId,
+			practiceSessions: questionSets.map((s) => ({
+				refId: s.questionSetId,
 				title: s.title,
 				skillName: s.skillName,
 				cefrLevel: s.cefrLevel,
@@ -660,24 +557,17 @@ export class LearningPlanService implements OnModuleInit {
 		};
 	}
 
-	// ================================================================
-	// PRIVATE: Get recent assessment performance
-	// ================================================================
+	// PRIVATE: Get recent performance
 	private async getRecentPerformance(userId: string) {
-		const recentAssessments = await this.prisma.assessment.findMany({
-			where: {
-				userId,
-				status: 'scored',
-				deletedAt: null,
-			},
+		const recentRecords = await this.prisma.exerciseRecord.findMany({
+			where: { userId, status: 'scored', deletedAt: null },
 			orderBy: { completedAt: 'desc' },
 			take: 10,
-			select: AssessmentSelect.performance,
+			select: ExerciseRecordSelect.performance,
 		});
 
-		// Enrich with skill info
 		const results: any[] = [];
-		for (const a of recentAssessments) {
+		for (const a of recentRecords) {
 			let skillName: string | null = null;
 
 			if (a.refType === 'lesson') {
@@ -686,12 +576,12 @@ export class LearningPlanService implements OnModuleInit {
 					select: LessonSelect.skillOnly,
 				});
 				skillName = lesson?.skillName ?? null;
-			} else if (a.refType === 'practice_session') {
-				const session = await this.prisma.practiceSession.findFirst({
-					where: { sessionId: a.refId },
-					select: PracticeSessionSelect.skillOnly,
+			} else if (a.refType === 'question_set') {
+				const qs = await this.prisma.questionSet.findFirst({
+					where: { questionSetId: a.refId },
+					select: QuestionSetSelect.skillOnly,
 				});
-				skillName = session?.skillName ?? null;
+				skillName = qs?.skillName ?? null;
 			}
 
 			results.push({
@@ -704,18 +594,10 @@ export class LearningPlanService implements OnModuleInit {
 		return results;
 	}
 
-	// ================================================================
-	// PRIVATE: Get latest review data (for week 2 generation)
-	// ================================================================
+	// PRIVATE: Get latest review data
 	private async getLatestReviewData(userId: string, planCycle: number) {
 		const review = await this.prisma.learningPlanItem.findFirst({
-			where: {
-				userId,
-				planCycle,
-				weekNumber: 1,
-				itemType: 'weekly_review',
-				deletedAt: null,
-			},
+			where: { userId, planCycle, weekNumber: 1, itemType: 'weekly_review', deletedAt: null },
 			select: LearningPlanSelect.reviewGate,
 		});
 
@@ -728,43 +610,28 @@ export class LearningPlanService implements OnModuleInit {
 		}
 	}
 
-	// ================================================================
-	// PRIVATE: Get user feedback from latest review
-	// ================================================================
+	// PRIVATE: Get user feedback
 	private async getLatestUserFeedback(userId: string, planCycle: number): Promise<string | null> {
 		const review = await this.prisma.learningPlanItem.findFirst({
-			where: {
-				userId,
-				planCycle,
-				weekNumber: 1,
-				itemType: 'weekly_review',
-				deletedAt: null,
-			},
+			where: { userId, planCycle, weekNumber: 1, itemType: 'weekly_review', deletedAt: null },
 			select: LearningPlanSelect.feedbackOnly,
 		});
 
 		return review?.userFeedback ?? null;
 	}
 
-	// ================================================================
-	// PRIVATE: Get week's assessment results (for weekly review)
-	// ================================================================
+	// PRIVATE: Get week assessment results
 	private async getWeekAssessmentResults(userId: string, weekItems: any[]) {
 		const refIds = weekItems.filter((i) => i.refId && i.refType).map((i) => i.refId);
 
 		if (refIds.length === 0) return [];
 
-		const assessments = await this.prisma.assessment.findMany({
-			where: {
-				userId,
-				refId: { in: refIds },
-				status: 'scored',
-				deletedAt: null,
-			},
-			select: AssessmentSelect.performance,
+		const records = await this.prisma.exerciseRecord.findMany({
+			where: { userId, refId: { in: refIds }, status: 'scored', deletedAt: null },
+			select: ExerciseRecordSelect.performance,
 		});
 
-		return assessments.map((a) => {
+		return records.map((a) => {
 			const planItem = weekItems.find((i) => i.refId === a.refId);
 			return {
 				skillName: planItem?.skillName,

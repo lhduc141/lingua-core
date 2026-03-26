@@ -1,4 +1,4 @@
-import { IsEnum, IsInt, IsNotEmpty, IsOptional, IsString, IsUrl, MaxLength, Min } from 'class-validator';
+import { IsEnum, IsInt, IsNotEmpty, IsOptional, IsString, MaxLength, Min } from 'class-validator';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Expose } from 'class-transformer';
 import { CefrLevel } from '@app/shared';
@@ -49,18 +49,4 @@ export class CreatePassageDto {
 	@IsString()
 	@MaxLength(100)
 	sourceTag?: string;
-
-	@ApiPropertyOptional({
-		description: 'URL file audio (nếu có)',
-	})
-	@IsOptional()
-	@IsUrl()
-	audioUrl?: string;
-
-	@ApiPropertyOptional({
-		description: 'URL hình ảnh minh họa (nếu có)',
-	})
-	@IsOptional()
-	@IsUrl()
-	imageUrl?: string;
 }

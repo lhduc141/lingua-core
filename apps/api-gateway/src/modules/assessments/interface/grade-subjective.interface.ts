@@ -1,6 +1,6 @@
 export interface GradeSubjectiveJobData {
-	attemptId: string;
-	assessmentId: string;
+	answerId: string;
+	exerciseRecordId: string;
 	questionType: string;
 	textAnswer: string;
 }

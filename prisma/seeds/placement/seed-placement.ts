@@ -117,7 +117,6 @@ async function seedOneQuestion(q: RawQuestion, passageId: string | null): Promis
 			difficulty: q.difficulty,
 			status: (q.status ?? 'published') as any,
 			sourceTag: q.sourceTag ?? 'placement_test_v1',
-			examKind: 'generic',
 			irtDifficulty: irtB,
 			irtDiscrimination: IRT_A,
 			irtGuessing: IRT_C,
@@ -229,7 +228,6 @@ async function seedGrammar(): Promise<void> {
 
 async function main(): Promise<void> {
 	console.log('🌱 LinguaPanda — Placement Test Seed');
-	console.log(`IRT: a=${IRT_A} (fixed) · c=${IRT_C} (fixed) · b=heuristic per level`);
 
 	await seedPassages();
 	await seedGrammar();

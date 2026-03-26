@@ -1,9 +1,7 @@
-// ─── Attempt Result ──────────────────────────────────────────
-export interface AttemptResult {
-	attemptId: string;
+export interface AnswerResult {
+	answerId: string;
 	questionId: string;
 	type: string;
-	modality: string | null;
 	correct: boolean | null;
 	score: number | null;
 	gradingStatus: string;

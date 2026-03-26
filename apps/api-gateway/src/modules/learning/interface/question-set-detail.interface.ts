@@ -1,14 +1,15 @@
 import { SkillName } from '@prisma/client';
+import { QuestionItem } from './question-item.interface';
 
-export interface PracticeSessionListItem {
-	sessionId: string;
-
+export interface QuestionSetDetail {
+	questionSetId: string;
 	skillName: SkillName;
+
 	title: string;
 	description: string | null;
 	cefrLevel: string | null;
 	estimatedMinutes: number | null;
+	questions: QuestionItem[];
 
 	isActive: boolean;
-	questionCount: number;
 }

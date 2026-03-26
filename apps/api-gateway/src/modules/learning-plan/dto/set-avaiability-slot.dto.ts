@@ -1,6 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { Type } from 'class-transformer';
-import { ArrayMaxSize, IsArray, IsInt, Max, Min, ValidateNested } from 'class-validator';
+import { IsInt, Max, Min } from 'class-validator';
 
 export class AvailabilitySlotDto {
 	@ApiProperty({ description: 'Day of week (0=Sun, 1=Mon, ..., 6=Sat)', minimum: 0, maximum: 6 })
@@ -20,13 +19,4 @@ export class AvailabilitySlotDto {
 	@Min(0)
 	@Max(1440)
 	endMinute: number;
-}
-
-export class SetAvailabilityDto {
-	@ApiProperty({ type: [AvailabilitySlotDto], description: 'Weekly availability slots' })
-	@IsArray()
-	@ArrayMaxSize(21)
-	@ValidateNested({ each: true })
-	@Type(() => AvailabilitySlotDto)
-	slots: AvailabilitySlotDto[];
 }

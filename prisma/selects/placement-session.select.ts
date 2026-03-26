@@ -1,21 +1,21 @@
 import { Prisma } from '@prisma/client';
 
-export const CatSessionSelect = {
+export const PlacementSessionSelect = {
 	idOnly: {
 		sessionId: true,
-	} satisfies Prisma.CatSessionSelect,
+	} satisfies Prisma.PlacementSessionSelect,
 
 	latestResult: {
 		cefrLevel: true,
 		finalTheta: true,
-	} satisfies Prisma.CatSessionSelect,
+	} satisfies Prisma.PlacementSessionSelect,
 
 	latestCefr: {
 		cefrLevel: true,
-	} satisfies Prisma.CatSessionSelect,
+	} satisfies Prisma.PlacementSessionSelect,
 
 	cefrConfidence: {
 		cefrLevel: true,
 		confidence: true,
-	} satisfies Prisma.CatSessionSelect,
+	} satisfies Prisma.PlacementSessionSelect,
 } as const;

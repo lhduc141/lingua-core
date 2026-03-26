@@ -3,7 +3,7 @@ import { User } from '@prisma/client';
 import { PrismaService } from '../../../../../prisma/prisma.service';
 import { UserSelect } from '../../../../../prisma/selects';
 import { UpdateProfileDto } from '../auth/dto/update-profile.dto';
-import { ProfileMeDto } from '../auth/dto/profile-me.dto';
+import { OnboardingStatus, ProfileMeDto } from '../auth/dto/profile-me.dto';
 import { ResponseDto } from '@app/shared';
 import * as argon2 from 'argon2';
 
@@ -18,6 +18,7 @@ interface GoogleUserPayload {
 export class UsersService {
 	constructor(private readonly prisma: PrismaService) {}
 
+	// Find / Create Users
 	async findOrCreateFromGoogle(googlePayload: GoogleUserPayload): Promise<{ user: User; isNewUser: boolean }> {
 		let user = await this.prisma.user.findUnique({
 			where: { googleSub: googlePayload.googleSub },
@@ -48,26 +49,26 @@ export class UsersService {
 		return { user, isNewUser };
 	}
 
+	// GET Profile
 	async getProfile(userId: string): Promise<ResponseDto<ProfileMeDto>> {
 		const user = await this.prisma.user.findUnique({
 			where: { userId },
 			select: UserSelect.profile,
 		});
-
 		if (!user) throw new NotFoundException('User not found');
 
-		const { onboardingSurvey, catSessions, ...rest } = user;
-
+		const { onboardingSurvey, placementSessions, surveySkippedAt, placementSkippedAt, ...rest } = user;
 		const profileData = {
 			...rest,
-			surveyCompleted: onboardingSurvey.length > 0,
-			placementCompleted: catSessions.length > 0,
-			cefrLevel: catSessions[0]?.cefrLevel ?? null,
+			surveyStatus: this.computeOnboardingStatus(onboardingSurvey.length > 0, surveySkippedAt),
+			placementStatus: this.computeOnboardingStatus(placementSessions.length > 0, placementSkippedAt),
+			cefrLevel: placementSessions[0]?.cefrLevel ?? null,
 		};
 
 		return ResponseDto.success(ProfileMeDto, profileData, 'Lấy thông tin thành công');
 	}
 
+	// UPDATE Profile
 	async updateProfile(userId: string, dto: UpdateProfileDto): Promise<ResponseDto<ProfileMeDto>> {
 		const user = await this.prisma.user.update({
 			where: { userId },
@@ -79,17 +80,22 @@ export class UsersService {
 			select: UserSelect.profile,
 		});
 
-		const { onboardingSurvey, catSessions, ...rest } = user;
-
+		const { onboardingSurvey, placementSessions, surveySkippedAt, placementSkippedAt, ...rest } = user;
 		const profileData = {
 			...rest,
-			surveyCompleted: onboardingSurvey.length > 0,
-			placementCompleted: catSessions.length > 0,
-			cefrLevel: catSessions[0]?.cefrLevel ?? null,
+			// surveyCompleted: onboardingSurvey.length > 0,
+			// placementCompleted: placementSessions.length > 0,
+
+			survetStatus: this.computeOnboardingStatus(onboardingSurvey.length > 0, surveySkippedAt),
+			placementStatus: this.computeOnboardingStatus(placementSessions.length > 0, placementSkippedAt),
+
+			cefrLevel: placementSessions[0]?.cefrLevel ?? null,
 		};
 
 		return ResponseDto.success(ProfileMeDto, profileData, 'Cập nhật thông tin thành công');
 	}
+
+	// DELETE Account
 	async deleteAccount(userId: string): Promise<ResponseDto<null>> {
 		await this.prisma.user.update({
 			where: { userId },
@@ -155,5 +161,11 @@ export class UsersService {
 		if (user.deletedAt)
 			throw new UnauthorizedException('Your account has been deleted. Please contact support to restore.');
 		if (!user.isActive) throw new UnauthorizedException('Your account is inactive. Please contact support.');
+	}
+
+	private computeOnboardingStatus(hasRecord: boolean, skippedAt: Date | null): OnboardingStatus {
+		if (hasRecord) return 'completed';
+		if (skippedAt !== null) return 'skipped';
+		return 'pending';
 	}
 }
