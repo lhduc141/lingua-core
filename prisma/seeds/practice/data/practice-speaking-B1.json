@@ -1,0 +1,576 @@
+{
+	"skill": "speaking",
+	"cefrLevel": "B1",
+	"practiceSets": [
+		{
+			"title": "Discuss Environmental Problems",
+			"description": "Examine the causes of pollution and explore potential solutions for a greener planet.",
+			"estimatedMinutes": 25,
+			"mcqQuestions": [
+				{
+					"stemText": "If we don't reduce carbon emissions, global temperatures ___ to rise.",
+					"options": ["will continue", "continued", "would continue", "continues"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Many species are at risk of ___ due to the destruction of their natural habitats.",
+					"options": ["extinction", "existence", "expansion", "exhaustion"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The city's air quality has ___ significantly since the new factory opened.",
+					"options": ["deteriorated", "improved", "decorated", "developed"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We should encourage people to use ___ energy sources like solar and wind power.",
+					"options": ["renewable", "reliable", "recycled", "reversible"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Plastic waste in the ocean is a ___ issue that requires international cooperation.",
+					"options": ["global", "local", "personal", "minor"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The government is trying to ___ awareness about the dangers of single-use plastics.",
+					"options": ["raise", "rise", "lift", "grow"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "It is important to ___ our trash to reduce the amount of waste in landfills.",
+					"options": ["sort", "sell", "send", "save"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Deforestation is mainly ___ by the need for more agricultural land.",
+					"options": ["caused", "reasoned", "resulted", "effected"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe an environmental problem that is common in your country or city. You should say what the problem is, what causes it, and how it affects people's lives. Speak for 60–90 seconds.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Do you think individual actions, like recycling, are enough to save the environment, or should governments take more responsibility? Explain your opinion for 60–90 seconds.",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Talk About Career Goals",
+			"description": "Practice discussing your professional ambitions and the steps needed to achieve them.",
+			"estimatedMinutes": 25,
+			"mcqQuestions": [
+				{
+					"stemText": "I hope to ___ a promotion to a senior management position within two years.",
+					"options": ["achieve", "make", "do", "look"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "To be successful in this field, you need to have the right ___ and experience.",
+					"options": ["qualifications", "quantities", "qualities", "questions"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "By this time next year, I ___ my Master's degree in Business Administration.",
+					"options": ["will have finished", "will finish", "am finishing", "finished"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "She is looking for an ___ to gain some practical experience in marketing.",
+					"options": ["internship", "interview", "interest", "instruction"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I am planning to ___ a professional training course to improve my coding skills.",
+					"options": ["attend", "assist", "apply", "appear"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Finding a mentor can help you ___ your career more effectively.",
+					"options": ["navigate", "negotiate", "notice", "nominate"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I find it very rewarding to work in a field that ___ to society.",
+					"options": ["contributes", "controls", "connects", "collects"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "What are the most important ___ you need for your dream job?",
+					"options": ["skills", "tools", "items", "subjects"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Talk about your career goals for the next five years. You should mention what job you want to have, what skills you need to learn, and why this path interests you. Speak for 60–90 seconds.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "In your opinion, is it more important to choose a career based on a high salary or based on your personal passion? Explain your reasons for 60–90 seconds.",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Discuss Social Media Impact",
+			"description": "Analyze the influence of social platforms on communication and mental well-being.",
+			"estimatedMinutes": 25,
+			"mcqQuestions": [
+				{
+					"stemText": "Some people argue that social media makes us feel more ___ from real-life interactions.",
+					"options": ["disconnected", "disturbed", "disappointed", "disorganized"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "It is easy to get ___ by the constant notifications on our phones.",
+					"options": ["distracted", "directed", "delayed", "detailed"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Many influencers use their platforms to ___ their followers' opinions.",
+					"options": ["influence", "insist", "invite", "invent"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Spending too much time online can have a negative ___ on our mental health.",
+					"options": ["impact", "improvement", "impression", "increase"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We must be careful about the ___ we share on public profiles.",
+					"options": ["information", "instruction", "invention", "importance"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Social media allows us to stay in ___ with friends who live far away.",
+					"options": ["touch", "sight", "mind", "hand"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Cyberbullying is a serious problem that ___ many young people today.",
+					"options": ["affects", "effects", "affords", "efforts"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The spread of ___ news is a major concern on many social platforms.",
+					"options": ["fake", "falsehood", "faulty", "fail"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe how social media has changed the way you communicate with your friends and family. Mention both positive and negative changes. Speak for 60–90 seconds.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Some people believe that social media does more harm than good to society. Do you agree or disagree? Give your reasons for 60–90 seconds.",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Describe a Cultural Experience",
+			"description": "Share stories about traditions, food, or festivals that reflect cultural diversity.",
+			"estimatedMinutes": 25,
+			"mcqQuestions": [
+				{
+					"stemText": "I had never ___ such a colorful traditional dance before I visited Hue.",
+					"options": ["seen", "see", "saw", "seeing"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Learning about different ___ helps us become more open-minded.",
+					"options": ["customs", "costumes", "customers", "comforts"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The local food was very ___ from anything I had ever tasted in my hometown.",
+					"options": ["different", "difficult", "diverse", "distinct"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We were warmly ___ by the local family who hosted us.",
+					"options": ["welcomed", "warned", "watched", "wondered"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "It is important to preserve our cultural ___ for future generations.",
+					"options": ["heritage", "history", "habit", "health"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The festival provided a unique ___ to learn about ancient rituals.",
+					"options": ["opportunity", "option", "operation", "opinion"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I found the local traditions to be absolutely ___.",
+					"options": ["fascinating", "fascinated", "fashionable", "fast"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "By the time we arrived, the ceremony ___ already started.",
+					"options": ["had", "has", "have", "having"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a cultural experience you had, such as attending a traditional wedding or festival. Mention where it was, what happened, and what you learned. Speak for 60–90 seconds.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Why is it important for people to learn about cultures other than their own? Discuss the benefits for 60–90 seconds.",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Discuss Health Trends",
+			"description": "Evaluate modern health habits, from organic diets to digital wellness apps.",
+			"estimatedMinutes": 25,
+			"mcqQuestions": [
+				{
+					"stemText": "Lately, many people ___ more organic food to avoid pesticides.",
+					"options": ["have been buying", "bought", "will buy", "buy"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Intermittent ___ has become a popular trend for weight management.",
+					"options": ["fasting", "fishing", "filling", "finding"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Mental ___ is just as important as physical fitness.",
+					"options": ["wellbeing", "welcome", "wealth", "weather"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Some people prefer to use apps to ___ their daily steps and calories.",
+					"options": ["track", "trick", "truck", "trace"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Yoga and meditation are great ways to reduce ___ levels.",
+					"options": ["stress", "strength", "success", "storm"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I used ___ eat a lot of fast food, but now I cook at home.",
+					"options": ["to", "for", "with", "at"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "A balanced ___ should include plenty of vegetables and lean protein.",
+					"options": ["diet", "dish", "duty", "date"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Regular physical ___ is essential for maintaining a healthy heart.",
+					"options": ["activity", "action", "active", "actor"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Talk about a health trend that you know about or have tried yourself. Describe what it involves and whether you think it is effective. Speak for 60–90 seconds.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Do you think people are more health-conscious today than they were in the past? Give examples to support your view. Speak for 60–90 seconds.",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Talk About Education Systems",
+			"description": "Compare different approaches to learning and the value of modern education.",
+			"estimatedMinutes": 25,
+			"mcqQuestions": [
+				{
+					"stemText": "The school ___ needs to be updated to include more technology skills.",
+					"options": ["curriculum", "campus", "classroom", "certificate"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Students who perform well academically may be eligible for a ___.",
+					"options": ["scholarship", "scholar", "schooling", "schedule"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Vocational schools provide students ___ practical skills for specific jobs.",
+					"options": ["with", "for", "by", "to"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "In many countries, primary education is ___ and free for everyone.",
+					"options": ["compulsory", "complicated", "complete", "comfortable"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Many students feel a lot of ___ to pass their final exams.",
+					"options": ["pressure", "presence", "price", "power"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Online learning ___ more flexible for people who work full-time.",
+					"options": ["is considered", "considers", "considering", "is considering"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Teachers should encourage students to think ___ and ask questions.",
+					"options": ["critically", "carefully", "clearly", "cheaply"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The teacher, ___ is very experienced, explained the topic clearly.",
+					"options": ["who", "which", "whom", "whose"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe the education system in your country. Talk about the different levels of schooling and what you think of the teaching methods. Speak for 60–90 seconds.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Should university education be free for everyone, or should students pay tuition fees? Discuss the pros and cons for 60–90 seconds.",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Discuss Work-Life Balance",
+			"description": "Examine the challenges of managing professional duties and personal time.",
+			"estimatedMinutes": 25,
+			"mcqQuestions": [
+				{
+					"stemText": "Many employees struggle ___ a healthy balance between work and home.",
+					"options": ["to find", "finding", "find", "found"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Working ___ allows people to save time on commuting.",
+					"options": ["remotely", "roughly", "rarely", "rapidly"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Flexible working hours can help reduce the risk of ___.",
+					"options": ["burnout", "breakout", "build-up", "back-up"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I enjoy ___ time with my family during the weekends.",
+					"options": ["spending", "to spend", "spend", "spent"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "A long commute can be very ___ and stressful.",
+					"options": ["exhausting", "exhausted", "example", "excited"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "If I ___ more free time, I would take up a new hobby.",
+					"options": ["had", "have", "will have", "am having"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Employers should respect their staff's right to ___ after work hours.",
+					"options": ["disconnect", "distribute", "disagree", "discover"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Overtime work should be ___ avoided whenever possible.",
+					"options": ["ideally", "instead", "indeed", "item"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe your typical daily schedule and how much time you spend on work or study versus relaxation. Speak for 60–90 seconds.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Why is it important to have a good work-life balance? Discuss the consequences of working too much for 60–90 seconds.",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Describe a News Story",
+			"description": "Report on a recent event and explain its significance to the community.",
+			"estimatedMinutes": 25,
+			"mcqQuestions": [
+				{
+					"stemText": "The journalist ___ that the new bridge would open next month.",
+					"options": ["reported", "replied", "reminded", "refused"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I saw a shocking ___ in the newspaper this morning.",
+					"options": ["headline", "header", "heading", "headphone"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "According to the news, the economy is expected to ___ this year.",
+					"options": ["grow", "growth", "grown", "grew"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "They said that the police ___ the cause of the accident.",
+					"options": ["were investigating", "investigate", "is investigating", "investigates"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "A lot of people gathered to watch the live ___ of the event.",
+					"options": ["coverage", "cover", "covering", "covered"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The government announced a new ___ to help small businesses.",
+					"options": ["policy", "police", "polite", "politics"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I usually follow the news on social media to stay ___.",
+					"options": ["informed", "information", "inform", "informing"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "It was reported that several houses ___ by the flood.",
+					"options": ["had been damaged", "damaged", "damaging", "have damaged"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Tell me about a news story you heard or read about recently. Explain what happened, where it happened, and why it caught your attention. Speak for 60–90 seconds.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "How do most people in your country get their news? Do you think the internet is a reliable source of information? Explain for 60–90 seconds.",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Talk About Sustainable Living",
+			"description": "Discuss eco-friendly habits and how to reduce your carbon footprint.",
+			"estimatedMinutes": 25,
+			"mcqQuestions": [
+				{
+					"stemText": "If everyone lived more sustainably, the earth ___ a better place.",
+					"options": ["would be", "will be", "is", "was"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Using a reusable water bottle helps to reduce plastic ___.",
+					"options": ["waste", "waist", "west", "worst"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We should try to buy products with minimal ___.",
+					"options": ["packaging", "packing", "package", "packet"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Eating less meat can significantly lower your carbon ___.",
+					"options": ["footprint", "football", "footstep", "footpath"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Eco-friendly products are often made from ___ materials.",
+					"options": ["sustainable", "suitable", "substantial", "successful"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I try to ___ energy by turning off the lights when I leave a room.",
+					"options": ["conserve", "consume", "convert", "confirm"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Buying second-hand clothes is a great way to ___ our environment.",
+					"options": ["protect", "prevent", "provide", "produce"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Many people are now choosing to ___ to work instead of driving.",
+					"options": ["cycle", "circle", "cyclist", "cycled"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Talk about some changes you have made, or would like to make, to live a more sustainable lifestyle. Mention why these changes are important. Speak for 60–90 seconds.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Do you think it is more expensive to live an eco-friendly life? Why or why not? Give examples for 60–90 seconds.",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Discuss Technology and Society",
+			"description": "Examine how innovations like AI and automation are reshaping our daily lives.",
+			"estimatedMinutes": 25,
+			"mcqQuestions": [
+				{
+					"stemText": "Artificial Intelligence is being ___ in many industries to increase efficiency.",
+					"options": ["used", "using", "use", "uses"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Technology has made it possible for people to work from ___.",
+					"options": ["anywhere", "nowhere", "somewhere", "everywhere"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "One concern about automation is that it might lead to ___.",
+					"options": ["unemployment", "uniform", "university", "unit"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We need to protect our digital ___ when using the internet.",
+					"options": ["privacy", "private", "prime", "primary"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Innovation in technology happens at a very ___ pace these days.",
+					"options": ["rapid", "rough", "rare", "ready"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "It is thought that robots ___ many manual jobs in the future.",
+					"options": ["will replace", "replaced", "replaces", "replacing"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "New gadgets are often more ___ than older versions.",
+					"options": ["expensive", "expanded", "expected", "experienced"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Technology can help solve problems, but it can also ___ new ones.",
+					"options": ["create", "carry", "clear", "choose"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a recent technological innovation that you think has changed society. Explain what it is and how it has affected people's lives. Speak for 60–90 seconds.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "In the future, do you think technology will make people's lives easier or more complicated? Give your opinion for 60–90 seconds.",
+					"durationSeconds": 75
+				}
+			]
+		}
+	]
+}

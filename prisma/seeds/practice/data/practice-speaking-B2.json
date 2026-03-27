@@ -1,0 +1,576 @@
+{
+	"skill": "speaking",
+	"cefrLevel": "B2",
+	"practiceSets": [
+		{
+			"title": "Debate: Social Media and Privacy",
+			"description": "Evaluate the tension between digital connectivity and the fundamental right to personal data protection.",
+			"estimatedMinutes": 30,
+			"mcqQuestions": [
+				{
+					"stemText": "Many users are unaware of how corporations ___ their personal data for targeted advertising.",
+					"options": ["exploit", "explore", "expand", "exhibit"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "A significant data ___ can lead to identity theft and financial loss for millions.",
+					"options": ["breach", "break", "bridge", "branch"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The government's new ___ measures have sparked a heated debate about state surveillance.",
+					"options": ["security", "secretion", "secondary", "sector"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "If platforms ___ more transparent, users would trust them with their information.",
+					"options": ["were", "are", "have been", "will be"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Users should be required to give explicit ___ before their data is shared with third parties.",
+					"options": ["consent", "content", "contest", "context"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The algorithm is designed to curate content based on your previous ___.",
+					"options": ["interactions", "intentions", "interruptions", "integrations"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Privacy settings are often ___ hidden within complex terms and conditions.",
+					"options": ["deliberately", "delicately", "definitely", "deservedly"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "It is highly ___ whether social media companies can truly regulate themselves.",
+					"options": ["questionable", "questioning", "questioned", "questionless"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "You are participating in a debate about online privacy. Present a structured argument (90–120 seconds) focusing on: the risks of data collection, the responsibility of tech companies, and how individuals can protect themselves.",
+					"durationSeconds": 105
+				},
+				{
+					"prompt": "In your opinion, is it still possible to maintain true privacy in the age of the internet, or is 'the end of privacy' an inevitable consequence of progress? Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				}
+			]
+		},
+		{
+			"title": "Discuss Globalization Effects",
+			"description": "Analyze the multifaceted impact of global interconnectedness on local economies and cultures.",
+			"estimatedMinutes": 30,
+			"mcqQuestions": [
+				{
+					"stemText": "Globalization has led to the ___ of many traditional local industries.",
+					"options": ["decline", "degree", "decay", "defeat"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Multi-national corporations often ___ production to countries with lower labor costs.",
+					"options": ["outsource", "outcome", "outfit", "outrun"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Critics argue that globalization promotes cultural ___, making everywhere look the same.",
+					"options": ["homogenization", "harmony", "heritage", "humanity"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The world has become increasingly ___ due to advancements in transportation and tech.",
+					"options": ["interdependent", "independent", "indifferent", "insignificant"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Economic ___ allow for the free flow of goods and services between nations.",
+					"options": ["treaties", "trials", "threats", "trades"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "One of the benefits of globalization is the increased ___ of diverse products.",
+					"options": ["availability", "avoidance", "authority", "awareness"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Small businesses often struggle to ___ with giant global brands.",
+					"options": ["compete", "complete", "comply", "compose"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Globalization has ___ both positive and negative consequences for developing nations.",
+					"options": ["yielded", "yelled", "yearned", "yanked"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Discuss the impact of globalization on Vietnam's culture and economy. Cover: changes in lifestyle, the influence of foreign brands, and the preservation of traditions. Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				},
+				{
+					"prompt": "Do you believe that globalization brings the world closer together, or does it primarily benefit wealthy nations at the expense of others? Support your view for 90–120 seconds.",
+					"durationSeconds": 105
+				}
+			]
+		},
+		{
+			"title": "Analyze an Ethical Dilemma",
+			"description": "Explore complex moral scenarios and justify decisions based on ethical principles.",
+			"estimatedMinutes": 30,
+			"mcqQuestions": [
+				{
+					"stemText": "When faced with an ethical dilemma, one must consider the long-term ___ of their actions.",
+					"options": ["consequences", "concerns", "conclusions", "concessions"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Maintaining professional ___ is essential when handling sensitive company information.",
+					"options": ["integrity", "intensity", "intelligence", "intention"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "___ is often seen as a courageous act, even if it risks one's own career.",
+					"options": ["Whistleblowing", "Whispering", "Wrestling", "Watching"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "He was caught in a ___ between his loyalty to his friend and his duty to the law.",
+					"options": ["conflict", "comfort", "conduct", "contact"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Ethical standards ___ significantly across different cultures and eras.",
+					"options": ["vary", "value", "verify", "view"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Is it ever ___ to lie if the outcome benefits a large group of people?",
+					"options": ["justifiable", "justice", "justly", "justifying"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The committee had to ___ the benefits against the potential risks of the project.",
+					"options": ["weigh", "wait", "waste", "watch"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "She acted in ___ with her personal values, despite the social pressure.",
+					"options": ["accordance", "account", "accuracy", "access"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Imagine you discover a colleague is acting dishonestly to meet sales targets. Describe how you would handle the situation, who you would talk to, and why. Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				},
+				{
+					"prompt": "In your opinion, is 'the end justifies the means' a valid ethical philosophy in modern business? Why or why not? Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				}
+			]
+		},
+		{
+			"title": "Discuss Economic Inequality",
+			"description": "Examine the causes of the wealth gap and evaluate strategies for social mobility.",
+			"estimatedMinutes": 30,
+			"mcqQuestions": [
+				{
+					"stemText": "The widening wealth ___ is a major concern for economists worldwide.",
+					"options": ["gap", "gate", "gain", "gear"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Limited access to quality education often hinders social ___.",
+					"options": ["mobility", "motion", "motive", "moment"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Governments use ___ taxation as a tool to redistribute wealth.",
+					"options": ["progressive", "productive", "protective", "proactive"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Many families are still living below the poverty ___.",
+					"options": ["line", "level", "limit", "link"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Economic inequality can lead to social ___ and political instability.",
+					"options": ["unrest", "unlike", "unfit", "unreal"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Inflation tends to hit ___ communities the hardest.",
+					"options": ["marginalized", "magnified", "maintained", "marketed"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The distribution of resources should be based on ___ and need.",
+					"options": ["equity", "equal", "entry", "error"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Technological advancement has ___ improved productivity but also increased inequality.",
+					"options": ["simultaneously", "singularly", "simply", "sincerely"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Analyze the main causes of economic inequality in modern society. Mention: education, inheritance, and the role of technology. Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				},
+				{
+					"prompt": "Do you believe it is the government's primary responsibility to ensure an equal distribution of wealth? Explain your perspective for 90–120 seconds.",
+					"durationSeconds": 105
+				}
+			]
+		},
+		{
+			"title": "Critique a Media Report",
+			"description": "Develop critical thinking skills by identifying bias and evaluating the credibility of news.",
+			"estimatedMinutes": 30,
+			"mcqQuestions": [
+				{
+					"stemText": "Readers should be wary of ___ headlines that prioritize clicks over accuracy.",
+					"options": ["sensationalist", "sentimental", "sensible", "sensitive"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The journalist was accused of ___ because of her close ties to the politician.",
+					"options": ["bias", "base", "bond", "brief"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "A reliable news source will always ___ its facts before publishing.",
+					"options": ["verify", "vary", "value", "view"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "It is essential to distinguish between objective reporting and ___ opinion pieces.",
+					"options": ["subjective", "subtle", "subsequent", "substantial"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The report provides a ___ overview of the current crisis.",
+					"options": ["comprehensive", "compressed", "competent", "complex"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Social media has accelerated the ___ of misinformation.",
+					"options": ["dissemination", "dismissal", "discussion", "discovery"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Freedom of the ___ is a cornerstone of a democratic society.",
+					"options": ["press", "print", "praise", "price"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The article ___ to have exclusive information from an anonymous source.",
+					"options": ["claims", "calls", "checks", "counts"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Choose a recent news story you found questionable. Critique it by discussing: the source's reputation, potential bias, and whether enough evidence was provided. Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				},
+				{
+					"prompt": "With the rise of citizen journalism on social media, do you think traditional news organizations are still necessary? Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				}
+			]
+		},
+		{
+			"title": "Debate: AI in Education",
+			"description": "Debate the potential of Artificial Intelligence to transform learning versus the risks of automation.",
+			"estimatedMinutes": 30,
+			"mcqQuestions": [
+				{
+					"stemText": "AI tools can provide ___ learning experiences tailored to each student's needs.",
+					"options": ["personalized", "permanent", "persuasive", "perceived"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "There are concerns that students might use AI to ___ on their assignments.",
+					"options": ["plagiarize", "practice", "prepare", "present"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The ___ of AI in schools requires significant teacher training.",
+					"options": ["implementation", "implication", "impression", "improvement"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Critics argue that over-reliance on technology may weaken students' ___ thinking.",
+					"options": ["critical", "crucial", "creative", "certain"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "AI can help teachers ___ administrative tasks, saving them time.",
+					"options": ["automate", "author", "augment", "audit"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The data collected by educational apps must be kept ___ and secure.",
+					"options": ["confidential", "confident", "convenient", "conducive"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Technology should be seen as a ___ rather than a replacement for teachers.",
+					"options": ["supplement", "segment", "substitute", "subject"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Ethical ___ regarding AI must be addressed by policymakers immediately.",
+					"options": ["considerations", "consequences", "conventions", "conditions"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Argumentative Task: Is AI more of a threat or a tool in the classroom? Address: academic integrity, accessibility for poor students, and the changing role of the teacher. Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				},
+				{
+					"prompt": "How do you imagine the university of the future will look if AI becomes the primary method of instruction? Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				}
+			]
+		},
+		{
+			"title": "Discuss Climate Change Solutions",
+			"description": "Evaluate global and local strategies to mitigate the effects of climate change.",
+			"estimatedMinutes": 30,
+			"mcqQuestions": [
+				{
+					"stemText": "To prevent global warming from worsening, we must drastically reduce our ___ footprint.",
+					"options": ["carbon", "coal", "clean", "cycle"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Switching to ___ energy is no longer an option but a necessity.",
+					"options": ["sustainable", "suitable", "subsequent", "substantial"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The government is considering ___ for businesses that adopt green technologies.",
+					"options": ["subsidies", "substances", "subjects", "suburbs"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Climate change ___ involves both reducing emissions and adapting to new conditions.",
+					"options": ["mitigation", "migration", "motive", "mention"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We must move away from our reliance on ___ fuels like oil and gas.",
+					"options": ["fossil", "forest", "formal", "forced"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The melting of polar ice caps is a clear ___ of rising global temperatures.",
+					"options": ["indicator", "incident", "insight", "influence"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Raising public ___ is the first step toward significant policy change.",
+					"options": ["awareness", "authority", "avoidance", "agreement"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "International agreements are only effective if all nations ___ to their targets.",
+					"options": ["adhere", "adjust", "admire", "advise"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Talk about the most effective ways to combat climate change. Consider: individual lifestyle changes, government regulations, and technological innovation. Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				},
+				{
+					"prompt": "Do you think developed nations should pay more to solve climate change than developing ones? Justify your opinion for 90–120 seconds.",
+					"durationSeconds": 105
+				}
+			]
+		},
+		{
+			"title": "Analyze Political Participation",
+			"description": "Discuss the importance of civic engagement and the factors that influence political involvement.",
+			"estimatedMinutes": 30,
+			"mcqQuestions": [
+				{
+					"stemText": "A low voter ___ can sometimes indicate widespread political apathy.",
+					"options": ["turnout", "turnover", "turnback", "turndown"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Active ___ engagement is vital for the health of any democracy.",
+					"options": ["civic", "civil", "city", "circle"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Young people are increasingly using social media for political ___.",
+					"options": ["activism", "activity", "action", "actor"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Lobbyists try to ___ government officials to support certain policies.",
+					"options": ["influence", "insist", "invite", "invent"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The ___ process should be transparent and fair for all candidates.",
+					"options": ["electoral", "electric", "elemental", "elegant"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Citizens have the right to peaceful ___ against laws they find unjust.",
+					"options": ["protest", "project", "product", "process"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Political ___ can occur when people feel their voices are not being heard.",
+					"options": ["polarization", "population", "pollution", "position"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Education plays a ___ role in preparing people for informed participation.",
+					"options": ["pivotal", "plain", "partial", "polite"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe the different ways people can participate in politics beyond just voting. Mention: volunteering, protesting, and joining community groups. Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				},
+				{
+					"prompt": "Do you think that voting should be made compulsory by law to ensure everyone participates? Discuss the potential benefits and drawbacks for 90–120 seconds.",
+					"durationSeconds": 105
+				}
+			]
+		},
+		{
+			"title": "Discuss Psychology of Decisions",
+			"description": "Explore the mental processes and biases that shape our daily choices and behaviors.",
+			"estimatedMinutes": 30,
+			"mcqQuestions": [
+				{
+					"stemText": "A ___ bias can lead us to favor information that confirms our existing beliefs.",
+					"options": ["cognitive", "content", "careful", "constant"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Sometimes we make decisions based on ___ rather than logic.",
+					"options": ["intuition", "intention", "instruction", "invention"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The fear of missing out often drives ___ purchases online.",
+					"options": ["impulse", "impact", "image", "item"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "When faced with too many choices, people often experience decision ___.",
+					"options": ["fatigue", "failure", "feature", "factor"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Risk ___ is a psychological factor that varies greatly between individuals.",
+					"options": ["assessment", "assistant", "assertion", "assembly"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Social proof is a phenomenon where people ___ the behavior of others.",
+					"options": ["mimic", "mind", "miss", "move"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We tend to ___ the value of immediate rewards over long-term gains.",
+					"options": ["overestimate", "overlook", "overcome", "overtake"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Emotions play a ___ role in how we perceive risks and benefits.",
+					"options": ["crucial", "critical", "creative", "certain"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Explain a time when you made a decision you later regretted. Discuss: the factors that influenced you, whether you were being logical, and what you learned. Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				},
+				{
+					"prompt": "To what extent do you think advertising manipulates our psychology to make us buy things we don't need? Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				}
+			]
+		},
+		{
+			"title": "Debate: Future of Work",
+			"description": "Examine how the gig economy and remote work are redefining professional life.",
+			"estimatedMinutes": 30,
+			"mcqQuestions": [
+				{
+					"stemText": "The rise of the ___ economy has provided more flexibility but less job security.",
+					"options": ["gig", "get", "go", "gap"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Many companies are now offering permanent ___ work options for their staff.",
+					"options": ["remote", "rough", "rare", "ready"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "In the future, workers will need to engage in ___ learning to stay relevant.",
+					"options": ["lifelong", "longing", "living", "likely"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The digital ___ is making it easier for people to work from any location.",
+					"options": ["transformation", "transportation", "translation", "transaction"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Soft skills like communication and empathy are becoming more ___.",
+					"options": ["valuable", "various", "vague", "vibrant"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Automation may lead to the ___ of many traditional entry-level jobs.",
+					"options": ["disappearance", "disappointment", "disagreement", "discussion"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Work-life ___ is a top priority for the new generation of employees.",
+					"options": ["balance", "base", "bound", "benefit"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Collaboration in ___ teams requires high levels of cultural awareness.",
+					"options": ["virtual", "vital", "vast", "valid"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Compare traditional office-based work with remote work. Discuss: productivity, mental health, and social interaction with colleagues. Speak for 90–120 seconds.",
+					"durationSeconds": 105
+				},
+				{
+					"prompt": "Do you believe that in the future, people will have several different careers in their lifetime rather than just one? Discuss the implications for 90–120 seconds.",
+					"durationSeconds": 105
+				}
+			]
+		}
+	]
+}

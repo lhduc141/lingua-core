@@ -1,0 +1,576 @@
+{
+	"skill": "speaking",
+	"cefrLevel": "A2",
+	"practiceSets": [
+		{
+			"title": "Describe a Recent Trip",
+			"description": "Learn to use past tenses and travel vocabulary to describe your holiday experiences.",
+			"estimatedMinutes": 20,
+			"mcqQuestions": [
+				{
+					"stemText": "Where ___ you go on your last summer holiday?",
+					"options": ["did", "do", "were", "are"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I stayed in a small ___ near the beach for three nights.",
+					"options": ["hotel", "station", "office", "market"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We went ___ in the old town to see the famous buildings.",
+					"options": ["sightseeing", "sightseen", "sightsaw", "sightsees"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The flight was very ___ because it took ten hours.",
+					"options": ["tiring", "tired", "tire", "tiresome"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "My sister bought many ___ for her friends at the airport.",
+					"options": ["souvenirs", "tickets", "passports", "luggage"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The weather ___ sunny and warm every day of the trip.",
+					"options": ["was", "were", "is", "been"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We ___ a lot of delicious seafood at the local market.",
+					"options": ["ate", "eaten", "eat", "eats"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "How long ___ the bus journey to the mountains take?",
+					"options": ["did", "was", "does", "is"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Tell me about a trip you went on recently. You should say where you went, who you went with, and what you did there. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				},
+				{
+					"prompt": "In your opinion, why do many people like to travel to the beach for their holidays? Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				}
+			]
+		},
+		{
+			"title": "Talk About Your Job or Studies",
+			"description": "Practice talking about your daily responsibilities at work or your subjects at school.",
+			"estimatedMinutes": 20,
+			"mcqQuestions": [
+				{
+					"stemText": "What do you ___ for a living?",
+					"options": ["do", "make", "work", "job"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I work ___ a large international company in the city center.",
+					"options": ["for", "at", "to", "on"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "My brother is ___ biology at a famous university.",
+					"options": ["studying", "study", "studies", "studied"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I have to ___ many emails and reports every morning.",
+					"options": ["write", "talk", "speak", "listen"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "My colleagues are very ___ and always help me with my tasks.",
+					"options": ["friendly", "friend", "friendship", "friendlily"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I usually ___ my home at 7:30 AM to go to work.",
+					"options": ["leave", "go", "move", "start"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "What is your favorite ___ at school or university?",
+					"options": ["subject", "object", "topic", "lesson"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I want to ___ a doctor because I like helping people.",
+					"options": ["become", "get", "grow", "make"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe your current job or the course you are studying. You should say what your main tasks are and what you like about it. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				},
+				{
+					"prompt": "Do you think it is more important to have a high salary or to enjoy your work? Explain why. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				}
+			]
+		},
+		{
+			"title": "Discuss Health and Fitness",
+			"description": "Discuss your exercise habits and how you maintain a healthy lifestyle.",
+			"estimatedMinutes": 20,
+			"mcqQuestions": [
+				{
+					"stemText": "You should eat more fruit and ___ to stay healthy.",
+					"options": ["vegetables", "candies", "burgers", "snacks"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "How ___ do you go to the gym or play sports?",
+					"options": ["often", "many", "much", "long"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I feel very ___ because I didn't sleep enough last night.",
+					"options": ["tired", "tiring", "tire", "tires"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Drinking eight glasses of ___ every day is good for you.",
+					"options": ["water", "coffee", "soda", "juice"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Walking to work is a simple way to ___ fit.",
+					"options": ["keep", "do", "make", "take"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I have a terrible ___ and need to see a dentist.",
+					"options": ["toothache", "headache", "backache", "stomachache"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "You shouldn't eat too much ___ food like fried chicken.",
+					"options": ["oily", "sweet", "fresh", "healthy"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Running is ___ for your heart than sitting all day.",
+					"options": ["better", "best", "good", "well"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe your daily routine for staying healthy. You should talk about the food you eat and the exercise you do. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				},
+				{
+					"prompt": "Do you think children nowadays are less healthy than they were in the past? Why or why not? Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				}
+			]
+		},
+		{
+			"title": "Talk About a Hobby or Sport",
+			"description": "Express your interests and explain why you enjoy specific leisure activities.",
+			"estimatedMinutes": 20,
+			"mcqQuestions": [
+				{
+					"stemText": "My father likes to ___ fishing on Sunday mornings.",
+					"options": ["go", "play", "do", "make"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I started ___ the piano when I was seven years old.",
+					"options": ["playing", "going", "doing", "making"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Photography is a very ___ hobby because cameras are pricey.",
+					"options": ["expensive", "cheap", "boring", "easy"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We need a ___ and a shuttlecock to play badminton.",
+					"options": ["racket", "bat", "club", "stick"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "How many times a week do you ___ yoga?",
+					"options": ["do", "play", "go", "make"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I am really ___ in learning how to cook Italian food.",
+					"options": ["interested", "interesting", "interest", "interests"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Reading books helps me ___ after a long day at work.",
+					"options": ["relax", "relaxed", "relaxing", "relaxes"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "My favorite football team ___ the match last night.",
+					"options": ["won", "beat", "hit", "scored"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a hobby or sport you enjoy doing in your free time. You should say what it is, how often you do it, and why you like it. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				},
+				{
+					"prompt": "Do you prefer individual sports like running or team sports like football? Explain your choice. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				}
+			]
+		},
+		{
+			"title": "Describe Your Neighborhood",
+			"description": "Learn to describe the facilities and atmosphere of the area where you live.",
+			"estimatedMinutes": 20,
+			"mcqQuestions": [
+				{
+					"stemText": "My house is located ___ to a large public park.",
+					"options": ["next", "near", "between", "among"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "There is a lot of ___ on my street during rush hour.",
+					"options": ["traffic", "cars", "people", "buses"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The neighbors in my area are very ___ and quiet.",
+					"options": ["polite", "noisy", "rude", "busy"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Is there a ___ near your house where I can buy bread?",
+					"options": ["supermarket", "library", "cinema", "gym"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "My neighborhood is very ___ because there are no loud clubs.",
+					"options": ["peaceful", "crowded", "dirty", "expensive"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "There are many modern coffee ___ in this part of the city.",
+					"options": ["shops", "stores", "houses", "buildings"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I live in a small ___ on the fifth floor of that building.",
+					"options": ["apartment", "garden", "garage", "cottage"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The air here is very ___ because there are many trees.",
+					"options": ["fresh", "smelly", "hot", "foggy"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe the neighborhood where you live. You should talk about the buildings, the shops, and the people there. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				},
+				{
+					"prompt": "What is one thing you would like to change about your neighborhood to make it a better place to live? Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				}
+			]
+		},
+		{
+			"title": "Discuss Plans for the Weekend",
+			"description": "Practice using future forms to talk about your upcoming social activities and plans.",
+			"estimatedMinutes": 20,
+			"mcqQuestions": [
+				{
+					"stemText": "I am ___ to visit my grandparents this Saturday morning.",
+					"options": ["going", "will", "go", "gone"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "What ___ you do if it rains on Sunday afternoon?",
+					"options": ["will", "are", "do", "going"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We are ___ a small party for my friend's birthday.",
+					"options": ["having", "have", "had", "has"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I want to ___ late on Sunday because I am very tired.",
+					"options": ["sleep", "go", "stay", "wake"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Are you ___ anything special this weekend?",
+					"options": ["doing", "do", "done", "did"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I hope the weather ___ sunny tomorrow so we can go out.",
+					"options": ["is", "will", "be", "was"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "My friends and I ___ to the cinema to watch a new movie.",
+					"options": ["are going", "go", "will going", "goes"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I need to ___ some shopping for my dinner party.",
+					"options": ["do", "make", "take", "get"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Tell me about your plans for this coming weekend. You should say what you are going to do, where you are going, and who you will be with. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				},
+				{
+					"prompt": "Do you think it is important for people to have a rest and not work on weekends? Why? Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				}
+			]
+		},
+		{
+			"title": "Talk About a Film or Book",
+			"description": "Review and describe media using adjectives and narrative descriptions.",
+			"estimatedMinutes": 20,
+			"mcqQuestions": [
+				{
+					"stemText": "That movie was so ___ that I almost cried at the end.",
+					"options": ["sad", "funny", "scary", "exciting"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Who is the main ___ in the book you are reading?",
+					"options": ["character", "actor", "director", "writer"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I love watching ___ movies because they make me laugh.",
+					"options": ["comedy", "horror", "action", "drama"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The original book is usually ___ than the movie version.",
+					"options": ["better", "good", "best", "well"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I read a very interesting ___ about a famous explorer.",
+					"options": ["novel", "newspaper", "magazine", "ticket"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "What ___ of films do you usually like to watch?",
+					"options": ["kind", "sort", "type", "brand"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I don't like horror movies because they are too ___ for me.",
+					"options": ["scary", "boring", "long", "happy"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The story takes ___ in a small village in the mountains.",
+					"options": ["place", "time", "part", "off"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a film or a book that you enjoyed recently. You should say what it was about, who the main characters were, and why you liked it. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				},
+				{
+					"prompt": "Do you prefer watching movies at home or at the cinema? Give reasons for your answer. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				}
+			]
+		},
+		{
+			"title": "Describe a Festival or Tradition",
+			"description": "Discuss cultural events and family traditions in your country.",
+			"estimatedMinutes": 20,
+			"mcqQuestions": [
+				{
+					"stemText": "People often ___ their houses with flowers and lights for Tet.",
+					"options": ["decorate", "clean", "build", "move"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Children receive ___ money in red envelopes from their elders.",
+					"options": ["lucky", "happy", "rich", "new"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We usually eat traditional rice ___ during the Lunar New Year.",
+					"options": ["cakes", "bread", "soup", "sweets"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The atmosphere in the city is very ___ and happy during festivals.",
+					"options": ["exciting", "boring", "quiet", "sad"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Families usually ___ together for a big dinner on New Year's Eve.",
+					"options": ["gather", "go", "work", "talk"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Fireworks look beautiful in the ___ sky at midnight.",
+					"options": ["night", "day", "afternoon", "morning"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "This festival ___ every year in the middle of autumn.",
+					"options": ["happens", "is", "was", "does"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Everyone ___ their best new clothes to visit their relatives.",
+					"options": ["wears", "buys", "makes", "shows"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a traditional festival that is important in your country. You should say when it happens, what people do, and what food they eat. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				},
+				{
+					"prompt": "Why do you think it is important for families to celebrate traditions together? Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				}
+			]
+		},
+		{
+			"title": "Talk About Helping Others",
+			"description": "Use vocabulary related to kindness and community service to describe helping others.",
+			"estimatedMinutes": 20,
+			"mcqQuestions": [
+				{
+					"stemText": "It is important to ___ old people when they cross the busy street.",
+					"options": ["help", "watch", "look", "see"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I gave some of my old clothes to a local ___ organization.",
+					"options": ["charity", "business", "school", "bank"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "My friend is very ___; he always shares his snacks with me.",
+					"options": ["kind", "angry", "selfish", "lazy"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We should all try to ___ the environment by recycling more.",
+					"options": ["protect", "hurt", "break", "leave"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Teaching poor children for free is a wonderful ___ activity.",
+					"options": ["volunteer", "work", "job", "office"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "How did you feel after ___ the homeless people in your city?",
+					"options": ["helping", "help", "helped", "helps"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "You can ___ money or food to the local hospital.",
+					"options": ["donate", "buy", "sell", "take"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "She always ___ her younger brother with his difficult homework.",
+					"options": ["assists", "tells", "makes", "gives"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a time when you helped someone you know or a stranger. You should say who the person was, what you did to help, and how you felt. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				},
+				{
+					"prompt": "How can young people help their local community in their free time? Give some examples. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				}
+			]
+		},
+		{
+			"title": "Discuss Technology Use",
+			"description": "Practice talking about modern gadgets and how technology affects your daily life.",
+			"estimatedMinutes": 20,
+			"mcqQuestions": [
+				{
+					"stemText": "I use my ___ to call my family and send text messages.",
+					"options": ["smartphone", "television", "radio", "fridge"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The internet helps me ___ for information for my school projects.",
+					"options": ["search", "look", "watch", "find"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "You should always ___ your computer before you go to sleep.",
+					"options": ["turn off", "turn up", "turn on", "turn in"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "My new laptop is very ___ so I can carry it in my bag easily.",
+					"options": ["light", "heavy", "dark", "big"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I spend about two hours ___ the web every evening.",
+					"options": ["surfing", "swimming", "running", "walking"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Playing video games for too long is ___ for your eyes.",
+					"options": ["bad", "good", "well", "fine"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Can you ___ me how to use this new photo editing app?",
+					"options": ["show", "tell", "say", "speak"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Most people use ___ media to chat with their friends online.",
+					"options": ["social", "public", "private", "news"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a piece of technology you use every day. You should say what it is, what you use it for, and why it is important to you. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				},
+				{
+					"prompt": "Do you think children nowadays spend too much time on smartphones? Give your opinion and explain why. Speak for 45–60 seconds.",
+					"durationSeconds": 53
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2246 @@
+{
+  "skill": "reading",
+  "cefrLevel": "A2",
+  "lessons": [
+    {
+      "title": "Shopping for Groceries",
+      "description": "In this lesson, learners will read about a shopping trip and practice finding specific details about items and prices. They will also learn to understand the main idea of a short text.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Finding the Main Idea",
+            "content": "The main idea is the most important point the writer wants to tell you. It often answers the question 'What is this text mostly about?' Look at the first and last sentences, or repeated words, to help you find it."
+          },
+          {
+            "type": "tip",
+            "heading": "Scanning for Details",
+            "content": "When you need to find specific information like a name, a number, or a price, you don't need to read every word. Move your eyes quickly over the text until you see the keywords related to your question. This is called scanning."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary in Context",
+            "content": "Sometimes you don't know a word, but you can guess its meaning from the other words around it. For example, if a text says 'The apples were fresh and juicy,' you can guess 'juicy' means they have a lot of liquid, even if you don't know the word exactly."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Trip to the Supermarket",
+        "content": "Yesterday, I went to the supermarket near my house. I needed to buy some food for the week. First, I bought some fresh vegetables: tomatoes, carrots, and a big cabbage. The tomatoes were 20,000 VND per kilo. Then, I went to the fruit section. I chose some sweet oranges and ripe bananas. The bananas cost 15,000 VND for a bunch. I also bought a carton of milk and a loaf of bread. The milk was 30,000 VND and the bread was 12,000 VND. Finally, I paid at the checkout. The total bill was 125,000 VND. It was a good shopping trip, and now my fridge is full!",
+        "wordCount": 113,
+        "topic": "Shopping and Prices"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of this text?",
+          "options": [
+            "The writer likes to eat fruit.",
+            "The writer went shopping for food.",
+            "The supermarket is near the writer's house.",
+            "The writer spent too much money."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What did the writer buy first?",
+          "options": [
+            "Fruit",
+            "Milk",
+            "Vegetables",
+            "Bread"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How much did the bananas cost?",
+          "options": [
+            "20,000 VND",
+            "15,000 VND",
+            "30,000 VND",
+            "12,000 VND"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What other item did the writer buy from the dairy section?",
+          "options": [
+            "Bread",
+            "Bananas",
+            "Milk",
+            "Tomatoes"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What was the total cost of the shopping trip?",
+          "options": [
+            "12,000 VND",
+            "30,000 VND",
+            "125,000 VND",
+            "20,000 VND"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Which word means 'ready to eat' for fruit?",
+          "options": [
+            "Fresh",
+            "Big",
+            "Sweet",
+            "Ripe"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "What does 'checkout' mean in the text?",
+          "options": [
+            "The place where you pay for your items.",
+            "The place where you find vegetables.",
+            "The place where you leave the supermarket.",
+            "The place where you return items."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How does the writer feel after shopping?",
+          "options": [
+            "Tired and hungry",
+            "Happy because the fridge is full",
+            "Sad because of the cost",
+            "Angry with the supermarket"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "A Day Trip to Ho Chi Minh City",
+      "description": "Learners will read about a visit to a big city and practice identifying the sequence of events and understanding specific details about places and activities.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Sequence of Events",
+            "content": "When a text describes a trip or a series of actions, look for words like 'first,' 'then,' 'next,' 'after that,' and 'finally.' These words help you understand the order in which things happened. This is important for following a story or instructions."
+          },
+          {
+            "type": "tip",
+            "heading": "Identifying Key Information",
+            "content": "Not all information in a text is equally important. Focus on the 'who,' 'what,' 'where,' 'when,' and 'why' of the story. These are often the key facts you need to remember or answer questions about. Practice picking out these main points."
+          },
+          {
+            "type": "example",
+            "heading": "Guessing Meaning from Context",
+            "content": "If you see a word like 'landmarks' and the text talks about 'famous buildings like the Opera House and Notre Dame Cathedral,' you can guess that 'landmarks' means important and well-known places or buildings in a city. Use the surrounding words to help you understand."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Exciting Day in Ho Chi Minh City",
+        "content": "Last Saturday, my family and I took a bus to Ho Chi Minh City for a day trip. First, we visited Ben Thanh Market. It was very busy, and we saw many beautiful souvenirs and tried some delicious street food. Then, we walked to the Notre Dame Cathedral and the Central Post Office. These are famous landmarks, and we took many photos there. After that, we had lunch at a nice restaurant with traditional Vietnamese food. In the afternoon, we went to a big shopping mall. My sister bought a new shirt. Finally, before going home, we enjoyed some cool drinks at a cafe. It was a long but wonderful day, and I want to visit again soon!",
+        "wordCount": 124,
+        "topic": "A Trip to the City"
+      },
+      "questions": [
+        {
+          "stemText": "What was the first place the family visited in Ho Chi Minh City?",
+          "options": [
+            "Notre Dame Cathedral",
+            "Ben Thanh Market",
+            "A shopping mall",
+            "A cafe"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What did they do at Ben Thanh Market?",
+          "options": [
+            "Bought a new shirt",
+            "Had lunch",
+            "Saw souvenirs and tried street food",
+            "Took photos of landmarks"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Which two famous landmarks did they visit after the market?",
+          "options": [
+            "Ben Thanh Market and a shopping mall",
+            "Notre Dame Cathedral and the Central Post Office",
+            "A restaurant and a cafe",
+            "The Opera House and a museum"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What kind of food did they eat for lunch?",
+          "options": [
+            "Street food",
+            "Fast food",
+            "Traditional Vietnamese food",
+            "Western food"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What did the sister buy at the shopping mall?",
+          "options": [
+            "Souvenirs",
+            "A new shirt",
+            "Some cool drinks",
+            "Traditional food"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'landmarks' mean in the text?",
+          "options": [
+            "Places to eat",
+            "Important and well-known places",
+            "Shopping areas",
+            "Places to take a bus"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How did the family travel to Ho Chi Minh City?",
+          "options": [
+            "By car",
+            "By train",
+            "By bus",
+            "By motorbike"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How did the writer feel about the day trip?",
+          "options": [
+            "Tired and bored",
+            "Disappointed",
+            "Excited and wanting to go again",
+            "Hungry and thirsty"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "My Favorite Hobbies",
+      "description": "This lesson helps learners understand personal preferences and specific details about hobbies. They will practice identifying key information and understanding why someone enjoys an activity.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Specific Information",
+            "content": "When reading about someone's interests or preferences, look for details that answer 'what,' 'how often,' 'where,' and 'why.' These specific pieces of information help you build a clear picture of the topic. Don't just read; actively look for these facts."
+          },
+          {
+            "type": "tip",
+            "heading": "Understanding Preferences",
+            "content": "Authors often use words like 'love,' 'enjoy,' 'like,' 'favorite,' or 'find it relaxing/interesting' to show what they prefer. Pay attention to these words to understand the writer's feelings about a topic. This helps you grasp their main point."
+          },
+          {
+            "type": "example",
+            "heading": "Inferring Information",
+            "content": "Sometimes the text doesn't directly tell you something, but you can guess it. If someone says 'I spend hours in my garden, watching my flowers grow,' you can infer that gardening makes them feel calm and happy, even if they don't say 'gardening makes me happy'."
+          }
+        ]
+      },
+      "passage": {
+        "title": "What I Love to Do in My Free Time",
+        "content": "I have two favorite hobbies that I really enjoy. First, I love reading books. I usually read for an hour every evening before bed. I like many kinds of books, especially adventure stories and detective novels. Reading helps me relax and learn new things. My second hobby is playing badminton. I play with my friends at the local park every Saturday morning. We usually play for about two hours. It's a great way to stay active and have fun together. I feel happy and energetic after playing. Sometimes, if the weather is bad, I watch films at home instead. Hobbies are important because they help us relax and enjoy life.",
+        "wordCount": 126,
+        "topic": "My Hobbies"
+      },
+      "questions": [
+        {
+          "stemText": "What are the writer's two favorite hobbies?",
+          "options": [
+            "Reading and watching films",
+            "Playing badminton and watching films",
+            "Reading and playing badminton",
+            "Gardening and reading"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How often does the writer read books?",
+          "options": [
+            "Every Saturday morning",
+            "Every evening",
+            "Only when the weather is bad",
+            "For two hours a day"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What kind of books does the writer especially like?",
+          "options": [
+            "History books and science books",
+            "Cooking books and travel guides",
+            "Adventure stories and detective novels",
+            "Romance novels and poetry"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Where does the writer play badminton?",
+          "options": [
+            "At school",
+            "At home",
+            "At the local park",
+            "At a sports center"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How long do they usually play badminton?",
+          "options": [
+            "One hour",
+            "Two hours",
+            "Half an hour",
+            "All day"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'energetic' mean in the text?",
+          "options": [
+            "Tired",
+            "Full of energy",
+            "Sad",
+            "Relaxed"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the writer do if the weather is bad?",
+          "options": [
+            "Plays badminton indoors",
+            "Reads more books",
+            "Watches films at home",
+            "Goes to the park anyway"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Why does the writer think hobbies are important?",
+          "options": [
+            "They help us make money.",
+            "They help us relax and enjoy life.",
+            "They help us finish school work.",
+            "They help us get strong."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "My Job as a Teacher",
+      "description": "This lesson focuses on understanding descriptions of jobs and workplaces. Learners will practice identifying specific tasks and the environment of a job.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Job Descriptions",
+            "content": "When reading about a job, pay attention to what the person does, where they work, and what skills or qualities are mentioned. These details help you understand the nature of the job. Look for verbs that describe actions and nouns that describe places or tools."
+          },
+          {
+            "type": "tip",
+            "heading": "Matching Information",
+            "content": "Some questions ask you to match a task with a specific part of the job or a place with an activity. Read the question carefully and then scan the text for keywords from both parts of the question. This helps you find the correct connection quickly."
+          },
+          {
+            "type": "example",
+            "heading": "Recognizing Workplace Vocabulary",
+            "content": "Words like 'office,' 'school,' 'hospital,' 'factory,' 'colleagues,' 'students,' 'patients' are common in texts about jobs. Knowing these words helps you quickly understand the context. If you see 'students' and 'classroom,' you know the job is likely teaching."
+          }
+        ]
+      },
+      "passage": {
+        "title": "A Day in My Life as a Teacher",
+        "content": "My name is Mai, and I am an English teacher at a primary school in Hanoi. I love my job because I enjoy helping young children learn. My workplace is a bright and colorful classroom. Every morning, I prepare my lessons and activities. From 8 AM to 4 PM, I teach different classes. I help students with reading, writing, and speaking English. We often play games and sing songs to make learning fun. I also talk to parents about their children's progress. My colleagues are very friendly, and we often share ideas. Being a teacher can be challenging, but it is also very rewarding when I see my students improve.",
+        "wordCount": 118,
+        "topic": "Jobs and Workplaces"
+      },
+      "questions": [
+        {
+          "stemText": "What is Mai's job?",
+          "options": [
+            "A doctor",
+            "An English teacher",
+            "A student",
+            "A parent"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Where does Mai work?",
+          "options": [
+            "At a hospital",
+            "At a university",
+            "At a primary school",
+            "At an office"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does Mai do every morning?",
+          "options": [
+            "Talks to parents",
+            "Plays games with students",
+            "Prepares lessons and activities",
+            "Sings songs"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What subjects does Mai help students with?",
+          "options": [
+            "Math and Science",
+            "History and Geography",
+            "Reading, writing, and speaking English",
+            "Art and Music"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does Mai make learning fun?",
+          "options": [
+            "By giving a lot of homework",
+            "By playing games and singing songs",
+            "By talking to parents",
+            "By sharing ideas with colleagues"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'colleagues' mean in the text?",
+          "options": [
+            "Students in the class",
+            "Parents of the students",
+            "People who work with you",
+            "People who live near you"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does Mai feel about her job?",
+          "options": [
+            "Bored and tired",
+            "Challenging but rewarding",
+            "Easy and simple",
+            "Angry and sad"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What time does Mai finish teaching classes?",
+          "options": [
+            "8 AM",
+            "12 PM",
+            "4 PM",
+            "6 PM"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Tips for Staying Healthy",
+      "description": "This lesson helps learners understand advice related to health. They will practice identifying key recommendations and understanding the benefits of healthy habits.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Advice and Recommendations",
+            "content": "When reading texts that give advice, look for words like 'should,' 'must,' 'try to,' 'it's important to,' or phrases that suggest a good idea. These signal that the writer is giving a recommendation. Pay attention to the main points of advice."
+          },
+          {
+            "type": "tip",
+            "heading": "Understanding Benefits",
+            "content": "Often, advice is followed by an explanation of why it's good. Look for phrases like 'because,' 'so that,' 'this helps you,' or 'it's good for.' Understanding the benefits helps you remember the advice and its purpose. Connect the action to its positive result."
+          },
+          {
+            "type": "example",
+            "heading": "Recognizing Health Vocabulary",
+            "content": "Words like 'exercise,' 'balanced diet,' 'sleep,' 'water,' 'stress,' 'vitamins' are common in health texts. Familiarize yourself with these terms. If you see 'eat five portions of fruit and vegetables,' you can infer this is part of a 'balanced diet'."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Daily Routine for a Healthy Life",
+        "content": "Staying healthy is very important for a happy life. I try to follow a few simple rules every day. First, I always eat a balanced diet. This means I eat a lot of fresh fruits and vegetables, some rice, and lean protein like chicken or fish. I try to avoid too much sugar and fast food. Second, I exercise regularly. I go jogging in the park three times a week for 30 minutes. Exercise makes my body strong and helps me feel good. Third, I make sure to get enough sleep, about 7-8 hours every night. Good sleep helps my brain work well. Finally, I drink plenty of water throughout the day. These habits help me stay active and healthy.",
+        "wordCount": 124,
+        "topic": "Staying Healthy"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the text?",
+          "options": [
+            "The writer loves jogging.",
+            "The writer shares tips for staying healthy.",
+            "The writer eats a lot of fruit.",
+            "The writer sleeps 7-8 hours every night."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does a 'balanced diet' mean for the writer?",
+          "options": [
+            "Eating only fruit and vegetables",
+            "Eating a lot of sugar and fast food",
+            "Eating fresh fruits, vegetables, rice, and lean protein",
+            "Eating only chicken or fish"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How often does the writer go jogging?",
+          "options": [
+            "Every day",
+            "Once a week",
+            "Three times a week",
+            "Never"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How long does the writer jog for each time?",
+          "options": [
+            "15 minutes",
+            "30 minutes",
+            "1 hour",
+            "2 hours"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How many hours of sleep does the writer try to get?",
+          "options": [
+            "Less than 6 hours",
+            "7-8 hours",
+            "More than 9 hours",
+            "Only 5 hours"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'plenty of water' mean?",
+          "options": [
+            "A small amount of water",
+            "No water",
+            "A lot of water",
+            "Only water with sugar"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does exercise help the writer do?",
+          "options": [
+            "Make their body strong and feel good",
+            "Eat more fast food",
+            "Sleep less",
+            "Avoid fruits and vegetables"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does good sleep help with?",
+          "options": [
+            "Making the body tired",
+            "Making the brain work well",
+            "Making you hungry",
+            "Making you sad"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "My Favorite Sport: Football",
+      "description": "This lesson helps learners understand details about a sport and its benefits. They will practice identifying specific information and understanding the reasons for enjoying an activity.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Key Details",
+            "content": "When reading about a sport or activity, look for specific details like the name of the sport, where it's played, who plays it, what equipment is needed, and how often it's done. These details give you a complete picture of the activity. Use these details to answer 'who, what, where, when, why, how' questions."
+          },
+          {
+            "type": "tip",
+            "heading": "Understanding Benefits of Activities",
+            "content": "Many texts explain why an activity is good. Look for words and phrases that describe positive outcomes, such as 'helps me relax,' 'keeps me fit,' 'good for teamwork,' or 'makes me happy.' Connecting the activity to its benefits helps you understand the writer's perspective."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Sports",
+            "content": "Common sports vocabulary includes 'team,' 'player,' 'ball,' 'field,' 'court,' 'score,' 'win,' 'lose,' 'practice,' 'exercise.' If you see 'kick the ball' and 'score a goal,' you can guess the sport is football, even if it's not explicitly stated at first."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Passion for Football",
+        "content": "Football is my favorite sport, and I play it every Sunday morning with my friends. We meet at the local stadium near our houses. We usually play for about two hours. I love football because it's exciting, and it helps me stay fit and strong. You need a ball, a field, and two teams to play. Each team tries to kick the ball into the other team's goal to score points. It's a great way to exercise and also to work as a team. After the game, we are often tired but very happy. Sometimes, we watch professional football matches on TV together. I dream of playing for a big team one day!",
+        "wordCount": 113,
+        "topic": "Sports and Fitness"
+      },
+      "questions": [
+        {
+          "stemText": "What is the writer's favorite sport?",
+          "options": [
+            "Basketball",
+            "Volleyball",
+            "Football",
+            "Tennis"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "When does the writer play football?",
+          "options": [
+            "Every Saturday evening",
+            "Every Sunday morning",
+            "Every weekday",
+            "Only sometimes"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Where do they play football?",
+          "options": [
+            "At school",
+            "At a park",
+            "At the local stadium",
+            "At home"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What do you need to play football?",
+          "options": [
+            "A racket and a net",
+            "A ball, a field, and two teams",
+            "A swimming pool and a cap",
+            "A bike and a helmet"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the main goal in football?",
+          "options": [
+            "To run the fastest",
+            "To throw the ball highest",
+            "To kick the ball into the other team's goal",
+            "To catch the ball"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'stay fit' mean in the text?",
+          "options": [
+            "To be healthy and strong",
+            "To be tired and weak",
+            "To be sad and unhappy",
+            "To be good at watching TV"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How do the players feel after the game?",
+          "options": [
+            "Bored and angry",
+            "Tired but very happy",
+            "Hungry and thirsty",
+            "Relaxed and calm"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the writer dream of?",
+          "options": [
+            "Watching more TV",
+            "Playing for a big team",
+            "Buying a new ball",
+            "Meeting new friends"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "My Trip to the History Museum",
+      "description": "This lesson helps learners understand descriptions of places and specific exhibits in a museum. They will practice identifying key information and understanding what someone learned.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Descriptions of Places",
+            "content": "When reading about a place like a museum, look for words that describe its size, atmosphere, and what kind of things you can see there. Adjectives are very helpful (e.g., 'big,' 'interesting,' 'old'). These details help you imagine the place."
+          },
+          {
+            "type": "tip",
+            "heading": "Identifying Specific Exhibits",
+            "content": "Museums have different sections or exhibits. Pay attention to names of rooms, types of objects, or historical periods mentioned. Questions often ask about what was seen in a particular part of the museum. Scan for these specific names or categories."
+          },
+          {
+            "type": "example",
+            "heading": "Inferring Learning Outcomes",
+            "content": "If a text says 'I learned about ancient tools and clothes,' you can infer that the museum helped the person understand how people lived in the past. Look for phrases like 'I learned,' 'it showed me,' or 'I discovered' to understand what new knowledge was gained."
+          }
+        ]
+      },
+      "passage": {
+        "title": "A Fascinating Day at the Museum",
+        "content": "Last Sunday, my class went on a field trip to the National History Museum in Hanoi. It was a very big and interesting place. First, we saw many ancient objects from thousands of years ago, like old pottery and tools. Our guide told us stories about how people lived in the past. Then, we went to a room with traditional Vietnamese clothes. They were so colorful and beautiful! I learned a lot about the history of our country. There was also a special exhibition about famous historical figures. We spent about three hours there. It was a great experience, and I want to go back with my family next time.",
+        "wordCount": 114,
+        "topic": "A Visit to a Museum"
+      },
+      "questions": [
+        {
+          "stemText": "What kind of museum did the class visit?",
+          "options": [
+            "An art museum",
+            "A science museum",
+            "A history museum",
+            "A children's museum"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Where is this museum located?",
+          "options": [
+            "Ho Chi Minh City",
+            "Da Nang",
+            "Hanoi",
+            "Hue"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What did they see first at the museum?",
+          "options": [
+            "Traditional Vietnamese clothes",
+            "Famous historical figures",
+            "Ancient objects like pottery and tools",
+            "Modern art"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Who told them stories about the past?",
+          "options": [
+            "Their teacher",
+            "A museum guide",
+            "Their parents",
+            "Their friends"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What did the writer learn a lot about?",
+          "options": [
+            "The history of other countries",
+            "The history of their country",
+            "How to make pottery",
+            "How to design clothes"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'ancient' mean in the text?",
+          "options": [
+            "New and modern",
+            "Very old",
+            "Small and broken",
+            "Colorful and beautiful"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How long did they spend at the museum?",
+          "options": [
+            "One hour",
+            "Two hours",
+            "About three hours",
+            "All day"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How did the writer feel about the visit?",
+          "options": [
+            "Bored",
+            "Tired",
+            "It was a great experience",
+            "Confused"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Celebrating Tet Holiday",
+      "description": "This lesson helps learners understand cultural traditions, specifically the Tet holiday in Vietnam. They will practice identifying key elements of a tradition and understanding related activities.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Cultural Traditions",
+            "content": "When reading about traditions, look for details about when and how they are celebrated, what special foods are eaten, and what activities people do. These elements define a tradition. Pay attention to the sequence of events and the feelings associated with the tradition."
+          },
+          {
+            "type": "tip",
+            "heading": "Identifying Key Elements",
+            "content": "For traditions, key elements often include dates, special clothing, specific foods, family gatherings, and unique customs. Scan the text for these categories of information. For example, if the question is about food, look for food names."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Celebrations",
+            "content": "Words like 'celebrate,' 'holiday,' 'tradition,' 'family gathering,' 'decorate,' 'lucky money,' 'fireworks,' 'special food' are common when talking about holidays. Knowing these helps you understand the context. If you read 'lucky money,' you know it's a gift given during a special occasion."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Our Family's Tet Celebration",
+        "content": "Tet, or Lunar New Year, is the most important holiday in Vietnam. My family loves celebrating it! A few days before Tet, we clean and decorate our house. We buy peach blossoms and kumquat trees to make our home beautiful and lucky. On Tet Eve, we have a big family dinner with special traditional dishes like Banh Chung and spring rolls. It's a time for all relatives to gather. Children receive 'lucky money' in red envelopes from adults. During Tet, we visit grandparents and other family members. We wear new clothes and wish each other good health and happiness. Tet is a wonderful time for family, food, and new beginnings.",
+        "wordCount": 119,
+        "topic": "Holiday Traditions"
+      },
+      "questions": [
+        {
+          "stemText": "What is Tet also known as?",
+          "options": [
+            "Christmas",
+            "Lunar New Year",
+            "Independence Day",
+            "Mid-Autumn Festival"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What do families do a few days before Tet?",
+          "options": [
+            "Travel abroad",
+            "Clean and decorate their house",
+            "Go back to school",
+            "Eat Banh Chung"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What special trees do they buy for decoration?",
+          "options": [
+            "Pine trees and apple trees",
+            "Mango trees and orange trees",
+            "Peach blossoms and kumquat trees",
+            "Coconut trees and banana trees"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is a traditional dish mentioned for Tet dinner?",
+          "options": [
+            "Pizza",
+            "Banh Chung",
+            "Hamburgers",
+            "Sushi"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What do children receive from adults during Tet?",
+          "options": [
+            "New toys",
+            "Lucky money in red envelopes",
+            "New clothes",
+            "Sweets"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'relatives' mean in the text?",
+          "options": [
+            "Friends from school",
+            "People you work with",
+            "Members of your family",
+            "Neighbors"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What do people wish each other during Tet?",
+          "options": [
+            "More money and new cars",
+            "Good health and happiness",
+            "Long holidays and no work",
+            "Good luck in games"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the overall feeling of Tet for the writer?",
+          "options": [
+            "Stressful and busy",
+            "A time for family, food, and new beginnings",
+            "Boring and old-fashioned",
+            "A time for only adults"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Making a New Friend at School",
+      "description": "This lesson helps learners understand social interactions and the process of making new friends. They will practice identifying key events and understanding reasons for actions.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Social Interactions",
+            "content": "When reading about people meeting, pay attention to who starts the conversation, what they talk about, and what activities they do together. These details show how a relationship develops. Look for dialogue and descriptions of actions."
+          },
+          {
+            "type": "tip",
+            "heading": "Identifying Reasons for Actions",
+            "content": "People do things for reasons. Look for words like 'because,' 'so,' 'to,' or phrases that explain 'why.' For example, if someone 'smiled because she was friendly,' you understand the reason for her action. This helps with inference."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Friendship",
+            "content": "Words like 'friendly,' 'talk,' 'share,' 'laugh,' 'play together,' 'become friends,' 'introduce' are common when talking about making friends. If a text says 'we talked for a long time and found many common interests,' you can infer they are becoming friends."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My New Friend, Linh",
+        "content": "Last month, a new girl named Linh joined my class. She was a bit shy at first, sitting alone during break time. I felt a little nervous, but I decided to say hello. I walked over to her and asked, 'Hi, I'm An. Do you want to play skipping rope with us?' She smiled and said, 'Yes, please!' We started playing, and soon she was laughing with everyone. After that, we talked about our favorite subjects and hobbies. We found out we both love drawing and reading adventure books. Now, Linh and I always sit together at lunch and help each other with homework. I'm so happy to have a new friend!",
+        "wordCount": 115,
+        "topic": "Making New Friends"
+      },
+      "questions": [
+        {
+          "stemText": "Who is the new girl in the class?",
+          "options": [
+            "An",
+            "Linh",
+            "The teacher",
+            "No new girl"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How did Linh seem at first?",
+          "options": [
+            "Very outgoing",
+            "A bit shy",
+            "Angry",
+            "Very loud"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What did An ask Linh to do first?",
+          "options": [
+            "To share lunch",
+            "To do homework together",
+            "To play skipping rope",
+            "To talk about subjects"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What did An and Linh find out they both love?",
+          "options": [
+            "Playing football and singing",
+            "Drawing and reading adventure books",
+            "Cooking and watching TV",
+            "Playing computer games and dancing"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What do Linh and An do together now?",
+          "options": [
+            "Sit together at lunch and help with homework",
+            "Play skipping rope every day",
+            "Only talk during break time",
+            "Go to the cinema"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'nervous' mean in the text?",
+          "options": [
+            "Feeling excited and happy",
+            "Feeling a little worried or scared",
+            "Feeling very confident",
+            "Feeling sleepy"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How did Linh react when An invited her to play?",
+          "options": [
+            "She said no.",
+            "She ignored An.",
+            "She smiled and said yes.",
+            "She started crying."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does An feel about having Linh as a friend?",
+          "options": [
+            "A little sad",
+            "Very happy",
+            "Bored",
+            "Surprised"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Taking the Bus to School",
+      "description": "This lesson helps learners understand how to use public transport. They will practice identifying the sequence of actions and specific details about a journey.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Instructions and Sequence",
+            "content": "When reading about a process, like taking public transport, pay close attention to the order of actions. Look for words like 'first,' 'then,' 'next,' 'after that,' and 'finally.' These words help you follow the steps correctly and understand the journey."
+          },
+          {
+            "type": "tip",
+            "heading": "Identifying Key Information for Travel",
+            "content": "For travel texts, focus on details like the type of transport, the starting point, the destination, how to pay, and any specific instructions. These are often tested in comprehension questions. Scan for names of places, numbers, and verbs related to travel."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Public Transport",
+            "content": "Words like 'bus stop,' 'bus ticket,' 'fare,' 'route,' 'destination,' 'get on,' 'get off,' 'conductor,' 'schedule' are common. If you read 'I waited at the bus stop for bus number 10,' you know the person is using a bus."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Daily Bus Journey",
+        "content": "Every morning, I take the bus to school. It's a convenient and cheap way to travel. First, I walk to the bus stop near my house. I usually arrive at 6:45 AM and wait for bus number 15. The bus usually comes at 6:55 AM. When the bus arrives, I get on and show my student bus card to the driver. The bus is often full of other students and people going to work. I try to find a seat, but sometimes I have to stand. The journey to school takes about 20 minutes. I get off at the stop right in front of my school. It's a good system, and I always arrive on time for my first class.",
+        "wordCount": 117,
+        "topic": "Using Public Transport"
+      },
+      "questions": [
+        {
+          "stemText": "What kind of public transport does the writer use?",
+          "options": [
+            "A train",
+            "A motorbike",
+            "A bus",
+            "A taxi"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Where does the writer wait for the bus?",
+          "options": [
+            "At home",
+            "At school",
+            "At the bus stop near their house",
+            "At a cafe"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What time does the writer usually arrive at the bus stop?",
+          "options": [
+            "6:45 AM",
+            "6:55 AM",
+            "7:00 AM",
+            "7:15 AM"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer show to the driver?",
+          "options": [
+            "Money",
+            "Their ID card",
+            "A student bus card",
+            "A map"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How long does the journey to school take?",
+          "options": [
+            "10 minutes",
+            "20 minutes",
+            "30 minutes",
+            "45 minutes"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'convenient' mean in the text?",
+          "options": [
+            "Difficult and slow",
+            "Easy and helpful",
+            "Expensive and complicated",
+            "Boring and uncomfortable"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Who else is often on the bus?",
+          "options": [
+            "Only the driver",
+            "Only the writer",
+            "Other students and people going to work",
+            "Tourists"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does the writer feel about arriving at school?",
+          "options": [
+            "They are often late.",
+            "They always arrive on time.",
+            "They sometimes miss class.",
+            "They arrive too early."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Cooking My Favorite Dish",
+      "description": "This lesson helps learners understand a simple cooking process. They will practice identifying ingredients, steps, and understanding the outcome of a recipe.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Steps in a Process",
+            "content": "When reading a recipe or instructions, it's important to follow the steps in order. Look for numbers, bullet points, or sequence words like 'first,' 'then,' 'next,' and 'finally.' Each step builds on the last one, so understanding the order is key."
+          },
+          {
+            "type": "tip",
+            "heading": "Identifying Ingredients",
+            "content": "Recipes always list the things you need to cook. Scan the text for names of food items, spices, and liquids. These are your ingredients. Make a mental list or quickly note them down if you need to answer specific questions about what is used."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Cooking",
+            "content": "Words like 'chop,' 'mix,' 'fry,' 'boil,' 'add,' 'ingredients,' 'recipe,' 'dish,' 'serve' are common in cooking texts. If you read 'chop the onions and garlic,' you know these items need to be cut into small pieces."
+          }
+        ]
+      },
+      "passage": {
+        "title": "How I Make Simple Fried Rice",
+        "content": "My favorite dish to cook at home is simple fried rice. It's quick, easy, and delicious! First, I chop some onions, garlic, and carrots into small pieces. I also prepare some cooked rice and a few eggs. Next, I heat a little oil in a pan. I add the chopped onions and garlic and fry them until they smell good. Then, I add the carrots and cook them for a few minutes. After that, I push the vegetables to one side, crack the eggs into the pan, and scramble them. Finally, I add the cooked rice, a little soy sauce, and mix everything together. I stir-fry it for a few more minutes until it's hot. I love to eat it with some fresh cucumber.",
+        "wordCount": 130,
+        "topic": "Cooking at Home"
+      },
+      "questions": [
+        {
+          "stemText": "What is the writer's favorite dish to cook?",
+          "options": [
+            "Boiled rice",
+            "Simple fried rice",
+            "Scrambled eggs",
+            "Fried vegetables"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What are the first three vegetables the writer chops?",
+          "options": [
+            "Tomatoes, potatoes, and cabbage",
+            "Onions, garlic, and carrots",
+            "Peppers, mushrooms, and broccoli",
+            "Cucumber, lettuce, and beans"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the writer add to the pan after the onions and garlic?",
+          "options": [
+            "The eggs",
+            "The rice",
+            "The carrots",
+            "The soy sauce"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does the writer do with the eggs?",
+          "options": [
+            "Boil them",
+            "Fry them whole",
+            "Scramble them in the pan",
+            "Eat them raw"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What liquid ingredient is added at the end with the rice?",
+          "options": [
+            "Water",
+            "Milk",
+            "Soy sauce",
+            "Fish sauce"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'chop' mean in the text?",
+          "options": [
+            "To cook in oil",
+            "To cut into small pieces",
+            "To mix together",
+            "To heat up"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How does the writer like to eat the fried rice?",
+          "options": [
+            "With some fresh cucumber",
+            "With some bread",
+            "With some fruit",
+            "With some soup"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the overall feeling about cooking this dish?",
+          "options": [
+            "Difficult and boring",
+            "Long and complicated",
+            "Quick, easy, and delicious",
+            "Expensive and unhealthy"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "My Favorite Film: 'Coco'",
+      "description": "This lesson helps learners understand descriptions of films and personal preferences. They will practice identifying key plot points and reasons for liking a film.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Film Descriptions",
+            "content": "When reading about a film, look for its title, genre (e.g., animation, action, comedy), main characters, and a brief summary of the story. Pay attention to words that describe the film's mood or message. This helps you understand what the film is about."
+          },
+          {
+            "type": "tip",
+            "heading": "Identifying Reasons for Preference",
+            "content": "Authors often explain why they like something. Look for phrases like 'I love it because,' 'the best part is,' 'it makes me feel,' or 'it teaches me.' These phrases directly tell you the reasons for their preference. Connect these reasons to the film's qualities."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Films",
+            "content": "Words like 'character,' 'story,' 'plot,' 'director,' 'actor,' 'animation,' 'soundtrack,' 'message,' 'emotional,' 'funny' are common. If a text says 'the main character wants to be a musician,' you know who the story is mostly about."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Why I Love the Film 'Coco'",
+        "content": "My favorite film is 'Coco.' It's an animated musical fantasy film from Disney Pixar. The story is about a young boy named Miguel who loves music, but his family hates it because of an old family history. Miguel dreams of becoming a famous musician like his idol, Ernesto de la Cruz. On the Day of the Dead, he accidentally enters the Land of the Dead. There, he meets his ancestors and tries to find his great-great-grandfather to get their blessing for his music. I love this film because the animation is beautiful, the songs are amazing, and it has a wonderful message about family, memory, and following your dreams. It always makes me feel happy and a little bit sad at the same time.",
+        "wordCount": 129,
+        "topic": "My Favorite Film"
+      },
+      "questions": [
+        {
+          "stemText": "What kind of film is 'Coco'?",
+          "options": [
+            "A horror film",
+            "A science fiction film",
+            "An animated musical fantasy film",
+            "A documentary"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Who is the main character of the film?",
+          "options": [
+            "Ernesto de la Cruz",
+            "Miguel",
+            "His great-great-grandfather",
+            "His family"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does Miguel dream of becoming?",
+          "options": [
+            "A famous painter",
+            "A famous musician",
+            "A famous dancer",
+            "A famous chef"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Where does Miguel accidentally go?",
+          "options": [
+            "To a concert",
+            "To a different country",
+            "To the Land of the Dead",
+            "To his idol's house"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is one reason the writer loves the film?",
+          "options": [
+            "The scary parts",
+            "The boring story",
+            "The beautiful animation and amazing songs",
+            "The sad ending"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'ancestors' mean in the text?",
+          "options": [
+            "Future generations",
+            "People who live next door",
+            "Family members from the past",
+            "Friends from school"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is one message of the film?",
+          "options": [
+            "To forget your family",
+            "To only think about yourself",
+            "About family, memory, and following your dreams",
+            "To never play music"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does the film make the writer feel?",
+          "options": [
+            "Angry and confused",
+            "Bored and sleepy",
+            "Happy and a little bit sad at the same time",
+            "Scared and nervous"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Joining the School Art Club",
+      "description": "This lesson helps learners understand descriptions of school clubs. They will practice identifying the purpose, activities, and schedule of a club.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Purpose and Activities",
+            "content": "When reading about a club or organization, look for what its main goal is and what members actually do. The purpose explains 'why' the club exists, and the activities explain 'what' happens during meetings. These are key to understanding the club."
+          },
+          {
+            "type": "tip",
+            "heading": "Understanding Schedules and Logistics",
+            "content": "Clubs often have specific meeting times, days, and locations. Scan the text for this logistical information. Questions might ask about when or where the club meets, or how often. Keywords like 'every,' 'on,' 'at,' 'from' are useful."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for School Clubs",
+            "content": "Words like 'club,' 'member,' 'join,' 'meet,' 'activity,' 'project,' 'practice,' 'learn,' 'skill,' 'creative' are common. If a text says 'we learn to paint and draw,' you can infer it's an art-related club."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Favorite School Club",
+        "content": "I am a member of the Art Club at my school, and it's my favorite activity! We meet every Tuesday afternoon from 3:30 PM to 5:00 PM in the art classroom. Our club has about 15 students who love to draw, paint, and create things. In the club, we learn different art techniques, like how to use watercolors, pencils, and clay. Sometimes, we work on individual projects, and other times we work together on a big mural for the school. Our teacher, Ms. Hoa, is very kind and helps us with new ideas. I love the Art Club because it helps me be creative and relax after a long day of classes. Plus, I've made many new friends there who share my passion for art.",
+        "wordCount": 125,
+        "topic": "School Clubs"
+      },
+      "questions": [
+        {
+          "stemText": "What club is the writer a member of?",
+          "options": [
+            "The Music Club",
+            "The Sports Club",
+            "The Art Club",
+            "The Science Club"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "When does the club meet?",
+          "options": [
+            "Every Monday morning",
+            "Every Tuesday afternoon",
+            "Every Wednesday evening",
+            "Every Friday during lunch"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Where does the club meet?",
+          "options": [
+            "In the library",
+            "In the school yard",
+            "In the art classroom",
+            "In the cafeteria"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What do members learn to use in the club?",
+          "options": [
+            "Computers and cameras",
+            "Musical instruments",
+            "Watercolors, pencils, and clay",
+            "Sports equipment"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is one type of project they work on together?",
+          "options": [
+            "A science experiment",
+            "A big mural for the school",
+            "A music performance",
+            "A sports competition"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'creative' mean in the text?",
+          "options": [
+            "To be good at sports",
+            "To be good at making new things or having new ideas",
+            "To be good at math",
+            "To be good at reading"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Who helps the students with new ideas?",
+          "options": [
+            "Their friends",
+            "Ms. Hoa, their teacher",
+            "The principal",
+            "Their parents"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Why does the writer love the Art Club?",
+          "options": [
+            "It helps them with homework.",
+            "It helps them be creative and relax.",
+            "It helps them get good grades.",
+            "It helps them play games."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "A Weekend Trip to Da Lat",
+      "description": "This lesson helps learners understand travel plans and activities during a trip. They will practice identifying key details about a destination and what people did there.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Travel Plans",
+            "content": "When reading about a trip, look for information about the destination, how the people traveled, who they went with, and how long they stayed. These details give you the basic framework of the journey. Pay attention to names of places and modes of transport."
+          },
+          {
+            "type": "tip",
+            "heading": "Identifying Activities During a Trip",
+            "content": "A trip usually involves many activities. Scan the text for verbs that describe what people did (e.g., 'visited,' 'walked,' 'ate,' 'saw'). These actions tell you about their experiences at the destination. Make a mental list of the main things they did."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Travel",
+            "content": "Words like 'destination,' 'journey,' 'explore,' 'sightseeing,' 'souvenirs,' 'scenery,' 'relax,' 'trip,' 'hotel' are common in travel texts. If you read 'we enjoyed the cool weather and beautiful scenery,' you understand the natural beauty of the place."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Wonderful Weekend in Da Lat",
+        "content": "Last weekend, my family and I took a short trip to Da Lat. We traveled by bus, and the journey took about six hours. Da Lat is famous for its cool weather, beautiful flowers, and pine forests. On Saturday, we visited the Valley of Love, where we took many pictures of the colorful gardens. We also went to the Da Lat Market and bought some fresh local fruits like strawberries. For dinner, we tried some delicious local food. On Sunday morning, we explored Xuan Huong Lake by paddle boat. It was very peaceful. Before heading home, we bought some souvenirs. It was a relaxing and memorable trip. I love the fresh air and quiet atmosphere of Da Lat.",
+        "wordCount": 124,
+        "topic": "Weekend Trips"
+      },
+      "questions": [
+        {
+          "stemText": "Where did the writer and their family go for the weekend trip?",
+          "options": [
+            "Hanoi",
+            "Ho Chi Minh City",
+            "Da Lat",
+            "Hue"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How did they travel to Da Lat?",
+          "options": [
+            "By plane",
+            "By train",
+            "By car",
+            "By bus"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "What is Da Lat famous for?",
+          "options": [
+            "Hot weather and beaches",
+            "Cool weather, beautiful flowers, and pine forests",
+            "Busy cities and tall buildings",
+            "Deserts and mountains"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What did they do at the Valley of Love?",
+          "options": [
+            "Ate dinner",
+            "Bought fruit",
+            "Took many pictures of colorful gardens",
+            "Explored the lake"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What kind of fruit did they buy at Da Lat Market?",
+          "options": [
+            "Apples",
+            "Oranges",
+            "Strawberries",
+            "Bananas"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'scenery' mean in the text?",
+          "options": [
+            "The food you eat",
+            "The natural features of a landscape",
+            "The buildings in a city",
+            "The people you meet"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How did they explore Xuan Huong Lake?",
+          "options": [
+            "By swimming",
+            "By walking around it",
+            "By paddle boat",
+            "By car"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does the writer describe the trip?",
+          "options": [
+            "Tiring and boring",
+            "Expensive and difficult",
+            "Relaxing and memorable",
+            "Crowded and noisy"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "How I Use the Internet",
+      "description": "This lesson helps learners understand the various uses of the internet in daily life. They will practice identifying different online activities and their benefits.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Uses of Technology",
+            "content": "When reading about technology like the internet, look for the different ways people use it. These can be for work, study, entertainment, or communication. Pay attention to verbs that describe online actions (e.g., 'search,' 'watch,' 'chat,' 'buy')."
+          },
+          {
+            "type": "tip",
+            "heading": "Identifying Benefits and Purposes",
+            "content": "For each use of the internet, there's usually a reason or benefit. Look for phrases that explain 'why' someone uses it in a particular way (e.g., 'to find information,' 'to connect with friends,' 'to relax'). This helps you understand the value of each activity."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for the Internet",
+            "content": "Words like 'online,' 'website,' 'email,' 'social media,' 'video call,' 'search engine,' 'download,' 'upload,' 'information,' 'entertainment' are common. If you read 'I send emails to my teacher,' you know it's a way to communicate digitally."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Digital Life: The Internet",
+        "content": "The internet is a big part of my daily life. I use it for many things, both for school and for fun. For school, I often use a search engine to find information for my projects. I also watch educational videos on YouTube to understand difficult topics. Sometimes, I send emails to my teachers if I have questions about homework. For fun, I use social media to chat with my friends and share photos. I also love watching films and TV shows on streaming platforms. Sometimes, I play online games with friends. The internet helps me learn, stay connected with people, and relax. It's an amazing tool, but it's important to use it wisely and not spend too much time online.",
+        "wordCount": 128,
+        "topic": "The Internet and Me"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the text?",
+          "options": [
+            "The writer only uses the internet for school.",
+            "The writer talks about how they use the internet for many things.",
+            "The writer spends too much time online.",
+            "The writer only uses social media."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How does the writer find information for school projects?",
+          "options": [
+            "By asking friends",
+            "By reading books only",
+            "By using a search engine",
+            "By watching films"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What kind of videos does the writer watch on YouTube for school?",
+          "options": [
+            "Music videos",
+            "Funny videos",
+            "Educational videos",
+            "Gaming videos"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does the writer communicate with teachers about homework questions?",
+          "options": [
+            "By phone calls",
+            "By sending emails",
+            "By social media messages",
+            "By talking in person only"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the writer use social media for?",
+          "options": [
+            "To do homework",
+            "To watch educational videos",
+            "To chat with friends and share photos",
+            "To buy things online"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'streaming platforms' mean in the text?",
+          "options": [
+            "Websites for shopping",
+            "Websites for watching films and TV shows",
+            "Websites for learning languages",
+            "Websites for playing games"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What are two benefits of the internet mentioned by the writer?",
+          "options": [
+            "It helps them sleep and eat.",
+            "It helps them learn and stay connected with people.",
+            "It helps them make money and travel.",
+            "It helps them clean their house and cook."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What advice does the writer give about using the internet?",
+          "options": [
+            "Use it all the time.",
+            "Never use it.",
+            "Use it wisely and not too much.",
+            "Only use it for fun."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "A Letter from My Pen Pal, Tom",
+      "description": "This lesson helps learners understand personal letters and infer information about a person. They will practice identifying personal details and understanding the purpose of a letter.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Personal Letters",
+            "content": "Personal letters usually start with a greeting (e.g., 'Dear [Name]') and end with a closing (e.g., 'Best regards,' 'Sincerely'). The body of the letter contains personal news, questions, and descriptions of daily life or interests. Look for these common features."
+          },
+          {
+            "type": "tip",
+            "heading": "Identifying Personal Information",
+            "content": "When reading a letter from a new person, pay attention to details about their name, age, where they live, their family, hobbies, and school. These facts help you get to know the writer. Scan for nouns and adjectives that describe these aspects."
+          },
+          {
+            "type": "example",
+            "heading": "Inferring Feelings and Intentions",
+            "content": "Sometimes a letter doesn't directly say 'I am happy,' but you can infer it from phrases like 'I had a great time' or 'I'm excited to hear from you.' Also, look for questions to understand what the writer wants to know from you. This helps you understand the person better."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Hello from England!",
+        "content": "Dear Lan,\n\nHello from England! My name is Tom, and I'm 14 years old. I live in a small town near London with my parents and my younger sister, Lily. I was so happy to get your first letter! Thank you for telling me about your life in Vietnam. It sounds very interesting.\n\nI go to a secondary school here. My favorite subjects are History and Science. After school, I love playing football with my friends in the park. On weekends, I often read adventure books or watch films. Sometimes, my family and I go for walks in the countryside.\n\nWhat about your school? What are your favorite subjects? Do you have any pets? I have a cat named Whiskers. She is very playful. I'm looking forward to hearing from you soon!\n\nBest wishes,\nTom",
+        "wordCount": 140,
+        "topic": "A Pen Pal Letter"
+      },
+      "questions": [
+        {
+          "stemText": "Where does Tom live?",
+          "options": [
+            "In London",
+            "In a big city in England",
+            "In a small town near London",
+            "In Vietnam"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How old is Tom?",
+          "options": [
+            "12 years old",
+            "13 years old",
+            "14 years old",
+            "15 years old"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Who does Tom live with?",
+          "options": [
+            "His grandparents",
+            "His parents and younger sister",
+            "Only his parents",
+            "His friends"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What are Tom's favorite subjects at school?",
+          "options": [
+            "Math and English",
+            "Art and Music",
+            "History and Science",
+            "Geography and PE"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does Tom do after school?",
+          "options": [
+            "Does homework",
+            "Plays football with friends",
+            "Watches TV",
+            "Reads books"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the name of Tom's pet?",
+          "options": [
+            "Lily",
+            "Whiskers",
+            "London",
+            "Tom doesn't have a pet."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does Tom ask Lan about her school?",
+          "options": [
+            "If she likes her teachers",
+            "What her favorite subjects are",
+            "How many students are in her class",
+            "If she has a school uniform"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'looking forward to hearing from you' mean?",
+          "options": [
+            "He doesn't want another letter.",
+            "He hopes to get another letter soon.",
+            "He is angry with Lan.",
+            "He is busy and cannot write."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "A Trip to Our Local Market",
+      "description": "This lesson helps learners understand descriptions of local markets. They will practice identifying types of goods, the atmosphere, and specific details about the market.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Descriptions of Places",
+            "content": "When reading about a place like a market, look for words that describe what it looks, sounds, and smells like. Pay attention to the types of things sold, the people who are there, and the overall feeling of the place. Adjectives and sensory words are very helpful."
+          },
+          {
+            "type": "tip",
+            "heading": "Identifying Types of Goods",
+            "content": "Markets sell many different items. Scan the text for categories of goods (e.g., 'fresh produce,' 'clothes,' 'handicrafts') and specific examples (e.g., 'vegetables,' 'fish,' 'shirts'). This helps you understand the variety available. Make a mental list of what you can buy."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Markets",
+            "content": "Words like 'stall,' 'vendor,' 'bargain,' 'fresh,' 'local,' 'crowded,' 'lively,' 'produce,' 'handicrafts,' 'spices' are common. If you read 'vendors call out their prices,' you know people are selling things and making noise to attract customers."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Morning at the Local Market",
+        "content": "Every Saturday morning, my mother and I go to the local market. It's not a big supermarket, but a traditional outdoor market. It's always very lively and a bit crowded, full of sounds and smells. First, we visit the vegetable stalls. The farmers sell fresh tomatoes, green leafy vegetables, and herbs. Everything looks so fresh! Then, we go to the meat and fish section. My mother always buys fresh fish for our dinner. There are also stalls selling fruits, like mangoes and dragon fruit, and sometimes even beautiful flowers. I love walking around and seeing all the different things. The vendors are friendly, and sometimes my mother can bargain for a better price. It's a great place to find fresh, local food.",
+        "wordCount": 129,
+        "topic": "Our Local Market"
+      },
+      "questions": [
+        {
+          "stemText": "When do the writer and their mother go to the local market?",
+          "options": [
+            "Every Sunday evening",
+            "Every Saturday morning",
+            "Every weekday",
+            "Only when they need food"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What kind of market is it?",
+          "options": [
+            "A big supermarket",
+            "A modern shopping mall",
+            "A traditional outdoor market",
+            "An online market"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What do the farmers sell at the vegetable stalls?",
+          "options": [
+            "Only fruit",
+            "Fresh tomatoes, green leafy vegetables, and herbs",
+            "Meat and fish",
+            "Clothes and shoes"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the mother always buy from the meat and fish section?",
+          "options": [
+            "Chicken",
+            "Beef",
+            "Fresh fish",
+            "Pork"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What kind of fruits are mentioned as being sold at the market?",
+          "options": [
+            "Apples and oranges",
+            "Grapes and cherries",
+            "Mangoes and dragon fruit",
+            "Bananas and pineapples"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'lively' mean when describing the market?",
+          "options": [
+            "Quiet and empty",
+            "Full of energy and activity",
+            "Boring and slow",
+            "Dark and sad"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What can the mother sometimes do with the vendors?",
+          "options": [
+            "Argue with them",
+            "Bargain for a better price",
+            "Give them extra money",
+            "Help them sell things"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the market a great place to find?",
+          "options": [
+            "Expensive imported goods",
+            "Only old items",
+            "Fresh, local food",
+            "Fast food"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Helping Our Environment",
+      "description": "This lesson helps learners understand actions to protect nature. They will practice identifying specific ways to help the environment and understanding the importance of these actions.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Actions and Their Purpose",
+            "content": "When reading about environmental protection, look for specific actions people take (e.g., 'recycle,' 'save water,' 'plant trees') and the reasons why these actions are important (e.g., 'to reduce waste,' 'to protect animals'). Connect the action to its positive impact."
+          },
+          {
+            "type": "tip",
+            "heading": "Understanding Environmental Themes",
+            "content": "Texts about nature often focus on themes like pollution, conservation, recycling, and sustainability. Familiarize yourself with these concepts. If a text talks about 'plastic bags harming sea animals,' the theme is likely pollution and its impact on wildlife."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Nature and Environment",
+            "content": "Words like 'nature,' 'environment,' 'recycle,' 'reduce,' 'reuse,' 'pollution,' 'waste,' 'plant,' 'save energy,' 'protect' are common. If you read 'we collect plastic bottles and paper,' you can infer they are talking about 'recycling'."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Small Actions, Big Impact for Nature",
+        "content": "Looking after nature is everyone's job. Even small actions can make a big difference. At home, my family tries to reduce waste. We always separate our rubbish for recycling – plastic, paper, and glass go into different bins. We also try to reuse things, like old plastic containers for storage. When we go shopping, we bring our own reusable bags instead of taking new plastic ones. This helps reduce plastic pollution. We also save water by turning off the tap when brushing our teeth and taking shorter showers. In our garden, we plant flowers and small trees to help the local environment. These simple habits help protect our beautiful planet for the future.",
+        "wordCount": 125,
+        "topic": "Looking After Nature"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the text?",
+          "options": [
+            "Recycling is the only way to help nature.",
+            "Small actions can make a big difference in looking after nature.",
+            "Planting trees is the most important thing.",
+            "The writer's family uses a lot of plastic."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the family do with their rubbish?",
+          "options": [
+            "They throw it all away together.",
+            "They burn it.",
+            "They separate it for recycling.",
+            "They bury it in the garden."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What do they reuse for storage?",
+          "options": [
+            "New plastic bags",
+            "Old plastic containers",
+            "Glass bottles",
+            "Paper boxes"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What do they bring when they go shopping?",
+          "options": [
+            "New plastic bags",
+            "Big trolleys",
+            "Their own reusable bags",
+            "Nothing"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How do they save water?",
+          "options": [
+            "By washing clothes every day",
+            "By taking long baths",
+            "By turning off the tap and taking shorter showers",
+            "By drinking less water"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'reduce waste' mean?",
+          "options": [
+            "To make more rubbish",
+            "To use less and throw away less",
+            "To burn rubbish",
+            "To hide rubbish"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What do they plant in their garden?",
+          "options": [
+            "Big trees only",
+            "Vegetables only",
+            "Flowers and small trees",
+            "Nothing"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Why are these habits important?",
+          "options": [
+            "To save money",
+            "To make the house look nice",
+            "To protect our beautiful planet for the future",
+            "To make more rubbish"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Local News: New Park Opens!",
+      "description": "This lesson helps learners understand a simple news story. They will practice identifying key facts like who, what, when, and where, and understanding the main event.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Key Facts in a News Story",
+            "content": "News stories focus on facts. Look for the '5 Ws and 1 H': Who (was involved?), What (happened?), When (did it happen?), Where (did it happen?), Why (did it happen?), and How (did it happen?). These are the most important pieces of information."
+          },
+          {
+            "type": "tip",
+            "heading": "Understanding the Main Event",
+            "content": "The first paragraph of a news story often summarizes the main event. Read this part carefully to get the overall picture. Then, the rest of the story gives more details. Try to identify the single most important thing that happened."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for News",
+            "content": "Words like 'report,' 'event,' 'official,' 'celebration,' 'community,' 'mayor,' 'project,' 'benefit,' 'open' are common in news texts. If you read 'the mayor cut the ribbon,' you know an important person performed an official opening ceremony."
+          }
+        ]
+      },
+      "passage": {
+        "title": "New Community Park Opens in District 7",
+        "content": "Ho Chi Minh City, Vietnam – Yesterday, a brand new community park officially opened in District 7. The opening ceremony took place at 9 AM and was attended by local residents, students, and city officials, including Mayor Tran Van. The new park, named 'Green Oasis Park,' has a large playground for children, exercise equipment for adults, and many beautiful trees and flowers. The project took two years to complete and cost 5 billion VND. Mayor Tran Van said, 'This park will be a wonderful place for families to relax and for everyone to enjoy nature in the city.' The park is now open to the public every day from 6 AM to 9 PM, offering a green space for the whole community.",
+        "wordCount": 127,
+        "topic": "A News Story"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main news story about?",
+          "options": [
+            "A new shopping mall opening",
+            "A new school being built",
+            "A new community park opening",
+            "A new road construction"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Where did this event take place?",
+          "options": [
+            "Hanoi",
+            "District 7, Ho Chi Minh City",
+            "Da Nang",
+            "Hue"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Who attended the opening ceremony?",
+          "options": [
+            "Only the Mayor",
+            "Only students",
+            "Local residents, students, and city officials",
+            "Only tourists"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is the name of the new park?",
+          "options": [
+            "City Park",
+            "Central Park",
+            "Green Oasis Park",
+            "Family Park"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does the new park have for children?",
+          "options": [
+            "A swimming pool",
+            "A large playground",
+            "A library",
+            "A cinema"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'officially opened' mean?",
+          "options": [
+            "It was opened secretly.",
+            "It was opened with a formal ceremony.",
+            "It was opened by children.",
+            "It was opened for a short time."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How long did the park project take to complete?",
+          "options": [
+            "One year",
+            "Two years",
+            "Three years",
+            "Five years"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What did Mayor Tran Van say the park would be?",
+          "options": [
+            "A place for shopping",
+            "A place for work",
+            "A wonderful place for families to relax and enjoy nature",
+            "A place for cars"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Learning to Play the Guitar",
+      "description": "This lesson helps learners understand the process of learning a new skill. They will practice identifying motivations, challenges, and successes in learning.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding the Learning Process",
+            "content": "When reading about learning a new skill, look for why someone started, what steps they took, what difficulties they faced, and what progress they made. This shows the journey of learning. Pay attention to words that describe effort and improvement."
+          },
+          {
+            "type": "tip",
+            "heading": "Identifying Challenges and Successes",
+            "content": "Learning is rarely easy. Texts often mention challenges (e.g., 'difficult,' 'takes time,' 'frustrating') and successes (e.g., 'can play now,' 'feel proud,' 'improving'). Recognizing these helps you understand the full experience of learning. Connect problems to solutions or perseverance."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Learning Skills",
+            "content": "Words like 'skill,' 'learn,' 'practice,' 'lesson,' 'improve,' 'difficult,' 'easy,' 'progress,' 'master,' 'instrument' are common. If you read 'my fingers hurt at first,' you can infer that playing a musical instrument can be physically challenging at the beginning."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Journey to Play the Guitar",
+        "content": "Last year, I decided to learn a new skill: playing the guitar. I always loved music and wanted to play my favorite songs. First, I bought a basic guitar and found some free online lessons. It was very difficult at the beginning! My fingers hurt, and it was hard to make the right sounds. I practiced for 30 minutes every day after school. My teacher, Mr. Nam, also gave me some tips. Slowly, I started to improve. After a few months, I could play simple songs. Now, I can play many songs, and I even write some of my own music. It takes a lot of patience and practice, but it's very rewarding. I feel proud when I can play a beautiful melody. Learning the guitar has brought so much joy to my life.",
+        "wordCount": 130,
+        "topic": "Learning a New Skill"
+      },
+      "questions": [
+        {
+          "stemText": "What new skill did the writer decide to learn?",
+          "options": [
+            "Singing",
+            "Playing the piano",
+            "Playing the guitar",
+            "Dancing"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Why did the writer want to learn this skill?",
+          "options": [
+            "To become famous",
+            "To make money",
+            "Because they loved music and wanted to play favorite songs",
+            "Because their friends played it"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What was one difficulty the writer faced at the beginning?",
+          "options": [
+            "It was too expensive.",
+            "Their fingers hurt, and it was hard to make right sounds.",
+            "They couldn't find a teacher.",
+            "They didn't have a guitar."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How often did the writer practice?",
+          "options": [
+            "Once a week",
+            "Every day for 30 minutes",
+            "Only on weekends",
+            "Never"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Who gave the writer some tips?",
+          "options": [
+            "Their friends",
+            "Their parents",
+            "Mr. Nam, their teacher",
+            "Online videos only"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'rewarding' mean in the text?",
+          "options": [
+            "Making you feel bad",
+            "Making you feel happy and satisfied because of effort",
+            "Making you tired and angry",
+            "Making you rich"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What can the writer do now after a few months?",
+          "options": [
+            "Only play one song",
+            "Play many songs and write some of their own music",
+            "Play perfectly like a professional",
+            "Give up playing"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How does learning the guitar make the writer feel?",
+          "options": [
+            "Frustrated",
+            "Proud and joyful",
+            "Bored",
+            "Stressed"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    }
+  ]
+}

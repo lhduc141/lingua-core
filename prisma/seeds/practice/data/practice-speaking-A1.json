@@ -1,0 +1,976 @@
+{
+  "skill": "speaking",
+  "cefrLevel": "A1",
+  "practiceSets": [
+    {
+      "title": "Introduce Yourself and Others",
+      "description": "Practice introducing yourself and other people using basic personal information.",
+      "estimatedMinutes": 15,
+      "mcqQuestions": [
+        {
+          "stemText": "Hello, my name ___ Linh.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I ___ from Vietnam.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "This is my friend, ___ name is Mai.",
+          "options": [
+            "her",
+            "his",
+            "my",
+            "your"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Nice to ___ you.",
+          "options": [
+            "meet",
+            "see",
+            "know",
+            "talk"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How ___ you?",
+          "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I am twenty ___ old.",
+          "options": [
+            "years",
+            "year",
+            "age",
+            "time"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What ___ your name?",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "He ___ a student.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Introduce yourself. Tell us your name, age, and where you are from. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Imagine you are introducing a friend or family member to someone. Describe them briefly: their name, age, and what they do. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Talk About Your Daily Routine",
+      "description": "Learn to describe your everyday activities from morning to night.",
+      "estimatedMinutes": 15,
+      "mcqQuestions": [
+        {
+          "stemText": "I ___ up at 6 o'clock every morning.",
+          "options": [
+            "wake",
+            "get",
+            "go",
+            "do"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I ___ breakfast at 7 AM.",
+          "options": [
+            "have",
+            "eat",
+            "drink",
+            "make"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I ___ to school by bus.",
+          "options": [
+            "go",
+            "walk",
+            "drive",
+            "ride"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "In the evening, I ___ TV.",
+          "options": [
+            "watch",
+            "see",
+            "look",
+            "play"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I ___ my homework after dinner.",
+          "options": [
+            "do",
+            "make",
+            "study",
+            "write"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I ___ to bed at 10 PM.",
+          "options": [
+            "go",
+            "sleep",
+            "wake",
+            "get"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What time ___ you have lunch?",
+          "options": [
+            "do",
+            "are",
+            "is",
+            "can"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "She ___ dinner with her family.",
+          "options": [
+            "eats",
+            "eat",
+            "eating",
+            "to eat"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your morning routine. What do you do from when you wake up until you leave for school or work? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Describe your evening routine. What do you do after you come home until you go to bed? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Describe Your Home",
+      "description": "Practice describing your house or apartment and the rooms inside it.",
+      "estimatedMinutes": 15,
+      "mcqQuestions": [
+        {
+          "stemText": "My house has three ___.",
+          "options": [
+            "rooms",
+            "room",
+            "house",
+            "floor"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "There is a sofa ___ the living room.",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "to"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I have a small ___ with a bed.",
+          "options": [
+            "bedroom",
+            "kitchen",
+            "bathroom",
+            "living room"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "We cook food in the ___.",
+          "options": [
+            "kitchen",
+            "bedroom",
+            "bathroom",
+            "living room"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "There is a table and chairs in the ___ room.",
+          "options": [
+            "dining",
+            "living",
+            "bed",
+            "bath"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My house is ___ big.",
+          "options": [
+            "not",
+            "no",
+            "never",
+            "none"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "There ___ two bathrooms.",
+          "options": [
+            "are",
+            "is",
+            "be",
+            "have"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The TV is ___ the wall.",
+          "options": [
+            "on",
+            "in",
+            "at",
+            "under"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your home. How many rooms does it have? What rooms are they? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Describe your favorite room in your home. What is in it? Why do you like it? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Talk About Food Preferences",
+      "description": "Practice talking about the foods and drinks you like and dislike.",
+      "estimatedMinutes": 15,
+      "mcqQuestions": [
+        {
+          "stemText": "I really ___ pizza.",
+          "options": [
+            "like",
+            "love",
+            "eat",
+            "want"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I don't ___ coffee.",
+          "options": [
+            "like",
+            "love",
+            "drink",
+            "eat"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My favorite ___ is pho.",
+          "options": [
+            "food",
+            "drink",
+            "meal",
+            "dish"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Do you ___ vegetables?",
+          "options": [
+            "like",
+            "eat",
+            "drink",
+            "have"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I often ___ water.",
+          "options": [
+            "drink",
+            "eat",
+            "have",
+            "like"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "For breakfast, I usually ___ bread and eggs.",
+          "options": [
+            "eat",
+            "drink",
+            "cook",
+            "make"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "She ___ fruit every day.",
+          "options": [
+            "likes",
+            "like",
+            "liking",
+            "to like"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I don't ___ fish very much.",
+          "options": [
+            "like",
+            "love",
+            "eat",
+            "want"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "List three foods you like and three foods you don't like. Say why if you can. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Describe a typical meal you eat, for example, lunch. What do you usually eat and drink? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Describe an Animal",
+      "description": "Practice describing different animals, their appearance, and what they do.",
+      "estimatedMinutes": 15,
+      "mcqQuestions": [
+        {
+          "stemText": "A dog has four ___.",
+          "options": [
+            "legs",
+            "arms",
+            "wings",
+            "tails"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "A cat can ___.",
+          "options": [
+            "jump",
+            "fly",
+            "swim",
+            "sing"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Elephants are very ___ animals.",
+          "options": [
+            "big",
+            "small",
+            "fast",
+            "slow"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Birds have ___ and can fly.",
+          "options": [
+            "wings",
+            "legs",
+            "tails",
+            "ears"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Fish live in the ___.",
+          "options": [
+            "water",
+            "sky",
+            "tree",
+            "house"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "A monkey likes to ___ bananas.",
+          "options": [
+            "eat",
+            "drink",
+            "play",
+            "sleep"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "This is a small ___.",
+          "options": [
+            "bird",
+            "elephant",
+            "whale",
+            "lion"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Tigers are ___ and orange.",
+          "options": [
+            "black",
+            "white",
+            "green",
+            "blue"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe an animal you know, like a cat, dog, or bird. What does it look like? What does it eat? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "What is your favorite animal? Why do you like it? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Talk About School",
+      "description": "Practice discussing your school, subjects, and what you like about learning.",
+      "estimatedMinutes": 15,
+      "mcqQuestions": [
+        {
+          "stemText": "I ___ English at school.",
+          "options": [
+            "study",
+            "play",
+            "watch",
+            "read"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My favorite ___ is Math.",
+          "options": [
+            "subject",
+            "teacher",
+            "class",
+            "book"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "We have a big ___ at school.",
+          "options": [
+            "library",
+            "kitchen",
+            "bedroom",
+            "bathroom"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I go to ___ every day.",
+          "options": [
+            "school",
+            "work",
+            "home",
+            "park"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The teacher ___ us new things.",
+          "options": [
+            "teaches",
+            "learns",
+            "studies",
+            "reads"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I like to ___ with my friends during break time.",
+          "options": [
+            "play",
+            "study",
+            "read",
+            "sleep"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How many ___ do you have today?",
+          "options": [
+            "classes",
+            "class",
+            "lesson",
+            "subject"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My school is ___ the city.",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "to"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your school. What is its name? What subjects do you study? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "What do you like most about school? Do you have a favorite subject or activity? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Describe the Weather",
+      "description": "Practice talking about different types of weather and seasons.",
+      "estimatedMinutes": 15,
+      "mcqQuestions": [
+        {
+          "stemText": "It is ___ today, so I can go outside.",
+          "options": [
+            "sunny",
+            "rainy",
+            "cloudy",
+            "windy"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "When it's ___, I use an umbrella.",
+          "options": [
+            "rainy",
+            "sunny",
+            "hot",
+            "cold"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "It's very ___ in summer.",
+          "options": [
+            "hot",
+            "cold",
+            "cool",
+            "warm"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I like ___ weather.",
+          "options": [
+            "warm",
+            "cold",
+            "rainy",
+            "snowy"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The ___ is beautiful today.",
+          "options": [
+            "weather",
+            "wind",
+            "rain",
+            "sun"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "In winter, it can be very ___.",
+          "options": [
+            "cold",
+            "hot",
+            "warm",
+            "sunny"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Look! It's ___ outside!",
+          "options": [
+            "raining",
+            "rain",
+            "rains",
+            "to rain"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The sky is ___ when it's cloudy.",
+          "options": [
+            "grey",
+            "blue",
+            "yellow",
+            "green"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe the weather today. Is it sunny, rainy, hot, or cold? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "What is your favorite type of weather or season? Why do you like it? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Talk About Hobbies",
+      "description": "Practice talking about your favorite free-time activities and interests.",
+      "estimatedMinutes": 15,
+      "mcqQuestions": [
+        {
+          "stemText": "My favorite ___ is reading books.",
+          "options": [
+            "hobby",
+            "work",
+            "food",
+            "sport"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I like to ___ football with my friends.",
+          "options": [
+            "play",
+            "watch",
+            "read",
+            "listen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "She likes ___ to music.",
+          "options": [
+            "listening",
+            "listen",
+            "listens",
+            "to listen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "In my free time, I ___ TV.",
+          "options": [
+            "watch",
+            "see",
+            "look",
+            "play"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Do you ___ drawing?",
+          "options": [
+            "like",
+            "love",
+            "do",
+            "make"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My brother enjoys ___ games.",
+          "options": [
+            "playing",
+            "play",
+            "plays",
+            "to play"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I often ___ books in the evening.",
+          "options": [
+            "read",
+            "write",
+            "study",
+            "look"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What ___ you do in your free time?",
+          "options": [
+            "do",
+            "are",
+            "is",
+            "can"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "What are your hobbies? List two or three things you like to do in your free time. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Describe your favorite hobby. Why do you like it? When do you usually do it? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Describe Your Family",
+      "description": "Practice describing your family members and talking about your family.",
+      "estimatedMinutes": 15,
+      "mcqQuestions": [
+        {
+          "stemText": "I have one brother and one ___.",
+          "options": [
+            "sister",
+            "father",
+            "mother",
+            "uncle"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My ___ is a teacher.",
+          "options": [
+            "mother",
+            "dog",
+            "house",
+            "book"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My father is ___ and kind.",
+          "options": [
+            "tall",
+            "small",
+            "young",
+            "short"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "There are four people ___ my family.",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "with"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My ___ name is Hoa.",
+          "options": [
+            "sister's",
+            "sisters",
+            "sister",
+            "sisters'"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "We often ___ dinner together.",
+          "options": [
+            "have",
+            "eat",
+            "make",
+            "cook"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My grandparents ___ old.",
+          "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "She ___ a big family.",
+          "options": [
+            "has",
+            "have",
+            "is",
+            "are"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your family. How many people are in your family? What are their names and what do they do? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "What is one activity your family likes to do together? Describe it. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Talk About Your Favorite Things",
+      "description": "Practice talking about your favorite color, food, animal, and other preferences.",
+      "estimatedMinutes": 15,
+      "mcqQuestions": [
+        {
+          "stemText": "My favorite ___ is blue.",
+          "options": [
+            "color",
+            "food",
+            "animal",
+            "book"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I like ___ food.",
+          "options": [
+            "Vietnamese",
+            "Vietnam",
+            "Viet",
+            "Vietnamese's"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is your favorite ___?",
+          "options": [
+            "movie",
+            "movies",
+            "film",
+            "films"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My favorite animal ___ a cat.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I love ___ music.",
+          "options": [
+            "pop",
+            "rock",
+            "classical",
+            "all"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My favorite season ___ summer.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I like to ___ my favorite song.",
+          "options": [
+            "listen to",
+            "listen",
+            "hear",
+            "listen for"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My favorite ___ is Sunday.",
+          "options": [
+            "day",
+            "week",
+            "month",
+            "year"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Tell us about three of your favorite things. For example, your favorite color, food, and animal. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Describe your favorite place to go, like a park, a cafe, or your room. Why do you like it? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    }
+  ]
+}

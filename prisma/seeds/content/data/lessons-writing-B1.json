@@ -1,0 +1,1399 @@
+{
+  "skill": "writing",
+  "cefrLevel": "B1",
+  "lessons": [
+    {
+      "title": "Advantages of Learning Online",
+      "description": "This lesson focuses on how to clearly express the benefits of online learning, using appropriate vocabulary and sentence structures for B1 level.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Linking Words for Advantages",
+            "content": "When listing advantages, use linking words to make your points flow smoothly. Common words include 'Firstly,' 'Secondly,' 'In addition,' 'Moreover,' and 'Furthermore.' These help organize your ideas clearly."
+          },
+          {
+            "type": "example",
+            "heading": "Clear Sentence Structure for Benefits",
+            "content": "Incorrect: Online learning flexible. Correct: Online learning offers great flexibility. (Using a verb and clear subject-verb-object structure). Incorrect: Can study anywhere. Correct: Students can study from anywhere, which is a major advantage. (Adding detail and a relative clause)."
+          },
+          {
+            "type": "tip",
+            "heading": "Varying Vocabulary for 'Good Points'",
+            "content": "Instead of just saying 'good points,' try using synonyms like 'benefits,' 'advantages,' 'positive aspects,' or 'strengths.' This makes your writing more interesting and sophisticated."
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for Advantages",
+            "content": "Start each paragraph with a topic sentence that introduces one main advantage. Then, provide 1-2 supporting sentences with examples or explanations. Conclude with a sentence that summarizes or transitions to the next point."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "One of the main ___ of online learning is the flexibility it offers.",
+          "answerKeys": [
+            "advantages",
+            "benefits"
+          ]
+        },
+        {
+          "stemText": "Students can access course materials ___ any time, which is very convenient.",
+          "answerKeys": [
+            "at"
+          ]
+        },
+        {
+          "stemText": "___, online courses often cost less than traditional ones.",
+          "answerKeys": [
+            "Furthermore",
+            "Moreover",
+            "Additionally"
+          ]
+        },
+        {
+          "stemText": "Learning online allows you to manage your own ___ and study at your own pace.",
+          "answerKeys": [
+            "schedule",
+            "time"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write an essay discussing three main advantages of learning online. Explain each advantage with a clear example.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Compare online learning with traditional classroom learning. Focus on the benefits of online learning and explain why you think it is a good option for many students.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Write a Formal Email to a Company",
+      "description": "This lesson teaches you how to write a clear and polite formal email to a company, focusing on appropriate tone and structure.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Formal Greetings and Closings",
+            "content": "Always start a formal email with 'Dear Mr./Ms. [Last Name]' if you know the recipient's name, or 'Dear Sir/Madam' if you don't. End with 'Sincerely,' or 'Yours faithfully,' followed by your full name."
+          },
+          {
+            "type": "example",
+            "heading": "Clear Subject Lines",
+            "content": "Incorrect: Question. Correct: Inquiry About Product X / Application for Internship. (A clear subject line helps the recipient understand the email's purpose immediately)."
+          },
+          {
+            "type": "tip",
+            "heading": "Maintaining a Polite and Professional Tone",
+            "content": "Avoid slang, contractions (e.g., 'I'm', 'don't'), and overly casual language. Use phrases like 'I would like to inquire,' 'I would be grateful if you could,' or 'Thank you for your consideration.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Structure for Formal Emails",
+            "content": "Paragraph 1: State the purpose of your email. Paragraph 2-3: Provide necessary details or background information. Final Paragraph: State your desired outcome or next steps, and thank the recipient."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Dear Sir or ___, I am writing to inquire about the job vacancy.",
+          "answerKeys": [
+            "Madam"
+          ]
+        },
+        {
+          "stemText": "I would be ___ if you could provide more information.",
+          "answerKeys": [
+            "grateful",
+            "thankful"
+          ]
+        },
+        {
+          "stemText": "Thank you for your time and ___.",
+          "answerKeys": [
+            "consideration"
+          ]
+        },
+        {
+          "stemText": "I look forward to ___ from you soon.",
+          "answerKeys": [
+            "hearing"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Imagine you want to apply for a part-time job at a local bookstore. Write a formal email to the manager expressing your interest and asking about the application process.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "You recently purchased a product that is faulty. Write a formal email to the company's customer service department to explain the problem and request a replacement or refund.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Discuss Environmental Problems",
+      "description": "This lesson helps you write about environmental issues, using cause-and-effect language and suggesting solutions.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Cause-and-Effect Language",
+            "content": "To explain environmental problems, use phrases like 'due to,' 'because of,' 'as a result of,' 'consequently,' and 'this leads to.' These connect actions to their outcomes."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Environmental Issues",
+            "content": "Instead of 'bad air,' use 'air pollution.' Instead of 'cutting down trees,' use 'deforestation.' Other useful words: 'climate change,' 'global warming,' 'waste,' 'habitat loss,' 'extinction.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Suggesting Solutions with Modals",
+            "content": "When suggesting solutions, use modal verbs like 'should,' 'could,' 'must,' or phrases like 'it is important to.' For example: 'We should reduce our plastic use.' or 'Governments must implement stricter laws.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Organizing Your Ideas",
+            "content": "Start with an introduction to the problem. Dedicate paragraphs to specific problems and their causes. Then, dedicate a paragraph or two to possible solutions. Conclude with a summary or a call to action."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Air pollution is a serious problem, ___ to many respiratory illnesses.",
+          "answerKeys": [
+            "leading"
+          ]
+        },
+        {
+          "stemText": "___ of deforestation, many animal species are losing their homes.",
+          "answerKeys": [
+            "Because"
+          ]
+        },
+        {
+          "stemText": "We ___ reduce our carbon footprint to combat climate change.",
+          "answerKeys": [
+            "should",
+            "must"
+          ]
+        },
+        {
+          "stemText": "Recycling is an important step to minimize the amount of ___ we produce.",
+          "answerKeys": [
+            "waste",
+            "rubbish",
+            "garbage"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Choose one major environmental problem, such as plastic pollution or deforestation. Describe the problem, its causes, and its effects on the planet.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Discuss what individuals and governments can do to help solve environmental problems. Give specific examples of actions that can be taken.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Write About Technology in Daily Life",
+      "description": "This lesson helps you describe the impact of technology on everyday life, using clear examples and appropriate vocabulary.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Present Simple for General Truths",
+            "content": "When discussing how technology affects daily life, use the present simple tense. For example: 'Smartphones allow us to communicate instantly.' or 'Computers help us work more efficiently.'"
+          },
+          {
+            "type": "example",
+            "heading": "Providing Specific Examples",
+            "content": "Instead of: 'Technology helps with communication.' Correct: 'Thanks to messaging apps like Zalo and WhatsApp, we can talk to friends and family instantly, even if they are far away.' (Specific apps and benefits)."
+          },
+          {
+            "type": "tip",
+            "heading": "Connecting Ideas About Impact",
+            "content": "Use phrases like 'as a result,' 'consequently,' 'this means that,' or 'one major change is' to link the technology to its effect on daily life. This improves cohesion."
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization",
+            "content": "Start with an introduction about technology's role. Dedicate paragraphs to different aspects of daily life (e.g., communication, work, entertainment) and how technology has changed them. Conclude with a summary of its overall impact."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Smartphones have revolutionized how we ___ with others.",
+          "answerKeys": [
+            "communicate"
+          ]
+        },
+        {
+          "stemText": "Many people use social media platforms to stay ___ with friends and family.",
+          "answerKeys": [
+            "connected"
+          ]
+        },
+        {
+          "stemText": "Online shopping has made it much more ___ to buy goods from home.",
+          "answerKeys": [
+            "convenient",
+            "easier"
+          ]
+        },
+        {
+          "stemText": "Technology has greatly improved access to ___ and information.",
+          "answerKeys": [
+            "education"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe three ways technology has positively changed your daily life. Give specific examples for each change.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Discuss both the positive and negative impacts of technology on daily life. Provide examples for both sides and give your overall opinion.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Describe a Cultural Tradition",
+      "description": "This lesson helps you write a clear and engaging description of a cultural tradition, using descriptive language and logical sequencing.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Present Simple for Traditions",
+            "content": "When describing a tradition that happens regularly, use the present simple tense. For example: 'Vietnamese people celebrate Tet holiday in late January or early February.' or 'Families gather to eat special food.'"
+          },
+          {
+            "type": "example",
+            "heading": "Descriptive Adjectives",
+            "content": "Instead of: 'The clothes are nice.' Correct: 'People wear beautiful traditional ao dai.' Instead of: 'The food is good.' Correct: 'They prepare delicious sticky rice cakes and spring rolls.' (Use adjectives to paint a picture)."
+          },
+          {
+            "type": "tip",
+            "heading": "Sequencing Events Clearly",
+            "content": "Use words like 'first,' 'then,' 'after that,' 'next,' and 'finally' to guide the reader through the steps or events of the tradition. This ensures a logical flow."
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for Description",
+            "content": "Introduction: Name the tradition and its general importance. Body Paragraphs: Describe the different aspects of the tradition (e.g., preparations, activities, food, clothing) in a logical order. Conclusion: Explain the meaning or significance of the tradition."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Tet is the most important ___ celebration in Vietnam.",
+          "answerKeys": [
+            "traditional",
+            "cultural"
+          ]
+        },
+        {
+          "stemText": "Families usually clean and ___ their homes before the New Year.",
+          "answerKeys": [
+            "decorate"
+          ]
+        },
+        {
+          "stemText": "During Tet, people often visit their ___ and friends.",
+          "answerKeys": [
+            "relatives"
+          ]
+        },
+        {
+          "stemText": "Children receive 'li xi' or lucky money in red ___.",
+          "answerKeys": [
+            "envelopes"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Choose a cultural tradition from your country or another country. Describe how it is celebrated, including the activities, food, and its significance.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Describe a family tradition that is important to you. Explain what happens during this tradition and why it is meaningful to your family.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Pros and Cons of Social Media",
+      "description": "This lesson helps you discuss the advantages and disadvantages of social media, using balanced arguments and appropriate linking words.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Structuring Pros and Cons",
+            "content": "Start with an introduction. Dedicate one or two paragraphs to the 'pros' (advantages) and another one or two paragraphs to the 'cons' (disadvantages). Conclude with a summary and your overall opinion."
+          },
+          {
+            "type": "example",
+            "heading": "Using Contrastive Conjunctions",
+            "content": "To show both sides, use words like 'however,' 'on the other hand,' 'although,' 'despite,' and 'whereas.' Example: 'Social media helps us connect, however, it can also be a distraction.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Vocabulary for Discussion",
+            "content": "Use words like 'advantages,' 'benefits,' 'positive aspects,' 'drawbacks,' 'disadvantages,' 'negative impacts.' Also, phrases like 'from one perspective,' 'on the flip side.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Developing Each Point",
+            "content": "For each pro or con, state the point clearly, then provide an explanation or example to support it. Don't just list points; elaborate on them."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Social media allows us to stay ___ with friends and family far away.",
+          "answerKeys": [
+            "connected"
+          ]
+        },
+        {
+          "stemText": "___, it can also lead to addiction and wasted time.",
+          "answerKeys": [
+            "However",
+            "Nevertheless",
+            "On the other hand"
+          ]
+        },
+        {
+          "stemText": "One ___ of social media is the spread of misinformation.",
+          "answerKeys": [
+            "disadvantage",
+            "drawback",
+            "negative aspect"
+          ]
+        },
+        {
+          "stemText": "Many people use platforms like Facebook to share their ___ and experiences.",
+          "answerKeys": [
+            "thoughts",
+            "opinions"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Discuss the main advantages and disadvantages of using social media. Provide specific examples for both sides.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Do you think social media has a more positive or negative impact on society? Write an essay explaining your opinion, supporting it with reasons and examples.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Write a Report on a School Event",
+      "description": "This lesson teaches you how to write an objective report about a school event, using clear structure and factual language.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Structure of a Report",
+            "content": "A report typically includes: Title, Introduction (what, when, where, why), Main Body (details of the event, activities, participants), and Conclusion/Recommendations (summary, outcomes, suggestions for future events)."
+          },
+          {
+            "type": "example",
+            "heading": "Using Past Simple for Events",
+            "content": "Since you are reporting on a past event, use the past simple tense. Incorrect: 'Students are playing games.' Correct: 'Students played various games.' (Focus on what happened)."
+          },
+          {
+            "type": "tip",
+            "heading": "Objective Language",
+            "content": "Reports should be factual and objective. Avoid personal opinions or emotional language. Instead of 'It was a fantastic day!', write 'The event was well-attended and received positive feedback.' (Focus on facts and observations)."
+          },
+          {
+            "type": "rule",
+            "heading": "Clear and Concise Sentences",
+            "content": "Use direct and clear sentences. Avoid long, complex sentences that might confuse the reader. Each sentence should convey a specific piece of information."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "The annual school sports day ___ place last Friday.",
+          "answerKeys": [
+            "took"
+          ]
+        },
+        {
+          "stemText": "Over 200 students ___ in various athletic competitions.",
+          "answerKeys": [
+            "participated",
+            "competed"
+          ]
+        },
+        {
+          "stemText": "The event was organized to ___ teamwork and healthy competition.",
+          "answerKeys": [
+            "promote",
+            "encourage"
+          ]
+        },
+        {
+          "stemText": "Overall, the sports day was a great ___ and enjoyed by all.",
+          "answerKeys": [
+            "success"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a report on a recent school event you attended (e.g., a talent show, a charity fair, a science exhibition). Describe the event, its activities, and its overall success.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Write a report for your school principal about a school club's recent activity (e.g., a debate club competition, an art club exhibition). Include details about the activity, participation, and any outcomes or recommendations.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Describe Career Goals",
+      "description": "This lesson helps you articulate your career goals clearly, explaining your motivations and the steps you plan to take.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Future Tenses for Goals",
+            "content": "When talking about future career plans, use future tenses like 'I will,' 'I am going to,' or 'I hope to.' For example: 'I am going to study IT at university.' or 'I hope to become a software engineer.'"
+          },
+          {
+            "type": "example",
+            "heading": "Connecting Goals to Motivations",
+            "content": "Instead of: 'I want to be a doctor.' Correct: 'I want to become a doctor because I am passionate about helping people and making a positive impact on their health.' (Explain the 'why')."
+          },
+          {
+            "type": "tip",
+            "heading": "Action Verbs for Steps",
+            "content": "When describing steps to achieve your goals, use strong action verbs: 'enroll,' 'gain,' 'develop,' 'master,' 'apply,' 'network.' Example: 'I plan to enroll in a coding bootcamp to develop my programming skills.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for Goals",
+            "content": "Introduction: State your main career goal. Body Paragraph 1: Explain why you chose this goal and what motivates you. Body Paragraph 2: Describe the steps you plan to take to achieve this goal (e.g., education, skills, experience). Conclusion: Reiterate your commitment and future vision."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My long-term career ___ is to become a successful architect.",
+          "answerKeys": [
+            "goal",
+            "ambition"
+          ]
+        },
+        {
+          "stemText": "I am currently studying hard to ___ into a good university.",
+          "answerKeys": [
+            "get",
+            "enroll"
+          ]
+        },
+        {
+          "stemText": "I hope to ___ valuable experience through internships.",
+          "answerKeys": [
+            "gain",
+            "acquire"
+          ]
+        },
+        {
+          "stemText": "I am ___ about designing buildings that are both beautiful and functional.",
+          "answerKeys": [
+            "passionate",
+            "enthusiastic"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe your main career goal. Explain why you have chosen this path and what steps you are currently taking or plan to take to achieve it.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Imagine yourself in your dream job five years from now. Describe what you are doing, why you enjoy it, and how you got there.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Write About a Challenge You Overcame",
+      "description": "This lesson guides you in narrating a personal challenge you overcame, focusing on chronological order and expressing feelings.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Narrative Structure (Past Simple)",
+            "content": "When telling a story about a past event, use the past simple tense for the main actions. Organize your story chronologically: 'First, this happened. Then, that happened. Finally, I achieved...'"
+          },
+          {
+            "type": "example",
+            "heading": "Expressing Feelings and Emotions",
+            "content": "Use adjectives and adverbs to describe how you felt. Instead of 'I was sad,' try 'I felt discouraged and frustrated.' Instead of 'I was happy,' try 'I felt a great sense of accomplishment and relief.' (Adds depth to your story)."
+          },
+          {
+            "type": "tip",
+            "heading": "Focus on the 'Lesson Learned'",
+            "content": "After describing the challenge and how you overcame it, dedicate a part of your writing to what you learned from the experience. This shows reflection and personal growth."
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for a Narrative",
+            "content": "Introduction: Briefly introduce the challenge. Body Paragraphs: Describe the challenge in detail, the difficulties you faced, and the actions you took to overcome it. Conclusion: Explain the outcome and what you learned from the experience."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Learning English was a big ___ for me at first.",
+          "answerKeys": [
+            "challenge",
+            "difficulty"
+          ]
+        },
+        {
+          "stemText": "I often felt ___ when I couldn't understand native speakers.",
+          "answerKeys": [
+            "frustrated",
+            "discouraged"
+          ]
+        },
+        {
+          "stemText": "However, I didn't ___ up and continued to practice every day.",
+          "answerKeys": [
+            "give"
+          ]
+        },
+        {
+          "stemText": "Eventually, I ___ to communicate more confidently.",
+          "answerKeys": [
+            "managed",
+            "learned"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe a personal challenge you faced and successfully overcame. Explain what the challenge was, how you dealt with it, and what you learned from the experience.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Think about a time you failed at something but then tried again and succeeded. Narrate the story, focusing on your efforts and the lesson you learned.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "A Review of a Book or Film",
+      "description": "This lesson teaches you how to write a review of a book or film, expressing your opinion clearly and supporting it with details.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Expressing Opinions Clearly",
+            "content": "Use phrases like 'In my opinion,' 'I think that,' 'I believe that,' 'I found it to be,' or 'What I liked most was...' to introduce your views. Be direct but polite."
+          },
+          {
+            "type": "example",
+            "heading": "Descriptive Adjectives for Reviews",
+            "content": "Instead of 'The film was good,' use 'The film was captivating/thrilling/thought-provoking.' Instead of 'The book was bad,' use 'The book was predictable/disappointing/confusing.' (Use strong adjectives to convey your feeling)."
+          },
+          {
+            "type": "tip",
+            "heading": "Summarizing Without Spoilers",
+            "content": "When summarizing the plot, give enough information for the reader to understand the premise, but avoid revealing major twists or the ending. Focus on the genre, main characters, and initial conflict."
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for a Review",
+            "content": "Introduction: Name the book/film, genre, and your overall impression. Body Paragraph 1: Briefly summarize the plot (no spoilers). Body Paragraph 2: Discuss specific aspects you liked (e.g., characters, acting, writing, themes). Body Paragraph 3: Discuss specific aspects you disliked or found weak. Conclusion: Give your final recommendation and overall rating."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "The movie 'Parasite' is a brilliant social ___.",
+          "answerKeys": [
+            "commentary",
+            "drama"
+          ]
+        },
+        {
+          "stemText": "I found the plot to be very ___ and full of unexpected turns.",
+          "answerKeys": [
+            "engaging",
+            "gripping"
+          ]
+        },
+        {
+          "stemText": "The main characters were well-developed and the acting was ___.",
+          "answerKeys": [
+            "superb",
+            "excellent"
+          ]
+        },
+        {
+          "stemText": "Overall, I highly ___ this film to anyone who enjoys thrillers.",
+          "answerKeys": [
+            "recommend"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a review of a book or film you have recently read or watched. Include a brief summary, what you liked and disliked, and your overall recommendation.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Choose a book or film that had a significant impact on you. Write a review explaining why it affected you so much and what message it conveyed.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Write About Healthy Habits",
+      "description": "This lesson helps you describe healthy habits and explain their benefits, using clear language and giving advice.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Imperatives for Advice",
+            "content": "When giving advice on healthy habits, you can use imperatives (commands) or modal verbs. Examples: 'Eat a balanced diet.' 'You should exercise regularly.' 'It's important to get enough sleep.'"
+          },
+          {
+            "type": "example",
+            "heading": "Connecting Habits to Benefits",
+            "content": "Incorrect: 'Exercise is good.' Correct: 'Regular exercise helps to strengthen your heart and improve your mood.' (Explain *how* it's good and *what* benefits it brings)."
+          },
+          {
+            "type": "tip",
+            "heading": "Varying Vocabulary for 'Good' and 'Bad'",
+            "content": "Instead of 'good for your health,' try 'beneficial,' 'advantageous,' 'promotes well-being.' Instead of 'bad for your health,' try 'detrimental,' 'harmful,' 'unhealthy.' This enriches your writing."
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for Healthy Habits",
+            "content": "Introduction: Briefly state the importance of healthy habits. Body Paragraphs: Dedicate each paragraph to a specific healthy habit (e.g., diet, exercise, sleep, mental health). Explain the habit and its benefits. Conclusion: Summarize the overall importance of these habits for a healthy lifestyle."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Eating a ___ diet is crucial for maintaining good health.",
+          "answerKeys": [
+            "balanced"
+          ]
+        },
+        {
+          "stemText": "Regular physical ___ helps to keep your body strong and active.",
+          "answerKeys": [
+            "activity",
+            "exercise"
+          ]
+        },
+        {
+          "stemText": "It is important to get at least 7-8 hours of ___ every night.",
+          "answerKeys": [
+            "sleep"
+          ]
+        },
+        {
+          "stemText": "Drinking enough water ___ your body hydrated and functioning well.",
+          "answerKeys": [
+            "keeps"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe three healthy habits that you practice or would like to practice. Explain why each habit is important and how it benefits your overall well-being.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Imagine you are giving advice to a friend about living a healthier lifestyle. Write an essay outlining key healthy habits and explaining why they are essential.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Discuss City vs. Countryside Living",
+      "description": "This lesson helps you compare and contrast living in a city and living in the countryside, expressing preferences and reasons.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Comparatives and Superlatives",
+            "content": "When comparing, use comparative adjectives (e.g., 'busier,' 'more peaceful,' 'less expensive') and superlative adjectives (e.g., 'the busiest,' 'the most peaceful'). Example: 'City life is faster than countryside life.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Comparison",
+            "content": "Use words like 'whereas,' 'while,' 'in contrast,' 'on the other hand' to highlight differences. For similarities, use 'both,' 'similarly.' Example: 'Cities offer more job opportunities, whereas the countryside provides more tranquility.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Supporting Your Points with Examples",
+            "content": "Don't just state a difference; explain it. For example, if you say 'City life is more expensive,' give examples like 'rent, food, and transportation costs are generally higher.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for Comparison",
+            "content": "Introduction: Briefly introduce the topic of city vs. countryside living. Body Paragraph 1: Discuss the advantages of city living. Body Paragraph 2: Discuss the advantages of countryside living. Body Paragraph 3: Discuss the disadvantages of both. Conclusion: Summarize and state your personal preference with reasons."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "City life is often more ___ and exciting than life in the countryside.",
+          "answerKeys": [
+            "dynamic",
+            "vibrant"
+          ]
+        },
+        {
+          "stemText": "The countryside offers a more ___ and quiet environment.",
+          "answerKeys": [
+            "peaceful",
+            "tranquil"
+          ]
+        },
+        {
+          "stemText": "Public transportation is usually more ___ in cities.",
+          "answerKeys": [
+            "convenient",
+            "accessible"
+          ]
+        },
+        {
+          "stemText": "___, the cost of living in the city is generally higher.",
+          "answerKeys": [
+            "However",
+            "In contrast",
+            "On the other hand"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Compare and contrast living in a big city with living in the countryside. Discuss the advantages and disadvantages of each, and state which you prefer and why.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Imagine you have to choose between living in a bustling city or a quiet village for the next five years. Describe your choice and explain your reasons, considering factors like lifestyle, opportunities, and environment.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Write a Cover Letter",
+      "description": "This lesson teaches you how to write a professional cover letter to apply for a job, focusing on formal tone and relevant information.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Standard Cover Letter Structure",
+            "content": "A cover letter includes: Your Contact Info, Date, Employer Contact Info, Formal Salutation, Introduction (job you're applying for, where you saw it), Body Paragraphs (why you're a good fit, skills, experience), Call to Action, Formal Closing, Your Signature."
+          },
+          {
+            "type": "example",
+            "heading": "Linking Skills to Job Requirements",
+            "content": "Instead of 'I am good at teamwork.' Correct: 'My experience in leading group projects has developed my strong teamwork and communication skills, which I believe are essential for this role.' (Connect your skill directly to the job)."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Formal and Persuasive Language",
+            "content": "Use phrases like 'I am writing to express my keen interest in...', 'My skills align perfectly with...', 'I am confident that I can contribute to...'. Avoid informal language and contractions."
+          },
+          {
+            "type": "rule",
+            "heading": "Tailoring Your Letter",
+            "content": "Always customize your cover letter for each specific job application. Mention the company name and specific requirements from the job advertisement. This shows you've done your research and are genuinely interested."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "I am writing to express my keen ___ in the Marketing Assistant position.",
+          "answerKeys": [
+            "interest"
+          ]
+        },
+        {
+          "stemText": "My previous experience in customer service has provided me with strong communication ___.",
+          "answerKeys": [
+            "skills"
+          ]
+        },
+        {
+          "stemText": "I am confident that my qualifications and enthusiasm would make me a valuable ___ to your team.",
+          "answerKeys": [
+            "asset",
+            "addition"
+          ]
+        },
+        {
+          "stemText": "I look forward to the opportunity to ___ my application further.",
+          "answerKeys": [
+            "discuss"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Imagine you are applying for a part-time administrative assistant position. Write a cover letter to the hiring manager, highlighting your relevant skills and experience.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "You are applying for a volunteer position at a local charity. Write a cover letter explaining why you want to volunteer, what skills you can offer, and how you can contribute.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Describe a Trip Abroad",
+      "description": "This lesson helps you describe a memorable trip abroad, focusing on narrative detail, descriptive language, and chronological order.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Past Simple for Narrative",
+            "content": "When describing a past trip, use the past simple tense for actions and events. Example: 'We visited the Eiffel Tower,' 'I tried local food,' 'The weather was beautiful.'"
+          },
+          {
+            "type": "example",
+            "heading": "Descriptive Adjectives and Adverbs",
+            "content": "Instead of 'The city was nice,' use 'The ancient city was breathtakingly beautiful.' Instead of 'We walked a lot,' use 'We explored the vibrant streets enthusiastically.' (Adds vividness to your descriptions)."
+          },
+          {
+            "type": "tip",
+            "heading": "Sequencing Events Logically",
+            "content": "Organize your description chronologically, from arrival to departure. Use transition words like 'first,' 'then,' 'after that,' 'on the second day,' 'finally' to make your narrative easy to follow."
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for a Trip Description",
+            "content": "Introduction: State where and when you traveled, and your overall feeling about the trip. Body Paragraphs: Describe specific places you visited, activities you did, food you ate, and interesting experiences. Use a new paragraph for each major aspect or day. Conclusion: Summarize your favorite memories and what you learned or gained from the trip."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Last summer, I had the amazing opportunity to ___ to Japan.",
+          "answerKeys": [
+            "travel"
+          ]
+        },
+        {
+          "stemText": "We ___ many ancient temples and beautiful gardens in Kyoto.",
+          "answerKeys": [
+            "visited",
+            "explored"
+          ]
+        },
+        {
+          "stemText": "The local food was absolutely ___, especially the sushi.",
+          "answerKeys": [
+            "delicious",
+            "tasty"
+          ]
+        },
+        {
+          "stemText": "I bought many ___ for my family and friends.",
+          "answerKeys": [
+            "souvenirs",
+            "gifts"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe a memorable trip you took abroad. Include details about where you went, what you did, what you saw, and what made it special.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Imagine you are planning your dream trip abroad. Describe where you would go, what activities you would do, and why this trip is important to you.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Write About a Current News Event",
+      "description": "This lesson helps you summarize a current news event and express a brief opinion, using factual language and clear structure.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Reporting the '5 Ws'",
+            "content": "When summarizing a news event, make sure to cover the 'Who, What, When, Where, Why.' This provides the essential information clearly and concisely. Use past simple for completed events."
+          },
+          {
+            "type": "example",
+            "heading": "Objective vs. Subjective Language",
+            "content": "In the main summary, use objective language (facts). Incorrect: 'The terrible storm destroyed everything.' Correct: 'The storm caused significant damage to infrastructure.' (Save opinions for the opinion section)."
+          },
+          {
+            "type": "tip",
+            "heading": "Introducing Your Opinion",
+            "content": "When you transition from factual reporting to your opinion, use phrases like 'In my opinion,' 'I believe that,' 'It seems to me that,' or 'I think this event highlights...'. This clearly separates facts from your views."
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for a News Event",
+            "content": "Introduction: Briefly introduce the news event (what, when, where). Body Paragraph 1: Provide more details about what happened and why. Body Paragraph 2: Discuss the immediate impact or consequences of the event. Conclusion: Offer a brief personal opinion or reflection on the event's significance."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "A major earthquake ___ recently in Turkey, causing widespread damage.",
+          "answerKeys": [
+            "occurred",
+            "struck"
+          ]
+        },
+        {
+          "stemText": "Rescue teams worked tirelessly to ___ survivors from the rubble.",
+          "answerKeys": [
+            "find",
+            "rescue"
+          ]
+        },
+        {
+          "stemText": "The international community offered financial ___ and humanitarian aid.",
+          "answerKeys": [
+            "support",
+            "assistance"
+          ]
+        },
+        {
+          "stemText": "This tragic event reminds us of the ___ of natural disasters.",
+          "answerKeys": [
+            "power",
+            "devastation"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Choose a current news event that interests you. Summarize the event, including the key facts (who, what, when, where, why), and briefly state your opinion on its significance.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Write about a recent scientific discovery or technological advancement reported in the news. Explain what it is, its potential impact, and your thoughts on its future implications.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "The Importance of Recycling",
+      "description": "This lesson focuses on explaining the importance of recycling, using persuasive language and cause-and-effect reasoning.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Cause-and-Effect for Impact",
+            "content": "Explain how recycling leads to positive outcomes. Use phrases like 'Recycling helps to reduce waste, which in turn protects our environment.' or 'If we recycle, we can save natural resources.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Environmental Action",
+            "content": "Instead of 'throwing away,' use 'disposing of.' Other useful words: 'conserve,' 'reduce,' 'reuse,' 'landfill,' 'carbon footprint,' 'sustainable,' 'raw materials.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Persuasive Language",
+            "content": "To convince your reader, use strong statements and modal verbs. 'It is essential that we recycle.' 'We must all play our part.' 'Recycling offers numerous benefits to our planet.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for Persuasion",
+            "content": "Introduction: State the importance of recycling. Body Paragraph 1: Explain how recycling reduces waste and landfill use. Body Paragraph 2: Discuss how recycling conserves natural resources and energy. Body Paragraph 3: Mention other benefits like reducing pollution. Conclusion: Summarize the key benefits and make a call to action."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Recycling is crucial for ___ our planet from excessive waste.",
+          "answerKeys": [
+            "protecting",
+            "saving"
+          ]
+        },
+        {
+          "stemText": "When we recycle, we help to ___ natural resources like trees and minerals.",
+          "answerKeys": [
+            "conserve",
+            "save"
+          ]
+        },
+        {
+          "stemText": "It also helps to ___ the amount of rubbish sent to landfills.",
+          "answerKeys": [
+            "reduce",
+            "decrease"
+          ]
+        },
+        {
+          "stemText": "By recycling, we can significantly lower our carbon ___.",
+          "answerKeys": [
+            "footprint"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Explain why recycling is important for the environment and for future generations. Provide at least three reasons and elaborate on each one.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Discuss what individuals and communities can do to promote and improve recycling efforts. Suggest practical steps that can be taken.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Write About a Role Model",
+      "description": "This lesson helps you describe a role model, explaining why they inspire you and what qualities you admire in them.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Descriptive Adjectives for Character",
+            "content": "When describing your role model, use adjectives that highlight their positive qualities. Examples: 'courageous,' 'determined,' 'compassionate,' 'innovative,' 'resilient,' 'inspiring.' (Adds depth to your description)."
+          },
+          {
+            "type": "example",
+            "heading": "Connecting Actions to Qualities",
+            "content": "Instead of 'He is kind.' Correct: 'He demonstrates kindness through his consistent efforts to help those in need.' (Show, don't just tell. Give an example of their actions)."
+          },
+          {
+            "type": "tip",
+            "heading": "Explaining 'Why' They Inspire You",
+            "content": "Clearly state how your role model's actions or qualities have influenced you. Use phrases like 'They inspire me to...', 'I learn from them to...', 'Their dedication motivates me to...'"
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for a Role Model",
+            "content": "Introduction: Introduce your role model and briefly state why they are important to you. Body Paragraphs: Dedicate each paragraph to a specific quality or achievement of your role model, providing examples. Explain how these qualities or achievements have influenced you. Conclusion: Summarize their overall impact on your life and future aspirations."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My mother is my greatest role ___, inspiring me every day.",
+          "answerKeys": [
+            "model"
+          ]
+        },
+        {
+          "stemText": "She is incredibly ___ and always faces challenges with a positive attitude.",
+          "answerKeys": [
+            "resilient",
+            "strong"
+          ]
+        },
+        {
+          "stemText": "Her ___ to her family and work is truly admirable.",
+          "answerKeys": [
+            "dedication",
+            "commitment"
+          ]
+        },
+        {
+          "stemText": "I learn from her to always strive for ___ and never give up.",
+          "answerKeys": [
+            "excellence",
+            "success"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Choose a person who you consider a role model (it can be a family member, a public figure, or a friend). Describe their qualities and achievements, and explain why they inspire you.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Think about a historical figure or a fictional character who embodies qualities you admire. Describe who they are, what qualities they possess, and how they influence your own aspirations.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Describe How Technology Has Changed Life",
+      "description": "This lesson helps you discuss the transformative impact of technology on various aspects of life, comparing past and present.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Present Perfect for Changes Over Time",
+            "content": "To describe changes that started in the past and continue to affect the present, use the present perfect tense. Example: 'Technology has revolutionized communication.' or 'Smartphones have made information accessible.'"
+          },
+          {
+            "type": "example",
+            "heading": "Comparing Past and Present",
+            "content": "Use phrases like 'In the past, people used to...', 'Now, with technology...', 'Compared to before...' to highlight the changes. Example: 'In the past, sending a letter took days; now, an email arrives instantly.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Categorizing Impacts",
+            "content": "To organize your thoughts, consider different areas of life: communication, education, work, entertainment, health, travel. Dedicate a paragraph to each area's transformation."
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for Impact",
+            "content": "Introduction: Briefly state that technology has significantly changed life. Body Paragraphs: Discuss specific areas of life (e.g., communication, work, education, daily tasks) and how technology has transformed them, providing examples and comparing past and present. Conclusion: Summarize the overall impact and offer a final thought on the future of technology."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Technology has greatly ___ the way we live, work, and communicate.",
+          "answerKeys": [
+            "changed",
+            "transformed"
+          ]
+        },
+        {
+          "stemText": "In the past, people used to write letters, but now we can send emails ___.",
+          "answerKeys": [
+            "instantly"
+          ]
+        },
+        {
+          "stemText": "Online learning platforms have made education more ___ to everyone.",
+          "answerKeys": [
+            "accessible"
+          ]
+        },
+        {
+          "stemText": "The internet has provided us with an enormous amount of ___ at our fingertips.",
+          "answerKeys": [
+            "information",
+            "knowledge"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Discuss how technology has changed communication and education over the past few decades. Provide specific examples for both areas.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Describe how technology has made daily tasks (e.g., shopping, banking, entertainment) easier or more convenient. What are some positive and negative aspects of these changes?",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "Write About Work Experience",
+      "description": "This lesson helps you describe your work experience, focusing on responsibilities, skills gained, and lessons learned.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Past Simple for Responsibilities",
+            "content": "When describing past work experience, use the past simple tense to list your responsibilities and actions. Example: 'I assisted customers with inquiries,' 'I managed social media accounts,' 'I organized team meetings.'"
+          },
+          {
+            "type": "example",
+            "heading": "Action Verbs for Impact",
+            "content": "Instead of 'I was responsible for customer service.' Correct: 'I resolved customer complaints and provided product information.' Instead of 'I worked on projects.' Correct: 'I collaborated with team members to complete projects on time.' (Use strong verbs to show what you *did*)."
+          },
+          {
+            "type": "tip",
+            "heading": "Connecting Experience to Skills",
+            "content": "After describing a responsibility, explain what skill you developed or used. Example: 'This role helped me develop strong problem-solving skills' or 'I improved my communication abilities through daily interactions.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for Work Experience",
+            "content": "Introduction: Briefly state the name of the job/internship, company, and dates. Body Paragraphs: Describe your main responsibilities and tasks. For each, explain what you learned or what skills you developed. Use specific examples. Conclusion: Summarize the overall value of the experience and how it has prepared you for future roles."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "During my internship, I was ___ for managing social media content.",
+          "answerKeys": [
+            "responsible"
+          ]
+        },
+        {
+          "stemText": "I gained valuable ___ in digital marketing and content creation.",
+          "answerKeys": [
+            "experience"
+          ]
+        },
+        {
+          "stemText": "I also had the opportunity to ___ with colleagues on various projects.",
+          "answerKeys": [
+            "collaborate",
+            "work"
+          ]
+        },
+        {
+          "stemText": "This experience helped me to ___ my teamwork and communication skills.",
+          "answerKeys": [
+            "develop",
+            "improve"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe a work experience you have had (e.g., a part-time job, an internship, volunteer work). Detail your responsibilities, what you learned, and what skills you developed.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Imagine you are applying for your first job. Describe what kind of work experience you hope to gain and why it is important for your future career goals.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    },
+    {
+      "title": "My Opinion on Studying Abroad",
+      "description": "This lesson helps you express your opinion on studying abroad, discussing its advantages and disadvantages with clear reasoning.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Expressing and Supporting Opinions",
+            "content": "Start with a clear statement of your opinion. Support it with reasons and examples. Use phrases like 'I firmly believe that...', 'In my view...', 'One significant advantage is... because...'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Discussion and Opinion",
+            "content": "Use words like 'opportunity,' 'challenge,' 'perspective,' 'independence,' 'cultural immersion,' 'global mindset.' Example: 'Studying abroad offers a unique opportunity for personal growth.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Acknowledging Both Sides (Even with an Opinion)",
+            "content": "Even if you have a strong opinion, it's good to briefly acknowledge the opposing view. Use 'While some might argue that...', 'However, I believe that...'. This shows a balanced understanding."
+          },
+          {
+            "type": "rule",
+            "heading": "Paragraph Organization for Opinion Essay",
+            "content": "Introduction: State your clear opinion on studying abroad. Body Paragraph 1: Discuss the main advantages of studying abroad (e.g., academic, personal, cultural). Body Paragraph 2: Discuss potential challenges or disadvantages. Body Paragraph 3: Reiterate your opinion and explain why the benefits outweigh the drawbacks (or vice versa). Conclusion: Summarize your viewpoint and offer a final thought."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Studying abroad offers a fantastic ___ to experience new cultures.",
+          "answerKeys": [
+            "opportunity"
+          ]
+        },
+        {
+          "stemText": "It can help students develop greater ___ and problem-solving skills.",
+          "answerKeys": [
+            "independence"
+          ]
+        },
+        {
+          "stemText": "___, it can also be a challenging experience, especially at first.",
+          "answerKeys": [
+            "However",
+            "Nevertheless"
+          ]
+        },
+        {
+          "stemText": "In my ___, the benefits of studying abroad far outweigh the difficulties.",
+          "answerKeys": [
+            "opinion",
+            "view"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Do you think studying abroad is a valuable experience for young people? Write an essay expressing your opinion, providing reasons and examples to support your viewpoint.",
+          "minWords": 120,
+          "maxWords": 180
+        },
+        {
+          "prompt": "Discuss the main advantages and disadvantages of studying in a foreign country. Would you consider studying abroad? Explain your decision.",
+          "minWords": 120,
+          "maxWords": 180
+        }
+      ]
+    }
+  ]
+}

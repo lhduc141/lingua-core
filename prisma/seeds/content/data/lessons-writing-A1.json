@@ -1,0 +1,1442 @@
+{
+  "skill": "writing",
+  "cefrLevel": "A1",
+  "lessons": [
+    {
+      "title": "Introduce Yourself",
+      "description": "Learn to write simple sentences to introduce yourself. Focus on basic personal information.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using 'I am' for Name and Age",
+            "content": "When you introduce yourself, use 'I am' followed by your name or age. For example: 'I am Lan.' or 'I am 10 years old.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Saying Where You Are From",
+            "content": "Use 'I am from' to tell people your country or city. For example: 'I am from Vietnam.' or 'I am from Hanoi.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Start with Your Name",
+            "content": "Always start your introduction with your name. Then, add 1-2 more simple facts about yourself like your age or where you live."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Hello, my name ___ Linh.",
+          "answerKeys": [
+            "is"
+          ]
+        },
+        {
+          "stemText": "I am ___ years old.",
+          "answerKeys": [
+            "10",
+            "ten"
+          ]
+        },
+        {
+          "stemText": "I am from ___.",
+          "answerKeys": [
+            "Vietnam",
+            "Hanoi"
+          ]
+        },
+        {
+          "stemText": "I am a ___.",
+          "answerKeys": [
+            "student",
+            "teacher"
+          ]
+        },
+        {
+          "stemText": "I ___ to read books.",
+          "answerKeys": [
+            "like",
+            "love"
+          ]
+        },
+        {
+          "stemText": "My favorite color ___ blue.",
+          "answerKeys": [
+            "is"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph introducing yourself. Include your name, age, where you are from, and one thing you like to do.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "Describe Your Room",
+      "description": "Learn to describe your room using simple sentences and prepositions of place.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using 'There is' and 'There are'",
+            "content": "Use 'There is' for one item (singular) and 'There are' for two or more items (plural). For example: 'There is a bed.' 'There are two chairs.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Prepositions of Place",
+            "content": "Use words like 'in' (inside), 'on' (on top of), 'next to' (beside), 'under' (below) to say where things are. For example: 'My book is on the desk.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Start with General Description",
+            "content": "Begin by describing if your room is big or small, and its color. Then, list 2-3 main items you have in your room."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My room is ___.",
+          "answerKeys": [
+            "small",
+            "big"
+          ]
+        },
+        {
+          "stemText": "The walls are ___.",
+          "answerKeys": [
+            "white",
+            "blue"
+          ]
+        },
+        {
+          "stemText": "There is a ___ in my room.",
+          "answerKeys": [
+            "bed",
+            "desk"
+          ]
+        },
+        {
+          "stemText": "My desk is ___ the window.",
+          "answerKeys": [
+            "next to",
+            "under"
+          ]
+        },
+        {
+          "stemText": "There ___ a lamp on the desk.",
+          "answerKeys": [
+            "is"
+          ]
+        },
+        {
+          "stemText": "I have many ___ in my room.",
+          "answerKeys": [
+            "books",
+            "toys"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph describing your room. Mention its size, color, and 2-3 main items in it, using prepositions of place.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "Write About Your Family",
+      "description": "Learn to write simple sentences about your family members and what they are like.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using 'I have' for Family Members",
+            "content": "Use 'I have' to talk about the members of your family. For example: 'I have a mother, a father, and one sister.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Describing Family Members",
+            "content": "Use simple adjectives to describe your family members. For example: 'My mother is kind.' 'My father is tall.' 'My brother is funny.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Introduce Each Member Simply",
+            "content": "Start by saying who is in your family. Then, for 2-3 members, say their name and one simple characteristic or what they do."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "I have a big ___.",
+          "answerKeys": [
+            "family"
+          ]
+        },
+        {
+          "stemText": "My ___ name is Hoa.",
+          "answerKeys": [
+            "mother's",
+            "mom's"
+          ]
+        },
+        {
+          "stemText": "My father ___ a doctor.",
+          "answerKeys": [
+            "is"
+          ]
+        },
+        {
+          "stemText": "I have one ___ and one sister.",
+          "answerKeys": [
+            "brother"
+          ]
+        },
+        {
+          "stemText": "My sister is very ___.",
+          "answerKeys": [
+            "kind",
+            "nice"
+          ]
+        },
+        {
+          "stemText": "We all ___ each other.",
+          "answerKeys": [
+            "love"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph about your family. Mention who is in your family and describe 2-3 family members with simple adjectives.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "My Favorite Food",
+      "description": "Learn to write about your favorite food, describing its taste and why you like it.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Stating Your Favorite Food",
+            "content": "Use the sentence 'My favorite food is...' to introduce the food you like the most. For example: 'My favorite food is pho.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Describing Food with Adjectives",
+            "content": "Use simple adjectives to describe the food. Examples: 'It is delicious.' 'It is sweet.' 'It is spicy.' 'It is healthy.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Say Why You Like It",
+            "content": "After naming your favorite food, describe its taste or how it makes you feel. You can also mention when or where you eat it."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My favorite food ___ pizza.",
+          "answerKeys": [
+            "is"
+          ]
+        },
+        {
+          "stemText": "It is very ___.",
+          "answerKeys": [
+            "delicious",
+            "tasty"
+          ]
+        },
+        {
+          "stemText": "I like to ___ it for dinner.",
+          "answerKeys": [
+            "eat"
+          ]
+        },
+        {
+          "stemText": "Pizza is a ___ food.",
+          "answerKeys": [
+            "popular",
+            "good"
+          ]
+        },
+        {
+          "stemText": "It has cheese and ___.",
+          "answerKeys": [
+            "meat",
+            "vegetables"
+          ]
+        },
+        {
+          "stemText": "I ___ pizza very much.",
+          "answerKeys": [
+            "love",
+            "like"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph about your favorite food. Name the food, describe its taste, and explain why you like it.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "Describe a Pet",
+      "description": "Learn to write simple sentences describing a pet, its appearance, and what it does.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Introducing Your Pet",
+            "content": "Start by saying 'I have a pet...' or 'My pet is a...' followed by the type of animal. For example: 'I have a pet dog.' or 'My pet is a cat.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Describing Appearance",
+            "content": "Use adjectives to describe how your pet looks. Examples: 'It is small.' 'It has brown fur.' 'It has big eyes.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Mention an Action",
+            "content": "After describing your pet's appearance, add one simple action it does. For example: 'It likes to play.' 'It sleeps a lot.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "I have a ___ dog.",
+          "answerKeys": [
+            "pet",
+            "small"
+          ]
+        },
+        {
+          "stemText": "Its name ___ Max.",
+          "answerKeys": [
+            "is"
+          ]
+        },
+        {
+          "stemText": "Max is very ___.",
+          "answerKeys": [
+            "cute",
+            "friendly"
+          ]
+        },
+        {
+          "stemText": "It has brown ___.",
+          "answerKeys": [
+            "fur",
+            "hair"
+          ]
+        },
+        {
+          "stemText": "Max likes to ___ with a ball.",
+          "answerKeys": [
+            "play"
+          ]
+        },
+        {
+          "stemText": "I ___ my dog very much.",
+          "answerKeys": [
+            "love",
+            "like"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph describing a pet you have or a pet you like. Mention its type, name, appearance, and one thing it likes to do.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "My School Day",
+      "description": "Learn to write about your typical school day using simple present tense and time expressions.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Simple Present Tense for Routines",
+            "content": "Use the simple present tense to talk about things you do regularly, like your school day. For example: 'I go to school.' 'We study English.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Time Expressions",
+            "content": "Use 'at' for specific times (e.g., 'at 7 o'clock') and 'in the morning/afternoon' for parts of the day. For example: 'I start school at 7 AM.'"
+          },
+          {
+            "type": "tip",
+            "heading": "List Main Activities",
+            "content": "Start by saying when your school day begins. Then, list 2-3 main activities you do at school and mention what you like about it."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "I go to ___ every day.",
+          "answerKeys": [
+            "school"
+          ]
+        },
+        {
+          "stemText": "School starts ___ 7 AM.",
+          "answerKeys": [
+            "at"
+          ]
+        },
+        {
+          "stemText": "I ___ English and Math.",
+          "answerKeys": [
+            "study",
+            "learn"
+          ]
+        },
+        {
+          "stemText": "I eat lunch with my ___.",
+          "answerKeys": [
+            "friends"
+          ]
+        },
+        {
+          "stemText": "My favorite ___ is Art.",
+          "answerKeys": [
+            "subject",
+            "class"
+          ]
+        },
+        {
+          "stemText": "I finish school ___ 4 PM.",
+          "answerKeys": [
+            "at"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph about your school day. Mention when it starts, 2-3 activities you do, and one thing you like about school.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "The Weather Today",
+      "description": "Learn to write simple sentences to describe the weather and what you can do.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using 'It is' for Weather",
+            "content": "To describe the weather, use 'It is' followed by a weather adjective. For example: 'It is sunny.' 'It is rainy.' 'It is cold.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Basic Weather Vocabulary",
+            "content": "Learn words like 'sunny', 'cloudy', 'rainy', 'windy', 'hot', 'cold', 'warm'. For example: 'It is a hot day.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Connect Weather to Activities",
+            "content": "After describing the weather, you can add a simple sentence about an activity you can do or cannot do because of the weather. For example: 'It is sunny. I can play outside.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Today, the weather ___ nice.",
+          "answerKeys": [
+            "is"
+          ]
+        },
+        {
+          "stemText": "It is very ___.",
+          "answerKeys": [
+            "sunny",
+            "hot"
+          ]
+        },
+        {
+          "stemText": "The sky is ___.",
+          "answerKeys": [
+            "blue",
+            "clear"
+          ]
+        },
+        {
+          "stemText": "It is not ___ today.",
+          "answerKeys": [
+            "cold",
+            "rainy"
+          ]
+        },
+        {
+          "stemText": "I can ___ outside.",
+          "answerKeys": [
+            "play",
+            "go"
+          ]
+        },
+        {
+          "stemText": "It is a beautiful ___.",
+          "answerKeys": [
+            "day"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph describing the weather today. Mention if it's sunny, rainy, hot, or cold, and one activity you can do or wear.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "My Daily Routine",
+      "description": "Learn to write about your daily activities using simple present tense and sequence words.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Simple Present Tense",
+            "content": "Use the simple present tense to describe actions you do every day. For example: 'I wake up.' 'I eat breakfast.' 'I go to school.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Sequence Words",
+            "content": "Use words like 'First,' 'Then,' 'After that,' 'Finally' to show the order of your activities. For example: 'First, I wake up. Then, I brush my teeth.'"
+          },
+          {
+            "type": "tip",
+            "heading": "List 3-4 Main Activities",
+            "content": "Choose 3-4 important activities you do every day. Write them in order, starting from the morning, and use simple time expressions like 'at 6 AM' or 'in the evening'."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Every morning, I ___ up at 6 AM.",
+          "answerKeys": [
+            "wake"
+          ]
+        },
+        {
+          "stemText": "Then, I ___ my teeth.",
+          "answerKeys": [
+            "brush"
+          ]
+        },
+        {
+          "stemText": "After that, I ___ breakfast.",
+          "answerKeys": [
+            "eat",
+            "have"
+          ]
+        },
+        {
+          "stemText": "I ___ to school at 7 AM.",
+          "answerKeys": [
+            "go"
+          ]
+        },
+        {
+          "stemText": "In the evening, I ___ my homework.",
+          "answerKeys": [
+            "do"
+          ]
+        },
+        {
+          "stemText": "Finally, I ___ at 9 PM.",
+          "answerKeys": [
+            "sleep",
+            "go to bed"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph about your daily routine. Mention 3-4 main activities you do every day, using sequence words and simple times.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "Describe a Color",
+      "description": "Learn to write about your favorite color and give examples of things that have that color.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Stating Your Favorite Color",
+            "content": "Use the sentence 'My favorite color is...' to introduce the color you like the most. For example: 'My favorite color is blue.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Naming Objects with the Color",
+            "content": "Give examples of things that are that color. For example: 'The sky is blue.' 'The ocean is blue.' 'My shirt is blue.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Explain Why You Like It",
+            "content": "After naming the color and giving examples, you can add a simple reason why you like it. For example: 'I like blue because it is calm.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My favorite ___ is green.",
+          "answerKeys": [
+            "color"
+          ]
+        },
+        {
+          "stemText": "The grass ___ green.",
+          "answerKeys": [
+            "is"
+          ]
+        },
+        {
+          "stemText": "Many trees are ___.",
+          "answerKeys": [
+            "green"
+          ]
+        },
+        {
+          "stemText": "I ___ green because it is fresh.",
+          "answerKeys": [
+            "like",
+            "love"
+          ]
+        },
+        {
+          "stemText": "My bag is also ___.",
+          "answerKeys": [
+            "green"
+          ]
+        },
+        {
+          "stemText": "It is a beautiful ___.",
+          "answerKeys": [
+            "color"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph about your favorite color. Name the color, give 2-3 examples of things that are that color, and say why you like it.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "My Best Friend",
+      "description": "Learn to write about your best friend, describing their appearance, personality, and what you do together.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Introducing Your Best Friend",
+            "content": "Start by saying 'My best friend is...' followed by their name. For example: 'My best friend is Mai.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Describing Personality and Appearance",
+            "content": "Use simple adjectives to describe your friend. Examples: 'She is kind.' 'He is funny.' 'She has long hair.' 'He is tall.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Mention Shared Activities",
+            "content": "After describing your friend, add one or two simple sentences about what you like to do together. For example: 'We play games together.' 'We study together.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My best ___ is Nam.",
+          "answerKeys": [
+            "friend"
+          ]
+        },
+        {
+          "stemText": "He is ___ years old.",
+          "answerKeys": [
+            "10",
+            "ten"
+          ]
+        },
+        {
+          "stemText": "Nam is very ___ and kind.",
+          "answerKeys": [
+            "funny",
+            "nice"
+          ]
+        },
+        {
+          "stemText": "He has short, black ___.",
+          "answerKeys": [
+            "hair"
+          ]
+        },
+        {
+          "stemText": "We like to ___ football together.",
+          "answerKeys": [
+            "play"
+          ]
+        },
+        {
+          "stemText": "I like my friend very ___.",
+          "answerKeys": [
+            "much"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph about your best friend. Mention their name, age, 1-2 characteristics (e.g., kind, funny), and one activity you do together.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "Write a Short List",
+      "description": "Learn to create simple lists using bullet points or numbers for clarity.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Bullet Points or Numbers",
+            "content": "When writing a list, you can use bullet points (•) or numbers (1., 2., 3.) to make each item clear and easy to read."
+          },
+          {
+            "type": "rule",
+            "heading": "Simple Nouns for List Items",
+            "content": "For A1 level, keep your list items as simple nouns or short noun phrases. For example: 'apples', 'milk', 'a pen'."
+          },
+          {
+            "type": "tip",
+            "heading": "Choose a Clear Category",
+            "content": "Before you start listing, decide on a category for your list (e.g., 'Things I need for school', 'My favorite fruits'). This helps keep your list focused."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "I need to make a shopping ___.",
+          "answerKeys": [
+            "list"
+          ]
+        },
+        {
+          "stemText": "First, I need some ___.",
+          "answerKeys": [
+            "milk",
+            "bread"
+          ]
+        },
+        {
+          "stemText": "Then, I need some fresh ___.",
+          "answerKeys": [
+            "fruit",
+            "vegetables"
+          ]
+        },
+        {
+          "stemText": "I also need a new ___.",
+          "answerKeys": [
+            "book",
+            "pen"
+          ]
+        },
+        {
+          "stemText": "These are the ___ I need.",
+          "answerKeys": [
+            "items",
+            "things"
+          ]
+        },
+        {
+          "stemText": "I will buy ___ at the store.",
+          "answerKeys": [
+            "them"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Imagine you are going to school. Write a list of 5 things you need to bring with you.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "My Favorite Animal",
+      "description": "Learn to write about your favorite animal, describing its appearance, actions, and why you like it.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Stating Your Favorite Animal",
+            "content": "Use the sentence 'My favorite animal is...' to introduce the animal you like the most. For example: 'My favorite animal is a cat.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Describing Appearance and Actions",
+            "content": "Use adjectives for appearance (e.g., 'It is big.' 'It has long legs.') and simple verbs for actions (e.g., 'It runs fast.' 'It eats grass.')."
+          },
+          {
+            "type": "tip",
+            "heading": "Explain Your Choice",
+            "content": "After describing the animal, add a simple sentence about why you like it. For example: 'I like lions because they are strong.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My favorite ___ is an elephant.",
+          "answerKeys": [
+            "animal"
+          ]
+        },
+        {
+          "stemText": "Elephants are very ___.",
+          "answerKeys": [
+            "big",
+            "large"
+          ]
+        },
+        {
+          "stemText": "They have a long ___.",
+          "answerKeys": [
+            "trunk"
+          ]
+        },
+        {
+          "stemText": "Elephants ___ leaves and grass.",
+          "answerKeys": [
+            "eat"
+          ]
+        },
+        {
+          "stemText": "They are also very ___.",
+          "answerKeys": [
+            "smart",
+            "strong"
+          ]
+        },
+        {
+          "stemText": "I ___ elephants because they are gentle.",
+          "answerKeys": [
+            "like",
+            "love"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph about your favorite animal. Name the animal, describe its appearance, one action it does, and why you like it.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "Describe Your House",
+      "description": "Learn to write simple sentences about your house, including its type and rooms.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Stating Your Home Type",
+            "content": "Start by saying 'I live in a house' or 'I live in an apartment.' For example: 'I live in a small house.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Using 'There are' for Rooms",
+            "content": "Use 'There are' to mention the number of rooms. For example: 'There are three rooms in my house.' Then, name the rooms."
+          },
+          {
+            "type": "tip",
+            "heading": "Describe 2-3 Main Rooms",
+            "content": "After mentioning the number of rooms, describe 2-3 main rooms (e.g., living room, bedroom, kitchen) and one simple item in each."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "I live in a ___.",
+          "answerKeys": [
+            "house",
+            "apartment"
+          ]
+        },
+        {
+          "stemText": "My house is not very ___.",
+          "answerKeys": [
+            "big",
+            "small"
+          ]
+        },
+        {
+          "stemText": "There are three ___ in my house.",
+          "answerKeys": [
+            "rooms"
+          ]
+        },
+        {
+          "stemText": "I have a living room, a kitchen, and a ___.",
+          "answerKeys": [
+            "bedroom"
+          ]
+        },
+        {
+          "stemText": "The living room is my favorite ___.",
+          "answerKeys": [
+            "room"
+          ]
+        },
+        {
+          "stemText": "There is a TV ___ the living room.",
+          "answerKeys": [
+            "in"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph describing your house or apartment. Mention if it's big or small, how many rooms it has, and name 2-3 main rooms.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "A Short Thank-You Note",
+      "description": "Learn to write a simple thank-you note to express gratitude.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Starting and Ending Your Note",
+            "content": "Start with 'Dear [Name],' to address the person. End with 'Thank you,' or 'Best regards,' followed by your name."
+          },
+          {
+            "type": "rule",
+            "heading": "Stating What You Are Thankful For",
+            "content": "Clearly state the reason for your thanks. Use 'Thank you for the [item]' or 'Thank you for your help.' For example: 'Thank you for the lovely gift.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Keep it Short and Sincere",
+            "content": "For A1, keep your thank-you note very short and focus on one specific thing you are grateful for. One to two sentences are enough."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "___ Linh,",
+          "answerKeys": [
+            "Dear"
+          ]
+        },
+        {
+          "stemText": "Thank you ___ the nice book.",
+          "answerKeys": [
+            "for"
+          ]
+        },
+        {
+          "stemText": "I really ___ it.",
+          "answerKeys": [
+            "like",
+            "love"
+          ]
+        },
+        {
+          "stemText": "It is a very good ___.",
+          "answerKeys": [
+            "gift",
+            "present"
+          ]
+        },
+        {
+          "stemText": "You are a kind ___.",
+          "answerKeys": [
+            "friend"
+          ]
+        },
+        {
+          "stemText": "___ you,",
+          "answerKeys": [
+            "Thank"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short thank-you note to a friend for a small gift they gave you. Mention the gift and say you like it.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "My Favorite Game",
+      "description": "Learn to write about your favorite game, describing what it is and who you play with.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Stating Your Favorite Game",
+            "content": "Use the sentence 'My favorite game is...' to introduce the game you like the most. For example: 'My favorite game is football.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Describing the Game Simply",
+            "content": "Use simple adjectives (e.g., 'It is fun.' 'It is exciting.') and verbs (e.g., 'I play it with friends.' 'We run a lot.')."
+          },
+          {
+            "type": "tip",
+            "heading": "Mention Who You Play With",
+            "content": "After naming the game, say if it's an indoor or outdoor game, and who you usually play it with. You can also add why you like it."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My favorite ___ is chess.",
+          "answerKeys": [
+            "game"
+          ]
+        },
+        {
+          "stemText": "It is an ___ game.",
+          "answerKeys": [
+            "indoor",
+            "board"
+          ]
+        },
+        {
+          "stemText": "I play it with my ___.",
+          "answerKeys": [
+            "friends",
+            "family"
+          ]
+        },
+        {
+          "stemText": "It is a very ___ game.",
+          "answerKeys": [
+            "fun",
+            "interesting"
+          ]
+        },
+        {
+          "stemText": "We use small ___ to play.",
+          "answerKeys": [
+            "pieces"
+          ]
+        },
+        {
+          "stemText": "I ___ to play chess every weekend.",
+          "answerKeys": [
+            "like",
+            "love"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph about your favorite game. Name the game, say if it's indoor or outdoor, who you play with, and why you like it.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "A Simple Postcard",
+      "description": "Learn to write a very simple postcard message to a friend or family member.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Postcard Greetings and Closings",
+            "content": "Start with 'Dear [Name],' or 'Hello from [Place]!'. End with 'Best regards,' 'See you soon,' or 'Love,' followed by your name."
+          },
+          {
+            "type": "rule",
+            "heading": "Short, Simple Sentences",
+            "content": "Postcards have limited space. Use 1-2 very simple sentences to convey your message. Focus on where you are and what you are doing."
+          },
+          {
+            "type": "tip",
+            "heading": "Mention Location and Weather",
+            "content": "A good postcard often mentions where you are and what the weather is like. You can also add one simple activity you did or will do."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "___ Mom and Dad,",
+          "answerKeys": [
+            "Dear"
+          ]
+        },
+        {
+          "stemText": "Hello ___ Ha Long Bay!",
+          "answerKeys": [
+            "from"
+          ]
+        },
+        {
+          "stemText": "The weather is very ___.",
+          "answerKeys": [
+            "sunny",
+            "beautiful"
+          ]
+        },
+        {
+          "stemText": "I am having a great ___.",
+          "answerKeys": [
+            "time"
+          ]
+        },
+        {
+          "stemText": "I will ___ you soon.",
+          "answerKeys": [
+            "see"
+          ]
+        },
+        {
+          "stemText": "___, Linh",
+          "answerKeys": [
+            "Love",
+            "Best regards"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Imagine you are on a short holiday. Write a simple postcard message to a friend. Mention where you are, what the weather is like, and one activity you did.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "My Morning Routine",
+      "description": "Learn to write about your morning activities using simple present tense and time expressions.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Simple Present Tense",
+            "content": "Use the simple present tense to describe actions you do every morning. For example: 'I wake up.' 'I eat breakfast.' 'I go to school.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Time Expressions for Morning",
+            "content": "Use 'at' for specific times (e.g., 'at 6:30 AM') and 'then,' 'after that' to show the order of events. For example: 'First, I wake up. Then, I brush my teeth.'"
+          },
+          {
+            "type": "tip",
+            "heading": "List 3-4 Key Activities",
+            "content": "Focus on 3-4 main things you do every morning, from waking up until you leave for school or work. Write them in order."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Every morning, I ___ up early.",
+          "answerKeys": [
+            "wake"
+          ]
+        },
+        {
+          "stemText": "I ___ my teeth and wash my face.",
+          "answerKeys": [
+            "brush"
+          ]
+        },
+        {
+          "stemText": "Then, I ___ breakfast with my family.",
+          "answerKeys": [
+            "eat",
+            "have"
+          ]
+        },
+        {
+          "stemText": "I ___ dressed for school.",
+          "answerKeys": [
+            "get"
+          ]
+        },
+        {
+          "stemText": "I leave home ___ 7 AM.",
+          "answerKeys": [
+            "at"
+          ]
+        },
+        {
+          "stemText": "My morning routine is always the ___.",
+          "answerKeys": [
+            "same"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph about your morning routine. Mention 3-4 activities you do every morning, using sequence words and simple times.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "Describe a Photo",
+      "description": "Learn to write simple sentences to describe what you see in a photo.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Introducing the Photo",
+            "content": "Start by saying 'This is a photo of...' or 'In this photo, I see...' to introduce the subject. For example: 'This is a photo of my family.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Describing People and Objects",
+            "content": "Use simple sentences to describe who or what is in the photo. Use 'is' or 'are'. For example: 'My mother is on the left.' 'There are two children.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Mention Location and Action",
+            "content": "After identifying the people or objects, mention where they are (e.g., 'at the park') and one simple action they are doing (e.g., 'They are smiling.')."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "This is a ___ of my family.",
+          "answerKeys": [
+            "photo",
+            "picture"
+          ]
+        },
+        {
+          "stemText": "I ___ my mother and father.",
+          "answerKeys": [
+            "see"
+          ]
+        },
+        {
+          "stemText": "We are ___ the park.",
+          "answerKeys": [
+            "at",
+            "in"
+          ]
+        },
+        {
+          "stemText": "Everyone is very ___.",
+          "answerKeys": [
+            "happy"
+          ]
+        },
+        {
+          "stemText": "My sister is ___ a red dress.",
+          "answerKeys": [
+            "wearing"
+          ]
+        },
+        {
+          "stemText": "We are all ___.",
+          "answerKeys": [
+            "smiling"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe a photo of your family. Mention who is in the photo, where they are, and one thing they are doing.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "Write About Today",
+      "description": "Learn to write simple sentences about what you did or will do today.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Starting with 'Today is...'",
+            "content": "Begin by stating the day of the week and maybe the weather. For example: 'Today is Monday. It is sunny.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Using Simple Present for Plans/Habits",
+            "content": "For A1, focus on what you usually do or what you plan to do today. For example: 'I go to school.' 'I will read a book.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Mention 2-3 Activities",
+            "content": "After the introduction, list 2-3 main activities you did or will do today. You can also add how you feel about the day."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "___ is Tuesday.",
+          "answerKeys": [
+            "Today"
+          ]
+        },
+        {
+          "stemText": "The weather is ___ and warm.",
+          "answerKeys": [
+            "sunny"
+          ]
+        },
+        {
+          "stemText": "I will ___ English today.",
+          "answerKeys": [
+            "study",
+            "learn"
+          ]
+        },
+        {
+          "stemText": "In the afternoon, I will ___ with friends.",
+          "answerKeys": [
+            "play",
+            "meet"
+          ]
+        },
+        {
+          "stemText": "I am very ___ today.",
+          "answerKeys": [
+            "happy",
+            "busy"
+          ]
+        },
+        {
+          "stemText": "It is a good ___.",
+          "answerKeys": [
+            "day"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short paragraph about your day today. Mention what day it is, the weather, and 2-3 activities you did or will do.",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    },
+    {
+      "title": "Simple Numbers and Prices",
+      "description": "Learn to write simple numbers and express basic prices for items.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Writing Numbers as Words",
+            "content": "Practice writing numbers from one to ten as words. For example: 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'."
+          },
+          {
+            "type": "rule",
+            "heading": "Expressing Simple Prices",
+            "content": "Use 'It is [number] VND' or 'It costs [number] VND' to state prices. For example: 'It is 10,000 VND.' 'The book costs 50,000 VND.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Practice with Common Items",
+            "content": "Think of common items you buy (e.g., a pen, a book, an apple) and practice writing their names and simple prices."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "I have ___ apple.",
+          "answerKeys": [
+            "one"
+          ]
+        },
+        {
+          "stemText": "There are ___ books on the table.",
+          "answerKeys": [
+            "two",
+            "three"
+          ]
+        },
+        {
+          "stemText": "The pen costs 5,000 ___.",
+          "answerKeys": [
+            "VND"
+          ]
+        },
+        {
+          "stemText": "I need to buy ___ pencils.",
+          "answerKeys": [
+            "four",
+            "five"
+          ]
+        },
+        {
+          "stemText": "The total ___ is 20,000 VND.",
+          "answerKeys": [
+            "price",
+            "cost"
+          ]
+        },
+        {
+          "stemText": "I have ___ dollars.",
+          "answerKeys": [
+            "ten"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Imagine you are at a small shop. Write a list of 3 items you want to buy and their simple prices (e.g., A pen: 5,000 VND).",
+          "minWords": 30,
+          "maxWords": 50
+        }
+      ]
+    }
+  ]
+}

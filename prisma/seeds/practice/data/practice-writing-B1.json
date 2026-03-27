@@ -1,0 +1,683 @@
+{
+  "skill": "writing",
+  "cefrLevel": "B1",
+  "practiceSets": [
+    {
+      "title": "Advanced Grammar: Conditionals",
+      "description": "Practice using different types of conditional sentences to express possibilities and hypothetical situations.",
+      "estimatedMinutes": 25,
+      "questions": [
+        {
+          "stemText": "If you heat water to 100 degrees Celsius, it ___.",
+          "answerKeys": [
+            "boils"
+          ]
+        },
+        {
+          "stemText": "If it rains tomorrow, we ___ at home.",
+          "answerKeys": [
+            "will stay"
+          ]
+        },
+        {
+          "stemText": "If I had more free time, I ___ a new hobby.",
+          "answerKeys": [
+            "would start"
+          ]
+        },
+        {
+          "stemText": "If she ___ harder, she would have passed the exam.",
+          "answerKeys": [
+            "had studied"
+          ]
+        },
+        {
+          "stemText": "They ___ to the concert if they had bought tickets earlier.",
+          "answerKeys": [
+            "would have gone"
+          ]
+        },
+        {
+          "stemText": "If he ___ not busy, he would help us with the project.",
+          "answerKeys": [
+            "were",
+            "was"
+          ]
+        },
+        {
+          "stemText": "I would buy that car if I ___ enough money.",
+          "answerKeys": [
+            "had"
+          ]
+        },
+        {
+          "stemText": "If you ___ red and blue, you get purple.",
+          "answerKeys": [
+            "mix"
+          ]
+        },
+        {
+          "stemText": "We ___ late if we had left earlier.",
+          "answerKeys": [
+            "wouldn't have been"
+          ]
+        },
+        {
+          "stemText": "She ___ a doctor if she feels unwell.",
+          "answerKeys": [
+            "will see"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Academic Vocabulary: Environment",
+      "description": "Expand your academic vocabulary related to environmental issues and solutions.",
+      "estimatedMinutes": 25,
+      "questions": [
+        {
+          "stemText": "Air ___ is a serious problem in many large cities.",
+          "answerKeys": [
+            "pollution"
+          ]
+        },
+        {
+          "stemText": "Many organizations work for the ___ of endangered species.",
+          "answerKeys": [
+            "conservation"
+          ]
+        },
+        {
+          "stemText": "Using solar power is a step towards a ___ future.",
+          "answerKeys": [
+            "sustainable"
+          ]
+        },
+        {
+          "stemText": "The ___ change is causing extreme weather events worldwide.",
+          "answerKeys": [
+            "climate"
+          ]
+        },
+        {
+          "stemText": "Rainforests are vital ___ for countless plants and animals.",
+          "answerKeys": [
+            "ecosystems"
+          ]
+        },
+        {
+          "stemText": "___ leads to the destruction of natural habitats and biodiversity loss.",
+          "answerKeys": [
+            "Deforestation"
+          ]
+        },
+        {
+          "stemText": "Wind and solar are examples of ___ energy sources.",
+          "answerKeys": [
+            "renewable"
+          ]
+        },
+        {
+          "stemText": "Human activities have a significant ___ on the planet's health.",
+          "answerKeys": [
+            "impact"
+          ]
+        },
+        {
+          "stemText": "We should reduce our ___ by recycling and reusing items.",
+          "answerKeys": [
+            "waste"
+          ]
+        },
+        {
+          "stemText": "It's important to ___ our natural resources for future generations.",
+          "answerKeys": [
+            "protect"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fill the Gap: Technology in Society",
+      "description": "Practice using common vocabulary related to technology and its role in modern society.",
+      "estimatedMinutes": 25,
+      "questions": [
+        {
+          "stemText": "The ___ allows us to connect with people and access information globally.",
+          "answerKeys": [
+            "internet"
+          ]
+        },
+        {
+          "stemText": "Many people use ___ platforms to share their daily lives and news.",
+          "answerKeys": [
+            "social media"
+          ]
+        },
+        {
+          "stemText": "Almost everyone today carries a ___ for calls, messages, and apps.",
+          "answerKeys": [
+            "smartphone"
+          ]
+        },
+        {
+          "stemText": "___ is changing how we interact with machines and automate tasks.",
+          "answerKeys": [
+            "Artificial intelligence",
+            "AI"
+          ]
+        },
+        {
+          "stemText": "Shopping ___ has become very popular due to its convenience.",
+          "answerKeys": [
+            "online"
+          ]
+        },
+        {
+          "stemText": "We live in a ___ age where information is readily available.",
+          "answerKeys": [
+            "digital"
+          ]
+        },
+        {
+          "stemText": "Email and messaging apps have transformed global ___.",
+          "answerKeys": [
+            "communication"
+          ]
+        },
+        {
+          "stemText": "It's important to protect your personal ___ when using the internet.",
+          "answerKeys": [
+            "privacy"
+          ]
+        },
+        {
+          "stemText": "Not everyone has equal ___ to technology and its benefits.",
+          "answerKeys": [
+            "access"
+          ]
+        },
+        {
+          "stemText": "Technological ___ continues to improve our lives in many ways.",
+          "answerKeys": [
+            "innovation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grammar: Passive Voice",
+      "description": "Practice forming sentences in the passive voice to describe actions where the focus is on the object.",
+      "estimatedMinutes": 25,
+      "questions": [
+        {
+          "stemText": "The email ___ (send) yesterday morning.",
+          "answerKeys": [
+            "was sent"
+          ]
+        },
+        {
+          "stemText": "English ___ (speak) in many countries around the world.",
+          "answerKeys": [
+            "is spoken"
+          ]
+        },
+        {
+          "stemText": "The new bridge ___ (build) next year.",
+          "answerKeys": [
+            "will be built"
+          ]
+        },
+        {
+          "stemText": "My car ___ (repair) at the garage right now.",
+          "answerKeys": [
+            "is being repaired"
+          ]
+        },
+        {
+          "stemText": "The book ___ (write) by a famous author in the 19th century.",
+          "answerKeys": [
+            "was written"
+          ]
+        },
+        {
+          "stemText": "Dinner ___ (prepare) by my mother every evening.",
+          "answerKeys": [
+            "is prepared"
+          ]
+        },
+        {
+          "stemText": "The windows ___ (clean) already, so the room looks brighter.",
+          "answerKeys": [
+            "have been cleaned"
+          ]
+        },
+        {
+          "stemText": "A new hospital ___ (plan) for the city center.",
+          "answerKeys": [
+            "is planned",
+            "has been planned"
+          ]
+        },
+        {
+          "stemText": "The documents ___ (sign) by the manager last week.",
+          "answerKeys": [
+            "were signed"
+          ]
+        },
+        {
+          "stemText": "Mistakes ___ (make) sometimes, it's part of learning.",
+          "answerKeys": [
+            "are made"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vocabulary: Work and Career",
+      "description": "Learn and practice essential vocabulary related to employment, jobs, and professional development.",
+      "estimatedMinutes": 25,
+      "questions": [
+        {
+          "stemText": "She applied for a new ___ at the marketing company.",
+          "answerKeys": [
+            "job"
+          ]
+        },
+        {
+          "stemText": "His long-term ___ goal is to become a successful entrepreneur.",
+          "answerKeys": [
+            "career"
+          ]
+        },
+        {
+          "stemText": "The average ___ for this position is quite competitive.",
+          "answerKeys": [
+            "salary"
+          ]
+        },
+        {
+          "stemText": "After years of hard work, he finally received a ___ to a higher position.",
+          "answerKeys": [
+            "promotion"
+          ]
+        },
+        {
+          "stemText": "She prepared carefully for her job ___ next Tuesday.",
+          "answerKeys": [
+            "interview"
+          ]
+        },
+        {
+          "stemText": "Good communication ___ are essential for teamwork in any workplace.",
+          "answerKeys": [
+            "skills"
+          ]
+        },
+        {
+          "stemText": "You need specific ___ like a master's degree for this advanced role.",
+          "answerKeys": [
+            "qualifications"
+          ]
+        },
+        {
+          "stemText": "The government is working to reduce ___ rates in the country.",
+          "answerKeys": [
+            "unemployment"
+          ]
+        },
+        {
+          "stemText": "My ___ helped me with the difficult task, which I appreciated.",
+          "answerKeys": [
+            "colleague"
+          ]
+        },
+        {
+          "stemText": "Teaching is a rewarding ___ that helps shape future generations.",
+          "answerKeys": [
+            "profession"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Words in Context: Education",
+      "description": "Understand and use vocabulary related to education in various contexts.",
+      "estimatedMinutes": 25,
+      "questions": [
+        {
+          "stemText": "Children usually start primary ___ at the age of six.",
+          "answerKeys": [
+            "school"
+          ]
+        },
+        {
+          "stemText": "After high school, many students go to ___ to get a degree.",
+          "answerKeys": [
+            "university"
+          ]
+        },
+        {
+          "stemText": "Every ___ has to complete their homework on time.",
+          "answerKeys": [
+            "student"
+          ]
+        },
+        {
+          "stemText": "Our English ___ explains grammar rules very clearly.",
+          "answerKeys": [
+            "teacher"
+          ]
+        },
+        {
+          "stemText": "Mathematics is my favorite ___ at school, I find it fascinating.",
+          "answerKeys": [
+            "subject"
+          ]
+        },
+        {
+          "stemText": "Students have to pass a final ___ to complete the course successfully.",
+          "answerKeys": [
+            "exam"
+          ]
+        },
+        {
+          "stemText": "She earned her bachelor's ___ in economics last year.",
+          "answerKeys": [
+            "degree"
+          ]
+        },
+        {
+          "stemText": "Reading books helps you gain new ___ about different cultures.",
+          "answerKeys": [
+            "knowledge"
+          ]
+        },
+        {
+          "stemText": "Online ___ has become very popular and accessible recently.",
+          "answerKeys": [
+            "learning"
+          ]
+        },
+        {
+          "stemText": "The new ___ includes more practical lessons and fewer theoretical ones.",
+          "answerKeys": [
+            "curriculum"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grammar: Reported Speech",
+      "description": "Practice converting direct speech into reported speech, including necessary tense and pronoun changes.",
+      "estimatedMinutes": 25,
+      "questions": [
+        {
+          "stemText": "He said that he ___ (be) tired after the long journey.",
+          "answerKeys": [
+            "was"
+          ]
+        },
+        {
+          "stemText": "She asked me if I ___ (like) coffee or tea.",
+          "answerKeys": [
+            "liked"
+          ]
+        },
+        {
+          "stemText": "They told us that they ___ (visit) us the next day.",
+          "answerKeys": [
+            "would visit",
+            "were visiting"
+          ]
+        },
+        {
+          "stemText": "He asked where I ___ (live) at that time.",
+          "answerKeys": [
+            "lived"
+          ]
+        },
+        {
+          "stemText": "She told him ___ (not be) late for the meeting.",
+          "answerKeys": [
+            "not to be"
+          ]
+        },
+        {
+          "stemText": "The teacher said that the homework ___ (must) be done by Friday.",
+          "answerKeys": [
+            "had to"
+          ]
+        },
+        {
+          "stemText": "He asked if I ___ (see) his keys anywhere.",
+          "answerKeys": [
+            "had seen"
+          ]
+        },
+        {
+          "stemText": "She explained that she ___ (can't) come to the party because she was busy.",
+          "answerKeys": [
+            "couldn't"
+          ]
+        },
+        {
+          "stemText": "They announced that the flight ___ (delay) due to bad weather.",
+          "answerKeys": [
+            "was delayed",
+            "had been delayed"
+          ]
+        },
+        {
+          "stemText": "My friend advised me ___ (study) harder for the upcoming exam.",
+          "answerKeys": [
+            "to study"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Academic Words: Health and Science",
+      "description": "Build your academic vocabulary related to health, medicine, and scientific concepts.",
+      "estimatedMinutes": 25,
+      "questions": [
+        {
+          "stemText": "Scientists conduct extensive ___ to understand the causes of diseases.",
+          "answerKeys": [
+            "research"
+          ]
+        },
+        {
+          "stemText": "The students performed an ___ in the chemistry lab to test their hypothesis.",
+          "answerKeys": [
+            "experiment"
+          ]
+        },
+        {
+          "stemText": "Many common ___ can be prevented through good hygiene and vaccination.",
+          "answerKeys": [
+            "diseases"
+          ]
+        },
+        {
+          "stemText": "The new ___ offers protection against the flu virus.",
+          "answerKeys": [
+            "vaccine"
+          ]
+        },
+        {
+          "stemText": "Doctors are still searching for a ___ for certain types of cancer.",
+          "answerKeys": [
+            "cure"
+          ]
+        },
+        {
+          "stemText": "Fever and cough are common ___ of the flu.",
+          "answerKeys": [
+            "symptoms"
+          ]
+        },
+        {
+          "stemText": "We need to ___ the data carefully to draw accurate conclusions.",
+          "answerKeys": [
+            "analyze"
+          ]
+        },
+        {
+          "stemText": "Marie Curie helped ___ radium and polonium, revolutionizing physics.",
+          "answerKeys": [
+            "discover"
+          ]
+        },
+        {
+          "stemText": "There is strong scientific ___ to support the theory of evolution.",
+          "answerKeys": [
+            "evidence"
+          ]
+        },
+        {
+          "stemText": "Einstein's ___ of relativity changed our understanding of space and time.",
+          "answerKeys": [
+            "theory"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fill the Gap: Media and News",
+      "description": "Practice using vocabulary related to different forms of media and how we get our news.",
+      "estimatedMinutes": 25,
+      "questions": [
+        {
+          "stemText": "I read the daily ___ to stay informed about current events.",
+          "answerKeys": [
+            "newspaper"
+          ]
+        },
+        {
+          "stemText": "Many people watch ___ in the evening to get the latest news updates.",
+          "answerKeys": [
+            "television"
+          ]
+        },
+        {
+          "stemText": "Listening to the ___ is a good way to hear traffic updates during your commute.",
+          "answerKeys": [
+            "radio"
+          ]
+        },
+        {
+          "stemText": "The ___ provides instant access to news from around the world.",
+          "answerKeys": [
+            "internet"
+          ]
+        },
+        {
+          "stemText": "A ___ writes stories and reports for newspapers and magazines.",
+          "answerKeys": [
+            "journalist"
+          ]
+        },
+        {
+          "stemText": "The ___ delivered a live report from the scene of the accident.",
+          "answerKeys": [
+            "reporter"
+          ]
+        },
+        {
+          "stemText": "The special event was ___ live across several channels.",
+          "answerKeys": [
+            "broadcast"
+          ]
+        },
+        {
+          "stemText": "The front-page ___ about the election caught everyone's attention.",
+          "answerKeys": [
+            "headline"
+          ]
+        },
+        {
+          "stemText": "I found an interesting ___ about space travel in a science magazine.",
+          "answerKeys": [
+            "article"
+          ]
+        },
+        {
+          "stemText": "It's important to be careful about spreading ___ on social media.",
+          "answerKeys": [
+            "fake news"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mixed Grammar: B1 Review",
+      "description": "Review various B1 grammar points, including tenses, prepositions, modals, and sentence structures.",
+      "estimatedMinutes": 25,
+      "questions": [
+        {
+          "stemText": "She ___ (go) to Paris next month for a holiday.",
+          "answerKeys": [
+            "is going",
+            "will go"
+          ]
+        },
+        {
+          "stemText": "I have lived in this city ___ five years.",
+          "answerKeys": [
+            "for"
+          ]
+        },
+        {
+          "stemText": "He is taller ___ his brother, but his brother is older.",
+          "answerKeys": [
+            "than"
+          ]
+        },
+        {
+          "stemText": "You ___ (must) wear a seatbelt when you are in a car.",
+          "answerKeys": [
+            "must",
+            "should"
+          ]
+        },
+        {
+          "stemText": "This is the house ___ I grew up as a child.",
+          "answerKeys": [
+            "where"
+          ]
+        },
+        {
+          "stemText": "If I ___ (be) you, I would take that job offer.",
+          "answerKeys": [
+            "were"
+          ]
+        },
+        {
+          "stemText": "She enjoys ___ (read) novels in her free time.",
+          "answerKeys": [
+            "reading"
+          ]
+        },
+        {
+          "stemText": "The movie was so boring that I almost ___ (fall) asleep.",
+          "answerKeys": [
+            "fell"
+          ]
+        },
+        {
+          "stemText": "They ___ (not finish) their project yet, but they are working hard.",
+          "answerKeys": [
+            "haven't finished"
+          ]
+        },
+        {
+          "stemText": "Could you please turn ___ the lights? It's too dark in here.",
+          "answerKeys": [
+            "on"
+          ]
+        }
+      ]
+    }
+  ]
+}

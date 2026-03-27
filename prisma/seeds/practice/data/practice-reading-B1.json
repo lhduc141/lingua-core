@@ -1,0 +1,1136 @@
+{
+  "skill": "reading",
+  "cefrLevel": "B1",
+  "practiceSets": [
+    {
+      "title": "Social Media: Connecting and Challenging",
+      "description": "Learners will read about the impact of social media on communication and answer comprehension questions.",
+      "estimatedMinutes": 25,
+      "passage": {
+        "title": "The Dual Nature of Social Media",
+        "content": "Social media has become an essential part of modern communication, connecting billions of people worldwide. Platforms like Facebook, Instagram, and TikTok allow us to share moments, express opinions, and stay in touch with friends and family, even across long distances. For many, it's a primary source of news and entertainment. However, this constant connection also brings challenges. The pressure to present a perfect life can lead to anxiety and comparison. Furthermore, relying too much on online interactions might reduce face-to-face communication, which is crucial for building deeper relationships. While social media offers convenience, it's important to use it mindfully, balancing our digital lives with real-world experiences. Finding this balance helps us enjoy the benefits without falling victim to the potential downsides. It’s about using technology as a tool, not letting it control our interactions.",
+        "wordCount": 172,
+        "topic": "Social Media and Communication"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main topic of the passage?",
+          "options": [
+            "The benefits and challenges of social media communication.",
+            "The history of social media platforms.",
+            "How to become famous on social media.",
+            "The dangers of sharing personal information online."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "According to the passage, what is one positive aspect of social media?",
+          "options": [
+            "It allows staying in touch with distant friends and family.",
+            "It guarantees perfect relationships.",
+            "It helps people avoid real-world problems.",
+            "It makes everyone famous."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'mindfully' mean in the context of the passage?",
+          "options": [
+            "Carefully and intentionally.",
+            "Without thinking.",
+            "Constantly and obsessively.",
+            "Only for entertainment."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can be inferred about face-to-face communication?",
+          "options": [
+            "It is vital for developing strong relationships.",
+            "It is no longer necessary in the digital age.",
+            "It is less important than online interaction.",
+            "It only causes anxiety."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Which of these is mentioned as a potential negative effect of social media?",
+          "options": [
+            "Pressure to present a perfect life.",
+            "Learning new skills.",
+            "Increased face-to-face communication.",
+            "Access to more news."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The word 'crucial' in the passage is closest in meaning to:",
+          "options": [
+            "essential",
+            "unimportant",
+            "difficult",
+            "optional"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the passage suggest about social media as a source of information?",
+          "options": [
+            "It is a primary source of news and entertainment for many.",
+            "It is the only reliable source of news.",
+            "It never provides accurate information.",
+            "It only offers entertainment, not news."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the author imply by saying 'balancing our digital lives with real-world experiences'?",
+          "options": [
+            "We need to find a healthy mix between online and offline activities.",
+            "We should stop using social media completely.",
+            "We should use social media more than real-world interactions.",
+            "Real-world experiences are always better than digital ones."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Which platforms are mentioned as examples of social media?",
+          "options": [
+            "Facebook, Instagram, TikTok.",
+            "Google, Yahoo, Bing.",
+            "Netflix, Spotify, YouTube.",
+            "WhatsApp, Telegram, Signal."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The phrase 'falling victim to' in the passage means:",
+          "options": [
+            "being harmed by",
+            "benefiting from",
+            "avoiding completely",
+            "understanding fully"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "Modern Education: Adapting to Change",
+      "description": "Learners will read about the evolution of education systems and answer comprehension questions.",
+      "estimatedMinutes": 25,
+      "passage": {
+        "title": "From Classrooms to Online Learning",
+        "content": "Education systems worldwide are constantly evolving to meet the demands of a changing world. Traditionally, learning took place in physical classrooms, with teachers delivering lectures and students taking notes. While this method remains fundamental, modern education increasingly incorporates technology and flexible approaches. Online learning platforms, for example, have made education accessible to millions who might not otherwise have the opportunity. They offer a wide range of courses, from academic degrees to vocational training, allowing individuals to learn at their own pace and from anywhere. However, this shift also brings challenges, such as ensuring equitable access to technology and maintaining student engagement in a virtual environment. The goal is to create a holistic learning experience that prepares students not just with knowledge, but also with critical thinking, problem-solving, and adaptability skills for the future workforce.",
+        "wordCount": 178,
+        "topic": "Education Systems"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "The evolution of education systems and modern learning approaches.",
+            "The history of traditional classroom teaching.",
+            "The challenges of online learning platforms.",
+            "How technology has replaced teachers in education."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "According to the passage, what was a traditional method of learning?",
+          "options": [
+            "Teachers delivering lectures in physical classrooms.",
+            "Students learning solely from online videos.",
+            "Vocational training as the primary focus.",
+            "Learning at one's own pace from anywhere."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'accessible' mean in the context of online learning?",
+          "options": [
+            "Easy to reach or obtain.",
+            "Difficult to understand.",
+            "Only available to a few people.",
+            "Expensive and exclusive."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is one challenge mentioned regarding the shift to modern education?",
+          "options": [
+            "Ensuring equitable access to technology.",
+            "Teachers having too much free time.",
+            "Students preferring physical classrooms.",
+            "Lack of available courses online."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of courses do online learning platforms offer?",
+          "options": [
+            "Only academic degrees.",
+            "Only vocational training.",
+            "A wide range, from academic degrees to vocational training.",
+            "Only courses for young children."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The word 'fundamental' in the passage is closest in meaning to:",
+          "options": [
+            "basic and essential",
+            "new and innovative",
+            "difficult and complex",
+            "optional and unimportant"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the ultimate goal of modern education, according to the passage?",
+          "options": [
+            "To prepare students with knowledge, critical thinking, and adaptability skills.",
+            "To replace all teachers with online platforms.",
+            "To make education free for everyone.",
+            "To focus only on academic achievements."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can be inferred about the future of education?",
+          "options": [
+            "It will likely continue to integrate technology and flexible methods.",
+            "It will return entirely to traditional classroom settings.",
+            "It will become less important for career success.",
+            "It will only be available to a select few."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'holistic learning experience' imply?",
+          "options": [
+            "Learning that focuses on all aspects of a student's development.",
+            "Learning that only happens in a classroom.",
+            "Learning that is very difficult and challenging.",
+            "Learning that is only about memorizing facts."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Which of these skills is NOT mentioned as important for the future workforce?",
+          "options": [
+            "Memorization of historical dates.",
+            "Critical thinking.",
+            "Problem-solving.",
+            "Adaptability."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "Healthy Habits for a Better Life",
+      "description": "Learners will read about the importance of a healthy lifestyle and answer comprehension questions.",
+      "estimatedMinutes": 25,
+      "passage": {
+        "title": "The Pillars of a Healthy Lifestyle",
+        "content": "Living a healthy lifestyle is crucial for both physical and mental well-being. It's not just about avoiding illness, but about feeling energetic, happy, and able to enjoy life to the fullest. The foundation of good health rests on several key pillars. Firstly, a balanced diet rich in fruits, vegetables, and whole grains provides essential nutrients. Limiting processed foods and sugary drinks is also vital. Secondly, regular physical activity, even moderate exercise like walking or cycling for 30 minutes a day, can significantly improve cardiovascular health and mood. Thirdly, adequate sleep, typically 7-9 hours for adults, allows the body and mind to rest and repair. Finally, managing stress through activities like meditation, hobbies, or spending time in nature contributes greatly to mental health. Small, consistent changes in these areas can lead to profound improvements in overall quality of life.",
+        "wordCount": 178,
+        "topic": "Health and Lifestyle"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "The key components of a healthy lifestyle for overall well-being.",
+            "How to avoid all illnesses through diet.",
+            "The benefits of extreme exercise routines.",
+            "The importance of sleep for mental health only."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "According to the passage, what kind of foods should be limited for good health?",
+          "options": [
+            "Processed foods and sugary drinks.",
+            "Fruits and vegetables.",
+            "Whole grains and lean proteins.",
+            "All types of carbohydrates."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'crucial' mean in the first sentence?",
+          "options": [
+            "Extremely important.",
+            "Slightly helpful.",
+            "Difficult to achieve.",
+            "Unnecessary."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How much sleep is typically recommended for adults?",
+          "options": [
+            "7-9 hours.",
+            "Less than 5 hours.",
+            "More than 10 hours.",
+            "Only when feeling tired."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Which of these is NOT mentioned as a way to manage stress?",
+          "options": [
+            "Eating processed foods.",
+            "Meditation.",
+            "Hobbies.",
+            "Spending time in nature."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The word 'profound' in the last sentence is closest in meaning to:",
+          "options": [
+            "significant and deep",
+            "small and minor",
+            "difficult and complex",
+            "quick and sudden"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the suggested duration for moderate exercise?",
+          "options": [
+            "30 minutes a day.",
+            "Several hours every day.",
+            "Once a week.",
+            "Only when feeling stressed."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can be inferred about making changes to one's lifestyle?",
+          "options": [
+            "Even small, consistent changes can lead to big improvements.",
+            "Only drastic changes will make a difference.",
+            "It is impossible to change unhealthy habits.",
+            "Lifestyle changes are only important for physical health."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'cardiovascular health' refer to?",
+          "options": [
+            "The health of the heart and blood vessels.",
+            "The health of the brain.",
+            "The health of the bones.",
+            "The health of the digestive system."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The passage suggests that a healthy lifestyle is about more than just avoiding illness. What else is it about?",
+          "options": [
+            "Feeling energetic, happy, and able to enjoy life.",
+            "Becoming a professional athlete.",
+            "Spending a lot of money on health products.",
+            "Never eating anything unhealthy."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "Navigating the Modern Job Market",
+      "description": "Learners will read about current trends and necessary skills for success in today's work environment.",
+      "estimatedMinutes": 25,
+      "passage": {
+        "title": "Skills for the Future Workplace",
+        "content": "The world of work is constantly changing, driven by technological advancements and global shifts. Today's job market demands more than just specific technical skills; it requires a blend of adaptability, critical thinking, and strong communication. Many traditional jobs are being automated, while new roles are emerging, especially in areas like data science, artificial intelligence, and digital marketing. Therefore, lifelong learning and 'upskilling' – acquiring new skills – are becoming essential for career longevity. Employers also value soft skills such as teamwork, problem-solving, and emotional intelligence. The ability to collaborate effectively in diverse teams and to navigate complex challenges is highly sought after. Young professionals are encouraged to be proactive, build strong networks, and embrace continuous learning to thrive in this dynamic environment. Choosing a career path now means preparing for continuous evolution, not just a single destination.",
+        "wordCount": 178,
+        "topic": "Work and Career"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "The evolving demands of the job market and essential skills for success.",
+            "The decline of traditional jobs due to automation.",
+            "How to become a data scientist or AI expert.",
+            "The importance of choosing a single career path early."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is one factor driving changes in the world of work?",
+          "options": [
+            "Technological advancements.",
+            "A decrease in global trade.",
+            "A preference for traditional jobs.",
+            "Less need for communication."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'upskilling' mean?",
+          "options": [
+            "Acquiring new skills.",
+            "Getting a promotion at work.",
+            "Reducing one's skill set.",
+            "Only learning technical skills."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Which of these is NOT mentioned as a 'soft skill' valued by employers?",
+          "options": [
+            "Specific technical skills.",
+            "Teamwork.",
+            "Problem-solving.",
+            "Emotional intelligence."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What are young professionals encouraged to do to thrive in the dynamic environment?",
+          "options": [
+            "Be proactive, build strong networks, and embrace continuous learning.",
+            "Stick to one job for their entire career.",
+            "Avoid learning new skills after graduation.",
+            "Only focus on technical skills."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The word 'longevity' in 'career longevity' is closest in meaning to:",
+          "options": [
+            "long duration or existence",
+            "short period of time",
+            "difficulty or challenge",
+            "excitement or thrill"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is happening to many traditional jobs?",
+          "options": [
+            "They are being automated.",
+            "They are becoming more popular.",
+            "They require less education.",
+            "They are only available in specific countries."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can be inferred about choosing a career path today?",
+          "options": [
+            "It means preparing for continuous evolution, not just a single destination.",
+            "It is a decision that cannot be changed later.",
+            "It is less important than it used to be.",
+            "It only requires technical skills."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Which new roles are mentioned as emerging?",
+          "options": [
+            "Data science, artificial intelligence, and digital marketing.",
+            "Factory worker, typist, and librarian.",
+            "Farmer, tailor, and blacksmith.",
+            "Teacher, doctor, and lawyer."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The passage suggests that the job market is 'dynamic'. What does 'dynamic' mean here?",
+          "options": [
+            "Constantly changing and active.",
+            "Stagnant and unchanging.",
+            "Easy and predictable.",
+            "Boring and repetitive."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "Protecting Our Planet: Sustainability Efforts",
+      "description": "Learners will read about environmental challenges and sustainable practices and answer comprehension questions.",
+      "estimatedMinutes": 25,
+      "passage": {
+        "title": "Towards a Sustainable Future",
+        "content": "Our planet faces significant environmental challenges, from climate change and deforestation to plastic pollution and loss of biodiversity. These issues threaten ecosystems, wildlife, and ultimately, human well-being. However, there's a growing global effort to promote sustainability – meeting our needs without compromising the ability of future generations to meet theirs. This involves adopting practices like reducing waste through recycling and composting, conserving energy by using renewable sources such as solar and wind power, and supporting sustainable agriculture. Governments, businesses, and individuals all have a role to play. Simple actions like using reusable bags, saving water, and choosing eco-friendly products can collectively make a big difference. Educating ourselves and others about these issues is also vital. By working together, we can protect our natural resources and ensure a healthier planet for everyone.",
+        "wordCount": 175,
+        "topic": "Environment and Sustainability"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main topic of the passage?",
+          "options": [
+            "Environmental challenges and the importance of sustainability.",
+            "The history of climate change.",
+            "How to become an environmental activist.",
+            "The economic benefits of renewable energy."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Which of these is NOT mentioned as an environmental challenge?",
+          "options": [
+            "Economic growth.",
+            "Climate change.",
+            "Deforestation.",
+            "Plastic pollution."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'sustainability' mean, according to the passage?",
+          "options": [
+            "Meeting our needs without compromising future generations' ability to meet theirs.",
+            "Using all natural resources as quickly as possible.",
+            "Focusing only on economic development.",
+            "Ignoring environmental problems."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What are examples of renewable energy sources mentioned?",
+          "options": [
+            "Solar and wind power.",
+            "Coal and oil.",
+            "Natural gas and nuclear power.",
+            "Hydroelectric and geothermal."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Who has a role to play in promoting sustainability?",
+          "options": [
+            "Governments, businesses, and individuals.",
+            "Only governments.",
+            "Only environmental organizations.",
+            "Only scientists."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The word 'collectively' in the passage is closest in meaning to:",
+          "options": [
+            "together as a group",
+            "individually and alone",
+            "quickly and efficiently",
+            "slowly and carefully"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is one simple action individuals can take to help the environment?",
+          "options": [
+            "Using reusable bags.",
+            "Buying more plastic products.",
+            "Wasting water.",
+            "Ignoring eco-friendly options."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can be inferred about the impact of environmental issues?",
+          "options": [
+            "They threaten ecosystems, wildlife, and human well-being.",
+            "They only affect developing countries.",
+            "They are not a serious concern.",
+            "They only impact the economy."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is mentioned as a way to reduce waste?",
+          "options": [
+            "Recycling and composting.",
+            "Burning all trash.",
+            "Throwing everything away.",
+            "Using more single-use items."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The passage emphasizes the importance of 'educating ourselves and others'. What does this suggest?",
+          "options": [
+            "Awareness and knowledge are key to addressing environmental problems.",
+            "Education is not necessary for environmental action.",
+            "Only experts need to understand environmental issues.",
+            "Learning about the environment is a waste of time."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "The Joy of Travel: Exploring New Horizons",
+      "description": "Learners will read about the benefits and experiences of travel and answer comprehension questions.",
+      "estimatedMinutes": 25,
+      "passage": {
+        "title": "Beyond the Postcards: The True Value of Travel",
+        "content": "Travel is much more than just visiting new places; it's an enriching experience that broadens horizons and creates lasting memories. Whether it's backpacking through Southeast Asia, exploring ancient ruins in Europe, or simply discovering a hidden gem in your own country, each journey offers unique lessons. When we travel, we step out of our comfort zones, encounter different cultures, and often learn new languages or customs. This immersion helps us develop a greater understanding and empathy for the world and its people. It also fosters personal growth, boosting confidence and problem-solving skills as we navigate unfamiliar situations. From tasting exotic foods to witnessing breathtaking landscapes, travel stimulates our senses and rejuvenates our spirits. It reminds us that the world is vast and full of wonders, encouraging us to appreciate diversity and embrace new perspectives. So, pack your bags and let the adventure begin!",
+        "wordCount": 178,
+        "topic": "Travel Experiences"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Travel is an enriching experience that offers personal growth and cultural understanding.",
+            "The best places to visit in Southeast Asia and Europe.",
+            "How to pack efficiently for a trip.",
+            "The challenges of learning new languages while traveling."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "According to the passage, what happens when we travel?",
+          "options": [
+            "We step out of our comfort zones and encounter different cultures.",
+            "We only visit places we already know.",
+            "We become more isolated from the world.",
+            "We lose our problem-solving skills."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'broadens horizons' mean in the context of travel?",
+          "options": [
+            "Expands one's knowledge and understanding.",
+            "Makes one's view narrower.",
+            "Helps one see further distances.",
+            "Makes one feel more comfortable."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Which of these is NOT mentioned as a benefit of travel?",
+          "options": [
+            "Making a lot of money.",
+            "Developing greater understanding and empathy.",
+            "Boosting confidence.",
+            "Stimulating our senses."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of experiences does travel offer?",
+          "options": [
+            "Tasting exotic foods and witnessing breathtaking landscapes.",
+            "Only visiting museums.",
+            "Only staying in one place.",
+            "Avoiding all new experiences."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The word 'rejuvenates' in the passage is closest in meaning to:",
+          "options": [
+            "makes feel young or fresh again",
+            "makes feel tired or old",
+            "makes feel bored or uninterested",
+            "makes feel confused or lost"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'immersion' in a new culture help us develop?",
+          "options": [
+            "A greater understanding and empathy for the world.",
+            "A desire to stay home.",
+            "A feeling of superiority.",
+            "A fear of new experiences."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can be inferred about the author's view on travel?",
+          "options": [
+            "The author believes travel is highly valuable and transformative.",
+            "The author thinks travel is a waste of time and money.",
+            "The author prefers staying at home.",
+            "The author believes travel is only for young people."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does travel encourage us to appreciate?",
+          "options": [
+            "Diversity and new perspectives.",
+            "Only our own culture.",
+            "The sameness of all places.",
+            "Staying within our comfort zone."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The phrase 'hidden gem' refers to:",
+          "options": [
+            "A valuable or delightful place that is not widely known.",
+            "An expensive piece of jewelry.",
+            "A well-known tourist attraction.",
+            "A difficult problem to solve."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "The Impact of Artificial Intelligence",
+      "description": "Learners will read about the development and applications of Artificial Intelligence and answer comprehension questions.",
+      "estimatedMinutes": 25,
+      "passage": {
+        "title": "Artificial Intelligence: Reshaping Our World",
+        "content": "Artificial Intelligence (AI) is rapidly transforming various aspects of our lives, from how we work to how we communicate. At its core, AI refers to the ability of machines to perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making. We encounter AI daily through virtual assistants like Siri, recommendation systems on streaming platforms, and even in spam filters for our emails. Beyond these common applications, AI is revolutionizing fields like medicine, where it assists in diagnosing diseases, and transportation, with the development of self-driving cars. While AI offers immense potential for efficiency and innovation, it also raises important questions about ethics, job displacement, and data privacy. Understanding AI's capabilities and limitations is crucial as we navigate a future increasingly shaped by intelligent machines. It's a powerful tool that requires careful consideration and responsible development.",
+        "wordCount": 178,
+        "topic": "Science and Technology"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main topic of the passage?",
+          "options": [
+            "The definition, applications, and implications of Artificial Intelligence.",
+            "The history of virtual assistants.",
+            "How to program AI systems.",
+            "The dangers of self-driving cars."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does AI refer to, at its core?",
+          "options": [
+            "The ability of machines to perform tasks that typically require human intelligence.",
+            "A new type of computer game.",
+            "A system that only filters spam emails.",
+            "A machine that can feel emotions."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Which of these is an example of AI encountered daily?",
+          "options": [
+            "Virtual assistants like Siri.",
+            "Traditional alarm clocks.",
+            "Basic calculators.",
+            "Manual typewriters."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "In which field does AI assist in diagnosing diseases?",
+          "options": [
+            "Medicine.",
+            "Agriculture.",
+            "Education.",
+            "Art."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is one potential concern raised by AI?",
+          "options": [
+            "Job displacement.",
+            "Increased human intelligence.",
+            "Slower communication.",
+            "Lack of innovation."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The word 'revolutionizing' in the passage is closest in meaning to:",
+          "options": [
+            "fundamentally changing",
+            "slightly improving",
+            "making more difficult",
+            "slowing down"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is crucial as we navigate a future shaped by intelligent machines?",
+          "options": [
+            "Understanding AI's capabilities and limitations.",
+            "Ignoring AI completely.",
+            "Letting AI make all decisions.",
+            "Only focusing on the benefits of AI."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can be inferred about the development of AI?",
+          "options": [
+            "It requires careful consideration and responsible development.",
+            "It should be developed as quickly as possible without thought.",
+            "It is a simple process with no ethical concerns.",
+            "It will solve all human problems automatically."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of systems are mentioned on streaming platforms that use AI?",
+          "options": [
+            "Recommendation systems.",
+            "Billing systems.",
+            "Login systems.",
+            "Search engines."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The passage describes AI as a 'powerful tool'. What does this imply?",
+          "options": [
+            "It has significant capabilities and can have a great impact.",
+            "It is only useful for simple tasks.",
+            "It is difficult to use and understand.",
+            "It is dangerous and should be avoided."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "Celebrating Cultural Diversity",
+      "description": "Learners will read about the importance of culture and identity and answer comprehension questions.",
+      "estimatedMinutes": 25,
+      "passage": {
+        "title": "The Tapestry of Culture and Identity",
+        "content": "Culture and identity are deeply intertwined, shaping who we are as individuals and as communities. Culture encompasses everything from our language, traditions, and customs to our art, music, and food. It's the shared way of life that connects us to our heritage and provides a sense of belonging. Our individual identity is often influenced by the various cultural groups we belong to, whether it's our nationality, ethnicity, religion, or even local community. In an increasingly globalized world, understanding and appreciating cultural diversity is more important than ever. It fosters respect, reduces prejudice, and enriches our lives through new perspectives. Celebrating different cultures, attending festivals, trying new cuisines, or learning about different belief systems helps us build bridges between people. It reminds us that while we may have different backgrounds, we share a common humanity and can learn a great deal from one another.",
+        "wordCount": 177,
+        "topic": "Culture and Identity"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "The interconnectedness of culture and identity and the importance of cultural diversity.",
+            "The best way to preserve one's own culture.",
+            "The challenges of globalization on cultural traditions.",
+            "How to learn a new language quickly."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does culture encompass, according to the passage?",
+          "options": [
+            "Language, traditions, customs, art, music, and food.",
+            "Only a person's nationality.",
+            "Only individual beliefs.",
+            "Only economic systems."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'intertwined' mean in the first sentence?",
+          "options": [
+            "Closely connected or woven together.",
+            "Completely separate and distinct.",
+            "Difficult to understand.",
+            "Easily broken apart."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What influences our individual identity?",
+          "options": [
+            "Various cultural groups we belong to.",
+            "Only our personal preferences.",
+            "Only our job.",
+            "Only the country we live in."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is one benefit of appreciating cultural diversity?",
+          "options": [
+            "It fosters respect and reduces prejudice.",
+            "It makes everyone the same.",
+            "It creates more conflict.",
+            "It isolates people from each other."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The word 'prejudice' in the passage is closest in meaning to:",
+          "options": [
+            "preconceived opinion not based on reason or actual experience",
+            "fair and unbiased judgment",
+            "deep understanding and empathy",
+            "strong admiration and respect"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does celebrating different cultures help us do?",
+          "options": [
+            "Build bridges between people.",
+            "Create barriers between groups.",
+            "Forget our own culture.",
+            "Focus only on differences."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can be inferred about the role of globalization?",
+          "options": [
+            "It makes understanding cultural diversity more important.",
+            "It eliminates the need for cultural understanding.",
+            "It only leads to cultural conflicts.",
+            "It makes all cultures the same."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does culture provide, besides connecting us to our heritage?",
+          "options": [
+            "A sense of belonging.",
+            "Financial wealth.",
+            "Political power.",
+            "Technological advancement."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The passage concludes by saying we 'share a common humanity'. What does this mean?",
+          "options": [
+            "Despite our differences, we are all fundamentally human and connected.",
+            "Everyone in the world is exactly the same.",
+            "Humanity is a single, unified culture.",
+            "Only certain cultures are truly human."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "Smart Money Management",
+      "description": "Learners will read about essential personal finance tips and answer comprehension questions.",
+      "estimatedMinutes": 25,
+      "passage": {
+        "title": "Building a Strong Financial Future",
+        "content": "Managing your money effectively is a fundamental skill for building a secure and comfortable future. It doesn't require being an expert, but rather adopting a few smart habits. The first step is creating a budget to track your income and expenses. This helps you understand where your money goes and identify areas where you can save. Secondly, prioritize saving, even if it's a small amount each month. An emergency fund, typically covering 3-6 months of living expenses, is crucial for unexpected situations. Thirdly, avoid unnecessary debt, especially high-interest credit card debt, which can quickly spiral out of control. If you have debt, make a plan to pay it off systematically. Finally, consider investing for the long term. Even modest investments can grow significantly over time due to compound interest. By consistently practicing these principles, you can gain control over your finances and work towards achieving your financial goals.",
+        "wordCount": 180,
+        "topic": "Money and Finance"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Essential personal finance habits for a secure future.",
+            "How to become a millionaire quickly.",
+            "The dangers of all types of debt.",
+            "The history of banking and finance."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the first step mentioned for managing money effectively?",
+          "options": [
+            "Creating a budget to track income and expenses.",
+            "Investing all your money immediately.",
+            "Taking out a large loan.",
+            "Avoiding all spending."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'crucial' mean in the context of an emergency fund?",
+          "options": [
+            "Extremely important or necessary.",
+            "Optional or helpful.",
+            "Difficult to achieve.",
+            "Unnecessary for most people."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How much should an emergency fund typically cover?",
+          "options": [
+            "3-6 months of living expenses.",
+            "Only one month of expenses.",
+            "A full year of expenses.",
+            "Only a few days of expenses."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of debt should be avoided, especially?",
+          "options": [
+            "High-interest credit card debt.",
+            "Mortgage debt.",
+            "Student loan debt.",
+            "Car loan debt."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The phrase 'spiral out of control' in the passage means:",
+          "options": [
+            "become rapidly worse and unmanageable",
+            "become easier to manage",
+            "become more organized and structured",
+            "become less significant over time"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is suggested for long-term financial growth?",
+          "options": [
+            "Investing for the long term.",
+            "Keeping all money in cash.",
+            "Spending all income immediately.",
+            "Never saving any money."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can be inferred about 'compound interest'?",
+          "options": [
+            "It helps even modest investments grow significantly over time.",
+            "It only benefits very large investments.",
+            "It is a complex concept that is not useful for individuals.",
+            "It makes investments lose value."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the purpose of creating a budget?",
+          "options": [
+            "To understand where your money goes and identify areas to save.",
+            "To spend more money than you earn.",
+            "To avoid paying taxes.",
+            "To make investing decisions for others."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The passage states that managing money effectively is a 'fundamental skill'. What does 'fundamental' mean here?",
+          "options": [
+            "Basic and essential.",
+            "Advanced and complex.",
+            "Optional and secondary.",
+            "Difficult and rare."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "The Role of News in Society",
+      "description": "Learners will read about the importance of news and current events and answer comprehension questions.",
+      "estimatedMinutes": 25,
+      "passage": {
+        "title": "Staying Informed in a Complex World",
+        "content": "In today's fast-paced world, staying informed about news and current events is more important than ever. News provides us with vital information about local, national, and global happenings, helping us understand the world around us. It covers a wide range of topics, from politics and economics to science, culture, and social issues. Being aware of current events allows us to make informed decisions, participate in democratic processes, and engage in meaningful conversations. However, with the rise of digital media, it's crucial to distinguish between reliable sources and misinformation. Critical thinking skills are essential to evaluate the credibility of news reports and avoid falling for 'fake news'. By seeking out diverse perspectives and reputable journalistic outlets, we can ensure we receive accurate and balanced information. Staying informed empowers us to be active and responsible citizens, contributing to a well-functioning society.",
+        "wordCount": 177,
+        "topic": "News and Current Events"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "The importance of staying informed through reliable news and critical thinking.",
+            "How to become a journalist.",
+            "The dangers of all digital media.",
+            "The history of news reporting."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of information does news provide?",
+          "options": [
+            "Vital information about local, national, and global happenings.",
+            "Only entertainment news.",
+            "Only information about politics.",
+            "Only personal opinions."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'crucial' mean in the context of distinguishing news sources?",
+          "options": [
+            "Extremely important.",
+            "Slightly helpful.",
+            "Unnecessary.",
+            "Difficult to do."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What skills are essential to evaluate news reports?",
+          "options": [
+            "Critical thinking skills.",
+            "Memorization skills.",
+            "Artistic skills.",
+            "Physical strength."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is one benefit of being aware of current events?",
+          "options": [
+            "It allows us to make informed decisions.",
+            "It isolates us from society.",
+            "It makes us forget about local issues.",
+            "It prevents us from having conversations."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The word 'reputable' in the passage is closest in meaning to:",
+          "options": [
+            "well-respected and trustworthy",
+            "unknown and obscure",
+            "biased and unfair",
+            "new and experimental"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What should we seek out to ensure accurate information?",
+          "options": [
+            "Diverse perspectives and reputable journalistic outlets.",
+            "Only one source of information.",
+            "Information that confirms our existing beliefs.",
+            "Sensational and unverified stories."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can be inferred about 'fake news'?",
+          "options": [
+            "It is important to avoid falling for it.",
+            "It is always entertaining and harmless.",
+            "It is easy to identify without critical thinking.",
+            "It is a reliable source of information."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does staying informed empower us to be?",
+          "options": [
+            "Active and responsible citizens.",
+            "Passive observers.",
+            "Uninterested individuals.",
+            "Isolated from the community."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The passage mentions news covers a 'wide range of topics'. Which of these is NOT explicitly mentioned?",
+          "options": [
+            "Personal celebrity gossip.",
+            "Politics and economics.",
+            "Science and culture.",
+            "Social issues."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    }
+  ]
+}

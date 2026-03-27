@@ -1,0 +1,1249 @@
+{
+  "skill": "reading",
+  "cefrLevel": "A2",
+  "practiceSets": [
+    {
+      "title": "A Train Trip to Da Nang",
+      "description": "Learners will read about a family's train journey and answer questions about their travel experience.",
+      "estimatedMinutes": 20,
+      "passage": {
+        "title": "Our Summer Trip",
+        "content": "My family loves to travel. Last summer, we went to Da Nang by train. The train journey was long, about 10 hours, but it was fun. We saw green fields and small villages from the window. My brother, Minh, read a book, and I listened to music. My parents talked and looked at the scenery. We ate snacks and drank juice. When we arrived in Da Nang, the weather was sunny and warm. We stayed in a hotel near the beach. Every day, we swam in the sea and built sandcastles. We also visited a big market and bought some souvenirs. The train ride back was also nice. We were tired but happy. We want to go to Da Nang again next year.",
+        "wordCount": 129,
+        "topic": "Travel and Transport"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main topic of the passage?",
+          "options": [
+            "A family's train trip to Da Nang.",
+            "Different types of transport.",
+            "How to build sandcastles.",
+            "Buying souvenirs at a market."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How long was the train journey to Da Nang?",
+          "options": [
+            "About 10 hours.",
+            "About 5 hours.",
+            "About 20 hours.",
+            "About 1 hour."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What did the family see from the train window?",
+          "options": [
+            "Green fields and small villages.",
+            "Big cities and tall buildings.",
+            "Only the sea.",
+            "Many cars and buses."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What did Minh, the writer's brother, do on the train?",
+          "options": [
+            "He read a book.",
+            "He listened to music.",
+            "He talked to his parents.",
+            "He slept the whole time."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Where did the family stay in Da Nang?",
+          "options": [
+            "In a hotel near the beach.",
+            "In a small village.",
+            "In a friend's house.",
+            "In a big market."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What did the family do every day at the beach?",
+          "options": [
+            "They swam in the sea and built sandcastles.",
+            "They visited a big market.",
+            "They listened to music.",
+            "They read books."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the word 'scenery' mean in this passage?",
+          "options": [
+            "The natural features of a landscape.",
+            "The people on the train.",
+            "The food they ate.",
+            "The music they listened to."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What did the family buy at the market?",
+          "options": [
+            "Some souvenirs.",
+            "New clothes.",
+            "More snacks.",
+            "A new book."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How did the family feel after the trip?",
+          "options": [
+            "Tired but happy.",
+            "Bored and sad.",
+            "Angry and tired.",
+            "Sick and unhappy."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the family want to do next year?",
+          "options": [
+            "Go to Da Nang again.",
+            "Travel by plane.",
+            "Stay home.",
+            "Visit a different country."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "Staying Healthy Every Day",
+      "description": "Learners will read about simple daily habits for a healthy life and answer questions about health and body care.",
+      "estimatedMinutes": 20,
+      "passage": {
+        "title": "My Healthy Habits",
+        "content": "Staying healthy is important for everyone. I try to follow some simple habits every day. First, I always eat a good breakfast, like eggs and bread, to give my body energy. I also drink a lot of water throughout the day. Water helps my body work well. Second, I exercise for at least 30 minutes. I usually ride my bicycle or go for a walk in the park. Exercise makes my muscles strong and helps me sleep better. Third, I try to get enough sleep, about 7-8 hours every night. Sleep helps my brain rest and makes me feel fresh in the morning. Finally, I wash my hands often, especially before eating, to stop germs. These habits help me feel good and have energy for school and friends.",
+        "wordCount": 139,
+        "topic": "Health and Body"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Simple daily habits for a healthy life.",
+            "Different types of breakfast foods.",
+            "How to ride a bicycle.",
+            "The importance of sleeping."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer eat for breakfast?",
+          "options": [
+            "Eggs and bread.",
+            "Only fruit.",
+            "Coffee and cake.",
+            "Nothing."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Why does the writer drink a lot of water?",
+          "options": [
+            "It helps their body work well.",
+            "It makes their muscles strong.",
+            "It helps them sleep better.",
+            "It stops germs."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How long does the writer exercise each day?",
+          "options": [
+            "At least 30 minutes.",
+            "Only 10 minutes.",
+            "More than 2 hours.",
+            "They don't exercise."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does exercise do for the writer?",
+          "options": [
+            "It makes muscles strong and helps sleep.",
+            "It makes them tired and weak.",
+            "It helps them read books.",
+            "It makes them hungry."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How many hours of sleep does the writer try to get?",
+          "options": [
+            "About 7-8 hours.",
+            "Only 4 hours.",
+            "More than 10 hours.",
+            "They don't mention sleep."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does sleep help the brain do?",
+          "options": [
+            "Rest and feel fresh.",
+            "Work harder.",
+            "Remember everything.",
+            "Forget things."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "When does the writer wash their hands often?",
+          "options": [
+            "Especially before eating.",
+            "Only in the morning.",
+            "Only after school.",
+            "Never."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'germs' mean in this context?",
+          "options": [
+            "Tiny things that can make you sick.",
+            "Small animals in the park.",
+            "Healthy foods.",
+            "Clean water."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the overall benefit of these habits for the writer?",
+          "options": [
+            "They feel good and have energy.",
+            "They become very rich.",
+            "They learn new skills quickly.",
+            "They travel a lot."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "A Day in the Life of a Teacher",
+      "description": "Learners will read about a teacher's daily work routine and answer questions about their job.",
+      "estimatedMinutes": 20,
+      "passage": {
+        "title": "My Job as a Teacher",
+        "content": "My name is Linh, and I am an English teacher at a primary school. My job is very important because I help young children learn. Every morning, I wake up at 6:00 AM, have breakfast, and prepare for school. I arrive at school at 7:30 AM. My first class starts at 8:00 AM. I teach English to children aged 6 to 10. We learn new words, sing songs, and play games. The children are always happy and full of energy. During the break, I talk with other teachers and drink coffee. In the afternoon, I teach two more classes. After school, I check homework and plan lessons for the next day. I usually leave school at 5:00 PM. It's a busy job, but I love seeing my students learn and grow.",
+        "wordCount": 140,
+        "topic": "Jobs and Work"
+      },
+      "questions": [
+        {
+          "stemText": "What is Linh's job?",
+          "options": [
+            "She is an English teacher.",
+            "She is a doctor.",
+            "She is a student.",
+            "She is a chef."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What time does Linh wake up every morning?",
+          "options": [
+            "At 6:00 AM.",
+            "At 7:00 AM.",
+            "At 8:00 AM.",
+            "At 5:00 AM."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What age are the children Linh teaches?",
+          "options": [
+            "Aged 6 to 10.",
+            "Aged 11 to 15.",
+            "Aged 3 to 5.",
+            "Aged 16 to 18."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What do the children do in Linh's class?",
+          "options": [
+            "They learn new words, sing songs, and play games.",
+            "They only read books.",
+            "They watch movies.",
+            "They do sports."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does Linh do during the break?",
+          "options": [
+            "She talks with other teachers and drinks coffee.",
+            "She checks homework.",
+            "She goes home.",
+            "She teaches another class."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does Linh do after school?",
+          "options": [
+            "She checks homework and plans lessons.",
+            "She goes shopping.",
+            "She plays games with students.",
+            "She watches TV."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What time does Linh usually leave school?",
+          "options": [
+            "At 5:00 PM.",
+            "At 3:00 PM.",
+            "At 6:00 AM.",
+            "At 8:00 PM."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'primary school' mean in this passage?",
+          "options": [
+            "A school for young children, usually before high school.",
+            "A school for adults.",
+            "A school for learning sports.",
+            "A school for learning cooking."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How does Linh feel about her job?",
+          "options": [
+            "She loves seeing her students learn and grow.",
+            "She finds it boring.",
+            "She wants a different job.",
+            "She feels tired all the time."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is one reason Linh's job is important?",
+          "options": [
+            "She helps young children learn.",
+            "She makes a lot of money.",
+            "She travels to many countries.",
+            "She works alone."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "My Favorite Hobby: Photography",
+      "description": "Learners will read about someone's hobby of photography and answer questions about their interest.",
+      "estimatedMinutes": 20,
+      "passage": {
+        "title": "Capturing Moments",
+        "content": "My name is Hoa, and my favorite hobby is photography. I love taking pictures of everything around me. I have a small digital camera, but sometimes I use my phone camera too. I like to go to the park or the lake on weekends to find beautiful things to photograph. I take pictures of flowers, trees, animals, and sometimes people. I also enjoy taking photos of sunsets and sunrises. After I take the pictures, I often use a simple app on my phone to make them look better. I share my best photos with my friends and family online. They always say my photos are nice. Photography helps me see the world in a special way and remember beautiful moments.",
+        "wordCount": 129,
+        "topic": "Hobbies and Sports"
+      },
+      "questions": [
+        {
+          "stemText": "What is Hoa's favorite hobby?",
+          "options": [
+            "Photography.",
+            "Singing.",
+            "Cooking.",
+            "Reading books."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of camera does Hoa have?",
+          "options": [
+            "A small digital camera.",
+            "A very big film camera.",
+            "Only a phone camera.",
+            "No camera at all."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Where does Hoa like to go on weekends to take pictures?",
+          "options": [
+            "To the park or the lake.",
+            "To the shopping mall.",
+            "To school.",
+            "To her home."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does Hoa take pictures of?",
+          "options": [
+            "Flowers, trees, animals, and sunsets.",
+            "Only buildings.",
+            "Only her friends.",
+            "Only food."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does Hoa do after taking pictures?",
+          "options": [
+            "She uses an app to make them look better.",
+            "She deletes all of them.",
+            "She prints them immediately.",
+            "She sells them."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Who does Hoa share her photos with?",
+          "options": [
+            "Her friends and family online.",
+            "Only strangers.",
+            "Only her teacher.",
+            "Nobody."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'capturing moments' mean in the title?",
+          "options": [
+            "Taking photos to remember special times.",
+            "Catching animals.",
+            "Writing stories.",
+            "Drawing pictures."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How do Hoa's friends and family react to her photos?",
+          "options": [
+            "They always say her photos are nice.",
+            "They don't like them.",
+            "They never look at them.",
+            "They tell her to stop."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is one benefit of photography for Hoa?",
+          "options": [
+            "It helps her see the world in a special way.",
+            "It makes her tired.",
+            "It helps her earn a lot of money.",
+            "It helps her learn to cook."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Does Hoa only use her digital camera for photos?",
+          "options": [
+            "No, she sometimes uses her phone camera too.",
+            "Yes, only her digital camera.",
+            "She doesn't have a digital camera.",
+            "She uses a friend's camera."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "Exploring Ho Chi Minh City",
+      "description": "Learners will read about different aspects of city life in Ho Chi Minh City and answer comprehension questions.",
+      "estimatedMinutes": 20,
+      "passage": {
+        "title": "My Life in the City",
+        "content": "I live in Ho Chi Minh City, a very big and busy city in Vietnam. There are many tall buildings, wide streets, and a lot of motorbikes. Life here is fast, but it's also exciting. In the city, you can find everything you need: big shopping malls, small local markets, and many restaurants. My favorite place is District 1, where I can see old French buildings and modern skyscrapers. I often go to Nguyen Hue Walking Street in the evening with my friends. We enjoy the lights and the street performers. Public transport like buses is available, but many people prefer motorbikes. Even though it can be noisy, I love the energy of Ho Chi Minh City. There's always something new to see or do.",
+        "wordCount": 134,
+        "topic": "City Life"
+      },
+      "questions": [
+        {
+          "stemText": "What city does the writer live in?",
+          "options": [
+            "Ho Chi Minh City.",
+            "Hanoi.",
+            "Da Nang.",
+            "Hue."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can you find a lot of on the streets of Ho Chi Minh City?",
+          "options": [
+            "Motorbikes.",
+            "Bicycles.",
+            "Cars.",
+            "Trains."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer say about life in the city?",
+          "options": [
+            "It is fast and exciting.",
+            "It is slow and boring.",
+            "It is quiet and peaceful.",
+            "It is difficult and sad."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can you find in Ho Chi Minh City?",
+          "options": [
+            "Shopping malls, markets, and restaurants.",
+            "Only tall buildings.",
+            "Only quiet parks.",
+            "Only small villages."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the writer's favorite place in the city?",
+          "options": [
+            "District 1.",
+            "Nguyen Hue Walking Street.",
+            "A shopping mall.",
+            "A local market."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What do the writer and friends enjoy on Nguyen Hue Walking Street?",
+          "options": [
+            "The lights and street performers.",
+            "The quietness.",
+            "The old French buildings.",
+            "The public transport."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'skyscrapers' mean in the passage?",
+          "options": [
+            "Very tall modern buildings.",
+            "Old French buildings.",
+            "Small houses.",
+            "Shopping malls."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of public transport is available?",
+          "options": [
+            "Buses.",
+            "Trains.",
+            "Taxis only.",
+            "Airplanes."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How does the writer feel about the noise in the city?",
+          "options": [
+            "They still love the energy of the city.",
+            "They hate it.",
+            "They want to move away.",
+            "They don't mention noise."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is always true about Ho Chi Minh City, according to the writer?",
+          "options": [
+            "There's always something new to see or do.",
+            "It's always quiet.",
+            "It's always raining.",
+            "It's always empty."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "The Delicious Pho",
+      "description": "Learners will read about the famous Vietnamese dish, Pho, and answer questions about its ingredients and cultural significance.",
+      "estimatedMinutes": 20,
+      "passage": {
+        "title": "Vietnam's Famous Noodle Soup",
+        "content": "Pho is a very famous and delicious noodle soup from Vietnam. It is popular all over the world. People often eat Pho for breakfast, but you can enjoy it any time of the day. There are two main types: Pho Bo (beef noodle soup) and Pho Ga (chicken noodle soup). The soup has a rich, clear broth made from bones and spices like star anise and cinnamon. Inside the bowl, you will find soft rice noodles, thin slices of beef or chicken, and fresh herbs like basil and cilantro. People usually add lime juice, chili, and bean sprouts to their Pho for extra flavor. It's a warm, comforting dish that many Vietnamese people love and feel proud of. It's more than just food; it's a part of our culture.",
+        "wordCount": 140,
+        "topic": "Food Culture"
+      },
+      "questions": [
+        {
+          "stemText": "What is Pho?",
+          "options": [
+            "A famous noodle soup from Vietnam.",
+            "A type of rice.",
+            "A sweet dessert.",
+            "A kind of fruit."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "When do people often eat Pho?",
+          "options": [
+            "For breakfast, but also any time of day.",
+            "Only for dinner.",
+            "Only for lunch.",
+            "Only on special holidays."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What are the two main types of Pho mentioned?",
+          "options": [
+            "Pho Bo and Pho Ga.",
+            "Pho Chay and Pho Tom.",
+            "Pho Xao and Pho Cuon.",
+            "Pho Ca and Pho Heo."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the broth of Pho made from?",
+          "options": [
+            "Bones and spices.",
+            "Only vegetables.",
+            "Fruit juice.",
+            "Milk and sugar."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What spices are mentioned in the broth?",
+          "options": [
+            "Star anise and cinnamon.",
+            "Salt and pepper.",
+            "Sugar and chili.",
+            "Garlic and ginger."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of noodles are in Pho?",
+          "options": [
+            "Soft rice noodles.",
+            "Egg noodles.",
+            "Glass noodles.",
+            "Wheat noodles."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What fresh herbs are usually added to Pho?",
+          "options": [
+            "Basil and cilantro.",
+            "Parsley and mint.",
+            "Rosemary and thyme.",
+            "Dill and oregano."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What do people add for extra flavor?",
+          "options": [
+            "Lime juice, chili, and bean sprouts.",
+            "Only sugar.",
+            "Only salt.",
+            "Only water."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'comforting' mean in the passage?",
+          "options": [
+            "Making you feel warm and happy.",
+            "Making you feel cold and sad.",
+            "Making you feel angry.",
+            "Making you feel hungry."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is Pho considered by many Vietnamese people?",
+          "options": [
+            "More than just food; it's a part of their culture.",
+            "Just a simple meal.",
+            "A foreign dish.",
+            "A rare dish."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "Using My Smartphone Every Day",
+      "description": "Learners will read about the common uses of a smartphone in daily life and answer questions about basic technology.",
+      "estimatedMinutes": 20,
+      "passage": {
+        "title": "My Smart Helper",
+        "content": "My smartphone is a very useful tool in my daily life. I use it for many things every day. First, I use it to communicate with my family and friends. I send text messages, make phone calls, and use social media apps to chat. Second, I use it for information. I can quickly search for news, weather forecasts, or directions to a new place using maps. Third, it helps me with entertainment. I listen to music, watch short videos, and play simple games when I have free time. I also use it to take photos and record videos. My smartphone is like a small computer that fits in my pocket. It helps me stay connected, informed, and entertained wherever I am.",
+        "wordCount": 133,
+        "topic": "Technology Basics"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main topic of the passage?",
+          "options": [
+            "How a smartphone is used in daily life.",
+            "How to make phone calls.",
+            "The history of smartphones.",
+            "Different types of computers."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer use their smartphone for to communicate?",
+          "options": [
+            "Sending text messages, making calls, and chatting on social media.",
+            "Only making phone calls.",
+            "Only sending emails.",
+            "Only watching videos."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of information can the writer find on their smartphone?",
+          "options": [
+            "News, weather, and directions.",
+            "Only music.",
+            "Only games.",
+            "Only photos."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer do for entertainment on their smartphone?",
+          "options": [
+            "Listen to music, watch videos, and play games.",
+            "Read long books.",
+            "Cook meals.",
+            "Clean the house."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What else can the writer do with their smartphone besides communicate and get information?",
+          "options": [
+            "Take photos and record videos.",
+            "Drive a car.",
+            "Build a house.",
+            "Learn a new language."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the smartphone compared to in the passage?",
+          "options": [
+            "A small computer that fits in a pocket.",
+            "A big television.",
+            "A heavy book.",
+            "A fast car."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'communicate' mean in this context?",
+          "options": [
+            "To share information or talk with others.",
+            "To listen to music.",
+            "To play games.",
+            "To take pictures."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What are the overall benefits of the smartphone for the writer?",
+          "options": [
+            "It helps them stay connected, informed, and entertained.",
+            "It makes them rich.",
+            "It helps them sleep better.",
+            "It helps them cook."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Does the writer use their smartphone only at home?",
+          "options": [
+            "No, they use it wherever they are.",
+            "Yes, only at home.",
+            "Only at school.",
+            "Only at work."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of apps does the writer use for chatting?",
+          "options": [
+            "Social media apps.",
+            "Cooking apps.",
+            "Exercise apps.",
+            "Learning apps."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "A Walk in the Local Park",
+      "description": "Learners will read about a local park and its natural features, answering questions about the environment.",
+      "estimatedMinutes": 20,
+      "passage": {
+        "title": "Green Space in the City",
+        "content": "Our city has a beautiful park called Green Lake Park. It's a wonderful place to enjoy nature, even in the middle of the city. The park has many tall trees that provide shade on sunny days. There are colorful flowers everywhere, especially in spring. A small lake is in the center, and you can see ducks swimming peacefully. Many people come to the park to walk, run, or ride bicycles on the paths. Children love to play in the playground. It's also a good place to have a picnic with family and friends. We should always remember to keep the park clean by putting our trash in the bins. Protecting this green space helps us breathe fresh air and feel calm. It’s a gift of nature for everyone.",
+        "wordCount": 134,
+        "topic": "Environment and Nature"
+      },
+      "questions": [
+        {
+          "stemText": "What is the name of the park mentioned in the passage?",
+          "options": [
+            "Green Lake Park.",
+            "Central Park.",
+            "Flower Garden.",
+            "City Park."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What provides shade in the park on sunny days?",
+          "options": [
+            "Many tall trees.",
+            "Big buildings.",
+            "Umbrellas.",
+            "Rocks."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "When are there colorful flowers everywhere in the park?",
+          "options": [
+            "Especially in spring.",
+            "Only in winter.",
+            "Only in summer.",
+            "All year round."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can you see swimming in the lake?",
+          "options": [
+            "Ducks.",
+            "Fish.",
+            "Birds.",
+            "Boats."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What do people do in the park?",
+          "options": [
+            "Walk, run, or ride bicycles.",
+            "Drive cars.",
+            "Watch movies.",
+            "Work in offices."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What do children love to do in the park?",
+          "options": [
+            "Play in the playground.",
+            "Read books.",
+            "Swim in the lake.",
+            "Clean the park."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'shade' mean in the passage?",
+          "options": [
+            "An area protected from direct sunlight.",
+            "A type of tree.",
+            "A color.",
+            "A place to swim."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How should people keep the park clean?",
+          "options": [
+            "By putting trash in the bins.",
+            "By taking trash home.",
+            "By leaving trash anywhere.",
+            "By burning trash."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is a benefit of protecting this green space?",
+          "options": [
+            "It helps us breathe fresh air and feel calm.",
+            "It makes the city noisy.",
+            "It makes people tired.",
+            "It makes the lake dirty."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the park considered to be for everyone?",
+          "options": [
+            "A gift of nature.",
+            "A place to work.",
+            "A shopping area.",
+            "A school."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "Celebrating Tet in Vietnam",
+      "description": "Learners will read about the Vietnamese New Year celebration, Tet, and answer questions about its traditions.",
+      "estimatedMinutes": 20,
+      "passage": {
+        "title": "The Most Important Holiday",
+        "content": "Tet Nguyen Dan, or Tet, is the most important and biggest holiday in Vietnam. It is the Vietnamese New Year, celebrated at the end of January or early February. Before Tet, families clean and decorate their homes. They buy new clothes and special foods. Red and yellow are popular colors for decorations because they bring good luck. On Tet, families gather together. Children receive 'li xi' (lucky money) in red envelopes from adults. People visit relatives and friends, wishing them good health and happiness. Traditional foods like Banh Chung (sticky rice cake) are eaten. Many people also visit pagodas to pray for a good year. Tet is a time for family, hope, and new beginnings.",
+        "wordCount": 131,
+        "topic": "Celebrations and Traditions"
+      },
+      "questions": [
+        {
+          "stemText": "What is Tet Nguyen Dan?",
+          "options": [
+            "The Vietnamese New Year.",
+            "A summer festival.",
+            "A harvest celebration.",
+            "A national independence day."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "When is Tet celebrated?",
+          "options": [
+            "At the end of January or early February.",
+            "In December.",
+            "In July.",
+            "In October."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What do families do before Tet?",
+          "options": [
+            "Clean and decorate their homes.",
+            "Go on vacation.",
+            "Start new jobs.",
+            "Plant trees."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What colors are popular for Tet decorations?",
+          "options": [
+            "Red and yellow.",
+            "Blue and green.",
+            "Black and white.",
+            "Purple and pink."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Why are red and yellow popular colors for decorations?",
+          "options": [
+            "They bring good luck.",
+            "They are cheap.",
+            "They are easy to find.",
+            "They are traditional."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What do children receive on Tet?",
+          "options": [
+            "'Li xi' (lucky money) in red envelopes.",
+            "New toys.",
+            "Books.",
+            "Sweets."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is Banh Chung?",
+          "options": [
+            "A traditional sticky rice cake.",
+            "A type of noodle soup.",
+            "A sweet drink.",
+            "A kind of fruit."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'pagodas' mean in this passage?",
+          "options": [
+            "Religious temples, often Buddhist.",
+            "Shopping malls.",
+            "Schools.",
+            "Restaurants."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What do people pray for at pagodas during Tet?",
+          "options": [
+            "A good year.",
+            "More money.",
+            "A new car.",
+            "A long vacation."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is Tet a time for?",
+          "options": [
+            "Family, hope, and new beginnings.",
+            "Working hard.",
+            "Being alone.",
+            "Sadness and endings."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "Learning to Play the Guitar",
+      "description": "Learners will read about someone's experience learning a new skill, playing the guitar, and answer questions about the learning process.",
+      "estimatedMinutes": 20,
+      "passage": {
+        "title": "My New Challenge",
+        "content": "I always wanted to learn to play a musical instrument, so last month I started guitar lessons. Learning a new skill is a challenge, but it's also very rewarding. My teacher, Mr. Nam, is very patient. He teaches me how to hold the guitar, how to place my fingers on the strings, and how to read simple music. At first, my fingers hurt a little, and it was hard to make a clear sound. But I practice every day for about 30 minutes. I watch online videos and try to play simple songs. Slowly, I am getting better. I can now play a few basic chords and a short melody. My goal is to play my favorite songs soon. It takes time and effort, but I enjoy every step of learning.",
+        "wordCount": 133,
+        "topic": "Learning New Skills"
+      },
+      "questions": [
+        {
+          "stemText": "What new skill is the writer learning?",
+          "options": [
+            "Playing the guitar.",
+            "Singing.",
+            "Drawing.",
+            "Cooking."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "When did the writer start guitar lessons?",
+          "options": [
+            "Last month.",
+            "Last year.",
+            "Last week.",
+            "Yesterday."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the teacher's name?",
+          "options": [
+            "Mr. Nam.",
+            "Mr. Minh.",
+            "Mr. Long.",
+            "Mr. Hai."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the teacher teach the writer?",
+          "options": [
+            "How to hold the guitar, place fingers, and read music.",
+            "How to sing loudly.",
+            "How to buy a guitar.",
+            "How to fix a guitar."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What happened to the writer's fingers at first?",
+          "options": [
+            "They hurt a little.",
+            "They felt very strong.",
+            "They were very fast.",
+            "They felt numb."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How long does the writer practice every day?",
+          "options": [
+            "About 30 minutes.",
+            "About 1 hour.",
+            "About 10 minutes.",
+            "About 2 hours."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer do to help with practice?",
+          "options": [
+            "Watches online videos and tries to play simple songs.",
+            "Reads many books.",
+            "Goes to concerts.",
+            "Buys new guitars."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'rewarding' mean in this passage?",
+          "options": [
+            "Giving satisfaction or a good feeling.",
+            "Making you tired.",
+            "Making you sad.",
+            "Making you rich."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the writer's goal?",
+          "options": [
+            "To play their favorite songs soon.",
+            "To become a famous musician.",
+            "To teach guitar lessons.",
+            "To buy a new instrument."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How does the writer feel about the learning process?",
+          "options": [
+            "They enjoy every step of learning.",
+            "They find it boring.",
+            "They want to stop.",
+            "They feel angry."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "My New Language Journey",
+      "description": "Learners will read about someone learning a new language and answer questions about their motivation and methods.",
+      "estimatedMinutes": 20,
+      "passage": {
+        "title": "Learning English",
+        "content": "I am learning English because I want to study abroad in the future. It's a big goal, but I am working hard. I have an English class three times a week. In class, we learn grammar rules, new vocabulary, and practice speaking. My teacher encourages us to speak English as much as possible. Besides class, I also practice at home. I listen to English songs and watch English movies with subtitles. I try to read simple English stories every day. Sometimes, I talk to my friends in English, even if we make mistakes. Making mistakes is okay; it helps me learn. Learning English is not easy, but it is exciting. I believe that with continuous effort, I will achieve my dream.",
+        "wordCount": 130,
+        "topic": "Learning New Skills"
+      },
+      "questions": [
+        {
+          "stemText": "Why is the writer learning English?",
+          "options": [
+            "To study abroad in the future.",
+            "To get a new job.",
+            "To travel around the world.",
+            "To teach English."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How often does the writer have an English class?",
+          "options": [
+            "Three times a week.",
+            "Every day.",
+            "Once a week.",
+            "Once a month."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What do they learn in English class?",
+          "options": [
+            "Grammar, vocabulary, and speaking practice.",
+            "Only grammar.",
+            "Only speaking.",
+            "Only reading."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the teacher encourage students to do?",
+          "options": [
+            "Speak English as much as possible.",
+            "Only write in English.",
+            "Only listen to English.",
+            "Only read in English."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer do to practice English at home?",
+          "options": [
+            "Listens to songs and watches movies with subtitles.",
+            "Plays video games.",
+            "Cooks new recipes.",
+            "Cleans the house."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer try to read every day?",
+          "options": [
+            "Simple English stories.",
+            "Newspapers.",
+            "Long novels.",
+            "Magazines."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer think about making mistakes?",
+          "options": [
+            "It's okay; it helps them learn.",
+            "It's very bad.",
+            "It makes them stop learning.",
+            "It makes them angry."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'subtitles' mean in this context?",
+          "options": [
+            "Text displayed on a screen that translates or transcribes dialogue.",
+            "The title of a movie.",
+            "The music in a movie.",
+            "The actors in a movie."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How does the writer describe learning English?",
+          "options": [
+            "Not easy, but exciting.",
+            "Very easy and boring.",
+            "Impossible.",
+            "Only for smart people."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer believe will help them achieve their dream?",
+          "options": [
+            "Continuous effort.",
+            "Luck.",
+            "Money.",
+            "A new teacher."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    }
+  ]
+}

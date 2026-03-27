@@ -1,0 +1,2146 @@
+{
+	"skill": "reading",
+	"cefrLevel": "B2",
+	"lessons": [
+		{
+			"title": "Navigating Global Trends and Local Traditions",
+			"description": "This lesson helps learners understand how globalization impacts local cultures and practice identifying the main idea in a text.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Understanding the Main Idea",
+						"content": "The main idea is the central point or message the author wants to convey. It's often found in the introduction or conclusion, or summarized in a topic sentence within a paragraph. Identifying it helps you grasp the core meaning of the text."
+					},
+					{
+						"type": "example",
+						"heading": "Spotting the Main Idea",
+						"content": "If a paragraph discusses different types of renewable energy, but consistently emphasizes their environmental benefits, the main idea isn't just 'types of energy' but 'the environmental advantages of renewable energy sources'."
+					},
+					{
+						"type": "tip",
+						"heading": "Ask 'What is this about?'",
+						"content": "After reading a paragraph or the entire passage, ask yourself: 'What is the most important point the author is trying to make?' Try to summarize it in one sentence. This helps filter out less important details and focus on the core message."
+					}
+				]
+			},
+			"passage": {
+				"title": "The Dance of Globalization and Vietnamese Culture",
+				"content": "Globalization, the increasing interconnectedness of the world, has brought both opportunities and challenges to local cultures everywhere, and Vietnam is no exception. From the widespread availability of international fast food chains to the popularity of K-pop and Hollywood movies, global influences are undeniable. Young Vietnamese, for instance, often embrace global fashion trends, yet simultaneously cherish traditional áo dài for special occasions like Tết or weddings. This blend demonstrates a dynamic cultural exchange rather than a simple replacement.\n\nWhile some worry about the erosion of unique traditions, many argue that globalization actually strengthens local identity. When exposed to global trends, communities often become more conscious of their own heritage, leading to efforts to preserve and promote it. For example, traditional Vietnamese cuisine, once primarily local, has gained international recognition, with pho and bánh mì becoming global favorites. This global appreciation, in turn, encourages local chefs and families to maintain authentic recipes and cooking methods.\n\nFurthermore, technology, a key driver of globalization, also provides tools for cultural preservation. Social media platforms allow Vietnamese artists to share traditional music or crafts with a global audience, fostering pride and generating new interest. The challenge lies in finding a balance: embracing the new while safeguarding the old. Ultimately, Vietnamese culture is not static; it is a living entity that adapts, absorbs, and redefines itself in the face of global currents, proving its resilience and enduring charm.",
+				"wordCount": 278,
+				"topic": "Globalization and Local Cultures"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main idea of the passage?",
+					"options": [
+						"Globalization is completely destroying traditional Vietnamese culture.",
+						"Vietnamese culture is successfully resisting all global influences.",
+						"Globalization presents both challenges and opportunities for Vietnamese culture, leading to a dynamic blend and renewed appreciation for local traditions.",
+						"Traditional Vietnamese cuisine is becoming more popular internationally than local fast food."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "According to the passage, what is an example of young Vietnamese people balancing global and local influences?",
+					"options": [
+						"They only listen to K-pop music.",
+						"They prefer international fast food over traditional dishes.",
+						"They embrace global fashion but wear traditional áo dài for special events.",
+						"They only use social media to promote traditional crafts."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The word 'erosion' in paragraph 2 most closely means:",
+					"options": ["strengthening", "gradual destruction", "rapid expansion", "careful preservation"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "How does the passage suggest globalization can strengthen local identity?",
+					"options": [
+						"By forcing communities to abandon their traditions.",
+						"By making local cultures feel inferior to global ones.",
+						"By making communities more aware of their heritage and encouraging its promotion.",
+						"By completely isolating local cultures from outside influences."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What role does technology play in cultural preservation, according to the text?",
+					"options": [
+						"It makes traditional culture obsolete.",
+						"It helps spread global trends exclusively.",
+						"It allows local artists to share their culture with a global audience.",
+						"It encourages people to forget their roots."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The passage implies that Vietnamese culture is:",
+					"options": [
+						"static and unchanging.",
+						"vulnerable and easily replaced.",
+						"resilient and adaptable.",
+						"only interested in global trends."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Which of the following is NOT mentioned as an example of global influence in Vietnam?",
+					"options": [
+						"International fast food chains",
+						"Hollywood movies",
+						"K-pop music",
+						"Traditional Vietnamese folk tales"
+					],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "What is the 'challenge' mentioned in the last paragraph regarding globalization and culture?",
+					"options": [
+						"To completely reject all global influences.",
+						"To abandon traditional practices for modern ones.",
+						"To find a balance between embracing new global trends and preserving old traditions.",
+						"To make traditional cuisine more popular than international dishes."
+					],
+					"correctIndex": 2
+				}
+			]
+		},
+		{
+			"title": "Understanding the Ethical Dilemmas of AI",
+			"description": "This lesson explores the ethical considerations surrounding Artificial Intelligence and helps learners practice making inferences from a text.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Making Inferences",
+						"content": "Inference is about 'reading between the lines.' It means using clues from the text, combined with your own background knowledge, to figure out something the author doesn't explicitly state. It's an educated guess based on evidence."
+					},
+					{
+						"type": "example",
+						"heading": "How to Infer",
+						"content": "If a text describes a character shivering, wearing a thick coat, and seeing their breath, you can infer it's cold, even if the text never says 'it was cold.' The clues (shivering, coat, breath) lead you to that conclusion."
+					},
+					{
+						"type": "tip",
+						"heading": "Look for Clues and Connect Them",
+						"content": "When asked to infer, don't just guess. Go back to the text and identify specific words, phrases, or situations that hint at the answer. Then, connect these clues to form a logical conclusion. Avoid bringing in too much outside information that isn't supported by the text."
+					}
+				]
+			},
+			"passage": {
+				"title": "AI's Ethical Crossroads: Progress and Responsibility",
+				"content": "Artificial Intelligence (AI) is rapidly transforming our world, from powering personalized recommendations on streaming services to assisting in medical diagnoses. While the potential benefits are immense, the rapid advancement of AI also brings significant ethical questions that society must address. One major concern is job displacement. As AI and automation become more sophisticated, they can perform tasks traditionally done by humans, raising fears about widespread unemployment in certain sectors.\n\nAnother critical issue is algorithmic bias. AI systems learn from data, and if that data reflects existing societal biases, the AI can perpetuate or even amplify them. For instance, an AI used for hiring might unfairly disadvantage certain demographic groups if its training data contained historical hiring patterns that were discriminatory. This raises questions about fairness and equality in AI applications.\n\nPrivacy is also a paramount concern. AI systems often require vast amounts of personal data to function effectively, leading to worries about how this data is collected, stored, and used. Ensuring data security and preventing misuse is crucial for maintaining public trust. Furthermore, the question of accountability arises: who is responsible when an AI system makes a mistake or causes harm? Is it the developer, the user, or the AI itself?\n\nAddressing these ethical dilemmas requires careful consideration from policymakers, developers, and the public. Establishing clear guidelines, promoting transparency in AI development, and fostering public dialogue are essential steps to ensure that AI serves humanity's best interests and is developed responsibly.",
+				"wordCount": 286,
+				"topic": "The Ethics of Artificial Intelligence"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main purpose of this passage?",
+					"options": [
+						"To convince readers that AI is dangerous and should be stopped.",
+						"To explain how AI works in detail.",
+						"To highlight the ethical challenges and responsibilities associated with AI development.",
+						"To promote the benefits of AI in various industries."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The passage implies that job displacement due to AI is a concern because:",
+					"options": [
+						"AI systems are not efficient enough.",
+						"Humans will no longer be needed for any tasks.",
+						"AI can perform tasks traditionally done by humans, potentially leading to unemployment.",
+						"AI is too expensive for most companies to implement."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What does 'algorithmic bias' refer to?",
+					"options": [
+						"AI systems making random errors.",
+						"AI systems learning and reflecting existing prejudices from their training data.",
+						"AI systems being unable to make decisions.",
+						"AI systems that are too slow to process information."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'paramount' in paragraph 3 most closely means:",
+					"options": ["unimportant", "secondary", "supreme or most important", "difficult to understand"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "According to the passage, why is privacy a concern with AI?",
+					"options": [
+						"AI systems are inherently designed to steal data.",
+						"AI systems often need large amounts of personal data, raising worries about its use and security.",
+						"Privacy laws are too strict for AI development.",
+						"AI systems cannot protect personal information."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What does the passage suggest is needed to address AI's ethical dilemmas?",
+					"options": [
+						"Stopping all AI development immediately.",
+						"Ignoring the problems and hoping they resolve themselves.",
+						"Establishing guidelines, promoting transparency, and fostering public dialogue.",
+						"Allowing AI to make all decisions without human oversight."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "From the passage, we can infer that the ethical issues of AI are:",
+					"options": [
+						"minor and easily solved.",
+						"complex and require multi-faceted solutions.",
+						"only relevant to AI developers.",
+						"not a current concern for society."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The passage mentions 'accountability' in the context of AI. What question does this raise?",
+					"options": [
+						"How much money does AI save companies?",
+						"Who is responsible when an AI system makes a mistake or causes harm?",
+						"Can AI systems be held legally responsible?",
+						"How can we make AI systems more powerful?"
+					],
+					"correctIndex": 1
+				}
+			]
+		},
+		{
+			"title": "Exploring Income Inequality in Modern Society",
+			"description": "This lesson examines the causes and effects of income inequality and helps learners practice identifying supporting details in a text.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Identifying Supporting Details",
+						"content": "Supporting details are facts, examples, statistics, or reasons that elaborate on, prove, or explain the main idea of a paragraph or text. They provide the evidence that makes the main idea believable and understandable."
+					},
+					{
+						"type": "example",
+						"heading": "Finding Specific Information",
+						"content": "If the main idea is 'Exercise has many health benefits,' supporting details might include 'it strengthens your heart,' 'it improves mood,' and 'it helps manage weight.' These specific points back up the general statement."
+					},
+					{
+						"type": "tip",
+						"heading": "Look for Keywords and Examples",
+						"content": "When searching for supporting details, look for signal words like 'for example,' 'for instance,' 'in addition,' 'also,' 'first,' 'second,' or specific names, dates, and numbers. These often introduce the evidence that supports a broader claim."
+					}
+				]
+			},
+			"passage": {
+				"title": "The Widening Gap: Understanding Income Inequality",
+				"content": "Income inequality, the uneven distribution of wealth and income among a population, has become a pressing issue in many modern societies, including rapidly developing economies like Vietnam. While economic growth has lifted millions out of poverty, it has also, in some cases, exacerbated the gap between the richest and the poorest. This disparity can have significant social and economic consequences.\n\nSeveral factors contribute to this widening gap. Firstly, technological advancements often favor highly skilled workers, increasing their wages while potentially displacing those in lower-skilled jobs. Secondly, globalization has led to increased competition, sometimes driving down wages in certain sectors. Thirdly, differences in access to quality education and healthcare play a crucial role. Individuals from disadvantaged backgrounds may struggle to acquire the skills needed for higher-paying jobs, trapping them in a cycle of low income.\n\nThe consequences of high income inequality are far-reaching. It can lead to social unrest, as people feel left behind or unfairly treated. It can also hinder overall economic growth, as a large portion of the population lacks the purchasing power to stimulate demand. Moreover, it can undermine social cohesion and trust within communities. Addressing income inequality requires a multi-faceted approach, including investments in education and vocational training, progressive taxation policies, and robust social safety nets. By fostering more equitable opportunities, societies can work towards a future where prosperity is shared more broadly.",
+				"wordCount": 277,
+				"topic": "Income Inequality in Modern Society"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main topic of this passage?",
+					"options": [
+						"The benefits of economic growth.",
+						"The causes and effects of income inequality.",
+						"The importance of technological advancements.",
+						"The role of globalization in job creation."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "According to the passage, what is one way technological advancements contribute to income inequality?",
+					"options": [
+						"They make all jobs easier for everyone.",
+						"They primarily benefit low-skilled workers.",
+						"They favor highly skilled workers, increasing their wages and potentially displacing others.",
+						"They reduce the need for education and training."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The word 'exacerbated' in paragraph 1 most closely means:",
+					"options": ["reduced", "improved", "made worse", "hidden"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Which of the following is NOT mentioned as a factor contributing to income inequality?",
+					"options": [
+						"Technological advancements",
+						"Globalization",
+						"Differences in access to quality education",
+						"A lack of interest in high-paying jobs"
+					],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "What is a potential social consequence of high income inequality mentioned in the text?",
+					"options": [
+						"Increased social cohesion.",
+						"Higher purchasing power for everyone.",
+						"Social unrest and feelings of unfairness.",
+						"A decrease in the need for education."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "How can income inequality hinder overall economic growth?",
+					"options": [
+						"By increasing the demand for luxury goods.",
+						"By reducing the number of highly skilled workers.",
+						"By limiting the purchasing power of a large part of the population.",
+						"By making education more accessible."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What kind of approach does the passage suggest for addressing income inequality?",
+					"options": [
+						"A single, simple solution.",
+						"Ignoring the problem until it resolves itself.",
+						"A multi-faceted approach including education, taxation, and social safety nets.",
+						"Focusing solely on technological advancements."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The passage implies that economic growth in Vietnam has:",
+					"options": [
+						"only benefited the poorest people.",
+						"created more jobs for everyone equally.",
+						"helped many out of poverty but also potentially widened the income gap.",
+						"had no impact on income distribution."
+					],
+					"correctIndex": 2
+				}
+			]
+		},
+		{
+			"title": "Unpacking the Psychology of Decision-Making",
+			"description": "This lesson explores how we make decisions and introduces common cognitive biases, while practicing understanding the author's purpose.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Understanding Author's Purpose",
+						"content": "The author's purpose is the reason why they wrote the text. Common purposes include to inform (provide facts), to persuade (convince the reader of a viewpoint), to entertain (tell a story), or to explain (describe a process or concept). Recognizing this helps you understand the text's overall goal."
+					},
+					{
+						"type": "example",
+						"heading": "Identifying Purpose",
+						"content": "If a text uses statistics and expert quotes to argue for stricter environmental laws, its purpose is likely to persuade. If it simply describes the life cycle of a butterfly, its purpose is to inform or explain."
+					},
+					{
+						"type": "tip",
+						"heading": "Consider the Tone and Content",
+						"content": "To determine the author's purpose, pay attention to the language used (objective vs. emotional), the types of information presented (facts vs. opinions), and the overall structure. Is the author trying to teach you something, change your mind, or simply share an experience?"
+					}
+				]
+			},
+			"passage": {
+				"title": "The Hidden Influences on Our Choices",
+				"content": "Every day, from choosing what to eat for breakfast to making significant career decisions, we engage in a complex process of decision-making. While we often believe our choices are purely rational, psychology reveals that numerous factors, including emotions, past experiences, and cognitive biases, subtly influence us. Understanding these hidden influences can help us make better choices.\n\nOne common cognitive bias is 'confirmation bias,' where we tend to seek out and interpret information in a way that confirms our existing beliefs. For example, if you believe a certain brand of phone is the best, you might only notice reviews that praise it and ignore negative ones. Another is 'anchoring bias,' where we rely too heavily on the first piece of information offered (the 'anchor') when making decisions. This is often seen in pricing, where an initial high price makes a slightly lower price seem more reasonable.\n\nOur emotions also play a crucial role. Stress or anxiety can lead to impulsive decisions, while a positive mood might encourage more optimistic, but not always realistic, choices. Furthermore, the fear of missing out (FOMO), a common feeling among young people in Vietnam, can drive decisions to participate in social events or purchase trending items, even if they don't truly align with personal needs.\n\nTo improve decision-making, it's helpful to be aware of these biases. Actively seeking diverse perspectives, taking time to reflect, and considering the long-term consequences can lead to more informed and rational outcomes. By understanding the psychology behind our choices, we gain greater control over our lives.",
+				"wordCount": 294,
+				"topic": "The Psychology of Decision-Making"
+			},
+			"questions": [
+				{
+					"stemText": "What is the primary purpose of this passage?",
+					"options": [
+						"To persuade readers to always follow their emotions when making decisions.",
+						"To entertain readers with stories about bad decisions.",
+						"To inform readers about the psychological factors and biases that influence decision-making.",
+						"To criticize people for making irrational choices."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "According to the passage, what do we often believe about our choices?",
+					"options": [
+						"They are always influenced by others.",
+						"They are purely rational.",
+						"They are always impulsive.",
+						"They are never affected by emotions."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'subtly' in paragraph 1 most closely means:",
+					"options": ["obviously", "strongly", "in a delicate or indirect way", "rarely"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Which bias involves relying too much on the first piece of information received?",
+					"options": ["Confirmation bias", "Anchoring bias", "Emotional bias", "FOMO"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "How can stress or anxiety affect decision-making?",
+					"options": [
+						"They lead to more rational choices.",
+						"They encourage more optimistic decisions.",
+						"They can lead to impulsive decisions.",
+						"They have no impact on choices."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is FOMO, as described in the passage?",
+					"options": [
+						"A desire to make rational financial decisions.",
+						"A fear of making mistakes.",
+						"The fear of missing out, driving participation in social events or purchases.",
+						"A preference for traditional items over trending ones."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is one tip given to improve decision-making?",
+					"options": [
+						"Always trust your first instinct.",
+						"Avoid seeking diverse perspectives.",
+						"Actively seek diverse perspectives and reflect on consequences.",
+						"Make decisions as quickly as possible."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The passage suggests that understanding cognitive biases can lead to:",
+					"options": [
+						"less control over our lives.",
+						"more impulsive decisions.",
+						"more informed and rational outcomes.",
+						"a complete elimination of all biases."
+					],
+					"correctIndex": 2
+				}
+			]
+		},
+		{
+			"title": "Youth Engagement in Politics: Beyond the Ballot Box",
+			"description": "This lesson explores how young people participate in politics and helps learners practice skimming a text for general understanding.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Skimming for General Understanding",
+						"content": "Skimming means reading quickly to get the main idea and overall sense of a text, without focusing on every detail. It's useful when you need to decide if a text is relevant or to get a quick overview before a more detailed reading."
+					},
+					{
+						"type": "example",
+						"heading": "How to Skim Effectively",
+						"content": "When skimming, read the title, headings, subheadings, the first and last sentences of paragraphs, and any highlighted words. Don't read every word; let your eyes glide over the text, picking out key phrases and ideas."
+					},
+					{
+						"type": "tip",
+						"heading": "Focus on Keywords",
+						"content": "As you skim, look for keywords related to the topic. These words often appear in topic sentences or are repeated throughout the text, giving you clues about the main points without needing to read every supporting detail."
+					}
+				]
+			},
+			"passage": {
+				"title": "Young Voices: Redefining Political Participation",
+				"content": "Traditionally, political participation has often been associated with voting in elections. However, for young people today, especially in countries like Vietnam, engagement in political and social issues extends far beyond the ballot box. While formal political structures are important, a new generation is finding diverse and innovative ways to make their voices heard and influence change.\n\nSocial media platforms have become powerful tools for youth activism. Young people use platforms like Facebook, Zalo, and TikTok to raise awareness about issues they care about, from environmental protection to social justice. They organize online campaigns, share information, and mobilize peers for offline actions, demonstrating a collective power that transcends geographical boundaries. This digital engagement allows for rapid dissemination of ideas and fosters a sense of community among like-minded individuals.\n\nBeyond the digital realm, young people are also actively involved in community service and volunteer work. Participating in local clean-up drives, mentoring programs, or advocating for better public services are all forms of civic engagement that contribute to the well-being of society. These actions, though not always directly 'political' in the traditional sense, reflect a deep commitment to improving their communities and addressing societal challenges.\n\nFurthermore, many young people engage in 'lifestyle politics,' making conscious choices about what they consume, where they work, and how they live, based on their values. Supporting ethical brands, advocating for sustainable practices, or choosing careers that align with social impact are all ways they express their political views. This broader understanding of political participation highlights the diverse and evolving ways young people are shaping the future.",
+				"wordCount": 295,
+				"topic": "Political Participation of Young People"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main idea of the passage?",
+					"options": [
+						"Young people are no longer interested in politics.",
+						"Voting is the only effective way for young people to participate politically.",
+						"Young people are engaging in diverse and innovative forms of political and social participation beyond traditional voting.",
+						"Social media is the only platform for youth activism."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "According to the passage, what is a traditional view of political participation?",
+					"options": [
+						"Community service.",
+						"Voting in elections.",
+						"Social media campaigns.",
+						"Lifestyle choices."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'dissemination' in paragraph 2 most closely means:",
+					"options": ["collection", "suppression", "spreading or distribution", "storage"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "How do young people use social media for activism?",
+					"options": [
+						"Only for entertainment.",
+						"To ignore social issues.",
+						"To raise awareness, organize campaigns, and mobilize peers.",
+						"To criticize traditional political systems without offering solutions."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Which of the following is an example of 'civic engagement' mentioned in the text?",
+					"options": [
+						"Watching TV news.",
+						"Playing video games.",
+						"Participating in local clean-up drives.",
+						"Ignoring community problems."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is 'lifestyle politics'?",
+					"options": [
+						"Only caring about personal comfort.",
+						"Making consumption and life choices based on personal values and political views.",
+						"Avoiding all political discussions.",
+						"Participating only in formal elections."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The passage suggests that young people's political participation is:",
+					"options": [
+						"decreasing over time.",
+						"limited to a few specific issues.",
+						"evolving and becoming more diverse.",
+						"only effective through traditional channels."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is a benefit of digital engagement for youth activism?",
+					"options": [
+						"It limits participation to a small group.",
+						"It slows down the spread of ideas.",
+						"It allows for rapid dissemination of ideas and fosters community.",
+						"It replaces the need for any offline action."
+					],
+					"correctIndex": 2
+				}
+			]
+		},
+		{
+			"title": "Media's Role in a Thriving Democracy",
+			"description": "This lesson explores the crucial functions of media in a democratic society and helps learners practice distinguishing facts from opinions.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Distinguishing Fact from Opinion",
+						"content": "A fact is a statement that can be proven true or false with evidence. An opinion is a personal belief, judgment, or feeling that cannot be proven. In reading, it's important to differentiate between them to critically evaluate information."
+					},
+					{
+						"type": "example",
+						"heading": "Fact vs. Opinion",
+						"content": "Fact: 'The Earth revolves around the Sun.' (Can be proven). Opinion: 'Blue is the most beautiful color.' (A personal preference). Look for verifiable information versus subjective statements."
+					},
+					{
+						"type": "tip",
+						"heading": "Watch for Signal Words",
+						"content": "Opinions often use words like 'I believe,' 'I think,' 'in my opinion,' 'should,' 'ought to,' 'best,' 'worst,' 'good,' 'bad,' 'beautiful,' 'ugly.' Facts, on the other hand, are usually presented with objective language and can be supported by data, statistics, or expert consensus."
+					}
+				]
+			},
+			"passage": {
+				"title": "The Fourth Estate: Media's Power in Democracy",
+				"content": "In a democratic society, a free and independent media is often referred to as the 'fourth estate,' playing a vital role in informing citizens and holding power accountable. Its primary function is to provide accurate and unbiased information, enabling the public to make informed decisions about their leaders and policies. Without reliable news, a democracy cannot truly flourish.\n\nOne key role of the media is acting as a watchdog. Journalists investigate government actions, expose corruption, and bring important issues to public attention. This scrutiny helps prevent abuses of power and ensures transparency. For example, investigative reports in Vietnam have often shed light on local environmental issues or public service shortcomings, prompting official responses and improvements.\n\nHowever, the media landscape is not without its challenges. The rise of social media and the 24-hour news cycle have led to an explosion of information, making it harder for individuals to discern credible sources from misinformation or 'fake news.' Media bias, whether intentional or unintentional, also poses a threat to objective reporting. Economic pressures can also influence editorial decisions, potentially compromising journalistic integrity.\n\nDespite these challenges, a robust media remains indispensable for a healthy democracy. Media literacy, the ability to critically evaluate information, is more important than ever. By supporting independent journalism and fostering critical thinking skills among citizens, societies can ensure that the media continues to fulfill its essential role in upholding democratic values.",
+				"wordCount": 279,
+				"topic": "The Role of Media in Democracy"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main idea of the passage?",
+					"options": [
+						"The media is always biased and cannot be trusted.",
+						"Social media has completely replaced traditional journalism.",
+						"A free and independent media is crucial for democracy, despite facing significant challenges.",
+						"Governments should control all media outlets to ensure accuracy."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "According to the passage, what is the primary function of media in a democracy?",
+					"options": [
+						"To entertain the public.",
+						"To provide accurate and unbiased information for informed decision-making.",
+						"To promote government policies.",
+						"To spread misinformation."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'scrutiny' in paragraph 2 most closely means:",
+					"options": ["neglect", "careful and close examination", "quick glance", "approval"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What does the passage refer to as the 'fourth estate'?",
+					"options": [
+						"The government.",
+						"The public.",
+						"A free and independent media.",
+						"Social media platforms."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Which of the following is mentioned as a challenge facing the media today?",
+					"options": [
+						"A decrease in the amount of available information.",
+						"The ease of discerning credible sources from misinformation.",
+						"The rise of social media and 'fake news'.",
+						"A complete lack of media bias."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is 'media literacy'?",
+					"options": [
+						"The ability to create news content.",
+						"The ability to ignore all news.",
+						"The ability to critically evaluate information.",
+						"The ability to memorize news headlines."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The passage implies that without reliable news:",
+					"options": [
+						"democracy will become stronger.",
+						"citizens will make better decisions.",
+						"a democracy cannot truly flourish.",
+						"governments will become more transparent."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What example is given of media acting as a watchdog in Vietnam?",
+					"options": [
+						"Reports on international fashion trends.",
+						"Investigative reports on local environmental issues or public service shortcomings.",
+						"Stories about celebrity gossip.",
+						"Advertisements for new products."
+					],
+					"correctIndex": 1
+				}
+			]
+		},
+		{
+			"title": "Breakthroughs in Modern Medicine",
+			"description": "This lesson explores recent scientific advances in medicine and helps learners practice understanding cause and effect relationships in a text.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Understanding Cause and Effect",
+						"content": "Cause and effect is a relationship where one event (the cause) makes another event happen (the effect). Identifying these relationships helps you understand how different parts of a text are connected and why things happen."
+					},
+					{
+						"type": "example",
+						"heading": "Identifying Cause and Effect",
+						"content": "If a text states, 'Heavy rain caused the river to flood,' the heavy rain is the cause, and the river flooding is the effect. Look for actions and their direct consequences."
+					},
+					{
+						"type": "tip",
+						"heading": "Look for Signal Words",
+						"content": "Words and phrases like 'because,' 'since,' 'as a result,' 'consequently,' 'therefore,' 'due to,' 'leads to,' 'impacts,' 'affects,' and 'if...then' often indicate a cause-and-effect relationship. These words help you trace the chain of events."
+					}
+				]
+			},
+			"passage": {
+				"title": "Revolutionizing Health: Scientific Advances in Medicine",
+				"content": "The 21st century has witnessed an unprecedented acceleration in scientific advances, particularly in the field of medicine. These breakthroughs are not only extending lifespans but also dramatically improving the quality of life for millions worldwide. From personalized medicine to gene therapy, the landscape of healthcare is being fundamentally reshaped.\n\nOne significant area of progress is personalized medicine, which tailors medical treatment to each patient's individual genetic makeup. This approach allows doctors to prescribe the most effective drugs and dosages, minimizing side effects and maximizing treatment success. For example, in cancer treatment, genetic testing can identify specific mutations, leading to targeted therapies that are far more effective than traditional chemotherapy for certain patients.\n\nAnother groundbreaking development is gene therapy, which involves modifying a patient's genes to treat or prevent disease. This technology holds immense promise for curing genetic disorders that were once considered untreatable, such as cystic fibrosis or certain inherited blindness conditions. While still in its early stages for many applications, initial successes have been remarkable, offering hope for future generations.\n\nFurthermore, advances in vaccine technology, exemplified by the rapid development of COVID-19 vaccines, have demonstrated humanity's capacity to combat global health threats effectively. These scientific leaps are driven by sophisticated research, advanced computing, and international collaboration. As a result, diseases that once posed insurmountable challenges are now becoming manageable, paving the way for a healthier future.",
+				"wordCount": 278,
+				"topic": "Scientific Advances in Medicine"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main topic of this passage?",
+					"options": [
+						"The history of medicine.",
+						"The challenges of medical research.",
+						"Recent scientific advances and their impact on medicine.",
+						"The cost of healthcare worldwide."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is the effect of personalized medicine, according to the passage?",
+					"options": [
+						"It makes all treatments the same for everyone.",
+						"It leads to more side effects for patients.",
+						"It allows doctors to tailor treatment to individual genetic makeup, maximizing success and minimizing side effects.",
+						"It makes genetic testing unnecessary."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The word 'unprecedented' in paragraph 1 most closely means:",
+					"options": ["common", "never done or known before", "slow", "unimportant"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is gene therapy primarily designed to do?",
+					"options": [
+						"Develop new surgical techniques.",
+						"Modify a patient's genes to treat or prevent disease.",
+						"Create artificial organs.",
+						"Improve mental health through counseling."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is an example of a disease that gene therapy holds promise for curing?",
+					"options": ["The common cold.", "Cystic fibrosis.", "Broken bones.", "Influenza."],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What drove the rapid development of COVID-19 vaccines?",
+					"options": [
+						"A lack of scientific research.",
+						"Sophisticated research, advanced computing, and international collaboration.",
+						"Traditional medical practices only.",
+						"Accidental discoveries."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The passage implies that scientific advances in medicine are leading to:",
+					"options": [
+						"a decrease in global health.",
+						"more difficult challenges in treating diseases.",
+						"a healthier future where many diseases are manageable.",
+						"a stagnation in medical research."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "How does genetic testing help in cancer treatment, as mentioned in the text?",
+					"options": [
+						"It replaces the need for any treatment.",
+						"It identifies specific mutations, leading to more effective targeted therapies.",
+						"It makes all cancer treatments equally effective.",
+						"It only works for very rare types of cancer."
+					],
+					"correctIndex": 1
+				}
+			]
+		},
+		{
+			"title": "Literature as a Catalyst for Change",
+			"description": "This lesson explores how literature influences social change and helps learners practice making inferences about the author's message.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Making Inferences about Author's Message",
+						"content": "Beyond the explicit statements, authors often convey deeper messages or implications. Inferring the author's message means understanding the underlying point or belief they are trying to communicate, even if it's not directly stated. It requires careful consideration of the text's overall tone, examples, and arguments."
+					},
+					{
+						"type": "example",
+						"heading": "Drawing Conclusions from Clues",
+						"content": "If an author describes a character who overcomes great hardship through perseverance, the implicit message might be about the importance of resilience. The author doesn't say 'resilience is important,' but the story demonstrates it."
+					},
+					{
+						"type": "tip",
+						"heading": "Synthesize Information",
+						"content": "To infer the author's message, look at the big picture. What is the overall impression you get? What recurring themes or ideas emerge? How do the examples and arguments presented contribute to a larger point? Connect these pieces to form a coherent understanding of the author's underlying purpose."
+					}
+				]
+			},
+			"passage": {
+				"title": "Words That Move Worlds: Literature and Social Change",
+				"content": "Literature, in its myriad forms—novels, poems, plays, and essays—has long served as more than just entertainment. It acts as a powerful mirror reflecting society, a voice challenging injustice, and a catalyst inspiring social change. Throughout history, writers have used their craft to shed light on societal issues, provoke thought, and even ignite revolutions.\n\nOne of literature's key functions is to foster empathy. By allowing readers to step into the shoes of diverse characters and experience different perspectives, literature can break down prejudices and build understanding. For instance, a novel depicting the struggles of a marginalized community can make readers more aware of their plight, potentially leading to greater compassion and advocacy for change. This is particularly relevant in a diverse country like Vietnam, where stories can bridge cultural divides.\n\nFurthermore, literature often challenges the status quo. Authors can critique political systems, social norms, or economic inequalities through their narratives, offering alternative visions or exposing uncomfortable truths. Think of how classic Vietnamese literature, like Nguyễn Du's 'The Tale of Kiều,' subtly commented on societal injustices and the fate of women in its time, prompting reflection among its readers.\n\nBeyond reflection, literature can directly inspire action. Harriet Beecher Stowe's 'Uncle Tom's Cabin' is famously credited with fueling the abolitionist movement in the United States. While not every book sparks a movement, the ideas and emotions evoked by powerful narratives can shape public opinion, encourage dialogue, and ultimately contribute to the slow but steady march of social progress. Literature reminds us that words truly have the power to move worlds.",
+				"wordCount": 296,
+				"topic": "Literature and Social Change"
+			},
+			"questions": [
+				{
+					"stemText": "What is the central argument of the passage?",
+					"options": [
+						"Literature is primarily for entertainment.",
+						"Literature has no real impact on society.",
+						"Literature serves as a powerful tool for reflecting society, challenging injustice, and inspiring social change.",
+						"Only political essays can bring about social change."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "According to the passage, how does literature foster empathy?",
+					"options": [
+						"By only presenting one viewpoint.",
+						"By allowing readers to experience diverse perspectives through characters.",
+						"By providing factual reports on social issues.",
+						"By encouraging readers to ignore others' feelings."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'myriad' in paragraph 1 most closely means:",
+					"options": ["limited", "few", "a very great number of", "unimportant"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What does the passage say literature can do regarding the status quo?",
+					"options": [
+						"Always uphold it.",
+						"Completely ignore it.",
+						"Critique political systems, social norms, or economic inequalities.",
+						"Only praise existing conditions."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is an example of Vietnamese literature mentioned that commented on societal injustices?",
+					"options": [
+						"A modern romance novel.",
+						"Nguyễn Du's 'The Tale of Kiều'.",
+						"A scientific textbook.",
+						"A travel guide to Vietnam."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "How did 'Uncle Tom's Cabin' impact society?",
+					"options": [
+						"It had no significant impact.",
+						"It fueled the abolitionist movement in the United States.",
+						"It discouraged social change.",
+						"It was a purely entertaining story."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The passage implies that social progress is often:",
+					"options": [
+						"rapid and immediate.",
+						"unaffected by literature.",
+						"a slow but steady process influenced by ideas and dialogue.",
+						"only achieved through violent revolution."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is the ultimate power attributed to words in the final sentence?",
+					"options": [
+						"To confuse readers.",
+						"To move worlds and shape public opinion.",
+						"To only reflect current events.",
+						"To be forgotten quickly."
+					],
+					"correctIndex": 1
+				}
+			]
+		},
+		{
+			"title": "Businesses and the Environment: A Shared Responsibility",
+			"description": "This lesson explores the concept of corporate responsibility towards the environment and helps learners practice identifying the main idea of a text.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Revisiting the Main Idea",
+						"content": "The main idea is the central message or argument of a text. It's what the author wants you to understand most. It can be explicitly stated or implied, and often encapsulates the entire passage's focus."
+					},
+					{
+						"type": "example",
+						"heading": "Locating the Core Message",
+						"content": "If a passage discusses various ways companies are reducing waste, the main idea isn't just 'companies are changing' but 'companies are adopting sustainable practices to minimize environmental impact.' Look for the overarching point."
+					},
+					{
+						"type": "tip",
+						"heading": "Check the Introduction and Conclusion",
+						"content": "Authors often introduce their main idea in the opening paragraph and reiterate or summarize it in the conclusion. Reading these sections carefully can quickly reveal the core message, even before delving into the supporting details."
+					}
+				]
+			},
+			"passage": {
+				"title": "Green Business: Corporate Responsibility for Our Planet",
+				"content": "In an era of increasing environmental awareness, the concept of corporate responsibility towards the environment has moved from a niche concern to a mainstream expectation. Businesses are no longer solely judged on their profits but also on their ecological footprint. This shift reflects a growing understanding that a healthy planet is essential for long-term economic stability and societal well-being.\n\nMany companies are now actively adopting 'green' practices. This includes reducing waste through recycling and efficient production processes, minimizing energy consumption by investing in renewable sources, and implementing sustainable sourcing for raw materials. For example, a garment factory in Vietnam might switch to organic cotton or use water-saving dyeing techniques, not only to comply with regulations but also to appeal to environmentally conscious consumers.\n\nConsumer pressure plays a significant role in driving this change. Customers, especially younger generations, are increasingly willing to support brands that demonstrate a genuine commitment to sustainability. This market demand incentivizes companies to innovate and invest in eco-friendly solutions, transforming environmental protection into a competitive advantage rather than just a cost.\n\nHowever, challenges remain. 'Greenwashing,' where companies make misleading claims about their environmental efforts, is a concern. Ensuring genuine commitment requires transparency, independent auditing, and clear regulations. Ultimately, corporate responsibility for the environment is a shared journey, demanding collaboration between businesses, consumers, and governments to build a truly sustainable future.",
+				"wordCount": 277,
+				"topic": "Corporate Responsibility and the Environment"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main idea of the passage?",
+					"options": [
+						"Businesses are only concerned with making profits.",
+						"Environmental awareness is a new trend that will soon pass.",
+						"Corporate responsibility for the environment is a growing expectation, driven by consumer pressure and leading to the adoption of green practices, despite challenges like greenwashing.",
+						"Governments should solely be responsible for environmental protection."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What does the passage state is a new basis for judging businesses?",
+					"options": [
+						"Only their financial profits.",
+						"Their ecological footprint, in addition to profits.",
+						"Their marketing strategies.",
+						"The number of employees they have."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'niche' in paragraph 1 most closely means:",
+					"options": ["broad", "common", "specialized or small-scale", "unimportant"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Which of the following is an example of a 'green' practice mentioned?",
+					"options": [
+						"Increasing waste production.",
+						"Using more non-renewable energy.",
+						"Implementing sustainable sourcing for raw materials.",
+						"Ignoring consumer feedback."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "How do consumers influence corporate environmental responsibility?",
+					"options": [
+						"By ignoring environmental issues.",
+						"By demanding lower prices regardless of environmental impact.",
+						"By supporting brands committed to sustainability, creating market demand for eco-friendly solutions.",
+						"By only buying products from companies that greenwash."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is 'greenwashing'?",
+					"options": [
+						"A genuine commitment to environmental protection.",
+						"Companies making misleading claims about their environmental efforts.",
+						"A process of cleaning industrial waste.",
+						"Investing heavily in renewable energy."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The passage suggests that a healthy planet is important for:",
+					"options": [
+						"short-term profits only.",
+						"long-term economic stability and societal well-being.",
+						"only environmental activists.",
+						"reducing competition among businesses."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is needed to ensure genuine corporate commitment to the environment?",
+					"options": [
+						"Less consumer pressure.",
+						"More greenwashing.",
+						"Transparency, independent auditing, and clear regulations.",
+						"Ignoring environmental regulations."
+					],
+					"correctIndex": 2
+				}
+			]
+		},
+		{
+			"title": "The Dynamics of Urban Life: Growth and Growing Pains",
+			"description": "This lesson explores the phenomenon of urbanization, its benefits and challenges, and helps learners practice scanning for specific information.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Scanning for Specific Information",
+						"content": "Scanning is a reading technique used to find specific pieces of information quickly, such as names, dates, numbers, or particular facts. Unlike skimming, where you get a general idea, scanning involves looking for a particular detail."
+					},
+					{
+						"type": "example",
+						"heading": "How to Scan",
+						"content": "If you're looking for a specific year, let your eyes quickly move across the text, focusing only on numbers. If you're searching for a name, look for capitalized words. Don't read every word; just search for the target information."
+					},
+					{
+						"type": "tip",
+						"heading": "Identify Keywords First",
+						"content": "Before you start scanning, identify the keywords related to the information you're looking for. For example, if you need to find out 'who invented the telephone,' your keywords would be 'who,' 'invented,' and 'telephone.' This helps your eyes quickly spot relevant sections."
+					}
+				]
+			},
+			"passage": {
+				"title": "City Life: The Promises and Pressures of Urbanization",
+				"content": "Urbanization, the process of populations shifting from rural areas to cities, is a global phenomenon that has profoundly reshaped societies. In Vietnam, major cities like Ho Chi Minh City and Hanoi have experienced rapid growth, attracting millions seeking better opportunities. This movement is driven by the promise of economic advancement, access to superior education, healthcare, and a wider range of cultural activities.\n\nCities act as economic engines, concentrating industries, services, and innovation. They offer diverse job markets, from technology startups to manufacturing, providing pathways for upward mobility. The vibrant social scene, with its cafes, entertainment venues, and cultural events, also draws young people looking for dynamic lifestyles. These benefits contribute to the allure of urban centers.\n\nHowever, rapid urbanization also brings significant challenges. One major issue is infrastructure strain. Growing populations put immense pressure on public services like transportation, leading to severe traffic congestion, and on utilities such as water and electricity. Housing becomes more expensive and less accessible, often resulting in informal settlements or overcrowded living conditions.\n\nEnvironmental degradation is another critical concern. Increased population density and industrial activity contribute to air and water pollution, impacting public health. Waste management systems struggle to cope with the sheer volume of refuse. Addressing these challenges requires careful urban planning, investment in sustainable infrastructure, and policies that promote balanced regional development. Only through proactive measures can cities remain vibrant and livable spaces for all their inhabitants.",
+				"wordCount": 288,
+				"topic": "Urbanization and Its Challenges"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main topic discussed in the passage?",
+					"options": [
+						"The history of Ho Chi Minh City.",
+						"The benefits of rural living.",
+						"The causes, benefits, and challenges of urbanization.",
+						"The importance of cultural activities in cities."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Which two Vietnamese cities are mentioned as examples of rapid growth due to urbanization?",
+					"options": [
+						"Da Nang and Hue.",
+						"Can Tho and Hai Phong.",
+						"Ho Chi Minh City and Hanoi.",
+						"Nha Trang and Da Lat."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The word 'allure' in paragraph 2 most closely means:",
+					"options": ["repulsion", "attraction or charm", "difficulty", "boredom"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is one promise of economic advancement offered by cities?",
+					"options": [
+						"Limited job markets.",
+						"Diverse job markets and opportunities for upward mobility.",
+						"A decrease in innovation.",
+						"A lack of services."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is a major challenge of rapid urbanization related to public services?",
+					"options": [
+						"An abundance of available housing.",
+						"Reduced traffic congestion.",
+						"Infrastructure strain, leading to issues like traffic congestion and pressure on utilities.",
+						"Improved air quality."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What environmental issue is directly linked to increased population density and industrial activity in cities?",
+					"options": [
+						"Decreased waste production.",
+						"Improved water quality.",
+						"Air and water pollution.",
+						"Expansion of green spaces."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The passage suggests that addressing the challenges of urbanization requires:",
+					"options": [
+						"ignoring the problems.",
+						"stopping all urban growth.",
+						"careful urban planning, sustainable infrastructure, and balanced regional development policies.",
+						"only focusing on economic growth."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What drives the movement of populations from rural areas to cities?",
+					"options": [
+						"Lack of job opportunities in cities.",
+						"The promise of better education, healthcare, and economic advancement.",
+						"A desire for a quieter lifestyle.",
+						"Reduced access to cultural activities."
+					],
+					"correctIndex": 1
+				}
+			]
+		},
+		{
+			"title": "Work in the Digital Age: Adapting to Change",
+			"description": "This lesson explores how technology is transforming the world of work and helps learners practice understanding vocabulary in context.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Understanding Vocabulary in Context",
+						"content": "Understanding the meaning of unfamiliar words is crucial for comprehension. Often, you don't need a dictionary; the surrounding words, sentences, and overall topic of the passage provide enough clues to infer the meaning of a new word."
+					},
+					{
+						"type": "example",
+						"heading": "Using Context Clues",
+						"content": "If a sentence says, 'The ancient manuscript was so fragile that it crumbled at the slightest touch,' you can infer that 'fragile' means easily broken or delicate, because it 'crumbled at the slightest touch.'"
+					},
+					{
+						"type": "tip",
+						"heading": "Look for Synonyms, Antonyms, and Explanations",
+						"content": "Context clues can take many forms: a synonym might be used nearby, an antonym might be presented with a contrast word like 'but,' or the word might be directly defined or explained in the sentence or following sentences. Pay attention to these relationships."
+					}
+				]
+			},
+			"passage": {
+				"title": "The Evolving Workplace: Navigating the Digital Future",
+				"content": "The digital age is fundamentally reshaping the world of work, bringing both unprecedented opportunities and significant challenges. Automation, powered by Artificial Intelligence (AI) and robotics, is transforming industries, leading to increased efficiency but also raising concerns about job displacement. Many routine tasks are now being taken over by machines, prompting a shift in demand towards roles requiring uniquely human skills.\n\nRemote work, once a niche concept, has become a mainstream reality for millions, accelerated by global events. This flexibility offers benefits like reduced commuting time and improved work-life balance, but also demands new skills in self-discipline and digital collaboration. Companies are adapting by investing in virtual communication tools and rethinking traditional office spaces.\n\nThe skills required for future success are also evolving. Critical thinking, creativity, problem-solving, and emotional intelligence are becoming more valuable than ever. Lifelong learning is no longer an option but a necessity, as individuals must continuously update their capabilities to remain relevant in a rapidly changing job market. Educational institutions in Vietnam are already emphasizing these '21st-century skills' to prepare students.\n\nUltimately, the future of work is not about humans being replaced by machines, but rather about a new partnership between them. Success will depend on our ability to adapt, embrace new technologies, and cultivate skills that complement AI, rather than compete directly with it. This dynamic transformation calls for proactive strategies from individuals, educators, and policymakers alike.",
+				"wordCount": 289,
+				"topic": "The Future of Work in the Digital Age"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main subject of this passage?",
+					"options": [
+						"The history of robotics.",
+						"The impact of the digital age on the future of work and required skills.",
+						"The benefits of traditional office work.",
+						"The decline of all human jobs due to AI."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'unprecedented' in paragraph 1 most closely means:",
+					"options": ["common", "never done or known before", "limited", "slow"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is one concern raised by automation in the workplace?",
+					"options": [
+						"Increased job creation.",
+						"Improved work-life balance.",
+						"Job displacement for routine tasks.",
+						"Reduced efficiency."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The word 'niche' in paragraph 2 most closely means:",
+					"options": ["widespread", "common", "specialized or small-scale", "unimportant"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What are some benefits of remote work mentioned in the passage?",
+					"options": [
+						"Increased commuting time and isolation.",
+						"Reduced commuting time and improved work-life balance.",
+						"Less need for self-discipline.",
+						"A decrease in digital collaboration."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Which of the following is NOT listed as a valuable skill for future success?",
+					"options": [
+						"Critical thinking.",
+						"Creativity.",
+						"Repetitive manual labor.",
+						"Emotional intelligence."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The passage states that lifelong learning is now a 'necessity' because:",
+					"options": [
+						"people are living longer.",
+						"the job market is rapidly changing, requiring continuous skill updates.",
+						"education is becoming cheaper.",
+						"AI can learn everything for us."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is the ultimate vision for the future of work, according to the text?",
+					"options": [
+						"Humans being completely replaced by machines.",
+						"A new partnership between humans and machines.",
+						"A return to traditional, manual labor.",
+						"A future with no need for human skills."
+					],
+					"correctIndex": 1
+				}
+			]
+		},
+		{
+			"title": "The Quest for Happiness: Philosophical Views",
+			"description": "This lesson explores different philosophical perspectives on happiness and helps learners practice making inferences from a text.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Refining Inference Skills",
+						"content": "Inference involves drawing conclusions based on evidence and reasoning, even when the information isn't directly stated. It's about understanding the implied meaning. This skill is crucial for deeper comprehension, allowing you to grasp nuances and underlying messages."
+					},
+					{
+						"type": "example",
+						"heading": "Connecting the Dots",
+						"content": "If a passage describes a character who always helps others, volunteers regularly, and feels content, you can infer that helping others contributes to their happiness, even if the text doesn't explicitly say 'helping others makes them happy.'"
+					},
+					{
+						"type": "tip",
+						"heading": "Test Your Inferences",
+						"content": "After making an inference, ask yourself: 'What evidence in the text supports this conclusion?' If you can't find specific textual support, your inference might be a guess rather than a reasoned conclusion. Good inferences are always grounded in the text."
+					}
+				]
+			},
+			"passage": {
+				"title": "What Makes Us Happy? A Philosophical Journey",
+				"content": "The pursuit of happiness is a universal human endeavor, yet what constitutes happiness has been a subject of philosophical debate for millennia. Different schools of thought offer distinct perspectives, shaping how societies and individuals approach well-being. Understanding these views can provide valuable insights into our own quest for a fulfilling life.\n\nAncient Greek philosophers, like Epicurus, proposed 'hedonism,' suggesting that happiness is primarily achieved through pleasure and the absence of pain. This isn't about excessive indulgence, but rather finding tranquility and contentment through simple joys and avoiding suffering. In contrast, Aristotle introduced 'eudaimonia,' often translated as 'flourishing' or 'living well.' For Aristotle, true happiness comes from living a virtuous life, fulfilling one's potential, and contributing to the community, rather than merely seeking pleasure.\n\nIn modern times, the focus often shifts to subjective well-being, influenced by factors like personal satisfaction, positive emotions, and a sense of purpose. Many contemporary thinkers emphasize the importance of relationships, meaningful work, and personal growth. In Vietnamese culture, happiness is often deeply intertwined with family harmony, respect for elders, and contributing to the collective good, reflecting a more communal perspective.\n\nUltimately, there is no single, universally accepted definition of happiness. The philosophical journey reveals that it's a complex, multifaceted concept, influenced by individual values, cultural context, and personal experiences. By exploring these diverse perspectives, we can cultivate a richer understanding of what truly brings meaning and joy to our lives.",
+				"wordCount": 287,
+				"topic": "Philosophical Perspectives on Happiness"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main purpose of this passage?",
+					"options": [
+						"To argue that hedonism is the best path to happiness.",
+						"To describe the history of ancient Greek philosophy.",
+						"To explore various philosophical and cultural perspectives on happiness.",
+						"To provide a definitive guide to achieving happiness."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "According to Epicurus, what is the primary way to achieve happiness?",
+					"options": [
+						"Through excessive indulgence.",
+						"Through pleasure and the absence of pain, focusing on tranquility and simple joys.",
+						"Through living a virtuous life.",
+						"Through accumulating wealth."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'endeavor' in paragraph 1 most closely means:",
+					"options": ["failure", "easy task", "an effort or attempt to achieve something", "a distraction"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "How does Aristotle define 'eudaimonia'?",
+					"options": [
+						"As seeking maximum pleasure.",
+						"As flourishing or living well through a virtuous life and contributing to the community.",
+						"As avoiding all forms of suffering.",
+						"As achieving personal fame."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is a key aspect of happiness in Vietnamese culture, as mentioned in the passage?",
+					"options": [
+						"Individualistic achievement.",
+						"Family harmony and contributing to the collective good.",
+						"Constant pursuit of material wealth.",
+						"Ignoring traditional values."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The passage implies that modern perspectives on happiness emphasize:",
+					"options": [
+						"only external factors like wealth.",
+						"subjective well-being, relationships, meaningful work, and personal growth.",
+						"a return to ancient Greek philosophies exclusively.",
+						"a complete rejection of pleasure."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What does the passage conclude about the definition of happiness?",
+					"options": [
+						"It is universally agreed upon.",
+						"It is a simple, straightforward concept.",
+						"It is a complex, multifaceted concept influenced by individual and cultural factors.",
+						"It is irrelevant in modern society."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What can understanding diverse philosophical perspectives on happiness help us do?",
+					"options": [
+						"Become more confused about happiness.",
+						"Reject all previous ideas about happiness.",
+						"Cultivate a richer understanding of what brings meaning and joy to our lives.",
+						"Force our own definition of happiness on others."
+					],
+					"correctIndex": 2
+				}
+			]
+		},
+		{
+			"title": "Language: The Fabric of Identity",
+			"description": "This lesson explores the profound connection between language and identity and helps learners practice identifying the main idea of a text.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Revisiting the Main Idea",
+						"content": "The main idea is the central message or argument of a text. It's what the author wants you to understand most. It can be explicitly stated or implied, and often encapsulates the entire passage's focus."
+					},
+					{
+						"type": "example",
+						"heading": "Locating the Core Message",
+						"content": "If a passage discusses various ways companies are reducing waste, the main idea isn't just 'companies are changing' but 'companies are adopting sustainable practices to minimize environmental impact.' Look for the overarching point."
+					},
+					{
+						"type": "tip",
+						"heading": "Check the Introduction and Conclusion",
+						"content": "Authors often introduce their main idea in the opening paragraph and reiterate or summarize it in the conclusion. Reading these sections carefully can quickly reveal the core message, even before delving into the supporting details."
+					}
+				]
+			},
+			"passage": {
+				"title": "More Than Words: Language, Culture, and Self",
+				"content": "Language is far more than just a tool for communication; it is a fundamental pillar of identity, deeply intertwined with culture, heritage, and a sense of self. The words we speak, the grammar we use, and the nuances of our expressions shape how we perceive the world and how the world perceives us. For many, especially in a country with a rich linguistic history like Vietnam, language is a direct link to their ancestors and collective memory.\n\nOur mother tongue, the language learned from birth, plays a crucial role in forming our initial understanding of reality and our emotional landscape. It carries cultural values, traditions, and ways of thinking. For example, the Vietnamese language, with its intricate system of honorifics, reflects a deep cultural emphasis on respect for elders and social hierarchy. Losing one's mother tongue can often feel like losing a part of one's heritage or identity.\n\nBilingualism and multilingualism further highlight the connection between language and identity. Individuals who speak multiple languages often report feeling different or expressing different aspects of their personality depending on the language they are using. Each language can open up a new cultural lens, broadening one's perspective and enriching their sense of self.\n\nConversely, the preservation of minority languages is vital for maintaining cultural diversity. When a language dies, a unique way of understanding the world, along with its stories, songs, and traditions, is lost forever. Recognizing language as a core component of identity underscores the importance of linguistic diversity and the continuous effort to nurture and protect the languages that define us.",
+				"wordCount": 286,
+				"topic": "Language and Identity"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main idea of the passage?",
+					"options": [
+						"Language is only a tool for basic communication.",
+						"Bilingualism is detrimental to one's identity.",
+						"Language is a fundamental pillar of identity, deeply intertwined with culture, heritage, and self, and its preservation is crucial.",
+						"Only ancient languages are important for identity."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "According to the passage, what does our mother tongue help form?",
+					"options": [
+						"Only our ability to write.",
+						"Our initial understanding of reality and our emotional landscape.",
+						"Our preference for foreign languages.",
+						"Our disinterest in cultural values."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'nuances' in paragraph 1 most closely means:",
+					"options": [
+						"obvious differences",
+						"subtle distinctions or shades of meaning",
+						"mistakes",
+						"loud expressions"
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "How does the Vietnamese language reflect cultural values, as an example?",
+					"options": [
+						"By having very simple grammar.",
+						"By its intricate system of honorifics, showing respect for elders and hierarchy.",
+						"By lacking emotional expressions.",
+						"By being difficult to learn."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What do individuals who speak multiple languages often report?",
+					"options": [
+						"Feeling the same regardless of the language.",
+						"Feeling different or expressing different aspects of their personality depending on the language.",
+						"A decrease in their cultural understanding.",
+						"A loss of their primary identity."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What happens when a language dies, according to the text?",
+					"options": [
+						"It has no significant impact.",
+						"A unique way of understanding the world, with its stories and traditions, is lost.",
+						"New languages are immediately created.",
+						"Only a few words are forgotten."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The passage emphasizes the importance of:",
+					"options": [
+						"reducing the number of languages spoken.",
+						"ignoring linguistic diversity.",
+						"linguistic diversity and the continuous effort to protect languages.",
+						"only focusing on global languages."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is one consequence of losing one's mother tongue?",
+					"options": [
+						"It enhances one's cultural connection.",
+						"It often feels like losing a part of one's heritage or identity.",
+						"It makes communication easier.",
+						"It has no emotional impact."
+					],
+					"correctIndex": 1
+				}
+			]
+		},
+		{
+			"title": "Understanding Human Choices: An Introduction to Behavioral Economics",
+			"description": "This lesson introduces the field of behavioral economics and helps learners practice identifying supporting details in a text.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Identifying Supporting Details",
+						"content": "Supporting details are facts, examples, statistics, or reasons that elaborate on, prove, or explain the main idea of a paragraph or text. They provide the evidence that makes the main idea believable and understandable."
+					},
+					{
+						"type": "example",
+						"heading": "Finding Specific Information",
+						"content": "If the main idea is 'Exercise has many health benefits,' supporting details might include 'it strengthens your heart,' 'it improves mood,' and 'it helps manage weight.' These specific points back up the general statement."
+					},
+					{
+						"type": "tip",
+						"heading": "Look for Keywords and Examples",
+						"content": "When searching for supporting details, look for signal words like 'for example,' 'for instance,' 'in addition,' 'also,' 'first,' 'second,' or specific names, dates, and numbers. These often introduce the evidence that supports a broader claim."
+					}
+				]
+			},
+			"passage": {
+				"title": "Beyond Rationality: The Insights of Behavioral Economics",
+				"content": "Traditional economics often assumes that people are rational actors who always make decisions to maximize their self-interest. However, the emerging field of behavioral economics challenges this assumption by integrating insights from psychology. It reveals that human decision-making is frequently influenced by emotions, cognitive biases, and social factors, leading to choices that are not always perfectly logical.\n\nOne key concept in behavioral economics is 'framing.' This refers to how information is presented, which can significantly affect our choices. For instance, a medical treatment described as having a '90% survival rate' sounds much more appealing than one with a '10% mortality rate,' even though both statements convey the same statistical information. The way the information is framed influences our perception of risk and benefit.\n\nAnother important idea is 'anchoring bias,' where individuals tend to rely too heavily on the first piece of information they receive when making subsequent judgments. In a market setting, an initial high price for a product can make a slightly lower, but still expensive, price seem like a good deal. This bias is often exploited in sales and negotiations.\n\nBehavioral economics also explores 'nudges' – subtle interventions that guide people towards better decisions without restricting their freedom of choice. For example, placing healthy food options at eye level in a cafeteria can 'nudge' people to choose them more often. By understanding these psychological principles, policymakers and businesses can design environments that encourage more beneficial outcomes for individuals and society, from saving for retirement to making healthier lifestyle choices.",
+				"wordCount": 298,
+				"topic": "Behavioral Economics"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main focus of behavioral economics?",
+					"options": [
+						"To prove that all human decisions are perfectly rational.",
+						"To explain how psychology influences economic decision-making, challenging traditional economic assumptions.",
+						"To promote traditional economic theories.",
+						"To study only the stock market."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What does traditional economics often assume about people?",
+					"options": [
+						"They are always emotional.",
+						"They are rational actors who maximize self-interest.",
+						"They are easily influenced by advertising.",
+						"They never make logical choices."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'subsequent' in paragraph 3 most closely means:",
+					"options": ["previous", "following or coming after", "unimportant", "simultaneous"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is 'framing' in behavioral economics?",
+					"options": [
+						"The process of creating art.",
+						"How information is presented, which can affect choices.",
+						"A type of financial investment.",
+						"The act of making a decision quickly."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "How does 'anchoring bias' work in a market setting?",
+					"options": [
+						"It makes people ignore prices.",
+						"An initial high price makes a slightly lower price seem like a good deal.",
+						"It encourages people to buy the cheapest item.",
+						"It prevents people from making any purchases."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What are 'nudges'?",
+					"options": [
+						"Direct commands that force people to act.",
+						"Subtle interventions that guide people towards better decisions without restricting freedom of choice.",
+						"Complex economic policies.",
+						"Random suggestions with no real impact."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is an example of a 'nudge' mentioned in the passage?",
+					"options": [
+						"Forcing people to buy healthy food.",
+						"Placing healthy food options at eye level in a cafeteria.",
+						"Removing all unhealthy food options.",
+						"Lecturing people about nutrition."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The passage implies that understanding behavioral economics can help policymakers and businesses to:",
+					"options": [
+						"manipulate people unfairly.",
+						"design environments that encourage beneficial outcomes.",
+						"make people less rational.",
+						"ignore human psychology."
+					],
+					"correctIndex": 1
+				}
+			]
+		},
+		{
+			"title": "The Road Ahead: Challenges for Renewable Energy",
+			"description": "This lesson explores the obstacles facing the widespread adoption of renewable energy and helps learners practice understanding cause and effect relationships.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Understanding Cause and Effect",
+						"content": "Cause and effect is a relationship where one event (the cause) makes another event happen (the effect). Identifying these relationships helps you understand how different parts of a text are connected and why things happen."
+					},
+					{
+						"type": "example",
+						"heading": "Identifying Cause and Effect",
+						"content": "If a text states, 'Heavy rain caused the river to flood,' the heavy rain is the cause, and the river flooding is the effect. Look for actions and their direct consequences."
+					},
+					{
+						"type": "tip",
+						"heading": "Look for Signal Words",
+						"content": "Words and phrases like 'because,' 'since,' 'as a result,' 'consequently,' 'therefore,' 'due to,' 'leads to,' 'impacts,' 'affects,' and 'if...then' often indicate a cause-and-effect relationship. These words help you trace the chain of events."
+					}
+				]
+			},
+			"passage": {
+				"title": "Powering the Future: Overcoming Renewable Energy Hurdles",
+				"content": "The global shift towards renewable energy sources like solar, wind, and hydropower is crucial for combating climate change and ensuring a sustainable future. Countries like Vietnam are investing heavily in these technologies to reduce reliance on fossil fuels. While the benefits are clear—reduced emissions, energy independence, and job creation—the transition is not without its significant challenges.\n\nOne primary challenge is intermittency. Solar panels only generate electricity when the sun shines, and wind turbines only when the wind blows. This variability makes it difficult to provide a consistent power supply, leading to grid instability. Consequently, developing efficient and affordable energy storage solutions, such as advanced batteries, is paramount to overcoming this issue.\n\nAnother hurdle is infrastructure. Integrating large-scale renewable energy projects into existing grids often requires substantial upgrades and new transmission lines. The initial capital investment for these projects can be immense, posing a financial barrier, especially for developing nations. Permitting processes and land acquisition for large solar farms or wind parks also present logistical complexities.\n\nFurthermore, the manufacturing of renewable energy components, such as solar panels and wind turbine blades, can have its own environmental footprint, including the use of rare earth minerals and disposal challenges. Addressing these issues requires innovation in materials science and responsible supply chain management. Ultimately, overcoming these multifaceted challenges demands sustained political will, technological innovation, and international cooperation to accelerate the global energy transition.",
+				"wordCount": 279,
+				"topic": "Renewable Energy Challenges"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main topic of this passage?",
+					"options": [
+						"The benefits of fossil fuels.",
+						"The history of renewable energy.",
+						"The challenges and solutions for the widespread adoption of renewable energy.",
+						"The process of building solar panels."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is a primary challenge of renewable energy due to its variable nature?",
+					"options": [
+						"It is too cheap to implement.",
+						"It causes grid instability due to intermittency (solar only when sun shines, wind only when wind blows).",
+						"It requires no infrastructure upgrades.",
+						"It produces too much consistent power."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'intermittency' in paragraph 2 most closely means:",
+					"options": [
+						"constancy",
+						"regularity",
+						"the quality of being irregular or stopping and starting",
+						"predictability"
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is a consequence of intermittency in renewable energy?",
+					"options": [
+						"Increased energy independence.",
+						"Reduced emissions.",
+						"Difficulty in providing a consistent power supply and grid instability.",
+						"Lower initial capital investment."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is one infrastructure challenge for renewable energy projects?",
+					"options": [
+						"They require no new transmission lines.",
+						"The initial capital investment can be immense, and existing grids need substantial upgrades.",
+						"They are always easy to integrate into existing systems.",
+						"Land acquisition is never an issue."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What environmental footprint can the manufacturing of renewable energy components have?",
+					"options": [
+						"It has no environmental impact.",
+						"It only uses easily available materials.",
+						"It can involve the use of rare earth minerals and disposal challenges.",
+						"It always leads to zero waste."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The passage states that overcoming these challenges requires:",
+					"options": [
+						"ignoring political will.",
+						"less technological innovation.",
+						"sustained political will, technological innovation, and international cooperation.",
+						"only individual efforts."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Why are countries like Vietnam investing in renewable energy?",
+					"options": [
+						"To increase reliance on fossil fuels.",
+						"To combat climate change and reduce reliance on fossil fuels.",
+						"To create more challenges for their energy grids.",
+						"To avoid international cooperation."
+					],
+					"correctIndex": 1
+				}
+			]
+		},
+		{
+			"title": "Achieving Balance: Gender Equality in the Workplace",
+			"description": "This lesson explores the challenges and benefits of gender equality in the workplace and helps learners practice distinguishing facts from opinions.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Distinguishing Fact from Opinion",
+						"content": "A fact is a statement that can be proven true or false with evidence. An opinion is a personal belief, judgment, or feeling that cannot be proven. In reading, it's important to differentiate between them to critically evaluate information."
+					},
+					{
+						"type": "example",
+						"heading": "Fact vs. Opinion",
+						"content": "Fact: 'The Earth revolves around the Sun.' (Can be proven). Opinion: 'Blue is the most beautiful color.' (A personal preference). Look for verifiable information versus subjective statements."
+					},
+					{
+						"type": "tip",
+						"heading": "Watch for Signal Words",
+						"content": "Opinions often use words like 'I believe,' 'I think,' 'in my opinion,' 'should,' 'ought to,' 'best,' 'worst,' 'good,' 'bad,' 'beautiful,' 'ugly.' Facts, on the other hand, are usually presented with objective language and can be supported by data, statistics, or expert consensus."
+					}
+				]
+			},
+			"passage": {
+				"title": "Breaking Barriers: The Case for Gender Equality at Work",
+				"content": "Gender equality in the workplace is not merely a matter of fairness; it is a fundamental driver of economic growth and societal progress. While significant strides have been made globally, including in Vietnam where women play an increasingly vital role in the economy, persistent challenges remain. Addressing these issues is crucial for unlocking the full potential of the workforce.\n\nOne common challenge is the gender pay gap, where women often earn less than men for performing the same work or work of equal value. This disparity is often compounded by the 'glass ceiling,' an invisible barrier that prevents women from reaching senior leadership positions. Traditional gender roles and unconscious biases can also contribute to these inequalities, affecting hiring, promotion, and development opportunities.\n\nHowever, the benefits of gender equality are clear. Companies with diverse leadership teams, including a significant representation of women, often report higher profitability, increased innovation, and better decision-making. A diverse workforce brings a wider range of perspectives and experiences, leading to more creative problem-solving and a stronger organizational culture. Furthermore, promoting equality improves employee morale and retention across the board.\n\nAchieving true gender equality requires a multi-faceted approach. This includes implementing transparent pay structures, offering flexible work arrangements, providing mentorship and sponsorship programs for women, and actively challenging unconscious biases through training. By fostering inclusive environments, workplaces can become more equitable, productive, and ultimately, more successful for everyone.",
+				"wordCount": 288,
+				"topic": "Gender Equality in the Workplace"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main argument of the passage?",
+					"options": [
+						"Gender equality is an outdated concept.",
+						"Gender equality in the workplace is essential for economic growth and societal progress, despite ongoing challenges, and brings clear benefits to companies.",
+						"Women are naturally better leaders than men.",
+						"The gender pay gap does not exist."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is the 'gender pay gap'?",
+					"options": [
+						"Men earning less than women for the same work.",
+						"Women earning less than men for the same work or work of equal value.",
+						"Equal pay for all employees.",
+						"A difference in pay based on experience only."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'compounded' in paragraph 2 most closely means:",
+					"options": ["simplified", "reduced", "made worse or more intense", "separated"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is the 'glass ceiling'?",
+					"options": [
+						"A visible barrier that helps women reach leadership.",
+						"An invisible barrier preventing women from reaching senior leadership positions.",
+						"A transparent office design.",
+						"A type of career development program."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is one benefit of gender equality for companies?",
+					"options": [
+						"Lower profitability.",
+						"Decreased innovation.",
+						"Higher profitability, increased innovation, and better decision-making.",
+						"A narrower range of perspectives."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Which of the following is NOT suggested as a way to achieve gender equality?",
+					"options": [
+						"Implementing transparent pay structures.",
+						"Ignoring unconscious biases.",
+						"Offering flexible work arrangements.",
+						"Providing mentorship programs for women."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The passage implies that women in Vietnam are:",
+					"options": [
+						"not involved in the economy.",
+						"facing no challenges in the workplace.",
+						"playing an increasingly vital role in the economy.",
+						"only working in traditional roles."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What does a diverse workforce bring to a company?",
+					"options": [
+						"Limited perspectives.",
+						"A wider range of perspectives and experiences, leading to creative problem-solving.",
+						"Less employee morale.",
+						"Stagnation in decision-making."
+					],
+					"correctIndex": 1
+				}
+			]
+		},
+		{
+			"title": "Global Movement: Understanding International Migration",
+			"description": "This lesson examines the patterns and impacts of international migration and helps learners practice skimming a text for general understanding.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Skimming for General Understanding",
+						"content": "Skimming means reading quickly to get the main idea and overall sense of a text, without focusing on every detail. It's useful when you need to decide if a text is relevant or to get a quick overview before a more detailed reading."
+					},
+					{
+						"type": "example",
+						"heading": "How to Skim Effectively",
+						"content": "When skimming, read the title, headings, subheadings, the first and last sentences of paragraphs, and any highlighted words. Don't read every word; let your eyes glide over the text, picking out key phrases and ideas."
+					},
+					{
+						"type": "tip",
+						"heading": "Focus on Keywords",
+						"content": "As you skim, look for keywords related to the topic. These words often appear in topic sentences or are repeated throughout the text, giving you clues about the main points without needing to read every supporting detail."
+					}
+				]
+			},
+			"passage": {
+				"title": "Crossing Borders: The Dynamics of International Migration",
+				"content": "International migration, the movement of people across national borders, is a defining feature of the modern world. Millions choose to leave their home countries each year, driven by a complex interplay of 'push' and 'pull' factors. Understanding these patterns is crucial for both sending and receiving nations, including Vietnam, which experiences both emigration and immigration.\n\nEconomic opportunities are often the strongest 'pull' factor. Individuals seek better jobs, higher wages, and improved living standards in more prosperous countries. Conversely, 'push' factors include lack of employment, poverty, or limited prospects in their home countries. For example, many Vietnamese citizens migrate abroad for work, sending remittances back home, which significantly contribute to the national economy.\n\nBeyond economics, political instability, conflict, and persecution are powerful 'push' factors, forcing people to seek asylum or refuge elsewhere. Environmental changes, such as natural disasters or climate-induced resource scarcity, are also increasingly contributing to migration flows. Access to better education and healthcare systems in destination countries can also act as strong 'pull' factors.\n\nMigration has profound impacts on both host and home countries. Receiving countries benefit from a younger workforce, diverse skills, and cultural enrichment, though they may also face challenges related to integration and public services. Sending countries, while losing skilled labor, gain from remittances and the return of migrants with new skills and perspectives. Managing international migration effectively requires comprehensive policies that balance economic needs, humanitarian concerns, and social integration.",
+				"wordCount": 294,
+				"topic": "International Migration Patterns"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main topic of the passage?",
+					"options": [
+						"The history of global trade.",
+						"The causes, patterns, and impacts of international migration.",
+						"The challenges of living in a new country.",
+						"The economic benefits of staying in one's home country."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What are 'push' and 'pull' factors in migration?",
+					"options": [
+						"Types of transportation.",
+						"Factors that encourage people to stay or leave a country.",
+						"Economic policies of different nations.",
+						"The forces of gravity affecting travel."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'remittances' in paragraph 2 most closely means:",
+					"options": [
+						"debts",
+						"goods sent abroad",
+						"money sent by migrants to their home countries",
+						"taxes paid by immigrants"
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is an example of an economic 'pull' factor for migration?",
+					"options": [
+						"Lack of employment in the home country.",
+						"Better jobs, higher wages, and improved living standards in prosperous countries.",
+						"Political instability.",
+						"Natural disasters."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Which of the following is NOT mentioned as a 'push' factor?",
+					"options": [
+						"Political instability.",
+						"Conflict.",
+						"Access to better education in destination countries.",
+						"Environmental changes."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is one benefit for receiving countries from migration?",
+					"options": [
+						"Loss of skilled labor.",
+						"A younger workforce, diverse skills, and cultural enrichment.",
+						"Increased public service strain.",
+						"A decrease in economic growth."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The passage implies that Vietnam:",
+					"options": [
+						"only experiences immigration.",
+						"is unaffected by international migration.",
+						"experiences both emigration (people leaving) and immigration (people entering).",
+						"has no economic ties to migrants abroad."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What is needed to manage international migration effectively?",
+					"options": [
+						"Ignoring humanitarian concerns.",
+						"Restricting all movement across borders.",
+						"Comprehensive policies balancing economic needs, humanitarian concerns, and social integration.",
+						"Focusing solely on economic benefits."
+					],
+					"correctIndex": 2
+				}
+			]
+		},
+		{
+			"title": "Art's Powerful Voice: Commentary on Society",
+			"description": "This lesson explores how art functions as social commentary and helps learners practice understanding the author's purpose.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Understanding Author's Purpose",
+						"content": "The author's purpose is the reason why they wrote the text. Common purposes include to inform (provide facts), to persuade (convince the reader of a viewpoint), to entertain (tell a story), or to explain (describe a process or concept). Recognizing this helps you understand the text's overall goal."
+					},
+					{
+						"type": "example",
+						"heading": "Identifying Purpose",
+						"content": "If a text uses statistics and expert quotes to argue for stricter environmental laws, its purpose is likely to persuade. If it simply describes the life cycle of a butterfly, its purpose is to inform or explain."
+					},
+					{
+						"type": "tip",
+						"heading": "Consider the Tone and Content",
+						"content": "To determine the author's purpose, pay attention to the language used (objective vs. emotional), the types of information presented (facts vs. opinions), and the overall structure. Is the author trying to teach you something, change your mind, or simply share an experience?"
+					}
+				]
+			},
+			"passage": {
+				"title": "Beyond Aesthetics: Art as a Mirror and a Megaphone",
+				"content": "Art, in its diverse forms—painting, sculpture, music, film, and literature—has always been more than just a source of beauty or entertainment. It serves as a potent form of social commentary, reflecting the times, challenging norms, and giving voice to the voiceless. Artists often act as keen observers of society, using their creative expression to highlight issues, provoke thought, and inspire change.\n\nOne of art's primary roles is to hold a mirror up to society, revealing its truths, flaws, and aspirations. A painting might capture the harsh realities of poverty, a song might express the collective hopes of a generation, or a film might expose political corruption. For example, contemporary Vietnamese artists often explore themes of urbanization, tradition versus modernity, or the impact of economic development on daily life, offering unique perspectives on societal shifts.\n\nFurthermore, art can challenge the status quo and spark dialogue. By presenting alternative viewpoints or depicting uncomfortable truths, artists can force audiences to confront issues they might otherwise ignore. This can be seen in protest songs that rally movements or satirical cartoons that critique political figures. Such art often pushes boundaries, initiating conversations that lead to greater awareness and, eventually, social reform.\n\nArt's power lies in its ability to evoke emotion and connect with people on a deeper level than mere facts or statistics. It transcends language barriers and cultural divides, making complex social issues accessible and relatable. Ultimately, art as social commentary is a testament to humanity's capacity for self-reflection and its ongoing quest for a more just and equitable world.",
+				"wordCount": 290,
+				"topic": "Art as Social Commentary"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main purpose of this passage?",
+					"options": [
+						"To argue that art should only be beautiful.",
+						"To inform readers about the various forms of art.",
+						"To explain and illustrate how art functions as a powerful form of social commentary.",
+						"To persuade artists to focus only on political themes."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "According to the passage, what is one of art's primary roles?",
+					"options": [
+						"To hide societal flaws.",
+						"To hold a mirror up to society, revealing its truths, flaws, and aspirations.",
+						"To only provide entertainment.",
+						"To avoid controversial topics."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'potent' in paragraph 1 most closely means:",
+					"options": ["weak", "ineffective", "powerful or influential", "unimportant"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What themes do contemporary Vietnamese artists often explore, as an example?",
+					"options": [
+						"Only ancient history.",
+						"Urbanization, tradition versus modernity, or the impact of economic development.",
+						"Abstract concepts with no social relevance.",
+						"Foreign political issues exclusively."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "How can art challenge the status quo?",
+					"options": [
+						"By always agreeing with existing norms.",
+						"By presenting alternative viewpoints or depicting uncomfortable truths, sparking dialogue.",
+						"By being purely decorative.",
+						"By avoiding any social issues."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is one way art connects with people on a deeper level?",
+					"options": [
+						"By only presenting facts.",
+						"By evoking emotion and transcending language barriers.",
+						"By being difficult to understand.",
+						"By only appealing to a small, elite audience."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The passage implies that artists often act as:",
+					"options": [
+						"passive observers of society.",
+						"critics and catalysts for change.",
+						"pure entertainers.",
+						"people who avoid social issues."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is the ultimate message about art as social commentary?",
+					"options": [
+						"It is a waste of time.",
+						"It is a testament to humanity's capacity for self-reflection and quest for a more just world.",
+						"It is only relevant in certain cultures.",
+						"It should be censored by authorities."
+					],
+					"correctIndex": 1
+				}
+			]
+		},
+		{
+			"title": "Unlocking the Brain: The Neuroscience of Learning",
+			"description": "This lesson explores how the brain learns and forms memories, and helps learners practice understanding vocabulary in context.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Understanding Vocabulary in Context",
+						"content": "Understanding the meaning of unfamiliar words is crucial for comprehension. Often, you don't need a dictionary; the surrounding words, sentences, and overall topic of the passage provide enough clues to infer the meaning of a new word."
+					},
+					{
+						"type": "example",
+						"heading": "Using Context Clues",
+						"content": "If a sentence says, 'The ancient manuscript was so fragile that it crumbled at the slightest touch,' you can infer that 'fragile' means easily broken or delicate, because it 'crumbled at the slightest touch.'"
+					},
+					{
+						"type": "tip",
+						"heading": "Look for Synonyms, Antonyms, and Explanations",
+						"content": "Context clues can take many forms: a synonym might be used nearby, an antonym might be presented with a contrast word like 'but,' or the word might be directly defined or explained in the sentence or following sentences. Pay attention to these relationships."
+					}
+				]
+			},
+			"passage": {
+				"title": "The Learning Brain: Insights from Neuroscience",
+				"content": "The human brain is an extraordinary organ, constantly adapting and reorganizing itself in response to new experiences. The field of neuroscience is rapidly unraveling the mysteries of how we learn, remember, and acquire new skills. Understanding these biological processes can revolutionize educational practices and help individuals, from young students in Vietnam to adult learners, optimize their learning potential.\n\nAt the core of learning is 'neuroplasticity,' the brain's ability to change and form new neural connections throughout life. Every time we learn something new, whether it's a language or a complex math concept, our brain physically reorganizes itself. This means that learning is not just about accumulating facts, but about actively rewiring our brains. This understanding challenges the old belief that intelligence is fixed.\n\nMemory formation is another critical aspect. When we encounter new information, it's initially stored in short-term memory. For it to transfer to long-term memory, processes like repetition, active recall (testing ourselves), and connecting new information to existing knowledge are essential. Sleep also plays a vital role in consolidating memories, making adequate rest crucial for effective learning.\n\nFurthermore, emotions significantly impact learning. Positive emotions can enhance memory and motivation, while stress and anxiety can hinder cognitive function. Creating a supportive and engaging learning environment is therefore paramount. By applying insights from neuroscience, educators can design more effective curricula and teaching methods, empowering learners to harness their brain's incredible capacity for growth and knowledge acquisition.",
+				"wordCount": 296,
+				"topic": "The Neuroscience of Learning"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main subject of this passage?",
+					"options": [
+						"The history of education.",
+						"The structure of the human brain.",
+						"The insights from neuroscience about how the brain learns, remembers, and acquires skills.",
+						"The importance of sleep for adults only."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The word 'unraveling' in paragraph 1 most closely means:",
+					"options": ["complicating", "solving or making clear", "hiding", "ignoring"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What is 'neuroplasticity'?",
+					"options": [
+						"The brain's inability to change.",
+						"The brain's ability to change and form new neural connections throughout life.",
+						"A type of brain disease.",
+						"The process of forgetting information."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What does the concept of neuroplasticity challenge?",
+					"options": [
+						"The idea that learning is possible.",
+						"The old belief that intelligence is fixed.",
+						"The importance of memory.",
+						"The need for education."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Which of the following is NOT mentioned as essential for transferring information to long-term memory?",
+					"options": [
+						"Repetition.",
+						"Active recall (testing ourselves).",
+						"Connecting new information to existing knowledge.",
+						"Avoiding sleep."
+					],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "What role does sleep play in memory formation?",
+					"options": [
+						"It hinders memory consolidation.",
+						"It is irrelevant to memory.",
+						"It plays a vital role in consolidating memories.",
+						"It only affects short-term memory."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "How do emotions impact learning?",
+					"options": [
+						"Positive emotions can enhance memory and motivation, while stress can hinder cognitive function.",
+						"Emotions have no impact on learning.",
+						"Only negative emotions affect learning.",
+						"Emotions only affect physical activity."
+					],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The passage suggests that applying neuroscience insights can help educators to:",
+					"options": [
+						"make learning more difficult.",
+						"design more effective curricula and teaching methods.",
+						"ignore individual learning styles.",
+						"reduce the brain's capacity for growth."
+					],
+					"correctIndex": 1
+				}
+			]
+		},
+		{
+			"title": "Addressing Global Health Challenges Together",
+			"description": "This lesson explores the nature of global health crises and the importance of international cooperation, while practicing identifying the main idea.",
+			"estimatedMinutes": 30,
+			"theoryContent": {
+				"sections": [
+					{
+						"type": "rule",
+						"heading": "Revisiting the Main Idea",
+						"content": "The main idea is the central message or argument of a text. It's what the author wants you to understand most. It can be explicitly stated or implied, and often encapsulates the entire passage's focus."
+					},
+					{
+						"type": "example",
+						"heading": "Locating the Core Message",
+						"content": "If a passage discusses various ways companies are reducing waste, the main idea isn't just 'companies are changing' but 'companies are adopting sustainable practices to minimize environmental impact.' Look for the overarching point."
+					},
+					{
+						"type": "tip",
+						"heading": "Check the Introduction and Conclusion",
+						"content": "Authors often introduce their main idea in the opening paragraph and reiterate or summarize it in the conclusion. Reading these sections carefully can quickly reveal the core message, even before delving into the supporting details."
+					}
+				]
+			},
+			"passage": {
+				"title": "Interconnected Health: Navigating Global Crises",
+				"content": "Global health crises, from infectious disease pandemics to the silent burden of non-communicable diseases, represent some of humanity's most pressing challenges. In an increasingly interconnected world, a health threat in one region can rapidly become a global concern, as vividly demonstrated by the COVID-19 pandemic. Addressing these complex issues requires more than national efforts; it demands robust international cooperation and shared responsibility.\n\nInfectious diseases, like influenza or Ebola, can spread quickly across borders, making early detection, rapid response, and equitable vaccine distribution critical. However, global health also encompasses non-communicable diseases (NCDs) such as heart disease, diabetes, and cancer, which account for a significant portion of deaths worldwide. These NCDs are often linked to lifestyle factors and require long-term prevention and management strategies.\n\nHealth disparities, the preventable differences in health outcomes among different populations, further complicate the picture. Factors like poverty, lack of access to clean water and sanitation, and inadequate healthcare infrastructure exacerbate these disparities, particularly in developing countries. For instance, remote communities in Vietnam might face greater challenges in accessing specialized medical care compared to urban centers.\n\nEffective global health governance, including strong international organizations and agreements, is essential. Sharing data, research, and resources, as well as building resilient health systems in all nations, are key strategies. Ultimately, investing in global health is an investment in global security and prosperity, underscoring the truth that no country can truly be healthy in isolation.",
+				"wordCount": 288,
+				"topic": "Global Health Crises"
+			},
+			"questions": [
+				{
+					"stemText": "What is the main idea of the passage?",
+					"options": [
+						"Global health crises are only a concern for developing countries.",
+						"Infectious diseases are the only significant global health threat.",
+						"Global health crises are complex, interconnected challenges requiring robust international cooperation and shared responsibility.",
+						"Each country should handle its health issues independently."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What does the passage state about a health threat in an interconnected world?",
+					"options": [
+						"It will always remain localized.",
+						"It can rapidly become a global concern.",
+						"It is easily ignored by other countries.",
+						"It has no impact on global security."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The word 'exacerbate' in paragraph 3 most closely means:",
+					"options": ["alleviate", "improve", "make worse or more severe", "hide"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "What are 'non-communicable diseases' (NCDs)?",
+					"options": [
+						"Diseases that spread quickly across borders.",
+						"Diseases like heart disease, diabetes, and cancer, often linked to lifestyle factors.",
+						"Diseases that only affect children.",
+						"Diseases that are easily cured with a single treatment."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "What are 'health disparities'?",
+					"options": [
+						"Equal health outcomes for all populations.",
+						"Preventable differences in health outcomes among different populations.",
+						"Differences in healthcare costs.",
+						"Variations in medical research."
+					],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Which of the following is NOT mentioned as a factor exacerbating health disparities?",
+					"options": [
+						"Poverty.",
+						"Lack of access to clean water.",
+						"Inadequate healthcare infrastructure.",
+						"Abundant access to specialized medical care in remote areas."
+					],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "What is essential for effective global health governance?",
+					"options": [
+						"Weak international organizations.",
+						"Ignoring data sharing.",
+						"Strong international organizations and agreements.",
+						"Reducing research efforts."
+					],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The passage concludes that investing in global health is an investment in:",
+					"options": [
+						"national isolation.",
+						"global security and prosperity.",
+						"more health crises.",
+						"only the health of wealthy nations."
+					],
+					"correctIndex": 1
+				}
+			]
+		}
+	]
+}

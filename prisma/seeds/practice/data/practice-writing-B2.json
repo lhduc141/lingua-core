@@ -1,0 +1,770 @@
+{
+  "skill": "writing",
+  "cefrLevel": "B2",
+  "practiceSets": [
+    {
+      "title": "Advanced Vocabulary: Business and Economics",
+      "description": "Practice using advanced vocabulary related to business and economics in context.",
+      "estimatedMinutes": 30,
+      "questions": [
+        {
+          "stemText": "The company decided to ___ its operations to a country with lower labor costs.",
+          "answerKeys": [
+            "relocate",
+            "outsource"
+          ]
+        },
+        {
+          "stemText": "Despite the economic downturn, the startup managed to ___ a significant profit.",
+          "answerKeys": [
+            "generate",
+            "yield"
+          ]
+        },
+        {
+          "stemText": "The new trade agreement aims to ___ tariffs between the two nations.",
+          "answerKeys": [
+            "reduce",
+            "lower"
+          ]
+        },
+        {
+          "stemText": "Investors are looking for opportunities to ___ their portfolios across different sectors.",
+          "answerKeys": [
+            "diversify"
+          ]
+        },
+        {
+          "stemText": "The CEO presented a detailed ___ plan for the next fiscal year.",
+          "answerKeys": [
+            "strategic",
+            "business"
+          ]
+        },
+        {
+          "stemText": "Many small businesses struggle with cash flow ___ during their initial years.",
+          "answerKeys": [
+            "management",
+            "issues"
+          ]
+        },
+        {
+          "stemText": "The government introduced incentives to ___ foreign investment.",
+          "answerKeys": [
+            "attract",
+            "encourage"
+          ]
+        },
+        {
+          "stemText": "A strong brand ___ is crucial for market recognition and customer loyalty.",
+          "answerKeys": [
+            "identity",
+            "image"
+          ]
+        },
+        {
+          "stemText": "The company announced a ___ of 10% of its workforce due to restructuring.",
+          "answerKeys": [
+            "layoff",
+            "reduction"
+          ]
+        },
+        {
+          "stemText": "To remain competitive, businesses must constantly ___ and adapt to market changes.",
+          "answerKeys": [
+            "innovate"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grammar: Complex Noun Phrases",
+      "description": "Practice forming and understanding complex noun phrases to enhance sentence structure.",
+      "estimatedMinutes": 30,
+      "questions": [
+        {
+          "stemText": "The recent discovery of a new planet, ___ by an international team of astronomers, excited the scientific community.",
+          "answerKeys": [
+            "made",
+            "announced"
+          ]
+        },
+        {
+          "stemText": "Her proposal, ___ to improve employee satisfaction, was well-received by the board.",
+          "answerKeys": [
+            "designed",
+            "intended"
+          ]
+        },
+        {
+          "stemText": "The challenge of reducing carbon emissions, ___ by many developing nations, requires global cooperation.",
+          "answerKeys": [
+            "faced",
+            "confronted"
+          ]
+        },
+        {
+          "stemText": "The book, ___ the history of modern art, offers a comprehensive overview.",
+          "answerKeys": [
+            "covering",
+            "exploring"
+          ]
+        },
+        {
+          "stemText": "The decision to invest in renewable energy, ___ by environmental concerns, proved to be a wise one.",
+          "answerKeys": [
+            "driven",
+            "motivated"
+          ]
+        },
+        {
+          "stemText": "The report, ___ the impact of social media on teenagers, highlighted several key issues.",
+          "answerKeys": [
+            "examining",
+            "detailing"
+          ]
+        },
+        {
+          "stemText": "The architect's design, ___ by ancient Roman structures, blended tradition with modernity.",
+          "answerKeys": [
+            "inspired",
+            "influenced"
+          ]
+        },
+        {
+          "stemText": "The problem of plastic pollution, ___ a serious threat to marine life, needs urgent attention.",
+          "answerKeys": [
+            "posing",
+            "representing"
+          ]
+        },
+        {
+          "stemText": "The new policy, ___ to support local businesses, received mixed reactions.",
+          "answerKeys": [
+            "aimed",
+            "intended"
+          ]
+        },
+        {
+          "stemText": "The sudden increase in online shopping, ___ by the pandemic, transformed retail.",
+          "answerKeys": [
+            "triggered",
+            "caused"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Academic Words: Social Issues",
+      "description": "Develop your academic vocabulary for discussing various social issues.",
+      "estimatedMinutes": 30,
+      "questions": [
+        {
+          "stemText": "The government is implementing policies to ___ social inequality in urban areas.",
+          "answerKeys": [
+            "address",
+            "combat"
+          ]
+        },
+        {
+          "stemText": "Access to quality education is a ___ factor in breaking the cycle of poverty.",
+          "answerKeys": [
+            "crucial",
+            "vital"
+          ]
+        },
+        {
+          "stemText": "Many countries are grappling with the ___ of an aging population.",
+          "answerKeys": [
+            "challenge",
+            "demographic"
+          ]
+        },
+        {
+          "stemText": "The report highlights the ___ impact of climate change on vulnerable communities.",
+          "answerKeys": [
+            "disproportionate",
+            "severe"
+          ]
+        },
+        {
+          "stemText": "Social media platforms can sometimes ___ the spread of misinformation.",
+          "answerKeys": [
+            "facilitate",
+            "accelerate"
+          ]
+        },
+        {
+          "stemText": "There is a growing ___ for greater transparency in political decision-making.",
+          "answerKeys": [
+            "demand",
+            "call"
+          ]
+        },
+        {
+          "stemText": "The study aimed to ___ the underlying causes of youth unemployment.",
+          "answerKeys": [
+            "investigate",
+            "explore"
+          ]
+        },
+        {
+          "stemText": "Community initiatives play a vital role in fostering social ___ and cohesion.",
+          "answerKeys": [
+            "inclusion",
+            "integration"
+          ]
+        },
+        {
+          "stemText": "Addressing the housing crisis requires a ___ approach involving multiple stakeholders.",
+          "answerKeys": [
+            "multifaceted",
+            "comprehensive"
+          ]
+        },
+        {
+          "stemText": "The ___ of digital technology has profoundly changed how people interact.",
+          "answerKeys": [
+            "proliferation",
+            "rise"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fill the Gap: Ethics and Philosophy",
+      "description": "Enhance your vocabulary related to ethical concepts and philosophical ideas.",
+      "estimatedMinutes": 30,
+      "questions": [
+        {
+          "stemText": "The ethical ___ of artificial intelligence are a subject of intense debate.",
+          "answerKeys": [
+            "implications",
+            "considerations"
+          ]
+        },
+        {
+          "stemText": "Many philosophical traditions emphasize the importance of living a virtuous ___.",
+          "answerKeys": [
+            "life",
+            "existence"
+          ]
+        },
+        {
+          "stemText": "The concept of ___ justice explores fairness in the distribution of resources.",
+          "answerKeys": [
+            "distributive",
+            "social"
+          ]
+        },
+        {
+          "stemText": "A key ethical ___ is whether the ends justify the means.",
+          "answerKeys": [
+            "dilemma",
+            "question"
+          ]
+        },
+        {
+          "stemText": "Utilitarianism suggests that the most ethical action is the one that maximizes overall ___.",
+          "answerKeys": [
+            "happiness",
+            "utility"
+          ]
+        },
+        {
+          "stemText": "Moral ___ refers to the ability to discern right from wrong and act accordingly.",
+          "answerKeys": [
+            "reasoning",
+            "judgment"
+          ]
+        },
+        {
+          "stemText": "The debate over free will versus ___ has puzzled philosophers for centuries.",
+          "answerKeys": [
+            "determinism",
+            "fate"
+          ]
+        },
+        {
+          "stemText": "Ethical frameworks provide a ___ for making difficult decisions.",
+          "answerKeys": [
+            "basis",
+            "guide"
+          ]
+        },
+        {
+          "stemText": "The principle of ___ requires treating all individuals with respect and fairness.",
+          "answerKeys": [
+            "autonomy",
+            "equality"
+          ]
+        },
+        {
+          "stemText": "Socrates famously stated that \"the unexamined ___ is not worth living.\"",
+          "answerKeys": [
+            "life"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grammar: Discourse Markers",
+      "description": "Practice using various discourse markers to connect ideas and improve coherence in writing.",
+      "estimatedMinutes": 30,
+      "questions": [
+        {
+          "stemText": "The economy is improving; ___, unemployment rates are still high.",
+          "answerKeys": [
+            "however",
+            "nevertheless"
+          ]
+        },
+        {
+          "stemText": "She failed the exam. ___, she decided to study harder for the retake.",
+          "answerKeys": [
+            "Consequently",
+            "Therefore"
+          ]
+        },
+        {
+          "stemText": "The project was challenging. ___, we managed to complete it on time.",
+          "answerKeys": [
+            "Nonetheless",
+            "Nevertheless"
+          ]
+        },
+        {
+          "stemText": "He is a talented musician; ___, he also writes poetry.",
+          "answerKeys": [
+            "furthermore",
+            "moreover"
+          ]
+        },
+        {
+          "stemText": "I don't like the cold weather. ___, I prefer to live in a warmer climate.",
+          "answerKeys": [
+            "Therefore",
+            "Consequently"
+          ]
+        },
+        {
+          "stemText": "The company needs to cut costs. ___, they are considering reducing staff benefits.",
+          "answerKeys": [
+            "For example",
+            "For instance"
+          ]
+        },
+        {
+          "stemText": "The new software is complex. ___, it offers many advanced features.",
+          "answerKeys": [
+            "On the other hand",
+            "However"
+          ]
+        },
+        {
+          "stemText": "She loves to travel. ___, she has visited over 20 countries.",
+          "answerKeys": [
+            "In fact",
+            "Indeed"
+          ]
+        },
+        {
+          "stemText": "The evidence is inconclusive. ___, more research is needed to draw a definite conclusion.",
+          "answerKeys": [
+            "Thus",
+            "Therefore"
+          ]
+        },
+        {
+          "stemText": "He was late for the meeting. ___, he missed an important announcement.",
+          "answerKeys": [
+            "As a result",
+            "Consequently"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vocabulary: Science and Research",
+      "description": "Expand your vocabulary related to scientific concepts, experiments, and research methodologies.",
+      "estimatedMinutes": 30,
+      "questions": [
+        {
+          "stemText": "Scientists are trying to ___ a cure for the disease.",
+          "answerKeys": [
+            "discover",
+            "find"
+          ]
+        },
+        {
+          "stemText": "The experiment's ___ were unexpected but significant.",
+          "answerKeys": [
+            "results",
+            "findings"
+          ]
+        },
+        {
+          "stemText": "Researchers must ___ ethical guidelines when conducting studies involving human subjects.",
+          "answerKeys": [
+            "adhere to",
+            "follow"
+          ]
+        },
+        {
+          "stemText": "The new telescope will allow astronomers to ___ distant galaxies in unprecedented detail.",
+          "answerKeys": [
+            "observe",
+            "study"
+          ]
+        },
+        {
+          "stemText": "A peer-reviewed journal ensures the ___ and reliability of scientific publications.",
+          "answerKeys": [
+            "validity",
+            "rigor"
+          ]
+        },
+        {
+          "stemText": "The hypothesis needs to be ___ through further experimentation.",
+          "answerKeys": [
+            "verified",
+            "tested"
+          ]
+        },
+        {
+          "stemText": "Genetic ___ involves altering an organism's DNA to achieve desired traits.",
+          "answerKeys": [
+            "engineering",
+            "modification"
+          ]
+        },
+        {
+          "stemText": "The data collected from the survey will be ___ to identify trends.",
+          "answerKeys": [
+            "analyzed",
+            "processed"
+          ]
+        },
+        {
+          "stemText": "This groundbreaking ___ could revolutionize the field of medicine.",
+          "answerKeys": [
+            "discovery",
+            "breakthrough"
+          ]
+        },
+        {
+          "stemText": "The scientific method relies on empirical ___ and systematic observation.",
+          "answerKeys": [
+            "evidence",
+            "data"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Words in Context: Psychology",
+      "description": "Learn and practice key psychological terms in various contexts.",
+      "estimatedMinutes": 30,
+      "questions": [
+        {
+          "stemText": "Cognitive psychology studies mental processes such as perception, memory, and ___.",
+          "answerKeys": [
+            "thought",
+            "reasoning"
+          ]
+        },
+        {
+          "stemText": "Emotional ___ refers to the ability to understand and manage one's own emotions and those of others.",
+          "answerKeys": [
+            "intelligence",
+            "awareness"
+          ]
+        },
+        {
+          "stemText": "Many psychological disorders are thought to have a ___ component.",
+          "answerKeys": [
+            "genetic",
+            "biological"
+          ]
+        },
+        {
+          "stemText": "The placebo ___ demonstrates the powerful influence of expectation on physical and mental states.",
+          "answerKeys": [
+            "effect",
+            "phenomenon"
+          ]
+        },
+        {
+          "stemText": "Behavioral therapy often focuses on modifying undesirable ___ through conditioning.",
+          "answerKeys": [
+            "behaviors",
+            "habits"
+          ]
+        },
+        {
+          "stemText": "Stress can have a significant ___ impact on both mental and physical health.",
+          "answerKeys": [
+            "detrimental",
+            "negative"
+          ]
+        },
+        {
+          "stemText": "Self-___ is a person's overall evaluation of their own worth.",
+          "answerKeys": [
+            "esteem",
+            "worth"
+          ]
+        },
+        {
+          "stemText": "The study explored how early childhood experiences ___ adult personality development.",
+          "answerKeys": [
+            "influence",
+            "shape"
+          ]
+        },
+        {
+          "stemText": "Psychologists often use various assessment tools to ___ mental health conditions.",
+          "answerKeys": [
+            "diagnose",
+            "evaluate"
+          ]
+        },
+        {
+          "stemText": "The concept of the ___ mind suggests that much of our mental activity occurs outside conscious awareness.",
+          "answerKeys": [
+            "unconscious",
+            "subconscious"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grammar: Inversion and Emphasis",
+      "description": "Practice using inversion for emphasis and dramatic effect in sentences.",
+      "estimatedMinutes": 30,
+      "questions": [
+        {
+          "stemText": "___ did I realize the true extent of the problem until I saw the data.",
+          "answerKeys": [
+            "Little",
+            "Seldom"
+          ]
+        },
+        {
+          "stemText": "___ had the meeting started than the fire alarm went off.",
+          "answerKeys": [
+            "Hardly",
+            "Scarcely"
+          ]
+        },
+        {
+          "stemText": "___ before had such a complex challenge been faced by the team.",
+          "answerKeys": [
+            "Never"
+          ]
+        },
+        {
+          "stemText": "___ did he know that his life was about to change forever.",
+          "answerKeys": [
+            "Little"
+          ]
+        },
+        {
+          "stemText": "___ until she apologized did I consider forgiving her.",
+          "answerKeys": [
+            "Not"
+          ]
+        },
+        {
+          "stemText": "___ are the economic conditions that the government is facing severe criticism.",
+          "answerKeys": [
+            "So bad",
+            "So dire"
+          ]
+        },
+        {
+          "stemText": "___ did the students realize how important the lesson was.",
+          "answerKeys": [
+            "Only later",
+            "Not until later"
+          ]
+        },
+        {
+          "stemText": "___ is the demand for the product that the company cannot keep up with orders.",
+          "answerKeys": [
+            "So high",
+            "Such"
+          ]
+        },
+        {
+          "stemText": "___ will you find such dedication and commitment.",
+          "answerKeys": [
+            "Nowhere",
+            "Rarely"
+          ]
+        },
+        {
+          "stemText": "___ did I hear a more compelling argument.",
+          "answerKeys": [
+            "Never",
+            "Rarely"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Academic Writing: Hedging Language",
+      "description": "Learn to use hedging language to express caution and nuance in academic writing.",
+      "estimatedMinutes": 30,
+      "questions": [
+        {
+          "stemText": "The results ___ suggest a correlation between the two variables, but further research is needed.",
+          "answerKeys": [
+            "may",
+            "might"
+          ]
+        },
+        {
+          "stemText": "It ___ be argued that the policy had unintended consequences.",
+          "answerKeys": [
+            "could",
+            "can"
+          ]
+        },
+        {
+          "stemText": "This study ___ to indicate that social media use affects mental well-being.",
+          "answerKeys": [
+            "appears",
+            "seems"
+          ]
+        },
+        {
+          "stemText": "The evidence ___ to support the hypothesis, but it is not conclusive.",
+          "answerKeys": [
+            "tends",
+            "seems"
+          ]
+        },
+        {
+          "stemText": "It is ___ that the increase in sales is due to the new marketing campaign.",
+          "answerKeys": [
+            "possible",
+            "likely"
+          ]
+        },
+        {
+          "stemText": "The findings ___ to be interpreted with caution due to the small sample size.",
+          "answerKeys": [
+            "need",
+            "ought"
+          ]
+        },
+        {
+          "stemText": "There ___ be a link between diet and certain chronic diseases.",
+          "answerKeys": [
+            "could",
+            "might"
+          ]
+        },
+        {
+          "stemText": "The data ___ suggest that the intervention had a positive impact.",
+          "answerKeys": [
+            "somewhat",
+            "partially"
+          ]
+        },
+        {
+          "stemText": "It ___ that the economic downturn contributed to the rise in unemployment.",
+          "answerKeys": [
+            "is plausible",
+            "seems"
+          ]
+        },
+        {
+          "stemText": "The current research ___ provide a definitive answer to the question.",
+          "answerKeys": [
+            "does not necessarily",
+            "may not"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mixed Vocabulary: B2 Review",
+      "description": "Review and practice a range of B2 level vocabulary in various contexts.",
+      "estimatedMinutes": 30,
+      "questions": [
+        {
+          "stemText": "The company aims to ___ its market share by introducing innovative products.",
+          "answerKeys": [
+            "expand",
+            "increase"
+          ]
+        },
+        {
+          "stemText": "Many people find it difficult to ___ a healthy work-life balance.",
+          "answerKeys": [
+            "maintain",
+            "achieve"
+          ]
+        },
+        {
+          "stemText": "The new policy will have a significant ___ on local businesses.",
+          "answerKeys": [
+            "impact",
+            "effect"
+          ]
+        },
+        {
+          "stemText": "It's ___ to recycle waste to protect the environment.",
+          "answerKeys": [
+            "essential",
+            "crucial"
+          ]
+        },
+        {
+          "stemText": "The team had to ___ their strategy after facing unexpected challenges.",
+          "answerKeys": [
+            "adapt",
+            "adjust"
+          ]
+        },
+        {
+          "stemText": "She has a remarkable ___ to learn new languages quickly.",
+          "answerKeys": [
+            "ability",
+            "capacity"
+          ]
+        },
+        {
+          "stemText": "The government is trying to ___ the problem of homelessness.",
+          "answerKeys": [
+            "address",
+            "tackle"
+          ]
+        },
+        {
+          "stemText": "His ___ for detail makes him an excellent researcher.",
+          "answerKeys": [
+            "attention",
+            "eye"
+          ]
+        },
+        {
+          "stemText": "The internet has ___ the way we communicate and access information.",
+          "answerKeys": [
+            "transformed",
+            "revolutionized"
+          ]
+        },
+        {
+          "stemText": "We need to find a ___ solution to the energy crisis.",
+          "answerKeys": [
+            "sustainable",
+            "long-term"
+          ]
+        }
+      ]
+    }
+  ]
+}

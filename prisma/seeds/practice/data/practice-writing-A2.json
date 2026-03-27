@@ -1,0 +1,678 @@
+{
+  "skill": "writing",
+  "cefrLevel": "A2",
+  "practiceSets": [
+    {
+      "title": "Past Simple Tense Practice",
+      "description": "Practice forming and using the Past Simple tense for regular and irregular verbs.",
+      "estimatedMinutes": 20,
+      "questions": [
+        {
+          "stemText": "Yesterday, I ___ (walk) to the park with my dog.",
+          "answerKeys": [
+            "walked"
+          ]
+        },
+        {
+          "stemText": "She ___ (visit) her grandparents last weekend.",
+          "answerKeys": [
+            "visited"
+          ]
+        },
+        {
+          "stemText": "They ___ (eat) pizza for dinner on Friday.",
+          "answerKeys": [
+            "ate"
+          ]
+        },
+        {
+          "stemText": "My brother ___ (go) to the beach yesterday morning.",
+          "answerKeys": [
+            "went"
+          ]
+        },
+        {
+          "stemText": "We ___ (watch) a funny movie on TV last night.",
+          "answerKeys": [
+            "watched"
+          ]
+        },
+        {
+          "stemText": "He ___ (buy) a new book from the store.",
+          "answerKeys": [
+            "bought"
+          ]
+        },
+        {
+          "stemText": "I ___ (finish) my homework an hour ago.",
+          "answerKeys": [
+            "finished"
+          ]
+        },
+        {
+          "stemText": "She ___ (have) a great time at the party.",
+          "answerKeys": [
+            "had"
+          ]
+        },
+        {
+          "stemText": "They ___ (see) a famous singer at the concert.",
+          "answerKeys": [
+            "saw"
+          ]
+        },
+        {
+          "stemText": "My mom ___ (cook) a delicious meal for us.",
+          "answerKeys": [
+            "cooked"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Travel and Transport Vocabulary",
+      "description": "Expand your vocabulary related to different ways of traveling and transport.",
+      "estimatedMinutes": 20,
+      "questions": [
+        {
+          "stemText": "We took a ___ to get to the small island.",
+          "answerKeys": [
+            "boat"
+          ]
+        },
+        {
+          "stemText": "I like to travel by ___ because it's very fast.",
+          "answerKeys": [
+            "plane"
+          ]
+        },
+        {
+          "stemText": "She packed her ___ with clothes for the trip.",
+          "answerKeys": [
+            "suitcase"
+          ]
+        },
+        {
+          "stemText": "We waited for the ___ at the bus stop for ten minutes.",
+          "answerKeys": [
+            "bus"
+          ]
+        },
+        {
+          "stemText": "My family went on a long ___ trip across the country last summer.",
+          "answerKeys": [
+            "road"
+          ]
+        },
+        {
+          "stemText": "You need a valid ___ to drive a car.",
+          "answerKeys": [
+            "license"
+          ]
+        },
+        {
+          "stemText": "They booked a comfortable ___ in a nice hotel.",
+          "answerKeys": [
+            "room"
+          ]
+        },
+        {
+          "stemText": "We took a guided ___ to see all the city sights.",
+          "answerKeys": [
+            "tour"
+          ]
+        },
+        {
+          "stemText": "The ___ arrived late at the station, so we waited.",
+          "answerKeys": [
+            "train"
+          ]
+        },
+        {
+          "stemText": "I need to buy a ___ for my journey to the capital city.",
+          "answerKeys": [
+            "ticket"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Health and Body Fill-in-the-Gap",
+      "description": "Practice using common words related to health and parts of the body.",
+      "estimatedMinutes": 20,
+      "questions": [
+        {
+          "stemText": "You should wash your ___ carefully before eating food.",
+          "answerKeys": [
+            "hands"
+          ]
+        },
+        {
+          "stemText": "My ___ hurts when I run too much during sports.",
+          "answerKeys": [
+            "leg"
+          ]
+        },
+        {
+          "stemText": "She has a ___ and needs to rest in bed.",
+          "answerKeys": [
+            "fever"
+          ]
+        },
+        {
+          "stemText": "It's important to drink a lot of ___ every day to stay healthy.",
+          "answerKeys": [
+            "water"
+          ]
+        },
+        {
+          "stemText": "He broke his ___ playing football last week.",
+          "answerKeys": [
+            "arm"
+          ]
+        },
+        {
+          "stemText": "I feel very ___ when I don't get enough sleep at night.",
+          "answerKeys": [
+            "tired"
+          ]
+        },
+        {
+          "stemText": "You should eat healthy ___ like fruits and vegetables.",
+          "answerKeys": [
+            "food"
+          ]
+        },
+        {
+          "stemText": "My ___ is sore from talking all day long.",
+          "answerKeys": [
+            "throat"
+          ]
+        },
+        {
+          "stemText": "She went to the ___ because she had a bad toothache.",
+          "answerKeys": [
+            "dentist"
+          ]
+        },
+        {
+          "stemText": "Regular ___ helps you stay fit and strong.",
+          "answerKeys": [
+            "exercise"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Comparatives and Superlatives Grammar",
+      "description": "Practice using comparative and superlative adjectives to compare things.",
+      "estimatedMinutes": 20,
+      "questions": [
+        {
+          "stemText": "My house is ___ (big) than yours.",
+          "answerKeys": [
+            "bigger"
+          ]
+        },
+        {
+          "stemText": "This book is the ___ (interesting) I've ever read.",
+          "answerKeys": [
+            "most interesting"
+          ]
+        },
+        {
+          "stemText": "She is ___ (tall) than her sister.",
+          "answerKeys": [
+            "taller"
+          ]
+        },
+        {
+          "stemText": "English is ___ (easy) than math for me.",
+          "answerKeys": [
+            "easier"
+          ]
+        },
+        {
+          "stemText": "Mount Everest is the ___ (high) mountain in the world.",
+          "answerKeys": [
+            "highest"
+          ]
+        },
+        {
+          "stemText": "He runs ___ (fast) than anyone else in his class.",
+          "answerKeys": [
+            "faster"
+          ]
+        },
+        {
+          "stemText": "This is the ___ (good) coffee in the entire city.",
+          "answerKeys": [
+            "best"
+          ]
+        },
+        {
+          "stemText": "Today's weather is ___ (bad) than yesterday's.",
+          "answerKeys": [
+            "worse"
+          ]
+        },
+        {
+          "stemText": "My new phone is ___ (expensive) than my old one.",
+          "answerKeys": [
+            "more expensive"
+          ]
+        },
+        {
+          "stemText": "She is the ___ (smart) student in the whole school.",
+          "answerKeys": [
+            "smartest"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Jobs Vocabulary in Context",
+      "description": "Learn and practice vocabulary related to different professions and jobs.",
+      "estimatedMinutes": 20,
+      "questions": [
+        {
+          "stemText": "A ___ helps sick people in a hospital.",
+          "answerKeys": [
+            "doctor"
+          ]
+        },
+        {
+          "stemText": "My uncle is a ___ and builds houses for a living.",
+          "answerKeys": [
+            "builder"
+          ]
+        },
+        {
+          "stemText": "She wants to be a ___ and teach children at school.",
+          "answerKeys": [
+            "teacher"
+          ]
+        },
+        {
+          "stemText": "A ___ serves food and drinks in a restaurant.",
+          "answerKeys": [
+            "waiter",
+            "waitress"
+          ]
+        },
+        {
+          "stemText": "He works as a ___ and writes articles for a newspaper.",
+          "answerKeys": [
+            "journalist"
+          ]
+        },
+        {
+          "stemText": "My sister is a ___ and designs beautiful clothes.",
+          "answerKeys": [
+            "designer"
+          ]
+        },
+        {
+          "stemText": "A ___ flies planes for an airline company.",
+          "answerKeys": [
+            "pilot"
+          ]
+        },
+        {
+          "stemText": "She wants to be an ___ and act in movies.",
+          "answerKeys": [
+            "actress"
+          ]
+        },
+        {
+          "stemText": "A ___ fixes cars when they are broken.",
+          "answerKeys": [
+            "mechanic"
+          ]
+        },
+        {
+          "stemText": "My dad is a ___ and works in an office.",
+          "answerKeys": [
+            "manager"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Future with 'going to' Grammar",
+      "description": "Practice forming sentences using 'going to' for future plans and predictions.",
+      "estimatedMinutes": 20,
+      "questions": [
+        {
+          "stemText": "I am ___ (visit) my aunt next weekend.",
+          "answerKeys": [
+            "going to visit"
+          ]
+        },
+        {
+          "stemText": "She is ___ (study) for her exam tonight.",
+          "answerKeys": [
+            "going to study"
+          ]
+        },
+        {
+          "stemText": "We are ___ (have) a party on Saturday evening.",
+          "answerKeys": [
+            "going to have"
+          ]
+        },
+        {
+          "stemText": "They are ___ (play) football after school today.",
+          "answerKeys": [
+            "going to play"
+          ]
+        },
+        {
+          "stemText": "He is ___ (buy) a new laptop soon.",
+          "answerKeys": [
+            "going to buy"
+          ]
+        },
+        {
+          "stemText": "My mom is ___ (cook) dinner later this evening.",
+          "answerKeys": [
+            "going to cook"
+          ]
+        },
+        {
+          "stemText": "I am ___ (read) this interesting book tomorrow.",
+          "answerKeys": [
+            "going to read"
+          ]
+        },
+        {
+          "stemText": "She is ___ (travel) to Hanoi next month for work.",
+          "answerKeys": [
+            "going to travel"
+          ]
+        },
+        {
+          "stemText": "We are ___ (watch) a movie at the cinema tonight.",
+          "answerKeys": [
+            "going to watch"
+          ]
+        },
+        {
+          "stemText": "He is ___ (start) a new job next week.",
+          "answerKeys": [
+            "going to start"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hobbies and Sports Vocabulary",
+      "description": "Learn and practice words related to leisure activities and sports.",
+      "estimatedMinutes": 20,
+      "questions": [
+        {
+          "stemText": "I like to ___ books in my free time.",
+          "answerKeys": [
+            "read"
+          ]
+        },
+        {
+          "stemText": "She enjoys ___ the guitar with her friends.",
+          "answerKeys": [
+            "playing"
+          ]
+        },
+        {
+          "stemText": "My favorite ___ is swimming in the ocean.",
+          "answerKeys": [
+            "sport"
+          ]
+        },
+        {
+          "stemText": "We often go ___ in the mountains on weekends.",
+          "answerKeys": [
+            "hiking"
+          ]
+        },
+        {
+          "stemText": "He likes to ___ pictures of nature and animals.",
+          "answerKeys": [
+            "take"
+          ]
+        },
+        {
+          "stemText": "They play ___ every Sunday morning at the park.",
+          "answerKeys": [
+            "football",
+            "soccer"
+          ]
+        },
+        {
+          "stemText": "My hobby is ___ new recipes in the kitchen.",
+          "answerKeys": [
+            "trying"
+          ]
+        },
+        {
+          "stemText": "She goes ___ at the gym three times a week.",
+          "answerKeys": [
+            "cycling"
+          ]
+        },
+        {
+          "stemText": "I love to ___ to music while I work or study.",
+          "answerKeys": [
+            "listen"
+          ]
+        },
+        {
+          "stemText": "He collects ___ from different countries as a hobby.",
+          "answerKeys": [
+            "stamps"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "City Life Fill-in-the-Gap",
+      "description": "Practice vocabulary related to living and activities in a city.",
+      "estimatedMinutes": 20,
+      "questions": [
+        {
+          "stemText": "We live in a big ___ with many tall buildings and busy streets.",
+          "answerKeys": [
+            "city"
+          ]
+        },
+        {
+          "stemText": "There is a beautiful ___ in the center of the city where people relax.",
+          "answerKeys": [
+            "park"
+          ]
+        },
+        {
+          "stemText": "I often go to the ___ to buy fresh vegetables and fruits.",
+          "answerKeys": [
+            "market"
+          ]
+        },
+        {
+          "stemText": "The main ___ is very busy during rush hour every morning and evening.",
+          "answerKeys": [
+            "street"
+          ]
+        },
+        {
+          "stemText": "We visited a famous ___ when we were in Paris to see art.",
+          "answerKeys": [
+            "museum"
+          ]
+        },
+        {
+          "stemText": "There are many shops and ___ in the new shopping mall.",
+          "answerKeys": [
+            "restaurants"
+          ]
+        },
+        {
+          "stemText": "You can take a ___ to get around the city quickly.",
+          "answerKeys": [
+            "taxi"
+          ]
+        },
+        {
+          "stemText": "The city ___ is full of people on weekends, enjoying the atmosphere.",
+          "answerKeys": [
+            "square"
+          ]
+        },
+        {
+          "stemText": "My apartment is on the fifth ___ of the building.",
+          "answerKeys": [
+            "floor"
+          ]
+        },
+        {
+          "stemText": "We went to the ___ to watch a new movie last night.",
+          "answerKeys": [
+            "cinema"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Modal Verbs (can, should) Grammar",
+      "description": "Practice using the modal verbs 'can' and 'should' to express ability and advice.",
+      "estimatedMinutes": 20,
+      "questions": [
+        {
+          "stemText": "I ___ speak English quite well now.",
+          "answerKeys": [
+            "can"
+          ]
+        },
+        {
+          "stemText": "You ___ study hard for your exams to get good grades.",
+          "answerKeys": [
+            "should"
+          ]
+        },
+        {
+          "stemText": "She ___ run very fast, she's a great athlete.",
+          "answerKeys": [
+            "can"
+          ]
+        },
+        {
+          "stemText": "We ___ eat too much junk food; it's bad for our health.",
+          "answerKeys": [
+            "shouldn't"
+          ]
+        },
+        {
+          "stemText": "He ___ help his mother with the chores around the house.",
+          "answerKeys": [
+            "should"
+          ]
+        },
+        {
+          "stemText": "I ___ swim, but I can't dive into the deep end.",
+          "answerKeys": [
+            "can"
+          ]
+        },
+        {
+          "stemText": "You ___ cross the street when the light is red.",
+          "answerKeys": [
+            "shouldn't"
+          ]
+        },
+        {
+          "stemText": "They ___ visit their grandparents more often.",
+          "answerKeys": [
+            "should"
+          ]
+        },
+        {
+          "stemText": "My brother ___ play the piano beautifully.",
+          "answerKeys": [
+            "can"
+          ]
+        },
+        {
+          "stemText": "We ___ be quiet in the library so others can study.",
+          "answerKeys": [
+            "should"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Food and Cooking Vocabulary",
+      "description": "Expand your vocabulary related to different types of food and cooking actions.",
+      "estimatedMinutes": 20,
+      "questions": [
+        {
+          "stemText": "I usually have ___ for breakfast with some toast.",
+          "answerKeys": [
+            "eggs"
+          ]
+        },
+        {
+          "stemText": "My favorite fruit is an ___, especially red ones.",
+          "answerKeys": [
+            "apple"
+          ]
+        },
+        {
+          "stemText": "She likes to ___ cakes for special occasions.",
+          "answerKeys": [
+            "bake"
+          ]
+        },
+        {
+          "stemText": "We need some ___ to make a sandwich for lunch.",
+          "answerKeys": [
+            "bread"
+          ]
+        },
+        {
+          "stemText": "He often ___ chicken with rice for dinner.",
+          "answerKeys": [
+            "cooks"
+          ]
+        },
+        {
+          "stemText": "I don't like spicy ___ very much.",
+          "answerKeys": [
+            "food"
+          ]
+        },
+        {
+          "stemText": "My mom makes delicious ___ soup with carrots and potatoes.",
+          "answerKeys": [
+            "vegetable"
+          ]
+        },
+        {
+          "stemText": "We need to ___ the water before we add the pasta.",
+          "answerKeys": [
+            "boil"
+          ]
+        },
+        {
+          "stemText": "Do you want some ___ with your coffee?",
+          "answerKeys": [
+            "sugar"
+          ]
+        },
+        {
+          "stemText": "She bought some fresh ___ at the market this morning.",
+          "answerKeys": [
+            "fish"
+          ]
+        }
+      ]
+    }
+  ]
+}

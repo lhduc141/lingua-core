@@ -1,0 +1,2246 @@
+{
+  "skill": "reading",
+  "cefrLevel": "A1",
+  "lessons": [
+    {
+      "title": "My Family: Getting to Know Mai's Family",
+      "description": "In this lesson, learners will read about a family and practice finding the main idea and specific details in a short text.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Finding the Main Idea",
+            "content": "The main idea is what the text is mostly about. It tells you the most important information. Often, you can find the main idea in the first or last sentence."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Main Idea",
+            "content": "If a text starts with 'Hi! My name is Mai. I live with my family.', the main idea is probably about Mai's family. Look for repeated words or ideas."
+          },
+          {
+            "type": "tip",
+            "heading": "Look for Keywords",
+            "content": "When you read, look for keywords that are repeated. These words can help you understand the main topic. For example, if you see 'mother,' 'father,' and 'brother' many times, the text is about family."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Mai's Family",
+        "content": "Hi! My name is Mai. I am 7 years old. I live with my family in Hanoi. My family is small. I have a mother and a father. My mother's name is Lan. She is a teacher. My father's name is Nam. He is an engineer. I also have a little brother. His name is An. He is 3 years old. We like to play together. I love my family very much.",
+        "wordCount": 75,
+        "topic": "My Family"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main topic of this passage?",
+          "options": [
+            "Mai's school",
+            "Mai's family",
+            "Mai's friends",
+            "Mai's pets"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How old is Mai?",
+          "options": [
+            "3 years old",
+            "5 years old",
+            "7 years old",
+            "10 years old"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is Mai's mother's job?",
+          "options": [
+            "An engineer",
+            "A doctor",
+            "A teacher",
+            "A student"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is Mai's father's name?",
+          "options": [
+            "An",
+            "Nam",
+            "Lan",
+            "Mai"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How many brothers does Mai have?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Zero"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Where does Mai live?",
+          "options": [
+            "Ho Chi Minh City",
+            "Da Nang",
+            "Hanoi",
+            "Hue"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What do Mai and her brother like to do together?",
+          "options": [
+            "Read books",
+            "Watch TV",
+            "Play together",
+            "Eat dinner"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does Mai feel about her family?",
+          "options": [
+            "She doesn't like them.",
+            "She loves them very much.",
+            "She is scared of them.",
+            "She is bored with them."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Pets and Animals: Learning About Linh's Dog",
+      "description": "This lesson helps learners identify specific information in a text about pets and understand simple descriptions of animals.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Scanning for Details",
+            "content": "Scanning means quickly looking for specific words or numbers in a text. You don't need to read every word. Just move your eyes fast to find what you are looking for."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Scanning",
+            "content": "If a question asks 'What color is the dog?', you can scan the text for the word 'dog' and then look for a color word near it, like 'brown' or 'black'."
+          },
+          {
+            "type": "tip",
+            "heading": "Use Keywords to Scan",
+            "content": "When a question asks 'What is the dog's name?', look for the word 'name' or 'is called' near 'dog'. This helps you find the answer quickly without reading slowly."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Linh and Lucky",
+        "content": "I have a pet dog. His name is Lucky. Lucky is small and brown. He likes to play with a red ball. Every morning, I walk Lucky in the park. We see many animals there. I see a big cat sleeping under a tree. Birds sing in the sky. Sometimes, I see a small rabbit eating green grass. I like animals very much. They are cute and fun to watch.",
+        "wordCount": 77,
+        "topic": "Pets and Animals"
+      },
+      "questions": [
+        {
+          "stemText": "What kind of pet does Linh have?",
+          "options": [
+            "A cat",
+            "A bird",
+            "A dog",
+            "A rabbit"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is the dog's name?",
+          "options": [
+            "Brown",
+            "Lucky",
+            "Park",
+            "Ball"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What color is Lucky?",
+          "options": [
+            "Red",
+            "Green",
+            "Brown",
+            "Black"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does Lucky like to play with?",
+          "options": [
+            "A stick",
+            "A red ball",
+            "A small rabbit",
+            "A big cat"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Where does Linh walk Lucky every morning?",
+          "options": [
+            "At home",
+            "In the park",
+            "At school",
+            "In the garden"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What animal does Linh see sleeping under a tree?",
+          "options": [
+            "A dog",
+            "A bird",
+            "A cat",
+            "A rabbit"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What do birds do in the sky?",
+          "options": [
+            "Sleep",
+            "Eat",
+            "Play",
+            "Sing"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "How does Linh feel about animals?",
+          "options": [
+            "She doesn't like them.",
+            "She thinks they are boring.",
+            "She likes them very much.",
+            "She is scared of them."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Food I Like: Exploring An's Favorite Foods",
+      "description": "This lesson focuses on identifying preferences and understanding simple descriptions of food items in a reading passage.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Preferences",
+            "content": "When someone talks about 'food I like' or 'my favorite food,' they are telling you what they prefer. Look for words like 'like,' 'love,' 'favorite,' or 'enjoy' to find out what they prefer."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Preferences",
+            "content": "If the text says 'I like pizza very much,' it means pizza is a food the person enjoys. If it says 'My favorite fruit is mango,' then mango is their top choice."
+          },
+          {
+            "type": "tip",
+            "heading": "Match Words to Pictures (Implicit)",
+            "content": "Even without pictures, try to imagine the food. If you read 'rice' and 'pho,' think about what they look like and how they taste. This helps you remember the information better."
+          }
+        ]
+      },
+      "passage": {
+        "title": "An's Favorite Foods",
+        "content": "My name is An. I love food! My favorite food is pho. It is a delicious noodle soup. I eat pho for breakfast sometimes. I also like rice with chicken. My mother cooks it for dinner. For fruit, I like mangoes. They are sweet and yellow. I drink water every day, but sometimes I drink orange juice. I do not like coffee. It is bitter. Eating good food makes me happy!",
+        "wordCount": 80,
+        "topic": "Food I Like"
+      },
+      "questions": [
+        {
+          "stemText": "What is An's favorite food?",
+          "options": [
+            "Rice with chicken",
+            "Mangoes",
+            "Pho",
+            "Orange juice"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does An sometimes eat for breakfast?",
+          "options": [
+            "Coffee",
+            "Mangoes",
+            "Pho",
+            "Chicken"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Who cooks rice with chicken for An?",
+          "options": [
+            "His father",
+            "His mother",
+            "His friend",
+            "He cooks it himself"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What color are mangoes that An likes?",
+          "options": [
+            "Red and green",
+            "Blue and white",
+            "Sweet and yellow",
+            "Bitter and black"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does An drink every day?",
+          "options": [
+            "Orange juice",
+            "Coffee",
+            "Milk",
+            "Water"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "What food does An NOT like?",
+          "options": [
+            "Pho",
+            "Mangoes",
+            "Coffee",
+            "Chicken"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does eating good food make An feel?",
+          "options": [
+            "Sad",
+            "Tired",
+            "Happy",
+            "Angry"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What kind of food is pho?",
+          "options": [
+            "A fruit",
+            "A drink",
+            "A noodle soup",
+            "A dessert"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "My School Day: A Look at Lan's Morning",
+      "description": "Learners will read about a typical school day and practice sequencing events and identifying key activities.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Sequence of Events",
+            "content": "When a text talks about a day, it often tells you things in order. Look for words like 'first,' 'then,' 'after that,' 'in the morning,' 'in the afternoon' to understand the order of events."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Sequence",
+            "content": "If the text says 'First, I eat breakfast. Then, I go to school,' you know eating breakfast happens before going to school. This helps you put events in the correct order."
+          },
+          {
+            "type": "tip",
+            "heading": "Visualize the Day",
+            "content": "As you read about someone's day, try to imagine what they are doing. This helps you remember the order of activities and understand the passage better."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Lan's School Morning",
+        "content": "My name is Lan. I am a student. Every weekday, I wake up at 6 o'clock. First, I brush my teeth and wash my face. Then, I eat a quick breakfast with my family. My mother makes delicious banh mi. After breakfast, I put on my school uniform. My school bag is ready. At 7 o'clock, I ride my bicycle to school. School starts at 7:30. My favorite subject is English. I like learning new words. School is fun!",
+        "wordCount": 85,
+        "topic": "My School Day"
+      },
+      "questions": [
+        {
+          "stemText": "What time does Lan wake up?",
+          "options": [
+            "5 o'clock",
+            "6 o'clock",
+            "7 o'clock",
+            "7:30"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does Lan do first after waking up?",
+          "options": [
+            "Eat breakfast",
+            "Go to school",
+            "Brush her teeth",
+            "Put on uniform"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does Lan's mother make for breakfast?",
+          "options": [
+            "Pho",
+            "Rice",
+            "Banh mi",
+            "Noodles"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does Lan go to school?",
+          "options": [
+            "By bus",
+            "By car",
+            "By bicycle",
+            "By foot"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What time does school start?",
+          "options": [
+            "6:00",
+            "7:00",
+            "7:30",
+            "8:00"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is Lan's favorite subject?",
+          "options": [
+            "Math",
+            "Art",
+            "Vietnamese",
+            "English"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "What does Lan like about English?",
+          "options": [
+            "Doing homework",
+            "Learning new words",
+            "Playing games",
+            "Singing songs"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What kind of days does Lan go to school?",
+          "options": [
+            "Weekends",
+            "Holidays",
+            "Weekdays",
+            "Every day"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Colors and Shapes: Describing Objects in a Room",
+      "description": "This lesson helps learners identify colors and shapes of common objects, practicing descriptive vocabulary.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Descriptions",
+            "content": "When you read, look for words that describe things. These are often adjectives like 'big,' 'small,' 'red,' 'blue,' 'round,' or 'square.' They tell you more about a noun."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Descriptions",
+            "content": "If the text says 'a red ball,' 'red' describes the color of the ball. If it says 'a square table,' 'square' describes the shape of the table. Pay attention to these words."
+          },
+          {
+            "type": "tip",
+            "heading": "Picture the Object",
+            "content": "Try to create a mental picture of the object as you read its description. If it says 'a yellow circle,' imagine a yellow circle. This helps with comprehension."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Colorful Room",
+        "content": "My room is small but nice. I have a bed. My blanket is blue. On the wall, there is a big, red clock. It is round. Next to my bed, there is a small, brown table. It is square. I have many toys. My favorite toy car is green. I also have a yellow box for my books. On the floor, there is a soft, white rug. I like all the colors in my room!",
+        "wordCount": 81,
+        "topic": "Colors and Shapes"
+      },
+      "questions": [
+        {
+          "stemText": "What color is the blanket on the bed?",
+          "options": [
+            "Red",
+            "Blue",
+            "Brown",
+            "White"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What shape is the clock on the wall?",
+          "options": [
+            "Square",
+            "Triangle",
+            "Round",
+            "Rectangle"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What color is the clock?",
+          "options": [
+            "Blue",
+            "Green",
+            "Red",
+            "Yellow"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What shape is the table next to the bed?",
+          "options": [
+            "Round",
+            "Square",
+            "Oval",
+            "Star"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What color is the favorite toy car?",
+          "options": [
+            "Red",
+            "Blue",
+            "Green",
+            "Yellow"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is the yellow box for?",
+          "options": [
+            "Toys",
+            "Clothes",
+            "Books",
+            "Food"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What color is the rug on the floor?",
+          "options": [
+            "Red",
+            "White",
+            "Brown",
+            "Green"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How does the writer feel about the colors in their room?",
+          "options": [
+            "They dislike them.",
+            "They are bored by them.",
+            "They like them.",
+            "They are confused by them."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "My Home: Exploring a Vietnamese House",
+      "description": "Learners will read about different rooms in a house and practice identifying locations and functions of rooms.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Location",
+            "content": "When you read about a house, pay attention to words that tell you 'where' things are. Words like 'in,' 'on,' 'next to,' 'upstairs,' 'downstairs' help you understand the layout."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Location",
+            "content": "If the text says 'The kitchen is next to the living room,' you know their positions relative to each other. 'My bedroom is upstairs' tells you its floor."
+          },
+          {
+            "type": "tip",
+            "heading": "Draw a Simple Map (Mentally)",
+            "content": "As you read about the rooms in a house, try to imagine a simple floor plan in your mind. This helps you visualize where everything is and makes it easier to answer questions about location."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My House in Vietnam",
+        "content": "I live in a house with my family. Our house has two floors. Downstairs, there is a living room. We watch TV and talk there. Next to the living room is the kitchen. My mother cooks delicious food in the kitchen. We eat in the dining room, which is also downstairs. Upstairs, there are two bedrooms. My parents' bedroom is big. My bedroom is smaller, but I like it. There is also a bathroom upstairs. Our house is always clean and cozy.",
+        "wordCount": 91,
+        "topic": "My Home"
+      },
+      "questions": [
+        {
+          "stemText": "How many floors does the house have?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What do they do in the living room?",
+          "options": [
+            "Cook food",
+            "Sleep",
+            "Watch TV and talk",
+            "Eat dinner"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Where is the kitchen located?",
+          "options": [
+            "Upstairs",
+            "Next to the living room",
+            "Next to the bathroom",
+            "In the bedroom"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Who cooks in the kitchen?",
+          "options": [
+            "The father",
+            "The mother",
+            "The child",
+            "A friend"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Where do they eat their meals?",
+          "options": [
+            "In the living room",
+            "In the kitchen",
+            "In the dining room",
+            "In the bedroom"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How many bedrooms are upstairs?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which bedroom is bigger?",
+          "options": [
+            "The parents' bedroom",
+            "The child's bedroom",
+            "The guest bedroom",
+            "They are the same size"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How is their house described?",
+          "options": [
+            "Old and dirty",
+            "Big and empty",
+            "Small and messy",
+            "Clean and cozy"
+          ],
+          "correctIndex": 3
+        }
+      ]
+    },
+    {
+      "title": "The Weather: Talking About Today's Weather",
+      "description": "Learners will read about different weather conditions and practice identifying current weather and related activities.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Weather Vocabulary",
+            "content": "Weather words like 'sunny,' 'rainy,' 'cold,' 'hot,' 'windy' help us understand what the sky and air are like. Pay attention to these words to know the weather."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Weather Words",
+            "content": "If the text says 'It is rainy today,' you know it's raining. If it says 'The sun is shining,' it means it's sunny. These words tell you the weather directly."
+          },
+          {
+            "type": "tip",
+            "heading": "Connect Weather to Activities",
+            "content": "People often do different things depending on the weather. If it's hot, they might swim. If it's cold, they wear a jacket. Connecting weather to activities helps you understand the text better."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Today's Weather",
+        "content": "Today is a beautiful day! The sun is shining brightly, and the sky is blue. It is warm, but not too hot. I like sunny weather. Yesterday, it was rainy. I stayed home and read a book. Tomorrow, the weather forecast says it will be a little windy. I will fly my kite in the park. My mother says winter is coming soon. It will be cold then. I need my warm jacket for winter. I hope it doesn't rain too much!",
+        "wordCount": 86,
+        "topic": "The Weather"
+      },
+      "questions": [
+        {
+          "stemText": "What is the weather like today?",
+          "options": [
+            "Rainy and cold",
+            "Windy and cloudy",
+            "Sunny and warm",
+            "Snowy and very cold"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What color is the sky today?",
+          "options": [
+            "Grey",
+            "Blue",
+            "White",
+            "Black"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What was the weather like yesterday?",
+          "options": [
+            "Sunny",
+            "Windy",
+            "Rainy",
+            "Cold"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What did the writer do yesterday?",
+          "options": [
+            "Flew a kite",
+            "Went to the park",
+            "Read a book",
+            "Swam"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What will the weather be like tomorrow?",
+          "options": [
+            "Sunny",
+            "A little windy",
+            "Very hot",
+            "Heavy rain"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What will the writer do tomorrow?",
+          "options": [
+            "Stay home",
+            "Read a book",
+            "Fly a kite",
+            "Go swimming"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What season is coming soon?",
+          "options": [
+            "Summer",
+            "Spring",
+            "Autumn",
+            "Winter"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "What does the writer need for winter?",
+          "options": [
+            "A swimsuit",
+            "A warm jacket",
+            "Sunglasses",
+            "An umbrella"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Daily Routines: My Morning Routine",
+      "description": "This lesson helps learners understand a sequence of daily activities and practice identifying specific actions and times.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Time Markers",
+            "content": "Time markers like 'at 7 o'clock,' 'in the morning,' 'after,' 'before' help you understand when actions happen. Pay close attention to these words to follow the routine."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Time Markers",
+            "content": "If the text says 'I wake up at 6 AM. Then I eat breakfast,' you know waking up is at 6 AM and breakfast is after that. This helps you order the events."
+          },
+          {
+            "type": "tip",
+            "heading": "Create a Mental Checklist",
+            "content": "As you read about a daily routine, try to make a mental checklist of the actions. What happens first? What happens next? This helps you remember the order of events."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Morning Routine",
+        "content": "Every morning, I wake up at 6:30 AM. First, I go to the bathroom to wash my face and brush my teeth. Then, I get dressed in my school uniform. At 7:00 AM, I go to the kitchen. My mother makes a simple breakfast for me, usually bread and milk. I eat quickly. After breakfast, I pack my school bag and check my homework. At 7:45 AM, I say goodbye to my family and walk to school. My school starts at 8:00 AM. I am always on time!",
+        "wordCount": 94,
+        "topic": "Daily Routines"
+      },
+      "questions": [
+        {
+          "stemText": "What time does the writer wake up?",
+          "options": [
+            "6:00 AM",
+            "6:30 AM",
+            "7:00 AM",
+            "7:45 AM"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the writer do after washing their face and brushing their teeth?",
+          "options": [
+            "Eat breakfast",
+            "Go to school",
+            "Get dressed",
+            "Pack school bag"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does the mother usually make for breakfast?",
+          "options": [
+            "Pho and coffee",
+            "Rice and chicken",
+            "Bread and milk",
+            "Noodles and juice"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What time does the writer go to the kitchen?",
+          "options": [
+            "6:30 AM",
+            "7:00 AM",
+            "7:30 AM",
+            "7:45 AM"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the writer do after breakfast?",
+          "options": [
+            "Go to school",
+            "Watch TV",
+            "Pack school bag and check homework",
+            "Play games"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does the writer go to school?",
+          "options": [
+            "By bicycle",
+            "By bus",
+            "Walk",
+            "By car"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What time does school start?",
+          "options": [
+            "7:00 AM",
+            "7:30 AM",
+            "7:45 AM",
+            "8:00 AM"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "How does the writer describe their punctuality for school?",
+          "options": [
+            "Always late",
+            "Sometimes late",
+            "Always on time",
+            "Never goes to school"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Numbers and Time: Learning About a Schedule",
+      "description": "This lesson helps learners practice identifying numbers and times in a schedule and understanding simple numerical information.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Finding Numbers and Times",
+            "content": "Numbers tell us 'how many' or 'what time.' When you read, look for digits (1, 2, 3) or words for numbers (one, two, three). Time is often shown with numbers and 'o'clock' or 'AM/PM'."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Numbers and Time",
+            "content": "If the text says 'I have 3 books' or 'School starts at 8:00 AM,' the numbers '3' and '8:00' are important details. Scan for these specific pieces of information."
+          },
+          {
+            "type": "tip",
+            "heading": "Match Numbers to Questions",
+            "content": "If a question asks 'How many?' or 'What time?', scan the text specifically for numbers. Don't get distracted by other words. This helps you find the answer quickly."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Saturday Schedule",
+        "content": "Saturdays are busy for me! I wake up at 7:00 AM. At 8:00 AM, I eat breakfast with my family. We have 4 people in my family. From 9:00 AM to 10:00 AM, I help my mother clean the house. At 10:30 AM, I go to the park with my friends. We play for 2 hours. So, we finish playing at 12:30 PM. In the afternoon, I read 1 book. At 6:00 PM, we eat dinner. I go to bed at 9:00 PM. It's a long day!",
+        "wordCount": 94,
+        "topic": "Numbers and Time"
+      },
+      "questions": [
+        {
+          "stemText": "What time does the writer wake up on Saturday?",
+          "options": [
+            "6:00 AM",
+            "7:00 AM",
+            "8:00 AM",
+            "9:00 AM"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How many people are in the writer's family?",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What time does the writer help clean the house?",
+          "options": [
+            "7:00 AM to 8:00 AM",
+            "8:00 AM to 9:00 AM",
+            "9:00 AM to 10:00 AM",
+            "10:00 AM to 11:00 AM"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What time does the writer go to the park?",
+          "options": [
+            "10:00 AM",
+            "10:30 AM",
+            "11:00 AM",
+            "12:00 PM"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How long do they play at the park?",
+          "options": [
+            "1 hour",
+            "2 hours",
+            "3 hours",
+            "30 minutes"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What time do they finish playing at the park?",
+          "options": [
+            "11:30 AM",
+            "12:00 PM",
+            "12:30 PM",
+            "1:00 PM"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How many books does the writer read in the afternoon?",
+          "options": [
+            "Zero",
+            "One",
+            "Two",
+            "Many"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What time does the writer go to bed?",
+          "options": [
+            "7:00 PM",
+            "8:00 PM",
+            "9:00 PM",
+            "10:00 PM"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "My Friends: Learning About Friendship",
+      "description": "This lesson helps learners understand descriptions of friends and identify shared activities and feelings about friendship.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Relationships",
+            "content": "When you read about friends, look for words that describe what they do together or how they feel about each other. Words like 'play with,' 'talk to,' 'happy,' 'best friend' are clues."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Relationships",
+            "content": "If the text says 'My friend Linh is kind,' you learn about Linh's personality. If it says 'We play football every Sunday,' you know a shared activity. These details build understanding."
+          },
+          {
+            "type": "tip",
+            "heading": "Identify Shared Activities",
+            "content": "When reading about friends, pay attention to the verbs that describe what they do together. This helps you understand their bond and common interests."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Best Friend, Hoa",
+        "content": "I have many friends at school, but my best friend is Hoa. She is 8 years old, like me. Hoa has long, black hair and a big smile. She is very kind and funny. We always sit together in class. After school, we often play in the park. We like to swing and slide. Sometimes, we draw pictures or read books at my house. Hoa helps me with my homework when I don't understand. I help her too. We laugh a lot together. I am very happy to have Hoa as my friend.",
+        "wordCount": 99,
+        "topic": "My Friends"
+      },
+      "questions": [
+        {
+          "stemText": "Who is the writer's best friend?",
+          "options": [
+            "Linh",
+            "Mai",
+            "An",
+            "Hoa"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "How old is Hoa?",
+          "options": [
+            "6 years old",
+            "7 years old",
+            "8 years old",
+            "9 years old"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does Hoa look like?",
+          "options": [
+            "Short hair and small smile",
+            "Long, black hair and a big smile",
+            "Red hair and glasses",
+            "Brown hair and a quiet face"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What do the friends do after school?",
+          "options": [
+            "Go home directly",
+            "Play in the park",
+            "Watch TV",
+            "Go shopping"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What do they like to do in the park?",
+          "options": [
+            "Run and jump",
+            "Swing and slide",
+            "Eat snacks",
+            "Study"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What do they sometimes do at the writer's house?",
+          "options": [
+            "Cook dinner",
+            "Draw pictures or read books",
+            "Play video games",
+            "Clean the room"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does Hoa help the writer with?",
+          "options": [
+            "Cooking",
+            "Homework",
+            "Cleaning",
+            "Sports"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How does the writer feel about having Hoa as a friend?",
+          "options": [
+            "Sad",
+            "Bored",
+            "Angry",
+            "Very happy"
+          ],
+          "correctIndex": 3
+        }
+      ]
+    },
+    {
+      "title": "Going Shopping: A Trip to the Market",
+      "description": "Learners will read about a shopping trip and practice identifying items bought and understanding simple transactions.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Items and Actions",
+            "content": "When reading about shopping, look for the names of things people buy. Also, pay attention to verbs like 'buy,' 'sell,' 'pay' to understand the actions related to shopping."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Shopping Details",
+            "content": "If the text says 'I bought three apples,' you know the item and the quantity. If it says 'The market is busy,' you understand the atmosphere. These details are important."
+          },
+          {
+            "type": "tip",
+            "heading": "Focus on 'What' and 'Where'",
+            "content": "When reading about shopping, ask yourself 'What did they buy?' and 'Where did they go?' These questions will help you find the most important information in the passage."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Trip to the Market",
+        "content": "Today, I went to the market with my mother. The market was very busy and noisy. First, we bought some fresh vegetables: green spinach and red tomatoes. Then, we went to the fruit stall. My mother bought two big mangoes and a bunch of small, sweet grapes. I like grapes! After that, we bought some fresh fish for dinner. The fish seller was friendly. We didn't buy any meat today. My mother paid with money. Shopping at the market is fun, but sometimes it is tiring.",
+        "wordCount": 97,
+        "topic": "Going Shopping"
+      },
+      "questions": [
+        {
+          "stemText": "Who did the writer go to the market with?",
+          "options": [
+            "Their father",
+            "Their friend",
+            "Their mother",
+            "Alone"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How was the market described?",
+          "options": [
+            "Quiet and empty",
+            "Clean and calm",
+            "Very busy and noisy",
+            "Small and boring"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What vegetables did they buy?",
+          "options": [
+            "Carrots and potatoes",
+            "Spinach and tomatoes",
+            "Onions and garlic",
+            "Cabbage and beans"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How many mangoes did they buy?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What other fruit did they buy?",
+          "options": [
+            "Apples",
+            "Bananas",
+            "Grapes",
+            "Oranges"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What did they buy for dinner?",
+          "options": [
+            "Chicken",
+            "Beef",
+            "Fish",
+            "Pork"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Did they buy any meat today?",
+          "options": [
+            "Yes, a lot",
+            "Yes, a little",
+            "No, they didn't",
+            "The passage doesn't say"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How did the mother pay?",
+          "options": [
+            "With a card",
+            "With her phone",
+            "With money",
+            "She didn't pay"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "In the Park: A Sunny Afternoon",
+      "description": "This lesson helps learners identify activities and objects found in a park, practicing vocabulary related to outdoor spaces.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Setting and Activities",
+            "content": "The 'setting' is where the story happens, like a park. 'Activities' are what people do there. Look for words that describe the place and the actions happening in it."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Setting and Activities",
+            "content": "If the text says 'We went to the park. My friends played football,' you know the place is a park and the activity is playing football. These are key details."
+          },
+          {
+            "type": "tip",
+            "heading": "Imagine the Scene",
+            "content": "As you read about the park, try to imagine yourself there. What do you see? What do you hear? What are people doing? This helps you understand the text better."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Fun in the Park",
+        "content": "It was a sunny afternoon, so my family went to the park. The park is big and has many green trees. My little brother, An, ran to the playground. He loves the slide and the swings. My father sat on a bench and read a newspaper. My mother walked around and looked at the flowers. I rode my bicycle on the path. Many children were playing football on the grass. Some people were having a picnic under a big tree. It was a happy day for everyone.",
+        "wordCount": 92,
+        "topic": "In the Park"
+      },
+      "questions": [
+        {
+          "stemText": "What was the weather like when they went to the park?",
+          "options": [
+            "Rainy",
+            "Cloudy",
+            "Sunny",
+            "Windy"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Who went to the park with the writer?",
+          "options": [
+            "Friends",
+            "Teachers",
+            "Family",
+            "Classmates"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does the little brother, An, love at the playground?",
+          "options": [
+            "The seesaw and sandbox",
+            "The slide and the swings",
+            "The climbing frame and monkey bars",
+            "The roundabout and trampoline"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What did the father do in the park?",
+          "options": [
+            "Played football",
+            "Rode a bicycle",
+            "Read a newspaper",
+            "Slept on the grass"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What did the mother do?",
+          "options": [
+            "Cooked food",
+            "Walked around and looked at flowers",
+            "Played with An",
+            "Rode a bicycle"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What did the writer do in the park?",
+          "options": [
+            "Played football",
+            "Rode a bicycle",
+            "Read a book",
+            "Had a picnic"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What were many children doing on the grass?",
+          "options": [
+            "Eating snacks",
+            "Playing football",
+            "Reading books",
+            "Sleeping"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What were some people doing under a big tree?",
+          "options": [
+            "Singing songs",
+            "Having a picnic",
+            "Studying",
+            "Exercising"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "My Bedroom: Describing My Personal Space",
+      "description": "Learners will read about a bedroom and practice identifying objects and their locations within a room.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Spatial Relationships",
+            "content": "Spatial words like 'on,' 'under,' 'next to,' 'in front of,' 'behind' tell you where things are in relation to each other. These are important for understanding descriptions of a room."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Spatial Words",
+            "content": "If the text says 'My bed is next to the window,' you know the bed's position. If it says 'Books are on the shelf,' you know where the books are. Look for these prepositions."
+          },
+          {
+            "type": "tip",
+            "heading": "Visualize the Room",
+            "content": "Try to imagine the bedroom as you read. What furniture is there? Where are the items placed? A mental picture helps you remember details and answer questions about location."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Cozy Bedroom",
+        "content": "My bedroom is my favorite place in the house. It is small but very cozy. I have a comfortable bed with a soft, blue blanket. Next to my bed, there is a small table with a lamp. I read books there at night. In front of the window, there is a desk and a chair. I do my homework at this desk. On the wall, I have a picture of my family and a calendar. My clothes are in a big, brown wardrobe. My toys are in a box under the desk. I love my room!",
+        "wordCount": 97,
+        "topic": "My Bedroom"
+      },
+      "questions": [
+        {
+          "stemText": "How is the writer's bedroom described?",
+          "options": [
+            "Big and messy",
+            "Small but cozy",
+            "Dark and cold",
+            "Empty and boring"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What color is the blanket on the bed?",
+          "options": [
+            "Red",
+            "Green",
+            "Blue",
+            "Yellow"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is next to the bed?",
+          "options": [
+            "A wardrobe",
+            "A desk",
+            "A small table with a lamp",
+            "A window"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does the writer do at the small table?",
+          "options": [
+            "Eat dinner",
+            "Play games",
+            "Read books",
+            "Sleep"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Where is the desk and chair located?",
+          "options": [
+            "Next to the bed",
+            "In front of the window",
+            "Under the bed",
+            "Behind the wardrobe"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the writer do at the desk?",
+          "options": [
+            "Watch TV",
+            "Eat snacks",
+            "Do homework",
+            "Draw pictures"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is on the wall?",
+          "options": [
+            "A mirror and a clock",
+            "A TV and a shelf",
+            "A picture of family and a calendar",
+            "Posters and lights"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Where are the writer's toys?",
+          "options": [
+            "In the wardrobe",
+            "On the bed",
+            "In a box under the desk",
+            "On the table"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Fun at School: Recess and Learning",
+      "description": "Learners will read about enjoyable activities at school and practice identifying specific events and feelings related to school life.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Positive Experiences",
+            "content": "When a text talks about 'fun' or 'happy' times, look for words that show enjoyment. These can be verbs like 'play,' 'laugh,' 'enjoy,' or adjectives like 'fun,' 'exciting,' 'happy'."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Positive Experiences",
+            "content": "If the text says 'Recess is my favorite time because we play games,' you know playing games is a fun activity. This helps you understand what makes school enjoyable for the writer."
+          },
+          {
+            "type": "tip",
+            "heading": "Look for Emotion Words",
+            "content": "Words like 'love,' 'like,' 'happy,' 'fun' tell you how the writer feels. These are important for understanding the overall tone and the writer's attitude towards school."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Fun School Day",
+        "content": "School is not just for learning; it's also for fun! My favorite part of the school day is recess. We go outside and play games. I love playing hide-and-seek with my friends, Linh and Minh. We laugh a lot! In class, I like art lessons. We draw and paint colorful pictures. My teacher, Ms. Hoa, is very kind. She always helps us. Sometimes, we sing songs in music class. Learning new things is exciting, especially when we do experiments in science. School is a great place to learn and play!",
+        "wordCount": 97,
+        "topic": "Fun at School"
+      },
+      "questions": [
+        {
+          "stemText": "What is the writer's favorite part of the school day?",
+          "options": [
+            "Math class",
+            "Recess",
+            "Lunch time",
+            "Reading time"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What game does the writer love to play with friends?",
+          "options": [
+            "Football",
+            "Tag",
+            "Hide-and-seek",
+            "Basketball"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Who are the writer's friends mentioned?",
+          "options": [
+            "An and Mai",
+            "Linh and Minh",
+            "Nam and Lan",
+            "Hoa and Hung"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What do they do in art lessons?",
+          "options": [
+            "Sing songs",
+            "Read books",
+            "Draw and paint pictures",
+            "Do experiments"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Who is the writer's teacher?",
+          "options": [
+            "Mr. Nam",
+            "Ms. Lan",
+            "Ms. Hoa",
+            "Mr. Hung"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What do they sometimes do in music class?",
+          "options": [
+            "Dance",
+            "Play instruments",
+            "Sing songs",
+            "Listen to stories"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What makes learning new things exciting?",
+          "options": [
+            "Doing homework",
+            "Taking tests",
+            "Doing experiments in science",
+            "Sitting quietly"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does the writer feel about school?",
+          "options": [
+            "It is boring.",
+            "It is difficult.",
+            "It is a great place to learn and play.",
+            "It is scary."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Healthy Food: Eating Well with My Family",
+      "description": "This lesson helps learners identify healthy food choices and understand the benefits of eating well.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Healthy Choices",
+            "content": "When reading about food, look for words that suggest something is good for you. Words like 'healthy,' 'fresh,' 'vitamins,' or 'strong' often point to healthy food choices."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Healthy Food",
+            "content": "If the text says 'We eat many vegetables because they are healthy,' you know vegetables are good. If it says 'I drink water, not soda,' it shows a healthy drink choice."
+          },
+          {
+            "type": "tip",
+            "heading": "Connect Food to Benefits",
+            "content": "Pay attention to why certain foods are mentioned. Is it for energy? To be strong? To stay healthy? Understanding the benefits helps you grasp the main message about healthy eating."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Our Healthy Meals",
+        "content": "My family loves to eat healthy food. Every day, we eat a lot of fresh vegetables like spinach and carrots. My mother says vegetables make us strong. We also eat rice with fish or chicken. Fish is very good for our brains. For snacks, we eat fruit, not candy. My favorite fruits are bananas and oranges. They have many vitamins. We drink a lot of water throughout the day. We try not to eat too much sweet food or fast food. Eating healthy helps us stay active and happy!",
+        "wordCount": 94,
+        "topic": "Healthy Food"
+      },
+      "questions": [
+        {
+          "stemText": "What kind of food does the writer's family love to eat?",
+          "options": [
+            "Fast food",
+            "Sweet food",
+            "Healthy food",
+            "Junk food"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What vegetables are mentioned in the passage?",
+          "options": [
+            "Potatoes and corn",
+            "Spinach and carrots",
+            "Tomatoes and cucumbers",
+            "Broccoli and peppers"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Why does the mother say they should eat vegetables?",
+          "options": [
+            "They are delicious.",
+            "They are cheap.",
+            "They make us strong.",
+            "They are colorful."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What do they eat with rice?",
+          "options": [
+            "Pizza or pasta",
+            "Fish or chicken",
+            "Bread or noodles",
+            "Eggs or cheese"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Why is fish good?",
+          "options": [
+            "It is tasty.",
+            "It is good for our brains.",
+            "It is easy to cook.",
+            "It is cheap."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What do they eat for snacks instead of candy?",
+          "options": [
+            "Chips",
+            "Cookies",
+            "Fruit",
+            "Cakes"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What are the writer's favorite fruits?",
+          "options": [
+            "Apples and grapes",
+            "Mangoes and pineapples",
+            "Bananas and oranges",
+            "Strawberries and watermelons"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What helps them stay active and happy?",
+          "options": [
+            "Eating fast food",
+            "Eating sweet food",
+            "Eating healthy",
+            "Drinking soda"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Seasons of the Year: Vietnam's Weather",
+      "description": "This lesson helps learners identify different seasons and their typical weather conditions and activities in Vietnam.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Seasonal Changes",
+            "content": "Seasons bring different weather and activities. Look for words that describe the temperature (hot, cold), precipitation (rain, sun), and common things people do in each season."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Seasonal Descriptions",
+            "content": "If the text says 'Summer is hot, and we go swimming,' you know the weather and an activity for summer. If it says 'Winter is cold, and I wear a jacket,' you learn about winter."
+          },
+          {
+            "type": "tip",
+            "heading": "Connect Weather to Seasons",
+            "content": "Each season has typical weather. When you read about 'rainy' or 'sunny,' think about which season it usually happens in. This helps you link information."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Seasons in My Country",
+        "content": "In Vietnam, we mostly have two main seasons: the dry season and the rainy season. But in the north, we also feel a bit of spring, summer, autumn, and winter. Spring is warm and fresh, with many flowers. Summer is very hot and sunny. We often go to the beach or swim in the pool. Autumn is cool and pleasant, my favorite season. Winter is a bit cold, especially in Hanoi. Sometimes, I need a warm coat. The rainy season brings a lot of rain, usually from May to October. I like all seasons, but autumn is the best!",
+        "wordCount": 99,
+        "topic": "Seasons of the Year"
+      },
+      "questions": [
+        {
+          "stemText": "How many main seasons are there mostly in Vietnam?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the weather like in spring?",
+          "options": [
+            "Very cold and snowy",
+            "Hot and dry",
+            "Warm and fresh, with flowers",
+            "Windy and cloudy"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What do people often do in summer?",
+          "options": [
+            "Wear warm coats",
+            "Go to the beach or swim",
+            "Stay home and read",
+            "Plant trees"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the writer's favorite season?",
+          "options": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is the weather like in winter, especially in Hanoi?",
+          "options": [
+            "Very hot",
+            "A bit cold",
+            "Sunny and dry",
+            "Warm and rainy"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the writer sometimes need in winter?",
+          "options": [
+            "A swimsuit",
+            "Sunglasses",
+            "A warm coat",
+            "An umbrella"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "When is the rainy season usually?",
+          "options": [
+            "January to April",
+            "May to October",
+            "November to December",
+            "All year round"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How does the writer feel about autumn?",
+          "options": [
+            "They dislike it.",
+            "They think it's boring.",
+            "They think it's the best.",
+            "They are scared of it."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "A Birthday Party: Celebrating with Friends",
+      "description": "This lesson helps learners identify details about a birthday party, including activities, food, and gifts.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Party Details",
+            "content": "When reading about a party, look for who is there, what they eat, what games they play, and what gifts are given. These details help you understand the event."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Party Details",
+            "content": "If the text says 'We ate cake and sang Happy Birthday,' you know the food and a common party activity. If it says 'My friend gave me a toy car,' you know about a gift."
+          },
+          {
+            "type": "tip",
+            "heading": "Focus on the 5 Ws",
+            "content": "Ask yourself: Who is celebrating? What did they do? Where was it? When was it? Why are they celebrating? This helps you gather all the important information."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Mai's Birthday Party",
+        "content": "Last Saturday was my friend Mai's birthday. She turned 8 years old! Her parents organized a party at her house. Many of our friends came. First, we played fun games like musical chairs and charades. Then, Mai opened her presents. She got a new doll, a colorful drawing book, and a big box of Lego. After that, we all sang 'Happy Birthday' and ate a delicious chocolate cake. There were also many snacks and fruit juice. We talked and laughed a lot. It was a wonderful party, and Mai was very happy!",
+        "wordCount": 98,
+        "topic": "A Birthday Party"
+      },
+      "questions": [
+        {
+          "stemText": "Whose birthday was it last Saturday?",
+          "options": [
+            "The writer's",
+            "Mai's",
+            "Linh's",
+            "Minh's"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How old did Mai turn?",
+          "options": [
+            "6 years old",
+            "7 years old",
+            "8 years old",
+            "9 years old"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Where was the party held?",
+          "options": [
+            "At a restaurant",
+            "At a park",
+            "At Mai's house",
+            "At school"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What games did they play?",
+          "options": [
+            "Football and basketball",
+            "Hide-and-seek and tag",
+            "Musical chairs and charades",
+            "Video games and board games"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What was one of the gifts Mai received?",
+          "options": [
+            "A toy car",
+            "A new doll",
+            "A bicycle",
+            "A robot"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What kind of cake did they eat?",
+          "options": [
+            "Vanilla cake",
+            "Strawberry cake",
+            "Chocolate cake",
+            "Lemon cake"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What did they drink at the party?",
+          "options": [
+            "Soda",
+            "Milk",
+            "Coffee",
+            "Fruit juice"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "How did Mai feel about her party?",
+          "options": [
+            "Sad",
+            "Bored",
+            "Angry",
+            "Very happy"
+          ],
+          "correctIndex": 3
+        }
+      ]
+    },
+    {
+      "title": "My Favorite Sport: Playing Badminton",
+      "description": "This lesson helps learners identify details about a favorite sport, including equipment, location, and feelings about the activity.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Sports Vocabulary",
+            "content": "When reading about sports, look for specific words related to the game, like 'ball,' 'racket,' 'net,' 'team,' 'play,' 'win,' 'lose.' These words help you understand the sport."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Sports Vocabulary",
+            "content": "If the text says 'I play football with a ball,' you know the equipment. If it says 'We play on a court,' you know the location. These details are important for comprehension."
+          },
+          {
+            "type": "tip",
+            "heading": "Visualize the Game",
+            "content": "Try to imagine the sport as you read about it. What are the players doing? What does the equipment look like? This helps you connect the words to a real-world activity."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Love for Badminton",
+        "content": "My favorite sport is badminton. I play it every Sunday morning with my father. We go to the community center near our house. We need a racket and a shuttlecock to play. It's a fast game! My father is very good, but sometimes I win. We always have fun and get good exercise. I also like watching badminton on TV. My dream is to be a professional badminton player one day. It makes me feel strong and happy. I think it's a great sport for everyone in Vietnam!",
+        "wordCount": 94,
+        "topic": "My Favorite Sport"
+      },
+      "questions": [
+        {
+          "stemText": "What is the writer's favorite sport?",
+          "options": [
+            "Football",
+            "Swimming",
+            "Badminton",
+            "Basketball"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "When does the writer play badminton?",
+          "options": [
+            "Every Saturday afternoon",
+            "Every Sunday morning",
+            "Every weekday evening",
+            "Only on holidays"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Who does the writer play badminton with?",
+          "options": [
+            "Their mother",
+            "Their friends",
+            "Their father",
+            "Their brother"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Where do they play badminton?",
+          "options": [
+            "At school",
+            "In the park",
+            "At the community center",
+            "At home"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What equipment do they need to play badminton?",
+          "options": [
+            "A ball and a net",
+            "A racket and a shuttlecock",
+            "A bat and a ball",
+            "A hoop and a ball"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How does the writer feel about playing badminton?",
+          "options": [
+            "Bored and tired",
+            "Angry and sad",
+            "Fun and good exercise",
+            "Difficult and frustrating"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is the writer's dream?",
+          "options": [
+            "To be a teacher",
+            "To be a doctor",
+            "To be a professional badminton player",
+            "To travel the world"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does playing badminton make the writer feel?",
+          "options": [
+            "Weak and unhappy",
+            "Strong and happy",
+            "Slow and bored",
+            "Stressed and worried"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "At the Zoo: Seeing Wild Animals",
+      "description": "This lesson helps learners identify different animals and their characteristics, practicing vocabulary related to wildlife.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Animal Descriptions",
+            "content": "When reading about animals, look for words that describe what they look like (big, small, color), what they do (eat, sleep, run), and where they live. These details help you identify them."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Animal Descriptions",
+            "content": "If the text says 'The elephant is big and grey,' you know its size and color. If it says 'Monkeys like to swing,' you know their activity. These are key descriptive elements."
+          },
+          {
+            "type": "tip",
+            "heading": "Match Animals to Traits",
+            "content": "As you read, try to connect each animal with its unique characteristics or actions. For example, 'lions' with 'roar' or 'tall giraffes.' This helps you remember the information."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Day at the Zoo",
+        "content": "Last Sunday, my family and I went to the zoo. It was a sunny day. First, we saw the big, grey elephants. They were eating grass. Next, we saw some tall giraffes. They have long necks and brown spots. My favorite animals were the monkeys. They were very funny, swinging from tree to tree. We also saw a big lion sleeping. It looked very strong. There were many colorful birds too. We bought ice cream and juice. I love visiting the zoo because I can see many different animals!",
+        "wordCount": 97,
+        "topic": "At the Zoo"
+      },
+      "questions": [
+        {
+          "stemText": "When did the writer go to the zoo?",
+          "options": [
+            "Last Saturday",
+            "Last Sunday",
+            "Yesterday",
+            "Tomorrow"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What was the weather like at the zoo?",
+          "options": [
+            "Rainy",
+            "Cloudy",
+            "Sunny",
+            "Windy"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What were the elephants doing?",
+          "options": [
+            "Sleeping",
+            "Drinking water",
+            "Eating grass",
+            "Playing"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What do giraffes have?",
+          "options": [
+            "Short necks and black stripes",
+            "Long tails and big ears",
+            "Long necks and brown spots",
+            "Small bodies and white fur"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What were the monkeys doing?",
+          "options": [
+            "Eating bananas",
+            "Sleeping on branches",
+            "Swinging from tree to tree",
+            "Running on the ground"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What was the lion doing?",
+          "options": [
+            "Roaring loudly",
+            "Running fast",
+            "Sleeping",
+            "Eating meat"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What did they buy at the zoo?",
+          "options": [
+            "Popcorn and soda",
+            "Hot dogs and chips",
+            "Ice cream and juice",
+            "Candy and coffee"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Why does the writer love visiting the zoo?",
+          "options": [
+            "To play games",
+            "To buy souvenirs",
+            "To see many different animals",
+            "To eat food"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Weekend Plans: Fun Activities",
+      "description": "This lesson helps learners identify planned activities for the weekend and understand simple future tense expressions.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Future Plans",
+            "content": "When reading about future plans, look for words like 'will,' 'going to,' 'tomorrow,' 'next week,' or specific days like 'Saturday,' 'Sunday.' These tell you what someone plans to do."
+          },
+          {
+            "type": "example",
+            "heading": "Example: Future Plans",
+            "content": "If the text says 'Tomorrow, I will visit my grandmother,' you know the action and when it will happen. If it says 'We are going to the beach on Sunday,' it's a future plan."
+          },
+          {
+            "type": "tip",
+            "heading": "Look for Time Words",
+            "content": "Time words are crucial for understanding when events will take place. Scan for 'Saturday,' 'Sunday,' 'morning,' 'afternoon' to map out the weekend schedule."
+          }
+        ]
+      },
+      "passage": {
+        "title": "My Weekend Plans",
+        "content": "I love weekends because I don't have school! This Saturday morning, I will help my mother clean the house. In the afternoon, I am going to play football with my friends at the park. I hope it is sunny! On Sunday morning, my family and I will visit my grandparents. They live in the countryside. My grandmother always cooks delicious food. In the afternoon, I will read my new comic book. I also want to finish my homework so I can relax. It will be a busy but fun weekend!",
+        "wordCount": 98,
+        "topic": "Weekend Plans"
+      },
+      "questions": [
+        {
+          "stemText": "Why does the writer love weekends?",
+          "options": [
+            "They can sleep late.",
+            "They can watch TV all day.",
+            "They don't have school.",
+            "They can eat a lot."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What will the writer do on Saturday morning?",
+          "options": [
+            "Play football",
+            "Visit grandparents",
+            "Clean the house with mother",
+            "Read a comic book"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What will the writer do on Saturday afternoon?",
+          "options": [
+            "Visit grandparents",
+            "Play football with friends",
+            "Read a book",
+            "Do homework"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Where will the writer play football?",
+          "options": [
+            "At school",
+            "At home",
+            "At the park",
+            "At a stadium"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Who will the writer visit on Sunday morning?",
+          "options": [
+            "Friends",
+            "Teachers",
+            "Grandparents",
+            "Aunts and uncles"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Where do the grandparents live?",
+          "options": [
+            "In the city",
+            "Near the beach",
+            "In the mountains",
+            "In the countryside"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "What will the writer do on Sunday afternoon?",
+          "options": [
+            "Watch TV",
+            "Play games",
+            "Read a new comic book",
+            "Go shopping"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does the writer want to finish to relax?",
+          "options": [
+            "Cleaning the house",
+            "Playing football",
+            "Visiting grandparents",
+            "Homework"
+          ],
+          "correctIndex": 3
+        }
+      ]
+    }
+  ]
+}

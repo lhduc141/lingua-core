@@ -1,0 +1,1136 @@
+{
+  "skill": "reading",
+  "cefrLevel": "A1",
+  "practiceSets": [
+    {
+      "title": "My Village, Binh Yen",
+      "description": "Learners will read about a girl and her village, practicing comprehension of simple descriptions of people and places.",
+      "estimatedMinutes": 15,
+      "passage": {
+        "title": "Hello from Binh Yen",
+        "content": "Hello, my name is Linh. I live in a small village called Binh Yen. It is a beautiful place near a big river. Many houses in Binh Yen have red roofs. My house is next to a green field where farmers grow rice. In the morning, I walk to school with my friend, Mai. We see many cows and chickens on the way. The air is always fresh here. In the evening, my family eats dinner together. My father is a farmer, and my mother works at home. I love my quiet village and my family very much.",
+        "wordCount": 97,
+        "topic": "People and Places"
+      },
+      "questions": [
+        {
+          "stemText": "What is the name of Linh's village?",
+          "options": [
+            "Binh Yen",
+            "Mai Village",
+            "Red Roof",
+            "Green Field"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Where is Binh Yen located?",
+          "options": [
+            "Near a big river",
+            "In a big city",
+            "On a mountain",
+            "Next to a school"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What color are many houses' roofs in Binh Yen?",
+          "options": [
+            "Red",
+            "Blue",
+            "Green",
+            "White"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What do farmers grow in the field next to Linh's house?",
+          "options": [
+            "Rice",
+            "Flowers",
+            "Vegetables",
+            "Trees"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Who does Linh walk to school with?",
+          "options": [
+            "Her friend, Mai",
+            "Her father",
+            "Her mother",
+            "Her brother"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What animals do Linh and Mai see on their way to school?",
+          "options": [
+            "Cows and chickens",
+            "Dogs and cats",
+            "Birds and fish",
+            "Horses and sheep"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does Linh's father do?",
+          "options": [
+            "He is a farmer",
+            "He is a teacher",
+            "He works in an office",
+            "He is a doctor"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does Linh's mother do?",
+          "options": [
+            "She works at home",
+            "She works at school",
+            "She works in the field",
+            "She works at the market"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How does Linh feel about her village and family?",
+          "options": [
+            "She loves them very much",
+            "She doesn't like them",
+            "She feels bored",
+            "She wants to leave"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the main idea of this passage?",
+          "options": [
+            "Linh's daily life in her village",
+            "How to grow rice",
+            "Animals in Binh Yen",
+            "Linh's school day"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "My Favorite Breakfast",
+      "description": "Learners will read about a simple breakfast and practice understanding descriptions of food and drink.",
+      "estimatedMinutes": 15,
+      "passage": {
+        "title": "A Tasty Start to the Day",
+        "content": "Every morning, I eat my favorite breakfast. It is a bowl of pho. Pho is a Vietnamese noodle soup. It has long white noodles, slices of beef, and green onions. My mother makes the best pho. She cooks it slowly, so the soup is very tasty. I also drink a glass of orange juice with my pho. Orange juice is sweet and fresh. Sometimes, I eat a small banana after my pho. Breakfast is my favorite meal of the day because it makes me strong and ready for school. I love the warm soup and the sweet juice.",
+        "wordCount": 99,
+        "topic": "Food and Drink"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main topic of this passage?",
+          "options": [
+            "The writer's favorite breakfast",
+            "How to make pho",
+            "Different kinds of fruit",
+            "School lunches"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the writer's favorite breakfast food?",
+          "options": [
+            "Pho",
+            "Banana",
+            "Orange juice",
+            "Bread"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of food is pho?",
+          "options": [
+            "Vietnamese noodle soup",
+            "A type of fruit",
+            "A sweet drink",
+            "A kind of bread"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What ingredients are mentioned in the pho?",
+          "options": [
+            "Noodles, beef, green onions",
+            "Rice, chicken, carrots",
+            "Bread, eggs, cheese",
+            "Potatoes, fish, tomatoes"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Who makes the pho?",
+          "options": [
+            "The writer's mother",
+            "The writer's father",
+            "The writer",
+            "A chef"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer drink with pho?",
+          "options": [
+            "Orange juice",
+            "Water",
+            "Milk",
+            "Coffee"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How is the orange juice described?",
+          "options": [
+            "Sweet and fresh",
+            "Hot and spicy",
+            "Sour and bitter",
+            "Salty and warm"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer sometimes eat after pho?",
+          "options": [
+            "A small banana",
+            "An apple",
+            "A cookie",
+            "Some cake"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Why is breakfast the writer's favorite meal?",
+          "options": [
+            "It makes them strong and ready for school",
+            "It is quick to eat",
+            "It is very cheap",
+            "It is the only meal they eat"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'tasty' mean in this passage?",
+          "options": [
+            "Delicious",
+            "Cold",
+            "Spicy",
+            "Big"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "My Morning Routine",
+      "description": "Learners will read about a simple daily routine, practicing comprehension of common actions and time expressions.",
+      "estimatedMinutes": 15,
+      "passage": {
+        "title": "A Typical Morning",
+        "content": "Every weekday, I wake up at six o'clock. First, I brush my teeth and wash my face. Then, I put on my school uniform. My mother always makes breakfast for me. I eat rice and eggs, and I drink a glass of milk. At seven o'clock, I say goodbye to my parents and walk to school. School starts at seven thirty. I like my morning routine because it helps me get ready for the day. After school, I come home, do my homework, and play with my dog. It's a busy but good day!",
+        "wordCount": 97,
+        "topic": "My Daily Life"
+      },
+      "questions": [
+        {
+          "stemText": "What time does the writer wake up on weekdays?",
+          "options": [
+            "Six o'clock",
+            "Seven o'clock",
+            "Seven thirty",
+            "Eight o'clock"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer do after waking up?",
+          "options": [
+            "Brushes teeth and washes face",
+            "Eats breakfast",
+            "Goes to school",
+            "Plays with the dog"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer wear for school?",
+          "options": [
+            "A school uniform",
+            "Casual clothes",
+            "Pajamas",
+            "Sports clothes"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Who makes breakfast for the writer?",
+          "options": [
+            "Mother",
+            "Father",
+            "The writer",
+            "A friend"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer eat and drink for breakfast?",
+          "options": [
+            "Rice, eggs, and milk",
+            "Bread, jam, and juice",
+            "Noodles and water",
+            "Fruit and tea"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What time does the writer leave for school?",
+          "options": [
+            "Seven o'clock",
+            "Six thirty",
+            "Seven thirty",
+            "Eight o'clock"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "When does school start?",
+          "options": [
+            "Seven thirty",
+            "Seven o'clock",
+            "Eight o'clock",
+            "Eight thirty"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Why does the writer like their morning routine?",
+          "options": [
+            "It helps them get ready for the day",
+            "It is very fast",
+            "It is fun",
+            "It is different every day"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer do after school?",
+          "options": [
+            "Homework and play with dog",
+            "Watch TV and sleep",
+            "Go shopping",
+            "Cook dinner"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'routine' mean in this passage?",
+          "options": [
+            "A regular way of doing things",
+            "A special event",
+            "A difficult task",
+            "A new game"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "My Pet Dog, Lucky",
+      "description": "Learners will read about a pet dog, practicing comprehension of descriptions of animals.",
+      "estimatedMinutes": 15,
+      "passage": {
+        "title": "Meet Lucky, My Best Friend",
+        "content": "I have a pet dog. His name is Lucky. He is a small dog with brown and white fur. Lucky loves to play in the park. Every afternoon, I take him for a walk. He runs very fast and chases the ball. Lucky is a friendly dog. He likes to meet new people and other dogs. At home, Lucky sleeps in a small bed next to my bed. He sometimes barks when he sees a cat outside. Lucky eats special dog food twice a day. He is a very happy dog, and I love him very much. He is my best friend.",
+        "wordCount": 100,
+        "topic": "Animals Around Us"
+      },
+      "questions": [
+        {
+          "stemText": "What is the name of the writer's pet?",
+          "options": [
+            "Lucky",
+            "Buddy",
+            "Max",
+            "Spot"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of animal is Lucky?",
+          "options": [
+            "A dog",
+            "A cat",
+            "A bird",
+            "A fish"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What color is Lucky's fur?",
+          "options": [
+            "Brown and white",
+            "Black and white",
+            "All brown",
+            "All white"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Where does Lucky love to play?",
+          "options": [
+            "In the park",
+            "In the house",
+            "In the garden",
+            "In the street"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How often does the writer take Lucky for a walk?",
+          "options": [
+            "Every afternoon",
+            "Every morning",
+            "Once a week",
+            "Never"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does Lucky do when he plays in the park?",
+          "options": [
+            "Runs fast and chases the ball",
+            "Sits quietly",
+            "Sleeps",
+            "Eats grass"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How is Lucky described?",
+          "options": [
+            "Friendly",
+            "Shy",
+            "Angry",
+            "Sad"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Where does Lucky sleep at home?",
+          "options": [
+            "In a small bed next to the writer's bed",
+            "On the sofa",
+            "Outside",
+            "In the kitchen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does Lucky sometimes do when he sees a cat?",
+          "options": [
+            "Barks",
+            "Meows",
+            "Sings",
+            "Sleeps"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'chases' mean in the passage?",
+          "options": [
+            "Runs after",
+            "Sits on",
+            "Hides from",
+            "Plays with"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "My Small Family Home",
+      "description": "Learners will read about a family and their home, practicing comprehension of simple descriptions of family and living spaces.",
+      "estimatedMinutes": 15,
+      "passage": {
+        "title": "Our Cozy House",
+        "content": "I live with my family in a small house. There are four people in my family: my father, my mother, my younger sister, and me. Our house has two bedrooms, a living room, and a kitchen. My favorite room is the living room. It has a big window, and I can see our small garden from there. We have a red sofa and a TV in the living room. In the kitchen, my mother cooks delicious meals every day. My sister and I share a bedroom. It has two beds and a big desk for homework. Our house is not big, but it is always warm and full of love.",
+        "wordCount": 105,
+        "topic": "Home and Family"
+      },
+      "questions": [
+        {
+          "stemText": "How many people are in the writer's family?",
+          "options": [
+            "Four",
+            "Three",
+            "Two",
+            "Five"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Who are the family members mentioned?",
+          "options": [
+            "Father, mother, younger sister, and writer",
+            "Father, mother, older brother, and writer",
+            "Grandparents, parents, and writer",
+            "Only parents and writer"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How many bedrooms does the house have?",
+          "options": [
+            "Two",
+            "One",
+            "Three",
+            "Four"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the writer's favorite room?",
+          "options": [
+            "The living room",
+            "The kitchen",
+            "The bedroom",
+            "The garden"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What can the writer see from the living room window?",
+          "options": [
+            "Our small garden",
+            "A big street",
+            "A tall building",
+            "The river"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What furniture is in the living room?",
+          "options": [
+            "A red sofa and a TV",
+            "A big bed and a desk",
+            "A dining table and chairs",
+            "A bookshelf and a lamp"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Who cooks meals in the kitchen?",
+          "options": [
+            "My mother",
+            "My father",
+            "My sister",
+            "The writer"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Who shares a bedroom?",
+          "options": [
+            "My sister and I",
+            "My parents",
+            "My father and sister",
+            "My mother and I"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is in the shared bedroom?",
+          "options": [
+            "Two beds and a big desk",
+            "One bed and a small table",
+            "A sofa and a TV",
+            "A wardrobe and a chair"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How is the house described at the end of the passage?",
+          "options": [
+            "Warm and full of love",
+            "Big and empty",
+            "Cold and quiet",
+            "New and modern"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "My School Day",
+      "description": "Learners will read about a typical school day, practicing comprehension of activities and subjects at school.",
+      "estimatedMinutes": 15,
+      "passage": {
+        "title": "Learning and Fun at School",
+        "content": "My school starts at 7:30 AM. I go to school with my friends. Our first class is Math. I like Math because numbers are fun. After Math, we have Vietnamese class. We learn to read and write in Vietnamese. At 10:00 AM, we have a short break. I eat a snack and play with my friends in the schoolyard. Then, we have Science class. We learn about animals and plants. Our last class is Art. I love to draw and paint. School finishes at 11:30 AM. I walk home feeling happy because I learn many new things every day.",
+        "wordCount": 103,
+        "topic": "At School"
+      },
+      "questions": [
+        {
+          "stemText": "What time does school start?",
+          "options": [
+            "7:30 AM",
+            "8:00 AM",
+            "7:00 AM",
+            "8:30 AM"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Who does the writer go to school with?",
+          "options": [
+            "Friends",
+            "Parents",
+            "Alone",
+            "Teacher"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the first class?",
+          "options": [
+            "Math",
+            "Vietnamese",
+            "Science",
+            "Art"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Why does the writer like Math?",
+          "options": [
+            "Because numbers are fun",
+            "Because it is easy",
+            "Because the teacher is nice",
+            "Because it is a quiet class"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What do they learn in Vietnamese class?",
+          "options": [
+            "To read and write in Vietnamese",
+            "To sing songs",
+            "To draw pictures",
+            "To play games"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "When is the short break?",
+          "options": [
+            "At 10:00 AM",
+            "At 9:00 AM",
+            "At 11:00 AM",
+            "At 12:00 PM"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer do during the break?",
+          "options": [
+            "Eats a snack and plays with friends",
+            "Studies alone",
+            "Goes home",
+            "Sleeps"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What do they learn in Science class?",
+          "options": [
+            "About animals and plants",
+            "About numbers",
+            "About drawing",
+            "About history"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the last class?",
+          "options": [
+            "Art",
+            "Math",
+            "Science",
+            "Vietnamese"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How does the writer feel when school finishes?",
+          "options": [
+            "Happy",
+            "Sad",
+            "Tired",
+            "Bored"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "A Rainy Day",
+      "description": "Learners will read about a rainy day, practicing comprehension of weather and simple natural phenomena.",
+      "estimatedMinutes": 15,
+      "passage": {
+        "title": "Rainy Day Fun",
+        "content": "Today is a rainy day. The sky is grey, and big drops of water fall from the clouds. I can hear the rain hitting the roof of my house. It is a little cold outside, so I wear a warm sweater. My mother says we cannot go to the park today. Instead, I stay inside and read my favorite book. My cat, Mimi, is sleeping on the sofa. She likes rainy days too because it is quiet. Sometimes, I look out the window and watch the rain. The trees look very green and clean after the rain. I like rainy days because I can relax at home.",
+        "wordCount": 99,
+        "topic": "Weather and Nature"
+      },
+      "questions": [
+        {
+          "stemText": "What kind of day is it?",
+          "options": [
+            "A rainy day",
+            "A sunny day",
+            "A windy day",
+            "A snowy day"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What color is the sky?",
+          "options": [
+            "Grey",
+            "Blue",
+            "White",
+            "Yellow"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer hear?",
+          "options": [
+            "Rain hitting the roof",
+            "Birds singing",
+            "People talking",
+            "Cars driving"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer wear because it is cold?",
+          "options": [
+            "A warm sweater",
+            "A T-shirt",
+            "Shorts",
+            "Sandals"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Why can't they go to the park?",
+          "options": [
+            "Because it is raining",
+            "Because it is too hot",
+            "Because it is too late",
+            "Because the park is closed"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer do instead of going to the park?",
+          "options": [
+            "Reads a book",
+            "Watches TV",
+            "Plays outside",
+            "Goes shopping"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Where is Mimi, the cat?",
+          "options": [
+            "Sleeping on the sofa",
+            "Playing in the garden",
+            "Eating in the kitchen",
+            "Watching the rain"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Why does Mimi like rainy days?",
+          "options": [
+            "Because it is quiet",
+            "Because she can play in the rain",
+            "Because she can chase birds",
+            "Because she gets more food"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How do the trees look after the rain?",
+          "options": [
+            "Very green and clean",
+            "Dry and brown",
+            "Small and weak",
+            "Yellow and sad"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'relax' mean in this passage?",
+          "options": [
+            "To rest and feel calm",
+            "To work hard",
+            "To be busy",
+            "To feel stressed"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "My Weekend Hobbies",
+      "description": "Learners will read about free time activities, practicing comprehension of hobbies and leisure.",
+      "estimatedMinutes": 15,
+      "passage": {
+        "title": "Fun on Saturdays and Sundays",
+        "content": "On weekends, I have a lot of free time. My favorite hobby is drawing. I love to draw animals, especially cats and dogs. I use colorful pencils and paper. Sometimes, I draw pictures for my friends. Another hobby is playing football with my friends. We go to the park on Saturday mornings. We run and kick the ball. It is good exercise. On Sunday afternoons, I often read books. I like adventure stories. My mother sometimes takes me to the library to choose new books. Weekends are great because I can do all the things I love!",
+        "wordCount": 104,
+        "topic": "Free Time Activities"
+      },
+      "questions": [
+        {
+          "stemText": "What is the writer's favorite hobby?",
+          "options": [
+            "Drawing",
+            "Playing football",
+            "Reading books",
+            "Going to the library"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer love to draw?",
+          "options": [
+            "Animals, especially cats and dogs",
+            "Houses and cars",
+            "People and trees",
+            "Flowers and fruit"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does the writer use for drawing?",
+          "options": [
+            "Colorful pencils and paper",
+            "Paint and brushes",
+            "Pens and notebooks",
+            "Crayons and a whiteboard"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Who does the writer play football with?",
+          "options": [
+            "Friends",
+            "Family",
+            "Alone",
+            "Teacher"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "When do they play football?",
+          "options": [
+            "On Saturday mornings",
+            "On Sunday afternoons",
+            "Every evening",
+            "After school"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Where do they play football?",
+          "options": [
+            "At the park",
+            "At school",
+            "In the garden",
+            "In the street"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of stories does the writer like to read?",
+          "options": [
+            "Adventure stories",
+            "Science fiction stories",
+            "Love stories",
+            "History stories"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Who sometimes takes the writer to the library?",
+          "options": [
+            "My mother",
+            "My father",
+            "My friend",
+            "My teacher"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Why are weekends great for the writer?",
+          "options": [
+            "Because they can do all the things they love",
+            "Because they don't have school",
+            "Because they can sleep all day",
+            "Because they get a lot of money"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'hobby' mean in this passage?",
+          "options": [
+            "An activity done for pleasure in free time",
+            "A job",
+            "A school subject",
+            "A difficult task"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "Shopping for Fruit",
+      "description": "Learners will read about a simple shopping trip, practicing comprehension of buying items and using money.",
+      "estimatedMinutes": 15,
+      "passage": {
+        "title": "A Trip to the Market",
+        "content": "Yesterday, my mother and I went to the market. We wanted to buy some fresh fruit. The market was very busy with many people. First, we went to a fruit stall. There were many colorful fruits: red apples, yellow bananas, and green mangoes. I chose some sweet oranges. They cost 20,000 VND for a kilo. My mother bought some juicy watermelons. She paid the seller with a 50,000 VND note. The seller gave her 10,000 VND change. Shopping at the market is fun because everything is fresh and the prices are good. We carried our bags of fruit home happily.",
+        "wordCount": 104,
+        "topic": "Shopping and Money"
+      },
+      "questions": [
+        {
+          "stemText": "Who went to the market?",
+          "options": [
+            "My mother and I",
+            "My father and I",
+            "My friends and I",
+            "My sister and I"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What did they want to buy?",
+          "options": [
+            "Some fresh fruit",
+            "New clothes",
+            "Toys",
+            "Books"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How was the market described?",
+          "options": [
+            "Very busy",
+            "Quiet",
+            "Empty",
+            "Small"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What colorful fruits are mentioned at the stall?",
+          "options": [
+            "Red apples, yellow bananas, green mangoes",
+            "Blueberries, strawberries, grapes",
+            "Pears, peaches, plums",
+            "Lemons, limes, pineapples"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What fruit did the writer choose?",
+          "options": [
+            "Sweet oranges",
+            "Red apples",
+            "Yellow bananas",
+            "Green mangoes"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How much did the oranges cost per kilo?",
+          "options": [
+            "20,000 VND",
+            "50,000 VND",
+            "10,000 VND",
+            "30,000 VND"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What fruit did the mother buy?",
+          "options": [
+            "Juicy watermelons",
+            "Sweet oranges",
+            "Red apples",
+            "Green mangoes"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How much money did the mother pay the seller?",
+          "options": [
+            "50,000 VND",
+            "20,000 VND",
+            "10,000 VND",
+            "100,000 VND"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How much change did the seller give back?",
+          "options": [
+            "10,000 VND",
+            "20,000 VND",
+            "30,000 VND",
+            "0 VND"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Why is shopping at the market fun for the writer?",
+          "options": [
+            "Everything is fresh and prices are good",
+            "It is very fast",
+            "They can meet many friends",
+            "They can play games"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "My Best Friend, An",
+      "description": "Learners will read about a best friend, practicing comprehension of descriptions of friends and feelings.",
+      "estimatedMinutes": 15,
+      "passage": {
+        "title": "A True Friend",
+        "content": "My best friend's name is An. She is ten years old, just like me. An has long black hair and a big smile. We live in the same neighborhood and go to the same school. An is a very kind person. She always helps me when I have a problem with my homework. She is also very funny. She tells good jokes, and we laugh a lot together. On weekends, we often ride our bikes in the park or read comic books. I feel happy when I am with An. She is a true friend, and I am lucky to have her.",
+        "wordCount": 99,
+        "topic": "Friends and Feelings"
+      },
+      "questions": [
+        {
+          "stemText": "What is the name of the writer's best friend?",
+          "options": [
+            "An",
+            "Mai",
+            "Linh",
+            "Hoa"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How old is An?",
+          "options": [
+            "Ten years old",
+            "Nine years old",
+            "Eleven years old",
+            "Twelve years old"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does An look like?",
+          "options": [
+            "Long black hair and a big smile",
+            "Short brown hair and glasses",
+            "Blonde hair and blue eyes",
+            "Red hair and freckles"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Where do An and the writer live?",
+          "options": [
+            "In the same neighborhood",
+            "In different cities",
+            "Next to the school",
+            "Far from each other"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What kind of person is An?",
+          "options": [
+            "Very kind",
+            "Shy",
+            "Quiet",
+            "Serious"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does An do when the writer has a problem with homework?",
+          "options": [
+            "She always helps",
+            "She ignores it",
+            "She laughs",
+            "She gets angry"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What else is An described as?",
+          "options": [
+            "Very funny",
+            "Very quiet",
+            "Very sad",
+            "Very busy"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What do they often do on weekends?",
+          "options": [
+            "Ride bikes or read comic books",
+            "Watch TV or play video games",
+            "Go shopping or cook",
+            "Study or clean the house"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "How does the writer feel when with An?",
+          "options": [
+            "Happy",
+            "Sad",
+            "Bored",
+            "Angry"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What does 'true friend' mean in this passage?",
+          "options": [
+            "A good and loyal friend",
+            "A friend who tells lies",
+            "A friend who is always busy",
+            "A friend who lives far away"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    }
+  ]
+}

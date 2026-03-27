@@ -1,0 +1,744 @@
+{
+  "skill": "writing",
+  "cefrLevel": "A1",
+  "practiceSets": [
+    {
+      "title": "Everyday Sentences: Home and Family",
+      "description": "Practice writing simple sentences about your home and family members.",
+      "estimatedMinutes": 15,
+      "questions": [
+        {
+          "stemText": "My ___ is big and comfortable.",
+          "answerKeys": [
+            "house",
+            "home"
+          ]
+        },
+        {
+          "stemText": "I live with my ___ and dad.",
+          "answerKeys": [
+            "mom",
+            "mother"
+          ]
+        },
+        {
+          "stemText": "We ___ dinner together every evening.",
+          "answerKeys": [
+            "eat",
+            "have"
+          ]
+        },
+        {
+          "stemText": "My sister ___ in her bedroom.",
+          "answerKeys": [
+            "sleeps",
+            "studies"
+          ]
+        },
+        {
+          "stemText": "The living ___ has a sofa and a TV.",
+          "answerKeys": [
+            "room"
+          ]
+        },
+        {
+          "stemText": "I help my mom ___ the dishes.",
+          "answerKeys": [
+            "wash",
+            "do"
+          ]
+        },
+        {
+          "stemText": "My ___ plays with toys in the garden.",
+          "answerKeys": [
+            "brother",
+            "dog",
+            "child"
+          ]
+        },
+        {
+          "stemText": "We have a small ___ in front of our house.",
+          "answerKeys": [
+            "garden",
+            "yard"
+          ]
+        },
+        {
+          "stemText": "My ___ is a teacher.",
+          "answerKeys": [
+            "father",
+            "mom",
+            "sister",
+            "brother"
+          ]
+        },
+        {
+          "stemText": "I like to ___ books in my room.",
+          "answerKeys": [
+            "read",
+            "study"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grammar Focus: Simple Present",
+      "description": "Practice using verbs in the simple present tense for daily actions and facts.",
+      "estimatedMinutes": 15,
+      "questions": [
+        {
+          "stemText": "She ___ to school every day.",
+          "answerKeys": [
+            "goes"
+          ]
+        },
+        {
+          "stemText": "They ___ English in the classroom.",
+          "answerKeys": [
+            "study",
+            "learn"
+          ]
+        },
+        {
+          "stemText": "He ___ coffee in the morning.",
+          "answerKeys": [
+            "drinks",
+            "has"
+          ]
+        },
+        {
+          "stemText": "We ___ dinner at 7 PM.",
+          "answerKeys": [
+            "eat",
+            "have"
+          ]
+        },
+        {
+          "stemText": "The sun ___ in the east.",
+          "answerKeys": [
+            "rises"
+          ]
+        },
+        {
+          "stemText": "I ___ my teeth twice a day.",
+          "answerKeys": [
+            "brush"
+          ]
+        },
+        {
+          "stemText": "My cat ___ a lot.",
+          "answerKeys": [
+            "sleeps",
+            "eats"
+          ]
+        },
+        {
+          "stemText": "You ___ good at drawing.",
+          "answerKeys": [
+            "are"
+          ]
+        },
+        {
+          "stemText": "Birds ___ in the sky.",
+          "answerKeys": [
+            "fly"
+          ]
+        },
+        {
+          "stemText": "She ___ her homework after school.",
+          "answerKeys": [
+            "does",
+            "finishes"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vocabulary: Food and Drink",
+      "description": "Learn and practice common words for food and drinks.",
+      "estimatedMinutes": 15,
+      "questions": [
+        {
+          "stemText": "For breakfast, I like to eat ___.",
+          "answerKeys": [
+            "bread",
+            "eggs",
+            "rice"
+          ]
+        },
+        {
+          "stemText": "My favorite fruit is a red ___.",
+          "answerKeys": [
+            "apple"
+          ]
+        },
+        {
+          "stemText": "I drink ___ every morning.",
+          "answerKeys": [
+            "coffee",
+            "tea",
+            "milk"
+          ]
+        },
+        {
+          "stemText": "We eat ___ for dinner.",
+          "answerKeys": [
+            "rice",
+            "chicken",
+            "fish"
+          ]
+        },
+        {
+          "stemText": "Would you like some ___ with your meal?",
+          "answerKeys": [
+            "water",
+            "juice"
+          ]
+        },
+        {
+          "stemText": "I like to put ___ on my sandwich.",
+          "answerKeys": [
+            "cheese",
+            "ham"
+          ]
+        },
+        {
+          "stemText": "She eats a ___ for a healthy snack.",
+          "answerKeys": [
+            "banana",
+            "apple",
+            "orange"
+          ]
+        },
+        {
+          "stemText": "My mom bakes delicious ___.",
+          "answerKeys": [
+            "cake",
+            "cookies"
+          ]
+        },
+        {
+          "stemText": "I often drink ___ when I'm thirsty.",
+          "answerKeys": [
+            "water",
+            "juice"
+          ]
+        },
+        {
+          "stemText": "Do you like to eat ___?",
+          "answerKeys": [
+            "pizza",
+            "pasta",
+            "salad"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Complete the Sentence: School Life",
+      "description": "Practice writing sentences about activities and things at school.",
+      "estimatedMinutes": 15,
+      "questions": [
+        {
+          "stemText": "I go to ___ every weekday.",
+          "answerKeys": [
+            "school"
+          ]
+        },
+        {
+          "stemText": "My favorite ___ is Math.",
+          "answerKeys": [
+            "subject"
+          ]
+        },
+        {
+          "stemText": "We read books in the ___.",
+          "answerKeys": [
+            "library"
+          ]
+        },
+        {
+          "stemText": "The ___ teaches us new things.",
+          "answerKeys": [
+            "teacher"
+          ]
+        },
+        {
+          "stemText": "I write with a ___ and a notebook.",
+          "answerKeys": [
+            "pen",
+            "pencil"
+          ]
+        },
+        {
+          "stemText": "We play games during ___ time.",
+          "answerKeys": [
+            "break",
+            "lunch"
+          ]
+        },
+        {
+          "stemText": "There are many ___ in my class.",
+          "answerKeys": [
+            "students",
+            "friends"
+          ]
+        },
+        {
+          "stemText": "I carry my books in my ___.",
+          "answerKeys": [
+            "backpack",
+            "bag"
+          ]
+        },
+        {
+          "stemText": "We learn about history in ___ class.",
+          "answerKeys": [
+            "history"
+          ]
+        },
+        {
+          "stemText": "I like to ___ with my friends at school.",
+          "answerKeys": [
+            "play",
+            "talk",
+            "study"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Words in Context: Weather",
+      "description": "Practice using vocabulary related to different weather conditions.",
+      "estimatedMinutes": 15,
+      "questions": [
+        {
+          "stemText": "Today it is ___ and warm.",
+          "answerKeys": [
+            "sunny"
+          ]
+        },
+        {
+          "stemText": "It is ___ outside, so I need an umbrella.",
+          "answerKeys": [
+            "raining",
+            "rainy"
+          ]
+        },
+        {
+          "stemText": "The ___ is blowing strongly today.",
+          "answerKeys": [
+            "wind"
+          ]
+        },
+        {
+          "stemText": "In winter, it can be very ___.",
+          "answerKeys": [
+            "cold",
+            "snowy"
+          ]
+        },
+        {
+          "stemText": "I like to play outside when it is ___.",
+          "answerKeys": [
+            "sunny",
+            "warm"
+          ]
+        },
+        {
+          "stemText": "Look! It's ___ outside, everything is white.",
+          "answerKeys": [
+            "snowing",
+            "snowy"
+          ]
+        },
+        {
+          "stemText": "The sky is ___ today, with many clouds.",
+          "answerKeys": [
+            "cloudy",
+            "grey"
+          ]
+        },
+        {
+          "stemText": "The ___ is 25 degrees Celsius.",
+          "answerKeys": [
+            "temperature"
+          ]
+        },
+        {
+          "stemText": "It's a beautiful ___ day.",
+          "answerKeys": [
+            "sunny",
+            "warm",
+            "clear"
+          ]
+        },
+        {
+          "stemText": "I wear a jacket when it's ___.",
+          "answerKeys": [
+            "cold",
+            "windy"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fill the Gap: Daily Routines",
+      "description": "Practice writing about common daily activities.",
+      "estimatedMinutes": 15,
+      "questions": [
+        {
+          "stemText": "I ___ up at 7 o'clock every morning.",
+          "answerKeys": [
+            "wake",
+            "get"
+          ]
+        },
+        {
+          "stemText": "After waking up, I ___ my teeth.",
+          "answerKeys": [
+            "brush"
+          ]
+        },
+        {
+          "stemText": "I ___ breakfast before going to school.",
+          "answerKeys": [
+            "eat",
+            "have"
+          ]
+        },
+        {
+          "stemText": "I ___ dressed for the day.",
+          "answerKeys": [
+            "get"
+          ]
+        },
+        {
+          "stemText": "After school, I ___ my homework.",
+          "answerKeys": [
+            "do",
+            "finish"
+          ]
+        },
+        {
+          "stemText": "I often ___ TV in the evening.",
+          "answerKeys": [
+            "watch"
+          ]
+        },
+        {
+          "stemText": "My family and I ___ dinner together.",
+          "answerKeys": [
+            "eat",
+            "have"
+          ]
+        },
+        {
+          "stemText": "Before bed, I like to ___ a book.",
+          "answerKeys": [
+            "read"
+          ]
+        },
+        {
+          "stemText": "I ___ to bed at 9 PM.",
+          "answerKeys": [
+            "go"
+          ]
+        },
+        {
+          "stemText": "On weekends, I ___ with my friends.",
+          "answerKeys": [
+            "play",
+            "meet"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Basic Vocabulary: Colors and Numbers",
+      "description": "Practice writing common colors and numbers.",
+      "estimatedMinutes": 15,
+      "questions": [
+        {
+          "stemText": "The sky is ___.",
+          "answerKeys": [
+            "blue"
+          ]
+        },
+        {
+          "stemText": "An apple can be ___ or green.",
+          "answerKeys": [
+            "red"
+          ]
+        },
+        {
+          "stemText": "I have ___ cat.",
+          "answerKeys": [
+            "one"
+          ]
+        },
+        {
+          "stemText": "A banana is usually ___.",
+          "answerKeys": [
+            "yellow"
+          ]
+        },
+        {
+          "stemText": "There are ___ fingers on one hand.",
+          "answerKeys": [
+            "five"
+          ]
+        },
+        {
+          "stemText": "My favorite color is ___.",
+          "answerKeys": [
+            "green",
+            "red",
+            "blue",
+            "yellow",
+            "black",
+            "white",
+            "pink",
+            "purple",
+            "orange",
+            "brown"
+          ]
+        },
+        {
+          "stemText": "A stop sign is ___.",
+          "answerKeys": [
+            "red"
+          ]
+        },
+        {
+          "stemText": "I have ___ eyes.",
+          "answerKeys": [
+            "two"
+          ]
+        },
+        {
+          "stemText": "The grass is ___.",
+          "answerKeys": [
+            "green"
+          ]
+        },
+        {
+          "stemText": "There are ___ days in a week.",
+          "answerKeys": [
+            "seven"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grammar: \"have\" and \"be\"",
+      "description": "Practice using the verbs 'have' and 'be' correctly in sentences.",
+      "estimatedMinutes": 15,
+      "questions": [
+        {
+          "stemText": "I ___ a student.",
+          "answerKeys": [
+            "am"
+          ]
+        },
+        {
+          "stemText": "She ___ a new book.",
+          "answerKeys": [
+            "has"
+          ]
+        },
+        {
+          "stemText": "They ___ happy to see you.",
+          "answerKeys": [
+            "are"
+          ]
+        },
+        {
+          "stemText": "We ___ two dogs.",
+          "answerKeys": [
+            "have"
+          ]
+        },
+        {
+          "stemText": "He ___ my brother.",
+          "answerKeys": [
+            "is"
+          ]
+        },
+        {
+          "stemText": "You ___ a nice smile.",
+          "answerKeys": [
+            "have"
+          ]
+        },
+        {
+          "stemText": "It ___ cold outside.",
+          "answerKeys": [
+            "is"
+          ]
+        },
+        {
+          "stemText": "My parents ___ a big car.",
+          "answerKeys": [
+            "have"
+          ]
+        },
+        {
+          "stemText": "The flowers ___ beautiful.",
+          "answerKeys": [
+            "are"
+          ]
+        },
+        {
+          "stemText": "I ___ a pen and a notebook.",
+          "answerKeys": [
+            "have"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sentence Completion: Animals",
+      "description": "Practice writing sentences using names of common animals.",
+      "estimatedMinutes": 15,
+      "questions": [
+        {
+          "stemText": "A ___ says 'meow'.",
+          "answerKeys": [
+            "cat"
+          ]
+        },
+        {
+          "stemText": "A ___ barks and likes to play.",
+          "answerKeys": [
+            "dog"
+          ]
+        },
+        {
+          "stemText": "A ___ can fly and has feathers.",
+          "answerKeys": [
+            "bird"
+          ]
+        },
+        {
+          "stemText": "A ___ eats grass and gives us milk.",
+          "answerKeys": [
+            "cow"
+          ]
+        },
+        {
+          "stemText": "A small, fast animal with a long tail is a ___.",
+          "answerKeys": [
+            "mouse",
+            "rat"
+          ]
+        },
+        {
+          "stemText": "A ___ lives in the water and swims.",
+          "answerKeys": [
+            "fish"
+          ]
+        },
+        {
+          "stemText": "A ___ is a big, strong animal that lives in the jungle.",
+          "answerKeys": [
+            "lion",
+            "tiger",
+            "elephant"
+          ]
+        },
+        {
+          "stemText": "A ___ is a farm animal that says 'oink'.",
+          "answerKeys": [
+            "pig"
+          ]
+        },
+        {
+          "stemText": "A long, green animal without legs is a ___.",
+          "answerKeys": [
+            "snake"
+          ]
+        },
+        {
+          "stemText": "A ___ can jump and has long ears.",
+          "answerKeys": [
+            "rabbit",
+            "bunny"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vocabulary Test: Feelings",
+      "description": "Test your knowledge of words that describe different feelings and emotions.",
+      "estimatedMinutes": 15,
+      "questions": [
+        {
+          "stemText": "I feel ___ when I get a present.",
+          "answerKeys": [
+            "happy",
+            "excited"
+          ]
+        },
+        {
+          "stemText": "She is ___ because she lost her toy.",
+          "answerKeys": [
+            "sad"
+          ]
+        },
+        {
+          "stemText": "He is ___ when he sees a spider.",
+          "answerKeys": [
+            "scared",
+            "afraid"
+          ]
+        },
+        {
+          "stemText": "I feel ___ after a long day of work.",
+          "answerKeys": [
+            "tired"
+          ]
+        },
+        {
+          "stemText": "They are ___ to meet new friends.",
+          "answerKeys": [
+            "excited",
+            "happy"
+          ]
+        },
+        {
+          "stemText": "She feels ___ when she doesn't understand something.",
+          "answerKeys": [
+            "confused"
+          ]
+        },
+        {
+          "stemText": "He is ___ because he won the game.",
+          "answerKeys": [
+            "happy",
+            "proud"
+          ]
+        },
+        {
+          "stemText": "I feel ___ when I have nothing to do.",
+          "answerKeys": [
+            "bored"
+          ]
+        },
+        {
+          "stemText": "She is ___ when someone takes her things.",
+          "answerKeys": [
+            "angry"
+          ]
+        },
+        {
+          "stemText": "We are ___ for the party tonight.",
+          "answerKeys": [
+            "excited",
+            "ready"
+          ]
+        }
+      ]
+    }
+  ]
+}

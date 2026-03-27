@@ -1,0 +1,1426 @@
+{
+  "skill": "writing",
+  "cefrLevel": "B2",
+  "lessons": [
+    {
+      "title": "Argumentative Essay: Social Media and Privacy",
+      "description": "This lesson focuses on structuring an argumentative essay, using formal language, and presenting a balanced argument on the complex issue of social media and user privacy.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Crafting a Strong Thesis Statement",
+            "content": "A B2 argumentative essay requires a clear, debatable thesis statement, usually placed at the end of the introduction. It should present your main argument and hint at the points you will discuss. Avoid statements of fact; instead, present an opinion that can be supported with evidence."
+          },
+          {
+            "type": "example",
+            "heading": "Using Concession Clauses for Balance",
+            "content": "To show a nuanced understanding, use concession clauses (e.g., 'While it is true that...', 'Although some argue...', 'Despite the fact that...') to acknowledge opposing viewpoints before presenting your counter-argument. \n\nIncorrect: Social media invades privacy. \nCorrect: While social media platforms offer unparalleled connectivity, their data collection practices often infringe upon user privacy, necessitating stricter regulations."
+          },
+          {
+            "type": "tip",
+            "heading": "Varying Sentence Structure for Cohesion",
+            "content": "To improve flow and readability, vary your sentence structures. Combine short, direct sentences with longer, more complex ones using conjunctions (e.g., 'however', 'consequently', 'furthermore') and relative clauses. This prevents monotony and helps connect ideas smoothly."
+          },
+          {
+            "type": "rule",
+            "heading": "Formal Vocabulary for Academic Tone",
+            "content": "In argumentative essays, use formal and academic vocabulary. Replace informal words with their more sophisticated equivalents (e.g., 'get' with 'obtain', 'a lot of' with 'numerous' or 'considerable', 'think' with 'contend' or 'assert'). This elevates the tone of your writing."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "The recent data breach has raised significant concerns about user ___ on social media platforms.",
+          "answerKeys": [
+            "privacy",
+            "security"
+          ]
+        },
+        {
+          "stemText": "Companies often ___ personal data to tailor advertisements, a practice many find intrusive.",
+          "answerKeys": [
+            "collect",
+            "gather"
+          ]
+        },
+        {
+          "stemText": "It is imperative that individuals understand the ___ of sharing too much information online.",
+          "answerKeys": [
+            "implications",
+            "consequences"
+          ]
+        },
+        {
+          "stemText": "Many argue that current regulations are ___ to adequately protect consumers' digital rights.",
+          "answerKeys": [
+            "insufficient",
+            "inadequate"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write an argumentative essay discussing the extent to which social media companies should be held responsible for protecting user data. Argue for or against stricter government regulation.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "To what extent do individuals compromise their own privacy by actively participating in social media? Discuss the balance between personal responsibility and platform accountability.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Analyze a News Article",
+      "description": "This lesson guides learners on how to critically analyze a news article, focusing on identifying bias, evaluating sources, and understanding the article's structure and language choices.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Objective vs. Subjective Language",
+            "content": "Objective language presents facts without personal feelings or interpretations, often using neutral vocabulary and direct statements. Subjective language, however, includes opinions, emotions, and loaded words, revealing the writer's bias. Look for adjectives, adverbs, and rhetorical devices that suggest a particular viewpoint."
+          },
+          {
+            "type": "example",
+            "heading": "Analyzing Tone and Diction",
+            "content": "The tone of a news article can be formal, informal, critical, supportive, or neutral. Diction (word choice) heavily influences tone. \n\nExample of subjective diction: 'The *disastrous* policy *recklessly* implemented by the government has *undermined* public trust.' (Critical tone) \nExample of objective diction: 'The policy, implemented by the government, has resulted in a decrease in public trust.' (Neutral tone)"
+          },
+          {
+            "type": "tip",
+            "heading": "Structuring an Article Analysis Essay",
+            "content": "An effective analysis essay typically includes: 1. Introduction (article summary, thesis on its main message/bias). 2. Body Paragraphs (each focusing on a specific aspect like language, sources, structure, or bias, with textual evidence). 3. Conclusion (restate thesis, summarize findings, offer final insight)."
+          },
+          {
+            "type": "rule",
+            "heading": "Using Reporting Verbs Effectively",
+            "content": "When referring to the article's content or the author's claims, use a variety of reporting verbs. Beyond 'says' or 'writes,' consider 'asserts,' 'contends,' 'suggests,' 'implies,' 'highlights,' 'emphasizes,' 'critiques,' or 'reports.' Choose verbs that accurately reflect the author's stance."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "The article's ___ language clearly indicates the author's disapproval of the new legislation.",
+          "answerKeys": [
+            "subjective",
+            "biased"
+          ]
+        },
+        {
+          "stemText": "To maintain ___, journalists must present facts without personal opinions or emotional appeals.",
+          "answerKeys": [
+            "objectivity",
+            "impartiality"
+          ]
+        },
+        {
+          "stemText": "The reporter failed to ___ multiple perspectives, which weakened the overall credibility of the piece.",
+          "answerKeys": [
+            "include",
+            "incorporate"
+          ]
+        },
+        {
+          "stemText": "The use of sensational headlines is a common tactic to ___ readers and increase engagement.",
+          "answerKeys": [
+            "attract",
+            "entice"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Choose a recent news article from a reputable source. Write an essay analyzing its main arguments, the evidence presented, and the author's tone. Discuss whether the article presents a balanced perspective.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "Select two news articles reporting on the same event from different media outlets. Compare and contrast their approaches, focusing on their use of language, choice of details, and potential biases.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Discuss an Ethical Dilemma at Work",
+      "description": "This lesson focuses on discussing complex ethical issues in a professional context, using appropriate vocabulary and structuring arguments clearly to explore different perspectives.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Defining the Ethical Dilemma Clearly",
+            "content": "Begin by clearly stating the ethical dilemma, explaining the conflicting values or principles at play. Use precise language to ensure the reader understands the core conflict and why it presents a difficult choice. Avoid vague descriptions."
+          },
+          {
+            "type": "example",
+            "heading": "Exploring Different Stakeholder Perspectives",
+            "content": "When discussing an ethical dilemma, consider how different individuals or groups (stakeholders) might be affected or view the situation. \n\nExample: 'From the perspective of the employee, prioritizing personal gain might seem rational, whereas the company's long-term reputation demands adherence to ethical guidelines.' This shows consideration for multiple viewpoints."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Conditional Sentences for Hypothetical Outcomes",
+            "content": "To explore potential consequences of different actions, use conditional sentences (Type 2 and 3). \n\nType 2 (hypothetical present/future): 'If the manager were to ignore the misconduct, it would set a dangerous precedent.' \nType 3 (hypothetical past): 'Had the team reported the issue earlier, they might have prevented the financial loss.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Ethical Discussion",
+            "content": "Employ specific vocabulary related to ethics and professional conduct. Words like 'integrity,' 'transparency,' 'accountability,' 'conflict of interest,' 'confidentiality,' 'misconduct,' 'dilemma,' 'moral,' and 'ethical framework' will enhance the sophistication of your discussion."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "The employee faced an ethical ___ when asked to falsify financial records.",
+          "answerKeys": [
+            "dilemma",
+            "predicament"
+          ]
+        },
+        {
+          "stemText": "Maintaining ___ is crucial in the workplace, especially when dealing with sensitive client information.",
+          "answerKeys": [
+            "confidentiality",
+            "discretion"
+          ]
+        },
+        {
+          "stemText": "The company's ___ code outlines expected behaviors and principles for all staff members.",
+          "answerKeys": [
+            "ethical",
+            "conduct"
+          ]
+        },
+        {
+          "stemText": "Ignoring the problem would ___ the company's reputation and potentially lead to legal issues.",
+          "answerKeys": [
+            "jeopardize",
+            "damage"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe a hypothetical ethical dilemma that could arise in a professional setting (e.g., a colleague taking credit for your work, discovering a company secret). Discuss the different courses of action and their potential consequences for all involved parties.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "Discuss the importance of transparency and accountability in the workplace. How can these principles help prevent ethical dilemmas, and what steps should a company take to foster such a culture?",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "The Impact of Globalization on Culture",
+      "description": "This lesson explores the multifaceted effects of globalization on local and global cultures, focusing on presenting a balanced argument and using appropriate academic vocabulary.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Complex Sentences for Nuance",
+            "content": "Globalization's impact is complex, so use complex sentences with subordinate clauses (e.g., 'although,' 'whereas,' 'because,' 'which,' 'that') to express nuanced relationships between ideas. This allows you to present multiple facets of an argument within a single sentence."
+          },
+          {
+            "type": "example",
+            "heading": "Developing Coherent Paragraphs",
+            "content": "Each body paragraph should focus on a single main idea related to the topic. Start with a clear topic sentence, followed by supporting sentences that provide explanations, examples, or evidence. Use transition words (e.g., 'furthermore,' 'in contrast,' 'consequently') to link ideas within and between paragraphs. \n\nIncorrect: Globalization spreads culture. It also makes cultures disappear. \nCorrect: Furthermore, while globalization facilitates the widespread dissemination of cultural products, it simultaneously poses a significant threat to the preservation of unique local traditions."
+          },
+          {
+            "type": "tip",
+            "heading": "Employing Specific Examples",
+            "content": "To make your arguments concrete, provide specific examples of cultural phenomena affected by globalization. Instead of saying 'culture changes,' mention 'the rise of global fast-food chains' or 'the increasing popularity of K-Pop in Western countries.' This adds credibility and clarity to your points."
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Cultural Discussion",
+            "content": "Enrich your writing with vocabulary related to culture and globalization. Consider words like 'homogenization,' 'cultural diffusion,' 'assimilation,' 'hybridization,' 'cultural identity,' 'indigenous,' 'diversity,' 'interconnectedness,' 'multiculturalism,' and 'erosion.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Globalization has led to the widespread ___ of Western consumer culture across the globe.",
+          "answerKeys": [
+            "diffusion",
+            "spread"
+          ]
+        },
+        {
+          "stemText": "Some fear that the increased interconnectedness will result in the ___ of unique local traditions.",
+          "answerKeys": [
+            "erosion",
+            "loss"
+          ]
+        },
+        {
+          "stemText": "The ___ of different cultures can create new forms of art and expression.",
+          "answerKeys": [
+            "hybridization",
+            "fusion"
+          ]
+        },
+        {
+          "stemText": "Maintaining a strong cultural ___ is challenging in an increasingly globalized world.",
+          "answerKeys": [
+            "identity",
+            "heritage"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Discuss the positive and negative impacts of globalization on cultural diversity. Provide specific examples to support your arguments.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "To what extent does globalization lead to cultural homogenization, and what measures can local communities take to preserve their unique cultural identities?",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Write a Critical Review of a Novel",
+      "description": "This lesson focuses on developing critical analysis skills for literature, structuring a review, and using descriptive and evaluative language to assess a novel's strengths and weaknesses.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Structuring a Critical Review",
+            "content": "A critical review typically includes: 1. Introduction (title, author, genre, brief summary, overall impression/thesis). 2. Body Paragraphs (analysis of plot, characters, themes, writing style, setting, etc., with specific examples). 3. Conclusion (reiterate overall assessment, recommend or not, final thoughts)."
+          },
+          {
+            "type": "example",
+            "heading": "Using Evaluative Adjectives and Adverbs",
+            "content": "Employ a range of evaluative vocabulary to express your judgment. \n\nInstead of: 'The plot was good.' \nTry: 'The plot was *intricately woven* and *masterfully executed*.' \n\nInstead of: 'The characters were interesting.' \nTry: 'The characters were *compellingly complex* and *remarkably well-developed*.' \n\nUse adverbs like 'skillfully,' 'effectively,' 'poorly,' 'convincingly,' 'unconvincingly.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Integrating Evidence from the Text",
+            "content": "Support your critical points with brief, relevant examples or direct quotes from the novel. This substantiates your claims and shows a close reading. Remember to integrate quotes smoothly into your own sentences rather than dropping them in abruptly."
+          },
+          {
+            "type": "rule",
+            "heading": "Maintaining an Academic but Engaging Tone",
+            "content": "While a review is an opinion piece, it should be presented in an academic and objective manner. Avoid overly informal language or excessive personal anecdotes. Aim for a tone that is authoritative yet inviting, encouraging the reader to consider your perspective."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "The novel's ___ was both unpredictable and deeply thought-provoking, keeping readers engaged.",
+          "answerKeys": [
+            "plot",
+            "narrative"
+          ]
+        },
+        {
+          "stemText": "The author's writing ___ is characterized by vivid imagery and profound philosophical insights.",
+          "answerKeys": [
+            "style",
+            "prose"
+          ]
+        },
+        {
+          "stemText": "The main ___ underwent a significant transformation throughout the story, making them relatable.",
+          "answerKeys": [
+            "character",
+            "protagonist"
+          ]
+        },
+        {
+          "stemText": "Despite its compelling narrative, the novel suffered from a rather ___ ending.",
+          "answerKeys": [
+            "anticlimactic",
+            "disappointing"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Choose a novel you have recently read. Write a critical review, discussing its plot, character development, themes, and writing style. Conclude with your overall assessment and recommendation.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "Analyze how the author of a chosen novel uses literary devices (e.g., symbolism, metaphor, foreshadowing) to convey the main themes or develop the characters. Support your analysis with specific examples from the text.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Science, Technology and Society",
+      "description": "This lesson focuses on discussing the intricate relationship between scientific advancements, technological innovation, and their broader impact on society, using formal language and clear argumentation.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Cause and Effect Language",
+            "content": "When discussing the impact of science and technology, use precise language to show cause-and-effect relationships. Employ phrases like 'leads to,' 'results in,' 'contributes to,' 'is a consequence of,' 'consequently,' 'as a result,' 'owing to,' and 'thereby enabling.' This clarifies the connections between ideas."
+          },
+          {
+            "type": "example",
+            "heading": "Distinguishing Between Science and Technology",
+            "content": "While often used interchangeably, it's important to distinguish between science (the pursuit of knowledge) and technology (the application of knowledge). \n\nIncorrect: 'Science has given us smartphones.' \nCorrect: 'Scientific discoveries in physics and materials science have *enabled* the development of smartphone *technology*.' This distinction adds precision to your arguments."
+          },
+          {
+            "type": "tip",
+            "heading": "Supporting Claims with Evidence/Examples",
+            "content": "When discussing the societal impact of science and technology, provide concrete examples. Instead of saying 'technology helps communication,' mention 'the advent of video conferencing has revolutionized remote work' or 'social media platforms have reshaped political discourse.' Specificity strengthens your points."
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for STS Discussion",
+            "content": "Utilize academic vocabulary relevant to science, technology, and society. Words such as 'innovation,' 'advancement,' 'disruption,' 'ethical implications,' 'sustainability,' 'digital divide,' 'automation,' 'biotechnology,' 'artificial intelligence,' and 'paradigm shift' will enhance your writing."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "The rapid ___ of artificial intelligence is transforming various sectors of the economy.",
+          "answerKeys": [
+            "advancement",
+            "development"
+          ]
+        },
+        {
+          "stemText": "While technology offers numerous benefits, it also presents significant ethical ___.",
+          "answerKeys": [
+            "implications",
+            "challenges"
+          ]
+        },
+        {
+          "stemText": "The ___ of renewable energy sources is crucial for addressing climate change.",
+          "answerKeys": [
+            "development",
+            "utilization"
+          ]
+        },
+        {
+          "stemText": "The digital ___ refers to the gap between those who have access to technology and those who do not.",
+          "answerKeys": [
+            "divide",
+            "gap"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Discuss how a specific scientific or technological advancement (e.g., the internet, genetic engineering, renewable energy) has profoundly impacted human society, considering both positive and negative consequences.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "To what extent should society prioritize scientific research and technological innovation, even when there are potential ethical concerns or risks involved? Argue your position with examples.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Write About Social Inequality",
+      "description": "This lesson focuses on analyzing and discussing the causes and consequences of social inequality, using formal language, clear argumentation, and evidence-based reasoning.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Nominalization for Formal Tone",
+            "content": "Nominalization involves turning verbs or adjectives into nouns (e.g., 'to develop' -> 'development', 'equal' -> 'equality'). This often makes writing sound more formal and academic, which is appropriate for discussing complex social issues. \n\nExample: 'When people are not equal, it causes problems.' -> 'Social *inequality* can lead to various societal *problems*.'"
+          },
+          {
+            "type": "example",
+            "heading": "Structuring Arguments with Evidence",
+            "content": "Each paragraph should present a clear argument supported by evidence or logical reasoning. Start with a topic sentence, elaborate on the idea, and then provide a specific example, statistic (even if hypothetical), or logical explanation. \n\nExample: 'Educational disparities often perpetuate social inequality. For instance, children from low-income backgrounds frequently lack access to quality schooling, which limits their future opportunities and reinforces cycles of poverty.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Employing Connectors for Cohesion",
+            "content": "Use a variety of cohesive devices to link sentences and paragraphs smoothly. These include transition words (e.g., 'furthermore,' 'consequently,' 'in contrast,' 'however'), reference pronouns (e.g., 'this,' 'these'), and repetition of key terms. This ensures your arguments flow logically."
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Social Issues",
+            "content": "Develop a strong vocabulary related to social inequality. Key terms include 'disparity,' 'marginalization,' 'discrimination,' 'privilege,' 'socioeconomic status,' 'equity,' 'access,' 'opportunity,' 'systemic,' 'poverty,' 'wealth gap,' and 'social mobility.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Social ___ can manifest in various forms, including income, education, and healthcare.",
+          "answerKeys": [
+            "inequality",
+            "disparity"
+          ]
+        },
+        {
+          "stemText": "Addressing the root causes of ___ is essential for creating a more just society.",
+          "answerKeys": [
+            "poverty",
+            "deprivation"
+          ]
+        },
+        {
+          "stemText": "Policies aimed at promoting equal ___ can help reduce the wealth gap.",
+          "answerKeys": [
+            "opportunity",
+            "access"
+          ]
+        },
+        {
+          "stemText": "Certain groups in society often face ___ due to their ethnicity or gender.",
+          "answerKeys": [
+            "discrimination",
+            "prejudice"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Discuss the primary causes of social inequality in modern society. Focus on two or three key factors and explain how they contribute to disparities in wealth, education, or opportunity.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "Propose and justify specific governmental or community-based initiatives that could effectively reduce social inequality in a developing country. Consider the potential challenges and benefits of your proposals.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Propose a Business Idea",
+      "description": "This lesson focuses on developing a clear, persuasive proposal for a business idea, emphasizing logical organization, professional language, and the ability to articulate value propositions.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Structuring a Business Proposal",
+            "content": "A business proposal should be well-organized. Typically, it includes: 1. Executive Summary (brief overview). 2. Problem Statement (identifies a market need). 3. Solution (your business idea). 4. Target Market. 5. Competitive Advantage. 6. Revenue Model (how it makes money). 7. Call to Action. Use clear headings for each section."
+          },
+          {
+            "type": "example",
+            "heading": "Articulating a Unique Value Proposition",
+            "content": "Clearly state what makes your business idea unique and valuable to customers. \n\nIncorrect: 'My app is good for learning English.' \nCorrect: 'Our innovative mobile application offers personalized, AI-driven English pronunciation feedback, a feature currently unmatched by competitors, thereby significantly enhancing learner confidence and fluency.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Using Persuasive Language",
+            "content": "Employ language that convinces the reader of your idea's potential. Use strong verbs and positive adjectives. Focus on benefits rather than just features. Phrases like 'will revolutionize,' 'offers unparalleled advantages,' 'addresses a critical need,' and 'guarantees significant returns' can be effective."
+          },
+          {
+            "type": "rule",
+            "heading": "Formal and Professional Vocabulary",
+            "content": "Maintain a formal and professional tone. Avoid slang, contractions, and overly casual language. Use business-specific vocabulary such as 'market research,' 'feasibility,' 'profit margin,' 'scalability,' 'revenue stream,' 'stakeholders,' 'competitive landscape,' and 'return on investment (ROI).'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Our business idea aims to address a significant market ___ for affordable, eco-friendly packaging.",
+          "answerKeys": [
+            "need",
+            "gap"
+          ]
+        },
+        {
+          "stemText": "The unique ___ proposition of our service lies in its personalized approach to customer support.",
+          "answerKeys": [
+            "value",
+            "selling"
+          ]
+        },
+        {
+          "stemText": "We project a substantial return on ___ within the first three years of operation.",
+          "answerKeys": [
+            "investment",
+            "capital"
+          ]
+        },
+        {
+          "stemText": "Detailed market ___ indicates a strong demand for our proposed product.",
+          "answerKeys": [
+            "research",
+            "analysis"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Propose a new business idea that addresses a specific problem or need in your local community or country. Describe the problem, your solution, your target market, and how your business would generate revenue.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "Imagine you are pitching your business idea to potential investors. Write a persuasive essay outlining your business's unique selling points, its competitive advantage, and why it represents a viable and profitable investment opportunity.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Psychological Concepts in Everyday Life",
+      "description": "This lesson focuses on explaining and illustrating psychological concepts using clear language and relatable examples from daily life, enhancing descriptive and explanatory writing skills.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Explaining Complex Concepts Simply",
+            "content": "When explaining psychological concepts, break them down into understandable parts. Start with a clear definition, then elaborate with simpler terms. Avoid jargon where possible, or explain it immediately after use. The goal is clarity for a general audience."
+          },
+          {
+            "type": "example",
+            "heading": "Illustrating with Concrete Examples",
+            "content": "Abstract psychological concepts become clearer when illustrated with concrete, everyday examples. \n\nIncorrect: 'Cognitive bias affects decisions.' \nCorrect: 'Confirmation bias, a type of cognitive bias, is evident when people only seek out news articles that support their existing political views, thereby reinforcing their beliefs and ignoring contradictory evidence.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Using Transitional Phrases for Flow",
+            "content": "To ensure smooth transitions between definitions, explanations, and examples, use phrases like 'for instance,' 'a prime example is,' 'this means that,' 'in other words,' 'consequently,' 'as a result,' and 'furthermore.' This helps guide the reader through your explanation."
+          },
+          {
+            "type": "rule",
+            "heading": "Precise Vocabulary for Psychological Discussion",
+            "content": "While simplifying, use precise psychological vocabulary where appropriate. Terms like 'cognitive dissonance,' 'confirmation bias,' 'placebo effect,' 'operant conditioning,' 'self-efficacy,' 'empathy,' 'resilience,' and 'intrinsic motivation' add accuracy and depth to your explanations."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "The ___ effect demonstrates how a patient's belief in a treatment can influence its effectiveness.",
+          "answerKeys": [
+            "placebo",
+            "expectancy"
+          ]
+        },
+        {
+          "stemText": "___ bias occurs when individuals favor information that confirms their existing beliefs.",
+          "answerKeys": [
+            "Confirmation",
+            "Cognitive"
+          ]
+        },
+        {
+          "stemText": "Experiencing ___ dissonance can be uncomfortable, as it involves holding conflicting beliefs or attitudes.",
+          "answerKeys": [
+            "cognitive",
+            "mental"
+          ]
+        },
+        {
+          "stemText": "A high level of ___ allows individuals to recover quickly from setbacks and adversity.",
+          "answerKeys": [
+            "resilience",
+            "fortitude"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Choose two psychological concepts (e.g., 'confirmation bias,' 'cognitive dissonance,' 'the bystander effect'). Explain each concept clearly and provide a distinct, real-life example for how it manifests in everyday situations.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "Discuss how an understanding of basic psychological principles can improve personal relationships or enhance problem-solving skills in a professional context. Provide specific examples to illustrate your points.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Art and Its Role in Society",
+      "description": "This lesson explores the multifaceted role of art in society, focusing on analytical writing, expressing opinions, and using descriptive language to discuss artistic impact.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Developing a Thesis on Art's Role",
+            "content": "Your essay should have a clear thesis statement that articulates your main argument about art's role in society. This could be about its power to provoke thought, challenge norms, preserve culture, or foster community. Ensure it's debatable and specific."
+          },
+          {
+            "type": "example",
+            "heading": "Describing and Interpreting Art",
+            "content": "When discussing specific artworks, don't just state what they are; describe their key features and interpret their meaning or impact. \n\nIncorrect: 'Picasso's Guernica is a painting about war.' \nCorrect: 'Picasso's 'Guernica,' with its stark monochromatic palette and fragmented figures, powerfully depicts the horrors of war and serves as a timeless anti-war statement, evoking profound empathy from viewers.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Using Figurative Language Appropriately",
+            "content": "While maintaining an academic tone, you can use figurative language (metaphors, similes) to vividly describe art and its effects. However, ensure it enhances clarity and impact, rather than obscuring your meaning. For example, 'Art acts as a mirror reflecting societal truths.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Art Discussion",
+            "content": "Expand your vocabulary for discussing art. Include terms like 'aesthetic,' 'medium,' 'genre,' 'interpretation,' 'symbolism,' 'critique,' 'patronage,' 'expression,' 'innovation,' 'provocative,' 'evocative,' 'cultural heritage,' and 'social commentary.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Art often serves as a powerful medium for social ___, challenging existing norms and sparking dialogue.",
+          "answerKeys": [
+            "commentary",
+            "critique"
+          ]
+        },
+        {
+          "stemText": "The ___ of a painting can evoke strong emotions and personal reflections in the viewer.",
+          "answerKeys": [
+            "aesthetic",
+            "beauty"
+          ]
+        },
+        {
+          "stemText": "Through its diverse forms, art plays a crucial role in preserving and transmitting cultural ___.",
+          "answerKeys": [
+            "heritage",
+            "traditions"
+          ]
+        },
+        {
+          "stemText": "Many artists aim to create works that are not only beautiful but also ___ and thought-provoking.",
+          "answerKeys": [
+            "provocative",
+            "challenging"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Discuss the various roles that art plays in society, such as reflecting culture, challenging norms, or fostering community. Provide specific examples of artworks or artistic movements to support your points.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "To what extent should art be funded by governments or public institutions? Argue for or against public funding, considering the benefits and potential drawbacks for artists and society.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Write About Sustainable Development",
+      "description": "This lesson focuses on discussing the principles and challenges of sustainable development, using formal language, clear argumentation, and problem-solution structures.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Defining Sustainable Development",
+            "content": "Start by clearly defining sustainable development, often citing the Brundtland Commission's definition: 'development that meets the needs of the present without compromising the ability of future generations to meet their own needs.' This sets a clear foundation for your discussion."
+          },
+          {
+            "type": "example",
+            "heading": "Using Problem-Solution Structures",
+            "content": "Many discussions on sustainable development involve identifying problems and proposing solutions. Structure your paragraphs by first outlining an issue (e.g., resource depletion) and then presenting potential remedies. \n\nExample: 'The rapid depletion of non-renewable resources poses a significant threat to long-term sustainability. To mitigate this, governments must invest heavily in renewable energy technologies and implement policies that encourage circular economy principles.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Incorporating Data and Statistics (Hypothetical)",
+            "content": "Even if you don't have real data, referencing the *type* of data that would support your argument (e.g., 'studies show,' 'statistics indicate') adds credibility. For B2, you can use hypothetical figures to illustrate a point. For example, 'If current consumption patterns continue, experts predict a 30% increase in waste by 2030.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Environmental and Development Issues",
+            "content": "Employ a rich vocabulary related to sustainability. Key terms include 'environmental degradation,' 'resource depletion,' 'renewable energy,' 'carbon footprint,' 'biodiversity,' 'ecosystem,' 'climate change mitigation,' 'adaptation,' 'circular economy,' 'green technologies,' and 'intergenerational equity.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Sustainable development aims to meet present needs without ___ future generations' ability to meet their own.",
+          "answerKeys": [
+            "compromising",
+            "jeopardizing"
+          ]
+        },
+        {
+          "stemText": "The transition to ___ energy sources is vital for reducing carbon emissions.",
+          "answerKeys": [
+            "renewable",
+            "clean"
+          ]
+        },
+        {
+          "stemText": "Addressing environmental ___ requires a global effort and policy changes.",
+          "answerKeys": [
+            "degradation",
+            "pollution"
+          ]
+        },
+        {
+          "stemText": "A ___ economy focuses on minimizing waste and maximizing resource efficiency.",
+          "answerKeys": [
+            "circular",
+            "sustainable"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Discuss the main challenges faced by developing countries in achieving sustainable development goals. Propose practical solutions that can be implemented at local or national levels.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "To what extent is individual action (e.g., recycling, reducing consumption) sufficient to address global environmental issues, or is systemic change (e.g., government policies, corporate responsibility) more crucial? Argue your position.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "A Discursive Essay on Immigration",
+      "description": "This lesson focuses on writing a balanced discursive essay on immigration, presenting multiple perspectives, using objective language, and structuring arguments logically.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Structuring a Discursive Essay",
+            "content": "A discursive essay requires you to explore different sides of an issue. Start with an introduction that outlines the topic and its complexity. Body paragraphs should each present a distinct argument or perspective, supported by evidence or reasoning. Conclude by summarizing the arguments and offering a balanced, nuanced final thought, without necessarily taking a strong personal stance."
+          },
+          {
+            "type": "example",
+            "heading": "Using Impersonal and Objective Language",
+            "content": "Maintain an objective tone by using impersonal constructions and avoiding overly emotional language. \n\nInstead of: 'I think immigration is good.' \nTry: 'It is widely contended that immigration offers significant economic benefits.' \n\nInstead of: 'Immigrants suffer a lot.' \nTry: 'Immigrants often face considerable challenges related to integration and cultural adjustment.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Acknowledging Counterarguments",
+            "content": "To demonstrate a comprehensive understanding, acknowledge and briefly address counterarguments. Use phrases like 'While some argue that...', 'Conversely, it is also maintained that...', or 'However, critics point out that...' This shows critical thinking and balance."
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Immigration Discussion",
+            "content": "Employ precise vocabulary related to immigration. Key terms include 'migrant,' 'refugee,' 'asylum seeker,' 'integration,' 'assimilation,' 'cultural diversity,' 'economic contribution,' 'brain drain,' 'remittances,' 'border control,' 'xenophobia,' and 'demographic shift.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Immigration can bring significant economic ___ to host countries, including increased labor supply.",
+          "answerKeys": [
+            "benefits",
+            "advantages"
+          ]
+        },
+        {
+          "stemText": "Many immigrants face challenges related to cultural ___ and language barriers.",
+          "answerKeys": [
+            "integration",
+            "assimilation"
+          ]
+        },
+        {
+          "stemText": "The ___ of skilled workers from developing countries can sometimes lead to a 'brain drain'.",
+          "answerKeys": [
+            "emigration",
+            "departure"
+          ]
+        },
+        {
+          "stemText": "Governments must balance the need for border control with humanitarian ___ for asylum seekers.",
+          "answerKeys": [
+            "obligations",
+            "responsibilities"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Discuss the various economic and social impacts of immigration on both host countries and countries of origin. Present a balanced view, considering both positive and negative consequences.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "To what extent should host countries prioritize the integration of immigrants into their society? Discuss the responsibilities of both immigrants and host communities in fostering successful integration.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Discuss AI in Education",
+      "description": "This lesson focuses on discussing the opportunities and challenges presented by Artificial Intelligence in education, using formal language, balanced argumentation, and future-oriented perspectives.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Forecasting Future Impacts",
+            "content": "When discussing emerging technologies like AI, use future tenses and modal verbs (e.g., 'will,' 'may,' 'might,' 'could') to speculate on potential future impacts. Phrases like 'AI is poised to revolutionize,' 'it is anticipated that,' or 'the potential implications include' are useful."
+          },
+          {
+            "type": "example",
+            "heading": "Using Parallel Structures for Comparison",
+            "content": "When comparing different aspects or impacts of AI, use parallel structures to enhance clarity and readability. \n\nIncorrect: 'AI can personalize learning. It also helps teachers.' \nCorrect: 'AI offers the potential for highly personalized learning experiences, *while simultaneously* assisting educators in automating administrative tasks and providing data-driven insights.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Providing Specific Examples of AI Applications",
+            "content": "To make your discussion concrete, refer to specific applications of AI in education. Instead of 'AI helps students,' mention 'AI-powered tutoring systems,' 'adaptive learning platforms,' 'automated grading tools,' or 'AI for content creation.' This adds depth to your arguments."
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Technology and Education",
+            "content": "Employ specialized vocabulary relevant to AI and education. Terms include 'adaptive learning,' 'personalized instruction,' 'automated assessment,' 'data analytics,' 'pedagogy,' 'curriculum development,' 'digital literacy,' 'ethical considerations,' 'human-AI collaboration,' and 'disruptive technology.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "AI has the potential to ___ learning experiences, tailoring content to individual student needs.",
+          "answerKeys": [
+            "personalize",
+            "customize"
+          ]
+        },
+        {
+          "stemText": "The use of AI in education raises ethical ___ regarding data privacy and algorithmic bias.",
+          "answerKeys": [
+            "concerns",
+            "questions"
+          ]
+        },
+        {
+          "stemText": "AI-powered tools can ___ administrative tasks, allowing teachers to focus more on instruction.",
+          "answerKeys": [
+            "automate",
+            "streamline"
+          ]
+        },
+        {
+          "stemText": "Developing students' digital ___ is crucial for preparing them for a future with advanced AI.",
+          "answerKeys": [
+            "literacy",
+            "competence"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Discuss the potential benefits and drawbacks of integrating Artificial Intelligence into educational systems. Consider its impact on students, teachers, and the learning process.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "To what extent should educational institutions embrace AI technologies, and what measures should be put in place to ensure equitable access and ethical use? Argue your position with specific recommendations.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Critique a Political Policy",
+      "description": "This lesson focuses on critically analyzing a political policy, structuring a critique, using formal language, and supporting arguments with logical reasoning and potential evidence.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Structuring a Policy Critique",
+            "content": "A policy critique should include: 1. Introduction (identify the policy, its purpose, and your overall stance/thesis). 2. Body Paragraphs (each focusing on a specific aspect of the policy – e.g., its goals, implementation, impact, or alternatives – with supporting arguments). 3. Conclusion (summarize your critique and offer recommendations)."
+          },
+          {
+            "type": "example",
+            "heading": "Using Evidence and Counterarguments",
+            "content": "Support your critique with logical reasoning, hypothetical data, or reference to common knowledge. Also, acknowledge potential counterarguments to demonstrate a balanced perspective, even if you ultimately disagree. \n\nExample: 'While proponents argue the tax cut will stimulate economic growth, historical data often suggests such measures disproportionately benefit the wealthy, potentially exacerbating income inequality.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Proposing Alternatives or Improvements",
+            "content": "A strong critique often goes beyond identifying flaws; it suggests ways the policy could be improved or proposes alternative solutions. This demonstrates constructive engagement with the issue. Use phrases like 'Instead, the government should consider...' or 'A more effective approach would involve...'"
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Policy Analysis",
+            "content": "Employ formal and specific vocabulary for political and policy discussions. Terms include 'legislation,' 'implementation,' 'efficacy,' 'consequences,' 'stakeholders,' 'constituents,' 'fiscal policy,' 'social welfare,' 'regulatory framework,' 'public discourse,' 'accountability,' and 'transparency.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "The new environmental ___ aims to reduce carbon emissions by 20% over the next decade.",
+          "answerKeys": [
+            "policy",
+            "legislation"
+          ]
+        },
+        {
+          "stemText": "Critics argue that the policy's ___ is flawed and will not achieve its stated objectives.",
+          "answerKeys": [
+            "implementation",
+            "execution"
+          ]
+        },
+        {
+          "stemText": "The long-term ___ of this economic measure are yet to be fully understood.",
+          "answerKeys": [
+            "consequences",
+            "effects"
+          ]
+        },
+        {
+          "stemText": "Public ___ on the proposed healthcare reforms has been largely divided.",
+          "answerKeys": [
+            "discourse",
+            "debate"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Choose a recent political policy (local or national) that you are familiar with. Write a critical essay analyzing its stated goals, its potential or actual impacts, and any perceived flaws in its design or implementation. Suggest improvements if possible.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "Critique a government policy related to education, healthcare, or the economy. Discuss whether the policy adequately addresses the problem it intends to solve, considering its fairness, effectiveness, and sustainability.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Write a Formal Report on Urban Growth",
+      "description": "This lesson focuses on writing a formal report, emphasizing objective language, clear structure, and the presentation of factual information and analysis on urban growth.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Structure of a Formal Report",
+            "content": "A formal report typically includes: 1. Introduction (purpose, scope). 2. Background (context). 3. Findings/Analysis (data, observations). 4. Discussion (interpretation of findings). 5. Conclusion (summary of main points). 6. Recommendations (actions to take). Use clear headings and subheadings."
+          },
+          {
+            "type": "example",
+            "heading": "Using Impersonal and Objective Language",
+            "content": "Formal reports require an impersonal and objective tone. Avoid personal pronouns (I, we, you) and subjective statements. Use passive voice or impersonal constructions. \n\nIncorrect: 'I think the city is growing too fast.' \nCorrect: 'It is observed that the rate of urban expansion has accelerated significantly.' \n\nIncorrect: 'We found that traffic is bad.' \nCorrect: 'Analysis indicates a substantial increase in traffic congestion.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Citing Sources (Hypothetically)",
+            "content": "In a formal report, it's crucial to acknowledge sources of information. Even in a practice essay, you can use phrases like 'According to the latest demographic survey,' 'Data from the Department of Urban Planning indicates,' or 'As reported by environmental agencies.' This adds authority to your statements."
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Urban Planning",
+            "content": "Employ precise vocabulary related to urban growth and planning. Terms include 'urbanization,' 'infrastructure,' 'demographics,' 'sustainability,' 'congestion,' 'sprawl,' 'gentrification,' 'housing affordability,' 'public transport,' 'green spaces,' 'resilience,' and 'metropolitan area.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "The rapid ___ has placed immense strain on the city's existing infrastructure.",
+          "answerKeys": [
+            "urbanization",
+            "growth"
+          ]
+        },
+        {
+          "stemText": "Improving public ___ is essential to alleviate traffic congestion in the city center.",
+          "answerKeys": [
+            "transport",
+            "transportation"
+          ]
+        },
+        {
+          "stemText": "The report highlights concerns about the long-term ___ of current development projects.",
+          "answerKeys": [
+            "sustainability",
+            "viability"
+          ]
+        },
+        {
+          "stemText": "Affordable ___ remains a critical challenge for many residents in rapidly expanding urban areas.",
+          "answerKeys": [
+            "housing",
+            "accommodation"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a formal report on the challenges and opportunities presented by rapid urban growth in a specific city (real or imaginary). Include sections on infrastructure, environment, and social impact, concluding with recommendations.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "As a consultant for a city planning department, write a report analyzing the effectiveness of current urban development policies in promoting sustainable growth. Identify key areas for improvement and propose new strategies.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Analyze Advertising and Consumer Behavior",
+      "description": "This lesson focuses on analyzing advertising strategies and their influence on consumer behavior, emphasizing critical thinking, descriptive language, and structured analysis.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Persuasive Techniques",
+            "content": "Advertisements use various persuasive techniques. Learn to identify common ones such as emotional appeal (pathos), logical appeal (logos), credibility (ethos), bandwagon effect, celebrity endorsement, fear appeal, scarcity, and repetition. Explain how these techniques are employed."
+          },
+          {
+            "type": "example",
+            "heading": "Analyzing Visual and Linguistic Elements",
+            "content": "Beyond the overall message, analyze specific visual (colors, imagery, layout) and linguistic (slogans, word choice, tone) elements of an advertisement. \n\nExample: 'The advertisement's use of vibrant, warm colors creates a sense of happiness and optimism, subtly associating these positive emotions with the product, thereby influencing consumer perception at a subconscious level.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Structuring an Advertising Analysis",
+            "content": "An analysis typically includes: 1. Introduction (identify ad, product, target audience, overall message). 2. Body Paragraphs (each focusing on a specific persuasive technique or element, with detailed description and analysis of its effect). 3. Conclusion (summarize findings, evaluate overall effectiveness)."
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Marketing and Psychology",
+            "content": "Utilize vocabulary from marketing, advertising, and consumer psychology. Terms include 'target audience,' 'brand image,' 'consumer perception,' 'persuasion,' 'manipulation,' 'subliminal messaging,' 'market segmentation,' 'purchasing decisions,' 'brand loyalty,' 'impulse buying,' and 'emotional appeal.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "The advertisement effectively used emotional ___ to connect with the target audience.",
+          "answerKeys": [
+            "appeal",
+            "persuasion"
+          ]
+        },
+        {
+          "stemText": "Celebrity ___ is a common strategy to enhance a product's credibility and attractiveness.",
+          "answerKeys": [
+            "endorsement",
+            "sponsorship"
+          ]
+        },
+        {
+          "stemText": "Understanding consumer ___ is crucial for developing successful marketing campaigns.",
+          "answerKeys": [
+            "behavior",
+            "psychology"
+          ]
+        },
+        {
+          "stemText": "The company aims to build strong brand ___ through consistent messaging and quality products.",
+          "answerKeys": [
+            "loyalty",
+            "recognition"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Choose a specific advertisement (TV, print, or online). Analyze its persuasive techniques, target audience, and the message it conveys. Discuss how effectively it might influence consumer behavior.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "Discuss the ethical implications of modern advertising practices. To what extent do advertisements manipulate consumer desires, and what responsibilities do advertisers have towards their audience?",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Write About the Ethics of Scientific Research",
+      "description": "This lesson focuses on discussing the ethical considerations in scientific research, using formal language, presenting balanced arguments, and exploring potential societal impacts.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Ethical Principles",
+            "content": "Begin by identifying fundamental ethical principles relevant to scientific research, such as informed consent, beneficence (doing good), non-maleficence (doing no harm), justice, and integrity. Explain how these principles apply to research practices."
+          },
+          {
+            "type": "example",
+            "heading": "Using Modals for Degrees of Certainty",
+            "content": "When discussing potential ethical issues or future consequences, use modal verbs to express different degrees of certainty or possibility. \n\nExample: 'Genetic editing *could* offer cures for diseases, but it *might* also lead to unforeseen ethical dilemmas. Researchers *must* ensure patient safety and privacy.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Structuring a Discussion on Ethics",
+            "content": "An essay on research ethics should typically include: 1. Introduction (define the ethical issue). 2. Body Paragraphs (explore different ethical considerations, potential benefits vs. risks, stakeholder perspectives). 3. Conclusion (summarize, offer a balanced perspective, or suggest a way forward)."
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Ethics and Science",
+            "content": "Employ precise vocabulary for ethical and scientific discussions. Terms include 'integrity,' 'transparency,' 'accountability,' 'informed consent,' 'confidentiality,' 'plagiarism,' 'data fabrication,' 'conflicts of interest,' 'human subjects,' 'animal welfare,' 'biotechnology,' 'genetic engineering,' and 'moral imperative.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Researchers must obtain ___ consent from participants before conducting any study.",
+          "answerKeys": [
+            "informed",
+            "voluntary"
+          ]
+        },
+        {
+          "stemText": "Maintaining the ___ of scientific data is paramount to ensuring reliable results.",
+          "answerKeys": [
+            "integrity",
+            "accuracy"
+          ]
+        },
+        {
+          "stemText": "The ethical ___ of genetic engineering are a subject of intense debate.",
+          "answerKeys": [
+            "implications",
+            "considerations"
+          ]
+        },
+        {
+          "stemText": "Ensuring the ___ of research participants is a fundamental ethical principle.",
+          "answerKeys": [
+            "welfare",
+            "safety"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Discuss the ethical considerations involved in a specific area of scientific research (e.g., human cloning, animal testing, AI development). Analyze the potential benefits against the moral dilemmas it presents.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "To what extent should scientific progress be regulated by ethical guidelines and public oversight? Argue for the importance of balancing scientific freedom with societal responsibility.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Discuss Democracy and Youth Participation",
+      "description": "This lesson focuses on discussing the role of youth in democratic processes, analyzing challenges, and proposing solutions, using formal language and clear argumentation.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Defining Key Terms",
+            "content": "Clearly define 'democracy' and 'youth participation' at the outset of your essay. This ensures a shared understanding of the core concepts and sets the stage for a focused discussion. You might define democracy as a system where citizens elect representatives and youth participation as active engagement in civic life."
+          },
+          {
+            "type": "example",
+            "heading": "Using Rhetorical Questions for Engagement (Carefully)",
+            "content": "While generally avoided in formal essays, a well-placed rhetorical question can engage the reader or highlight a key dilemma. Use sparingly and ensure it serves a clear purpose. \n\nExample: 'Given the pressing global challenges, can democracies truly thrive without the active involvement of their younger generations?' This can introduce a paragraph discussing the importance of youth engagement."
+          },
+          {
+            "type": "tip",
+            "heading": "Proposing Actionable Solutions",
+            "content": "When discussing challenges to youth participation, move beyond simply identifying problems. Propose concrete, actionable solutions. For example, instead of 'youth don't vote,' suggest 'implementing civics education programs in schools' or 'lowering the voting age.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Political Science",
+            "content": "Employ sophisticated vocabulary related to democracy and civic engagement. Terms include 'suffrage,' 'civic duty,' 'political apathy,' 'enfranchisement,' 'governance,' 'policy-making,' 'grassroots movements,' 'advocacy,' 'representation,' 'accountability,' 'transparency,' and 'deliberation.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Low voter ___ among young people is a concern for many democratic nations.",
+          "answerKeys": [
+            "turnout",
+            "participation"
+          ]
+        },
+        {
+          "stemText": "Engaging youth in political ___ is crucial for the long-term health of a democracy.",
+          "answerKeys": [
+            "processes",
+            "discourse"
+          ]
+        },
+        {
+          "stemText": "Many young people feel a sense of political ___, believing their voices don't matter.",
+          "answerKeys": [
+            "apathy",
+            "disenchantment"
+          ]
+        },
+        {
+          "stemText": "Promoting civic ___ in schools can encourage greater youth participation.",
+          "answerKeys": [
+            "education",
+            "engagement"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Discuss the importance of youth participation in democratic processes. What are the main barriers preventing young people from engaging in politics, and how can these barriers be overcome?",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "To what extent should governments and educational institutions actively encourage political engagement among young people? Argue for or against specific initiatives aimed at fostering youth participation in democracy.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Write a Position Paper on Climate Change",
+      "description": "This lesson focuses on writing a persuasive position paper on climate change, emphasizing strong argumentation, evidence-based reasoning, and a clear call to action.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Crafting a Clear Position Statement",
+            "content": "A position paper requires a strong, unequivocal stance on the issue. State your position clearly in the introduction. For climate change, this might be advocating for urgent action, specific policies, or a particular approach to mitigation or adaptation. This statement will guide your entire argument."
+          },
+          {
+            "type": "example",
+            "heading": "Using Factual Evidence and Expert Opinion",
+            "content": "Support your arguments with credible evidence. While you might not have real-time data, refer to 'scientific consensus,' 'reports from the IPCC,' or 'studies by climate scientists.' This lends authority to your claims. \n\nExample: 'The overwhelming scientific consensus, as highlighted by the Intergovernmental Panel on Climate Change (IPCC), unequivocally links human activities to the accelerating rate of global warming.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Structuring for Persuasion",
+            "content": "Organize your paper to build a persuasive case. Start by establishing the problem's urgency, then present your arguments, addressing counterarguments if necessary, and conclude with a strong call to action or policy recommendation. Use logical transitions to connect ideas."
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Climate Change Discourse",
+            "content": "Employ precise and impactful vocabulary related to climate change. Terms include 'anthropogenic,' 'greenhouse gases,' 'carbon emissions,' 'global warming,' 'sea-level rise,' 'extreme weather events,' 'mitigation,' 'adaptation,' 'decarbonization,' 'renewable energy,' 'climate justice,' and 'ecological footprint.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "The scientific ___ on climate change is clear: human activities are the primary driver.",
+          "answerKeys": [
+            "consensus",
+            "agreement"
+          ]
+        },
+        {
+          "stemText": "Reducing ___ gas emissions is crucial for mitigating the effects of global warming.",
+          "answerKeys": [
+            "greenhouse",
+            "carbon"
+          ]
+        },
+        {
+          "stemText": "Many coastal communities face the threat of rising sea ___ and increased flooding.",
+          "answerKeys": [
+            "levels",
+            "waters"
+          ]
+        },
+        {
+          "stemText": "Urgent global ___ is required to transition to a sustainable, low-carbon economy.",
+          "answerKeys": [
+            "action",
+            "cooperation"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a position paper arguing for the urgent need for international cooperation to address climate change. Propose specific global policies or initiatives that countries should adopt to mitigate its effects.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "Take a stance on the debate between climate change mitigation (reducing emissions) and adaptation (adjusting to impacts). Argue which approach should be prioritized or how they should be balanced, providing justifications for your position.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    },
+    {
+      "title": "Essay: The Role of Language in Identity",
+      "description": "This lesson explores the profound connection between language and personal/cultural identity, focusing on analytical writing, using descriptive language, and presenting nuanced arguments.",
+      "estimatedMinutes": 35,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Developing a Nuanced Thesis Statement",
+            "content": "Your thesis should go beyond simply stating that language and identity are linked. It should articulate *how* they are linked and the specific aspects you will explore (e.g., cultural heritage, personal expression, social belonging, or challenges faced by multilingual individuals)."
+          },
+          {
+            "type": "example",
+            "heading": "Illustrating with Personal or Hypothetical Examples",
+            "content": "To make your arguments relatable, use personal anecdotes (if appropriate for the prompt) or hypothetical scenarios. \n\nExample: 'For many diaspora communities, retaining their ancestral language is not merely about communication; it is a vital act of preserving cultural heritage and maintaining a connection to their roots, as seen in the Vietnamese community abroad.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Using Connectors for Complex Relationships",
+            "content": "Language and identity have complex relationships. Use connectors that show cause-and-effect, comparison/contrast, or addition. Examples include 'consequently,' 'furthermore,' 'in contrast,' 'similarly,' 'whereas,' 'as a result,' and 'moreover.' This helps build a cohesive argument."
+          },
+          {
+            "type": "rule",
+            "heading": "Vocabulary for Language and Culture",
+            "content": "Enrich your writing with vocabulary related to language, culture, and identity. Terms include 'linguistic diversity,' 'mother tongue,' 'dialect,' 'cultural heritage,' 'bilingualism,' 'multilingualism,' 'code-switching,' 'assimilation,' 'preservation,' 'self-expression,' 'social cohesion,' and 'cognitive development.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "One's mother ___ plays a fundamental role in shaping personal and cultural identity.",
+          "answerKeys": [
+            "tongue",
+            "language"
+          ]
+        },
+        {
+          "stemText": "The ___ of indigenous languages is crucial for preserving unique cultural heritages.",
+          "answerKeys": [
+            "preservation",
+            "conservation"
+          ]
+        },
+        {
+          "stemText": "Learning a new language can significantly influence one's worldview and sense of ___.",
+          "answerKeys": [
+            "self",
+            "identity"
+          ]
+        },
+        {
+          "stemText": "___ individuals often navigate between different cultural contexts through their languages.",
+          "answerKeys": [
+            "Bilingual",
+            "Multilingual"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Discuss the various ways in which language shapes an individual's personal identity and sense of belonging. Provide examples from your own experience or observations.",
+          "minWords": 200,
+          "maxWords": 280
+        },
+        {
+          "prompt": "To what extent is the preservation of a minority language essential for maintaining a distinct cultural identity? Discuss the challenges faced by minority language speakers and the efforts being made to protect their linguistic heritage.",
+          "minWords": 200,
+          "maxWords": 280
+        }
+      ]
+    }
+  ]
+}

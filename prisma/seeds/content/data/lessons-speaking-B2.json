@@ -1,0 +1,1426 @@
+{
+  "skill": "speaking",
+  "cefrLevel": "B2",
+  "lessons": [
+    {
+      "title": "Debate: Social Media and Mental Health",
+      "description": "This lesson focuses on debating the impact of social media on mental health, practicing expressing opinions and supporting arguments.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Hedging Language for Nuance",
+            "content": "When discussing sensitive topics, use hedging language to make your statements sound less absolute and more considered. Phrases like 'It seems that...', 'It could be argued that...', 'One might suggest...', 'There's a strong possibility that...' allow for a more balanced discussion and show critical thinking."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Expressing Agreement and Disagreement",
+            "content": "Agreement: 'I couldn't agree more.', 'That's a valid point.', 'I see your point, and I'd add that...'. Disagreement: 'I beg to differ.', 'While I understand your perspective, I believe...', 'I'm afraid I don't entirely agree with that.'."
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Emphasizing Key Words",
+            "content": "To make your arguments more impactful, consciously emphasize key words in your sentences. For example, in 'Social media CAN be detrimental to mental health,' stressing 'can' highlights the potential, not absolute, negative effect. This adds clarity and conviction to your speech."
+          },
+          {
+            "type": "tip",
+            "heading": "Structuring Your Arguments",
+            "content": "When debating, structure your arguments using a clear pattern: state your point, provide evidence or examples, and then explain the implication. Use discourse markers like 'Firstly, I'd like to point out...', 'For instance...', 'Consequently...' to guide your listener."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Excessive use of social media can have a __________ impact on adolescents' mental well-being.",
+          "options": [
+            "beneficial",
+            "negligible",
+            "detrimental",
+            "constructive"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Many studies __________ a correlation between increased screen time and higher rates of anxiety among young adults.",
+          "options": [
+            "disprove",
+            "suggest",
+            "ignore",
+            "mitigate"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "It's important to __________ a healthy balance between online interaction and real-world experiences.",
+          "options": [
+            "neglect",
+            "maintain",
+            "disrupt",
+            "exaggerate"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe three specific ways social media can positively or negatively affect mental health, providing a brief example for each. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Argue for or against the statement: 'Social media companies should be held more accountable for the mental health impacts on their users.' Use hedging language and structured arguments. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Analyze Bias in the News",
+      "description": "This lesson helps you identify and discuss different forms of bias in news reporting, enhancing your critical thinking and analytical speaking skills.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Discourse Markers for Analysis",
+            "content": "When analyzing, use discourse markers to signal your thought process. 'On the one hand... on the other hand...', 'It's evident that...', 'This suggests that...', 'However, it's also important to consider...' help structure your analysis logically."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Identifying Bias",
+            "content": "To identify bias, you might say: 'The language used here seems to lean towards...', 'There's a clear omission of...', 'The framing of this issue appears to be...', 'This report seems to prioritize one perspective over another.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Fluency Tip: Pausing for Effect",
+            "content": "Don't be afraid to pause briefly before presenting a key analytical point or conclusion. This gives you time to formulate your thoughts and allows your listener to anticipate important information, making your speech sound more deliberate and authoritative."
+          },
+          {
+            "type": "rule",
+            "heading": "Pronunciation: Stressing Contrastive Elements",
+            "content": "When comparing or contrasting different aspects of news reporting, stress the words that highlight the difference. For example, 'This article focuses ON the economy, while THAT one emphasizes social issues.' This helps clarify your analysis."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Media __________ refers to the tendency of journalists to present stories in a way that favors one side.",
+          "options": [
+            "objectivity",
+            "impartiality",
+            "bias",
+            "neutrality"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "A critical reader should always __________ the source of information to assess its credibility.",
+          "options": [
+            "ignore",
+            "verify",
+            "assume",
+            "disregard"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "__________ reporting aims to present facts without personal opinions or interpretations.",
+          "options": [
+            "Subjective",
+            "Sensationalist",
+            "Objective",
+            "Partisan"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Explain three different types of bias that can appear in news reporting (e.g., selection bias, placement bias, spin). Provide a brief hypothetical example for each. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss strategies individuals can use to identify and critically evaluate potential bias in the news they consume, and why this skill is important in today's media landscape. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Discuss an Ethical Issue at Work",
+      "description": "This lesson helps you articulate ethical dilemmas in a professional context, practice problem-solving, and express your reasoning clearly.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Conditionals for Hypothetical Situations",
+            "content": "When discussing ethical dilemmas, you'll often need to talk about hypothetical outcomes. Use conditional sentences (e.g., 'If X happens, then Y could be the consequence,' 'Were I in that situation, I would...') to explore different scenarios and their implications."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Presenting a Dilemma and Solutions",
+            "content": "Presenting: 'The core dilemma here is...', 'We're faced with a choice between...', 'This situation raises questions about...'. Proposing solutions: 'One possible course of action would be to...', 'I believe the most ethical approach is...', 'We need to consider the long-term implications of...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Clear Articulation of Complex Terms",
+            "content": "Ethical discussions often involve complex vocabulary (e.g., 'integrity,' 'transparency,' 'accountability'). Practice articulating these words clearly and deliberately, paying attention to all syllables, to ensure your message is understood and taken seriously."
+          },
+          {
+            "type": "tip",
+            "heading": "Maintaining a Professional Tone",
+            "content": "Even when discussing difficult ethical issues, maintain a calm, objective, and professional tone. Avoid overly emotional language. Focus on logical reasoning and the principles involved. This demonstrates maturity and credibility."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "The company's new policy raised several ethical __________ regarding employee privacy.",
+          "options": [
+            "benefits",
+            "dilemmas",
+            "advantages",
+            "opportunities"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "It is crucial for employees to act with __________ and honesty in all their professional dealings.",
+          "options": [
+            "indifference",
+            "negligence",
+            "integrity",
+            "ambiguity"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The manager faced a difficult __________ when deciding whether to report a colleague's misconduct.",
+          "options": [
+            "decision",
+            "predicament",
+            "solution",
+            "resolution"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a hypothetical ethical dilemma you might encounter in a workplace setting (e.g., a colleague taking credit for your work, discovering a company secret). Explain the conflicting values or principles involved. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Propose and justify a course of action to resolve the ethical dilemma you described. Discuss the potential consequences of your chosen action and alternative solutions. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Effects of Globalization on Vietnam",
+      "description": "This lesson explores the multifaceted impacts of globalization on Vietnam, practicing analytical and descriptive language.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Cause and Effect Language",
+            "content": "When discussing impacts, use phrases that clearly link causes and effects: 'As a result of...', 'Consequently...', 'This has led to...', 'The primary effect is...', 'Due to...', 'This contributes to...'. This helps explain complex relationships."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Describing Economic and Cultural Shifts",
+            "content": "Economic: 'Vietnam's integration into the global economy has spurred...', 'Foreign direct investment has played a crucial role...', 'The rise of multinational corporations has...'. Cultural: 'Globalization has introduced new cultural trends...', 'There's a noticeable blend of...', 'Traditional values are being challenged by...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Linking Sounds for Fluency",
+            "content": "Practice linking the end of one word to the beginning of the next, especially with consonant-vowel combinations (e.g., 'global_economy,' 'impact_on'). This makes your speech flow more naturally and sound less choppy, improving overall fluency."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Specific Examples",
+            "content": "To make your points more concrete and convincing, always try to back up your general statements with specific examples related to Vietnam. For instance, instead of just 'economic growth,' mention 'the growth of the manufacturing sector' or 'increased tourism'."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Globalization has significantly __________ Vietnam's economy, leading to increased trade and foreign investment.",
+          "options": [
+            "hindered",
+            "isolated",
+            "transformed",
+            "stagnated"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The __________ of global culture has brought both opportunities and challenges to traditional Vietnamese customs.",
+          "options": [
+            "rejection",
+            "assimilation",
+            "eradication",
+            "influx"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "One of the key __________ of globalization is the greater interconnectedness between countries.",
+          "options": [
+            "drawbacks",
+            "features",
+            "obstacles",
+            "limitations"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe three significant economic impacts of globalization on Vietnam, providing specific examples for each. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss how globalization has influenced Vietnamese culture and society. Consider both positive and negative aspects, and explain how Vietnam has adapted to these changes. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Science and Its Impact on Daily Life",
+      "description": "This lesson explores how scientific advancements shape our daily lives, focusing on describing processes and explaining implications.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Passive Voice for Scientific Explanations",
+            "content": "The passive voice is often used in scientific contexts to emphasize the action or result rather than the agent. For example, 'New vaccines have been developed' instead of 'Scientists have developed new vaccines.' This can make your explanations sound more objective."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Explaining Scientific Concepts",
+            "content": "To explain: 'Essentially, this means that...', 'The principle behind this is...', 'It operates on the premise that...', 'This process involves...', 'The key takeaway is...'. To describe impact: 'This has revolutionized...', 'It has profound implications for...', 'We now rely heavily on...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Stressing Technical Terms",
+            "content": "When using scientific or technical terms, pronounce them clearly and distinctly. Give slightly more emphasis to the main stress of the word (e.g., 'bio-TECH-nology,' 'arti-FI-cial in-TELL-igence'). This ensures accuracy and comprehension."
+          },
+          {
+            "type": "tip",
+            "heading": "Simplifying Complex Ideas",
+            "content": "When explaining science, aim to simplify complex ideas without losing accuracy. Use analogies or relatable examples to help your listener grasp the concept. Avoid overly technical jargon where simpler language will suffice."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Scientific __________ have led to significant improvements in healthcare and communication.",
+          "options": [
+            "setbacks",
+            "advancements",
+            "limitations",
+            "failures"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The development of renewable energy sources is crucial for __________ climate change.",
+          "options": [
+            "exacerbating",
+            "ignoring",
+            "mitigating",
+            "accelerating"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Many everyday technologies, such as smartphones, are a direct __________ of scientific research.",
+          "options": [
+            "cause",
+            "consequence",
+            "precursor",
+            "hindrance"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Choose two scientific advancements (e.g., vaccines, internet, GPS) and explain how they work in simple terms, then describe their direct impact on your daily life. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss the ethical considerations or potential challenges that arise from rapid scientific progress, using specific examples. How can society ensure science benefits everyone? Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Business Ideas and Innovation",
+      "description": "This lesson focuses on discussing business concepts and innovative ideas, practicing persuasive language and problem-solving.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Future Tenses for Business Projections",
+            "content": "When presenting business ideas, you'll often talk about future plans and potential outcomes. Use future simple ('This will lead to...'), 'be going to' ('We are going to target...'), and future perfect ('By 2030, we will have achieved...') to describe your vision."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Pitching an Idea",
+            "content": "Introducing: 'My idea is to...', 'We aim to address the problem of...', 'Our unique selling proposition is...'. Benefits: 'This will revolutionize...', 'It offers significant advantages such as...', 'The market potential is enormous...'. Call to action: 'We are seeking investment to...', 'Our next step is to...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Clear Vowel Sounds for Clarity",
+            "content": "In business communication, clarity is key. Pay attention to clear vowel pronunciation, especially in words like 'innovation,' 'strategy,' 'profit,' 'solution.' Muddled vowels can lead to misunderstandings."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Persuasive Language",
+            "content": "When discussing business ideas, aim to be persuasive. Use strong adjectives ('groundbreaking,' 'unprecedented,' 'transformative') and adverbs ('significantly,' 'effectively') to convey confidence and excitement about your concept."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "A successful business idea often __________ a gap in the market or solves a common problem.",
+          "options": [
+            "ignores",
+            "creates",
+            "addresses",
+            "complicates"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Innovation is crucial for companies to remain __________ in a rapidly changing global economy.",
+          "options": [
+            "stagnant",
+            "competitive",
+            "obsolete",
+            "irrelevant"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Entrepreneurs often need to secure __________ to turn their innovative ideas into viable businesses.",
+          "options": [
+            "debt",
+            "funding",
+            "losses",
+            "expenses"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe an innovative business idea you have, focusing on the problem it solves, its target market, and its unique features. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss the key factors that contribute to the success of a new business in Vietnam today. What challenges might an entrepreneur face, and how can they overcome them? Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Youth Political Participation",
+      "description": "This lesson explores the role of youth in politics, practicing expressing opinions on civic engagement and social issues.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Modals for Expressing Degrees of Certainty",
+            "content": "When discussing political participation, use modals to express different levels of certainty or possibility: 'Young people SHOULD be more involved,' 'They MIGHT feel disenfranchised,' 'Governments COULD do more to engage youth.' This adds nuance to your opinions."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Discussing Civic Engagement",
+            "content": "Engagement: 'It's vital for young people to...', 'Youth can contribute by...', 'Active participation is key to...'. Challenges: 'Many young people feel...', 'There's a perception that...', 'Barriers to entry include...'. Solutions: 'To foster greater involvement, we need...', 'Initiatives should focus on...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Intonation for Expressing Opinion",
+            "content": "Use rising and falling intonation to convey your conviction. A falling intonation at the end of a statement often signals certainty, while a rising intonation can indicate a question or less certainty. Practice varying your pitch to sound more engaging."
+          },
+          {
+            "type": "tip",
+            "heading": "Supporting Your Opinions with Reasons",
+            "content": "When expressing an opinion, always follow it with a clear reason or justification. Use phrases like 'This is because...', 'The reason I say this is...', 'To illustrate my point...'. This makes your arguments more robust and convincing."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Many young people feel __________ from traditional political processes.",
+          "options": [
+            "empowered",
+            "engaged",
+            "disenfranchised",
+            "represented"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Youth political __________ is essential for ensuring diverse perspectives are heard in decision-making.",
+          "options": [
+            "apathy",
+            "indifference",
+            "participation",
+            "exclusion"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Governments should implement policies that __________ young people to become more civically active.",
+          "options": [
+            "discourage",
+            "alienate",
+            "marginalize",
+            "encourage"
+          ],
+          "correctIndex": 3
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe three reasons why youth political participation is important for the future of a country. Provide specific examples of how young people can get involved. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss the barriers that might prevent young people in Vietnam from engaging in politics. What measures could be taken by schools, families, or government to increase youth involvement? Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Discuss a Piece of Literature or Art",
+      "description": "This lesson helps you analyze and express your interpretations of literature or art, using descriptive and analytical language.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Adjectives and Adverbs for Description",
+            "content": "When describing art or literature, use a rich vocabulary of adjectives (e.g., 'poignant,' 'vibrant,' 'intricate,' 'thought-provoking') and adverbs (e.g., 'skillfully,' 'subtly,' 'powerfully') to convey your impressions and analysis effectively."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Analyzing Themes and Meanings",
+            "content": "Themes: 'The central theme explored is...', 'It delves into issues of...', 'The artist/author seems to be commenting on...'. Meaning: 'I interpret this as...', 'The symbolism here suggests...', 'It evokes a sense of...', 'The message conveyed is...'. Impact: 'It left a lasting impression on me because...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Varying Pace for Emphasis",
+            "content": "When describing a particularly striking detail or a profound insight, slow down your speaking pace slightly. This gives your words more weight and allows your listener to absorb the significance of what you're saying."
+          },
+          {
+            "type": "tip",
+            "heading": "Connecting to Personal Experience",
+            "content": "While analysis is important, don't shy away from connecting the piece to your own experiences or emotions. This makes your discussion more personal and engaging. Use phrases like 'It resonated with me because...', 'I found myself reflecting on...'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "The novel's __________ characters and intricate plot made it a truly captivating read.",
+          "options": [
+            "monotonous",
+            "one-dimensional",
+            "compelling",
+            "predictable"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The artist used vibrant colors to __________ a sense of joy and optimism in her painting.",
+          "options": [
+            "obscure",
+            "evoke",
+            "diminish",
+            "suppress"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Literary __________ often involves analyzing the themes, symbols, and narrative techniques of a text.",
+          "options": [
+            "summary",
+            "paraphrase",
+            "analysis",
+            "repetition"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Choose a piece of literature (e.g., a novel, poem, short story) or art (e.g., a painting, sculpture, song) that you find meaningful. Describe its key features and what it is about. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss the main themes or messages conveyed by the piece of literature or art you chose. Explain why it resonates with you and what impact it has had on you or society. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Social Inequality and Its Solutions",
+      "description": "This lesson focuses on discussing social inequality and proposing solutions, practicing analytical and problem-solving language.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Quantifiers for Data and Trends",
+            "content": "When discussing social issues, you might refer to data or general trends. Use quantifiers like 'a significant proportion of,' 'a growing number of,' 'a minority of,' 'the vast majority of' to describe groups or statistics accurately."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Describing Inequality and Proposing Solutions",
+            "content": "Describing: 'Social inequality manifests in...', 'There's a stark disparity between...', 'Certain groups are disproportionately affected by...'. Solutions: 'To address this, we need to...', 'One effective strategy would be...', 'Governments should prioritize...', 'Empowering communities is crucial for...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Stressing Contrastive Elements",
+            "content": "When highlighting differences or disparities, stress the words that emphasize the contrast. For example, 'The RICH are getting richer, while the POOR are struggling.' This makes the inequality more vivid in your speech."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Connectors for Cohesion",
+            "content": "Ensure your arguments flow logically by using a variety of connectors: 'Furthermore,' 'Moreover,' 'In addition to this,' 'However,' 'On the other hand,' 'Therefore,' 'Consequently.' These create a cohesive and easy-to-follow discussion."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Social __________ refers to the unequal distribution of resources, opportunities, and power within a society.",
+          "options": [
+            "harmony",
+            "equality",
+            "equity",
+            "inequality"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "Policies aimed at reducing the wealth __________ are crucial for fostering a more just society.",
+          "options": [
+            "accumulation",
+            "gap",
+            "distribution",
+            "creation"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Access to quality education is often seen as a key factor in __________ social mobility.",
+          "options": [
+            "hindering",
+            "promoting",
+            "preventing",
+            "restricting"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe two specific forms of social inequality that exist in Vietnam or globally (e.g., income inequality, gender inequality, access to education). Explain the causes and consequences of each. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Propose and justify two concrete solutions or policies that could help mitigate the social inequalities you described. Discuss the potential challenges in implementing these solutions. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "The Future of Work and AI",
+      "description": "This lesson explores the impact of Artificial Intelligence on the future of work, practicing predictive language and analytical discussion.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Future Perfect and Continuous for Predictions",
+            "content": "When discussing the future, use the future perfect ('By 2040, AI will have transformed many industries') to talk about actions completed by a certain time, and future continuous ('Workers will be adapting to new roles') for ongoing actions."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Discussing AI's Impact",
+            "content": "Impact: 'AI is poised to revolutionize...', 'It will undoubtedly lead to...', 'The primary concern is...', 'It has the potential to...', 'Jobs that involve repetitive tasks are most at risk...'. Adaptation: 'Reskilling the workforce will be essential...', 'Lifelong learning will become the norm...', 'Human skills like creativity will be highly valued...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Clear 'th' Sounds",
+            "content": "Words like 'the,' 'this,' 'that,' 'through,' 'think,' 'future' are common in this topic. Practice distinguishing between voiced /ð/ (as in 'the') and unvoiced /θ/ (as in 'think') 'th' sounds for clarity and accuracy."
+          },
+          {
+            "type": "tip",
+            "heading": "Balancing Optimism and Caution",
+            "content": "When discussing AI, it's good to present a balanced view. Acknowledge both the potential benefits and the potential challenges or risks. Use phrases like 'While it offers immense opportunities, we must also consider...' to show a nuanced perspective."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Artificial Intelligence is expected to __________ many industries and job roles in the coming decades.",
+          "options": [
+            "stabilize",
+            "disrupt",
+            "preserve",
+            "maintain"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The ability to adapt and __________ new skills will be crucial for workers in the future.",
+          "options": [
+            "discard",
+            "unlearn",
+            "acquire",
+            "ignore"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Tasks requiring creativity, critical thinking, and emotional intelligence are less __________ to automation.",
+          "options": [
+            "susceptible",
+            "immune",
+            "prone",
+            "vulnerable"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe two ways Artificial Intelligence is currently impacting or is expected to impact the job market in Vietnam. Provide specific examples of jobs or industries that might be affected. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss what individuals and governments can do to prepare for the future of work shaped by AI. What skills will be most valuable, and how can education systems adapt? Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Discuss Immigration and Identity",
+      "description": "This lesson explores the complex relationship between immigration and personal/cultural identity, practicing empathetic and analytical language.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Subjunctive for Hypothetical Scenarios",
+            "content": "When discussing complex social issues like immigration, you might talk about ideal or desired situations. The subjunctive mood (e.g., 'It is important that governments ENSURE fair treatment,' 'I wish there WERE more understanding') can be useful, though often replaced by modals in B2."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Discussing Identity and Integration",
+            "content": "Identity: 'Immigrants often grapple with...', 'They may develop a hybrid identity...', 'Maintaining cultural heritage is important for...'. Integration: 'Successful integration involves...', 'Challenges include...', 'Host countries benefit from...', 'Promoting diversity enriches society...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Clear 'R' Sounds",
+            "content": "Words like 'immigrant,' 'culture,' 'integration,' 'rights,' 'community' are common. Ensure your 'r' sounds are clear and distinct, especially at the beginning and middle of words, to avoid ambiguity."
+          },
+          {
+            "type": "tip",
+            "heading": "Expressing Empathy and Nuance",
+            "content": "This is a sensitive topic. Use empathetic language and acknowledge different perspectives. Phrases like 'It's understandable that...', 'One can appreciate the challenges faced by...', 'It's a complex issue with no easy answers...' demonstrate sensitivity."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Immigrants often face the challenge of __________ into a new culture while maintaining their own identity.",
+          "options": [
+            "isolating",
+            "assimilating",
+            "rejecting",
+            "segregating"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The __________ of diverse cultures can greatly enrich a host country's society.",
+          "options": [
+            "erosion",
+            "homogenization",
+            "coexistence",
+            "exclusion"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Many immigrants develop a __________ identity, blending elements from their origin and new country.",
+          "options": [
+            "singular",
+            "fixed",
+            "hybrid",
+            "lost"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe the challenges immigrants might face in maintaining their cultural identity while adapting to a new country. Provide examples of how they might navigate these challenges. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss how immigration can enrich the cultural landscape and economy of a host country. What responsibilities do both immigrants and the host society have to foster successful integration? Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Psychology and Human Behavior",
+      "description": "This lesson explores key concepts in psychology and human behavior, practicing descriptive and explanatory language.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Nominalization for Academic Tone",
+            "content": "In academic discussions, converting verbs or adjectives into nouns (nominalization) can make your speech sound more formal and concise. For example, instead of 'When people are stressed, they behave differently,' say 'Stress can lead to behavioral changes.'"
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Explaining Psychological Concepts",
+            "content": "Concepts: 'The concept of X suggests that...', 'This theory posits that...', 'It's often observed that...', 'Human behavior is influenced by...'. Examples: 'A classic example of this is...', 'Consider the case of...', 'This can be seen when...'. Implications: 'This has implications for...', 'It helps us understand why...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Clear Syllable Stress",
+            "content": "Many psychological terms have specific syllable stress (e.g., 'psy-CHO-logy,' 'be-HA-vior,' 'COG-ni-tive'). Practice pronouncing these words with the correct stress to sound more knowledgeable and articulate."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Generalizations with Caution",
+            "content": "While discussing human behavior, be careful not to over-generalize. Use softening phrases like 'Generally speaking,' 'It's often the case that,' 'In many instances,' to acknowledge the complexity and variability of human experience."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Cognitive __________ refers to the mental processes involved in acquiring knowledge and understanding.",
+          "options": [
+            "dissonance",
+            "bias",
+            "development",
+            "function"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "Understanding human __________ is crucial for effective communication and social interaction.",
+          "options": [
+            "anatomy",
+            "physiology",
+            "behavior",
+            "genetics"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The __________ effect describes how people tend to conform to the behavior of a larger group.",
+          "options": [
+            "halo",
+            "bandwagon",
+            "placebo",
+            "observer"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Choose two common psychological concepts (e.g., confirmation bias, cognitive dissonance, the placebo effect, motivation) and explain them in your own words. Provide a real-life example for each. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss how understanding human behavior can be beneficial in a specific area of life, such as education, marketing, or personal relationships. Provide examples to support your points. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Analyze an Advertisement",
+      "description": "This lesson helps you critically analyze advertisements, focusing on persuasive techniques and their intended impact.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Rhetorical Devices in Analysis",
+            "content": "When analyzing ads, you can refer to rhetorical techniques. For example, 'The ad uses pathos to evoke emotion,' 'It employs ethos to build credibility,' or 'The use of hyperbole exaggerates the product's benefits.' This adds depth to your analysis."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Analyzing Visuals and Messaging",
+            "content": "Visuals: 'The color scheme suggests...', 'The imagery aims to convey...', 'The body language of the actors implies...'. Messaging: 'The slogan is designed to be...', 'It appeals to our desire for...', 'The target audience is clearly...', 'The underlying message is...'. Impact: 'This technique aims to persuade by...', 'It creates a sense of...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Clear 'S' and 'Z' Sounds",
+            "content": "Words like 'persuade,' 'message,' 'visuals,' 'consumers,' 'analysis' are common. Ensure your 's' and 'z' sounds are clear and distinct to avoid sounding unclear or mumbled."
+          },
+          {
+            "type": "tip",
+            "heading": "Structuring Your Analysis",
+            "content": "Start with a general overview of the ad, then move to specific elements (visuals, text, sound). Conclude by summarizing its overall effectiveness and intended impact. Use transition words like 'Firstly,' 'Next,' 'In addition,' 'Finally,' 'Overall' to guide your listener."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Advertisements often use persuasive __________ to influence consumer behavior.",
+          "options": [
+            "techniques",
+            "limitations",
+            "obstacles",
+            "hindrances"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The target __________ of an advertisement refers to the specific group of people it aims to reach.",
+          "options": [
+            "producer",
+            "competitor",
+            "audience",
+            "distributor"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "An effective slogan should be memorable and clearly __________ the product's main benefit.",
+          "options": [
+            "obscure",
+            "convey",
+            "contradict",
+            "misrepresent"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Choose a well-known advertisement (e.g., a TV commercial, a print ad, an online ad). Describe its visual elements, text, and overall tone. Who do you think its target audience is? Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Analyze the persuasive techniques used in the advertisement you chose. How does it try to convince people to buy the product or service? Discuss its effectiveness and any ethical concerns it might raise. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Discuss the Ethics of AI",
+      "description": "This lesson focuses on discussing the ethical implications of Artificial Intelligence, practicing critical thinking and nuanced argumentation.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Counter-Arguments and Concessions",
+            "content": "In ethical discussions, acknowledge opposing viewpoints. Use phrases like 'While it's true that...', 'Some might argue that...', 'However, one must also consider...' to show you've thought deeply about the issue and can address counter-arguments."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Discussing Ethical Dilemmas in AI",
+            "content": "Dilemmas: 'AI raises concerns about...', 'The ethical challenge lies in...', 'We need to address the issue of...', 'There's a fine line between...'. Solutions/Principles: 'It's crucial to ensure transparency...', 'Accountability is paramount...', 'We must prioritize human values...', 'Regulation will be necessary to...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Clear 'L' Sounds",
+            "content": "Words like 'ethical,' 'algorithm,' 'potential,' 'challenge,' 'control' are common. Ensure your 'l' sounds are clear, especially at the end of words or in consonant clusters, to avoid sounding unclear."
+          },
+          {
+            "type": "tip",
+            "heading": "Maintaining a Balanced Perspective",
+            "content": "Avoid taking an extreme stance. Acknowledge both the potential benefits and risks of AI. Use phrases like 'On the one hand... on the other hand...' or 'While there are clear advantages, we cannot ignore the potential pitfalls...'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "The development of AI raises significant __________ questions about privacy and accountability.",
+          "options": [
+            "technical",
+            "economic",
+            "ethical",
+            "logistical"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Ensuring AI systems are __________ and unbiased is a major challenge for developers.",
+          "options": [
+            "opaque",
+            "transparent",
+            "subjective",
+            "discriminatory"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The potential for AI to make autonomous decisions without human __________ is a serious concern.",
+          "options": [
+            "intervention",
+            "approval",
+            "supervision",
+            "all of the above"
+          ],
+          "correctIndex": 3
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe two specific ethical concerns related to the development and deployment of Artificial Intelligence (e.g., bias in algorithms, job displacement, autonomous weapons). Explain why these are problematic. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss what principles or regulations should guide the ethical development and use of AI. How can we ensure AI benefits humanity while minimizing risks? Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Sustainable Development Goals",
+      "description": "This lesson focuses on discussing the UN's Sustainable Development Goals, practicing descriptive and problem-solving language.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Reporting Verbs for Global Initiatives",
+            "content": "When discussing global goals, use reporting verbs to refer to collective efforts or statements: 'The UN has CALLED for action on...', 'Governments are COMMITTED to achieving...', 'Experts EMPHASIZE the need for...'. This adds authority to your speech."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Discussing SDGs and Challenges",
+            "content": "SDGs: 'The Sustainable Development Goals aim to...', 'Goal X focuses on...', 'Achieving these goals requires...'. Challenges: 'Significant obstacles include...', 'Progress has been hampered by...', 'Developing countries face particular difficulties...'. Solutions: 'International cooperation is vital...', 'Innovation plays a key role...', 'Individual actions can contribute to...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Clear 'V' and 'W' Sounds",
+            "content": "Words like 'development,' 'vital,' 'environment,' 'global,' 'world' are common. Ensure you differentiate between the 'v' sound (upper teeth on lower lip) and 'w' sound (rounded lips) for clarity."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Facts and Figures (Even if General)",
+            "content": "Even if you don't have exact statistics, referring to general facts or widely accepted challenges (e.g., 'millions still lack access to clean water') can strengthen your points. This shows awareness of the global context."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "The Sustainable Development Goals (SDGs) are a __________ blueprint to achieve peace and prosperity for people and the planet.",
+          "options": [
+            "temporary",
+            "global",
+            "local",
+            "individual"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Eradicating poverty and hunger are among the primary __________ of the SDGs.",
+          "options": [
+            "obstacles",
+            "objectives",
+            "consequences",
+            "limitations"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Achieving sustainable __________ requires balancing economic growth with environmental protection.",
+          "options": [
+            "decline",
+            "stagnation",
+            "development",
+            "regression"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Choose two specific Sustainable Development Goals (e.g., No Poverty, Quality Education, Climate Action). Describe what each goal aims to achieve and why it is important for global well-being. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss the challenges Vietnam faces in achieving the SDGs and what efforts are being made at a national or local level. What role can individuals play in contributing to these goals? Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Discuss Democracy in the Modern Age",
+      "description": "This lesson explores the challenges and evolution of democracy today, practicing analytical and argumentative skills.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Formal Connectors for Cohesion",
+            "content": "When discussing complex political topics, use formal connectors to link your ideas smoothly: 'Furthermore,' 'Moreover,' 'In contrast,' 'Consequently,' 'Nevertheless,' 'Therefore.' These enhance the coherence and sophistication of your speech."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Discussing Democratic Principles and Challenges",
+            "content": "Principles: 'Democracy is founded on the principles of...', 'Key pillars include...', 'It aims to ensure...'. Challenges: 'Modern democracies face threats from...', 'The rise of populism has challenged...', 'Disinformation poses a significant risk to...'. Solutions: 'To strengthen democracy, we need...', 'Civic education is paramount...', 'Promoting media literacy is crucial...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Clear 'T' and 'D' Sounds",
+            "content": "Words like 'democracy,' 'citizen,' 'government,' 'participation,' 'threats' are common. Ensure your 't' and 'd' sounds are clear and distinct, especially at the end of words or in consonant clusters."
+          },
+          {
+            "type": "tip",
+            "heading": "Avoiding Absolutes",
+            "content": "Political discussions are rarely black and white. Avoid absolute statements like 'always' or 'never.' Instead, use qualifiers such as 'often,' 'tend to,' 'in many cases,' 'it is generally believed that' to reflect nuance and complexity."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "A core __________ of democracy is the active participation of citizens in governance.",
+          "options": [
+            "obstacle",
+            "principle",
+            "limitation",
+            "drawback"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The spread of __________ can undermine public trust in democratic institutions.",
+          "options": [
+            "transparency",
+            "accountability",
+            "disinformation",
+            "consensus"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "To strengthen democracy, it is essential to __________ media literacy and critical thinking skills.",
+          "options": [
+            "suppress",
+            "promote",
+            "ignore",
+            "diminish"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe two fundamental principles of democracy (e.g., rule of law, free and fair elections, freedom of speech). Explain why each principle is important for a functioning democratic society. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss two significant challenges that modern democracies face today (e.g., political polarization, misinformation, low voter turnout). Propose ways to address these challenges. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Language and Cultural Identity",
+      "description": "This lesson explores the deep connection between language and cultural identity, practicing descriptive and analytical language.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Relative Clauses for Detailed Descriptions",
+            "content": "To provide more detail about how language and culture are intertwined, use relative clauses. For example, 'Language is a vehicle THROUGH WHICH culture is transmitted,' or 'It's a bond THAT connects people to their heritage.' This adds precision."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Discussing Language's Role",
+            "content": "Role: 'Language serves as a cornerstone of...', 'It shapes our perception of...', 'It's intrinsically linked to...'. Preservation: 'Preserving endangered languages is crucial for...', 'It helps maintain cultural diversity...', 'Generational transmission is key to...'. Challenges: 'Globalization poses a threat to...', 'Language loss can lead to...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Clear Vowel Sounds in Vietnamese Contexts",
+            "content": "When discussing Vietnamese language and culture, ensure clear pronunciation of specific vowel sounds that might differ from English. Practice words like 'Vietnamese,' 'culture,' 'heritage' to maintain clarity and avoid mispronunciations."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Anecdotes or Personal Examples",
+            "content": "To make your discussion more engaging, share a brief personal anecdote or example of how language has influenced your own cultural identity or understanding. This makes your points more relatable."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Language is often considered the primary __________ through which cultural values and traditions are passed down.",
+          "options": [
+            "barrier",
+            "medium",
+            "obstacle",
+            "hindrance"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The __________ of indigenous languages is crucial for preserving cultural diversity worldwide.",
+          "options": [
+            "eradication",
+            "abandonment",
+            "revitalization",
+            "neglect"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "A person's native language is deeply __________ with their sense of identity and belonging.",
+          "options": [
+            "disconnected",
+            "unrelated",
+            "intertwined",
+            "separate"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe how your native language (Vietnamese) influences your cultural identity and worldview. Provide specific examples of words, phrases, or customs that are unique to Vietnamese culture. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss the importance of preserving endangered languages around the world. What are the consequences of language loss, and what efforts can be made to protect linguistic diversity? Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Climate Change: Individual vs. Systemic Action",
+      "description": "This lesson explores the debate between individual and systemic actions to combat climate change, practicing argumentative and problem-solving skills.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Concessive Clauses for Balanced Arguments",
+            "content": "To present a balanced argument, use concessive clauses (e.g., 'ALTHOUGH individual actions are important, systemic change is paramount,' 'EVEN THOUGH governments have a large role, personal choices still matter'). This shows a nuanced understanding."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Discussing Climate Action",
+            "content": "Individual: 'Reducing plastic consumption is a small step...', 'Adopting a plant-based diet can contribute to...', 'Recycling plays a part in...'. Systemic: 'Governments must implement stricter regulations...', 'Investment in renewable energy is crucial...', 'Corporations need to reduce their carbon footprint...'. Interconnection: 'Both individual and systemic actions are necessary...', 'One cannot exist without the other...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Stressing Key Contrasts",
+            "content": "When contrasting 'individual' and 'systemic,' stress these words to highlight the distinction. For example, 'Is it about INDIVIDUAL responsibility, or SYSTEMIC change?' This makes your argument clearer."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Strong Verbs for Impact",
+            "content": "Choose strong, active verbs to convey the urgency and importance of climate action. Instead of 'we should do something,' try 'we must implement,' 'we need to accelerate,' 'we ought to prioritize.' This adds conviction."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Addressing climate change requires both individual efforts and large-scale __________ action.",
+          "options": [
+            "isolated",
+            "systemic",
+            "negligible",
+            "insignificant"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Reducing one's carbon __________ is an example of an individual contribution to environmental protection.",
+          "options": [
+            "emission",
+            "footprint",
+            "impact",
+            "pollution"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Governments play a crucial role in __________ policies that promote renewable energy and sustainable practices.",
+          "options": [
+            "hindering",
+            "implementing",
+            "ignoring",
+            "dismantling"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe three specific individual actions people can take to combat climate change. Explain the potential impact of these actions and their limitations. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Argue for the greater importance of either individual actions or systemic changes in addressing climate change. Justify your stance, acknowledging the role of the other, and propose how they can work together. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Art as a Tool for Social Change",
+      "description": "This lesson explores how art can drive social change, practicing analytical and descriptive language about artistic expression.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Figurative Language in Description",
+            "content": "When discussing art, you can use metaphors and similes to make your descriptions more vivid and impactful. For example, 'The painting is a mirror reflecting society's flaws,' or 'Her music acts like a rallying cry for justice.' This adds poetic flair."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Discussing Art's Impact",
+            "content": "Impact: 'Art has the power to...', 'It can raise awareness about...', 'It challenges conventional thinking by...', 'It gives a voice to the marginalized...'. Examples: 'A powerful example is...', 'Think of how X movement used art to...'. Mechanisms: 'Through its emotional appeal, art can...', 'It fosters empathy by...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Emphasizing Emotional Words",
+            "content": "When describing the emotional impact of art, give slightly more emphasis and perhaps a slightly slower pace to words that convey emotion (e.g., 'powerful,' 'moving,' 'provocative,' 'heartbreaking'). This helps convey your feeling."
+          },
+          {
+            "type": "tip",
+            "heading": "Connecting Art to Specific Social Issues",
+            "content": "When discussing art for social change, clearly link the artwork to the specific social issue it addresses (e.g., 'This mural highlights the issue of poverty,' 'The song protests against injustice'). This makes your analysis concrete."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Art can serve as a powerful __________ for raising awareness about social injustices.",
+          "options": [
+            "distraction",
+            "catalyst",
+            "hindrance",
+            "deterrent"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Many artists use their work to __________ societal norms and provoke critical thought.",
+          "options": [
+            "reinforce",
+            "challenge",
+            "ignore",
+            "uphold"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The emotional __________ of art can foster empathy and inspire people to take action.",
+          "options": [
+            "detachment",
+            "indifference",
+            "resonance",
+            "apathy"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a specific example of art (e.g., a song, a painting, a play, a film) that you believe has contributed to social change. Explain what the artwork is about and the message it conveys. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Discuss the various ways art can be a tool for social change. How does it influence public opinion, challenge power structures, or inspire activism? Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    },
+    {
+      "title": "Debate: Remote Work vs. Office Work",
+      "description": "This lesson focuses on debating the advantages and disadvantages of remote and office work, practicing persuasive and comparative language.",
+      "estimatedMinutes": 30,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Comparative and Superlative Structures",
+            "content": "When comparing two options, use comparative structures (e.g., 'Remote work is MORE flexible THAN office work,' 'Office work is AS productive AS remote work in some cases'). For emphasis, use superlatives ('The MOST significant advantage is...')."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Comparing Work Models",
+            "content": "Remote advantages: 'It offers greater flexibility...', 'Employees can save time on commuting...', 'It promotes a better work-life balance...'. Office advantages: 'It fosters stronger team collaboration...', 'Spontaneous interactions are more common...', 'It provides a clearer separation between work and home...'. Disadvantages: 'Isolation can be a problem for remote workers...', 'Office distractions can reduce focus...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation: Clear Stress on Contrasting Ideas",
+            "content": "When directly contrasting 'remote' and 'office' work, stress these words to make your comparison clear. For example, 'REMOTE work offers flexibility, but OFFICE work provides better collaboration.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Using Transition Words for Comparison/Contrast",
+            "content": "To smoothly transition between points of comparison or contrast, use words like 'whereas,' 'while,' 'in contrast,' 'on the other hand,' 'similarly,' 'likewise.' This helps organize your arguments."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Remote work offers employees greater __________ in managing their schedules and location.",
+          "options": [
+            "rigidity",
+            "restriction",
+            "flexibility",
+            "constraint"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "One of the main __________ of office work is the opportunity for face-to-face collaboration.",
+          "options": [
+            "drawbacks",
+            "disadvantages",
+            "benefits",
+            "limitations"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Maintaining a healthy work-life __________ is often cited as a key advantage of working from home.",
+          "options": [
+            "imbalance",
+            "conflict",
+            "balance",
+            "struggle"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe three distinct advantages of remote work for employees and three distinct advantages of office work. Provide brief examples for each. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        },
+        {
+          "prompt": "Debate whether remote work or office work is generally more beneficial for companies and their employees in the long term. Justify your position with arguments and acknowledge counter-arguments. Speak for 90-120 seconds.",
+          "durationSeconds": 105
+        }
+      ]
+    }
+  ]
+}

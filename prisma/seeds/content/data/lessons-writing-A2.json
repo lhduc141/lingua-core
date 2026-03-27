@@ -1,0 +1,1434 @@
+{
+  "skill": "writing",
+  "cefrLevel": "A2",
+  "lessons": [
+    {
+      "title": "Write About a Hobby",
+      "description": "Learn to write simple sentences about your hobbies. Practice describing what you do and why you like it.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Simple Sentences for Description",
+            "content": "When describing your hobby, use simple subject-verb-object sentences. For example: 'I play football.' or 'My hobby is reading books.' This makes your writing clear and easy to understand."
+          },
+          {
+            "type": "example",
+            "heading": "Connecting Ideas with 'and'",
+            "content": "Correct: 'I like drawing, and I draw pictures of animals.' (Connects two related ideas). Incorrect: 'I like drawing. I draw pictures of animals.' (Two separate sentences, less flow). Use 'and' to join similar ideas or actions."
+          },
+          {
+            "type": "tip",
+            "heading": "Vocabulary for Hobbies",
+            "content": "Use words like 'enjoy', 'love', 'spend time', 'relaxing', 'interesting'. For example: 'I enjoy reading because it is relaxing.' or 'I spend my free time playing games.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Describing Why You Like It",
+            "content": "After stating your hobby, explain why you like it. Use 'because' to give a reason. For example: 'I like swimming because it is good for my health.' or 'I enjoy cooking because I like making new dishes.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My favorite hobby is reading books in my free ___.",
+          "answerKeys": [
+            "time"
+          ]
+        },
+        {
+          "stemText": "I really ___ playing the guitar after school.",
+          "answerKeys": [
+            "enjoy",
+            "like"
+          ]
+        },
+        {
+          "stemText": "She likes to ___ new recipes in the kitchen.",
+          "answerKeys": [
+            "try",
+            "cook"
+          ]
+        },
+        {
+          "stemText": "Gardening is a very ___ activity for my grandmother.",
+          "answerKeys": [
+            "relaxing",
+            "peaceful"
+          ]
+        },
+        {
+          "stemText": "I ___ to the gym three times a week to exercise.",
+          "answerKeys": [
+            "go"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write about your favorite hobby. What is it? What do you do? Why do you like it? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Describe a Trip You Took",
+      "description": "Learn to describe a past trip using the simple past tense. Practice sequencing events and using descriptive words.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using the Simple Past Tense",
+            "content": "When you describe a trip you took, you need to use verbs in the simple past tense. For example: 'I went to Da Lat.' or 'We visited the beach.' Remember to use the correct past form for regular and irregular verbs."
+          },
+          {
+            "type": "example",
+            "heading": "Sequencing Events with Time Markers",
+            "content": "Correct: 'First, we arrived at the hotel. Then, we went to the market. After that, we ate dinner.' (Uses 'first', 'then', 'after that' to show order). Incorrect: 'We ate dinner. We arrived at the hotel. We went to the market.' (Confusing order). Use these words to make your story clear."
+          },
+          {
+            "type": "tip",
+            "heading": "Descriptive Adjectives for Places and Feelings",
+            "content": "Use adjectives to make your description more interesting. For example: 'The beach was beautiful.' or 'The food was delicious.' You can also describe your feelings: 'I felt happy and relaxed.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Starting and Ending Your Description",
+            "content": "Start by saying where and when you went. End by saying how you felt about the trip. For example: 'Last summer, I went to Ha Long Bay.' and 'It was a wonderful trip, and I want to go again.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Last year, I ___ to Hanoi with my family.",
+          "answerKeys": [
+            "went",
+            "traveled"
+          ]
+        },
+        {
+          "stemText": "We ___ many interesting places there, like Hoan Kiem Lake.",
+          "answerKeys": [
+            "visited",
+            "saw"
+          ]
+        },
+        {
+          "stemText": "The weather was very ___ during our holiday.",
+          "answerKeys": [
+            "nice",
+            "good",
+            "beautiful"
+          ]
+        },
+        {
+          "stemText": "We ___ delicious local food every day.",
+          "answerKeys": [
+            "ate",
+            "enjoyed"
+          ]
+        },
+        {
+          "stemText": "I ___ very happy to spend time with my relatives.",
+          "answerKeys": [
+            "felt",
+            "was"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write about a trip you took. Where did you go? When did you go? What did you do there? How did you feel? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "My Dream Job",
+      "description": "Learn to express your future aspirations using 'want to' and 'will'. Practice describing a job and why it interests you.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Expressing Future Plans with 'want to' and 'will'",
+            "content": "Use 'I want to be a...' or 'I will be a...' to talk about your dream job. For example: 'I want to be a doctor.' or 'I will work as a teacher.' 'Will' is for general future, 'want to' expresses desire."
+          },
+          {
+            "type": "example",
+            "heading": "Using 'because' to Give Reasons",
+            "content": "Correct: 'I want to be a chef because I love cooking.' (Clearly states the reason). Incorrect: 'I want to be a chef. I love cooking.' (Doesn't connect the ideas as well). 'Because' helps explain your choices."
+          },
+          {
+            "type": "tip",
+            "heading": "Vocabulary for Jobs and Qualities",
+            "content": "Think about words related to jobs: 'help people', 'creative', 'travel', 'teach', 'design'. Also, describe why you like it: 'interesting', 'important', 'fun'."
+          },
+          {
+            "type": "rule",
+            "heading": "Describing What You Would Do",
+            "content": "After stating your dream job, describe what you would do in that role. For example: 'As a doctor, I will help sick people get better.' or 'As an artist, I will paint beautiful pictures.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My dream job is to ___ a teacher.",
+          "answerKeys": [
+            "be",
+            "become"
+          ]
+        },
+        {
+          "stemText": "I want to ___ children learn new things.",
+          "answerKeys": [
+            "help",
+            "teach"
+          ]
+        },
+        {
+          "stemText": "I think being a doctor is a very ___ job.",
+          "answerKeys": [
+            "important",
+            "meaningful"
+          ]
+        },
+        {
+          "stemText": "She wants to be a designer because she is very ___.",
+          "answerKeys": [
+            "creative",
+            "artistic"
+          ]
+        },
+        {
+          "stemText": "I will ___ hard to achieve my goal.",
+          "answerKeys": [
+            "study",
+            "work"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write about your dream job. What job is it? Why do you want this job? What would you do in this job? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Write a Simple Email to a Friend",
+      "description": "Learn the basic structure of an informal email. Practice writing friendly messages and asking simple questions.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Basic Email Structure",
+            "content": "An informal email usually has a greeting (e.g., 'Hi [Friend's Name],'), an opening (e.g., 'How are you?'), a main body, a closing (e.g., 'See you soon,'), and your name."
+          },
+          {
+            "type": "example",
+            "heading": "Informal Greetings and Closings",
+            "content": "Correct Greeting: 'Hi Anna,' or 'Dear Tom,'. Correct Closing: 'Best,', 'See you soon,', or 'Talk to you later,'. Incorrect: 'To Whom It May Concern,' (Too formal). Keep it friendly and simple."
+          },
+          {
+            "type": "tip",
+            "heading": "Asking Questions in Emails",
+            "content": "It's good to ask your friend questions to make the email a conversation. For example: 'How was your weekend?' or 'What are you doing next week?' This shows you care about them."
+          },
+          {
+            "type": "rule",
+            "heading": "Keeping Sentences Simple and Clear",
+            "content": "Use short, clear sentences. Avoid complex grammar. For example: 'I had a good weekend.' or 'I want to meet you on Saturday.' This makes your message easy for your friend to read."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Hi Mai, how ___ you?",
+          "answerKeys": [
+            "are"
+          ]
+        },
+        {
+          "stemText": "I hope you are ___ well.",
+          "answerKeys": [
+            "doing"
+          ]
+        },
+        {
+          "stemText": "I want to ___ you about my new hobby.",
+          "answerKeys": [
+            "tell"
+          ]
+        },
+        {
+          "stemText": "What are your ___ for the weekend?",
+          "answerKeys": [
+            "plans"
+          ]
+        },
+        {
+          "stemText": "See you ___, Linh.",
+          "answerKeys": [
+            "soon",
+            "later"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a simple email to a friend. Tell them about your plans for the upcoming weekend and ask them about their plans. (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Plan a Holiday",
+      "description": "Learn to describe your holiday plans using 'going to'. Practice listing activities and expressing preferences.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using 'going to' for Future Plans",
+            "content": "When you talk about plans you have already made, use 'be going to'. For example: 'I am going to visit Da Nang.' or 'We are going to stay for five days.' This shows a definite plan."
+          },
+          {
+            "type": "example",
+            "heading": "Expressing Preferences with 'want to' and 'would like to'",
+            "content": "Correct: 'I want to relax on the beach.' or 'I would like to try local food.' (Shows what you wish to do). Incorrect: 'I relax on the beach.' (Sounds like a habit, not a plan). Use these phrases to talk about your desires."
+          },
+          {
+            "type": "tip",
+            "heading": "Vocabulary for Holiday Activities",
+            "content": "Think of words like 'travel', 'stay', 'visit', 'relax', 'explore', 'swim', 'eat'. For example: 'We are going to explore the city center.' or 'I want to swim in the sea.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Organizing Your Plan",
+            "content": "Start with where and when you plan to go. Then, list the activities you want to do. You can use 'first', 'then', 'after that' to show the order of activities, or simply list them."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Next summer, I am ___ to travel to Phu Quoc.",
+          "answerKeys": [
+            "going"
+          ]
+        },
+        {
+          "stemText": "I want to ___ on the beach and read books.",
+          "answerKeys": [
+            "relax",
+            "lie"
+          ]
+        },
+        {
+          "stemText": "We are planning to ___ the famous night market.",
+          "answerKeys": [
+            "visit",
+            "explore"
+          ]
+        },
+        {
+          "stemText": "I would like to ___ some fresh seafood.",
+          "answerKeys": [
+            "eat",
+            "try"
+          ]
+        },
+        {
+          "stemText": "We will ___ at a nice resort near the sea.",
+          "answerKeys": [
+            "stay"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Imagine you are planning a holiday. Where are you going to go? When? What activities are you going to do? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Describe a Healthy Day",
+      "description": "Learn to describe your daily healthy routine using the simple present tense. Practice sequencing events and using adverbs of frequency.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using the Simple Present for Routines",
+            "content": "When describing a typical healthy day, use the simple present tense. For example: 'I wake up early.' or 'I eat a healthy breakfast.' This tense is used for habits and routines."
+          },
+          {
+            "type": "example",
+            "heading": "Sequencing Events with Time Expressions",
+            "content": "Correct: 'In the morning, I exercise. Then, I eat breakfast. After that, I go to work.' (Uses 'in the morning', 'then', 'after that' for clear order). Incorrect: 'I eat breakfast. I exercise. I go to work.' (Order is less clear). These words help organize your day."
+          },
+          {
+            "type": "tip",
+            "heading": "Vocabulary for Healthy Habits",
+            "content": "Use words like 'exercise', 'eat healthy food', 'drink water', 'sleep well', 'relax'. For example: 'I always drink a lot of water.' or 'I usually go for a walk.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Using Adverbs of Frequency",
+            "content": "Adverbs like 'always', 'usually', 'often', 'sometimes', 'never' help describe how often you do something. Place them before the main verb. For example: 'I always eat vegetables.' or 'I usually go to bed early.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "I always ___ up early to start my day.",
+          "answerKeys": [
+            "wake"
+          ]
+        },
+        {
+          "stemText": "For breakfast, I usually ___ fruit and yogurt.",
+          "answerKeys": [
+            "eat",
+            "have"
+          ]
+        },
+        {
+          "stemText": "I try to ___ water throughout the day.",
+          "answerKeys": [
+            "drink"
+          ]
+        },
+        {
+          "stemText": "In the evening, I often ___ for 30 minutes.",
+          "answerKeys": [
+            "exercise",
+            "walk"
+          ]
+        },
+        {
+          "stemText": "I go to bed early to get enough ___.",
+          "answerKeys": [
+            "sleep",
+            "rest"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe a typical healthy day for you. What do you do from morning to night to stay healthy? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Write About a Memorable Day",
+      "description": "Learn to describe a special day using the simple past tense. Practice expressing feelings and using descriptive adjectives.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using the Simple Past Tense for Past Events",
+            "content": "When you write about a memorable day, use verbs in the simple past tense to describe what happened. For example: 'It was my birthday.' or 'We went to the park.' Remember to use correct past forms."
+          },
+          {
+            "type": "example",
+            "heading": "Describing What Happened",
+            "content": "Correct: 'My friends visited me, and we ate cake.' (Clearly describes actions). Incorrect: 'My friends visit me. We eat cake.' (Uses present tense, sounds like a routine). Focus on actions that happened on that specific day."
+          },
+          {
+            "type": "tip",
+            "heading": "Vocabulary for Feelings and Special Events",
+            "content": "Use words like 'happy', 'excited', 'surprised', 'special', 'celebrated', 'gift', 'memory'. For example: 'I felt very happy.' or 'It was a special day for me.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Starting and Ending Your Story",
+            "content": "Start by stating which day was memorable and why. End by summarizing how you felt about the day. For example: 'My most memorable day was my graduation day.' and 'I will always remember that wonderful day.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My last birthday ___ a very memorable day.",
+          "answerKeys": [
+            "was"
+          ]
+        },
+        {
+          "stemText": "My family and friends ___ a surprise party for me.",
+          "answerKeys": [
+            "organized",
+            "planned"
+          ]
+        },
+        {
+          "stemText": "I ___ many beautiful gifts from everyone.",
+          "answerKeys": [
+            "received",
+            "got"
+          ]
+        },
+        {
+          "stemText": "We ___ delicious food and sang songs together.",
+          "answerKeys": [
+            "ate",
+            "enjoyed"
+          ]
+        },
+        {
+          "stemText": "I ___ so happy and thankful that day.",
+          "answerKeys": [
+            "felt",
+            "was"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write about a memorable day in your life. What happened on that day? Why was it special? How did you feel? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Describe a Place in Your City",
+      "description": "Learn to describe a place using 'there is/are' and prepositions of place. Practice using descriptive adjectives.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using 'There is/There are'",
+            "content": "Use 'There is' for singular nouns and 'There are' for plural nouns to describe what exists in a place. For example: 'There is a big park.' or 'There are many shops.' This helps list features of a place."
+          },
+          {
+            "type": "example",
+            "heading": "Prepositions of Place",
+            "content": "Correct: 'The market is near the river.' or 'There is a cafe on the corner.' (Uses 'near', 'on' to show location). Incorrect: 'The market is river.' (Missing preposition). Prepositions like 'in', 'on', 'near', 'next to', 'opposite' are important."
+          },
+          {
+            "type": "tip",
+            "heading": "Descriptive Adjectives for Places",
+            "content": "Use adjectives to make your description vivid. Words like 'beautiful', 'busy', 'quiet', 'modern', 'old', 'famous', 'green' can describe places. For example: 'It's a beautiful park with many trees.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Organizing Your Description",
+            "content": "Start by naming the place. Then, describe its main features, what you can do there, and why you like it. Use simple sentences to keep it clear."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My favorite place in the city is the central ___.",
+          "answerKeys": [
+            "park"
+          ]
+        },
+        {
+          "stemText": "There ___ a big lake in the middle of the park.",
+          "answerKeys": [
+            "is"
+          ]
+        },
+        {
+          "stemText": "You can see many ___ trees and flowers there.",
+          "answerKeys": [
+            "green",
+            "beautiful"
+          ]
+        },
+        {
+          "stemText": "It's a very ___ place to relax and walk.",
+          "answerKeys": [
+            "peaceful",
+            "quiet"
+          ]
+        },
+        {
+          "stemText": "The park is ___ my house, so I go there often.",
+          "answerKeys": [
+            "near",
+            "close to"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe a favorite place in your city. What is it? What does it look like? What can you do there? Why do you like it? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Weekend Activities",
+      "description": "Learn to describe your usual weekend activities using the simple present tense. Practice connecting ideas and expressing preferences.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using the Simple Present for Routines",
+            "content": "When talking about what you usually do on the weekend, use the simple present tense. For example: 'I wake up late on Saturdays.' or 'We often go to the cinema.' This shows regular habits."
+          },
+          {
+            "type": "example",
+            "heading": "Connecting Activities with 'and', 'but', 'so'",
+            "content": "Correct: 'I like to read, and I also watch movies.' (Adds more information). 'I want to go out, but I am tired.' (Shows contrast). 'It's sunny, so we go to the park.' (Shows result). These words link your ideas smoothly."
+          },
+          {
+            "type": "tip",
+            "heading": "Vocabulary for Weekend Activities",
+            "content": "Think of common activities: 'relax', 'meet friends', 'go shopping', 'watch TV', 'do sports', 'cook', 'visit family'. For example: 'I usually relax at home.' or 'My friends and I meet for coffee.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Organizing Your Weekend Description",
+            "content": "You can describe Saturday activities first, then Sunday activities. Or, you can group similar activities together. Start with a general statement about your weekend, then give details."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "On Saturday mornings, I usually ___ up late.",
+          "answerKeys": [
+            "wake"
+          ]
+        },
+        {
+          "stemText": "I often ___ friends for lunch or coffee.",
+          "answerKeys": [
+            "meet",
+            "see"
+          ]
+        },
+        {
+          "stemText": "In the afternoon, I like to ___ a movie at home.",
+          "answerKeys": [
+            "watch",
+            "see"
+          ]
+        },
+        {
+          "stemText": "On Sundays, my family and I often ___ to the park.",
+          "answerKeys": [
+            "go"
+          ]
+        },
+        {
+          "stemText": "I always ___ my weekend time with my family.",
+          "answerKeys": [
+            "enjoy",
+            "spend"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write about what you usually do on a weekend. Describe your activities on Saturday and Sunday. (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Write a Short Diary Entry",
+      "description": "Learn to write a short, personal diary entry using the simple past tense. Practice expressing feelings about your day.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Diary Entry Format",
+            "content": "A diary entry usually starts with the date (e.g., 'October 26th, 2023') and often a greeting like 'Dear Diary,'. It's a personal reflection, so the tone is informal."
+          },
+          {
+            "type": "example",
+            "heading": "Using the Simple Past Tense",
+            "content": "Correct: 'Today, I went to the market. I bought some fruit.' (Describes past actions). Incorrect: 'Today, I go to the market. I buy some fruit.' (Uses present tense, which is wrong for past events). All main verbs should be in the past tense."
+          },
+          {
+            "type": "tip",
+            "heading": "Expressing Feelings",
+            "content": "It's common to share your feelings in a diary. Use words like 'I felt happy', 'I was tired', 'I was surprised'. For example: 'I felt very excited about the news.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Focus on Key Events",
+            "content": "Choose one or two main things that happened in your day to write about. Don't try to write every detail. Keep sentences simple and direct. End with a reflection on your day or a hope for tomorrow."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Dear Diary, today ___ a very busy day.",
+          "answerKeys": [
+            "was"
+          ]
+        },
+        {
+          "stemText": "I ___ to the library and studied for my exam.",
+          "answerKeys": [
+            "went"
+          ]
+        },
+        {
+          "stemText": "Later, I ___ a new friend at the cafe.",
+          "answerKeys": [
+            "met",
+            "saw"
+          ]
+        },
+        {
+          "stemText": "I ___ happy to talk to her for a long time.",
+          "answerKeys": [
+            "felt",
+            "was"
+          ]
+        },
+        {
+          "stemText": "It was a good day, and I ___ a lot.",
+          "answerKeys": [
+            "learned",
+            "did"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short diary entry for today. Describe one or two interesting things that happened and how you felt. (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Describe Your Neighborhood",
+      "description": "Learn to describe your neighborhood using 'there is/are' and prepositions of place. Practice using descriptive adjectives.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using 'There is/There are' for Features",
+            "content": "To list what your neighborhood has, use 'There is' for singular items (e.g., 'There is a park.') and 'There are' for plural items (e.g., 'There are many shops.')."
+          },
+          {
+            "type": "example",
+            "heading": "Prepositions of Place for Location",
+            "content": "Correct: 'My house is next to a supermarket.' or 'There is a school on the main street.' (Uses 'next to', 'on' to show position). Incorrect: 'My house supermarket.' (Missing preposition). Prepositions like 'in', 'on', 'near', 'next to', 'opposite' are essential."
+          },
+          {
+            "type": "tip",
+            "heading": "Descriptive Adjectives for Atmosphere",
+            "content": "Use adjectives to describe the general feeling or look of your neighborhood. Words like 'quiet', 'busy', 'friendly', 'clean', 'green', 'modern', 'old' can be very helpful. For example: 'It's a quiet and friendly neighborhood.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Organizing Your Description",
+            "content": "Start with a general statement about your neighborhood. Then, describe specific places (shops, parks, schools) and their locations. End with what you like about living there."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My neighborhood is very ___ and peaceful.",
+          "answerKeys": [
+            "quiet",
+            "calm"
+          ]
+        },
+        {
+          "stemText": "There ___ a small park where children play.",
+          "answerKeys": [
+            "is"
+          ]
+        },
+        {
+          "stemText": "There are many local ___ near my house.",
+          "answerKeys": [
+            "shops",
+            "stores"
+          ]
+        },
+        {
+          "stemText": "The people in my neighborhood are very ___.",
+          "answerKeys": [
+            "friendly",
+            "kind"
+          ]
+        },
+        {
+          "stemText": "I like living here ___ it's convenient.",
+          "answerKeys": [
+            "because"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe your neighborhood. What does it look like? What facilities does it have (shops, parks, schools)? What do you like about it? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "A Review of a Restaurant",
+      "description": "Learn to write a simple restaurant review using the simple past tense. Practice describing food, service, and atmosphere.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using the Simple Past for Your Experience",
+            "content": "When writing a review, use the simple past tense to describe your visit. For example: 'I went to a new restaurant.' or 'We ordered pizza.' This shows what happened during your visit."
+          },
+          {
+            "type": "example",
+            "heading": "Descriptive Adjectives for Food and Service",
+            "content": "Correct: 'The food was delicious.' or 'The service was fast.' (Uses adjectives to describe). Incorrect: 'The food good.' (Missing 'was'). Use adjectives like 'delicious', 'tasty', 'fresh', 'slow', 'friendly', 'polite'."
+          },
+          {
+            "type": "tip",
+            "heading": "Expressing Opinions",
+            "content": "Clearly state your opinion using phrases like 'I liked...', 'I didn't like...', 'I recommend...', 'I think...'. For example: 'I really liked the atmosphere.' or 'I recommend this place.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Organizing Your Review",
+            "content": "Start with the restaurant's name and when you visited. Then, describe the food, the service, and the atmosphere. End with a recommendation or overall opinion."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Last night, I ___ a new Italian restaurant.",
+          "answerKeys": [
+            "visited",
+            "went to"
+          ]
+        },
+        {
+          "stemText": "The pasta was very ___ and fresh.",
+          "answerKeys": [
+            "delicious",
+            "tasty"
+          ]
+        },
+        {
+          "stemText": "The service was a little ___, but the staff was friendly.",
+          "answerKeys": [
+            "slow"
+          ]
+        },
+        {
+          "stemText": "The restaurant had a nice and cozy ___.",
+          "answerKeys": [
+            "atmosphere",
+            "ambiance"
+          ]
+        },
+        {
+          "stemText": "I would ___ this restaurant to my friends.",
+          "answerKeys": [
+            "recommend",
+            "suggest"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write a short review of a restaurant you visited recently. Describe the food, the service, and the atmosphere. Would you recommend it? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Write About Your Morning Commute",
+      "description": "Learn to describe your daily morning commute using the simple present tense. Practice sequencing events and using time expressions.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using the Simple Present for Routines",
+            "content": "When describing your daily commute, use the simple present tense. For example: 'I wake up at 6 AM.' or 'I take the bus to work.' This tense is for regular actions."
+          },
+          {
+            "type": "example",
+            "heading": "Sequencing Events with Time Expressions",
+            "content": "Correct: 'First, I walk to the bus stop. Then, I wait for the bus. After that, I read a book on the bus.' (Uses 'first', 'then', 'after that' for clear order). Incorrect: 'I read a book. I walk to the bus stop.' (Confusing order). These words help organize your commute description."
+          },
+          {
+            "type": "tip",
+            "heading": "Vocabulary for Commuting",
+            "content": "Use words like 'travel', 'walk', 'take the bus/train/motorbike', 'traffic', 'crowded', 'fast', 'slow'. For example: 'My commute is usually fast.' or 'The bus is often crowded.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Describing What You See or Do",
+            "content": "Besides describing the mode of transport, mention what you see or do during your commute. For example: 'I listen to music.' or 'I see many people on the street.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Every morning, I ___ to work by motorbike.",
+          "answerKeys": [
+            "go",
+            "travel"
+          ]
+        },
+        {
+          "stemText": "First, I leave my house at 7 ___.",
+          "answerKeys": [
+            "AM"
+          ]
+        },
+        {
+          "stemText": "The ___ can be heavy during rush hour.",
+          "answerKeys": [
+            "traffic"
+          ]
+        },
+        {
+          "stemText": "It usually ___ about 30 minutes to get to my office.",
+          "answerKeys": [
+            "takes"
+          ]
+        },
+        {
+          "stemText": "During the commute, I often ___ to music.",
+          "answerKeys": [
+            "listen"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write about your morning commute to work or school. How do you travel? How long does it take? What do you usually do or see during your commute? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "A Shopping List and Budget",
+      "description": "Learn to create a simple shopping list and estimate costs. Practice using numbers and expressing needs.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Creating a Shopping List",
+            "content": "When making a shopping list, write down the item and the quantity you need. For example: 'Milk (1 carton)', 'Apples (2 kg)'. Use simple nouns and numbers."
+          },
+          {
+            "type": "example",
+            "heading": "Expressing Needs with 'I need' or 'I want to buy'",
+            "content": "Correct: 'I need to buy some bread.' or 'I want to buy new shoes.' (Clearly states what you require). Incorrect: 'Buy bread.' (Too direct for a personal list, sounds like an order). These phrases are polite and clear."
+          },
+          {
+            "type": "tip",
+            "heading": "Estimating Costs",
+            "content": "After listing items, try to guess the price of each item. Then, add them up to get a total budget. Use simple currency (e.g., '10,000 VND'). For example: 'Bread: 20,000 VND.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Organizing Your Budget",
+            "content": "List each item with its estimated cost. Then, write the total estimated cost at the end. This helps you manage your money effectively."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "I need to ___ some groceries from the market.",
+          "answerKeys": [
+            "buy",
+            "get"
+          ]
+        },
+        {
+          "stemText": "On my shopping ___, I have milk, bread, and eggs.",
+          "answerKeys": [
+            "list"
+          ]
+        },
+        {
+          "stemText": "A carton of milk usually ___ about 30,000 VND.",
+          "answerKeys": [
+            "costs"
+          ]
+        },
+        {
+          "stemText": "I also need to buy 1 kg of ___.",
+          "answerKeys": [
+            "rice",
+            "meat",
+            "fruit"
+          ]
+        },
+        {
+          "stemText": "My total ___ for shopping is around 150,000 VND.",
+          "answerKeys": [
+            "budget",
+            "cost"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Imagine you need to buy groceries for the week. Create a shopping list with at least 5 items and estimate the cost for each item. Then, calculate your total budget. (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Describe a Festival",
+      "description": "Learn to describe a festival using the simple present and past tenses. Practice using descriptive adjectives and sequencing events.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Present and Past Tenses",
+            "content": "Use the simple present tense to describe general facts about the festival (e.g., 'It is celebrated in January.'). Use the simple past tense to describe your personal experience at the festival (e.g., 'I went last year.')."
+          },
+          {
+            "type": "example",
+            "heading": "Descriptive Adjectives for Festivals",
+            "content": "Correct: 'The festival is colorful and lively.' or 'We saw beautiful decorations.' (Uses adjectives to make it interesting). Incorrect: 'The festival good.' (Missing 'is'). Adjectives like 'traditional', 'exciting', 'delicious', 'loud', 'bright' are useful."
+          },
+          {
+            "type": "tip",
+            "heading": "Vocabulary for Festival Activities",
+            "content": "Think of words like 'celebrate', 'decorate', 'eat special food', 'play games', 'watch performances', 'wear traditional clothes'. For example: 'People celebrate with music and dancing.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Organizing Your Description",
+            "content": "Start by naming the festival and when it takes place. Then, describe what people do, what you see, and what kind of food is eaten. End with how you feel about the festival."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Tet is the most important ___ in Vietnam.",
+          "answerKeys": [
+            "festival",
+            "holiday"
+          ]
+        },
+        {
+          "stemText": "People usually ___ Tet in late January or early February.",
+          "answerKeys": [
+            "celebrate"
+          ]
+        },
+        {
+          "stemText": "Families ___ their houses with flowers and lights.",
+          "answerKeys": [
+            "decorate",
+            "clean"
+          ]
+        },
+        {
+          "stemText": "We ___ special traditional food like banh chung.",
+          "answerKeys": [
+            "eat",
+            "have"
+          ]
+        },
+        {
+          "stemText": "It's a time for family to ___ together.",
+          "answerKeys": [
+            "gather",
+            "be"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe a festival you know or have celebrated. What is its name? When is it celebrated? What do people do during the festival? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Write About a Skill You Are Learning",
+      "description": "Learn to describe a new skill you are acquiring. Practice using the present continuous and simple present tenses.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Present Continuous for Ongoing Learning",
+            "content": "Use the present continuous tense ('I am learning...') to talk about a skill you are currently in the process of acquiring. For example: 'I am learning to play the piano.' or 'She is learning English.'"
+          },
+          {
+            "type": "example",
+            "heading": "Using Simple Present for Reasons and Benefits",
+            "content": "Correct: 'I am learning English because it is useful for my job.' (Present continuous for the action, simple present for the reason). Incorrect: 'I am learning English because it is being useful.' (Incorrect tense for the reason). Use simple present for facts and general truths."
+          },
+          {
+            "type": "tip",
+            "heading": "Vocabulary for Learning and Practice",
+            "content": "Use words like 'practice', 'study', 'improve', 'difficult', 'easy', 'useful', 'challenge'. For example: 'It is a bit difficult, but I practice every day.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Describing Your Learning Process",
+            "content": "Explain how you are learning the skill. Do you take classes? Do you practice alone? For example: 'I take classes twice a week.' or 'I watch online videos to learn.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "I am currently ___ to cook Vietnamese food.",
+          "answerKeys": [
+            "learning"
+          ]
+        },
+        {
+          "stemText": "It is a bit ___ at first, but I am getting better.",
+          "answerKeys": [
+            "difficult",
+            "hard"
+          ]
+        },
+        {
+          "stemText": "I ___ recipes from my mother and watch videos.",
+          "answerKeys": [
+            "follow",
+            "learn"
+          ]
+        },
+        {
+          "stemText": "I want to ___ my cooking skills for my family.",
+          "answerKeys": [
+            "improve",
+            "develop"
+          ]
+        },
+        {
+          "stemText": "Cooking is a very ___ skill to have.",
+          "answerKeys": [
+            "useful",
+            "practical"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Write about a new skill you are learning. What skill is it? Why are you learning it? What do you do to practice? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Compare Two Foods",
+      "description": "Learn to compare two foods using comparative adjectives. Practice expressing preferences and describing differences.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Comparative Adjectives",
+            "content": "To compare two things, use comparative adjectives. For short adjectives, add '-er' (e.g., 'sweeter', 'bigger'). For longer adjectives, use 'more' (e.g., 'more delicious', 'more expensive'). Always use 'than' after the comparative adjective."
+          },
+          {
+            "type": "example",
+            "heading": "Connecting Comparisons with 'but' and 'while'",
+            "content": "Correct: 'Pho is hotter than Bun Cha, but Bun Cha is sweeter.' (Uses 'but' for contrast). 'Pho has noodles, while Bun Cha has grilled pork.' (Uses 'while' to show difference). These words help show relationships between ideas."
+          },
+          {
+            "type": "tip",
+            "heading": "Vocabulary for Describing Food",
+            "content": "Use words like 'sweet', 'sour', 'salty', 'spicy', 'bitter', 'delicious', 'healthy', 'fresh', 'traditional'. For example: 'This dish is spicier than the other one.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Expressing Preference",
+            "content": "After comparing, state which food you prefer and why. Use phrases like 'I prefer...', 'I like... better', 'My favorite is...'. For example: 'I prefer pho because it is warmer.'"
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Apples are usually ___ than oranges.",
+          "answerKeys": [
+            "sweeter"
+          ]
+        },
+        {
+          "stemText": "Pizza is often ___ delicious than salad for me.",
+          "answerKeys": [
+            "more"
+          ]
+        },
+        {
+          "stemText": "Rice is a staple food, ___ noodles are also popular.",
+          "answerKeys": [
+            "while",
+            "but"
+          ]
+        },
+        {
+          "stemText": "I think vegetables are ___ for you than fast food.",
+          "answerKeys": [
+            "healthier",
+            "better"
+          ]
+        },
+        {
+          "stemText": "Between coffee and tea, I ___ coffee.",
+          "answerKeys": [
+            "prefer",
+            "like"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Compare two foods you like (e.g., pho and bun cha, or apples and bananas). Describe their differences in taste, ingredients, or how they are eaten. Which one do you prefer and why? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "My Ideal Weekend",
+      "description": "Learn to describe your ideal weekend using conditional sentences and future tense. Practice expressing desires and listing activities.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using 'If' for Ideal Situations",
+            "content": "Use the first conditional (If + present simple, will + base verb) or simple present for ideal situations. For example: 'If I have free time, I will go to the beach.' or 'If it's sunny, I go for a walk.' You can also use 'I would like to...' or 'I want to...'."
+          },
+          {
+            "type": "example",
+            "heading": "Expressing Desires with 'I would like to' and 'I want to'",
+            "content": "Correct: 'I would like to sleep in late.' or 'I want to spend time with friends.' (Clearly states what you wish for). Incorrect: 'I sleep in late.' (Sounds like a routine, not an ideal). These phrases show your desires."
+          },
+          {
+            "type": "tip",
+            "heading": "Vocabulary for Relaxing Activities",
+            "content": "Think of words like 'relax', 'sleep in', 'read', 'watch movies', 'go out', 'eat good food', 'spend time with family/friends'. For example: 'I would relax and read a book.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Organizing Your Ideal Weekend",
+            "content": "Describe your ideal Saturday, then your ideal Sunday. Mention what time you wake up, what activities you do, and who you spend time with. End with how you would feel."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "On my ideal weekend, I would ___ in late.",
+          "answerKeys": [
+            "sleep"
+          ]
+        },
+        {
+          "stemText": "If the weather is nice, I will ___ to the park.",
+          "answerKeys": [
+            "go",
+            "walk"
+          ]
+        },
+        {
+          "stemText": "I would like to ___ a good book and relax.",
+          "answerKeys": [
+            "read"
+          ]
+        },
+        {
+          "stemText": "I want to ___ time with my family and friends.",
+          "answerKeys": [
+            "spend"
+          ]
+        },
+        {
+          "stemText": "It would be a ___ weekend with no worries.",
+          "answerKeys": [
+            "perfect",
+            "wonderful"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe your ideal weekend. What would you do on Saturday and Sunday if you had no responsibilities? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Describe a Friend",
+      "description": "Learn to describe a friend's appearance and personality. Practice using descriptive adjectives and simple sentences.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Describing Appearance",
+            "content": "Use adjectives to describe how your friend looks. For example: 'She has long black hair.' or 'He is tall and slim.' Focus on simple, clear descriptions."
+          },
+          {
+            "type": "example",
+            "heading": "Describing Personality",
+            "content": "Correct: 'She is very kind and funny.' or 'He is smart and helpful.' (Uses adjectives to describe character). Incorrect: 'She is kind. Funny.' (Better to combine with 'and'). Adjectives like 'friendly', 'outgoing', 'quiet', 'honest' are useful."
+          },
+          {
+            "type": "tip",
+            "heading": "Giving Examples of Their Actions",
+            "content": "To make your description more concrete, give a simple example of what your friend does. For example: 'She always helps me with my homework.' or 'He makes me laugh a lot.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Organizing Your Description",
+            "content": "Start by introducing your friend (name, how you met). Then, describe their appearance. After that, describe their personality and what you like about them. End with a general statement about your friendship."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "My best friend's name is An, and she is very ___.",
+          "answerKeys": [
+            "kind",
+            "friendly"
+          ]
+        },
+        {
+          "stemText": "She has long, ___ hair and big, brown eyes.",
+          "answerKeys": [
+            "black",
+            "dark"
+          ]
+        },
+        {
+          "stemText": "An is always happy and makes everyone ___.",
+          "answerKeys": [
+            "laugh",
+            "smile"
+          ]
+        },
+        {
+          "stemText": "She is very ___ and always listens to my problems.",
+          "answerKeys": [
+            "supportive",
+            "helpful"
+          ]
+        },
+        {
+          "stemText": "I like her ___ she is a true friend.",
+          "answerKeys": [
+            "because"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Describe one of your friends. What is their name? What do they look like? What is their personality like? What do you like most about them? (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    },
+    {
+      "title": "Write a Short Story Ending",
+      "description": "Learn to write a simple ending for a short story. Practice using the simple past tense and creating a sense of closure.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using the Simple Past Tense for Storytelling",
+            "content": "Continue the story using verbs in the simple past tense. For example: 'He found the key.' or 'They walked home.' Keep the actions clear and sequential."
+          },
+          {
+            "type": "example",
+            "heading": "Adding a Sense of Closure",
+            "content": "Correct: 'Finally, they were safe at home and happy.' (Gives a clear end to the situation). Incorrect: 'They were safe at home. They were happy.' (Less connected). Use words like 'finally', 'at last', 'in the end' to signal the conclusion."
+          },
+          {
+            "type": "tip",
+            "heading": "Describing Feelings at the End",
+            "content": "It's good to describe how the characters feel at the end of the story. Were they happy, relieved, surprised? For example: 'They felt very relieved.' or 'Everyone was surprised by the news.'"
+          },
+          {
+            "type": "rule",
+            "heading": "Keeping it Concise",
+            "content": "A short story ending should be brief and to the point. Focus on resolving the main conflict or bringing the characters to a final state. Aim for 3-4 sentences."
+          }
+        ]
+      },
+      "fillBlanks": [
+        {
+          "stemText": "Suddenly, the door ___ open with a loud noise.",
+          "answerKeys": [
+            "flew",
+            "opened"
+          ]
+        },
+        {
+          "stemText": "They ___ a small, lost puppy hiding behind it.",
+          "answerKeys": [
+            "saw",
+            "found"
+          ]
+        },
+        {
+          "stemText": "Finally, the children ___ the puppy back home.",
+          "answerKeys": [
+            "took",
+            "brought"
+          ]
+        },
+        {
+          "stemText": "Everyone was very ___ to see the puppy safe.",
+          "answerKeys": [
+            "happy",
+            "relieved"
+          ]
+        },
+        {
+          "stemText": "They ___ that day as the start of a new friendship.",
+          "answerKeys": [
+            "remembered",
+            "marked"
+          ]
+        }
+      ],
+      "essays": [
+        {
+          "prompt": "Read the beginning of the story: 'Mai was walking home alone one evening. It was getting dark, and the streetlights were flickering. Suddenly, she heard a strange noise from the bushes nearby.' Write a short ending (3-4 sentences) for this story. (60-90 words)",
+          "minWords": 60,
+          "maxWords": 90
+        }
+      ]
+    }
+  ]
+}

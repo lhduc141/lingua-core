@@ -1,0 +1,1326 @@
+{
+  "skill": "speaking",
+  "cefrLevel": "A2",
+  "lessons": [
+    {
+      "title": "Talk About a Hobby",
+      "description": "Learn to talk about your hobbies and free-time activities using simple language and useful phrases.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Intonation for Lists",
+            "content": "When listing items, use a rising intonation for each item in the list, and a falling intonation for the last item. This signals that your list is complete. For example: 'I like reading, (rising) swimming, (rising) and cooking. (falling)'"
+          },
+          {
+            "type": "example",
+            "heading": "Useful Phrases for Hobbies",
+            "content": "Use these phrases to talk about your hobbies: 'I enjoy [verb + -ing]...', 'I like to [verb]...', 'My hobby is [noun/verb + -ing]...', 'In my free time, I usually [verb]...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Connectors to Explain",
+            "content": "Use simple connectors like 'and', 'but', and 'because' to link your ideas and explain why you like your hobby. For example: 'I like reading because it's relaxing.' or 'I play football, but I'm not very good.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Which word best describes an activity you do for fun in your free time?",
+          "options": [
+            "hobby",
+            "job",
+            "chore",
+            "task"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I enjoy ______ new books in the evening.",
+          "options": [
+            "reading",
+            "read",
+            "to read",
+            "reads"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My sister likes to ______ time playing the guitar.",
+          "options": [
+            "spend",
+            "make",
+            "take",
+            "do"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your main hobby. What do you do, how often, and why do you like it? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Talk about a new hobby you would like to try in the future. What is it, and why are you interested in it? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Describe a Journey or Trip",
+      "description": "Practice describing past journeys or trips, including where you went and what you did.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Past Simple Pronunciation (-ed endings)",
+            "content": "The '-ed' ending for regular past simple verbs can sound like /t/, /d/, or /ɪd/. For example: 'walked' /wɔːkt/, 'played' /pleɪd/, 'visited' /vɪzɪtɪd/. Pay attention to the sound before '-ed'."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Describing a Trip",
+            "content": "Use these phrases to talk about a trip: 'Last year, I went to...', 'We visited [place]...', 'I traveled by [transport]...', 'It was a [adjective] trip.', 'We saw many [things]...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Time Markers for Sequence",
+            "content": "Use words like 'first', 'then', 'after that', and 'finally' to make your story clear and easy to follow. For example: 'First, we arrived. Then, we checked into our hotel.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is another word for a long trip, especially by road or sea?",
+          "options": [
+            "journey",
+            "walk",
+            "stroll",
+            "ride"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "We went ______ to see famous places in the city.",
+          "options": [
+            "sightseeing",
+            "shopping",
+            "eating",
+            "sleeping"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Our ______ was a beautiful beach in Da Nang.",
+          "options": [
+            "destination",
+            "departure",
+            "ticket",
+            "luggage"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a recent short trip you took. Where did you go, how did you travel, and what did you do there? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Talk about your favorite type of travel (e.g., beach, mountain, city). Why do you like it, and what do you usually do on such trips? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Your Dream Job",
+      "description": "Learn to express your aspirations for a future job and what makes it appealing to you.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Stressing Important Words",
+            "content": "To make your speech clearer and more engaging, stress the most important words in your sentences. For example, instead of 'I want to be a doctor', say 'I WANT to be a DOCTOR' to emphasize your desire and the profession."
+          },
+          {
+            "type": "example",
+            "heading": "Talking About Future Plans",
+            "content": "Use these phrases to discuss your dream job: 'I want to be a [job]...', 'I hope to work as a [job]...', 'It's important to me to [verb]...', 'I would like to [verb]...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Give Reasons Using 'Because'",
+            "content": "Always try to explain *why* you want a certain job or *why* it's important to you. Use 'because' to connect your ideas. For example: 'I want to be a teacher because I like helping people.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is a 'career'?",
+          "options": [
+            "a job or profession that you have been trained for and intend to do for a long time",
+            "a short-term task",
+            "a hobby",
+            "a school subject"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "A good ______ is important for a comfortable life.",
+          "options": [
+            "salary",
+            "hobby",
+            "holiday",
+            "friend"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "If you like inventing new things, you might enjoy a ______ job.",
+          "options": [
+            "creative",
+            "boring",
+            "difficult",
+            "manual"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your dream job. What is it, and what would you do in that job every day? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Explain why this dream job is important to you. What skills do you think you need for it, and how does it make you feel? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Talk About Health and Exercise",
+      "description": "Discuss your habits related to health and exercise, and explain why they are important.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Linking Sounds (Consonant + Vowel)",
+            "content": "To sound more natural, link words when a word ends with a consonant sound and the next word starts with a vowel sound. For example, 'I eat_an apple' sounds like 'Iea-tan-apple'."
+          },
+          {
+            "type": "example",
+            "heading": "Useful Health Phrases",
+            "content": "Use these phrases to talk about health: 'I try to eat a healthy diet.', 'It's good for my body/mind.', 'I usually exercise [frequency]...', 'Staying fit is important to me.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Frequency Adverbs",
+            "content": "Use adverbs of frequency like 'always', 'usually', 'often', 'sometimes', 'rarely', and 'never' to describe how often you do things. Place them before the main verb (e.g., 'I often go running')."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Eating lots of fruits and vegetables is part of a ______ diet.",
+          "options": [
+            "healthy",
+            "unhealthy",
+            "fast",
+            "sweet"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "To ______ fit, I go to the gym three times a week.",
+          "options": [
+            "stay",
+            "make",
+            "do",
+            "keep"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I exercise ______ to maintain my health.",
+          "options": [
+            "regularly",
+            "never",
+            "seldom",
+            "rarely"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your exercise routine and what you usually eat to stay healthy. Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Explain why a healthy lifestyle is important for you. What are the benefits you experience? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Your Favorite Sport",
+      "description": "Practice talking about your favorite sport, including why you like it and if you play it.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "'th' Sound Pronunciation",
+            "content": "The 'th' sound can be voiced (like in 'this', 'they') or unvoiced (like in 'think', 'three'). Practice both to avoid confusion. For example, 'I think that sport is good'."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Talking About Sport",
+            "content": "Use these phrases: 'My favorite sport is [sport]...', 'I like watching/playing [sport]...', 'It's exciting/fast/fun because...', 'I play it [frequency]...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Adjectives to Describe",
+            "content": "Use descriptive adjectives to make your speech more interesting. Words like 'exciting', 'fast-paced', 'challenging', 'fun', 'team-based' can help describe your favorite sport."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Football is a popular ______ sport.",
+          "options": [
+            "team",
+            "individual",
+            "solo",
+            "single"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The best ______ in the world often train for many hours a day.",
+          "options": [
+            "player",
+            "fan",
+            "coach",
+            "referee"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "In basketball, you need to ______ points by putting the ball through the hoop.",
+          "options": [
+            "score",
+            "win",
+            "lose",
+            "play"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your favorite sport. What is it, and why do you enjoy watching or playing it? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Talk about a sport you would like to try in the future. What attracts you to it, and what do you think would be challenging? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "A Shopping Experience",
+      "description": "Learn to describe a recent shopping trip, including what you bought and where you went.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pausing for Clarity",
+            "content": "Don't rush! Take short pauses at natural breaks in your sentences, like after commas or at the end of a thought. This makes your speech easier to understand and gives you time to think. For example: 'I went to the supermarket, (pause) and I bought some fruit.'"
+          },
+          {
+            "type": "example",
+            "heading": "Shopping Phrases",
+            "content": "Use these phrases: 'Last weekend, I went to...', 'I bought a new [item]...', 'It was on sale/a good price.', 'The shop was [adjective]...', 'I needed to buy [item]...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Descriptive Adjectives",
+            "content": "Use adjectives to describe your shopping experience and the items you bought. Words like 'cheap', 'expensive', 'nice', 'big', 'small', 'crowded', 'empty' can add detail."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "If something is cheaper than usual, it's on ______.",
+          "options": [
+            "discount",
+            "sale",
+            "offer",
+            "all of the above"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "The person who takes your money at the supermarket is the ______.",
+          "options": [
+            "cashier",
+            "manager",
+            "customer",
+            "shopper"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I found a great ______ on a new pair of shoes.",
+          "options": [
+            "bargain",
+            "price",
+            "cost",
+            "receipt"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a recent shopping experience. Where did you go, what did you buy, and why? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Talk about your favorite type of shop or market. What do you like about it, and what do you usually buy there? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Describe Your Neighborhood",
+      "description": "Practice describing your local area, including important places and what you like about it.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Stress in Compound Nouns",
+            "content": "In compound nouns (two words acting as one noun), the stress is usually on the first word. For example: 'BUS stop', 'SUPERmarket', 'COFFEE shop'. Practice stressing the correct part."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Describing Places",
+            "content": "Use these phrases: 'My neighborhood is called...', 'There is a [place]...', 'It has many [things]...', 'I like it because it's [adjective]...', 'It's a [adjective] place to live.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Prepositions of Place",
+            "content": "Use prepositions like 'next to', 'opposite', 'near', 'behind', 'in front of', 'between' to describe the location of things in your neighborhood. For example: 'The park is next to the school.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Which word describes a place that is easy to reach or use?",
+          "options": [
+            "convenient",
+            "remote",
+            "isolated",
+            "difficult"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My neighborhood is very ______; there isn't much noise.",
+          "options": [
+            "peaceful",
+            "noisy",
+            "crowded",
+            "busy"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The area has good ______ like shops, schools, and a hospital.",
+          "options": [
+            "amenities",
+            "problems",
+            "buildings",
+            "streets"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your neighborhood. What are the key places (e.g., park, market, school), and what does it look like? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Explain what you like and dislike about your neighborhood. What would you change if you could? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Holiday Traditions in Vietnam",
+      "description": "Learn to talk about popular holiday traditions in Vietnam and what they mean to you.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Connected Speech",
+            "content": "When speaking, try to connect words smoothly, especially when a word ends with a consonant and the next begins with a vowel. This makes your speech flow more naturally. For example, 'clean_up' sounds like 'clea-nup'."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Traditions",
+            "content": "Use these phrases: 'We celebrate [holiday]...', 'People usually [activity]...', 'It's important because...', 'A common tradition is to [activity]...', 'Families gather to [activity]...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Sequence Words",
+            "content": "To describe a process or a series of events during a holiday, use sequence words like 'first', 'then', 'next', 'after that', and 'finally'. This helps organize your thoughts."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What do people do to mark a special day or event?",
+          "options": [
+            "celebrate",
+            "ignore",
+            "forget",
+            "cancel"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "It is a Vietnamese ______ to give lucky money during Tet.",
+          "options": [
+            "custom",
+            "rule",
+            "law",
+            "habit"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Tet is the most important ______ in Vietnam.",
+          "options": [
+            "festival",
+            "meeting",
+            "party",
+            "concert"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a traditional Vietnamese holiday (e.g., Tet). How do people celebrate it, and what are some common traditions? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Talk about your favorite part of this holiday. Why is it special to you, and what does it mean to your family? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Talk About a Good Friend",
+      "description": "Practice describing a good friend, including their personality and what you do together.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Intonation for Expressing Feelings",
+            "content": "Use varied intonation to show your feelings, like enthusiasm or warmth, when talking about a friend. A higher pitch or wider range of tones can convey positive emotions. For example: 'She's a REALLY good friend!'"
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Describing People",
+            "content": "Use these phrases: 'My best friend is called...', 'They are [adjective] and [adjective]...', 'We often [activity] together.', 'I like them because they are [reason]...', 'They always make me laugh/feel better.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Adjectives for Personality",
+            "content": "Use a range of adjectives to describe your friend's personality. Examples include 'kind', 'funny', 'smart', 'supportive', 'honest', 'outgoing', 'patient'."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "A good friend is always ______ and stands by you.",
+          "options": [
+            "loyal",
+            "selfish",
+            "rude",
+            "boring"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My friend is very ______; they always help me when I need it.",
+          "options": [
+            "supportive",
+            "demanding",
+            "critical",
+            "indifferent"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "We always ______ well and have fun together.",
+          "options": [
+            "get along",
+            "fight",
+            "argue",
+            "disagree"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a good friend. What do they look like, and what kind of personality do they have? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Talk about an activity you often do together and why you enjoy their company. What makes them a good friend to you? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "How You Get Around",
+      "description": "Learn to talk about different modes of transport you use and why you choose them.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Stressing Prepositions",
+            "content": "Usually, prepositions are unstressed. However, you can stress them when they are important for meaning or contrast. For example: 'I go TO school BY bus.' (stressing 'to' and 'by' to highlight the method)."
+          },
+          {
+            "type": "example",
+            "heading": "Transport Phrases",
+            "content": "Use these phrases: 'I usually go by [transport]...', 'It takes me [time] to get there.', 'It's convenient because...', 'I prefer [transport] because...', 'I often walk/ride my bike.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Comparative Adjectives",
+            "content": "When comparing different types of transport, use comparative adjectives like 'faster', 'cheaper', 'more comfortable', 'less crowded'. For example: 'A motorbike is faster than a bicycle.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Buses and trains are examples of ______ transport.",
+          "options": [
+            "public",
+            "private",
+            "personal",
+            "slow"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "During rush hour, there is often a lot of ______ on the roads.",
+          "options": [
+            "traffic jam",
+            "empty road",
+            "fast lane",
+            "parking"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My daily ______ to work takes about 30 minutes.",
+          "options": [
+            "commute",
+            "holiday",
+            "vacation",
+            "journey"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe how you usually travel to school or work. What transport do you use, how long does it take, and why do you choose it? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Compare two different ways of getting around your city (e.g., motorbike vs. bus). What are the advantages and disadvantages of each? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Discuss a Film or Series",
+      "description": "Practice talking about a film or TV series you have seen, including the plot and your opinion.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using 'um' and 'uh' (Natural Pauses)",
+            "content": "It's natural to use 'um' or 'uh' occasionally when you're thinking of what to say next. Don't worry about them too much, but try not to overuse them. They show you're processing your thoughts."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Discussing Films",
+            "content": "Use these phrases: 'I recently watched [title]...', 'It's about [plot summary]...', 'I liked the [aspect, e.g., acting/story]...', 'It made me feel [emotion]...', 'The main character is [description]...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Give Your Opinion Clearly",
+            "content": "Clearly state your opinion using phrases like 'I think...', 'In my opinion...', 'For me, it was...', 'I believe that...'. Remember to give reasons for your opinion."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is the type of a film, like comedy or horror?",
+          "options": [
+            "genre",
+            "scene",
+            "actor",
+            "director"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The ______ of the movie was very exciting and kept me interested.",
+          "options": [
+            "plot",
+            "ticket",
+            "trailer",
+            "soundtrack"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The main ______ in the film was a brave hero.",
+          "options": [
+            "character",
+            "extra",
+            "audience",
+            "viewer"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a film or TV series you watched recently. What is it called, what is it about, and who are the main characters? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Explain what you liked or disliked about this film/series. Would you recommend it to others, and why? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Describe a Restaurant or Café",
+      "description": "Learn to describe a favorite restaurant or café, including the food, atmosphere, and service.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Emphasizing Adjectives",
+            "content": "Use adverbs like 'very', 'really', 'quite', 'so' before adjectives to add emphasis. For example: 'The food was VERY delicious!' or 'The atmosphere was REALLY cozy.' This makes your descriptions stronger."
+          },
+          {
+            "type": "example",
+            "heading": "Restaurant Phrases",
+            "content": "Use these phrases: 'My favorite restaurant is called...', 'It serves [type of food]...', 'The atmosphere is [adjective]...', 'I recommend the [dish]...', 'The staff are very [adjective]...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Sensory Words",
+            "content": "Describe what you can see, hear, smell, and taste to make your description more vivid. Words like 'delicious', 'aromatic', 'cozy', 'lively', 'bright', 'soft' can help."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is the list of food and drinks available at a restaurant?",
+          "options": [
+            "menu",
+            "bill",
+            "recipe",
+            "order"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The ______ took our order and brought our food.",
+          "options": [
+            "waiter",
+            "chef",
+            "customer",
+            "manager"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "This restaurant specializes in Vietnamese ______.",
+          "options": [
+            "cuisine",
+            "drink",
+            "dessert",
+            "snack"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your favorite restaurant or café. What is it called, what kind of food/drinks does it serve, and what is the atmosphere like? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Talk about a good or bad experience you had at a restaurant or café. What happened, and how did you feel? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Talk About School Clubs",
+      "description": "Practice discussing school clubs, including what they do and why they are beneficial.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Question Intonation (to invite agreement)",
+            "content": "Sometimes, you can use a rising intonation at the end of a statement to invite agreement or check understanding, even if it's not a direct question. For example: 'School clubs are fun, right?'"
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for School Clubs",
+            "content": "Use these phrases: 'I joined the [club name] club.', 'We do activities like [activity]...', 'It helps me [benefit]...', 'Clubs are good for [reason]...', 'I learn new skills in the club.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use 'Also' and 'In addition'",
+            "content": "To add more points or benefits, use 'also' or 'in addition'. For example: 'The club helps me make new friends. Also, I learn new skills.' or 'In addition, it's a great way to relax.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Someone who belongs to a club or group is a ______.",
+          "options": [
+            "member",
+            "leader",
+            "teacher",
+            "student"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The photography club organizes many outdoor ______.",
+          "options": [
+            "activities",
+            "lessons",
+            "exams",
+            "homework"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Joining a club has many ______ like making friends and learning skills.",
+          "options": [
+            "benefits",
+            "problems",
+            "costs",
+            "rules"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a school club you are in or know about. What does the club do, and what kind of activities do its members participate in? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Explain why joining school clubs is a good idea for students. What benefits can students get from participating? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Compare Two Activities",
+      "description": "Learn to compare two different activities using comparative structures and linking words.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Stressing Comparatives",
+            "content": "When using comparative adjectives, you can stress the comparative word to emphasize the difference. For example: 'This is MORE interesting than that' or 'It's LESS difficult than I thought'."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Comparing",
+            "content": "Use these phrases: '[Activity X] is more [adjective] than [Activity Y].', 'Both X and Y are [adjective]...', 'However, X is [different aspect] while Y is [different aspect].', 'I prefer X because...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Contrastive Conjunctions",
+            "content": "Use 'but', 'however', and 'while' to show differences or contrasts between the two activities. For example: 'Reading is relaxing, but playing sports is energizing.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Running is ______ than walking.",
+          "options": [
+            "faster",
+            "fast",
+            "fastest",
+            "more fast"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Learning a new language is ______ exciting than watching TV.",
+          "options": [
+            "more",
+            "most",
+            "much",
+            "many"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Cooking at home is often ______ expensive than eating out.",
+          "options": [
+            "less",
+            "least",
+            "more",
+            "most"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Compare two hobbies or activities you enjoy (e.g., reading vs. watching movies, playing sports vs. listening to music). Which one do you prefer and why? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Compare studying alone and studying in a group. What are the advantages and disadvantages of each method for you? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Describe a Skill You Are Learning",
+      "description": "Practice talking about a new skill you are acquiring, why you chose it, and your progress.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronunciation of '-ing' Endings",
+            "content": "Ensure you pronounce the '-ing' ending clearly, like the 'ng' in 'sing', not like 'ink'. For example, 'learning' should sound like /lɜːrnɪŋ/, not /lɜːrnɪnk/."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Learning Skills",
+            "content": "Use these phrases: 'I'm currently learning to [skill]...', 'It's challenging but fun.', 'I practice by [method]...', 'I decided to learn it because...', 'My goal is to [achieve something]...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use 'Because' to Explain Reasons",
+            "content": "Always explain *why* you are learning a skill or *why* it's important to you. Using 'because' helps you provide clear reasons and elaborate on your points."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "To become very good at a skill, you need to ______ it.",
+          "options": [
+            "master",
+            "forget",
+            "ignore",
+            "avoid"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I ______ playing the piano every day to improve.",
+          "options": [
+            "practice",
+            "study",
+            "learn",
+            "teach"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Learning a new language can be ______ but rewarding.",
+          "options": [
+            "challenging",
+            "easy",
+            "boring",
+            "simple"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a new skill you are currently learning. What is it, and what do you do to learn and practice it? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Explain why you chose to learn this skill and what you hope to achieve with it in the future. Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Talk About Helping Others",
+      "description": "Learn to discuss ways you help others and why it's important to you.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Intonation for Empathy",
+            "content": "When talking about helping others, use a warm and empathetic tone of voice. This can involve slightly softer volume and a gentle, rising-falling intonation pattern to show care and sincerity."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Helping Others",
+            "content": "Use these phrases: 'I often help [person/group] by [action]...', 'It makes me feel [emotion]...', 'It's important to [verb]...', 'I believe in [value]...', 'I try to [action]...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Examples to Illustrate Your Points",
+            "content": "Don't just state that you help; give a specific example. For instance, instead of 'I help my family', say 'I help my family by cooking dinner sometimes' to make your answer more concrete."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Someone who offers their time for free to help others is a ______.",
+          "options": [
+            "volunteer",
+            "employee",
+            "customer",
+            "manager"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "It's important to ______ your friends when they are sad.",
+          "options": [
+            "support",
+            "ignore",
+            "criticize",
+            "avoid"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Helping others builds a stronger ______.",
+          "options": [
+            "community",
+            "company",
+            "country",
+            "family"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a time you helped someone, or a way you regularly help others (e.g., family, friends, community). What did you do? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Explain why you think helping others is important in society. How does it benefit individuals and the community? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Describe a Market or Festival",
+      "description": "Practice describing a local market or a traditional festival, including what you can see and do there.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Word Stress in Multi-syllable Words",
+            "content": "In words with more than one syllable, one syllable is usually stressed more than the others. For example, 'FES-ti-val', 'MAR-ket', 'TRA-di-tion-al'. Incorrect stress can make words harder to understand."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Markets/Festivals",
+            "content": "Use these phrases: 'There are many [items]...', 'You can buy/see [things]...', 'It's a lively/colorful place.', 'People gather to [activity]...', 'The atmosphere is [adjective]...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Adjectives to Create a Picture",
+            "content": "Use descriptive adjectives to help your listener imagine the place. Words like 'colorful', 'noisy', 'crowded', 'bustling', 'fragrant', 'traditional', 'modern' can bring your description to life."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "A small shop or stand where goods are sold in a market is called a ______.",
+          "options": [
+            "stall",
+            "store",
+            "mall",
+            "supermarket"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Handmade items like pottery or weaving are called ______.",
+          "options": [
+            "crafts",
+            "machines",
+            "factories",
+            "products"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The lively ______ of the festival made everyone happy.",
+          "options": [
+            "atmosphere",
+            "weather",
+            "location",
+            "time"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a market or festival you have visited in Vietnam. What can you see, hear, and buy there? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Talk about what you like most about this place or event and why. What makes it special to you? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Your Opinion on the Internet",
+      "description": "Learn to express your opinions on the internet, including its benefits and drawbacks.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using 'uhm' and 'well' (Natural Fillers)",
+            "content": "It's okay to use 'uhm' or 'well' as natural fillers when you need a moment to think or to introduce an opinion. They make your speech sound more natural and less robotic."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Opinions",
+            "content": "Use these phrases: 'I think that...', 'In my opinion, the internet is...', 'I believe that...', 'On the one hand... on the other hand...', 'The main advantage/disadvantage is...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Balance Your Arguments",
+            "content": "When discussing a topic like the internet, try to mention both positive and negative aspects (advantages and disadvantages). This shows you can think critically."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "When you use the internet, you are working ______.",
+          "options": [
+            "online",
+            "offline",
+            "out of order",
+            "in person"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The internet provides a lot of ______ on any topic.",
+          "options": [
+            "information",
+            "noise",
+            "food",
+            "clothes"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Facebook and Zalo are examples of ______ media platforms.",
+          "options": [
+            "social",
+            "traditional",
+            "print",
+            "broadcast"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe how you use the internet in your daily life. What do you use it for most often? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Discuss the advantages and disadvantages of the internet. What are some good things and some bad things about it? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Plan a Trip Together",
+      "description": "Practice making suggestions and agreeing/disagreeing when planning an activity with someone.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Rising Intonation for Suggestions",
+            "content": "When making a suggestion or asking for an opinion, use a rising intonation at the end of the sentence. This makes your suggestion sound more inviting and less like a command. For example: 'How about going to the beach?'"
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Planning",
+            "content": "Use these phrases: 'How about [verb + -ing]...?', 'Let's [verb]...', 'That sounds good/great!', 'Maybe we could [verb]...', 'What do you think?', 'I'm not sure about that.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Question Tags",
+            "content": "Use question tags like 'right?', 'isn't it?', 'don't you think?' to confirm information or seek agreement from your partner. For example: 'The beach is nice, isn't it?'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "To offer an idea for consideration is to ______.",
+          "options": [
+            "suggest",
+            "demand",
+            "order",
+            "refuse"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "The place you are going to on a trip is your ______.",
+          "options": [
+            "destination",
+            "origin",
+            "stop",
+            "route"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "We need to plan our trip ______ carefully so we don't spend too much money.",
+          "options": [
+            "budget",
+            "time",
+            "food",
+            "clothes"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Imagine you are planning a weekend trip with a friend. Suggest a destination and two activities you could do there. Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Discuss what you need to pack for your trip and how you will travel to your chosen destination. Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    },
+    {
+      "title": "Weekend Plans",
+      "description": "Learn to talk about your plans for the upcoming weekend using future tenses.",
+      "estimatedMinutes": 20,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronunciation of 'going to'",
+            "content": "In casual speech, 'going to' is often pronounced as 'gonna' /ɡənə/. While it's good to know, for A2, focus on clear pronunciation of 'going to' first, then you can try 'gonna' in informal contexts."
+          },
+          {
+            "type": "example",
+            "heading": "Phrases for Future Plans",
+            "content": "Use these phrases: 'This weekend, I'm going to [verb]...', 'I will probably [verb]...', 'I plan to [verb]...', 'On Saturday/Sunday, I'm thinking of [verb + -ing]...', 'I might [verb]...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Time Expressions",
+            "content": "Clearly state when your plans will happen using time expressions like 'this weekend', 'on Saturday morning', 'in the afternoon', 'on Sunday evening'. This makes your plans clear."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What do you do when you want to rest and feel calm?",
+          "options": [
+            "relax",
+            "work",
+            "study",
+            "exercise"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I'm going to ______ with my friends at the cafe on Saturday.",
+          "options": [
+            "hang out",
+            "work out",
+            "clean up",
+            "eat in"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "I need to do some ______ like cleaning my room this weekend.",
+          "options": [
+            "chores",
+            "hobbies",
+            "sports",
+            "movies"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your plans for this upcoming weekend. What are you going to do on Saturday and Sunday? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        },
+        {
+          "prompt": "Talk about your ideal weekend. What would you do if you had unlimited time and money? Speak for 45-60 seconds.",
+          "durationSeconds": 52.5
+        }
+      ]
+    }
+  ]
+}

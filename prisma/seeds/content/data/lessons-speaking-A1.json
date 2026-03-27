@@ -1,0 +1,1426 @@
+{
+  "skill": "speaking",
+  "cefrLevel": "A1",
+  "lessons": [
+    {
+      "title": "Greet and Introduce Yourself",
+      "description": "Learn basic greetings and how to introduce yourself to new people in English.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Clear Pronunciation of Greetings",
+            "content": "Practice saying 'Hello' and 'Hi' clearly. The 'h' in 'Hello' is a soft sound, like a gentle breath. The 'i' in 'Hi' is a long 'eye' sound."
+          },
+          {
+            "type": "example",
+            "heading": "Introducing Your Name",
+            "content": "Use simple phrases like: 'Hello, my name is [Your Name].' or 'Hi, I'm [Your Name].' For example: 'Hello, my name is Mai.' or 'Hi, I'm Nam.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Keep it Simple",
+            "content": "At A1, focus on short, complete sentences. Don't try to say too much. A simple greeting and your name are perfect for a first introduction."
+          },
+          {
+            "type": "tip",
+            "heading": "Practice Your Own Introduction",
+            "content": "Say your full introduction out loud several times. This builds confidence and helps you speak more smoothly when you meet someone new."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What do you say when you meet someone for the first time?",
+          "options": [
+            "Goodbye",
+            "Thank you",
+            "Hello",
+            "Sorry"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Choose the correct word: 'My name _____ Linh.'",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How do you ask someone's name?",
+          "options": [
+            "What your name?",
+            "Your name is what?",
+            "What is your name?",
+            "Is your name?"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Introduce yourself. Say 'Hello', state your name, and mention one simple thing about yourself (e.g., 'I am a student'). Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Imagine you are meeting a new classmate. Greet them and introduce yourself, then ask 'What is your name?'. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Talk About Your Family",
+      "description": "Learn to describe your family members and talk about them using simple English phrases.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing Plurals for Family Members",
+            "content": "When talking about more than one person, add an 's'. Practice 'brothers' (sounds like 'z') and 'sisters' (sounds like 'z'). The 's' in 'parents' also sounds like 'z'."
+          },
+          {
+            "type": "example",
+            "heading": "Describing Your Family Structure",
+            "content": "Use 'I have...' or 'There are...' For example: 'I have one brother and one sister.' or 'There are four people in my family: my mother, my father, my brother, and me.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Simple Adjectives",
+            "content": "Describe your family members with easy words like 'tall', 'short', 'nice', 'kind', 'funny'. For example: 'My mother is kind.' or 'My brother is tall.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Connect Ideas with 'and'",
+            "content": "To make your sentences longer, use 'and'. For example: 'I have a mother and a father.' or 'My sister is smart and funny.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Your mother's brother is your _____.",
+          "options": [
+            "sister",
+            "uncle",
+            "aunt",
+            "cousin"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Choose the correct plural: 'I have two _____.'",
+          "options": [
+            "brother",
+            "brothers",
+            "brother's",
+            "brother is"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "My family _____ big.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your immediate family. Mention how many people are in your family and name your closest family members (e.g., mother, father, siblings). Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Choose one family member you like very much. Describe them with two simple adjectives and say one reason why you like them. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Describe Your Home",
+      "description": "Learn how to talk about your home, including its type and the rooms inside.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing 'There is' and 'There are'",
+            "content": "Practice 'There is' (for one item) and 'There are' (for multiple items). Make sure the 'th' sound is clear, and the 's' in 'is' sounds like 'z'."
+          },
+          {
+            "type": "example",
+            "heading": "Common Phrases for Describing Home",
+            "content": "Use: 'I live in a house/apartment.' 'My home has [number] rooms.' 'There is a living room, a kitchen, and a bedroom.' For example: 'I live in an apartment. It has three rooms.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Prepositions of Place",
+            "content": "Use simple prepositions like 'in' or 'on' to describe where things are. For example: 'My bed is in my bedroom.' or 'There is a TV in the living room.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Start with General, then Specific",
+            "content": "Begin by saying what type of home you live in, then talk about the number of rooms, and finally mention one or two specific rooms."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Which room is typically used for sleeping?",
+          "options": [
+            "kitchen",
+            "living room",
+            "bedroom",
+            "bathroom"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Choose the correct phrase: '_____ a big garden behind my house.'",
+          "options": [
+            "There are",
+            "There is",
+            "It is",
+            "They are"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "I live _____ an apartment.",
+          "options": [
+            "at",
+            "on",
+            "in",
+            "to"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your home. Say if you live in a house or an apartment, and mention how many rooms it has. Name two rooms in your home. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Talk about your favorite room in your home. What is it? What do you do there? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Your Favorite Food",
+      "description": "Learn to talk about your favorite food and why you like it using simple English.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing Food Names Clearly",
+            "content": "Practice saying the names of common foods like 'pizza', 'noodles', 'rice', 'chicken'. Pay attention to the vowel sounds. For example, 'rice' has a long 'i' sound."
+          },
+          {
+            "type": "example",
+            "heading": "Expressing Preferences",
+            "content": "Use 'My favorite food is...' or 'I like...' For example: 'My favorite food is pho.' or 'I like pizza very much.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Simple Reasons for Liking Food",
+            "content": "Give a very simple reason: 'It is delicious.' 'It is sweet.' 'It is healthy.' For example: 'I like apples. They are sweet and healthy.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use 'and' to Add Details",
+            "content": "You can combine ideas with 'and'. For example: 'I like chicken and rice.' or 'My favorite food is pho, and it is very delicious.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Which word describes food that tastes good?",
+          "options": [
+            "bad",
+            "cold",
+            "delicious",
+            "small"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "My favorite food _____ pizza.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "I like fruit because it is _____.",
+          "options": [
+            "sad",
+            "expensive",
+            "healthy",
+            "slow"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Talk about your favorite food. What is it? Why do you like it? Give one simple reason. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Describe two foods you like and one food you don't like. Use simple adjectives to describe them. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Describe a Pet or Animal",
+      "description": "Learn to describe a pet or an animal using basic English vocabulary and phrases.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing Animal Names",
+            "content": "Practice saying common animal names like 'dog', 'cat', 'fish', 'bird'. Pay attention to the short vowel sounds, e.g., 'o' in 'dog' and 'a' in 'cat'."
+          },
+          {
+            "type": "example",
+            "heading": "Describing an Animal's Appearance",
+            "content": "Use 'It is...' or 'It has...' For example: 'It is a dog. It is brown and white.' or 'It has big eyes and a long tail.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Simple Adjectives for Description",
+            "content": "Use words like 'big', 'small', 'cute', 'fast', 'slow' to describe the animal. For example: 'My cat is small and cute.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Mention What it Does",
+            "content": "You can add a simple action the animal does. For example: 'My dog likes to play.' or 'Birds can fly.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Which animal says 'meow'?",
+          "options": [
+            "dog",
+            "cat",
+            "bird",
+            "fish"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "A cat _____ four legs.",
+          "options": [
+            "have",
+            "has",
+            "is",
+            "are"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "My dog is very _____ and likes to run.",
+          "options": [
+            "slow",
+            "fast",
+            "small",
+            "quiet"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a pet you have or an animal you like. What kind of animal is it? What color is it? Is it big or small? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Talk about what your favorite animal likes to do. Does it play? Does it eat specific food? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Talk About School",
+      "description": "Learn to talk about your school, your favorite subjects, and what you do there.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing 'School' and 'Subject'",
+            "content": "Practice 'school' (long 'oo' sound) and 'subject' (stress on the first syllable). Make sure the 's' sound is clear."
+          },
+          {
+            "type": "example",
+            "heading": "Talking About School Activities",
+            "content": "Use 'I go to school.' 'I study [subject].' 'My favorite subject is [subject].' For example: 'I go to primary school. My favorite subject is English.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Simple Verbs",
+            "content": "Use verbs like 'study', 'learn', 'play', 'read' to describe what you do at school. For example: 'I learn math at school.' or 'I play with friends.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Mention People at School",
+            "content": "You can briefly mention 'teachers' and 'friends'. For example: 'I have good teachers.' or 'I play with my friends at school.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Which subject teaches you about numbers?",
+          "options": [
+            "English",
+            "Art",
+            "Math",
+            "Music"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "I _____ to school every day.",
+          "options": [
+            "go",
+            "goes",
+            "going",
+            "went"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "My favorite _____ is science.",
+          "options": [
+            "teacher",
+            "book",
+            "subject",
+            "friend"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Talk about your school. What is its name? What grade are you in? What is one subject you study? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Describe your favorite subject at school. Why do you like it? What do you learn in it? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Describe the Weather",
+      "description": "Learn to talk about different types of weather and how you feel about them.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing Weather Words",
+            "content": "Practice 'sunny', 'rainy', 'cloudy', 'cold', 'hot'. Pay attention to the 'y' sound at the end of many weather adjectives, which sounds like 'ee'."
+          },
+          {
+            "type": "example",
+            "heading": "Talking About Today's Weather",
+            "content": "Use 'It is...' For example: 'It is sunny today.' or 'It is rainy and cold.' You can also say 'The weather is nice/bad.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Expressing Feelings About Weather",
+            "content": "Say 'I like...' or 'I don't like...' For example: 'I like sunny weather.' or 'I don't like rainy days.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Connect Weather to Activities",
+            "content": "Briefly mention what you do in certain weather. For example: 'When it is sunny, I play outside.' or 'When it is rainy, I read a book.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What kind of weather has a lot of water falling from the sky?",
+          "options": [
+            "sunny",
+            "cloudy",
+            "rainy",
+            "windy"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "It is very _____ today. I need a jacket.",
+          "options": [
+            "hot",
+            "warm",
+            "cold",
+            "sunny"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The sun is shining. It is a _____ day.",
+          "options": [
+            "rainy",
+            "cloudy",
+            "windy",
+            "sunny"
+          ],
+          "correctIndex": 3
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe the weather today. Is it sunny, rainy, or cloudy? Is it hot or cold? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Talk about your favorite type of weather. Why do you like it? What do you like to do when the weather is like that? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Your Daily Routine",
+      "description": "Learn to talk about your daily activities from morning to evening using simple time expressions.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing Verbs Clearly",
+            "content": "Practice common verbs like 'get up', 'eat', 'go', 'study', 'sleep'. Pay attention to the final consonant sounds."
+          },
+          {
+            "type": "example",
+            "heading": "Sequencing Daily Activities",
+            "content": "Use 'First, I...', 'Then, I...', 'After that, I...', 'Finally, I...'. For example: 'First, I wake up. Then, I eat breakfast. After that, I go to school.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Simple Time Expressions",
+            "content": "Use 'in the morning', 'in the afternoon', 'in the evening', 'at night'. For example: 'In the morning, I eat breakfast.' or 'In the evening, I do my homework.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Keep Sentences Short and Direct",
+            "content": "At A1, it's best to use one simple action per sentence. 'I wake up. I brush my teeth. I eat breakfast.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What do you usually do before going to school?",
+          "options": [
+            "sleep",
+            "eat dinner",
+            "eat breakfast",
+            "watch TV"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "I _____ my teeth every morning.",
+          "options": [
+            "wash",
+            "brush",
+            "clean",
+            "comb"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "After school, I usually _____ my homework.",
+          "options": [
+            "do",
+            "make",
+            "play",
+            "go"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your daily routine. Talk about three things you do in the morning and two things you do in the afternoon or evening. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Talk about your favorite part of the day. What do you do during that time, and why do you like it? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Describe Colors Around You",
+      "description": "Learn to identify and describe the colors of objects in your environment.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing Color Names",
+            "content": "Practice saying basic colors: 'red', 'blue', 'green', 'yellow', 'black', 'white'. Pay attention to the vowel sounds and final consonants."
+          },
+          {
+            "type": "example",
+            "heading": "Describing Object Colors",
+            "content": "Use 'It is [color].' or 'The [object] is [color].' For example: 'My bag is blue.' or 'The apple is red and green.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Look Around You",
+            "content": "To practice, look at objects in your room or outside and say their colors. 'The wall is white.' 'The book is red.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Combine Colors with 'and'",
+            "content": "If an object has two colors, use 'and'. For example: 'My shirt is blue and white.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What color is the sky on a clear day?",
+          "options": [
+            "green",
+            "yellow",
+            "blue",
+            "red"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "A banana is usually _____.",
+          "options": [
+            "red",
+            "blue",
+            "yellow",
+            "black"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "My shoes are _____ and white.",
+          "options": [
+            "pink",
+            "purple",
+            "orange",
+            "black"
+          ],
+          "correctIndex": 3
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Look around your room. Describe the color of three different objects you see (e.g., 'My chair is brown.'). Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Talk about your favorite color. What is it? Name one or two things that are that color. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Talk About a Friend",
+      "description": "Learn to describe a friend, their appearance, and what you like about them.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing Descriptive Adjectives",
+            "content": "Practice words like 'tall', 'short', 'kind', 'funny'. Pay attention to the 'll' sound in 'tall' and the 'y' sound in 'funny'."
+          },
+          {
+            "type": "example",
+            "heading": "Introducing a Friend",
+            "content": "Use 'I have a friend. His/Her name is [Name].' or 'My friend [Name] is...' For example: 'I have a friend. Her name is Hoa. She is kind.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Describe Appearance Simply",
+            "content": "Use 'He/She has...' for features like hair and eyes. 'He has short hair.' 'She has big eyes.' Use 'He/She is...' for height. 'He is tall.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Say What You Do Together",
+            "content": "Mention a simple activity you do with your friend. 'We play together.' 'We study together.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "A person who is always happy and makes you laugh is _____.",
+          "options": [
+            "sad",
+            "boring",
+            "funny",
+            "angry"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "My friend _____ long hair.",
+          "options": [
+            "have",
+            "has",
+            "is",
+            "are"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "We like to _____ together after school.",
+          "options": [
+            "sleep",
+            "eat",
+            "play",
+            "work"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe one of your friends. What is their name? Is your friend a boy or a girl? Describe their appearance with two simple words (e.g., tall, short, long hair). Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Talk about why you like your friend. What is one good quality they have? What do you like to do together? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Your Favorite Game",
+      "description": "Learn to talk about your favorite game, how to play it, and why you enjoy it.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing Game Names",
+            "content": "Practice saying the names of games clearly, whether they are traditional games or video games. For example, 'football', 'hide-and-seek', 'mobile games'."
+          },
+          {
+            "type": "example",
+            "heading": "Expressing Game Preference",
+            "content": "Use 'My favorite game is...' or 'I like to play...' For example: 'My favorite game is football.' or 'I like to play hide-and-seek.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Simple Reasons for Liking a Game",
+            "content": "Give a simple reason like: 'It is fun.' 'It is exciting.' 'I play with my friends.' For example: 'I like football because it is fun.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Mention Who You Play With",
+            "content": "You can add who you play with. 'I play with my friends.' 'I play with my brother.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Which word describes a game that makes you happy?",
+          "options": [
+            "boring",
+            "difficult",
+            "fun",
+            "sad"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "My favorite game _____ chess.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "I like to _____ games with my friends.",
+          "options": [
+            "watch",
+            "read",
+            "play",
+            "listen"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Talk about your favorite game. What is its name? Is it an indoor or outdoor game? Who do you usually play it with? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Describe why you like your favorite game. What makes it fun or interesting for you? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Describe Your Room",
+      "description": "Learn to describe your own room, including the furniture and objects in it.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing Room and Furniture Names",
+            "content": "Practice 'room', 'bed', 'desk', 'chair', 'window'. Pay attention to the 'oo' sound in 'room' and 'window'."
+          },
+          {
+            "type": "example",
+            "heading": "Describing Objects in Your Room",
+            "content": "Use 'In my room, there is a...' or 'I have a...' For example: 'In my room, there is a bed and a desk.' or 'I have a blue chair.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Prepositions for Location",
+            "content": "Use simple prepositions like 'on', 'in', 'next to' to say where things are. For example: 'My book is on the desk.' or 'My bed is next to the window.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Mention Colors of Objects",
+            "content": "Combine colors with objects. 'My bed is brown.' 'I have a white lamp.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What do you sleep on in your bedroom?",
+          "options": [
+            "desk",
+            "chair",
+            "bed",
+            "table"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "There _____ a window in my room.",
+          "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "My books are _____ the shelf.",
+          "options": [
+            "in",
+            "at",
+            "on",
+            "under"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your room. What color are the walls? Name two pieces of furniture you have in your room. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Talk about your favorite item in your room. What is it? Where is it? Why do you like it? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Talk About a Weekend Activity",
+      "description": "Learn to describe what you do on the weekend and express your enjoyment.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing 'Weekend' and Activity Verbs",
+            "content": "Practice 'weekend' (stress on the first syllable) and verbs like 'play', 'visit', 'watch', 'read'. Ensure clear 'd' and 't' sounds."
+          },
+          {
+            "type": "example",
+            "heading": "Talking About Weekend Plans",
+            "content": "Use 'On the weekend, I usually...' or 'Last weekend, I...' For example: 'On the weekend, I usually visit my grandparents.' or 'Last weekend, I played football.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Simple Adverbs of Frequency",
+            "content": "Use 'usually' or 'sometimes' to describe how often you do an activity. 'I usually play games.' 'Sometimes I read books.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Express Enjoyment Simply",
+            "content": "Say 'It is fun.' 'I like it.' 'I enjoy it.' For example: 'Visiting my grandparents is fun.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Which day is part of the weekend?",
+          "options": [
+            "Monday",
+            "Wednesday",
+            "Saturday",
+            "Tuesday"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "On the weekend, I usually _____ my friends.",
+          "options": [
+            "work",
+            "study",
+            "visit",
+            "go to school"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "I like to _____ TV with my family on Sunday.",
+          "options": [
+            "read",
+            "watch",
+            "play",
+            "listen"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe one activity you usually do on the weekend. What is it? Who do you do it with? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Talk about your favorite weekend activity. Why do you like it? What makes it special for you? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Describe a Photo",
+      "description": "Learn to describe what you see in a simple photo using basic vocabulary and prepositions.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing 'Photo' and Object Names",
+            "content": "Practice 'photo' (stress on the first syllable) and names of common objects or people you might see. Ensure clear 'o' sounds."
+          },
+          {
+            "type": "example",
+            "heading": "Starting Your Description",
+            "content": "Use 'In this photo, I see...' or 'This is a photo of...' For example: 'In this photo, I see a family.' or 'This is a photo of my friends.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use 'There is/are' and Prepositions",
+            "content": "Say what is in the photo and where. 'There is a dog in the photo.' 'The boy is next to the girl.' 'The ball is on the grass.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Mention Colors and Simple Actions",
+            "content": "Describe colors of objects or clothes. 'The girl has a red dress.' Mention simple actions. 'They are playing.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What do you use to take a photo?",
+          "options": [
+            "book",
+            "pen",
+            "camera",
+            "chair"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "In the photo, there _____ two children.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The cat is _____ the table.",
+          "options": [
+            "in",
+            "on",
+            "under",
+            "next to"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Imagine you have a photo of your family. Describe who is in the photo and one thing they are doing. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Imagine you have a photo of a park. Describe two things you see in the park and their colors. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Numbers in Daily Life",
+      "description": "Learn to use numbers to talk about age, quantity, and simple measurements.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing Numbers 1-20",
+            "content": "Practice saying numbers clearly, especially 'thirteen' vs 'thirty' and 'fourteen' vs 'forty'. Focus on the 'teen' ending for numbers 13-19."
+          },
+          {
+            "type": "example",
+            "heading": "Using Numbers for Age and Quantity",
+            "content": "For age: 'I am [number] years old.' For quantity: 'I have [number] books.' or 'There are [number] apples.' For example: 'I am 10 years old.' 'I have two brothers.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Count Objects Around You",
+            "content": "Look around and count things: 'I see three pens.' 'There are two windows.' This helps with fluency."
+          },
+          {
+            "type": "tip",
+            "heading": "Use Numbers for Simple Information",
+            "content": "You can also use numbers for phone numbers (say digits individually) or house numbers. 'My house number is 12 (one-two).'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "How many fingers do you have on one hand?",
+          "options": [
+            "three",
+            "four",
+            "five",
+            "six"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "I am _____ years old.",
+          "options": [
+            "ten",
+            "tens",
+            "tenth",
+            "ten's"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "There are _____ days in a week.",
+          "options": [
+            "five",
+            "six",
+            "seven",
+            "eight"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Talk about yourself using numbers. Say your age, how many people are in your family, and how many pets you have (if any). Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Look around your room. Count and describe the number of two different types of objects (e.g., 'I have three books.'). Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Talk About Your Morning",
+      "description": "Learn to describe your morning routine and activities using simple time expressions.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing Morning Activities",
+            "content": "Practice verbs like 'wake up', 'get dressed', 'eat breakfast', 'go to school'. Focus on clear articulation of each word."
+          },
+          {
+            "type": "example",
+            "heading": "Sequencing Morning Events",
+            "content": "Use 'In the morning, I...' and 'Then, I...' For example: 'In the morning, I wake up at 6 o'clock. Then, I brush my teeth and eat breakfast.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use 'at' for Specific Times",
+            "content": "When talking about specific times, use 'at'. 'I wake up at 6 AM.' 'I eat breakfast at 7 o'clock.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Keep it Chronological",
+            "content": "Describe your morning activities in the order they happen. This helps with flow and makes it easier for others to understand."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is the first meal of the day?",
+          "options": [
+            "lunch",
+            "dinner",
+            "breakfast",
+            "snack"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "I usually _____ up at 6 AM.",
+          "options": [
+            "sleep",
+            "wake",
+            "go",
+            "eat"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Before school, I _____ my teeth.",
+          "options": [
+            "clean",
+            "brush",
+            "wash",
+            "comb"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your morning routine. What time do you wake up? What two things do you do after waking up? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Talk about your favorite part of the morning. What do you do then, and why do you like it? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Describe a Simple Story",
+      "description": "Learn to tell a very simple story or sequence of events using basic past tense verbs.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Simple Past Tense",
+            "content": "For A1, focus on common irregular verbs like 'went' (go), 'saw' (see), 'ate' (eat), 'had' (have). Practice saying them clearly."
+          },
+          {
+            "type": "example",
+            "heading": "Starting and Continuing a Story",
+            "content": "Use 'Yesterday, I...' or 'Last weekend, I...' Then, use 'and then...' or 'After that...' For example: 'Yesterday, I went to the park. And then, I saw a dog. After that, I went home.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Keep Sentences Short and Clear",
+            "content": "Don't try to make complex sentences. Focus on one event per sentence. 'I went to the market. I bought some fruit. I came home.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Use Time Markers",
+            "content": "Words like 'yesterday', 'last night', 'last weekend' help set the scene for your story."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "The past tense of 'go' is _____.",
+          "options": [
+            "goed",
+            "went",
+            "gone",
+            "going"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Yesterday, I _____ a movie.",
+          "options": [
+            "see",
+            "saw",
+            "seen",
+            "seeing"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Last night, I _____ dinner with my family.",
+          "options": [
+            "eat",
+            "eats",
+            "ate",
+            "eating"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Tell a short story about what you did last weekend. Mention two or three simple actions you did. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Describe a simple story about going to a specific place (e.g., the park, the market). What did you see there? What did you do? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Your Favorite Place",
+      "description": "Learn to describe your favorite place and explain why you like it.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Pronouncing Place Names",
+            "content": "Practice saying names of common places like 'park', 'beach', 'library', 'home'. Ensure clear vowel sounds."
+          },
+          {
+            "type": "example",
+            "heading": "Expressing Preference for a Place",
+            "content": "Use 'My favorite place is...' or 'I like [place] very much.' For example: 'My favorite place is the park.' or 'I like the beach very much.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Describe What You Do There",
+            "content": "Mention simple activities you do at your favorite place. 'I play with my friends at the park.' 'I read books at the library.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Give Simple Reasons for Liking It",
+            "content": "Use adjectives like 'beautiful', 'quiet', 'fun', 'relaxing'. 'The park is beautiful.' 'It is a fun place.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Which place has many books?",
+          "options": [
+            "park",
+            "beach",
+            "library",
+            "supermarket"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "My favorite place _____ the beach.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "I like to _____ at the park.",
+          "options": [
+            "study",
+            "sleep",
+            "play",
+            "work"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your favorite place. What is it? Where is it (e.g., in your city, near your home)? What does it look like? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Talk about why your favorite place is special to you. What do you like to do there, and how does it make you feel? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Greet Someone New",
+      "description": "Practice greeting someone new and asking basic questions to start a simple conversation.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Intonation for Questions",
+            "content": "For 'What's your name?' or 'How are you?', your voice usually goes down at the end. For 'Are you a student?', it goes up. Practice this rise and fall."
+          },
+          {
+            "type": "example",
+            "heading": "Basic Greetings and Questions",
+            "content": "Use: 'Hello, my name is [Your Name]. What's your name?' 'Nice to meet you.' 'How are you?' For example: 'Hello, I'm Lan. What's your name?'"
+          },
+          {
+            "type": "tip",
+            "heading": "Listen Carefully to the Reply",
+            "content": "When someone answers, try to listen for their name and a simple answer to 'How are you?'. This shows you are engaged."
+          },
+          {
+            "type": "tip",
+            "heading": "Smile and Make Eye Contact",
+            "content": "A friendly smile and looking at the person (if culturally appropriate) help you seem confident and welcoming, even if your English is basic."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is a common response to 'How are you?'",
+          "options": [
+            "I'm fine, thank you.",
+            "My name is John.",
+            "I like pizza.",
+            "It is sunny."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "When you meet someone, you say 'Nice to _____ you.'",
+          "options": [
+            "see",
+            "meet",
+            "know",
+            "talk"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the correct question to ask about someone's well-being?",
+          "options": [
+            "What are you?",
+            "Who are you?",
+            "How are you?",
+            "Where are you?"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Imagine you are meeting a new person. Greet them, introduce yourself, and ask their name. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Imagine you have just met someone new. After introducing yourselves, ask them 'How are you?' and one simple follow-up question (e.g., 'Are you a student?'). Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    },
+    {
+      "title": "Talk About Today",
+      "description": "Learn to talk about what you are doing today and how you feel.",
+      "estimatedMinutes": 15,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using 'Today' Clearly",
+            "content": "Practice saying 'today' (stress on the second syllable). Ensure the 'ay' sound is clear."
+          },
+          {
+            "type": "example",
+            "heading": "Describing Today's Activities",
+            "content": "Use 'Today, I am...' or 'I am [verb+ing] today.' For example: 'Today, I am studying English.' or 'I am going to school today.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Expressing Feelings",
+            "content": "You can say 'I am happy today.' 'I am tired today.' or 'I am good.' This adds a personal touch."
+          },
+          {
+            "type": "tip",
+            "heading": "Mention the Weather",
+            "content": "A simple way to add more to your description is to mention the weather. 'Today, it is sunny.' 'It is cold today.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is the opposite of 'yesterday'?",
+          "options": [
+            "tomorrow",
+            "last week",
+            "today",
+            "next year"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Today, I _____ learning English.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "I am feeling _____ today. I have a lot of energy.",
+          "options": [
+            "sad",
+            "tired",
+            "happy",
+            "sleepy"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Talk about today. What day of the week is it? What is the weather like? Mention one thing you are doing today. Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        },
+        {
+          "prompt": "Describe how you are feeling today and why (one simple reason). What is one activity you are looking forward to doing today? Speak for 30-45 seconds.",
+          "durationSeconds": 38
+        }
+      ]
+    }
+  ]
+}

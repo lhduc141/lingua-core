@@ -1,0 +1,1426 @@
+{
+  "skill": "speaking",
+  "cefrLevel": "B1",
+  "lessons": [
+    {
+      "title": "Discuss Environmental Issues",
+      "description": "Learn to discuss common environmental problems and suggest solutions using appropriate vocabulary and discourse markers. Improve your fluency when talking about global and local environmental challenges.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Using Discourse Markers for Cause and Effect",
+            "content": "When discussing environmental issues, it's useful to link causes and effects clearly. Use phrases like 'due to', 'because of', 'as a result', 'consequently', 'therefore', and 'this leads to'. For example: 'Deforestation leads to a loss of biodiversity.' or 'Because of plastic pollution, marine life is suffering.'"
+          },
+          {
+            "type": "example",
+            "heading": "Useful Phrases for Environmental Topics",
+            "content": "Here are some phrases to help you talk about environmental issues: 'climate change', 'global warming', 'air pollution', 'water contamination', 'deforestation', 'plastic waste', 'renewable energy', 'sustainable development', 'carbon footprint', 'environmental protection', 'recycling initiatives'."
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation Tip: 'th' Sounds",
+            "content": "Many environmental words contain 'th' (e.g., 'earth', 'healthy', 'threat'). Practice the two 'th' sounds: voiced (like in 'this', 'that', 'they') where your tongue touches your upper teeth and vibrates, and unvoiced (like in 'think', 'three', 'through') where air passes between your tongue and teeth without vibration. Pay attention to these sounds for clearer pronunciation."
+          },
+          {
+            "type": "tip",
+            "heading": "Structuring Your Opinion",
+            "content": "When giving your opinion on environmental solutions, start with 'In my opinion...', 'I believe that...', or 'From my perspective...'. Then, provide a reason and an example. For instance: 'I believe that individual actions are crucial, for example, reducing plastic use can make a big difference.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Which word means the cutting down of trees in a large area?",
+          "options": [
+            "deforestation",
+            "reforestation",
+            "urbanization",
+            "conservation"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Air pollution is a serious problem, ______ it can cause respiratory diseases.",
+          "options": [
+            "despite",
+            "however",
+            "consequently",
+            "although"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is the term for energy that comes from natural resources like sun or wind?",
+          "options": [
+            "fossil fuel",
+            "nuclear energy",
+            "renewable energy",
+            "thermal energy"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe one major environmental problem that you observe in Vietnam or in your local community. Explain what causes it and what its main effects are. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss what individuals and governments can do to address environmental issues. Give specific examples of actions and explain why you think they would be effective. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Technology: Pros and Cons",
+      "description": "Learn to express the advantages and disadvantages of technology using clear language and linking words. Practice discussing the impact of technology on daily life.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Expressing Advantages and Disadvantages",
+            "content": "To clearly state pros and cons, use phrases like 'One advantage is...', 'A major benefit of...', 'On the other hand, a disadvantage is...', 'However, a drawback could be...'. You can also use 'The upside is...' and 'The downside is...'. For example: 'One advantage of smartphones is instant communication. On the other hand, a disadvantage is the potential for addiction.'"
+          },
+          {
+            "type": "example",
+            "heading": "Useful Phrases for Discussing Technology",
+            "content": "In your discussion, you might use: 'digital devices', 'social media platforms', 'online learning', 'artificial intelligence (AI)', 'internet access', 'cybersecurity', 'privacy concerns', 'technological advancements', 'convenience', 'efficiency', 'distraction', 'isolation'."
+          },
+          {
+            "type": "tip",
+            "heading": "Intonation for Lists",
+            "content": "When listing several pros or cons, use rising intonation for each item in the list, and falling intonation on the last item to signal that you're finished. For example: 'Technology offers convenience (rising), efficiency (rising), and access to information (falling).'"
+          },
+          {
+            "type": "tip",
+            "heading": "Linking Ideas Effectively",
+            "content": "To connect your ideas smoothly, use linking words such as 'furthermore', 'moreover', 'in addition', 'however', 'nevertheless', 'despite this', 'consequently', 'as a result'. This helps your speech flow naturally and makes your arguments clearer."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is a common 'con' of excessive technology use?",
+          "options": [
+            "increased productivity",
+            "improved communication",
+            "digital addiction",
+            "enhanced creativity"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The internet provides instant access to information. This is a huge ______.",
+          "options": [
+            "drawback",
+            "advantage",
+            "challenge",
+            "limitation"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Many people worry about their online ______ when using social media.",
+          "options": [
+            "publicity",
+            "privacy",
+            "popularity",
+            "profit"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe the main pros and cons of using smartphones in daily life. Give at least two advantages and two disadvantages, providing a brief explanation for each. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss whether you believe technology generally makes our lives better or worse. Support your opinion with examples and consider both positive and negative impacts. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Cultural Differences You Have Noticed",
+      "description": "Learn to compare and contrast cultural practices and express your observations politely. Improve your ability to describe and discuss cultural nuances.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Comparing and Contrasting Phrases",
+            "content": "When discussing cultural differences, use phrases like 'In my culture, we usually..., whereas in X culture, they often...', 'Unlike X, Y culture...', 'Both cultures share...', 'Similar to X, Y also...'. For example: 'In Vietnam, we often remove our shoes before entering a home, whereas in some Western cultures, this is less common.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Cultural Differences",
+            "content": "Useful words include: 'customs', 'traditions', 'etiquette', 'values', 'beliefs', 'gestures', 'social norms', 'body language', 'hospitality', 'punctuality', 'direct/indirect communication', 'individualism/collectivism'."
+          },
+          {
+            "type": "tip",
+            "heading": "Politeness and Hedging",
+            "content": "When discussing cultural differences, it's important to be polite and avoid generalizations. Use hedging phrases like 'It seems that...', 'I've noticed that...', 'It appears to be...', 'Perhaps...', 'Generally speaking...'. This shows respect and acknowledges that your observations might not apply to everyone. For example: 'I've noticed that punctuality seems to be highly valued in Japanese business culture.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Stress on Key Words",
+            "content": "Emphasize key words to highlight the contrast or similarity. For example, 'In Vietnam, we often eat with chopsticks, BUT in many Western countries, they use a fork and knife.' Stressing 'but' and the contrasting items makes your point clearer."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What term refers to the traditional beliefs and practices of a society?",
+          "options": [
+            "innovation",
+            "customs",
+            "technology",
+            "fashion"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "In some cultures, it's considered good ______ to bring a small gift when visiting someone's home.",
+          "options": [
+            "manners",
+            "mistake",
+            "habit",
+            "rule"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Many Asian cultures are more ______, focusing on group harmony, unlike some Western cultures which are more individualistic.",
+          "options": [
+            "competitive",
+            "collectivist",
+            "independent",
+            "isolated"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe one specific cultural difference you have noticed between Vietnam and another country (or between different regions within Vietnam). Explain what the difference is and how it might affect daily interactions. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss how people can adapt to new cultural environments and what challenges they might face. Share any tips you have for understanding and respecting cultural differences. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Education in Vietnam vs. Abroad",
+      "description": "Learn to compare educational systems and express your opinions on different learning approaches. Practice using comparative structures and hedging language.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Expressing Opinions and Comparisons",
+            "content": "When comparing, use phrases like 'X is more... than Y', 'X is as... as Y', 'Unlike X, Y tends to...', 'Both X and Y share...'. For opinions, use 'I think/believe that...', 'In my opinion...', 'From my perspective...'. For example: 'I think education abroad often encourages more critical thinking than the traditional system in Vietnam.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Education",
+            "content": "Useful terms include: 'curriculum', 'rote learning', 'critical thinking', 'tuition fees', 'scholarships', 'lecture', 'seminar', 'group work', 'extracurricular activities', 'academic pressure', 'practical skills', 'theoretical knowledge', 'student exchange program'."
+          },
+          {
+            "type": "tip",
+            "heading": "Hedging Language for Nuance",
+            "content": "To sound more balanced and less absolute, use hedging words. For example, instead of 'Vietnamese education is only about rote learning,' say 'Vietnamese education *can sometimes focus more on* rote learning.' Other hedging phrases: 'tend to be', 'can be', 'often', 'in general', 'it seems that'. This shows you understand complexity."
+          },
+          {
+            "type": "tip",
+            "heading": "Connected Speech: Linking Sounds",
+            "content": "Practice linking words together to sound more natural. For example, 'education_in_Vietnam' (linking 'n' to 'i'), 'abroad_is_different' (linking 'd' to 'i'). This helps with fluency and rhythm. Listen to native speakers and try to imitate their flow."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is the term for learning by memorizing information without necessarily understanding it deeply?",
+          "options": [
+            "critical thinking",
+            "problem-solving",
+            "rote learning",
+            "active learning"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Many students apply for ______ to help cover their university costs abroad.",
+          "options": [
+            "loans",
+            "scholarships",
+            "salaries",
+            "grants"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "A good education system should encourage students to develop ______ skills, not just memorize facts.",
+          "options": [
+            "manual",
+            "technical",
+            "critical thinking",
+            "physical"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Compare one specific aspect of education in Vietnam (e.g., teaching style, assessment, student-teacher relationship) with what you know or imagine about education abroad. Highlight both similarities and differences. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss the benefits and challenges of studying abroad for Vietnamese students. Would you consider studying abroad, and why or why not? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Describe a Work or Volunteer Experience",
+      "description": "Learn to narrate past experiences clearly, using appropriate tenses and sequencing words. Practice describing responsibilities, challenges, and lessons learned.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Narrating Past Events: Past Simple and Continuous",
+            "content": "Use the Past Simple to describe completed actions in the past (e.g., 'I worked', 'we organized'). Use the Past Continuous to describe an ongoing action in the past, often interrupted by another action, or to set the scene (e.g., 'While I was working, I learned a lot'). For example: 'I was volunteering at a local orphanage last summer. We organized daily activities for the children.'"
+          },
+          {
+            "type": "example",
+            "heading": "Useful Phrases for Describing Experience",
+            "content": "To describe your experience, use phrases like: 'My responsibilities included...', 'I gained experience in...', 'It involved working with...', 'I learned how to...', 'The most challenging part was...', 'The most rewarding aspect was...', 'It taught me the importance of...'. Also, use sequencing words: 'First', 'Then', 'After that', 'Finally'."
+          },
+          {
+            "type": "tip",
+            "heading": "Pausing for Effect",
+            "content": "Don't rush your speech. Use short pauses at natural breaks, like after a comma or at the end of a sentence. This gives you time to think, allows your listener to process information, and makes your speech sound more thoughtful and confident. For example: 'I worked as an intern (pause) at a marketing company (pause) for three months.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Using Descriptive Adjectives",
+            "content": "Enhance your description by using adjectives. Instead of 'It was a good experience,' say 'It was a *rewarding* and *challenging* experience.' Other useful adjectives: 'valuable', 'memorable', 'demanding', 'insightful', 'collaborative', 'impactful'."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is another word for the duties you are expected to perform in a job?",
+          "options": [
+            "hobbies",
+            "responsibilities",
+            "privileges",
+            "preferences"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Working in a team helped me develop my ______ skills.",
+          "options": [
+            "individual",
+            "solitary",
+            "collaboration",
+            "competitive"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The internship was a very ______ experience, as I learned so much.",
+          "options": [
+            "boring",
+            "unimportant",
+            "rewarding",
+            "stressful"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a specific work experience (paid or unpaid) or volunteer experience you have had. Explain what your role was, what you did, and what you learned from it. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss how this experience changed your perspective or helped you develop new skills. Would you recommend this type of experience to others, and why? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Talk About Health Trends",
+      "description": "Learn to describe current health trends and express opinions on their effectiveness. Practice using vocabulary related to health and wellness.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Describing Trends",
+            "content": "To talk about trends, use verbs like 'is becoming more popular', 'is on the rise', 'is gaining traction', 'has seen an increase'. For example: 'Mindfulness meditation is becoming more popular these days.' or 'There has been an increase in people adopting plant-based diets.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Health and Wellness",
+            "content": "Useful terms include: 'well-being', 'mental health', 'physical fitness', 'balanced diet', 'mindfulness', 'meditation', 'organic food', 'plant-based diet', 'sedentary lifestyle', 'stress management', 'preventative care', 'holistic health'."
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation Tip: 's' Endings",
+            "content": "Pay attention to the pronunciation of 's' at the end of words, especially in plural nouns and third-person singular verbs. It can sound like /s/ (e.g., 'benefits', 'stops'), /z/ (e.g., 'trends', 'improves'), or /ɪz/ (e.g., 'exercises', 'reduces'). Correct pronunciation helps clarity."
+          },
+          {
+            "type": "tip",
+            "heading": "Giving Examples to Support Your Points",
+            "content": "When discussing health trends, support your statements with examples. Use phrases like 'For example...', 'For instance...', 'A good illustration of this is...'. This makes your arguments more concrete and easier to understand. For example: 'Many people are focusing on mental health, for instance, by practicing mindfulness or seeking therapy.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "Which term describes a lifestyle with little or no physical activity?",
+          "options": [
+            "active",
+            "sedentary",
+            "energetic",
+            "dynamic"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Eating a variety of foods is key to a ______ diet.",
+          "options": [
+            "unhealthy",
+            "monotonous",
+            "balanced",
+            "restrictive"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "______ is a practice where you focus on the present moment to improve mental well-being.",
+          "options": [
+            "distraction",
+            "mindfulness",
+            "procrastination",
+            "forgetfulness"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a popular health trend that you have noticed in Vietnam or globally. Explain what it involves and why you think it has become popular. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss the importance of maintaining a balanced lifestyle for overall well-being. What are some practical steps people can take to achieve this balance? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Discuss a Recent News Story",
+      "description": "Learn to summarize news, express opinions, and use reported speech. Practice discussing current events with clarity and confidence.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Summarizing Information",
+            "content": "When summarizing, focus on the main points: who, what, when, where, why. Use phrases like 'The story is about...', 'It reported that...', 'The main point is...'. For example: 'The news story reported that a new bridge was opened in Da Nang last week, which is expected to boost tourism.'"
+          },
+          {
+            "type": "example",
+            "heading": "Useful Phrases for Discussing News",
+            "content": "To talk about news, use: 'current affairs', 'headline', 'breaking news', 'reliable source', 'fake news', 'impact', 'public opinion', 'controversial topic', 'according to the report', 'it was stated that', 'I found it interesting because...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Using Reported Speech",
+            "content": "When talking about what someone else said or what was reported, use reported speech. Remember to often shift tenses. For example, instead of 'The mayor said: 'We will build a new hospital'', say 'The mayor said that they *would* build a new hospital.' Or 'The article stated that the economy *was growing*.' (present continuous becomes past continuous)."
+          },
+          {
+            "type": "tip",
+            "heading": "Expressing Your Opinion on News",
+            "content": "After summarizing, share your opinion. Use phrases like 'I think this is important because...', 'In my view, this could lead to...', 'I'm concerned about...', 'I find it surprising that...'. Always try to support your opinion with a reason."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is the main title of a newspaper article called?",
+          "options": [
+            "caption",
+            "headline",
+            "summary",
+            "byline"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "It's important to check if a news source is ______ to avoid misinformation.",
+          "options": [
+            "biased",
+            "unreliable",
+            "credible",
+            "sensational"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The news story had a significant ______ on public opinion.",
+          "options": [
+            "effect",
+            "cause",
+            "reason",
+            "factor"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Summarize a recent news story (local or international) that you found interesting. Explain what happened, where and when it occurred, and who was involved. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss the potential impact of this news story on society, individuals, or a particular industry. Share your opinion on the significance of this event. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Relationships and Communication",
+      "description": "Learn to discuss the importance of relationships and effective communication. Practice expressing feelings and offering advice using appropriate vocabulary.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Expressing Feelings and Opinions",
+            "content": "When talking about relationships, you'll often express feelings. Use phrases like 'I feel that...', 'It's important to...', 'I value...', 'I appreciate...', 'I find it difficult to...'. For example: 'I feel that honesty is crucial in any relationship.' or 'It's important to listen actively to your friends.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Relationships and Communication",
+            "content": "Useful terms include: 'empathy', 'trust', 'respect', 'supportive', 'understanding', 'conflict resolution', 'misunderstanding', 'active listening', 'non-verbal communication', 'open communication', 'compromise', 'loyalty', 'bond'."
+          },
+          {
+            "type": "tip",
+            "heading": "Intonation for Empathy",
+            "content": "When discussing sensitive topics like relationships, use a softer, more empathetic tone. Vary your intonation to convey understanding and warmth. For example, when saying 'It can be difficult sometimes,' let your voice fall gently at the end to show understanding, rather than a flat or abrupt tone."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Conditional Sentences for Advice",
+            "content": "When giving advice or discussing hypothetical situations in relationships, use conditional sentences. For example: 'If you want to build trust, you *should* always be honest.' or 'If I *were* in that situation, I *would try* to communicate more openly.' (Second conditional for hypothetical advice)."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is the ability to understand and share the feelings of another?",
+          "options": [
+            "sympathy",
+            "apathy",
+            "empathy",
+            "antipathy"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Good communication often involves finding a ______ when there's a disagreement.",
+          "options": [
+            "solution",
+            "compromise",
+            "argument",
+            "conflict"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "A lack of clear communication can lead to ______ between people.",
+          "options": [
+            "understanding",
+            "agreement",
+            "misunderstandings",
+            "harmony"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe the qualities you value most in a good friend or a family member. Explain why these qualities are important to you. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss the importance of effective communication in maintaining healthy relationships. What are some common communication challenges, and how can people overcome them? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "How You Manage Money",
+      "description": "Learn to discuss personal finance, budgeting, and financial habits. Practice using vocabulary related to money management and expressing your approach.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Discussing Financial Habits",
+            "content": "When talking about money, use verbs like 'save', 'spend', 'budget', 'invest', 'earn', 'manage'. Use phrases like 'I try to save...', 'My main expenses are...', 'I usually budget for...'. For example: 'I try to save a portion of my income every month.' or 'My main expenses are rent and food.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Money Management",
+            "content": "Useful terms include: 'budget', 'savings', 'expenses', 'income', 'investment', 'debt', 'financial planning', 'frugal', 'impulse buying', 'emergency fund', 'financial independence', 'student loan'."
+          },
+          {
+            "type": "tip",
+            "heading": "Stress for Emphasis",
+            "content": "When you want to highlight a particular word or idea, stress it slightly. For example, 'It's IMPORTANT to save money for the FUTURE.' or 'My BIGGEST expense is TRANSPORTATION.' This helps convey your meaning and makes your speech more engaging."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Numbers and Percentages",
+            "content": "Don't be afraid to use numbers or percentages when discussing money. For example: 'I try to save about 20% of my salary.' or 'My rent is around 5 million VND per month.' Practice saying these numbers clearly and confidently."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is a plan for how you will spend and save money over a period of time?",
+          "options": [
+            "loan",
+            "budget",
+            "salary",
+            "investment"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "It's important to have an ______ fund for unexpected costs.",
+          "options": [
+            "luxury",
+            "investment",
+            "emergency",
+            "spending"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "People who are ______ are careful with their money and avoid wasting it.",
+          "options": [
+            "extravagant",
+            "generous",
+            "frugal",
+            "reckless"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your personal approach to managing your money. Do you have a budget? How do you save or spend? Give specific examples of your habits. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss the importance of financial planning for young people. What advice would you give someone who is just starting to manage their own money? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Leisure Activities and Well-being",
+      "description": "Learn to describe your favorite leisure activities and explain their benefits for well-being. Practice expressing preferences and connecting activities to health.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Expressing Preferences and Enjoyment",
+            "content": "Use verbs and phrases like 'I enjoy...', 'I love...', 'I'm keen on...', 'I'm a big fan of...', 'I find it relaxing/stimulating/rewarding'. For example: 'I really enjoy reading in my free time.' or 'I find hiking very rejuvenating.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Leisure and Well-being",
+            "content": "Useful terms include: 'recreational activities', 'hobbies', 'pastimes', 'relaxation', 'rejuvenation', 'stress relief', 'mental health', 'physical fitness', 'social interaction', 'creative outlet', 'unwind', 'de-stress'."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Adverbs of Frequency",
+            "content": "To describe how often you do an activity, use adverbs of frequency: 'always', 'usually', 'often', 'sometimes', 'rarely', 'never'. Place them before the main verb (e.g., 'I often go cycling') or after 'be' (e.g., 'I am usually busy')."
+          },
+          {
+            "type": "tip",
+            "heading": "Connecting Activities to Benefits",
+            "content": "Clearly link your activities to their benefits for your well-being. Use phrases like 'It helps me to...', 'It allows me to...', 'It's good for...', 'It contributes to...'. For example: 'Reading helps me relax and escape from daily stress.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is another word for a leisure activity or pursuit?",
+          "options": [
+            "chore",
+            "duty",
+            "hobby",
+            "task"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "After a long week, I like to ______ by listening to music.",
+          "options": [
+            "stress",
+            "work",
+            "unwind",
+            "rush"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Engaging in creative activities can be great for your mental ______.",
+          "options": [
+            "illness",
+            "health",
+            "burden",
+            "strain"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your favorite leisure activity or hobby. Explain what it involves, how often you do it, and why you enjoy it so much. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss the link between leisure activities and overall well-being (both mental and physical). Why is it important to have hobbies and take time for relaxation? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Discuss Social Media",
+      "description": "Learn to discuss the advantages and disadvantages of social media, express opinions, and use conditional sentences. Improve your ability to talk about digital communication.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Expressing Pros and Cons",
+            "content": "Similar to technology, use phrases like 'The main benefit is...', 'It offers...', 'On the downside...', 'A significant drawback is...'. For example: 'Social media allows us to connect with friends globally. However, a significant drawback is the potential for privacy issues.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Social Media",
+            "content": "Useful terms include: 'social media platforms', 'online communities', 'digital footprint', 'privacy settings', 'cyberbullying', 'information overload', 'fake news', 'influencers', 'online presence', 'connectivity', 'engagement', 'addiction'."
+          },
+          {
+            "type": "tip",
+            "heading": "Pronunciation Tip: 'ch' and 'sh' Sounds",
+            "content": "Many words related to social media contain 'ch' (e.g., 'channels', 'chat') or 'sh' (e.g., 'share', 'social'). Practice distinguishing these sounds. 'ch' is a sharp, quick sound, while 'sh' is softer and longer. Clear pronunciation helps your listener understand your specific words."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Conditional Sentences for Consequences",
+            "content": "When discussing potential consequences or hypothetical situations related to social media, use conditional sentences. For example: 'If you spend too much time online, you *might* neglect your real-life relationships.' or 'If social media *didn't exist*, how *would* people communicate?'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is the term for the information about a person that exists on the Internet as a result of their online activity?",
+          "options": [
+            "digital footprint",
+            "physical address",
+            "personal diary",
+            "social security"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "It's important to adjust your ______ to control who sees your posts.",
+          "options": [
+            "account name",
+            "profile picture",
+            "privacy settings",
+            "notification sounds"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Some people experience ______ when they spend too much time on social media.",
+          "options": [
+            "connection",
+            "productivity",
+            "isolation",
+            "happiness"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe how you use social media in your daily life and what you consider its main benefits for you personally. Give specific examples. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss the potential negative effects of social media on individuals or society. What advice would you give to someone to use social media responsibly? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Talk About Career Goals",
+      "description": "Learn to express your career aspirations, outline steps to achieve them, and discuss the importance of continuous learning. Practice using future tenses and modals.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Expressing Future Plans and Goals",
+            "content": "Use 'I want to...', 'I hope to...', 'I plan to...', 'I'm aiming to...', 'My goal is to...'. For specific steps, use 'I will...', 'I'm going to...'. For example: 'My main career goal is to become a marketing manager within five years.' or 'I'm going to take some online courses to improve my skills.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Career Goals",
+            "content": "Useful terms include: 'ambition', 'aspiration', 'career path', 'promotion', 'skill set', 'professional development', 'job satisfaction', 'work-life balance', 'networking', 'mentor', 'internship', 'further education', 'entrepreneurship'."
+          },
+          {
+            "type": "tip",
+            "heading": "Intonation for Enthusiasm",
+            "content": "When talking about your goals, let your voice show your enthusiasm! Use a slightly higher pitch and more varied intonation. This makes your speech more engaging and conveys your passion. For example: 'I'm REALLY excited about the possibility of working in that field!'"
+          },
+          {
+            "type": "tip",
+            "heading": "Using Modals for Possibility and Necessity",
+            "content": "Use modals like 'might', 'could' for possibilities (e.g., 'I might need to learn a new language'), and 'should', 'must', 'have to' for necessities (e.g., 'I must gain more experience'). This adds nuance to your plans."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is a strong desire to achieve something, especially success in a career?",
+          "options": [
+            "indifference",
+            "ambition",
+            "reluctance",
+            "hesitation"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "To get a ______ to a higher position, I need to improve my leadership skills.",
+          "options": [
+            "demotion",
+            "promotion",
+            "transfer",
+            "resignation"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Continuous ______ is essential for staying competitive in today's job market.",
+          "options": [
+            "stagnation",
+            "learning",
+            "avoidance",
+            "complacency"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your main career goal for the next 3-5 years. Explain what this goal is and what specific steps you plan to take to achieve it. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss the importance of continuous learning and professional development in today's fast-changing job market. How do you plan to keep your skills updated? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Describe a Challenge You Faced",
+      "description": "Learn to narrate personal challenges, explain how you overcame them, and reflect on lessons learned. Practice using past tenses and sequencing events clearly.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Narrating a Story: Past Tenses and Sequencing",
+            "content": "Use the Past Simple for the main events (e.g., 'I decided', 'I failed'). Use Past Continuous to describe the background or ongoing actions (e.g., 'I was studying hard'). Use Past Perfect for actions that happened before the main past event (e.g., 'I had never faced such a problem before'). Use sequencing words like 'First', 'Then', 'After that', 'Eventually', 'Finally'."
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Challenges and Resilience",
+            "content": "Useful terms include: 'obstacle', 'difficulty', 'setback', 'perseverance', 'resilience', 'overcome', 'cope with', 'learn from', 'problem-solving', 'determination', 'growth mindset', 'support system'."
+          },
+          {
+            "type": "tip",
+            "heading": "Expressing Feelings During a Challenge",
+            "content": "Don't just state facts; express how you felt. Use adjectives like 'frustrated', 'discouraged', 'stressed', 'anxious', 'proud', 'relieved'. This makes your story more relatable and engaging. For example: 'I felt incredibly frustrated when I couldn't solve the problem.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Using Linking Words for Cause and Effect",
+            "content": "Clearly explain why things happened or what the consequences were. Use 'because', 'so', 'as a result', 'due to', 'this led to'. For example: 'I had to work extra hours because I wanted to finish the project on time, which led to me feeling very tired.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is another word for a difficulty or barrier that prevents progress?",
+          "options": [
+            "advantage",
+            "opportunity",
+            "obstacle",
+            "solution"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Despite many failures, her ______ helped her achieve her goal in the end.",
+          "options": [
+            "indifference",
+            "hesitation",
+            "perseverance",
+            "laziness"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "It took a lot of effort to ______ the difficulties I faced.",
+          "options": [
+            "ignore",
+            "avoid",
+            "overcome",
+            "create"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a significant challenge you have faced in your life (e.g., academic, personal, professional). Explain what the challenge was, how you dealt with it, and what the outcome was. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss what you learned from this challenge and how it changed your perspective or helped you grow as a person. Would you approach a similar challenge differently now? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Talk About Sustainable Living",
+      "description": "Learn to explain the concept of sustainable living, give examples of practices, and discuss its importance. Practice using vocabulary related to environmental responsibility.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Explaining Concepts and Giving Examples",
+            "content": "When defining 'sustainable living', start with 'Sustainable living means...' or 'It refers to...'. Then, provide examples using 'For example...', 'For instance...', 'One way to do this is...'. For example: 'Sustainable living means reducing our impact on the environment. For example, by recycling and conserving energy.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Sustainable Living",
+            "content": "Useful terms include: 'eco-friendly', 'renewable energy', 'carbon footprint', 'conservation', 'recycling', 'upcycling', 'waste reduction', 'public transport', 'plant-based diet', 'ethical consumption', 'environmental impact', 'green initiatives'."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Phrases for Responsibility",
+            "content": "When discussing who is responsible for sustainable living, use phrases like 'It's our responsibility to...', 'Governments should...', 'Individuals can contribute by...', 'Businesses have a role to play in...'. This helps assign agency and suggest actions."
+          },
+          {
+            "type": "tip",
+            "heading": "Clarity in Explanations",
+            "content": "Break down complex ideas into simpler parts. Use clear, concise sentences. If you introduce a new term, briefly explain it. Imagine you are explaining it to someone who knows little about the topic. This ensures your message is understood."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What term describes products or practices that do not harm the environment?",
+          "options": [
+            "harmful",
+            "inefficient",
+            "eco-friendly",
+            "disposable"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Reducing your ______ means lowering the amount of greenhouse gases you produce.",
+          "options": [
+            "carbon footprint",
+            "energy bill",
+            "water consumption",
+            "waste output"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "Using solar and wind power are examples of ______ energy sources.",
+          "options": [
+            "fossil",
+            "non-renewable",
+            "nuclear",
+            "renewable"
+          ],
+          "correctIndex": 3
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe what 'sustainable living' means to you and one specific way you currently practice it in your daily life. Explain why this practice is important. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss how individuals, communities, and governments can contribute to a more sustainable future. What are some challenges to adopting sustainable practices, and how can they be overcome? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Compare City and Countryside Life",
+      "description": "Learn to compare and contrast urban and rural lifestyles, express preferences, and use descriptive adjectives. Practice discussing the advantages and disadvantages of each.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Comparing and Contrasting Structures",
+            "content": "Use phrases like 'In the city, there are more X, whereas in the countryside, there are fewer Y.' 'Both city and countryside offer X, but they differ in Y.' 'One major difference is...', 'A similarity is...'. For example: 'City life offers more job opportunities, whereas countryside life provides more tranquility.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for City and Countryside Life",
+            "content": "Useful terms include: 'urban', 'rural', 'amenities', 'infrastructure', 'public transport', 'green spaces', 'pollution', 'noise', 'pace of life', 'community spirit', 'tranquility', 'hustle and bustle', 'cost of living', 'job opportunities'."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Adjectives for Description",
+            "content": "Use a variety of adjectives to make your descriptions vivid. For city: 'bustling', 'vibrant', 'noisy', 'convenient', 'expensive', 'diverse'. For countryside: 'peaceful', 'serene', 'quiet', 'spacious', 'slower-paced', 'charming'. This helps paint a clearer picture for your listener."
+          },
+          {
+            "type": "tip",
+            "heading": "Expressing Preferences with Reasons",
+            "content": "When stating your preference, always follow it with a reason. Use 'I prefer X because...', 'I'd rather live in X due to...', 'The main reason I like X is...'. For example: 'I prefer living in the countryside because I enjoy the peace and quiet, unlike the constant noise of the city.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What term refers to areas outside of cities, often characterized by farms and natural landscapes?",
+          "options": [
+            "urban",
+            "suburban",
+            "metropolitan",
+            "rural"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "Cities usually have more ______ like hospitals, schools, and shopping centers.",
+          "options": [
+            "obstacles",
+            "amenities",
+            "challenges",
+            "isolation"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Life in the countryside is often associated with ______ and natural beauty.",
+          "options": [
+            "chaos",
+            "tranquility",
+            "stress",
+            "crowds"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Compare and contrast two aspects of living in a big city versus living in the countryside (e.g., lifestyle, environment, opportunities). Highlight both similarities and differences. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss which lifestyle you prefer and why, considering both the advantages and disadvantages of each. Would you ever consider moving to the other environment? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Discuss the Role of Technology in Learning",
+      "description": "Learn to discuss the impact of technology on education, express opinions, and provide examples. Practice using phrases for cause, effect, and comparison.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Expressing Opinions and Providing Examples",
+            "content": "Start with 'I believe that...', 'In my opinion...', 'It seems to me that...'. Support your opinion with examples using 'For example...', 'For instance...', 'A good illustration is...'. For example: 'I believe technology has revolutionized learning, for instance, online courses make education accessible to everyone.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Technology in Learning",
+            "content": "Useful terms include: 'e-learning', 'online courses', 'digital literacy', 'interactive whiteboards', 'educational apps', 'virtual reality (VR)', 'accessibility', 'personalized learning', 'blended learning', 'distance education', 'research tools', 'collaboration platforms'."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Phrases for Impact",
+            "content": "To describe how technology affects learning, use phrases like 'It has a significant impact on...', 'It allows students to...', 'It facilitates...', 'It can enhance...', 'It poses challenges for...'. For example: 'Technology allows students to access a vast amount of information instantly.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Varying Sentence Structure",
+            "content": "Don't always start sentences the same way. Mix simple sentences with more complex ones using conjunctions like 'although', 'while', 'because', 'so'. This makes your speech more interesting and sophisticated. For example: 'Although technology offers many benefits, it also presents challenges, especially for those without internet access.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is the term for learning conducted via electronic media, typically the internet?",
+          "options": [
+            "traditional learning",
+            "e-learning",
+            "classroom learning",
+            "manual learning"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Technology can make learning more ______ through simulations and games.",
+          "options": [
+            "boring",
+            "passive",
+            "interactive",
+            "difficult"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "One benefit of technology is improved ______ to educational resources for remote students.",
+          "options": [
+            "restriction",
+            "accessibility",
+            "limitation",
+            "exclusion"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe how technology has changed the way you learn or study, either positively or negatively. Give specific examples of tools or methods you use. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss the advantages and disadvantages of using technology in the classroom. Do you think schools should rely more or less on technology? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Talk About a Role Model",
+      "description": "Learn to describe a role model, explain their admirable qualities, and discuss their influence. Practice using descriptive adjectives and giving reasons.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Describing People and Their Qualities",
+            "content": "Use adjectives to describe your role model's character (e.g., 'courageous', 'compassionate', 'determined', 'innovative'). Use verbs to describe their actions and impact (e.g., 'inspires', 'motivates', 'achieved', 'contributed'). For example: 'My role model is a very determined person who always works hard to achieve her goals.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Role Models",
+            "content": "Useful terms include: 'inspiration', 'mentor', 'admirable', 'integrity', 'perseverance', 'dedication', 'leadership', 'compassion', 'resilience', 'positive influence', 'achievements', 'values'."
+          },
+          {
+            "type": "tip",
+            "heading": "Giving Specific Examples",
+            "content": "Don't just list qualities; provide a specific example or anecdote that illustrates why you admire that quality. For example, instead of 'She is kind,' say 'She is kind; for instance, she always volunteers to help others in need.' This makes your description more convincing."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Connectors for Reasons",
+            "content": "Clearly explain *why* someone is your role model. Use connectors like 'because', 'due to the fact that', 'this is why', 'as a result'. For example: 'I admire him because of his unwavering dedication to his work.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is a person who serves as an example for others to imitate?",
+          "options": [
+            "critic",
+            "opponent",
+            "role model",
+            "stranger"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "My role model's ______ to helping others is truly inspiring.",
+          "options": [
+            "indifference",
+            "dedication",
+            "hesitation",
+            "selfishness"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "She is an ______ leader, always fair and honest in her decisions.",
+          "options": [
+            "unethical",
+            "admirable",
+            "corrupt",
+            "weak"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a person you consider a role model (it can be someone you know personally or a public figure). Explain who they are, what admirable qualities they possess, and why you look up to them. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss the importance of having role models in life. How can role models influence young people, and what impact have they had on your own life? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Describe a Cultural Event",
+      "description": "Learn to describe cultural events, use sensory language, and explain their significance. Practice sequencing events and expressing cultural appreciation.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Describing Events and Sequencing",
+            "content": "When describing an event, use past tenses (Past Simple, Past Continuous) and sequencing words: 'First, we...', 'Then, people...', 'After that, the ceremony...', 'Finally, the celebration ended with...'. For example: 'First, we gathered at the temple, then the monks began their prayers.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Cultural Events",
+            "content": "Useful terms include: 'festival', 'tradition', 'celebration', 'ritual', 'customs', 'parade', 'ceremony', 'attire', 'cuisine', 'folklore', 'heritage', 'community spirit', 'cultural significance', 'performances'."
+          },
+          {
+            "type": "tip",
+            "heading": "Using Sensory Language",
+            "content": "Engage your listener by using words that appeal to the senses. Describe what you 'saw' (e.g., 'colorful lanterns', 'vibrant costumes'), 'heard' (e.g., 'lively music', 'cheering crowds'), 'smelled' (e.g., 'fragrant incense', 'delicious food'), and 'felt' (e.g., 'excitement', 'warm atmosphere')."
+          },
+          {
+            "type": "tip",
+            "heading": "Explaining Cultural Significance",
+            "content": "Go beyond description and explain the meaning or importance of the event. Use phrases like 'It symbolizes...', 'It represents...', 'It's a way to...', 'The purpose is to...'. For example: 'The festival symbolizes renewal and hope for the new year.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is a special day or period, usually with religious or cultural celebrations?",
+          "options": [
+            "meeting",
+            "festival",
+            "appointment",
+            "deadline"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The dragon dance is a popular ______ during Tet in Vietnam.",
+          "options": [
+            "modern trend",
+            "foreign custom",
+            "ancient tradition",
+            "new invention"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "People wear beautiful traditional ______ during the festival.",
+          "options": [
+            "uniforms",
+            "attire",
+            "work clothes",
+            "casual wear"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe a traditional cultural event or festival in Vietnam that you have experienced or know well. Explain what happens during the event, what people do, and what makes it special. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss the importance of preserving cultural events and traditions for future generations. What role do these events play in a community or national identity? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Your Opinion on Working from Home",
+      "description": "Learn to express your opinion on working from home, discuss its advantages and challenges, and use phrases for agreement/disagreement. Practice talking about modern work arrangements.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Expressing Opinions and Reasons",
+            "content": "Start with 'In my opinion...', 'I think/believe that...', 'From my point of view...'. Support your opinion with reasons using 'because', 'since', 'as a result'. For example: 'I believe working from home offers great flexibility because it saves commuting time.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Working from Home",
+            "content": "Useful terms include: 'remote work', 'telecommuting', 'flexibility', 'productivity', 'work-life balance', 'commute', 'distractions', 'isolation', 'virtual meetings', 'digital tools', 'self-discipline', 'office environment'."
+          },
+          {
+            "type": "tip",
+            "heading": "Phrases for Agreement and Disagreement (Softly)",
+            "content": "When discussing different viewpoints, you can agree or disagree politely. 'I agree with the idea that...', 'That's a good point, but...', 'I see your point, however, I think...'. For example: 'I agree that working from home offers flexibility, but I also think it can lead to isolation.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Using Contrasting Conjunctions",
+            "content": "To present both sides of an argument, use contrasting conjunctions like 'however', 'nevertheless', 'although', 'even though', 'while'. For example: 'Although working from home can be convenient, it also requires a lot of self-discipline.'"
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is another term for working from home?",
+          "options": [
+            "office work",
+            "fieldwork",
+            "remote work",
+            "manual labor"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Working from home can improve ______ as you have more control over your schedule.",
+          "options": [
+            "stress levels",
+            "work-life balance",
+            "social life",
+            "commute time"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "One common challenge of working remotely is the feeling of ______ from colleagues.",
+          "options": [
+            "connection",
+            "collaboration",
+            "isolation",
+            "teamwork"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your opinion on working from home. List at least two main advantages of this work arrangement and explain why you see them as benefits. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss the challenges of working from home and suggest ways to overcome them. Do you think working from home will become the new normal? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    },
+    {
+      "title": "Talk About Future Plans",
+      "description": "Learn to express your future plans and intentions clearly, using appropriate tenses and hedging language. Practice discussing goals and preparing for the future.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Expressing Future Intentions",
+            "content": "Use 'I'm going to...' for definite plans (e.g., 'I'm going to start a new course next month'). Use 'I will...' for decisions made at the moment of speaking or predictions (e.g., 'I think I will travel more'). Use 'I hope to...', 'I plan to...', 'I'd like to...' for aspirations. For example: 'I plan to save enough money to buy a house in the next five years.'"
+          },
+          {
+            "type": "example",
+            "heading": "Vocabulary for Future Plans",
+            "content": "Useful terms include: 'ambition', 'aspiration', 'goal', 'objective', 'milestone', 'prospect', 'long-term', 'short-term', 'career path', 'personal growth', 'self-improvement', 'financial stability', 'retirement'."
+          },
+          {
+            "type": "tip",
+            "heading": "Hedging for Uncertainty",
+            "content": "It's natural to be uncertain about the future. Use hedging phrases to show this: 'I might...', 'I may...', 'Perhaps I will...', 'It's possible that...', 'I'm considering...'. For example: 'I'm considering pursuing a master's degree, but I haven't made a final decision yet.'"
+          },
+          {
+            "type": "tip",
+            "heading": "Structuring Your Plans",
+            "content": "Organize your plans logically. You can categorize them (e.g., career, personal, travel) or discuss them chronologically (e.g., 'In the short term...', 'Looking further ahead...'). This makes your explanation clear and easy to follow."
+          }
+        ]
+      },
+      "mcqQuestions": [
+        {
+          "stemText": "What is a strong desire to achieve something, especially something difficult?",
+          "options": [
+            "regret",
+            "indifference",
+            "ambition",
+            "fear"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Setting clear ______ helps you stay focused on what you want to achieve.",
+          "options": [
+            "obstacles",
+            "problems",
+            "goals",
+            "distractions"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Achieving this project will be a major ______ in my career.",
+          "options": [
+            "setback",
+            "milestone",
+            "diversion",
+            "challenge"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "speakingTasks": [
+        {
+          "prompt": "Describe your main plans for the next 3-5 years. Focus on one or two key areas (e.g., career, education, personal life) and explain what you intend to do. Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        },
+        {
+          "prompt": "Discuss how you prepare for the future and the importance of setting goals. What role does flexibility play in your future plans? Speak for 60-90 seconds.",
+          "durationSeconds": 75
+        }
+      ]
+    }
+  ]
+}

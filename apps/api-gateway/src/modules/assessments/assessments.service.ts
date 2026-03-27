@@ -238,12 +238,12 @@ export class AssessmentsService implements OnModuleInit {
 		await this.createAttemptAnswers(newAnswer.answerId, answer);
 
 		this.logger.log(
-			`Answer submitted | assessmentId=${newAnswer} | questionId=${questionId} | attemptId=${newAnswer.answerId}`,
+			`Answer submitted | exerciseRecordId=${exerciseRecordId} | questionId=${questionId} | answerId=${newAnswer.answerId}`,
 		);
 
 		return ResponseDto.success(
 			Object,
-			{ attemptId: newAnswer.answerId, questionId, gradingStatus: 'pending', saved: true },
+			{ answerId: newAnswer.answerId, questionId, gradingStatus: 'pending', saved: true },
 			'Answer saved',
 		);
 	}
@@ -265,7 +265,7 @@ export class AssessmentsService implements OnModuleInit {
 
 		// 3. Kiểm tra tất cả câu đã có attempt chưa
 		const answer = await this.prisma.answer.findMany({
-			where: { answerId: exerciseRecordId, deletedAt: null },
+			where: { exerciseRecordId, deletedAt: null },
 			select: AnswerSelect.withAnswers,
 		});
 		const answeredIds = new Set(answer.map((a) => a.questionId));
@@ -502,13 +502,13 @@ export class AssessmentsService implements OnModuleInit {
 			},
 		});
 
-		await this.tryFinalizeAssessment(answerId);
+		await this.tryFinalizeAssessment(exerciseRecordId);
 	}
 
-	private async tryFinalizeAssessment(answerId: string): Promise<void> {
+	private async tryFinalizeAssessment(exerciseRecordId: string): Promise<void> {
 		const pendingAttempts = await this.prisma.answer.count({
 			where: {
-				answerId,
+				exerciseRecordId,
 				gradingStatus: 'pending',
 				deletedAt: null,
 			},
@@ -518,7 +518,7 @@ export class AssessmentsService implements OnModuleInit {
 
 		// Tính lại score tổng
 		const allAttempts = await this.prisma.answer.findMany({
-			where: { answerId, deletedAt: null },
+			where: { exerciseRecordId, deletedAt: null },
 			select: AnswerSelect.scoreOnly,
 		});
 
@@ -526,18 +526,18 @@ export class AssessmentsService implements OnModuleInit {
 		const finalScore = allAttempts.length > 0 ? (totalScore / allAttempts.length) * 100 : 0;
 
 		await this.prisma.exerciseRecord.update({
-			where: { exerciseRecordId: answerId },
+			where: { exerciseRecordId: exerciseRecordId },
 			data: {
 				status: 'scored' as any,
 				score: Math.round(finalScore * 100) / 100,
 			},
 		});
 
-		this.logger.log(`Assessment finalized | assessmentId=${answerId} | finalScore=${finalScore}%`);
+		this.logger.log(`Assessment finalized | assessmentId=${exerciseRecordId} | finalScore=${finalScore}%`);
 
 		// Auto-track: mark plan item as completed (async path)
 		const assessment = await this.prisma.exerciseRecord.findUnique({
-			where: { exerciseRecordId: answerId },
+			where: { exerciseRecordId: exerciseRecordId },
 			select: ExerciseRecordSelect.userRef,
 		});
 		if (assessment) {

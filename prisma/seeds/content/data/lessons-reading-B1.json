@@ -1,0 +1,2246 @@
+{
+  "skill": "reading",
+  "cefrLevel": "B1",
+  "lessons": [
+    {
+      "title": "Our Changing World: Understanding Climate Change",
+      "description": "In this lesson, learners will read about the effects of climate change and practice identifying the main idea of a text.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "What is the Main Idea?",
+            "content": "The main idea is the most important point an author wants to communicate about a topic. It's like the central message or the big picture of the text. Often, it's a general statement that the rest of the text supports with details."
+          },
+          {
+            "type": "example",
+            "heading": "Identifying the Main Idea",
+            "content": "If a passage describes different ways to save water at home, like taking shorter showers and fixing leaky faucets, the main idea is probably 'There are many simple ways to conserve water daily.' The details support this general statement."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Finding the Main Idea",
+            "content": "To find the main idea, ask yourself: 'What is this whole passage mostly about?' or 'What point is the author trying to make?' Sometimes, the main idea is stated directly in the first or last paragraph. Other times, you need to infer it from all the details."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Climate Change: A Global Challenge",
+        "content": "Climate change is a big problem affecting our planet. It means the Earth's average temperature is rising, leading to many changes in weather patterns. We see more extreme weather events, like stronger storms, longer droughts, and heavier floods. In Vietnam, for example, rising sea levels threaten coastal areas, and unusual heatwaves affect daily life and agriculture. These changes are mainly caused by human activities, such as burning fossil fuels for energy and cutting down forests. These actions release greenhouse gases, which trap heat in the atmosphere.\n\nThe consequences are serious. Polar ice caps are melting, animal habitats are disappearing, and food production can be affected. However, there are things we can do. Using less electricity, choosing public transport or bicycles, and recycling are small steps that can make a difference. Governments and large companies also need to act by investing in renewable energy like solar and wind power. Understanding climate change is the first step to protecting our home for future generations.",
+        "wordCount": 196,
+        "topic": "Climate Change and Us"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of this passage?",
+          "options": [
+            "Climate change is a serious global problem caused by human activities, but there are actions we can take to address it.",
+            "Vietnam is experiencing many negative effects due to rising sea levels and heatwaves.",
+            "Burning fossil fuels and cutting down forests are the only causes of climate change.",
+            "Governments and large companies are solely responsible for solving climate change."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "According to the passage, what is one consequence of climate change?",
+          "options": [
+            "More stable weather patterns.",
+            "Polar ice caps are melting.",
+            "Increased food production.",
+            "Fewer strong storms."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the phrase 'greenhouse gases' refer to in the passage?",
+          "options": [
+            "Gases that make plants grow faster.",
+            "Gases that trap heat in the atmosphere.",
+            "Gases used to cool down buildings.",
+            "Gases found only in greenhouses."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which of the following is NOT mentioned as a human activity causing climate change?",
+          "options": [
+            "Burning fossil fuels.",
+            "Cutting down forests.",
+            "Using public transport.",
+            "Releasing greenhouse gases."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is one simple action individuals can take to help with climate change?",
+          "options": [
+            "Building new power plants.",
+            "Investing in large companies.",
+            "Using less electricity.",
+            "Ignoring the problem."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The passage suggests that understanding climate change is important because...",
+          "options": [
+            "It helps us predict the stock market.",
+            "It is the first step to protecting our home for future generations.",
+            "It allows us to travel more often.",
+            "It helps us grow more food."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'extreme weather events' mean in the context of the passage?",
+          "options": [
+            "Unusual and severe weather conditions.",
+            "Weather that is very pleasant.",
+            "Weather that happens every day.",
+            "Weather that is easy to predict."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "What is the primary cause of rising sea levels mentioned in the text?",
+          "options": [
+            "Heavy floods.",
+            "Polar ice caps melting.",
+            "Stronger storms.",
+            "Unusual heatwaves."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Connecting Online: Understanding Social Media Habits",
+      "description": "This lesson explores how people use social media, helping learners practice identifying specific details and understanding vocabulary in context.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Scanning for Specific Information",
+            "content": "Scanning is a reading technique where you quickly look through a text to find specific pieces of information, like names, dates, numbers, or keywords. You don't read every word; instead, you let your eyes move rapidly across the page until you spot what you're looking for."
+          },
+          {
+            "type": "example",
+            "heading": "How to Scan Effectively",
+            "content": "If a question asks 'When did the event happen?', you would scan the text specifically for dates or time expressions. Don't read sentences that don't contain numbers or time words. Your eyes should jump from paragraph to paragraph, searching only for the target information."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Scanning",
+            "content": "Before you start scanning, identify the keywords from the question. For example, if the question is 'What did Linh post?', look for 'Linh' and 'post'. Use headings, bold text, or bullet points to help you find information faster. Practice makes perfect!"
+          }
+        ]
+      },
+      "passage": {
+        "title": "Our Daily Digital Lives: Social Media Use",
+        "content": "Social media has become a huge part of our daily lives, especially for young people in Vietnam. Platforms like Facebook, Zalo, and TikTok allow us to connect with friends and family, share updates, and discover new trends. A recent survey showed that the average Vietnamese user spends about 3 hours a day on social media. Many use it to follow news, watch short videos, or even learn new skills through tutorials.\n\nHowever, these habits can have both positive and negative effects. On the positive side, social media helps people stay in touch with relatives far away and can be a great tool for small businesses to reach customers. It also offers a platform for creative expression. On the negative side, excessive use can lead to distraction, reduced face-to-face interaction, and sometimes even feelings of anxiety or comparison. It's important to find a balance, perhaps by setting time limits for apps or taking digital breaks. Being mindful of how and why we use social media can help us enjoy its benefits without falling into its traps.",
+        "wordCount": 197,
+        "topic": "Social Media Habits"
+      },
+      "questions": [
+        {
+          "stemText": "What is the average time a Vietnamese user spends on social media per day, according to the survey?",
+          "options": [
+            "1 hour.",
+            "2 hours.",
+            "3 hours.",
+            "4 hours."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Which of the following is mentioned as a positive effect of social media?",
+          "options": [
+            "Reduced face-to-face interaction.",
+            "Feelings of anxiety.",
+            "Helping small businesses reach customers.",
+            "Excessive use."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'excessive use' mean in the context of the passage?",
+          "options": [
+            "Using social media a little bit.",
+            "Using social media too much.",
+            "Using social media only for work.",
+            "Using social media with friends."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is one negative effect of social media mentioned in the text?",
+          "options": [
+            "Staying in touch with relatives.",
+            "Creative expression.",
+            "Distraction.",
+            "Learning new skills."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Which platforms are mentioned as popular in Vietnam?",
+          "options": [
+            "Twitter, LinkedIn, Pinterest.",
+            "Facebook, Zalo, TikTok.",
+            "Instagram, Snapchat, Reddit.",
+            "YouTube, WhatsApp, WeChat."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is one way the passage suggests finding a balance with social media?",
+          "options": [
+            "Spending more time online.",
+            "Ignoring its negative effects.",
+            "Setting time limits for apps.",
+            "Only using it for entertainment."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The passage states that social media can be a great tool for small businesses to do what?",
+          "options": [
+            "Reduce their costs.",
+            "Reach customers.",
+            "Hire new employees.",
+            "Create new products."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the author imply by 'falling into its traps'?",
+          "options": [
+            "Becoming too dependent on social media or experiencing its negative effects.",
+            "Finding new friends online.",
+            "Learning new things from social media.",
+            "Using social media for business."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "title": "Learning Across Borders: Education Around the World",
+      "description": "This lesson explores different education systems, helping learners practice understanding the main idea and supporting details.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Supporting Details",
+            "content": "Supporting details are facts, examples, reasons, or descriptions that explain, prove, or expand on the main idea of a text. They provide the evidence or information that makes the main idea believable and clear. Without supporting details, the main idea would be just a general statement."
+          },
+          {
+            "type": "example",
+            "heading": "How Supporting Details Work",
+            "content": "If the main idea is 'Eating fruits is good for your health,' supporting details might include: 'Fruits provide vitamins,' 'They contain fiber,' and 'Many fruits are low in calories.' Each detail gives a specific reason why fruits are healthy."
+          },
+          {
+            "type": "tip",
+            "heading": "Finding Supporting Details",
+            "content": "When you read, after identifying the main idea, ask yourself: 'What information does the author use to explain or prove this main idea?' Look for specific examples, statistics, descriptions, or explanations that directly relate to the main point. Pay attention to transition words like 'for example,' 'in addition,' 'also,' and 'because'."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Education Systems: A Global Look",
+        "content": "Education systems vary greatly around the world, reflecting different cultures and priorities. In some countries, like Finland, the focus is often on play-based learning in early years and less homework, aiming to reduce stress and encourage creativity. Students often start formal schooling later, around age seven. In contrast, many Asian countries, including Vietnam, often emphasize academic achievement, standardized tests, and longer school days. Parents and students often feel pressure to excel in subjects like math and science to get into top universities.\n\nAnother difference is the cost. In some European countries, university education is free or very low-cost for citizens, while in others, like the United States, tuition fees can be very high, leading many students to take out loans. Despite these differences, the goal of education remains similar everywhere: to prepare young people for their future, equip them with knowledge and skills, and help them become responsible citizens. Understanding these variations helps us appreciate the diverse approaches to learning globally.",
+        "wordCount": 204,
+        "topic": "Education Around the World"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of this passage?",
+          "options": [
+            "All education systems are exactly the same.",
+            "Education systems around the world have similar goals but different approaches and priorities.",
+            "Finnish education is better than Asian education.",
+            "University education is always expensive."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which country is mentioned as focusing on play-based learning and less homework?",
+          "options": [
+            "Vietnam.",
+            "United States.",
+            "Finland.",
+            "Japan."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What do many Asian countries, including Vietnam, often emphasize in education?",
+          "options": [
+            "Less homework and more play.",
+            "Standardized tests and academic achievement.",
+            "Free university education.",
+            "Starting formal schooling later."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'tuition fees' mean in the context of the passage?",
+          "options": [
+            "Money paid for school supplies.",
+            "Money paid for transportation to school.",
+            "Money paid for teaching or instruction, especially at a university.",
+            "Money paid for school uniforms."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "According to the passage, what is a common goal of education everywhere?",
+          "options": [
+            "To make students rich.",
+            "To prepare young people for their future.",
+            "To ensure all students get into top universities.",
+            "To make education free for everyone."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "In which country might students often take out loans for university education?",
+          "options": [
+            "Finland.",
+            "Some European countries.",
+            "Vietnam.",
+            "The United States."
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "What does the passage imply about the 'pressure to excel' in Asian countries?",
+          "options": [
+            "It is not a common feeling.",
+            "It is mainly felt by teachers.",
+            "It is often felt by parents and students regarding academic performance.",
+            "It is only about sports."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'diverse approaches' suggest about global education systems?",
+          "options": [
+            "They are all exactly the same.",
+            "They are very different from each other.",
+            "They only focus on one subject.",
+            "They are only found in one region."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Finding Harmony: The Importance of Work-Life Balance",
+      "description": "This lesson explores the concept of work-life balance, helping learners understand different perspectives and infer meaning.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Making Inferences",
+            "content": "Inference is when you figure out something that isn't directly stated in the text, using clues from the text and your own background knowledge. It's like being a detective and putting pieces of information together to understand what the author is suggesting or implying."
+          },
+          {
+            "type": "example",
+            "heading": "How to Infer",
+            "content": "If a text says, 'Linh packed her swimsuit and sunscreen,' you can infer that Linh is going to a place where she can swim and where the sun is strong, like a beach or a pool. The text doesn't say 'beach,' but the clues help you figure it out."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Making Inferences",
+            "content": "Look for hints and clues in the text. Pay attention to descriptive words, actions, and situations. Ask yourself: 'What does this information suggest?' or 'What can I conclude from this?' Be careful not to guess; your inference must be supported by evidence from the text, even if it's indirect."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Balancing Work and Life: A Modern Challenge",
+        "content": "In today's fast-paced world, achieving a good work-life balance has become a significant challenge for many. It means finding a healthy equilibrium between your professional responsibilities and your personal life, including family, hobbies, and relaxation. Many people, especially in busy cities like Ho Chi Minh City or Hanoi, often feel overwhelmed by long working hours and the pressure to always be available, thanks to smartphones and constant connectivity.\n\nWhen work-life balance is poor, it can lead to stress, burnout, and health problems. People might feel tired all the time, lose interest in their hobbies, or neglect their relationships. On the other hand, a good balance can improve productivity at work, boost overall happiness, and strengthen personal connections. Companies are starting to recognize this and offer flexible working hours, remote work options, or wellness programs. Individuals can also take steps, such as setting clear boundaries between work and home, scheduling time for leisure activities, and learning to say 'no' to extra tasks when necessary. Prioritizing well-being is key to a fulfilling life.",
+        "wordCount": 196,
+        "topic": "Work-Life Balance"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Smartphones are the main cause of work-life imbalance.",
+            "Work-life balance is a modern challenge with serious consequences, but it can be improved by individuals and companies.",
+            "Companies are doing enough to help employees achieve work-life balance.",
+            "People in big cities are always stressed."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'equilibrium' mean in the context of work-life balance?",
+          "options": [
+            "A state of being unbalanced.",
+            "A state of perfect equality or balance.",
+            "A state of constant work.",
+            "A state of complete relaxation."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "According to the passage, what is one negative effect of poor work-life balance?",
+          "options": [
+            "Increased productivity at work.",
+            "Stronger personal connections.",
+            "Stress and burnout.",
+            "More time for hobbies."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Which of the following is NOT mentioned as a step individuals can take to improve work-life balance?",
+          "options": [
+            "Setting clear boundaries between work and home.",
+            "Scheduling time for leisure activities.",
+            "Working longer hours to finish tasks.",
+            "Learning to say 'no' to extra tasks."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does the passage imply about the role of smartphones in work-life balance?",
+          "options": [
+            "They always help improve balance.",
+            "They make it easier to be constantly connected, potentially blurring work-life boundaries.",
+            "They are only used for personal life.",
+            "They are not relevant to work-life balance."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is one way companies are starting to help employees with work-life balance?",
+          "options": [
+            "Requiring more overtime.",
+            "Offering flexible working hours.",
+            "Removing all holidays.",
+            "Discouraging personal hobbies."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The phrase 'prioritizing well-being' suggests that people should...",
+          "options": [
+            "Focus only on their careers.",
+            "Consider their health and happiness as very important.",
+            "Ignore their responsibilities.",
+            "Work as much as possible."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Why are people in busy cities like Ho Chi Minh City or Hanoi mentioned in the context of work-life balance?",
+          "options": [
+            "They have more leisure time.",
+            "They often feel overwhelmed by long hours and constant connectivity.",
+            "They don't have jobs.",
+            "They are always happy with their work-life balance."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Healing Methods: Traditional and Modern Medicine",
+      "description": "This lesson compares traditional and modern medicine, helping learners understand contrasting ideas and vocabulary in context.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Contrasting Ideas",
+            "content": "Authors often present contrasting ideas to show differences between two things. Look for words or phrases that signal a contrast, such as 'however,' 'but,' 'on the other hand,' 'in contrast,' 'while,' or 'unlike.' These words help you identify when the author is shifting from one idea to its opposite or a different perspective."
+          },
+          {
+            "type": "example",
+            "heading": "Spotting Contrasts",
+            "content": "If a sentence says, 'Modern phones are very powerful, but traditional landlines are more reliable during a power outage,' the word 'but' signals a contrast between the power of modern phones and the reliability of landlines in a specific situation."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Contrasting Ideas",
+            "content": "When you see a contrast word, pause and think about what two things are being compared or opposed. Try to identify the key differences the author is highlighting. This skill is useful for understanding arguments, comparing options, and grasping complex topics."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Two Paths to Health: Traditional vs. Modern Medicine",
+        "content": "When it comes to staying healthy, people often choose between traditional and modern medicine, or sometimes a combination of both. Modern medicine, practiced in hospitals and clinics, relies on scientific research, advanced technology, and pharmaceutical drugs. Doctors diagnose illnesses using tests like X-rays and blood samples, and treatments often involve surgery or specific medications. Its strengths lie in treating acute conditions, emergencies, and complex diseases with proven effectiveness.\n\nIn contrast, traditional medicine, which has been practiced for centuries in cultures like Vietnam, often focuses on holistic well-being. This includes methods like acupuncture, herbal remedies, and massage. It views the body as an interconnected system and aims to restore balance rather than just treating symptoms. For example, traditional Vietnamese medicine uses local herbs and ancient techniques to promote health. While modern medicine excels in rapid intervention, traditional medicine is often preferred for chronic conditions, prevention, and general wellness, with fewer side effects. Many people now seek 'integrative medicine,' combining the best of both worlds for comprehensive care.",
+        "wordCount": 197,
+        "topic": "Traditional and Modern Medicine"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main difference between modern and traditional medicine highlighted in the passage?",
+          "options": [
+            "Modern medicine is always better than traditional medicine.",
+            "Modern medicine focuses on scientific research and technology, while traditional medicine often focuses on holistic well-being and natural methods.",
+            "Traditional medicine is only practiced in Vietnam.",
+            "Modern medicine has no side effects."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'pharmaceutical drugs' refer to in the context of modern medicine?",
+          "options": [
+            "Herbal remedies.",
+            "Medicines produced by drug companies.",
+            "Natural supplements.",
+            "Traditional massage oils."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which of the following is a strength of modern medicine?",
+          "options": [
+            "Restoring body balance.",
+            "Treating acute conditions and emergencies.",
+            "Using only herbal remedies.",
+            "Having fewer side effects."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is an example of a traditional medicine method mentioned?",
+          "options": [
+            "Surgery.",
+            "X-rays.",
+            "Acupuncture.",
+            "Blood samples."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'holistic well-being' imply about traditional medicine?",
+          "options": [
+            "It only treats one part of the body.",
+            "It focuses on the overall health of the entire person, mind and body.",
+            "It only uses modern technology.",
+            "It ignores mental health."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "For what types of conditions is traditional medicine often preferred?",
+          "options": [
+            "Acute conditions and emergencies.",
+            "Complex diseases requiring surgery.",
+            "Chronic conditions, prevention, and general wellness.",
+            "Conditions requiring rapid intervention."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'integrative medicine' mean?",
+          "options": [
+            "Only using modern medicine.",
+            "Only using traditional medicine.",
+            "Combining the best aspects of both traditional and modern medicine.",
+            "Medicine that is very expensive."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The passage states that traditional Vietnamese medicine uses what to promote health?",
+          "options": [
+            "Advanced technology.",
+            "Pharmaceutical drugs.",
+            "Local herbs and ancient techniques.",
+            "Only surgery."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Adventures on a Shoestring: Traveling on a Budget",
+      "description": "This lesson provides tips for budget travel, helping learners identify practical advice and understand sequential information.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Practical Advice",
+            "content": "Many texts offer practical advice, instructions, or tips on how to do something. When reading such texts, pay attention to verbs that suggest actions (e.g., 'try,' 'avoid,' 'plan,' 'choose') and lists or bullet points that organize steps or recommendations. The goal is to understand what actions the author suggests taking."
+          },
+          {
+            "type": "example",
+            "heading": "Identifying Advice",
+            "content": "If a text says, 'To save money, always compare prices online before buying a flight,' the advice is to compare prices online. The purpose is to save money. Look for phrases like 'It's best to...', 'You should...', or 'A good way to...'"
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Understanding Advice",
+            "content": "As you read, try to summarize each piece of advice in your own words. Think about the 'why' behind the advice – what problem does it solve or what benefit does it offer? This helps you remember and apply the information. If the advice is a sequence of steps, try to mentally (or physically) list them in order."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Exploring the World Without Breaking the Bank",
+        "content": "Traveling doesn't have to be expensive. With smart planning, you can explore amazing places even on a tight budget. The key is to be flexible and resourceful. First, consider traveling during the off-season. Prices for flights and accommodation are usually much lower, and popular destinations like Da Lat or Ha Long Bay are less crowded. Second, instead of staying in expensive hotels, look for hostels, guesthouses, or homestays. These options are not only cheaper but also offer a chance to meet other travelers and experience local culture more authentically.\n\nFood is another area where you can save. Avoid tourist trap restaurants and try local street food or cook some meals yourself if your accommodation has a kitchen. Public transport or walking is often cheaper and more interesting than taxis. Finally, look for free activities like visiting parks, museums with free entry days, or simply enjoying the local atmosphere. Remember, the goal is to experience new things, not to spend a lot of money. A budget trip can be just as memorable, if not more so!",
+        "wordCount": 194,
+        "topic": "Traveling on a Budget"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main purpose of this passage?",
+          "options": [
+            "To encourage people to stay in expensive hotels.",
+            "To explain why travel is always expensive.",
+            "To provide tips for traveling without spending a lot of money.",
+            "To describe popular tourist destinations in Vietnam."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "According to the passage, when is a good time to travel to save money?",
+          "options": [
+            "During peak season.",
+            "During the off-season.",
+            "Only on weekends.",
+            "During public holidays."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is an alternative to expensive hotels mentioned in the text?",
+          "options": [
+            "Luxury resorts.",
+            "Hostels, guesthouses, or homestays.",
+            "Private villas.",
+            "Cruise ships."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'tourist trap restaurants' imply?",
+          "options": [
+            "Restaurants that are very cheap.",
+            "Restaurants that are popular with locals.",
+            "Restaurants that are expensive and mainly cater to tourists, often with lower quality.",
+            "Restaurants that offer free food."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How can travelers save money on food?",
+          "options": [
+            "Eating only at expensive restaurants.",
+            "Avoiding local street food.",
+            "Trying local street food or cooking meals yourself.",
+            "Ordering room service every day."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Which transportation method is suggested as cheaper and more interesting than taxis?",
+          "options": [
+            "Private cars.",
+            "Air travel.",
+            "Public transport or walking.",
+            "Renting a luxury vehicle."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What kind of activities are suggested for budget travelers?",
+          "options": [
+            "Expensive shopping trips.",
+            "Visiting parks or museums with free entry.",
+            "Attending exclusive concerts.",
+            "Taking private tours."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The passage suggests that a budget trip can be just as memorable because...",
+          "options": [
+            "You spend a lot of money.",
+            "You stay in luxury hotels.",
+            "The goal is to experience new things, not to spend a lot.",
+            "You only visit famous landmarks."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Giving Back: Exploring Volunteering Experiences",
+      "description": "This lesson focuses on the benefits and types of volunteering, helping learners understand cause and effect relationships.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Cause and Effect",
+            "content": "Cause and effect is a relationship where one event or action (the cause) makes another event or action happen (the effect). Authors use words like 'because,' 'since,' 'as a result,' 'therefore,' 'so,' 'consequently,' and 'leads to' to show these connections. Identifying these relationships helps you understand why things happen in a text."
+          },
+          {
+            "type": "example",
+            "heading": "Spotting Cause and Effect",
+            "content": "If a sentence says, 'Because it rained heavily, the football match was cancelled,' the heavy rain is the cause, and the cancellation of the match is the effect. The word 'because' clearly signals this relationship."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Cause and Effect",
+            "content": "When you read, ask yourself: 'Why did this happen?' (to find the cause) or 'What happened because of this?' (to find the effect). Pay close attention to the signal words. Understanding these connections helps you grasp the logic of the text and how different events are related."
+          }
+        ]
+      },
+      "passage": {
+        "title": "The Power of Giving: Volunteering for a Better World",
+        "content": "Volunteering is when people offer their time and skills for free to help others or a good cause. It's a powerful way to make a positive impact on society and can be incredibly rewarding for the volunteers themselves. In Vietnam, many young people volunteer for environmental projects, teaching English to disadvantaged children, or helping out during natural disasters.\n\nThere are numerous benefits to volunteering. Firstly, it helps the community directly, for example, by cleaning up parks or providing support to the elderly. Secondly, volunteers often gain new skills, such as teamwork, leadership, and problem-solving, which can be useful for their careers. As a result, many employers value volunteering experience. Thirdly, it can boost a person's mental well-being; helping others often leads to feelings of happiness and purpose. Finally, volunteering allows people to meet new friends and expand their network. So, if you're looking for a way to contribute and grow, consider joining a volunteer program. It's a win-win situation for everyone involved.",
+        "wordCount": 190,
+        "topic": "Volunteering Experiences"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main purpose of volunteering, as defined in the passage?",
+          "options": [
+            "To earn money.",
+            "To offer time and skills for free to help others or a good cause.",
+            "To gain new skills for a career only.",
+            "To travel to new places."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is one type of volunteering mentioned that young people in Vietnam participate in?",
+          "options": [
+            "Working in factories.",
+            "Environmental projects.",
+            "Professional sports.",
+            "Studying abroad."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "According to the passage, what is a career benefit of volunteering?",
+          "options": [
+            "It guarantees a high salary.",
+            "Volunteers gain new skills useful for their careers.",
+            "It replaces formal education.",
+            "It allows you to avoid work."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'disadvantaged children' refer to?",
+          "options": [
+            "Children who are very rich.",
+            "Children who have fewer opportunities or resources than others.",
+            "Children who are very talented.",
+            "Children who live in big cities."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How does volunteering affect a person's mental well-being?",
+          "options": [
+            "It often leads to feelings of stress.",
+            "It has no effect on mental well-being.",
+            "It often leads to feelings of happiness and purpose.",
+            "It makes people feel lonely."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Why do many employers value volunteering experience?",
+          "options": [
+            "Because it shows the person needs money.",
+            "Because it means the person has a lot of free time.",
+            "Because volunteers often gain useful skills like teamwork and leadership.",
+            "Because it is a legal requirement."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is implied by the phrase 'It's a win-win situation'?",
+          "options": [
+            "Only the volunteers benefit.",
+            "Only the community benefits.",
+            "Both the volunteers and the community benefit.",
+            "Nobody benefits from volunteering."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is one way volunteering helps the community directly?",
+          "options": [
+            "By making volunteers rich.",
+            "By cleaning up parks or providing support to the elderly.",
+            "By creating more jobs.",
+            "By building new houses."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Exploring the Unknown: Popular Science Topics",
+      "description": "This lesson introduces interesting science topics, helping learners understand complex ideas through simplified explanations and identify key concepts.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Key Concepts",
+            "content": "In many texts, especially scientific or informational ones, authors introduce key concepts or terms that are central to the topic. These concepts are often defined, explained, or illustrated with examples. Identifying and understanding these key concepts is crucial for grasping the overall meaning of the text."
+          },
+          {
+            "type": "example",
+            "heading": "Spotting Key Concepts",
+            "content": "If a text is about 'renewable energy,' it will likely define what renewable energy is (e.g., energy from natural sources like sun and wind that replenish themselves) and then discuss examples. 'Renewable energy' is the key concept."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Key Concepts",
+            "content": "Look for bolded words, italicized terms, or phrases that are followed by definitions or explanations (e.g., 'X, which is Y,' or 'X refers to Y'). If a term is repeated often, it's likely a key concept. Try to explain the concept in your own words after reading its explanation."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Fascinating Frontiers: Popular Science Explained",
+        "content": "Science is constantly revealing amazing things about our world and beyond. One popular topic is artificial intelligence (AI), which involves creating machines that can think and learn like humans. From self-driving cars to smart assistants on our phones, AI is changing how we live and work. Another exciting area is space exploration. Scientists are sending probes to Mars, looking for signs of life, and studying distant galaxies to understand the universe's origins. The James Webb Space Telescope, for instance, has captured incredible images of the early universe.\n\nCloser to home, environmental science is crucial. It investigates how human activities affect the Earth and how we can protect our planet. Topics like climate change, biodiversity loss, and sustainable living are part of this field. Finally, the human brain remains a mystery. Neuroscience explores how our brains work, how we learn, remember, and feel. Understanding these complex topics helps us appreciate the wonders of science and its impact on our future, from technological advancements to preserving our environment. Science makes the impossible seem possible.",
+        "wordCount": 197,
+        "topic": "Popular Science Topics"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Artificial intelligence is the most important science topic.",
+            "Science is constantly making new discoveries in various fascinating fields that impact our lives.",
+            "Space exploration is only about finding life on Mars.",
+            "The human brain is too complex to understand."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is artificial intelligence (AI) described as?",
+          "options": [
+            "A type of robot that can only clean.",
+            "Machines that can think and learn like humans.",
+            "A new kind of computer game.",
+            "A way to travel to space."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the purpose of the James Webb Space Telescope?",
+          "options": [
+            "To build self-driving cars.",
+            "To study the human brain.",
+            "To capture images of the early universe.",
+            "To clean up the environment."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'biodiversity loss' refer to in environmental science?",
+          "options": [
+            "An increase in the number of different species.",
+            "The disappearance of different types of plants and animals.",
+            "A new way to grow crops.",
+            "The study of ancient plants."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which science field investigates how human activities affect the Earth?",
+          "options": [
+            "Neuroscience.",
+            "Artificial intelligence.",
+            "Space exploration.",
+            "Environmental science."
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "What does neuroscience explore?",
+          "options": [
+            "The origins of the universe.",
+            "How our brains work, how we learn, remember, and feel.",
+            "The development of self-driving cars.",
+            "Sustainable living practices."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The passage suggests that understanding science helps us to...",
+          "options": [
+            "Ignore global problems.",
+            "Appreciate its wonders and impact on our future.",
+            "Only focus on technology.",
+            "Forget about the past."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is an example of AI mentioned in the text?",
+          "options": [
+            "The James Webb Space Telescope.",
+            "Herbal remedies.",
+            "Self-driving cars.",
+            "Traditional medicine."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "A Taste of Culture: Cultural Differences in Food",
+      "description": "This lesson explores how food reflects culture, helping learners understand comparisons and identify specific examples.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Comparisons",
+            "content": "Authors often compare things to highlight similarities or differences. Look for words and phrases like 'similar to,' 'like,' 'as well as,' 'both,' 'also' for similarities, and 'unlike,' 'different from,' 'whereas,' 'while,' 'in contrast' for differences. Recognizing comparisons helps you see relationships between ideas and understand nuances."
+          },
+          {
+            "type": "example",
+            "heading": "Spotting Comparisons",
+            "content": "If a text says, 'Vietnamese pho is a noodle soup, similar to Japanese ramen but with different spices,' it compares pho and ramen, highlighting a similarity (noodle soup) and a difference (spices)."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Understanding Comparisons",
+            "content": "When you encounter a comparison, identify the two (or more) things being compared. Then, list the specific points of similarity and difference. This can be helpful for questions that ask you to distinguish between items or understand how they relate to each other."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Food as Culture: A Global Perspective",
+        "content": "Food is much more than just nourishment; it's a fundamental part of culture, reflecting history, traditions, and social values. What people eat, how they prepare it, and how they share meals can vary greatly from one country to another. For example, in Vietnam, rice is a staple food, eaten at almost every meal, often accompanied by fresh herbs, fish sauce, and a variety of meat or vegetable dishes. Family meals are central, with dishes placed in the middle for everyone to share.\n\nIn contrast, in some Western cultures, a meal might often feature a main dish for each person, like a steak with potatoes, and bread is a common accompaniment instead of rice. The timing of meals also differs; lunch might be the biggest meal of the day in some European countries, while dinner holds that place in others. Even table manners vary: slurping noodles might be considered polite in some Asian cultures, indicating enjoyment, whereas it could be seen as rude elsewhere. These differences make exploring food a fascinating way to understand the world's diverse cultures.",
+        "wordCount": 196,
+        "topic": "Cultural Differences in Food"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Vietnamese food is the best in the world.",
+            "All cultures eat the same types of food.",
+            "Food is a fundamental part of culture, with significant differences in what, how, and when people eat globally.",
+            "Western cultures only eat steak and potatoes."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is considered a staple food in Vietnam, according to the passage?",
+          "options": [
+            "Steak.",
+            "Potatoes.",
+            "Bread.",
+            "Rice."
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "In some Western cultures, what is a common accompaniment to a meal instead of rice?",
+          "options": [
+            "Fish sauce.",
+            "Fresh herbs.",
+            "Bread.",
+            "Noodles."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'staple food' mean in the context of the passage?",
+          "options": [
+            "A food that is rarely eaten.",
+            "A food that is eaten only on special occasions.",
+            "A basic and important food that is eaten regularly.",
+            "A food that is very expensive."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How are family meals often structured in Vietnam?",
+          "options": [
+            "Each person has their own separate dish.",
+            "Dishes are placed in the middle for everyone to share.",
+            "Only one type of food is served.",
+            "Meals are eaten in silence."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is an example of a difference in table manners mentioned?",
+          "options": [
+            "Always using a fork and knife.",
+            "Slurping noodles can be polite in some Asian cultures but rude elsewhere.",
+            "Eating with hands is always rude.",
+            "Never talking during a meal."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The passage suggests that exploring food is a fascinating way to understand what?",
+          "options": [
+            "Only cooking techniques.",
+            "The world's diverse cultures.",
+            "How to save money.",
+            "The history of agriculture."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the passage imply about the connection between food and culture?",
+          "options": [
+            "They are completely separate.",
+            "Food is a minor aspect of culture.",
+            "Food is deeply intertwined with and reflects a culture's history, traditions, and values.",
+            "Only traditional food is cultural."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "From Idea to Reality: Starting a Small Business",
+      "description": "This lesson provides an overview of starting a small business, helping learners understand processes and identify key steps.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Processes and Steps",
+            "content": "Many texts describe a process, which is a series of actions or steps taken to achieve a particular result. Authors often use sequential words like 'first,' 'next,' 'then,' 'after that,' 'finally,' or numbers to indicate the order of steps. Understanding these steps in order is important for grasping how something works or how to do something."
+          },
+          {
+            "type": "example",
+            "heading": "Following a Process",
+            "content": "If a recipe says, 'First, mix the flour and sugar. Next, add the eggs. Then, bake for 30 minutes,' you understand the order of actions. Each step builds on the previous one to reach the final product."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Understanding Processes",
+            "content": "As you read, try to create a mental (or written) list of the steps in the correct order. Pay attention to transition words that signal sequence. If a step is unclear, re-read that specific part. This skill is vital for instructions, procedures, and understanding how systems work."
+          }
+        ]
+      },
+      "passage": {
+        "title": "The Journey of Entrepreneurship: Launching Your Own Business",
+        "content": "Starting a small business can be an exciting but challenging journey. Many young people in Vietnam dream of becoming entrepreneurs, turning their ideas into successful ventures. The first step is often to have a clear business idea. What product or service will you offer? Who are your target customers? Next, conduct market research to understand your potential customers and competitors. This helps you refine your idea and create a unique selling proposition.\n\nAfter that, you need a solid business plan. This document outlines your goals, strategies, financial projections, and how you will operate. It's crucial for attracting investors or securing a loan. Then, handle the legal aspects, such as registering your business and obtaining necessary licenses. Finally, focus on marketing and sales to reach your customers. This could involve social media campaigns, local advertising, or word-of-mouth. Remember, building a business takes time, effort, and perseverance, but the rewards of seeing your vision come to life can be immense.",
+        "wordCount": 190,
+        "topic": "Starting a Small Business"
+      },
+      "questions": [
+        {
+          "stemText": "What is the first step mentioned for starting a small business?",
+          "options": [
+            "Registering your business.",
+            "Having a clear business idea.",
+            "Conducting market research.",
+            "Attracting investors."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the purpose of market research?",
+          "options": [
+            "To register your business.",
+            "To understand potential customers and competitors.",
+            "To secure a loan.",
+            "To create a business plan."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does a 'unique selling proposition' mean?",
+          "options": [
+            "A common product that everyone sells.",
+            "A feature or aspect that makes your product or service stand out from competitors.",
+            "A plan to sell products at a very low price.",
+            "A legal document for your business."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Why is a solid business plan crucial?",
+          "options": [
+            "It is not important for a small business.",
+            "It helps attract investors or secure a loan.",
+            "It is only for large companies.",
+            "It replaces the need for marketing."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What comes after creating a business plan, according to the passage?",
+          "options": [
+            "Focusing on marketing and sales.",
+            "Conducting more market research.",
+            "Handling the legal aspects like registering the business.",
+            "Finding new ideas."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Which of the following is NOT mentioned as a way to reach customers through marketing?",
+          "options": [
+            "Social media campaigns.",
+            "Local advertising.",
+            "Word-of-mouth.",
+            "Ignoring customer feedback."
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "What qualities are needed for building a business?",
+          "options": [
+            "Only money.",
+            "Time, effort, and perseverance.",
+            "Only a good idea.",
+            "Luck alone."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'entrepreneurs' refer to?",
+          "options": [
+            "People who work for big companies.",
+            "People who start their own businesses.",
+            "People who invest in other businesses.",
+            "People who only buy products."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Mind Matters: Understanding Mental Health Awareness",
+      "description": "This lesson highlights the importance of mental health, helping learners identify problems and solutions, and understand abstract concepts.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Abstract Concepts",
+            "content": "Abstract concepts are ideas or qualities that are not physical or concrete, like 'happiness,' 'freedom,' 'justice,' or 'mental health.' When reading about abstract concepts, authors often use definitions, examples, and explanations to make them understandable. Focus on how the author describes and illustrates these ideas."
+          },
+          {
+            "type": "example",
+            "heading": "Grasping Abstract Ideas",
+            "content": "If a text discusses 'resilience,' it might explain it as 'the ability to recover quickly from difficulties' and give examples of people who faced challenges but bounced back. This helps you understand what resilience means in practice."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Abstract Concepts",
+            "content": "Try to connect the abstract concept to concrete examples or situations provided in the text. Ask yourself: 'What does this concept look like in real life?' or 'How does the author define this?' If the concept is new to you, re-read the explanation carefully and try to summarize it in your own words."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Beyond Physical Health: The Importance of Mental Well-being",
+        "content": "Mental health awareness is becoming increasingly important worldwide, including in Vietnam. It refers to understanding and caring for our emotional, psychological, and social well-being. Just like physical health, our mental health needs attention and care. Unfortunately, there's often a stigma around mental health issues, making people hesitant to talk about their feelings or seek help.\n\nCommon mental health challenges include stress, anxiety, and depression. These are not signs of weakness but real health conditions that can affect anyone. Recognizing the signs, such as persistent sadness, changes in sleep or appetite, or loss of interest in activities, is the first step. To improve mental well-being, simple practices like regular exercise, a balanced diet, sufficient sleep, and spending time with loved ones can help. For more serious issues, talking to a trusted friend, family member, or a professional like a counselor or doctor is crucial. By openly discussing mental health, we can reduce stigma and create a more supportive environment for everyone.",
+        "wordCount": 194,
+        "topic": "Mental Health Awareness"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Mental health is only a problem in Western countries.",
+            "Mental health is as important as physical health, and we should understand it, care for it, and reduce its stigma.",
+            "Exercise is the only way to improve mental health.",
+            "Talking about feelings is a sign of weakness."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'mental health awareness' refer to?",
+          "options": [
+            "Only physical fitness.",
+            "Understanding and caring for our emotional, psychological, and social well-being.",
+            "Ignoring our feelings.",
+            "Being aware of other people's problems."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is a common barrier to people seeking help for mental health issues?",
+          "options": [
+            "Lack of doctors.",
+            "The stigma around mental health issues.",
+            "Too much awareness.",
+            "Lack of common challenges."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which of the following is NOT mentioned as a common mental health challenge?",
+          "options": [
+            "Stress.",
+            "Anxiety.",
+            "Depression.",
+            "Happiness."
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "What does the passage suggest about mental health challenges like stress or depression?",
+          "options": [
+            "They are signs of weakness.",
+            "They are not real health conditions.",
+            "They are real health conditions that can affect anyone.",
+            "They only affect adults."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is one simple practice mentioned to improve mental well-being?",
+          "options": [
+            "Ignoring sleep.",
+            "A balanced diet.",
+            "Avoiding loved ones.",
+            "Working all the time."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "For more serious mental health issues, who is it crucial to talk to?",
+          "options": [
+            "Only strangers.",
+            "A trusted friend, family member, or a professional.",
+            "No one.",
+            "Only people who have never had problems."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the benefit of openly discussing mental health?",
+          "options": [
+            "It increases stigma.",
+            "It makes problems worse.",
+            "It can reduce stigma and create a more supportive environment.",
+            "It is not helpful."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Green Choices: Embracing Eco-Friendly Living",
+      "description": "This lesson introduces the concept of eco-friendly living, helping learners identify practical actions and understand their impact.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Practical Actions",
+            "content": "Many texts aim to inform readers about how to do something or what actions to take. When reading such texts, focus on verbs that indicate an action and look for lists or suggestions. The goal is to extract specific, actionable advice that the author provides."
+          },
+          {
+            "type": "example",
+            "heading": "Finding Actions to Take",
+            "content": "If a text on healthy eating says, 'Try to eat five portions of fruits and vegetables daily,' the practical action is 'eat five portions of fruits and vegetables.' This is a clear instruction for the reader."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Practical Actions",
+            "content": "As you read, highlight or make a mental note of any 'do this' or 'try that' statements. Think about how these actions can be applied in real life. This skill is especially useful for understanding guides, instructions, and advice columns."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Living Green: Simple Steps for an Eco-Friendly Life",
+        "content": "Eco-friendly living means making choices that reduce our negative impact on the environment. It's about being mindful of how our daily actions affect the planet. Many people in Vietnam are embracing this lifestyle, from reducing plastic waste to conserving energy. It might seem like small changes, but collectively, they make a big difference.\n\nOne key area is waste reduction. Try to 'Reduce, Reuse, Recycle.' This means buying less, finding new uses for old items, and properly sorting your trash. For example, carrying a reusable water bottle and shopping bag can greatly cut down on plastic. Another important step is saving energy at home. Turn off lights when you leave a room, unplug electronics when not in use, and consider using energy-efficient appliances. Transportation also plays a role; walk, cycle, or use public transport instead of driving alone. Finally, support local businesses that use sustainable practices. By adopting these habits, we can contribute to a healthier planet for ourselves and future generations. Every green choice counts!",
+        "wordCount": 190,
+        "topic": "Eco-Friendly Living"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Eco-friendly living is too difficult for most people.",
+            "Only governments can make a difference in environmental protection.",
+            "Eco-friendly living involves making conscious choices to reduce environmental impact, and small individual actions can collectively make a big difference.",
+            "Recycling is the only important eco-friendly practice."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'eco-friendly living' mean?",
+          "options": [
+            "Living in a forest.",
+            "Making choices that reduce our negative impact on the environment.",
+            "Buying only new things.",
+            "Ignoring environmental problems."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which of the following is an example of waste reduction mentioned?",
+          "options": [
+            "Buying more plastic items.",
+            "Carrying a reusable water bottle and shopping bag.",
+            "Throwing everything into one bin.",
+            "Using disposable items frequently."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'collectively' imply about small changes?",
+          "options": [
+            "They have no impact.",
+            "They only affect one person.",
+            "When many people make them together, they have a significant impact.",
+            "They are only for rich people."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is one way to save energy at home?",
+          "options": [
+            "Leaving lights on all day.",
+            "Unplugging electronics when not in use.",
+            "Using old, inefficient appliances.",
+            "Always driving alone."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the 'three Rs' principle for waste reduction?",
+          "options": [
+            "Read, Write, Remember.",
+            "Run, Rest, Relax.",
+            "Reduce, Reuse, Recycle.",
+            "Rent, Repair, Replace."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How can transportation become more eco-friendly?",
+          "options": [
+            "Driving alone more often.",
+            "Using taxis for every trip.",
+            "Walking, cycling, or using public transport.",
+            "Buying bigger cars."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The passage encourages supporting local businesses that...",
+          "options": [
+            "Are very expensive.",
+            "Use sustainable practices.",
+            "Only sell imported goods.",
+            "Don't care about the environment."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Digital Futures: Exploring Careers in Technology",
+      "description": "This lesson introduces various careers in technology, helping learners understand different roles and their responsibilities.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Definitions and Descriptions",
+            "content": "In informational texts, authors often define new terms or describe specific roles, objects, or concepts. Pay attention to sentences that explain 'what something is' or 'what someone does.' These definitions and descriptions are key to building your understanding of the topic."
+          },
+          {
+            "type": "example",
+            "heading": "Finding Definitions",
+            "content": "If a text says, 'A botanist is a scientist who studies plants,' the definition of 'botanist' is provided directly. Look for phrases like 'is defined as,' 'refers to,' or simply a clear explanation after a term."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Definitions and Descriptions",
+            "content": "When you encounter a new term or a description of a job, try to summarize it in your head. What are the key characteristics? What are the main duties? This helps you distinguish between different concepts or roles, especially when they are similar."
+          }
+        ]
+      },
+      "passage": {
+        "title": "The Tech World: Exciting Career Paths",
+        "content": "The technology sector is one of the fastest-growing industries globally, offering a wide range of exciting career opportunities. In Vietnam, the demand for skilled tech professionals is constantly increasing. One popular role is a software developer, who designs, codes, and maintains computer programs and applications. They might work on mobile apps, websites, or complex business software.\n\nAnother important career is a data scientist. These professionals analyze large amounts of information to find patterns and insights, helping companies make better decisions. Cybersecurity specialists are also crucial; they protect computer systems and networks from cyberattacks and data breaches. For those interested in hardware, an IT support specialist helps users with technical problems, ensuring systems run smoothly. Finally, UX/UI designers focus on making technology easy and pleasant to use, designing the user interface and experience. These careers often require strong problem-solving skills, continuous learning, and a passion for innovation. The tech world is always evolving, creating new possibilities for those ready to embrace it.",
+        "wordCount": 196,
+        "topic": "Careers in Technology"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Only software developers are needed in the tech industry.",
+            "The technology sector offers diverse and growing career opportunities requiring specific skills.",
+            "Careers in technology are only for people who like coding.",
+            "The tech industry is shrinking globally."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does a software developer do?",
+          "options": [
+            "Analyzes large amounts of data.",
+            "Protects computer systems from attacks.",
+            "Designs, codes, and maintains computer programs and applications.",
+            "Helps users with technical problems."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is the main responsibility of a data scientist?",
+          "options": [
+            "Creating mobile apps.",
+            "Protecting networks from cyberattacks.",
+            "Analyzing large amounts of information to find patterns and insights.",
+            "Designing user interfaces."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'cybersecurity specialists' mean?",
+          "options": [
+            "People who design websites.",
+            "People who protect computer systems and networks from cyberattacks.",
+            "People who sell computer hardware.",
+            "People who teach coding."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Who helps users with technical problems and ensures systems run smoothly?",
+          "options": [
+            "A software developer.",
+            "A data scientist.",
+            "An IT support specialist.",
+            "A UX/UI designer."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What do UX/UI designers focus on?",
+          "options": [
+            "Writing complex business software.",
+            "Protecting data from breaches.",
+            "Making technology easy and pleasant to use, designing the user interface and experience.",
+            "Analyzing financial data."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What qualities are often required for careers in technology?",
+          "options": [
+            "Only artistic skills.",
+            "Strong problem-solving skills, continuous learning, and a passion for innovation.",
+            "Only a good memory.",
+            "No specific skills are needed."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The passage states that the demand for skilled tech professionals in Vietnam is...",
+          "options": [
+            "Decreasing.",
+            "Staying the same.",
+            "Constantly increasing.",
+            "Non-existent."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Beyond the Headlines: Reading the News Critically",
+      "description": "This lesson teaches learners how to read news critically, focusing on identifying bias and evaluating sources.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Bias",
+            "content": "Bias in news refers to a preference or prejudice for or against a particular person, group, or idea. It can be shown through the words an author chooses, what information they include or exclude, or how they present facts. Recognizing bias helps you understand different perspectives and form your own informed opinion."
+          },
+          {
+            "type": "example",
+            "heading": "Spotting Biased Language",
+            "content": "If a newspaper describes a protestor as 'a radical troublemaker' instead of 'an activist,' the word choice 'radical troublemaker' shows a negative bias. Similarly, only presenting one side of an argument can indicate bias."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Reading Critically",
+            "content": "Always consider the source of the news. Is it a reputable organization? Does it have a known political leaning? Look for loaded language, strong emotional words, or generalizations. Compare different news sources on the same topic to get a more balanced view. Ask yourself: 'Is this fact or opinion?'"
+          }
+        ]
+      },
+      "passage": {
+        "title": "Navigating Information: The Art of Critical News Reading",
+        "content": "In today's digital age, we are constantly bombarded with news from various sources: social media, websites, TV, and newspapers. Learning to read the news critically is more important than ever. It means not just accepting information at face value but actively evaluating its reliability and potential bias. This skill helps us distinguish between facts and opinions, and avoid misinformation.\n\nFirst, consider the source. Is it a well-known, reputable news organization, or an unknown website? Check the author's credentials if available. Second, look for evidence. Does the article provide facts, statistics, or quotes from experts, or is it mostly based on opinions and rumors? Third, be aware of bias. Some news outlets might lean towards a certain political view, which can influence how they report stories. Look for emotional language or one-sided arguments. Finally, compare different sources. Reading multiple reports on the same event can give you a more complete and balanced picture. By practicing critical reading, we become better-informed citizens.",
+        "wordCount": 190,
+        "topic": "Reading the News Critically"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "All news sources are equally reliable.",
+            "Reading news critically is essential to evaluate reliability, identify bias, and avoid misinformation in the digital age.",
+            "Social media is the best source for news.",
+            "It is impossible to distinguish facts from opinions."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'reading the news critically' mean?",
+          "options": [
+            "Accepting all information without question.",
+            "Actively evaluating the reliability and potential bias of information.",
+            "Only reading headlines.",
+            "Only reading news from one source."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the first step mentioned for critical news reading?",
+          "options": [
+            "Looking for emotional language.",
+            "Comparing different sources.",
+            "Considering the source of the news.",
+            "Checking the weather."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'misinformation' refer to?",
+          "options": [
+            "Correct and accurate information.",
+            "Information that is false or inaccurate.",
+            "Information that is very long.",
+            "Information from experts."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What should you look for to determine if an article is based on facts?",
+          "options": [
+            "Emotional language and rumors.",
+            "Facts, statistics, or quotes from experts.",
+            "Only the author's personal opinions.",
+            "How many people shared it on social media."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Why is it important to be aware of bias in news outlets?",
+          "options": [
+            "Because all news is biased.",
+            "Because it can influence how stories are reported.",
+            "Because it makes the news more entertaining.",
+            "Because it is not important."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the benefit of comparing different news sources on the same topic?",
+          "options": [
+            "It makes the news more confusing.",
+            "It gives you a more complete and balanced picture.",
+            "It wastes time.",
+            "It confirms that all sources say the same thing."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The passage implies that being 'better-informed citizens' is a result of what?",
+          "options": [
+            "Avoiding all news.",
+            "Only trusting social media.",
+            "Practicing critical reading.",
+            "Reading only one type of newspaper."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Urban Buzz vs. Rural Calm: City vs. Countryside Living",
+      "description": "This lesson compares living in the city and the countryside, helping learners understand pros and cons and identify specific characteristics.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Pros and Cons",
+            "content": "Many texts discuss the advantages (pros) and disadvantages (cons) of a particular topic, decision, or lifestyle. Authors often use positive language for pros (e.g., 'benefits,' 'advantages,' 'good for') and negative language for cons (e.g., 'drawbacks,' 'challenges,' 'problems'). Identifying these helps you weigh different aspects of a topic."
+          },
+          {
+            "type": "example",
+            "heading": "Spotting Pros and Cons",
+            "content": "If a text says, 'Living in a big city offers many job opportunities (pro), but the cost of living is very high (con),' it clearly presents both an advantage and a disadvantage."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Pros and Cons",
+            "content": "As you read, try to create two mental lists: one for the benefits and one for the drawbacks. Look for words that indicate positive or negative aspects. This skill is useful for decision-making and understanding balanced arguments."
+          }
+        ]
+      },
+      "passage": {
+        "title": "City Life vs. Countryside Calm: Where to Live?",
+        "content": "The choice between living in a bustling city or a peaceful countryside is a big one, and each offers a unique lifestyle with its own advantages and disadvantages. Cities like Hanoi or Ho Chi Minh City provide numerous job opportunities, diverse entertainment options, and easy access to services like hospitals and universities. Public transport is usually efficient, and there's always something new happening. However, city living often comes with a higher cost of living, more pollution, noise, and sometimes a faster, more stressful pace of life.\n\nOn the other hand, the countryside offers a quieter, more relaxed environment. Residents often enjoy fresh air, beautiful natural scenery, and a strong sense of community. The cost of living, especially housing, is generally lower, and there's less traffic. This can lead to a healthier, less stressful lifestyle. The drawbacks, however, include fewer job opportunities, limited access to specialized services, and often a need for private transportation. While city life offers excitement and convenience, the countryside provides tranquility and a closer connection to nature. The best choice depends on individual priorities and preferences.",
+        "wordCount": 204,
+        "topic": "City vs. Countryside Living"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main purpose of this passage?",
+          "options": [
+            "To convince readers to move to the city.",
+            "To describe the history of cities and countrysides.",
+            "To compare the advantages and disadvantages of living in the city versus the countryside.",
+            "To explain how to find a job in the countryside."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is one advantage of living in a city?",
+          "options": [
+            "Less pollution.",
+            "Lower cost of living.",
+            "Numerous job opportunities.",
+            "A quieter environment."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is a disadvantage of city living?",
+          "options": [
+            "Easy access to services.",
+            "Efficient public transport.",
+            "Higher cost of living.",
+            "Diverse entertainment options."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'bustling' mean in the context of a city?",
+          "options": [
+            "Very quiet and empty.",
+            "Full of activity and noise.",
+            "Very clean and peaceful.",
+            "Very old and traditional."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the countryside offer that cities typically do not?",
+          "options": [
+            "More job opportunities.",
+            "A quieter, more relaxed environment with fresh air and natural scenery.",
+            "Limited access to specialized services.",
+            "Efficient public transport."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is a drawback of living in the countryside?",
+          "options": [
+            "A strong sense of community.",
+            "Lower housing costs.",
+            "Fewer job opportunities.",
+            "Beautiful natural scenery."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The passage states that the best choice between city and countryside living depends on what?",
+          "options": [
+            "The size of the country.",
+            "Individual priorities and preferences.",
+            "The weather.",
+            "The type of food available."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is implied about the pace of life in the city?",
+          "options": [
+            "It is always slow and relaxing.",
+            "It can be faster and more stressful.",
+            "It is the same as in the countryside.",
+            "It is always boring."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Unlocking New Worlds: The Journey of Learning a New Language",
+      "description": "This lesson discusses the benefits and challenges of language learning, helping learners understand processes and identify advantages.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Benefits and Challenges",
+            "content": "When a text discusses a topic like 'learning a new skill,' it often highlights both the positive aspects (benefits, advantages, rewards) and the difficulties (challenges, drawbacks, obstacles). Look for words that signal positive outcomes or negative experiences to fully grasp the author's perspective."
+          },
+          {
+            "type": "example",
+            "heading": "Identifying Benefits and Challenges",
+            "content": "If a text says, 'Learning to play guitar improves coordination (benefit) but requires a lot of practice and patience (challenge),' it presents both sides of the experience."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Benefits and Challenges",
+            "content": "As you read, try to list the specific benefits and challenges mentioned. This helps you get a balanced view of the topic. Think about how the benefits might outweigh the challenges, or vice-versa, depending on the context."
+          }
+        ]
+      },
+      "passage": {
+        "title": "More Than Words: The Rewards of Learning a New Language",
+        "content": "Learning a new language is a journey that opens up a world of opportunities. For many Vietnamese students, English is a popular choice, but French, Korean, and Japanese are also gaining popularity. The benefits are numerous. Firstly, it enhances communication, allowing you to connect with people from different cultures, whether for travel, work, or friendship. Secondly, it boosts cognitive skills; studies show that bilingual people often have better problem-solving abilities and memory.\n\nHowever, the journey also comes with challenges. It requires dedication, consistent practice, and patience. You might face difficulties with pronunciation, grammar, or understanding native speakers at first. It's easy to feel discouraged when progress seems slow. To overcome these, immerse yourself in the language: watch movies, listen to music, and try to speak with native speakers or language exchange partners. Setting small, achievable goals and celebrating every step, no matter how small, can keep you motivated. Ultimately, the effort is worth it for the personal growth and global connections it brings.",
+        "wordCount": 192,
+        "topic": "Learning a New Language"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Learning a new language is only for travel.",
+            "Learning a new language offers many benefits like improved communication and cognitive skills, but it requires dedication and overcoming challenges.",
+            "English is the only important language to learn.",
+            "It is impossible to learn a new language after childhood."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is one benefit of learning a new language mentioned in the text?",
+          "options": [
+            "It reduces cognitive skills.",
+            "It enhances communication and allows connection with different cultures.",
+            "It makes travel more expensive.",
+            "It makes you forget your native language."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'cognitive skills' refer to?",
+          "options": [
+            "Physical abilities like running.",
+            "Mental abilities like problem-solving and memory.",
+            "Artistic talents.",
+            "Musical abilities."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which of the following is a challenge of learning a new language?",
+          "options": [
+            "Enhanced communication.",
+            "Better problem-solving abilities.",
+            "Difficulties with pronunciation, grammar, or understanding native speakers.",
+            "Making new friends."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is one way to overcome challenges in language learning?",
+          "options": [
+            "Giving up when progress is slow.",
+            "Avoiding native speakers.",
+            "Immersing yourself in the language by watching movies and listening to music.",
+            "Only studying grammar rules."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does the passage suggest about bilingual people?",
+          "options": [
+            "They are often less intelligent.",
+            "They often have better problem-solving abilities and memory.",
+            "They only speak one language.",
+            "They struggle with communication."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is implied by 'setting small, achievable goals'?",
+          "options": [
+            "It makes learning harder.",
+            "It helps maintain motivation and makes the process less overwhelming.",
+            "It is only for beginners.",
+            "It means you are not serious about learning."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Besides English, which languages are mentioned as gaining popularity among Vietnamese students?",
+          "options": [
+            "German, Spanish, Italian.",
+            "French, Korean, Japanese.",
+            "Russian, Arabic, Chinese.",
+            "Portuguese, Dutch, Swedish."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Moving Forward: The Future of Transport",
+      "description": "This lesson explores innovations in transportation, helping learners understand predictions and identify key technologies.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Predictions and Future Trends",
+            "content": "Texts often discuss future possibilities, predictions, or emerging trends. Look for words like 'will,' 'might,' 'could,' 'expected to,' 'in the future,' 'foreseeable,' or phrases that suggest potential developments. Understanding these helps you grasp what the author believes is likely to happen."
+          },
+          {
+            "type": "example",
+            "heading": "Identifying Future Trends",
+            "content": "If a text says, 'Electric cars are expected to become more common in the next decade,' it's a prediction about a future trend. The phrase 'expected to become' signals this."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Predictions and Trends",
+            "content": "As you read, try to distinguish between what is happening now and what is predicted for the future. Pay attention to the certainty of the prediction – is it a strong prediction ('will') or a possibility ('might')? This helps you evaluate the information and understand potential impacts."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Tomorrow's Journey: Innovations in Transport",
+        "content": "The way we travel is constantly evolving, and the future of transport promises exciting innovations. One major trend is the rise of electric vehicles (EVs). Cars, motorcycles, and even buses are increasingly powered by electricity, reducing air pollution and reliance on fossil fuels. In Vietnam, electric scooters are already a common sight, and the number of electric cars is expected to grow.\n\nAnother significant development is autonomous vehicles, or self-driving cars. These vehicles use advanced sensors and AI to navigate without human input, potentially making roads safer and commutes more efficient. While fully autonomous cars are still being tested, their widespread use could revolutionize urban planning. Beyond roads, we might see more high-speed rail networks, connecting cities faster, and even urban air mobility, with small electric aircraft transporting people over short distances. These futuristic concepts aim to make transport cleaner, safer, and more convenient, addressing challenges like traffic congestion and environmental impact. The journey ahead looks truly transformative.",
+        "wordCount": 190,
+        "topic": "The Future of Transport"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Traditional transport methods will never change.",
+            "The future of transport will be dominated by electric vehicles only.",
+            "The future of transport promises exciting innovations like electric and autonomous vehicles, aiming for cleaner, safer, and more convenient travel.",
+            "Self-driving cars are already widely used everywhere."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is one major trend in the future of transport?",
+          "options": [
+            "Increased reliance on fossil fuels.",
+            "The rise of electric vehicles (EVs).",
+            "More traffic congestion.",
+            "Less safe roads."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the benefit of electric vehicles mentioned in the text?",
+          "options": [
+            "They are very loud.",
+            "They increase air pollution.",
+            "They reduce air pollution and reliance on fossil fuels.",
+            "They are slower than traditional vehicles."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'autonomous vehicles' refer to?",
+          "options": [
+            "Vehicles that require a driver at all times.",
+            "Vehicles that are powered by gasoline.",
+            "Self-driving cars that navigate without human input.",
+            "Vehicles that can fly to other planets."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How could autonomous vehicles potentially improve roads?",
+          "options": [
+            "By making them more crowded.",
+            "By making them safer and commutes more efficient.",
+            "By requiring more human drivers.",
+            "By increasing fuel consumption."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is 'urban air mobility'?",
+          "options": [
+            "High-speed trains.",
+            "Small electric aircraft transporting people over short distances in cities.",
+            "Flying cars for long-distance travel.",
+            "Public buses."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What challenges do these futuristic transport concepts aim to address?",
+          "options": [
+            "Creating more traffic jams.",
+            "Increasing environmental impact.",
+            "Traffic congestion and environmental impact.",
+            "Making travel more expensive."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is already a common sight in Vietnam regarding electric vehicles?",
+          "options": [
+            "Electric cars.",
+            "Electric buses.",
+            "Electric scooters.",
+            "Electric trains."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Echoes of the Past: Famous Historical Events",
+      "description": "This lesson introduces significant historical events, helping learners understand chronological order and key figures.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Understanding Chronological Order",
+            "content": "Chronological order means events are presented in the sequence in which they happened over time. Authors use dates, time markers (e.g., 'in 1945,' 'before,' 'after,' 'during,' 'later'), and sequential language to guide the reader through a timeline. This is especially common in historical texts or narratives."
+          },
+          {
+            "type": "example",
+            "heading": "Following a Timeline",
+            "content": "If a text says, 'First, the war began in 1939. Then, in 1941, a major country joined. Finally, the war ended in 1945,' you can easily follow the sequence of events. The dates and sequence words are key."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Chronological Order",
+            "content": "As you read, try to create a mental timeline or even jot down key dates and events. This helps you understand the progression of events and how they relate to each other. Pay close attention to specific years, months, or phrases indicating time."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Moments That Changed the World: Key Historical Events",
+        "content": "History is full of moments that have shaped our world. One such event was the invention of the printing press by Johannes Gutenberg in the 15th century. This revolutionary technology made books cheaper and more accessible, leading to a massive spread of knowledge and ideas across Europe and beyond. It played a crucial role in the Renaissance and the Reformation.\n\nCenturies later, the Industrial Revolution, beginning in the late 18th century, transformed societies from agrarian and rural to industrial and urban. New machines and factories led to mass production, economic growth, but also new social challenges. In the 20th century, World War II (1939-1945) was a global conflict that involved most of the world's nations. It resulted in tens of millions of deaths and fundamentally altered the political and economic balance of power. More recently, the fall of the Berlin Wall in 1989 symbolized the end of the Cold War and brought hope for a more unified world. These events remind us of humanity's capacity for both destruction and progress.",
+        "wordCount": 196,
+        "topic": "Famous Historical Events"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Only wars are important historical events.",
+            "History is a collection of isolated events with no connection.",
+            "Significant historical events, from inventions to global conflicts, have profoundly shaped human societies and the world.",
+            "The 15th century was the most important period in history."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Who invented the printing press?",
+          "options": [
+            "Johannes Gutenberg.",
+            "A Vietnamese inventor.",
+            "An unknown person.",
+            "The Industrial Revolution."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "stemText": "When did the Industrial Revolution begin?",
+          "options": [
+            "In the 15th century.",
+            "In the late 18th century.",
+            "In 1939.",
+            "In 1989."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'agrarian' mean in the context of the Industrial Revolution?",
+          "options": [
+            "Related to cities and factories.",
+            "Related to farming and rural life.",
+            "Related to technology.",
+            "Related to warfare."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What was a major consequence of the invention of the printing press?",
+          "options": [
+            "A decrease in the number of books.",
+            "A massive spread of knowledge and ideas.",
+            "The start of World War II.",
+            "The fall of the Berlin Wall."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "When did World War II take place?",
+          "options": [
+            "15th century.",
+            "Late 18th century.",
+            "1939-1945.",
+            "1989."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What did the fall of the Berlin Wall symbolize?",
+          "options": [
+            "The beginning of a new war.",
+            "The end of the Cold War.",
+            "The start of the Industrial Revolution.",
+            "The invention of the printing press."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The passage suggests that historical events show humanity's capacity for both...",
+          "options": [
+            "Wealth and poverty.",
+            "Destruction and progress.",
+            "Ignorance and knowledge.",
+            "Peace and quiet."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Screen Time Choices: Streaming vs. Traditional TV",
+      "description": "This lesson compares streaming services with traditional TV, helping learners understand advantages and disadvantages of each.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Comparing and Contrasting Features",
+            "content": "When a text compares two things, it often highlights their distinct features, advantages, and disadvantages. Pay attention to how the author describes each item individually and then how they are put into relation with each other. Look for keywords that signal comparisons (e.g., 'similar to,' 'both') and contrasts (e.g., 'unlike,' 'whereas,' 'on the other hand')."
+          },
+          {
+            "type": "example",
+            "heading": "Analyzing Features",
+            "content": "If a text compares apples and oranges, it might say, 'Apples are crunchy and sweet, whereas oranges are juicy and tangy.' This clearly contrasts their texture and taste."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Comparing and Contrasting",
+            "content": "Create a mental or written chart with two columns for the items being compared. List the features, pros, and cons for each. This helps you organize the information and answer questions that require you to distinguish between the two."
+          }
+        ]
+      },
+      "passage": {
+        "title": "Entertainment Choices: The Rise of Streaming vs. Traditional TV",
+        "content": "For decades, traditional television, with its scheduled programs and limited channels, was the primary source of home entertainment. However, the rise of streaming services like Netflix, YouTube, and local platforms has dramatically changed how we consume media. Each option offers distinct advantages and disadvantages.\n\nTraditional TV often provides local news, live sports, and a simple, familiar viewing experience. It can be part of a cable package, offering many channels for a single fee. On the other hand, streaming services offer unparalleled flexibility. Viewers can watch what they want, when they want, without commercials, and often on multiple devices. They provide a vast library of on-demand movies, TV shows, and original content. While streaming usually requires a stable internet connection and often multiple subscriptions, traditional TV might have higher monthly costs and less personalized content. Many households now choose a hybrid approach, combining the best of both worlds to suit their entertainment needs, enjoying both live events and on-demand content.",
+        "wordCount": 196,
+        "topic": "Streaming vs. Traditional TV"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Traditional TV is completely outdated and no longer used.",
+            "Streaming services are always better than traditional TV.",
+            "Both streaming services and traditional TV have distinct advantages and disadvantages, leading many to use a hybrid approach.",
+            "Home entertainment has not changed much over the decades."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What was the primary source of home entertainment for decades?",
+          "options": [
+            "Streaming services.",
+            "Traditional television.",
+            "Video games.",
+            "Reading books."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is one advantage of traditional TV mentioned?",
+          "options": [
+            "Watching what you want, when you want.",
+            "No commercials.",
+            "Provides local news and live sports.",
+            "Vast library of on-demand content."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'unparalleled flexibility' mean in the context of streaming services?",
+          "options": [
+            "They offer very limited choices.",
+            "They offer a level of choice and convenience that is superior to other options.",
+            "They are very rigid and fixed.",
+            "They are only available at certain times."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is a characteristic of streaming services that differs from traditional TV?",
+          "options": [
+            "Scheduled programs.",
+            "Limited channels.",
+            "Watching without commercials and on multiple devices.",
+            "Higher monthly costs for a single package."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is a disadvantage of streaming services?",
+          "options": [
+            "They offer local news.",
+            "They often require multiple subscriptions and a stable internet connection.",
+            "They have scheduled programs.",
+            "They have very few options."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does a 'hybrid approach' to entertainment mean?",
+          "options": [
+            "Only watching traditional TV.",
+            "Only using streaming services.",
+            "Combining both traditional TV and streaming services.",
+            "Not watching any TV at all."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Which of the following is NOT a streaming service mentioned in the passage?",
+          "options": [
+            "Netflix.",
+            "YouTube.",
+            "Local platforms.",
+            "VTV."
+          ],
+          "correctIndex": 3
+        }
+      ]
+    },
+    {
+      "title": "Innovators of Tomorrow: Young Entrepreneurs",
+      "description": "This lesson highlights the rise of young entrepreneurs, helping learners understand their characteristics and contributions.",
+      "estimatedMinutes": 25,
+      "theoryContent": {
+        "sections": [
+          {
+            "type": "rule",
+            "heading": "Identifying Characteristics and Qualities",
+            "content": "When a text describes a group of people, a concept, or a phenomenon, it often lists their key characteristics, qualities, or attributes. Look for adjectives and descriptive phrases that tell you 'what something is like' or 'who someone is.' This helps you build a clear picture of the subject."
+          },
+          {
+            "type": "example",
+            "heading": "Spotting Key Traits",
+            "content": "If a text describes a successful leader as 'visionary, resilient, and an excellent communicator,' these are the key characteristics being highlighted. You can then look for examples in the text that illustrate these traits."
+          },
+          {
+            "type": "tip",
+            "heading": "Tips for Characteristics and Qualities",
+            "content": "As you read, make a mental note of the adjectives and nouns used to describe the subject. Ask yourself: 'What words does the author use to paint a picture of this?' This skill is useful for understanding profiles, descriptions, and analyses of groups or ideas."
+          }
+        ]
+      },
+      "passage": {
+        "title": "The Next Generation of Business: Young Entrepreneurs",
+        "content": "The world of business is seeing a new wave of innovators: young entrepreneurs. These are individuals, often under 30, who start and run their own businesses, bringing fresh ideas and energy to the market. In Vietnam, many young people are launching startups in diverse fields, from technology and e-commerce to sustainable agriculture and creative arts. They are driven by a desire to solve problems, create impact, and be their own bosses.\n\nWhat makes these young entrepreneurs stand out? They are typically highly motivated, adaptable, and not afraid to take risks. They often leverage technology and social media to reach customers and build their brands quickly. Unlike traditional business owners, they might prioritize social impact or environmental sustainability alongside profit. Their ventures often reflect modern values and address contemporary issues. While they face challenges like limited capital and lack of experience, their passion and innovative thinking often lead to success. They are not just building businesses; they are shaping the future economy and inspiring their peers to follow their dreams.",
+        "wordCount": 190,
+        "topic": "Young Entrepreneurs"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Young entrepreneurs only start businesses in technology.",
+            "Starting a business is too difficult for young people.",
+            "Young entrepreneurs are a new wave of innovators, driven by fresh ideas and modern values, who are shaping the future economy despite challenges.",
+            "Only experienced business owners can succeed."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is the approximate age range for 'young entrepreneurs' mentioned in the text?",
+          "options": [
+            "Over 50.",
+            "Under 30.",
+            "Between 30 and 40.",
+            "Any age."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What drives young entrepreneurs, according to the passage?",
+          "options": [
+            "A desire to work for someone else.",
+            "A desire to solve problems, create impact, and be their own bosses.",
+            "A desire to avoid technology.",
+            "A desire to follow traditional business models."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'leverage technology' mean in the context of young entrepreneurs?",
+          "options": [
+            "To avoid using technology.",
+            "To use technology to their advantage, such as for marketing or reaching customers.",
+            "To only create technology products.",
+            "To ignore social media."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which of the following is a characteristic that makes young entrepreneurs stand out?",
+          "options": [
+            "They are afraid to take risks.",
+            "They are typically highly motivated, adaptable, and not afraid to take risks.",
+            "They avoid social media.",
+            "They prioritize only profit."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What do young entrepreneurs often prioritize alongside profit?",
+          "options": [
+            "Only personal wealth.",
+            "Social impact or environmental sustainability.",
+            "Traditional business methods.",
+            "Avoiding innovation."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is one challenge faced by young entrepreneurs?",
+          "options": [
+            "Too much capital.",
+            "Limited capital and lack of experience.",
+            "Too many customers.",
+            "Lack of passion."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The passage states that young entrepreneurs are not just building businesses; they are also...",
+          "options": [
+            "Ignoring the future economy.",
+            "Shaping the future economy and inspiring their peers.",
+            "Only focusing on local markets.",
+            "Waiting for others to innovate."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    }
+  ]
+}

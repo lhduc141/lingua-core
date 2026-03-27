@@ -1,0 +1,1136 @@
+{
+  "skill": "reading",
+  "cefrLevel": "B2",
+  "practiceSets": [
+    {
+      "title": "Globalization's Cultural Tapestry",
+      "description": "This set helps learners understand how globalization impacts local cultures and societies, and practice identifying main ideas, specific details, vocabulary in context, and making inferences.",
+      "estimatedMinutes": 30,
+      "passage": {
+        "title": "The Blurring Lines: Globalization's Impact on Local Identity",
+        "content": "Globalization, the increasing interconnectedness of the world's economies, cultures, and populations, has profoundly reshaped societies. While it offers undeniable benefits like technological advancement and economic growth, its influence on local identity is a complex issue. On one hand, globalization fosters a vibrant exchange of ideas, cuisines, and artistic expressions. We see fusion restaurants, international music festivals, and fashion trends that blend elements from various cultures. This cultural hybridization can enrich societies, introducing new perspectives and fostering mutual understanding.\n\nHowever, critics argue that globalization often leads to cultural homogenization, where dominant global cultures, particularly Western ones, overshadow and diminish unique local traditions. Small businesses struggle to compete with multinational corporations, and traditional crafts might be replaced by mass-produced goods. Languages, too, face pressure as English often becomes the lingua franca of international business and media. This erosion of distinct cultural practices can lead to a loss of heritage and a sense of identity for communities.\n\nThe challenge lies in finding a balance: embracing the opportunities globalization presents while actively preserving and promoting local heritage. Many communities are now focusing on cultural tourism, supporting local artisans, and revitalizing traditional languages to maintain their unique character in an increasingly interconnected world. The goal is not to resist globalization entirely, but to navigate its currents thoughtfully, ensuring that the rich tapestry of human cultures remains diverse and vibrant.",
+        "wordCount": 272,
+        "topic": "Globalization and Society"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Globalization only brings economic benefits to societies.",
+            "Globalization has a complex and dual impact on local cultures and identities.",
+            "Local cultures are inevitably destroyed by globalization.",
+            "The primary goal of globalization is cultural homogenization."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "According to the passage, which of the following is a benefit of globalization?",
+          "options": [
+            "It always protects local businesses.",
+            "It leads to cultural homogenization.",
+            "It fosters an exchange of ideas and artistic expressions.",
+            "It ensures all languages thrive equally."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does 'cultural homogenization' refer to in the context of the passage?",
+          "options": [
+            "The blending of cultures to create new forms.",
+            "The process where one dominant culture diminishes others.",
+            "The celebration of diverse cultural festivals.",
+            "The preservation of unique local traditions."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is mentioned as a challenge faced by local businesses due to globalization?",
+          "options": [
+            "Lack of interest in traditional crafts.",
+            "Difficulty competing with multinational corporations.",
+            "The need to adopt new languages.",
+            "The rise of cultural tourism."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'erosion' in paragraph 2 most closely means:",
+          "options": [
+            "growth",
+            "strengthening",
+            "gradual destruction",
+            "creation"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What strategy do some communities use to maintain their unique character?",
+          "options": [
+            "Resisting all forms of international exchange.",
+            "Adopting only Western cultural practices.",
+            "Focusing on cultural tourism and revitalizing traditional languages.",
+            "Ignoring the impact of globalization entirely."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is the author's suggested approach to globalization?",
+          "options": [
+            "To completely reject it.",
+            "To embrace it without any reservations.",
+            "To navigate it thoughtfully while preserving local heritage.",
+            "To allow dominant cultures to take over."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The term 'lingua franca' in paragraph 2 refers to:",
+          "options": [
+            "a traditional craft",
+            "a dominant language used for communication between people who speak different native languages",
+            "a type of international cuisine",
+            "a form of artistic expression"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which of the following is an example of 'cultural hybridization' as described in the passage?",
+          "options": [
+            "A traditional craft being replaced by a mass-produced item.",
+            "A local language becoming obsolete.",
+            "A restaurant serving dishes that blend Vietnamese and French culinary styles.",
+            "A multinational corporation dominating a local market."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does the phrase 'rich tapestry of human cultures' imply?",
+          "options": [
+            "Cultures are fragile and easily broken.",
+            "Cultures are uniform and similar.",
+            "Cultures are diverse and intricately interwoven.",
+            "Cultures are simple and unchanging."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Ethical Dilemmas in AI",
+      "description": "This set explores the ethical considerations surrounding artificial intelligence, helping learners practice understanding complex arguments, identifying specific details, interpreting vocabulary, and drawing inferences.",
+      "estimatedMinutes": 30,
+      "passage": {
+        "title": "Navigating the Moral Maze: Ethics in Artificial Intelligence",
+        "content": "Artificial Intelligence (AI) is rapidly transforming our world, from self-driving cars to medical diagnostics. While the technological advancements are breathtaking, they also bring forth a complex array of ethical dilemmas that demand careful consideration. One primary concern is algorithmic bias. AI systems learn from data, and if that data reflects existing societal prejudices, the AI can perpetuate and even amplify those biases, leading to unfair outcomes in areas like hiring, lending, or criminal justice.\n\nAnother critical issue is accountability. When an AI system makes a mistake, who is responsible? Is it the programmer, the company that deployed it, or the AI itself? The lack of clear accountability frameworks can hinder trust and make it difficult to address harm. Furthermore, the increasing autonomy of AI raises questions about control. As AI becomes more sophisticated, capable of making independent decisions, ensuring human oversight and preventing unintended consequences becomes paramount.\n\nPrivacy is also a major ethical battleground. AI often relies on vast amounts of personal data, raising concerns about surveillance, data security, and how this information is used. Striking a balance between innovation and privacy protection is crucial. Addressing these ethical challenges requires a multidisciplinary approach, involving technologists, ethicists, policymakers, and the public. Developing clear ethical guidelines, robust regulatory frameworks, and fostering public discourse are essential steps to ensure AI serves humanity responsibly and equitably.",
+        "wordCount": 269,
+        "topic": "Ethics and Technology"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main focus of the passage?",
+          "options": [
+            "The rapid advancements in AI technology.",
+            "The economic benefits of AI.",
+            "The ethical challenges and considerations surrounding AI.",
+            "How AI is used in medical diagnostics."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is 'algorithmic bias' primarily caused by?",
+          "options": [
+            "The AI system's inherent malicious intent.",
+            "The quality of the hardware used for AI.",
+            "The reflection of existing societal prejudices in the data AI learns from.",
+            "The lack of human oversight in AI development."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "According to the passage, what happens if AI data reflects societal prejudices?",
+          "options": [
+            "The AI will correct those prejudices.",
+            "The AI will ignore those prejudices.",
+            "The AI can perpetuate and amplify those biases.",
+            "The AI will develop its own ethical framework."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The word 'perpetuate' in paragraph 1 most closely means:",
+          "options": [
+            "to stop",
+            "to continue indefinitely",
+            "to reduce",
+            "to question"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is a consequence of the lack of clear accountability frameworks for AI mistakes?",
+          "options": [
+            "Increased public trust in AI.",
+            "Easier resolution of harm caused by AI.",
+            "Difficulty in addressing harm and hindered trust.",
+            "Faster development of AI systems."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What does the passage suggest is 'paramount' as AI becomes more sophisticated?",
+          "options": [
+            "Allowing AI to make all decisions independently.",
+            "Ensuring human oversight and preventing unintended consequences.",
+            "Reducing the amount of data AI uses.",
+            "Ignoring the ethical implications of AI."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Why is privacy a 'major ethical battleground' in AI?",
+          "options": [
+            "Because AI systems are not secure.",
+            "Because AI often relies on vast amounts of personal data.",
+            "Because AI cannot protect personal information.",
+            "Because AI developers intentionally misuse data."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'multidisciplinary' in paragraph 4 suggests an approach involving:",
+          "options": [
+            "only AI experts.",
+            "only ethicists and policymakers.",
+            "various fields of study and expertise.",
+            "only the public's opinion."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Which of the following is NOT mentioned as an essential step to ensure AI serves humanity responsibly?",
+          "options": [
+            "Developing clear ethical guidelines.",
+            "Fostering public discourse.",
+            "Halting all AI development.",
+            "Developing robust regulatory frameworks."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is implied about the future of AI ethics?",
+          "options": [
+            "The ethical issues will resolve themselves naturally.",
+            "It requires ongoing effort and collaboration to manage.",
+            "Technology will eventually eliminate all ethical problems.",
+            "Only governments should be involved in addressing AI ethics."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "The Gig Economy's Rise",
+      "description": "This set helps learners understand the characteristics and implications of the gig economy, practicing main idea identification, detail recall, vocabulary in context, and inferential reasoning.",
+      "estimatedMinutes": 30,
+      "passage": {
+        "title": "Working on Demand: The Rise of the Gig Economy",
+        "content": "The gig economy, characterized by temporary, flexible jobs where individuals are paid for 'gigs' or tasks rather than a traditional salary, has become a significant force in modern labor markets. Driven by digital platforms that connect workers directly with consumers, it encompasses a wide range of services, from ride-sharing and food delivery to freelance writing and graphic design. For many, the appeal lies in its flexibility. Gig workers can often set their own hours, choose their projects, and work from various locations, offering a sense of autonomy that traditional employment might lack.\n\nHowever, this model also presents considerable challenges. A primary concern is the lack of benefits typically associated with full-time employment, such as health insurance, paid leave, and retirement plans. Gig workers are often classified as independent contractors, meaning they are responsible for their own taxes and do not receive employee protections. Income stability can also be unpredictable, as earnings depend on demand and the availability of gigs, leading to financial insecurity for some.\n\nDebates are ongoing about how to best regulate the gig economy to ensure fair treatment for workers without stifling innovation. Some advocate for reclassifying certain gig workers as employees, granting them more rights and benefits. Others propose new social safety nets tailored for the gig model, such as portable benefits that workers can carry from one gig to another. The future of work will undoubtedly involve a continued evolution of this model, requiring thoughtful policy adjustments to balance flexibility with worker protection.",
+        "wordCount": 273,
+        "topic": "Economic Issues"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main topic of this passage?",
+          "options": [
+            "The history of traditional employment.",
+            "The benefits and challenges of the gig economy.",
+            "How digital platforms are developed.",
+            "The regulation of multinational corporations."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which characteristic defines the gig economy according to the passage?",
+          "options": [
+            "Long-term, salaried positions.",
+            "Temporary, flexible jobs paid per task.",
+            "Employment with guaranteed benefits.",
+            "Work exclusively in the tech industry."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is one appeal of the gig economy for workers?",
+          "options": [
+            "Guaranteed health insurance.",
+            "High income stability.",
+            "Flexibility and autonomy in setting hours and choosing projects.",
+            "Automatic enrollment in retirement plans."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The word 'encompasses' in paragraph 1 most closely means:",
+          "options": [
+            "excludes",
+            "limits",
+            "includes",
+            "divides"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is a primary concern for gig workers regarding benefits?",
+          "options": [
+            "They receive too many benefits.",
+            "They lack benefits like health insurance and paid leave.",
+            "Benefits are too expensive for companies to provide.",
+            "Benefits are only available for part-time work."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Why are gig workers often responsible for their own taxes?",
+          "options": [
+            "They earn too much money.",
+            "They are typically classified as independent contractors.",
+            "They prefer to manage their own finances.",
+            "The government requires it for all workers."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does 'stifling innovation' mean in the context of regulating the gig economy?",
+          "options": [
+            "Encouraging new ideas and technologies.",
+            "Suppressing or hindering the development of new approaches.",
+            "Making innovation more efficient.",
+            "Ignoring the need for new solutions."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is one proposed solution for improving gig worker conditions?",
+          "options": [
+            "Eliminating all gig work.",
+            "Reclassifying some gig workers as employees.",
+            "Reducing the number of available gigs.",
+            "Increasing taxes for all gig workers."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the passage suggest about the future of the gig economy?",
+          "options": [
+            "It will disappear completely.",
+            "It will remain unchanged.",
+            "It will continue to evolve, requiring policy adjustments.",
+            "It will only benefit employers."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The phrase 'portable benefits' implies benefits that:",
+          "options": [
+            "are easily stored.",
+            "can be transferred from one job to another.",
+            "are only available in certain locations.",
+            "are too heavy to carry."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "The Power of Habit",
+      "description": "This set explores the psychological mechanisms behind habit formation and change, helping learners practice understanding psychological concepts, identifying details, interpreting vocabulary, and making inferences.",
+      "estimatedMinutes": 30,
+      "passage": {
+        "title": "Understanding the Habit Loop: How Our Brains Form Routines",
+        "content": "Our lives are largely shaped by habits – those automatic behaviors we perform without much conscious thought. From brushing our teeth to checking our phones, habits streamline our daily existence, freeing up mental energy for more complex tasks. But how do they form, and more importantly, how can we change them? Psychologists explain habits through a 'habit loop' consisting of three key components: a cue, a routine, and a reward.\n\nThe cue is the trigger that tells your brain to go into automatic mode and which habit to use. This could be a specific time of day, a location, an emotion, or even the presence of certain people. The routine is the behavior itself – the physical, mental, or emotional action you take. Finally, the reward is the positive feeling or outcome that reinforces the routine, making your brain want to repeat it in the future. For example, the cue might be feeling stressed, the routine is eating a sugary snack, and the reward is a temporary feeling of comfort.\n\nUnderstanding this loop is crucial for habit change. To break a bad habit, you can try to identify the cue and the reward, then substitute a new, healthier routine that still delivers the same reward. To build a good habit, you need to consciously establish a clear cue, a simple routine, and a consistent reward. This deliberate practice, over time, allows the new behavior to become automatic, transforming our daily actions and ultimately, our lives.",
+        "wordCount": 274,
+        "topic": "Psychology and Behavior"
+      },
+      "questions": [
+        {
+          "stemText": "What is the primary purpose of habits in our daily lives?",
+          "options": [
+            "To make us think more about every action.",
+            "To complicate simple tasks.",
+            "To streamline existence and free up mental energy.",
+            "To prevent us from learning new behaviors."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What are the three key components of the 'habit loop'?",
+          "options": [
+            "Thought, action, consequence.",
+            "Cue, routine, reward.",
+            "Desire, effort, success.",
+            "Beginning, middle, end."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is a 'cue' in the context of the habit loop?",
+          "options": [
+            "The automatic behavior itself.",
+            "The positive feeling that reinforces a behavior.",
+            "The trigger that signals the brain to start a habit.",
+            "The conscious decision to perform an action."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The word 'streamline' in paragraph 1 most closely means:",
+          "options": [
+            "to make more complicated",
+            "to make more efficient and organized",
+            "to slow down",
+            "to interrupt"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which of the following is an example of a 'reward' in the habit loop?",
+          "options": [
+            "Seeing a clock strike 5 PM.",
+            "Feeling stressed after a long day.",
+            "A temporary feeling of comfort after eating a snack.",
+            "The act of opening a book."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "According to the passage, how can one break a bad habit?",
+          "options": [
+            "By ignoring the habit completely.",
+            "By identifying the cue and reward, then substituting a new routine.",
+            "By only focusing on the routine.",
+            "By punishing oneself for performing the habit."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is required to build a good habit?",
+          "options": [
+            "Avoiding any rewards.",
+            "A clear cue, a simple routine, and a consistent reward.",
+            "Only focusing on the desired outcome.",
+            "Waiting for the habit to form naturally."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'deliberate' in paragraph 3 suggests an action that is:",
+          "options": [
+            "accidental",
+            "unconscious",
+            "intentional and carefully considered",
+            "spontaneous"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is the ultimate outcome of consistent deliberate practice in habit formation?",
+          "options": [
+            "The behavior becomes more difficult.",
+            "The behavior becomes automatic.",
+            "The habit loop is broken.",
+            "The cue disappears."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What can be inferred about changing habits?",
+          "options": [
+            "It is impossible once a habit is formed.",
+            "It requires understanding the underlying psychological mechanism.",
+            "It only works for bad habits, not good ones.",
+            "It happens instantly with minimal effort."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Misinformation in the Digital Age",
+      "description": "This set helps learners understand the challenges of misinformation in modern media and its impact on democracy, practicing main idea identification, detail recall, vocabulary in context, and inferential reasoning.",
+      "estimatedMinutes": 30,
+      "passage": {
+        "title": "The Echo Chamber Effect: Misinformation and Its Threat to Democracy",
+        "content": "In the digital age, the rapid spread of misinformation poses a significant threat to democratic societies. Unlike traditional news, which often undergoes editorial scrutiny, content on social media platforms can go viral without verification, blurring the lines between fact and fiction. This phenomenon is exacerbated by 'echo chambers' and 'filter bubbles,' where algorithms personalize content, showing users information that aligns with their existing beliefs. As a result, individuals are less exposed to diverse perspectives, reinforcing their biases and making them more susceptible to false narratives.\n\nThe consequences are far-reaching. Misinformation can erode public trust in institutions, manipulate public opinion, and even incite real-world violence. During elections, it can distort voter perceptions, impacting the democratic process itself. The challenge is compounded by the sophisticated methods used to create and disseminate false content, including deepfakes and coordinated disinformation campaigns.\n\nCombating misinformation requires a multi-pronged approach. Media literacy education is crucial, empowering individuals to critically evaluate sources and identify unreliable information. Fact-checking organizations play a vital role in debunking false claims. Furthermore, social media platforms are under increasing pressure to implement more robust content moderation policies and increase transparency. Ultimately, safeguarding democracy in the digital era depends on a collective effort to foster a more informed and discerning citizenry.",
+        "wordCount": 266,
+        "topic": "Media and Democracy"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main topic of the passage?",
+          "options": [
+            "The history of traditional news media.",
+            "The benefits of social media algorithms.",
+            "The threat of misinformation to democratic societies in the digital age.",
+            "How to create viral content online."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How does content on social media differ from traditional news regarding verification?",
+          "options": [
+            "Social media content is always more accurate.",
+            "Traditional news often lacks editorial scrutiny.",
+            "Social media content can go viral without verification.",
+            "Both undergo the same level of scrutiny."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What are 'echo chambers' and 'filter bubbles' described as doing?",
+          "options": [
+            "Exposing users to a wide range of opinions.",
+            "Personalizing content to align with existing beliefs.",
+            "Promoting critical thinking skills.",
+            "Helping users identify false information."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'exacerbated' in paragraph 1 most closely means:",
+          "options": [
+            "improved",
+            "lessened",
+            "made worse",
+            "resolved"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "Which of the following is a consequence of misinformation mentioned in the passage?",
+          "options": [
+            "Increased public trust in institutions.",
+            "Enhanced democratic processes.",
+            "Erosion of public trust and manipulation of public opinion.",
+            "A decrease in real-world violence."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What makes the challenge of misinformation 'compounded'?",
+          "options": [
+            "The simplicity of false content.",
+            "The lack of interest from the public.",
+            "The sophisticated methods used to create and disseminate false content.",
+            "The slow spread of information online."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is considered crucial for individuals in combating misinformation?",
+          "options": [
+            "Avoiding all news sources.",
+            "Media literacy education.",
+            "Relying solely on social media for news.",
+            "Creating more deepfakes."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'debunking' in paragraph 3 refers to:",
+          "options": [
+            "spreading",
+            "confirming",
+            "exposing as false",
+            "ignoring"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What pressure are social media platforms facing?",
+          "options": [
+            "To remove all user-generated content.",
+            "To implement more robust content moderation and increase transparency.",
+            "To encourage more filter bubbles.",
+            "To stop collaborating with fact-checking organizations."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is implied about safeguarding democracy in the digital era?",
+          "options": [
+            "It is an easy task that requires little effort.",
+            "It is solely the responsibility of governments.",
+            "It requires a collective effort and an informed citizenry.",
+            "It is no longer possible due to misinformation."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Exoplanet Hunting",
+      "description": "This set introduces learners to the exciting field of exoplanet discovery, helping them practice understanding scientific concepts, identifying details, interpreting vocabulary, and drawing inferences.",
+      "estimatedMinutes": 30,
+      "passage": {
+        "title": "Beyond Our Solar System: The Quest for Exoplanets",
+        "content": "For centuries, humanity has gazed at the stars, wondering if other worlds exist beyond our solar system. In recent decades, this wonder has transformed into a scientific quest: the search for exoplanets. An exoplanet is simply a planet that orbits a star other than our Sun. The first confirmed exoplanet was discovered in 1995, and since then, thousands more have been identified, revolutionizing our understanding of planetary systems.\n\nScientists employ various ingenious methods to detect these distant worlds. One common technique is the 'transit method,' where astronomers observe a slight dip in a star's brightness as a planet passes in front of it, blocking a tiny fraction of its light. Another is the 'radial velocity method,' which detects the subtle wobble in a star's motion caused by the gravitational pull of an orbiting planet. These methods often require powerful telescopes, both ground-based and space-based, like NASA's Kepler and TESS missions.\n\nThe ultimate goal of exoplanet research extends beyond mere detection. Scientists are particularly interested in finding 'habitable exoplanets' – those that could potentially support liquid water and, by extension, life. Analyzing the atmospheres of these planets for biosignatures, such as oxygen or methane, is the next frontier. While finding definitive proof of extraterrestrial life remains elusive, the ongoing quest for exoplanets continues to expand our cosmic perspective and fuel our imagination about our place in the universe.",
+        "wordCount": 264,
+        "topic": "Scientific Research"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main topic of the passage?",
+          "options": [
+            "The history of telescopes.",
+            "The search for exoplanets and methods of discovery.",
+            "The composition of our solar system.",
+            "The challenges of space travel."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is an exoplanet?",
+          "options": [
+            "A planet within our solar system.",
+            "A star that has planets orbiting it.",
+            "A planet that orbits a star other than our Sun.",
+            "A moon orbiting a planet."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "When was the first confirmed exoplanet discovered?",
+          "options": [
+            "Centuries ago.",
+            "In 1995.",
+            "Recently, by the Kepler mission.",
+            "In the distant future."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'ingenious' in paragraph 2 most closely means:",
+          "options": [
+            "simple",
+            "clever and original",
+            "obvious",
+            "unsuccessful"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How does the 'transit method' detect exoplanets?",
+          "options": [
+            "By observing a star's wobble.",
+            "By detecting radio signals from the planet.",
+            "By observing a dip in a star's brightness as a planet passes in front of it.",
+            "By directly imaging the planet."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What causes the 'subtle wobble' in a star's motion?",
+          "options": [
+            "Solar flares from the star.",
+            "The gravitational pull of an orbiting planet.",
+            "Interstellar dust clouds.",
+            "The star's own rotation."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is the 'ultimate goal' of exoplanet research beyond mere detection?",
+          "options": [
+            "To colonize these planets immediately.",
+            "To find habitable exoplanets that could support life.",
+            "To prove that our solar system is unique.",
+            "To develop faster space travel."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'elusive' in paragraph 3 means:",
+          "options": [
+            "easily found",
+            "difficult to find, catch, or achieve",
+            "common",
+            "unimportant"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What are 'biosignatures' in the context of exoplanet atmospheres?",
+          "options": [
+            "Signs of geological activity.",
+            "Chemical indicators that could suggest the presence of life.",
+            "Evidence of past volcanic eruptions.",
+            "Patterns of light from the star."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the ongoing quest for exoplanets contribute to?",
+          "options": [
+            "It primarily creates more questions than answers.",
+            "It narrows our cosmic perspective.",
+            "It expands our cosmic perspective and fuels our imagination.",
+            "It proves that Earth is the only planet with life."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "The Enduring Power of Myths",
+      "description": "This set explores the universal significance and cultural role of myths and legends, helping learners practice understanding abstract concepts, identifying details, interpreting vocabulary, and drawing inferences.",
+      "estimatedMinutes": 30,
+      "passage": {
+        "title": "Echoes Through Time: The Universal Appeal of Myths and Legends",
+        "content": "Myths and legends, ancient stories passed down through generations, are far more than mere fairy tales. They are foundational narratives that reflect a culture's deepest beliefs, values, and understanding of the world. From the creation stories of indigenous tribes to the heroic sagas of ancient Greece, these tales provide frameworks for meaning, helping people grapple with universal questions about life, death, good, and evil.\n\nOne of the enduring appeals of myths lies in their ability to explain the inexplicable. Before scientific understanding, myths offered explanations for natural phenomena like thunder, the changing seasons, or the origins of humanity. They also served as moral compasses, transmitting ethical lessons and societal norms through the actions and fates of gods, goddesses, and heroes. These narratives often feature archetypal characters and plots – the wise elder, the brave warrior, the perilous journey – which resonate across different cultures and time periods.\n\nEven in our modern, scientific age, myths continue to hold relevance. They inspire literature, art, and film, providing rich symbolic language and narrative structures. Psychologically, they tap into collective unconscious desires and fears, offering insights into the human condition. Studying myths allows us to understand the cultural heritage of diverse societies and appreciate the shared human experience. Ultimately, myths remind us that storytelling is a fundamental human need, a powerful tool for making sense of our existence and connecting us to our past.",
+        "wordCount": 267,
+        "topic": "Literature and Culture"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main idea of the passage?",
+          "options": [
+            "Myths are outdated stories with no modern relevance.",
+            "Myths are simple fairy tales for children.",
+            "Myths are foundational narratives that reflect culture and address universal human questions.",
+            "Myths are only important in ancient societies."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "According to the passage, what do myths provide frameworks for?",
+          "options": [
+            "Scientific experiments.",
+            "Economic policies.",
+            "Meaning, helping people grapple with universal questions.",
+            "Technological advancements."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What was one function of myths before scientific understanding?",
+          "options": [
+            "To predict the future accurately.",
+            "To offer explanations for natural phenomena.",
+            "To promote scientific research.",
+            "To document historical facts precisely."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'inexplicable' in paragraph 2 most closely means:",
+          "options": [
+            "easily understood",
+            "impossible to explain",
+            "very common",
+            "scientifically proven"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What role did myths play as 'moral compasses'?",
+          "options": [
+            "They guided sailors at sea.",
+            "They transmitted ethical lessons and societal norms.",
+            "They showed people where to find treasure.",
+            "They predicted the weather."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What are 'archetypal characters and plots'?",
+          "options": [
+            "Unique characters and stories found in only one culture.",
+            "Characters and stories that are specific to modern literature.",
+            "Universal patterns of characters and narratives that resonate across cultures.",
+            "Characters and plots that are difficult to understand."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How do myths continue to hold relevance in the modern age?",
+          "options": [
+            "They are the sole source of scientific knowledge.",
+            "They inspire literature, art, and film.",
+            "They dictate political decisions.",
+            "They have been completely replaced by science."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'resonate' in paragraph 2 means:",
+          "options": [
+            "to be ignored by",
+            "to have a lasting presence or impact",
+            "to be forgotten by",
+            "to be specific to"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does studying myths allow us to understand?",
+          "options": [
+            "Only the mistakes of ancient societies.",
+            "The cultural heritage of diverse societies and shared human experience.",
+            "How to create new scientific theories.",
+            "The future of technology."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is implied about storytelling based on the passage?",
+          "options": [
+            "It is a trivial pastime.",
+            "It is a fundamental human need for making sense of existence.",
+            "It is only for entertainment.",
+            "It is a recent invention."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Green Urban Spaces",
+      "description": "This set explores the importance and benefits of green spaces in urban environments, helping learners practice understanding urban planning concepts, identifying details, interpreting vocabulary, and drawing inferences.",
+      "estimatedMinutes": 30,
+      "passage": {
+        "title": "Breathing Life into Cities: The Value of Urban Green Spaces",
+        "content": "As cities continue to grow and expand, the integration of green spaces – parks, gardens, urban forests, and even green roofs – has become increasingly vital for sustainable urban development. These natural oases offer a multitude of benefits that enhance the quality of life for city dwellers and contribute to ecological balance. Beyond their aesthetic appeal, green spaces play a crucial role in mitigating the 'urban heat island effect' by providing shade and releasing moisture through evapotranspiration, which cools surrounding areas.\n\nEnvironmentally, they act as natural air filters, absorbing pollutants and producing oxygen. They also help manage stormwater runoff, reducing the risk of flooding and replenishing groundwater. Furthermore, urban green spaces are critical for biodiversity, providing habitats for various plant and animal species, even in densely populated areas. This ecological function is often overlooked but is essential for maintaining healthy urban ecosystems.\n\nFrom a social and psychological perspective, green spaces offer invaluable opportunities for recreation, relaxation, and social interaction. They are proven to reduce stress, improve mental well-being, and encourage physical activity. Community gardens, for instance, foster a sense of belonging and strengthen social ties. Recognizing these multifaceted advantages, urban planners worldwide are increasingly prioritizing the creation and preservation of green infrastructure, understanding that a truly livable city is one that harmonizes the built environment with nature.",
+        "wordCount": 264,
+        "topic": "Urban Development"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main topic of the passage?",
+          "options": [
+            "The challenges of urban population growth.",
+            "The importance and benefits of green spaces in cities.",
+            "How to build green roofs.",
+            "The history of urban planning."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which of the following is NOT listed as a type of green space?",
+          "options": [
+            "Parks.",
+            "Gardens.",
+            "Shopping malls.",
+            "Urban forests."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "How do green spaces help mitigate the 'urban heat island effect'?",
+          "options": [
+            "By increasing concrete surfaces.",
+            "By providing shade and releasing moisture.",
+            "By absorbing all sunlight.",
+            "By generating artificial cooling."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'multitude' in paragraph 1 most closely means:",
+          "options": [
+            "a small number",
+            "a large number",
+            "a specific type",
+            "a problem"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What environmental benefit do green spaces provide regarding air quality?",
+          "options": [
+            "They increase air pollution.",
+            "They act as natural air filters, absorbing pollutants.",
+            "They have no impact on air quality.",
+            "They only filter out dust."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is an 'ecological function' of urban green spaces that is often overlooked?",
+          "options": [
+            "Their role in providing recreation.",
+            "Their aesthetic appeal.",
+            "Providing habitats for various plant and animal species.",
+            "Their ability to reduce stress."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "From a social perspective, what do green spaces offer?",
+          "options": [
+            "Opportunities for isolation.",
+            "Invaluable opportunities for recreation, relaxation, and social interaction.",
+            "Increased traffic congestion.",
+            "Higher property taxes."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'foster' in paragraph 3 means:",
+          "options": [
+            "to neglect",
+            "to discourage",
+            "to promote the development of",
+            "to destroy"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What are urban planners increasingly prioritizing?",
+          "options": [
+            "The construction of more skyscrapers.",
+            "The creation and preservation of green infrastructure.",
+            "The removal of all natural elements from cities.",
+            "The expansion of industrial zones."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What does the passage imply about a 'truly livable city'?",
+          "options": [
+            "It is one with minimal natural elements.",
+            "It is one that separates human activity from nature.",
+            "It is one that harmonizes the built environment with nature.",
+            "It is one that focuses only on economic growth."
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "The Global Plastic Crisis",
+      "description": "This set educates learners about the problem of plastic pollution and its environmental impacts, helping them practice understanding environmental issues, identifying details, interpreting vocabulary, and drawing inferences.",
+      "estimatedMinutes": 30,
+      "passage": {
+        "title": "Choking Our Planet: Understanding the Plastic Pollution Crisis",
+        "content": "Plastic, a versatile and inexpensive material, has become ubiquitous in modern life. However, its widespread use and improper disposal have led to a global environmental crisis: plastic pollution. Billions of tons of plastic waste accumulate in landfills, litter landscapes, and, most alarmingly, inundate our oceans. This pollution has devastating consequences for ecosystems and human health.\n\nIn marine environments, plastic debris poses a direct threat to wildlife. Animals often mistake plastic bags for food, leading to internal injuries, starvation, and death. Larger pieces can entangle marine life, restricting movement and causing suffocation. Over time, plastics break down into microplastics, tiny fragments that are ingested by even the smallest organisms, entering the food chain and potentially impacting human health through seafood consumption. These microplastics are now found everywhere, from the deepest oceans to remote mountain peaks.\n\nThe longevity of plastic – taking hundreds of years to decompose – makes this problem particularly challenging. Addressing the crisis requires a multi-faceted approach. Reducing single-use plastics through policy changes and consumer choices is paramount. Improving waste management infrastructure, increasing recycling rates, and developing biodegradable alternatives are also crucial. Ultimately, a shift in mindset towards a circular economy, where materials are reused and recycled rather than discarded, is essential to stem the tide of plastic pollution and protect our planet for future generations.",
+        "wordCount": 268,
+        "topic": "Climate and Environment"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main topic of the passage?",
+          "options": [
+            "The benefits of plastic in modern life.",
+            "The global crisis of plastic pollution and its solutions.",
+            "How to properly dispose of all waste.",
+            "The types of marine animals affected by pollution."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Where does plastic waste accumulate most alarmingly?",
+          "options": [
+            "In factories.",
+            "In our oceans.",
+            "In homes.",
+            "In recycling centers."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How do plastic bags directly threaten marine wildlife?",
+          "options": [
+            "They provide new habitats.",
+            "Animals mistake them for food, causing injury and starvation.",
+            "They help animals swim faster.",
+            "They are a source of nutrients."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'ubiquitous' in paragraph 1 most closely means:",
+          "options": [
+            "rare",
+            "found everywhere",
+            "expensive",
+            "difficult to find"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What are 'microplastics'?",
+          "options": [
+            "Large pieces of plastic debris.",
+            "Tiny fragments of plastic that break down over time.",
+            "Plastic used in microelectronics.",
+            "A type of biodegradable plastic."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "How do microplastics potentially impact human health?",
+          "options": [
+            "They improve digestion.",
+            "Through consumption of contaminated seafood.",
+            "They have no known impact on humans.",
+            "By cleaning the air we breathe."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What makes the plastic pollution problem particularly challenging?",
+          "options": [
+            "The lack of public awareness.",
+            "The short lifespan of plastic.",
+            "The longevity of plastic, taking hundreds of years to decompose.",
+            "The high cost of plastic production."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "The word 'paramount' in paragraph 3 means:",
+          "options": [
+            "unimportant",
+            "of supreme importance",
+            "optional",
+            "secondary"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which of the following is NOT mentioned as a way to address the plastic crisis?",
+          "options": [
+            "Reducing single-use plastics.",
+            "Increasing plastic production.",
+            "Improving waste management infrastructure.",
+            "Developing biodegradable alternatives."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is implied by a 'circular economy' in the context of plastic pollution?",
+          "options": [
+            "An economy where plastic is produced in a circle.",
+            "An economic model where materials are reused and recycled, minimizing waste.",
+            "An economy focused solely on burning plastic for energy.",
+            "An economy that ignores environmental concerns."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "The Remote Work Revolution",
+      "description": "This set explores the rise and implications of remote work, helping learners practice understanding societal shifts, identifying details, interpreting vocabulary, and drawing inferences.",
+      "estimatedMinutes": 30,
+      "passage": {
+        "title": "Beyond the Office Walls: The Enduring Impact of Remote Work",
+        "content": "The COVID-19 pandemic dramatically accelerated a trend that was already emerging: remote work. What was once a niche benefit has now become a mainstream reality for millions globally, fundamentally reshaping the future of work. This shift, driven by technological advancements and a re-evaluation of traditional office structures, offers both significant advantages and complex challenges.\n\nFor employees, remote work often brings greater flexibility, allowing for a better work-life balance, reduced commuting stress, and the ability to live in more affordable locations. Companies, in turn, can access a wider talent pool, reduce overhead costs associated with physical offices, and potentially see increased employee satisfaction and productivity. The environmental benefits are also notable, with fewer commuters leading to reduced carbon emissions.\n\nHowever, the transition isn't without its hurdles. Remote work can lead to feelings of isolation, difficulties in fostering team cohesion and company culture, and challenges in maintaining clear boundaries between work and personal life. Employers grapple with ensuring equitable treatment for remote and in-office staff, managing performance across distributed teams, and addressing cybersecurity concerns. As this model matures, organizations are experimenting with hybrid approaches, blending remote and in-office days to capture the best of both worlds. The long-term success of remote work hinges on developing effective strategies for communication, collaboration, and well-being, ensuring it remains a sustainable and beneficial option for both individuals and businesses.",
+        "wordCount": 277,
+        "topic": "Future of Work"
+      },
+      "questions": [
+        {
+          "stemText": "What is the main topic of the passage?",
+          "options": [
+            "The history of office buildings.",
+            "The impact of the COVID-19 pandemic on health.",
+            "The rise and implications of remote work.",
+            "How to improve cybersecurity."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What event significantly accelerated the trend of remote work?",
+          "options": [
+            "The invention of the internet.",
+            "The COVID-19 pandemic.",
+            "The rise of social media.",
+            "New government regulations."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which of the following is a benefit of remote work for employees?",
+          "options": [
+            "Increased commuting stress.",
+            "Greater flexibility and better work-life balance.",
+            "Less access to talent pools.",
+            "Higher overhead costs for companies."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'niche' in paragraph 1 most closely means:",
+          "options": [
+            "common and widespread",
+            "a specialized but profitable segment of the market",
+            "unpopular",
+            "mandatory"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What is an advantage of remote work for companies?",
+          "options": [
+            "Limited talent pool.",
+            "Increased overhead costs.",
+            "Reduced employee satisfaction.",
+            "Access to a wider talent pool and reduced overhead costs."
+          ],
+          "correctIndex": 3
+        },
+        {
+          "stemText": "What is a notable environmental benefit of remote work?",
+          "options": [
+            "Increased energy consumption.",
+            "Reduced carbon emissions due to fewer commuters.",
+            "More waste from home offices.",
+            "No impact on the environment."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "Which of the following is a challenge associated with remote work for employees?",
+          "options": [
+            "Too much social interaction.",
+            "Feelings of isolation.",
+            "Difficulty in finding work.",
+            "Excessive structure and routine."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "The word 'grapple' in paragraph 3 means:",
+          "options": [
+            "to avoid",
+            "to struggle to deal with",
+            "to easily solve",
+            "to ignore"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "stemText": "What are 'hybrid approaches' in the context of remote work?",
+          "options": [
+            "Working only from home.",
+            "Working only from the office.",
+            "Blending remote and in-office days.",
+            "Working for multiple companies at once."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "stemText": "What is crucial for the long-term success of remote work?",
+          "options": [
+            "Eliminating all in-person interaction.",
+            "Developing effective strategies for communication, collaboration, and well-being.",
+            "Ignoring employee feedback.",
+            "Relying solely on technology without human input."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    }
+  ]
+}
