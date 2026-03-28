@@ -85,14 +85,26 @@ export class AiServiceService {
 
 	async generatePlanItems(payload: any) {
 		const prompt = this.buildPlanGenerationPrompt(payload);
-		const result = await this.model.generateContent(prompt);
+		const result = await this.model.generateContent({
+			contents: [{ role: 'user', parts: [{ text: prompt }] }],
+			generationConfig: {
+				maxOutputTokens: 8192, // ← tăng từ default lên max
+				temperature: 0.3,
+				responseMimeType: 'application/json', // ← force JSON output
+			},
+		});
 		const raw = result.response.text();
 		const clean = raw
 			.replace(/```json\s*/gi, '')
 			.replace(/```\s*/g, '')
 			.trim();
 
-		return JSON.parse(clean);
+		try {
+			return JSON.parse(clean);
+		} catch (err) {
+			this.logger.error(`JSON parse failed. Raw response: ${raw.substring(0, 500)}`);
+			throw new Error(`Invalid JSON from AI: ${err.message}`);
+		}
 	}
 
 	async generateWeeklyReview(payload: any) {
@@ -223,61 +235,47 @@ export class AiServiceService {
 		} = payload;
 		const dailyMinutes = Math.ceil(((goals?.plannedStudyHoursPerWeek || 7) / 7) * 60);
 
-		return `You are LinguaPanda AI Tutor — an adaptive English learning plan generator for Vietnamese learners.
+		const compactContent = {
+			lessons: (availableContent?.lessons || []).map((l: any) => ({
+				id: l.lessonId ?? l.id,
+				title: l.title,
+				skill: l.skillName,
+				cefr: l.cefrLevel,
+			})),
+			questionSets: (availableContent?.questionSets || []).map((q: any) => ({
+				id: q.questionSetId ?? q.id,
+				title: q.title,
+				skill: q.skillName,
+				cefr: q.cefrLevel,
+			})),
+		};
 
-LEARNER PROFILE:
-- CEFR Level: ${cefrLevel}
-- Primary Goal: ${goals?.primaryGoal || 'general'}
-- Focus Skills: ${JSON.stringify(goals?.focusSkills || ['reading', 'writing', 'speaking'])}
-- Study Hours/Week: ${goals?.plannedStudyHoursPerWeek || 7}
-- Cycle: ${currentCycle}, Week: ${weekNumber}
+		return `You are LinguaPanda AI Tutor — an adaptive English learning plan generator.
 
-${recentPerformance ? `RECENT PERFORMANCE:\n${JSON.stringify(recentPerformance, null, 2)}` : ''}
-${previousWeekReview ? `WEEK 1 REVIEW (AI-generated):\n${JSON.stringify(previousWeekReview, null, 2)}` : ''}
-${userFeedback ? `USER FEEDBACK ON PREVIOUS WEEK:\n"${userFeedback}"` : ''}
-
-AVAILABLE CONTENT:
-${JSON.stringify(availableContent || {}, null, 2)}
-
-TASK GENERATION RULES:
-1. Generate tasks for 7 days (day 1-7 for week 1, day 8-14 for week 2)
-2. Each day has 2-4 tasks depending on available study time
-3. Task types: "lesson" (with refId), "practice_session" (with refId), "custom_activity" (no refId)
-4. Week 1: 50% lesson, 30% practice, 20% custom. Week 2: 30% lesson, 40% practice, 30% custom
-5. Custom activities = specific writing/speaking exercises with clear instructions in description
-6. Each task MUST have a "rationale" explaining WHY this task helps the learner
-7. Respect user's focus skills — allocate more tasks to those skills
-8. If user feedback says something is too hard, lower difficulty for that skill
-9. Total daily time should not exceed: ${dailyMinutes} minutes
-10. Only use refId values from AVAILABLE CONTENT. Use null for custom_activity.
-
-Respond ONLY with valid JSON, no markdown:
-{
-  "planItems": [
-    {
-      "day": 1,
-      "position": 1,
-      "itemType": "lesson",
-      "refId": "uuid-of-lesson",
-      "title": "Reading: Daily Life Topics",
-      "description": null,
-      "rationale": "Foundation for A2 reading comprehension, aligned with career goal.",
-      "estimatedMinutes": 30,
-      "skillName": "reading"
-    },
-    {
-      "day": 1,
-      "position": 2,
-      "itemType": "custom_activity",
-      "refId": null,
-      "title": "Writing Practice: Simple Sentences",
-      "description": "Write 5 sentences about your daily routine using Present Simple tense. Include: wake up, eat, work, exercise, sleep.",
-      "rationale": "Writing score lower than reading — sentence-level practice builds foundation.",
-      "estimatedMinutes": 15,
-      "skillName": "writing"
-    }
-  ]
-}`;
+			LEARNER PROFILE:
+			- CEFR Level: ${cefrLevel}
+			- Primary Goal: ${goals?.primaryGoal || 'general'}
+			- Focus Skills: ${JSON.stringify(goals?.focusSkills || ['reading', 'writing', 'speaking'])}
+			- Study Hours/Week: ${goals?.plannedStudyHoursPerWeek || 7}
+			- Cycle: ${currentCycle}, Week: ${weekNumber}
+			
+			${recentPerformance ? `RECENT PERFORMANCE:\n${JSON.stringify(recentPerformance)}` : ''}
+			${previousWeekReview ? `WEEK 1 REVIEW:\n${JSON.stringify(previousWeekReview)}` : ''}
+			${userFeedback ? `USER FEEDBACK: "${userFeedback}"` : ''}
+			
+			AVAILABLE CONTENT (use these IDs only):
+			${JSON.stringify(compactContent)}
+			
+			RULES:
+			1. Days 1-7 (week1) or 8-14 (week2). Max 3 tasks/day.
+			2. Types: "lesson" or "practice_session" (use id from above), "custom_activity" (refId: null)
+			3. Keep rationale under 10 words. Set description to null unless custom_activity.
+			4. Total daily time ≤ ${dailyMinutes} mins.
+			5. Focus skills (allocate 60% tasks): ${JSON.stringify(goals?.focusSkills || [])}
+   B			ase skill (always include, 40% tasks): reading
+			
+			RESPOND ONLY WITH JSON (no markdown):
+			{"planItems":[{"day":1,"position":1,"itemType":"lesson","refId":"uuid","title":"...","description":null,"rationale":"Short reason.","estimatedMinutes":25,"skillName":"reading"}]}`;
 	}
 
 	private buildWeeklyReviewPrompt(payload: any): string {

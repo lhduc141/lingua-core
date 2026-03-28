@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, ParseUUIDPipe, Patch, Post, Query, UseGuards } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, ParseUUIDPipe, Patch, Post, Query, UseGuards } from '@nestjs/common';
 import {
 	ApiBadRequestResponse,
 	ApiBearerAuth,
@@ -68,5 +68,11 @@ export class LearningPlanController {
 	@ApiOkResponse({ description: 'Paginated plan history' })
 	getHistory(@ReqUser('userId') userId: string, @Query() query: ListPlanHistoryDto) {
 		return this.planService.getHistory(userId, query);
+	}
+
+	@Delete('reset')
+	@ApiOperation({ summary: 'Reset current plan (dev/testing only)' })
+	resetPlan(@ReqUser('userId') userId: string) {
+		return this.planService.resetPlan(userId);
 	}
 }

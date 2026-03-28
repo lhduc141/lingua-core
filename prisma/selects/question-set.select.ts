@@ -39,6 +39,7 @@ export const QuestionSetSelect = {
 	} satisfies Prisma.QuestionSetSelect,
 
 	titleSkill: {
+		questionSetId: true,
 		title: true,
 		skillName: true,
 	} satisfies Prisma.QuestionSetSelect,

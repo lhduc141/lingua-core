@@ -91,8 +91,9 @@ export class PlacementService {
 		return ResponseDto.success(
 			Object,
 			{
-				assessmentId: placementSession.sessionId,
+				// assessmentId: placementSession.sessionId,
 				sessionId: placementSession.sessionId,
+				exerciseRecordId: exerciseRecord.exerciseRecordId,
 				firstQuestion,
 				config: {
 					minQuestions: DEFAULT_CAT_CONFIG.minQuestions,
@@ -410,9 +411,10 @@ export class PlacementService {
 		return ResponseDto.success(
 			Object,
 			{
-				assessmentId: exerciseRecord.placementSessionId,
+				// assessmentId: exerciseRecord.placementSessionId,
 				sessionId: session.sessionId,
 				currentQuestion: nextQuestion,
+				exerciseRecordId: exerciseRecord.exerciseRecordId,
 				questionOrder,
 				progress: {
 					questionsAnswered: pastAttempts.length,

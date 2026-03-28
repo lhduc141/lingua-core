@@ -60,6 +60,8 @@ export class UsersService {
 		const { onboardingSurvey, placementSessions, surveySkippedAt, placementSkippedAt, ...rest } = user;
 		const profileData = {
 			...rest,
+			displayName: rest.googleName,
+			avatarUrl: rest.googleAvatarUrl,
 			surveyStatus: this.computeOnboardingStatus(onboardingSurvey.length > 0, surveySkippedAt),
 			placementStatus: this.computeOnboardingStatus(placementSessions.length > 0, placementSkippedAt),
 			cefrLevel: placementSessions[0]?.cefrLevel ?? null,
@@ -85,8 +87,10 @@ export class UsersService {
 			...rest,
 			// surveyCompleted: onboardingSurvey.length > 0,
 			// placementCompleted: placementSessions.length > 0,
+			displayName: rest.googleName,
+			avatarUrl: rest.googleAvatarUrl,
 
-			survetStatus: this.computeOnboardingStatus(onboardingSurvey.length > 0, surveySkippedAt),
+			surveyStatus: this.computeOnboardingStatus(onboardingSurvey.length > 0, surveySkippedAt),
 			placementStatus: this.computeOnboardingStatus(placementSessions.length > 0, placementSkippedAt),
 
 			cefrLevel: placementSessions[0]?.cefrLevel ?? null,

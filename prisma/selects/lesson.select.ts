@@ -37,6 +37,7 @@ export const LessonSelect = {
 	} satisfies Prisma.LessonSelect,
 
 	titleSkill: {
+		lessonId: true,
 		title: true,
 		skillName: true,
 	} satisfies Prisma.LessonSelect,

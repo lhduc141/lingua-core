@@ -103,7 +103,7 @@ export class AssessmentsService implements OnModuleInit {
 		}));
 
 		const response: AssessmentStartResponse = {
-			questionSetId: exerciseRecord.exerciseRecordId,
+			exerciseRecordId: exerciseRecord.exerciseRecordId,
 			refType: 'lesson',
 			totalQuestions: questions.length,
 			lesson: {
@@ -176,7 +176,7 @@ export class AssessmentsService implements OnModuleInit {
 		}));
 
 		const response: AssessmentStartResponse = {
-			questionSetId: exerciseRecord.exerciseRecordId,
+			exerciseRecordId: exerciseRecord.exerciseRecordId,
 			refType: 'question_set',
 			totalQuestions: questions.length,
 			questionSet: {

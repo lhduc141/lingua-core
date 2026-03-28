@@ -1,7 +1,7 @@
 import { AssessmentQuestion } from './assessment-question.interface';
 
 export interface AssessmentStartResponse {
-	questionSetId: string;
+	exerciseRecordId: string;
 	refType: string;
 	totalQuestions: number;
 	lesson?: {

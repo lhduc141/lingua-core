@@ -26,6 +26,8 @@ import { PlanTask } from './interface/plan-task.interface';
 
 @Injectable()
 export class LearningPlanService implements OnModuleInit {
+	UUID_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
 	private readonly logger = new Logger(LearningPlanService.name);
 	private readonly ASSESSED_TO_CEFR: Record<string, string> = {
 		beginner: 'A1',
@@ -174,7 +176,15 @@ export class LearningPlanService implements OnModuleInit {
 			await this.checkReviewGate(userId);
 		}
 
-		const availableContent = await this.getAvailableContent();
+		const availableContent = await this.getAvailableContent(
+			catSession.cefrLevel ?? 'B1',
+			(survey?.primaryFocusSkills as string[]) ?? ['reading', 'writing', 'speaking'],
+		);
+		const validRefIds = new Set<string>([
+			...availableContent.lessons.map((l: any) => l.lessonId),
+			...availableContent.questionSets.map((q: any) => q.questionSetId),
+		]);
+
 		const recentPerformance = await this.getRecentPerformance(userId);
 		const previousWeekReview = weekNumber === 2 ? await this.getLatestReviewData(userId, planCycle) : null;
 		const latestFeedback = weekNumber === 2 ? await this.getLatestUserFeedback(userId, planCycle) : null;
@@ -203,7 +213,6 @@ export class LearningPlanService implements OnModuleInit {
 			this.logger.error(`AI plan generation failed: ${err.message}`);
 			throw new BadRequestException('AI plan generation failed. Please try again.');
 		}
-
 		if (!aiResult?.planItems || aiResult.planItems.length === 0) {
 			throw new BadRequestException('AI returned empty plan. Please try again.');
 		}
@@ -212,30 +221,52 @@ export class LearningPlanService implements OnModuleInit {
 		startDate.setHours(0, 0, 0, 0);
 
 		const now = new Date();
-		const planItems = aiResult.planItems.map((item) => {
-			const dayOffset = item.day - (weekNumber === 2 ? 8 : 1);
-			const dueDate = new Date(startDate);
-			dueDate.setDate(dueDate.getDate() + dayOffset);
 
-			return {
-				userId,
-				title: item.title,
-				description: item.description,
-				rationale: item.rationale,
-				itemType: item.itemType,
-				refType:
-					item.itemType === 'custom_activity' ? null : item.itemType === 'lesson' ? 'lesson' : 'question_set',
-				refId: item.refId,
-				dueDate,
-				position: item.position,
-				status: 'pending' as any,
-				planCycle,
-				weekNumber,
-				generatedAt: now,
-				estimatedMinutes: item.estimatedMinutes,
-				skillName: item.skillName,
-			};
-		});
+		const planItems = aiResult.planItems
+			.filter((item) => {
+				if (item.itemType === 'custom_activity') return true;
+				if (!item.refId) {
+					this.logger.warn(`Skipping item missing refId: "${item.title}"`);
+					return false;
+				}
+				if (!this.UUID_REGEX.test(item.refId)) {
+					this.logger.warn(`Skipping item with non-UUID refId: "${item.refId}" (${item.title})`);
+					return false;
+				}
+				if (!validRefIds.has(item.refId)) {
+					this.logger.warn(`Skipping item with unknown refId: "${item.refId}" (${item.title})`);
+					return false;
+				}
+				return true;
+			})
+			.map((item) => {
+				const dayOffset = item.day - (weekNumber === 2 ? 8 : 1);
+				const dueDate = new Date(startDate);
+				dueDate.setDate(dueDate.getDate() + dayOffset);
+
+				return {
+					userId,
+					title: item.title,
+					description: item.description,
+					rationale: item.rationale,
+					itemType: item.itemType,
+					refType:
+						item.itemType === 'custom_activity'
+							? null
+							: item.itemType === 'lesson'
+								? 'lesson'
+								: 'question_set',
+					refId: item.refId,
+					dueDate,
+					position: item.position,
+					status: 'pending' as any,
+					planCycle,
+					weekNumber,
+					generatedAt: now,
+					estimatedMinutes: item.estimatedMinutes,
+					skillName: item.skillName,
+				};
+			});
 
 		const reviewDueDate = new Date(startDate);
 		reviewDueDate.setDate(reviewDueDate.getDate() + 6);
@@ -394,6 +425,15 @@ export class LearningPlanService implements OnModuleInit {
 		return ResponseDto.success(Object, new PagingDataDto({ count: rows.length, rows: paged }));
 	}
 
+	//6.
+	async resetPlan(userId: string) {
+		await this.prisma.learningPlanItem.updateMany({
+			where: { userId, deletedAt: null },
+			data: { deletedAt: new Date() },
+		});
+		return ResponseDto.success(Object, null, 'Plan reset successfully.');
+	}
+
 	// PRIVATE: BullMQ Worker — Grade custom activity
 	private async handleGradeCustomActivity(job: Job<GradeCustomActivityJobData>): Promise<void> {
 		const { itemId, textAnswer } = job.data;
@@ -527,34 +567,37 @@ export class LearningPlanService implements OnModuleInit {
 	}
 
 	// PRIVATE: Gather available content for AI
-	private async getAvailableContent() {
+	private async getAvailableContent(cefrLevel: string, focusSkills: string[]) {
 		const [lessons, questionSets] = await Promise.all([
 			this.prisma.lesson.findMany({
-				where: { deletedAt: null, status: 'published' },
+				where: {
+					deletedAt: null,
+					status: 'published',
+					cefrLevel: { in: [cefrLevel, this.getAdjacentLevel(cefrLevel)] }, // ← chỉ lấy đúng level
+					skillName: { in: focusSkills as any }, // ← chỉ lấy đúng skill
+				},
 				select: LessonSelect.planAvailable,
+				take: 10, // ← giới hạn số lượng
 			}),
 			this.prisma.questionSet.findMany({
-				where: { deletedAt: null, isActive: true },
+				where: {
+					deletedAt: null,
+					isActive: true,
+					cefrLevel: { in: [cefrLevel, this.getAdjacentLevel(cefrLevel)] },
+					skillName: { in: focusSkills as any },
+				},
 				select: QuestionSetSelect.planAvailable,
+				take: 10,
 			}),
 		]);
 
-		return {
-			lessons: lessons.map((l) => ({
-				refId: l.lessonId,
-				title: l.title,
-				skillName: l.skillName,
-				cefrLevel: l.cefrLevel,
-				estimatedMinutes: l.estimatedMinutes,
-			})),
-			practiceSessions: questionSets.map((s) => ({
-				refId: s.questionSetId,
-				title: s.title,
-				skillName: s.skillName,
-				cefrLevel: s.cefrLevel,
-				estimatedMinutes: s.estimatedMinutes,
-			})),
-		};
+		return { lessons, questionSets };
+	}
+
+	private getAdjacentLevel(level: string): string {
+		const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+		const idx = levels.indexOf(level);
+		return levels[idx + 1] ?? level; // lấy level cao hơn 1 bậc
 	}
 
 	// PRIVATE: Get recent performance

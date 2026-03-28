@@ -416,10 +416,31 @@ export class DashboardService {
 			}),
 		]);
 
+		const lessonIds = recentRecords.filter((a) => a.refType === 'lesson').map((a) => a.refId);
+		const qsIds = recentRecords.filter((a) => a.refType === 'question_set').map((a) => a.refId);
+		const [lessons, questionSets] = await Promise.all([
+			lessonIds.length > 0
+				? this.prisma.lesson.findMany({
+						where: { lessonId: { in: lessonIds } },
+						select: LessonSelect.titleSkill,
+					})
+				: [],
+			qsIds.length > 0
+				? this.prisma.questionSet.findMany({
+						where: { questionSetId: { in: qsIds } },
+						select: QuestionSetSelect.titleSkill,
+					})
+				: [],
+		]);
+
+		const metaMap = new Map<string, { title: string | null; skillName: string | null }>();
+		for (const l of lessons) metaMap.set(l.lessonId, { title: l.title, skillName: l.skillName });
+		for (const s of questionSets) metaMap.set(s.questionSetId, { title: s.title, skillName: s.skillName });
+
 		const activities: RecentActivityItem[] = [];
 
 		for (const a of recentRecords) {
-			const meta = await this.getRefMeta(a.refType, a.refId);
+			const meta = metaMap.get(a.refId) ?? { title: null, skillName: null };
 			activities.push({
 				type: 'assessment',
 				title: meta.title ?? `${a.refType} assessment`,
@@ -521,27 +542,5 @@ export class DashboardService {
 		if (diff > 5) return 'up';
 		if (diff < -5) return 'down';
 		return 'stable';
-	}
-
-	// PRIVATE: Get ref metadata
-	private async getRefMeta(
-		refType: string,
-		refId: string,
-	): Promise<{ title: string | null; skillName: string | null }> {
-		if (refType === 'lesson') {
-			const lesson = await this.prisma.lesson.findFirst({
-				where: { lessonId: refId },
-				select: LessonSelect.titleSkill,
-			});
-			return { title: lesson?.title ?? null, skillName: lesson?.skillName ?? null };
-		}
-		if (refType === 'question_set') {
-			const questionSet = await this.prisma.questionSet.findFirst({
-				where: { questionSetId: refId },
-				select: QuestionSetSelect.titleSkill,
-			});
-			return { title: questionSet?.title ?? null, skillName: questionSet?.skillName ?? null };
-		}
-		return { title: null, skillName: null };
 	}
 }
