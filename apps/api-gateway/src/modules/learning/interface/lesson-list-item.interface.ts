@@ -10,4 +10,12 @@ export interface LessonListItem {
 
 	estimatedMinutes: number | null;
 	status: string;
+
+	// update 08/04/2026
+	userProgress: {
+		isCompleted: boolean;
+		bestScore: number | null;
+		attemptCount: number;
+		lastAttemptAt: string | null;
+	} | null;
 }

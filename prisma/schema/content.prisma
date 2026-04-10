@@ -22,6 +22,7 @@ model Lesson {
 
   lessonQuestions LessonQuestion[]
   questionSets    QuestionSet[]
+  exerciseRecords ExerciseRecord[] @relation("LessonExercises")
 
   @@index([skillName]) // ← THÊM
   @@index([cefrLevel]) // ← THÊM

@@ -24,6 +24,7 @@ model ExerciseRecord {
   placementSession PlacementSession?  @relation(name: "ExerciseRecordPlacementSession", fields: [placementSessionId], references: [sessionId])
   answers          Answer[]
   sourcePlanItems  LearningPlanItem[]
+  lesson           Lesson?            @relation("LessonExercises", fields: [refId], references: [lessonId])
 
   @@map("exercise_records")
 }

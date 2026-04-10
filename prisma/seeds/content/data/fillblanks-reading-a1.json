@@ -1,0 +1,345 @@
+{
+	"cefrLevel": "A1",
+	"lessons": [
+		{
+			"title": "My Family: Getting to Know Mai's Family",
+			"fillBlanks": [
+				{
+					"stemText": "My ___ is small.",
+					"answerKeys": ["family"]
+				},
+				{
+					"stemText": "I live with my ___ in Hanoi.",
+					"answerKeys": ["family"]
+				},
+				{
+					"stemText": "She is a ___.",
+					"answerKeys": ["teacher"]
+				}
+			]
+		},
+		{
+			"title": "Pets and Animals: Learning About Linh's Dog",
+			"fillBlanks": [
+				{
+					"stemText": "___ sing in the sky.",
+					"answerKeys": ["Birds", "birds"]
+				},
+				{
+					"stemText": "He likes to ___ with a red ball.",
+					"answerKeys": ["play"]
+				},
+				{
+					"stemText": "Lucky is small and ___.",
+					"answerKeys": ["brown"]
+				}
+			]
+		},
+		{
+			"title": "Food I Like: Exploring An's Favorite Foods",
+			"fillBlanks": [
+				{
+					"stemText": "___ good food makes me happy!",
+					"answerKeys": ["Eating", "eating"]
+				},
+				{
+					"stemText": "I also like ___ with chicken.",
+					"answerKeys": ["rice"]
+				},
+				{
+					"stemText": "It is a delicious noodle ___.",
+					"answerKeys": ["soup"]
+				}
+			]
+		},
+		{
+			"title": "My School Day: A Look at Lan's Morning",
+			"fillBlanks": [
+				{
+					"stemText": "___ starts at 7:30.",
+					"answerKeys": ["School", "school"]
+				},
+				{
+					"stemText": "My mother makes ___ banh mi.",
+					"answerKeys": ["delicious"]
+				},
+				{
+					"stemText": "My favorite subject is ___.",
+					"answerKeys": ["English"]
+				}
+			]
+		},
+		{
+			"title": "Colors and Shapes: Describing Objects in a Room",
+			"fillBlanks": [
+				{
+					"stemText": "My ___ is small but nice.",
+					"answerKeys": ["room"]
+				},
+				{
+					"stemText": "I also have a ___ box for my books.",
+					"answerKeys": ["yellow"]
+				},
+				{
+					"stemText": "My blanket is ___.",
+					"answerKeys": ["blue"]
+				}
+			]
+		},
+		{
+			"title": "My Home: Exploring a Vietnamese House",
+			"fillBlanks": [
+				{
+					"stemText": "___, there is a living room.",
+					"answerKeys": ["Downstairs", "downstairs"]
+				},
+				{
+					"stemText": "My mother ___ delicious food in the kitchen.",
+					"answerKeys": ["cooks"]
+				},
+				{
+					"stemText": "Our house is always clean and ___.",
+					"answerKeys": ["cozy"]
+				}
+			]
+		},
+		{
+			"title": "The Weather: Talking About Today's Weather",
+			"fillBlanks": [
+				{
+					"stemText": "___, it was rainy.",
+					"answerKeys": ["Yesterday", "yesterday"]
+				},
+				{
+					"stemText": "I will fly my ___ in the park.",
+					"answerKeys": ["kite"]
+				},
+				{
+					"stemText": "I need my warm jacket for ___.",
+					"answerKeys": ["winter"]
+				}
+			]
+		},
+		{
+			"title": "Daily Routines: My Morning Routine",
+			"fillBlanks": [
+				{
+					"stemText": "Every ___, I wake up at 6:30 AM.",
+					"answerKeys": ["morning"]
+				},
+				{
+					"stemText": "Then, I get ___ in my school uniform.",
+					"answerKeys": ["dressed"]
+				},
+				{
+					"stemText": "I am always on ___!",
+					"answerKeys": ["time"]
+				}
+			]
+		},
+		{
+			"title": "Numbers and Time: Learning About a Schedule",
+			"fillBlanks": [
+				{
+					"stemText": "___ are busy for me!",
+					"answerKeys": ["Saturdays", "saturdays"]
+				},
+				{
+					"stemText": "I help my mother ___ the house.",
+					"answerKeys": ["clean"]
+				},
+				{
+					"stemText": "We play for 2 ___.",
+					"answerKeys": ["hours"]
+				}
+			]
+		},
+		{
+			"title": "My Friends: Learning About Friendship",
+			"fillBlanks": [
+				{
+					"stemText": "___ has long, black hair and a big smile.",
+					"answerKeys": ["Hoa"]
+				},
+				{
+					"stemText": "We always sit ___ in class.",
+					"answerKeys": ["together"]
+				},
+				{
+					"stemText": "We like to swing and ___.",
+					"answerKeys": ["slide"]
+				}
+			]
+		},
+		{
+			"title": "Going Shopping: A Trip to the Market",
+			"fillBlanks": [
+				{
+					"stemText": "___, I went to the market with my mother.",
+					"answerKeys": ["Today", "today"]
+				},
+				{
+					"stemText": "The market was very ___ and noisy.",
+					"answerKeys": ["busy"]
+				},
+				{
+					"stemText": "The fish seller was ___.",
+					"answerKeys": ["friendly"]
+				}
+			]
+		},
+		{
+			"title": "In the Park: A Sunny Afternoon",
+			"fillBlanks": [
+				{
+					"stemText": "Many ___ were playing football on the grass.",
+					"answerKeys": ["children"]
+				},
+				{
+					"stemText": "My father sat on a bench and ___ a newspaper.",
+					"answerKeys": ["read"]
+				},
+				{
+					"stemText": "It was a happy day for ___.",
+					"answerKeys": ["everyone"]
+				}
+			]
+		},
+		{
+			"title": "My Bedroom: Describing My Personal Space",
+			"fillBlanks": [
+				{
+					"stemText": "My ___ is my favorite place in the house.",
+					"answerKeys": ["bedroom"]
+				},
+				{
+					"stemText": "I read ___ there at night.",
+					"answerKeys": ["books"]
+				},
+				{
+					"stemText": "I do my homework at this ___.",
+					"answerKeys": ["desk"]
+				}
+			]
+		},
+		{
+			"title": "Fun at School: Recess and Learning",
+			"fillBlanks": [
+				{
+					"stemText": "___ new things is exciting, especially when we do experiments in science.",
+					"answerKeys": ["Learning", "learning"]
+				},
+				{
+					"stemText": "My favorite part of the ___ day is recess.",
+					"answerKeys": ["school"]
+				},
+				{
+					"stemText": "We draw and paint colorful ___.",
+					"answerKeys": ["pictures"]
+				}
+			]
+		},
+		{
+			"title": "Healthy Food: Eating Well with My Family",
+			"fillBlanks": [
+				{
+					"stemText": "___ healthy helps us stay active and happy!",
+					"answerKeys": ["Eating", "eating"]
+				},
+				{
+					"stemText": "My family loves to eat ___ food.",
+					"answerKeys": ["healthy"]
+				},
+				{
+					"stemText": "We drink a lot of ___ throughout the day.",
+					"answerKeys": ["water"]
+				}
+			]
+		},
+		{
+			"title": "Seasons of the Year: Vietnam's Weather",
+			"fillBlanks": [
+				{
+					"stemText": "___ is warm and fresh, with many flowers.",
+					"answerKeys": ["Spring", "spring"]
+				},
+				{
+					"stemText": "Summer is very ___ and sunny.",
+					"answerKeys": ["hot"]
+				},
+				{
+					"stemText": "I like all seasons, but autumn is the ___!",
+					"answerKeys": ["best"]
+				}
+			]
+		},
+		{
+			"title": "A Birthday Party: Celebrating with Friends",
+			"fillBlanks": [
+				{
+					"stemText": "___ of our friends came.",
+					"answerKeys": ["Many", "many"]
+				},
+				{
+					"stemText": "Her parents organized a ___ at her house.",
+					"answerKeys": ["party"]
+				},
+				{
+					"stemText": "We talked and laughed a ___.",
+					"answerKeys": ["lot"]
+				}
+			]
+		},
+		{
+			"title": "My Favorite Sport: Playing Badminton",
+			"fillBlanks": [
+				{
+					"stemText": "My favorite sport is ___.",
+					"answerKeys": ["badminton"]
+				},
+				{
+					"stemText": "We always have ___ and get good exercise.",
+					"answerKeys": ["fun"]
+				},
+				{
+					"stemText": "It makes me feel strong and ___.",
+					"answerKeys": ["happy"]
+				}
+			]
+		},
+		{
+			"title": "At the Zoo: Seeing Wild Animals",
+			"fillBlanks": [
+				{
+					"stemText": "___ Sunday, my family and I went to the zoo.",
+					"answerKeys": ["Last", "last"]
+				},
+				{
+					"stemText": "They have long ___ and brown spots.",
+					"answerKeys": ["necks"]
+				},
+				{
+					"stemText": "They were eating ___.",
+					"answerKeys": ["grass"]
+				}
+			]
+		},
+		{
+			"title": "Weekend Plans: Fun Activities",
+			"fillBlanks": [
+				{
+					"stemText": "My ___ always cooks delicious food.",
+					"answerKeys": ["grandmother"]
+				},
+				{
+					"stemText": "I am going to play ___ with my friends at the park.",
+					"answerKeys": ["football"]
+				},
+				{
+					"stemText": "It will be a busy but fun ___!",
+					"answerKeys": ["weekend"]
+				}
+			]
+		}
+	]
+}

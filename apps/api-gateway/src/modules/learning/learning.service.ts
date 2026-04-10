@@ -12,13 +12,14 @@ import { QuestionSetDetail } from './interface/question-set-detail.interface';
 export class LearningService {
 	private readonly logger = new Logger(LearningService.name);
 
-	constructor(private prisma: PrismaService) {}
+	constructor(private prisma: PrismaService) {
+	}
 
 	getSkills() {
 		return ResponseDto.success(Object, SKILL_LIST);
 	}
 
-	async getLessons(dto: ListLessonsDto) {
+	async getLessons(dto: ListLessonsDto, userId: string) {  // ← THÊM userId parameter
 		const { skill, cefrLevel, pageIndex, pageSize } = dto;
 		const skip = (pageIndex - 1) * pageSize;
 
@@ -29,16 +30,58 @@ export class LearningService {
 			...(cefrLevel && { cefrLevel }),
 		};
 
-		const [rows, count] = await Promise.all([
+		const [lessons, count] = await Promise.all([
 			this.prisma.lesson.findMany({
 				where,
-				select: LESSON_LIST_SELECT,
+				select: {
+					...LESSON_LIST_SELECT,
+					// ← THÊM JOIN với ExerciseRecord
+					exerciseRecords: {
+						where: {
+							userId: userId,
+							refType: 'lesson',
+						},
+						select: {
+							exerciseRecordId: true,
+							status: true,
+							score: true,
+							completedAt: true,
+						},
+						orderBy: { createdAt: 'desc' },
+					},
+				},
 				orderBy: [{ cefrLevel: 'asc' }, { createdAt: 'asc' }],
 				skip,
 				take: pageSize,
 			}),
 			this.prisma.lesson.count({ where }),
 		]);
+
+		const rows = lessons.map((lesson) => {
+			const attempts = lesson.exerciseRecords || [];
+			const completedAttempts = attempts.filter((a) => a.status === 'scored');
+
+			const bestScore =
+				completedAttempts.length > 0
+					? Math.max(...completedAttempts.map((a) => Number(a.score) ?? 0))
+					: null;
+
+			const lastAttempt = attempts[0];
+			const { exerciseRecords, ...lessonData } = lesson;
+
+			return {
+				...lessonData,
+				userProgress:
+					attempts.length > 0
+						? {
+							isCompleted: completedAttempts.length > 0,
+							bestScore: bestScore,
+							attemptCount: attempts.length,
+							lastAttemptAt: lastAttempt?.completedAt ?? null,
+						}
+						: null,
+			};
+		});
 
 		return ResponseDto.success(Object, new PagingDataDto({ count, rows }));
 	}

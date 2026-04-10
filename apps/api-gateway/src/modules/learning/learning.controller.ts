@@ -5,13 +5,16 @@ import { Public } from '../../decorators/public.decorator';
 import { LearningService } from './learning.service';
 import { ListLessonsDto } from './dto/list-lessons.dto';
 import { ListQuestionSetsDto } from './dto/list-question-sets.dto';
+import { ReqUser } from '../../decorators/req-user.decorator';
+import type { JwtPayloadDto } from '@app/jwt';
 
 @ApiTags('Learning')
 @Controller()
 @UseGuards(AuthGuard)
 @ApiBearerAuth()
 export class LearningController {
-	constructor(private readonly learningService: LearningService) {}
+	constructor(private readonly learningService: LearningService) {
+	}
 
 	@Get('skills')
 	@Public()
@@ -24,8 +27,11 @@ export class LearningController {
 	@Get('lessons')
 	@ApiOperation({ summary: 'Danh sách bài học đã published' })
 	@ApiOkResponse({ description: 'Paginated lessons' })
-	getLessons(@Query() query: ListLessonsDto) {
-		return this.learningService.getLessons(query);
+	getLessons(
+		@Query() query: ListLessonsDto,
+		@ReqUser() user: JwtPayloadDto,
+	) {
+		return this.learningService.getLessons(query, user.userId);  // ← PASS userId vào service
 	}
 
 	@Get('lessons/:lessonId')

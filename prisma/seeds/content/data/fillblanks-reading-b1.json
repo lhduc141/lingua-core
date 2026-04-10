@@ -1,0 +1,345 @@
+{
+	"cefrLevel": "B1",
+	"lessons": [
+		{
+			"title": "Our Changing World: Understanding Climate Change",
+			"fillBlanks": [
+				{
+					"stemText": "It means the Earth's ___ temperature is rising, leading to many changes in weather patterns.",
+					"answerKeys": ["average"]
+				},
+				{
+					"stemText": "Governments and large companies also need to act by ___ in renewable energy like solar and wind power.",
+					"answerKeys": ["investing"]
+				},
+				{
+					"stemText": "These changes are mainly caused by human activities, such as burning fossil fuels for energy and cutting down ___.",
+					"answerKeys": ["forests"]
+				}
+			]
+		},
+		{
+			"title": "Connecting Online: Understanding Social Media Habits",
+			"fillBlanks": [
+				{
+					"stemText": "A ___ survey showed that the average Vietnamese user spends about 3 hours a day on social media.",
+					"answerKeys": ["recent"]
+				},
+				{
+					"stemText": "On the positive side, social media helps people stay in touch with ___ far away and can be a great tool for small businesses to reach customers.",
+					"answerKeys": ["relatives"]
+				},
+				{
+					"stemText": "Being mindful of how and why we use social media can help us enjoy its benefits without falling into its ___.",
+					"answerKeys": ["traps"]
+				}
+			]
+		},
+		{
+			"title": "Learning Across Borders: Education Around the World",
+			"fillBlanks": [
+				{
+					"stemText": "Education ___ vary greatly around the world, reflecting different cultures and priorities.",
+					"answerKeys": ["systems"]
+				},
+				{
+					"stemText": "In some European countries, university education is free or very low-cost for citizens, while in others, like the United States, ___ fees can be very high, leading many students to take out loans.",
+					"answerKeys": ["tuition"]
+				},
+				{
+					"stemText": "Despite these differences, the goal of education remains similar everywhere: to prepare young people for their future, equip them with knowledge and skills, and help them become responsible ___.",
+					"answerKeys": ["citizens"]
+				}
+			]
+		},
+		{
+			"title": "Finding Harmony: The Importance of Work-Life Balance",
+			"fillBlanks": [
+				{
+					"stemText": "In today's fast-paced world, ___ a good work-life balance has become a significant challenge for many.",
+					"answerKeys": ["achieving"]
+				},
+				{
+					"stemText": "When work-life balance is poor, it can lead to stress, ___, and health problems.",
+					"answerKeys": ["burnout"]
+				},
+				{
+					"stemText": "Individuals can also take steps, such as setting clear boundaries between work and home, scheduling time for leisure activities, and learning to say 'no' to extra tasks when ___.",
+					"answerKeys": ["necessary"]
+				}
+			]
+		},
+		{
+			"title": "Healing Methods: Traditional and Modern Medicine",
+			"fillBlanks": [
+				{
+					"stemText": "Modern medicine, practiced in hospitals and clinics, ___ on scientific research, advanced technology, and pharmaceutical drugs.",
+					"answerKeys": ["relies"]
+				},
+				{
+					"stemText": "Its strengths lie in treating acute conditions, emergencies, and complex diseases with ___ effectiveness.",
+					"answerKeys": ["proven"]
+				},
+				{
+					"stemText": "While modern medicine excels in rapid intervention, traditional medicine is often preferred for chronic conditions, prevention, and general wellness, with fewer side ___.",
+					"answerKeys": ["effects"]
+				}
+			]
+		},
+		{
+			"title": "Adventures on a Shoestring: Traveling on a Budget",
+			"fillBlanks": [
+				{
+					"stemText": "The ___ is to be flexible and resourceful.",
+					"answerKeys": ["key"]
+				},
+				{
+					"stemText": "Prices for flights and ___ are usually much lower, and popular destinations like Da Lat or Ha Long Bay are less crowded.",
+					"answerKeys": ["accommodation"]
+				},
+				{
+					"stemText": "These options are not only cheaper but also offer a chance to meet other travelers and experience local culture more ___.",
+					"answerKeys": ["authentically"]
+				}
+			]
+		},
+		{
+			"title": "Giving Back: Exploring Volunteering Experiences",
+			"fillBlanks": [
+				{
+					"stemText": "Volunteering is when people ___ their time and skills for free to help others or a good cause.",
+					"answerKeys": ["offer"]
+				},
+				{
+					"stemText": "As a result, many employers ___ volunteering experience.",
+					"answerKeys": ["value"]
+				},
+				{
+					"stemText": "Secondly, volunteers often gain new skills, such as teamwork, leadership, and problem-solving, which can be useful for their ___.",
+					"answerKeys": ["careers"]
+				}
+			]
+		},
+		{
+			"title": "Exploring the Unknown: Popular Science Topics",
+			"fillBlanks": [
+				{
+					"stemText": "Science is constantly ___ amazing things about our world and beyond.",
+					"answerKeys": ["revealing"]
+				},
+				{
+					"stemText": "Topics like climate change, biodiversity loss, and ___ living are part of this field.",
+					"answerKeys": ["sustainable"]
+				},
+				{
+					"stemText": "Scientists are sending probes to Mars, looking for signs of life, and studying distant galaxies to understand the universe's ___.",
+					"answerKeys": ["origins"]
+				}
+			]
+		},
+		{
+			"title": "A Taste of Culture: Cultural Differences in Food",
+			"fillBlanks": [
+				{
+					"stemText": "Food is much more than just ___; it's a fundamental part of culture, reflecting history, traditions, and social values.",
+					"answerKeys": ["nourishment"]
+				},
+				{
+					"stemText": "For example, in Vietnam, rice is a ___ food, eaten at almost every meal, often accompanied by fresh herbs, fish sauce, and a variety of meat or vegetable dishes.",
+					"answerKeys": ["staple"]
+				},
+				{
+					"stemText": "Even table manners vary: slurping noodles might be considered ___ in some Asian cultures, indicating enjoyment, whereas it could be seen as rude elsewhere.",
+					"answerKeys": ["polite"]
+				}
+			]
+		},
+		{
+			"title": "From Idea to Reality: Starting a Small Business",
+			"fillBlanks": [
+				{
+					"stemText": "This ___ outlines your goals, strategies, financial projections, and how you will operate.",
+					"answerKeys": ["document"]
+				},
+				{
+					"stemText": "Next, conduct market research to understand your ___ customers and competitors.",
+					"answerKeys": ["potential"]
+				},
+				{
+					"stemText": "Then, handle the legal aspects, such as registering your business and obtaining necessary ___.",
+					"answerKeys": ["licenses"]
+				}
+			]
+		},
+		{
+			"title": "Mind Matters: Understanding Mental Health Awareness",
+			"fillBlanks": [
+				{
+					"stemText": "Mental health ___ is becoming increasingly important worldwide, including in Vietnam.",
+					"answerKeys": ["awareness"]
+				},
+				{
+					"stemText": "Unfortunately, there's often a stigma around mental health issues, making people hesitant to talk about their feelings or ___ help.",
+					"answerKeys": ["seek"]
+				},
+				{
+					"stemText": "Recognizing the signs, such as ___ sadness, changes in sleep or appetite, or loss of interest in activities, is the first step.",
+					"answerKeys": ["persistent"]
+				}
+			]
+		},
+		{
+			"title": "Green Choices: Embracing Eco-Friendly Living",
+			"fillBlanks": [
+				{
+					"stemText": "Eco-friendly living means making choices that ___ our negative impact on the environment.",
+					"answerKeys": ["reduce"]
+				},
+				{
+					"stemText": "Finally, support local businesses that use ___ practices.",
+					"answerKeys": ["sustainable"]
+				},
+				{
+					"stemText": "Turn off lights when you leave a room, unplug electronics when not in use, and consider using energy-efficient ___.",
+					"answerKeys": ["appliances"]
+				}
+			]
+		},
+		{
+			"title": "Digital Futures: Exploring Careers in Technology",
+			"fillBlanks": [
+				{
+					"stemText": "The technology sector is one of the fastest-growing industries globally, offering a wide ___ of exciting career opportunities.",
+					"answerKeys": ["range"]
+				},
+				{
+					"stemText": "Cybersecurity specialists are also crucial; they protect computer systems and ___ from cyberattacks and data breaches.",
+					"answerKeys": ["networks"]
+				},
+				{
+					"stemText": "These careers often require strong problem-solving skills, continuous learning, and a passion for ___.",
+					"answerKeys": ["innovation"]
+				}
+			]
+		},
+		{
+			"title": "Beyond the Headlines: Reading the News Critically",
+			"fillBlanks": [
+				{
+					"stemText": "Is it a well-known, reputable news organization, or an ___ website?",
+					"answerKeys": ["unknown"]
+				},
+				{
+					"stemText": "Learning to read the news ___ is more important than ever.",
+					"answerKeys": ["critically"]
+				},
+				{
+					"stemText": "This skill helps us distinguish between facts and opinions, and avoid ___.",
+					"answerKeys": ["misinformation"]
+				}
+			]
+		},
+		{
+			"title": "Urban Buzz vs. Rural Calm: City vs. Countryside Living",
+			"fillBlanks": [
+				{
+					"stemText": "The ___, however, include fewer job opportunities, limited access to specialized services, and often a need for private transportation.",
+					"answerKeys": ["drawbacks"]
+				},
+				{
+					"stemText": "Cities like Hanoi or Ho Chi Minh City provide numerous job opportunities, diverse entertainment options, and easy ___ to services like hospitals and universities.",
+					"answerKeys": ["access"]
+				},
+				{
+					"stemText": "However, city living often comes with a higher cost of living, more pollution, noise, and sometimes a faster, more ___ pace of life.",
+					"answerKeys": ["stressful"]
+				}
+			]
+		},
+		{
+			"title": "Unlocking New Worlds: The Journey of Learning a New Language",
+			"fillBlanks": [
+				{
+					"stemText": "Firstly, it ___ communication, allowing you to connect with people from different cultures, whether for travel, work, or friendship.",
+					"answerKeys": ["enhances"]
+				},
+				{
+					"stemText": "Learning a new language is a ___ that opens up a world of opportunities.",
+					"answerKeys": ["journey"]
+				},
+				{
+					"stemText": "It requires dedication, consistent practice, and ___.",
+					"answerKeys": ["patience"]
+				}
+			]
+		},
+		{
+			"title": "Moving Forward: The Future of Transport",
+			"fillBlanks": [
+				{
+					"stemText": "One major ___ is the rise of electric vehicles (EVs).",
+					"answerKeys": ["trend"]
+				},
+				{
+					"stemText": "The way we travel is constantly ___, and the future of transport promises exciting innovations.",
+					"answerKeys": ["evolving"]
+				},
+				{
+					"stemText": "These vehicles use advanced sensors and AI to navigate without human input, potentially making roads safer and commutes more ___.",
+					"answerKeys": ["efficient"]
+				}
+			]
+		},
+		{
+			"title": "Echoes of the Past: Famous Historical Events",
+			"fillBlanks": [
+				{
+					"stemText": "Centuries later, the Industrial Revolution, beginning in the late 18th century, ___ societies from agrarian and rural to industrial and urban.",
+					"answerKeys": ["transformed"]
+				},
+				{
+					"stemText": "This revolutionary technology made books cheaper and more ___, leading to a massive spread of knowledge and ideas across Europe and beyond.",
+					"answerKeys": ["accessible"]
+				},
+				{
+					"stemText": "New machines and factories led to mass production, economic growth, but also new social ___.",
+					"answerKeys": ["challenges"]
+				}
+			]
+		},
+		{
+			"title": "Screen Time Choices: Streaming vs. Traditional TV",
+			"fillBlanks": [
+				{
+					"stemText": "Many households now choose a ___ approach, combining the best of both worlds to suit their entertainment needs, enjoying both live events and on-demand content.",
+					"answerKeys": ["hybrid"]
+				},
+				{
+					"stemText": "They provide a vast library of on-demand movies, TV shows, and ___ content.",
+					"answerKeys": ["original"]
+				},
+				{
+					"stemText": "Each option offers distinct advantages and ___.",
+					"answerKeys": ["disadvantages"]
+				}
+			]
+		},
+		{
+			"title": "Innovators of Tomorrow: Young Entrepreneurs",
+			"fillBlanks": [
+				{
+					"stemText": "Unlike traditional business owners, they might ___ social impact or environmental sustainability alongside profit.",
+					"answerKeys": ["prioritize"]
+				},
+				{
+					"stemText": "These are individuals, often under 30, who start and run their own businesses, bringing ___ ideas and energy to the market.",
+					"answerKeys": ["fresh"]
+				},
+				{
+					"stemText": "They are typically highly motivated, adaptable, and not afraid to take ___.",
+					"answerKeys": ["risks"]
+				}
+			]
+		}
+	]
+}

@@ -24,6 +24,7 @@ export const ExerciseRecordSelect = {
 		completedAt: true,
 		answers: {
 			where: { deletedAt: null },
+			orderBy: { submittedAt: 'asc' },
 			select: {
 				answerId: true,
 				questionId: true,
@@ -51,6 +52,16 @@ export const ExerciseRecordSelect = {
 					select: {
 						questionId: true,
 						type: true,
+						maxScore: true,
+						translations: {
+							where: { locale: 'en' },
+							select: { stemText: true },
+						},
+						payload: {
+							select: {
+								answerKeysJson: true,
+							},
+						},
 						options: {
 							where: { deletedAt: null },
 							select: {

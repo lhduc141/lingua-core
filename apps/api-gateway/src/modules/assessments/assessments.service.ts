@@ -212,17 +212,24 @@ export class AssessmentsService implements OnModuleInit {
 			exerciseRecord.refId,
 			questionId,
 		);
-		if (!questionBelongs) {
-			throw new BadRequestException('Question does not belong to this assessment');
-		}
+		if (!questionBelongs) throw new BadRequestException('Question does not belong to this assessment');
 
 		const existing = await this.prisma.answer.findFirst({
 			where: { exerciseRecordId, questionId, deletedAt: null },
 			select: AnswerSelect.idOnly,
 		});
-		if (existing) throw new BadRequestException('This question has already been answered');
+		if (existing) {
+			await this.prisma.answerDetail.deleteMany({
+				where: { answerId: existing.answerId },
+			});
+			await this.createAttemptAnswers(existing.answerId, answer);
+			return ResponseDto.success(
+				Object,
+				{ answerId: existing.answerId, questionId, gradingStatus: 'pending', saved: true },
+				'Answer updated',
+			);
+		}
 
-		// 5. Tạo Attempt
 		const newAnswer = await this.prisma.answer.create({
 			data: {
 				userId,
@@ -233,10 +240,7 @@ export class AssessmentsService implements OnModuleInit {
 			},
 			select: AnswerSelect.idOnly,
 		});
-
-		// 6. Tạo AttemptAnswer(s)
 		await this.createAttemptAnswers(newAnswer.answerId, answer);
-
 		this.logger.log(
 			`Answer submitted | exerciseRecordId=${exerciseRecordId} | questionId=${questionId} | answerId=${newAnswer.answerId}`,
 		);
@@ -380,33 +384,88 @@ export class AssessmentsService implements OnModuleInit {
 		if (!exerciseRecord) throw new NotFoundException('Assessment not found');
 
 		const totalQuestions = exerciseRecord.answers.length;
-		const correctCount = exerciseRecord.answers.filter((a) => a.correct === true).length;
+		const correctCount = exerciseRecord.answers.filter(
+			(a) => a.correct === true || (a.score !== null && Number(a.score) > 0),
+		).length;
+
+		const isScored = exerciseRecord.status === 'scored';
 
 		const answersResult: AnswerResult[] = exerciseRecord.answers.map((ans) => {
-			// Tìm correctOptionId (chỉ trả khi assessment đã scored)
-			const isScored = ['scored'].includes(exerciseRecord.status as string);
-			const correctOption = isScored ? ans.question.options.find((o) => o.isCorrect) : null;
+			const q = ans.question;
 
-			const evaluation = ans.evaluations[0]
-				? {
-						overallScore: Number(ans.evaluations[0].overallScore),
-						criteriaJson: ans.evaluations[0].criteriaJson,
-					}
-				: null;
+			const questionType = q.type as string;
+			const isCorrect = ans.correct;
+			const earnedScore = ans.score !== null ? Number(ans.score) : null;
+			const maxScore = q.maxScore ?? 1;
+
+			const userAnswer = (() => {
+				if (ans.answerDetails.length === 0) return null;
+				if (['fill_blank', 'essay', 'speaking'].includes(questionType)) {
+					return { textAnswer: ans.answerDetails[0]?.textAnswer ?? undefined };
+				}
+				const optionIds = ans.answerDetails.filter((d) => d.optionId).map((d) => d.optionId as string);
+				const optionTexts = optionIds.map((id) => {
+					const opt = q.options.find((o) => o.optionId === id);
+					return opt?.translations[0]?.optionText ?? id;
+				});
+				return optionIds.length > 0 ? { optionIds, optionTexts } : null;
+			})();
+
+			const correctAnswer = (() => {
+				if (!isScored) return null;
+
+				if (questionType === 'fill_blank') {
+					const keys = q.payload?.answerKeysJson as string[] | null;
+					return keys && keys.length > 0 ? { textAnswers: keys } : null;
+				}
+
+				if (questionType === 'mcq_single' || questionType === 'mcq_multi') {
+					const correctOptions = q.options.filter((o) => o.isCorrect);
+					const optionIds = correctOptions.map((o) => o.optionId);
+					const optionTexts = correctOptions.map((o) => o.translations[0]?.optionText ?? '');
+					return optionIds.length > 0 ? { optionIds, optionTexts } : null;
+				}
+
+				return null; // essay/speaking — không có correct answer cố định
+			})();
+
+			const aiFeedback = (() => {
+				const evalRecord = ans.evaluations[0];
+				if (!evalRecord) return null;
+
+				let criteria: any = null;
+				try {
+					criteria =
+						typeof evalRecord.criteriaJson === 'string'
+							? JSON.parse(evalRecord.criteriaJson)
+							: evalRecord.criteriaJson;
+				} catch {
+					criteria = null;
+				}
+
+				return {
+					overallScore: Number(evalRecord.overallScore),
+					dimensions: (criteria?.dimensions ?? []).map((d: any) => ({
+						name: d.name ?? '',
+						score: Number(d.score ?? 0),
+						feedback: d.comment ?? d.feedback ?? '',
+					})),
+					corrections: criteria?.corrections ?? [],
+					suggestions: criteria?.suggestions ?? [],
+				};
+			})();
 
 			return {
-				answerId: ans.answerId,
 				questionId: ans.questionId,
-				type: ans.question.options.length > 0 ? 'objective' : 'subjective', // simplified
-				correct: ans.correct,
-				score: ans.score !== null ? Number(ans.score) : null,
-				gradingStatus: ans.gradingStatus,
-				correctOptionId: correctOption?.optionId ?? null,
-				userAnswer: {
-					optionId: ans.answerDetails[0]?.optionId ?? null,
-					textAnswer: ans.answerDetails[0]?.textAnswer ?? null,
-				},
-				evaluation,
+				questionType,
+				stemText: ans.question.translations?.[0]?.stemText ?? null,
+
+				isCorrect,
+				earnedScore,
+				maxScore,
+				userAnswer,
+				correctAnswer,
+				aiFeedback,
 			};
 		});
 

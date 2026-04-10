@@ -1,0 +1,345 @@
+{
+	"cefrLevel": "A2",
+	"lessons": [
+		{
+			"title": "Shopping for Groceries",
+			"fillBlanks": [
+				{
+					"stemText": "Yesterday, I went to the ___ near my house.",
+					"answerKeys": ["supermarket"]
+				},
+				{
+					"stemText": "I chose some sweet oranges and ___ bananas.",
+					"answerKeys": ["ripe"]
+				},
+				{
+					"stemText": "It was a good shopping trip, and now my fridge is ___!",
+					"answerKeys": ["full"]
+				}
+			]
+		},
+		{
+			"title": "A Day Trip to Ho Chi Minh City",
+			"fillBlanks": [
+				{
+					"stemText": "Last ___, my family and I took a bus to Ho Chi Minh City for a day trip.",
+					"answerKeys": ["Saturday", "saturday"]
+				},
+				{
+					"stemText": "These are famous landmarks, and we took many ___ there.",
+					"answerKeys": ["photos"]
+				},
+				{
+					"stemText": "Finally, before going home, we enjoyed some cool drinks at a ___.",
+					"answerKeys": ["cafe"]
+				}
+			]
+		},
+		{
+			"title": "My Favorite Hobbies",
+			"fillBlanks": [
+				{
+					"stemText": "I have two favorite ___ that I really enjoy.",
+					"answerKeys": ["hobbies"]
+				},
+				{
+					"stemText": "Reading helps me relax and ___ new things.",
+					"answerKeys": ["learn"]
+				},
+				{
+					"stemText": "Sometimes, if the weather is bad, I watch ___ at home instead.",
+					"answerKeys": ["films"]
+				}
+			]
+		},
+		{
+			"title": "My Job as a Teacher",
+			"fillBlanks": [
+				{
+					"stemText": "My ___ is a bright and colorful classroom.",
+					"answerKeys": ["workplace"]
+				},
+				{
+					"stemText": "We often play games and sing ___ to make learning fun.",
+					"answerKeys": ["songs"]
+				},
+				{
+					"stemText": "My colleagues are very friendly, and we often share ___.",
+					"answerKeys": ["ideas"]
+				}
+			]
+		},
+		{
+			"title": "Tips for Staying Healthy",
+			"fillBlanks": [
+				{
+					"stemText": "I try to ___ a few simple rules every day.",
+					"answerKeys": ["follow"]
+				},
+				{
+					"stemText": "I go jogging in the park three ___ a week for 30 minutes.",
+					"answerKeys": ["times"]
+				},
+				{
+					"stemText": "Good sleep helps my ___ work well.",
+					"answerKeys": ["brain"]
+				}
+			]
+		},
+		{
+			"title": "My Favorite Sport: Football",
+			"fillBlanks": [
+				{
+					"stemText": "We ___ at the local stadium near our houses.",
+					"answerKeys": ["meet"]
+				},
+				{
+					"stemText": "Each team tries to kick the ball into the other team's goal to ___ points.",
+					"answerKeys": ["score"]
+				},
+				{
+					"stemText": "Sometimes, we watch professional football matches on ___ together.",
+					"answerKeys": ["TV", "tv"]
+				}
+			]
+		},
+		{
+			"title": "My Trip to the History Museum",
+			"fillBlanks": [
+				{
+					"stemText": "Our ___ told us stories about how people lived in the past.",
+					"answerKeys": ["guide"]
+				},
+				{
+					"stemText": "Then, we went to a room with ___ Vietnamese clothes.",
+					"answerKeys": ["traditional"]
+				},
+				{
+					"stemText": "There was also a special exhibition about famous historical ___.",
+					"answerKeys": ["figures"]
+				}
+			]
+		},
+		{
+			"title": "Celebrating Tet Holiday",
+			"fillBlanks": [
+				{
+					"stemText": "A few days before Tet, we ___ and decorate our house.",
+					"answerKeys": ["clean"]
+				},
+				{
+					"stemText": "Children receive 'lucky money' in red ___ from adults.",
+					"answerKeys": ["envelopes"]
+				},
+				{
+					"stemText": "We wear new clothes and wish each other good health and ___.",
+					"answerKeys": ["happiness"]
+				}
+			]
+		},
+		{
+			"title": "Making a New Friend at School",
+			"fillBlanks": [
+				{
+					"stemText": "She was a bit ___ at first, sitting alone during break time.",
+					"answerKeys": ["shy"]
+				},
+				{
+					"stemText": "We found out we both love ___ and reading adventure books.",
+					"answerKeys": ["drawing"]
+				},
+				{
+					"stemText": "Now, Linh and I always sit together at lunch and help each other with ___.",
+					"answerKeys": ["homework"]
+				}
+			]
+		},
+		{
+			"title": "Taking the Bus to School",
+			"fillBlanks": [
+				{
+					"stemText": "It's a convenient and ___ way to travel.",
+					"answerKeys": ["cheap"]
+				},
+				{
+					"stemText": "The bus is often ___ of other students and people going to work.",
+					"answerKeys": ["full"]
+				},
+				{
+					"stemText": "The journey to school takes about 20 ___.",
+					"answerKeys": ["minutes"]
+				}
+			]
+		},
+		{
+			"title": "Cooking My Favorite Dish",
+			"fillBlanks": [
+				{
+					"stemText": "My favorite ___ to cook at home is simple fried rice.",
+					"answerKeys": ["dish"]
+				},
+				{
+					"stemText": "Next, I ___ a little oil in a pan.",
+					"answerKeys": ["heat"]
+				},
+				{
+					"stemText": "I love to eat it with some fresh ___.",
+					"answerKeys": ["cucumber"]
+				}
+			]
+		},
+		{
+			"title": "My Favorite Film: 'Coco'",
+			"fillBlanks": [
+				{
+					"stemText": "Miguel dreams of becoming a ___ musician like his idol, Ernesto de la Cruz.",
+					"answerKeys": ["famous"]
+				},
+				{
+					"stemText": "On the Day of the Dead, he accidentally enters the Land of the ___.",
+					"answerKeys": ["Dead", "dead"]
+				},
+				{
+					"stemText": "It always makes me feel happy and a little bit ___ at the same time.",
+					"answerKeys": ["sad"]
+				}
+			]
+		},
+		{
+			"title": "Joining the School Art Club",
+			"fillBlanks": [
+				{
+					"stemText": "Our club has about 15 ___ who love to draw, paint, and create things.",
+					"answerKeys": ["students"]
+				},
+				{
+					"stemText": "Sometimes, we work on individual projects, and other times we work together on a big ___ for the school.",
+					"answerKeys": ["mural"]
+				},
+				{
+					"stemText": "Plus, I've made many new friends there who share my ___ for art.",
+					"answerKeys": ["passion"]
+				}
+			]
+		},
+		{
+			"title": "A Weekend Trip to Da Lat",
+			"fillBlanks": [
+				{
+					"stemText": "We ___ by bus, and the journey took about six hours.",
+					"answerKeys": ["traveled"]
+				},
+				{
+					"stemText": "On Saturday, we visited the Valley of Love, where we took many pictures of the ___ gardens.",
+					"answerKeys": ["colorful"]
+				},
+				{
+					"stemText": "Before heading home, we bought some ___.",
+					"answerKeys": ["souvenirs"]
+				}
+			]
+		},
+		{
+			"title": "How I Use the Internet",
+			"fillBlanks": [
+				{
+					"stemText": "I use it for many things, both for school and for ___.",
+					"answerKeys": ["fun"]
+				},
+				{
+					"stemText": "Sometimes, I send ___ to my teachers if I have questions about homework.",
+					"answerKeys": ["emails"]
+				},
+				{
+					"stemText": "It's an amazing tool, but it's important to use it wisely and not spend too much time ___.",
+					"answerKeys": ["online"]
+				}
+			]
+		},
+		{
+			"title": "A Letter from My Pen Pal, Tom",
+			"fillBlanks": [
+				{
+					"stemText": "I ___ in a small town near London with my parents and my younger sister, Lily.",
+					"answerKeys": ["live"]
+				},
+				{
+					"stemText": "On weekends, I often read adventure ___ or watch films.",
+					"answerKeys": ["books"]
+				},
+				{
+					"stemText": "She is very ___.",
+					"answerKeys": ["playful"]
+				}
+			]
+		},
+		{
+			"title": "A Trip to Our Local Market",
+			"fillBlanks": [
+				{
+					"stemText": "It's not a big supermarket, but a ___ outdoor market.",
+					"answerKeys": ["traditional"]
+				},
+				{
+					"stemText": "The farmers ___ fresh tomatoes, green leafy vegetables, and herbs.",
+					"answerKeys": ["sell"]
+				},
+				{
+					"stemText": "It's a great place to find fresh, local ___.",
+					"answerKeys": ["food"]
+				}
+			]
+		},
+		{
+			"title": "Helping Our Environment",
+			"fillBlanks": [
+				{
+					"stemText": "Looking after ___ is everyone's job.",
+					"answerKeys": ["nature"]
+				},
+				{
+					"stemText": "We always separate our rubbish for recycling – plastic, paper, and glass go into ___ bins.",
+					"answerKeys": ["different"]
+				},
+				{
+					"stemText": "These simple habits help protect our beautiful ___ for the future.",
+					"answerKeys": ["planet"]
+				}
+			]
+		},
+		{
+			"title": "Local News: New Park Opens!",
+			"fillBlanks": [
+				{
+					"stemText": "Yesterday, a brand new community park officially ___ in District 7.",
+					"answerKeys": ["opened"]
+				},
+				{
+					"stemText": "The project took two ___ to complete and cost 5 billion VND.",
+					"answerKeys": ["years"]
+				},
+				{
+					"stemText": "The park is now open to the ___ every day from 6 AM to 9 PM, offering a green space for the whole community.",
+					"answerKeys": ["public"]
+				}
+			]
+		},
+		{
+			"title": "Learning to Play the Guitar",
+			"fillBlanks": [
+				{
+					"stemText": "First, I bought a ___ guitar and found some free online lessons.",
+					"answerKeys": ["basic"]
+				},
+				{
+					"stemText": "I ___ for 30 minutes every day after school.",
+					"answerKeys": ["practiced"]
+				},
+				{
+					"stemText": "I feel proud when I can play a beautiful ___.",
+					"answerKeys": ["melody"]
+				}
+			]
+		}
+	]
+}

@@ -1,17 +1,35 @@
 export interface AnswerResult {
-	answerId: string;
 	questionId: string;
-	type: string;
-	correct: boolean | null;
-	score: number | null;
-	gradingStatus: string;
-	correctOptionId: string | null; // chỉ trả khi scored
+	questionType: string; // mcq_single | mcq_multi | fill_blank | essay | speaking
+	isCorrect: boolean | null;
+	earnedScore: number | null;
+	maxScore: number;
+
+	stemText: string | null;
+
 	userAnswer: {
-		optionId?: string | null;
-		textAnswer?: string | null;
-	};
-	evaluation: {
+		optionIds?: string[]; // mcq_single/mcq_multi — array of optionId
+		optionTexts?: string[];
+		textAnswer?: string; // fill_blank/essay/speaking
+	} | null;
+	correctAnswer: {
+		optionIds?: string[]; // optionId của đáp án đúng (mcq)
+		optionTexts?: string[]; // text của đáp án đúng (mcq) — để hiển thị
+		textAnswers?: string[]; // answerKeysJson (fill_blank)
+	} | null;
+
+	aiFeedback: {
 		overallScore: number;
-		criteriaJson: any;
+		dimensions: Array<{
+			name: string;
+			score: number;
+			feedback: string; // map từ "comment" trong criteriaJson
+		}>;
+		corrections: Array<{
+			original: string;
+			corrected: string;
+			rule: string;
+		}>;
+		suggestions: string[];
 	} | null;
 }

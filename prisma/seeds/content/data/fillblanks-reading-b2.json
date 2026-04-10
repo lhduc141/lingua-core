@@ -1,0 +1,345 @@
+{
+	"cefrLevel": "B2",
+	"lessons": [
+		{
+			"title": "Navigating Global Trends and Local Traditions",
+			"fillBlanks": [
+				{
+					"stemText": "Globalization, the increasing ___ of the world, has brought both opportunities and challenges to local cultures everywhere, and Vietnam is no exception.",
+					"answerKeys": ["interconnectedness"]
+				},
+				{
+					"stemText": "When exposed to global trends, communities often become more ___ of their own heritage, leading to efforts to preserve and promote it.",
+					"answerKeys": ["conscious"]
+				},
+				{
+					"stemText": "Ultimately, Vietnamese culture is not static; it is a living entity that adapts, absorbs, and redefines itself in the face of global currents, proving its ___ and enduring charm.",
+					"answerKeys": ["resilience"]
+				}
+			]
+		},
+		{
+			"title": "Understanding the Ethical Dilemmas of AI",
+			"fillBlanks": [
+				{
+					"stemText": "As AI and automation become more ___, they can perform tasks traditionally done by humans, raising fears about widespread unemployment in certain sectors.",
+					"answerKeys": ["sophisticated"]
+				},
+				{
+					"stemText": "AI systems learn from data, and if that data reflects existing societal biases, the AI can ___ or even amplify them.",
+					"answerKeys": ["perpetuate"]
+				},
+				{
+					"stemText": "Establishing clear guidelines, promoting ___ in AI development, and fostering public dialogue are essential steps to ensure that AI serves humanity's best interests and is developed responsibly.",
+					"answerKeys": ["transparency"]
+				}
+			]
+		},
+		{
+			"title": "Exploring Income Inequality in Modern Society",
+			"fillBlanks": [
+				{
+					"stemText": "While economic growth has lifted millions out of poverty, it has also, in some cases, ___ the gap between the richest and the poorest.",
+					"answerKeys": ["exacerbated"]
+				},
+				{
+					"stemText": "Firstly, technological advancements often favor highly skilled workers, increasing their wages while potentially ___ those in lower-skilled jobs.",
+					"answerKeys": ["displacing"]
+				},
+				{
+					"stemText": "Addressing income inequality requires a multi-faceted approach, including investments in education and vocational training, progressive taxation policies, and ___ social safety nets.",
+					"answerKeys": ["robust"]
+				}
+			]
+		},
+		{
+			"title": "Unpacking the Psychology of Decision-Making",
+			"fillBlanks": [
+				{
+					"stemText": "While we often believe our choices are purely ___, psychology reveals that numerous factors, including emotions, past experiences, and cognitive biases, subtly influence us.",
+					"answerKeys": ["rational"]
+				},
+				{
+					"stemText": "Another is 'anchoring bias,' where we rely too ___ on the first piece of information offered (the 'anchor') when making decisions.",
+					"answerKeys": ["heavily"]
+				},
+				{
+					"stemText": "Actively seeking diverse ___, taking time to reflect, and considering the long-term consequences can lead to more informed and rational outcomes.",
+					"answerKeys": ["perspectives"]
+				}
+			]
+		},
+		{
+			"title": "Youth Engagement in Politics: Beyond the Ballot Box",
+			"fillBlanks": [
+				{
+					"stemText": "While formal political structures are important, a new generation is finding diverse and ___ ways to make their voices heard and influence change.",
+					"answerKeys": ["innovative"]
+				},
+				{
+					"stemText": "This digital engagement allows for rapid dissemination of ideas and ___ a sense of community among like-minded individuals.",
+					"answerKeys": ["fosters"]
+				},
+				{
+					"stemText": "This broader understanding of political participation highlights the diverse and ___ ways young people are shaping the future.",
+					"answerKeys": ["evolving"]
+				}
+			]
+		},
+		{
+			"title": "Media's Role in a Thriving Democracy",
+			"fillBlanks": [
+				{
+					"stemText": "Its primary function is to provide accurate and ___ information, enabling the public to make informed decisions about their leaders and policies.",
+					"answerKeys": ["unbiased"]
+				},
+				{
+					"stemText": "Journalists investigate government actions, expose ___, and bring important issues to public attention.",
+					"answerKeys": ["corruption"]
+				},
+				{
+					"stemText": "Media literacy, the ability to critically ___ information, is more important than ever.",
+					"answerKeys": ["evaluate"]
+				}
+			]
+		},
+		{
+			"title": "Breakthroughs in Modern Medicine",
+			"fillBlanks": [
+				{
+					"stemText": "The 21st century has witnessed an ___ acceleration in scientific advances, particularly in the field of medicine.",
+					"answerKeys": ["unprecedented"]
+				},
+				{
+					"stemText": "This approach allows doctors to prescribe the most effective drugs and dosages, ___ side effects and maximizing treatment success.",
+					"answerKeys": ["minimizing"]
+				},
+				{
+					"stemText": "As a result, diseases that once posed ___ challenges are now becoming manageable, paving the way for a healthier future.",
+					"answerKeys": ["insurmountable"]
+				}
+			]
+		},
+		{
+			"title": "Literature as a Catalyst for Change",
+			"fillBlanks": [
+				{
+					"stemText": "It acts as a powerful mirror reflecting society, a voice challenging injustice, and a ___ inspiring social change.",
+					"answerKeys": ["catalyst"]
+				},
+				{
+					"stemText": "By allowing readers to step into the shoes of diverse characters and experience different perspectives, literature can break down ___ and build understanding.",
+					"answerKeys": ["prejudices"]
+				},
+				{
+					"stemText": "While not every book sparks a movement, the ideas and emotions ___ by powerful narratives can shape public opinion, encourage dialogue, and ultimately contribute to the slow but steady march of social progress.",
+					"answerKeys": ["evoked"]
+				}
+			]
+		},
+		{
+			"title": "Businesses and the Environment: A Shared Responsibility",
+			"fillBlanks": [
+				{
+					"stemText": "In an era of increasing environmental awareness, the concept of corporate responsibility towards the environment has moved from a niche concern to a ___ expectation.",
+					"answerKeys": ["mainstream"]
+				},
+				{
+					"stemText": "This market demand ___ companies to innovate and invest in eco-friendly solutions, transforming environmental protection into a competitive advantage rather than just a cost.",
+					"answerKeys": ["incentivizes"]
+				},
+				{
+					"stemText": "Ensuring genuine commitment requires transparency, independent ___, and clear regulations.",
+					"answerKeys": ["auditing"]
+				}
+			]
+		},
+		{
+			"title": "The Dynamics of Urban Life: Growth and Growing Pains",
+			"fillBlanks": [
+				{
+					"stemText": "Urbanization, the process of populations shifting from rural areas to cities, is a global phenomenon that has ___ reshaped societies.",
+					"answerKeys": ["profoundly"]
+				},
+				{
+					"stemText": "The ___ social scene, with its cafes, entertainment venues, and cultural events, also draws young people looking for dynamic lifestyles.",
+					"answerKeys": ["vibrant"]
+				},
+				{
+					"stemText": "Addressing these challenges requires careful urban planning, investment in ___ infrastructure, and policies that promote balanced regional development.",
+					"answerKeys": ["sustainable"]
+				}
+			]
+		},
+		{
+			"title": "Work in the Digital Age: Adapting to Change",
+			"fillBlanks": [
+				{
+					"stemText": "The digital age is ___ reshaping the world of work, bringing both unprecedented opportunities and significant challenges.",
+					"answerKeys": ["fundamentally"]
+				},
+				{
+					"stemText": "This ___ offers benefits like reduced commuting time and improved work-life balance, but also demands new skills in self-discipline and digital collaboration.",
+					"answerKeys": ["flexibility"]
+				},
+				{
+					"stemText": "Success will depend on our ability to adapt, embrace new technologies, and ___ skills that complement AI, rather than compete directly with it.",
+					"answerKeys": ["cultivate"]
+				}
+			]
+		},
+		{
+			"title": "The Quest for Happiness: Philosophical Views",
+			"fillBlanks": [
+				{
+					"stemText": "The pursuit of happiness is a universal human ___, yet what constitutes happiness has been a subject of philosophical debate for millennia.",
+					"answerKeys": ["endeavor"]
+				},
+				{
+					"stemText": "In contrast, Aristotle introduced 'eudaimonia,' often translated as '___' or 'living well.'",
+					"answerKeys": ["flourishing"]
+				},
+				{
+					"stemText": "The philosophical journey reveals that it's a complex, ___ concept, influenced by individual values, cultural context, and personal experiences.",
+					"answerKeys": ["multifaceted"]
+				}
+			]
+		},
+		{
+			"title": "Language: The Fabric of Identity",
+			"fillBlanks": [
+				{
+					"stemText": "Language is far more than just a tool for communication; it is a fundamental pillar of identity, deeply ___ with culture, heritage, and a sense of self.",
+					"answerKeys": ["intertwined"]
+				},
+				{
+					"stemText": "For example, the Vietnamese language, with its ___ system of honorifics, reflects a deep cultural emphasis on respect for elders and social hierarchy.",
+					"answerKeys": ["intricate"]
+				},
+				{
+					"stemText": "Recognizing language as a core component of identity ___ the importance of linguistic diversity and the continuous effort to nurture and protect the languages that define us.",
+					"answerKeys": ["underscores"]
+				}
+			]
+		},
+		{
+			"title": "Understanding Human Choices: An Introduction to Behavioral Economics",
+			"fillBlanks": [
+				{
+					"stemText": "However, the emerging field of behavioral economics challenges this assumption by ___ insights from psychology.",
+					"answerKeys": ["integrating"]
+				},
+				{
+					"stemText": "The way the information is framed influences our ___ of risk and benefit.",
+					"answerKeys": ["perception"]
+				},
+				{
+					"stemText": "Behavioral economics also explores 'nudges' – subtle ___ that guide people towards better decisions without restricting their freedom of choice.",
+					"answerKeys": ["interventions"]
+				}
+			]
+		},
+		{
+			"title": "The Road Ahead: Challenges for Renewable Energy",
+			"fillBlanks": [
+				{
+					"stemText": "The global shift towards renewable energy sources like solar, wind, and hydropower is crucial for ___ climate change and ensuring a sustainable future.",
+					"answerKeys": ["combating"]
+				},
+				{
+					"stemText": "Consequently, developing efficient and affordable energy storage solutions, such as advanced batteries, is ___ to overcoming this issue.",
+					"answerKeys": ["paramount"]
+				},
+				{
+					"stemText": "Addressing these issues requires ___ in materials science and responsible supply chain management.",
+					"answerKeys": ["innovation"]
+				}
+			]
+		},
+		{
+			"title": "Achieving Balance: Gender Equality in the Workplace",
+			"fillBlanks": [
+				{
+					"stemText": "Gender equality in the workplace is not merely a matter of fairness; it is a ___ driver of economic growth and societal progress.",
+					"answerKeys": ["fundamental"]
+				},
+				{
+					"stemText": "This disparity is often ___ by the 'glass ceiling,' an invisible barrier that prevents women from reaching senior leadership positions.",
+					"answerKeys": ["compounded"]
+				},
+				{
+					"stemText": "By fostering inclusive environments, workplaces can become more ___, productive, and ultimately, more successful for everyone.",
+					"answerKeys": ["equitable"]
+				}
+			]
+		},
+		{
+			"title": "Global Movement: Understanding International Migration",
+			"fillBlanks": [
+				{
+					"stemText": "Millions choose to leave their home countries each year, driven by a complex ___ of 'push' and 'pull' factors.",
+					"answerKeys": ["interplay"]
+				},
+				{
+					"stemText": "Conversely, 'push' factors include lack of employment, poverty, or limited ___ in their home countries.",
+					"answerKeys": ["prospects"]
+				},
+				{
+					"stemText": "Managing international migration effectively requires ___ policies that balance economic needs, humanitarian concerns, and social integration.",
+					"answerKeys": ["comprehensive"]
+				}
+			]
+		},
+		{
+			"title": "Art's Powerful Voice: Commentary on Society",
+			"fillBlanks": [
+				{
+					"stemText": "It serves as a ___ form of social commentary, reflecting the times, challenging norms, and giving voice to the voiceless.",
+					"answerKeys": ["potent"]
+				},
+				{
+					"stemText": "By presenting alternative viewpoints or ___ uncomfortable truths, artists can force audiences to confront issues they might otherwise ignore.",
+					"answerKeys": ["depicting"]
+				},
+				{
+					"stemText": "It ___ language barriers and cultural divides, making complex social issues accessible and relatable.",
+					"answerKeys": ["transcends"]
+				}
+			]
+		},
+		{
+			"title": "Unlocking the Brain: The Neuroscience of Learning",
+			"fillBlanks": [
+				{
+					"stemText": "The human brain is an ___ organ, constantly adapting and reorganizing itself in response to new experiences.",
+					"answerKeys": ["extraordinary"]
+				},
+				{
+					"stemText": "Sleep also plays a vital role in ___ memories, making adequate rest crucial for effective learning.",
+					"answerKeys": ["consolidating"]
+				},
+				{
+					"stemText": "By applying insights from neuroscience, educators can design more effective curricula and teaching methods, empowering learners to ___ their brain's incredible capacity for growth and knowledge acquisition.",
+					"answerKeys": ["harness"]
+				}
+			]
+		},
+		{
+			"title": "Addressing Global Health Challenges Together",
+			"fillBlanks": [
+				{
+					"stemText": "In an increasingly interconnected world, a health threat in one region can rapidly become a global concern, as ___ demonstrated by the COVID-19 pandemic.",
+					"answerKeys": ["vividly"]
+				},
+				{
+					"stemText": "Factors like poverty, lack of access to clean water and sanitation, and inadequate healthcare infrastructure ___ these disparities, particularly in developing countries.",
+					"answerKeys": ["exacerbate"]
+				},
+				{
+					"stemText": "Effective global health ___, including strong international organizations and agreements, is essential.",
+					"answerKeys": ["governance"]
+				}
+			]
+		}
+	]
+}
