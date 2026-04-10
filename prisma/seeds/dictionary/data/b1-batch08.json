@@ -1,0 +1,923 @@
+[
+	{
+		"headword": "media",
+		"pos": "noun",
+		"ipa": "/ˈmiːdiə/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Television, radio, newspapers, and the internet for information",
+				"viDef": "truyền thông",
+				"synonyms": ["press", "news"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The story was widely reported in the national media.",
+						"viText": "Câu chuyện đã được đưa tin rộng rãi trên các phương tiện truyền thông quốc gia."
+					},
+					{
+						"text": "Social media has changed how we communicate.",
+						"viText": "Mạng xã hội đã thay đổi cách chúng ta giao tiếp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mass media",
+						"meaning": "Communication that reaches very large numbers of people",
+						"viMeaning": "truyền thông đại chúng",
+						"example": "Television is still a powerful mass media tool.",
+						"viExample": "Truyền hình vẫn là một công cụ truyền thông đại chúng mạnh mẽ."
+					},
+					{
+						"phrase": "media coverage",
+						"meaning": "The amount of attention news gives to a story",
+						"viMeaning": "sự đưa tin của truyền thông",
+						"example": "The event received extensive media coverage.",
+						"viExample": "Sự kiện đã nhận được sự đưa tin rộng rãi từ truyền thông."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "content",
+		"pos": "noun",
+		"ipa": "/ˈkɒntent/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The information or ideas that are in a book or website",
+				"viDef": "nội dung",
+				"synonyms": ["subject matter", "material"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The website provides high-quality educational content.",
+						"viText": "Trang web cung cấp nội dung giáo dục chất lượng cao."
+					},
+					{
+						"text": "I was surprised by the content of the letter.",
+						"viText": "Tôi đã ngạc nhiên trước nội dung của bức thư."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "digital content",
+						"meaning": "Information stored in electronic formats",
+						"viMeaning": "nội dung số",
+						"example": "He creates digital content for a living.",
+						"viExample": "Anh ấy kiếm sống bằng việc tạo nội dung số."
+					},
+					{
+						"phrase": "content creator",
+						"meaning": "Someone who produces material for the internet",
+						"viMeaning": "người sáng tạo nội dung",
+						"example": "She is a popular content creator on YouTube.",
+						"viExample": "Cô ấy là một người sáng tạo nội dung nổi tiếng trên YouTube."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "publish",
+		"pos": "verb",
+		"ipa": "/ˈpʌblɪʃ/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "publisher", "pos": "noun" },
+			{ "form": "publication", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To prepare and print a book or magazine for sale",
+				"viDef": "xuất bản",
+				"synonyms": ["issue", "print", "release"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The company publishes a wide range of textbooks.",
+						"viText": "Công ty xuất bản rất nhiều loại sách giáo khoa khác nhau."
+					},
+					{
+						"text": "Her first novel was published last year.",
+						"viText": "Cuốn tiểu thuyết đầu tay của cô ấy đã được xuất bản vào năm ngoái."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "publish an article",
+						"meaning": "To make a piece of writing available in news",
+						"viMeaning": "đăng một bài báo",
+						"example": "The scientist published an article in a major journal.",
+						"viExample": "Nhà khoa học đã đăng một bài báo trên một tạp chí lớn."
+					},
+					{
+						"phrase": "self-publish",
+						"meaning": "To pay to print your own book",
+						"viMeaning": "tự xuất bản",
+						"example": "Many authors choose to self-publish online.",
+						"viExample": "Nhiều tác giả chọn cách tự xuất bản trực tuyến."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "broadcast",
+		"pos": "verb",
+		"ipa": "/ˈbrɔːdkɑːst/",
+		"cefrLevel": "B1",
+		"frequency": 3600,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "broadcast", "pos": "noun" },
+			{ "form": "broadcaster", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To send out programs on television or radio",
+				"viDef": "phát sóng",
+				"synonyms": ["air", "transmit"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The interview was broadcast live across the country.",
+						"viText": "Cuộc phỏng vấn đã được phát sóng trực tiếp trên khắp cả nước."
+					},
+					{
+						"text": "The BBC broadcasts news 24 hours a day.",
+						"viText": "BBC phát sóng tin tức 24 giờ một ngày."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "broadcast live",
+						"meaning": "To air a program as it happens",
+						"viMeaning": "phát sóng trực tiếp",
+						"example": "The concert will be broadcast live on Saturday.",
+						"viExample": "Buổi hòa nhạc sẽ được phát sóng trực tiếp vào thứ Bảy."
+					},
+					{
+						"phrase": "radio broadcast",
+						"meaning": "A program sent over radio waves",
+						"viMeaning": "buổi phát thanh",
+						"example": "I listened to the radio broadcast of the game.",
+						"viExample": "Tôi đã nghe buổi phát thanh trực tiếp trận đấu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "journalist",
+		"pos": "noun",
+		"ipa": "/ˈdʒɜːnəlɪst/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "journalism", "pos": "noun" },
+			{ "form": "journalistic", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person whose job is to collect and write news",
+				"viDef": "nhà báo, phóng viên",
+				"synonyms": ["reporter", "correspondent"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The journalist interviewed the president yesterday.",
+						"viText": "Nhà báo đã phỏng vấn tổng thống vào ngày hôm qua."
+					},
+					{
+						"text": "She wants to be an investigative journalist.",
+						"viText": "Cô ấy muốn trở thành một nhà báo điều tra."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "freelance journalist",
+						"meaning": "A writer not employed by one specific organization",
+						"viMeaning": "nhà báo tự do",
+						"example": "He works as a freelance journalist for several magazines.",
+						"viExample": "Anh ấy làm việc như một nhà báo tự do cho một vài tờ tạp chí."
+					},
+					{
+						"phrase": "award-winning journalist",
+						"meaning": "A reporter who has received prizes for work",
+						"viMeaning": "nhà báo từng đoạt giải thưởng",
+						"example": "She is a highly respected, award-winning journalist.",
+						"viExample": "Cô ấy là một nhà báo từng đoạt giải thưởng và rất được kính trọng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "audience",
+		"pos": "noun",
+		"ipa": "/ˈɔːdiəns/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The group of people who watch or listen to something",
+				"viDef": "khán giả, thính giả",
+				"synonyms": ["viewers", "listeners", "spectators"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The audience cheered at the end of the play.",
+						"viText": "Khán giả đã reo hò khi vở kịch kết thúc."
+					},
+					{
+						"text": "The television show has a very large audience.",
+						"viText": "Chương trình truyền hình này có lượng khán giả rất lớn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "target audience",
+						"meaning": "The specific group a product is intended for",
+						"viMeaning": "khán giả mục tiêu",
+						"example": "The target audience for the movie is teenagers.",
+						"viExample": "Khán giả mục tiêu của bộ phim là thanh thiếu niên."
+					},
+					{
+						"phrase": "wide audience",
+						"meaning": "A large and diverse group of people",
+						"viMeaning": "khán giả rộng rãi",
+						"example": "His books reach a very wide audience.",
+						"viExample": "Những cuốn sách của ông tiếp cận được một lượng khán giả rất rộng rãi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "source",
+		"pos": "noun",
+		"ipa": "/sɔːs/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person or thing that provides information",
+				"viDef": "nguồn tin, nguồn",
+				"synonyms": ["origin", "root", "provider"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The journalist refused to name her source.",
+						"viText": "Nhà báo đã từ chối nêu tên nguồn tin của mình."
+					},
+					{
+						"text": "Oranges are a good source of vitamin C.",
+						"viText": "Cam là một nguồn cung cấp vitamin C dồi dào."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reliable source",
+						"meaning": "A provider of information that can be trusted",
+						"viMeaning": "nguồn tin tin cậy",
+						"example": "I got this information from a reliable source.",
+						"viExample": "Tôi có được thông tin này từ một nguồn tin tin cậy."
+					},
+					{
+						"phrase": "energy source",
+						"meaning": "Something used to provide power",
+						"viMeaning": "nguồn năng lượng",
+						"example": "Solar power is a renewable energy source.",
+						"viExample": "Năng lượng mặt trời là một nguồn năng lượng tái tạo."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "reference",
+		"pos": "noun",
+		"ipa": "/ˈrefrəns/",
+		"cefrLevel": "B1",
+		"frequency": 3150,
+		"isCommon": false,
+		"wordForms": [{ "form": "refer", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A mention of something or a source of information",
+				"viDef": "sự tham chiếu, tài liệu tham khảo",
+				"synonyms": ["mention", "citation", "allusion"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He made a brief reference to the project.",
+						"viText": "Anh ấy đã đề cập ngắn gọn đến dự án."
+					},
+					{
+						"text": "You should list all your references at the end.",
+						"viText": "Bạn nên liệt kê tất cả các tài liệu tham khảo của mình ở cuối."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reference book",
+						"meaning": "A book used to find specific information",
+						"viMeaning": "sách tham khảo",
+						"example": "A dictionary is a common reference book.",
+						"viExample": "Từ điển là một loại sách tham khảo phổ biến."
+					},
+					{
+						"phrase": "for future reference",
+						"meaning": "Kept to be looked at later",
+						"viMeaning": "để tham khảo sau này",
+						"example": "Keep this document for future reference.",
+						"viExample": "Hãy giữ tài liệu này để tham khảo sau này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "global",
+		"pos": "adjective",
+		"ipa": "/ˈɡləʊbl/",
+		"cefrLevel": "B1",
+		"frequency": 3040,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "globally", "pos": "adverb" },
+			{ "form": "globalize", "pos": "verb" },
+			{ "form": "globalization", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the whole world",
+				"viDef": "toàn cầu",
+				"synonyms": ["worldwide", "international", "universal"],
+				"antonyms": ["local", "regional"],
+				"examples": [
+					{
+						"text": "Global warming is a serious problem for everyone.",
+						"viText": "Nóng lên toàn cầu là một vấn đề nghiêm trọng đối với tất cả mọi người."
+					},
+					{ "text": "English is a global language.", "viText": "Tiếng Anh là một ngôn ngữ toàn cầu." }
+				],
+				"collocations": [
+					{
+						"phrase": "global economy",
+						"meaning": "The system of trade throughout the world",
+						"viMeaning": "kinh tế toàn cầu",
+						"example": "The global economy is interconnected.",
+						"viExample": "Nền kinh tế toàn cầu có sự kết nối lẫn nhau."
+					},
+					{
+						"phrase": "global issue",
+						"meaning": "A problem that affects many countries",
+						"viMeaning": "vấn đề toàn cầu",
+						"example": "Pollution is a major global issue.",
+						"viExample": "Ô nhiễm là một vấn đề toàn cầu lớn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "national",
+		"pos": "adjective",
+		"ipa": "/ˈnæʃnəl/",
+		"cefrLevel": "B1",
+		"frequency": 3010,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "nationally", "pos": "adverb" },
+			{ "form": "nation", "pos": "noun" },
+			{ "form": "nationality", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to a whole country",
+				"viDef": "quốc gia",
+				"synonyms": ["state", "domestic"],
+				"antonyms": ["local", "international"],
+				"examples": [
+					{ "text": "Today is a national holiday.", "viText": "Hôm nay là một ngày lễ quốc gia." },
+					{
+						"text": "The news was reported in the national press.",
+						"viText": "Tin tức đã được đưa tin trên báo chí quốc gia."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "national anthem",
+						"meaning": "The official song of a country",
+						"viMeaning": "quốc ca",
+						"example": "The crowd sang the national anthem.",
+						"viExample": "Đám đông đã hát vang bài quốc ca."
+					},
+					{
+						"phrase": "national security",
+						"meaning": "The safety of a country from attack",
+						"viMeaning": "an ninh quốc gia",
+						"example": "The information is vital for national security.",
+						"viExample": "Thông tin này cực kỳ quan trọng đối với an ninh quốc gia."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "international",
+		"pos": "adjective",
+		"ipa": "/ˌɪntəˈnæʃnəl/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [{ "form": "internationally", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Involving two or more countries",
+				"viDef": "quốc tế",
+				"synonyms": ["global", "worldwide"],
+				"antonyms": ["national", "local"],
+				"examples": [
+					{
+						"text": "She works for an international organization.",
+						"viText": "Cô ấy làm việc cho một tổ chức quốc tế."
+					},
+					{
+						"text": "London is a center for international trade.",
+						"viText": "London là một trung tâm thương mại quốc tế."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "international airport",
+						"meaning": "A place where planes go to other countries",
+						"viMeaning": "sân bay quốc tế",
+						"example": "We met at the international airport.",
+						"viExample": "Chúng tôi đã gặp nhau tại sân bay quốc tế."
+					},
+					{
+						"phrase": "international law",
+						"meaning": "Rules that govern relations between nations",
+						"viMeaning": "luật pháp quốc tế",
+						"example": "He is an expert in international law.",
+						"viExample": "Anh ấy là một chuyên gia về luật pháp quốc tế."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "social",
+		"pos": "adjective",
+		"ipa": "/ˈsəʊʃl/",
+		"cefrLevel": "B1",
+		"frequency": 3015,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "socially", "pos": "adverb" },
+			{ "form": "socialize", "pos": "verb" },
+			{ "form": "society", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to society and the way it is organized",
+				"viDef": "xã hội",
+				"synonyms": ["communal", "public"],
+				"antonyms": ["private"],
+				"examples": [
+					{
+						"text": "Unemployment is a major social problem.",
+						"viText": "Thất nghiệp là một vấn đề xã hội lớn."
+					},
+					{
+						"text": "They have a very active social life.",
+						"viText": "Họ có một đời sống xã hội rất năng động."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "social media",
+						"meaning": "Websites used for social networking",
+						"viMeaning": "mạng xã hội",
+						"example": "I check social media every morning.",
+						"viExample": "Tôi kiểm tra mạng xã hội mỗi sáng."
+					},
+					{
+						"phrase": "social skills",
+						"meaning": "The ability to interact with others well",
+						"viMeaning": "kỹ năng xã hội",
+						"example": "Playing sports helps children develop social skills.",
+						"viExample": "Chơi thể thao giúp trẻ em phát triển các kỹ năng xã hội."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "cultural",
+		"pos": "adjective",
+		"ipa": "/ˈkʌltʃərəl/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "culturally", "pos": "adverb" },
+			{ "form": "culture", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the habits, traditions, and beliefs of society",
+				"viDef": "văn hóa",
+				"synonyms": ["artistic", "ethnic"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The city has many cultural attractions like museums.",
+						"viText": "Thành phố có nhiều điểm tham quan văn hóa như bảo tàng."
+					},
+					{
+						"text": "There are deep cultural differences between the two countries.",
+						"viText": "Có những sự khác biệt văn hóa sâu sắc giữa hai nước."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "cultural heritage",
+						"meaning": "Traditions and objects passed down in a culture",
+						"viMeaning": "di sản văn hóa",
+						"example": "We must protect our cultural heritage.",
+						"viExample": "Chúng ta phải bảo vệ di sản văn hóa của mình."
+					},
+					{
+						"phrase": "cultural identity",
+						"meaning": "A sense of belonging to a specific group",
+						"viMeaning": "bản sắc văn hóa",
+						"example": "Language is central to cultural identity.",
+						"viExample": "Ngôn ngữ là trung tâm của bản sắc văn hóa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "political",
+		"pos": "adjective",
+		"ipa": "/pəˈlɪtɪkl/",
+		"cefrLevel": "B1",
+		"frequency": 3030,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "politically", "pos": "adverb" },
+			{ "form": "politics", "pos": "noun" },
+			{ "form": "politician", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the government or public affairs of a country",
+				"viDef": "chính trị",
+				"synonyms": ["governmental", "civic"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He is very interested in political issues.",
+						"viText": "Anh ấy rất quan tâm đến các vấn đề chính trị."
+					},
+					{
+						"text": "The country is facing a political crisis.",
+						"viText": "Đất nước đang đối mặt với một cuộc khủng hoảng chính trị."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "political party",
+						"meaning": "An organized group that seeks government power",
+						"viMeaning": "đảng phái chính trị",
+						"example": "Which political party do you support?",
+						"viExample": "Bạn ủng hộ đảng phái chính trị nào?"
+					},
+					{
+						"phrase": "political leader",
+						"meaning": "Someone who heads a government or party",
+						"viMeaning": "nhà lãnh đạo chính trị",
+						"example": "World political leaders met to discuss peace.",
+						"viExample": "Các nhà lãnh đạo chính trị thế giới đã gặp nhau để thảo luận về hòa bình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "economic",
+		"pos": "adjective",
+		"ipa": "/ˌiːkəˈnɒmɪk/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "economically", "pos": "adverb" },
+			{ "form": "economy", "pos": "noun" },
+			{ "form": "economics", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to trade, industry, and money",
+				"viDef": "kinh tế",
+				"synonyms": ["financial", "monetary", "commercial"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The country is showing signs of economic growth.",
+						"viText": "Đất nước đang cho thấy những dấu hiệu của sự tăng trưởng kinh tế."
+					},
+					{
+						"text": "The government is changing its economic policy.",
+						"viText": "Chính phủ đang thay đổi chính sách kinh tế của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "economic crisis",
+						"meaning": "A period of serious financial difficulty",
+						"viMeaning": "khủng hoảng kinh tế",
+						"example": "The world faced a major economic crisis in 2008.",
+						"viExample": "Thế giới đã đối mặt với một cuộc khủng hoảng kinh tế lớn vào năm 2008."
+					},
+					{
+						"phrase": "economic development",
+						"meaning": "The process where a country becomes wealthier",
+						"viMeaning": "phát triển kinh tế",
+						"example": "The region needs more economic development.",
+						"viExample": "Vùng này cần được phát triển kinh tế nhiều hơn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "environmental",
+		"pos": "adjective",
+		"ipa": "/ɪnˌvaɪrənˈmentl/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "environmentally", "pos": "adverb" },
+			{ "form": "environment", "pos": "noun" },
+			{ "form": "environmentalist", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the natural world and the air, water, land",
+				"viDef": "môi trường",
+				"synonyms": ["ecological", "natural"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We need to solve major environmental problems.",
+						"viText": "Chúng ta cần giải quyết các vấn đề môi trường lớn."
+					},
+					{
+						"text": "The project has an environmental impact.",
+						"viText": "Dự án có một tác động đến môi trường."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "environmental protection",
+						"meaning": "Keeping the natural world safe from harm",
+						"viMeaning": "bảo vệ môi trường",
+						"example": "Laws are needed for environmental protection.",
+						"viExample": "Cần có các bộ luật để bảo vệ môi trường."
+					},
+					{
+						"phrase": "environmental awareness",
+						"meaning": "Knowledge about nature and its problems",
+						"viMeaning": "nhận thức về môi trường",
+						"example": "The school promotes environmental awareness.",
+						"viExample": "Trường học thúc đẩy nhận thức về môi trường."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "physical",
+		"pos": "adjective",
+		"ipa": "/ˈfɪzɪkl/",
+		"cefrLevel": "B1",
+		"frequency": 3025,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "physically", "pos": "adverb" },
+			{ "form": "physicist", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the body rather than the mind",
+				"viDef": "thể chất, vật lý",
+				"synonyms": ["bodily", "corporeal"],
+				"antonyms": ["mental", "spiritual"],
+				"examples": [
+					{ "text": "He is in good physical health.", "viText": "Anh ấy có sức khỏe thể chất tốt." },
+					{
+						"text": "The job requires a lot of physical strength.",
+						"viText": "Công việc đòi hỏi rất nhiều sức mạnh thể chất."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "physical appearance",
+						"meaning": "The way that someone or something looks",
+						"viMeaning": "ngoại hình",
+						"example": "She is very happy with her physical appearance.",
+						"viExample": "Cô ấy rất hạnh phúc với ngoại hình của mình."
+					},
+					{
+						"phrase": "physical activity",
+						"meaning": "Moving the body and using energy",
+						"viMeaning": "hoạt động thể chất",
+						"example": "Regular physical activity is good for you.",
+						"viExample": "Hoạt động thể chất thường xuyên rất tốt cho bạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "mental",
+		"pos": "adjective",
+		"ipa": "/ˈmentl/",
+		"cefrLevel": "B1",
+		"frequency": 3060,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "mentally", "pos": "adverb" },
+			{ "form": "mentality", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the mind and thinking",
+				"viDef": "tâm thần, trí tuệ",
+				"synonyms": ["intellectual", "psychological"],
+				"antonyms": ["physical"],
+				"examples": [
+					{
+						"text": "Chess is a game of mental skill.",
+						"viText": "Cờ vua là một trò chơi của kỹ năng trí tuệ."
+					},
+					{
+						"text": "Mental health is just as important as physical health.",
+						"viText": "Sức khỏe tâm thần cũng quan trọng như sức khỏe thể chất."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mental illness",
+						"meaning": "A condition that affects someone's mind",
+						"viMeaning": "bệnh tâm thần",
+						"example": "He is recovering from a serious mental illness.",
+						"viExample": "Anh ấy đang hồi phục sau một căn bệnh tâm thần nghiêm trọng."
+					},
+					{
+						"phrase": "mental health",
+						"meaning": "The state of someone's mind and feelings",
+						"viMeaning": "sức khỏe tâm thần",
+						"example": "Regular exercise can improve your mental health.",
+						"viExample": "Tập thể dục thường xuyên có thể cải thiện sức khỏe tâm thần của bạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "professional",
+		"pos": "adjective",
+		"ipa": "/prəˈfeʃənl/",
+		"cefrLevel": "B1",
+		"frequency": 3030,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "professionally", "pos": "adverb" },
+			{ "form": "professional", "pos": "noun" },
+			{ "form": "profession", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to a job that needs special training",
+				"viDef": "chuyên nghiệp",
+				"synonyms": ["expert", "trained", "skilled"],
+				"antonyms": ["amateur"],
+				"examples": [
+					{
+						"text": "She gave me some very professional advice.",
+						"viText": "Cô ấy đã cho tôi một vài lời khuyên rất chuyên nghiệp."
+					},
+					{
+						"text": "He has a very professional attitude toward his work.",
+						"viText": "Anh ấy có một thái độ rất chuyên nghiệp đối với công việc của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "professional qualification",
+						"meaning": "A certificate showing training for a job",
+						"viMeaning": "bằng cấp chuyên môn",
+						"example": "You need a professional qualification to teach.",
+						"viExample": "Bạn cần một bằng cấp chuyên môn để đi dạy."
+					},
+					{
+						"phrase": "professional athlete",
+						"meaning": "Someone paid to play a sport",
+						"viMeaning": "vận động viên chuyên nghiệp",
+						"example": "He dreams of becoming a professional athlete.",
+						"viExample": "Anh ấy mơ ước trở thành một vận động viên chuyên nghiệp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "technical",
+		"pos": "adjective",
+		"ipa": "/ˈteknɪkl/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "technically", "pos": "adverb" },
+			{ "form": "technique", "pos": "noun" },
+			{ "form": "technician", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to machines, industry, and practical science",
+				"viDef": "kỹ thuật",
+				"synonyms": ["mechanical", "technological"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The computer problem was due to a technical error.",
+						"viText": "Vấn đề máy tính là do một lỗi kỹ thuật."
+					},
+					{
+						"text": "The job requires a lot of technical knowledge.",
+						"viText": "Công việc đòi hỏi rất nhiều kiến thức kỹ thuật."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "technical support",
+						"meaning": "Help with using computer equipment",
+						"viMeaning": "hỗ trợ kỹ thuật",
+						"example": "Please call technical support if the screen freezes.",
+						"viExample": "Vui lòng gọi hỗ trợ kỹ thuật nếu màn hình bị đơ."
+					},
+					{
+						"phrase": "technical details",
+						"meaning": "The small exact parts of how something works",
+						"viMeaning": "chi tiết kỹ thuật",
+						"example": "I don't understand the technical details.",
+						"viExample": "Tôi không hiểu các chi tiết kỹ thuật."
+					}
+				]
+			}
+		]
+	}
+]

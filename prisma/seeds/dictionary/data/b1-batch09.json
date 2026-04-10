@@ -1,0 +1,926 @@
+[
+	{
+		"headword": "trend",
+		"pos": "noun",
+		"ipa": "/trend/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [{ "form": "trendy", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A general direction in which something is developing or changing",
+				"viDef": "xu hướng",
+				"synonyms": ["tendency", "movement", "drift"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "There is a growing trend towards healthier eating habits.",
+						"viText": "Đang có một xu hướng ngày càng tăng đối với thói quen ăn uống lành mạnh hơn."
+					},
+					{
+						"text": "Current economic trends suggest that prices will continue to rise.",
+						"viText": "Các xu hướng kinh tế hiện tại cho thấy giá cả sẽ tiếp tục tăng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "follow a trend",
+						"meaning": "To do what is currently popular",
+						"viMeaning": "theo xu hướng",
+						"example": "Many young people follow the latest fashion trends.",
+						"viExample": "Nhiều người trẻ chạy theo những xu hướng thời trang mới nhất."
+					},
+					{
+						"phrase": "set a trend",
+						"meaning": "To start a new fashion or way of behaving",
+						"viMeaning": "tạo ra xu hướng",
+						"example": "The brand aims to set a new trend in footwear.",
+						"viExample": "Thương hiệu đặt mục tiêu tạo ra một xu hướng mới về giày dép."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "pattern",
+		"pos": "noun",
+		"ipa": "/ˈpætn/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [{ "form": "patterned", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A regular and intelligible form or sequence discernible in things",
+				"viDef": "mẫu, quy luật",
+				"synonyms": ["sequence", "arrangement", "design"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Scientists are studying the pattern of the disease's spread.",
+						"viText": "Các nhà khoa học đang nghiên cứu quy luật lây lan của căn bệnh."
+					},
+					{
+						"text": "The wallpaper has a beautiful floral pattern.",
+						"viText": "Giấy dán tường có một mẫu hoa văn rất đẹp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "behavioral pattern",
+						"meaning": "A recurring way that someone acts",
+						"viMeaning": "mô thức hành vi",
+						"example": "Psychologists look for specific behavioral patterns.",
+						"viExample": "Các nhà tâm lý học tìm kiếm các mô thức hành vi cụ thể."
+					},
+					{
+						"phrase": "weather pattern",
+						"meaning": "Typical weather conditions in a region",
+						"viMeaning": "quy luật thời tiết",
+						"example": "Global warming is changing traditional weather patterns.",
+						"viExample": "Nóng lên toàn cầu đang thay đổi các quy luật thời tiết truyền thống."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "survey",
+		"pos": "noun",
+		"ipa": "/ˈsɜːveɪ/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "survey", "pos": "verb" },
+			{ "form": "surveyor", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An investigation of the opinions or experience of people",
+				"viDef": "cuộc khảo sát",
+				"synonyms": ["poll", "study", "review"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "A recent survey showed that most people prefer working from home.",
+						"viText": "Một cuộc khảo sát gần đây cho thấy hầu hết mọi người thích làm việc tại nhà."
+					},
+					{
+						"text": "We conducted a survey to find out what customers want.",
+						"viText": "Chúng tôi đã thực hiện một cuộc khảo sát để tìm hiểu khách hàng muốn gì."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "conduct a survey",
+						"meaning": "To carry out a study or poll",
+						"viMeaning": "tiến hành khảo sát",
+						"example": "The students conducted a survey on eating habits.",
+						"viExample": "Các sinh viên đã tiến hành một cuộc khảo sát về thói quen ăn uống."
+					},
+					{
+						"phrase": "survey results",
+						"meaning": "The information gathered from a survey",
+						"viMeaning": "kết quả khảo sát",
+						"example": "The survey results will be published next week.",
+						"viExample": "Kết quả khảo sát sẽ được công bố vào tuần tới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "data",
+		"pos": "noun",
+		"ipa": "/ˈdeɪtə/",
+		"cefrLevel": "B1",
+		"frequency": 3010,
+		"isCommon": false,
+		"wordForms": [{ "form": "database", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Facts and statistics collected together for reference or analysis",
+				"viDef": "dữ liệu",
+				"synonyms": ["information", "statistics", "facts"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The researchers are still collecting data for their project.",
+						"viText": "Các nhà nghiên cứu vẫn đang thu thập dữ liệu cho dự án của họ."
+					},
+					{
+						"text": "You need to back up your data regularly.",
+						"viText": "Bạn cần sao lưu dữ liệu của mình thường xuyên."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "raw data",
+						"meaning": "Information that has not been processed yet",
+						"viMeaning": "dữ liệu thô",
+						"example": "The raw data is stored in the computer.",
+						"viExample": "Dữ liệu thô được lưu trữ trong máy tính."
+					},
+					{
+						"phrase": "data analysis",
+						"meaning": "The process of examining information to find patterns",
+						"viMeaning": "phân tích dữ liệu",
+						"example": "Data analysis is a crucial part of the research.",
+						"viExample": "Phân tích dữ liệu là một phần quan trọng của nghiên cứu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "statistic",
+		"pos": "noun",
+		"ipa": "/stəˈtɪstɪk/",
+		"cefrLevel": "B1",
+		"frequency": 4200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "statistics", "pos": "noun" },
+			{ "form": "statistical", "pos": "adjective" },
+			{ "form": "statistically", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A fact or piece of data from a study of large quantities",
+				"viDef": "số liệu thống kê",
+				"synonyms": ["figure", "datum", "number"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The government published the latest employment statistics.",
+						"viText": "Chính phủ đã công bố các số liệu thống kê việc làm mới nhất."
+					},
+					{
+						"text": "It is important to look at the statistics carefully.",
+						"viText": "Việc xem xét các số liệu thống kê một cách cẩn thận là rất quan trọng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "official statistics",
+						"meaning": "Data provided by a government or organization",
+						"viMeaning": "thống kê chính thức",
+						"example": "Official statistics show a decrease in crime.",
+						"viExample": "Thống kê chính thức cho thấy sự sụt giảm trong tội phạm."
+					},
+					{
+						"phrase": "vital statistics",
+						"meaning": "Data relating to births, deaths, and marriages",
+						"viMeaning": "thống kê hộ tịch",
+						"example": "The office maintains all vital statistics for the city.",
+						"viExample": "Văn phòng duy trì tất cả các thống kê hộ tịch của thành phố."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "percentage",
+		"pos": "noun",
+		"ipa": "/pəˈsentɪdʒ/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [{ "form": "percent", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A rate, number, or amount in each hundred",
+				"viDef": "tỷ lệ phần trăm",
+				"synonyms": ["proportion", "share", "portion"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "A high percentage of students passed the exam.",
+						"viText": "Một tỷ lệ phần trăm cao sinh viên đã vượt qua kỳ thi."
+					},
+					{
+						"text": "What percentage of the population lives in cities?",
+						"viText": "Bao nhiêu phần trăm dân số sống ở các thành phố?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "high percentage",
+						"meaning": "A large part of a total amount",
+						"viMeaning": "tỷ lệ cao",
+						"example": "There is a high percentage of sugar in this drink.",
+						"viExample": "Có một tỷ lệ đường cao trong loại đồ uống này."
+					},
+					{
+						"phrase": "small percentage",
+						"meaning": "A tiny part of a total amount",
+						"viMeaning": "tỷ lệ nhỏ",
+						"example": "Only a small percentage of people voted.",
+						"viExample": "Chỉ có một tỷ lệ nhỏ người dân đã đi bỏ phiếu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "figure",
+		"pos": "noun",
+		"ipa": "/ˈfɪɡə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3040,
+		"isCommon": false,
+		"wordForms": [{ "form": "figure", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A number representing an amount, especially in official data",
+				"viDef": "con số, số liệu",
+				"synonyms": ["number", "amount", "statistic"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The latest unemployment figures are better than expected.",
+						"viText": "Các con số thất nghiệp mới nhất tốt hơn mong đợi."
+					},
+					{
+						"text": "Write the figure in both words and numbers.",
+						"viText": "Hãy viết con số đó bằng cả chữ và số."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sales figures",
+						"meaning": "Data showing how much a company has sold",
+						"viMeaning": "con số doanh thu",
+						"example": "Our sales figures have improved this month.",
+						"viExample": "Con số doanh thu của chúng tôi đã cải thiện trong tháng này."
+					},
+					{
+						"phrase": "double figures",
+						"meaning": "Numbers between 10 and 99",
+						"viMeaning": "con số hàng chục",
+						"example": "Inflation reached double figures last year.",
+						"viExample": "Lạm phát đã đạt mức hai con số vào năm ngoái."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "comparison",
+		"pos": "noun",
+		"ipa": "/kəmˈpærɪsn/",
+		"cefrLevel": "B1",
+		"frequency": 3400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "compare", "pos": "verb" },
+			{ "form": "comparable", "pos": "adjective" },
+			{ "form": "comparative", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An examination of two things to see how they differ",
+				"viDef": "sự so sánh",
+				"synonyms": ["contrast", "analogy", "correlation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "A comparison of the two products shows many differences.",
+						"viText": "Một sự so sánh giữa hai sản phẩm cho thấy nhiều điểm khác biệt."
+					},
+					{
+						"text": "There is no comparison between the old and new models.",
+						"viText": "Không có sự so sánh nào giữa mẫu cũ và mẫu mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make a comparison",
+						"meaning": "To look at how things are different or similar",
+						"viMeaning": "thực hiện so sánh",
+						"example": "It is difficult to make a fair comparison.",
+						"viExample": "Thật khó để thực hiện một sự so sánh công bằng."
+					},
+					{
+						"phrase": "by comparison",
+						"meaning": "When compared to something else",
+						"viMeaning": "khi so sánh với",
+						"example": "The second film was poor by comparison.",
+						"viExample": "Bộ phim thứ hai thật tệ khi so sánh với nó."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "difference",
+		"pos": "noun",
+		"ipa": "/ˈdɪfrəns/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "different", "pos": "adjective" },
+			{ "form": "differ", "pos": "verb" },
+			{ "form": "differently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A way in which people or things are not the same",
+				"viDef": "sự khác biệt",
+				"synonyms": ["dissimilarity", "variation", "gap"],
+				"antonyms": ["similarity", "likeness"],
+				"examples": [
+					{
+						"text": "There is a huge difference between these two cars.",
+						"viText": "Có một sự khác biệt khổng lồ giữa hai chiếc xe này."
+					},
+					{
+						"text": "I can't see any difference in the quality.",
+						"viText": "Tôi không thấy bất kỳ sự khác biệt nào về chất lượng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make a difference",
+						"meaning": "To have an effect on a situation",
+						"viMeaning": "tạo ra sự khác biệt",
+						"example": "Your help will really make a difference.",
+						"viExample": "Sự giúp đỡ của bạn sẽ thực sự tạo ra sự khác biệt."
+					},
+					{
+						"phrase": "tell the difference",
+						"meaning": "To notice how things are not the same",
+						"viMeaning": "phân biệt sự khác nhau",
+						"example": "It is hard to tell the difference between them.",
+						"viExample": "Thật khó để phân biệt sự khác nhau giữa chúng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "similarity",
+		"pos": "noun",
+		"ipa": "/ˌsɪməˈlærəti/",
+		"cefrLevel": "B1",
+		"frequency": 4300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "similar", "pos": "adjective" },
+			{ "form": "similarly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The state of being like someone or something else",
+				"viDef": "sự tương đồng",
+				"synonyms": ["likeness", "resemblance", "agreement"],
+				"antonyms": ["difference", "dissimilarity"],
+				"examples": [
+					{
+						"text": "There are some striking similarities between the two stories.",
+						"viText": "Có một vài sự tương đồng nổi bật giữa hai câu chuyện."
+					},
+					{
+						"text": "I noticed a similarity in their voices.",
+						"viText": "Tôi đã nhận thấy một sự tương đồng trong giọng nói của họ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "striking similarity",
+						"meaning": "A very noticeable or unusual likeness",
+						"viMeaning": "sự tương đồng nổi bật",
+						"example": "There is a striking similarity between father and son.",
+						"viExample": "Có một sự tương đồng nổi bật giữa cha và con trai."
+					},
+					{
+						"phrase": "bear a similarity",
+						"meaning": "To be similar to something else",
+						"viMeaning": "có điểm tương đồng",
+						"example": "The new house bears a similarity to our old one.",
+						"viExample": "Ngôi nhà mới có điểm tương đồng với ngôi nhà cũ của chúng tôi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "urban",
+		"pos": "adjective",
+		"ipa": "/ˈɜːbən/",
+		"cefrLevel": "B1",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [{ "form": "urbanization", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to a town or city",
+				"viDef": "thuộc đô thị, thành phố",
+				"synonyms": ["city", "metropolitan", "town"],
+				"antonyms": ["rural"],
+				"examples": [
+					{
+						"text": "Many people are moving to urban areas for better jobs.",
+						"viText": "Nhiều người đang chuyển đến các khu vực đô thị để có công việc tốt hơn."
+					},
+					{
+						"text": "Pollution is a major problem in urban environments.",
+						"viText": "Ô nhiễm là một vấn đề lớn trong môi trường đô thị."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "urban area",
+						"meaning": "A region that is developed and built up",
+						"viMeaning": "khu vực đô thị",
+						"example": "Most of the population lives in urban areas.",
+						"viExample": "Hầu hết dân số sống ở các khu vực đô thị."
+					},
+					{
+						"phrase": "urban planning",
+						"meaning": "The designing of cities and towns",
+						"viMeaning": "quy hoạch đô thị",
+						"example": "He works in urban planning for the government.",
+						"viExample": "Anh ấy làm việc trong ngành quy hoạch đô thị cho chính phủ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "rural",
+		"pos": "adjective",
+		"ipa": "/ˈrʊərəl/",
+		"cefrLevel": "B1",
+		"frequency": 3600,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the countryside rather than a town",
+				"viDef": "thuộc nông thôn",
+				"synonyms": ["country", "rustic", "pastoral"],
+				"antonyms": ["urban"],
+				"examples": [
+					{
+						"text": "They live in a small rural community.",
+						"viText": "Họ sống trong một cộng đồng nông thôn nhỏ."
+					},
+					{
+						"text": "Rural life is often slower than city life.",
+						"viText": "Cuộc sống nông thôn thường chậm hơn cuộc sống thành phố."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "rural area",
+						"meaning": "The countryside outside of towns or cities",
+						"viMeaning": "khu vực nông thôn",
+						"example": "Public transport is limited in rural areas.",
+						"viExample": "Giao thông công cộng bị hạn chế ở các khu vực nông thôn."
+					},
+					{
+						"phrase": "rural development",
+						"meaning": "Improving the quality of life in the countryside",
+						"viMeaning": "phát triển nông thôn",
+						"example": "The government is investing in rural development.",
+						"viExample": "Chính phủ đang đầu tư vào phát triển nông thôn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "population",
+		"pos": "noun",
+		"ipa": "/ˌpɒpjuˈleɪʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3025,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "populate", "pos": "verb" },
+			{ "form": "populated", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "All the people who live in a particular area",
+				"viDef": "dân số",
+				"synonyms": ["people", "inhabitants", "community"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The world's population is increasing rapidly.",
+						"viText": "Dân số thế giới đang tăng lên nhanh chóng."
+					},
+					{
+						"text": "Most of the population lives in the south.",
+						"viText": "Hầu hết dân số sống ở miền nam."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "growing population",
+						"meaning": "An increasing number of people in a region",
+						"viMeaning": "dân số đang tăng",
+						"example": "A growing population needs more resources.",
+						"viExample": "Một dân số đang tăng cần nhiều nguồn lực hơn."
+					},
+					{
+						"phrase": "population density",
+						"meaning": "The number of people living per square unit",
+						"viMeaning": "mật độ dân số",
+						"example": "The city has a very high population density.",
+						"viExample": "Thành phố có mật độ dân số rất cao."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "region",
+		"pos": "noun",
+		"ipa": "/ˈriːdʒən/",
+		"cefrLevel": "B1",
+		"frequency": 3030,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "regional", "pos": "adjective" },
+			{ "form": "regionally", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A particular area or part of a country",
+				"viDef": "vùng, khu vực",
+				"synonyms": ["area", "district", "zone"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "This region is famous for its beautiful mountains.",
+						"viText": "Vùng này nổi tiếng với những ngọn núi tuyệt đẹp."
+					},
+					{
+						"text": "Floods are common in the coastal region.",
+						"viText": "Lũ lụt thường xuyên xảy ra ở vùng ven biển."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mountainous region",
+						"meaning": "An area characterized by many mountains",
+						"viMeaning": "vùng núi",
+						"example": "He grew up in a mountainous region.",
+						"viExample": "Anh ấy lớn lên ở một vùng núi."
+					},
+					{
+						"phrase": "remote region",
+						"meaning": "An area that is far from cities",
+						"viMeaning": "vùng xa xôi",
+						"example": "The village is located in a remote region.",
+						"viExample": "Ngôi làng nằm ở một vùng xa xôi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "authority",
+		"pos": "noun",
+		"ipa": "/ɔːˈθɒrəti/",
+		"cefrLevel": "B1",
+		"frequency": 3060,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "authoritarian", "pos": "adjective" },
+			{ "form": "authorize", "pos": "verb" },
+			{ "form": "authoritative", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The power or right to give orders and decisions",
+				"viDef": "quyền lực, chính quyền",
+				"synonyms": ["power", "command", "control"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He has no authority to make that decision.",
+						"viText": "Anh ta không có thẩm quyền để đưa ra quyết định đó."
+					},
+					{
+						"text": "The local authority decided to close the park.",
+						"viText": "Chính quyền địa phương đã quyết định đóng cửa công viên."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "local authority",
+						"meaning": "The government of a specific town or area",
+						"viMeaning": "chính quyền địa phương",
+						"example": "You should contact your local authority.",
+						"viExample": "Bạn nên liên hệ với chính quyền địa phương."
+					},
+					{
+						"phrase": "position of authority",
+						"meaning": "A job that gives someone power",
+						"viMeaning": "vị trí có thẩm quyền",
+						"example": "She is in a position of authority at the firm.",
+						"viExample": "Cô ấy đang ở một vị trí có thẩm quyền tại công ty."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "regulation",
+		"pos": "noun",
+		"ipa": "/ˌreɡjuˈleɪʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "regulate", "pos": "verb" },
+			{ "form": "regulatory", "pos": "adjective" },
+			{ "form": "regulator", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An official rule made by a government or authority",
+				"viDef": "quy định, quy tắc",
+				"synonyms": ["rule", "law", "directive"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The new safety regulations will be introduced next month.",
+						"viText": "Các quy định an toàn mới sẽ được đưa vào thực hiện vào tháng tới."
+					},
+					{
+						"text": "It is against the regulations to smoke here.",
+						"viText": "Hút thuốc ở đây là vi phạm quy định."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "safety regulation",
+						"meaning": "A rule designed to prevent injury",
+						"viMeaning": "quy định an toàn",
+						"example": "The factory must follow strict safety regulations.",
+						"viExample": "Nhà máy phải tuân theo các quy định an toàn nghiêm ngặt."
+					},
+					{
+						"phrase": "strict regulation",
+						"meaning": "A rule that is very firm",
+						"viMeaning": "quy định nghiêm ngặt",
+						"example": "There are strict regulations on food imports.",
+						"viExample": "Có những quy định nghiêm ngặt về việc nhập khẩu thực phẩm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "permission",
+		"pos": "noun",
+		"ipa": "/pəˈmɪʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3070,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "permit", "pos": "verb" },
+			{ "form": "permissive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The act of allowing someone to do something",
+				"viDef": "sự cho phép",
+				"synonyms": ["consent", "approval", "authorization"],
+				"antonyms": ["refusal", "prohibition"],
+				"examples": [
+					{
+						"text": "You need written permission from your parents.",
+						"viText": "Bạn cần có sự cho phép bằng văn bản từ bố mẹ."
+					},
+					{
+						"text": "He did it without my permission.",
+						"viText": "Anh ta đã làm việc đó mà không có sự cho phép của tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ask permission",
+						"meaning": "To request to do something",
+						"viMeaning": "xin phép",
+						"example": "You should ask permission before using my computer.",
+						"viExample": "Bạn nên xin phép trước khi sử dụng máy tính của tôi."
+					},
+					{
+						"phrase": "grant permission",
+						"meaning": "To officially allow something",
+						"viMeaning": "cấp phép",
+						"example": "The city granted permission to build the bridge.",
+						"viExample": "Thành phố đã cấp phép xây dựng cây cầu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "agreement",
+		"pos": "noun",
+		"ipa": "/əˈɡriːmənt/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "agree", "pos": "verb" },
+			{ "form": "agreeable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A decision or arrangement made between two or more people",
+				"viDef": "sự đồng ý, thỏa thuận",
+				"synonyms": ["contract", "deal", "pact"],
+				"antonyms": ["disagreement"],
+				"examples": [
+					{
+						"text": "The two companies have signed an agreement to merge.",
+						"viText": "Hai công ty đã ký một thỏa thuận sáp nhập."
+					},
+					{
+						"text": "We are in total agreement about the plan.",
+						"viText": "Chúng tôi hoàn toàn đồng ý về kế hoạch này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reach an agreement",
+						"meaning": "To successfully find common ground",
+						"viMeaning": "đạt được thỏa thuận",
+						"example": "They finally reached an agreement after hours of talk.",
+						"viExample": "Cuối cùng họ đã đạt được thỏa thuận sau nhiều giờ nói chuyện."
+					},
+					{
+						"phrase": "signed agreement",
+						"meaning": "A formal and written deal",
+						"viMeaning": "thỏa thuận đã ký",
+						"example": "Always keep a copy of the signed agreement.",
+						"viExample": "Luôn giữ một bản sao của thỏa thuận đã ký."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "contract",
+		"pos": "noun",
+		"ipa": "/ˈkɒntrækt/",
+		"cefrLevel": "B1",
+		"frequency": 3040,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "contractual", "pos": "adjective" },
+			{ "form": "contractor", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A legal agreement between two or more people or companies",
+				"viDef": "hợp đồng",
+				"synonyms": ["agreement", "treaty", "bond"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Read the contract carefully before you sign it.",
+						"viText": "Hãy đọc kỹ hợp đồng trước khi bạn ký nó."
+					},
+					{
+						"text": "My employment contract ends next year.",
+						"viText": "Hợp đồng lao động của tôi sẽ kết thúc vào năm tới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sign a contract",
+						"meaning": "To write your name on a legal agreement",
+						"viMeaning": "ký hợp đồng",
+						"example": "He signed a contract with a new team.",
+						"viExample": "Anh ấy đã ký hợp đồng với một đội bóng mới."
+					},
+					{
+						"phrase": "breach of contract",
+						"meaning": "Breaking the terms of a legal agreement",
+						"viMeaning": "vi phạm hợp đồng",
+						"example": "The company was sued for breach of contract.",
+						"viExample": "Công ty đã bị kiện vì vi phạm hợp đồng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "border",
+		"pos": "noun",
+		"ipa": "/ˈbɔːdə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "border", "pos": "verb" },
+			{ "form": "borderless", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The line that separates two countries or regions",
+				"viDef": "biên giới",
+				"synonyms": ["boundary", "frontier", "edge"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We crossed the border into Canada.",
+						"viText": "Chúng tôi đã băng qua biên giới để vào Canada."
+					},
+					{
+						"text": "There are strict controls at the border.",
+						"viText": "Có những sự kiểm soát nghiêm ngặt tại biên giới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "cross the border",
+						"meaning": "To move from one country into another",
+						"viMeaning": "vượt biên giới",
+						"example": "Thousands of people cross the border every day.",
+						"viExample": "Hàng ngàn người băng qua biên giới mỗi ngày."
+					},
+					{
+						"phrase": "border control",
+						"meaning": "Checking people as they enter a country",
+						"viMeaning": "kiểm soát biên giới",
+						"example": "Border control asked for our passports.",
+						"viExample": "Kiểm soát biên giới đã yêu cầu hộ chiếu của chúng tôi."
+					}
+				]
+			}
+		]
+	}
+]

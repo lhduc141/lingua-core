@@ -1,0 +1,916 @@
+[
+	{
+		"headword": "abundance",
+		"pos": "noun",
+		"ipa": "/əˈbʌndəns/",
+		"cefrLevel": "B2",
+		"frequency": 5800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "abundant", "pos": "adjective" },
+			{ "form": "abundantly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A very large quantity of something",
+				"viDef": "sự phong phú, dồi dào",
+				"synonyms": ["plenty", "wealth", "profusion"],
+				"antonyms": ["scarcity", "lack"],
+				"examples": [
+					{
+						"text": "The tropical island has an abundance of exotic fruit.",
+						"viText": "Hòn đảo nhiệt đới có vô số loại trái cây lạ."
+					},
+					{
+						"text": "There was an abundance of food at the party.",
+						"viText": "Có rất nhiều đồ ăn tại bữa tiệc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "natural abundance",
+						"meaning": "The amount of something found in nature",
+						"viMeaning": "sự dồi dào tự nhiên",
+						"example": "The region is famous for its natural abundance of timber.",
+						"viExample": "Vùng này nổi tiếng với nguồn gỗ dồi dào tự nhiên."
+					},
+					{
+						"phrase": "in abundance",
+						"meaning": "Existing in large numbers or amounts",
+						"viMeaning": "nhiều, dồi dào",
+						"example": "Flowers grow in abundance along the river bank.",
+						"viExample": "Hoa mọc dồi dào dọc theo bờ sông."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "adaptation",
+		"pos": "noun",
+		"ipa": "/ˌædæpˈteɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 5400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "adapt", "pos": "verb" },
+			{ "form": "adaptability", "pos": "noun" },
+			{ "form": "adaptive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The process of changing to suit new conditions",
+				"viDef": "sự thích nghi, chuyển thể",
+				"synonyms": ["adjustment", "modification", "alteration"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The animal's thick fur is an adaptation to the cold.",
+						"viText": "Bộ lông dày của con vật là một sự thích nghi với cái lạnh."
+					},
+					{
+						"text": "The film is a faithful adaptation of the famous novel.",
+						"viText": "Bộ phim là một bản chuyển thể trung thành của cuốn tiểu thuyết nổi tiếng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "climate adaptation",
+						"meaning": "Adjusting to the effects of climate change",
+						"viMeaning": "thích ứng với khí hậu",
+						"example": "The city is investing in climate adaptation strategies.",
+						"viExample": "Thành phố đang đầu tư vào các chiến lược thích ứng với khí hậu."
+					},
+					{
+						"phrase": "process of adaptation",
+						"meaning": "The sequence of changes made to fit in",
+						"viMeaning": "quá trình thích nghi",
+						"example": "The process of adaptation to a new culture takes time.",
+						"viExample": "Quá trình thích nghi với một nền văn hóa mới cần có thời gian."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "conservation",
+		"pos": "noun",
+		"ipa": "/ˌkɒnsəˈveɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "conserve", "pos": "verb" },
+			{ "form": "conservationist", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The protection of plants, animals, and natural resources",
+				"viDef": "sự bảo tồn",
+				"synonyms": ["preservation", "protection", "saving"],
+				"antonyms": ["destruction", "waste"],
+				"examples": [
+					{
+						"text": "The group is dedicated to the conservation of local wildlife.",
+						"viText": "Nhóm chuyên tâm vào việc bảo tồn động vật hoang dã địa phương."
+					},
+					{
+						"text": "Energy conservation is important to reduce our bills.",
+						"viText": "Tiết kiệm năng lượng là quan trọng để giảm hóa đơn của chúng ta."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "nature conservation",
+						"meaning": "The work of protecting the natural world",
+						"viMeaning": "bảo tồn thiên nhiên",
+						"example": "He is interested in nature conservation and ecology.",
+						"viExample": "Anh ấy quan tâm đến bảo tồn thiên nhiên và sinh thái học."
+					},
+					{
+						"phrase": "conservation area",
+						"meaning": "A place where animals or buildings are protected",
+						"viMeaning": "khu vực bảo tồn",
+						"example": "Hunting is strictly prohibited in the conservation area.",
+						"viExample": "Săn bắn bị nghiêm cấm trong khu vực bảo tồn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "degradation",
+		"pos": "noun",
+		"ipa": "/ˌdeɡrəˈdeɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 6800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "degrade", "pos": "verb" },
+			{ "form": "degrading", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The process of something becoming worse or being destroyed",
+				"viDef": "sự thoái hóa, suy thoái",
+				"synonyms": ["deterioration", "decline", "breakdown"],
+				"antonyms": ["improvement", "restoration"],
+				"examples": [
+					{
+						"text": "Environmental degradation is caused by human activity.",
+						"viText": "Sự suy thoái môi trường là do hoạt động của con người gây ra."
+					},
+					{
+						"text": "The degradation of the soil made farming difficult.",
+						"viText": "Sự thoái hóa của đất làm cho việc canh tác trở nên khó khăn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "environmental degradation",
+						"meaning": "Damage to the natural world",
+						"viMeaning": "suy thoái môi trường",
+						"example": "Pollution leads to rapid environmental degradation.",
+						"viExample": "Ô nhiễm dẫn đến sự suy thoái môi trường nhanh chóng."
+					},
+					{
+						"phrase": "social degradation",
+						"meaning": "The decline of moral or social standards",
+						"viMeaning": "sự suy đồi xã hội",
+						"example": "Crime is often a sign of social degradation.",
+						"viExample": "Tội phạm thường là dấu hiệu của sự suy đồi xã hội."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "emission",
+		"pos": "noun",
+		"ipa": "/ɪˈmɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 5300,
+		"isCommon": false,
+		"wordForms": [{ "form": "emit", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The production or sending out of something (especially gas)",
+				"viDef": "sự phát thải, khí thải",
+				"synonyms": ["discharge", "release", "leak"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The new law aims to reduce carbon emissions.",
+						"viText": "Đạo luật mới nhằm mục đích giảm lượng khí thải carbon."
+					},
+					{
+						"text": "Sulfur emissions from factories cause acid rain.",
+						"viText": "Khí thải lưu huỳnh từ các nhà máy gây ra mưa axit."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "carbon emissions",
+						"meaning": "Carbon dioxide released into the atmosphere",
+						"viMeaning": "khí thải carbon",
+						"example": "Reducing carbon emissions is vital for the planet.",
+						"viExample": "Giảm lượng khí thải carbon là điều sống còn đối với hành tinh."
+					},
+					{
+						"phrase": "toxic emissions",
+						"meaning": "Poisonous gases released by industry",
+						"viMeaning": "khí thải độc hại",
+						"example": "The factory was fined for its toxic emissions.",
+						"viExample": "Nhà máy đã bị phạt vì khí thải độc hại của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "extinction",
+		"pos": "noun",
+		"ipa": "/ɪkˈstɪŋkʃn/",
+		"cefrLevel": "B2",
+		"frequency": 6200,
+		"isCommon": false,
+		"wordForms": [{ "form": "extinct", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "When a species or group no longer has living members",
+				"viDef": "sự tuyệt chủng",
+				"synonyms": ["disappearance", "death", "annihilation"],
+				"antonyms": ["survival"],
+				"examples": [
+					{
+						"text": "Many species are currently facing extinction.",
+						"viText": "Nhiều loài hiện đang đối mặt với sự tuyệt chủng."
+					},
+					{
+						"text": "The extinction of dinosaurs happened millions of years ago.",
+						"viText": "Sự tuyệt chủng của loài khủng long đã xảy ra hàng triệu năm trước."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mass extinction",
+						"meaning": "The death of many species at once",
+						"viMeaning": "tuyệt chủng hàng loạt",
+						"example": "Scientists warn that we are entering a mass extinction.",
+						"viExample": "Các nhà khoa học cảnh báo rằng chúng ta đang bước vào một đợt tuyệt chủng hàng loạt."
+					},
+					{
+						"phrase": "threat of extinction",
+						"meaning": "The possibility of a group dying out",
+						"viMeaning": "nguy cơ tuyệt chủng",
+						"example": "Tigers are living under the threat of extinction.",
+						"viExample": "Hổ đang sống dưới nguy cơ tuyệt chủng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "fossil",
+		"pos": "noun",
+		"ipa": "/ˈfɒsl/",
+		"cefrLevel": "B2",
+		"frequency": 5900,
+		"isCommon": false,
+		"wordForms": [{ "form": "fossilize", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The remains of a prehistoric organism preserved in rock",
+				"viDef": "hóa thạch",
+				"synonyms": ["remains", "relic", "specimen"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The museum has a collection of dinosaur fossils.",
+						"viText": "Bảo tàng có một bộ sưu tập hóa thạch khủng long."
+					},
+					{
+						"text": "They found a plant fossil in the cliff side.",
+						"viText": "Họ tìm thấy một hóa thạch thực vật trong vách đá."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fossil fuel",
+						"meaning": "Energy sources like coal or oil from ancient remains",
+						"viMeaning": "nhiên liệu hóa thạch",
+						"example": "Burning fossil fuel contributes to global warming.",
+						"viExample": "Đốt nhiên liệu hóa thạch góp phần vào sự nóng lên toàn cầu."
+					},
+					{
+						"phrase": "fossil record",
+						"meaning": "The history of life documented by fossils",
+						"viMeaning": "hồ sơ hóa thạch",
+						"example": "The fossil record shows how horses evolved over time.",
+						"viExample": "Hồ sơ hóa thạch cho thấy loài ngựa đã tiến hóa như thế nào theo thời gian."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "habitat",
+		"pos": "noun",
+		"ipa": "/ˈhæbɪtæt/",
+		"cefrLevel": "B2",
+		"frequency": 5150,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The natural home or environment of an organism",
+				"viDef": "môi trường sống",
+				"synonyms": ["environment", "surroundings", "home"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The panda's natural habitat is the bamboo forest.",
+						"viText": "Môi trường sống tự nhiên của gấu trúc là rừng tre."
+					},
+					{
+						"text": "Human expansion is destroying the wildlife habitat.",
+						"viText": "Sự bành trướng của con người đang phá hủy môi trường sống của động vật hoang dã."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "natural habitat",
+						"meaning": "Where an animal lives in the wild",
+						"viMeaning": "môi trường sống tự nhiên",
+						"example": "It is best to see animals in their natural habitat.",
+						"viExample": "Tốt nhất là nên ngắm nhìn động vật trong môi trường sống tự nhiên của chúng."
+					},
+					{
+						"phrase": "habitat loss",
+						"meaning": "The destruction of the places where animals live",
+						"viMeaning": "mất môi trường sống",
+						"example": "Habitat loss is the main cause of species decline.",
+						"viExample": "Mất môi trường sống là nguyên nhân chính dẫn đến sự suy giảm các loài."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "renewable",
+		"pos": "adjective",
+		"ipa": "/rɪˈnjuːəbl/",
+		"cefrLevel": "B2",
+		"frequency": 6500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "renew", "pos": "verb" },
+			{ "form": "renewal", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Capable of being replaced naturally and not used up",
+				"viDef": "có thể tái tạo",
+				"synonyms": ["sustainable", "inexhaustible"],
+				"antonyms": ["non-renewable", "finite"],
+				"examples": [
+					{
+						"text": "Solar and wind are popular forms of renewable energy.",
+						"viText": "Mặt trời và gió là những dạng năng lượng tái tạo phổ biến."
+					},
+					{
+						"text": "We need to switch to renewable resources quickly.",
+						"viText": "Chúng ta cần nhanh chóng chuyển sang các nguồn tài nguyên tái tạo."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "renewable energy",
+						"meaning": "Power from natural sources that never run out",
+						"viMeaning": "năng lượng tái tạo",
+						"example": "The country aims to use 100% renewable energy.",
+						"viExample": "Quốc gia đặt mục tiêu sử dụng 100% năng lượng tái tạo."
+					},
+					{
+						"phrase": "renewable resources",
+						"meaning": "Materials like wood that can be grown again",
+						"viMeaning": "tài nguyên tái tạo",
+						"example": "Timber is a renewable resource if managed correctly.",
+						"viExample": "Gỗ là một nguồn tài nguyên tái tạo nếu được quản lý đúng cách."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "threshold",
+		"pos": "noun",
+		"ipa": "/ˈθreʃhəʊld/",
+		"cefrLevel": "B2",
+		"frequency": 6100,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The level or point at which something starts to happen",
+				"viDef": "ngưỡng, bước ngoặt",
+				"synonyms": ["limit", "boundary", "doorstep"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "He has a low threshold for pain.", "viText": "Anh ta có ngưỡng chịu đau thấp." },
+					{
+						"text": "The company is on the threshold of a new era.",
+						"viText": "Công ty đang ở ngưỡng cửa của một kỷ nguyên mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "pain threshold",
+						"meaning": "The point at which one starts to feel pain",
+						"viMeaning": "ngưỡng chịu đau",
+						"example": "Everyone has a different pain threshold.",
+						"viExample": "Mỗi người có một ngưỡng chịu đau khác nhau."
+					},
+					{
+						"phrase": "income threshold",
+						"meaning": "The limit of money earned for a specific rule",
+						"viMeaning": "ngưỡng thu nhập",
+						"example": "You must be below the income threshold to receive aid.",
+						"viExample": "Bạn phải ở dưới ngưỡng thu nhập để nhận được hỗ trợ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "inequality",
+		"pos": "noun",
+		"ipa": "/ˌɪnɪˈkwɒləti/",
+		"cefrLevel": "B2",
+		"frequency": 5500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "equal", "pos": "adjective" },
+			{ "form": "unequal", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Unfair difference in status, rights, and opportunities",
+				"viDef": "sự bất bình đẳng",
+				"synonyms": ["imbalance", "disparity", "unfairness"],
+				"antonyms": ["equality", "fairness"],
+				"examples": [
+					{
+						"text": "Economic inequality is a major problem in many cities.",
+						"viText": "Bất bình đẳng kinh tế là một vấn đề lớn ở nhiều thành phố."
+					},
+					{
+						"text": "There is still gender inequality in the workplace.",
+						"viText": "Vẫn còn sự bất bình đẳng giới ở nơi làm việc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "social inequality",
+						"meaning": "Differences in power or status in society",
+						"viMeaning": "bất bình đẳng xã hội",
+						"example": "The protest was about social inequality.",
+						"viExample": "Cuộc biểu tình nói về sự bất bình đẳng xã hội."
+					},
+					{
+						"phrase": "income inequality",
+						"meaning": "The gap between rich and poor earnings",
+						"viMeaning": "bất bình đẳng thu nhập",
+						"example": "Policies aim to reduce income inequality.",
+						"viExample": "Các chính sách nhằm mục đích giảm bất bình đẳng thu nhập."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "migration",
+		"pos": "noun",
+		"ipa": "/maɪˈɡreɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 5050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "migrate", "pos": "verb" },
+			{ "form": "migrant", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Movement of people or animals from one place to another",
+				"viDef": "sự di cư",
+				"synonyms": ["relocation", "movement", "journey"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The bird's migration happens every autumn.",
+						"viText": "Sự di cư của loài chim xảy ra vào mỗi mùa thu."
+					},
+					{
+						"text": "Mass migration can be caused by war or climate.",
+						"viText": "Di cư hàng loạt có thể do chiến tranh hoặc khí hậu gây ra."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "seasonal migration",
+						"meaning": "Moving according to the time of year",
+						"viMeaning": "di cư theo mùa",
+						"example": "Many animals survive through seasonal migration.",
+						"viExample": "Nhiều loài động vật tồn tại thông qua di cư theo mùa."
+					},
+					{
+						"phrase": "internal migration",
+						"meaning": "Moving within the same country",
+						"viMeaning": "di cư nội địa",
+						"example": "Rural to urban movement is a form of internal migration.",
+						"viExample": "Di chuyển từ nông thôn ra thành thị là một hình thức di cư nội địa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "discrimination",
+		"pos": "noun",
+		"ipa": "/dɪˌskrɪmɪˈneɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 5300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "discriminate", "pos": "verb" },
+			{ "form": "discriminatory", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Unjust treatment of people based on specific categories",
+				"viDef": "sự phân biệt đối xử",
+				"synonyms": ["prejudice", "bias", "unfairness"],
+				"antonyms": ["fairness", "tolerance"],
+				"examples": [
+					{
+						"text": "Age discrimination in hiring is illegal.",
+						"viText": "Phân biệt đối xử theo tuổi tác trong tuyển dụng là bất hợp pháp."
+					},
+					{
+						"text": "She faced racial discrimination during her career.",
+						"viText": "Cô ấy đã đối mặt với sự phân biệt chủng tộc trong sự nghiệp của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "racial discrimination",
+						"meaning": "Unfair treatment based on race",
+						"viMeaning": "phân biệt chủng tộc",
+						"example": "The law prohibits racial discrimination.",
+						"viExample": "Luật pháp nghiêm cấm phân biệt chủng tộc."
+					},
+					{
+						"phrase": "gender discrimination",
+						"meaning": "Unfair treatment based on being male or female",
+						"viMeaning": "phân biệt đối xử theo giới tính",
+						"example": "Gender discrimination can affect pay levels.",
+						"viExample": "Phân biệt đối xử theo giới tính có thể ảnh hưởng đến mức lương."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "integration",
+		"pos": "noun",
+		"ipa": "/ˌɪntɪˈɡreɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 5600,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "integrate", "pos": "verb" },
+			{ "form": "integrated", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The process of combining parts into a whole",
+				"viDef": "sự tích hợp, hội nhập",
+				"synonyms": ["combination", "unification", "merging"],
+				"antonyms": ["separation", "segregation"],
+				"examples": [
+					{
+						"text": "The integration of technology in schools is essential.",
+						"viText": "Việc tích hợp công nghệ trong trường học là thiết yếu."
+					},
+					{
+						"text": "Successful integration of immigrants helps the community.",
+						"viText": "Sự hội nhập thành công của người nhập cư giúp ích cho cộng đồng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "social integration",
+						"meaning": "Being accepted as a full member of society",
+						"viMeaning": "hòa nhập xã hội",
+						"example": "Language is a key factor in social integration.",
+						"viExample": "Ngôn ngữ là yếu tố then chốt trong hòa nhập xã hội."
+					},
+					{
+						"phrase": "economic integration",
+						"meaning": "Combining different economies into one system",
+						"viMeaning": "hội nhập kinh tế",
+						"example": "The trade treaty improved economic integration.",
+						"viExample": "Hiệp ước thương mại đã cải thiện hội nhập kinh tế."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "alienation",
+		"pos": "noun",
+		"ipa": "/ˌeɪliəˈneɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 6900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "alienate", "pos": "verb" },
+			{ "form": "alien", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The feeling of being isolated or separated from others",
+				"viDef": "sự xa lánh, lạc lõng",
+				"synonyms": ["isolation", "estrangement", "detachment"],
+				"antonyms": ["belonging", "connection"],
+				"examples": [
+					{
+						"text": "Many young people feel a sense of alienation today.",
+						"viText": "Nhiều người trẻ ngày nay cảm thấy một sự lạc lõng."
+					},
+					{
+						"text": "His behavior led to alienation from his family.",
+						"viText": "Hành vi của anh ta dẫn đến sự xa lánh khỏi gia đình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "social alienation",
+						"meaning": "Feeling disconnected from the people around you",
+						"viMeaning": "xa lánh xã hội",
+						"example": "Unemployment can lead to severe social alienation.",
+						"viExample": "Thất nghiệp có thể dẫn đến sự xa lánh xã hội nghiêm trọng."
+					},
+					{
+						"phrase": "sense of alienation",
+						"meaning": "A specific feeling of not fitting in",
+						"viMeaning": "cảm giác bị cô lập",
+						"example": "Moving to a huge city gave her a sense of alienation.",
+						"viExample": "Chuyển đến một thành phố lớn khiến cô ấy có cảm giác bị cô lập."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "solidarity",
+		"pos": "noun",
+		"ipa": "/ˌsɒlɪˈdærəti/",
+		"cefrLevel": "B2",
+		"frequency": 6700,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Unity or agreement of feeling or action among individuals",
+				"viDef": "sự đoàn kết",
+				"synonyms": ["unity", "unanimity", "harmony"],
+				"antonyms": ["discord", "division"],
+				"examples": [
+					{
+						"text": "The workers showed solidarity during the strike.",
+						"viText": "Các công nhân đã thể hiện sự đoàn kết trong suốt cuộc đình công."
+					},
+					{
+						"text": "Community solidarity is important in times of crisis.",
+						"viText": "Sự đoàn kết cộng đồng là quan trọng trong thời kỳ khủng hoảng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "show solidarity",
+						"meaning": "To demonstrate support for a group",
+						"viMeaning": "thể hiện sự đoàn kết",
+						"example": "Students wore black to show solidarity with the teachers.",
+						"viExample": "Sinh viên mặc đồ đen để thể hiện sự đoàn kết với giáo viên."
+					},
+					{
+						"phrase": "international solidarity",
+						"meaning": "Support between different nations",
+						"viMeaning": "đoàn kết quốc tế",
+						"example": "The disaster triggered a wave of international solidarity.",
+						"viExample": "Thảm họa đã gây ra một làn sóng đoàn kết quốc tế."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "privilege",
+		"pos": "noun",
+		"ipa": "/ˈprɪvəlɪdʒ/",
+		"cefrLevel": "B2",
+		"frequency": 3800,
+		"isCommon": false,
+		"wordForms": [{ "form": "privileged", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A special right or advantage available only to some",
+				"viDef": "đặc quyền",
+				"synonyms": ["advantage", "benefit", "honor"],
+				"antonyms": ["disadvantage"],
+				"examples": [
+					{
+						"text": "It was a privilege to meet the famous artist.",
+						"viText": "Thật là một đặc quyền khi được gặp người nghệ sĩ nổi tiếng."
+					},
+					{
+						"text": "Education should be a right, not a privilege.",
+						"viText": "Giáo dục nên là một quyền lợi, không phải là một đặc quyền."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "white privilege",
+						"meaning": "Social advantages based on skin color",
+						"viMeaning": "đặc quyền của người da trắng",
+						"example": "The book discusses the concept of white privilege.",
+						"viExample": "Cuốn sách thảo luận về khái niệm đặc quyền của người da trắng."
+					},
+					{
+						"phrase": "rare privilege",
+						"meaning": "A very uncommon advantage or honor",
+						"viMeaning": "đặc quyền hiếm có",
+						"example": "Access to the royal archives is a rare privilege.",
+						"viExample": "Tiếp cận kho lưu trữ hoàng gia là một đặc quyền hiếm có."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "oppression",
+		"pos": "noun",
+		"ipa": "/əˈpreʃn/",
+		"cefrLevel": "B2",
+		"frequency": 6950,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "oppress", "pos": "verb" },
+			{ "form": "oppressive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Prolonged cruel or unjust treatment or control",
+				"viDef": "sự áp bức",
+				"synonyms": ["tyranny", "persecution", "subjugation"],
+				"antonyms": ["liberation", "freedom"],
+				"examples": [
+					{
+						"text": "The people fought against years of political oppression.",
+						"viText": "Người dân đã chiến đấu chống lại nhiều năm áp bức chính trị."
+					},
+					{
+						"text": "Oppression can lead to violent revolution.",
+						"viText": "Áp bức có thể dẫn đến cách mạng bạo lực."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "systemic oppression",
+						"meaning": "Unfair treatment built into a society's rules",
+						"viMeaning": "áp bức mang tính hệ thống",
+						"example": "The activists are fighting systemic oppression.",
+						"viExample": "Các nhà hoạt động đang chiến đấu chống lại sự áp bức mang tính hệ thống."
+					},
+					{
+						"phrase": "struggle against oppression",
+						"meaning": "Working to end unfair control",
+						"viMeaning": "đấu tranh chống áp bức",
+						"example": "History is full of the struggle against oppression.",
+						"viExample": "Lịch sử đầy rẫy những cuộc đấu tranh chống lại sự áp bức."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "stereotype",
+		"pos": "noun",
+		"ipa": "/ˈsteriətaɪp/",
+		"cefrLevel": "B2",
+		"frequency": 6300,
+		"isCommon": false,
+		"wordForms": [{ "form": "stereotypical", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A widely held but simplified image of a person/thing",
+				"viDef": "khuôn mẫu, định kiến",
+				"synonyms": ["cliché", "label", "generalization"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We need to break away from gender stereotypes.",
+						"viText": "Chúng ta cần thoát khỏi những khuôn mẫu về giới tính."
+					},
+					{
+						"text": "The movie relies on boring cultural stereotypes.",
+						"viText": "Bộ phim dựa trên những định kiến văn hóa nhàm chán."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "gender stereotype",
+						"meaning": "Fixed ideas about how men or women should act",
+						"viMeaning": "định kiến giới",
+						"example": "Gender stereotypes can limit children's potential.",
+						"viExample": "Định kiến giới có thể hạn chế tiềm năng của trẻ em."
+					},
+					{
+						"phrase": "negative stereotype",
+						"meaning": "An unkind or harmful generalization about a group",
+						"viMeaning": "định kiến tiêu cực",
+						"example": "The media often promotes negative stereotypes of teenagers.",
+						"viExample": "Truyền thông thường cổ xúy cho những định kiến tiêu cực về thanh thiếu niên."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "tolerance",
+		"pos": "noun",
+		"ipa": "/ˈtɒlərəns/",
+		"cefrLevel": "B2",
+		"frequency": 5700,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "tolerant", "pos": "adjective" },
+			{ "form": "tolerate", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Acceptance of different opinions or behavior",
+				"viDef": "sự khoan dung, lòng vị tha",
+				"synonyms": ["patience", "broad-mindedness", "acceptance"],
+				"antonyms": ["intolerance", "bigotry"],
+				"examples": [
+					{
+						"text": "The school promotes religious tolerance among its students.",
+						"viText": "Trường học thúc đẩy sự khoan dung tôn giáo giữa các học sinh."
+					},
+					{
+						"text": "He has a high tolerance for noisy environments.",
+						"viText": "Anh ta có khả năng chịu đựng cao đối với môi trường ồn ào."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "zero tolerance",
+						"meaning": "A policy of punishing every single mistake",
+						"viMeaning": "không khoan nhượng",
+						"example": "The company has a zero tolerance policy on bullying.",
+						"viExample": "Công ty có chính sách không khoan nhượng đối với hành vi bắt nạt."
+					},
+					{
+						"phrase": "religious tolerance",
+						"meaning": "Accepting people of different faiths",
+						"viMeaning": "khoan dung tôn giáo",
+						"example": "Religious tolerance is vital for a peaceful society.",
+						"viExample": "Khoan dung tôn giáo là yếu tố sống còn cho một xã hội hòa bình."
+					}
+				]
+			}
+		]
+	}
+]

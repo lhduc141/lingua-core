@@ -1,0 +1,907 @@
+[
+	{
+		"headword": "weekend",
+		"pos": "noun",
+		"ipa": "/ˌwiːkˈend/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [{ "form": "weekender", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Saturday and Sunday, when most people do not work",
+				"viDef": "cuối tuần",
+				"synonyms": ["rest days"],
+				"antonyms": ["weekday"],
+				"examples": [
+					{ "text": "What are you doing this weekend?", "viText": "Bạn sẽ làm gì vào cuối tuần này?" },
+					{
+						"text": "I like to go to the beach at the weekend.",
+						"viText": "Tôi thích đi biển vào dịp cuối tuần."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "holiday weekend",
+						"meaning": "A weekend with an extra day off for a holiday",
+						"viMeaning": "kỳ nghỉ cuối tuần dài",
+						"example": "We are going to Da Lat for the holiday weekend.",
+						"viExample": "Chúng tôi sẽ đi Đà Lạt vào kỳ nghỉ cuối tuần dài này."
+					},
+					{
+						"phrase": "at the weekend",
+						"meaning": "During the period of Saturday and Sunday",
+						"viMeaning": "vào cuối tuần",
+						"example": "The park is very crowded at the weekend.",
+						"viExample": "Công viên rất đông đúc vào cuối tuần."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "evening",
+		"pos": "noun",
+		"ipa": "/ˈiːvnɪŋ/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The part of the day between afternoon and night",
+				"viDef": "buổi tối",
+				"synonyms": ["nightfall", "dusk"],
+				"antonyms": ["morning"],
+				"examples": [
+					{ "text": "I usually watch TV in the evening.", "viText": "Tôi thường xem tivi vào buổi tối." },
+					{
+						"text": "Good evening! How can I help you?",
+						"viText": "Chào buổi tối! Tôi có thể giúp gì cho bạn?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "tomorrow evening",
+						"meaning": "The evening of the next day",
+						"viMeaning": "tối mai",
+						"example": "Let's have dinner tomorrow evening.",
+						"viExample": "Hãy đi ăn tối vào tối mai nhé."
+					},
+					{
+						"phrase": "evening meal",
+						"meaning": "The main meal eaten in the late part of day",
+						"viMeaning": "bữa tối",
+						"example": "The family gathered for the evening meal.",
+						"viExample": "Gia đình quây quần bên bữa tối."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "afternoon",
+		"pos": "noun",
+		"ipa": "/ˌɑːftəˈnuːn/",
+		"cefrLevel": "A2",
+		"frequency": 1080,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The period of time between noon and evening",
+				"viDef": "buổi chiều",
+				"synonyms": [],
+				"antonyms": ["morning"],
+				"examples": [
+					{
+						"text": "I have a meeting at three o'clock this afternoon.",
+						"viText": "Tôi có một cuộc họp lúc ba giờ chiều nay."
+					},
+					{
+						"text": "It usually rains in the afternoon during summer.",
+						"viText": "Trời thường mưa vào buổi chiều trong mùa hè."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "Saturday afternoon",
+						"meaning": "The middle part of the day on Saturday",
+						"viMeaning": "chiều thứ Bảy",
+						"example": "He plays football every Saturday afternoon.",
+						"viExample": "Anh ấy chơi bóng đá vào mỗi chiều thứ Bảy."
+					},
+					{
+						"phrase": "afternoon tea",
+						"meaning": "A small meal of tea and snacks in the afternoon",
+						"viMeaning": "trà chiều",
+						"example": "They enjoyed afternoon tea at the hotel.",
+						"viExample": "Họ đã thưởng thức trà chiều tại khách sạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "schedule",
+		"pos": "noun",
+		"ipa": "/ˈʃedjuːl/",
+		"cefrLevel": "A2",
+		"frequency": 2200,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "schedule", "pos": "verb" },
+			{ "form": "scheduled", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A list of activities and the times they will happen",
+				"viDef": "lịch trình, thời khóa biểu",
+				"synonyms": ["timetable", "plan"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I have a very busy schedule this week.",
+						"viText": "Tuần này tôi có một lịch trình rất bận rộn."
+					},
+					{
+						"text": "The class schedule is posted on the wall.",
+						"viText": "Thời khóa biểu lớp học được dán trên tường."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ahead of schedule",
+						"meaning": "Finishing or happening earlier than planned",
+						"viMeaning": "trước thời hạn",
+						"example": "The project was completed ahead of schedule.",
+						"viExample": "Dự án đã được hoàn thành trước thời hạn."
+					},
+					{
+						"phrase": "work schedule",
+						"meaning": "The times when a person is required to work",
+						"viMeaning": "lịch làm việc",
+						"example": "I need to check my work schedule for next month.",
+						"viExample": "Tôi cần kiểm tra lịch làm việc của mình cho tháng tới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "appointment",
+		"pos": "noun",
+		"ipa": "/əˈpɔɪntmənt/",
+		"cefrLevel": "A2",
+		"frequency": 1850,
+		"isCommon": true,
+		"wordForms": [{ "form": "appoint", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A formal arrangement to meet someone at a specific time",
+				"viDef": "cuộc hẹn",
+				"synonyms": ["meeting", "engagement"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I have a doctor's appointment at 10 AM.",
+						"viText": "Tôi có một cuộc hẹn với bác sĩ lúc 10 giờ sáng."
+					},
+					{
+						"text": "She made an appointment to see the manager.",
+						"viText": "Cô ấy đã đặt một cuộc hẹn để gặp quản lý."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make an appointment",
+						"meaning": "To arrange a formal meeting",
+						"viMeaning": "đặt lịch hẹn",
+						"example": "You need to make an appointment to see the dentist.",
+						"viExample": "Bạn cần đặt lịch hẹn để gặp nha sĩ."
+					},
+					{
+						"phrase": "cancel an appointment",
+						"meaning": "To say that an arranged meeting will not happen",
+						"viMeaning": "hủy lịch hẹn",
+						"example": "He had to cancel his appointment due to an emergency.",
+						"viExample": "Anh ấy đã phải hủy lịch hẹn vì một trường hợp khẩn cấp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "contact",
+		"pos": "verb",
+		"ipa": "/ˈkɒntækt/",
+		"cefrLevel": "A2",
+		"frequency": 1250,
+		"isCommon": true,
+		"wordForms": [{ "form": "contact", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To communicate with someone by calling or writing",
+				"viDef": "liên lạc",
+				"synonyms": ["reach", "message"],
+				"antonyms": ["ignore"],
+				"examples": [
+					{
+						"text": "Please contact me if you have any questions.",
+						"viText": "Vui lòng liên lạc với tôi nếu bạn có bất kỳ câu hỏi nào."
+					},
+					{
+						"text": "I tried to contact him, but he didn't answer.",
+						"viText": "Tôi đã cố liên lạc với anh ấy, nhưng anh ấy không trả lời."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "contact details",
+						"meaning": "Information like phone number used to reach someone",
+						"viMeaning": "thông tin liên lạc",
+						"example": "Could you leave your contact details here?",
+						"viExample": "Bạn có thể để lại thông tin liên lạc tại đây không?"
+					},
+					{
+						"phrase": "eye contact",
+						"meaning": "Looking directly at someone's eyes",
+						"viMeaning": "giao tiếp bằng mắt",
+						"example": "It is important to make eye contact during an interview.",
+						"viExample": "Việc giao tiếp bằng mắt trong buổi phỏng vấn là rất quan trọng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "message",
+		"pos": "noun",
+		"ipa": "/ˈmesɪdʒ/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "messaging", "pos": "noun" },
+			{ "form": "messenger", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A written or spoken piece of information sent to someone",
+				"viDef": "tin nhắn, thông báo",
+				"synonyms": ["note", "text"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I sent her a message on Zalo.",
+						"viText": "Tôi đã gửi cho cô ấy một tin nhắn trên Zalo."
+					},
+					{
+						"text": "Did you get my message about the change of plan?",
+						"viText": "Bạn có nhận được tin nhắn của tôi về việc thay đổi kế hoạch không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "text message",
+						"meaning": "A short message sent from a mobile phone",
+						"viMeaning": "tin nhắn văn bản",
+						"example": "She received a text message from her mother.",
+						"viExample": "Cô ấy đã nhận được một tin nhắn văn bản từ mẹ."
+					},
+					{
+						"phrase": "leave a message",
+						"meaning": "To give information for someone who is not there",
+						"viMeaning": "để lại lời nhắn",
+						"example": "He isn't in his office, would you like to leave a message?",
+						"viExample": "Anh ấy không có ở văn phòng, bạn có muốn để lại lời nhắn không?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "update",
+		"pos": "verb",
+		"ipa": "/ˌʌpˈdeɪt/",
+		"cefrLevel": "A2",
+		"frequency": 2400,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "update", "pos": "noun" },
+			{ "form": "updated", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make something more modern or give the latest information",
+				"viDef": "cập nhật",
+				"synonyms": ["refresh", "renovate"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I need to update my computer software.",
+						"viText": "Tôi cần cập nhật phần mềm máy tính của mình."
+					},
+					{
+						"text": "She updated her profile picture on Facebook.",
+						"viText": "Cô ấy đã cập nhật ảnh đại diện trên Facebook."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "regular update",
+						"meaning": "Information given frequently to keep people informed",
+						"viMeaning": "cập nhật thường xuyên",
+						"example": "The app receives regular updates to fix bugs.",
+						"viExample": "Ứng dụng nhận được các bản cập nhật thường xuyên để sửa lỗi."
+					},
+					{
+						"phrase": "latest update",
+						"meaning": "The most recent version or information",
+						"viMeaning": "bản cập nhật mới nhất",
+						"example": "Have you seen the latest update on the news?",
+						"viExample": "Bạn đã xem bản cập nhật mới nhất trên tin tức chưa?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "share",
+		"pos": "verb",
+		"ipa": "/ʃeə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [{ "form": "shareholder", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To give a part of something to others",
+				"viDef": "chia sẻ",
+				"synonyms": ["divide", "distribute"],
+				"antonyms": ["keep", "withhold"],
+				"examples": [
+					{
+						"text": "Will you share your umbrella with me?",
+						"viText": "Bạn có thể dùng chung ô với tôi được không?"
+					},
+					{
+						"text": "She shared the photos with her friends online.",
+						"viText": "Cô ấy đã chia sẻ những bức ảnh với bạn bè trực tuyến."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "share an idea",
+						"meaning": "To tell others what you are thinking",
+						"viMeaning": "chia sẻ ý tưởng",
+						"example": "He shared a great idea during the meeting.",
+						"viExample": "Anh ấy đã chia sẻ một ý tưởng tuyệt vời trong cuộc họp."
+					},
+					{
+						"phrase": "share a room",
+						"meaning": "To live in the same room as someone else",
+						"viMeaning": "ở chung phòng",
+						"example": "I share a room with my younger brother.",
+						"viExample": "Tôi ở chung phòng với em trai mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "post",
+		"pos": "verb",
+		"ipa": "/pəʊst/",
+		"cefrLevel": "A2",
+		"frequency": 1300,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "poster", "pos": "noun" },
+			{ "form": "postage", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To put information or photos on the internet",
+				"viDef": "đăng tải",
+				"synonyms": ["publish", "upload"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He posted a video of his cat on TikTok.",
+						"viText": "Anh ấy đã đăng một video về con mèo của mình lên TikTok."
+					},
+					{
+						"text": "Don't post personal information online.",
+						"viText": "Đừng đăng thông tin cá nhân lên mạng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "blog post",
+						"meaning": "An article published on a personal website",
+						"viMeaning": "bài đăng trên blog",
+						"example": "I read your latest blog post yesterday.",
+						"viExample": "Tôi đã đọc bài đăng trên blog mới nhất của bạn hôm qua."
+					},
+					{
+						"phrase": "post a comment",
+						"meaning": "To write a response to something online",
+						"viMeaning": "đăng bình luận",
+						"example": "Many people posted comments on the news article.",
+						"viExample": "Nhiều người đã đăng bình luận vào bài báo."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "follow",
+		"pos": "verb",
+		"ipa": "/ˈfɒləʊ/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "follower", "pos": "noun" },
+			{ "form": "following", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To move behind someone or subscribe to updates online",
+				"viDef": "đi theo, theo dõi",
+				"synonyms": ["track", "pursue"],
+				"antonyms": ["lead"],
+				"examples": [
+					{
+						"text": "The dog followed its owner to the shop.",
+						"viText": "Con chó đã đi theo chủ của nó đến cửa hàng."
+					},
+					{
+						"text": "I follow my favorite singer on Instagram.",
+						"viText": "Tôi theo dõi ca sĩ yêu thích của mình trên Instagram."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "follow instructions",
+						"meaning": "To do exactly what you are told",
+						"viMeaning": "làm theo hướng dẫn",
+						"example": "You must follow the instructions carefully.",
+						"viExample": "Bạn phải làm theo hướng dẫn một cách cẩn thận."
+					},
+					{
+						"phrase": "follow a link",
+						"meaning": "To click on a website address",
+						"viMeaning": "truy cập liên kết",
+						"example": "Follow the link to register for the course.",
+						"viExample": "Hãy truy cập liên kết để đăng ký khóa học."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "join",
+		"pos": "verb",
+		"ipa": "/dʒɔɪn/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [{ "form": "joint", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To become a member of a group or club",
+				"viDef": "tham gia, gia nhập",
+				"synonyms": ["enter", "connect"],
+				"antonyms": ["leave", "quit"],
+				"examples": [
+					{
+						"text": "I want to join the English club at school.",
+						"viText": "Tôi muốn gia nhập câu lạc bộ tiếng Anh ở trường."
+					},
+					{
+						"text": "Would you like to join us for lunch?",
+						"viText": "Bạn có muốn tham gia ăn trưa cùng chúng tôi không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "join a meeting",
+						"meaning": "To take part in a discussion",
+						"viMeaning": "tham gia cuộc họp",
+						"example": "Click the link to join the online meeting.",
+						"viExample": "Nhấn vào liên kết để tham gia cuộc họp trực tuyến."
+					},
+					{
+						"phrase": "join forces",
+						"meaning": "To work together with someone else",
+						"viMeaning": "hợp sức",
+						"example": "The two companies joined forces to build the bridge.",
+						"viExample": "Hai công ty đã hợp sức để xây dựng cây cầu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "cancel",
+		"pos": "verb",
+		"ipa": "/ˈkænsl/",
+		"cefrLevel": "A2",
+		"frequency": 2800,
+		"isCommon": true,
+		"wordForms": [{ "form": "cancellation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To decide that an organized event will not happen",
+				"viDef": "hủy bỏ",
+				"synonyms": ["stop", "abort"],
+				"antonyms": ["confirm", "start"],
+				"examples": [
+					{
+						"text": "They had to cancel the match because of rain.",
+						"viText": "Họ đã phải hủy trận đấu vì trời mưa."
+					},
+					{
+						"text": "I need to cancel my hotel reservation.",
+						"viText": "Tôi cần hủy đặt phòng khách sạn của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "cancel a flight",
+						"meaning": "To stop a planned plane journey",
+						"viMeaning": "hủy chuyến bay",
+						"example": "The airline cancelled our flight to Hanoi.",
+						"viExample": "Hãng hàng không đã hủy chuyến bay của chúng tôi đến Hà Nội."
+					},
+					{
+						"phrase": "cancel a subscription",
+						"meaning": "To stop paying for a regular service",
+						"viMeaning": "hủy đăng ký",
+						"example": "I decided to cancel my Netflix subscription.",
+						"viExample": "Tôi đã quyết định hủy đăng ký Netflix của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "confirm",
+		"pos": "verb",
+		"ipa": "/kənˈfɜːm/",
+		"cefrLevel": "A2",
+		"frequency": 2100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "confirmation", "pos": "noun" },
+			{ "form": "confirmed", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To say that something is definitely true or planned",
+				"viDef": "xác nhận",
+				"synonyms": ["verify", "validate"],
+				"antonyms": ["deny", "cancel"],
+				"examples": [
+					{
+						"text": "Please call to confirm your booking.",
+						"viText": "Vui lòng gọi điện để xác nhận việc đặt chỗ của bạn."
+					},
+					{
+						"text": "The doctor confirmed that he was healthy.",
+						"viText": "Bác sĩ đã xác nhận rằng anh ấy khỏe mạnh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "confirm an appointment",
+						"meaning": "To verify a meeting time",
+						"viMeaning": "xác nhận cuộc hẹn",
+						"example": "I sent an email to confirm our appointment.",
+						"viExample": "Tôi đã gửi email để xác nhận cuộc hẹn của chúng ta."
+					},
+					{
+						"phrase": "confirm a password",
+						"meaning": "To type a password twice to be sure",
+						"viMeaning": "xác nhận mật khẩu",
+						"example": "You need to confirm your new password.",
+						"viExample": "Bạn cần xác nhận mật khẩu mới của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "remind",
+		"pos": "verb",
+		"ipa": "/rɪˈmaɪnd/",
+		"cefrLevel": "A2",
+		"frequency": 2500,
+		"isCommon": true,
+		"wordForms": [{ "form": "reminder", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make someone remember something",
+				"viDef": "nhắc nhở",
+				"synonyms": ["prompt", "alert"],
+				"antonyms": ["forget"],
+				"examples": [
+					{
+						"text": "Please remind me to buy some milk later.",
+						"viText": "Làm ơn hãy nhắc tôi mua một ít sữa lát nữa nhé."
+					},
+					{
+						"text": "That song reminds me of my childhood.",
+						"viText": "Bài hát đó làm tôi nhớ về thời thơ ấu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "remind someone of",
+						"meaning": "To look or sound like something else",
+						"viMeaning": "nhắc ai nhớ về",
+						"example": "You remind me of your father.",
+						"viExample": "Bạn làm tôi nhớ đến bố của bạn."
+					},
+					{
+						"phrase": "send a reminder",
+						"meaning": "To give a message so someone doesn't forget",
+						"viMeaning": "gửi lời nhắc",
+						"example": "The bank sent a reminder about the payment.",
+						"viExample": "Ngân hàng đã gửi một lời nhắc về việc thanh toán."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "prepare",
+		"pos": "verb",
+		"ipa": "/prɪˈpeə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "preparation", "pos": "noun" },
+			{ "form": "prepared", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To get ready for something",
+				"viDef": "chuẩn bị",
+				"synonyms": ["arrange", "ready"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I need to prepare for my English exam.",
+						"viText": "Tôi cần chuẩn bị cho kỳ thi tiếng Anh."
+					},
+					{
+						"text": "She is preparing dinner for the guests.",
+						"viText": "Cô ấy đang chuẩn bị bữa tối cho khách."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "prepare a meal",
+						"meaning": "To cook or get food ready",
+						"viMeaning": "chuẩn bị bữa ăn",
+						"example": "It takes time to prepare a healthy meal.",
+						"viExample": "Mất thời gian để chuẩn bị một bữa ăn lành mạnh."
+					},
+					{
+						"phrase": "well prepared",
+						"meaning": "Very ready for a situation",
+						"viMeaning": "chuẩn bị kỹ lưỡng",
+						"example": "He was well prepared for the interview.",
+						"viExample": "Anh ấy đã được chuẩn bị kỹ lưỡng cho buổi phỏng vấn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "organise",
+		"pos": "verb",
+		"ipa": "/ˈɔːɡənaɪz/",
+		"cefrLevel": "A2",
+		"frequency": 2600,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "organisation", "pos": "noun" },
+			{ "form": "organiser", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To plan and arrange something like an event",
+				"viDef": "tổ chức, sắp xếp",
+				"synonyms": ["arrange", "structure"],
+				"antonyms": ["disorganise"],
+				"examples": [
+					{
+						"text": "We are organising a surprise party for her.",
+						"viText": "Chúng tôi đang tổ chức một bữa tiệc bất ngờ cho cô ấy."
+					},
+					{
+						"text": "She needs to organise her desk.",
+						"viText": "Cô ấy cần sắp xếp lại bàn làm việc của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "organise a meeting",
+						"meaning": "To arrange a time for people to talk",
+						"viMeaning": "tổ chức cuộc họp",
+						"example": "Who will organise the meeting next week?",
+						"viExample": "Ai sẽ tổ chức cuộc họp vào tuần tới?"
+					},
+					{
+						"phrase": "highly organised",
+						"meaning": "Very good at planning things",
+						"viMeaning": "có đầu óc tổ chức cao",
+						"example": "She is a highly organised person.",
+						"viExample": "Cô ấy là một người có đầu óc tổ chức cao."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "manage",
+		"pos": "verb",
+		"ipa": "/ˈmænɪdʒ/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "manager", "pos": "noun" },
+			{ "form": "management", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To be in control of something or succeed in doing",
+				"viDef": "quản lý, xoay xở",
+				"synonyms": ["control", "handle"],
+				"antonyms": ["fail"],
+				"examples": [
+					{
+						"text": "How do you manage your time during the day?",
+						"viText": "Bạn quản lý thời gian trong ngày như thế nào?"
+					},
+					{
+						"text": "I managed to finish the report on time.",
+						"viText": "Tôi đã xoay xở để hoàn thành bản báo cáo đúng hạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "manage a project",
+						"meaning": "To be in charge of a specific task",
+						"viMeaning": "quản lý dự án",
+						"example": "She was chosen to manage the new project.",
+						"viExample": "Cô ấy được chọn để quản lý dự án mới."
+					},
+					{
+						"phrase": "manage to do",
+						"meaning": "To succeed in doing something difficult",
+						"viMeaning": "xoay xở để làm gì",
+						"example": "Did you manage to find your keys?",
+						"viExample": "Bạn có xoay xở để tìm thấy chìa khóa không?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "complete",
+		"pos": "verb",
+		"ipa": "/kəmˈpliːt/",
+		"cefrLevel": "A2",
+		"frequency": 1400,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "complete", "pos": "adjective" },
+			{ "form": "completely", "pos": "adverb" },
+			{ "form": "completion", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To finish doing something",
+				"viDef": "hoàn thành",
+				"synonyms": ["finish", "conclude"],
+				"antonyms": ["start"],
+				"examples": [
+					{
+						"text": "He completed the marathon in four hours.",
+						"viText": "Anh ấy đã hoàn thành cuộc chạy marathon trong bốn giờ."
+					},
+					{
+						"text": "Please complete the form and return it.",
+						"viText": "Vui lòng hoàn thành mẫu đơn và gửi lại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fully complete",
+						"meaning": "To finish every part of something",
+						"viMeaning": "hoàn thành đầy đủ",
+						"example": "The building is now fully complete.",
+						"viExample": "Tòa nhà hiện đã được hoàn thành đầy đủ."
+					},
+					{
+						"phrase": "complete a task",
+						"meaning": "To finish a piece of work",
+						"viMeaning": "hoàn thành nhiệm vụ",
+						"example": "It took her all day to complete the task.",
+						"viExample": "Cô ấy mất cả ngày để hoàn thành nhiệm vụ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "achieve",
+		"pos": "verb",
+		"ipa": "/əˈtʃiːv/",
+		"cefrLevel": "A2",
+		"frequency": 2950,
+		"isCommon": true,
+		"wordForms": [{ "form": "achievement", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To succeed in doing something after a lot of effort",
+				"viDef": "đạt được",
+				"synonyms": ["attain", "accomplish"],
+				"antonyms": ["fail"],
+				"examples": [
+					{
+						"text": "She worked hard to achieve her goal.",
+						"viText": "Cô ấy đã nỗ lực hết mình để đạt được mục tiêu."
+					},
+					{
+						"text": "We can achieve great things together.",
+						"viText": "Chúng ta có thể cùng nhau đạt được những điều tuyệt vời."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "achieve success",
+						"meaning": "To reach a high level of performance",
+						"viMeaning": "đạt được thành công",
+						"example": "He achieved success at a very young age.",
+						"viExample": "Anh ấy đã đạt được thành công khi còn rất trẻ."
+					},
+					{
+						"phrase": "achieve a goal",
+						"meaning": "To reach what you planned to do",
+						"viMeaning": "đạt được mục tiêu",
+						"example": "You need a plan to achieve your goals.",
+						"viExample": "Bạn cần một kế hoạch để đạt được các mục tiêu của mình."
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,913 @@
+[
+	{
+		"headword": "worried",
+		"pos": "adjective",
+		"ipa": "/ˈwʌrid/",
+		"cefrLevel": "A2",
+		"frequency": 1400,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "worry", "pos": "verb" },
+			{ "form": "worrying", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Feeling unhappy because you are thinking about problems",
+				"viDef": "lo lắng",
+				"synonyms": ["anxious", "concerned"],
+				"antonyms": ["calm", "confident"],
+				"examples": [
+					{
+						"text": "I am worried about my exam results.",
+						"viText": "Tôi lo lắng về kết quả kỳ thi của mình."
+					},
+					{
+						"text": "She looked worried when she heard the news.",
+						"viText": "Cô ấy trông có vẻ lo lắng khi nghe tin tức."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "worried about",
+						"meaning": "Feeling anxious regarding a specific person or situation",
+						"viMeaning": "lo lắng về",
+						"example": "Parents are often worried about their children.",
+						"viExample": "Cha mẹ thường lo lắng về con cái của họ."
+					},
+					{
+						"phrase": "look worried",
+						"meaning": "To have an appearance of being anxious",
+						"viMeaning": "trông có vẻ lo lắng",
+						"example": "You look worried, is everything okay?",
+						"viExample": "Bạn trông có vẻ lo lắng, mọi chuyện ổn chứ?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "surprised",
+		"pos": "adjective",
+		"ipa": "/səˈpraɪzd/",
+		"cefrLevel": "A2",
+		"frequency": 1600,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "surprise", "pos": "noun" },
+			{ "form": "surprising", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Feeling or showing shock because something unexpected happened",
+				"viDef": "ngạc nhiên",
+				"synonyms": ["amazed", "astonished"],
+				"antonyms": ["indifferent"],
+				"examples": [
+					{
+						"text": "I was surprised to see him at the party.",
+						"viText": "Tôi đã ngạc nhiên khi thấy anh ấy tại bữa tiệc."
+					},
+					{
+						"text": "She looked surprised when I told her the truth.",
+						"viText": "Cô ấy trông có vẻ ngạc nhiên khi tôi nói cho cô ấy sự thật."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "surprised at",
+						"meaning": "Feeling shock because of a specific thing",
+						"viMeaning": "ngạc nhiên vì",
+						"example": "We were surprised at the low prices.",
+						"viExample": "Chúng tôi đã ngạc nhiên vì mức giá thấp."
+					},
+					{
+						"phrase": "pleasant surprise",
+						"meaning": "An unexpected event that is good",
+						"viMeaning": "bất ngờ thú vị",
+						"example": "His visit was a pleasant surprise.",
+						"viExample": "Chuyến thăm của anh ấy là một bất ngờ thú vị."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "comfortable",
+		"pos": "adjective",
+		"ipa": "/ˈkʌmftəbl/",
+		"cefrLevel": "A2",
+		"frequency": 1550,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "comfort", "pos": "noun" },
+			{ "form": "comfortably", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Making you feel physically relaxed and at ease",
+				"viDef": "thoải mái, dễ chịu",
+				"synonyms": ["cozy", "relaxed"],
+				"antonyms": ["uncomfortable"],
+				"examples": [
+					{
+						"text": "This sofa is very comfortable to sit on.",
+						"viText": "Chiếc ghế sofa này ngồi rất thoải mái."
+					},
+					{
+						"text": "I feel comfortable in my new shoes.",
+						"viText": "Tôi cảm thấy thoải mái trong đôi giày mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "feel comfortable",
+						"meaning": "To be at ease in a situation",
+						"viMeaning": "cảm thấy thoải mái",
+						"example": "Do you feel comfortable talking about this?",
+						"viExample": "Bạn có cảm thấy thoải mái khi nói về việc này không?"
+					},
+					{
+						"phrase": "comfortable life",
+						"meaning": "A life with enough money and no worries",
+						"viMeaning": "cuộc sống sung túc",
+						"example": "They worked hard to have a comfortable life.",
+						"viExample": "Họ đã làm việc chăm chỉ để có một cuộc sống sung túc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "popular",
+		"pos": "adjective",
+		"ipa": "/ˈpɒpjələ(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "popularity", "pos": "noun" },
+			{ "form": "popularly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Liked, enjoyed, or supported by many people",
+				"viDef": "phổ biến, được yêu thích",
+				"synonyms": ["famous", "common"],
+				"antonyms": ["unpopular"],
+				"examples": [
+					{
+						"text": "Football is the most popular sport in Vietnam.",
+						"viText": "Bóng đá là môn thể thao phổ biến nhất ở Việt Nam."
+					},
+					{
+						"text": "This cafe is very popular with students.",
+						"viText": "Quán cà phê này rất được sinh viên yêu thích."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "popular belief",
+						"meaning": "Something that many people think is true",
+						"viMeaning": "quan niệm phổ biến",
+						"example": "Contrary to popular belief, cats can be friendly.",
+						"viExample": "Trái với quan niệm phổ biến, mèo có thể rất thân thiện."
+					},
+					{
+						"phrase": "become popular",
+						"meaning": "To start being liked by many people",
+						"viMeaning": "trở nên phổ biến",
+						"example": "That song became popular very quickly.",
+						"viExample": "Bài hát đó đã trở nên phổ biến rất nhanh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "difficult",
+		"pos": "adjective",
+		"ipa": "/ˈdɪfɪkəlt/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [{ "form": "difficulty", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Not easy to do, understand, or deal with",
+				"viDef": "khó khăn",
+				"synonyms": ["hard", "tough"],
+				"antonyms": ["easy", "simple"],
+				"examples": [
+					{
+						"text": "Chinese is a difficult language to learn.",
+						"viText": "Tiếng Trung là một ngôn ngữ khó học."
+					},
+					{ "text": "I found the math test very difficult.", "viText": "Tôi thấy bài kiểm tra toán rất khó." }
+				],
+				"collocations": [
+					{
+						"phrase": "difficult decision",
+						"meaning": "A choice that is hard to make",
+						"viMeaning": "quyết định khó khăn",
+						"example": "It was a difficult decision to leave my job.",
+						"viExample": "Rời bỏ công việc là một quyết định khó khăn."
+					},
+					{
+						"phrase": "difficult time",
+						"meaning": "A period filled with problems",
+						"viMeaning": "thời gian khó khăn",
+						"example": "They helped me through a difficult time.",
+						"viExample": "Họ đã giúp tôi vượt qua một thời gian khó khăn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "important",
+		"pos": "adjective",
+		"ipa": "/ɪmˈpɔːtnt/",
+		"cefrLevel": "A2",
+		"frequency": 1020,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "importance", "pos": "noun" },
+			{ "form": "importantly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having a great effect or value",
+				"viDef": "quan trọng",
+				"synonyms": ["significant", "essential"],
+				"antonyms": ["unimportant", "trivial"],
+				"examples": [
+					{
+						"text": "It is important to eat healthy food.",
+						"viText": "Việc ăn thực phẩm lành mạnh là rất quan trọng."
+					},
+					{
+						"text": "She has an important meeting tomorrow.",
+						"viText": "Cô ấy có một cuộc họp quan trọng vào ngày mai."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "most important",
+						"meaning": "Having the highest value or effect",
+						"viMeaning": "quan trọng nhất",
+						"example": "The most important thing is to be happy.",
+						"viExample": "Điều quan trọng nhất là phải hạnh phúc."
+					},
+					{
+						"phrase": "important role",
+						"meaning": "A part that has a big effect",
+						"viMeaning": "vai trò quan trọng",
+						"example": "Education plays an important role in our lives.",
+						"viExample": "Giáo dục đóng một vai trò quan trọng trong cuộc sống của chúng ta."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "different",
+		"pos": "adjective",
+		"ipa": "/ˈdɪfrənt/",
+		"cefrLevel": "A2",
+		"frequency": 1015,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "differ", "pos": "verb" },
+			{ "form": "difference", "pos": "noun" },
+			{ "form": "differently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Not the same as something else",
+				"viDef": "khác biệt",
+				"synonyms": ["unlike", "various"],
+				"antonyms": ["same", "similar"],
+				"examples": [
+					{
+						"text": "I want to try a different restaurant tonight.",
+						"viText": "Tôi muốn thử một nhà hàng khác vào tối nay."
+					},
+					{
+						"text": "Their opinions are very different from mine.",
+						"viText": "Ý kiến của họ rất khác so với của tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "different from",
+						"meaning": "Not being the same as another",
+						"viMeaning": "khác với",
+						"example": "This book is different from the movie.",
+						"viExample": "Cuốn sách này khác với bộ phim."
+					},
+					{
+						"phrase": "many different",
+						"meaning": "A wide variety of things",
+						"viMeaning": "nhiều thứ khác nhau",
+						"example": "There are many different ways to solve this.",
+						"viExample": "Có nhiều cách khác nhau để giải quyết việc này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "plan",
+		"pos": "noun",
+		"ipa": "/plæn/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "planner", "pos": "noun" },
+			{ "form": "planning", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A set of decisions about how to do something",
+				"viDef": "kế hoạch",
+				"synonyms": ["scheme", "strategy"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "What is your plan for the weekend?", "viText": "Kế hoạch cho cuối tuần của bạn là gì?" },
+					{
+						"text": "We need to make a plan for the project.",
+						"viText": "Chúng ta cần lập một kế hoạch cho dự án."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "change of plan",
+						"meaning": "A decision to do something else",
+						"viMeaning": "thay đổi kế hoạch",
+						"example": "There was a change of plan due to the rain.",
+						"viExample": "Đã có một sự thay đổi kế hoạch do trời mưa."
+					},
+					{
+						"phrase": "business plan",
+						"meaning": "A plan for how a business will operate",
+						"viMeaning": "kế hoạch kinh doanh",
+						"example": "They presented their business plan to the bank.",
+						"viExample": "Họ đã trình bày kế hoạch kinh doanh của mình với ngân hàng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "explain",
+		"pos": "verb",
+		"ipa": "/ɪkˈspleɪn/",
+		"cefrLevel": "A2",
+		"frequency": 1300,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "explanation", "pos": "noun" },
+			{ "form": "explanatory", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make something clear or easy to understand",
+				"viDef": "giải thích",
+				"synonyms": ["describe", "clarify"],
+				"antonyms": ["confuse"],
+				"examples": [
+					{
+						"text": "Could you explain this math problem to me?",
+						"viText": "Bạn có thể giải thích bài toán này cho tôi không?"
+					},
+					{
+						"text": "The teacher explained how to use the new software.",
+						"viText": "Giáo viên đã giải thích cách sử dụng phần mềm mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "explain why",
+						"meaning": "To give a reason for something",
+						"viMeaning": "giải thích lý do tại sao",
+						"example": "Please explain why you were late.",
+						"viExample": "Làm ơn hãy giải thích lý do tại sao bạn đến muộn."
+					},
+					{
+						"phrase": "carefully explain",
+						"meaning": "To make something clear with a lot of detail",
+						"viMeaning": "giải thích kỹ lưỡng",
+						"example": "He carefully explained the rules of the game.",
+						"viExample": "Anh ấy đã giải thích kỹ lưỡng luật lệ của trò chơi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "describe",
+		"pos": "verb",
+		"ipa": "/dɪˈskraɪb/",
+		"cefrLevel": "A2",
+		"frequency": 1450,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "description", "pos": "noun" },
+			{ "form": "descriptive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To say what someone or something is like",
+				"viDef": "mô tả",
+				"synonyms": ["portray", "detail"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Can you describe the man you saw?",
+						"viText": "Bạn có thể mô tả người đàn ông bạn đã thấy không?"
+					},
+					{
+						"text": "He described his holiday as wonderful.",
+						"viText": "Anh ấy đã mô tả kỳ nghỉ của mình là tuyệt vời."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "describe in detail",
+						"meaning": "To give many facts about something",
+						"viMeaning": "mô tả chi tiết",
+						"example": "She described the painting in detail.",
+						"viExample": "Cô ấy đã mô tả bức tranh một cách chi tiết."
+					},
+					{
+						"phrase": "accurately describe",
+						"meaning": "To give a correct description of something",
+						"viMeaning": "mô tả chính xác",
+						"example": "It is hard to accurately describe the feeling.",
+						"viExample": "Thật khó để mô tả chính xác cảm giác đó."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "compare",
+		"pos": "verb",
+		"ipa": "/kəmˈpeə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1950,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "comparison", "pos": "noun" },
+			{ "form": "comparable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To examine two or more things to see differences",
+				"viDef": "so sánh",
+				"synonyms": ["contrast", "match"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Compare these two phones before you buy one.",
+						"viText": "Hãy so sánh hai chiếc điện thoại này trước khi bạn mua một chiếc."
+					},
+					{
+						"text": "People often compare her to a famous actress.",
+						"viText": "Mọi người thường so sánh cô ấy với một nữ diễn viên nổi tiếng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "compare with",
+						"meaning": "To look at differences between things",
+						"viMeaning": "so sánh với",
+						"example": "This year's sales are high compared with last year.",
+						"viExample": "Doanh số năm nay cao khi so sánh với năm ngoái."
+					},
+					{
+						"phrase": "compare prices",
+						"meaning": "To look at different costs for a product",
+						"viMeaning": "so sánh giá cả",
+						"example": "You should compare prices online first.",
+						"viExample": "Bạn nên so sánh giá cả trực tuyến trước."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "choose",
+		"pos": "verb",
+		"ipa": "/tʃuːz/",
+		"cefrLevel": "A2",
+		"frequency": 1060,
+		"isCommon": true,
+		"wordForms": [{ "form": "choice", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To decide which thing you want from several options",
+				"viDef": "chọn, lựa chọn",
+				"synonyms": ["select", "pick"],
+				"antonyms": ["reject", "refuse"],
+				"examples": [
+					{
+						"text": "Please choose a color for your new room.",
+						"viText": "Làm ơn hãy chọn một màu sắc cho căn phòng mới của bạn."
+					},
+					{
+						"text": "I didn't know which dress to choose.",
+						"viText": "Tôi đã không biết nên chọn chiếc váy nào."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "choose carefully",
+						"meaning": "To pick something with a lot of thought",
+						"viMeaning": "lựa chọn cẩn thận",
+						"example": "You must choose your words carefully.",
+						"viExample": "Bạn phải lựa chọn từ ngữ của mình một cách cẩn thận."
+					},
+					{
+						"phrase": "nothing to choose between",
+						"meaning": "When two things are very similar",
+						"viMeaning": "không có gì khác biệt để chọn",
+						"example": "There is nothing to choose between the two teams.",
+						"viExample": "Không có gì khác biệt để lựa chọn giữa hai đội."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "decide",
+		"pos": "verb",
+		"ipa": "/dɪˈsaɪd/",
+		"cefrLevel": "A2",
+		"frequency": 1120,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "decision", "pos": "noun" },
+			{ "form": "decisive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make a choice after thinking about several possibilities",
+				"viDef": "quyết định",
+				"synonyms": ["resolve", "determine"],
+				"antonyms": ["hesitate"],
+				"examples": [
+					{
+						"text": "We need to decide where to go for lunch.",
+						"viText": "Chúng ta cần quyết định xem đi đâu ăn trưa."
+					},
+					{
+						"text": "I can't decide which book to read first.",
+						"viText": "Tôi không thể quyết định nên đọc cuốn sách nào trước."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "decide to",
+						"meaning": "To make a choice to do an action",
+						"viMeaning": "quyết định làm gì",
+						"example": "They decided to move to a bigger house.",
+						"viExample": "Họ đã quyết định chuyển đến một ngôi nhà lớn hơn."
+					},
+					{
+						"phrase": "decide on",
+						"meaning": "To choose a specific thing or person",
+						"viMeaning": "quyết định chọn cái gì",
+						"example": "Have you decided on a name for the baby?",
+						"viExample": "Bạn đã quyết định chọn tên cho em bé chưa?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "agree",
+		"pos": "verb",
+		"ipa": "/əˈɡriː/",
+		"cefrLevel": "A2",
+		"frequency": 1040,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "agreement", "pos": "noun" },
+			{ "form": "agreeable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To have the same opinion as someone else",
+				"viDef": "đồng ý",
+				"synonyms": ["concur", "accept"],
+				"antonyms": ["disagree"],
+				"examples": [
+					{
+						"text": "I agree with you that the film was great.",
+						"viText": "Tôi đồng ý với bạn rằng bộ phim rất tuyệt."
+					},
+					{ "text": "They agreed to meet at 6 PM.", "viText": "Họ đã đồng ý gặp nhau lúc 6 giờ tối." }
+				],
+				"collocations": [
+					{
+						"phrase": "agree with",
+						"meaning": "To share the same view as a person",
+						"viMeaning": "đồng ý với",
+						"example": "I don't agree with his ideas.",
+						"viExample": "Tôi không đồng ý với những ý tưởng của anh ấy."
+					},
+					{
+						"phrase": "agree on",
+						"meaning": "To reach a decision together about something",
+						"viMeaning": "thống nhất về",
+						"example": "We finally agreed on a price for the car.",
+						"viExample": "Cuối cùng chúng tôi đã thống nhất được mức giá cho chiếc xe."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "disagree",
+		"pos": "verb",
+		"ipa": "/ˌdɪsəˈɡriː/",
+		"cefrLevel": "A2",
+		"frequency": 2800,
+		"isCommon": true,
+		"wordForms": [{ "form": "disagreement", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To have a different opinion from someone else",
+				"viDef": "không đồng ý, phản đối",
+				"synonyms": ["differ", "object"],
+				"antonyms": ["agree"],
+				"examples": [
+					{
+						"text": "I strongly disagree with your opinion.",
+						"viText": "Tôi kịch liệt phản đối ý kiến của bạn."
+					},
+					{
+						"text": "The two friends often disagree about politics.",
+						"viText": "Hai người bạn thường không thống nhất về chính trị."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "disagree with",
+						"meaning": "To have a conflict in views with someone",
+						"viMeaning": "không đồng ý với",
+						"example": "I disagree with the way they treat staff.",
+						"viExample": "Tôi không đồng ý với cách họ đối xử với nhân viên."
+					},
+					{
+						"phrase": "politely disagree",
+						"meaning": "To say you have a different view kindly",
+						"viMeaning": "từ chối khéo",
+						"example": "He had to politely disagree with his boss.",
+						"viExample": "Anh ấy đã phải từ chối khéo lời sếp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "suggest",
+		"pos": "verb",
+		"ipa": "/səˈdʒest/",
+		"cefrLevel": "A2",
+		"frequency": 1200,
+		"isCommon": true,
+		"wordForms": [{ "form": "suggestion", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To mention an idea or plan for someone to consider",
+				"viDef": "gợi ý, đề nghị",
+				"synonyms": ["propose", "recommend"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Can you suggest a good restaurant near here?",
+						"viText": "Bạn có thể gợi ý một nhà hàng ngon gần đây không?"
+					},
+					{
+						"text": "She suggested going to the park this afternoon.",
+						"viText": "Cô ấy đề nghị đi công viên vào chiều nay."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "suggest that",
+						"meaning": "To put forward a thought or plan",
+						"viMeaning": "gợi ý rằng",
+						"example": "I suggest that we leave early tomorrow.",
+						"viExample": "Tôi gợi ý rằng chúng ta nên đi sớm vào ngày mai."
+					},
+					{
+						"phrase": "highly suggest",
+						"meaning": "To strongly recommend something",
+						"viMeaning": "rất khuyến khích",
+						"example": "I highly suggest visiting the old town.",
+						"viExample": "Tôi rất khuyến khích bạn ghé thăm phố cổ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "understand",
+		"pos": "verb",
+		"ipa": "/ˌʌndəˈstænd/",
+		"cefrLevel": "A2",
+		"frequency": 1035,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "understanding", "pos": "noun" },
+			{ "form": "understandable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To know the meaning of something that is said",
+				"viDef": "hiểu",
+				"synonyms": ["comprehend", "grasp"],
+				"antonyms": ["misunderstand"],
+				"examples": [
+					{
+						"text": "I don't understand this English grammar rule.",
+						"viText": "Tôi không hiểu quy tắc ngữ pháp tiếng Anh này."
+					},
+					{ "text": "Do you understand what I am saying?", "viText": "Bạn có hiểu tôi đang nói gì không?" }
+				],
+				"collocations": [
+					{
+						"phrase": "clearly understand",
+						"meaning": "To have a perfect knowledge of something",
+						"viMeaning": "hiểu rõ",
+						"example": "He clearly understands the problem now.",
+						"viExample": "Bây giờ anh ấy đã hiểu rõ vấn đề."
+					},
+					{
+						"phrase": "hard to understand",
+						"meaning": "Difficult to know the meaning of",
+						"viMeaning": "khó hiểu",
+						"example": "His accent is very hard to understand.",
+						"viExample": "Giọng của anh ấy rất khó hiểu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "remember",
+		"pos": "verb",
+		"ipa": "/rɪˈmembə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1080,
+		"isCommon": true,
+		"wordForms": [{ "form": "remembrance", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To bring back a piece of information into your mind",
+				"viDef": "nhớ, ghi nhớ",
+				"synonyms": ["recall", "recollect"],
+				"antonyms": ["forget"],
+				"examples": [
+					{
+						"text": "I can't remember his phone number.",
+						"viText": "Tôi không thể nhớ số điện thoại của anh ấy."
+					},
+					{
+						"text": "Remember to lock the door when you leave.",
+						"viText": "Hãy nhớ khóa cửa khi bạn rời đi nhé."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "remember to",
+						"meaning": "To not forget to do something",
+						"viMeaning": "nhớ làm gì",
+						"example": "Please remember to buy some milk.",
+						"viExample": "Làm ơn hãy nhớ mua một ít sữa."
+					},
+					{
+						"phrase": "always remember",
+						"meaning": "To keep something in your mind forever",
+						"viMeaning": "luôn luôn ghi nhớ",
+						"example": "I will always remember our first trip.",
+						"viExample": "Tôi sẽ luôn luôn ghi nhớ chuyến đi đầu tiên của chúng ta."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "forget",
+		"pos": "verb",
+		"ipa": "/fəˈɡet/",
+		"cefrLevel": "A2",
+		"frequency": 1180,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "forgetful", "pos": "adjective" },
+			{ "form": "forgettable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To be unable to remember something",
+				"viDef": "quên",
+				"synonyms": ["overlook"],
+				"antonyms": ["remember"],
+				"examples": [
+					{
+						"text": "Don't forget your umbrella, it might rain.",
+						"viText": "Đừng quên mang ô, trời có thể mưa đấy."
+					},
+					{
+						"text": "I completely forgot about our meeting.",
+						"viText": "Tôi đã hoàn toàn quên mất cuộc họp của chúng ta."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "forget to",
+						"meaning": "To fail to do an action",
+						"viMeaning": "quên làm gì",
+						"example": "He forgot to turn off the lights.",
+						"viExample": "Anh ấy đã quên tắt đèn."
+					},
+					{
+						"phrase": "never forget",
+						"meaning": "To always remember a significant event",
+						"viMeaning": "không bao giờ quên",
+						"example": "I will never forget your kindness.",
+						"viExample": "Tôi sẽ không bao giờ quên lòng tốt của bạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "improve",
+		"pos": "verb",
+		"ipa": "/ɪmˈpruːv/",
+		"cefrLevel": "A2",
+		"frequency": 1250,
+		"isCommon": true,
+		"wordForms": [{ "form": "improvement", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make something better than it was before",
+				"viDef": "cải thiện, tiến bộ",
+				"synonyms": ["enhance", "better"],
+				"antonyms": ["worsen", "damage"],
+				"examples": [
+					{
+						"text": "I want to improve my English speaking skills.",
+						"viText": "Tôi muốn cải thiện kỹ năng nói tiếng Anh của mình."
+					},
+					{
+						"text": "The service in this shop has improved a lot.",
+						"viText": "Dịch vụ ở cửa hàng này đã tiến bộ rất nhiều."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "improve skills",
+						"meaning": "To make your abilities better",
+						"viMeaning": "cải thiện kỹ năng",
+						"example": "Reading books helps improve your language skills.",
+						"viExample": "Đọc sách giúp cải thiện kỹ năng ngôn ngữ của bạn."
+					},
+					{
+						"phrase": "greatly improve",
+						"meaning": "To make a very big positive change",
+						"viMeaning": "cải thiện đáng kể",
+						"example": "The new road will greatly improve traffic.",
+						"viExample": "Con đường mới sẽ cải thiện đáng kể tình hình giao thông."
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,927 @@
+[
+	{
+		"headword": "benefit",
+		"pos": "noun",
+		"ipa": "/ˈbenɪfɪt/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "benefit", "pos": "verb" },
+			{ "form": "beneficial", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An advantage or profit gained from something",
+				"viDef": "lợi ích",
+				"synonyms": ["advantage", "profit", "gain"],
+				"antonyms": ["disadvantage", "drawback"],
+				"examples": [
+					{
+						"text": "The new bridge will be a great benefit to the town.",
+						"viText": "Cây cầu mới sẽ là một lợi ích lớn cho thị trấn."
+					},
+					{
+						"text": "Exercise has many health benefits.",
+						"viText": "Tập thể dục có nhiều lợi ích cho sức khỏe."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mutual benefit",
+						"meaning": "An advantage shared by both sides",
+						"viMeaning": "lợi ích chung",
+						"example": "The deal was for their mutual benefit.",
+						"viExample": "Thỏa thuận này là vì lợi ích chung của cả hai bên."
+					},
+					{
+						"phrase": "financial benefit",
+						"meaning": "Gaining money from a situation",
+						"viMeaning": "lợi ích tài chính",
+						"example": "There are no financial benefits to this plan.",
+						"viExample": "Không có lợi ích tài chính nào từ kế hoạch này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "value",
+		"pos": "noun",
+		"ipa": "/ˈvæljuː/",
+		"cefrLevel": "B1",
+		"frequency": 3015,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "valuable", "pos": "adjective" },
+			{ "form": "valueless", "pos": "adjective" },
+			{ "form": "value", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "How much something is worth in money or importance",
+				"viDef": "giá trị",
+				"synonyms": ["worth", "cost", "importance"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The value of the house has increased recently.",
+						"viText": "Giá trị của ngôi nhà đã tăng lên gần đây."
+					},
+					{
+						"text": "Your advice was of great value to me.",
+						"viText": "Lời khuyên của bạn có giá trị rất lớn đối với tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "market value",
+						"meaning": "The price something could be sold for now",
+						"viMeaning": "giá trị thị trường",
+						"example": "The market value of gold is rising.",
+						"viExample": "Giá trị thị trường của vàng đang tăng."
+					},
+					{
+						"phrase": "good value",
+						"meaning": "Worth the money you pay for it",
+						"viMeaning": "đáng đồng tiền",
+						"example": "This meal is really good value for money.",
+						"viExample": "Bữa ăn này thực sự rất đáng đồng tiền bát gạo."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "quality",
+		"pos": "noun",
+		"ipa": "/ˈkwɒləti/",
+		"cefrLevel": "B1",
+		"frequency": 3030,
+		"isCommon": false,
+		"wordForms": [{ "form": "qualitative", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "How good or bad something is",
+				"viDef": "chất lượng",
+				"synonyms": ["standard", "grade"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We aim to provide products of high quality.",
+						"viText": "Chúng tôi đặt mục tiêu cung cấp các sản phẩm có chất lượng cao."
+					},
+					{
+						"text": "The quality of life in this city is excellent.",
+						"viText": "Chất lượng cuộc sống ở thành phố này rất tuyệt vời."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "quality control",
+						"meaning": "Checking products to ensure they are good",
+						"viMeaning": "kiểm soát chất lượng",
+						"example": "He works in quality control at the factory.",
+						"viExample": "Anh ấy làm việc ở bộ phận kiểm soát chất lượng tại nhà máy."
+					},
+					{
+						"phrase": "improve quality",
+						"meaning": "To make something better than before",
+						"viMeaning": "cải thiện chất lượng",
+						"example": "The company is trying to improve service quality.",
+						"viExample": "Công ty đang cố gắng cải thiện chất lượng dịch vụ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "standard",
+		"pos": "noun",
+		"ipa": "/ˈstændəd/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "standardize", "pos": "verb" },
+			{ "form": "standard", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A level of quality used to judge other things",
+				"viDef": "tiêu chuẩn",
+				"synonyms": ["criterion", "level", "norm"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Your work is not up to the required standard.",
+						"viText": "Công việc của bạn không đạt tiêu chuẩn yêu cầu."
+					},
+					{
+						"text": "Safety standards must be strictly followed.",
+						"viText": "Các tiêu chuẩn an toàn phải được tuân thủ nghiêm ngặt."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "living standards",
+						"meaning": "The level of comfort and wealth people have",
+						"viMeaning": "mức sống",
+						"example": "Living standards have improved significantly.",
+						"viExample": "Mức sống đã được cải thiện đáng kể."
+					},
+					{
+						"phrase": "high standard",
+						"meaning": "A very good level of quality",
+						"viMeaning": "tiêu chuẩn cao",
+						"example": "She always maintains a high standard of work.",
+						"viExample": "Cô ấy luôn duy trì một tiêu chuẩn công việc cao."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "feature",
+		"pos": "noun",
+		"ipa": "/ˈfiːtʃə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [{ "form": "feature", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An important part or characteristic of something",
+				"viDef": "đặc điểm, tính năng",
+				"synonyms": ["characteristic", "aspect", "trait"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The most striking feature of the house is the garden.",
+						"viText": "Đặc điểm nổi bật nhất của ngôi nhà là khu vườn."
+					},
+					{
+						"text": "This phone has many interesting new features.",
+						"viText": "Chiếc điện thoại này có nhiều tính năng mới thú vị."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "safety feature",
+						"meaning": "A part of a product designed for protection",
+						"viMeaning": "tính năng an toàn",
+						"example": "The car includes several advanced safety features.",
+						"viExample": "Chiếc xe bao gồm một số tính năng an toàn tiên tiến."
+					},
+					{
+						"phrase": "main feature",
+						"meaning": "The primary characteristic of something",
+						"viMeaning": "đặc điểm chính",
+						"example": "Simplicity is the main feature of the design.",
+						"viExample": "Sự đơn giản là đặc điểm chính của thiết kế."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "function",
+		"pos": "noun",
+		"ipa": "/ˈfʌŋkʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3150,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "functional", "pos": "adjective" },
+			{ "form": "function", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The purpose or job that something is designed for",
+				"viDef": "chức năng",
+				"synonyms": ["purpose", "role", "duty"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "What is the function of this button?", "viText": "Chức năng của cái nút này là gì?" },
+					{
+						"text": "The main function of the heart is to pump blood.",
+						"viText": "Chức năng chính của tim là bơm máu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "properly function",
+						"meaning": "To work in the correct way",
+						"viMeaning": "hoạt động bình thường",
+						"example": "The machine failed to properly function.",
+						"viExample": "Máy móc đã không hoạt động bình thường."
+					},
+					{
+						"phrase": "basic function",
+						"meaning": "The simplest task something performs",
+						"viMeaning": "chức năng cơ bản",
+						"example": "The app performs its basic function well.",
+						"viExample": "Ứng dụng thực hiện tốt chức năng cơ bản của nó."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "structure",
+		"pos": "noun",
+		"ipa": "/ˈstrʌktʃə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "structural", "pos": "adjective" },
+			{ "form": "structure", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The way in which parts of something are arranged",
+				"viDef": "cấu trúc, kết cấu",
+				"synonyms": ["arrangement", "format", "organization"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We are studying the structure of the human brain.",
+						"viText": "Chúng tôi đang nghiên cứu cấu trúc của não người."
+					},
+					{
+						"text": "The building has a solid steel structure.",
+						"viText": "Tòa nhà có kết cấu thép vững chắc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "social structure",
+						"meaning": "The organization of people in a society",
+						"viMeaning": "cấu trúc xã hội",
+						"example": "The war changed the country's social structure.",
+						"viExample": "Chiến tranh đã làm thay đổi cấu trúc xã hội của đất nước."
+					},
+					{
+						"phrase": "organizational structure",
+						"meaning": "The hierarchy within a company",
+						"viMeaning": "cơ cấu tổ chức",
+						"example": "The firm has a flat organizational structure.",
+						"viExample": "Công ty có cơ cấu tổ chức phẳng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "system",
+		"pos": "noun",
+		"ipa": "/ˈsɪstəm/",
+		"cefrLevel": "B1",
+		"frequency": 3005,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "systematic", "pos": "adjective" },
+			{ "form": "systematically", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A set of connected parts working together",
+				"viDef": "hệ thống",
+				"synonyms": ["network", "method", "setup"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The heating system is not working properly.",
+						"viText": "Hệ thống sưởi đang không hoạt động bình thường."
+					},
+					{
+						"text": "They are developing a new filing system.",
+						"viText": "Họ đang phát triển một hệ thống lưu trữ hồ sơ mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "solar system",
+						"meaning": "The sun and planets that move around it",
+						"viMeaning": "hệ mặt trời",
+						"example": "Earth is the third planet in our solar system.",
+						"viExample": "Trái đất là hành tinh thứ ba trong hệ mặt trời của chúng ta."
+					},
+					{
+						"phrase": "operating system",
+						"meaning": "The software that controls a computer",
+						"viMeaning": "hệ điều hành",
+						"example": "I need to update my computer's operating system.",
+						"viExample": "Tôi cần cập nhật hệ điều hành máy tính của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "method",
+		"pos": "noun",
+		"ipa": "/ˈmeθəd/",
+		"cefrLevel": "B1",
+		"frequency": 3040,
+		"isCommon": false,
+		"wordForms": [{ "form": "methodical", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A particular way of doing something",
+				"viDef": "phương pháp",
+				"synonyms": ["way", "procedure", "approach"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "What is the best method for learning English?",
+						"viText": "Phương pháp tốt nhất để học tiếng Anh là gì?"
+					},
+					{
+						"text": "The traditional methods are no longer effective.",
+						"viText": "Các phương pháp truyền thống không còn hiệu quả nữa."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "scientific method",
+						"meaning": "A way of researching based on facts",
+						"viMeaning": "phương pháp khoa học",
+						"example": "Researchers must follow the scientific method.",
+						"viExample": "Các nhà nghiên cứu phải tuân theo phương pháp khoa học."
+					},
+					{
+						"phrase": "teaching method",
+						"meaning": "The style used by a teacher to instruct",
+						"viMeaning": "phương pháp giảng dạy",
+						"example": "The school uses a modern teaching method.",
+						"viExample": "Trường học sử dụng một phương pháp giảng dạy hiện đại."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "approach",
+		"pos": "noun",
+		"ipa": "/əˈprəʊtʃ/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "approach", "pos": "verb" },
+			{ "form": "approachable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A way of dealing with a situation or problem",
+				"viDef": "cách tiếp cận",
+				"synonyms": ["method", "strategy", "perspective"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We need a new approach to this problem.",
+						"viText": "Chúng ta cần một cách tiếp cận mới cho vấn đề này."
+					},
+					{
+						"text": "I like her direct approach to business.",
+						"viText": "Tôi thích cách tiếp cận trực tiếp của cô ấy trong kinh doanh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "flexible approach",
+						"meaning": "A way of acting that can change",
+						"viMeaning": "cách tiếp cận linh hoạt",
+						"example": "The manager takes a flexible approach.",
+						"viExample": "Người quản lý có cách tiếp cận linh hoạt."
+					},
+					{
+						"phrase": "holistic approach",
+						"meaning": "Dealing with something as a whole",
+						"viMeaning": "cách tiếp cận toàn diện",
+						"example": "Doctors are taking a more holistic approach.",
+						"viExample": "Các bác sĩ đang thực hiện một cách tiếp cận toàn diện hơn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "stress",
+		"pos": "noun",
+		"ipa": "/stres/",
+		"cefrLevel": "B1",
+		"frequency": 3120,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "stress", "pos": "verb" },
+			{ "form": "stressful", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A feeling of worry caused by difficult situations",
+				"viDef": "sự căng thẳng, áp lực",
+				"synonyms": ["pressure", "tension", "strain"],
+				"antonyms": ["relaxation"],
+				"examples": [
+					{
+						"text": "She is suffering from a lot of stress at work.",
+						"viText": "Cô ấy đang chịu rất nhiều căng thẳng trong công việc."
+					},
+					{
+						"text": "Yoga is a great way to reduce stress.",
+						"viText": "Yoga là một cách tuyệt vời để giảm căng thẳng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "under stress",
+						"meaning": "Feeling pressure from a situation",
+						"viMeaning": "bị căng thẳng",
+						"example": "He performs poorly when he is under stress.",
+						"viExample": "Anh ấy làm việc kém khi bị căng thẳng."
+					},
+					{
+						"phrase": "manage stress",
+						"meaning": "To control your feelings of pressure",
+						"viMeaning": "quản lý căng thẳng",
+						"example": "It's important to learn how to manage stress.",
+						"viExample": "Học cách quản lý căng thẳng là rất quan trọng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "anxiety",
+		"pos": "noun",
+		"ipa": "/æŋˈzaɪəti/",
+		"cefrLevel": "B1",
+		"frequency": 3800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "anxious", "pos": "adjective" },
+			{ "form": "anxiously", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A feeling of worry, nervousness, or unease",
+				"viDef": "sự lo âu",
+				"synonyms": ["worry", "concern", "unease"],
+				"antonyms": ["calm", "confidence"],
+				"examples": [
+					{
+						"text": "Waiting for the results caused her much anxiety.",
+						"viText": "Việc chờ đợi kết quả đã gây cho cô ấy nhiều sự lo âu."
+					},
+					{ "text": "He suffers from social anxiety.", "viText": "Anh ấy bị chứng lo âu xã hội." }
+				],
+				"collocations": [
+					{
+						"phrase": "cause anxiety",
+						"meaning": "To make someone feel worried",
+						"viMeaning": "gây lo âu",
+						"example": "The news caused a lot of anxiety.",
+						"viExample": "Tin tức đã gây ra rất nhiều sự lo âu."
+					},
+					{
+						"phrase": "relieve anxiety",
+						"meaning": "To make someone feel less nervous",
+						"viMeaning": "giảm bớt lo âu",
+						"example": "Exercise can help relieve anxiety.",
+						"viExample": "Tập thể dục có thể giúp giảm bớt lo âu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "confidence",
+		"pos": "noun",
+		"ipa": "/ˈkɒnfɪdəns/",
+		"cefrLevel": "B1",
+		"frequency": 3150,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "confident", "pos": "adjective" },
+			{ "form": "confidently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A belief in your own ability to succeed",
+				"viDef": "sự tự tin",
+				"synonyms": ["assurance", "self-belief"],
+				"antonyms": ["doubt", "insecurity"],
+				"examples": [
+					{
+						"text": "Winning the match gave him more confidence.",
+						"viText": "Chiến thắng trận đấu đã cho anh ấy thêm sự tự tin."
+					},
+					{
+						"text": "She answered the questions with confidence.",
+						"viText": "Cô ấy đã trả lời các câu hỏi một cách tự tin."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "lack confidence",
+						"meaning": "To not believe in yourself",
+						"viMeaning": "thiếu tự tin",
+						"example": "He fails because he lacks confidence.",
+						"viExample": "Anh ấy thất bại vì thiếu tự tin."
+					},
+					{
+						"phrase": "boost confidence",
+						"meaning": "To make someone feel more sure of themselves",
+						"viMeaning": "thúc đẩy sự tự tin",
+						"example": "Positive feedback can boost a student's confidence.",
+						"viExample": "Phản hồi tích cực có thể thúc đẩy sự tự tin của học sinh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ability",
+		"pos": "noun",
+		"ipa": "/əˈbɪləti/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "able", "pos": "adjective" },
+			{ "form": "enable", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The physical or mental power to do something",
+				"viDef": "khả năng, năng lực",
+				"synonyms": ["capability", "skill", "talent"],
+				"antonyms": ["inability"],
+				"examples": [
+					{
+						"text": "He has the ability to speak three languages.",
+						"viText": "Anh ấy có khả năng nói được ba thứ tiếng."
+					},
+					{
+						"text": "This job is beyond my current ability.",
+						"viText": "Công việc này vượt quá khả năng hiện tại của tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "natural ability",
+						"meaning": "A skill you are born with",
+						"viMeaning": "khả năng thiên bẩm",
+						"example": "She has a natural ability for music.",
+						"viExample": "Cô ấy có khả năng thiên bẩm về âm nhạc."
+					},
+					{
+						"phrase": "mixed ability",
+						"meaning": "A group of people with different levels",
+						"viMeaning": "năng lực hỗn hợp",
+						"example": "The teacher is used to mixed ability classes.",
+						"viExample": "Giáo viên đã quen với các lớp học có năng lực hỗn hợp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "talent",
+		"pos": "noun",
+		"ipa": "/ˈtælənt/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [{ "form": "talented", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A natural ability to be good at something",
+				"viDef": "tài năng",
+				"synonyms": ["gift", "skill", "flair"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She has a real talent for painting.",
+						"viText": "Cô ấy có một tài năng thực sự về hội họa."
+					},
+					{
+						"text": "The competition aims to find new singing talent.",
+						"viText": "Cuộc thi nhằm tìm kiếm tài năng ca hát mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "hidden talent",
+						"meaning": "A skill that people do not know about",
+						"viMeaning": "tài năng tiềm ẩn",
+						"example": "I discovered a hidden talent for cooking.",
+						"viExample": "Tôi đã khám phá ra một tài năng nấu ăn tiềm ẩn."
+					},
+					{
+						"phrase": "raw talent",
+						"meaning": "Natural skill that needs to be developed",
+						"viMeaning": "tài năng thô",
+						"example": "He has raw talent but needs training.",
+						"viExample": "Anh ấy có tài năng thô nhưng cần được đào tạo."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "weakness",
+		"pos": "noun",
+		"ipa": "/ˈwiːknəs/",
+		"cefrLevel": "B1",
+		"frequency": 3400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "weak", "pos": "adjective" },
+			{ "form": "weaken", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A lack of strength or a fault in character",
+				"viDef": "điểm yếu, sự yếu đuối",
+				"synonyms": ["flaw", "shortcoming", "fragility"],
+				"antonyms": ["strength"],
+				"examples": [
+					{
+						"text": "Everyone has their strengths and weaknesses.",
+						"viText": "Ai cũng có những điểm mạnh và điểm yếu riêng."
+					},
+					{
+						"text": "Admitting your weakness is a sign of courage.",
+						"viText": "Thừa nhận điểm yếu của mình là một dấu hiệu của sự dũng cảm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "structural weakness",
+						"meaning": "A fault in the way something is built",
+						"viMeaning": "điểm yếu về cấu trúc",
+						"example": "The bridge collapsed due to structural weakness.",
+						"viExample": "Cây cầu bị sập do điểm yếu về cấu trúc."
+					},
+					{
+						"phrase": "show weakness",
+						"meaning": "To act in a way that is not firm",
+						"viMeaning": "lộ vẻ yếu đuối",
+						"example": "The leader didn't want to show any weakness.",
+						"viExample": "Người lãnh đạo không muốn lộ ra bất kỳ sự yếu đuối nào."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "strength",
+		"pos": "noun",
+		"ipa": "/streŋkθ/",
+		"cefrLevel": "B1",
+		"frequency": 3060,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "strong", "pos": "adjective" },
+			{ "form": "strengthen", "pos": "verb" },
+			{ "form": "strongly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The quality of being physically or mentally strong",
+				"viDef": "sức mạnh, điểm mạnh",
+				"synonyms": ["power", "force", "might"],
+				"antonyms": ["weakness"],
+				"examples": [
+					{
+						"text": "He didn't have the strength to lift the box.",
+						"viText": "Anh ấy không có đủ sức mạnh để nhấc chiếc hộp lên."
+					},
+					{
+						"text": "Her greatest strength is her patience.",
+						"viText": "Điểm mạnh lớn nhất của cô ấy là sự kiên nhẫn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "inner strength",
+						"meaning": "Mental power to deal with difficult situations",
+						"viMeaning": "sức mạnh nội tâm",
+						"example": "She found the inner strength to carry on.",
+						"viExample": "Cô ấy đã tìm thấy sức mạnh nội tâm để tiếp tục."
+					},
+					{
+						"phrase": "economic strength",
+						"meaning": "The financial power of a country",
+						"viMeaning": "sức mạnh kinh tế",
+						"example": "The nation is known for its economic strength.",
+						"viExample": "Quốc gia này nổi tiếng với sức mạnh kinh tế."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "effort",
+		"pos": "noun",
+		"ipa": "/ˈefət/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "effortless", "pos": "adjective" },
+			{ "form": "effortlessly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The physical or mental energy needed to do something",
+				"viDef": "nỗ lực, công sức",
+				"synonyms": ["attempt", "endeavor", "exertion"],
+				"antonyms": ["laziness"],
+				"examples": [
+					{
+						"text": "You should put more effort into your work.",
+						"viText": "Bạn nên dồn nhiều nỗ lực hơn vào công việc của mình."
+					},
+					{
+						"text": "It took a lot of effort to finish the project.",
+						"viText": "Phải tốn rất nhiều công sức để hoàn thành dự án."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make an effort",
+						"meaning": "To try hard to do something",
+						"viMeaning": "nỗ lực",
+						"example": "Please make an effort to be on time.",
+						"viExample": "Làm ơn hãy nỗ lực để đến đúng giờ."
+					},
+					{
+						"phrase": "joint effort",
+						"meaning": "Something done by a group together",
+						"viMeaning": "nỗ lực chung",
+						"example": "The success was the result of a joint effort.",
+						"viExample": "Thành công là kết quả của một nỗ lực chung."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "succeed",
+		"pos": "verb",
+		"ipa": "/səkˈsiːd/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "success", "pos": "noun" },
+			{ "form": "successful", "pos": "adjective" },
+			{ "form": "successfully", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To achieve something that you have been trying to do",
+				"viDef": "thành công",
+				"synonyms": ["achieve", "prosper", "triumph"],
+				"antonyms": ["fail"],
+				"examples": [
+					{
+						"text": "He finally succeeded in passing his driving test.",
+						"viText": "Cuối cùng anh ấy đã thành công trong việc vượt qua kỳ thi lái xe."
+					},
+					{
+						"text": "The company is succeeding in the international market.",
+						"viText": "Công ty đang thành công trên thị trường quốc tế."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "succeed in doing",
+						"meaning": "To manage to do something difficult",
+						"viMeaning": "thành công trong việc làm gì",
+						"example": "Did you succeed in finding a new job?",
+						"viExample": "Bạn có thành công trong việc tìm một công việc mới không?"
+					},
+					{
+						"phrase": "likely to succeed",
+						"meaning": "Having a high chance of success",
+						"viMeaning": "có khả năng thành công",
+						"example": "This new plan is likely to succeed.",
+						"viExample": "Kế hoạch mới này có khả năng thành công."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "fail",
+		"pos": "verb",
+		"ipa": "/feɪl/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "failure", "pos": "noun" },
+			{ "form": "failing", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To not succeed in achieving something",
+				"viDef": "thất bại, hỏng",
+				"synonyms": ["flop", "miss"],
+				"antonyms": ["succeed", "pass"],
+				"examples": [
+					{
+						"text": "He failed his exam because he didn't study.",
+						"viText": "Anh ấy đã trượt kỳ thi vì không học bài."
+					},
+					{
+						"text": "The business failed after only six months.",
+						"viText": "Doanh nghiệp đã thất bại chỉ sau sáu tháng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fail to do",
+						"meaning": "To not do something that you should do",
+						"viMeaning": "không làm được việc gì",
+						"example": "The pilot failed to land the plane safely.",
+						"viExample": "Phi công đã không thể hạ cánh máy bay an toàn."
+					},
+					{
+						"phrase": "without fail",
+						"meaning": "Always or certainly",
+						"viMeaning": "chắc chắn, không sai sót",
+						"example": "I will call you tomorrow without fail.",
+						"viExample": "Tôi chắc chắn sẽ gọi cho bạn vào ngày mai."
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,933 @@
+[
+	{
+		"headword": "achieve",
+		"pos": "verb",
+		"ipa": "/əˈtʃiːv/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "achievement", "pos": "noun" },
+			{ "form": "achievable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To succeed in reaching a goal through effort and skill",
+				"viDef": "đạt được, giành được",
+				"synonyms": ["accomplish", "attain", "reach"],
+				"antonyms": ["fail", "miss"],
+				"examples": [
+					{
+						"text": "She worked hard to achieve her dream of becoming a pilot.",
+						"viText": "Cô ấy đã làm việc chăm chỉ để đạt được ước mơ trở thành phi công."
+					},
+					{
+						"text": "We finally achieved our sales targets for the month.",
+						"viText": "Chúng tôi cuối cùng đã đạt được mục tiêu doanh số của tháng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "achieve a goal",
+						"meaning": "To successfully reach a desired result",
+						"viMeaning": "đạt được mục tiêu",
+						"example": "He worked tirelessly to achieve his goal.",
+						"viExample": "Anh ấy đã làm việc không mệt mỏi để đạt được mục tiêu của mình."
+					},
+					{
+						"phrase": "achieve success",
+						"meaning": "To become successful in a particular field",
+						"viMeaning": "đạt được thành công",
+						"example": "Innovation is key to achieving success in business.",
+						"viExample": "Đổi mới là chìa khóa để đạt được thành công trong kinh doanh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "develop",
+		"pos": "verb",
+		"ipa": "/dɪˈveləp/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "development", "pos": "noun" },
+			{ "form": "developer", "pos": "noun" },
+			{ "form": "developing", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To grow or change into a more advanced form",
+				"viDef": "phát triển",
+				"synonyms": ["grow", "evolve", "expand"],
+				"antonyms": ["decline", "deteriorate"],
+				"examples": [
+					{
+						"text": "The company is looking to develop new software products.",
+						"viText": "Công ty đang tìm cách phát triển các sản phẩm phần mềm mới."
+					},
+					{
+						"text": "Children develop social skills through playing with others.",
+						"viText": "Trẻ em phát triển các kỹ năng xã hội thông qua việc chơi với người khác."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "develop a skill",
+						"meaning": "To improve a specific ability over time",
+						"viMeaning": "phát triển một kỹ năng",
+						"example": "You need to develop your communication skills.",
+						"viExample": "Bạn cần phát triển kỹ năng giao tiếp của mình."
+					},
+					{
+						"phrase": "develop a plan",
+						"meaning": "To create a detailed method for doing something",
+						"viMeaning": "lập kế hoạch",
+						"example": "They are developing a plan to reduce waste.",
+						"viExample": "Họ đang lập một kế hoạch để giảm thiểu rác thải."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "manage",
+		"pos": "verb",
+		"ipa": "/ˈmænɪdʒ/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "management", "pos": "noun" },
+			{ "form": "manager", "pos": "noun" },
+			{ "form": "manageable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To be in charge of a business or organization",
+				"viDef": "quản lý, điều hành",
+				"synonyms": ["run", "direct", "administer"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He manages a team of twenty engineers.",
+						"viText": "Anh ấy quản lý một đội ngũ gồm hai mươi kỹ sư."
+					},
+					{
+						"text": "It is difficult to manage a large project alone.",
+						"viText": "Rất khó để quản lý một dự án lớn một mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "manage time",
+						"meaning": "To use your time effectively",
+						"viMeaning": "quản lý thời gian",
+						"example": "Learning to manage time is crucial for students.",
+						"viExample": "Học cách quản lý thời gian là điều tối quan trọng đối với sinh viên."
+					},
+					{
+						"phrase": "manage a budget",
+						"meaning": "To control the spending of money",
+						"viMeaning": "quản lý ngân sách",
+						"example": "She knows how to manage a tight budget.",
+						"viExample": "Cô ấy biết cách quản lý một ngân sách eo hẹp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "require",
+		"pos": "verb",
+		"ipa": "/rɪˈkwaɪə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3150,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "requirement", "pos": "noun" },
+			{ "form": "requisite", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To need something or make something necessary",
+				"viDef": "yêu cầu, cần đến",
+				"synonyms": ["need", "demand", "necessitate"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "This job requires a lot of hard work.",
+						"viText": "Công việc này yêu cầu rất nhiều sự chăm chỉ."
+					},
+					{
+						"text": "Please call us if you require further assistance.",
+						"viText": "Vui lòng gọi cho chúng tôi nếu bạn cần hỗ trợ thêm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "require effort",
+						"meaning": "To need physical or mental energy",
+						"viMeaning": "đòi hỏi nỗ lực",
+						"example": "Learning a language requires constant effort.",
+						"viExample": "Học một ngôn ngữ đòi hỏi nỗ lực không ngừng."
+					},
+					{
+						"phrase": "legally require",
+						"meaning": "To be mandatory by law",
+						"viMeaning": "yêu cầu theo luật pháp",
+						"example": "The law legally requires all drivers to have insurance.",
+						"viExample": "Luật pháp yêu cầu tất cả người lái xe phải có bảo hiểm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "consider",
+		"pos": "verb",
+		"ipa": "/kənˈsɪdə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "consideration", "pos": "noun" },
+			{ "form": "considerable", "pos": "adjective" },
+			{ "form": "considerate", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To think about something carefully before making a decision",
+				"viDef": "cân nhắc, xem xét",
+				"synonyms": ["think about", "contemplate", "ponder"],
+				"antonyms": ["ignore", "disregard"],
+				"examples": [
+					{
+						"text": "We are considering moving to a bigger house.",
+						"viText": "Chúng tôi đang cân nhắc việc chuyển đến một ngôi nhà lớn hơn."
+					},
+					{
+						"text": "Please take time to consider my offer.",
+						"viText": "Làm ơn dành thời gian để xem xét lời đề nghị của tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "consider an option",
+						"meaning": "To think about a possible choice",
+						"viMeaning": "xem xét một lựa chọn",
+						"example": "You should consider all options before deciding.",
+						"viExample": "Bạn nên xem xét tất cả các lựa chọn trước khi quyết định."
+					},
+					{
+						"phrase": "carefully consider",
+						"meaning": "To think very deeply about something",
+						"viMeaning": "cân nhắc kỹ lưỡng",
+						"example": "The board will carefully consider your proposal.",
+						"viExample": "Ban quản trị sẽ cân nhắc kỹ lưỡng đề xuất của bạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "provide",
+		"pos": "verb",
+		"ipa": "/prəˈvaɪd/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "provider", "pos": "noun" },
+			{ "form": "provision", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To give something to someone or make it available",
+				"viDef": "cung cấp",
+				"synonyms": ["supply", "give", "offer"],
+				"antonyms": ["withhold", "take away"],
+				"examples": [
+					{
+						"text": "The hotel provides free Wi-Fi for all guests.",
+						"viText": "Khách sạn cung cấp Wi-Fi miễn phí cho tất cả khách nghỉ."
+					},
+					{
+						"text": "They provide financial support to low-income families.",
+						"viText": "Họ cung cấp hỗ trợ tài chính cho các gia đình thu nhập thấp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "provide information",
+						"meaning": "To give facts or details about something",
+						"viMeaning": "cung cấp thông tin",
+						"example": "The website provides information on local events.",
+						"viExample": "Trang web cung cấp thông tin về các sự kiện địa phương."
+					},
+					{
+						"phrase": "provide a service",
+						"meaning": "To perform work for others",
+						"viMeaning": "cung cấp dịch vụ",
+						"example": "The company aims to provide a high-quality service.",
+						"viExample": "Công ty đặt mục tiêu cung cấp một dịch vụ chất lượng cao."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "include",
+		"pos": "verb",
+		"ipa": "/ɪnˈkluːd/",
+		"cefrLevel": "B1",
+		"frequency": 3040,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "inclusion", "pos": "noun" },
+			{ "form": "inclusive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To contain something as part of a whole",
+				"viDef": "bao gồm",
+				"synonyms": ["contain", "comprise", "involve"],
+				"antonyms": ["exclude"],
+				"examples": [
+					{
+						"text": "The price includes breakfast and dinner.",
+						"viText": "Giá đã bao gồm bữa sáng và bữa tối."
+					},
+					{
+						"text": "Does the tour include a visit to the museum?",
+						"viText": "Chuyến tham quan có bao gồm việc ghé thăm bảo tàng không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "specifically include",
+						"meaning": "To list something clearly as part of a group",
+						"viMeaning": "bao gồm một cách cụ thể",
+						"example": "The report specifically includes data from last year.",
+						"viExample": "Bản báo cáo bao gồm cụ thể dữ liệu từ năm ngoái."
+					},
+					{
+						"phrase": "include in the list",
+						"meaning": "To add an item to a sequence",
+						"viMeaning": "bao gồm trong danh sách",
+						"example": "Please include my name in the list of volunteers.",
+						"viExample": "Làm ơn hãy điền tên tôi vào danh sách tình nguyện viên."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "involve",
+		"pos": "verb",
+		"ipa": "/ɪnˈvɒlv/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "involvement", "pos": "noun" },
+			{ "form": "involved", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To include someone or something in an activity",
+				"viDef": "liên quan, bao gồm",
+				"synonyms": ["entail", "require", "contain"],
+				"antonyms": ["exclude"],
+				"examples": [
+					{
+						"text": "The renovation project involves a lot of noise.",
+						"viText": "Dự án cải tạo bao gồm rất nhiều tiếng ồn."
+					},
+					{
+						"text": "We want to involve as many people as possible.",
+						"viText": "Chúng tôi muốn thu hút sự tham gia của càng nhiều người càng tốt."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "get involved",
+						"meaning": "To take part in something",
+						"viMeaning": "tham gia vào",
+						"example": "I decided to get involved in local politics.",
+						"viExample": "Tôi đã quyết định tham gia vào chính trị địa phương."
+					},
+					{
+						"phrase": "heavily involve",
+						"meaning": "To be very much part of something",
+						"viMeaning": "liên quan mật thiết",
+						"example": "The process heavily involves computer programming.",
+						"viExample": "Quy trình này liên quan mật thiết đến lập trình máy tính."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "establish",
+		"pos": "verb",
+		"ipa": "/ɪˈstæblɪʃ/",
+		"cefrLevel": "B1",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "establishment", "pos": "noun" },
+			{ "form": "established", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To start a company, organization, or system",
+				"viDef": "thiết lập, thành lập",
+				"synonyms": ["set up", "found", "create"],
+				"antonyms": ["destroy", "abolish"],
+				"examples": [
+					{
+						"text": "The company was established in 1995.",
+						"viText": "Công ty được thành lập vào năm 1995."
+					},
+					{
+						"text": "They hope to establish a new world record.",
+						"viText": "Họ hy vọng sẽ thiết lập một kỷ lục thế giới mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "establish a relationship",
+						"meaning": "To start a connection with someone",
+						"viMeaning": "thiết lập mối quan hệ",
+						"example": "It is important to establish a good relationship with clients.",
+						"viExample": "Việc thiết lập mối quan hệ tốt với khách hàng là rất quan trọng."
+					},
+					{
+						"phrase": "establish a fact",
+						"meaning": "To prove that something is true",
+						"viMeaning": "xác nhận một sự thật",
+						"example": "Police are trying to establish the facts of the case.",
+						"viExample": "Cảnh sát đang cố gắng xác nhận các sự thật của vụ án."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "maintain",
+		"pos": "verb",
+		"ipa": "/meɪnˈteɪn/",
+		"cefrLevel": "B1",
+		"frequency": 3400,
+		"isCommon": false,
+		"wordForms": [{ "form": "maintenance", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make something continue at the same level",
+				"viDef": "duy trì, bảo trì",
+				"synonyms": ["keep", "preserve", "continue"],
+				"antonyms": ["abandon", "neglect"],
+				"examples": [
+					{
+						"text": "You should maintain a healthy diet.",
+						"viText": "Bạn nên duy trì một chế độ ăn uống lành mạnh."
+					},
+					{
+						"text": "The garden is very expensive to maintain.",
+						"viText": "Khu vườn này rất tốn kém để bảo trì."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "maintain contact",
+						"meaning": "To stay in touch with someone",
+						"viMeaning": "duy trì liên lạc",
+						"example": "We still maintain contact after many years.",
+						"viExample": "Chúng tôi vẫn duy trì liên lạc sau nhiều năm."
+					},
+					{
+						"phrase": "maintain order",
+						"meaning": "To keep a situation peaceful and organized",
+						"viMeaning": "duy trì trật tự",
+						"example": "The police were called to maintain order.",
+						"viExample": "Cảnh sát đã được gọi đến để duy trì trật tự."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "advantage",
+		"pos": "noun",
+		"ipa": "/ədˈvɑːntɪdʒ/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [{ "form": "advantageous", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A condition that helps you to be successful",
+				"viDef": "lợi thế, ưu điểm",
+				"synonyms": ["benefit", "plus", "pro"],
+				"antonyms": ["disadvantage"],
+				"examples": [
+					{
+						"text": "The main advantage of this car is its low fuel consumption.",
+						"viText": "Ưu điểm chính của chiếc xe này là mức tiêu thụ nhiên liệu thấp."
+					},
+					{
+						"text": "Being tall is a big advantage in basketball.",
+						"viText": "Cao lớn là một lợi thế lớn trong bóng rổ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "take advantage of",
+						"meaning": "To make good use of an opportunity",
+						"viMeaning": "tận dụng",
+						"example": "You should take advantage of the free classes.",
+						"viExample": "Bạn nên tận dụng các lớp học miễn phí."
+					},
+					{
+						"phrase": "unfair advantage",
+						"meaning": "A benefit that is not right or fair",
+						"viMeaning": "lợi thế bất công",
+						"example": "He had an unfair advantage because he saw the questions.",
+						"viExample": "Anh ta có một lợi thế bất công vì đã xem trước các câu hỏi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "disadvantage",
+		"pos": "noun",
+		"ipa": "/ˌdɪsədˈvɑːntɪdʒ/",
+		"cefrLevel": "B1",
+		"frequency": 4200,
+		"isCommon": false,
+		"wordForms": [{ "form": "disadvantaged", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A condition that makes it harder to succeed",
+				"viDef": "nhược điểm, bất lợi",
+				"synonyms": ["drawback", "downside", "con"],
+				"antonyms": ["advantage"],
+				"examples": [
+					{
+						"text": "The disadvantage of living in the city is the noise.",
+						"viText": "Nhược điểm của việc sống ở thành phố là tiếng ồn."
+					},
+					{
+						"text": "His lack of experience was a major disadvantage.",
+						"viText": "Việc thiếu kinh nghiệm là một bất lợi lớn của anh ấy."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "at a disadvantage",
+						"meaning": "In a situation that is not good for you",
+						"viMeaning": "ở thế bất lợi",
+						"example": "Non-native speakers may be at a disadvantage.",
+						"viExample": "Người không phải bản xứ có thể ở thế bất lợi."
+					},
+					{
+						"phrase": "main disadvantage",
+						"meaning": "The primary negative aspect",
+						"viMeaning": "nhược điểm chính",
+						"example": "The main disadvantage of the job is the long hours.",
+						"viExample": "Nhược điểm chính của công việc là giờ làm kéo dài."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "consequence",
+		"pos": "noun",
+		"ipa": "/ˈkɒnsɪkwəns/",
+		"cefrLevel": "B1",
+		"frequency": 3800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "consequent", "pos": "adjective" },
+			{ "form": "consequently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A result of a particular action or situation",
+				"viDef": "hệ quả, hậu quả",
+				"synonyms": ["result", "outcome", "effect"],
+				"antonyms": ["cause"],
+				"examples": [
+					{
+						"text": "Global warming is a consequence of human activity.",
+						"viText": "Nóng lên toàn cầu là một hệ quả của hoạt động con người."
+					},
+					{
+						"text": "You must accept the consequences of your decisions.",
+						"viText": "Bạn phải chấp nhận hậu quả từ những quyết định của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "serious consequence",
+						"meaning": "A very bad result",
+						"viMeaning": "hậu quả nghiêm trọng",
+						"example": "Smoking has serious consequences for your health.",
+						"viExample": "Hút thuốc gây ra những hậu quả nghiêm trọng cho sức khỏe của bạn."
+					},
+					{
+						"phrase": "as a consequence",
+						"meaning": "Because of something that happened",
+						"viMeaning": "như một hệ quả",
+						"example": "He fell ill and, as a consequence, missed the exam.",
+						"viExample": "Anh ấy bị ốm và hệ quả là đã bỏ lỡ kỳ thi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "evidence",
+		"pos": "noun",
+		"ipa": "/ˈevɪdəns/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "evident", "pos": "adjective" },
+			{ "form": "evidently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Facts or information showing whether something is true",
+				"viDef": "bằng chứng",
+				"synonyms": ["proof", "data", "clue"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "There is no evidence to support his claim.",
+						"viText": "Không có bằng chứng nào để hỗ trợ cho khẳng định của anh ta."
+					},
+					{
+						"text": "The police are gathering evidence from the crime scene.",
+						"viText": "Cảnh sát đang thu thập bằng chứng từ hiện trường vụ án."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "clear evidence",
+						"meaning": "Information that is easy to see and understand",
+						"viMeaning": "bằng chứng rõ ràng",
+						"example": "There is clear evidence that the climate is changing.",
+						"viExample": "Có bằng chứng rõ ràng rằng khí hậu đang thay đổi."
+					},
+					{
+						"phrase": "scientific evidence",
+						"meaning": "Proof obtained by scientific methods",
+						"viMeaning": "bằng chứng khoa học",
+						"example": "We need more scientific evidence before we can be sure.",
+						"viExample": "Chúng ta cần thêm bằng chứng khoa học trước khi có thể chắc chắn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "argument",
+		"pos": "noun",
+		"ipa": "/ˈɑːɡjumənt/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "argue", "pos": "verb" },
+			{ "form": "arguable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A conversation in which people disagree angrily",
+				"viDef": "cuộc tranh cãi",
+				"synonyms": ["dispute", "quarrel", "disagreement"],
+				"antonyms": ["agreement"],
+				"examples": [
+					{
+						"text": "They had a heated argument about money.",
+						"viText": "Họ đã có một cuộc tranh cãi nảy lửa về tiền bạc."
+					},
+					{
+						"text": "We don't want to get into an argument with them.",
+						"viText": "Chúng tôi không muốn vướng vào một cuộc tranh cãi với họ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "have an argument",
+						"meaning": "To disagree with someone loudly",
+						"viMeaning": "tranh cãi",
+						"example": "I had an argument with my neighbor yesterday.",
+						"viExample": "Tôi đã tranh cãi với hàng xóm của mình ngày hôm qua."
+					},
+					{
+						"phrase": "win an argument",
+						"meaning": "To prove your point is right",
+						"viMeaning": "thắng cuộc tranh cãi",
+						"example": "It's hard to win an argument with him.",
+						"viExample": "Rất khó để thắng một cuộc tranh cãi với anh ta."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "conclusion",
+		"pos": "noun",
+		"ipa": "/kənˈkluːʒn/",
+		"cefrLevel": "B1",
+		"frequency": 3600,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "conclude", "pos": "verb" },
+			{ "form": "conclusive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A decision reached by reasoning or the final part",
+				"viDef": "kết luận",
+				"synonyms": ["end", "closing", "decision"],
+				"antonyms": ["beginning", "start"],
+				"examples": [
+					{
+						"text": "The doctor came to the conclusion that he was healthy.",
+						"viText": "Bác sĩ đã đi đến kết luận rằng anh ấy khỏe mạnh."
+					},
+					{
+						"text": "In conclusion, I would like to thank you all.",
+						"viText": "Tóm lại, tôi muốn cảm ơn tất cả các bạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reach a conclusion",
+						"meaning": "To make a final decision",
+						"viMeaning": "đi đến kết luận",
+						"example": "The jury has not yet reached a conclusion.",
+						"viExample": "Bồi thẩm đoàn vẫn chưa đưa ra kết luận."
+					},
+					{
+						"phrase": "draw a conclusion",
+						"meaning": "To infer something from evidence",
+						"viMeaning": "rút ra kết luận",
+						"example": "What conclusion can we draw from these results?",
+						"viExample": "Chúng ta có thể rút ra kết luận gì từ những kết quả này?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "attitude",
+		"pos": "noun",
+		"ipa": "/ˈætɪtjuːd/",
+		"cefrLevel": "B1",
+		"frequency": 3400,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The way that you think and feel about something",
+				"viDef": "thái độ",
+				"synonyms": ["outlook", "mindset", "opinion"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He has a very positive attitude towards work.",
+						"viText": "Anh ấy có thái độ rất tích cực đối với công việc."
+					},
+					{
+						"text": "Changing people's attitudes can take a long time.",
+						"viText": "Thay đổi thái độ của mọi người có thể mất nhiều thời gian."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "positive attitude",
+						"meaning": "A hopeful and confident way of thinking",
+						"viMeaning": "thái độ tích cực",
+						"example": "A positive attitude helps you overcome challenges.",
+						"viExample": "Một thái độ tích cực giúp bạn vượt qua những thử thách."
+					},
+					{
+						"phrase": "attitude problem",
+						"meaning": "A bad or uncooperative way of behaving",
+						"viMeaning": "vấn đề về thái độ",
+						"example": "The teacher said the student has an attitude problem.",
+						"viExample": "Giáo viên nói rằng học sinh đó có vấn đề về thái độ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "behavior",
+		"pos": "noun",
+		"ipa": "/bɪˈheɪvjə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "behave", "pos": "verb" },
+			{ "form": "behavioral", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The way that someone acts in a particular situation",
+				"viDef": "hành vi, cách cư xử",
+				"synonyms": ["conduct", "actions", "manner"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "His behavior in class was very disruptive.",
+						"viText": "Hành vi của cậu ấy trong lớp rất gây rối."
+					},
+					{
+						"text": "We are studying the behavior of wild animals.",
+						"viText": "Chúng tôi đang nghiên cứu hành vi của động vật hoang dã."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "good behavior",
+						"meaning": "Acting in a correct or polite way",
+						"viMeaning": "hành vi tốt",
+						"example": "He was released from prison early for good behavior.",
+						"viExample": "Anh ta được ra tù sớm nhờ cải tạo tốt."
+					},
+					{
+						"phrase": "human behavior",
+						"meaning": "The way people act",
+						"viMeaning": "hành vi con người",
+						"example": "Psychologists try to understand human behavior.",
+						"viExample": "Các nhà tâm lý học cố gắng tìm hiểu hành vi của con người."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "personality",
+		"pos": "noun",
+		"ipa": "/ˌpɜːsəˈnæləti/",
+		"cefrLevel": "B1",
+		"frequency": 3600,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "personal", "pos": "adjective" },
+			{ "form": "personify", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The qualities that make a person different from others",
+				"viDef": "nhân cách, tính cách",
+				"synonyms": ["character", "nature", "temperament"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She has a very outgoing and friendly personality.",
+						"viText": "Cô ấy có một tính cách rất cởi mở và thân thiện."
+					},
+					{
+						"text": "The two brothers have completely different personalities.",
+						"viText": "Hai anh em có tính cách hoàn toàn khác nhau."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "strong personality",
+						"meaning": "A character that is determined and influential",
+						"viMeaning": "tính cách mạnh mẽ",
+						"example": "You need a strong personality to be a leader.",
+						"viExample": "Bạn cần một tính cách mạnh mẽ để trở thành một nhà lãnh đạo."
+					},
+					{
+						"phrase": "personality clash",
+						"meaning": "A disagreement between people with different characters",
+						"viMeaning": "xung đột tính cách",
+						"example": "The project failed because of a personality clash.",
+						"viExample": "Dự án thất bại vì một sự xung đột tính cách."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "characteristic",
+		"pos": "noun",
+		"ipa": "/ˌkærəktəˈrɪstɪk/",
+		"cefrLevel": "B1",
+		"frequency": 4100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "character", "pos": "noun" },
+			{ "form": "characterize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A typical feature or quality of something or someone",
+				"viDef": "đặc điểm",
+				"synonyms": ["feature", "quality", "trait"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Kindness is one of her best characteristics.",
+						"viText": "Lòng tốt là một trong những đặc điểm tốt nhất của cô ấy."
+					},
+					{
+						"text": "What are the characteristics of this species?",
+						"viText": "Những đặc điểm của loài này là gì?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "main characteristic",
+						"meaning": "The most important feature",
+						"viMeaning": "đặc điểm chính",
+						"example": "The main characteristic of this style is simplicity.",
+						"viExample": "Đặc điểm chính của phong cách này là sự đơn giản."
+					},
+					{
+						"phrase": "defining characteristic",
+						"meaning": "The quality that identifies something",
+						"viMeaning": "đặc điểm nhận dạng",
+						"example": "His sense of humor is his defining characteristic.",
+						"viExample": "Khiếu hài hước là đặc điểm nhận dạng của anh ấy."
+					}
+				]
+			}
+		]
+	}
+]

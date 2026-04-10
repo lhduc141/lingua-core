@@ -1,0 +1,922 @@
+[
+	{
+		"headword": "accountability",
+		"pos": "noun",
+		"ipa": "/əˌkaʊntəˈbɪləti/",
+		"cefrLevel": "B2",
+		"frequency": 5800,
+		"isCommon": false,
+		"wordForms": [{ "form": "accountable", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The responsibility for one's actions and willingness to explain them",
+				"viDef": "trách nhiệm giải trình",
+				"synonyms": ["responsibility", "liability", "answerability"],
+				"antonyms": ["irresponsibility"],
+				"examples": [
+					{
+						"text": "Public officials must show accountability to the citizens.",
+						"viText": "Các quan chức công quyền phải thể hiện trách nhiệm giải trình trước người dân."
+					},
+					{
+						"text": "There is a lack of accountability in the current financial system.",
+						"viText": "Đang có sự thiếu hụt trách nhiệm giải trình trong hệ thống tài chính hiện tại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "hold accountable",
+						"meaning": "To consider someone responsible for something done",
+						"viMeaning": "truy cứu trách nhiệm",
+						"example": "Managers are held accountable for their team's performance.",
+						"viExample": "Các quản lý bị truy cứu trách nhiệm về hiệu suất của nhóm mình."
+					},
+					{
+						"phrase": "personal accountability",
+						"meaning": "Taking responsibility for your own choices",
+						"viMeaning": "trách nhiệm cá nhân",
+						"example": "Personal accountability is key to professional growth.",
+						"viExample": "Trách nhiệm cá nhân là chìa khóa cho sự phát triển chuyên nghiệp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "compliance",
+		"pos": "noun",
+		"ipa": "/kəmˈplaɪəns/",
+		"cefrLevel": "B2",
+		"frequency": 6100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "compliant", "pos": "adjective" },
+			{ "form": "comply", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The act of obeying an order, rule, or law",
+				"viDef": "sự tuân thủ",
+				"synonyms": ["obedience", "observance", "conformity"],
+				"antonyms": ["defiance", "noncompliance"],
+				"examples": [
+					{
+						"text": "The company is in full compliance with safety regulations.",
+						"viText": "Công ty đang tuân thủ đầy đủ các quy định về an toàn."
+					},
+					{
+						"text": "Compliance with the law is mandatory for everyone.",
+						"viText": "Tuân thủ pháp luật là bắt buộc đối với mọi người."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ensure compliance",
+						"meaning": "To make sure rules are followed",
+						"viMeaning": "đảm bảo sự tuân thủ",
+						"example": "Inspectors visit factories to ensure compliance with the law.",
+						"viExample": "Các thanh tra đến thăm nhà máy để đảm bảo sự tuân thủ pháp luật."
+					},
+					{
+						"phrase": "regulatory compliance",
+						"meaning": "Following specific industry rules set by authorities",
+						"viMeaning": "tuân thủ quy định",
+						"example": "The bank has a department dedicated to regulatory compliance.",
+						"viExample": "Ngân hàng có một bộ phận chuyên trách việc tuân thủ quy định."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "constraint",
+		"pos": "noun",
+		"ipa": "/kənˈstreɪnt/",
+		"cefrLevel": "B2",
+		"frequency": 5400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "constrain", "pos": "verb" },
+			{ "form": "constrained", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A limitation or restriction on something",
+				"viDef": "sự hạn chế, ràng buộc",
+				"synonyms": ["restriction", "limitation", "restraint"],
+				"antonyms": ["freedom", "liberty"],
+				"examples": [
+					{
+						"text": "Financial constraints forced the project to stop.",
+						"viText": "Những ràng buộc về tài chính đã buộc dự án phải dừng lại."
+					},
+					{
+						"text": "Time constraints make it difficult to finish the test.",
+						"viText": "Sự hạn chế về thời gian khiến việc hoàn thành bài kiểm tra trở nên khó khăn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "budgetary constraints",
+						"meaning": "Limits on the amount of money available",
+						"viMeaning": "ràng buộc ngân sách",
+						"example": "The school faces severe budgetary constraints this year.",
+						"viExample": "Trường học đối mặt với những ràng buộc ngân sách nghiêm trọng năm nay."
+					},
+					{
+						"phrase": "act as a constraint",
+						"meaning": "To function as a limiting factor",
+						"viMeaning": "đóng vai trò là vật cản",
+						"example": "Lack of space acted as a constraint on business growth.",
+						"viExample": "Thiếu không gian đã đóng vai trò là vật cản đối với sự phát triển kinh doanh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "coordination",
+		"pos": "noun",
+		"ipa": "/kəʊˌɔːdɪˈneɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 5200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "coordinate", "pos": "verb" },
+			{ "form": "coordinator", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The organization of different elements to work together effectively",
+				"viDef": "sự phối hợp",
+				"synonyms": ["management", "organization", "collaboration"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "There was a lack of coordination between the two departments.",
+						"viText": "Đã có sự thiếu phối hợp giữa hai phòng ban."
+					},
+					{
+						"text": "The rescue mission required careful coordination.",
+						"viText": "Sứ mệnh cứu hộ đòi hỏi sự phối hợp cẩn thận."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "eye-hand coordination",
+						"meaning": "The ability to use eyes and hands together",
+						"viMeaning": "khả năng phối hợp tay mắt",
+						"example": "Playing video games can improve eye-hand coordination.",
+						"viExample": "Chơi trò chơi điện tử có thể cải thiện khả năng phối hợp tay mắt."
+					},
+					{
+						"phrase": "close coordination",
+						"meaning": "Working very tightly and effectively with others",
+						"viMeaning": "phối hợp chặt chẽ",
+						"example": "The police worked in close coordination with the army.",
+						"viExample": "Cảnh sát đã làm việc trong sự phối hợp chặt chẽ với quân đội."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "delegation",
+		"pos": "noun",
+		"ipa": "/ˌdelɪˈɡeɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 6500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "delegate", "pos": "verb" },
+			{ "form": "delegate", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The act of giving authority or tasks to others",
+				"viDef": "sự ủy quyền, giao phó",
+				"synonyms": ["assignment", "entrustment", "deputation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Effective delegation is an essential skill for managers.",
+						"viText": "Sự giao phó công việc hiệu quả là một kỹ năng thiết yếu đối với người quản lý."
+					},
+					{
+						"text": "The delegation of power to local governments was successful.",
+						"viText": "Việc ủy quyền năng lực cho chính quyền địa phương đã thành công."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "delegation of authority",
+						"meaning": "Giving someone else the power to make decisions",
+						"viMeaning": "ủy quyền quyết định",
+						"example": "The CEO's delegation of authority allowed for faster results.",
+						"viExample": "Việc ủy quyền quyết định của CEO đã giúp đạt kết quả nhanh hơn."
+					},
+					{
+						"phrase": "send a delegation",
+						"meaning": "To send a group representing an organization",
+						"viMeaning": "cử một phái đoàn",
+						"example": "The country decided to send a delegation to the peace talks.",
+						"viExample": "Quốc gia đã quyết định cử một phái đoàn đến các cuộc đàm phán hòa bình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "efficiency",
+		"pos": "noun",
+		"ipa": "/ɪˈfɪʃnsi/",
+		"cefrLevel": "B2",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "efficient", "pos": "adjective" },
+			{ "form": "efficiently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The quality of achieving maximum productivity with minimum wasted effort",
+				"viDef": "hiệu suất, sự hiệu quả",
+				"synonyms": ["effectiveness", "productivity", "capability"],
+				"antonyms": ["inefficiency"],
+				"examples": [
+					{
+						"text": "We are looking for ways to improve energy efficiency.",
+						"viText": "Chúng tôi đang tìm cách để cải thiện hiệu suất năng lượng."
+					},
+					{
+						"text": "The new system increased the efficiency of the warehouse.",
+						"viText": "Hệ thống mới đã làm tăng hiệu quả của nhà kho."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "peak efficiency",
+						"meaning": "The highest possible level of performance",
+						"viMeaning": "hiệu suất tối đa",
+						"example": "The engine reaches peak efficiency at high speeds.",
+						"viExample": "Động cơ đạt hiệu suất tối đa ở tốc độ cao."
+					},
+					{
+						"phrase": "improve efficiency",
+						"meaning": "To make a process work better with less waste",
+						"viMeaning": "cải thiện hiệu quả",
+						"example": "Automating the process will help improve efficiency.",
+						"viExample": "Tự động hóa quy trình sẽ giúp cải thiện hiệu quả."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "evaluation",
+		"pos": "noun",
+		"ipa": "/ɪˌvæljuˈeɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 4200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "evaluate", "pos": "verb" },
+			{ "form": "evaluative", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The making of a judgment about the value or quality",
+				"viDef": "sự đánh giá",
+				"synonyms": ["assessment", "appraisal", "estimation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "A detailed evaluation of the project is required.",
+						"viText": "Cần có một sự đánh giá chi tiết về dự án."
+					},
+					{
+						"text": "The teacher's evaluation of my work was very positive.",
+						"viText": "Sự đánh giá của giáo viên về bài làm của tôi rất tích cực."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "performance evaluation",
+						"meaning": "A review of how well an employee is working",
+						"viMeaning": "đánh giá hiệu suất",
+						"example": "The staff undergo a performance evaluation every six months.",
+						"viExample": "Nhân viên trải qua một cuộc đánh giá hiệu suất sáu tháng một lần."
+					},
+					{
+						"phrase": "thorough evaluation",
+						"meaning": "A very complete and careful check",
+						"viMeaning": "đánh giá kỹ lưỡng",
+						"example": "The doctor gave him a thorough evaluation.",
+						"viExample": "Bác sĩ đã tiến hành đánh giá kỹ lưỡng cho anh ấy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "governance",
+		"pos": "noun",
+		"ipa": "/ˈɡʌvənəns/",
+		"cefrLevel": "B2",
+		"frequency": 6300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "govern", "pos": "verb" },
+			{ "form": "governor", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The action or manner of governing a state or organization",
+				"viDef": "sự quản trị, cai quản",
+				"synonyms": ["administration", "management", "control"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The company is praised for its high standards of corporate governance.",
+						"viText": "Công ty được khen ngợi vì tiêu chuẩn quản trị doanh nghiệp cao."
+					},
+					{
+						"text": "Good governance is essential for economic development.",
+						"viText": "Quản trị tốt là điều thiết yếu cho phát triển kinh tế."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "corporate governance",
+						"meaning": "The system of rules by which a company is directed",
+						"viMeaning": "quản trị doanh nghiệp",
+						"example": "Corporate governance protects the interests of shareholders.",
+						"viExample": "Quản trị doanh nghiệp bảo vệ lợi ích của các cổ đông."
+					},
+					{
+						"phrase": "local governance",
+						"meaning": "The management of a small town or city area",
+						"viMeaning": "quản trị địa phương",
+						"example": "Local governance allows citizens to participate in decision-making.",
+						"viExample": "Quản trị địa phương cho phép công dân tham gia vào việc ra quyết định."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "incentive",
+		"pos": "noun",
+		"ipa": "/ɪnˈsentɪv/",
+		"cefrLevel": "B2",
+		"frequency": 4800,
+		"isCommon": false,
+		"wordForms": [{ "form": "incentivize", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A thing that motivates or encourages one to do something",
+				"viDef": "sự khuyến khích, ưu đãi",
+				"synonyms": ["motivation", "stimulus", "bonus"],
+				"antonyms": ["deterrent", "disincentive"],
+				"examples": [
+					{
+						"text": "Bonus payments provide an incentive for workers to work harder.",
+						"viText": "Tiền thưởng cung cấp một sự khuyến khích để công nhân làm việc chăm chỉ hơn."
+					},
+					{
+						"text": "The government offers tax incentives to small businesses.",
+						"viText": "Chính phủ cung cấp các ưu đãi thuế cho doanh nghiệp nhỏ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "financial incentive",
+						"meaning": "Money offered to encourage a certain action",
+						"viMeaning": "ưu đãi tài chính",
+						"example": "There is little financial incentive to take the job.",
+						"viExample": "Có rất ít ưu đãi tài chính để nhận công việc đó."
+					},
+					{
+						"phrase": "strong incentive",
+						"meaning": "A very powerful reason to act in a certain way",
+						"viMeaning": "động lực mạnh mẽ",
+						"example": "The threat of a fine is a strong incentive to obey.",
+						"viExample": "Mối đe dọa bị phạt là một động lực mạnh mẽ để tuân thủ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "methodology",
+		"pos": "noun",
+		"ipa": "/ˌmeθəˈdɒlədʒi/",
+		"cefrLevel": "B2",
+		"frequency": 6900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "methodological", "pos": "adjective" },
+			{ "form": "method", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A system of methods used in a particular area of study",
+				"viDef": "phương pháp luận",
+				"synonyms": ["method", "system", "approach"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The research methodology needs to be clearly explained.",
+						"viText": "Phương pháp luận nghiên cứu cần được giải thích rõ ràng."
+					},
+					{
+						"text": "They used a different methodology to analyze the results.",
+						"viText": "Họ đã sử dụng một phương pháp luận khác để phân tích kết quả."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "research methodology",
+						"meaning": "The specific procedures used to identify and analyze information",
+						"viMeaning": "phương pháp luận nghiên cứu",
+						"example": "Our research methodology was strictly controlled.",
+						"viExample": "Phương pháp luận nghiên cứu của chúng tôi đã được kiểm soát chặt chẽ."
+					},
+					{
+						"phrase": "sound methodology",
+						"meaning": "A method that is reliable and based on logic",
+						"viMeaning": "phương pháp luận hợp lý",
+						"example": "The study was praised for its sound methodology.",
+						"viExample": "Nghiên cứu được khen ngợi vì phương pháp luận hợp lý."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "commodity",
+		"pos": "noun",
+		"ipa": "/kəˈmɒdəti/",
+		"cefrLevel": "B2",
+		"frequency": 6700,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A raw material or primary agricultural product that can be bought",
+				"viDef": "hàng hóa, vật phẩm",
+				"synonyms": ["product", "good", "item"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Oil is the most traded commodity in the world.",
+						"viText": "Dầu mỏ là loại hàng hóa được giao dịch nhiều nhất trên thế giới."
+					},
+					{
+						"text": "Time is a precious commodity that we shouldn't waste.",
+						"viText": "Thời gian là một vật phẩm quý giá mà chúng ta không nên lãng phí."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "basic commodity",
+						"meaning": "Essential goods like food or fuel",
+						"viMeaning": "hàng hóa thiết yếu",
+						"example": "The price of basic commodities has risen sharply.",
+						"viExample": "Giá các mặt hàng thiết yếu đã tăng mạnh."
+					},
+					{
+						"phrase": "precious commodity",
+						"meaning": "Something very valuable or rare",
+						"viMeaning": "vật phẩm quý giá",
+						"example": "Information has become a precious commodity in the digital age.",
+						"viExample": "Thông tin đã trở thành một vật phẩm quý giá trong kỷ nguyên số."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "consumption",
+		"pos": "noun",
+		"ipa": "/kənˈsʌmpʃn/",
+		"cefrLevel": "B2",
+		"frequency": 4100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "consume", "pos": "verb" },
+			{ "form": "consumer", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The action of using up a resource",
+				"viDef": "sự tiêu thụ, tiêu dùng",
+				"synonyms": ["use", "utilization", "expenditure"],
+				"antonyms": ["production", "saving"],
+				"examples": [
+					{
+						"text": "The car has a high fuel consumption.",
+						"viText": "Chiếc xe này có mức tiêu thụ nhiên liệu cao."
+					},
+					{
+						"text": "Meat consumption has decreased in recent years.",
+						"viText": "Việc tiêu thụ thịt đã giảm trong những năm gần đây."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mass consumption",
+						"meaning": "Use of goods by a large number of people",
+						"viMeaning": "tiêu dùng đại chúng",
+						"example": "Television was the first product of mass consumption.",
+						"viExample": "Tivi là sản phẩm tiêu dùng đại chúng đầu tiên."
+					},
+					{
+						"phrase": "energy consumption",
+						"meaning": "The amount of power used",
+						"viMeaning": "tiêu thụ năng lượng",
+						"example": "We must try to reduce our energy consumption.",
+						"viExample": "Chúng ta phải cố gắng giảm mức tiêu thụ năng lượng của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "deficit",
+		"pos": "noun",
+		"ipa": "/ˈdefɪsɪt/",
+		"cefrLevel": "B2",
+		"frequency": 6600,
+		"isCommon": false,
+		"wordForms": [{ "form": "deficient", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The amount by which something is too small",
+				"viDef": "thâm hụt, thiếu hụt",
+				"synonyms": ["shortfall", "shortage", "debt"],
+				"antonyms": ["surplus"],
+				"examples": [
+					{
+						"text": "The country is facing a massive trade deficit.",
+						"viText": "Quốc gia đang đối mặt với sự thâm hụt thương mại khổng lồ."
+					},
+					{
+						"text": "There is a deficit of trust between the two leaders.",
+						"viText": "Đang có sự thiếu hụt niềm tin giữa hai nhà lãnh đạo."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "budget deficit",
+						"meaning": "Spending more money than is earned in a budget",
+						"viMeaning": "thâm hụt ngân sách",
+						"example": "The government is trying to reduce the budget deficit.",
+						"viExample": "Chính phủ đang cố gắng giảm thâm hụt ngân sách."
+					},
+					{
+						"phrase": "trade deficit",
+						"meaning": "When a country imports more than it exports",
+						"viMeaning": "thâm hụt thương mại",
+						"example": "A large trade deficit can weaken the local currency.",
+						"viExample": "Thâm hụt thương mại lớn có thể làm yếu đồng nội tệ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "disparity",
+		"pos": "noun",
+		"ipa": "/dɪˈspærəti/",
+		"cefrLevel": "B2",
+		"frequency": 6800,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A great difference, especially one that is unfair",
+				"viDef": "sự chênh lệch, cách biệt",
+				"synonyms": ["imbalance", "gap", "inequality"],
+				"antonyms": ["parity", "equality"],
+				"examples": [
+					{
+						"text": "There is a huge disparity between the rich and the poor.",
+						"viText": "Có một sự chênh lệch lớn giữa người giàu và người nghèo."
+					},
+					{
+						"text": "The report highlights the disparity in health care quality.",
+						"viText": "Bản báo cáo làm nổi bật sự chênh lệch về chất lượng chăm sóc sức khỏe."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "income disparity",
+						"meaning": "The gap between different levels of earnings",
+						"viMeaning": "chênh lệch thu nhập",
+						"example": "Income disparity has increased over the last decade.",
+						"viExample": "Chênh lệch thu nhập đã tăng lên trong thập kỷ qua."
+					},
+					{
+						"phrase": "widening disparity",
+						"meaning": "A difference that is getting larger over time",
+						"viMeaning": "cách biệt ngày càng lớn",
+						"example": "The widening disparity between urban and rural areas is a concern.",
+						"viExample": "Sự cách biệt ngày càng lớn giữa thành thị và nông thôn là một mối lo ngại."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "infrastructure",
+		"pos": "noun",
+		"ipa": "/ˈɪnfrəstrʌktʃə(r)/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [{ "form": "infrastructural", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The basic structures needed for the operation of a society",
+				"viDef": "cơ sở hạ tầng",
+				"synonyms": ["framework", "foundation", "base"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The country needs to invest in its aging infrastructure.",
+						"viText": "Quốc gia cần đầu tư vào cơ sở hạ tầng đang xuống cấp của mình."
+					},
+					{
+						"text": "Better infrastructure will attract more foreign investment.",
+						"viText": "Cơ sở hạ tầng tốt hơn sẽ thu hút thêm nhiều đầu tư nước ngoài."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "critical infrastructure",
+						"meaning": "Essential systems like power and water",
+						"viMeaning": "hạ tầng trọng yếu",
+						"example": "The cyber attack targeted the nation's critical infrastructure.",
+						"viExample": "Cuộc tấn công mạng đã nhắm vào cơ sở hạ tầng trọng yếu của quốc gia."
+					},
+					{
+						"phrase": "transport infrastructure",
+						"meaning": "Roads, bridges, and railways",
+						"viMeaning": "hạ tầng giao thông",
+						"example": "Improving transport infrastructure reduces travel time.",
+						"viExample": "Cải thiện hạ tầng giao thông giúp giảm thời gian đi lại."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "innovation",
+		"pos": "noun",
+		"ipa": "/ˌɪnəˈveɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "innovate", "pos": "verb" },
+			{ "form": "innovative", "pos": "adjective" },
+			{ "form": "innovator", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The action or process of inventing a new method or idea",
+				"viDef": "sự đổi mới, sáng kiến",
+				"synonyms": ["invention", "originality", "novelty"],
+				"antonyms": ["stagnation", "tradition"],
+				"examples": [
+					{
+						"text": "Technical innovation is key to business success.",
+						"viText": "Đổi mới kỹ thuật là chìa khóa cho thành công của doanh nghiệp."
+					},
+					{
+						"text": "The company is known for its constant innovation.",
+						"viText": "Công ty nổi tiếng với sự đổi mới không ngừng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "technological innovation",
+						"meaning": "New developments in tools and machines",
+						"viMeaning": "đổi mới công nghệ",
+						"example": "Technological innovation has changed the way we work.",
+						"viExample": "Đổi mới công nghệ đã thay đổi cách chúng ta làm việc."
+					},
+					{
+						"phrase": "foster innovation",
+						"meaning": "To encourage the creation of new ideas",
+						"viMeaning": "thúc đẩy đổi mới",
+						"example": "Schools should foster innovation among students.",
+						"viExample": "Trường học nên thúc đẩy sự đổi mới trong học sinh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "monopoly",
+		"pos": "noun",
+		"ipa": "/məˈnɒpəli/",
+		"cefrLevel": "B2",
+		"frequency": 6800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "monopolize", "pos": "verb" },
+			{ "form": "monopolistic", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The exclusive possession or control of a supply or trade",
+				"viDef": "sự độc quyền",
+				"synonyms": ["control", "dominance"],
+				"antonyms": ["competition"],
+				"examples": [
+					{
+						"text": "The company has a monopoly on electricity in this region.",
+						"viText": "Công ty có độc quyền về điện ở khu vực này."
+					},
+					{
+						"text": "Governments often try to break up monopolies to help consumers.",
+						"viText": "Chính phủ thường cố gắng phá bỏ các độc quyền để giúp người tiêu dùng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "grant a monopoly",
+						"meaning": "To give a company the sole right to sell something",
+						"viMeaning": "trao quyền độc quyền",
+						"example": "The king granted the company a monopoly on tea.",
+						"viExample": "Nhà vua đã trao cho công ty quyền độc quyền về trà."
+					},
+					{
+						"phrase": "break a monopoly",
+						"meaning": "To end one company's exclusive control",
+						"viMeaning": "phá bỏ độc quyền",
+						"example": "New laws were passed to break the monopoly of the oil firm.",
+						"viExample": "Các đạo luật mới đã được thông qua để phá bỏ sự độc quyền của hãng dầu mỏ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "productivity",
+		"pos": "noun",
+		"ipa": "/ˌprɒdʌkˈtɪvəti/",
+		"cefrLevel": "B2",
+		"frequency": 4500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "productive", "pos": "adjective" },
+			{ "form": "produce", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The state or quality of being productive",
+				"viDef": "năng suất",
+				"synonyms": ["efficiency", "output", "yield"],
+				"antonyms": ["idleness"],
+				"examples": [
+					{
+						"text": "The company is trying to boost worker productivity.",
+						"viText": "Công ty đang cố gắng thúc đẩy năng suất của công nhân."
+					},
+					{
+						"text": "High stress levels can lead to a drop in productivity.",
+						"viText": "Mức độ căng thẳng cao có thể dẫn đến sự sụt giảm năng suất."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "boost productivity",
+						"meaning": "To increase the amount produced in a certain time",
+						"viMeaning": "thúc đẩy năng suất",
+						"example": "New technology can help boost productivity in the office.",
+						"viExample": "Công nghệ mới có thể giúp thúc đẩy năng suất trong văn phòng."
+					},
+					{
+						"phrase": "agricultural productivity",
+						"meaning": "How much a farm can produce",
+						"viMeaning": "năng suất nông nghiệp",
+						"example": "Better seeds improved agricultural productivity in the area.",
+						"viExample": "Hạt giống tốt hơn đã cải thiện năng suất nông nghiệp trong khu vực."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sustainability",
+		"pos": "noun",
+		"ipa": "/səˌsteɪnəˈbɪləti/",
+		"cefrLevel": "B2",
+		"frequency": 5500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "sustainable", "pos": "adjective" },
+			{ "form": "sustain", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The ability to be maintained at a certain rate or level",
+				"viDef": "sự bền vững",
+				"synonyms": ["viability", "maintenance", "continuance"],
+				"antonyms": ["instability"],
+				"examples": [
+					{
+						"text": "Environmental sustainability is a global priority.",
+						"viText": "Sự bền vững môi trường là một ưu tiên toàn cầu."
+					},
+					{
+						"text": "The long-term sustainability of the project is in doubt.",
+						"viText": "Sự bền vững lâu dài của dự án đang bị nghi ngờ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "environmental sustainability",
+						"meaning": "Interacting with the planet to avoid depleting resources",
+						"viMeaning": "bền vững môi trường",
+						"example": "Companies are now focusing more on environmental sustainability.",
+						"viExample": "Các công ty hiện đang tập trung nhiều hơn vào sự bền vững môi trường."
+					},
+					{
+						"phrase": "ensure sustainability",
+						"meaning": "To take steps so that something can continue for long",
+						"viMeaning": "đảm bảo tính bền vững",
+						"example": "We need new policies to ensure the sustainability of our forests.",
+						"viExample": "Chúng ta cần những chính sách mới để đảm bảo tính bền vững của các khu rừng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "revenue",
+		"pos": "noun",
+		"ipa": "/ˈrevənjuː/",
+		"cefrLevel": "B2",
+		"frequency": 3800,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Income that a company or government receives",
+				"viDef": "doanh thu, ngân sách",
+				"synonyms": ["income", "earnings", "profit"],
+				"antonyms": ["expenditure", "loss"],
+				"examples": [
+					{
+						"text": "The company's annual revenue rose by 10 percent.",
+						"viText": "Doanh thu hàng năm của công ty đã tăng 10%."
+					},
+					{
+						"text": "Tax revenue is used to fund public services.",
+						"viText": "Ngân sách từ thuế được sử dụng để tài trợ cho các dịch vụ công."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "generate revenue",
+						"meaning": "To produce income from a business activity",
+						"viMeaning": "tạo ra doanh thu",
+						"example": "The new product is expected to generate significant revenue.",
+						"viExample": "Sản phẩm mới được kỳ vọng sẽ tạo ra doanh thu đáng kể."
+					},
+					{
+						"phrase": "annual revenue",
+						"meaning": "The total amount of money earned in a year",
+						"viMeaning": "doanh thu hàng năm",
+						"example": "The firm reported an annual revenue of $2 million.",
+						"viExample": "Hãng đã báo cáo doanh thu hàng năm là 2 triệu đô la."
+					}
+				]
+			}
+		]
+	}
+]

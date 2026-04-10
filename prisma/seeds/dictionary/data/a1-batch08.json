@@ -1,0 +1,1062 @@
+[
+	{
+		"headword": "sad",
+		"pos": "adjective",
+		"ipa": "/sæd/",
+		"cefrLevel": "A1",
+		"frequency": 400,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "sadness",
+				"pos": "noun"
+			},
+			{
+				"form": "sadly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "feeling or showing sorrow or unhappiness",
+				"viDef": "buồn bã",
+				"synonyms": ["unhappy", "miserable"],
+				"antonyms": ["happy", "joyful"],
+				"examples": [
+					{
+						"text": "She felt very sad today.",
+						"viText": "Hôm nay cô ấy cảm thấy rất buồn."
+					},
+					{
+						"text": "He looked sad after hearing the news.",
+						"viText": "Anh ấy trông buồn bã sau khi nghe tin."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "feel sad",
+						"meaning": "experience a feeling of sorrow",
+						"viMeaning": "cảm thấy buồn",
+						"example": "I feel sad when it rains.",
+						"viExample": "Tôi cảm thấy buồn khi trời mưa."
+					},
+					{
+						"phrase": "sad news",
+						"meaning": "information that causes unhappiness",
+						"viMeaning": "tin buồn",
+						"example": "I have some sad news to share.",
+						"viExample": "Tôi có một số tin buồn muốn chia sẻ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "angry",
+		"pos": "adjective",
+		"ipa": "/ˈæŋɡri/",
+		"cefrLevel": "A1",
+		"frequency": 450,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "anger",
+				"pos": "noun"
+			},
+			{
+				"form": "angrily",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "feeling or showing strong annoyance or displeasure",
+				"viDef": "tức giận",
+				"synonyms": ["mad", "furious"],
+				"antonyms": ["calm", "happy"],
+				"examples": [
+					{
+						"text": "My father was very angry with me.",
+						"viText": "Bố tôi đã rất tức giận với tôi."
+					},
+					{
+						"text": "Please do not be angry.",
+						"viText": "Làm ơn đừng tức giận."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "get angry",
+						"meaning": "become annoyed or furious",
+						"viMeaning": "trở nên tức giận",
+						"example": "He easily gets angry at small things.",
+						"viExample": "Anh ấy dễ dàng trở nên tức giận vì những điều nhỏ nhặt."
+					},
+					{
+						"phrase": "angry with",
+						"meaning": "feeling mad at someone",
+						"viMeaning": "tức giận với",
+						"example": "Are you still angry with me?",
+						"viExample": "Bạn vẫn còn tức giận với tôi à?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "afraid",
+		"pos": "adjective",
+		"ipa": "/əˈfreɪd/",
+		"cefrLevel": "A1",
+		"frequency": 500,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "unafraid",
+				"pos": "adjective"
+			},
+			{
+				"form": "overafraid",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "feeling fear or anxiety about something",
+				"viDef": "sợ hãi",
+				"synonyms": ["scared", "terrified"],
+				"antonyms": ["brave", "confident"],
+				"examples": [
+					{
+						"text": "The child is afraid of dogs.",
+						"viText": "Đứa trẻ sợ chó."
+					},
+					{
+						"text": "Do not be afraid of the dark.",
+						"viText": "Đừng sợ bóng tối."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "be afraid of",
+						"meaning": "feel fear towards something or someone",
+						"viMeaning": "sợ hãi điều gì",
+						"example": "I am afraid of heights.",
+						"viExample": "Tôi sợ độ cao."
+					},
+					{
+						"phrase": "afraid to do",
+						"meaning": "scared to perform an action",
+						"viMeaning": "sợ làm gì",
+						"example": "She is afraid to ask for help.",
+						"viExample": "Cô ấy sợ phải xin giúp đỡ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "quiet",
+		"pos": "adjective",
+		"ipa": "/ˈkwaɪət/",
+		"cefrLevel": "A1",
+		"frequency": 350,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "quietness",
+				"pos": "noun"
+			},
+			{
+				"form": "quietly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "making little or no noise or sound",
+				"viDef": "yên tĩnh",
+				"synonyms": ["silent", "calm"],
+				"antonyms": ["loud", "noisy"],
+				"examples": [
+					{
+						"text": "Please be quiet in the library.",
+						"viText": "Vui lòng giữ yên tĩnh trong thư viện."
+					},
+					{
+						"text": "It was a very quiet night.",
+						"viText": "Đó là một đêm rất yên tĩnh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "keep quiet",
+						"meaning": "remain silent and make no noise",
+						"viMeaning": "giữ im lặng",
+						"example": "You must keep quiet during the test.",
+						"viExample": "Bạn phải giữ im lặng trong suốt bài kiểm tra."
+					},
+					{
+						"phrase": "quiet place",
+						"meaning": "a location with no loud sounds",
+						"viMeaning": "nơi yên tĩnh",
+						"example": "I need a quiet place to study.",
+						"viExample": "Tôi cần một nơi yên tĩnh để học."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "loud",
+		"pos": "adjective",
+		"ipa": "/laʊd/",
+		"cefrLevel": "A1",
+		"frequency": 600,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "loudness",
+				"pos": "noun"
+			},
+			{
+				"form": "loudly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "producing or capable of producing much noise",
+				"viDef": "to, ồn ào",
+				"synonyms": ["noisy", "deafening"],
+				"antonyms": ["quiet", "silent"],
+				"examples": [
+					{
+						"text": "The music is too loud for me.",
+						"viText": "Âm nhạc quá to đối với tôi."
+					},
+					{
+						"text": "Suddenly, I heard a loud noise.",
+						"viText": "Đột nhiên, tôi nghe thấy một tiếng ồn lớn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "loud voice",
+						"meaning": "speaking with a high volume",
+						"viMeaning": "giọng nói to",
+						"example": "He has a very loud voice.",
+						"viExample": "Anh ấy có một giọng nói rất to."
+					},
+					{
+						"phrase": "loud noise",
+						"meaning": "a sound that is very strong",
+						"viMeaning": "tiếng ồn lớn",
+						"example": "A loud noise woke the baby up.",
+						"viExample": "Một tiếng ồn lớn đã làm đứa bé thức giấc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "free",
+		"pos": "adjective",
+		"ipa": "/friː/",
+		"cefrLevel": "A1",
+		"frequency": 250,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "freedom",
+				"pos": "noun"
+			},
+			{
+				"form": "freely",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "not under the control of another; without cost",
+				"viDef": "tự do, miễn phí",
+				"synonyms": ["independent", "costless"],
+				"antonyms": ["busy", "paid"],
+				"examples": [
+					{
+						"text": "You can have this drink for free.",
+						"viText": "Bạn có thể dùng đồ uống này miễn phí."
+					},
+					{
+						"text": "I am free to play this weekend.",
+						"viText": "Tôi rảnh rỗi để đi chơi vào cuối tuần này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "free time",
+						"meaning": "time when you are not working",
+						"viMeaning": "thời gian rảnh",
+						"example": "What do you do in your free time?",
+						"viExample": "Bạn làm gì vào thời gian rảnh?"
+					},
+					{
+						"phrase": "free of charge",
+						"meaning": "costing nothing to use or have",
+						"viMeaning": "miễn phí",
+						"example": "Delivery is completely free of charge.",
+						"viExample": "Giao hàng hoàn toàn miễn phí."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "busy",
+		"pos": "adjective",
+		"ipa": "/ˈbɪzi/",
+		"cefrLevel": "A1",
+		"frequency": 320,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "business",
+				"pos": "noun"
+			},
+			{
+				"form": "busily",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "having a great deal to do or occupy time",
+				"viDef": "bận rộn",
+				"synonyms": ["occupied", "engaged"],
+				"antonyms": ["free", "idle"],
+				"examples": [
+					{
+						"text": "I am very busy right now.",
+						"viText": "Bây giờ tôi đang rất bận."
+					},
+					{
+						"text": "The main street is always busy.",
+						"viText": "Con phố chính luôn luôn bận rộn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "busy schedule",
+						"meaning": "a plan with many tasks to do",
+						"viMeaning": "lịch trình bận rộn",
+						"example": "She has a very busy schedule today.",
+						"viExample": "Hôm nay cô ấy có một lịch trình rất bận rộn."
+					},
+					{
+						"phrase": "stay busy",
+						"meaning": "keep oneself occupied with tasks",
+						"viMeaning": "luôn bận rộn",
+						"example": "I try to stay busy to avoid boredom.",
+						"viExample": "Tôi cố gắng luôn bận rộn để tránh sự nhàm chán."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "late",
+		"pos": "adjective",
+		"ipa": "/leɪt/",
+		"cefrLevel": "A1",
+		"frequency": 380,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "lateness",
+				"pos": "noun"
+			},
+			{
+				"form": "lately",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "happening or arriving after the expected time",
+				"viDef": "muộn, trễ",
+				"synonyms": ["delayed", "tardy"],
+				"antonyms": ["early", "punctual"],
+				"examples": [
+					{
+						"text": "I am sorry for being late.",
+						"viText": "Tôi xin lỗi vì đã đến muộn."
+					},
+					{
+						"text": "It is too late to go out.",
+						"viText": "Đã quá muộn để ra ngoài."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "be late for",
+						"meaning": "arrive after the scheduled time for something",
+						"viMeaning": "muộn cho",
+						"example": "Do not be late for school.",
+						"viExample": "Đừng đi học muộn."
+					},
+					{
+						"phrase": "late at night",
+						"meaning": "far into the dark hours",
+						"viMeaning": "đêm khuya",
+						"example": "I often study late at night.",
+						"viExample": "Tôi thường học vào đêm khuya."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "early",
+		"pos": "adjective",
+		"ipa": "/ˈɜːli/",
+		"cefrLevel": "A1",
+		"frequency": 390,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "earliness",
+				"pos": "noun"
+			},
+			{
+				"form": "earlyish",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "happening or done before the usual or expected time",
+				"viDef": "sớm",
+				"synonyms": ["premature", "prompt"],
+				"antonyms": ["late"],
+				"examples": [
+					{
+						"text": "I wake up early every day.",
+						"viText": "Tôi thức dậy sớm mỗi ngày."
+					},
+					{
+						"text": "We arrived an hour early.",
+						"viText": "Chúng tôi đã đến sớm một giờ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "early morning",
+						"meaning": "the beginning part of the day",
+						"viMeaning": "sáng sớm",
+						"example": "I like the quiet of the early morning.",
+						"viExample": "Tôi thích sự yên tĩnh của buổi sáng sớm."
+					},
+					{
+						"phrase": "early bird",
+						"meaning": "a person who wakes up or arrives early",
+						"viMeaning": "người dậy sớm",
+						"example": "My father is an early bird.",
+						"viExample": "Bố tôi là người hay dậy sớm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "here",
+		"pos": "adverb",
+		"ipa": "/hɪə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 120,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "herein",
+				"pos": "adverb"
+			},
+			{
+				"form": "hereby",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "in, at, or to this place or position",
+				"viDef": "ở đây",
+				"synonyms": ["present"],
+				"antonyms": ["there"],
+				"examples": [
+					{
+						"text": "Come here right now.",
+						"viText": "Lại đây ngay bây giờ."
+					},
+					{
+						"text": "I live here with my family.",
+						"viText": "Tôi sống ở đây cùng với gia đình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "right here",
+						"meaning": "exactly in this spot",
+						"viMeaning": "ngay tại đây",
+						"example": "Please put the box right here.",
+						"viExample": "Vui lòng đặt cái hộp ngay tại đây."
+					},
+					{
+						"phrase": "over here",
+						"meaning": "in this general direction or area",
+						"viMeaning": "ở phía này",
+						"example": "Bring the chairs over here.",
+						"viExample": "Mang những chiếc ghế lại phía này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "there",
+		"pos": "adverb",
+		"ipa": "/ðeə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 110,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "therein",
+				"pos": "adverb"
+			},
+			{
+				"form": "thereby",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "in, at, or to that place or position",
+				"viDef": "ở đó",
+				"synonyms": ["yonder"],
+				"antonyms": ["here"],
+				"examples": [
+					{
+						"text": "Look at the bird over there.",
+						"viText": "Hãy nhìn con chim ở đằng kia."
+					},
+					{
+						"text": "I went there yesterday to buy food.",
+						"viText": "Tôi đã đến đó hôm qua để mua thức ăn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "over there",
+						"meaning": "in that place, usually pointing",
+						"viMeaning": "ở đằng kia",
+						"example": "Your keys are over there on the table.",
+						"viExample": "Chìa khóa của bạn ở đằng kia trên bàn."
+					},
+					{
+						"phrase": "out there",
+						"meaning": "in the world or outside area",
+						"viMeaning": "ở ngoài kia",
+						"example": "It is very cold out there.",
+						"viExample": "Ngoài kia trời rất lạnh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "today",
+		"pos": "noun",
+		"ipa": "/təˈdeɪ/",
+		"cefrLevel": "A1",
+		"frequency": 140,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "nowadays",
+				"pos": "adverb"
+			},
+			{
+				"form": "daytime",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "on or in the course of this present day",
+				"viDef": "hôm nay",
+				"synonyms": ["present"],
+				"antonyms": ["yesterday", "tomorrow"],
+				"examples": [
+					{
+						"text": "Today is a beautiful sunny day.",
+						"viText": "Hôm nay là một ngày nắng đẹp."
+					},
+					{
+						"text": "What are you going to do today?",
+						"viText": "Bạn dự định làm gì hôm nay?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "earlier today",
+						"meaning": "in the morning or past hours of this day",
+						"viMeaning": "đầu ngày hôm nay",
+						"example": "I saw him earlier today.",
+						"viExample": "Tôi đã gặp anh ấy vào đầu ngày hôm nay."
+					},
+					{
+						"phrase": "today itself",
+						"meaning": "on this very day",
+						"viMeaning": "chính ngày hôm nay",
+						"example": "We must finish the work today itself.",
+						"viExample": "Chúng ta phải hoàn thành công việc ngay trong hôm nay."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "tomorrow",
+		"pos": "noun",
+		"ipa": "/təˈmɒrəʊ/",
+		"cefrLevel": "A1",
+		"frequency": 180,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "morrow",
+				"pos": "noun"
+			},
+			{
+				"form": "overmorrow",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the day after today",
+				"viDef": "ngày mai",
+				"synonyms": ["next day"],
+				"antonyms": ["yesterday", "today"],
+				"examples": [
+					{
+						"text": "I will see you tomorrow at school.",
+						"viText": "Tôi sẽ gặp bạn vào ngày mai ở trường."
+					},
+					{
+						"text": "Tomorrow is my mother's birthday.",
+						"viText": "Ngày mai là sinh nhật của mẹ tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "by tomorrow",
+						"meaning": "before tomorrow arrives or ends",
+						"viMeaning": "trước ngày mai",
+						"example": "I will finish this by tomorrow.",
+						"viExample": "Tôi sẽ hoàn thành việc này trước ngày mai."
+					},
+					{
+						"phrase": "tomorrow morning",
+						"meaning": "the early part of the next day",
+						"viMeaning": "sáng mai",
+						"example": "We leave for Paris tomorrow morning.",
+						"viExample": "Chúng tôi rời đi Paris vào sáng mai."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "yesterday",
+		"pos": "noun",
+		"ipa": "/ˈjestədeɪ/",
+		"cefrLevel": "A1",
+		"frequency": 190,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "yesteryear",
+				"pos": "noun"
+			},
+			{
+				"form": "yesternight",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the day before today",
+				"viDef": "hôm qua",
+				"synonyms": ["past"],
+				"antonyms": ["tomorrow", "today"],
+				"examples": [
+					{
+						"text": "I saw him at the park yesterday.",
+						"viText": "Tôi đã thấy anh ấy ở công viên ngày hôm qua."
+					},
+					{
+						"text": "Where were you going yesterday?",
+						"viText": "Hôm qua bạn đã đi đâu?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "only yesterday",
+						"meaning": "just the day before, recently",
+						"viMeaning": "mới hôm qua",
+						"example": "It feels like only yesterday we met.",
+						"viExample": "Cảm giác như chúng ta mới gặp nhau ngày hôm qua."
+					},
+					{
+						"phrase": "yesterday afternoon",
+						"meaning": "the middle part of the previous day",
+						"viMeaning": "chiều hôm qua",
+						"example": "It rained heavily yesterday afternoon.",
+						"viExample": "Trời đã mưa to vào chiều hôm qua."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "always",
+		"pos": "adverb",
+		"ipa": "/ˈɔːlweɪz/",
+		"cefrLevel": "A1",
+		"frequency": 150,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "alway",
+				"pos": "adverb"
+			},
+			{
+				"form": "alwaysness",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "at all times or on all occasions",
+				"viDef": "luôn luôn",
+				"synonyms": ["forever", "constantly"],
+				"antonyms": ["never", "rarely"],
+				"examples": [
+					{
+						"text": "I always wake up early on Mondays.",
+						"viText": "Tôi luôn thức dậy sớm vào những ngày thứ Hai."
+					},
+					{
+						"text": "She is always happy to see us.",
+						"viText": "Cô ấy luôn luôn vui vẻ khi gặp chúng tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "as always",
+						"meaning": "in the usual way",
+						"viMeaning": "như thường lệ",
+						"example": "He was late, as always.",
+						"viExample": "Anh ấy đã đến muộn, như thường lệ."
+					},
+					{
+						"phrase": "always remember",
+						"meaning": "keep in memory constantly",
+						"viMeaning": "luôn nhớ",
+						"example": "I will always remember your kindness.",
+						"viExample": "Tôi sẽ luôn nhớ lòng tốt của bạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "never",
+		"pos": "adverb",
+		"ipa": "/ˈnevə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 160,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "nevermore",
+				"pos": "adverb"
+			},
+			{
+				"form": "neverness",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "at no time in the past or future",
+				"viDef": "không bao giờ",
+				"synonyms": ["not ever"],
+				"antonyms": ["always", "forever"],
+				"examples": [
+					{
+						"text": "I have never been to London before.",
+						"viText": "Tôi chưa bao giờ đến London trước đây."
+					},
+					{
+						"text": "Never give up on your dreams.",
+						"viText": "Không bao giờ từ bỏ ước mơ của bạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "never mind",
+						"meaning": "do not worry about it",
+						"viMeaning": "đừng bận tâm",
+						"example": "Never mind, I will fix it myself.",
+						"viExample": "Đừng bận tâm, tôi sẽ tự sửa nó."
+					},
+					{
+						"phrase": "almost never",
+						"meaning": "very rarely",
+						"viMeaning": "hầu như không bao giờ",
+						"example": "He almost never eats vegetables.",
+						"viExample": "Anh ấy hầu như không bao giờ ăn rau."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sometimes",
+		"pos": "adverb",
+		"ipa": "/ˈsʌmtaɪmz/",
+		"cefrLevel": "A1",
+		"frequency": 210,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "sometime",
+				"pos": "adverb"
+			},
+			{
+				"form": "someday",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "occasionally, rather than all of the time",
+				"viDef": "thỉnh thoảng",
+				"synonyms": ["occasionally", "periodically"],
+				"antonyms": ["always", "never"],
+				"examples": [
+					{
+						"text": "Sometimes I walk to school instead of taking the bus.",
+						"viText": "Thỉnh thoảng tôi đi bộ đến trường thay vì đi xe buýt."
+					},
+					{
+						"text": "We sometimes eat out on weekends.",
+						"viText": "Chúng tôi thỉnh thoảng đi ăn ngoài vào cuối tuần."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "only sometimes",
+						"meaning": "rarely, not very often",
+						"viMeaning": "chỉ thỉnh thoảng",
+						"example": "I drink coffee, but only sometimes.",
+						"viExample": "Tôi có uống cà phê, nhưng chỉ thỉnh thoảng."
+					},
+					{
+						"phrase": "sometimes true",
+						"meaning": "correct in some cases",
+						"viMeaning": "đôi khi đúng",
+						"example": "That rule is only sometimes true.",
+						"viExample": "Quy tắc đó đôi khi mới đúng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "often",
+		"pos": "adverb",
+		"ipa": "/ˈɒfn/",
+		"cefrLevel": "A1",
+		"frequency": 170,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "oft",
+				"pos": "adverb"
+			},
+			{
+				"form": "oftentimes",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "frequently or many times",
+				"viDef": "thường xuyên",
+				"synonyms": ["frequently", "regularly"],
+				"antonyms": ["rarely", "seldom"],
+				"examples": [
+					{
+						"text": "I often visit my grandparents on Sunday.",
+						"viText": "Tôi thường xuyên đến thăm ông bà vào Chủ nhật."
+					},
+					{
+						"text": "How often do you exercise?",
+						"viText": "Bạn có thường xuyên tập thể dục không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "very often",
+						"meaning": "a lot of times",
+						"viMeaning": "rất thường xuyên",
+						"example": "It does not snow here very often.",
+						"viExample": "Ở đây không có tuyết rơi rất thường xuyên."
+					},
+					{
+						"phrase": "quite often",
+						"meaning": "fairly regularly",
+						"viMeaning": "khá thường xuyên",
+						"example": "She calls her mother quite often.",
+						"viExample": "Cô ấy gọi cho mẹ mình khá thường xuyên."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "very",
+		"pos": "adverb",
+		"ipa": "/ˈveri/",
+		"cefrLevel": "A1",
+		"frequency": 50,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "verily",
+				"pos": "adverb"
+			},
+			{
+				"form": "verity",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "used for emphasis to a high degree",
+				"viDef": "rất",
+				"synonyms": ["extremely", "highly"],
+				"antonyms": ["slightly"],
+				"examples": [
+					{
+						"text": "I am very tired today.",
+						"viText": "Hôm nay tôi rất mệt."
+					},
+					{
+						"text": "Thank you very much for your help.",
+						"viText": "Cảm ơn bạn rất nhiều vì sự giúp đỡ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "very much",
+						"meaning": "to a great degree",
+						"viMeaning": "rất nhiều",
+						"example": "I like this book very much.",
+						"viExample": "Tôi thích cuốn sách này rất nhiều."
+					},
+					{
+						"phrase": "very good",
+						"meaning": "of excellent quality",
+						"viMeaning": "rất tốt",
+						"example": "That is a very good idea.",
+						"viExample": "Đó là một ý tưởng rất tốt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "also",
+		"pos": "adverb",
+		"ipa": "/ˈɔːlsəʊ/",
+		"cefrLevel": "A1",
+		"frequency": 80,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "also-ran",
+				"pos": "noun"
+			},
+			{
+				"form": "alsoness",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "in addition to what has been said",
+				"viDef": "cũng",
+				"synonyms": ["too", "besides"],
+				"antonyms": ["neither"],
+				"examples": [
+					{
+						"text": "I like apples, and I also like bananas.",
+						"viText": "Tôi thích táo, và tôi cũng thích chuối."
+					},
+					{
+						"text": "She is my classmate, but she is also my friend.",
+						"viText": "Cô ấy là bạn cùng lớp, nhưng cô ấy cũng là bạn của tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "not only... but also",
+						"meaning": "both one thing and another thing",
+						"viMeaning": "không những... mà còn",
+						"example": "He is not only smart but also kind.",
+						"viExample": "Anh ấy không những thông minh mà còn tốt bụng."
+					},
+					{
+						"phrase": "also known as",
+						"meaning": "named differently by others",
+						"viMeaning": "còn được gọi là",
+						"example": "New York is also known as the Big Apple.",
+						"viExample": "New York còn được gọi là Quả Táo Lớn."
+					}
+				]
+			}
+		]
+	}
+]

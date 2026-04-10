@@ -1,0 +1,868 @@
+[
+	{
+		"headword": "address",
+		"pos": "noun",
+		"ipa": "/əˈdres/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [{ "form": "address", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The details of where a building is located",
+				"viDef": "địa chỉ",
+				"synonyms": ["location", "place"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Please write your home address on this form.",
+						"viText": "Vui lòng viết địa chỉ nhà của bạn vào mẫu này."
+					},
+					{
+						"text": "I don't have the address of the hotel.",
+						"viText": "Tôi không có địa chỉ của khách sạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "email address",
+						"meaning": "A series of letters and symbols used for sending emails",
+						"viMeaning": "địa chỉ email",
+						"example": "What is your primary email address?",
+						"viExample": "Địa chỉ email chính của bạn là gì?"
+					},
+					{
+						"phrase": "forwarding address",
+						"meaning": "An address where mail can be sent to someone who moved",
+						"viMeaning": "địa chỉ chuyển tiếp",
+						"example": "She left a forwarding address with the post office.",
+						"viExample": "Cô ấy đã để lại địa chỉ chuyển tiếp tại bưu điện."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "direction",
+		"pos": "noun",
+		"ipa": "/dəˈrekʃn/",
+		"cefrLevel": "A2",
+		"frequency": 1350,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "direct", "pos": "verb" },
+			{ "form": "director", "pos": "noun" },
+			{ "form": "directly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The course along which someone or something moves",
+				"viDef": "phương hướng, chỉ dẫn",
+				"synonyms": ["way", "route", "path"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "They drove in the wrong direction and got lost.",
+						"viText": "Họ đã lái xe sai hướng và bị lạc."
+					},
+					{
+						"text": "Can you give me directions to the station?",
+						"viText": "Bạn có thể chỉ đường cho tôi đến nhà ga không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "follow directions",
+						"meaning": "To do what the instructions say",
+						"viMeaning": "làm theo chỉ dẫn",
+						"example": "You must follow the directions on the box.",
+						"viExample": "Bạn phải làm theo chỉ dẫn trên hộp."
+					},
+					{
+						"phrase": "opposite direction",
+						"meaning": "The direction that is completely across from another",
+						"viMeaning": "hướng ngược lại",
+						"example": "He ran off in the opposite direction.",
+						"viExample": "Anh ấy đã chạy đi theo hướng ngược lại."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "station",
+		"pos": "noun",
+		"ipa": "/ˈsteɪʃn/",
+		"cefrLevel": "A2",
+		"frequency": 1250,
+		"isCommon": true,
+		"wordForms": [{ "form": "stationary", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A building where trains or buses stop",
+				"viDef": "nhà ga, trạm",
+				"synonyms": ["stop", "terminal"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "I will meet you at the train station.", "viText": "Tôi sẽ gặp bạn tại nhà ga xe lửa." },
+					{
+						"text": "The bus station is near the city center.",
+						"viText": "Trạm xe buýt nằm gần trung tâm thành phố."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "police station",
+						"meaning": "The office of a local police force",
+						"viMeaning": "đồn cảnh sát",
+						"example": "The victim went to the police station to report the crime.",
+						"viExample": "Nạn nhân đã đến đồn cảnh sát để báo cáo tội phạm."
+					},
+					{
+						"phrase": "gas station",
+						"meaning": "A place where you buy fuel for a car",
+						"viMeaning": "trạm xăng",
+						"example": "We need to stop at a gas station.",
+						"viExample": "Chúng ta cần dừng lại ở một trạm xăng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "train",
+		"pos": "noun",
+		"ipa": "/treɪn/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "trainer", "pos": "noun" },
+			{ "form": "training", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A group of connected vehicles traveling on railways",
+				"viDef": "tàu hỏa",
+				"synonyms": ["railway", "express"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "The train to London is very fast.", "viText": "Chuyến tàu đến Luân Đôn rất nhanh." },
+					{
+						"text": "I like traveling by train because it's comfortable.",
+						"viText": "Tôi thích đi du lịch bằng tàu hỏa vì nó thoải mái."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "catch a train",
+						"meaning": "To get on a train in time before it leaves",
+						"viMeaning": "bắt tàu",
+						"example": "I have to leave now to catch my train.",
+						"viExample": "Tôi phải đi ngay bây giờ để kịp bắt tàu."
+					},
+					{
+						"phrase": "high-speed train",
+						"meaning": "A train that travels much faster than normal",
+						"viMeaning": "tàu cao tốc",
+						"example": "Japan is famous for its high-speed trains.",
+						"viExample": "Nhật Bản nổi tiếng với các loại tàu cao tốc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "bicycle",
+		"pos": "noun",
+		"ipa": "/ˈbaɪsɪkl/",
+		"cefrLevel": "A2",
+		"frequency": 2500,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "bicyclist", "pos": "noun" },
+			{ "form": "cycling", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A vehicle with two wheels that you ride by pushing pedals",
+				"viDef": "xe đạp",
+				"synonyms": ["bike", "cycle"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He rides his bicycle to school every day.",
+						"viText": "Anh ấy đi xe đạp đến trường mỗi ngày."
+					},
+					{
+						"text": "She bought a new bicycle for her birthday.",
+						"viText": "Cô ấy đã mua một chiếc xe đạp mới cho sinh nhật mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ride a bicycle",
+						"meaning": "To sit on and control a bicycle",
+						"viMeaning": "đi xe đạp",
+						"example": "Learning to ride a bicycle is a milestone for children.",
+						"viExample": "Học đi xe đạp là một cột mốc đối với trẻ em."
+					},
+					{
+						"phrase": "mountain bicycle",
+						"meaning": "A bicycle designed for riding off-road",
+						"viMeaning": "xe đạp địa hình",
+						"example": "He took his mountain bicycle to the forest.",
+						"viExample": "Anh ấy đã mang chiếc xe đạp địa hình của mình vào rừng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "journey",
+		"pos": "noun",
+		"ipa": "/ˈdʒɜːni/",
+		"cefrLevel": "A2",
+		"frequency": 1800,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An act of traveling from one place to another",
+				"viDef": "hành trình, chuyến đi",
+				"synonyms": ["trip", "tour", "voyage"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The journey from Hanoi to Saigon takes two hours by plane.",
+						"viText": "Hành trình từ Hà Nội vào Sài Gòn mất hai giờ bằng máy bay."
+					},
+					{ "text": "Did you have a good journey?", "viText": "Chuyến đi của bạn tốt đẹp chứ?" }
+				],
+				"collocations": [
+					{
+						"phrase": "safe journey",
+						"meaning": "A trip where no harm happens",
+						"viMeaning": "chuyến đi bình an",
+						"example": "We wish you a safe journey home.",
+						"viExample": "Chúng tôi chúc bạn một chuyến đi trở về nhà bình an."
+					},
+					{
+						"phrase": "long journey",
+						"meaning": "A trip that takes a lot of time or distance",
+						"viMeaning": "hành trình dài",
+						"example": "It was a long journey across the ocean.",
+						"viExample": "Đó là một hành trình dài băng qua đại dương."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "passport",
+		"pos": "noun",
+		"ipa": "/ˈpɑːspɔːt/",
+		"cefrLevel": "A2",
+		"frequency": 2200,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An official document for traveling to other countries",
+				"viDef": "hộ chiếu",
+				"synonyms": ["travel document"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "You need a valid passport to travel abroad.",
+						"viText": "Bạn cần một hộ chiếu còn hạn để đi du lịch nước ngoài."
+					},
+					{
+						"text": "He lost his passport at the airport.",
+						"viText": "Anh ấy đã làm mất hộ chiếu tại sân bay."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "passport control",
+						"meaning": "The place where officials check passports",
+						"viMeaning": "kiểm soát hộ chiếu",
+						"example": "We waited for an hour at passport control.",
+						"viExample": "Chúng tôi đã chờ một giờ tại khu kiểm soát hộ chiếu."
+					},
+					{
+						"phrase": "apply for a passport",
+						"meaning": "To officially request a new passport",
+						"viMeaning": "xin cấp hộ chiếu",
+						"example": "I need to apply for a passport before my trip.",
+						"viExample": "Tôi cần xin cấp hộ chiếu trước chuyến đi của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "luggage",
+		"pos": "noun",
+		"ipa": "/ˈlʌɡɪdʒ/",
+		"cefrLevel": "A2",
+		"frequency": 2600,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Bags and cases that you carry when traveling",
+				"viDef": "hành lý",
+				"synonyms": ["baggage", "suitcases"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Do you have any heavy luggage to check in?",
+						"viText": "Bạn có hành lý nặng nào cần ký gửi không?"
+					},
+					{ "text": "I only travel with hand luggage.", "viText": "Tôi chỉ đi du lịch với hành lý xách tay." }
+				],
+				"collocations": [
+					{
+						"phrase": "hand luggage",
+						"meaning": "Small bags that you take onto a plane with you",
+						"viMeaning": "hành lý xách tay",
+						"example": "Hand luggage must fit in the overhead bin.",
+						"viExample": "Hành lý xách tay phải để vừa trong ngăn trên đầu."
+					},
+					{
+						"phrase": "lost luggage",
+						"meaning": "Bags that have been misplaced by a travel company",
+						"viMeaning": "hành lý thất lạc",
+						"example": "I had to report my lost luggage to the airline.",
+						"viExample": "Tôi đã phải trình báo hành lý thất lạc với hãng hàng không."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "reservation",
+		"pos": "noun",
+		"ipa": "/ˌrezəˈveɪʃn/",
+		"cefrLevel": "A2",
+		"frequency": 2900,
+		"isCommon": true,
+		"wordForms": [{ "form": "reserve", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An arrangement to have something kept for you",
+				"viDef": "sự đặt chỗ trước",
+				"synonyms": ["booking", "appointment"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I have a reservation for two at 7 PM.",
+						"viText": "Tôi có một chỗ đặt trước cho hai người vào lúc 7 giờ tối."
+					},
+					{
+						"text": "You should make a reservation for the hotel online.",
+						"viText": "Bạn nên đặt phòng khách sạn trực tuyến."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make a reservation",
+						"meaning": "To book a table, room, or seat in advance",
+						"viMeaning": "đặt chỗ trước",
+						"example": "Did you make a reservation for the restaurant?",
+						"viExample": "Bạn đã đặt chỗ trước ở nhà hàng chưa?"
+					},
+					{
+						"phrase": "confirm a reservation",
+						"meaning": "To check that a booking is still active",
+						"viMeaning": "xác nhận đặt chỗ",
+						"example": "Please call to confirm your reservation.",
+						"viExample": "Vui lòng gọi điện để xác nhận việc đặt chỗ của bạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "dish",
+		"pos": "noun",
+		"ipa": "/dɪʃ/",
+		"cefrLevel": "A2",
+		"frequency": 1600,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Food prepared in a particular way as a meal",
+				"viDef": "món ăn",
+				"synonyms": ["course", "plate", "meal"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Pho is a very popular Vietnamese dish.",
+						"viText": "Phở là một món ăn Việt Nam rất phổ biến."
+					},
+					{
+						"text": "This restaurant serves many delicious seafood dishes.",
+						"viText": "Nhà hàng này phục vụ nhiều món hải sản ngon."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "main dish",
+						"meaning": "The largest part of a meal",
+						"viMeaning": "món chính",
+						"example": "The main dish today is grilled salmon.",
+						"viExample": "Món chính hôm nay là cá hồi nướng."
+					},
+					{
+						"phrase": "side dish",
+						"meaning": "A small amount of food served with the main course",
+						"viMeaning": "món phụ",
+						"example": "I ordered a side dish of vegetables.",
+						"viExample": "Tôi đã gọi một món rau phụ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "meal",
+		"pos": "noun",
+		"ipa": "/miːl/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An occasion when food is eaten, or the food itself",
+				"viDef": "bữa ăn",
+				"synonyms": ["repast", "feast"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Breakfast is the most important meal of the day.",
+						"viText": "Bữa sáng là bữa ăn quan trọng nhất trong ngày."
+					},
+					{
+						"text": "We had a wonderful meal at the new restaurant.",
+						"viText": "Chúng tôi đã có một bữa ăn tuyệt vời tại nhà hàng mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "heavy meal",
+						"meaning": "A meal that makes you feel very full",
+						"viMeaning": "bữa ăn thịnh soạn/nặng bụng",
+						"example": "I shouldn't have a heavy meal before bed.",
+						"viExample": "Tôi không nên ăn một bữa quá thịnh soạn trước khi đi ngủ."
+					},
+					{
+						"phrase": "ready meal",
+						"meaning": "A meal that is already cooked and sold in shops",
+						"viMeaning": "suất ăn sẵn",
+						"example": "He often eats ready meals because he is busy.",
+						"viExample": "Anh ấy thường ăn suất ăn sẵn vì bận rộn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "breakfast",
+		"pos": "noun",
+		"ipa": "/ˈbrekfəst/",
+		"cefrLevel": "A2",
+		"frequency": 1200,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The first meal of the day",
+				"viDef": "bữa sáng",
+				"synonyms": [],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I usually have bread and eggs for breakfast.",
+						"viText": "Tôi thường ăn bánh mì và trứng vào bữa sáng."
+					},
+					{ "text": "What time do you eat breakfast?", "viText": "Bạn ăn sáng lúc mấy giờ?" }
+				],
+				"collocations": [
+					{
+						"phrase": "have breakfast",
+						"meaning": "To eat the morning meal",
+						"viMeaning": "ăn sáng",
+						"example": "Let's have breakfast together tomorrow.",
+						"viExample": "Sáng mai chúng ta cùng đi ăn sáng nhé."
+					},
+					{
+						"phrase": "breakfast cereal",
+						"meaning": "Food made from grain eaten with milk for breakfast",
+						"viMeaning": "ngũ cốc ăn sáng",
+						"example": "Children often like sweet breakfast cereal.",
+						"viExample": "Trẻ em thường thích ngũ cốc ăn sáng có vị ngọt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "lunch",
+		"pos": "noun",
+		"ipa": "/lʌntʃ/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [{ "form": "luncheon", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A meal eaten in the middle of the day",
+				"viDef": "bữa trưa",
+				"synonyms": [],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I'm meeting a friend for lunch today.",
+						"viText": "Hôm nay tôi sẽ đi ăn trưa với một người bạn."
+					},
+					{ "text": "What did you have for lunch?", "viText": "Bạn đã ăn gì vào bữa trưa?" }
+				],
+				"collocations": [
+					{
+						"phrase": "packed lunch",
+						"meaning": "A meal prepared at home to eat at work/school",
+						"viMeaning": "cơm hộp mang theo",
+						"example": "She takes a packed lunch to school every day.",
+						"viExample": "Cô ấy mang cơm hộp đi học mỗi ngày."
+					},
+					{
+						"phrase": "lunch break",
+						"meaning": "The time when you stop work to eat lunch",
+						"viMeaning": "giờ nghỉ trưa",
+						"example": "I usually go for a walk during my lunch break.",
+						"viExample": "Tôi thường đi dạo trong giờ nghỉ trưa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "dinner",
+		"pos": "noun",
+		"ipa": "/ˈdɪnə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The main meal of the day, eaten in the evening",
+				"viDef": "bữa tối",
+				"synonyms": ["supper"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "We are having chicken for dinner.", "viText": "Chúng tôi sẽ ăn gà vào bữa tối." },
+					{
+						"text": "Would you like to come to dinner at our house?",
+						"viText": "Bạn có muốn đến nhà chúng tôi dùng bữa tối không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "dinner party",
+						"meaning": "A social event where guests are invited for dinner",
+						"viMeaning": "tiệc tối",
+						"example": "They are hosting a dinner party this Friday.",
+						"viExample": "Họ sẽ tổ chức một bữa tiệc tối vào thứ Sáu này."
+					},
+					{
+						"phrase": "roast dinner",
+						"meaning": "A traditional meal of roasted meat and vegetables",
+						"viMeaning": "bữa tối đồ nướng",
+						"example": "Sunday roast dinner is very popular in England.",
+						"viExample": "Bữa tối đồ nướng ngày Chủ Nhật rất phổ biến ở Anh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "recipe",
+		"pos": "noun",
+		"ipa": "/ˈresəpi/",
+		"cefrLevel": "A2",
+		"frequency": 2400,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A set of instructions for cooking a particular food",
+				"viDef": "công thức nấu ăn",
+				"synonyms": [],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I found a great recipe for chocolate cake.",
+						"viText": "Tôi đã tìm thấy một công thức làm bánh sô-cô-la tuyệt vời."
+					},
+					{ "text": "This recipe is very easy to follow.", "viText": "Công thức này rất dễ thực hiện." }
+				],
+				"collocations": [
+					{
+						"phrase": "secret recipe",
+						"meaning": "A recipe that is not known by many people",
+						"viMeaning": "công thức bí mật",
+						"example": "The family has a secret recipe for their sauce.",
+						"viExample": "Gia đình đó có một công thức bí mật cho món nước xốt của họ."
+					},
+					{
+						"phrase": "follow a recipe",
+						"meaning": "To cook something by looking at the instructions",
+						"viMeaning": "nấu theo công thức",
+						"example": "You must follow the recipe exactly to get it right.",
+						"viExample": "Bạn phải làm đúng theo công thức thì mới thành công được."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ingredient",
+		"pos": "noun",
+		"ipa": "/ɪnˈɡriːdiənt/",
+		"cefrLevel": "A2",
+		"frequency": 2100,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "One of the foods used to make a particular dish",
+				"viDef": "nguyên liệu",
+				"synonyms": ["component", "element"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Flour and sugar are the main ingredients of this cake.",
+						"viText": "Bột mì và đường là những nguyên liệu chính của chiếc bánh này."
+					},
+					{
+						"text": "Make sure you have all the ingredients before you start.",
+						"viText": "Hãy đảm bảo bạn có đủ tất cả nguyên liệu trước khi bắt đầu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fresh ingredients",
+						"meaning": "Food items that have not been preserved or frozen",
+						"viMeaning": "nguyên liệu tươi",
+						"example": "This restaurant only uses fresh ingredients.",
+						"viExample": "Nhà hàng này chỉ sử dụng nguyên liệu tươi sống."
+					},
+					{
+						"phrase": "key ingredient",
+						"meaning": "The most important part of a dish or situation",
+						"viMeaning": "nguyên liệu then chốt",
+						"example": "Hard work is a key ingredient of success.",
+						"viExample": "Làm việc chăm chỉ là một yếu tố then chốt của thành công."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "kitchen",
+		"pos": "noun",
+		"ipa": "/ˈkɪtʃɪn/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [{ "form": "kitchenware", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A room where food is kept, prepared, and cooked",
+				"viDef": "nhà bếp",
+				"synonyms": [],
+				"antonyms": [],
+				"examples": [
+					{ "text": "She is in the kitchen making tea.", "viText": "Cô ấy đang ở trong bếp pha trà." },
+					{
+						"text": "Our new kitchen has a lot of cupboards.",
+						"viText": "Căn bếp mới của chúng tôi có rất nhiều tủ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fitted kitchen",
+						"meaning": "A kitchen where the units are built-in",
+						"viMeaning": "bếp âm tường/đồng bộ",
+						"example": "The house comes with a modern fitted kitchen.",
+						"viExample": "Ngôi nhà đi kèm với một căn bếp hiện đại đồng bộ."
+					},
+					{
+						"phrase": "kitchen table",
+						"meaning": "A table in the kitchen for eating or preparing food",
+						"viMeaning": "bàn bếp",
+						"example": "We sat around the kitchen table to talk.",
+						"viExample": "Chúng tôi ngồi quanh bàn bếp để nói chuyện."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "supermarket",
+		"pos": "noun",
+		"ipa": "/ˈsuːpəmɑːkɪt/",
+		"cefrLevel": "A2",
+		"frequency": 1450,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A large shop that sells food and household goods",
+				"viDef": "siêu thị",
+				"synonyms": ["grocery store"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I need to go to the supermarket to buy some milk.",
+						"viText": "Tôi cần đi siêu thị để mua một ít sữa."
+					},
+					{
+						"text": "The supermarket is very busy on Saturday mornings.",
+						"viText": "Siêu thị rất bận rộn vào các sáng thứ Bảy."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "local supermarket",
+						"meaning": "A supermarket that is near where you live",
+						"viMeaning": "siêu thị địa phương",
+						"example": "I usually shop at my local supermarket.",
+						"viExample": "Tôi thường mua sắm tại siêu thị địa phương của mình."
+					},
+					{
+						"phrase": "supermarket chain",
+						"meaning": "A group of supermarkets owned by the same company",
+						"viMeaning": "chuỗi siêu thị",
+						"example": "WinMart is a famous supermarket chain in Vietnam.",
+						"viExample": "WinMart là một chuỗi siêu thị nổi tiếng ở Việt Nam."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "health",
+		"pos": "noun",
+		"ipa": "/helθ/",
+		"cefrLevel": "A2",
+		"frequency": 1020,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "healthy", "pos": "adjective" },
+			{ "form": "healthily", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The state of being free from illness or injury",
+				"viDef": "sức khỏe",
+				"synonyms": ["well-being", "fitness"],
+				"antonyms": ["illness", "sickness"],
+				"examples": [
+					{
+						"text": "Smoking is very bad for your health.",
+						"viText": "Hút thuốc rất có hại cho sức khỏe của bạn."
+					},
+					{
+						"text": "He is in good health for his age.",
+						"viText": "Ông ấy có sức khỏe tốt so với tuổi của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mental health",
+						"meaning": "The condition of someone's mind and emotions",
+						"viMeaning": "sức khỏe tâm thần",
+						"example": "Exercise can help improve your mental health.",
+						"viExample": "Tập thể dục có thể giúp cải thiện sức khỏe tâm thần của bạn."
+					},
+					{
+						"phrase": "public health",
+						"meaning": "The health of the population as a whole",
+						"viMeaning": "y tế công cộng",
+						"example": "The government is investing more in public health.",
+						"viExample": "Chính phủ đang đầu tư nhiều hơn vào y tế công cộng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "exercise",
+		"pos": "noun",
+		"ipa": "/ˈeksəsaɪz/",
+		"cefrLevel": "A2",
+		"frequency": 1300,
+		"isCommon": true,
+		"wordForms": [{ "form": "exercise", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Physical activity that you do to stay healthy",
+				"viDef": "thể dục, rèn luyện",
+				"synonyms": ["workout", "activity", "training"],
+				"antonyms": ["inactivity"],
+				"examples": [
+					{
+						"text": "You should do some exercise every morning.",
+						"viText": "Bạn nên tập thể dục một chút vào mỗi sáng."
+					},
+					{
+						"text": "Swimming is a very good form of exercise.",
+						"viText": "Bơi lội là một hình thức tập thể dục rất tốt."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "take exercise",
+						"meaning": "To engage in physical activity",
+						"viMeaning": "tập thể dục",
+						"example": "It is important for older people to take regular exercise.",
+						"viExample": "Việc người già tập thể dục thường xuyên là rất quan trọng."
+					},
+					{
+						"phrase": "exercise book",
+						"meaning": "A book used by students for writing tasks",
+						"viMeaning": "vở bài tập",
+						"example": "Open your exercise books and turn to page ten.",
+						"viExample": "Hãy mở vở bài tập ra và lật sang trang mười."
+					}
+				]
+			}
+		]
+	}
+]

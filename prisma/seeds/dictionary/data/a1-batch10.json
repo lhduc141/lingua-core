@@ -1,0 +1,1041 @@
+[
+	{
+		"headword": "street",
+		"pos": "noun",
+		"ipa": "/striːt/",
+		"cefrLevel": "A1",
+		"frequency": 250,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "streetwalker",
+				"pos": "noun"
+			},
+			{
+				"form": "streetwise",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a public road in a city or town",
+				"viDef": "đường phố",
+				"synonyms": ["avenue", "boulevard"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "My house is on a very quiet street.",
+						"viText": "Nhà tôi nằm trên một con phố rất yên tĩnh."
+					},
+					{
+						"text": "Do not play in the middle of the street.",
+						"viText": "Đừng chơi giữa đường phố."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "across the street",
+						"meaning": "on the opposite side of the road",
+						"viMeaning": "bên kia đường",
+						"example": "The bakery is just across the street.",
+						"viExample": "Tiệm bánh nằm ngay bên kia đường."
+					},
+					{
+						"phrase": "main street",
+						"meaning": "the principal street of a town",
+						"viMeaning": "đường chính",
+						"example": "Many shops are located on the main street.",
+						"viExample": "Nhiều cửa hàng nằm trên con đường chính."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "road",
+		"pos": "noun",
+		"ipa": "/rəʊd/",
+		"cefrLevel": "A1",
+		"frequency": 300,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "roadway",
+				"pos": "noun"
+			},
+			{
+				"form": "roadside",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a wide way leading from one place to another",
+				"viDef": "con đường",
+				"synonyms": ["path", "route"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "This road leads to the big city.",
+						"viText": "Con đường này dẫn đến thành phố lớn."
+					},
+					{
+						"text": "The road is very slippery after the rain.",
+						"viText": "Đường rất trơn sau cơn mưa."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "hit the road",
+						"meaning": "set out on a journey",
+						"viMeaning": "lên đường",
+						"example": "We need to hit the road early tomorrow.",
+						"viExample": "Chúng ta cần lên đường sớm vào ngày mai."
+					},
+					{
+						"phrase": "on the road",
+						"meaning": "traveling, usually in a car",
+						"viMeaning": "trên đường đi",
+						"example": "He spends a lot of time on the road.",
+						"viExample": "Anh ấy dành nhiều thời gian trên đường đi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "park",
+		"pos": "noun",
+		"ipa": "/pɑːk/",
+		"cefrLevel": "A1",
+		"frequency": 200,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "parking",
+				"pos": "noun"
+			},
+			{
+				"form": "parkland",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a large public green area in a town",
+				"viDef": "công viên",
+				"synonyms": ["garden", "recreation ground"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Children love to play in the park.",
+						"viText": "Trẻ em thích chơi trong công viên."
+					},
+					{
+						"text": "We went for a walk in the beautiful park.",
+						"viText": "Chúng tôi đã đi dạo trong một công viên xinh đẹp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "national park",
+						"meaning": "a park maintained by the national government",
+						"viMeaning": "vườn quốc gia",
+						"example": "Yellowstone is a famous national park.",
+						"viExample": "Yellowstone là một vườn quốc gia nổi tiếng."
+					},
+					{
+						"phrase": "amusement park",
+						"meaning": "a large park with rides and shows",
+						"viMeaning": "công viên giải trí",
+						"example": "We spent the whole day at the amusement park.",
+						"viExample": "Chúng tôi đã dành cả ngày ở công viên giải trí."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "bridge",
+		"pos": "noun",
+		"ipa": "/brɪdʒ/",
+		"cefrLevel": "A1",
+		"frequency": 150,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "bridgework",
+				"pos": "noun"
+			},
+			{
+				"form": "bridgeable",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a structure carrying a road or path across an obstacle",
+				"viDef": "cây cầu",
+				"synonyms": ["overpass", "viaduct"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The bridge crosses the wide river.",
+						"viText": "Cây cầu bắc qua con sông rộng."
+					},
+					{
+						"text": "They built a new bridge over the valley.",
+						"viText": "Họ đã xây một cây cầu mới qua thung lũng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "cross the bridge",
+						"meaning": "travel from one side of a bridge to the other",
+						"viMeaning": "qua cầu",
+						"example": "We need to cross the bridge to reach the town.",
+						"viExample": "Chúng ta cần qua cầu để đến thị trấn."
+					},
+					{
+						"phrase": "build a bridge",
+						"meaning": "construct a structure over an obstacle",
+						"viMeaning": "xây cầu",
+						"example": "It took five years to build the bridge.",
+						"viExample": "Đã mất năm năm để xây cây cầu này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "hospital",
+		"pos": "noun",
+		"ipa": "/ˈhɒspɪtl/",
+		"cefrLevel": "A1",
+		"frequency": 180,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "hospitality",
+				"pos": "noun"
+			},
+			{
+				"form": "hospitalize",
+				"pos": "verb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "an institution providing medical and surgical treatment",
+				"viDef": "bệnh viện",
+				"synonyms": ["clinic", "infirmary"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She was taken to the hospital immediately.",
+						"viText": "Cô ấy đã được đưa đến bệnh viện ngay lập tức."
+					},
+					{
+						"text": "My father works as a doctor in a big hospital.",
+						"viText": "Bố tôi làm bác sĩ trong một bệnh viện lớn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "go to hospital",
+						"meaning": "visit a hospital for treatment",
+						"viMeaning": "đi bệnh viện",
+						"example": "If the pain continues, go to hospital.",
+						"viExample": "Nếu cơn đau tiếp tục, hãy đi bệnh viện."
+					},
+					{
+						"phrase": "in hospital",
+						"meaning": "staying as a patient in a hospital",
+						"viMeaning": "nằm viện",
+						"example": "He spent two weeks in hospital after the accident.",
+						"viExample": "Anh ấy đã nằm viện hai tuần sau tai nạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "bank",
+		"pos": "noun",
+		"ipa": "/bæŋk/",
+		"cefrLevel": "A1",
+		"frequency": 220,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "banker",
+				"pos": "noun"
+			},
+			{
+				"form": "banking",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a financial establishment that uses money deposited by customers",
+				"viDef": "ngân hàng",
+				"synonyms": ["repository", "treasury"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I need to go to the bank to get some cash.",
+						"viText": "Tôi cần đến ngân hàng để rút một ít tiền mặt."
+					},
+					{
+						"text": "He works as a manager at a local bank.",
+						"viText": "Anh ấy làm quản lý tại một ngân hàng địa phương."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "bank account",
+						"meaning": "an arrangement with a bank to keep your money",
+						"viMeaning": "tài khoản ngân hàng",
+						"example": "I opened a new bank account yesterday.",
+						"viExample": "Tôi đã mở một tài khoản ngân hàng mới hôm qua."
+					},
+					{
+						"phrase": "piggy bank",
+						"meaning": "a container shaped like a pig for saving money",
+						"viMeaning": "ống heo",
+						"example": "The child put coins into his piggy bank.",
+						"viExample": "Đứa trẻ bỏ tiền xu vào ống heo của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "post office",
+		"pos": "noun",
+		"ipa": "/pəʊst ˈɒfɪs/",
+		"cefrLevel": "A1",
+		"frequency": 80,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a building where mail is processed and stamps are sold",
+				"viDef": "bưu điện",
+				"synonyms": ["mailroom"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I will send this package at the post office.",
+						"viText": "Tôi sẽ gửi bưu kiện này tại bưu điện."
+					},
+					{
+						"text": "Is there a post office near here?",
+						"viText": "Có bưu điện nào gần đây không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "local post office",
+						"meaning": "the post office nearest to where you live",
+						"viMeaning": "bưu điện địa phương",
+						"example": "I bought stamps at the local post office.",
+						"viExample": "Tôi đã mua tem ở bưu điện địa phương."
+					},
+					{
+						"phrase": "go to the post office",
+						"meaning": "visit the building to send or receive mail",
+						"viMeaning": "đến bưu điện",
+						"example": "She had to go to the post office early.",
+						"viExample": "Cô ấy đã phải đến bưu điện sớm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "library",
+		"pos": "noun",
+		"ipa": "/ˈlaɪbrəri/",
+		"cefrLevel": "A1",
+		"frequency": 120,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "librarian",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a building or room containing collections of books",
+				"viDef": "thư viện",
+				"synonyms": ["athenaeum", "archive"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Students study quietly in the library.",
+						"viText": "Học sinh học bài trong im lặng ở thư viện."
+					},
+					{
+						"text": "I borrowed three books from the city library.",
+						"viText": "Tôi đã mượn ba cuốn sách từ thư viện thành phố."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "public library",
+						"meaning": "a library accessible by the general public",
+						"viMeaning": "thư viện công cộng",
+						"example": "The public library is free to use.",
+						"viExample": "Thư viện công cộng được sử dụng miễn phí."
+					},
+					{
+						"phrase": "school library",
+						"meaning": "a library located within a school",
+						"viMeaning": "thư viện trường",
+						"example": "Our school library has many computers.",
+						"viExample": "Thư viện trường chúng tôi có rất nhiều máy tính."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "station",
+		"pos": "noun",
+		"ipa": "/ˈsteɪʃn/",
+		"cefrLevel": "A1",
+		"frequency": 240,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "stationary",
+				"pos": "adjective"
+			},
+			{
+				"form": "stationer",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a place on a railway line where trains stop",
+				"viDef": "nhà ga, trạm",
+				"synonyms": ["stop", "terminal"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I will wait for you at the train station.",
+						"viText": "Tôi sẽ đợi bạn ở nhà ga xe lửa."
+					},
+					{
+						"text": "We need to get off at the next station.",
+						"viText": "Chúng ta cần xuống ở trạm tiếp theo."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "train station",
+						"meaning": "a terminal where trains load or unload passengers",
+						"viMeaning": "ga xe lửa",
+						"example": "The train station was incredibly busy.",
+						"viExample": "Ga xe lửa vô cùng đông đúc."
+					},
+					{
+						"phrase": "bus station",
+						"meaning": "a terminal where buses start or end their routes",
+						"viMeaning": "bến xe buýt",
+						"example": "She bought a ticket at the bus station.",
+						"viExample": "Cô ấy đã mua vé ở bến xe buýt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "airport",
+		"pos": "noun",
+		"ipa": "/ˈeəpɔːt/",
+		"cefrLevel": "A1",
+		"frequency": 160,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "airport-style",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a complex of runways and buildings for the take-off and landing of aircraft",
+				"viDef": "sân bay",
+				"synonyms": ["airfield", "airstrip"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We arrived at the airport two hours early.",
+						"viText": "Chúng tôi đã đến sân bay sớm hai giờ."
+					},
+					{
+						"text": "The new airport is very large and modern.",
+						"viText": "Sân bay mới rất lớn và hiện đại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "international airport",
+						"meaning": "an airport that receives international flights",
+						"viMeaning": "sân bay quốc tế",
+						"example": "Heathrow is a major international airport.",
+						"viExample": "Heathrow là một sân bay quốc tế lớn."
+					},
+					{
+						"phrase": "go to the airport",
+						"meaning": "travel to the place where planes take off",
+						"viMeaning": "đến sân bay",
+						"example": "I need to go to the airport to pick him up.",
+						"viExample": "Tôi cần đến sân bay để đón anh ấy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "rice",
+		"pos": "noun",
+		"ipa": "/raɪs/",
+		"cefrLevel": "A1",
+		"frequency": 140,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "rice-paper",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a swamp grass which is widely cultivated as a source of food",
+				"viDef": "gạo, cơm",
+				"synonyms": ["grain", "cereal"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Vietnamese people eat rice every day.",
+						"viText": "Người Việt Nam ăn cơm mỗi ngày."
+					},
+					{
+						"text": "She cooked a large bowl of white rice.",
+						"viText": "Cô ấy đã nấu một bát cơm trắng lớn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "white rice",
+						"meaning": "milled rice that has had its husk removed",
+						"viMeaning": "cơm trắng",
+						"example": "I prefer brown rice to white rice.",
+						"viExample": "Tôi thích gạo lứt hơn gạo trắng."
+					},
+					{
+						"phrase": "bowl of rice",
+						"meaning": "a deep round dish filled with cooked rice",
+						"viMeaning": "bát cơm",
+						"example": "He ate a large bowl of rice for dinner.",
+						"viExample": "Anh ấy đã ăn một bát cơm lớn cho bữa tối."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "bread",
+		"pos": "noun",
+		"ipa": "/bred/",
+		"cefrLevel": "A1",
+		"frequency": 190,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "breadbox",
+				"pos": "noun"
+			},
+			{
+				"form": "breadcrumbs",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "food made of flour, water, and yeast baked together",
+				"viDef": "bánh mì",
+				"synonyms": ["loaf", "bun"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I like to eat bread with butter.",
+						"viText": "Tôi thích ăn bánh mì với bơ."
+					},
+					{
+						"text": "She bought a fresh loaf of bread.",
+						"viText": "Cô ấy đã mua một ổ bánh mì tươi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "slice of bread",
+						"meaning": "a thin, flat piece cut from a loaf",
+						"viMeaning": "lát bánh mì",
+						"example": "Can I have a slice of bread?",
+						"viExample": "Cho tôi xin một lát bánh mì được không?"
+					},
+					{
+						"phrase": "white bread",
+						"meaning": "bread made from finely milled wheat flour",
+						"viMeaning": "bánh mì trắng",
+						"example": "Whole wheat bread is healthier than white bread.",
+						"viExample": "Bánh mì nguyên cám tốt cho sức khỏe hơn bánh mì trắng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "milk",
+		"pos": "noun",
+		"ipa": "/mɪlk/",
+		"cefrLevel": "A1",
+		"frequency": 170,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "milky",
+				"pos": "adjective"
+			},
+			{
+				"form": "milkshake",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "an opaque white fluid rich in fat and protein",
+				"viDef": "sữa",
+				"synonyms": ["dairy"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The baby needs to drink some milk.",
+						"viText": "Đứa bé cần uống một ít sữa."
+					},
+					{
+						"text": "I like a little milk in my coffee.",
+						"viText": "Tôi thích một chút sữa trong cà phê của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "glass of milk",
+						"meaning": "a container made of glass filled with milk",
+						"viMeaning": "ly sữa",
+						"example": "He drinks a glass of milk before bed.",
+						"viExample": "Anh ấy uống một ly sữa trước khi đi ngủ."
+					},
+					{
+						"phrase": "cow's milk",
+						"meaning": "milk produced by cows",
+						"viMeaning": "sữa bò",
+						"example": "Some people are allergic to cow's milk.",
+						"viExample": "Một số người bị dị ứng với sữa bò."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "egg",
+		"pos": "noun",
+		"ipa": "/eɡ/",
+		"cefrLevel": "A1",
+		"frequency": 160,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "eggy",
+				"pos": "adjective"
+			},
+			{
+				"form": "eggshell",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "an oval or round object laid by a female bird",
+				"viDef": "quả trứng",
+				"synonyms": ["ovum"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I eat a boiled egg for breakfast.",
+						"viText": "Tôi ăn một quả trứng luộc cho bữa sáng."
+					},
+					{
+						"text": "The chicken laid a large white egg.",
+						"viText": "Con gà đã đẻ một quả trứng trắng lớn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fried egg",
+						"meaning": "an egg cooked in hot fat",
+						"viMeaning": "trứng chiên",
+						"example": "I would like a fried egg with toast.",
+						"viExample": "Tôi muốn một quả trứng chiên với bánh mì nướng."
+					},
+					{
+						"phrase": "boil an egg",
+						"meaning": "cook an egg in boiling water",
+						"viMeaning": "luộc trứng",
+						"example": "It takes ten minutes to hard boil an egg.",
+						"viExample": "Phải mất mười phút để luộc trứng chín kỹ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "fruit",
+		"pos": "noun",
+		"ipa": "/fruːt/",
+		"cefrLevel": "A1",
+		"frequency": 210,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "fruity",
+				"pos": "adjective"
+			},
+			{
+				"form": "fruitless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the sweet and fleshy product of a tree or other plant",
+				"viDef": "trái cây",
+				"synonyms": ["produce", "crop"],
+				"antonyms": ["vegetable"],
+				"examples": [
+					{
+						"text": "Apples and oranges are my favorite fruit.",
+						"viText": "Táo và cam là loại trái cây tôi yêu thích."
+					},
+					{
+						"text": "You should eat fresh fruit every day.",
+						"viText": "Bạn nên ăn trái cây tươi mỗi ngày."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fresh fruit",
+						"meaning": "fruit that has recently been picked",
+						"viMeaning": "trái cây tươi",
+						"example": "We bought some fresh fruit at the market.",
+						"viExample": "Chúng tôi đã mua một ít trái cây tươi ở chợ."
+					},
+					{
+						"phrase": "fruit juice",
+						"meaning": "the liquid obtained from fruit",
+						"viMeaning": "nước ép trái cây",
+						"example": "A glass of fruit juice is healthy.",
+						"viExample": "Một ly nước ép trái cây rất tốt cho sức khỏe."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "vegetable",
+		"pos": "noun",
+		"ipa": "/ˈvedʒtəbl/",
+		"cefrLevel": "A1",
+		"frequency": 180,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "vegetal",
+				"pos": "adjective"
+			},
+			{
+				"form": "vegetarian",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a plant or part of a plant used as food",
+				"viDef": "rau củ",
+				"synonyms": ["greens", "veg"],
+				"antonyms": ["fruit", "meat"],
+				"examples": [
+					{
+						"text": "Carrots are a very healthy vegetable.",
+						"viText": "Cà rốt là một loại rau củ rất tốt cho sức khỏe."
+					},
+					{
+						"text": "We grew some vegetables in the garden.",
+						"viText": "Chúng tôi đã trồng một số rau củ trong vườn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fresh vegetables",
+						"meaning": "recently harvested plants for food",
+						"viMeaning": "rau củ tươi",
+						"example": "The salad is made with fresh vegetables.",
+						"viExample": "Món salad được làm bằng rau củ tươi."
+					},
+					{
+						"phrase": "green vegetables",
+						"meaning": "leafy or green-colored food plants",
+						"viMeaning": "rau xanh",
+						"example": "Children should eat more green vegetables.",
+						"viExample": "Trẻ em nên ăn nhiều rau xanh hơn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "meat",
+		"pos": "noun",
+		"ipa": "/miːt/",
+		"cefrLevel": "A1",
+		"frequency": 230,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "meaty",
+				"pos": "adjective"
+			},
+			{
+				"form": "meatless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the flesh of an animal, typically a mammal or bird",
+				"viDef": "thịt",
+				"synonyms": ["flesh", "muscle"],
+				"antonyms": ["vegetable"],
+				"examples": [
+					{
+						"text": "He does not eat any meat.",
+						"viText": "Anh ấy không ăn bất kỳ loại thịt nào."
+					},
+					{
+						"text": "We bought some red meat for dinner.",
+						"viText": "Chúng tôi đã mua một ít thịt đỏ cho bữa tối."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "red meat",
+						"meaning": "meat that is dark in color before cooking",
+						"viMeaning": "thịt đỏ",
+						"example": "Beef and lamb are examples of red meat.",
+						"viExample": "Thịt bò và thịt cừu là những ví dụ về thịt đỏ."
+					},
+					{
+						"phrase": "eat meat",
+						"meaning": "consume animal flesh as food",
+						"viMeaning": "ăn thịt",
+						"example": "Vegetarians choose not to eat meat.",
+						"viExample": "Người ăn chay chọn không ăn thịt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "fish",
+		"pos": "noun",
+		"ipa": "/fɪʃ/",
+		"cefrLevel": "A1",
+		"frequency": 310,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "fishy",
+				"pos": "adjective"
+			},
+			{
+				"form": "fisherman",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a limbless cold-blooded vertebrate animal with gills and fins",
+				"viDef": "cá",
+				"synonyms": ["seafood", "catch"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The fish is swimming in the river.",
+						"viText": "Con cá đang bơi dưới sông."
+					},
+					{
+						"text": "We had grilled fish for lunch.",
+						"viText": "Chúng tôi đã ăn cá nướng cho bữa trưa."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "catch a fish",
+						"meaning": "capture a fish from the water",
+						"viMeaning": "bắt cá",
+						"example": "He wants to catch a big fish.",
+						"viExample": "Anh ấy muốn bắt một con cá lớn."
+					},
+					{
+						"phrase": "fresh fish",
+						"meaning": "fish that has been recently caught",
+						"viMeaning": "cá tươi",
+						"example": "The market sells very good fresh fish.",
+						"viExample": "Khu chợ bán cá tươi rất ngon."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sugar",
+		"pos": "noun",
+		"ipa": "/ˈʃʊɡə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 110,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "sugary",
+				"pos": "adjective"
+			},
+			{
+				"form": "sugarless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a sweet crystalline substance obtained from various plants",
+				"viDef": "đường",
+				"synonyms": ["sweetener", "sucrose"],
+				"antonyms": ["salt"],
+				"examples": [
+					{
+						"text": "Do you take sugar in your tea?",
+						"viText": "Bạn có dùng đường trong trà không?"
+					},
+					{
+						"text": "Too much sugar is bad for your teeth.",
+						"viText": "Quá nhiều đường sẽ có hại cho răng của bạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "added sugar",
+						"meaning": "sugars added during food processing",
+						"viMeaning": "đường bổ sung",
+						"example": "Many soft drinks contain a lot of added sugar.",
+						"viExample": "Nhiều loại nước ngọt chứa nhiều đường bổ sung."
+					},
+					{
+						"phrase": "blood sugar",
+						"meaning": "the concentration of glucose in the blood",
+						"viMeaning": "đường huyết",
+						"example": "He needs to check his blood sugar regularly.",
+						"viExample": "Anh ấy cần kiểm tra đường huyết thường xuyên."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "salt",
+		"pos": "noun",
+		"ipa": "/sɔːlt/",
+		"cefrLevel": "A1",
+		"frequency": 130,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "salty",
+				"pos": "adjective"
+			},
+			{
+				"form": "saltless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a white crystalline substance that gives seawater its characteristic taste",
+				"viDef": "muối",
+				"synonyms": ["sodium", "seasoning"],
+				"antonyms": ["sugar", "pepper"],
+				"examples": [
+					{
+						"text": "Pass me the salt, please.",
+						"viText": "Làm ơn đưa cho tôi lọ muối."
+					},
+					{
+						"text": "The soup needs a little more salt.",
+						"viText": "Súp cần thêm một chút muối."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sea salt",
+						"meaning": "salt produced by the evaporation of seawater",
+						"viMeaning": "muối biển",
+						"example": "Sea salt is often used in cooking.",
+						"viExample": "Muối biển thường được sử dụng trong nấu ăn."
+					},
+					{
+						"phrase": "pinch of salt",
+						"meaning": "a very small amount of salt",
+						"viMeaning": "một nhúm muối",
+						"example": "Add a pinch of salt to the mixture.",
+						"viExample": "Thêm một nhúm muối vào hỗn hợp."
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,916 @@
+[
+	{
+		"headword": "globalization",
+		"pos": "noun",
+		"ipa": "/ˌɡləʊbəlaɪˈzeɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 5050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "globalize", "pos": "verb" },
+			{ "form": "global", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The process of businesses operating on an international scale",
+				"viDef": "sự toàn cầu hóa",
+				"synonyms": ["integration", "interconnection"],
+				"antonyms": ["localization", "isolationism"],
+				"examples": [
+					{
+						"text": "Globalization has led to a more interconnected world economy.",
+						"viText": "Toàn cầu hóa đã dẫn đến một nền kinh tế thế giới kết nối chặt chẽ hơn."
+					},
+					{
+						"text": "The effects of globalization can be seen in every city.",
+						"viText": "Ảnh hưởng của toàn cầu hóa có thể được nhìn thấy ở mọi thành phố."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "economic globalization",
+						"meaning": "The widespread international movement of goods and capital",
+						"viMeaning": "toàn cầu hóa kinh tế",
+						"example": "Economic globalization offers both opportunities and risks.",
+						"viExample": "Toàn cầu hóa kinh tế mang lại cả cơ hội và rủi ro."
+					},
+					{
+						"phrase": "rapid globalization",
+						"meaning": "The fast-paced integration of global markets",
+						"viMeaning": "toàn cầu hóa nhanh chóng",
+						"example": "The 21st century has seen rapid globalization.",
+						"viExample": "Thế kỷ 21 đã chứng kiến sự toàn cầu hóa nhanh chóng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "capitalism",
+		"pos": "noun",
+		"ipa": "/ˈkæpɪtəlɪzəm/",
+		"cefrLevel": "B2",
+		"frequency": 5300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "capitalist", "pos": "noun" },
+			{ "form": "capitalist", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Economic system based on private ownership and profit",
+				"viDef": "chủ nghĩa tư bản",
+				"synonyms": ["free enterprise", "private enterprise"],
+				"antonyms": ["socialism", "communism"],
+				"examples": [
+					{
+						"text": "Global capitalism has significantly changed the labor market.",
+						"viText": "Chủ nghĩa tư bản toàn cầu đã thay đổi đáng kể thị trường lao động."
+					},
+					{
+						"text": "Critics of capitalism point out the growing wealth gap.",
+						"viText": "Những người chỉ trích chủ nghĩa tư bản chỉ ra khoảng cách giàu nghèo ngày càng tăng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "modern capitalism",
+						"meaning": "The current state of the global economic system",
+						"viMeaning": "chủ nghĩa tư bản hiện đại",
+						"example": "Modern capitalism relies heavily on digital technology.",
+						"viExample": "Chủ nghĩa tư bản hiện đại phụ thuộc rất nhiều vào công nghệ số."
+					},
+					{
+						"phrase": "laissez-faire capitalism",
+						"meaning": "Economic system without government interference",
+						"viMeaning": "tư bản tự do kinh doanh",
+						"example": "He is a strong supporter of laissez-faire capitalism.",
+						"viExample": "Ông là người ủng hộ mạnh mẽ chủ nghĩa tư bản tự do kinh doanh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ideology",
+		"pos": "noun",
+		"ipa": "/ˌaɪdiˈɒlədʒi/",
+		"cefrLevel": "B2",
+		"frequency": 5500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "ideological", "pos": "adjective" },
+			{ "form": "ideologically", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A system of ideas and ideals, especially in politics",
+				"viDef": "hệ tư tưởng",
+				"synonyms": ["beliefs", "creed", "philosophy"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The party's ideology is based on social equality.",
+						"viText": "Hệ tư tưởng của đảng dựa trên sự bình đẳng xã hội."
+					},
+					{
+						"text": "The war was driven more by ideology than by land.",
+						"viText": "Cuộc chiến bị thúc đẩy bởi hệ tư tưởng nhiều hơn là vì đất đai."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "political ideology",
+						"meaning": "A certain set of ethical ideals of a social movement",
+						"viMeaning": "hệ tư tưởng chính trị",
+						"example": "He has a very conservative political ideology.",
+						"viExample": "Ông có một hệ tư tưởng chính trị rất bảo thủ."
+					},
+					{
+						"phrase": "dominant ideology",
+						"meaning": "The values held by the majority in a society",
+						"viMeaning": "hệ tư tưởng chủ đạo",
+						"example": "Education often reflects the dominant ideology of a country.",
+						"viExample": "Giáo dục thường phản ánh hệ tư tưởng chủ đạo của một quốc gia."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sovereignty",
+		"pos": "noun",
+		"ipa": "/ˈsɒvrənti/",
+		"cefrLevel": "B2",
+		"frequency": 6100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "sovereign", "pos": "adjective" },
+			{ "form": "sovereign", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Supreme power or authority of a state",
+				"viDef": "chủ quyền",
+				"synonyms": ["autonomy", "independence", "self-rule"],
+				"antonyms": ["dependency", "subjugation"],
+				"examples": [
+					{
+						"text": "The nation is fighting to protect its sovereignty.",
+						"viText": "Quốc gia đang chiến đấu để bảo vệ chủ quyền của mình."
+					},
+					{
+						"text": "The treaty respects the sovereignty of all member states.",
+						"viText": "Hiệp ước tôn trọng chủ quyền của tất cả các quốc gia thành viên."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "national sovereignty",
+						"meaning": "The right of a nation to govern itself",
+						"viMeaning": "chủ quyền quốc gia",
+						"example": "The people voted to maintain their national sovereignty.",
+						"viExample": "Người dân đã bỏ phiếu để duy trì chủ quyền quốc gia của họ."
+					},
+					{
+						"phrase": "violation of sovereignty",
+						"meaning": "An act that ignores another country's authority",
+						"viMeaning": "vi phạm chủ quyền",
+						"example": "The border crossing was seen as a violation of sovereignty.",
+						"viExample": "Việc vượt biên được coi là một sự vi phạm chủ quyền."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "bureaucracy",
+		"pos": "noun",
+		"ipa": "/bjʊəˈrɒkrəsi/",
+		"cefrLevel": "B2",
+		"frequency": 6400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "bureaucratic", "pos": "adjective" },
+			{ "form": "bureaucrat", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "System of government with many departments and complex rules",
+				"viDef": "bộ máy quan liêu",
+				"synonyms": ["administration", "red tape", "officials"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The new law aims to reduce government bureaucracy.",
+						"viText": "Luật mới nhằm mục đích cắt giảm bộ máy quan liêu của chính phủ."
+					},
+					{
+						"text": "The project was delayed by endless bureaucracy.",
+						"viText": "Dự án đã bị trì hoãn bởi bộ máy quan liêu vô tận."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "state bureaucracy",
+						"meaning": "The departments and workers that run a country",
+						"viMeaning": "bộ máy hành chính nhà nước",
+						"example": "The state bureaucracy is often slow to change.",
+						"viExample": "Bộ máy hành chính nhà nước thường chậm thay đổi."
+					},
+					{
+						"phrase": "cut through bureaucracy",
+						"meaning": "To deal with complex rules quickly",
+						"viMeaning": "vượt qua thủ tục rườm rà",
+						"example": "The mayor promised to cut through bureaucracy to help businesses.",
+						"viExample": "Thị trưởng hứa sẽ vượt qua các thủ tục rườm rà để giúp đỡ các doanh nghiệp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "propaganda",
+		"pos": "noun",
+		"ipa": "/ˌprɒpəˈɡændə/",
+		"cefrLevel": "B2",
+		"frequency": 5800,
+		"isCommon": false,
+		"wordForms": [{ "form": "propagandist", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Information used to promote a particular political cause",
+				"viDef": "sự tuyên truyền",
+				"synonyms": ["promotion", "disinformation", "publicity"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The government used the media to spread its propaganda.",
+						"viText": "Chính phủ đã sử dụng truyền thông để truyền bá sự tuyên truyền của mình."
+					},
+					{
+						"text": "Don't believe everything you read; it might be propaganda.",
+						"viText": "Đừng tin vào mọi thứ bạn đọc; nó có thể là tuyên truyền."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "wartime propaganda",
+						"meaning": "Information spread by a country during a war",
+						"viMeaning": "tuyên truyền thời chiến",
+						"example": "Wartime propaganda was used to boost morale.",
+						"viExample": "Tuyên truyền thời chiến được sử dụng để thúc đẩy tinh thần."
+					},
+					{
+						"phrase": "political propaganda",
+						"meaning": "Messages used by parties to gain support",
+						"viMeaning": "tuyên truyền chính trị",
+						"example": "The poster was a clever piece of political propaganda.",
+						"viExample": "Tấm áp phích là một phần tuyên truyền chính trị khéo léo."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "diplomacy",
+		"pos": "noun",
+		"ipa": "/dɪˈpləʊməsi/",
+		"cefrLevel": "B2",
+		"frequency": 5950,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "diplomatic", "pos": "adjective" },
+			{ "form": "diplomat", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Managing international relations or dealing with people tactfully",
+				"viDef": "ngoại giao, sự khéo léo",
+				"synonyms": ["statesmanship", "negotiation", "tact"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The dispute was settled through quiet diplomacy.",
+						"viText": "Cuộc tranh chấp đã được giải quyết thông qua ngoại giao thầm lặng."
+					},
+					{
+						"text": "She handled the difficult situation with great diplomacy.",
+						"viText": "Cô ấy đã xử lý tình huống khó khăn với sự khéo léo tuyệt vời."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "international diplomacy",
+						"meaning": "The conduct of relations between nations",
+						"viMeaning": "ngoại giao quốc tế",
+						"example": "He had a long and distinguished career in international diplomacy.",
+						"viExample": "Ông đã có một sự nghiệp dài và lừng lẫy trong ngành ngoại giao quốc tế."
+					},
+					{
+						"phrase": "shuttle diplomacy",
+						"meaning": "Negotiations between nations conducted by an intermediary",
+						"viMeaning": "ngoại giao con thoi",
+						"example": "The Secretary of State engaged in shuttle diplomacy to prevent war.",
+						"viExample": "Ngoại trưởng đã tham gia vào ngoại giao con thoi để ngăn chặn chiến tranh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "legislation",
+		"pos": "noun",
+		"ipa": "/ˌledʒɪˈsleɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 4200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "legislate", "pos": "verb" },
+			{ "form": "legislative", "pos": "adjective" },
+			{ "form": "legislator", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Laws, considered collectively; the process of making laws",
+				"viDef": "pháp luật, việc lập pháp",
+				"synonyms": ["law", "statute", "regulation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The government is drafting new legislation on climate change.",
+						"viText": "Chính phủ đang soạn thảo luật mới về biến đổi khí hậu."
+					},
+					{
+						"text": "Current legislation does not cover this specific case.",
+						"viText": "Luật pháp hiện hành không bao gồm trường hợp cụ thể này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "introduce legislation",
+						"meaning": "To present a new law to parliament",
+						"viMeaning": "giới thiệu luật",
+						"example": "They plan to introduce legislation to improve school standards.",
+						"viExample": "Họ dự định giới thiệu luật để cải thiện tiêu chuẩn trường học."
+					},
+					{
+						"phrase": "pass legislation",
+						"meaning": "When a law is officially approved by parliament",
+						"viMeaning": "thông qua luật",
+						"example": "Parliament passed new legislation to protect consumers.",
+						"viExample": "Nghị viện đã thông qua luật mới để bảo vệ người tiêu dùng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "accountability",
+		"pos": "noun",
+		"ipa": "/əˌkaʊntəˈbɪləti/",
+		"cefrLevel": "B2",
+		"frequency": 5800,
+		"isCommon": false,
+		"wordForms": [{ "form": "accountable", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Responsibility for actions and willingness to explain them",
+				"viDef": "trách nhiệm giải trình",
+				"synonyms": ["responsibility", "answerability"],
+				"antonyms": ["irresponsibility"],
+				"examples": [
+					{
+						"text": "Public officials must show accountability to the citizens.",
+						"viText": "Các quan chức công quyền phải thể hiện trách nhiệm giải trình trước người dân."
+					},
+					{
+						"text": "There is a lack of accountability in the current system.",
+						"viText": "Đang có sự thiếu hụt trách nhiệm giải trình trong hệ thống hiện tại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "hold accountable",
+						"meaning": "To consider someone responsible for an outcome",
+						"viMeaning": "truy cứu trách nhiệm",
+						"example": "The manager was held accountable for the team's failure.",
+						"viExample": "Người quản lý đã bị truy cứu trách nhiệm về thất bại của nhóm."
+					},
+					{
+						"phrase": "increase accountability",
+						"meaning": "To make systems more transparent and responsible",
+						"viMeaning": "tăng cường trách nhiệm",
+						"example": "The new rules are designed to increase accountability.",
+						"viExample": "Các quy tắc mới được thiết kế để tăng cường trách nhiệm giải trình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "transparency",
+		"pos": "noun",
+		"ipa": "/trænsˈpærənsi/",
+		"cefrLevel": "B2",
+		"frequency": 6000,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "transparent", "pos": "adjective" },
+			{ "form": "transparently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Being open, honest, and easy to understand",
+				"viDef": "sự minh bạch",
+				"synonyms": ["openness", "clarity", "honesty"],
+				"antonyms": ["opacity", "secrecy"],
+				"examples": [
+					{
+						"text": "The public demands more transparency in government spending.",
+						"viText": "Công chúng đòi hỏi sự minh bạch hơn trong chi tiêu của chính phủ."
+					},
+					{
+						"text": "The company is praised for its financial transparency.",
+						"viText": "Công ty được khen ngợi vì sự minh bạch tài chính."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "lack of transparency",
+						"meaning": "When a process is kept secret or unclear",
+						"viMeaning": "thiếu minh bạch",
+						"example": "Critics complained about the lack of transparency in the selection process.",
+						"viExample": "Những người chỉ trích phàn nàn về việc thiếu minh bạch trong quy trình tuyển chọn."
+					},
+					{
+						"phrase": "full transparency",
+						"meaning": "Complete openness without hiding any details",
+						"viMeaning": "minh bạch hoàn toàn",
+						"example": "The committee promised full transparency throughout the investigation.",
+						"viExample": "Ủy ban đã hứa sẽ minh bạch hoàn toàn trong suốt cuộc điều tra."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sanctions",
+		"pos": "noun",
+		"ipa": "/ˈsæŋkʃnz/",
+		"cefrLevel": "B2",
+		"frequency": 6600,
+		"isCommon": false,
+		"wordForms": [{ "form": "sanction", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Penalties imposed by one country on another",
+				"viDef": "lệnh trừng phạt",
+				"synonyms": ["penalties", "punishment", "restrictions"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The UN voted to impose trade sanctions on the country.",
+						"viText": "Liên Hợp Quốc đã bỏ phiếu áp đặt các lệnh trừng phạt thương mại đối với quốc gia đó."
+					},
+					{
+						"text": "The sanctions are intended to stop the development of weapons.",
+						"viText": "Các lệnh trừng phạt nhằm mục đích ngăn chặn việc phát triển vũ khí."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "economic sanctions",
+						"meaning": "Trade and financial penalties against a nation",
+						"viMeaning": "trừng phạt kinh tế",
+						"example": "Economic sanctions have hurt the country's oil industry.",
+						"viExample": "Các lệnh trừng phạt kinh tế đã làm hại ngành công nghiệp dầu mỏ của quốc gia."
+					},
+					{
+						"phrase": "lift sanctions",
+						"meaning": "To remove the penalties previously imposed",
+						"viMeaning": "dỡ bỏ lệnh trừng phạt",
+						"example": "The government hopes that the US will lift sanctions soon.",
+						"viExample": "Chính phủ hy vọng rằng Hoa Kỳ sẽ sớm dỡ bỏ các lệnh trừng phạt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "coalition",
+		"pos": "noun",
+		"ipa": "/ˌkəʊəˈlɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 5400,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Temporary alliance of political parties or countries",
+				"viDef": "sự liên minh",
+				"synonyms": ["alliance", "union", "partnership"],
+				"antonyms": ["separation", "division"],
+				"examples": [
+					{
+						"text": "The two parties formed a coalition to govern the country.",
+						"viText": "Hai đảng đã thành lập một liên minh để quản trị đất nước."
+					},
+					{
+						"text": "An international coalition was built to fight terrorism.",
+						"viText": "Một liên minh quốc tế đã được xây dựng để chống khủng bố."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "coalition government",
+						"meaning": "A government made up of several political parties",
+						"viMeaning": "chính phủ liên minh",
+						"example": "Italy has had many coalition governments since the war.",
+						"viExample": "Ý đã có nhiều chính phủ liên minh kể từ sau chiến tranh."
+					},
+					{
+						"phrase": "broad coalition",
+						"meaning": "An alliance containing many different groups",
+						"viMeaning": "liên minh rộng rãi",
+						"example": "The environmental project has a broad coalition of support.",
+						"viExample": "Dự án môi trường có một liên minh hỗ trợ rộng rãi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "referendum",
+		"pos": "noun",
+		"ipa": "/ˌrefəˈrendəm/",
+		"cefrLevel": "B2",
+		"frequency": 6700,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A general vote by the electorate on a single question",
+				"viDef": "trưng cầu dân ý",
+				"synonyms": ["vote", "poll", "ballot"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The country held a referendum on whether to join the EU.",
+						"viText": "Quốc gia đã tổ chức một cuộc trưng cầu dân ý về việc có nên gia nhập EU hay không."
+					},
+					{
+						"text": "The results of the referendum were very close.",
+						"viText": "Kết quả của cuộc trưng cầu dân ý rất sát sao."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "national referendum",
+						"meaning": "A vote involving the entire population of a country",
+						"viMeaning": "trưng cầu dân ý toàn quốc",
+						"example": "The new constitution was approved in a national referendum.",
+						"viExample": "Hiến pháp mới đã được thông qua trong một cuộc trưng cầu dân ý toàn quốc."
+					},
+					{
+						"phrase": "hold a referendum",
+						"meaning": "To organize a public vote on a specific issue",
+						"viMeaning": "tổ chức trưng cầu dân ý",
+						"example": "The government refused to hold a referendum on the tax hike.",
+						"viExample": "Chính phủ từ chối tổ chức trưng cầu dân ý về việc tăng thuế."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "constitution",
+		"pos": "noun",
+		"ipa": "/ˌkɒnstɪˈtjuːʃn/",
+		"cefrLevel": "B2",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "constitutional", "pos": "adjective" },
+			{ "form": "constitute", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A body of fundamental principles by which a state is governed",
+				"viDef": "hiến pháp",
+				"synonyms": ["charter", "code", "laws"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The right to free speech is guaranteed by the constitution.",
+						"viText": "Quyền tự do ngôn luận được đảm bảo bởi hiến pháp."
+					},
+					{
+						"text": "They are drafting a new constitution for the country.",
+						"viText": "Họ đang soạn thảo một hiến pháp mới cho đất nước."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "written constitution",
+						"meaning": "A document containing the primary laws of a state",
+						"viMeaning": "hiến pháp thành văn",
+						"example": "The United States has the oldest written constitution.",
+						"viExample": "Hoa Kỳ có bản hiến pháp thành văn lâu đời nhất."
+					},
+					{
+						"phrase": "amend the constitution",
+						"meaning": "To make official changes to the primary laws",
+						"viMeaning": "sửa đổi hiến pháp",
+						"example": "It is very difficult to amend the constitution in this country.",
+						"viExample": "Rất khó để sửa đổi hiến pháp ở quốc gia này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "amendment",
+		"pos": "noun",
+		"ipa": "/əˈmendmənt/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [{ "form": "amend", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A minor change or addition designed to improve a law",
+				"viDef": "sự sửa đổi, bổ sung",
+				"synonyms": ["change", "alteration", "revision"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The First Amendment protects the freedom of religion.",
+						"viText": "Bản sửa đổi thứ nhất bảo vệ quyền tự do tôn giáo."
+					},
+					{
+						"text": "They proposed an amendment to the bill during the meeting.",
+						"viText": "Họ đã đề xuất một sự sửa đổi đối với dự luật trong cuộc họp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "constitutional amendment",
+						"meaning": "An official change to a nation's constitution",
+						"viMeaning": "sửa đổi hiến pháp",
+						"example": "A constitutional amendment requires a two-thirds majority vote.",
+						"viExample": "Một sự sửa đổi hiến pháp đòi hỏi đa số hai phần ba số phiếu bầu."
+					},
+					{
+						"phrase": "propose an amendment",
+						"meaning": "To suggest a change to a legal document",
+						"viMeaning": "đề xuất sửa đổi",
+						"example": "The opposition party decided to propose an amendment.",
+						"viExample": "Đảng đối lập đã quyết định đề xuất một sự sửa đổi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "jurisdiction",
+		"pos": "noun",
+		"ipa": "/ˌdʒʊərɪsˈdɪkʃn/",
+		"cefrLevel": "B2",
+		"frequency": 6900,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The official power to make legal decisions and judgments",
+				"viDef": "quyền tài phán",
+				"synonyms": ["authority", "control", "command"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The matter falls outside the jurisdiction of this court.",
+						"viText": "Vấn đề này nằm ngoài quyền tài phán của tòa án này."
+					},
+					{
+						"text": "Local police have no jurisdiction over federal land.",
+						"viText": "Cảnh sát địa phương không có quyền tài phán đối với đất liên bang."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "legal jurisdiction",
+						"meaning": "The authority under which a court operates",
+						"viMeaning": "quyền tài phán pháp lý",
+						"example": "The dispute was settled in a different legal jurisdiction.",
+						"viExample": "Cuộc tranh chấp đã được giải quyết tại một quyền tài phán pháp lý khác."
+					},
+					{
+						"phrase": "under the jurisdiction",
+						"meaning": "Subject to the authority of a specific court or state",
+						"viMeaning": "thuộc quyền tài phán",
+						"example": "Ships are under the jurisdiction of the country whose flag they fly.",
+						"viExample": "Các con tàu thuộc quyền tài phán của quốc gia mà chúng treo cờ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "precedent",
+		"pos": "noun",
+		"ipa": "/ˈpresɪdənt/",
+		"cefrLevel": "B2",
+		"frequency": 6500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "precede", "pos": "verb" },
+			{ "form": "unprecedented", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An earlier event or action that serves as an example",
+				"viDef": "tiền lệ",
+				"synonyms": ["example", "model", "pattern"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The judge's ruling set a precedent for future cases.",
+						"viText": "Phán quyết của thẩm phán đã tạo ra một tiền lệ cho các vụ án tương lai."
+					},
+					{
+						"text": "There is no precedent for such a high tax increase.",
+						"viText": "Không có tiền lệ nào cho một sự tăng thuế cao như vậy."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "set a precedent",
+						"meaning": "To establish an example for others to follow",
+						"viMeaning": "tạo tiền lệ",
+						"example": "His victory in court will set a precedent for others.",
+						"viExample": "Chiến thắng của anh ấy tại tòa sẽ tạo ra một tiền lệ cho những người khác."
+					},
+					{
+						"phrase": "legal precedent",
+						"meaning": "A previous court decision that guides future rulings",
+						"viMeaning": "tiền lệ pháp lý",
+						"example": "Lawyers cited a legal precedent from 1950.",
+						"viExample": "Các luật sư đã trích dẫn một tiền lệ pháp lý từ năm 1950."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "litigation",
+		"pos": "noun",
+		"ipa": "/ˌlɪtɪˈɡeɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 6950,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "litigate", "pos": "verb" },
+			{ "form": "litigant", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The process of taking legal action",
+				"viDef": "sự kiện tụng, tranh chấp",
+				"synonyms": ["lawsuit", "legal proceedings"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The company is involved in a long litigation with its rival.",
+						"viText": "Công ty đang tham gia vào một cuộc kiện tụng kéo dài với đối thủ của mình."
+					},
+					{
+						"text": "He decided to avoid litigation and settle out of court.",
+						"viText": "Anh ấy quyết định tránh kiện tụng và hòa giải ngoài tòa án."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "civil litigation",
+						"meaning": "Legal disputes between individuals or organizations",
+						"viMeaning": "kiện tụng dân sự",
+						"example": "She specializes in complex civil litigation cases.",
+						"viExample": "Cô ấy chuyên về các vụ kiện tụng dân sự phức tạp."
+					},
+					{
+						"phrase": "threat of litigation",
+						"meaning": "The possibility of being sued",
+						"viMeaning": "nguy cơ kiện tụng",
+						"example": "The threat of litigation forced the firm to apologize.",
+						"viExample": "Nguy cơ kiện tụng đã buộc hãng phải xin lỗi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "testimony",
+		"pos": "noun",
+		"ipa": "/ˈtestɪməni/",
+		"cefrLevel": "B2",
+		"frequency": 6300,
+		"isCommon": false,
+		"wordForms": [{ "form": "testify", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A formal written or spoken statement, especially in court",
+				"viDef": "lời khai, bằng chứng",
+				"synonyms": ["evidence", "witness", "statement"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Her testimony was crucial in convicting the criminal.",
+						"viText": "Lời khai của cô ấy là quan trọng trong việc kết án tên tội phạm."
+					},
+					{
+						"text": "The report is a testimony to the team's hard work.",
+						"viText": "Bản báo cáo là một bằng chứng cho sự làm việc chăm chỉ của cả đội."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "give testimony",
+						"meaning": "To provide a formal statement under oath",
+						"viMeaning": "đưa ra lời khai",
+						"example": "The witness was nervous as she gave her testimony.",
+						"viExample": "Nhân chứng đã hồi hộp khi cô đưa ra lời khai của mình."
+					},
+					{
+						"phrase": "eyewitness testimony",
+						"meaning": "Evidence provided by someone who saw the event",
+						"viMeaning": "lời khai nhân chứng",
+						"example": "Eyewitness testimony is often unreliable.",
+						"viExample": "Lời khai của nhân chứng thường không đáng tin cậy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "verdict",
+		"pos": "noun",
+		"ipa": "/ˈvɜːdɪkt/",
+		"cefrLevel": "B2",
+		"frequency": 5700,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A decision on a case in a court of law",
+				"viDef": "lời tuyên án, phán quyết",
+				"synonyms": ["judgment", "ruling", "decision"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The jury reached a guilty verdict after three hours.",
+						"viText": "Bồi thẩm đoàn đã đưa ra phán quyết có tội sau ba giờ."
+					},
+					{
+						"text": "What's your final verdict on the new car?",
+						"viText": "Phán quyết cuối cùng của bạn về chiếc xe mới là gì?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "guilty verdict",
+						"meaning": "A court decision that the defendant committed the crime",
+						"viMeaning": "phán quyết có tội",
+						"example": "A guilty verdict could lead to life in prison.",
+						"viExample": "Một phán quyết có tội có thể dẫn đến tù chung thân."
+					},
+					{
+						"phrase": "reach a verdict",
+						"meaning": "When a jury finishes their discussion and decides",
+						"viMeaning": "đưa ra phán quyết",
+						"example": "The jury was unable to reach a verdict.",
+						"viExample": "Bồi thẩm đoàn đã không thể đưa ra một phán quyết."
+					}
+				]
+			}
+		]
+	}
+]

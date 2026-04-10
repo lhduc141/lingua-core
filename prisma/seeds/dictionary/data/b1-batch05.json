@@ -1,0 +1,928 @@
+[
+	{
+		"headword": "promote",
+		"pos": "verb",
+		"ipa": "/prəˈməʊt/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "promotion", "pos": "noun" },
+			{ "form": "promotional", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To encourage people to buy or use something",
+				"viDef": "quảng bá, thúc đẩy",
+				"synonyms": ["advertise", "market"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The company is using social media to promote its new product.",
+						"viText": "Công ty đang sử dụng mạng xã hội để quảng bá sản phẩm mới."
+					},
+					{
+						"text": "Greenpeace works to promote environmental awareness.",
+						"viText": "Greenpeace hoạt động để thúc đẩy nhận thức về môi trường."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "promote a product",
+						"meaning": "To help sell a specific item",
+						"viMeaning": "quảng bá sản phẩm",
+						"example": "They hired a celebrity to promote the product.",
+						"viExample": "Họ đã thuê một người nổi tiếng để quảng bá sản phẩm."
+					},
+					{
+						"phrase": "get promoted",
+						"meaning": "To be moved to a higher job position",
+						"viMeaning": "được thăng chức",
+						"example": "She worked hard and got promoted to manager.",
+						"viExample": "Cô ấy đã làm việc chăm chỉ và được thăng chức lên quản lý."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "launch",
+		"pos": "verb",
+		"ipa": "/lɔːntʃ/",
+		"cefrLevel": "B1",
+		"frequency": 3400,
+		"isCommon": false,
+		"wordForms": [{ "form": "launch", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To start a new activity or release a product",
+				"viDef": "ra mắt, khởi động",
+				"synonyms": ["start", "initiate", "release"],
+				"antonyms": ["finish", "withdraw"],
+				"examples": [
+					{
+						"text": "The airline will launch a new route to London next month.",
+						"viText": "Hãng hàng không sẽ ra mắt đường bay mới đến London vào tháng tới."
+					},
+					{
+						"text": "The book was launched with a big party.",
+						"viText": "Cuốn sách đã được ra mắt bằng một bữa tiệc lớn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "launch a campaign",
+						"meaning": "To start a planned series of activities",
+						"viMeaning": "khởi động chiến dịch",
+						"example": "The government launched a campaign against smoking.",
+						"viExample": "Chính phủ đã khởi động một chiến dịch chống hút thuốc."
+					},
+					{
+						"phrase": "product launch",
+						"meaning": "An event to introduce a new item",
+						"viMeaning": "buổi ra mắt sản phẩm",
+						"example": "I attended the new smartphone product launch.",
+						"viExample": "Tôi đã tham dự buổi ra mắt sản phẩm điện thoại thông minh mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "design",
+		"pos": "verb",
+		"ipa": "/dɪˈzaɪn/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "design", "pos": "noun" },
+			{ "form": "designer", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To plan and make a drawing of something",
+				"viDef": "thiết kế",
+				"synonyms": ["plan", "create", "style"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He designs websites for small businesses.",
+						"viText": "Anh ấy thiết kế trang web cho các doanh nghiệp nhỏ."
+					},
+					{
+						"text": "The building was designed by a famous architect.",
+						"viText": "Tòa nhà được thiết kế bởi một kiến trúc sư nổi tiếng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "graphic design",
+						"meaning": "Creating visual content with text and images",
+						"viMeaning": "thiết kế đồ họa",
+						"example": "She is studying graphic design at college.",
+						"viExample": "Cô ấy đang học thiết kế đồ họa tại trường đại học."
+					},
+					{
+						"phrase": "well-designed",
+						"meaning": "Planned or made in a very effective way",
+						"viMeaning": "được thiết kế tốt",
+						"example": "The app is well-designed and easy to use.",
+						"viExample": "Ứng dụng được thiết kế tốt và dễ sử dụng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "produce",
+		"pos": "verb",
+		"ipa": "/prəˈdjuːs/",
+		"cefrLevel": "B1",
+		"frequency": 3015,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "production", "pos": "noun" },
+			{ "form": "product", "pos": "noun" },
+			{ "form": "producer", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make or create something for sale",
+				"viDef": "sản xuất, tạo ra",
+				"synonyms": ["manufacture", "create"],
+				"antonyms": ["consume", "destroy"],
+				"examples": [
+					{
+						"text": "This factory produces thousands of cars every year.",
+						"viText": "Nhà máy này sản xuất hàng ngàn chiếc ô tô mỗi năm."
+					},
+					{
+						"text": "The trees produce beautiful flowers in spring.",
+						"viText": "Cây cối tạo ra những bông hoa đẹp vào mùa xuân."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mass produce",
+						"meaning": "To make things in very large quantities",
+						"viMeaning": "sản xuất hàng loạt",
+						"example": "Electronic goods are often mass produced.",
+						"viExample": "Hàng điện tử thường được sản xuất hàng loạt."
+					},
+					{
+						"phrase": "produce results",
+						"meaning": "To lead to an outcome",
+						"viMeaning": "mang lại kết quả",
+						"example": "The hard work finally produced results.",
+						"viExample": "Sự làm việc chăm chỉ cuối cùng cũng mang lại kết quả."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "distribute",
+		"pos": "verb",
+		"ipa": "/dɪˈstrɪbjuːt/",
+		"cefrLevel": "B1",
+		"frequency": 4200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "distribution", "pos": "noun" },
+			{ "form": "distributor", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To give something out to several people",
+				"viDef": "phân phối, phân phát",
+				"synonyms": ["hand out", "allocate", "deliver"],
+				"antonyms": ["collect", "gather"],
+				"examples": [
+					{
+						"text": "The organization distributes food to the poor.",
+						"viText": "Tổ chức này phân phát lương thực cho người nghèo."
+					},
+					{
+						"text": "The new film will be distributed worldwide.",
+						"viText": "Bộ phim mới sẽ được phân phối trên toàn thế giới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "evenly distribute",
+						"meaning": "To give out in equal amounts",
+						"viMeaning": "phân chia đồng đều",
+						"example": "The weight should be evenly distributed.",
+						"viExample": "Trọng lượng nên được phân chia đồng đều."
+					},
+					{
+						"phrase": "distribute flyers",
+						"meaning": "To hand out advertising papers",
+						"viMeaning": "phát tờ rơi",
+						"example": "Students were hired to distribute flyers.",
+						"viExample": "Sinh viên được thuê để phát tờ rơi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "advertise",
+		"pos": "verb",
+		"ipa": "/ˈædvətaɪz/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "advertisement", "pos": "noun" },
+			{ "form": "advertising", "pos": "noun" },
+			{ "form": "advertiser", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To tell the public about a product or service",
+				"viDef": "quảng cáo",
+				"synonyms": ["promote", "publicize"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "They advertised their car in the local newspaper.",
+						"viText": "Họ đã quảng cáo xe hơi của mình trên tờ báo địa phương."
+					},
+					{
+						"text": "The company advertises heavily on television.",
+						"viText": "Công ty quảng cáo rất mạnh trên truyền hình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "advertise a job",
+						"meaning": "To let people know a position is open",
+						"viMeaning": "đăng tin tuyển dụng",
+						"example": "We need to advertise the job on LinkedIn.",
+						"viExample": "Chúng ta cần đăng tin tuyển dụng trên LinkedIn."
+					},
+					{
+						"phrase": "widely advertised",
+						"meaning": "Promoted to a large number of people",
+						"viMeaning": "được quảng cáo rộng rãi",
+						"example": "The sale was widely advertised in advance.",
+						"viExample": "Đợt giảm giá đã được quảng cáo rộng rãi từ trước."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "campaign",
+		"pos": "noun",
+		"ipa": "/kæmˈpeɪn/",
+		"cefrLevel": "B1",
+		"frequency": 3150,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "campaign", "pos": "verb" },
+			{ "form": "campaigner", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Planned activities to achieve a social or political goal",
+				"viDef": "chiến dịch",
+				"synonyms": ["operation", "movement"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The charity began a campaign to raise money.",
+						"viText": "Tổ chức từ thiện đã bắt đầu một chiến dịch gây quỹ."
+					},
+					{
+						"text": "His election campaign was very successful.",
+						"viText": "Chiến dịch bầu cử của anh ấy đã rất thành công."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "advertising campaign",
+						"meaning": "A series of ads for a product",
+						"viMeaning": "chiến dịch quảng cáo",
+						"example": "The brand launched a global advertising campaign.",
+						"viExample": "Thương hiệu đã khởi động một chiến dịch quảng cáo toàn cầu."
+					},
+					{
+						"phrase": "run a campaign",
+						"meaning": "To lead or organize a set of actions",
+						"viMeaning": "điều hành chiến dịch",
+						"example": "She ran a campaign to save the local park.",
+						"viExample": "Cô ấy đã điều hành một chiến dịch để cứu công viên địa phương."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "brand",
+		"pos": "noun",
+		"ipa": "/brænd/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [{ "form": "branding", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A product type made by a particular company",
+				"viDef": "thương hiệu, nhãn hiệu",
+				"synonyms": ["label", "make"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Apple is one of the most famous brands in the world.",
+						"viText": "Apple là một trong những thương hiệu nổi tiếng nhất thế giới."
+					},
+					{
+						"text": "I usually buy the same brand of toothpaste.",
+						"viText": "Tôi thường mua cùng một nhãn hiệu kem đánh răng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "brand loyalty",
+						"meaning": "Choosing the same brand over and over",
+						"viMeaning": "sự trung thành thương hiệu",
+						"example": "Good service builds brand loyalty.",
+						"viExample": "Dịch vụ tốt xây dựng sự trung thành với thương hiệu."
+					},
+					{
+						"phrase": "brand image",
+						"meaning": "The general opinion people have of a brand",
+						"viMeaning": "hình ảnh thương hiệu",
+						"example": "Quality products help create a strong brand image.",
+						"viExample": "Sản phẩm chất lượng giúp tạo ra hình ảnh thương hiệu mạnh mẽ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "customer",
+		"pos": "noun",
+		"ipa": "/ˈkʌstəmə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3025,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person who buys goods or services from a shop",
+				"viDef": "khách hàng",
+				"synonyms": ["buyer", "client", "consumer"],
+				"antonyms": ["seller", "vendor"],
+				"examples": [
+					{
+						"text": "We want to provide the best service for our customers.",
+						"viText": "Chúng tôi muốn cung cấp dịch vụ tốt nhất cho khách hàng của mình."
+					},
+					{
+						"text": "The shop was full of customers during the sale.",
+						"viText": "Cửa hàng đã đầy khách hàng trong suốt đợt giảm giá."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "customer service",
+						"meaning": "Help given to people who buy things",
+						"viMeaning": "dịch vụ khách hàng",
+						"example": "Our customer service is available 24/7.",
+						"viExample": "Dịch vụ khách hàng của chúng tôi hoạt động 24/7."
+					},
+					{
+						"phrase": "loyal customer",
+						"meaning": "Someone who buys from the same shop often",
+						"viMeaning": "khách hàng thân thiết",
+						"example": "They offer discounts to loyal customers.",
+						"viExample": "Họ cung cấp giảm giá cho khách hàng thân thiết."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "affect",
+		"pos": "verb",
+		"ipa": "/əˈfekt/",
+		"cefrLevel": "B1",
+		"frequency": 3090,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To produce a change in someone or something",
+				"viDef": "ảnh hưởng, tác động",
+				"synonyms": ["influence", "impact"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The weather will affect our plans for the weekend.",
+						"viText": "Thời tiết sẽ ảnh hưởng đến kế hoạch cuối tuần của chúng tôi."
+					},
+					{
+						"text": "Smoking can seriously affect your health.",
+						"viText": "Hút thuốc có thể ảnh hưởng nghiêm trọng đến sức khỏe của bạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "deeply affect",
+						"meaning": "To have a strong emotional impact",
+						"viMeaning": "ảnh hưởng sâu sắc",
+						"example": "The news deeply affected everyone in the office.",
+						"viExample": "Tin tức đã ảnh hưởng sâu sắc đến mọi người trong văn phòng."
+					},
+					{
+						"phrase": "adversely affect",
+						"meaning": "To change something in a negative way",
+						"viMeaning": "tác động tiêu cực",
+						"example": "Lack of sleep adversely affects performance.",
+						"viExample": "Thiếu ngủ tác động tiêu cực đến hiệu suất."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "influence",
+		"pos": "verb",
+		"ipa": "/ˈɪnfluəns/",
+		"cefrLevel": "B1",
+		"frequency": 3120,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "influence", "pos": "noun" },
+			{ "form": "influential", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To affect the way someone thinks or behaves",
+				"viDef": "ảnh hưởng, tác động",
+				"synonyms": ["affect", "shape", "sway"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "His teachers influenced his decision to study law.",
+						"viText": "Các giáo viên của anh ấy đã ảnh hưởng đến quyết định học luật của anh."
+					},
+					{
+						"text": "The media can influence public opinion.",
+						"viText": "Truyền thông có thể ảnh hưởng đến dư luận xã hội."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "strongly influence",
+						"meaning": "To have a powerful effect on someone",
+						"viMeaning": "ảnh hưởng mạnh mẽ",
+						"example": "My parents strongly influenced my values.",
+						"viExample": "Bố mẹ đã ảnh hưởng mạnh mẽ đến các giá trị sống của tôi."
+					},
+					{
+						"phrase": "undue influence",
+						"meaning": "Unfair pressure used to change a decision",
+						"viMeaning": "sự tác động quá mức",
+						"example": "He was accused of using undue influence.",
+						"viExample": "Anh ta bị cáo buộc sử dụng sự tác động quá mức (bất hợp lý)."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "impact",
+		"pos": "noun",
+		"ipa": "/ˈɪmpækt/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [{ "form": "impact", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A powerful effect that something has on a situation",
+				"viDef": "tác động, ảnh hưởng",
+				"synonyms": ["effect", "consequence"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The new law will have a major impact on business.",
+						"viText": "Luật mới sẽ có tác động lớn đến kinh doanh."
+					},
+					{
+						"text": "We need to reduce our impact on the environment.",
+						"viText": "Chúng ta cần giảm thiểu tác động đến môi trường."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "positive impact",
+						"meaning": "A helpful or good effect",
+						"viMeaning": "tác động tích cực",
+						"example": "The program had a positive impact on the children.",
+						"viExample": "Chương trình đã có một tác động tích cực đối với trẻ em."
+					},
+					{
+						"phrase": "economic impact",
+						"meaning": "The effect on money and financial systems",
+						"viMeaning": "tác động kinh tế",
+						"example": "The tourism industry has a huge economic impact.",
+						"viExample": "Ngành du lịch có một tác động kinh tế khổng lồ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "support",
+		"pos": "verb",
+		"ipa": "/səˈpɔːt/",
+		"cefrLevel": "B1",
+		"frequency": 3030,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "support", "pos": "noun" },
+			{ "form": "supporter", "pos": "noun" },
+			{ "form": "supportive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To help or agree with someone or something",
+				"viDef": "ủng hộ, hỗ trợ",
+				"synonyms": ["help", "assist", "back"],
+				"antonyms": ["oppose", "hinder"],
+				"examples": [
+					{
+						"text": "My family supports my decision to study abroad.",
+						"viText": "Gia đình ủng hộ quyết định đi du học của tôi."
+					},
+					{
+						"text": "The government supports the development of new technology.",
+						"viText": "Chính phủ hỗ trợ việc phát triển công nghệ mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "financial support",
+						"meaning": "Money given to help a person or group",
+						"viMeaning": "hỗ trợ tài chính",
+						"example": "She receives financial support from her parents.",
+						"viExample": "Cô ấy nhận được hỗ trợ tài chính từ bố mẹ."
+					},
+					{
+						"phrase": "strongly support",
+						"meaning": "To believe very firmly in an idea",
+						"viMeaning": "ủng hộ mạnh mẽ",
+						"example": "Most people strongly support the new law.",
+						"viExample": "Hầu hết mọi người ủng hộ mạnh mẽ luật mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "reduce",
+		"pos": "verb",
+		"ipa": "/rɪˈdjuːs/",
+		"cefrLevel": "B1",
+		"frequency": 3060,
+		"isCommon": false,
+		"wordForms": [{ "form": "reduction", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make something smaller in size or amount",
+				"viDef": "giảm, cắt giảm",
+				"synonyms": ["decrease", "cut", "lower"],
+				"antonyms": ["increase", "expand"],
+				"examples": [
+					{
+						"text": "We are trying to reduce the amount of plastic waste.",
+						"viText": "Chúng tôi đang cố gắng giảm lượng rác thải nhựa."
+					},
+					{
+						"text": "The price was reduced by 50% for the sale.",
+						"viText": "Giá đã được giảm 50% trong đợt giảm giá."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reduce costs",
+						"meaning": "To spend less money on a project",
+						"viMeaning": "giảm chi phí",
+						"example": "New technology helped the firm reduce costs.",
+						"viExample": "Công nghệ mới đã giúp công ty giảm chi phí."
+					},
+					{
+						"phrase": "significantly reduce",
+						"meaning": "To make a very large decrease",
+						"viMeaning": "giảm đáng kể",
+						"example": "The new law significantly reduced crime rates.",
+						"viExample": "Luật mới đã giảm đáng kể tỉ lệ tội phạm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "increase",
+		"pos": "verb",
+		"ipa": "/ɪnˈkriːs/",
+		"cefrLevel": "B1",
+		"frequency": 3055,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "increase", "pos": "noun" },
+			{ "form": "increasingly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To become larger in amount, number, or value",
+				"viDef": "tăng lên",
+				"synonyms": ["grow", "rise", "boost"],
+				"antonyms": ["decrease", "reduce"],
+				"examples": [
+					{
+						"text": "The population of the city has increased recently.",
+						"viText": "Dân số thành phố đã tăng lên gần đây."
+					},
+					{
+						"text": "We need to increase our production next year.",
+						"viText": "Chúng ta cần tăng sản lượng vào năm tới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "dramatically increase",
+						"meaning": "To go up very suddenly and sharply",
+						"viMeaning": "tăng đột ngột/mạnh",
+						"example": "Sales dramatically increased after the ad.",
+						"viExample": "Doanh số đã tăng vọt sau khi quảng cáo."
+					},
+					{
+						"phrase": "increase awareness",
+						"meaning": "To make more people know about something",
+						"viMeaning": "tăng cường nhận thức",
+						"example": "The campaign aims to increase awareness of cancer.",
+						"viExample": "Chiến dịch nhằm tăng cường nhận thức về bệnh ung thư."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "expand",
+		"pos": "verb",
+		"ipa": "/ɪkˈspænd/",
+		"cefrLevel": "B1",
+		"frequency": 3450,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "expansion", "pos": "noun" },
+			{ "form": "expansive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To become larger or cover more space",
+				"viDef": "mở rộng",
+				"synonyms": ["enlarge", "extend", "grow"],
+				"antonyms": ["shrink", "contract"],
+				"examples": [
+					{
+						"text": "The company plans to expand into the Asian market.",
+						"viText": "Công ty có kế hoạch mở rộng sang thị trường châu Á."
+					},
+					{
+						"text": "Metals expand when they are heated.",
+						"viText": "Kim loại nở ra khi chúng bị nung nóng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "rapidly expand",
+						"meaning": "To grow very fast in size",
+						"viMeaning": "mở rộng nhanh chóng",
+						"example": "The business is rapidly expanding worldwide.",
+						"viExample": "Doanh nghiệp đang mở rộng nhanh chóng trên toàn thế giới."
+					},
+					{
+						"phrase": "expand horizons",
+						"meaning": "To increase your experience or knowledge",
+						"viMeaning": "mở rộng tầm mắt/kiến thức",
+						"example": "Traveling helps you expand your horizons.",
+						"viExample": "Du lịch giúp bạn mở rộng tầm mắt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "limit",
+		"pos": "verb",
+		"ipa": "/ˈlɪmɪt/",
+		"cefrLevel": "B1",
+		"frequency": 3350,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "limit", "pos": "noun" },
+			{ "form": "limitation", "pos": "noun" },
+			{ "form": "limited", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To stop something from increasing beyond a point",
+				"viDef": "hạn chế, giới hạn",
+				"synonyms": ["restrict", "curb", "cap"],
+				"antonyms": ["permit", "unleash"],
+				"examples": [
+					{
+						"text": "We must limit our spending this month.",
+						"viText": "Chúng ta phải hạn chế chi tiêu trong tháng này."
+					},
+					{
+						"text": "The number of people at the event was limited.",
+						"viText": "Số lượng người tham dự sự kiện đã bị giới hạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "severely limit",
+						"meaning": "To restrict something very strictly",
+						"viMeaning": "hạn chế nghiêm ngặt",
+						"example": "Fog severely limited visibility on the road.",
+						"viExample": "Sương mù đã hạn chế nghiêm trọng tầm nhìn trên đường."
+					},
+					{
+						"phrase": "limit yourself to",
+						"meaning": "To only do or have specific things",
+						"viMeaning": "giới hạn bản thân vào",
+						"example": "Try to limit yourself to two cups of coffee.",
+						"viExample": "Hãy cố gắng giới hạn bản thân ở mức hai tách cà phê."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "solve",
+		"pos": "verb",
+		"ipa": "/sɒlv/",
+		"cefrLevel": "B1",
+		"frequency": 3060,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "solution", "pos": "noun" },
+			{ "form": "solvable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To find an answer to a problem",
+				"viDef": "giải quyết",
+				"synonyms": ["resolve", "fix", "settle"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "It took them weeks to solve the puzzle.",
+						"viText": "Họ đã mất hàng tuần để giải câu đố."
+					},
+					{
+						"text": "We need to work together to solve this problem.",
+						"viText": "Chúng ta cần làm việc cùng nhau để giải quyết vấn đề này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "solve a crime",
+						"meaning": "To find out who is guilty",
+						"viMeaning": "phá án",
+						"example": "The police are working hard to solve the crime.",
+						"viExample": "Cảnh sát đang nỗ lực để phá vụ án này."
+					},
+					{
+						"phrase": "efficiently solve",
+						"meaning": "To find a solution quickly and well",
+						"viMeaning": "giải quyết hiệu quả",
+						"example": "A good manager can efficiently solve workplace issues.",
+						"viExample": "Một quản lý tốt có thể giải quyết hiệu quả các vấn đề tại nơi làm việc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "prevent",
+		"pos": "verb",
+		"ipa": "/prɪˈvent/",
+		"cefrLevel": "B1",
+		"frequency": 3090,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "prevention", "pos": "noun" },
+			{ "form": "preventive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To stop something from happening",
+				"viDef": "ngăn chặn, ngăn ngừa",
+				"synonyms": ["stop", "avoid", "block"],
+				"antonyms": ["allow", "cause"],
+				"examples": [
+					{
+						"text": "Seat belts help prevent injuries in car accidents.",
+						"viText": "Dây an toàn giúp ngăn ngừa chấn thương trong các vụ tai nạn."
+					},
+					{
+						"text": "The guard prevented the man from entering the building.",
+						"viText": "Người bảo vệ đã ngăn chặn người đàn ông đi vào tòa nhà."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "prevent disease",
+						"meaning": "To stop an illness from spreading",
+						"viMeaning": "ngăn ngừa bệnh tật",
+						"example": "Vaccines are used to prevent many diseases.",
+						"viExample": "Vắc-xin được sử dụng để ngăn ngừa nhiều loại bệnh tật."
+					},
+					{
+						"phrase": "prevent further damage",
+						"meaning": "To stop more harm from occurring",
+						"viMeaning": "ngăn chặn thiệt hại thêm",
+						"example": "We need to act now to prevent further damage.",
+						"viExample": "Chúng ta cần hành động ngay để ngăn chặn thiệt hại thêm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "replace",
+		"pos": "verb",
+		"ipa": "/rɪˈpleɪs/",
+		"cefrLevel": "B1",
+		"frequency": 3250,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "replacement", "pos": "noun" },
+			{ "form": "replaceable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To put something new in the place of another",
+				"viDef": "thay thế",
+				"synonyms": ["substitute", "exchange"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We need to replace the old batteries.",
+						"viText": "Chúng ta cần thay thế những viên pin cũ."
+					},
+					{
+						"text": "Computers have replaced typewriters in most offices.",
+						"viText": "Máy tính đã thay thế máy đánh chữ ở hầu hết các văn phòng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "replace with",
+						"meaning": "To use something different instead of another",
+						"viMeaning": "thay thế bằng",
+						"example": "The old car was replaced with a new one.",
+						"viExample": "Chiếc xe cũ đã được thay thế bằng một chiếc mới."
+					},
+					{
+						"phrase": "impossible to replace",
+						"meaning": "Too unique or valuable to be exchanged",
+						"viMeaning": "không thể thay thế",
+						"example": "Some antique items are impossible to replace.",
+						"viExample": "Một số món đồ cổ là không thể thay thế."
+					}
+				]
+			}
+		]
+	}
+]

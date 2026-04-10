@@ -1,0 +1,925 @@
+[
+	{
+		"headword": "cognitive",
+		"pos": "adjective",
+		"ipa": "/ˈkɒɡnətɪv/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "cognition", "pos": "noun" },
+			{ "form": "cognitively", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the mental processes of perception, memory, and reasoning",
+				"viDef": "liên quan đến nhận thức",
+				"synonyms": ["mental", "intellectual"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The child's cognitive development is proceeding normally.",
+						"viText": "Sự phát triển nhận thức của đứa trẻ đang tiến triển bình thường."
+					},
+					{
+						"text": "Cognitive therapy helps patients change negative thought patterns.",
+						"viText": "Trị liệu nhận thức giúp bệnh nhân thay đổi các kiểu suy nghĩ tiêu cực."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "cognitive dissonance",
+						"meaning": "Conflict between different beliefs or actions",
+						"viMeaning": "mâu thuẫn nhận thức",
+						"example": "He experienced cognitive dissonance when his actions didn't match his values.",
+						"viExample": "Anh ấy trải qua sự mâu thuẫn nhận thức khi hành động không khớp với giá trị của mình."
+					},
+					{
+						"phrase": "cognitive skills",
+						"meaning": "Abilities related to thinking and learning",
+						"viMeaning": "kỹ năng nhận thức",
+						"example": "Reading is an essential part of developing cognitive skills.",
+						"viExample": "Đọc sách là một phần thiết yếu trong việc phát triển các kỹ năng nhận thức."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "behavioural",
+		"pos": "adjective",
+		"ipa": "/bɪˈheɪvjərəl/",
+		"cefrLevel": "B2",
+		"frequency": 5400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "behaviour", "pos": "noun" },
+			{ "form": "behaviourism", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the way in which someone acts",
+				"viDef": "thuộc về hành vi",
+				"synonyms": ["conductive"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The researchers studied the behavioural patterns of birds.",
+						"viText": "Các nhà nghiên cứu đã nghiên cứu các kiểu hành vi của loài chim."
+					},
+					{
+						"text": "The clinic offers behavioural therapy for children.",
+						"viText": "Phòng khám cung cấp liệu pháp hành vi cho trẻ em."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "behavioural problems",
+						"meaning": "Difficulties in acting in an acceptable way",
+						"viMeaning": "các vấn đề hành vi",
+						"example": "The teacher managed the student's behavioural problems effectively.",
+						"viExample": "Giáo viên đã xử lý các vấn đề hành vi của học sinh một cách hiệu quả."
+					},
+					{
+						"phrase": "behavioural change",
+						"meaning": "The process of altering one's actions",
+						"viMeaning": "thay đổi hành vi",
+						"example": "The campaign aimed to encourage positive behavioural change.",
+						"viExample": "Chiến dịch nhằm khuyến khích sự thay đổi hành vi tích cực."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "psychological",
+		"pos": "adjective",
+		"ipa": "/ˌsaɪkəˈlɒdʒɪkl/",
+		"cefrLevel": "B2",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "psychology", "pos": "noun" },
+			{ "form": "psychologically", "pos": "adverb" },
+			{ "form": "psychologist", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the mental and emotional state of a person",
+				"viDef": "thuộc về tâm lý",
+				"synonyms": ["mental", "emotional"],
+				"antonyms": ["physical"],
+				"examples": [
+					{
+						"text": "The accident had a lasting psychological impact on the victim.",
+						"viText": "Vụ tai nạn đã để lại một tác động tâm lý lâu dài cho nạn nhân."
+					},
+					{
+						"text": "They undergo psychological testing before joining the military.",
+						"viText": "Họ trải qua kiểm tra tâm lý trước khi gia nhập quân đội."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "psychological warfare",
+						"meaning": "Using fear or confusion to weaken an enemy",
+						"viMeaning": "chiến tranh tâm lý",
+						"example": "Propaganda is a common tool of psychological warfare.",
+						"viExample": "Tuyên truyền là một công cụ phổ biến của chiến tranh tâm lý."
+					},
+					{
+						"phrase": "psychological trauma",
+						"meaning": "Emotional damage caused by a distressing event",
+						"viMeaning": "sang chấn tâm lý",
+						"example": "He is still recovering from the psychological trauma of the fire.",
+						"viExample": "Anh ấy vẫn đang hồi phục sau sang chấn tâm lý từ vụ hỏa hoạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "neurological",
+		"pos": "adjective",
+		"ipa": "/ˌnjʊərəˈlɒdʒɪkl/",
+		"cefrLevel": "B2",
+		"frequency": 6800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "neurology", "pos": "noun" },
+			{ "form": "neurologist", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the anatomy, functions, and disorders of nerves",
+				"viDef": "thuộc về thần kinh",
+				"synonyms": [],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He suffered from a rare neurological condition.",
+						"viText": "Anh ấy mắc phải một tình trạng thần kinh hiếm gặp."
+					},
+					{
+						"text": "Scientific progress has helped treat many neurological diseases.",
+						"viText": "Tiến bộ khoa học đã giúp điều trị nhiều bệnh thần kinh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "neurological disorder",
+						"meaning": "A disease affecting the brain or nervous system",
+						"viMeaning": "rối loạn thần kinh",
+						"example": "Alzheimer's is a common neurological disorder.",
+						"viExample": "Alzheimer là một chứng rối loạn thần kinh phổ biến."
+					},
+					{
+						"phrase": "neurological research",
+						"meaning": "Studies focusing on the nervous system",
+						"viMeaning": "nghiên cứu thần kinh",
+						"example": "She is a leading expert in neurological research.",
+						"viExample": "Cô ấy là một chuyên gia hàng đầu trong nghiên cứu thần kinh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "perception",
+		"pos": "noun",
+		"ipa": "/pəˈsepʃn/",
+		"cefrLevel": "B2",
+		"frequency": 3800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "perceive", "pos": "verb" },
+			{ "form": "perceptive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The ability to see, hear, or become aware of something",
+				"viDef": "sự tri giác, nhận thức",
+				"synonyms": ["insight", "view", "awareness"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Public perception of the police has changed over time.",
+						"viText": "Nhận thức của công chúng về cảnh sát đã thay đổi theo thời gian."
+					},
+					{
+						"text": "The drug can alter your perception of reality.",
+						"viText": "Loại thuốc này có thể làm thay đổi sự tri giác của bạn về thực tại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "depth perception",
+						"meaning": "The ability to judge distances between objects",
+						"viMeaning": "tri giác chiều sâu",
+						"example": "Depth perception is essential for driving safely.",
+						"viExample": "Tri giác chiều sâu là điều thiết yếu để lái xe an toàn."
+					},
+					{
+						"phrase": "visual perception",
+						"meaning": "Interpreting information from visible light",
+						"viMeaning": "tri giác thị giác",
+						"example": "Art involves complex processes of visual perception.",
+						"viExample": "Nghệ thuật liên quan đến các quy trình tri giác thị giác phức tạp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "consciousness",
+		"pos": "noun",
+		"ipa": "/ˈkɒnʃəsnəs/",
+		"cefrLevel": "B2",
+		"frequency": 5200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "conscious", "pos": "adjective" },
+			{ "form": "consciously", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The state of being awake and aware of one's surroundings",
+				"viDef": "ý thức, sự tỉnh táo",
+				"synonyms": ["awareness", "alertness"],
+				"antonyms": ["unconsciousness"],
+				"examples": [
+					{
+						"text": "The patient regained consciousness shortly after the surgery.",
+						"viText": "Bệnh nhân đã tỉnh lại ngay sau ca phẫu thuật."
+					},
+					{
+						"text": "The environmental movement has entered the public consciousness.",
+						"viText": "Phong trào môi trường đã đi vào ý thức chung của công chúng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "lose consciousness",
+						"meaning": "To become unconscious or faint",
+						"viMeaning": "mất ý thức, ngất đi",
+						"example": "She lost consciousness due to the extreme heat.",
+						"viExample": "Cô ấy bị ngất do nhiệt độ quá cao."
+					},
+					{
+						"phrase": "stream of consciousness",
+						"meaning": "A continuous flow of thoughts in literature",
+						"viMeaning": "dòng ý thức",
+						"example": "The novel is written in a stream of consciousness style.",
+						"viExample": "Cuốn tiểu thuyết được viết theo phong cách dòng ý thức."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "motivation",
+		"pos": "noun",
+		"ipa": "/ˌməʊtɪˈveɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "motivate", "pos": "verb" },
+			{ "form": "motivational", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The reason or reasons one has for acting in a way",
+				"viDef": "động lực",
+				"synonyms": ["incentive", "drive", "inspiration"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He has the talent but lacks the motivation to succeed.",
+						"viText": "Anh ấy có tài năng nhưng thiếu động lực để thành công."
+					},
+					{
+						"text": "The teacher tried to improve the students' motivation.",
+						"viText": "Giáo viên đã cố gắng cải thiện động lực của học sinh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "intrinsic motivation",
+						"meaning": "Drive coming from inside a person",
+						"viMeaning": "động lực nội tại",
+						"example": "Intrinsic motivation is more effective than external rewards.",
+						"viExample": "Động lực nội tại hiệu quả hơn các phần thưởng bên ngoài."
+					},
+					{
+						"phrase": "lack motivation",
+						"meaning": "To have no desire to do anything",
+						"viMeaning": "thiếu động lực",
+						"example": "Many teenagers lack motivation during the winter months.",
+						"viExample": "Nhiều thanh thiếu niên thiếu động lực trong những tháng mùa đông."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "identity",
+		"pos": "noun",
+		"ipa": "/aɪˈdentəti/",
+		"cefrLevel": "B2",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "identifiable", "pos": "adjective" },
+			{ "form": "identify", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The fact of being who or what a person/thing is",
+				"viDef": "danh tính, bản sắc",
+				"synonyms": ["individuality", "self", "character"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "They are struggling to preserve their cultural identity.",
+						"viText": "Họ đang đấu tranh để bảo tồn bản sắc văn hóa của mình."
+					},
+					{
+						"text": "The thief used a false identity to open the account.",
+						"viText": "Kẻ trộm đã sử dụng một danh tính giả để mở tài khoản."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "national identity",
+						"meaning": "A sense of belonging to a specific nation",
+						"viMeaning": "bản sắc dân tộc",
+						"example": "Football is a strong part of the country's national identity.",
+						"viExample": "Bóng đá là một phần mạnh mẽ trong bản sắc dân tộc của quốc gia này."
+					},
+					{
+						"phrase": "identity theft",
+						"meaning": "Stealing someone's personal information to commit fraud",
+						"viMeaning": "đánh cắp danh tính",
+						"example": "She was a victim of identity theft last year.",
+						"viExample": "Cô ấy đã là nạn nhân của việc đánh cắp danh tính vào năm ngoái."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "personality",
+		"pos": "noun",
+		"ipa": "/ˌpɜːsəˈnæləti/",
+		"cefrLevel": "B2",
+		"frequency": 2800,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "personal", "pos": "adjective" },
+			{ "form": "personify", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The combination of characteristics that form an individual's character",
+				"viDef": "nhân cách, tính cách",
+				"synonyms": ["character", "nature", "temperament"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She has a very outgoing and friendly personality.",
+						"viText": "Cô ấy có một tính cách rất cởi mở và thân thiện."
+					},
+					{
+						"text": "The test is designed to assess your personality traits.",
+						"viText": "Bài kiểm tra được thiết kế để đánh giá các đặc điểm tính cách của bạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "personality trait",
+						"meaning": "A specific quality that makes up a character",
+						"viMeaning": "đặc điểm tính cách",
+						"example": "Patience is a key personality trait for teachers.",
+						"viExample": "Kiên nhẫn là một đặc điểm tính cách then chốt đối với giáo viên."
+					},
+					{
+						"phrase": "clash of personalities",
+						"meaning": "Disagreement caused by different characters",
+						"viMeaning": "xung đột tính cách",
+						"example": "The project failed due to a clash of personalities.",
+						"viExample": "Dự án thất bại do sự xung đột về tính cách."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "trauma",
+		"pos": "noun",
+		"ipa": "/ˈtrɔːmə/",
+		"cefrLevel": "B2",
+		"frequency": 5800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "traumatic", "pos": "adjective" },
+			{ "form": "traumatized", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A deeply distressing or disturbing experience",
+				"viDef": "sang chấn, tổn thương",
+				"synonyms": ["ordeal", "shock", "suffering"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The children were suffering from severe emotional trauma.",
+						"viText": "Lũ trẻ đang phải chịu đựng sang chấn tâm lý nghiêm trọng."
+					},
+					{
+						"text": "She wrote a book about overcoming childhood trauma.",
+						"viText": "Cô ấy đã viết một cuốn sách về việc vượt qua những tổn thương thời thơ ấu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "severe trauma",
+						"meaning": "A very serious mental or physical injury",
+						"viMeaning": "tổn thương/sang chấn nặng",
+						"example": "The victim was treated for severe physical trauma.",
+						"viExample": "Nạn nhân được điều trị các tổn thương thể chất nghiêm trọng."
+					},
+					{
+						"phrase": "post-traumatic",
+						"meaning": "Occurring after a distressing event",
+						"viMeaning": "hậu sang chấn",
+						"example": "He suffered from post-traumatic stress disorder.",
+						"viExample": "Anh ấy bị chứng rối loạn căng thẳng hậu sang chấn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "therapy",
+		"pos": "noun",
+		"ipa": "/ˈθerəpi/",
+		"cefrLevel": "B2",
+		"frequency": 2500,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "therapist", "pos": "noun" },
+			{ "form": "therapeutic", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Treatment intended to relieve or heal a disorder",
+				"viDef": "liệu pháp, trị liệu",
+				"synonyms": ["treatment", "remedy", "cure"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He is undergoing speech therapy after the accident.",
+						"viText": "Anh ấy đang thực hiện trị liệu ngôn ngữ sau vụ tai nạn."
+					},
+					{
+						"text": "Many people find music to be a form of therapy.",
+						"viText": "Nhiều người thấy âm nhạc là một hình thức trị liệu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "occupational therapy",
+						"meaning": "Treatment helping people perform daily tasks",
+						"viMeaning": "liệu pháp nghề nghiệp",
+						"example": "Occupational therapy helped him regain his independence.",
+						"viExample": "Liệu pháp nghề nghiệp giúp ông ấy tìm lại sự tự lập."
+					},
+					{
+						"phrase": "group therapy",
+						"meaning": "Treatment involving a meeting with other patients",
+						"viMeaning": "trị liệu nhóm",
+						"example": "Group therapy allows patients to share their experiences.",
+						"viExample": "Trị liệu nhóm cho phép bệnh nhân chia sẻ kinh nghiệm của họ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "intervention",
+		"pos": "noun",
+		"ipa": "/ˌɪntəˈvenʃn/",
+		"cefrLevel": "B2",
+		"frequency": 4200,
+		"isCommon": false,
+		"wordForms": [{ "form": "intervene", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Action taken to improve a situation or medical condition",
+				"viDef": "sự can thiệp",
+				"synonyms": ["interference", "mediation", "involvement"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Early intervention can prevent a disease from worsening.",
+						"viText": "Can thiệp sớm có thể ngăn bệnh tình trở nên tồi tệ hơn."
+					},
+					{
+						"text": "The government's intervention in the economy was controversial.",
+						"viText": "Sự can thiệp của chính phủ vào nền kinh tế đã gây tranh cãi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "military intervention",
+						"meaning": "The use of an army in another country",
+						"viMeaning": "can thiệp quân sự",
+						"example": "The UN discussed the possibility of military intervention.",
+						"viExample": "Liên Hợp Quốc đã thảo luận về khả năng can thiệp quân sự."
+					},
+					{
+						"phrase": "surgical intervention",
+						"meaning": "Medical treatment involving an operation",
+						"viMeaning": "can thiệp phẫu thuật",
+						"example": "In some cases, surgical intervention is the only option.",
+						"viExample": "Trong một số trường hợp, can thiệp phẫu thuật là lựa chọn duy nhất."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "assessment",
+		"pos": "noun",
+		"ipa": "/əˈsesmənt/",
+		"cefrLevel": "B2",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "assess", "pos": "verb" },
+			{ "form": "assessor", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The evaluation or estimation of the quality or ability",
+				"viDef": "sự đánh giá",
+				"synonyms": ["evaluation", "appraisal", "judgment"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The students' grades are based on continuous assessment.",
+						"viText": "Điểm của học sinh dựa trên sự đánh giá liên tục."
+					},
+					{
+						"text": "The building underwent a safety assessment last month.",
+						"viText": "Tòa nhà đã trải qua một cuộc đánh giá an toàn vào tháng trước."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "risk assessment",
+						"meaning": "Identifying potential hazards in an activity",
+						"viMeaning": "đánh giá rủi ro",
+						"example": "A risk assessment was carried out before the event.",
+						"viExample": "Một cuộc đánh giá rủi ro đã được thực hiện trước sự kiện."
+					},
+					{
+						"phrase": "needs assessment",
+						"meaning": "The process of determining what is required",
+						"viMeaning": "đánh giá nhu cầu",
+						"example": "The school conducted a needs assessment for the students.",
+						"viExample": "Trường học đã tiến hành đánh giá nhu cầu cho học sinh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "diagnosis",
+		"pos": "noun",
+		"ipa": "/ˌdaɪəɡˈnəʊsɪs/",
+		"cefrLevel": "B2",
+		"frequency": 5500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "diagnose", "pos": "verb" },
+			{ "form": "diagnostic", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The identification of the nature of an illness",
+				"viDef": "sự chẩn đoán",
+				"synonyms": ["identification", "detection"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Early diagnosis is crucial for successful treatment.",
+						"viText": "Chẩn đoán sớm là yếu tố sống còn cho việc điều trị thành công."
+					},
+					{
+						"text": "The doctor confirmed the diagnosis after several tests.",
+						"viText": "Bác sĩ đã xác nhận chẩn đoán sau nhiều xét nghiệm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "accurate diagnosis",
+						"meaning": "A correct identification of a problem",
+						"viMeaning": "chẩn đoán chính xác",
+						"example": "Getting an accurate diagnosis took several months.",
+						"viExample": "Việc có được một chẩn đoán chính xác đã mất vài tháng."
+					},
+					{
+						"phrase": "differential diagnosis",
+						"meaning": "Distinguishing one disease from others with similar symptoms",
+						"viMeaning": "chẩn đoán phân biệt",
+						"example": "The differential diagnosis ruled out the flu.",
+						"viExample": "Chẩn đoán phân biệt đã loại trừ bệnh cúm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "disorder",
+		"pos": "noun",
+		"ipa": "/dɪsˈɔːdə(r)/",
+		"cefrLevel": "B2",
+		"frequency": 4200,
+		"isCommon": false,
+		"wordForms": [{ "form": "disordered", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A state of confusion; an illness that disrupts function",
+				"viDef": "sự rối loạn, mất trật tự",
+				"synonyms": ["chaos", "illness", "malady"],
+				"antonyms": ["order", "health"],
+				"examples": [
+					{
+						"text": "He suffered from an eating disorder for many years.",
+						"viText": "Anh ấy đã phải chịu đựng chứng rối loạn ăn uống trong nhiều năm."
+					},
+					{
+						"text": "The strike caused chaos and civil disorder in the capital.",
+						"viText": "Cuộc đình công đã gây ra sự hỗn loạn và mất trật tự dân sự ở thủ đô."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mental disorder",
+						"meaning": "A condition affecting a person's thinking or mood",
+						"viMeaning": "rối loạn tâm thần",
+						"example": "Depression is a common mental disorder.",
+						"viExample": "Trầm cảm là một chứng rối loạn tâm thần phổ biến."
+					},
+					{
+						"phrase": "genetic disorder",
+						"meaning": "An illness caused by problems in genes",
+						"viMeaning": "rối loạn di truyền",
+						"example": "Cystic fibrosis is a genetic disorder.",
+						"viExample": "Xơ nang là một chứng rối loạn di truyền."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "resilience",
+		"pos": "noun",
+		"ipa": "/rɪˈzɪliəns/",
+		"cefrLevel": "B2",
+		"frequency": 6000,
+		"isCommon": false,
+		"wordForms": [{ "form": "resilient", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The capacity to recover quickly from difficulties",
+				"viDef": "sự kiên cường, khả năng phục hồi",
+				"synonyms": ["toughness", "flexibility", "spirit"],
+				"antonyms": ["vulnerability", "weakness"],
+				"examples": [
+					{
+						"text": "She showed great resilience after losing her business.",
+						"viText": "Cô ấy đã thể hiện sự kiên cường tuyệt vời sau khi mất doanh nghiệp."
+					},
+					{
+						"text": "Natural systems often have a high level of resilience.",
+						"viText": "Các hệ thống tự nhiên thường có khả năng phục hồi cao."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "emotional resilience",
+						"meaning": "The ability to manage stress and emotions",
+						"viMeaning": "sự kiên cường về cảm xúc",
+						"example": "Yoga can help build emotional resilience.",
+						"viExample": "Yoga có thể giúp xây dựng sự kiên cường về cảm xúc."
+					},
+					{
+						"phrase": "test resilience",
+						"meaning": "To put pressure on someone to see how they cope",
+						"viMeaning": "thử thách sự kiên cường",
+						"example": "The disaster tested the resilience of the local community.",
+						"viExample": "Thảm họa đã thử thách sự kiên cường của cộng đồng địa phương."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "wellbeing",
+		"pos": "noun",
+		"ipa": "/ˌwelˈbiːɪŋ/",
+		"cefrLevel": "B2",
+		"frequency": 4500,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The state of being comfortable, healthy, or happy",
+				"viDef": "sự khỏe mạnh, hạnh phúc",
+				"synonyms": ["welfare", "health", "happiness"],
+				"antonyms": ["misery"],
+				"examples": [
+					{
+						"text": "Our priority is the health and wellbeing of our staff.",
+						"viText": "Ưu tiên của chúng tôi là sức khỏe và sự hạnh phúc của nhân viên."
+					},
+					{
+						"text": "Financial security is essential for personal wellbeing.",
+						"viText": "An ninh tài chính là điều thiết yếu cho sự an lạc của cá nhân."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "emotional wellbeing",
+						"meaning": "The state of feeling good mentally",
+						"viMeaning": "sức khỏe tinh thần/cảm xúc",
+						"example": "Schools should focus on the students' emotional wellbeing.",
+						"viExample": "Trường học nên tập trung vào sức khỏe tinh thần của học sinh."
+					},
+					{
+						"phrase": "overall wellbeing",
+						"meaning": "The general health and happiness of someone",
+						"viMeaning": "sức khỏe tổng quát",
+						"example": "Diet and exercise contribute to overall wellbeing.",
+						"viExample": "Chế độ ăn uống và tập dục đóng góp vào sức khỏe tổng quát."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "stigma",
+		"pos": "noun",
+		"ipa": "/ˈstɪɡmə/",
+		"cefrLevel": "B2",
+		"frequency": 6500,
+		"isCommon": false,
+		"wordForms": [{ "form": "stigmatize", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A mark of disgrace associated with a particular circumstance",
+				"viDef": "sự kỳ thị, vết nhơ",
+				"synonyms": ["shame", "disgrace", "dishonor"],
+				"antonyms": ["honor", "pride"],
+				"examples": [
+					{
+						"text": "There is still a social stigma attached to mental illness.",
+						"viText": "Vẫn còn một sự kỳ thị xã hội gắn liền với bệnh tâm thần."
+					},
+					{
+						"text": "We need to work hard to remove the stigma of poverty.",
+						"viText": "Chúng ta cần làm việc chăm chỉ để xóa bỏ sự kỳ thị về cái nghèo."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "social stigma",
+						"meaning": "Negative feelings from society about a certain group",
+						"viMeaning": "sự kỳ thị xã hội",
+						"example": "The social stigma of divorce has decreased in recent years.",
+						"viExample": "Sự kỳ thị xã hội đối với việc ly hôn đã giảm trong những năm gần đây."
+					},
+					{
+						"phrase": "attach stigma",
+						"meaning": "To label something with disgrace",
+						"viMeaning": "gắn mác kỳ thị",
+						"example": "Society often attaches stigma to people with criminal records.",
+						"viExample": "Xã hội thường gắn mác kỳ thị cho những người có tiền án."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "empathy",
+		"pos": "noun",
+		"ipa": "/ˈempəθi/",
+		"cefrLevel": "B2",
+		"frequency": 6100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "empathize", "pos": "verb" },
+			{ "form": "empathetic", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The ability to understand and share the feelings of another",
+				"viDef": "sự đồng cảm",
+				"synonyms": ["compassion", "understanding", "sensitivity"],
+				"antonyms": ["apathy", "indifference"],
+				"examples": [
+					{
+						"text": "She has a lot of empathy for the homeless.",
+						"viText": "Cô ấy có nhiều sự đồng cảm đối với người vô gia cư."
+					},
+					{
+						"text": "Empathy is an important skill for a good leader.",
+						"viText": "Đồng cảm là một kỹ năng quan trọng đối với một nhà lãnh đạo giỏi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "feel empathy",
+						"meaning": "To experience understanding for someone's pain",
+						"viMeaning": "cảm thấy đồng cảm",
+						"example": "I feel deep empathy for the families of the victims.",
+						"viExample": "Tôi cảm thấy đồng cảm sâu sắc với gia đình của các nạn nhân."
+					},
+					{
+						"phrase": "lack empathy",
+						"meaning": "To have no understanding for how others feel",
+						"viMeaning": "thiếu sự đồng cảm",
+						"example": "He was criticized for his complete lack of empathy.",
+						"viExample": "Anh ta đã bị chỉ trích vì sự hoàn toàn thiếu đồng cảm của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "mindfulness",
+		"pos": "noun",
+		"ipa": "/ˈmaɪndfʊlnəs/",
+		"cefrLevel": "B2",
+		"frequency": 6900,
+		"isCommon": false,
+		"wordForms": [{ "form": "mindful", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The quality of being conscious or aware of something",
+				"viDef": "sự chánh niệm, tỉnh thức",
+				"synonyms": ["awareness", "attention"],
+				"antonyms": ["distraction"],
+				"examples": [
+					{
+						"text": "Mindfulness exercises can help reduce stress and anxiety.",
+						"viText": "Các bài tập chánh niệm có thể giúp giảm căng thẳng và lo âu."
+					},
+					{
+						"text": "The practice of mindfulness is becoming more popular in schools.",
+						"viText": "Việc thực hành tỉnh thức đang trở nên phổ biến hơn trong trường học."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mindfulness meditation",
+						"meaning": "A mental practice focusing on the present moment",
+						"viMeaning": "thiền chánh niệm",
+						"example": "She practices mindfulness meditation every morning.",
+						"viExample": "Cô ấy thực hành thiền chánh niệm mỗi sáng."
+					},
+					{
+						"phrase": "practising mindfulness",
+						"meaning": "Doing activities to stay aware of the present",
+						"viMeaning": "thực hành chánh niệm",
+						"example": "Practising mindfulness helps me stay calm at work.",
+						"viExample": "Thực hành chánh niệm giúp tôi giữ bình tĩnh khi làm việc."
+					}
+				]
+			}
+		]
+	}
+]

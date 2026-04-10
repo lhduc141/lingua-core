@@ -1,0 +1,917 @@
+[
+	{
+		"headword": "negotiate",
+		"pos": "verb",
+		"ipa": "/nɪˈɡəʊʃieɪt/",
+		"cefrLevel": "B1",
+		"frequency": 3800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "negotiation", "pos": "noun" },
+			{ "form": "negotiator", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To discuss something formally to reach an agreement",
+				"viDef": "đàm phán, thương lượng",
+				"synonyms": ["bargain", "deal"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "They are trying to negotiate a new contract.",
+						"viText": "Họ đang cố gắng đàm phán một hợp đồng mới."
+					},
+					{
+						"text": "The government refused to negotiate with the terrorists.",
+						"viText": "Chính phủ từ chối thương lượng với những kẻ khủng bố."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "negotiate a price",
+						"meaning": "To discuss and agree on a cost",
+						"viMeaning": "thương lượng giá cả",
+						"example": "You can often negotiate a price in local markets.",
+						"viExample": "Bạn thường có thể thương lượng giá cả ở các chợ địa phương."
+					},
+					{
+						"phrase": "successfully negotiate",
+						"meaning": "To reach an agreement after discussion",
+						"viMeaning": "đàm phán thành công",
+						"example": "We successfully negotiated a 10% discount.",
+						"viExample": "Chúng tôi đã đàm phán thành công mức giảm giá 10%."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "persuade",
+		"pos": "verb",
+		"ipa": "/pəˈsweɪd/",
+		"cefrLevel": "B1",
+		"frequency": 3400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "persuasion", "pos": "noun" },
+			{ "form": "persuasive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make someone do something by giving good reasons",
+				"viDef": "thuyết phục",
+				"synonyms": ["convince", "induce"],
+				"antonyms": ["discourage"],
+				"examples": [
+					{
+						"text": "I managed to persuade him to come with us.",
+						"viText": "Tôi đã xoay xở thuyết phục được anh ấy đi cùng chúng tôi."
+					},
+					{
+						"text": "She used her charm to persuade the guard.",
+						"viText": "Cô ấy đã dùng sức hút của mình để thuyết phục người bảo vệ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "persuade someone to",
+						"meaning": "To influence someone to act",
+						"viMeaning": "thuyết phục ai đó làm gì",
+						"example": "Try to persuade her to change her mind.",
+						"viExample": "Hãy thử thuyết phục cô ấy thay đổi ý định."
+					},
+					{
+						"phrase": "hard to persuade",
+						"meaning": "Difficult to change someone's opinion",
+						"viMeaning": "khó thuyết phục",
+						"example": "He is very stubborn and hard to persuade.",
+						"viExample": "Anh ta rất bướng bỉnh và khó thuyết phục."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "convince",
+		"pos": "verb",
+		"ipa": "/kənˈvɪns/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "convincing", "pos": "adjective" },
+			{ "form": "convinced", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make someone believe that something is true",
+				"viDef": "thuyết phục, làm cho tin",
+				"synonyms": ["persuade", "assure"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I'm trying to convince her that I'm telling the truth.",
+						"viText": "Tôi đang cố gắng thuyết phục cô ấy rằng tôi đang nói thật."
+					},
+					{
+						"text": "The evidence was enough to convince the jury.",
+						"viText": "Bằng chứng đã đủ để thuyết phục bồi thẩm đoàn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fully convince",
+						"meaning": "To make someone completely believe something",
+						"viMeaning": "thuyết phục hoàn toàn",
+						"example": "I am not fully convinced by his explanation.",
+						"viExample": "Tôi không hoàn toàn bị thuyết phục bởi lời giải thích của anh ta."
+					},
+					{
+						"phrase": "convince yourself",
+						"meaning": "To make yourself believe something is true",
+						"viMeaning": "tự thuyết phục bản thân",
+						"example": "She tried to convince herself everything would be fine.",
+						"viExample": "Cô ấy cố gắng tự thuyết phục bản thân rằng mọi chuyện sẽ ổn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "encourage",
+		"pos": "verb",
+		"ipa": "/ɪnˈkʌrɪdʒ/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "encouragement", "pos": "noun" },
+			{ "form": "encouraging", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To give someone support, confidence, or hope",
+				"viDef": "khuyến khích, cổ vũ",
+				"synonyms": ["support", "inspire", "cheer"],
+				"antonyms": ["discourage"],
+				"examples": [
+					{
+						"text": "My parents always encourage me to study hard.",
+						"viText": "Bố mẹ tôi luôn khuyến khích tôi học tập chăm chỉ."
+					},
+					{
+						"text": "We want to encourage people to recycle more.",
+						"viText": "Chúng tôi muốn khuyến khích mọi người tái chế nhiều hơn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "strongly encourage",
+						"meaning": "To give a lot of support for an action",
+						"viMeaning": "mạnh mẽ khuyến khích",
+						"example": "I strongly encourage you to apply for the job.",
+						"viExample": "Tôi mạnh mẽ khuyến khích bạn nộp đơn cho công việc này."
+					},
+					{
+						"phrase": "encourage growth",
+						"meaning": "To help something develop or increase",
+						"viMeaning": "thúc đẩy sự phát triển",
+						"example": "The new policy aims to encourage economic growth.",
+						"viExample": "Chính sách mới nhằm mục đích thúc đẩy tăng trưởng kinh tế."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "recommend",
+		"pos": "verb",
+		"ipa": "/ˌrekəˈmend/",
+		"cefrLevel": "B1",
+		"frequency": 3150,
+		"isCommon": false,
+		"wordForms": [{ "form": "recommendation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To say that something or someone is good",
+				"viDef": "giới thiệu, đề xuất",
+				"synonyms": ["suggest", "advise"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Can you recommend a good restaurant near here?",
+						"viText": "Bạn có thể giới thiệu một nhà hàng ngon gần đây không?"
+					},
+					{
+						"text": "I highly recommend this book to everyone.",
+						"viText": "Tôi rất đề cử cuốn sách này cho mọi người."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "highly recommend",
+						"meaning": "To suggest something with great enthusiasm",
+						"viMeaning": "rất đề cử",
+						"example": "My doctor highly recommends this treatment.",
+						"viExample": "Bác sĩ của tôi rất đề xuất phương pháp điều trị này."
+					},
+					{
+						"phrase": "recommend a friend",
+						"meaning": "To suggest a person for a role",
+						"viMeaning": "giới thiệu một người bạn",
+						"example": "He recommended a friend for the position.",
+						"viExample": "Anh ấy đã giới thiệu một người bạn cho vị trí đó."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "warn",
+		"pos": "verb",
+		"ipa": "/wɔːn/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [{ "form": "warning", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To tell someone about a possible danger or problem",
+				"viDef": "cảnh báo",
+				"synonyms": ["caution", "alert"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The signs warn drivers about the sharp turn.",
+						"viText": "Các biển báo cảnh báo tài xế về khúc cua gắt."
+					},
+					{
+						"text": "I warned him not to go out in the storm.",
+						"viText": "Tôi đã cảnh báo anh ta đừng đi ra ngoài khi trời bão."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "warn against",
+						"meaning": "To advise someone not to do something",
+						"viMeaning": "cảnh báo không nên",
+						"example": "Experts warn against eating too much sugar.",
+						"viExample": "Các chuyên gia cảnh báo không nên ăn quá nhiều đường."
+					},
+					{
+						"phrase": "repeatedly warn",
+						"meaning": "To tell someone about danger many times",
+						"viMeaning": "cảnh báo nhiều lần",
+						"example": "She had been repeatedly warned about her behavior.",
+						"viExample": "Cô ấy đã bị cảnh báo nhiều lần về hành vi của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "criticize",
+		"pos": "verb",
+		"ipa": "/ˈkrɪtɪsaɪz/",
+		"cefrLevel": "B1",
+		"frequency": 3900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "criticism", "pos": "noun" },
+			{ "form": "critic", "pos": "noun" },
+			{ "form": "critical", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To say that you do not like something or someone",
+				"viDef": "chỉ trích, phê bình",
+				"synonyms": ["blame", "condemn"],
+				"antonyms": ["praise"],
+				"examples": [
+					{
+						"text": "He is always criticizing the way I drive.",
+						"viText": "Anh ta luôn chỉ trích cách tôi lái xe."
+					},
+					{
+						"text": "The government was criticized for its slow response.",
+						"viText": "Chính phủ bị chỉ trích vì phản ứng chậm chạp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "harshly criticize",
+						"meaning": "To say very negative things about someone",
+						"viMeaning": "chỉ trích gay gắt",
+						"example": "The film was harshly criticized by reviewers.",
+						"viExample": "Bộ phim đã bị các nhà phê bình chỉ trích gay gắt."
+					},
+					{
+						"phrase": "criticize a decision",
+						"meaning": "To express disapproval of a choice",
+						"viMeaning": "phê bình một quyết định",
+						"example": "Many people criticized the decision to close the school.",
+						"viExample": "Nhiều người đã phê bình quyết định đóng cửa trường học."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "complain",
+		"pos": "verb",
+		"ipa": "/kəmˈpleɪn/",
+		"cefrLevel": "B1",
+		"frequency": 3250,
+		"isCommon": false,
+		"wordForms": [{ "form": "complaint", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To say that you are annoyed or unhappy about something",
+				"viDef": "phàn nàn, khiếu nại",
+				"synonyms": ["grumble", "protest"],
+				"antonyms": ["praise"],
+				"examples": [
+					{
+						"text": "I'm going to complain to the manager about the service.",
+						"viText": "Tôi sẽ phàn nàn với quản lý về dịch vụ."
+					},
+					{
+						"text": "She never complains, even when she's tired.",
+						"viText": "Cô ấy chẳng bao giờ phàn nàn, ngay cả khi mệt mỏi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "complain about",
+						"meaning": "To express dissatisfaction with something",
+						"viMeaning": "phàn nàn về",
+						"example": "Neighbors began to complain about the noise.",
+						"viExample": "Hàng xóm bắt đầu phàn nàn về tiếng ồn."
+					},
+					{
+						"phrase": "bitterly complain",
+						"meaning": "To complain in a very angry way",
+						"viMeaning": "than phiền cay đắng",
+						"example": "He bitterly complained about the lack of support.",
+						"viExample": "Anh ấy đã than phiền cay đắng về việc thiếu sự hỗ trợ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "request",
+		"pos": "verb",
+		"ipa": "/rɪˈkwest/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [{ "form": "request", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To ask for something politely or formally",
+				"viDef": "yêu cầu, thỉnh cầu",
+				"synonyms": ["ask for", "seek"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "You can request a copy of the report.",
+						"viText": "Bạn có thể yêu cầu một bản sao của báo cáo."
+					},
+					{
+						"text": "The singer requested that no photos be taken.",
+						"viText": "Ca sĩ đã yêu cầu không được chụp ảnh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "formally request",
+						"meaning": "To ask using official channels",
+						"viMeaning": "yêu cầu chính thức",
+						"example": "The company formally requested a meeting.",
+						"viExample": "Công ty đã yêu cầu một cuộc họp một cách chính thức."
+					},
+					{
+						"phrase": "request assistance",
+						"meaning": "To ask for help",
+						"viMeaning": "yêu cầu hỗ trợ",
+						"example": "The pilot requested assistance from the tower.",
+						"viExample": "Phi công đã yêu cầu hỗ trợ từ đài kiểm soát."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "demand",
+		"pos": "verb",
+		"ipa": "/dɪˈmɑːnd/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "demand", "pos": "noun" },
+			{ "form": "demanding", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To ask for something very firmly",
+				"viDef": "đòi hỏi, yêu cầu gắt gao",
+				"synonyms": ["insist", "require"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The workers are demanding higher wages.",
+						"viText": "Các công nhân đang đòi mức lương cao hơn."
+					},
+					{
+						"text": "She demanded to see the manager immediately.",
+						"viText": "Cô ấy đã yêu cầu được gặp quản lý ngay lập tức."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "demand an apology",
+						"meaning": "To insist that someone says sorry",
+						"viMeaning": "đòi lời xin lỗi",
+						"example": "He demanded an apology for the insult.",
+						"viExample": "Anh ta đã đòi một lời xin lỗi cho sự xúc phạm."
+					},
+					{
+						"phrase": "demand attention",
+						"meaning": "To require focus or notice",
+						"viMeaning": "đòi hỏi sự chú ý",
+						"example": "The loud noise demanded her attention.",
+						"viExample": "Tiếng ồn lớn đã khiến cô ấy phải chú ý."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "revenue",
+		"pos": "noun",
+		"ipa": "/ˈrevənjuː/",
+		"cefrLevel": "B1",
+		"frequency": 4200,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The money that a company or government receives",
+				"viDef": "doanh thu, ngân sách",
+				"synonyms": ["income", "earnings"],
+				"antonyms": ["expense"],
+				"examples": [
+					{
+						"text": "The company's annual revenue rose by 20%.",
+						"viText": "Doanh thu hàng năm của công ty đã tăng 20%."
+					},
+					{
+						"text": "Advertising is their main source of revenue.",
+						"viText": "Quảng cáo là nguồn doanh thu chính của họ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "generate revenue",
+						"meaning": "To produce money or income",
+						"viMeaning": "tạo ra doanh thu",
+						"example": "The new app is expected to generate a lot of revenue.",
+						"viExample": "Ứng dụng mới được kỳ vọng sẽ tạo ra nhiều doanh thu."
+					},
+					{
+						"phrase": "tax revenue",
+						"meaning": "Money collected by the government from taxes",
+						"viMeaning": "doanh thu từ thuế",
+						"example": "The city uses tax revenue to build roads.",
+						"viExample": "Thành phố sử dụng doanh thu từ thuế để làm đường."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "investment",
+		"pos": "noun",
+		"ipa": "/ɪnˈvestmənt/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "invest", "pos": "verb" },
+			{ "form": "investor", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Money put into a business to make a profit",
+				"viDef": "sự đầu tư, khoản đầu tư",
+				"synonyms": ["asset", "funding"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Buying property is usually a safe investment.",
+						"viText": "Mua bất động sản thường là một khoản đầu tư an toàn."
+					},
+					{
+						"text": "The project needs a massive investment of time.",
+						"viText": "Dự án cần một sự đầu tư lớn về thời gian."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make an investment",
+						"meaning": "To put money into something for future gain",
+						"viMeaning": "thực hiện đầu tư",
+						"example": "She decided to make an investment in the stock market.",
+						"viExample": "Cô ấy đã quyết định thực hiện đầu tư vào thị trường chứng khoán."
+					},
+					{
+						"phrase": "foreign investment",
+						"meaning": "Investment from companies in other countries",
+						"viMeaning": "đầu tư nước ngoài",
+						"example": "The country is attracting more foreign investment.",
+						"viExample": "Quốc gia này đang thu hút thêm nhiều đầu tư nước ngoài."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "profit",
+		"pos": "noun",
+		"ipa": "/ˈprɒfɪt/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "profitable", "pos": "adjective" },
+			{ "form": "profitability", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Money that is earned after paying the costs",
+				"viDef": "lợi nhuận",
+				"synonyms": ["gain", "return"],
+				"antonyms": ["loss"],
+				"examples": [
+					{
+						"text": "The company made a huge profit last year.",
+						"viText": "Công ty đã kiếm được lợi nhuận khổng lồ vào năm ngoái."
+					},
+					{
+						"text": "They sold the house for a small profit.",
+						"viText": "Họ đã bán ngôi nhà để kiếm một chút lợi nhuận."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make a profit",
+						"meaning": "To earn more than you spend",
+						"viMeaning": "có lãi",
+						"example": "Most new businesses don't make a profit in the first year.",
+						"viExample": "Hầu hết các doanh nghiệp mới không có lãi trong năm đầu tiên."
+					},
+					{
+						"phrase": "net profit",
+						"meaning": "Profit after all taxes and costs are paid",
+						"viMeaning": "lợi nhuận ròng",
+						"example": "Our net profit has increased slightly.",
+						"viExample": "Lợi nhuận ròng của chúng tôi đã tăng nhẹ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "expense",
+		"pos": "noun",
+		"ipa": "/ɪkˈspens/",
+		"cefrLevel": "B1",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [{ "form": "expensive", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The money that you spend on something",
+				"viDef": "chi phí, khoản chi",
+				"synonyms": ["cost", "spending"],
+				"antonyms": ["income", "revenue"],
+				"examples": [
+					{
+						"text": "We need to cut down on our expenses.",
+						"viText": "Chúng ta cần cắt giảm các khoản chi tiêu."
+					},
+					{
+						"text": "Travel expenses are covered by the company.",
+						"viText": "Chi phí đi lại được công ty chi trả."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "living expenses",
+						"meaning": "Money spent on daily life like food and rent",
+						"viMeaning": "chi phí sinh hoạt",
+						"example": "Living expenses in the city are very high.",
+						"viExample": "Chi phí sinh hoạt ở thành phố rất cao."
+					},
+					{
+						"phrase": "at the expense of",
+						"meaning": "Doing something while harming something else",
+						"viMeaning": "phải trả giá bằng",
+						"example": "He achieved success at the expense of his health.",
+						"viExample": "Anh ấy đạt được thành công khi phải trả giá bằng sức khỏe của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "budget",
+		"pos": "noun",
+		"ipa": "/ˈbʌdʒɪt/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [{ "form": "budgetary", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The amount of money available for a purpose",
+				"viDef": "ngân sách",
+				"synonyms": ["funds", "allowance"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We have a very tight budget for this trip.",
+						"viText": "Chúng tôi có một ngân sách rất eo hẹp cho chuyến đi này."
+					},
+					{
+						"text": "The government announced the new education budget.",
+						"viText": "Chính phủ đã công bố ngân sách giáo dục mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "within budget",
+						"meaning": "Not spending more than planned",
+						"viMeaning": "trong phạm vi ngân sách",
+						"example": "We managed to finish the project within budget.",
+						"viExample": "Chúng tôi đã hoàn thành dự án trong phạm vi ngân sách."
+					},
+					{
+						"phrase": "over budget",
+						"meaning": "Spending more than the planned amount",
+						"viMeaning": "vượt ngân sách",
+						"example": "The renovation went way over budget.",
+						"viExample": "Việc cải tạo đã vượt quá ngân sách rất nhiều."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "resource",
+		"pos": "noun",
+		"ipa": "/rɪˈsɔːs/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [{ "form": "resourceful", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that can be used to help achieve a goal",
+				"viDef": "nguồn lực, tài nguyên",
+				"synonyms": ["asset", "supply"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Water is a precious natural resource.",
+						"viText": "Nước là một nguồn tài nguyên thiên nhiên quý giá."
+					},
+					{
+						"text": "The library is a great resource for students.",
+						"viText": "Thư viện là một nguồn lực tuyệt vời cho sinh viên."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "human resources",
+						"meaning": "The people who work for an organization",
+						"viMeaning": "nhân sự",
+						"example": "She works in the human resources department.",
+						"viExample": "Cô ấy làm việc ở phòng nhân sự."
+					},
+					{
+						"phrase": "natural resources",
+						"meaning": "Materials found in nature used by humans",
+						"viMeaning": "tài nguyên thiên nhiên",
+						"example": "The country is rich in natural resources like oil.",
+						"viExample": "Quốc gia này giàu tài nguyên thiên nhiên như dầu mỏ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "industry",
+		"pos": "noun",
+		"ipa": "/ˈɪndəstri/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "industrial", "pos": "adjective" },
+			{ "form": "industrious", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The production of goods in factories",
+				"viDef": "ngành công nghiệp",
+				"synonyms": ["business", "trade"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The car industry is struggling right now.",
+						"viText": "Ngành công nghiệp ô tô hiện đang gặp khó khăn."
+					},
+					{
+						"text": "He has worked in the fashion industry for years.",
+						"viText": "Anh ấy đã làm việc trong ngành công nghiệp thời trang nhiều năm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "heavy industry",
+						"meaning": "Production of large or heavy goods",
+						"viMeaning": "công nghiệp nặng",
+						"example": "Steel production is a type of heavy industry.",
+						"viExample": "Sản xuất thép là một loại hình công nghiệp nặng."
+					},
+					{
+						"phrase": "service industry",
+						"meaning": "Businesses that provide services instead of goods",
+						"viMeaning": "ngành dịch vụ",
+						"example": "Tourism is a major service industry.",
+						"viExample": "Du lịch là một ngành dịch vụ lớn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "competition",
+		"pos": "noun",
+		"ipa": "/ˌkɒmpəˈtɪʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "compete", "pos": "verb" },
+			{ "form": "competitive", "pos": "adjective" },
+			{ "form": "competitor", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An event where people try to win something",
+				"viDef": "cuộc thi, sự cạnh tranh",
+				"synonyms": ["contest", "rivalry"],
+				"antonyms": ["cooperation"],
+				"examples": [
+					{
+						"text": "She won first prize in the singing competition.",
+						"viText": "Cô ấy đã giành giải nhất trong cuộc thi hát."
+					},
+					{
+						"text": "There is fierce competition between the two companies.",
+						"viText": "Có sự cạnh tranh khốc liệt giữa hai công ty."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "stiff competition",
+						"meaning": "Very strong and difficult rivalry",
+						"viMeaning": "cạnh tranh gay gắt",
+						"example": "The small shop faces stiff competition from supermarkets.",
+						"viExample": "Cửa hàng nhỏ đối mặt với sự cạnh tranh gay gắt từ các siêu thị."
+					},
+					{
+						"phrase": "enter a competition",
+						"meaning": "To join a contest",
+						"viMeaning": "tham gia cuộc thi",
+						"example": "He decided to enter the photography competition.",
+						"viExample": "Anh ấy quyết định tham gia cuộc thi nhiếp ảnh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "strategy",
+		"pos": "noun",
+		"ipa": "/ˈstrætədʒi/",
+		"cefrLevel": "B1",
+		"frequency": 3400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "strategic", "pos": "adjective" },
+			{ "form": "strategist", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A detailed plan for achieving success",
+				"viDef": "chiến lược",
+				"synonyms": ["plan", "tactic"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The company needs a new marketing strategy.",
+						"viText": "Công ty cần một chiến lược tiếp thị mới."
+					},
+					{
+						"text": "Chess is a game of skill and strategy.",
+						"viText": "Cờ vua là một trò chơi của kỹ năng và chiến lược."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "long-term strategy",
+						"meaning": "A plan for the distant future",
+						"viMeaning": "chiến lược dài hạn",
+						"example": "We need a long-term strategy for growth.",
+						"viExample": "Chúng ta cần một chiến lược dài hạn cho sự tăng trưởng."
+					},
+					{
+						"phrase": "effective strategy",
+						"meaning": "A plan that works well",
+						"viMeaning": "chiến lược hiệu quả",
+						"example": "It proved to be an effective strategy.",
+						"viExample": "Nó đã chứng minh là một chiến lược hiệu quả."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "target",
+		"pos": "noun",
+		"ipa": "/ˈtɑːɡɪt/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [{ "form": "target", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A goal that you are trying to achieve",
+				"viDef": "mục tiêu",
+				"synonyms": ["goal", "aim", "objective"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Our sales target for this month is $10,000.",
+						"viText": "Mục tiêu doanh số của chúng tôi tháng này là 10.000 đô la."
+					},
+					{
+						"text": "The arrows all hit the center of the target.",
+						"viText": "Tất cả các mũi tên đều trúng vào tâm của bia mục tiêu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reach a target",
+						"meaning": "To successfully achieve a goal",
+						"viMeaning": "đạt được mục tiêu",
+						"example": "The charity reached its fundraising target early.",
+						"viExample": "Tổ chức từ thiện đã đạt được mục tiêu gây quỹ sớm."
+					},
+					{
+						"phrase": "target audience",
+						"meaning": "The group of people a product is aimed at",
+						"viMeaning": "đối tượng khách hàng mục tiêu",
+						"example": "The target audience for this show is teenagers.",
+						"viExample": "Đối tượng mục tiêu của chương trình này là thanh thiếu niên."
+					}
+				]
+			}
+		]
+	}
+]

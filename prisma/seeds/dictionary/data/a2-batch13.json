@@ -1,0 +1,919 @@
+[
+	{
+		"headword": "education",
+		"pos": "noun",
+		"ipa": "/ˌedʒuˈkeɪʃn/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "educate", "pos": "verb" },
+			{ "form": "educational", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The process of teaching or learning in a school",
+				"viDef": "nền giáo dục, sự giáo dục",
+				"synonyms": ["schooling", "teaching", "training"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Education is the most powerful tool to change the world.",
+						"viText": "Giáo dục là công cụ mạnh mẽ nhất để thay đổi thế giới."
+					},
+					{
+						"text": "She wants to get a better education abroad.",
+						"viText": "Cô ấy muốn có một nền giáo dục tốt hơn ở nước ngoài."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "higher education",
+						"meaning": "Education at a college or university level",
+						"viMeaning": "giáo dục đại học",
+						"example": "More students are entering higher education than ever before.",
+						"viExample": "Ngày càng có nhiều sinh viên theo học đại học hơn bao giờ hết."
+					},
+					{
+						"phrase": "primary education",
+						"meaning": "The first years of formal schooling",
+						"viMeaning": "giáo dục tiểu học",
+						"example": "Primary education is compulsory in many countries.",
+						"viExample": "Giáo dục tiểu học là bắt buộc ở nhiều quốc gia."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "opportunity",
+		"pos": "noun",
+		"ipa": "/ˌɒpəˈtjuːnəti/",
+		"cefrLevel": "A2",
+		"frequency": 1300,
+		"isCommon": true,
+		"wordForms": [{ "form": "opportune", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A chance to do something that you want to do",
+				"viDef": "cơ hội",
+				"synonyms": ["chance", "opening"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I had the opportunity to visit Japan last year.",
+						"viText": "Tôi đã có cơ hội đến thăm Nhật Bản vào năm ngoái."
+					},
+					{
+						"text": "This job is a great opportunity for my career.",
+						"viText": "Công việc này là một cơ hội tuyệt vời cho sự nghiệp của tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "job opportunity",
+						"meaning": "A chance to get a new position or work",
+						"viMeaning": "cơ hội việc làm",
+						"example": "There are many job opportunities in big cities.",
+						"viExample": "Có rất nhiều cơ hội việc làm ở các thành phố lớn."
+					},
+					{
+						"phrase": "miss an opportunity",
+						"meaning": "To fail to use a good chance",
+						"viMeaning": "bỏ lỡ cơ hội",
+						"example": "Don't miss the opportunity to study with a native speaker.",
+						"viExample": "Đừng bỏ lỡ cơ hội được học với người bản xứ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "future",
+		"pos": "noun",
+		"ipa": "/ˈfjuːtʃə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [{ "form": "futuristic", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The time that will come after the present",
+				"viDef": "tương lai",
+				"synonyms": ["hereafter", "tomorrow"],
+				"antonyms": ["past"],
+				"examples": [
+					{ "text": "We should plan for the future.", "viText": "Chúng ta nên lên kế hoạch cho tương lai." },
+					{
+						"text": "Who knows what will happen in the future?",
+						"viText": "Ai biết được chuyện gì sẽ xảy ra trong tương lai?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "near future",
+						"meaning": "At a time that is not far away",
+						"viMeaning": "tương lai gần",
+						"example": "I hope to buy a new car in the near future.",
+						"viExample": "Tôi hy vọng sẽ mua được xe mới trong tương lai gần."
+					},
+					{
+						"phrase": "future career",
+						"meaning": "The path of work one will follow later",
+						"viMeaning": "sự nghiệp tương lai",
+						"example": "She is worried about her future career.",
+						"viExample": "Cô ấy đang lo lắng về sự nghiệp tương lai của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "generation",
+		"pos": "noun",
+		"ipa": "/ˌdʒenəˈreɪʃn/",
+		"cefrLevel": "A2",
+		"frequency": 1800,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "generate", "pos": "verb" },
+			{ "form": "generational", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "All the people born at about the same time",
+				"viDef": "thế hệ",
+				"synonyms": ["age group"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "My generation uses technology more than my parents' generation.",
+						"viText": "Thế hệ của tôi sử dụng công nghệ nhiều hơn thế hệ cha mẹ tôi."
+					},
+					{
+						"text": "We must protect the environment for future generations.",
+						"viText": "Chúng ta phải bảo vệ môi trường cho các thế hệ tương lai."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "generation gap",
+						"meaning": "The difference in opinions between young and old people",
+						"viMeaning": "khoảng cách thế hệ",
+						"example": "The generation gap can cause misunderstandings in families.",
+						"viExample": "Khoảng cách thế hệ có thể gây ra những hiểu lầm trong gia đình."
+					},
+					{
+						"phrase": "younger generation",
+						"meaning": "The people who are currently youth or children",
+						"viMeaning": "thế hệ trẻ",
+						"example": "The younger generation is very good at using social media.",
+						"viExample": "Thế hệ trẻ rất giỏi sử dụng mạng xã hội."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "society",
+		"pos": "noun",
+		"ipa": "/səˈsaɪəti/",
+		"cefrLevel": "A2",
+		"frequency": 1400,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "social", "pos": "adjective" },
+			{ "form": "socialize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "People in general living together in a community",
+				"viDef": "xã hội",
+				"synonyms": ["community", "public"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Every member of society should follow the law.",
+						"viText": "Mọi thành viên của xã hội nên tuân thủ pháp luật."
+					},
+					{
+						"text": "Technology has changed modern society in many ways.",
+						"viText": "Công nghệ đã thay đổi xã hội hiện đại theo nhiều cách."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "modern society",
+						"meaning": "The way people live together in current times",
+						"viMeaning": "xã hội hiện đại",
+						"example": "Stress is a common problem in modern society.",
+						"viExample": "Căng thẳng là một vấn đề phổ biến trong xã hội hiện đại."
+					},
+					{
+						"phrase": "civil society",
+						"meaning": "Organizations outside of government that help people",
+						"viMeaning": "xã hội dân sự",
+						"example": "A strong civil society is important for democracy.",
+						"viExample": "Một xã hội dân sự mạnh mẽ là điều quan trọng đối với dân chủ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "benefit",
+		"pos": "noun",
+		"ipa": "/ˈbenɪfɪt/",
+		"cefrLevel": "A2",
+		"frequency": 1600,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "beneficial", "pos": "adjective" },
+			{ "form": "benefit", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A helpful or good effect or advantage",
+				"viDef": "lợi ích",
+				"synonyms": ["advantage", "profit", "gain"],
+				"antonyms": ["disadvantage", "harm"],
+				"examples": [
+					{
+						"text": "Eating vegetables has many health benefits.",
+						"viText": "Ăn rau củ mang lại nhiều lợi ích cho sức khỏe."
+					},
+					{
+						"text": "The new road will be a great benefit to the town.",
+						"viText": "Con đường mới sẽ là một lợi ích lớn cho thị trấn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mutual benefit",
+						"meaning": "Something that is good for both sides",
+						"viMeaning": "lợi ích chung/đôi bên",
+						"example": "The partnership is for our mutual benefit.",
+						"viExample": "Sự hợp tác này là vì lợi ích chung của hai bên."
+					},
+					{
+						"phrase": "health benefit",
+						"meaning": "A positive effect on physical well-being",
+						"viMeaning": "lợi ích sức khỏe",
+						"example": "There are many health benefits to regular exercise.",
+						"viExample": "Có nhiều lợi ích sức khỏe khi tập thể dục thường xuyên."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "change",
+		"pos": "verb",
+		"ipa": "/tʃeɪndʒ/",
+		"cefrLevel": "A2",
+		"frequency": 1020,
+		"isCommon": true,
+		"wordForms": [{ "form": "changeable", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make or become different",
+				"viDef": "thay đổi",
+				"synonyms": ["alter", "modify"],
+				"antonyms": ["stay", "remain"],
+				"examples": [
+					{
+						"text": "You can't change the past, so focus on the future.",
+						"viText": "Bạn không thể thay đổi quá khứ, nên hãy tập trung vào tương lai."
+					},
+					{
+						"text": "The leaves change colour in the autumn.",
+						"viText": "Lá cây thay đổi màu sắc vào mùa thu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "change your mind",
+						"meaning": "To decide to do something different",
+						"viMeaning": "thay đổi ý định",
+						"example": "I was going to go out, but I changed my mind.",
+						"viExample": "Tôi định ra ngoài, nhưng tôi đã thay đổi ý định."
+					},
+					{
+						"phrase": "climate change",
+						"meaning": "Changes in the world's weather caused by humans",
+						"viMeaning": "biến đổi khí hậu",
+						"example": "Climate change is a very serious global problem.",
+						"viExample": "Biến đổi khí hậu là một vấn đề toàn cầu rất nghiêm trọng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "develop",
+		"pos": "verb",
+		"ipa": "/dɪˈveləp/",
+		"cefrLevel": "A2",
+		"frequency": 1200,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "development", "pos": "noun" },
+			{ "form": "developer", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To grow or change into something more advanced",
+				"viDef": "phát triển",
+				"synonyms": ["evolve", "grow"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The city is developing very fast these days.",
+						"viText": "Thành phố đang phát triển rất nhanh dạo gần đây."
+					},
+					{
+						"text": "Exercise helps children develop strong muscles.",
+						"viText": "Tập thể dục giúp trẻ em phát triển cơ bắp chắc khỏe."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "develop a skill",
+						"meaning": "To learn and improve an ability",
+						"viMeaning": "phát triển kỹ năng",
+						"example": "You can develop your English skills by reading books.",
+						"viExample": "Bạn có thể phát triển kỹ năng tiếng Anh bằng cách đọc sách."
+					},
+					{
+						"phrase": "fully developed",
+						"meaning": "Complete and not growing anymore",
+						"viMeaning": "phát triển toàn diện",
+						"example": "By the age of 25, the brain is fully developed.",
+						"viExample": "Đến năm 25 tuổi, bộ não đã phát triển toàn diện."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "progress",
+		"pos": "noun",
+		"ipa": "/ˈprəʊɡres/",
+		"cefrLevel": "A2",
+		"frequency": 2200,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "progressive", "pos": "adjective" },
+			{ "form": "progressively", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Improvement or development over a period of time",
+				"viDef": "sự tiến bộ, tiến triển",
+				"synonyms": ["advancement", "improvement"],
+				"antonyms": ["regression"],
+				"examples": [
+					{
+						"text": "I am making good progress with my English studies.",
+						"viText": "Tôi đang có những tiến bộ tốt trong việc học tiếng Anh."
+					},
+					{
+						"text": "We are monitoring the progress of the project.",
+						"viText": "Chúng tôi đang theo dõi tiến độ của dự án."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make progress",
+						"meaning": "To improve or get closer to a goal",
+						"viMeaning": "đạt được tiến bộ",
+						"example": "He is making steady progress after the surgery.",
+						"viExample": "Anh ấy đang tiến triển đều đặn sau ca phẫu thuật."
+					},
+					{
+						"phrase": "scientific progress",
+						"meaning": "New discoveries in the world of science",
+						"viMeaning": "tiến bộ khoa học",
+						"example": "Scientific progress has made life much easier.",
+						"viExample": "Tiến bộ khoa học đã giúp cuộc sống dễ dàng hơn nhiều."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "success",
+		"pos": "noun",
+		"ipa": "/səkˈses/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "succeed", "pos": "verb" },
+			{ "form": "successful", "pos": "adjective" },
+			{ "form": "successfully", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The achievement of something that you planned or attempted",
+				"viDef": "sự thành công",
+				"synonyms": ["triumph", "achievement"],
+				"antonyms": ["failure"],
+				"examples": [
+					{
+						"text": "Hard work is the key to success.",
+						"viText": "Làm việc chăm chỉ là chìa khóa của thành công."
+					},
+					{ "text": "The party was a great success.", "viText": "Bữa tiệc đã thành công tốt đẹp." }
+				],
+				"collocations": [
+					{
+						"phrase": "achieve success",
+						"meaning": "To become successful in what you do",
+						"viMeaning": "đạt được thành công",
+						"example": "She worked hard to achieve success in her career.",
+						"viExample": "Cô ấy đã nỗ lực hết mình để đạt được thành công trong sự nghiệp."
+					},
+					{
+						"phrase": "great success",
+						"meaning": "A very big and positive result",
+						"viMeaning": "thành công rực rỡ",
+						"example": "The new product was a great success.",
+						"viExample": "Sản phẩm mới đã thành công rực rỡ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "fail",
+		"pos": "verb",
+		"ipa": "/feɪl/",
+		"cefrLevel": "A2",
+		"frequency": 1500,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "failure", "pos": "noun" },
+			{ "form": "failing", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To not succeed in doing something",
+				"viDef": "thất bại, trượt",
+				"synonyms": ["miss", "flop"],
+				"antonyms": ["succeed", "pass"],
+				"examples": [
+					{
+						"text": "I failed my driving test the first time.",
+						"viText": "Tôi đã trượt kỳ thi lái xe lần đầu tiên."
+					},
+					{
+						"text": "Don't be afraid to fail, just keep trying.",
+						"viText": "Đừng sợ thất bại, hãy cứ tiếp tục cố gắng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fail an exam",
+						"meaning": "To not get enough marks to pass a test",
+						"viMeaning": "trượt kỳ thi",
+						"example": "He was sad because he failed the final exam.",
+						"viExample": "Cậu ấy buồn vì đã trượt kỳ thi cuối kỳ."
+					},
+					{
+						"phrase": "fail to do",
+						"meaning": "To not do something that you should do",
+						"viMeaning": "không làm được gì",
+						"example": "The company failed to pay its workers on time.",
+						"viExample": "Công ty đã không trả lương cho công nhân đúng hạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "challenge",
+		"pos": "noun",
+		"ipa": "/ˈtʃæləndʒ/",
+		"cefrLevel": "A2",
+		"frequency": 2100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "challenge", "pos": "verb" },
+			{ "form": "challenging", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that is difficult and needs a lot of effort",
+				"viDef": "thử thách",
+				"synonyms": ["difficulty", "task", "hurdle"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Learning English is a big challenge for me.",
+						"viText": "Học tiếng Anh là một thử thách lớn đối với tôi."
+					},
+					{
+						"text": "Climbing the mountain was a real challenge.",
+						"viText": "Leo núi thực sự là một thử thách."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "face a challenge",
+						"meaning": "To deal with a difficult situation",
+						"viMeaning": "đối mặt thử thách",
+						"example": "We must face this challenge together.",
+						"viExample": "Chúng ta phải cùng nhau đối mặt với thử thách này."
+					},
+					{
+						"phrase": "accept a challenge",
+						"meaning": "To agree to do something difficult",
+						"viMeaning": "chấp nhận thử thách",
+						"example": "She accepted the challenge to run a marathon.",
+						"viExample": "Cô ấy đã chấp nhận thử thách chạy ma-ra-tông."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "goal",
+		"pos": "noun",
+		"ipa": "/ɡəʊl/",
+		"cefrLevel": "A2",
+		"frequency": 1250,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that you hope to achieve in the future",
+				"viDef": "mục tiêu",
+				"synonyms": ["aim", "target", "objective"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "My goal is to speak English fluently.",
+						"viText": "Mục tiêu của tôi là nói tiếng Anh trôi chảy."
+					},
+					{
+						"text": "It is important to set goals for yourself.",
+						"viText": "Việc đặt mục tiêu cho bản thân là rất quan trọng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reach a goal",
+						"meaning": "To succeed in doing what you wanted",
+						"viMeaning": "đạt được mục tiêu",
+						"example": "I finally reached my goal of losing 5kg.",
+						"viExample": "Cuối cùng tôi đã đạt được mục tiêu giảm 5kg."
+					},
+					{
+						"phrase": "score a goal",
+						"meaning": "To get a point in a game like football",
+						"viMeaning": "ghi bàn",
+						"example": "He scored a goal in the last minute of the match.",
+						"viExample": "Anh ấy đã ghi bàn vào phút cuối của trận đấu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "dream",
+		"pos": "noun",
+		"ipa": "/driːm/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "dreamer", "pos": "noun" },
+			{ "form": "dreamy", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that you really want to happen",
+				"viDef": "ước mơ, giấc mơ",
+				"synonyms": ["ambition", "wish"],
+				"antonyms": ["reality"],
+				"examples": [
+					{
+						"text": "It is my dream to travel around the world.",
+						"viText": "Ước mơ của tôi là được đi du lịch vòng quanh thế giới."
+					},
+					{
+						"text": "I had a very strange dream last night.",
+						"viText": "Đêm qua tôi đã có một giấc mơ rất lạ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "dream come true",
+						"meaning": "Something that happens which you wanted for a long time",
+						"viMeaning": "giấc mơ thành hiện thực",
+						"example": "Winning the prize was a dream come true.",
+						"viExample": "Giành được giải thưởng là một giấc mơ thành hiện thực."
+					},
+					{
+						"phrase": "bad dream",
+						"meaning": "A scary dream while you are sleeping",
+						"viMeaning": "ác mộng",
+						"example": "The child woke up because of a bad dream.",
+						"viExample": "Đứa trẻ thức giấc vì một cơn ác mộng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ambition",
+		"pos": "noun",
+		"ipa": "/æmˈbɪʃn/",
+		"cefrLevel": "A2",
+		"frequency": 2900,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "ambitious", "pos": "adjective" },
+			{ "form": "ambitiously", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A strong desire to do or achieve something",
+				"viDef": "tham vọng, hoài bão",
+				"synonyms": ["aspiration", "goal"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Her ambition is to become a successful lawyer.",
+						"viText": "Hoài bão của cô ấy là trở thành một luật sư thành công."
+					},
+					{ "text": "He has no ambition to be rich.", "viText": "Anh ấy không có tham vọng trở nên giàu có." }
+				],
+				"collocations": [
+					{
+						"phrase": "career ambition",
+						"meaning": "Desire to succeed in one's professional life",
+						"viMeaning": "tham vọng nghề nghiệp",
+						"example": "He talked about his long-term career ambitions.",
+						"viExample": "Anh ấy đã nói về những tham vọng nghề nghiệp dài hạn của mình."
+					},
+					{
+						"phrase": "full of ambition",
+						"meaning": "Having many strong goals",
+						"viMeaning": "đầy hoài bão",
+						"example": "She is young and full of ambition.",
+						"viExample": "Cô ấy còn trẻ và đầy hoài bão."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "talent",
+		"pos": "noun",
+		"ipa": "/ˈtælənt/",
+		"cefrLevel": "A2",
+		"frequency": 2400,
+		"isCommon": true,
+		"wordForms": [{ "form": "talented", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A natural ability to do something well",
+				"viDef": "tài năng",
+				"synonyms": ["gift", "ability"],
+				"antonyms": ["inability"],
+				"examples": [
+					{
+						"text": "She has a real talent for singing.",
+						"viText": "Cô ấy có một tài năng thực sự trong việc ca hát."
+					},
+					{
+						"text": "The competition aims to find new talent.",
+						"viText": "Cuộc thi nhằm tìm kiếm những tài năng mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "natural talent",
+						"meaning": "An ability you are born with",
+						"viMeaning": "tài năng thiên bẩm",
+						"example": "He has a natural talent for playing the piano.",
+						"viExample": "Cậu ấy có tài năng thiên bẩm chơi đàn piano."
+					},
+					{
+						"phrase": "talent show",
+						"meaning": "A competition where people perform their skills",
+						"viMeaning": "chương trình tìm kiếm tài năng",
+						"example": "We watched a talent show on TV last night.",
+						"viExample": "Tối qua chúng tôi đã xem một chương trình tìm kiếm tài năng trên tivi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "effort",
+		"pos": "noun",
+		"ipa": "/ˈefət/",
+		"cefrLevel": "A2",
+		"frequency": 1200,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "effortless", "pos": "adjective" },
+			{ "form": "effortlessly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The physical or mental energy needed to do something",
+				"viDef": "nỗ lực, công sức",
+				"synonyms": ["exertion", "work"],
+				"antonyms": ["laziness"],
+				"examples": [
+					{
+						"text": "You need to put more effort into your studies.",
+						"viText": "Bạn cần nỗ lực nhiều hơn vào việc học của mình."
+					},
+					{
+						"text": "It takes a lot of effort to learn a new language.",
+						"viText": "Mất rất nhiều công sức để học một ngôn ngữ mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make an effort",
+						"meaning": "To try hard to do something",
+						"viMeaning": "nỗ lực làm gì",
+						"example": "Please make an effort to arrive on time.",
+						"viExample": "Làm ơn hãy nỗ lực để đến đúng giờ."
+					},
+					{
+						"phrase": "team effort",
+						"meaning": "Something done by a group working together",
+						"viMeaning": "nỗ lực của cả đội",
+						"example": "Winning the match was a great team effort.",
+						"viExample": "Thắng trận đấu là một nỗ lực tuyệt vời của cả đội."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "patience",
+		"pos": "noun",
+		"ipa": "/ˈpeɪʃns/",
+		"cefrLevel": "A2",
+		"frequency": 2800,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "patient", "pos": "adjective" },
+			{ "form": "patiently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The ability to wait or stay calm without getting angry",
+				"viDef": "sự kiên nhẫn",
+				"synonyms": ["tolerance", "calmness"],
+				"antonyms": ["impatience"],
+				"examples": [
+					{
+						"text": "Learning to play an instrument takes a lot of patience.",
+						"viText": "Học chơi một nhạc cụ đòi hỏi rất nhiều sự kiên nhẫn."
+					},
+					{
+						"text": "I'm losing my patience with this computer!",
+						"viText": "Tôi đang mất dần kiên nhẫn với cái máy tính này rồi!"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "have patience",
+						"meaning": "To be able to wait calmly",
+						"viMeaning": "có lòng kiên nhẫn",
+						"example": "You need to have patience when teaching children.",
+						"viExample": "Bạn cần có lòng kiên nhẫn khi dạy trẻ em."
+					},
+					{
+						"phrase": "test someone's patience",
+						"meaning": "To do something annoying that makes someone angry",
+						"viMeaning": "thử thách lòng kiên nhẫn",
+						"example": "The long delay is testing everyone's patience.",
+						"viExample": "Sự trì hoãn kéo dài đang thử thách lòng kiên nhẫn của mọi người."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "practice",
+		"pos": "noun",
+		"ipa": "/ˈpræktɪs/",
+		"cefrLevel": "A2",
+		"frequency": 1450,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "practice", "pos": "verb" },
+			{ "form": "practical", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Doing something regularly to improve your skill",
+				"viDef": "sự luyện tập, thực hành",
+				"synonyms": ["training", "exercise", "rehearsal"],
+				"antonyms": ["theory"],
+				"examples": [
+					{
+						"text": "Practice makes perfect.",
+						"viText": "Có công mài sắt có ngày nên kim (Luyện tập tạo nên sự hoàn hảo)."
+					},
+					{
+						"text": "I have piano practice every Tuesday.",
+						"viText": "Tôi có buổi luyện tập piano vào mỗi thứ Ba."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "put into practice",
+						"meaning": "To use an idea or skill in real life",
+						"viMeaning": "đưa vào thực hành",
+						"example": "I want to put what I learned into practice.",
+						"viExample": "Tôi muốn đưa những gì đã học vào thực hành."
+					},
+					{
+						"phrase": "daily practice",
+						"meaning": "Training that happens every day",
+						"viMeaning": "luyện tập hàng ngày",
+						"example": "Daily practice is important for learning a language.",
+						"viExample": "Luyện tập hàng ngày là quan trọng để học một ngôn ngữ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "confidence",
+		"pos": "noun",
+		"ipa": "/ˈkɒnfɪdəns/",
+		"cefrLevel": "A2",
+		"frequency": 2300,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "confident", "pos": "adjective" },
+			{ "form": "confidently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A feeling of being certain about your own abilities",
+				"viDef": "sự tự tin",
+				"synonyms": ["assurance", "self-belief"],
+				"antonyms": ["doubt", "uncertainty"],
+				"examples": [
+					{
+						"text": "He answered the questions with great confidence.",
+						"viText": "Anh ấy đã trả lời các câu hỏi với sự tự tin lớn."
+					},
+					{
+						"text": "The training helped to build my confidence.",
+						"viText": "Buổi đào tạo đã giúp xây dựng sự tự tin của tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "lack confidence",
+						"meaning": "To not feel certain about yourself",
+						"viMeaning": "thiếu tự tin",
+						"example": "Many people lack confidence when speaking in public.",
+						"viExample": "Nhiều người thiếu tự tin khi nói trước công chúng."
+					},
+					{
+						"phrase": "self-confidence",
+						"meaning": "Trust in one's own powers or judgment",
+						"viMeaning": "sự tự tin vào bản thân",
+						"example": "Positive thinking can improve your self-confidence.",
+						"viExample": "Suy nghĩ tích cực có thể cải thiện sự tự tin vào bản thân của bạn."
+					}
+				]
+			}
+		]
+	}
+]

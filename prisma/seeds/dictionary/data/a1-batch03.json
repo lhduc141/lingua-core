@@ -1,0 +1,1062 @@
+[
+	{
+		"headword": "year",
+		"pos": "noun",
+		"ipa": "/jɪə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 20,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "yearly",
+				"pos": "adjective"
+			},
+			{
+				"form": "yearlong",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a period of 365 or 366 days",
+				"viDef": "năm",
+				"synonyms": ["twelvemonth"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "This year is going very fast.",
+						"viText": "Năm nay trôi qua rất nhanh."
+					},
+					{
+						"text": "We travel to Japan every year.",
+						"viText": "Chúng tôi đi du lịch Nhật Bản mỗi năm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "last year",
+						"meaning": "the year before the current one",
+						"viMeaning": "năm ngoái",
+						"example": "I started learning English last year.",
+						"viExample": "Tôi bắt đầu học tiếng Anh từ năm ngoái."
+					},
+					{
+						"phrase": "leap year",
+						"meaning": "a year with 366 days",
+						"viMeaning": "năm nhuận",
+						"example": "February has 29 days in a leap year.",
+						"viExample": "Tháng Hai có 29 ngày trong một năm nhuận."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "week",
+		"pos": "noun",
+		"ipa": "/wiːk/",
+		"cefrLevel": "A1",
+		"frequency": 50,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "weekly",
+				"pos": "adjective"
+			},
+			{
+				"form": "weekday",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a period of seven consecutive days",
+				"viDef": "tuần",
+				"synonyms": ["seven days"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I will see you next week.",
+						"viText": "Tôi sẽ gặp bạn vào tuần tới."
+					},
+					{
+						"text": "She works five days a week.",
+						"viText": "Cô ấy làm việc năm ngày một tuần."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "next week",
+						"meaning": "the week after the current one",
+						"viMeaning": "tuần tới",
+						"example": "We have a meeting next week.",
+						"viExample": "Chúng tôi có một cuộc họp vào tuần tới."
+					},
+					{
+						"phrase": "weekend",
+						"meaning": "Saturday and Sunday",
+						"viMeaning": "cuối tuần",
+						"example": "I like to relax on the weekend.",
+						"viExample": "Tôi thích thư giãn vào cuối tuần."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "month",
+		"pos": "noun",
+		"ipa": "/mʌnθ/",
+		"cefrLevel": "A1",
+		"frequency": 60,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "monthly",
+				"pos": "adjective"
+			},
+			{
+				"form": "monthlong",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a period of about four weeks",
+				"viDef": "tháng",
+				"synonyms": ["thirty days"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "My birthday is next month.",
+						"viText": "Sinh nhật của tôi là vào tháng tới."
+					},
+					{
+						"text": "It took a month to finish.",
+						"viText": "Mất một tháng để hoàn thành."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "every month",
+						"meaning": "happening once a month",
+						"viMeaning": "mỗi tháng",
+						"example": "I pay my rent every month.",
+						"viExample": "Tôi trả tiền thuê nhà mỗi tháng."
+					},
+					{
+						"phrase": "last month",
+						"meaning": "the month before the current one",
+						"viMeaning": "tháng trước",
+						"example": "She moved here last month.",
+						"viExample": "Cô ấy đã chuyển đến đây vào tháng trước."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "morning",
+		"pos": "noun",
+		"ipa": "/ˈmɔːnɪŋ/",
+		"cefrLevel": "A1",
+		"frequency": 70,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "midmorning",
+				"pos": "noun"
+			},
+			{
+				"form": "morningtide",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the early part of the day before noon",
+				"viDef": "buổi sáng",
+				"synonyms": ["dawn", "sunrise"],
+				"antonyms": ["evening", "night"],
+				"examples": [
+					{
+						"text": "I wake up early in the morning.",
+						"viText": "Tôi thức dậy sớm vào buổi sáng."
+					},
+					{
+						"text": "Good morning to you all!",
+						"viText": "Chào buổi sáng tất cả các bạn!"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "early morning",
+						"meaning": "the first part of the morning",
+						"viMeaning": "sáng sớm",
+						"example": "The air is fresh in the early morning.",
+						"viExample": "Không khí rất trong lành vào sáng sớm."
+					},
+					{
+						"phrase": "morning routine",
+						"meaning": "habits done after waking up",
+						"viMeaning": "thói quen buổi sáng",
+						"example": "Reading is part of my morning routine.",
+						"viExample": "Đọc sách là một phần thói quen buổi sáng của tôi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "night",
+		"pos": "noun",
+		"ipa": "/naɪt/",
+		"cefrLevel": "A1",
+		"frequency": 65,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "nightly",
+				"pos": "adjective"
+			},
+			{
+				"form": "nighttime",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the period of darkness between sunset and sunrise",
+				"viDef": "ban đêm",
+				"synonyms": ["darkness", "evening"],
+				"antonyms": ["day", "daytime"],
+				"examples": [
+					{
+						"text": "The stars shine brightly at night.",
+						"viText": "Các vì sao tỏa sáng rực rỡ vào ban đêm."
+					},
+					{
+						"text": "He works during the night.",
+						"viText": "Anh ấy làm việc vào ban đêm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "late at night",
+						"meaning": "far into the dark hours",
+						"viMeaning": "đêm khuya",
+						"example": "I don't like driving late at night.",
+						"viExample": "Tôi không thích lái xe vào đêm khuya."
+					},
+					{
+						"phrase": "good night",
+						"meaning": "a farewell said in the evening",
+						"viMeaning": "chúc ngủ ngon",
+						"example": "She kissed her child and said good night.",
+						"viExample": "Cô ấy hôn con mình và chúc ngủ ngon."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "red",
+		"pos": "adjective",
+		"ipa": "/red/",
+		"cefrLevel": "A1",
+		"frequency": 240,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "redness",
+				"pos": "noun"
+			},
+			{
+				"form": "reddish",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "having the color of blood or fire",
+				"viDef": "màu đỏ",
+				"synonyms": ["crimson", "scarlet"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She bought a beautiful red dress.",
+						"viText": "Cô ấy đã mua một chiếc váy đỏ đẹp."
+					},
+					{
+						"text": "The traffic light turned red.",
+						"viText": "Đèn giao thông chuyển sang màu đỏ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "red blood",
+						"meaning": "the fluid in human bodies",
+						"viMeaning": "máu đỏ",
+						"example": "He saw some red blood on his hand.",
+						"viExample": "Anh ấy thấy một ít máu đỏ trên tay mình."
+					},
+					{
+						"phrase": "red wine",
+						"meaning": "wine made from dark grapes",
+						"viMeaning": "rượu vang đỏ",
+						"example": "I prefer red wine with steak.",
+						"viExample": "Tôi thích rượu vang đỏ với bít tết."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "blue",
+		"pos": "adjective",
+		"ipa": "/bluː/",
+		"cefrLevel": "A1",
+		"frequency": 250,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "blueness",
+				"pos": "noun"
+			},
+			{
+				"form": "bluish",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "of a color intermediate between green and violet",
+				"viDef": "màu xanh dương",
+				"synonyms": ["azure", "sapphire"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The sky is very blue today.",
+						"viText": "Bầu trời hôm nay rất xanh."
+					},
+					{
+						"text": "He has deep blue eyes.",
+						"viText": "Anh ấy có đôi mắt màu xanh thẳm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "dark blue",
+						"meaning": "a deep shade of blue",
+						"viMeaning": "xanh đậm",
+						"example": "She wore a dark blue suit.",
+						"viExample": "Cô ấy mặc một bộ vest màu xanh đậm."
+					},
+					{
+						"phrase": "blue sky",
+						"meaning": "clear daytime sky without clouds",
+						"viMeaning": "bầu trời xanh",
+						"example": "I love looking at the blue sky.",
+						"viExample": "Tôi thích ngắm nhìn bầu trời xanh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "white",
+		"pos": "adjective",
+		"ipa": "/waɪt/",
+		"cefrLevel": "A1",
+		"frequency": 190,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "whiteness",
+				"pos": "noun"
+			},
+			{
+				"form": "whitish",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "of the color of milk or fresh snow",
+				"viDef": "màu trắng",
+				"synonyms": ["snowy", "pale"],
+				"antonyms": ["black", "dark"],
+				"examples": [
+					{
+						"text": "We painted the walls white.",
+						"viText": "Chúng tôi đã sơn những bức tường màu trắng."
+					},
+					{
+						"text": "She wore a plain white shirt.",
+						"viText": "Cô ấy mặc một chiếc áo sơ mi trắng trơn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "white snow",
+						"meaning": "frozen water crystals that are white",
+						"viMeaning": "tuyết trắng",
+						"example": "The ground was covered in white snow.",
+						"viExample": "Mặt đất được bao phủ bởi tuyết trắng."
+					},
+					{
+						"phrase": "white paper",
+						"meaning": "a blank sheet for writing",
+						"viMeaning": "giấy trắng",
+						"example": "I need a piece of white paper.",
+						"viExample": "Tôi cần một tờ giấy trắng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "black",
+		"pos": "adjective",
+		"ipa": "/blæk/",
+		"cefrLevel": "A1",
+		"frequency": 200,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "blackness",
+				"pos": "noun"
+			},
+			{
+				"form": "blackish",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "of the very darkest color",
+				"viDef": "màu đen",
+				"synonyms": ["dark", "ebony"],
+				"antonyms": ["white", "bright"],
+				"examples": [
+					{
+						"text": "He drives a shiny black car.",
+						"viText": "Anh ấy lái một chiếc xe hơi màu đen bóng."
+					},
+					{
+						"text": "The cat has soft black fur.",
+						"viText": "Con mèo có bộ lông đen mềm mại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "black hair",
+						"meaning": "dark colored hair",
+						"viMeaning": "tóc đen",
+						"example": "She has long black hair.",
+						"viExample": "Cô ấy có mái tóc đen dài."
+					},
+					{
+						"phrase": "black coffee",
+						"meaning": "coffee without any milk or cream",
+						"viMeaning": "cà phê đen",
+						"example": "I drink black coffee every morning.",
+						"viExample": "Tôi uống cà phê đen mỗi sáng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "new",
+		"pos": "adjective",
+		"ipa": "/njuː/",
+		"cefrLevel": "A1",
+		"frequency": 40,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "newness",
+				"pos": "noun"
+			},
+			{
+				"form": "newly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "produced, introduced, or discovered recently",
+				"viDef": "mới",
+				"synonyms": ["fresh", "modern"],
+				"antonyms": ["old", "ancient"],
+				"examples": [
+					{
+						"text": "I got a new phone yesterday.",
+						"viText": "Tôi đã có một chiếc điện thoại mới hôm qua."
+					},
+					{
+						"text": "This is a new song.",
+						"viText": "Đây là một bài hát mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "brand new",
+						"meaning": "completely new and unused",
+						"viMeaning": "mới toanh",
+						"example": "He bought a brand new computer.",
+						"viExample": "Anh ấy đã mua một máy tính mới toanh."
+					},
+					{
+						"phrase": "new year",
+						"meaning": "the beginning of the calendar year",
+						"viMeaning": "năm mới",
+						"example": "Happy new year to everyone!",
+						"viExample": "Chúc mừng năm mới mọi người!"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "old",
+		"pos": "adjective",
+		"ipa": "/əʊld/",
+		"cefrLevel": "A1",
+		"frequency": 80,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "oldness",
+				"pos": "noun"
+			},
+			{
+				"form": "oldish",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "having lived or existed for a long time",
+				"viDef": "cũ, già",
+				"synonyms": ["aged", "ancient"],
+				"antonyms": ["new", "young"],
+				"examples": [
+					{
+						"text": "This house is very old.",
+						"viText": "Ngôi nhà này rất cũ."
+					},
+					{
+						"text": "My grandfather is an old man.",
+						"viText": "Ông tôi là một ông lão."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "old friend",
+						"meaning": "a friend known for a long time",
+						"viMeaning": "bạn cũ",
+						"example": "I met an old friend today.",
+						"viExample": "Hôm nay tôi đã gặp một người bạn cũ."
+					},
+					{
+						"phrase": "get old",
+						"meaning": "become older in age",
+						"viMeaning": "già đi",
+						"example": "We all get old eventually.",
+						"viExample": "Cuối cùng tất cả chúng ta đều già đi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "hot",
+		"pos": "adjective",
+		"ipa": "/hɒt/",
+		"cefrLevel": "A1",
+		"frequency": 280,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "hotness",
+				"pos": "noun"
+			},
+			{
+				"form": "hotly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "having a high degree of heat or temperature",
+				"viDef": "nóng",
+				"synonyms": ["warm", "boiling"],
+				"antonyms": ["cold", "freezing"],
+				"examples": [
+					{
+						"text": "The weather is too hot today.",
+						"viText": "Thời tiết hôm nay quá nóng."
+					},
+					{
+						"text": "Be careful, the soup is hot.",
+						"viText": "Cẩn thận đấy, súp còn nóng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "hot water",
+						"meaning": "water at a high temperature",
+						"viMeaning": "nước nóng",
+						"example": "I need hot water for tea.",
+						"viExample": "Tôi cần nước nóng để pha trà."
+					},
+					{
+						"phrase": "hot weather",
+						"meaning": "high temperature outdoors",
+						"viMeaning": "thời tiết nóng",
+						"example": "I don't like running in hot weather.",
+						"viExample": "Tôi không thích chạy trong thời tiết nóng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "cold",
+		"pos": "adjective",
+		"ipa": "/kəʊld/",
+		"cefrLevel": "A1",
+		"frequency": 290,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "coldness",
+				"pos": "noun"
+			},
+			{
+				"form": "coldly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "of or at a low or relatively low temperature",
+				"viDef": "lạnh",
+				"synonyms": ["chilly", "freezing"],
+				"antonyms": ["hot", "warm"],
+				"examples": [
+					{
+						"text": "It is very cold in winter.",
+						"viText": "Mùa đông rất lạnh."
+					},
+					{
+						"text": "I need a glass of cold water.",
+						"viText": "Tôi cần một cốc nước lạnh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "cold weather",
+						"meaning": "low temperature outdoors",
+						"viMeaning": "thời tiết lạnh",
+						"example": "Wear a jacket in cold weather.",
+						"viExample": "Mặc áo khoác trong thời tiết lạnh."
+					},
+					{
+						"phrase": "catch a cold",
+						"meaning": "become ill with a common cold",
+						"viMeaning": "bị cảm lạnh",
+						"example": "If you go out, you will catch a cold.",
+						"viExample": "Nếu bạn ra ngoài, bạn sẽ bị cảm lạnh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "fast",
+		"pos": "adjective",
+		"ipa": "/fɑːst/",
+		"cefrLevel": "A1",
+		"frequency": 330,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "fastness",
+				"pos": "noun"
+			},
+			{
+				"form": "fastback",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "moving or capable of moving at high speed",
+				"viDef": "nhanh",
+				"synonyms": ["quick", "rapid"],
+				"antonyms": ["slow", "delayed"],
+				"examples": [
+					{
+						"text": "Cheetahs are very fast animals.",
+						"viText": "Báo đốm là động vật rất nhanh."
+					},
+					{
+						"text": "He drives too fast.",
+						"viText": "Anh ấy lái xe quá nhanh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fast food",
+						"meaning": "food prepared and served quickly",
+						"viMeaning": "thức ăn nhanh",
+						"example": "Eating too much fast food is bad.",
+						"viExample": "Ăn quá nhiều thức ăn nhanh là không tốt."
+					},
+					{
+						"phrase": "fast car",
+						"meaning": "a vehicle that travels quickly",
+						"viMeaning": "xe chạy nhanh",
+						"example": "He dreams of buying a fast car.",
+						"viExample": "Anh ấy mơ ước mua được một chiếc xe chạy nhanh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "slow",
+		"pos": "adjective",
+		"ipa": "/sləʊ/",
+		"cefrLevel": "A1",
+		"frequency": 340,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "slowness",
+				"pos": "noun"
+			},
+			{
+				"form": "slowly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "moving or operating at a low speed",
+				"viDef": "chậm",
+				"synonyms": ["unhurried", "gradual"],
+				"antonyms": ["fast", "quick"],
+				"examples": [
+					{
+						"text": "The turtle is a slow animal.",
+						"viText": "Rùa là một động vật chậm chạp."
+					},
+					{
+						"text": "Please speak a little slower.",
+						"viText": "Làm ơn nói chậm lại một chút."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "slow motion",
+						"meaning": "moving slower than normal",
+						"viMeaning": "chuyển động chậm",
+						"example": "The replay was shown in slow motion.",
+						"viExample": "Đoạn phát lại được chiếu ở chế độ chuyển động chậm."
+					},
+					{
+						"phrase": "slow down",
+						"meaning": "reduce the speed of moving",
+						"viMeaning": "đi chậm lại",
+						"example": "You need to slow down near the school.",
+						"viExample": "Bạn cần đi chậm lại gần trường học."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "open",
+		"pos": "verb",
+		"ipa": "/ˈəʊpən/",
+		"cefrLevel": "A1",
+		"frequency": 160,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "opener",
+				"pos": "noun"
+			},
+			{
+				"form": "openness",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "move so as to leave a space allowing access",
+				"viDef": "mở",
+				"synonyms": ["unlock", "unclose"],
+				"antonyms": ["close", "shut"],
+				"examples": [
+					{
+						"text": "Please open the window.",
+						"viText": "Làm ơn hãy mở cửa sổ."
+					},
+					{
+						"text": "The store will open at eight.",
+						"viText": "Cửa hàng sẽ mở cửa lúc tám giờ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "open the door",
+						"meaning": "move the door to allow entry",
+						"viMeaning": "mở cửa",
+						"example": "Can you open the door for me?",
+						"viExample": "Bạn có thể mở cửa giúp tôi không?"
+					},
+					{
+						"phrase": "open a book",
+						"meaning": "start reading a book",
+						"viMeaning": "mở sách ra",
+						"example": "Open a book and turn to page ten.",
+						"viExample": "Mở sách ra và lật sang trang mười."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "close",
+		"pos": "verb",
+		"ipa": "/kləʊz/",
+		"cefrLevel": "A1",
+		"frequency": 170,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "closure",
+				"pos": "noun"
+			},
+			{
+				"form": "closable",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "move so as to cover an opening",
+				"viDef": "đóng",
+				"synonyms": ["shut", "lock"],
+				"antonyms": ["open", "unbar"],
+				"examples": [
+					{
+						"text": "Don't forget to close the door.",
+						"viText": "Đừng quên đóng cửa."
+					},
+					{
+						"text": "The shop will close soon.",
+						"viText": "Cửa hàng sẽ sớm đóng cửa."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "close the window",
+						"meaning": "shut the window pane",
+						"viMeaning": "đóng cửa sổ",
+						"example": "It is cold, please close the window.",
+						"viExample": "Trời lạnh, làm ơn hãy đóng cửa sổ lại."
+					},
+					{
+						"phrase": "close your eyes",
+						"meaning": "shut your eyelids",
+						"viMeaning": "nhắm mắt lại",
+						"example": "Close your eyes and go to sleep.",
+						"viExample": "Nhắm mắt lại và đi ngủ đi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "start",
+		"pos": "verb",
+		"ipa": "/stɑːt/",
+		"cefrLevel": "A1",
+		"frequency": 130,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "starter",
+				"pos": "noun"
+			},
+			{
+				"form": "startup",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "begin to do or be something",
+				"viDef": "bắt đầu",
+				"synonyms": ["begin", "commence"],
+				"antonyms": ["finish", "end"],
+				"examples": [
+					{
+						"text": "The movie will start at nine.",
+						"viText": "Bộ phim sẽ bắt đầu lúc chín giờ."
+					},
+					{
+						"text": "I need to start my homework.",
+						"viText": "Tôi cần bắt đầu làm bài tập về nhà."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "start a fire",
+						"meaning": "ignite wood or fuel",
+						"viMeaning": "nhóm lửa",
+						"example": "We used matches to start a fire.",
+						"viExample": "Chúng tôi đã dùng diêm để nhóm lửa."
+					},
+					{
+						"phrase": "start over",
+						"meaning": "begin again from the beginning",
+						"viMeaning": "làm lại từ đầu",
+						"example": "I made a mistake, I have to start over.",
+						"viExample": "Tôi đã mắc sai lầm, tôi phải làm lại từ đầu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "stop",
+		"pos": "verb",
+		"ipa": "/stɒp/",
+		"cefrLevel": "A1",
+		"frequency": 140,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "stopper",
+				"pos": "noun"
+			},
+			{
+				"form": "stoppage",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "cause an action or process to come to an end",
+				"viDef": "dừng lại",
+				"synonyms": ["halt", "finish"],
+				"antonyms": ["start", "begin"],
+				"examples": [
+					{
+						"text": "Please stop talking loudly.",
+						"viText": "Làm ơn đừng nói chuyện lớn tiếng nữa."
+					},
+					{
+						"text": "The bus will stop here.",
+						"viText": "Xe buýt sẽ dừng ở đây."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "bus stop",
+						"meaning": "a place where buses stop for passengers",
+						"viMeaning": "trạm xe buýt",
+						"example": "Wait for me at the bus stop.",
+						"viExample": "Hãy đợi tôi ở trạm xe buýt."
+					},
+					{
+						"phrase": "stop crying",
+						"meaning": "end the act of crying",
+						"viMeaning": "nín khóc",
+						"example": "The baby finally stopped crying.",
+						"viExample": "Đứa bé cuối cùng cũng đã nín khóc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "help",
+		"pos": "verb",
+		"ipa": "/help/",
+		"cefrLevel": "A1",
+		"frequency": 125,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "helper",
+				"pos": "noun"
+			},
+			{
+				"form": "helpful",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "make it easier for someone to do something",
+				"viDef": "giúp đỡ",
+				"synonyms": ["assist", "aid"],
+				"antonyms": ["hinder", "hurt"],
+				"examples": [
+					{
+						"text": "Can you help me with this?",
+						"viText": "Bạn có thể giúp tôi việc này không?"
+					},
+					{
+						"text": "She likes to help others.",
+						"viText": "Cô ấy thích giúp đỡ người khác."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ask for help",
+						"meaning": "request assistance from someone",
+						"viMeaning": "xin giúp đỡ",
+						"example": "Don't be afraid to ask for help.",
+						"viExample": "Đừng ngại xin giúp đỡ."
+					},
+					{
+						"phrase": "help out",
+						"meaning": "assist someone with a task",
+						"viMeaning": "giúp một tay",
+						"example": "I can help out in the kitchen.",
+						"viExample": "Tôi có thể giúp một tay trong bếp."
+					}
+				]
+			}
+		]
+	}
+]

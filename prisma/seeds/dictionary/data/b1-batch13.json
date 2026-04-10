@@ -1,0 +1,922 @@
+[
+	{
+		"headword": "habit",
+		"pos": "noun",
+		"ipa": "/ˈhæbɪt/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "habitual", "pos": "adjective" },
+			{ "form": "habitually", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that you do often and almost without thinking",
+				"viDef": "thói quen",
+				"synonyms": ["custom", "practice", "routine"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Reading before bed is a very good habit.",
+						"viText": "Đọc sách trước khi ngủ là một thói quen rất tốt."
+					},
+					{
+						"text": "He has a habit of biting his nails when nervous.",
+						"viText": "Anh ấy có thói quen cắn móng tay khi lo lắng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "break a habit",
+						"meaning": "To stop doing something that is a habit",
+						"viMeaning": "từ bỏ thói quen",
+						"example": "It is hard to break a bad habit.",
+						"viExample": "Rất khó để từ bỏ một thói quen xấu."
+					},
+					{
+						"phrase": "healthy habit",
+						"meaning": "A regular action that is good for you",
+						"viMeaning": "thói quen lành mạnh",
+						"example": "Drinking water is a simple healthy habit.",
+						"viExample": "Uống nước là một thói quen lành mạnh đơn giản."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "routine",
+		"pos": "noun",
+		"ipa": "/ruːˈtiːn/",
+		"cefrLevel": "B1",
+		"frequency": 3150,
+		"isCommon": false,
+		"wordForms": [{ "form": "routinely", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The usual series of things that you do at specific times",
+				"viDef": "lịch trình, thói quen hằng ngày",
+				"synonyms": ["schedule", "procedure", "pattern"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Exercise is now part of my daily routine.",
+						"viText": "Tập thể dục hiện là một phần trong lịch trình hằng ngày của tôi."
+					},
+					{
+						"text": "The job was just a boring routine for him.",
+						"viText": "Công việc đó đối với anh ta chỉ là một chuỗi thói quen nhàm chán."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "daily routine",
+						"meaning": "The things you do every day",
+						"viMeaning": "lịch trình hằng ngày",
+						"example": "What is your daily routine like?",
+						"viExample": "Lịch trình hằng ngày của bạn như thế nào?"
+					},
+					{
+						"phrase": "morning routine",
+						"meaning": "A set of actions performed every morning",
+						"viMeaning": "thói quen buổi sáng",
+						"example": "A morning routine helps me start the day well.",
+						"viExample": "Một thói quen buổi sáng giúp tôi bắt đầu ngày mới tốt đẹp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "lifestyle",
+		"pos": "noun",
+		"ipa": "/ˈlaɪfstaɪl/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The way in which a person or group lives",
+				"viDef": "lối sống",
+				"synonyms": ["way of life", "existence"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She wants to change her lifestyle and eat better.",
+						"viText": "Cô ấy muốn thay đổi lối sống và ăn uống tốt hơn."
+					},
+					{
+						"text": "An active lifestyle can prevent many health problems.",
+						"viText": "Một lối sống năng động có thể ngăn ngừa nhiều vấn đề sức khỏe."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "healthy lifestyle",
+						"meaning": "Living in a way that is good for health",
+						"viMeaning": "lối sống lành mạnh",
+						"example": "Regular exercise is part of a healthy lifestyle.",
+						"viExample": "Tập thể dục thường xuyên là một phần của lối sống lành mạnh."
+					},
+					{
+						"phrase": "sedentary lifestyle",
+						"meaning": "A way of life with little physical activity",
+						"viMeaning": "lối sống ít vận động",
+						"example": "A sedentary lifestyle is bad for your heart.",
+						"viExample": "Lối sống ít vận động có hại cho tim của bạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "nutrition",
+		"pos": "noun",
+		"ipa": "/njuˈtrɪʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "nutritional", "pos": "adjective" },
+			{ "form": "nutritious", "pos": "adjective" },
+			{ "form": "nutritionist", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The process of getting the right food for health",
+				"viDef": "dinh dưỡng",
+				"synonyms": ["diet", "nourishment", "food"],
+				"antonyms": ["malnutrition"],
+				"examples": [
+					{
+						"text": "Good nutrition is essential for growing children.",
+						"viText": "Dinh dưỡng tốt là thiết yếu cho trẻ đang lớn."
+					},
+					{
+						"text": "The doctor gave me advice on clinical nutrition.",
+						"viText": "Bác sĩ đã cho tôi lời khuyên về dinh dưỡng lâm sàng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "poor nutrition",
+						"meaning": "Not getting enough healthy food",
+						"viMeaning": "dinh dưỡng kém",
+						"example": "Poor nutrition can lead to many diseases.",
+						"viExample": "Dinh dưỡng kém có thể dẫn đến nhiều bệnh tật."
+					},
+					{
+						"phrase": "nutritional value",
+						"meaning": "How healthy a piece of food is",
+						"viMeaning": "giá trị dinh dưỡng",
+						"example": "Apples have a high nutritional value.",
+						"viExample": "Táo có giá trị dinh dưỡng cao."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "fitness",
+		"pos": "noun",
+		"ipa": "/ˈfɪtnəs/",
+		"cefrLevel": "B1",
+		"frequency": 3250,
+		"isCommon": false,
+		"wordForms": [{ "form": "fit", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The state of being physically healthy and strong",
+				"viDef": "sự sung sức, thể hình",
+				"synonyms": ["health", "well-being", "vigor"],
+				"antonyms": ["weakness"],
+				"examples": [
+					{
+						"text": "Swimming is an excellent way to improve your fitness.",
+						"viText": "Bơi lội là một cách tuyệt vời để cải thiện thể lực của bạn."
+					},
+					{
+						"text": "He is a fitness instructor at the local gym.",
+						"viText": "Anh ấy là một huấn luyện viên thể hình tại phòng gym địa phương."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "physical fitness",
+						"meaning": "The health and strength of the body",
+						"viMeaning": "thể lực",
+						"example": "Physical fitness is important for everyone.",
+						"viExample": "Thể lực quan trọng đối với tất cả mọi người."
+					},
+					{
+						"phrase": "fitness level",
+						"meaning": "How fit a person currently is",
+						"viMeaning": "mức độ thể lực",
+						"example": "The exercises depend on your fitness level.",
+						"viExample": "Các bài tập phụ thuộc vào mức độ thể lực của bạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "mental",
+		"pos": "adjective",
+		"ipa": "/ˈmentl/",
+		"cefrLevel": "B1",
+		"frequency": 3040,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "mentally", "pos": "adverb" },
+			{ "form": "mentality", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the mind and thinking",
+				"viDef": "thuộc tâm trí",
+				"synonyms": ["intellectual", "psychological"],
+				"antonyms": ["physical"],
+				"examples": [
+					{
+						"text": "Puzzles are good for your mental health.",
+						"viText": "Các câu đố tốt cho sức khỏe tâm trí của bạn."
+					},
+					{ "text": "She has great mental strength.", "viText": "Cô ấy có sức mạnh tinh thần tuyệt vời." }
+				],
+				"collocations": [
+					{
+						"phrase": "mental health",
+						"meaning": "The condition of a person’s mind",
+						"viMeaning": "sức khỏe tâm thần",
+						"example": "We need to talk more about mental health.",
+						"viExample": "Chúng ta cần nói nhiều hơn về sức khỏe tâm thần."
+					},
+					{
+						"phrase": "mental illness",
+						"meaning": "A disease that affects the mind",
+						"viMeaning": "bệnh tâm thần",
+						"example": "He is recovering from a serious mental illness.",
+						"viExample": "Anh ấy đang hồi phục sau một căn bệnh tâm thần nghiêm trọng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "emotional",
+		"pos": "adjective",
+		"ipa": "/ɪˈməʊʃənl/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "emotion", "pos": "noun" },
+			{ "form": "emotionally", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to strong feelings",
+				"viDef": "thuộc cảm xúc",
+				"synonyms": ["feeling", "passionate"],
+				"antonyms": ["unemotional", "cold"],
+				"examples": [
+					{
+						"text": "The movie was very emotional and made me cry.",
+						"viText": "Bộ phim rất cảm động và đã làm tôi khóc."
+					},
+					{
+						"text": "He needs emotional support during this difficult time.",
+						"viText": "Anh ấy cần sự hỗ trợ về mặt cảm xúc trong thời gian khó khăn này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "emotional intelligence",
+						"meaning": "Ability to understand your own and others' feelings",
+						"viMeaning": "trí tuệ cảm xúc",
+						"example": "Emotional intelligence is key for leaders.",
+						"viExample": "Trí tuệ cảm xúc là chìa khóa cho các nhà lãnh đạo."
+					},
+					{
+						"phrase": "emotional response",
+						"meaning": "A reaction based on feelings",
+						"viMeaning": "phản ứng cảm xúc",
+						"example": "Her emotional response was very strong.",
+						"viExample": "Phản ứng cảm xúc của cô ấy rất mạnh mẽ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "relationship",
+		"pos": "noun",
+		"ipa": "/rɪˈleɪʃnʃɪp/",
+		"cefrLevel": "B1",
+		"frequency": 3015,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "relate", "pos": "verb" },
+			{ "form": "relative", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The way in which people or things are connected",
+				"viDef": "mối quan hệ",
+				"synonyms": ["connection", "bond", "link"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "They have a very close relationship with their parents.",
+						"viText": "Họ có mối quan hệ rất gần gũi với bố mẹ mình."
+					},
+					{
+						"text": "I’m in a stable relationship right now.",
+						"viText": "Tôi đang trong một mối quan hệ ổn định vào lúc này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "build a relationship",
+						"meaning": "To develop a connection over time",
+						"viMeaning": "xây dựng mối quan hệ",
+						"example": "It takes time to build a strong relationship.",
+						"viExample": "Mất thời gian để xây dựng một mối quan hệ bền vững."
+					},
+					{
+						"phrase": "working relationship",
+						"meaning": "The way colleagues interact at work",
+						"viMeaning": "mối quan hệ công việc",
+						"example": "We have a good working relationship.",
+						"viExample": "Chúng tôi có một mối quan hệ công việc tốt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "social",
+		"pos": "adjective",
+		"ipa": "/ˈsəʊʃl/",
+		"cefrLevel": "B1",
+		"frequency": 3025,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "socially", "pos": "adverb" },
+			{ "form": "society", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to society or to meeting other people",
+				"viDef": "thuộc xã hội",
+				"synonyms": ["communal", "public", "friendly"],
+				"antonyms": ["antisocial", "private"],
+				"examples": [
+					{
+						"text": "He has a very active social life.",
+						"viText": "Anh ấy có một đời sống xã hội rất năng động."
+					},
+					{
+						"text": "Social media is very popular among teenagers.",
+						"viText": "Mạng xã hội rất phổ biến trong giới thanh thiếu niên."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "social skills",
+						"meaning": "Abilities to interact with others well",
+						"viMeaning": "kỹ năng xã hội",
+						"example": "Children develop social skills at school.",
+						"viExample": "Trẻ em phát triển các kỹ năng xã hội tại trường học."
+					},
+					{
+						"phrase": "social media",
+						"meaning": "Websites used to communicate with others",
+						"viMeaning": "mạng xã hội",
+						"example": "Do you use social media often?",
+						"viExample": "Bạn có thường xuyên dùng mạng xã hội không?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "personal",
+		"pos": "adjective",
+		"ipa": "/ˈpɜːsənl/",
+		"cefrLevel": "B1",
+		"frequency": 3010,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "personally", "pos": "adverb" },
+			{ "form": "personality", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to an individual person's private life",
+				"viDef": "cá nhân, riêng tư",
+				"synonyms": ["private", "individual", "own"],
+				"antonyms": ["public", "general"],
+				"examples": [
+					{
+						"text": "I can't talk about my personal life at work.",
+						"viText": "Tôi không thể nói về đời tư cá nhân của mình tại nơi làm việc."
+					},
+					{
+						"text": "He gave me his personal opinion on the matter.",
+						"viText": "Anh ấy đã cho tôi ý kiến cá nhân của anh ấy về vấn đề này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "personal growth",
+						"meaning": "Developing as an individual",
+						"viMeaning": "sự phát triển cá nhân",
+						"example": "Reading helps my personal growth.",
+						"viExample": "Đọc sách giúp ích cho sự phát triển cá nhân của tôi."
+					},
+					{
+						"phrase": "personal information",
+						"meaning": "Details about a specific person",
+						"viMeaning": "thông tin cá nhân",
+						"example": "Never share your personal information online.",
+						"viExample": "Đừng bao giờ chia sẻ thông tin cá nhân của bạn trên mạng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "growth",
+		"pos": "noun",
+		"ipa": "/ɡrəʊθ/",
+		"cefrLevel": "B1",
+		"frequency": 3035,
+		"isCommon": false,
+		"wordForms": [{ "form": "grow", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The process of increasing in size or importance",
+				"viDef": "sự tăng trưởng, phát triển",
+				"synonyms": ["increase", "development", "expansion"],
+				"antonyms": ["decline", "decrease"],
+				"examples": [
+					{
+						"text": "The company has seen rapid growth this year.",
+						"viText": "Công ty đã chứng kiến sự tăng trưởng nhanh chóng trong năm nay."
+					},
+					{
+						"text": "Exercise is important for the growth of muscles.",
+						"viText": "Tập thể dục rất quan trọng cho sự phát triển của cơ bắp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "economic growth",
+						"meaning": "Increase in a country's wealth",
+						"viMeaning": "tăng trưởng kinh tế",
+						"example": "Tourism leads to economic growth.",
+						"viExample": "Du lịch dẫn đến tăng trưởng kinh tế."
+					},
+					{
+						"phrase": "rapid growth",
+						"meaning": "Increasing very quickly",
+						"viMeaning": "tăng trưởng nhanh chóng",
+						"example": "The city experienced rapid growth recently.",
+						"viExample": "Thành phố đã trải qua sự tăng trưởng nhanh chóng gần đây."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "development",
+		"pos": "noun",
+		"ipa": "/dɪˈveləpmənt/",
+		"cefrLevel": "B1",
+		"frequency": 3012,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "develop", "pos": "verb" },
+			{ "form": "developer", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The process of becoming more advanced or mature",
+				"viDef": "sự phát triển",
+				"synonyms": ["growth", "evolution", "improvement"],
+				"antonyms": ["deterioration"],
+				"examples": [
+					{
+						"text": "Children's development is monitored by doctors.",
+						"viText": "Sự phát triển của trẻ em được các bác sĩ theo dõi."
+					},
+					{
+						"text": "He is in charge of software development.",
+						"viText": "Anh ấy chịu trách nhiệm phát triển phần mềm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sustainable development",
+						"meaning": "Growth that protects the environment",
+						"viMeaning": "phát triển bền vững",
+						"example": "We need to focus on sustainable development.",
+						"viExample": "Chúng ta cần tập trung vào phát triển bền vững."
+					},
+					{
+						"phrase": "professional development",
+						"meaning": "Improving skills for your job",
+						"viMeaning": "phát triển chuyên môn",
+						"example": "The workshop was great for professional development.",
+						"viExample": "Hội thảo rất tuyệt vời cho việc phát triển chuyên môn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "learning",
+		"pos": "noun",
+		"ipa": "/ˈlɜːnɪŋ/",
+		"cefrLevel": "B1",
+		"frequency": 3055,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "learn", "pos": "verb" },
+			{ "form": "learner", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The process of getting knowledge or skills",
+				"viDef": "việc học tập",
+				"synonyms": ["education", "study", "training"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Online learning has become very popular.",
+						"viText": "Việc học trực tuyến đã trở nên rất phổ biến."
+					},
+					{
+						"text": "Lifelong learning is important for everyone.",
+						"viText": "Học tập suốt đời là quan trọng đối với tất cả mọi người."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "language learning",
+						"meaning": "The process of learning a new tongue",
+						"viMeaning": "học ngôn ngữ",
+						"example": "Language learning requires daily practice.",
+						"viExample": "Học ngôn ngữ đòi hỏi phải luyện tập hằng ngày."
+					},
+					{
+						"phrase": "distance learning",
+						"meaning": "Studying from home using the internet",
+						"viMeaning": "học từ xa",
+						"example": "He completed his degree via distance learning.",
+						"viExample": "Anh ấy đã hoàn thành bằng cấp thông qua hình thức học từ xa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "memory",
+		"pos": "noun",
+		"ipa": "/ˈmeməri/",
+		"cefrLevel": "B1",
+		"frequency": 3045,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "memorize", "pos": "verb" },
+			{ "form": "memorable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The ability to remember things",
+				"viDef": "trí nhớ, kỷ niệm",
+				"synonyms": ["recall", "remembrance"],
+				"antonyms": ["forgetfulness"],
+				"examples": [
+					{
+						"text": "He has a very good memory for names.",
+						"viText": "Anh ấy có trí nhớ rất tốt về các cái tên."
+					},
+					{
+						"text": "I have fond memories of my childhood.",
+						"viText": "Tôi có những kỷ niệm đẹp về thời thơ ấu của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "short-term memory",
+						"meaning": "Memory of things that happened recently",
+						"viMeaning": "trí nhớ ngắn hạn",
+						"example": "My short-term memory is quite poor.",
+						"viExample": "Trí nhớ ngắn hạn của tôi khá tệ."
+					},
+					{
+						"phrase": "lost his memory",
+						"meaning": "Unable to remember the past",
+						"viMeaning": "mất trí nhớ",
+						"example": "He lost his memory after the accident.",
+						"viExample": "Anh ấy đã bị mất trí nhớ sau vụ tai nạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "focus",
+		"pos": "noun",
+		"ipa": "/ˈfəʊkəs/",
+		"cefrLevel": "B1",
+		"frequency": 3120,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "focus", "pos": "verb" },
+			{ "form": "focused", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The main interest or center of attention",
+				"viDef": "sự tập trung, tiêu điểm",
+				"synonyms": ["concentration", "center", "priority"],
+				"antonyms": ["distraction"],
+				"examples": [
+					{
+						"text": "The focus of the meeting was the new budget.",
+						"viText": "Trọng tâm của cuộc họp là ngân sách mới."
+					},
+					{
+						"text": "I need to keep my focus on my studies.",
+						"viText": "Tôi cần giữ sự tập trung vào việc học của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "main focus",
+						"meaning": "The primary thing of interest",
+						"viMeaning": "trọng tâm chính",
+						"example": "Our main focus is customer satisfaction.",
+						"viExample": "Trọng tâm chính của chúng tôi là sự hài lòng của khách hàng."
+					},
+					{
+						"phrase": "lose focus",
+						"meaning": "To stop concentrating on something",
+						"viMeaning": "mất tập trung",
+						"example": "It's easy to lose focus when you are tired.",
+						"viExample": "Rất dễ bị mất tập trung khi bạn mệt mỏi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "goal",
+		"pos": "noun",
+		"ipa": "/ɡəʊl/",
+		"cefrLevel": "B1",
+		"frequency": 3022,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that you hope to achieve",
+				"viDef": "mục tiêu",
+				"synonyms": ["aim", "objective", "target"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "My goal is to run a marathon next year.",
+						"viText": "Mục tiêu của tôi là chạy marathon vào năm tới."
+					},
+					{
+						"text": "Setting goals helps you stay motivated.",
+						"viText": "Thiết lập mục tiêu giúp bạn giữ được động lực."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "achieve a goal",
+						"meaning": "To succeed in doing what you wanted",
+						"viMeaning": "đạt được mục tiêu",
+						"example": "She worked hard to achieve her goal.",
+						"viExample": "Cô ấy đã làm việc chăm chỉ để đạt được mục tiêu của mình."
+					},
+					{
+						"phrase": "long-term goal",
+						"meaning": "A goal for the distant future",
+						"viMeaning": "mục tiêu dài hạn",
+						"example": "Buying a house is my long-term goal.",
+						"viExample": "Mua một ngôi nhà là mục tiêu dài hạn của tôi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "productivity",
+		"pos": "noun",
+		"ipa": "/ˌprɒdʌkˈtɪvəti/",
+		"cefrLevel": "B1",
+		"frequency": 4200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "productive", "pos": "adjective" },
+			{ "form": "productively", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The rate at which a worker or company produces goods",
+				"viDef": "năng suất",
+				"synonyms": ["efficiency", "output"],
+				"antonyms": ["laziness", "inefficiency"],
+				"examples": [
+					{
+						"text": "New technology can increase office productivity.",
+						"viText": "Công nghệ mới có thể làm tăng năng suất văn phòng."
+					},
+					{
+						"text": "The manager is looking for ways to boost productivity.",
+						"viText": "Người quản lý đang tìm cách để thúc đẩy năng suất."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "increase productivity",
+						"meaning": "To produce more in the same time",
+						"viMeaning": "tăng năng suất",
+						"example": "Working together can increase productivity.",
+						"viExample": "Làm việc cùng nhau có thể tăng năng suất."
+					},
+					{
+						"phrase": "low productivity",
+						"meaning": "Not producing very much",
+						"viMeaning": "năng suất thấp",
+						"example": "Poor equipment leads to low productivity.",
+						"viExample": "Thiết bị kém dẫn đến năng suất thấp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "wellbeing",
+		"pos": "noun",
+		"ipa": "/ˌwelˈbiːɪŋ/",
+		"cefrLevel": "B1",
+		"frequency": 4500,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The state of being comfortable, healthy, or happy",
+				"viDef": "sự an lạc, tình trạng hạnh phúc",
+				"synonyms": ["welfare", "health", "comfort"],
+				"antonyms": ["misery", "illness"],
+				"examples": [
+					{
+						"text": "Physical activity is good for your emotional wellbeing.",
+						"viText": "Hoạt động thể chất tốt cho sự an lạc về mặt cảm xúc của bạn."
+					},
+					{
+						"text": "The government cares about the wellbeing of citizens.",
+						"viText": "Chính phủ quan tâm đến sự an lạc của công dân."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "overall wellbeing",
+						"meaning": "Total state of health and happiness",
+						"viMeaning": "sự an lạc toàn diện",
+						"example": "A balanced diet improves overall wellbeing.",
+						"viExample": "Chế độ ăn cân bằng giúp cải thiện sự an lạc toàn diện."
+					},
+					{
+						"phrase": "economic wellbeing",
+						"meaning": "Having enough money to live comfortably",
+						"viMeaning": "sự thịnh vượng kinh tế",
+						"example": "Jobs are vital for economic wellbeing.",
+						"viExample": "Việc làm là thiết yếu cho sự thịnh vượng kinh tế."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "stress",
+		"pos": "noun",
+		"ipa": "/stres/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "stressful", "pos": "adjective" },
+			{ "form": "stress", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Pressure or worry caused by life's problems",
+				"viDef": "sự căng thẳng, áp lực",
+				"synonyms": ["tension", "pressure", "anxiety"],
+				"antonyms": ["relaxation", "calm"],
+				"examples": [
+					{
+						"text": "He is under a lot of stress at work.",
+						"viText": "Anh ấy đang chịu rất nhiều áp lực trong công việc."
+					},
+					{
+						"text": "I use meditation to manage my stress.",
+						"viText": "Tôi sử dụng thiền để quản lý sự căng thẳng của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reduce stress",
+						"meaning": "To make someone feel less worried",
+						"viMeaning": "giảm căng thẳng",
+						"example": "Walking in the park can reduce stress.",
+						"viExample": "Đi dạo trong công viên có thể giảm căng thẳng."
+					},
+					{
+						"phrase": "under stress",
+						"meaning": "Feeling pressured by a situation",
+						"viMeaning": "bị áp lực",
+						"example": "She performs well even under stress.",
+						"viExample": "Cô ấy làm việc tốt ngay cả khi bị áp lực."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "resilience",
+		"pos": "noun",
+		"ipa": "/rɪˈzɪliəns/",
+		"cefrLevel": "B1",
+		"frequency": 4900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "resilient", "pos": "adjective" },
+			{ "form": "resiliently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The ability to recover quickly from difficulties",
+				"viDef": "khả năng phục hồi, sự kiên cường",
+				"synonyms": ["toughness", "flexibility", "strength"],
+				"antonyms": ["fragility", "weakness"],
+				"examples": [
+					{
+						"text": "The community showed great resilience after the flood.",
+						"viText": "Cộng đồng đã thể hiện sự kiên cường tuyệt vời sau trận lũ."
+					},
+					{
+						"text": "Building resilience is important for mental health.",
+						"viText": "Xây dựng khả năng phục hồi là quan trọng đối với sức khỏe tâm thần."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "emotional resilience",
+						"meaning": "Ability to handle emotional pain well",
+						"viMeaning": "sự kiên cường về cảm xúc",
+						"example": "She has strong emotional resilience.",
+						"viExample": "Cô ấy có sự kiên cường về cảm xúc mạnh mẽ."
+					},
+					{
+						"phrase": "show resilience",
+						"meaning": "To demonstrate the ability to recover",
+						"viMeaning": "thể hiện sự kiên cường",
+						"example": "The economy showed resilience during the crisis.",
+						"viExample": "Nền kinh tế đã thể hiện sự kiên cường trong suốt cuộc khủng hoảng."
+					}
+				]
+			}
+		]
+	}
+]

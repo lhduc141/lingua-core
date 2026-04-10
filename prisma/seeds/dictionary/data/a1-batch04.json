@@ -1,0 +1,1062 @@
+[
+	{
+		"headword": "hand",
+		"pos": "noun",
+		"ipa": "/hænd/",
+		"cefrLevel": "A1",
+		"frequency": 85,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "handful",
+				"pos": "noun"
+			},
+			{
+				"form": "handy",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the end part of a person's arm beyond the wrist",
+				"viDef": "bàn tay",
+				"synonyms": ["palm", "fist"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Wash your hands before eating.",
+						"viText": "Rửa tay trước khi ăn."
+					},
+					{
+						"text": "He has a book in his hand.",
+						"viText": "Anh ấy có một cuốn sách trên tay."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "shake hands",
+						"meaning": "greet someone by holding their hand",
+						"viMeaning": "bắt tay",
+						"example": "They shake hands after the meeting.",
+						"viExample": "Họ bắt tay sau cuộc họp."
+					},
+					{
+						"phrase": "give a hand",
+						"meaning": "help someone with a task",
+						"viMeaning": "giúp một tay",
+						"example": "Can you give me a hand?",
+						"viExample": "Bạn có thể giúp tôi một tay không?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "eye",
+		"pos": "noun",
+		"ipa": "/aɪ/",
+		"cefrLevel": "A1",
+		"frequency": 95,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "eyeless",
+				"pos": "adjective"
+			},
+			{
+				"form": "eyelash",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the organ of sight in humans and animals",
+				"viDef": "con mắt",
+				"synonyms": ["peeper", "optic"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She has beautiful blue eyes.",
+						"viText": "Cô ấy có đôi mắt xanh dương tuyệt đẹp."
+					},
+					{
+						"text": "Keep an eye on your bag.",
+						"viText": "Hãy để mắt tới túi của bạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "close your eyes",
+						"meaning": "shut the eyelids to not see",
+						"viMeaning": "nhắm mắt lại",
+						"example": "Close your eyes and rest.",
+						"viExample": "Hãy nhắm mắt lại và nghỉ ngơi."
+					},
+					{
+						"phrase": "catch someone's eye",
+						"meaning": "attract someone's attention",
+						"viMeaning": "thu hút sự chú ý",
+						"example": "That bright sign caught my eye.",
+						"viExample": "Tấm biển sáng đó đã thu hút tôi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "head",
+		"pos": "noun",
+		"ipa": "/hed/",
+		"cefrLevel": "A1",
+		"frequency": 105,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "headless",
+				"pos": "adjective"
+			},
+			{
+				"form": "header",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the upper part of the human body containing the brain",
+				"viDef": "cái đầu",
+				"synonyms": ["skull", "mind"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He wears a hat on his head.",
+						"viText": "Anh ấy đội một chiếc mũ trên đầu."
+					},
+					{
+						"text": "She shook her head to say no.",
+						"viText": "Cô ấy lắc đầu để nói không."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "nod your head",
+						"meaning": "move head up and down to agree",
+						"viMeaning": "gật đầu",
+						"example": "He nodded his head in agreement.",
+						"viExample": "Anh ấy gật đầu đồng ý."
+					},
+					{
+						"phrase": "scratch your head",
+						"meaning": "rub your head when feeling confused",
+						"viMeaning": "gãi đầu",
+						"example": "He scratched his head in confusion.",
+						"viExample": "Anh ấy bối rối gãi đầu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "face",
+		"pos": "noun",
+		"ipa": "/feɪs/",
+		"cefrLevel": "A1",
+		"frequency": 115,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "faceless",
+				"pos": "adjective"
+			},
+			{
+				"form": "facial",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the front part of a person's head",
+				"viDef": "khuôn mặt",
+				"synonyms": ["countenance", "visage"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Wash your face every morning.",
+						"viText": "Rửa mặt vào mỗi buổi sáng."
+					},
+					{
+						"text": "She has a big smile on her face.",
+						"viText": "Cô ấy có một nụ cười tươi trên khuôn mặt."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "face to face",
+						"meaning": "close together and looking at each other",
+						"viMeaning": "trực diện",
+						"example": "We need to talk face to face.",
+						"viExample": "Chúng ta cần nói chuyện trực diện."
+					},
+					{
+						"phrase": "make a face",
+						"meaning": "change your expression to show dislike",
+						"viMeaning": "nhăn mặt",
+						"example": "He made a face at the bitter medicine.",
+						"viExample": "Anh ấy nhăn mặt vì thuốc đắng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "body",
+		"pos": "noun",
+		"ipa": "/ˈbɒdi/",
+		"cefrLevel": "A1",
+		"frequency": 125,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "bodily",
+				"pos": "adjective"
+			},
+			{
+				"form": "bodiless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the physical structure of a person or an animal",
+				"viDef": "cơ thể",
+				"synonyms": ["figure", "physique"],
+				"antonyms": ["mind", "soul"],
+				"examples": [
+					{
+						"text": "Exercise is good for your body.",
+						"viText": "Tập thể dục tốt cho cơ thể của bạn."
+					},
+					{
+						"text": "The human body is very complex.",
+						"viText": "Cơ thể con người rất phức tạp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "body language",
+						"meaning": "communicating through movements and postures",
+						"viMeaning": "ngôn ngữ cơ thể",
+						"example": "Body language is important in communication.",
+						"viExample": "Ngôn ngữ cơ thể rất quan trọng trong giao tiếp."
+					},
+					{
+						"phrase": "whole body",
+						"meaning": "the complete physical form of someone",
+						"viMeaning": "toàn thân",
+						"example": "He felt pain in his whole body.",
+						"viExample": "Anh ấy cảm thấy đau nhức toàn thân."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "city",
+		"pos": "noun",
+		"ipa": "/ˈsɪti/",
+		"cefrLevel": "A1",
+		"frequency": 135,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "citizen",
+				"pos": "noun"
+			},
+			{
+				"form": "citywide",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a large town with many people and buildings",
+				"viDef": "thành phố",
+				"synonyms": ["metropolis", "town"],
+				"antonyms": ["village", "countryside"],
+				"examples": [
+					{
+						"text": "I live in a very big city.",
+						"viText": "Tôi sống ở một thành phố rất lớn."
+					},
+					{
+						"text": "Ho Chi Minh City is very busy.",
+						"viText": "Thành phố Hồ Chí Minh rất nhộn nhịp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "city center",
+						"meaning": "the middle or commercial part of a city",
+						"viMeaning": "trung tâm thành phố",
+						"example": "Let's meet in the city center.",
+						"viExample": "Hãy gặp nhau ở trung tâm thành phố."
+					},
+					{
+						"phrase": "capital city",
+						"meaning": "the most important city of a country",
+						"viMeaning": "thủ đô",
+						"example": "Hanoi is the capital city of Vietnam.",
+						"viExample": "Hà Nội là thủ đô của Việt Nam."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "country",
+		"pos": "noun",
+		"ipa": "/ˈkʌntri/",
+		"cefrLevel": "A1",
+		"frequency": 145,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "countryman",
+				"pos": "noun"
+			},
+			{
+				"form": "countryside",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a nation with its own government occupying a territory",
+				"viDef": "quốc gia",
+				"synonyms": ["nation", "state"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Vietnam is a beautiful country.",
+						"viText": "Việt Nam là một đất nước xinh đẹp."
+					},
+					{
+						"text": "Which country are you from?",
+						"viText": "Bạn đến từ quốc gia nào?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "home country",
+						"meaning": "the country where you were born",
+						"viMeaning": "quê hương",
+						"example": "I miss my home country.",
+						"viExample": "Tôi nhớ quê hương của mình."
+					},
+					{
+						"phrase": "foreign country",
+						"meaning": "a nation other than your own",
+						"viMeaning": "nước ngoài",
+						"example": "Traveling to a foreign country is exciting.",
+						"viExample": "Đi du lịch nước ngoài rất thú vị."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "room",
+		"pos": "noun",
+		"ipa": "/ruːm/",
+		"cefrLevel": "A1",
+		"frequency": 155,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "roommate",
+				"pos": "noun"
+			},
+			{
+				"form": "roomy",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a part of a building enclosed by walls",
+				"viDef": "căn phòng",
+				"synonyms": ["chamber", "space"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "My room is very clean and tidy.",
+						"viText": "Phòng của tôi rất sạch sẽ và ngăn nắp."
+					},
+					{
+						"text": "There are three windows in this room.",
+						"viText": "Có ba cửa sổ trong căn phòng này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "living room",
+						"meaning": "a room for everyday use and relaxing",
+						"viMeaning": "phòng khách",
+						"example": "We watch TV in the living room.",
+						"viExample": "Chúng tôi xem tivi ở phòng khách."
+					},
+					{
+						"phrase": "make room",
+						"meaning": "create space for someone or something",
+						"viMeaning": "nhường chỗ",
+						"example": "Please make room for the new sofa.",
+						"viExample": "Vui lòng nhường chỗ cho chiếc ghế sofa mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "door",
+		"pos": "noun",
+		"ipa": "/dɔː(r)/",
+		"cefrLevel": "A1",
+		"frequency": 165,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "doorknob",
+				"pos": "noun"
+			},
+			{
+				"form": "doorway",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a hinged or sliding barrier at an entrance",
+				"viDef": "cánh cửa",
+				"synonyms": ["gateway", "entrance"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Please close the door behind you.",
+						"viText": "Vui lòng đóng cửa lại sau lưng bạn."
+					},
+					{
+						"text": "The wooden door is very heavy.",
+						"viText": "Cánh cửa gỗ rất nặng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "open the door",
+						"meaning": "move the door to enter or exit",
+						"viMeaning": "mở cửa",
+						"example": "Can you open the door, please?",
+						"viExample": "Bạn có thể mở cửa được không?"
+					},
+					{
+						"phrase": "front door",
+						"meaning": "the main entrance to a house",
+						"viMeaning": "cửa trước",
+						"example": "He is waiting at the front door.",
+						"viExample": "Anh ấy đang đợi ở cửa trước."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "window",
+		"pos": "noun",
+		"ipa": "/ˈwɪndəʊ/",
+		"cefrLevel": "A1",
+		"frequency": 175,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "windowless",
+				"pos": "adjective"
+			},
+			{
+				"form": "windowsill",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "an opening in a wall to let in light",
+				"viDef": "cửa sổ",
+				"synonyms": ["casement", "skylight"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Look out the window at the rain.",
+						"viText": "Nhìn ra cửa sổ xem trời mưa kìa."
+					},
+					{
+						"text": "I left the window open all night.",
+						"viText": "Tôi đã để cửa sổ mở cả đêm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "open window",
+						"meaning": "a window that is not closed",
+						"viMeaning": "cửa sổ mở",
+						"example": "A bird flew through the open window.",
+						"viExample": "Một con chim bay qua cửa sổ mở."
+					},
+					{
+						"phrase": "look out the window",
+						"meaning": "observe outside through a window",
+						"viMeaning": "nhìn ra cửa sổ",
+						"example": "I like to look out the window.",
+						"viExample": "Tôi thích nhìn ra cửa sổ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "phone",
+		"pos": "noun",
+		"ipa": "/fəʊn/",
+		"cefrLevel": "A1",
+		"frequency": 185,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "phoney",
+				"pos": "adjective"
+			},
+			{
+				"form": "phoneless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "an electronic device used for voice communication",
+				"viDef": "điện thoại",
+				"synonyms": ["telephone", "mobile"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "My phone is out of battery.",
+						"viText": "Điện thoại của tôi hết pin rồi."
+					},
+					{
+						"text": "She is talking on the phone right now.",
+						"viText": "Cô ấy đang nói chuyện điện thoại ngay lúc này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mobile phone",
+						"meaning": "a portable telephone device",
+						"viMeaning": "điện thoại di động",
+						"example": "Everyone has a mobile phone today.",
+						"viExample": "Ngày nay ai cũng có điện thoại di động."
+					},
+					{
+						"phrase": "answer the phone",
+						"meaning": "pick up a ringing telephone",
+						"viMeaning": "nghe điện thoại",
+						"example": "Please answer the phone for me.",
+						"viExample": "Làm ơn nghe điện thoại giúp tôi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "number",
+		"pos": "noun",
+		"ipa": "/ˈnʌmbə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 195,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "numberless",
+				"pos": "adjective"
+			},
+			{
+				"form": "numerical",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "an arithmetical value representing a particular quantity",
+				"viDef": "con số",
+				"synonyms": ["numeral", "digit"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Seven is my lucky number.",
+						"viText": "Bảy là con số may mắn của tôi."
+					},
+					{
+						"text": "Please write your phone number here.",
+						"viText": "Vui lòng viết số điện thoại của bạn vào đây."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "phone number",
+						"meaning": "a sequence of digits to call someone",
+						"viMeaning": "số điện thoại",
+						"example": "Can I get your phone number?",
+						"viExample": "Tôi có thể lấy số điện thoại của bạn không?"
+					},
+					{
+						"phrase": "large number",
+						"meaning": "a high quantity of something",
+						"viMeaning": "số lượng lớn",
+						"example": "A large number of people attended.",
+						"viExample": "Một số lượng lớn người đã tham dự."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "name",
+		"pos": "noun",
+		"ipa": "/neɪm/",
+		"cefrLevel": "A1",
+		"frequency": 205,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "nameless",
+				"pos": "adjective"
+			},
+			{
+				"form": "namely",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a word by which a person or thing is known",
+				"viDef": "tên gọi",
+				"synonyms": ["title", "designation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "What is your full name?",
+						"viText": "Họ và tên đầy đủ của bạn là gì?"
+					},
+					{
+						"text": "Her name is very beautiful.",
+						"viText": "Tên của cô ấy rất đẹp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "first name",
+						"meaning": "the personal name given to you at birth",
+						"viMeaning": "tên chính",
+						"example": "My first name is Duc.",
+						"viExample": "Tên chính của tôi là Đức."
+					},
+					{
+						"phrase": "last name",
+						"meaning": "the name shared with your family",
+						"viMeaning": "họ",
+						"example": "What is your last name?",
+						"viExample": "Họ của bạn là gì?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "word",
+		"pos": "noun",
+		"ipa": "/wɜːd/",
+		"cefrLevel": "A1",
+		"frequency": 215,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "wordless",
+				"pos": "adjective"
+			},
+			{
+				"form": "wordy",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a single distinct meaningful element of speech or writing",
+				"viDef": "từ ngữ",
+				"synonyms": ["term", "expression"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I don't understand this English word.",
+						"viText": "Tôi không hiểu từ tiếng Anh này."
+					},
+					{
+						"text": "How do you spell that word?",
+						"viText": "Bạn đánh vần từ đó như thế nào?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "say a word",
+						"meaning": "speak or make a sound to express something",
+						"viMeaning": "nói một lời",
+						"example": "He left without saying a word.",
+						"viExample": "Anh ấy rời đi mà không nói một lời."
+					},
+					{
+						"phrase": "in other words",
+						"meaning": "expressing the same thing in a different way",
+						"viMeaning": "nói cách khác",
+						"example": "In other words, you are right.",
+						"viExample": "Nói cách khác, bạn đã đúng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "learn",
+		"pos": "verb",
+		"ipa": "/lɜːn/",
+		"cefrLevel": "A1",
+		"frequency": 225,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "learner",
+				"pos": "noun"
+			},
+			{
+				"form": "unlearned",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "gain or acquire knowledge of or skill in something",
+				"viDef": "học hỏi",
+				"synonyms": ["study", "master"],
+				"antonyms": ["teach", "forget"],
+				"examples": [
+					{
+						"text": "I want to learn English quickly.",
+						"viText": "Tôi muốn học tiếng Anh nhanh chóng."
+					},
+					{
+						"text": "We learn new things every day.",
+						"viText": "Chúng ta học những điều mới mỗi ngày."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "learn how to",
+						"meaning": "acquire the practical skill to do something",
+						"viMeaning": "học cách làm",
+						"example": "I want to learn how to swim.",
+						"viExample": "Tôi muốn học cách bơi."
+					},
+					{
+						"phrase": "learn by heart",
+						"meaning": "memorize something perfectly so you remember it",
+						"viMeaning": "học thuộc lòng",
+						"example": "You must learn this poem by heart.",
+						"viExample": "Bạn phải học thuộc lòng bài thơ này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "know",
+		"pos": "verb",
+		"ipa": "/nəʊ/",
+		"cefrLevel": "A1",
+		"frequency": 40,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "knowing",
+				"pos": "adjective"
+			},
+			{
+				"form": "knowable",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "be aware of through observation, inquiry, or information",
+				"viDef": "biết",
+				"synonyms": ["understand", "realize"],
+				"antonyms": ["guess", "wonder"],
+				"examples": [
+					{
+						"text": "I do not know the answer.",
+						"viText": "Tôi không biết câu trả lời."
+					},
+					{
+						"text": "Do you know where he is?",
+						"viText": "Bạn có biết anh ấy ở đâu không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "know about",
+						"meaning": "have information concerning a specific topic",
+						"viMeaning": "biết về",
+						"example": "I know a lot about history.",
+						"viExample": "Tôi biết nhiều về lịch sử."
+					},
+					{
+						"phrase": "get to know",
+						"meaning": "become familiar with someone or something over time",
+						"viMeaning": "làm quen",
+						"example": "I want to get to know you.",
+						"viExample": "Tôi muốn làm quen với bạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "think",
+		"pos": "verb",
+		"ipa": "/θɪŋk/",
+		"cefrLevel": "A1",
+		"frequency": 45,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "thinker",
+				"pos": "noun"
+			},
+			{
+				"form": "unthinkable",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "direct one's mind towards someone or something",
+				"viDef": "suy nghĩ",
+				"synonyms": ["believe", "consider"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I think it will rain today.",
+						"viText": "Tôi nghĩ hôm nay trời sẽ mưa."
+					},
+					{
+						"text": "What do you think about this?",
+						"viText": "Bạn nghĩ gì về điều này?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "think about",
+						"meaning": "consider someone or something in your mind",
+						"viMeaning": "suy nghĩ về",
+						"example": "I will think about your offer.",
+						"viExample": "Tôi sẽ suy nghĩ về lời đề nghị của bạn."
+					},
+					{
+						"phrase": "think of",
+						"meaning": "bring an idea or memory to mind",
+						"viMeaning": "nghĩ ra",
+						"example": "I just thought of a great idea.",
+						"viExample": "Tôi vừa nghĩ ra một ý tưởng tuyệt vời."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "want",
+		"pos": "verb",
+		"ipa": "/wɒnt/",
+		"cefrLevel": "A1",
+		"frequency": 55,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "wanting",
+				"pos": "adjective"
+			},
+			{
+				"form": "wanted",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "have a desire to possess or do something",
+				"viDef": "muốn",
+				"synonyms": ["desire", "wish"],
+				"antonyms": ["hate", "refuse"],
+				"examples": [
+					{
+						"text": "I want to eat pizza tonight.",
+						"viText": "Tôi muốn ăn bánh pizza tối nay."
+					},
+					{
+						"text": "She wants a new toy for her birthday.",
+						"viText": "Cô bé muốn một món đồ chơi mới cho sinh nhật."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "want to be",
+						"meaning": "desire to become something in the future",
+						"viMeaning": "muốn trở thành",
+						"example": "I want to be a doctor.",
+						"viExample": "Tôi muốn trở thành bác sĩ."
+					},
+					{
+						"phrase": "really want",
+						"meaning": "have a very strong desire for something",
+						"viMeaning": "thực sự muốn",
+						"example": "I really want to visit Japan.",
+						"viExample": "Tôi thực sự muốn đến thăm Nhật Bản."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "need",
+		"pos": "verb",
+		"ipa": "/niːd/",
+		"cefrLevel": "A1",
+		"frequency": 60,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "needy",
+				"pos": "adjective"
+			},
+			{
+				"form": "needless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "require something because it is essential or important",
+				"viDef": "cần",
+				"synonyms": ["require", "demand"],
+				"antonyms": ["have", "own"],
+				"examples": [
+					{
+						"text": "I need to sleep early tonight.",
+						"viText": "Tôi cần ngủ sớm vào tối nay."
+					},
+					{
+						"text": "We need more time to finish.",
+						"viText": "Chúng tôi cần thêm thời gian để hoàn thành."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "need help",
+						"meaning": "require assistance with a difficult task",
+						"viMeaning": "cần giúp đỡ",
+						"example": "Call me if you need help.",
+						"viExample": "Hãy gọi tôi nếu bạn cần giúp đỡ."
+					},
+					{
+						"phrase": "badly need",
+						"meaning": "require something very urgently or desperately",
+						"viMeaning": "rất cần",
+						"example": "I badly need a cup of coffee.",
+						"viExample": "Tôi đang rất cần một tách cà phê."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "like",
+		"pos": "verb",
+		"ipa": "/laɪk/",
+		"cefrLevel": "A1",
+		"frequency": 65,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "likable",
+				"pos": "adjective"
+			},
+			{
+				"form": "liking",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "find agreeable, enjoyable, or satisfactory",
+				"viDef": "thích",
+				"synonyms": ["enjoy", "adore"],
+				"antonyms": ["dislike", "hate"],
+				"examples": [
+					{
+						"text": "I really like reading comic books.",
+						"viText": "Tôi rất thích đọc truyện tranh."
+					},
+					{
+						"text": "Do you like playing football?",
+						"viText": "Bạn có thích chơi bóng đá không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "like to do",
+						"meaning": "enjoy performing a particular activity",
+						"viMeaning": "thích làm",
+						"example": "I like to go for walks.",
+						"viExample": "Tôi thích đi dạo."
+					},
+					{
+						"phrase": "look like",
+						"meaning": "have a similar physical appearance to someone",
+						"viMeaning": "trông giống như",
+						"example": "You look exactly like your sister.",
+						"viExample": "Bạn trông y hệt như chị gái của mình."
+					}
+				]
+			}
+		]
+	}
+]

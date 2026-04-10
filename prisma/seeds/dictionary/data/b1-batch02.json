@@ -1,0 +1,919 @@
+[
+	{
+		"headword": "independent",
+		"pos": "adjective",
+		"ipa": "/ˌɪndɪˈpendənt/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "independence", "pos": "noun" },
+			{ "form": "independently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Not needing help or money from other people",
+				"viDef": "độc lập, tự chủ",
+				"synonyms": ["self-reliant", "autonomous"],
+				"antonyms": ["dependent"],
+				"examples": [
+					{
+						"text": "She is a very independent woman who lives alone.",
+						"viText": "Cô ấy là một người phụ nữ rất độc lập sống một mình."
+					},
+					{
+						"text": "The country became independent in 1945.",
+						"viText": "Quốc gia này đã trở nên độc lập vào năm 1945."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "independent thinker",
+						"meaning": "Someone who forms opinions without being influenced",
+						"viMeaning": "người có tư duy độc lập",
+						"example": "We encourage students to be independent thinkers.",
+						"viExample": "Chúng tôi khuyến khích sinh viên trở thành những người có tư duy độc lập."
+					},
+					{
+						"phrase": "financially independent",
+						"meaning": "Having enough money to support oneself",
+						"viMeaning": "độc lập về tài chính",
+						"example": "He wants to be financially independent by age thirty.",
+						"viExample": "Anh ấy muốn độc lập về tài chính trước tuổi ba mươi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "confident",
+		"pos": "adjective",
+		"ipa": "/ˈkɒnfɪdənt/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "confidence", "pos": "noun" },
+			{ "form": "confidently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Feeling sure about your own abilities or opinions",
+				"viDef": "tự tin",
+				"synonyms": ["assured", "certain"],
+				"antonyms": ["anxious", "doubtful"],
+				"examples": [
+					{
+						"text": "I feel more confident about my English now.",
+						"viText": "Bây giờ tôi cảm thấy tự tin hơn về tiếng Anh của mình."
+					},
+					{
+						"text": "She gave a confident performance on stage.",
+						"viText": "Cô ấy đã có một màn trình diễn tự tin trên sân khấu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "feel confident",
+						"meaning": "To have a sense of self-assurance",
+						"viMeaning": "cảm thấy tự tin",
+						"example": "You need to feel confident during the interview.",
+						"viExample": "Bạn cần cảm thấy tự tin trong suốt cuộc phỏng vấn."
+					},
+					{
+						"phrase": "confident that",
+						"meaning": "Being certain that something will happen",
+						"viMeaning": "tự tin rằng",
+						"example": "I am confident that we will win the game.",
+						"viExample": "Tôi tự tin rằng chúng ta sẽ thắng trận đấu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "flexible",
+		"pos": "adjective",
+		"ipa": "/ˈfleksəbl/",
+		"cefrLevel": "B1",
+		"frequency": 4100,
+		"isCommon": false,
+		"wordForms": [{ "form": "flexibility", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Able to change easily to suit new situations",
+				"viDef": "linh hoạt",
+				"synonyms": ["adaptable", "adjustable"],
+				"antonyms": ["rigid", "inflexible"],
+				"examples": [
+					{ "text": "My working hours are very flexible.", "viText": "Giờ làm việc của tôi rất linh hoạt." },
+					{
+						"text": "We need to be flexible about our holiday dates.",
+						"viText": "Chúng ta cần linh hoạt về ngày nghỉ lễ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "flexible approach",
+						"meaning": "A way of doing things that can change",
+						"viMeaning": "cách tiếp cận linh hoạt",
+						"example": "The manager takes a flexible approach to solving problems.",
+						"viExample": "Người quản lý có cách tiếp cận linh hoạt để giải quyết vấn đề."
+					},
+					{
+						"phrase": "flexible schedule",
+						"meaning": "A timetable that is not fixed",
+						"viMeaning": "lịch trình linh hoạt",
+						"example": "Many parents prefer a flexible schedule at work.",
+						"viExample": "Nhiều phụ huynh thích một lịch trình linh hoạt tại nơi làm việc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "creative",
+		"pos": "adjective",
+		"ipa": "/kriˈeɪtɪv/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "create", "pos": "verb" },
+			{ "form": "creativity", "pos": "noun" },
+			{ "form": "creatively", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Using imagination to produce new ideas or things",
+				"viDef": "sáng tạo",
+				"synonyms": ["imaginative", "inventive"],
+				"antonyms": ["unimaginative"],
+				"examples": [
+					{ "text": "She is a very creative artist.", "viText": "Cô ấy là một nghệ sĩ rất sáng tạo." },
+					{
+						"text": "We need some creative solutions to this problem.",
+						"viText": "Chúng ta cần một số giải pháp sáng tạo cho vấn đề này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "creative thinking",
+						"meaning": "The process of coming up with new ideas",
+						"viMeaning": "tư duy sáng tạo",
+						"example": "The job requires a lot of creative thinking.",
+						"viExample": "Công việc đòi hỏi rất nhiều tư duy sáng tạo."
+					},
+					{
+						"phrase": "creative writing",
+						"meaning": "Writing that expresses ideas and feelings",
+						"viMeaning": "viết lách sáng tạo",
+						"example": "He took a class in creative writing.",
+						"viExample": "Anh ấy đã tham gia một lớp học về viết lách sáng tạo."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "efficient",
+		"pos": "adjective",
+		"ipa": "/ɪˈfɪʃnt/",
+		"cefrLevel": "B1",
+		"frequency": 3900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "efficiency", "pos": "noun" },
+			{ "form": "efficiently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Working well without wasting time, money, or energy",
+				"viDef": "hiệu quả, năng suất",
+				"synonyms": ["productive", "effective"],
+				"antonyms": ["inefficient"],
+				"examples": [
+					{
+						"text": "The new machine is much more efficient.",
+						"viText": "Chiếc máy mới hiệu quả hơn nhiều."
+					},
+					{
+						"text": "We need to find an efficient way to work.",
+						"viText": "Chúng ta cần tìm một cách làm việc hiệu quả."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "energy efficient",
+						"meaning": "Using little electricity or fuel",
+						"viMeaning": "tiết kiệm năng lượng",
+						"example": "Modern light bulbs are very energy efficient.",
+						"viExample": "Bóng đèn hiện đại rất tiết kiệm năng lượng."
+					},
+					{
+						"phrase": "efficient service",
+						"meaning": "Providing help quickly and correctly",
+						"viMeaning": "dịch vụ hiệu quả",
+						"example": "The restaurant is famous for its efficient service.",
+						"viExample": "Nhà hàng nổi tiếng với dịch vụ hiệu quả."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "significant",
+		"pos": "adjective",
+		"ipa": "/sɪɡˈnɪfɪkənt/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "significance", "pos": "noun" },
+			{ "form": "significantly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Large or important enough to be noticed",
+				"viDef": "đáng kể, quan trọng",
+				"synonyms": ["important", "substantial"],
+				"antonyms": ["insignificant", "minor"],
+				"examples": [
+					{
+						"text": "There has been a significant increase in prices.",
+						"viText": "Đã có một sự gia tăng đáng kể về giá cả."
+					},
+					{
+						"text": "This is a significant discovery for science.",
+						"viText": "Đây là một khám phá quan trọng đối với khoa học."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "significant difference",
+						"meaning": "A clear and important distinction",
+						"viMeaning": "sự khác biệt đáng kể",
+						"example": "There is a significant difference between the two models.",
+						"viExample": "Có một sự khác biệt đáng kể giữa hai mẫu xe."
+					},
+					{
+						"phrase": "significant role",
+						"meaning": "An important part in a process",
+						"viMeaning": "vai trò quan trọng",
+						"example": "She played a significant role in the project.",
+						"viExample": "Cô ấy đã đóng một vai trò quan trọng trong dự án."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "various",
+		"pos": "adjective",
+		"ipa": "/ˈveəriəs/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "vary", "pos": "verb" },
+			{ "form": "variety", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Several different types of something",
+				"viDef": "khác nhau, đa dạng",
+				"synonyms": ["diverse", "different"],
+				"antonyms": ["similar"],
+				"examples": [
+					{
+						"text": "There are various reasons for this problem.",
+						"viText": "Có nhiều lý do khác nhau cho vấn đề này."
+					},
+					{
+						"text": "We talked about various topics during dinner.",
+						"viText": "Chúng tôi đã nói về nhiều chủ đề khác nhau trong bữa tối."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "various ways",
+						"meaning": "Different methods of doing something",
+						"viMeaning": "nhiều cách khác nhau",
+						"example": "There are various ways to solve the puzzle.",
+						"viExample": "Có nhiều cách khác nhau để giải câu đố."
+					},
+					{
+						"phrase": "various sources",
+						"meaning": "Information coming from different places",
+						"viMeaning": "nhiều nguồn khác nhau",
+						"example": "I gathered data from various sources.",
+						"viExample": "Tôi đã thu thập dữ liệu từ nhiều nguồn khác nhau."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "previous",
+		"pos": "adjective",
+		"ipa": "/ˈpriːviəs/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [{ "form": "previously", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Happening or existing before something else",
+				"viDef": "trước đó",
+				"synonyms": ["prior", "former"],
+				"antonyms": ["next", "following"],
+				"examples": [
+					{
+						"text": "I had no previous experience in this field.",
+						"viText": "Tôi không có kinh nghiệm trước đó trong lĩnh vực này."
+					},
+					{
+						"text": "Do you have any photos from your previous job?",
+						"viText": "Bạn có tấm ảnh nào từ công việc trước đây không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "previous day",
+						"meaning": "The day before a specific time",
+						"viMeaning": "ngày hôm trước",
+						"example": "The weather was better on the previous day.",
+						"viExample": "Thời tiết đã tốt hơn vào ngày hôm trước."
+					},
+					{
+						"phrase": "previous owner",
+						"meaning": "The person who owned something before",
+						"viMeaning": "chủ sở hữu trước",
+						"example": "The house was well-kept by the previous owner.",
+						"viExample": "Ngôi nhà được chủ sở hữu trước giữ gìn rất tốt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "current",
+		"pos": "adjective",
+		"ipa": "/ˈkʌrənt/",
+		"cefrLevel": "B1",
+		"frequency": 3040,
+		"isCommon": false,
+		"wordForms": [{ "form": "currently", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Happening or being used now",
+				"viDef": "hiện tại, hiện nay",
+				"synonyms": ["present", "ongoing"],
+				"antonyms": ["past", "future"],
+				"examples": [
+					{ "text": "What is your current address?", "viText": "Địa chỉ hiện tại của bạn là gì?" },
+					{
+						"text": "The current situation is very difficult.",
+						"viText": "Tình hình hiện tại đang rất khó khăn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "current events",
+						"meaning": "Important things happening in the world now",
+						"viMeaning": "thời sự",
+						"example": "I like to stay informed about current events.",
+						"viExample": "Tôi thích cập nhật thông tin về các sự kiện thời sự."
+					},
+					{
+						"phrase": "current trend",
+						"meaning": "The general direction something is changing now",
+						"viMeaning": "xu hướng hiện nay",
+						"example": "Sustainable fashion is a major current trend.",
+						"viExample": "Thời trang bền vững là một xu hướng lớn hiện nay."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "additional",
+		"pos": "adjective",
+		"ipa": "/əˈdɪʃənl/",
+		"cefrLevel": "B1",
+		"frequency": 3250,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "add", "pos": "verb" },
+			{ "form": "addition", "pos": "noun" },
+			{ "form": "additionally", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Extra or more than what is already present",
+				"viDef": "thêm, bổ sung",
+				"synonyms": ["extra", "further", "added"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We need additional information to process your request.",
+						"viText": "Chúng tôi cần thêm thông tin để xử lý yêu cầu của bạn."
+					},
+					{
+						"text": "There will be an additional charge for delivery.",
+						"viText": "Sẽ có một khoản phí bổ sung cho việc giao hàng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "additional cost",
+						"meaning": "Money you must pay on top of the price",
+						"viMeaning": "chi phí bổ sung",
+						"example": "Repairs will involve an additional cost.",
+						"viExample": "Việc sửa chữa sẽ tốn thêm chi phí bổ sung."
+					},
+					{
+						"phrase": "additional support",
+						"meaning": "Extra help provided to someone",
+						"viMeaning": "hỗ trợ thêm",
+						"example": "The students need additional support in math.",
+						"viExample": "Các học sinh cần hỗ trợ thêm môn toán."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "analyze",
+		"pos": "verb",
+		"ipa": "/ˈænəlaɪz/",
+		"cefrLevel": "B1",
+		"frequency": 4200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "analysis", "pos": "noun" },
+			{ "form": "analyst", "pos": "noun" },
+			{ "form": "analytical", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To examine something carefully to understand it",
+				"viDef": "phân tích",
+				"synonyms": ["examine", "inspect", "study"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Scientists are analyzing the water samples.",
+						"viText": "Các nhà khoa học đang phân tích các mẫu nước."
+					},
+					{
+						"text": "We need to analyze our sales data.",
+						"viText": "Chúng ta cần phân tích dữ liệu bán hàng của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "analyze data",
+						"meaning": "To look at information to find patterns",
+						"viMeaning": "phân tích dữ liệu",
+						"example": "The computer can analyze data very quickly.",
+						"viExample": "Máy tính có thể phân tích dữ liệu rất nhanh."
+					},
+					{
+						"phrase": "analyze results",
+						"meaning": "To study the outcome of a test",
+						"viMeaning": "phân tích kết quả",
+						"example": "We are waiting to analyze the results of the survey.",
+						"viExample": "Chúng tôi đang chờ để phân tích kết quả của cuộc khảo sát."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "evaluate",
+		"pos": "verb",
+		"ipa": "/ɪˈvæljueɪt/",
+		"cefrLevel": "B1",
+		"frequency": 4500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "evaluation", "pos": "noun" },
+			{ "form": "evaluative", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To judge the quality or value of something",
+				"viDef": "đánh giá",
+				"synonyms": ["assess", "judge", "rate"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Teachers evaluate their students' progress regularly.",
+						"viText": "Giáo viên đánh giá sự tiến bộ của học sinh thường xuyên."
+					},
+					{
+						"text": "The company needs to evaluate the new policy.",
+						"viText": "Công ty cần đánh giá chính sách mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "evaluate performance",
+						"meaning": "To judge how well someone does a job",
+						"viMeaning": "đánh giá hiệu suất",
+						"example": "Managers evaluate performance at the end of the year.",
+						"viExample": "Các quản lý đánh giá hiệu suất vào cuối năm."
+					},
+					{
+						"phrase": "carefully evaluate",
+						"meaning": "To judge something with great attention",
+						"viMeaning": "đánh giá cẩn thận",
+						"example": "You should carefully evaluate the risks.",
+						"viExample": "Bạn nên đánh giá cẩn thận các rủi ro."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "implement",
+		"pos": "verb",
+		"ipa": "/ˈɪmplɪment/",
+		"cefrLevel": "B1",
+		"frequency": 4800,
+		"isCommon": false,
+		"wordForms": [{ "form": "implementation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To start using a plan or system",
+				"viDef": "triển khai, thực hiện",
+				"synonyms": ["execute", "carry out", "apply"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The government will implement new tax laws.",
+						"viText": "Chính phủ sẽ triển khai luật thuế mới."
+					},
+					{
+						"text": "It is difficult to implement these changes quickly.",
+						"viText": "Rất khó để thực hiện những thay đổi này một cách nhanh chóng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "implement a plan",
+						"meaning": "To put a strategy into action",
+						"viMeaning": "thực hiện một kế hoạch",
+						"example": "They are ready to implement the plan.",
+						"viExample": "Họ đã sẵn sàng để thực hiện kế hoạch."
+					},
+					{
+						"phrase": "implement a policy",
+						"meaning": "To start following a new rule",
+						"viMeaning": "triển khai một chính sách",
+						"example": "The school will implement a no-phone policy.",
+						"viExample": "Trường học sẽ triển khai chính sách không dùng điện thoại."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "demonstrate",
+		"pos": "verb",
+		"ipa": "/ˈdemənstreɪt/",
+		"cefrLevel": "B1",
+		"frequency": 3700,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "demonstration", "pos": "noun" },
+			{ "form": "demonstrative", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To show clearly that something is true or exists",
+				"viDef": "chứng minh, biểu diễn",
+				"synonyms": ["show", "prove", "illustrate"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The results demonstrate that the medicine works.",
+						"viText": "Các kết quả chứng minh rằng loại thuốc đó có tác dụng."
+					},
+					{
+						"text": "He demonstrated how to use the new software.",
+						"viText": "Anh ấy đã biểu diễn cách sử dụng phần mềm mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "demonstrate skills",
+						"meaning": "To show your abilities to others",
+						"viMeaning": "thể hiện kỹ năng",
+						"example": "The interview is a chance to demonstrate your skills.",
+						"viExample": "Cuộc phỏng vấn là cơ hội để thể hiện kỹ năng của bạn."
+					},
+					{
+						"phrase": "clearly demonstrate",
+						"meaning": "To show something without any doubt",
+						"viMeaning": "chứng minh rõ ràng",
+						"example": "The evidence clearly demonstrates his innocence.",
+						"viExample": "Bằng chứng chứng minh rõ ràng sự vô tội của anh ta."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "acknowledge",
+		"pos": "verb",
+		"ipa": "/əkˈnɒlɪdʒ/",
+		"cefrLevel": "B1",
+		"frequency": 4600,
+		"isCommon": false,
+		"wordForms": [{ "form": "acknowledgment", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To accept or admit that something is true",
+				"viDef": "công nhận, thừa nhận",
+				"synonyms": ["admit", "accept", "recognize"],
+				"antonyms": ["deny", "ignore"],
+				"examples": [
+					{
+						"text": "She refused to acknowledge that she was wrong.",
+						"viText": "Cô ấy từ chối thừa nhận rằng mình đã sai."
+					},
+					{
+						"text": "He finally acknowledged his mistake.",
+						"viText": "Cuối cùng anh ấy đã thừa nhận sai lầm của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "acknowledge receipt",
+						"meaning": "To confirm that you received something",
+						"viMeaning": "xác nhận đã nhận được",
+						"example": "Please acknowledge receipt of this email.",
+						"viExample": "Vui lòng xác nhận đã nhận được email này."
+					},
+					{
+						"phrase": "publicly acknowledge",
+						"meaning": "To admit something in front of others",
+						"viMeaning": "công nhận công khai",
+						"example": "They publicly acknowledged the help they received.",
+						"viExample": "Họ đã công khai công nhận sự giúp đỡ mà họ nhận được."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "communicate",
+		"pos": "verb",
+		"ipa": "/kəˈmjuːnɪkeɪt/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "communication", "pos": "noun" },
+			{ "form": "communicative", "pos": "adjective" },
+			{ "form": "communicator", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To share information with others through speaking or writing",
+				"viDef": "giao tiếp, truyền đạt",
+				"synonyms": ["convey", "contact"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "They communicate with each other by email.",
+						"viText": "Họ giao tiếp với nhau qua email."
+					},
+					{
+						"text": "It is important to communicate your ideas clearly.",
+						"viText": "Việc truyền đạt ý tưởng của bạn một cách rõ ràng là rất quan trọng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "communicate effectively",
+						"meaning": "To share information in a successful way",
+						"viMeaning": "giao tiếp hiệu quả",
+						"example": "Managers need to communicate effectively with their teams.",
+						"viExample": "Các quản lý cần giao tiếp hiệu quả với đội ngũ của mình."
+					},
+					{
+						"phrase": "ability to communicate",
+						"meaning": "The skill of sharing thoughts with others",
+						"viMeaning": "khả năng giao tiếp",
+						"example": "The job requires a good ability to communicate.",
+						"viExample": "Công việc đòi hỏi khả năng giao tiếp tốt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "investigate",
+		"pos": "verb",
+		"ipa": "/ɪnˈvestɪɡeɪt/",
+		"cefrLevel": "B1",
+		"frequency": 3800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "investigation", "pos": "noun" },
+			{ "form": "investigator", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To try to find out the truth about something",
+				"viDef": "điều tra",
+				"synonyms": ["examine", "probe", "research"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The police are investigating the cause of the fire.",
+						"viText": "Cảnh sát đang điều tra nguyên nhân của vụ hỏa hoạn."
+					},
+					{
+						"text": "Scientists are investigating how the virus spreads.",
+						"viText": "Các nhà khoa học đang điều tra cách virus lây lan."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "thoroughly investigate",
+						"meaning": "To examine something very carefully",
+						"viMeaning": "điều tra kỹ lưỡng",
+						"example": "The matter must be thoroughly investigated.",
+						"viExample": "Vấn đề này phải được điều tra kỹ lưỡng."
+					},
+					{
+						"phrase": "investigate a crime",
+						"meaning": "To look for clues about an illegal act",
+						"viMeaning": "điều tra một tội ác",
+						"example": "Detectives are investigating a series of crimes.",
+						"viExample": "Các thám tử đang điều tra một loạt các tội ác."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "participate",
+		"pos": "verb",
+		"ipa": "/pɑːˈtɪsɪpeɪt/",
+		"cefrLevel": "B1",
+		"frequency": 3600,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "participation", "pos": "noun" },
+			{ "form": "participant", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To take part in an activity or event",
+				"viDef": "tham gia",
+				"synonyms": ["take part", "join"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She loves to participate in school sports.",
+						"viText": "Cô ấy thích tham gia vào các môn thể thao ở trường."
+					},
+					{
+						"text": "Everyone is encouraged to participate in the discussion.",
+						"viText": "Mọi người được khuyến khích tham gia vào cuộc thảo luận."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "actively participate",
+						"meaning": "To take a busy part in something",
+						"viMeaning": "tham gia tích cực",
+						"example": "He actively participates in local charities.",
+						"viExample": "Anh ấy tham gia tích cực vào các tổ chức từ thiện địa phương."
+					},
+					{
+						"phrase": "participate in a survey",
+						"meaning": "To answer questions for research",
+						"viMeaning": "tham gia khảo sát",
+						"example": "Would you like to participate in our survey?",
+						"viExample": "Bạn có muốn tham gia vào cuộc khảo sát của chúng tôi không?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "recognize",
+		"pos": "verb",
+		"ipa": "/ˈrekəɡnaɪz/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "recognition", "pos": "noun" },
+			{ "form": "recognizable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To know someone or something because you have seen them before",
+				"viDef": "nhận ra",
+				"synonyms": ["identify", "know"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I didn't recognize him because he had grown a beard.",
+						"viText": "Tôi không nhận ra anh ấy vì anh ấy đã để râu."
+					},
+					{ "text": "Do you recognize this song?", "viText": "Bạn có nhận ra bài hát này không?" }
+				],
+				"collocations": [
+					{
+						"phrase": "recognize a face",
+						"meaning": "To remember someone's appearance",
+						"viMeaning": "nhận ra một gương mặt",
+						"example": "It's hard to recognize a face after twenty years.",
+						"viExample": "Thật khó để nhận ra một gương mặt sau hai mươi năm."
+					},
+					{
+						"phrase": "officially recognize",
+						"meaning": "To accept something as legal or true",
+						"viMeaning": "công nhận chính thức",
+						"example": "The government officially recognized the new state.",
+						"viExample": "Chính phủ đã công nhận chính thức quốc gia mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "contribute",
+		"pos": "verb",
+		"ipa": "/kənˈtrɪbjuːt/",
+		"cefrLevel": "B1",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "contribution", "pos": "noun" },
+			{ "form": "contributor", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To give something, especially money, to help achieve something",
+				"viDef": "đóng góp",
+				"synonyms": ["donate", "give", "provide"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She contributed ten dollars to the charity.",
+						"viText": "Cô ấy đã đóng góp mười đô la cho tổ chức từ thiện."
+					},
+					{
+						"text": "Fresh ideas will contribute to our success.",
+						"viText": "Những ý tưởng mới mẻ sẽ đóng góp vào thành công của chúng ta."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "contribute money",
+						"meaning": "To give financial help",
+						"viMeaning": "đóng góp tiền",
+						"example": "Many people contributed money to the hospital.",
+						"viExample": "Nhiều người đã đóng góp tiền cho bệnh viện."
+					},
+					{
+						"phrase": "contribute to a cause",
+						"meaning": "To help a specific social goal",
+						"viMeaning": "đóng góp cho một mục tiêu chung",
+						"example": "He wants to contribute to the cause of peace.",
+						"viExample": "Anh ấy muốn đóng góp cho mục tiêu hòa bình."
+					}
+				]
+			}
+		]
+	}
+]

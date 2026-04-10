@@ -1,0 +1,919 @@
+[
+	{
+		"headword": "allocate",
+		"pos": "verb",
+		"ipa": "/ˈæləkeɪt/",
+		"cefrLevel": "B2",
+		"frequency": 6200,
+		"isCommon": false,
+		"wordForms": [{ "form": "allocation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To distribute resources or duties for a particular purpose",
+				"viDef": "phân bổ, chỉ định",
+				"synonyms": ["assign", "distribute", "allot"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The government must allocate more funds to education.",
+						"viText": "Chính phủ phải phân bổ thêm ngân sách cho giáo dục."
+					},
+					{
+						"text": "We need to allocate tasks to each team member.",
+						"viText": "Chúng ta cần phân bổ nhiệm vụ cho từng thành viên trong nhóm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "allocate resources",
+						"meaning": "To decide how to use available assets",
+						"viMeaning": "phân bổ nguồn lực",
+						"example": "The manager had to allocate resources efficiently.",
+						"viExample": "Người quản lý đã phải phân bổ nguồn lực một cách hiệu quả."
+					},
+					{
+						"phrase": "fairly allocate",
+						"meaning": "To distribute something in a just manner",
+						"viMeaning": "phân bổ công bằng",
+						"example": "The committee tried to fairly allocate the prize money.",
+						"viExample": "Ủy ban đã cố gắng phân bổ tiền thưởng một cách công bằng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "constitute",
+		"pos": "verb",
+		"ipa": "/ˈkɒnstɪtjuːt/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "constitution", "pos": "noun" },
+			{ "form": "constituent", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To be the parts that form something",
+				"viDef": "tạo thành, cấu thành",
+				"synonyms": ["comprise", "form", "compose"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "Twelve months constitute a year.", "viText": "Mười hai tháng tạo thành một năm." },
+					{
+						"text": "These small changes constitute a major improvement.",
+						"viText": "Những thay đổi nhỏ này cấu thành một sự cải thiện lớn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "constitute a threat",
+						"meaning": "To be considered a danger",
+						"viMeaning": "tạo thành một mối đe dọa",
+						"example": "Illegal hunting constitutes a threat to many species.",
+						"viExample": "Săn bắn bất hợp pháp tạo thành một mối đe dọa đối với nhiều loài."
+					},
+					{
+						"phrase": "legally constitute",
+						"meaning": "To be established by law",
+						"viMeaning": "được thiết lập về mặt pháp lý",
+						"example": "This document does not legally constitute a contract.",
+						"viExample": "Tài liệu này không cấu thành một hợp đồng về mặt pháp lý."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "undermine",
+		"pos": "verb",
+		"ipa": "/ˌʌndəˈmaɪn/",
+		"cefrLevel": "B2",
+		"frequency": 6500,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To lessen the effectiveness, power, or ability of someone",
+				"viDef": "làm suy yếu, hủy hoại",
+				"synonyms": ["weaken", "sabotage", "damage"],
+				"antonyms": ["strengthen", "support"],
+				"examples": [
+					{
+						"text": "Criticism can undermine a student's confidence.",
+						"viText": "Sự chỉ trích có thể làm suy yếu sự tự tin của học sinh."
+					},
+					{
+						"text": "The scandal threatened to undermine the entire government.",
+						"viText": "Vụ bê bối đe dọa làm suy yếu toàn bộ chính phủ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "undermine authority",
+						"meaning": "To make someone's power seem less effective",
+						"viMeaning": "làm suy giảm quyền uy",
+						"example": "Constant arguing will undermine the teacher's authority.",
+						"viExample": "Việc tranh cãi liên tục sẽ làm suy giảm quyền uy của giáo viên."
+					},
+					{
+						"phrase": "seriously undermine",
+						"meaning": "To cause severe damage to a system or feeling",
+						"viMeaning": "hủy hoại nghiêm trọng",
+						"example": "Lack of sleep can seriously undermine your health.",
+						"viExample": "Thiếu ngủ có thể làm suy yếu nghiêm trọng sức khỏe của bạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "reinforce",
+		"pos": "verb",
+		"ipa": "/ˌriːɪnˈfɔːs/",
+		"cefrLevel": "B2",
+		"frequency": 5800,
+		"isCommon": false,
+		"wordForms": [{ "form": "reinforcement", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To strengthen or support an object, idea, or feeling",
+				"viDef": "củng cố, tăng cường",
+				"synonyms": ["strengthen", "bolster", "support"],
+				"antonyms": ["weaken", "undermine"],
+				"examples": [
+					{
+						"text": "The latest evidence reinforces my theory.",
+						"viText": "Những bằng chứng mới nhất củng cố cho lý thuyết của tôi."
+					},
+					{
+						"text": "The wall was reinforced with steel beams.",
+						"viText": "Bức tường đã được gia cố bằng các thanh thép."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reinforce a message",
+						"meaning": "To make a point more memorable or stronger",
+						"viMeaning": "củng cố thông điệp",
+						"example": "The campaign uses images to reinforce the safety message.",
+						"viExample": "Chiến dịch sử dụng hình ảnh để củng cố thông điệp an toàn."
+					},
+					{
+						"phrase": "mutually reinforce",
+						"meaning": "To support each other",
+						"viMeaning": "củng cố lẫn nhau",
+						"example": "Good habits and discipline mutually reinforce each other.",
+						"viExample": "Thói quen tốt và kỷ luật củng cố lẫn nhau."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "portray",
+		"pos": "verb",
+		"ipa": "/pɔːˈtreɪ/",
+		"cefrLevel": "B2",
+		"frequency": 5400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "portrayal", "pos": "noun" },
+			{ "form": "portrait", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To depict or describe someone or something in a way",
+				"viDef": "khắc họa, mô tả",
+				"synonyms": ["depict", "describe", "represent"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The media portrays him as a hero.",
+						"viText": "Truyền thông khắc họa anh ấy như một người hùng."
+					},
+					{
+						"text": "The book portrays life in the Victorian era accurately.",
+						"viText": "Cuốn sách mô tả chính xác cuộc sống ở thời đại Victoria."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "portray a character",
+						"meaning": "To play a role in a movie or book",
+						"viMeaning": "đóng vai một nhân vật",
+						"example": "The actor was chosen to portray the famous king.",
+						"viExample": "Nam diễn viên được chọn để đóng vai vị vua nổi tiếng."
+					},
+					{
+						"phrase": "vividly portray",
+						"meaning": "To describe something very clearly and realistically",
+						"viMeaning": "khắc họa sinh động",
+						"example": "The painting vividly portrays the storm at sea.",
+						"viExample": "Bức tranh khắc họa sinh động cơn bão trên biển."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "advocate",
+		"pos": "verb",
+		"ipa": "/ˈædvəkeɪt/",
+		"cefrLevel": "B2",
+		"frequency": 5300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "advocate", "pos": "noun" },
+			{ "form": "advocacy", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To publicly recommend or support a cause or policy",
+				"viDef": "ủng hộ, tán thành",
+				"synonyms": ["support", "champion", "promote"],
+				"antonyms": ["oppose", "criticize"],
+				"examples": [
+					{
+						"text": "He advocates a higher tax for the wealthy.",
+						"viText": "Ông ấy ủng hộ mức thuế cao hơn cho người giàu."
+					},
+					{
+						"text": "Many scientists advocate using renewable energy.",
+						"viText": "Nhiều nhà khoa học tán thành việc sử dụng năng lượng tái tạo."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "strongly advocate",
+						"meaning": "To give vigorous support to an idea",
+						"viMeaning": "nhiệt tình ủng hộ",
+						"example": "The group strongly advocates for animal rights.",
+						"viExample": "Nhóm nhiệt tình ủng hộ quyền động vật."
+					},
+					{
+						"phrase": "advocate for change",
+						"meaning": "To work towards making something different",
+						"viMeaning": "kêu gọi sự thay đổi",
+						"example": "The youth are beginning to advocate for change.",
+						"viExample": "Giới trẻ đang bắt đầu kêu gọi sự thay đổi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "confront",
+		"pos": "verb",
+		"ipa": "/kənˈfrʌnt/",
+		"cefrLevel": "B2",
+		"frequency": 5600,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "confrontation", "pos": "noun" },
+			{ "form": "confrontational", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To face up to and deal with a problem",
+				"viDef": "đối mặt, đương đầu",
+				"synonyms": ["face", "tackle", "address"],
+				"antonyms": ["avoid", "evade"],
+				"examples": [
+					{
+						"text": "We must confront the challenges of climate change together.",
+						"viText": "Chúng ta phải cùng nhau đối mặt với những thách thức của biến đổi khí hậu."
+					},
+					{
+						"text": "She finally decided to confront her fears.",
+						"viText": "Cô ấy cuối cùng đã quyết định đối mặt với nỗi sợ của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "confront a problem",
+						"meaning": "To address a difficult situation directly",
+						"viMeaning": "đối mặt với vấn đề",
+						"example": "The company had to confront its financial problems.",
+						"viExample": "Công ty đã phải đối mặt với các vấn đề tài chính của mình."
+					},
+					{
+						"phrase": "directly confront",
+						"meaning": "To deal with someone or something without hesitation",
+						"viMeaning": "đối mặt trực tiếp",
+						"example": "He chose to directly confront his accuser.",
+						"viExample": "Anh ta đã chọn đối mặt trực tiếp với người cáo buộc mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "distinguish",
+		"pos": "verb",
+		"ipa": "/dɪˈstɪŋɡwɪʃ/",
+		"cefrLevel": "B2",
+		"frequency": 5200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "distinction", "pos": "noun" },
+			{ "form": "distinctive", "pos": "adjective" },
+			{ "form": "distinguishable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To recognize or point out a difference",
+				"viDef": "phân biệt",
+				"synonyms": ["differentiate", "discern", "separate"],
+				"antonyms": ["confuse", "mix up"],
+				"examples": [
+					{
+						"text": "It’s hard to distinguish between the two types of birds.",
+						"viText": "Thật khó để phân biệt giữa hai loại chim này."
+					},
+					{
+						"text": "He can't distinguish right from wrong.",
+						"viText": "Anh ta không thể phân biệt được đúng sai."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "clearly distinguish",
+						"meaning": "To see a very obvious difference",
+						"viMeaning": "phân biệt rõ ràng",
+						"example": "The new law will clearly distinguish between the two cases.",
+						"viExample": "Luật mới sẽ phân biệt rõ ràng giữa hai trường hợp."
+					},
+					{
+						"phrase": "distinguish from",
+						"meaning": "To tell the difference from something else",
+						"viMeaning": "phân biệt với",
+						"example": "His style of painting is easy to distinguish from others.",
+						"viExample": "Phong cách vẽ của ông ấy rất dễ phân biệt với những người khác."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "derive",
+		"pos": "verb",
+		"ipa": "/dɪˈraɪv/",
+		"cefrLevel": "B2",
+		"frequency": 5150,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "derivation", "pos": "noun" },
+			{ "form": "derivative", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To obtain something from a specific source",
+				"viDef": "bắt nguồn từ, rút ra từ",
+				"synonyms": ["obtain", "get", "acquire"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Many English words are derived from Latin.",
+						"viText": "Nhiều từ tiếng Anh bắt nguồn từ tiếng Latin."
+					},
+					{
+						"text": "She derives great pleasure from playing the piano.",
+						"viText": "Cô ấy tìm thấy niềm vui lớn từ việc chơi đàn piano."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "derive from",
+						"meaning": "To come from a particular origin",
+						"viMeaning": "bắt nguồn từ",
+						"example": "The name of the town is derived from a river.",
+						"viExample": "Tên của thị trấn được bắt nguồn từ một con sông."
+					},
+					{
+						"phrase": "derive benefit",
+						"meaning": "To get an advantage from something",
+						"viMeaning": "có được lợi ích",
+						"example": "Students derive benefit from the new learning facilities.",
+						"viExample": "Học sinh có được lợi ích từ cơ sở vật chất học tập mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "enhance",
+		"pos": "verb",
+		"ipa": "/ɪnˈhɑːns/",
+		"cefrLevel": "B2",
+		"frequency": 5050,
+		"isCommon": false,
+		"wordForms": [{ "form": "enhancement", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To intensify, increase, or further improve the quality of something",
+				"viDef": "nâng cao, tăng cường",
+				"synonyms": ["improve", "boost", "upgrade"],
+				"antonyms": ["diminish", "reduce"],
+				"examples": [
+					{
+						"text": "The new lighting will enhance the beauty of the room.",
+						"viText": "Hệ thống ánh sáng mới sẽ làm tăng vẻ đẹp của căn phòng."
+					},
+					{
+						"text": "Regular exercise can enhance your quality of life.",
+						"viText": "Tập thể dục thường xuyên có thể nâng cao chất lượng cuộc sống của bạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "enhance skills",
+						"meaning": "To improve one's abilities",
+						"viMeaning": "nâng cao kỹ năng",
+						"example": "The workshop is designed to enhance leadership skills.",
+						"viExample": "Hội thảo được thiết kế để nâng cao kỹ năng lãnh đạo."
+					},
+					{
+						"phrase": "greatly enhance",
+						"meaning": "To improve something by a large amount",
+						"viMeaning": "tăng cường đáng kể",
+						"example": "The update will greatly enhance the user experience.",
+						"viExample": "Bản cập nhật sẽ nâng cao đáng kể trải nghiệm người dùng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "exceed",
+		"pos": "verb",
+		"ipa": "/ɪkˈsiːd/",
+		"cefrLevel": "B2",
+		"frequency": 5900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "excessive", "pos": "adjective" },
+			{ "form": "excess", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To be greater than a number or amount",
+				"viDef": "vượt quá",
+				"synonyms": ["surpass", "outstrip", "top"],
+				"antonyms": ["fail"],
+				"examples": [
+					{
+						"text": "The cost of the project must not exceed the budget.",
+						"viText": "Chi phí của dự án không được vượt quá ngân sách."
+					},
+					{
+						"text": "Drivers who exceed the speed limit will be fined.",
+						"viText": "Những tài xế chạy quá tốc độ sẽ bị phạt."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "exceed expectations",
+						"meaning": "To do better than what was hoped for",
+						"viMeaning": "vượt quá mong đợi",
+						"example": "The success of the movie exceeded all expectations.",
+						"viExample": "Thành công của bộ phim đã vượt quá mọi mong đợi."
+					},
+					{
+						"phrase": "far exceed",
+						"meaning": "To be much greater than something else",
+						"viMeaning": "vượt xa",
+						"example": "The demand for the product far exceeds the supply.",
+						"viExample": "Nhu cầu về sản phẩm vượt xa nguồn cung."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "justify",
+		"pos": "verb",
+		"ipa": "/ˈdʒʌstɪfaɪ/",
+		"cefrLevel": "B2",
+		"frequency": 5450,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "justification", "pos": "noun" },
+			{ "form": "justifiable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To show or prove to be right or reasonable",
+				"viDef": "bào chữa, biện minh",
+				"synonyms": ["explain", "defend", "validate"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "How can you justify spending so much money?",
+						"viText": "Làm sao bạn có thể biện minh cho việc tiêu quá nhiều tiền như vậy?"
+					},
+					{
+						"text": "The results justify the hard work we put in.",
+						"viText": "Kết quả đã chứng minh cho sự làm việc chăm chỉ của chúng tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "justify the cost",
+						"meaning": "To show that an expense was worth it",
+						"viMeaning": "chứng minh chi phí xứng đáng",
+						"example": "The long-term benefits justify the initial cost.",
+						"viExample": "Lợi ích lâu dài chứng minh chi phí ban đầu là xứng đáng."
+					},
+					{
+						"phrase": "hard to justify",
+						"meaning": "Difficult to find a good reason for",
+						"viMeaning": "khó mà bào chữa",
+						"example": "His rude behavior is hard to justify.",
+						"viExample": "Hành vi thô lỗ của anh ta thật khó mà bào chữa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "obtain",
+		"pos": "verb",
+		"ipa": "/əbˈteɪn/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [{ "form": "obtainable", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To get something, especially by making an effort",
+				"viDef": "đạt được, giành được",
+				"synonyms": ["get", "acquire", "gain"],
+				"antonyms": ["lose", "give up"],
+				"examples": [
+					{
+						"text": "You must obtain permission before using the facility.",
+						"viText": "Bạn phải xin phép trước khi sử dụng cơ sở vật chất."
+					},
+					{
+						"text": "He managed to obtain a copy of the report.",
+						"viText": "Anh ấy đã xoay xở để có được một bản sao của báo cáo."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "obtain information",
+						"meaning": "To find out facts or details",
+						"viMeaning": "thu thập thông tin",
+						"example": "The website is used to obtain information about the city.",
+						"viExample": "Trang web được sử dụng để thu thập thông tin về thành phố."
+					},
+					{
+						"phrase": "legally obtain",
+						"meaning": "To get something in a lawful way",
+						"viMeaning": "đạt được một cách hợp pháp",
+						"example": "The evidence was not legally obtained.",
+						"viExample": "Bằng chứng đã không được thu thập một cách hợp pháp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "persist",
+		"pos": "verb",
+		"ipa": "/pəˈsɪst/",
+		"cefrLevel": "B2",
+		"frequency": 6000,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "persistence", "pos": "noun" },
+			{ "form": "persistent", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To continue to exist or happen despite difficulties",
+				"viDef": "kiên trì, vẫn còn tiếp diễn",
+				"synonyms": ["continue", "last", "endure"],
+				"antonyms": ["cease", "stop"],
+				"examples": [
+					{
+						"text": "If the pain persists, you should see a doctor.",
+						"viText": "Nếu cơn đau vẫn còn tiếp diễn, bạn nên đi khám bác sĩ."
+					},
+					{
+						"text": "He persists in his belief that he is right.",
+						"viText": "Anh ta vẫn khư khư giữ niềm tin rằng mình đúng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "persist in",
+						"meaning": "To continue doing something firmly",
+						"viMeaning": "kiên trì làm gì",
+						"example": "She persisted in her efforts to find a job.",
+						"viExample": "Cô ấy kiên trì trong nỗ lực tìm kiếm việc làm."
+					},
+					{
+						"phrase": "persist with",
+						"meaning": "To keep trying with a plan or task",
+						"viMeaning": "kiên trì với",
+						"example": "They decided to persist with the original plan.",
+						"viExample": "Họ quyết định kiên trì với kế hoạch ban đầu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "pursue",
+		"pos": "verb",
+		"ipa": "/pəˈsjuː/",
+		"cefrLevel": "B2",
+		"frequency": 5350,
+		"isCommon": false,
+		"wordForms": [{ "form": "pursuit", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To follow or chase someone or something",
+				"viDef": "theo đuổi, đuổi theo",
+				"synonyms": ["follow", "chase", "seek"],
+				"antonyms": ["flee", "avoid"],
+				"examples": [
+					{
+						"text": "She decided to pursue a career in medicine.",
+						"viText": "Cô ấy quyết định theo đuổi sự nghiệp y khoa."
+					},
+					{
+						"text": "The police continued to pursue the suspect.",
+						"viText": "Cảnh sát tiếp tục đuổi theo nghi phạm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "pursue a goal",
+						"meaning": "To work hard to achieve an objective",
+						"viMeaning": "theo đuổi mục tiêu",
+						"example": "You should always pursue your goals with passion.",
+						"viExample": "Bạn nên luôn theo đuổi mục tiêu của mình với niềm đam mê."
+					},
+					{
+						"phrase": "actively pursue",
+						"meaning": "To try very hard to get something",
+						"viMeaning": "tích cực theo đuổi",
+						"example": "The company is actively pursuing new markets.",
+						"viExample": "Công ty đang tích cực theo đuổi các thị trường mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "restrict",
+		"pos": "verb",
+		"ipa": "/rɪˈstrɪkt/",
+		"cefrLevel": "B2",
+		"frequency": 5850,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "restriction", "pos": "noun" },
+			{ "form": "restrictive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To put a limit on something",
+				"viDef": "hạn chế, giới hạn",
+				"synonyms": ["limit", "curb", "constrain"],
+				"antonyms": ["free", "expand"],
+				"examples": [
+					{
+						"text": "Access to the building is restricted to employees.",
+						"viText": "Việc ra vào tòa nhà bị giới hạn chỉ dành cho nhân viên."
+					},
+					{
+						"text": "The government wants to restrict cigarette advertising.",
+						"viText": "Chính phủ muốn hạn chế quảng cáo thuốc lá."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "severely restrict",
+						"meaning": "To limit something by a large amount",
+						"viMeaning": "hạn chế nghiêm ngặt",
+						"example": "The new law will severely restrict gun ownership.",
+						"viExample": "Luật mới sẽ hạn chế nghiêm ngặt quyền sở hữu súng."
+					},
+					{
+						"phrase": "restrict movement",
+						"meaning": "To stop someone or something from moving freely",
+						"viMeaning": "hạn chế di chuyển",
+						"example": "The tight clothes restricted her movement.",
+						"viExample": "Quần áo chật đã hạn chế sự di chuyển của cô ấy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "reveal",
+		"pos": "verb",
+		"ipa": "/rɪˈviːl/",
+		"cefrLevel": "B2",
+		"frequency": 5050,
+		"isCommon": false,
+		"wordForms": [{ "form": "revelation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make previously unknown information known to others",
+				"viDef": "tiết lộ, bộc lộ",
+				"synonyms": ["disclose", "unveil", "divulge"],
+				"antonyms": ["hide", "conceal"],
+				"examples": [
+					{
+						"text": "The survey reveals that many people are unhappy at work.",
+						"viText": "Cuộc khảo sát tiết lộ rằng nhiều người không hạnh phúc khi làm việc."
+					},
+					{
+						"text": "She refused to reveal her sources.",
+						"viText": "Cô ấy từ chối tiết lộ nguồn tin của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reveal a secret",
+						"meaning": "To tell someone something private",
+						"viMeaning": "tiết lộ bí mật",
+						"example": "He promised never to reveal the secret.",
+						"viExample": "Anh ấy hứa sẽ không bao giờ tiết lộ bí mật."
+					},
+					{
+						"phrase": "reveal information",
+						"meaning": "To give out facts that were hidden",
+						"viMeaning": "tiết lộ thông tin",
+						"example": "The documents reveal important information about the war.",
+						"viExample": "Các tài liệu tiết lộ thông tin quan trọng về cuộc chiến."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sustain",
+		"pos": "verb",
+		"ipa": "/səˈsteɪn/",
+		"cefrLevel": "B2",
+		"frequency": 5700,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "sustainable", "pos": "adjective" },
+			{ "form": "sustainability", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To strengthen or support physically or mentally over time",
+				"viDef": "duy trì, chống đỡ",
+				"synonyms": ["maintain", "support", "prolong"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The economy is struggling to sustain its growth.",
+						"viText": "Nền kinh tế đang gặp khó khăn để duy trì sự tăng trưởng."
+					},
+					{
+						"text": "She ate a chocolate bar to sustain her energy.",
+						"viText": "Cô ấy đã ăn một thanh sô cô la để duy trì năng lượng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sustain life",
+						"meaning": "To provide what is needed for living",
+						"viMeaning": "duy trì sự sống",
+						"example": "Water is essential to sustain life.",
+						"viExample": "Nước là thiết yếu để duy trì sự sống."
+					},
+					{
+						"phrase": "sustain damage",
+						"meaning": "To experience harm or loss",
+						"viMeaning": "chịu thiệt hại",
+						"example": "The ship sustained minor damage during the storm.",
+						"viExample": "Con tàu đã chịu thiệt hại nhỏ trong cơn bão."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "assert",
+		"pos": "verb",
+		"ipa": "/əˈsɜːt/",
+		"cefrLevel": "B2",
+		"frequency": 6150,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "assertion", "pos": "noun" },
+			{ "form": "assertive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To state a fact or belief confidently and forcefully",
+				"viDef": "khẳng định, quả quyết",
+				"synonyms": ["declare", "maintain", "insist"],
+				"antonyms": ["deny", "doubt"],
+				"examples": [
+					{
+						"text": "The company asserts that its products are safe.",
+						"viText": "Công ty khẳng định rằng các sản phẩm của họ là an toàn."
+					},
+					{
+						"text": "She continued to assert her innocence.",
+						"viText": "Cô ấy tiếp tục quả quyết mình vô tội."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "assert authority",
+						"meaning": "To make sure people respect your power",
+						"viMeaning": "khẳng định quyền uy",
+						"example": "The new manager needs to assert his authority.",
+						"viExample": "Người quản lý mới cần phải khẳng định quyền uy của mình."
+					},
+					{
+						"phrase": "assert oneself",
+						"meaning": "To behave in a confident way",
+						"viMeaning": "khẳng định bản thân",
+						"example": "You need to assert yourself more in meetings.",
+						"viExample": "Bạn cần phải khẳng định bản thân nhiều hơn trong các cuộc họp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "clarify",
+		"pos": "verb",
+		"ipa": "/ˈklærɪfaɪ/",
+		"cefrLevel": "B2",
+		"frequency": 5550,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "clarification", "pos": "noun" },
+			{ "form": "clarity", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make a statement or situation less confused",
+				"viDef": "làm rõ, làm sáng tỏ",
+				"synonyms": ["explain", "elucidate", "simplify"],
+				"antonyms": ["confuse", "complicate"],
+				"examples": [
+					{
+						"text": "Could you clarify what you mean by that?",
+						"viText": "Bạn có thể làm rõ ý của bạn khi nói vậy không?"
+					},
+					{
+						"text": "The law needs to be clarified to avoid misunderstandings.",
+						"viText": "Luật pháp cần được làm rõ để tránh những hiểu lầm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "clarify a point",
+						"meaning": "To explain a specific detail more clearly",
+						"viMeaning": "làm rõ một vấn đề",
+						"example": "I'd like to clarify one point before we move on.",
+						"viExample": "Tôi muốn làm rõ một điểm trước khi chúng ta tiếp tục."
+					},
+					{
+						"phrase": "help clarify",
+						"meaning": "To make something easier to understand",
+						"viMeaning": "giúp làm rõ",
+						"example": "These examples will help clarify the concept.",
+						"viExample": "Những ví dụ này sẽ giúp làm rõ khái niệm."
+					}
+				]
+			}
+		]
+	}
+]

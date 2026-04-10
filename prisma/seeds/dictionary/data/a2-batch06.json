@@ -1,0 +1,885 @@
+[
+	{
+		"headword": "diet",
+		"pos": "noun",
+		"ipa": "/ˈdaɪət/",
+		"cefrLevel": "A2",
+		"frequency": 1400,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "dietary", "pos": "adjective" },
+			{ "form": "dieter", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The food and drink usually eaten by a person",
+				"viDef": "chế độ ăn uống",
+				"synonyms": ["nutrition", "food"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "A healthy diet includes lots of fruit and vegetables.",
+						"viText": "Một chế độ ăn lành mạnh bao gồm nhiều trái cây và rau củ."
+					},
+					{ "text": "I am on a diet to lose some weight.", "viText": "Tôi đang ăn kiêng để giảm cân." }
+				],
+				"collocations": [
+					{
+						"phrase": "balanced diet",
+						"meaning": "A diet that contains the right amounts of different foods",
+						"viMeaning": "chế độ ăn cân bằng",
+						"example": "It is important to maintain a balanced diet.",
+						"viExample": "Duy trì một chế độ ăn uống cân bằng là rất quan trọng."
+					},
+					{
+						"phrase": "go on a diet",
+						"meaning": "To eat less food to become thinner",
+						"viMeaning": "ăn kiêng",
+						"example": "She decided to go on a diet before the wedding.",
+						"viExample": "Cô ấy quyết định ăn kiêng trước đám cưới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "symptom",
+		"pos": "noun",
+		"ipa": "/ˈsɪmptəm/",
+		"cefrLevel": "A2",
+		"frequency": 2800,
+		"isCommon": true,
+		"wordForms": [{ "form": "symptomatic", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A physical or mental feature indicating a condition of disease",
+				"viDef": "triệu chứng",
+				"synonyms": ["sign", "indication"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "A high fever is a common symptom of the flu.",
+						"viText": "Sốt cao là một triệu chứng phổ biến của bệnh cúm."
+					},
+					{
+						"text": "You should tell the doctor about all your symptoms.",
+						"viText": "Bạn nên nói với bác sĩ về tất cả các triệu chứng của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "common symptom",
+						"meaning": "A sign of illness that many people experience",
+						"viMeaning": "triệu chứng thường gặp",
+						"example": "Coughing is a common symptom of a cold.",
+						"viExample": "Ho là một triệu chứng thường gặp của cảm lạnh."
+					},
+					{
+						"phrase": "show symptoms",
+						"meaning": "To begin to have signs of being ill",
+						"viMeaning": "có triệu chứng",
+						"example": "He started to show symptoms after three days.",
+						"viExample": "Anh ấy bắt đầu có các triệu chứng sau ba ngày."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "nurse",
+		"pos": "noun",
+		"ipa": "/nɜːs/",
+		"cefrLevel": "A2",
+		"frequency": 1300,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "nursing", "pos": "noun" },
+			{ "form": "nursery", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person trained to care for sick or injured people",
+				"viDef": "y tá",
+				"synonyms": [],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The nurse gave the patient some medicine.",
+						"viText": "Y tá đã cho bệnh nhân uống thuốc."
+					},
+					{
+						"text": "She wants to be a nurse when she grows up.",
+						"viText": "Cô ấy muốn trở thành y tá khi lớn lên."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "head nurse",
+						"meaning": "The nurse in charge of a department or hospital",
+						"viMeaning": "y tá trưởng",
+						"example": "The head nurse checked all the patient records.",
+						"viExample": "Y tá trưởng đã kiểm tra tất cả hồ sơ bệnh nhân."
+					},
+					{
+						"phrase": "school nurse",
+						"meaning": "A nurse who works in a school",
+						"viMeaning": "y tá trường học",
+						"example": "I went to see the school nurse because of a headache.",
+						"viExample": "Tôi đã đi gặp y tá trường học vì bị đau đầu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "pharmacy",
+		"pos": "noun",
+		"ipa": "/ˈfɑːməsi/",
+		"cefrLevel": "A2",
+		"frequency": 2500,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "pharmacist", "pos": "noun" },
+			{ "form": "pharmaceutical", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A shop where medicines are prepared and sold",
+				"viDef": "nhà thuốc, dược phẩm",
+				"synonyms": ["chemist's", "drugstore"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Is there a pharmacy near the hospital?",
+						"viText": "Có nhà thuốc nào gần bệnh viện không?"
+					},
+					{
+						"text": "I need to go to the pharmacy to get some aspirin.",
+						"viText": "Tôi cần đi nhà thuốc để mua ít thuốc aspirin."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "local pharmacy",
+						"meaning": "A pharmacy located in your neighborhood",
+						"viMeaning": "nhà thuốc địa phương",
+						"example": "I picked up my prescription at the local pharmacy.",
+						"viExample": "Tôi đã lấy thuốc theo đơn tại nhà thuốc địa phương."
+					},
+					{
+						"phrase": "24-hour pharmacy",
+						"meaning": "A pharmacy that is open all day and night",
+						"viMeaning": "nhà thuốc mở cửa 24 giờ",
+						"example": "We need to find a 24-hour pharmacy tonight.",
+						"viExample": "Chúng ta cần tìm một nhà thuốc 24 giờ vào tối nay."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "emergency",
+		"pos": "noun",
+		"ipa": "/ɪˈmɜːdʒənsi/",
+		"cefrLevel": "A2",
+		"frequency": 1800,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A serious or dangerous situation needing immediate action",
+				"viDef": "trường hợp khẩn cấp",
+				"synonyms": ["crisis", "danger"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Call 911 only in case of a real emergency.",
+						"viText": "Chỉ gọi 911 trong trường hợp khẩn cấp thực sự."
+					},
+					{
+						"text": "The hospital has a special room for emergencies.",
+						"viText": "Bệnh viện có phòng đặc biệt dành cho các trường hợp khẩn cấp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "emergency exit",
+						"meaning": "A door used to leave a building in a dangerous situation",
+						"viMeaning": "lối thoát hiểm",
+						"example": "Please locate the nearest emergency exit.",
+						"viExample": "Vui lòng xác định vị trí lối thoát hiểm gần nhất."
+					},
+					{
+						"phrase": "emergency services",
+						"meaning": "Organizations like police and fire departments",
+						"viMeaning": "dịch vụ khẩn cấp",
+						"example": "The emergency services arrived within five minutes.",
+						"viExample": "Các dịch vụ khẩn cấp đã đến nơi trong vòng năm phút."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "accident",
+		"pos": "noun",
+		"ipa": "/ˈæksɪdənt/",
+		"cefrLevel": "A2",
+		"frequency": 1200,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "accidental", "pos": "adjective" },
+			{ "form": "accidentally", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something bad that happens that was not intended",
+				"viDef": "tai nạn, rủi ro",
+				"synonyms": ["mishap", "crash"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He was injured in a car accident yesterday.",
+						"viText": "Anh ấy đã bị thương trong một vụ tai nạn xe hơi hôm qua."
+					},
+					{ "text": "The glass broke by accident.", "viText": "Chiếc ly bị vỡ là do tình cờ." }
+				],
+				"collocations": [
+					{
+						"phrase": "traffic accident",
+						"meaning": "An accident involving vehicles on the road",
+						"viMeaning": "tai nạn giao thông",
+						"example": "Traffic accidents are common in the rainy season.",
+						"viExample": "Tai nạn giao thông thường xảy ra vào mùa mưa."
+					},
+					{
+						"phrase": "serious accident",
+						"meaning": "An accident that causes a lot of damage or injury",
+						"viMeaning": "tai nạn nghiêm trọng",
+						"example": "Luckily, no one died in the serious accident.",
+						"viExample": "May mắn thay, không ai tử vong trong vụ tai nạn nghiêm trọng đó."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "injury",
+		"pos": "noun",
+		"ipa": "/ˈɪndʒəri/",
+		"cefrLevel": "A2",
+		"frequency": 2100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "injure", "pos": "verb" },
+			{ "form": "injured", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Physical damage done to a person's body",
+				"viDef": "vết thương, chấn thương",
+				"synonyms": ["wound", "damage"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She suffered a leg injury while playing football.",
+						"viText": "Cô ấy bị chấn thương ở chân khi đang chơi bóng đá."
+					},
+					{
+						"text": "It was only a minor injury, so don't worry.",
+						"viText": "Đó chỉ là một vết thương nhẹ thôi, nên đừng lo lắng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "serious injury",
+						"meaning": "A physical harm that is very bad",
+						"viMeaning": "chấn thương nặng",
+						"example": "He was taken to hospital with a serious injury.",
+						"viExample": "Anh ấy đã được đưa đến bệnh viện với một chấn thương nặng."
+					},
+					{
+						"phrase": "head injury",
+						"meaning": "Damage to the head or brain",
+						"viMeaning": "chấn thương đầu",
+						"example": "Cyclists should wear helmets to avoid head injuries.",
+						"viExample": "Người đi xe đạp nên đội mũ bảo hiểm để tránh chấn thương đầu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "recover",
+		"pos": "verb",
+		"ipa": "/rɪˈkʌvə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 2300,
+		"isCommon": true,
+		"wordForms": [{ "form": "recovery", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To become well again after being sick or injured",
+				"viDef": "hồi phục",
+				"synonyms": ["improve", "get better"],
+				"antonyms": ["worsen"],
+				"examples": [
+					{
+						"text": "It took him a long time to recover from the flu.",
+						"viText": "Anh ấy đã mất một thời gian dài để hồi phục sau khi bị cúm."
+					},
+					{ "text": "She is recovering well at home.", "viText": "Cô ấy đang hồi phục tốt tại nhà." }
+				],
+				"collocations": [
+					{
+						"phrase": "fully recover",
+						"meaning": "To become 100% healthy again",
+						"viMeaning": "hồi phục hoàn toàn",
+						"example": "The doctor says he will fully recover in a month.",
+						"viExample": "Bác sĩ nói rằng anh ấy sẽ hồi phục hoàn toàn trong một tháng."
+					},
+					{
+						"phrase": "recover from",
+						"meaning": "To get better after a specific illness or event",
+						"viMeaning": "hồi phục sau khi",
+						"example": "She is still recovering from the operation.",
+						"viExample": "Cô ấy vẫn đang hồi phục sau cuộc phẫu thuật."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "report",
+		"pos": "noun",
+		"ipa": "/rɪˈpɔːt/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "reporter", "pos": "noun" },
+			{ "form": "report", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A written or spoken description of an event",
+				"viDef": "báo cáo, bản tin",
+				"synonyms": ["account", "story"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I have to write a report for my boss.",
+						"viText": "Tôi phải viết một bản báo cáo cho sếp của mình."
+					},
+					{
+						"text": "The news report said there was a storm coming.",
+						"viText": "Bản tin thời sự nói rằng có một cơn bão đang đến."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "weather report",
+						"meaning": "A description of what the weather will be like",
+						"viMeaning": "bản tin thời tiết",
+						"example": "Did you hear the weather report this morning?",
+						"viExample": "Bạn có nghe bản tin thời tiết sáng nay không?"
+					},
+					{
+						"phrase": "annual report",
+						"meaning": "A report about a company's activities during the year",
+						"viMeaning": "báo cáo thường niên",
+						"example": "The annual report shows the company made a profit.",
+						"viExample": "Báo cáo thường niên cho thấy công ty đã có lãi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "news",
+		"pos": "noun",
+		"ipa": "/njuːz/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [{ "form": "newsletter", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "New information about something that has happened recently",
+				"viDef": "tin tức",
+				"synonyms": ["information", "tidings"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "What is the latest news about the election?",
+						"viText": "Tin tức mới nhất về cuộc bầu cử là gì?"
+					},
+					{
+						"text": "That's great news! Congratulations!",
+						"viText": "Đó là một tin tuyệt vời! Chúc mừng nhé!"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "watch the news",
+						"meaning": "To look at news programs on television",
+						"viMeaning": "xem tin tức",
+						"example": "My father watches the news every evening.",
+						"viExample": "Bố tôi xem tin tức mỗi tối."
+					},
+					{
+						"phrase": "break the news",
+						"meaning": "To tell someone some new, usually important, information",
+						"viMeaning": "báo tin",
+						"example": "He had to break the news of the accident to her.",
+						"viExample": "Anh ấy đã phải báo tin về vụ tai nạn cho cô ấy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "article",
+		"pos": "noun",
+		"ipa": "/ˈɑːtɪkl/",
+		"cefrLevel": "A2",
+		"frequency": 1300,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A piece of writing in a newspaper or magazine",
+				"viDef": "bài báo, bài viết",
+				"synonyms": ["feature", "story"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I read an interesting article about AI yesterday.",
+						"viText": "Tôi đã đọc một bài báo thú vị về AI vào hôm qua."
+					},
+					{
+						"text": "She wrote an article for the school magazine.",
+						"viText": "Cô ấy đã viết một bài báo cho tạp chí trường học."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "newspaper article",
+						"meaning": "A story written in a daily paper",
+						"viMeaning": "bài báo",
+						"example": "Did you see the newspaper article about the festival?",
+						"viExample": "Bạn có thấy bài báo về lễ hội không?"
+					},
+					{
+						"phrase": "write an article",
+						"meaning": "To compose a piece for a publication",
+						"viMeaning": "viết một bài báo",
+						"example": "He was asked to write an article on health.",
+						"viExample": "Anh ấy được yêu cầu viết một bài báo về sức khỏe."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "magazine",
+		"pos": "noun",
+		"ipa": "/ˌmæɡəˈziːn/",
+		"cefrLevel": "A2",
+		"frequency": 1600,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A thin book with a paper cover published regularly",
+				"viDef": "tạp chí",
+				"synonyms": ["periodical", "journal"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "My sister likes reading fashion magazines.",
+						"viText": "Em gái tôi thích đọc các tạp chí thời trang."
+					},
+					{
+						"text": "He bought a sports magazine at the airport.",
+						"viText": "Anh ấy đã mua một tạp chí thể thao tại sân bay."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "weekly magazine",
+						"meaning": "A magazine that is published once a week",
+						"viMeaning": "tạp chí hàng tuần",
+						"example": "This weekly magazine has the best recipes.",
+						"viExample": "Tạp chí hàng tuần này có những công thức nấu ăn hay nhất."
+					},
+					{
+						"phrase": "online magazine",
+						"meaning": "A magazine that is published on the internet",
+						"viMeaning": "tạp chí trực tuyến",
+						"example": "She works for a popular online magazine.",
+						"viExample": "Cô ấy làm việc cho một tạp chí trực tuyến phổ biến."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "television",
+		"pos": "noun",
+		"ipa": "/ˈtelɪvɪʒn/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [{ "form": "televise", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A piece of equipment with a screen for programs",
+				"viDef": "vô tuyến, tivi",
+				"synonyms": ["TV", "the box"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We bought a new television for the living room.",
+						"viText": "Chúng tôi đã mua một chiếc tivi mới cho phòng khách."
+					},
+					{ "text": "What is on television tonight?", "viText": "Tối nay có gì trên tivi không?" }
+				],
+				"collocations": [
+					{
+						"phrase": "watch television",
+						"meaning": "To look at programs on a TV",
+						"viMeaning": "xem tivi",
+						"example": "Don't spend all day watching television.",
+						"viExample": "Đừng dành cả ngày để xem tivi."
+					},
+					{
+						"phrase": "television channel",
+						"meaning": "A station that broadcasts TV programs",
+						"viMeaning": "kênh truyền hình",
+						"example": "Which television channel is the game on?",
+						"viExample": "Trận đấu đang chiếu trên kênh truyền hình nào?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "internet",
+		"pos": "noun",
+		"ipa": "/ˈɪntənet/",
+		"cefrLevel": "A2",
+		"frequency": 1020,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The system that connects computers all over the world",
+				"viDef": "mạng internet",
+				"synonyms": ["the web", "cyberspace"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I use the internet to look for information.",
+						"viText": "Tôi sử dụng internet để tìm kiếm thông tin."
+					},
+					{ "text": "The internet is very slow today.", "viText": "Mạng internet hôm nay rất chậm." }
+				],
+				"collocations": [
+					{
+						"phrase": "surf the internet",
+						"meaning": "To look at various websites for fun",
+						"viMeaning": "lướt mạng",
+						"example": "He spent the whole afternoon surfing the internet.",
+						"viExample": "Anh ấy đã dành cả buổi chiều để lướt mạng."
+					},
+					{
+						"phrase": "access the internet",
+						"meaning": "To connect to the worldwide network",
+						"viMeaning": "truy cập internet",
+						"example": "Does this hotel provide free access the internet?",
+						"viExample": "Khách sạn này có cung cấp truy cập internet miễn phí không?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "website",
+		"pos": "noun",
+		"ipa": "/ˈwebsaɪt/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A set of pages of information on the internet",
+				"viDef": "trang web",
+				"synonyms": ["site"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "You can find more details on our website.",
+						"viText": "Bạn có thể tìm thêm chi tiết trên trang web của chúng tôi."
+					},
+					{
+						"text": "Which website do you usually use for news?",
+						"viText": "Bạn thường dùng trang web nào để xem tin tức?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "official website",
+						"meaning": "The main website controlled by an organization",
+						"viMeaning": "trang web chính thức",
+						"example": "Please check the official website for tickets.",
+						"viExample": "Vui lòng kiểm tra trang web chính thức để mua vé."
+					},
+					{
+						"phrase": "visit a website",
+						"meaning": "To go to a specific page on the internet",
+						"viMeaning": "truy cập trang web",
+						"example": "I visit that website every day.",
+						"viExample": "Tôi truy cập trang web đó mỗi ngày."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "email",
+		"pos": "noun",
+		"ipa": "/ˈiːmeɪl/",
+		"cefrLevel": "A2",
+		"frequency": 1010,
+		"isCommon": true,
+		"wordForms": [{ "form": "email", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A message sent from one computer to another",
+				"viDef": "thư điện tử",
+				"synonyms": [],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I sent an email to my teacher this morning.",
+						"viText": "Tôi đã gửi một email cho giáo viên của mình sáng nay."
+					},
+					{ "text": "What is your email address?", "viText": "Địa chỉ email của bạn là gì?" }
+				],
+				"collocations": [
+					{
+						"phrase": "receive an email",
+						"meaning": "To get a message in your inbox",
+						"viMeaning": "nhận email",
+						"example": "Did you receive my email about the meeting?",
+						"viExample": "Bạn có nhận được email của tôi về cuộc họp không?"
+					},
+					{
+						"phrase": "reply to an email",
+						"meaning": "To send a response back to an email",
+						"viMeaning": "trả lời email",
+						"example": "I need to reply to this email immediately.",
+						"viExample": "Tôi cần trả lời email này ngay lập tức."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "message",
+		"pos": "noun",
+		"ipa": "/ˈmesɪdʒ/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "messenger", "pos": "noun" },
+			{ "form": "messaging", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A written or spoken piece of information sent to someone",
+				"viDef": "tin nhắn, thông điệp",
+				"synonyms": ["note", "memo"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I left a message for him on his phone.",
+						"viText": "Tôi đã để lại một tin nhắn cho anh ấy trên điện thoại."
+					},
+					{
+						"text": "Did you get my message about the party?",
+						"viText": "Bạn có nhận được tin nhắn của tôi về bữa tiệc không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "text message",
+						"meaning": "A short message sent from a mobile phone",
+						"viMeaning": "tin nhắn văn bản",
+						"example": "She sent me a text message to say she was late.",
+						"viExample": "Cô ấy gửi cho tôi một tin nhắn văn bản nói rằng cô ấy đến muộn."
+					},
+					{
+						"phrase": "clear message",
+						"meaning": "A message that is easy to understand",
+						"viMeaning": "thông điệp rõ ràng",
+						"example": "The advertisement sends a clear message to customers.",
+						"viExample": "Quảng cáo gửi một thông điệp rõ ràng tới khách hàng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "team",
+		"pos": "noun",
+		"ipa": "/tiːm/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "teammate", "pos": "noun" },
+			{ "form": "teamwork", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A group of people who play a sport/work together",
+				"viDef": "đội, nhóm",
+				"synonyms": ["group", "squad"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "Which football team do you support?", "viText": "Bạn ủng hộ đội bóng nào?" },
+					{
+						"text": "Our team won the game yesterday.",
+						"viText": "Đội của chúng tôi đã thắng trận đấu hôm qua."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "team captain",
+						"meaning": "The leader of a sports team",
+						"viMeaning": "đội trưởng",
+						"example": "He was chosen to be the team captain.",
+						"viExample": "Anh ấy được chọn làm đội trưởng."
+					},
+					{
+						"phrase": "work as a team",
+						"meaning": "To cooperate with others to achieve a goal",
+						"viMeaning": "làm việc nhóm",
+						"example": "We need to work as a team to finish this.",
+						"viExample": "Chúng ta cần làm việc nhóm để hoàn thành việc này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "match",
+		"pos": "noun",
+		"ipa": "/mætʃ/",
+		"cefrLevel": "A2",
+		"frequency": 1250,
+		"isCommon": true,
+		"wordForms": [{ "form": "match", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A formal contest in which people or teams compete",
+				"viDef": "trận đấu",
+				"synonyms": ["game", "competition"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Are you going to watch the football match tonight?",
+						"viText": "Bạn có định xem trận đấu bóng đá tối nay không?"
+					},
+					{ "text": "It was a very exciting match.", "viText": "Đó là một trận đấu rất hào hứng." }
+				],
+				"collocations": [
+					{
+						"phrase": "tennis match",
+						"meaning": "A game of tennis played between two players",
+						"viMeaning": "trận tennis",
+						"example": "The tennis match lasted for three hours.",
+						"viExample": "Trận tennis kéo dài trong ba giờ."
+					},
+					{
+						"phrase": "win a match",
+						"meaning": "To be the victorious side in a game",
+						"viMeaning": "thắng một trận đấu",
+						"example": "They worked hard to win the match.",
+						"viExample": "Họ đã nỗ lực hết mình để thắng trận đấu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "win",
+		"pos": "verb",
+		"ipa": "/wɪn/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "winner", "pos": "noun" },
+			{ "form": "winning", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To be the best or first in a competition",
+				"viDef": "chiến thắng",
+				"synonyms": ["triumph", "beat"],
+				"antonyms": ["lose"],
+				"examples": [
+					{
+						"text": "He hopes to win the race tomorrow.",
+						"viText": "Anh ấy hy vọng sẽ thắng cuộc đua ngày mai."
+					},
+					{
+						"text": "Our team won by three goals.",
+						"viText": "Đội của chúng tôi đã thắng với cách biệt ba bàn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "win a prize",
+						"meaning": "To receive an award for being the best",
+						"viMeaning": "giành giải thưởng",
+						"example": "She won a prize in the photography contest.",
+						"viExample": "Cô ấy đã giành được một giải thưởng trong cuộc thi nhiếp ảnh."
+					},
+					{
+						"phrase": "win a game",
+						"meaning": "To be the victorious player in a match",
+						"viMeaning": "thắng một trò chơi",
+						"example": "It feels great to win a game after so long.",
+						"viExample": "Cảm giác thật tuyệt khi thắng một trò chơi sau một thời gian dài."
+					}
+				]
+			}
+		]
+	}
+]

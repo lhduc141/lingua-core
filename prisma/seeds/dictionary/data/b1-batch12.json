@@ -1,0 +1,917 @@
+[
+	{
+		"headword": "career",
+		"pos": "noun",
+		"ipa": "/kəˈrɪə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A job or series of jobs that someone does for a long time",
+				"viDef": "sự nghiệp",
+				"synonyms": ["profession", "vocation", "occupation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He chose a career in medicine because he wanted to help people.",
+						"viText": "Anh ấy chọn sự nghiệp y học vì muốn giúp đỡ mọi người."
+					},
+					{
+						"text": "She has had a long and successful career in journalism.",
+						"viText": "Cô ấy đã có một sự nghiệp lâu dài và thành công trong ngành báo chí."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "career path",
+						"meaning": "The sequence of jobs that leads to your goals",
+						"viMeaning": "con đường sự nghiệp",
+						"example": "You need to plan your career path carefully.",
+						"viExample": "Bạn cần lên kế hoạch cho con đường sự nghiệp của mình một cách cẩn thận."
+					},
+					{
+						"phrase": "career prospects",
+						"meaning": "The chances of being successful in a job",
+						"viMeaning": "triển vọng nghề nghiệp",
+						"example": "The career prospects in this industry are excellent.",
+						"viExample": "Triển vọng nghề nghiệp trong ngành này rất tuyệt vời."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "profession",
+		"pos": "noun",
+		"ipa": "/prəˈfeʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "professional", "pos": "adjective" },
+			{ "form": "professionalism", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A type of job that needs special training or skill",
+				"viDef": "nghề nghiệp, chuyên môn",
+				"synonyms": ["career", "field", "line of work"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The teaching profession is very demanding but rewarding.",
+						"viText": "Nghề dạy học rất vất vất vả nhưng cũng rất xứng đáng."
+					},
+					{
+						"text": "He is a doctor by profession.",
+						"viText": "Anh ấy là bác sĩ theo nghề nghiệp chuyên môn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "medical profession",
+						"meaning": "People who work as doctors, nurses, etc.",
+						"viMeaning": "ngành y",
+						"example": "She is a highly respected member of the medical profession.",
+						"viExample": "Cô ấy là một thành viên rất được kính trọng trong ngành y."
+					},
+					{
+						"phrase": "enter a profession",
+						"meaning": "To start working in a specific career field",
+						"viMeaning": "vào nghề",
+						"example": "Many young people want to enter the legal profession.",
+						"viExample": "Nhiều người trẻ muốn bước chân vào ngành luật."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "qualification",
+		"pos": "noun",
+		"ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3600,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "qualify", "pos": "verb" },
+			{ "form": "qualified", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An exam or course passed to show you can do a job",
+				"viDef": "bằng cấp, chứng chỉ",
+				"synonyms": ["certificate", "degree", "diploma"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "You need a teaching qualification to work in this school.",
+						"viText": "Bạn cần có bằng cấp sư phạm để làm việc tại trường này."
+					},
+					{
+						"text": "What qualifications do you need for this position?",
+						"viText": "Bạn cần những bằng cấp nào cho vị trí này?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "professional qualification",
+						"meaning": "A certificate related to a specific job",
+						"viMeaning": "bằng cấp chuyên môn",
+						"example": "He has several professional qualifications in accounting.",
+						"viExample": "Anh ấy có vài chứng chỉ chuyên môn về kế toán."
+					},
+					{
+						"phrase": "gain a qualification",
+						"meaning": "To successfully complete a course or exam",
+						"viMeaning": "có được bằng cấp",
+						"example": "She hopes to gain a qualification in marketing.",
+						"viExample": "Cô ấy hy vọng có được một chứng chỉ về tiếp thị."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "degree",
+		"pos": "noun",
+		"ipa": "/dɪˈɡriː/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A course of study at a university and its qualification",
+				"viDef": "bằng đại học",
+				"synonyms": ["diploma", "academic title"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She has a degree in computer science.",
+						"viText": "Cô ấy có bằng đại học ngành khoa học máy tính."
+					},
+					{
+						"text": "It is difficult to find a good job without a degree.",
+						"viText": "Rất khó để tìm được một công việc tốt nếu không có bằng đại học."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "university degree",
+						"meaning": "A qualification given by a university",
+						"viMeaning": "bằng đại học",
+						"example": "A university degree can lead to better salaries.",
+						"viExample": "Một tấm bằng đại học có thể dẫn đến mức lương tốt hơn."
+					},
+					{
+						"phrase": "master's degree",
+						"meaning": "A postgraduate degree above a bachelor's",
+						"viMeaning": "bằng thạc sĩ",
+						"example": "He is studying for a master's degree in business.",
+						"viExample": "Anh ấy đang học bằng thạc sĩ kinh doanh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "promotion",
+		"pos": "noun",
+		"ipa": "/prəˈməʊʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [{ "form": "promote", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A move to a more important job in a company",
+				"viDef": "sự thăng tiến, thăng chức",
+				"synonyms": ["advancement", "upgrade"],
+				"antonyms": ["demotion"],
+				"examples": [
+					{
+						"text": "She is hoping to get a promotion this year.",
+						"viText": "Cô ấy hy vọng sẽ được thăng chức trong năm nay."
+					},
+					{
+						"text": "His promotion to manager was well-deserved.",
+						"viText": "Việc anh ấy thăng chức lên quản lý là hoàn toàn xứng đáng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "earn a promotion",
+						"meaning": "To get a higher job through hard work",
+						"viMeaning": "được thăng chức",
+						"example": "He worked tirelessly to earn a promotion.",
+						"viExample": "Anh ấy đã làm việc không mệt mỏi để được thăng chức."
+					},
+					{
+						"phrase": "chance of promotion",
+						"meaning": "The possibility of moving up at work",
+						"viMeaning": "cơ hội thăng tiến",
+						"example": "There are good chances of promotion in this firm.",
+						"viExample": "Có nhiều cơ hội thăng tiến tốt trong công ty này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "salary",
+		"pos": "noun",
+		"ipa": "/ˈsæləri/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [{ "form": "salaried", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Money paid every month to an employee for their work",
+				"viDef": "tiền lương",
+				"synonyms": ["pay", "earnings", "income"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She receives a monthly salary of $3,000.",
+						"viText": "Cô ấy nhận được mức lương hàng tháng là 3.000 đô la."
+					},
+					{
+						"text": "The company offers a competitive salary and benefits.",
+						"viText": "Công ty cung cấp mức lương và phúc lợi cạnh tranh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "annual salary",
+						"meaning": "The total amount earned in a year",
+						"viMeaning": "lương hàng năm",
+						"example": "What is the average annual salary for this job?",
+						"viExample": "Mức lương hàng năm trung bình cho công việc này là bao nhiêu?"
+					},
+					{
+						"phrase": "starting salary",
+						"meaning": "The amount of money paid at the beginning of a job",
+						"viMeaning": "lương khởi điểm",
+						"example": "The starting salary is relatively low but increases quickly.",
+						"viExample": "Lương khởi điểm tương đối thấp nhưng tăng nhanh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "retire",
+		"pos": "verb",
+		"ipa": "/rɪˈtaɪə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "retirement", "pos": "noun" },
+			{ "form": "retired", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To stop working because you have reached a certain age",
+				"viDef": "nghỉ hưu",
+				"synonyms": ["stop working"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He plans to retire when he is sixty-five.",
+						"viText": "Anh ấy dự định nghỉ hưu khi sáu mươi lăm tuổi."
+					},
+					{
+						"text": "She retired from teaching after thirty years.",
+						"viText": "Cô ấy đã nghỉ hưu sau ba mươi năm dạy học."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "early retirement",
+						"meaning": "Stopping work before the usual age",
+						"viMeaning": "nghỉ hưu sớm",
+						"example": "Many employees opted for early retirement.",
+						"viExample": "Nhiều nhân viên đã chọn nghỉ hưu sớm."
+					},
+					{
+						"phrase": "retire from a position",
+						"meaning": "To leave a specific job permanently",
+						"viMeaning": "nghỉ hưu khỏi vị trí",
+						"example": "The CEO will retire from his position next month.",
+						"viExample": "Giám đốc điều hành sẽ nghỉ hưu khỏi vị trí của mình vào tháng tới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "employee",
+		"pos": "noun",
+		"ipa": "/ɪmˈplɔɪiː/",
+		"cefrLevel": "B1",
+		"frequency": 3030,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "employ", "pos": "verb" },
+			{ "form": "employer", "pos": "noun" },
+			{ "form": "employment", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person who is paid to work for someone else",
+				"viDef": "nhân viên, người lao động",
+				"synonyms": ["worker", "staff member"],
+				"antonyms": ["employer"],
+				"examples": [
+					{
+						"text": "The company has over five hundred employees.",
+						"viText": "Công ty có hơn năm trăm nhân viên."
+					},
+					{
+						"text": "Every employee is entitled to twenty days of holiday.",
+						"viText": "Mỗi nhân viên được hưởng hai mươi ngày nghỉ lễ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "full-time employee",
+						"meaning": "Someone who works the standard number of hours",
+						"viMeaning": "nhân viên toàn thời gian",
+						"example": "She is a full-time employee at the bank.",
+						"viExample": "Cô ấy là nhân viên toàn thời gian tại ngân hàng."
+					},
+					{
+						"phrase": "employee benefits",
+						"meaning": "Extras given to workers like health insurance",
+						"viMeaning": "phúc lợi nhân viên",
+						"example": "The company offers excellent employee benefits.",
+						"viExample": "Công ty cung cấp các phúc lợi nhân viên tuyệt vời."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "employer",
+		"pos": "noun",
+		"ipa": "/ɪmˈplɔɪə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3040,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "employ", "pos": "verb" },
+			{ "form": "employee", "pos": "noun" },
+			{ "form": "employment", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person or company that pays people to work",
+				"viDef": "chủ, nhà tuyển dụng",
+				"synonyms": ["boss", "firm", "owner"],
+				"antonyms": ["employee"],
+				"examples": [
+					{
+						"text": "Her employer is very happy with her performance.",
+						"viText": "Chủ của cô ấy rất hài lòng với hiệu suất làm việc của cô."
+					},
+					{ "text": "Who is your current employer?", "viText": "Nhà tuyển dụng hiện tại của bạn là ai?" }
+				],
+				"collocations": [
+					{
+						"phrase": "previous employer",
+						"meaning": "The company someone worked for before",
+						"viMeaning": "chủ cũ",
+						"example": "We need a reference from your previous employer.",
+						"viExample": "Chúng tôi cần thư giới thiệu từ chủ cũ của bạn."
+					},
+					{
+						"phrase": "large employer",
+						"meaning": "A big organization with many workers",
+						"viMeaning": "nhà tuyển dụng lớn",
+						"example": "The local hospital is a large employer in this area.",
+						"viExample": "Bệnh viện địa phương là một nhà tuyển dụng lớn trong khu vực này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "colleague",
+		"pos": "noun",
+		"ipa": "/ˈkɒliːɡ/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person that you work with",
+				"viDef": "đồng nghiệp",
+				"synonyms": ["coworker", "teammate"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I invited my colleagues to the office party.",
+						"viText": "Tôi đã mời các đồng nghiệp của mình đến bữa tiệc văn phòng."
+					},
+					{
+						"text": "We discussed the matter with our colleagues in London.",
+						"viText": "Chúng tôi đã thảo luận vấn đề này với các đồng nghiệp ở London."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "close colleague",
+						"meaning": "A coworker you know well or work with often",
+						"viMeaning": "đồng nghiệp thân thiết",
+						"example": "He has been a close colleague for many years.",
+						"viExample": "Anh ấy đã là một đồng nghiệp thân thiết trong nhiều năm."
+					},
+					{
+						"phrase": "former colleague",
+						"meaning": "Someone you used to work with",
+						"viMeaning": "đồng nghiệp cũ",
+						"example": "I still meet up with my former colleagues.",
+						"viExample": "Tôi vẫn thỉnh thoảng gặp gỡ các đồng nghiệp cũ của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "teamwork",
+		"pos": "noun",
+		"ipa": "/ˈtiːmwɜːk/",
+		"cefrLevel": "B1",
+		"frequency": 3800,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The activity of working together in a group",
+				"viDef": "làm việc nhóm",
+				"synonyms": ["cooperation", "collaboration"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The project was a success thanks to great teamwork.",
+						"viText": "Dự án đã thành công nhờ vào tinh thần làm việc nhóm tuyệt vời."
+					},
+					{
+						"text": "Teamwork is essential in most modern jobs.",
+						"viText": "Làm việc nhóm là thiết yếu trong hầu hết các công việc hiện đại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sense of teamwork",
+						"meaning": "A feeling of cooperation among a group",
+						"viMeaning": "tinh thần đồng đội",
+						"example": "The manager encouraged a sense of teamwork.",
+						"viExample": "Người quản lý đã khuyến khích tinh thần đồng đội."
+					},
+					{
+						"phrase": "lack of teamwork",
+						"meaning": "When a group fails to collaborate effectively",
+						"viMeaning": "thiếu sự phối hợp nhóm",
+						"example": "The failure was due to a lack of teamwork.",
+						"viExample": "Sự thất bại là do thiếu sự phối hợp nhóm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "leadership",
+		"pos": "noun",
+		"ipa": "/ˈliːdəʃɪp/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "leader", "pos": "noun" },
+			{ "form": "lead", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The position or state of being a leader",
+				"viDef": "khả năng lãnh đạo",
+				"synonyms": ["guidance", "authority", "direction"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She showed great leadership during the crisis.",
+						"viText": "Cô ấy đã thể hiện khả năng lãnh đạo tuyệt vời trong suốt cuộc khủng hoảng."
+					},
+					{
+						"text": "Strong leadership is needed for the company to grow.",
+						"viText": "Cần có sự lãnh đạo mạnh mẽ để công ty phát triển."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "leadership skills",
+						"meaning": "Abilities needed to guide other people",
+						"viMeaning": "kỹ năng lãnh đạo",
+						"example": "The course aims to develop your leadership skills.",
+						"viExample": "Khóa học nhằm mục đích phát triển kỹ năng lãnh đạo của bạn."
+					},
+					{
+						"phrase": "take leadership",
+						"meaning": "To accept the role of a leader",
+						"viMeaning": "đảm nhận vai trò lãnh đạo",
+						"example": "He was asked to take leadership of the new team.",
+						"viExample": "Anh ấy đã được yêu cầu đảm nhận vai trò lãnh đạo đội ngũ mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "decision",
+		"pos": "noun",
+		"ipa": "/dɪˈsɪʒn/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "decide", "pos": "verb" },
+			{ "form": "decisive", "pos": "adjective" },
+			{ "form": "decisively", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A choice that you make after thinking",
+				"viDef": "quyết định",
+				"synonyms": ["choice", "judgment", "selection"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "It was a difficult decision to make.",
+						"viText": "Đó là một quyết định khó khăn để đưa ra."
+					},
+					{
+						"text": "We are still waiting for a final decision.",
+						"viText": "Chúng tôi vẫn đang chờ đợi một quyết định cuối cùng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make a decision",
+						"meaning": "To choose what to do after considering options",
+						"viMeaning": "đưa ra quyết định",
+						"example": "You need to make a decision quickly.",
+						"viExample": "Bạn cần đưa ra quyết định nhanh chóng."
+					},
+					{
+						"phrase": "take a decision",
+						"meaning": "A formal way of saying make a decision",
+						"viMeaning": "ra quyết định",
+						"example": "The board will take a decision tomorrow morning.",
+						"viExample": "Hội đồng quản trị sẽ ra quyết định vào sáng mai."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "deadline",
+		"pos": "noun",
+		"ipa": "/ˈdedlaɪn/",
+		"cefrLevel": "B1",
+		"frequency": 3900,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A time or date by which something must be finished",
+				"viDef": "hạn chót, thời hạn",
+				"synonyms": ["time limit", "due date"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The deadline for the report is next Friday.",
+						"viText": "Hạn chót cho bản báo cáo là thứ Sáu tới."
+					},
+					{
+						"text": "I'm working hard to meet the deadline.",
+						"viText": "Tôi đang làm việc chăm chỉ để kịp thời hạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "meet a deadline",
+						"meaning": "To finish something on time",
+						"viMeaning": "kịp thời hạn",
+						"example": "We struggled to meet the tight deadline.",
+						"viExample": "Chúng tôi đã vật lộn để kịp thời hạn eo hẹp."
+					},
+					{
+						"phrase": "miss a deadline",
+						"meaning": "To fail to finish something on time",
+						"viMeaning": "trễ hạn",
+						"example": "If you miss the deadline, you will lose points.",
+						"viExample": "Nếu bạn trễ hạn, bạn sẽ bị trừ điểm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "workload",
+		"pos": "noun",
+		"ipa": "/ˈwɜːkləʊd/",
+		"cefrLevel": "B1",
+		"frequency": 4500,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The amount of work that a person has to do",
+				"viDef": "khối lượng công việc",
+				"synonyms": ["duties", "tasks", "burden"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The teachers are complaining about their heavy workload.",
+						"viText": "Các giáo viên đang phàn nàn về khối lượng công việc nặng nề của họ."
+					},
+					{
+						"text": "We need more staff to handle the increasing workload.",
+						"viText": "Chúng ta cần thêm nhân viên để xử lý khối lượng công việc đang tăng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "heavy workload",
+						"meaning": "Having a lot of tasks to complete",
+						"viMeaning": "khối lượng công việc nặng",
+						"example": "A heavy workload can lead to stress.",
+						"viExample": "Khối lượng công việc nặng có thể dẫn đến căng thẳng."
+					},
+					{
+						"phrase": "manage workload",
+						"meaning": "To organize and handle your tasks effectively",
+						"viMeaning": "quản lý khối lượng công việc",
+						"example": "I use a planner to manage my workload.",
+						"viExample": "Tôi sử dụng một cuốn sổ kế hoạch để quản lý khối lượng công việc của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "balance",
+		"pos": "noun",
+		"ipa": "/ˈbæləns/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "balanced", "pos": "adjective" },
+			{ "form": "balance", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A state where things are equal or in correct proportions",
+				"viDef": "sự cân bằng",
+				"synonyms": ["equilibrium", "stability"],
+				"antonyms": ["imbalance"],
+				"examples": [
+					{
+						"text": "It's important to find a balance between work and life.",
+						"viText": "Việc tìm thấy sự cân bằng giữa công việc và cuộc sống là rất quan trọng."
+					},
+					{
+						"text": "You need a good balance of protein and vitamins.",
+						"viText": "Bạn cần một sự cân bằng tốt giữa chất đạm và vitamin."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "work-life balance",
+						"meaning": "The equilibrium between your job and personal time",
+						"viMeaning": "cân bằng công việc - cuộc sống",
+						"example": "Remote work can improve your work-life balance.",
+						"viExample": "Làm việc từ xa có thể cải thiện sự cân bằng công việc - cuộc sống của bạn."
+					},
+					{
+						"phrase": "keep your balance",
+						"meaning": "To remain steady and not fall",
+						"viMeaning": "giữ thăng bằng",
+						"example": "The ice was slippery, so I tried to keep my balance.",
+						"viExample": "Băng rất trơn, nên tôi đã cố gắng giữ thăng bằng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "remote",
+		"pos": "adjective",
+		"ipa": "/rɪˈməʊt/",
+		"cefrLevel": "B1",
+		"frequency": 3600,
+		"isCommon": false,
+		"wordForms": [{ "form": "remotely", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Far away from other people, places, or the office",
+				"viDef": "từ xa, xa xôi",
+				"synonyms": ["distant", "isolated", "far-off"],
+				"antonyms": ["near", "local"],
+				"examples": [
+					{
+						"text": "Many people enjoy the flexibility of remote work.",
+						"viText": "Nhiều người thích sự linh hoạt của việc làm việc từ xa."
+					},
+					{
+						"text": "They live in a remote village in the mountains.",
+						"viText": "Họ sống trong một ngôi làng xa xôi trên núi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "remote work",
+						"meaning": "Working from home instead of an office",
+						"viMeaning": "làm việc từ xa",
+						"example": "Remote work has become very popular recently.",
+						"viExample": "Làm việc từ xa đã trở nên rất phổ biến gần đây."
+					},
+					{
+						"phrase": "remote control",
+						"meaning": "A device used to operate something from a distance",
+						"viMeaning": "điều khiển từ xa",
+						"example": "Where is the remote control for the TV?",
+						"viExample": "Cái điều khiển từ xa của tivi đâu rồi?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "interview",
+		"pos": "noun",
+		"ipa": "/ˈɪntəvjuː/",
+		"cefrLevel": "B1",
+		"frequency": 3015,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "interview", "pos": "verb" },
+			{ "form": "interviewer", "pos": "noun" },
+			{ "form": "interviewee", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A formal meeting to see if someone is suitable",
+				"viDef": "cuộc phỏng vấn",
+				"synonyms": ["meeting", "consultation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I have a job interview tomorrow morning.",
+						"viText": "Tôi có một cuộc phỏng vấn xin việc vào sáng mai."
+					},
+					{
+						"text": "She gave a great interview and got the job.",
+						"viText": "Cô ấy đã có một cuộc phỏng vấn tuyệt vời và nhận được công việc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "conduct an interview",
+						"meaning": "To carry out a formal questioning session",
+						"viMeaning": "tiến hành phỏng vấn",
+						"example": "The manager will conduct the interviews personally.",
+						"viExample": "Người quản lý sẽ trực tiếp tiến hành các cuộc phỏng vấn."
+					},
+					{
+						"phrase": "job interview",
+						"meaning": "A meeting to discuss a potential position",
+						"viMeaning": "phỏng vấn xin việc",
+						"example": "Preparing for a job interview takes time.",
+						"viExample": "Chuẩn bị cho một cuộc phỏng vấn xin việc tốn thời gian."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "application",
+		"pos": "noun",
+		"ipa": "/ˌæplɪˈkeɪʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3030,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "apply", "pos": "verb" },
+			{ "form": "applicant", "pos": "noun" },
+			{ "form": "applicable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A formal request for something, such as a job",
+				"viDef": "đơn xin, hồ sơ",
+				"synonyms": ["request", "petition", "claim"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "His application for the job was successful.",
+						"viText": "Đơn xin việc của anh ấy đã thành công."
+					},
+					{
+						"text": "You can send your application by email.",
+						"viText": "Bạn có thể gửi hồ sơ của mình qua email."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "job application",
+						"meaning": "A formal request to be considered for a position",
+						"viMeaning": "đơn xin việc",
+						"example": "I've sent off three job applications this week.",
+						"viExample": "Tôi đã gửi đi ba đơn xin việc trong tuần này."
+					},
+					{
+						"phrase": "online application",
+						"meaning": "A request made through the internet",
+						"viMeaning": "hồ sơ trực tuyến",
+						"example": "The online application process is very simple.",
+						"viExample": "Quy trình nộp hồ sơ trực tuyến rất đơn giản."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "performance",
+		"pos": "noun",
+		"ipa": "/pəˈfɔːməns/",
+		"cefrLevel": "B1",
+		"frequency": 3025,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "perform", "pos": "verb" },
+			{ "form": "performer", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "How well a person does a piece of work",
+				"viDef": "hiệu suất, màn trình diễn",
+				"synonyms": ["execution", "achievement", "presentation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The company rewards employees for good performance.",
+						"viText": "Công ty thưởng cho nhân viên vì hiệu suất làm việc tốt."
+					},
+					{
+						"text": "His performance in the exam was disappointing.",
+						"viText": "Màn thể hiện của anh ấy trong kỳ thi thật đáng thất vọng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "performance review",
+						"meaning": "A meeting to discuss how well someone is working",
+						"viMeaning": "đánh giá hiệu suất",
+						"example": "I have my annual performance review today.",
+						"viExample": "Tôi có buổi đánh giá hiệu suất hàng năm vào hôm nay."
+					},
+					{
+						"phrase": "academic performance",
+						"meaning": "How well a student does at school or university",
+						"viMeaning": "kết quả học tập",
+						"example": "His academic performance has improved significantly.",
+						"viExample": "Kết quả học tập của anh ấy đã cải thiện đáng kể."
+					}
+				]
+			}
+		]
+	}
+]

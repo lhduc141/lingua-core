@@ -1,0 +1,896 @@
+[
+	{
+		"headword": "lose",
+		"pos": "verb",
+		"ipa": "/luːz/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "loser", "pos": "noun" },
+			{ "form": "loss", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To fail to win a game or competition",
+				"viDef": "thua, thất bại",
+				"synonyms": ["be defeated"],
+				"antonyms": ["win"],
+				"examples": [
+					{
+						"text": "They played well, but they still lost the match.",
+						"viText": "Họ chơi tốt, nhưng họ vẫn thua trận đấu."
+					},
+					{ "text": "I hate to lose when I play cards.", "viText": "Tôi ghét bị thua khi chơi bài." }
+				],
+				"collocations": [
+					{
+						"phrase": "lose a game",
+						"meaning": "To be defeated in a sport or match",
+						"viMeaning": "thua một trò chơi",
+						"example": "We cannot afford to lose another game.",
+						"viExample": "Chúng ta không thể để thua thêm một trận nào nữa."
+					},
+					{
+						"phrase": "lose weight",
+						"meaning": "To become thinner",
+						"viMeaning": "giảm cân",
+						"example": "He is exercising to lose weight.",
+						"viExample": "Anh ấy đang tập thể dục để giảm cân."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "score",
+		"pos": "noun",
+		"ipa": "/skɔː(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1450,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "score", "pos": "verb" },
+			{ "form": "scorer", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The number of points someone gets in a game",
+				"viDef": "tỉ số, điểm số",
+				"synonyms": ["points", "total"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The final score was 2-1 to the home team.",
+						"viText": "Tỉ số cuối cùng là 2-1 nghiêng về đội chủ nhà."
+					},
+					{ "text": "What is the current score?", "viText": "Tỉ số hiện tại là bao nhiêu?" }
+				],
+				"collocations": [
+					{
+						"phrase": "high score",
+						"meaning": "A very good result in a game or test",
+						"viMeaning": "điểm cao",
+						"example": "She got a high score on her English exam.",
+						"viExample": "Cô ấy đạt điểm cao trong kỳ thi tiếng Anh."
+					},
+					{
+						"phrase": "score a goal",
+						"meaning": "To gain a point in football or hockey",
+						"viMeaning": "ghi bàn",
+						"example": "He managed to score a goal in the last minute.",
+						"viExample": "Anh ấy đã kịp ghi một bàn thắng vào phút cuối."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "player",
+		"pos": "noun",
+		"ipa": "/ˈpleɪə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "play", "pos": "verb" },
+			{ "form": "playful", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person who takes part in a game or sport",
+				"viDef": "người chơi",
+				"synonyms": ["competitor", "participant"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He is a very famous football player.",
+						"viText": "Anh ấy là một cầu thủ bóng đá rất nổi tiếng."
+					},
+					{
+						"text": "Each player must follow the rules.",
+						"viText": "Mỗi người chơi phải tuân theo các quy tắc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "team player",
+						"meaning": "Someone who works well with other people",
+						"viMeaning": "người có tinh thần đồng đội",
+						"example": "Companies look for people who are good team players.",
+						"viExample": "Các công ty tìm kiếm những người có tinh thần đồng đội tốt."
+					},
+					{
+						"phrase": "music player",
+						"meaning": "A device used for listening to music",
+						"viMeaning": "máy nghe nhạc",
+						"example": "I need to buy a new digital music player.",
+						"viExample": "Tôi cần mua một chiếc máy nghe nhạc kỹ thuật số mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "competition",
+		"pos": "noun",
+		"ipa": "/ˌkɒmpəˈtɪʃn/",
+		"cefrLevel": "A2",
+		"frequency": 1600,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "compete", "pos": "verb" },
+			{ "form": "competitive", "pos": "adjective" },
+			{ "form": "competitor", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An event where people try to win a prize",
+				"viDef": "cuộc thi",
+				"synonyms": ["contest", "tournament"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She entered a swimming competition last month.",
+						"viText": "Cô ấy đã tham gia một cuộc thi bơi vào tháng trước."
+					},
+					{
+						"text": "There is a lot of competition for this job.",
+						"viText": "Có rất nhiều sự cạnh tranh cho công việc này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "international competition",
+						"meaning": "A contest involving people from many countries",
+						"viMeaning": "cuộc thi quốc tế",
+						"example": "The math team won an international competition.",
+						"viExample": "Đội toán đã thắng một cuộc thi quốc tế."
+					},
+					{
+						"phrase": "stiff competition",
+						"meaning": "Very strong or difficult competition",
+						"viMeaning": "cạnh tranh gay gắt",
+						"example": "We face stiff competition from other local shops.",
+						"viExample": "Chúng tôi đối mặt với sự cạnh tranh gay gắt từ các cửa hàng địa phương khác."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "champion",
+		"pos": "noun",
+		"ipa": "/ˈtʃæmpiən/",
+		"cefrLevel": "A2",
+		"frequency": 2400,
+		"isCommon": true,
+		"wordForms": [{ "form": "championship", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person or team that has won a competition",
+				"viDef": "nhà vô địch",
+				"synonyms": ["winner", "victor"],
+				"antonyms": ["loser"],
+				"examples": [
+					{
+						"text": "France was the world champion in football in 2018.",
+						"viText": "Pháp là nhà vô địch thế giới môn bóng đá năm 2018."
+					},
+					{
+						"text": "She is the national tennis champion.",
+						"viText": "Cô ấy là nhà vô địch tennis quốc gia."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "defending champion",
+						"meaning": "The winner of the previous year's competition",
+						"viMeaning": "nhà đương kim vô địch",
+						"example": "The defending champion lost in the first round.",
+						"viExample": "Nhà đương kim vô địch đã thua ngay từ vòng đầu tiên."
+					},
+					{
+						"phrase": "world champion",
+						"meaning": "The best player or team in the world",
+						"viMeaning": "vô địch thế giới",
+						"example": "He dreams of becoming a world champion.",
+						"viExample": "Anh ấy mơ ước trở thành nhà vô địch thế giới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "music",
+		"pos": "noun",
+		"ipa": "/ˈmjuːzɪk/",
+		"cefrLevel": "A2",
+		"frequency": 1020,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "musical", "pos": "adjective" },
+			{ "form": "musician", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Sounds made by voices or instruments that are pleasant",
+				"viDef": "âm nhạc",
+				"synonyms": ["melody", "harmony"],
+				"antonyms": ["silence"],
+				"examples": [
+					{
+						"text": "I like listening to classical music while I study.",
+						"viText": "Tôi thích nghe nhạc cổ điển khi đang học."
+					},
+					{ "text": "She is very good at playing music.", "viText": "Cô ấy chơi nhạc rất giỏi." }
+				],
+				"collocations": [
+					{
+						"phrase": "pop music",
+						"meaning": "A type of modern music that is very popular",
+						"viMeaning": "nhạc pop",
+						"example": "Most teenagers enjoy listening to pop music.",
+						"viExample": "Hầu hết thanh thiếu niên đều thích nghe nhạc pop."
+					},
+					{
+						"phrase": "live music",
+						"meaning": "Music that is played in front of an audience",
+						"viMeaning": "nhạc sống",
+						"example": "This cafe has live music every Friday night.",
+						"viExample": "Quán cà phê này có nhạc sống vào mỗi tối thứ Sáu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "song",
+		"pos": "noun",
+		"ipa": "/sɒŋ/",
+		"cefrLevel": "A2",
+		"frequency": 1080,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "singer", "pos": "noun" },
+			{ "form": "songwriter", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A short piece of music with words that you sing",
+				"viDef": "bài hát",
+				"synonyms": ["track", "tune"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "That was a very beautiful song.", "viText": "Đó là một bài hát rất hay." },
+					{ "text": "I know all the words to this song.", "viText": "Tôi thuộc hết lời của bài hát này." }
+				],
+				"collocations": [
+					{
+						"phrase": "favorite song",
+						"meaning": "The song that a person likes most",
+						"viMeaning": "bài hát yêu thích",
+						"example": "What is your favorite song from this album?",
+						"viExample": "Bài hát yêu thích của bạn trong album này là gì?"
+					},
+					{
+						"phrase": "love song",
+						"meaning": "A song about romantic feelings for someone",
+						"viMeaning": "bài hát tình ca",
+						"example": "He wrote a love song for his girlfriend.",
+						"viExample": "Anh ấy đã viết một bản tình ca cho bạn gái mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "concert",
+		"pos": "noun",
+		"ipa": "/ˈkɒnsət/",
+		"cefrLevel": "A2",
+		"frequency": 1550,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A public performance of music",
+				"viDef": "buổi hòa nhạc",
+				"synonyms": ["show", "gig", "performance"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I'm going to a rock concert this weekend.",
+						"viText": "Tôi sẽ đi xem một buổi hòa nhạc rock vào cuối tuần này."
+					},
+					{
+						"text": "The concert was held in a large stadium.",
+						"viText": "Buổi hòa nhạc được tổ chức tại một sân vận động lớn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "concert ticket",
+						"meaning": "A piece of paper that lets you enter a concert",
+						"viMeaning": "vé xem hòa nhạc",
+						"example": "How much did you pay for the concert ticket?",
+						"viExample": "Bạn đã trả bao nhiêu tiền cho chiếc vé xem hòa nhạc?"
+					},
+					{
+						"phrase": "outdoor concert",
+						"meaning": "A music performance that happens outside",
+						"viMeaning": "buổi hòa nhạc ngoài trời",
+						"example": "We enjoyed the outdoor concert despite the rain.",
+						"viExample": "Chúng tôi đã tận hưởng buổi hòa nhạc ngoài trời bất chấp trời mưa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "band",
+		"pos": "noun",
+		"ipa": "/bænd/",
+		"cefrLevel": "A2",
+		"frequency": 1200,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A group of musicians who play music together",
+				"viDef": "ban nhạc",
+				"synonyms": ["group", "ensemble"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "His favorite band is playing in town tonight.",
+						"viText": "Ban nhạc yêu thích của anh ấy đang biểu diễn trong thị trấn tối nay."
+					},
+					{
+						"text": "She plays the drums in a school band.",
+						"viText": "Cô ấy chơi trống trong một ban nhạc trường học."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "rock band",
+						"meaning": "A group that plays rock music",
+						"viMeaning": "ban nhạc rock",
+						"example": "They want to start a rock band.",
+						"viExample": "Họ muốn thành lập một ban nhạc rock."
+					},
+					{
+						"phrase": "brass band",
+						"meaning": "A band that plays instruments like trumpets",
+						"viMeaning": "ban nhạc kèn đồng",
+						"example": "The brass band played at the local festival.",
+						"viExample": "Ban nhạc kèn đồng đã biểu diễn tại lễ hội địa phương."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "album",
+		"pos": "noun",
+		"ipa": "/ˈælbəm/",
+		"cefrLevel": "A2",
+		"frequency": 1650,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A collection of songs or photos in one collection",
+				"viDef": "album",
+				"synonyms": ["record", "collection"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The band is recording their second album.",
+						"viText": "Ban nhạc đang thu âm album thứ hai của họ."
+					},
+					{
+						"text": "I have all my family photos in this album.",
+						"viText": "Tôi để tất cả ảnh gia đình trong album này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "debut album",
+						"meaning": "The first album that a musician releases",
+						"viMeaning": "album đầu tay",
+						"example": "Her debut album was a huge success.",
+						"viExample": "Album đầu tay của cô ấy đã thành công rực rỡ."
+					},
+					{
+						"phrase": "photo album",
+						"meaning": "A book used for keeping photographs",
+						"viMeaning": "album ảnh",
+						"example": "We looked through the old photo album together.",
+						"viExample": "Chúng tôi đã cùng nhau xem lại cuốn album ảnh cũ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "movie",
+		"pos": "noun",
+		"ipa": "/ˈmuːvi/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A story shown in moving pictures on a screen",
+				"viDef": "phim, bộ phim",
+				"synonyms": ["film", "cinema"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "Let's go to the theater to see a movie.", "viText": "Hãy đi đến rạp để xem phim đi." },
+					{
+						"text": "That was the scariest movie I have ever seen.",
+						"viText": "Đó là bộ phim đáng sợ nhất tôi từng xem."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "horror movie",
+						"meaning": "A movie that is designed to scare people",
+						"viMeaning": "phim kinh dị",
+						"example": "I don't like watching horror movies at night.",
+						"viExample": "Tôi không thích xem phim kinh dị vào ban đêm."
+					},
+					{
+						"phrase": "watch a movie",
+						"meaning": "To look at a film for entertainment",
+						"viMeaning": "xem phim",
+						"example": "We stayed at home to watch a movie on TV.",
+						"viExample": "Chúng tôi ở nhà để xem một bộ phim trên tivi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "actor",
+		"pos": "noun",
+		"ipa": "/ˈæktə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1300,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "act", "pos": "verb" },
+			{ "form": "actress", "pos": "noun" },
+			{ "form": "acting", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person who performs in a play or movie",
+				"viDef": "diễn viên",
+				"synonyms": ["performer", "star"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He is a famous Hollywood actor.",
+						"viText": "Anh ấy là một diễn viên Hollywood nổi tiếng."
+					},
+					{
+						"text": "She wants to be an actor when she finishes school.",
+						"viText": "Cô ấy muốn trở thành diễn viên sau khi học xong."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "main actor",
+						"meaning": "The person with the most important role in a film",
+						"viMeaning": "diễn viên chính",
+						"example": "The main actor gave a brilliant performance.",
+						"viExample": "Diễn viên chính đã có một màn trình diễn xuất sắc."
+					},
+					{
+						"phrase": "voice actor",
+						"meaning": "An actor who provides voices for animated characters",
+						"viMeaning": "diễn viên lồng tiếng",
+						"example": "He works as a voice actor for cartoons.",
+						"viExample": "Anh ấy làm công việc diễn viên lồng tiếng cho phim hoạt hình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "garden",
+		"pos": "noun",
+		"ipa": "/ˈɡɑːdn/",
+		"cefrLevel": "A2",
+		"frequency": 1250,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "gardener", "pos": "noun" },
+			{ "form": "gardening", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An area of land next to a house for plants",
+				"viDef": "vườn",
+				"synonyms": ["yard", "lawn"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We have a small garden behind our house.",
+						"viText": "Chúng tôi có một khu vườn nhỏ sau nhà."
+					},
+					{
+						"text": "They like to grow roses in their garden.",
+						"viText": "Họ thích trồng hoa hồng trong vườn của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "public garden",
+						"meaning": "A park or garden that everyone can visit",
+						"viMeaning": "vườn công cộng",
+						"example": "The city has a beautiful public garden.",
+						"viExample": "Thành phố có một khu vườn công cộng rất đẹp."
+					},
+					{
+						"phrase": "vegetable garden",
+						"meaning": "A garden used for growing food",
+						"viMeaning": "vườn rau",
+						"example": "She grows tomatoes in her vegetable garden.",
+						"viExample": "Cô ấy trồng cà chua trong vườn rau của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "plant",
+		"pos": "noun",
+		"ipa": "/plɑːnt/",
+		"cefrLevel": "A2",
+		"frequency": 1180,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "planter", "pos": "noun" },
+			{ "form": "plant", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A living thing that grows in earth and has leaves",
+				"viDef": "thực vật, cây cối",
+				"synonyms": ["flower", "shrub"],
+				"antonyms": ["animal"],
+				"examples": [
+					{
+						"text": "I forgot to water my plants this morning.",
+						"viText": "Tôi quên tưới cây sáng nay rồi."
+					},
+					{
+						"text": "Some plants need a lot of sunlight to grow.",
+						"viText": "Một số loài cây cần nhiều ánh sáng mặt trời để phát triển."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "indoor plant",
+						"meaning": "A plant that is kept inside a building",
+						"viMeaning": "cây trong nhà",
+						"example": "Indoor plants can help clean the air.",
+						"viExample": "Cây trong nhà có thể giúp làm sạch không khí."
+					},
+					{
+						"phrase": "tropical plant",
+						"meaning": "A plant that grows in hot, wet weather",
+						"viMeaning": "cây nhiệt đới",
+						"example": "The jungle is full of exotic tropical plants.",
+						"viExample": "Rừng rậm đầy những loài cây nhiệt đới kỳ lạ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "climate",
+		"pos": "noun",
+		"ipa": "/ˈklaɪmət/",
+		"cefrLevel": "A2",
+		"frequency": 2100,
+		"isCommon": true,
+		"wordForms": [{ "form": "climatic", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The general weather conditions of a place over time",
+				"viDef": "khí hậu",
+				"synonyms": ["weather", "environment"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "Vietnam has a tropical climate.", "viText": "Việt Nam có khí hậu nhiệt đới." },
+					{
+						"text": "The world's climate is changing very quickly.",
+						"viText": "Khí hậu thế giới đang thay đổi rất nhanh chóng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "climate change",
+						"meaning": "The global problem of the earth getting warmer",
+						"viMeaning": "biến đổi khí hậu",
+						"example": "Scientists are very worried about climate change.",
+						"viExample": "Các nhà khoa học rất lo lắng về biến đổi khí hậu."
+					},
+					{
+						"phrase": "mild climate",
+						"meaning": "Weather that is not too hot or too cold",
+						"viMeaning": "khí hậu ôn hòa",
+						"example": "This island is famous for its mild climate.",
+						"viExample": "Hòn đảo này nổi tiếng với khí hậu ôn hòa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "temperature",
+		"pos": "noun",
+		"ipa": "/ˈtemprətʃə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1700,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A measure of how hot or cold something is",
+				"viDef": "nhiệt độ",
+				"synonyms": ["heat", "warmth"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "The temperature is dropping tonight.", "viText": "Nhiệt độ đang giảm vào tối nay." },
+					{
+						"text": "The doctor took my temperature because I felt hot.",
+						"viText": "Bác sĩ đã đo nhiệt độ của tôi vì tôi cảm thấy nóng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "high temperature",
+						"meaning": "A state of being very hot or having a fever",
+						"viMeaning": "nhiệt độ cao",
+						"example": "He has a high temperature and needs to rest.",
+						"viExample": "Anh ấy bị sốt cao và cần được nghỉ ngơi."
+					},
+					{
+						"phrase": "room temperature",
+						"meaning": "The normal temperature inside a building",
+						"viMeaning": "nhiệt độ phòng",
+						"example": "This wine should be served at room temperature.",
+						"viExample": "Loại rượu này nên được phục vụ ở nhiệt độ phòng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "environment",
+		"pos": "noun",
+		"ipa": "/ɪnˈvaɪrənmənt/",
+		"cefrLevel": "A2",
+		"frequency": 1400,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "environmental", "pos": "adjective" },
+			{ "form": "environmentalist", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The natural world in which people, animals, and plants live",
+				"viDef": "môi trường",
+				"synonyms": ["nature", "surroundings"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We must work together to protect the environment.",
+						"viText": "Chúng ta phải cùng nhau hành động để bảo vệ môi trường."
+					},
+					{
+						"text": "Plastic pollution is very damaging to the environment.",
+						"viText": "Ô nhiễm nhựa rất có hại cho môi trường."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "protect the environment",
+						"meaning": "To prevent damage to the natural world",
+						"viMeaning": "bảo vệ môi trường",
+						"example": "Recycling is one way to protect the environment.",
+						"viExample": "Tái chế là một cách để bảo vệ môi trường."
+					},
+					{
+						"phrase": "working environment",
+						"meaning": "The conditions in which people do their jobs",
+						"viMeaning": "môi trường làm việc",
+						"example": "The company provides a safe working environment.",
+						"viExample": "Công ty cung cấp một môi trường làm việc an toàn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "apartment",
+		"pos": "noun",
+		"ipa": "/əˈpɑːtmənt/",
+		"cefrLevel": "A2",
+		"frequency": 1350,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A set of rooms for living in, usually on one floor",
+				"viDef": "căn hộ",
+				"synonyms": ["flat", "suite"],
+				"antonyms": ["house"],
+				"examples": [
+					{
+						"text": "They live in a small apartment in the city center.",
+						"viText": "Họ sống trong một căn hộ nhỏ ở trung tâm thành phố."
+					},
+					{
+						"text": "Is your apartment on the ground floor?",
+						"viText": "Căn hộ của bạn ở tầng trệt phải không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "luxury apartment",
+						"meaning": "An expensive and high-quality flat",
+						"viMeaning": "căn hộ sang trọng",
+						"example": "He bought a luxury apartment overlooking the river.",
+						"viExample": "Anh ấy đã mua một căn hộ sang trọng nhìn ra sông."
+					},
+					{
+						"phrase": "apartment building",
+						"meaning": "A large building that contains many flats",
+						"viMeaning": "tòa nhà chung cư",
+						"example": "There is a new apartment building next to the park.",
+						"viExample": "Có một tòa nhà chung cư mới bên cạnh công viên."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "furniture",
+		"pos": "noun",
+		"ipa": "/ˈfɜːnɪtʃə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1900,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "furnish", "pos": "verb" },
+			{ "form": "furnished", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Objects like tables and chairs used in a home",
+				"viDef": "nội thất, đồ đạc",
+				"synonyms": ["fittings", "furnishings"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The apartment has very modern furniture.",
+						"viText": "Căn hộ có nội thất rất hiện đại."
+					},
+					{
+						"text": "We need to buy some new furniture for the bedroom.",
+						"viText": "Chúng ta cần mua một ít đồ đạc mới cho phòng ngủ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "piece of furniture",
+						"meaning": "A single item such as a chair or table",
+						"viMeaning": "một món đồ nội thất",
+						"example": "The desk is his favorite piece of furniture.",
+						"viExample": "Chiếc bàn làm việc là món đồ nội thất yêu thích của anh ấy."
+					},
+					{
+						"phrase": "office furniture",
+						"meaning": "Furniture designed for use in a workplace",
+						"viMeaning": "nội thất văn phòng",
+						"example": "The company ordered new office furniture today.",
+						"viExample": "Công ty đã đặt mua nội thất văn phòng mới vào hôm nay."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "neighbour",
+		"pos": "noun",
+		"ipa": "/ˈneɪbə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1220,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "neighbourhood", "pos": "noun" },
+			{ "form": "neighbourly", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person who lives next to or near you",
+				"viDef": "hàng xóm",
+				"synonyms": ["resident"],
+				"antonyms": ["stranger"],
+				"examples": [
+					{
+						"text": "Our next-door neighbour is very friendly.",
+						"viText": "Người hàng xóm sát vách của chúng tôi rất thân thiện."
+					},
+					{
+						"text": "I invited my neighbours to the party.",
+						"viText": "Tôi đã mời những người hàng xóm đến bữa tiệc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "next-door neighbour",
+						"meaning": "The person living in the house immediately next to yours",
+						"viMeaning": "hàng xóm sát vách",
+						"example": "My next-door neighbour has a very loud dog.",
+						"viExample": "Hàng xóm sát vách của tôi có một con chó sủa rất to."
+					},
+					{
+						"phrase": "good neighbour",
+						"meaning": "A helpful and kind person living nearby",
+						"viMeaning": "người hàng xóm tốt",
+						"example": "A good neighbour helped us when we moved in.",
+						"viExample": "Một người hàng xóm tốt đã giúp chúng tôi khi chúng tôi chuyển đến."
+					}
+				]
+			}
+		]
+	}
+]

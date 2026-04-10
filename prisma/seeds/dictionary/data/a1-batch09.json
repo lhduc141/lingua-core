@@ -1,0 +1,1034 @@
+[
+	{
+		"headword": "first",
+		"pos": "adjective",
+		"ipa": "/fɜːst/",
+		"cefrLevel": "A1",
+		"frequency": 250,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "firstly",
+				"pos": "adverb"
+			},
+			{
+				"form": "firstborn",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "coming before all others in time or order",
+				"viDef": "đầu tiên",
+				"synonyms": ["initial", "earliest"],
+				"antonyms": ["last", "final"],
+				"examples": [
+					{
+						"text": "He was the first person to arrive.",
+						"viText": "Anh ấy là người đầu tiên đến."
+					},
+					{
+						"text": "This is my first time in Japan.",
+						"viText": "Đây là lần đầu tiên tôi ở Nhật Bản."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "at first",
+						"meaning": "in the beginning",
+						"viMeaning": "lúc đầu",
+						"example": "At first, I did not understand.",
+						"viExample": "Lúc đầu, tôi đã không hiểu."
+					},
+					{
+						"phrase": "first name",
+						"meaning": "the name given to you at birth",
+						"viMeaning": "tên chính",
+						"example": "What is your first name?",
+						"viExample": "Tên chính của bạn là gì?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "last",
+		"pos": "adjective",
+		"ipa": "/lɑːst/",
+		"cefrLevel": "A1",
+		"frequency": 300,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "lastly",
+				"pos": "adverb"
+			},
+			{
+				"form": "lasting",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "coming after all others in time or order",
+				"viDef": "cuối cùng, trước",
+				"synonyms": ["final", "closing"],
+				"antonyms": ["first", "initial"],
+				"examples": [
+					{
+						"text": "That was the last cookie in the jar.",
+						"viText": "Đó là chiếc bánh quy cuối cùng trong lọ."
+					},
+					{
+						"text": "I saw him last night at the party.",
+						"viText": "Tôi đã thấy anh ấy đêm qua ở bữa tiệc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "at last",
+						"meaning": "finally, after a long time",
+						"viMeaning": "cuối cùng thì",
+						"example": "At last, we have arrived home.",
+						"viExample": "Cuối cùng thì, chúng tôi đã về đến nhà."
+					},
+					{
+						"phrase": "last week",
+						"meaning": "the week before the current one",
+						"viMeaning": "tuần trước",
+						"example": "We had a test last week.",
+						"viExample": "Chúng tôi đã có một bài kiểm tra vào tuần trước."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "next",
+		"pos": "adjective",
+		"ipa": "/nekst/",
+		"cefrLevel": "A1",
+		"frequency": 350,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "nextly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "coming immediately after the present one",
+				"viDef": "tiếp theo",
+				"synonyms": ["following", "subsequent"],
+				"antonyms": ["previous", "last"],
+				"examples": [
+					{
+						"text": "What is the next station on the map?",
+						"viText": "Nhà ga tiếp theo trên bản đồ là ga nào?"
+					},
+					{
+						"text": "We will travel to Paris next month.",
+						"viText": "Chúng tôi sẽ đi du lịch Paris vào tháng tới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "next to",
+						"meaning": "in a position right beside something",
+						"viMeaning": "kế bên",
+						"example": "The bank is next to the post office.",
+						"viExample": "Ngân hàng nằm kế bên bưu điện."
+					},
+					{
+						"phrase": "next year",
+						"meaning": "the year after the current one",
+						"viMeaning": "năm sau",
+						"example": "I plan to study abroad next year.",
+						"viExample": "Tôi dự định đi du học vào năm sau."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "other",
+		"pos": "adjective",
+		"ipa": "/ˈʌðə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 400,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "otherwise",
+				"pos": "adverb"
+			},
+			{
+				"form": "otherness",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "used to refer to a person or thing that is different",
+				"viDef": "khác",
+				"synonyms": ["alternative", "different"],
+				"antonyms": ["same"],
+				"examples": [
+					{
+						"text": "Do you have any other questions?",
+						"viText": "Bạn có câu hỏi nào khác không?"
+					},
+					{
+						"text": "The other book is better than this one.",
+						"viText": "Cuốn sách kia hay hơn cuốn này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "each other",
+						"meaning": "used to show that two people do the same action",
+						"viMeaning": "lẫn nhau",
+						"example": "They love each other very much.",
+						"viExample": "Họ rất yêu thương lẫn nhau."
+					},
+					{
+						"phrase": "the other day",
+						"meaning": "a few days ago",
+						"viMeaning": "hôm nọ",
+						"example": "I saw him the other day at the store.",
+						"viExample": "Tôi đã thấy anh ấy hôm nọ ở cửa hàng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "same",
+		"pos": "adjective",
+		"ipa": "/seɪm/",
+		"cefrLevel": "A1",
+		"frequency": 450,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "sameness",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "identical or not different",
+				"viDef": "giống nhau, cùng",
+				"synonyms": ["identical", "alike"],
+				"antonyms": ["different", "other"],
+				"examples": [
+					{
+						"text": "We go to the same school.",
+						"viText": "Chúng tôi học cùng một trường."
+					},
+					{
+						"text": "These two shirts are exactly the same.",
+						"viText": "Hai chiếc áo này hoàn toàn giống nhau."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "the same as",
+						"meaning": "identical to something else",
+						"viMeaning": "giống như",
+						"example": "Your bag is the same as mine.",
+						"viExample": "Túi của bạn giống như của tôi."
+					},
+					{
+						"phrase": "at the same time",
+						"meaning": "happening together",
+						"viMeaning": "cùng lúc",
+						"example": "They both spoke at the same time.",
+						"viExample": "Cả hai người cùng nói một lúc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "many",
+		"pos": "determiner",
+		"ipa": "/ˈmeni/",
+		"cefrLevel": "A1",
+		"frequency": 500,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "more",
+				"pos": "adjective"
+			},
+			{
+				"form": "most",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a large number of people or things",
+				"viDef": "nhiều (đếm được)",
+				"synonyms": ["numerous", "a lot of"],
+				"antonyms": ["few", "a few"],
+				"examples": [
+					{
+						"text": "There are many people in the park.",
+						"viText": "Có nhiều người trong công viên."
+					},
+					{
+						"text": "I have many books to read.",
+						"viText": "Tôi có nhiều sách để đọc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "how many",
+						"meaning": "asking for the number of countable items",
+						"viMeaning": "bao nhiêu (đếm được)",
+						"example": "How many brothers do you have?",
+						"viExample": "Bạn có bao nhiêu anh em trai?"
+					},
+					{
+						"phrase": "a good many",
+						"meaning": "quite a large number",
+						"viMeaning": "khá nhiều",
+						"example": "A good many students failed the test.",
+						"viExample": "Khá nhiều học sinh đã trượt bài kiểm tra."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "much",
+		"pos": "determiner",
+		"ipa": "/mʌtʃ/",
+		"cefrLevel": "A1",
+		"frequency": 550,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "more",
+				"pos": "adjective"
+			},
+			{
+				"form": "most",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a large amount or extent",
+				"viDef": "nhiều (không đếm được)",
+				"synonyms": ["a lot of", "plenty of"],
+				"antonyms": ["little", "a little"],
+				"examples": [
+					{
+						"text": "I do not have much money left.",
+						"viText": "Tôi không còn nhiều tiền."
+					},
+					{
+						"text": "We spent too much time on this.",
+						"viText": "Chúng tôi đã dành quá nhiều thời gian cho việc này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "how much",
+						"meaning": "asking for the amount or cost",
+						"viMeaning": "bao nhiêu (tiền, lượng)",
+						"example": "How much does this shirt cost?",
+						"viExample": "Chiếc áo này giá bao nhiêu?"
+					},
+					{
+						"phrase": "too much",
+						"meaning": "more than is necessary or good",
+						"viMeaning": "quá nhiều",
+						"example": "Eating too much sugar is bad.",
+						"viExample": "Ăn quá nhiều đường là không tốt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "few",
+		"pos": "determiner",
+		"ipa": "/fjuː/",
+		"cefrLevel": "A1",
+		"frequency": 600,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "fewer",
+				"pos": "adjective"
+			},
+			{
+				"form": "fewest",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a small number of things",
+				"viDef": "ít, một vài",
+				"synonyms": ["several", "some"],
+				"antonyms": ["many"],
+				"examples": [
+					{
+						"text": "He has very few close friends.",
+						"viText": "Anh ấy có rất ít bạn thân."
+					},
+					{
+						"text": "A few people left the meeting early.",
+						"viText": "Một vài người đã rời cuộc họp sớm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "a few",
+						"meaning": "some, a small number",
+						"viMeaning": "một vài",
+						"example": "I need a few apples for the pie.",
+						"viExample": "Tôi cần một vài quả táo cho chiếc bánh."
+					},
+					{
+						"phrase": "in a few words",
+						"meaning": "briefly and concisely",
+						"viMeaning": "nói tóm lại",
+						"example": "Explain the plan in a few words.",
+						"viExample": "Hãy giải thích kế hoạch một cách ngắn gọn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "little",
+		"pos": "adjective",
+		"ipa": "/ˈlɪtl/",
+		"cefrLevel": "A1",
+		"frequency": 650,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "littleness",
+				"pos": "noun"
+			},
+			{
+				"form": "less",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "small in size, amount, or degree",
+				"viDef": "nhỏ, ít",
+				"synonyms": ["small", "tiny"],
+				"antonyms": ["big", "much"],
+				"examples": [
+					{
+						"text": "She lives in a little house.",
+						"viText": "Cô ấy sống trong một ngôi nhà nhỏ."
+					},
+					{
+						"text": "I have very little time left.",
+						"viText": "Tôi còn rất ít thời gian."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "a little bit",
+						"meaning": "a small amount",
+						"viMeaning": "một chút",
+						"example": "I am a little bit tired today.",
+						"viExample": "Hôm nay tôi hơi mệt một chút."
+					},
+					{
+						"phrase": "little by little",
+						"meaning": "gradually over a period of time",
+						"viMeaning": "dần dần, từ từ",
+						"example": "He improved his English little by little.",
+						"viExample": "Anh ấy đã cải thiện tiếng Anh của mình một cách từ từ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "more",
+		"pos": "determiner",
+		"ipa": "/mɔː(r)/",
+		"cefrLevel": "A1",
+		"frequency": 700,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "most",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a greater or additional amount or degree",
+				"viDef": "nhiều hơn, thêm",
+				"synonyms": ["extra", "additional"],
+				"antonyms": ["less", "fewer"],
+				"examples": [
+					{
+						"text": "We need more chairs for the guests.",
+						"viText": "Chúng ta cần thêm ghế cho khách."
+					},
+					{
+						"text": "Can I have some more water, please?",
+						"viText": "Cho tôi xin thêm một ít nước được không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "more and more",
+						"meaning": "increasingly over time",
+						"viMeaning": "ngày càng nhiều",
+						"example": "It is getting more and more difficult.",
+						"viExample": "Nó đang trở nên ngày càng khó khăn."
+					},
+					{
+						"phrase": "once more",
+						"meaning": "one more time",
+						"viMeaning": "một lần nữa",
+						"example": "Please say that once more.",
+						"viExample": "Vui lòng nói lại điều đó một lần nữa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "less",
+		"pos": "determiner",
+		"ipa": "/les/",
+		"cefrLevel": "A1",
+		"frequency": 750,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "lesser",
+				"pos": "adjective"
+			},
+			{
+				"form": "least",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a smaller amount of or not as much",
+				"viDef": "ít hơn",
+				"synonyms": ["fewer", "slighter"],
+				"antonyms": ["more", "greater"],
+				"examples": [
+					{
+						"text": "I have less money than you do.",
+						"viText": "Tôi có ít tiền hơn bạn."
+					},
+					{
+						"text": "Try to eat less junk food.",
+						"viText": "Cố gắng ăn ít đồ ăn vặt hơn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "less and less",
+						"meaning": "decreasingly over time",
+						"viMeaning": "ngày càng ít",
+						"example": "People use cash less and less nowadays.",
+						"viExample": "Ngày nay mọi người ngày càng ít dùng tiền mặt."
+					},
+					{
+						"phrase": "more or less",
+						"meaning": "approximately or almost",
+						"viMeaning": "ít nhiều, xấp xỉ",
+						"example": "We are more or less ready to go.",
+						"viExample": "Chúng tôi ít nhiều đã sẵn sàng để đi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "most",
+		"pos": "determiner",
+		"ipa": "/məʊst/",
+		"cefrLevel": "A1",
+		"frequency": 800,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "mostly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "greatest in amount, quantity, or degree",
+				"viDef": "hầu hết, nhất",
+				"synonyms": ["majority", "maximum"],
+				"antonyms": ["least", "fewest"],
+				"examples": [
+					{
+						"text": "Most people like listening to music.",
+						"viText": "Hầu hết mọi người đều thích nghe nhạc."
+					},
+					{
+						"text": "Who got the most points in the game?",
+						"viText": "Ai ghi được nhiều điểm nhất trong trò chơi?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "for the most part",
+						"meaning": "generally or usually",
+						"viMeaning": "nói chung, phần lớn",
+						"example": "For the most part, the weather was good.",
+						"viExample": "Nói chung thì thời tiết đã tốt."
+					},
+					{
+						"phrase": "make the most of",
+						"meaning": "use to the best advantage",
+						"viMeaning": "tận dụng tối đa",
+						"example": "You should make the most of this trip.",
+						"viExample": "Bạn nên tận dụng tối đa chuyến đi này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "best",
+		"pos": "adjective",
+		"ipa": "/best/",
+		"cefrLevel": "A1",
+		"frequency": 850,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "bestman",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "of the most excellent, effective, or desirable type",
+				"viDef": "tốt nhất",
+				"synonyms": ["finest", "top"],
+				"antonyms": ["worst"],
+				"examples": [
+					{
+						"text": "He is my best friend in the world.",
+						"viText": "Anh ấy là người bạn tốt nhất của tôi trên thế giới."
+					},
+					{
+						"text": "This is the best pizza I have ever eaten.",
+						"viText": "Đây là chiếc bánh pizza ngon nhất mà tôi từng ăn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "do your best",
+						"meaning": "try as hard as you can",
+						"viMeaning": "làm hết sức mình",
+						"example": "Don't worry, just do your best on the exam.",
+						"viExample": "Đừng lo lắng, cứ làm hết sức mình trong bài thi."
+					},
+					{
+						"phrase": "all the best",
+						"meaning": "used to wish someone luck and success",
+						"viMeaning": "chúc mọi điều tốt đẹp nhất",
+						"example": "All the best for your new job!",
+						"viExample": "Chúc mọi điều tốt đẹp nhất cho công việc mới của bạn!"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "high",
+		"pos": "adjective",
+		"ipa": "/haɪ/",
+		"cefrLevel": "A1",
+		"frequency": 900,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "height",
+				"pos": "noun"
+			},
+			{
+				"form": "highly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "of great vertical extent; taller than average",
+				"viDef": "cao",
+				"synonyms": ["tall", "elevated"],
+				"antonyms": ["low", "short"],
+				"examples": [
+					{
+						"text": "The mountain is very high.",
+						"viText": "Ngọn núi rất cao."
+					},
+					{
+						"text": "He got a high score on the test.",
+						"viText": "Anh ấy đã đạt điểm cao trong bài kiểm tra."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "high school",
+						"meaning": "a school for teenagers",
+						"viMeaning": "trường trung học phổ thông",
+						"example": "She is a high school teacher.",
+						"viExample": "Cô ấy là một giáo viên trung học phổ thông."
+					},
+					{
+						"phrase": "high price",
+						"meaning": "costing a lot of money",
+						"viMeaning": "giá cao",
+						"example": "I cannot afford such a high price.",
+						"viExample": "Tôi không thể trả nổi một mức giá cao như vậy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "low",
+		"pos": "adjective",
+		"ipa": "/ləʊ/",
+		"cefrLevel": "A1",
+		"frequency": 950,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "lowness",
+				"pos": "noun"
+			},
+			{
+				"form": "lower",
+				"pos": "verb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "of less than average height from top to bottom",
+				"viDef": "thấp",
+				"synonyms": ["short", "flat"],
+				"antonyms": ["high", "tall"],
+				"examples": [
+					{
+						"text": "The bridge is too low for trucks.",
+						"viText": "Cây cầu quá thấp cho xe tải."
+					},
+					{
+						"text": "He spoke in a very low voice.",
+						"viText": "Anh ấy đã nói bằng một giọng rất trầm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "low price",
+						"meaning": "costing little money",
+						"viMeaning": "giá thấp",
+						"example": "We sell goods at a low price.",
+						"viExample": "Chúng tôi bán hàng với giá thấp."
+					},
+					{
+						"phrase": "low temperature",
+						"meaning": "cold weather conditions",
+						"viMeaning": "nhiệt độ thấp",
+						"example": "Plants can die in low temperature.",
+						"viExample": "Cây cối có thể chết trong nhiệt độ thấp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "near",
+		"pos": "preposition",
+		"ipa": "/nɪə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 100,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "nearness",
+				"pos": "noun"
+			},
+			{
+				"form": "nearly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "at or to a short distance away",
+				"viDef": "gần",
+				"synonyms": ["close", "nearby"],
+				"antonyms": ["far", "distant"],
+				"examples": [
+					{
+						"text": "My house is near the school.",
+						"viText": "Nhà tôi ở gần trường học."
+					},
+					{
+						"text": "Come and sit near me.",
+						"viText": "Lại đây và ngồi gần tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "near future",
+						"meaning": "a time not long from now",
+						"viMeaning": "tương lai gần",
+						"example": "We hope to meet again in the near future.",
+						"viExample": "Chúng tôi hy vọng sẽ gặp lại nhau trong tương lai gần."
+					},
+					{
+						"phrase": "near miss",
+						"meaning": "a situation where an accident is barely avoided",
+						"viMeaning": "sự cố suýt nữa xảy ra",
+						"example": "That car accident was a near miss.",
+						"viExample": "Vụ tai nạn ô tô đó là một tình huống suýt nữa thì xảy ra."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "far",
+		"pos": "adverb",
+		"ipa": "/fɑː(r)/",
+		"cefrLevel": "A1",
+		"frequency": 120,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "farther",
+				"pos": "adverb"
+			},
+			{
+				"form": "farthest",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "at, to, or by a great distance",
+				"viDef": "xa",
+				"synonyms": ["distant", "remote"],
+				"antonyms": ["near", "close"],
+				"examples": [
+					{
+						"text": "Is the train station far from here?",
+						"viText": "Ga xe lửa có xa đây không?"
+					},
+					{
+						"text": "They traveled far away to another country.",
+						"viText": "Họ đã đi rất xa đến một đất nước khác."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "so far",
+						"meaning": "up to this point in time",
+						"viMeaning": "cho đến nay",
+						"example": "So far, we have no problems.",
+						"viExample": "Cho đến nay, chúng tôi không có vấn đề gì."
+					},
+					{
+						"phrase": "as far as",
+						"meaning": "to the extent that",
+						"viMeaning": "theo như",
+						"example": "As far as I know, he is a good man.",
+						"viExample": "Theo như tôi biết, anh ấy là một người tốt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "top",
+		"pos": "noun",
+		"ipa": "/tɒp/",
+		"cefrLevel": "A1",
+		"frequency": 150,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "topless",
+				"pos": "adjective"
+			},
+			{
+				"form": "topper",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the highest or uppermost point, part, or surface",
+				"viDef": "đỉnh, trên cùng",
+				"synonyms": ["peak", "summit"],
+				"antonyms": ["bottom", "base"],
+				"examples": [
+					{
+						"text": "He wrote his name at the top of the page.",
+						"viText": "Anh ấy đã viết tên mình ở phần trên cùng của trang."
+					},
+					{
+						"text": "The cat climbed to the top of the tree.",
+						"viText": "Con mèo đã trèo lên đỉnh cây."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "on top of",
+						"meaning": "resting on the highest part of something",
+						"viMeaning": "ở trên cùng của",
+						"example": "The book is on top of the desk.",
+						"viExample": "Quyển sách nằm ở trên cùng của bàn làm việc."
+					},
+					{
+						"phrase": "top floor",
+						"meaning": "the highest level of a building",
+						"viMeaning": "tầng cao nhất",
+						"example": "They live on the top floor of the building.",
+						"viExample": "Họ sống ở tầng cao nhất của tòa nhà."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "bottom",
+		"pos": "noun",
+		"ipa": "/ˈbɒtəm/",
+		"cefrLevel": "A1",
+		"frequency": 180,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "bottomless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the lowest point or part of something",
+				"viDef": "đáy, dưới cùng",
+				"synonyms": ["base", "foot"],
+				"antonyms": ["top", "peak"],
+				"examples": [
+					{
+						"text": "The answers are at the bottom of the page.",
+						"viText": "Các câu trả lời nằm ở dưới cùng của trang."
+					},
+					{
+						"text": "The ship sank to the bottom of the sea.",
+						"viText": "Con tàu đã chìm xuống đáy biển."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "at the bottom",
+						"meaning": "in the lowest position",
+						"viMeaning": "ở dưới cùng",
+						"example": "Sign your name at the bottom.",
+						"viExample": "Ký tên của bạn ở dưới cùng."
+					},
+					{
+						"phrase": "bottom line",
+						"meaning": "the fundamental and most important factor",
+						"viMeaning": "điểm mấu chốt",
+						"example": "The bottom line is we need more money.",
+						"viExample": "Điểm mấu chốt là chúng ta cần thêm tiền."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "middle",
+		"pos": "noun",
+		"ipa": "/ˈmɪdl/",
+		"cefrLevel": "A1",
+		"frequency": 220,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "midst",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the point or position at an equal distance from the sides",
+				"viDef": "ở giữa",
+				"synonyms": ["center", "heart"],
+				"antonyms": ["edge", "side"],
+				"examples": [
+					{
+						"text": "Please stand in the middle of the room.",
+						"viText": "Vui lòng đứng ở giữa phòng."
+					},
+					{
+						"text": "I woke up in the middle of the night.",
+						"viText": "Tôi đã thức dậy vào giữa đêm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "middle name",
+						"meaning": "the name placed between your first and last name",
+						"viMeaning": "tên đệm",
+						"example": "Do you have a middle name?",
+						"viExample": "Bạn có tên đệm không?"
+					},
+					{
+						"phrase": "middle school",
+						"meaning": "a school for children between elementary and high school",
+						"viMeaning": "trường trung học cơ sở",
+						"example": "My younger brother goes to middle school.",
+						"viExample": "Em trai tôi học trường trung học cơ sở."
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,900 @@
+[
+	{
+		"headword": "intrinsic",
+		"pos": "adjective",
+		"ipa": "/ɪnˈtrɪnzɪk/",
+		"cefrLevel": "C1",
+		"frequency": 7100,
+		"isCommon": false,
+		"wordForms": [{ "form": "intrinsically", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Belonging naturally; essential",
+				"viDef": "nội tại, bản chất",
+				"synonyms": ["inherent", "innate", "natural"],
+				"antonyms": ["extrinsic", "acquired"],
+				"examples": [
+					{
+						"text": "Flexibility is intrinsic to the creative process.",
+						"viText": "Sự linh hoạt là bản chất của quá trình sáng tạo."
+					},
+					{
+						"text": "The diamond has little intrinsic value.",
+						"viText": "Viên kim cương có ít giá trị nội tại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "intrinsic value",
+						"meaning": "The actual value of something regardless of price",
+						"viMeaning": "giá trị nội tại",
+						"example": "Gold has a high intrinsic value.",
+						"viExample": "Vàng có giá trị nội tại cao."
+					},
+					{
+						"phrase": "intrinsic motivation",
+						"meaning": "Doing something because it is personally rewarding",
+						"viMeaning": "động lực nội tại",
+						"example": "He studies for intrinsic motivation, not just grades.",
+						"viExample": "Anh ấy học vì động lực nội tại, không chỉ vì điểm số."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "meticulous",
+		"pos": "adjective",
+		"ipa": "/məˈtɪkjələs/",
+		"cefrLevel": "C1",
+		"frequency": 7800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "meticulously", "pos": "adverb" },
+			{ "form": "meticulousness", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Showing great attention to detail; very careful and precise",
+				"viDef": "tỉ mỉ, kỹ lưỡng",
+				"synonyms": ["thorough", "diligent", "scrupulous"],
+				"antonyms": ["careless", "sloppy"],
+				"examples": [
+					{
+						"text": "The researcher kept meticulous records of the experiment.",
+						"viText": "Nhà nghiên cứu đã ghi chép hồ sơ thí nghiệm một cách tỉ mỉ."
+					},
+					{
+						"text": "She is meticulous about her personal appearance.",
+						"viText": "Cô ấy rất tỉ mỉ về ngoại hình cá nhân."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "meticulous planning",
+						"meaning": "Extremely careful preparation",
+						"viMeaning": "lập kế hoạch tỉ mỉ",
+						"example": "The success was due to meticulous planning.",
+						"viExample": "Thành công có được là nhờ sự lập kế hoạch tỉ mỉ."
+					},
+					{
+						"phrase": "meticulous detail",
+						"meaning": "Great focus on small elements",
+						"viMeaning": "chi tiết tỉ mỉ",
+						"example": "The painting was rendered in meticulous detail.",
+						"viExample": "Bức tranh được vẽ với những chi tiết tỉ mỉ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "obsolete",
+		"pos": "adjective",
+		"ipa": "/ˈɒbsəliːt/",
+		"cefrLevel": "C1",
+		"frequency": 7500,
+		"isCommon": false,
+		"wordForms": [{ "form": "obsolescence", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "No longer produced or used; out of date",
+				"viDef": "lỗi thời, cổ xưa",
+				"synonyms": ["outdated", "archaic", "ancient"],
+				"antonyms": ["modern", "current"],
+				"examples": [
+					{
+						"text": "Typewriters have become obsolete since the invention of computers.",
+						"viText": "Máy đánh chữ đã trở nên lỗi thời kể từ khi máy tính ra đời."
+					},
+					{
+						"text": "That software will be obsolete within a few years.",
+						"viText": "Phần mềm đó sẽ bị lỗi thời trong vài năm tới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "virtually obsolete",
+						"meaning": "Almost completely out of use",
+						"viMeaning": "gần như lỗi thời",
+						"example": "Cassette tapes are now virtually obsolete.",
+						"viExample": "Băng cassette giờ đây gần như đã lỗi thời."
+					},
+					{
+						"phrase": "planned obsolescence",
+						"meaning": "Designing products to break after a short period",
+						"viMeaning": "lỗi thời có kế hoạch",
+						"example": "Smartphones are often built with planned obsolescence.",
+						"viExample": "Điện thoại thông minh thường được sản xuất với sự lỗi thời có kế hoạch."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "perpetuate",
+		"pos": "verb",
+		"ipa": "/pəˈpetʃueɪt/",
+		"cefrLevel": "C1",
+		"frequency": 8200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "perpetuation", "pos": "noun" },
+			{ "form": "perpetual", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Make something (typically an undesirable situation) continue indefinitely",
+				"viDef": "duy trì, kéo dài",
+				"synonyms": ["prolong", "sustain", "preserve"],
+				"antonyms": ["discontinue", "halt"],
+				"examples": [
+					{
+						"text": "These movies perpetuate negative stereotypes about the region.",
+						"viText": "Những bộ phim này duy trì các định kiến tiêu cực về vùng này."
+					},
+					{
+						"text": "Lack of education helps to perpetuate poverty.",
+						"viText": "Sự thiếu giáo dục góp phần kéo dài tình trạng nghèo đói."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "perpetuate a myth",
+						"meaning": "To keep a false story alive",
+						"viMeaning": "duy trì một huyền thoại/lầm tưởng",
+						"example": "Social media can perpetuate a myth very quickly.",
+						"viExample": "Mạng xã hội có thể duy trì một lầm tưởng rất nhanh chóng."
+					},
+					{
+						"phrase": "perpetuate the cycle",
+						"meaning": "To ensure a repeating pattern continues",
+						"viMeaning": "kéo dài vòng lặp",
+						"example": "Violence only serves to perpetuate the cycle of revenge.",
+						"viExample": "Bạo lực chỉ phục vụ cho việc kéo dài vòng lặp trả thù."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ubiquitous",
+		"pos": "adjective",
+		"ipa": "/juːˈbɪkwɪtəs/",
+		"cefrLevel": "C1",
+		"frequency": 8500,
+		"isCommon": false,
+		"wordForms": [{ "form": "ubiquity", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Present, appearing, or found everywhere",
+				"viDef": "phổ biến, có mặt khắp nơi",
+				"synonyms": ["omnipresent", "pervasive", "rife"],
+				"antonyms": ["rare", "scarce"],
+				"examples": [
+					{
+						"text": "Plastic bags are ubiquitous in modern grocery stores.",
+						"viText": "Túi nilon có mặt ở khắp mọi nơi trong các cửa hàng tạp hóa hiện đại."
+					},
+					{
+						"text": "Mobile phones are now ubiquitous in daily life.",
+						"viText": "Điện thoại di động hiện đã phổ biến trong cuộc sống hàng ngày."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ubiquitous presence",
+						"meaning": "The state of being seen everywhere",
+						"viMeaning": "sự hiện diện khắp nơi",
+						"example": "The brand has a ubiquitous presence on the internet.",
+						"viExample": "Thương hiệu này có sự hiện diện khắp nơi trên internet."
+					},
+					{
+						"phrase": "increasingly ubiquitous",
+						"meaning": "Becoming more and more common",
+						"viMeaning": "ngày càng phổ biến",
+						"example": "AI is becoming increasingly ubiquitous in technology.",
+						"viExample": "AI đang ngày càng trở nên phổ biến trong công nghệ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "benevolent",
+		"pos": "adjective",
+		"ipa": "/bəˈnevələnt/",
+		"cefrLevel": "C1",
+		"frequency": 8800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "benevolence", "pos": "noun" },
+			{ "form": "benevolently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Well meaning and kindly",
+				"viDef": "nhân từ, rộng lượng",
+				"synonyms": ["kindly", "charitable", "gracious"],
+				"antonyms": ["malevolent", "spiteful"],
+				"examples": [
+					{
+						"text": "He was a benevolent man who gave a lot to charity.",
+						"viText": "Ông ấy là một người nhân từ, người đã quyên góp rất nhiều cho từ thiện."
+					},
+					{
+						"text": "The company acts with benevolent intentions toward its employees.",
+						"viText": "Công ty hành động với ý định tốt đẹp đối với nhân viên của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "benevolent organization",
+						"meaning": "A group formed for charitable purposes",
+						"viMeaning": "tổ chức nhân đạo",
+						"example": "The benevolent organization provided food for the homeless.",
+						"viExample": "Tổ chức nhân đạo đã cung cấp thực phẩm cho người vô gia cư."
+					},
+					{
+						"phrase": "benevolent dictator",
+						"meaning": "A ruler who uses absolute power for good",
+						"viMeaning": "nhà độc tài nhân từ",
+						"example": "History rarely sees a truly benevolent dictator.",
+						"viExample": "Lịch sử hiếm khi thấy một nhà độc tài thực sự nhân từ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "cogent",
+		"pos": "adjective",
+		"ipa": "/ˈkəʊdʒənt/",
+		"cefrLevel": "C1",
+		"frequency": 9200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "cogency", "pos": "noun" },
+			{ "form": "cogently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "(of an argument or case) clear, logical, and convincing",
+				"viDef": "thuyết phục, chặt chẽ",
+				"synonyms": ["convincing", "compelling", "lucid"],
+				"antonyms": ["vague", "muddled"],
+				"examples": [
+					{
+						"text": "She put forward a cogent argument for changing the law.",
+						"viText": "Cô ấy đã đưa ra một lập luận thuyết phục cho việc thay đổi luật."
+					},
+					{
+						"text": "The report provides a cogent analysis of the crisis.",
+						"viText": "Bản báo cáo cung cấp một phân tích chặt chẽ về cuộc khủng hoảng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "cogent evidence",
+						"meaning": "Proof that is very convincing",
+						"viMeaning": "bằng chứng thuyết phục",
+						"example": "There is no cogent evidence to support his theory.",
+						"viExample": "Không có bằng chứng thuyết phục nào ủng hộ lý thuyết của ông ta."
+					},
+					{
+						"phrase": "highly cogent",
+						"meaning": "Extremely logical and persuasive",
+						"viMeaning": "cực kỳ thuyết phục",
+						"example": "Her speech was highly cogent and well-received.",
+						"viExample": "Bài phát biểu của cô ấy cực kỳ thuyết phục và được đón nhận nồng nhiệt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "complacent",
+		"pos": "adjective",
+		"ipa": "/kəmˈpleɪsnt/",
+		"cefrLevel": "C1",
+		"frequency": 8600,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "complacency", "pos": "noun" },
+			{ "form": "complacently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Showing smug satisfaction with oneself or one's achievements",
+				"viDef": "tự mãn, chủ quan",
+				"synonyms": ["smug", "self-satisfied", "gloating"],
+				"antonyms": ["humble", "modest"],
+				"examples": [
+					{
+						"text": "We cannot afford to be complacent about our current success.",
+						"viText": "Chúng ta không thể cho phép mình tự mãn với thành công hiện tại."
+					},
+					{
+						"text": "He grew complacent and stopped working hard.",
+						"viText": "Anh ta trở nên tự mãn và ngừng làm việc chăm chỉ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "become complacent",
+						"meaning": "To stop trying because you think you are safe",
+						"viMeaning": "trở nên tự mãn",
+						"example": "Don't become complacent just because you won once.",
+						"viExample": "Đừng trở nên tự mãn chỉ vì bạn đã thắng một lần."
+					},
+					{
+						"phrase": "complacent attitude",
+						"meaning": "A mindset of uncritical satisfaction",
+						"viMeaning": "thái độ tự mãn",
+						"example": "Her complacent attitude led to several mistakes.",
+						"viExample": "Thái độ tự mãn của cô ấy đã dẫn đến vài sai lầm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "detrimental",
+		"pos": "adjective",
+		"ipa": "/ˌdetrɪˈmentl/",
+		"cefrLevel": "C1",
+		"frequency": 7300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "detriment", "pos": "noun" },
+			{ "form": "detrimentally", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Tending to cause harm",
+				"viDef": "có hại, bất lợi",
+				"synonyms": ["harmful", "damaging", "adverse"],
+				"antonyms": ["benign", "beneficial"],
+				"examples": [
+					{
+						"text": "Smoking is detrimental to your health.",
+						"viText": "Hút thuốc có hại cho sức khỏe của bạn."
+					},
+					{
+						"text": "Noise pollution can have a detrimental effect on wildlife.",
+						"viText": "Ô nhiễm tiếng ồn có thể gây tác động bất lợi cho động vật hoang dã."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "detrimental effect",
+						"meaning": "A result that causes damage",
+						"viMeaning": "tác động có hại",
+						"example": "The policy had a detrimental effect on small businesses.",
+						"viExample": "Chính sách này đã có tác động có hại đến các doanh nghiệp nhỏ."
+					},
+					{
+						"phrase": "potentially detrimental",
+						"meaning": "Likely to be harmful in the future",
+						"viMeaning": "có tiềm năng gây hại",
+						"example": "These chemicals are potentially detrimental to the environment.",
+						"viExample": "Những hóa chất này có khả năng gây hại cho môi trường."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "dogmatic",
+		"pos": "adjective",
+		"ipa": "/dɒɡˈmætɪk/",
+		"cefrLevel": "C1",
+		"frequency": 9400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "dogma", "pos": "noun" },
+			{ "form": "dogmatically", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Inclined to lay down principles as undeniably true",
+				"viDef": "giáo điều, độc đoán",
+				"synonyms": ["opinionated", "peremptory", "rigid"],
+				"antonyms": ["open-minded", "flexible"],
+				"examples": [
+					{
+						"text": "She was very dogmatic about her political views.",
+						"viText": "Cô ấy rất giáo điều về quan điểm chính trị của mình."
+					},
+					{
+						"text": "The professor's dogmatic approach discouraged open discussion.",
+						"viText": "Cách tiếp cận độc đoán của giáo sư đã cản trở thảo luận cởi mở."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "dogmatic assertion",
+						"meaning": "A statement made as if it cannot be questioned",
+						"viMeaning": "khẳng định giáo điều",
+						"example": "He made several dogmatic assertions during the debate.",
+						"viExample": "Ông ta đã đưa ra vài lời khẳng định giáo điều trong suốt cuộc tranh luận."
+					},
+					{
+						"phrase": "less dogmatic",
+						"meaning": "More open to different ideas",
+						"viMeaning": "ít giáo điều hơn",
+						"example": "The manager became less dogmatic as he gained experience.",
+						"viExample": "Người quản lý trở nên ít giáo điều hơn khi có thêm kinh nghiệm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "emulate",
+		"pos": "verb",
+		"ipa": "/ˈemjuleɪt/",
+		"cefrLevel": "C1",
+		"frequency": 8000,
+		"isCommon": false,
+		"wordForms": [{ "form": "emulation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Match or surpass (a person or achievement), typically by imitation",
+				"viDef": "mô phỏng, học tập theo",
+				"synonyms": ["imitate", "copy", "mimic"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He hoped to emulate his father's success in business.",
+						"viText": "Anh hy vọng sẽ học tập theo thành công của cha mình trong kinh doanh."
+					},
+					{
+						"text": "The smaller company tried to emulate the industry leader.",
+						"viText": "Công ty nhỏ hơn đã cố gắng mô phỏng người dẫn đầu ngành."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "emulate success",
+						"meaning": "To achieve what someone else has achieved",
+						"viMeaning": "học tập theo thành công",
+						"example": "Many young athletes try to emulate the success of their idols.",
+						"viExample": "Nhiều vận động viên trẻ cố gắng học tập theo thành công của thần tượng."
+					},
+					{
+						"phrase": "strive to emulate",
+						"meaning": "To work hard to be like someone else",
+						"viMeaning": "phấn đấu học tập theo",
+						"example": "She strove to emulate her teacher's dedication.",
+						"viExample": "Cô ấy đã phấn đấu học tập theo sự tận tụy của giáo viên."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "gregarious",
+		"pos": "adjective",
+		"ipa": "/ɡrɪˈɡeəriəs/",
+		"cefrLevel": "C1",
+		"frequency": 9800,
+		"isCommon": false,
+		"wordForms": [{ "form": "gregariousness", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "(of a person) fond of company; sociable",
+				"viDef": "thích giao du, hòa đồng",
+				"synonyms": ["sociable", "convivial", "amiable"],
+				"antonyms": ["unsociable", "reserved"],
+				"examples": [
+					{
+						"text": "She was a gregarious and outgoing person.",
+						"viText": "Cô ấy là một người hòa đồng và cởi mở."
+					},
+					{
+						"text": "Gregarious birds often fly in large flocks.",
+						"viText": "Những loài chim có tập tính bầy đàn thường bay thành đàn lớn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "naturally gregarious",
+						"meaning": "Being born with a love for people",
+						"viMeaning": "bản tính hòa đồng",
+						"example": "He is naturally gregarious and makes friends easily.",
+						"viExample": "Anh ấy có bản tính hòa đồng và kết bạn rất dễ dàng."
+					},
+					{
+						"phrase": "gregarious species",
+						"meaning": "Animals that live in groups",
+						"viMeaning": "loài sống theo bầy đàn",
+						"example": "Dolphins are a highly gregarious species.",
+						"viExample": "Cá heo là một loài sống theo bầy đàn cao."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "laconic",
+		"pos": "adjective",
+		"ipa": "/ləˈkɒnɪk/",
+		"cefrLevel": "C1",
+		"frequency": 9900,
+		"isCommon": false,
+		"wordForms": [{ "form": "laconically", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "(of a person, speech, or style of writing) using very few words",
+				"viDef": "vắn tắt, súc tích",
+				"synonyms": ["brief", "concise", "succinct"],
+				"antonyms": ["verbose", "loquacious"],
+				"examples": [
+					{
+						"text": "His laconic reply suggested he was not interested.",
+						"viText": "Câu trả lời vắn tắt của anh ta cho thấy anh ta không quan tâm."
+					},
+					{
+						"text": "The writer is known for her laconic style.",
+						"viText": "Nữ nhà văn nổi tiếng với phong cách viết súc tích."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "laconic wit",
+						"meaning": "Humor that uses very few words",
+						"viMeaning": "sự hóm hỉnh súc tích",
+						"example": "He was admired for his laconic wit.",
+						"viExample": "Anh ấy được ngưỡng mộ vì sự hóm hỉnh súc tích của mình."
+					},
+					{
+						"phrase": "typically laconic",
+						"meaning": "Usually very brief in speech",
+						"viMeaning": "vốn dĩ súc tích/ít nói",
+						"example": "He gave a typically laconic answer.",
+						"viExample": "Anh ta đã đưa ra một câu trả lời súc tích như thường lệ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "malleable",
+		"pos": "adjective",
+		"ipa": "/ˈmæliəbl/",
+		"cefrLevel": "C1",
+		"frequency": 9300,
+		"isCommon": false,
+		"wordForms": [{ "form": "malleability", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Able to be hammered or pressed permanently out of shape without breaking",
+				"viDef": "dễ uốn nắn, dễ bảo",
+				"synonyms": ["pliable", "ductile", "compliant"],
+				"antonyms": ["rigid", "hard"],
+				"examples": [
+					{ "text": "Gold is a very malleable metal.", "viText": "Vàng là một kim loại rất dễ uốn." },
+					{
+						"text": "The minds of young children are highly malleable.",
+						"viText": "Tâm trí của trẻ nhỏ rất dễ bị uốn nắn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "highly malleable",
+						"meaning": "Very easy to shape or influence",
+						"viMeaning": "rất dễ uốn nắn",
+						"example": "The clay remained highly malleable while wet.",
+						"viExample": "Đất sét vẫn rất dễ nặn khi còn ướt."
+					},
+					{
+						"phrase": "malleable material",
+						"meaning": "A substance that can be reshaped",
+						"viMeaning": "vật liệu dễ uốn",
+						"example": "Copper is a common malleable material used in pipes.",
+						"viExample": "Đồng là một vật liệu dễ uốn phổ biến được dùng trong ống nước."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ostensibly",
+		"pos": "adverb",
+		"ipa": "/ɒˈstensəbli/",
+		"cefrLevel": "C1",
+		"frequency": 8700,
+		"isCommon": false,
+		"wordForms": [{ "form": "ostensible", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Apparently or purportedly, but perhaps not actually",
+				"viDef": "có vẻ là, bề ngoài là",
+				"synonyms": ["seemingly", "apparently", "superficially"],
+				"antonyms": ["genuinely", "really"],
+				"examples": [
+					{
+						"text": "He visited the city ostensibly to see his family.",
+						"viText": "Anh ta đến thành phố có vẻ là để thăm gia đình."
+					},
+					{
+						"text": "The meeting was ostensibly about the budget, but other issues were raised.",
+						"viText": "Cuộc họp bề ngoài là về ngân sách, nhưng các vấn đề khác đã được đưa ra."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ostensibly simple",
+						"meaning": "Seeming easy but actually complex",
+						"viMeaning": "có vẻ đơn giản",
+						"example": "The task was ostensibly simple but took hours.",
+						"viExample": "Nhiệm vụ có vẻ đơn giản nhưng đã mất hàng giờ."
+					},
+					{
+						"phrase": "ostensibly for",
+						"meaning": "Claiming to be for a specific purpose",
+						"viMeaning": "có vẻ là vì",
+						"example": "The tax was ostensibly for education improvements.",
+						"viExample": "Khoản thuế đó có vẻ là dành cho việc cải thiện giáo dục."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "pernicious",
+		"pos": "adjective",
+		"ipa": "/pəˈnɪʃəs/",
+		"cefrLevel": "C1",
+		"frequency": 9600,
+		"isCommon": false,
+		"wordForms": [{ "form": "perniciously", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having a harmful effect, especially in a gradual or subtle way",
+				"viDef": "độc hại, nguy hiểm",
+				"synonyms": ["damaging", "deadly", "malicious"],
+				"antonyms": ["harmless", "beneficial"],
+				"examples": [
+					{
+						"text": "The cuts in social services have had a pernicious effect on the poor.",
+						"viText": "Việc cắt giảm dịch vụ xã hội đã có tác động độc hại đối với người nghèo."
+					},
+					{
+						"text": "Fake news can have a pernicious influence on public opinion.",
+						"viText": "Tin giả có thể có ảnh hưởng độc hại đến dư luận."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "pernicious influence",
+						"meaning": "A harmful power that grows slowly",
+						"viMeaning": "ảnh hưởng độc hại",
+						"example": "They warned against the pernicious influence of the cult.",
+						"viExample": "Họ đã cảnh báo chống lại ảnh hưởng độc hại của giáo phái đó."
+					},
+					{
+						"phrase": "pernicious habit",
+						"meaning": "A bad behavior that is hard to stop",
+						"viMeaning": "thói quen tai hại",
+						"example": "Gambling can become a pernicious habit.",
+						"viExample": "Cờ bạc có thể trở thành một thói quen tai hại."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "precarious",
+		"pos": "adjective",
+		"ipa": "/prɪˈkeəriəs/",
+		"cefrLevel": "C1",
+		"frequency": 8900,
+		"isCommon": false,
+		"wordForms": [{ "form": "precariously", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Not securely held or in position; dangerously likely to fall or collapse",
+				"viDef": "bấp bênh, hiểm nghèo",
+				"synonyms": ["unstable", "shaky", "risky"],
+				"antonyms": ["safe", "secure"],
+				"examples": [
+					{
+						"text": "The ladder was in a precarious position against the wall.",
+						"viText": "Chiếc thang ở một vị trí bấp bênh tựa vào tường."
+					},
+					{
+						"text": "Many families are in a precarious financial situation.",
+						"viText": "Nhiều gia đình đang ở trong tình trạng tài chính bấp bênh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "precarious balance",
+						"meaning": "A state that is very easy to upset",
+						"viMeaning": "sự cân bằng bấp bênh",
+						"example": "The rock sat in a precarious balance on the cliff.",
+						"viExample": "Tảng đá nằm ở một thế cân bằng bấp bênh trên vách đá."
+					},
+					{
+						"phrase": "precarious living",
+						"meaning": "Life that is uncertain and potentially dangerous",
+						"viMeaning": "cuộc sống bấp bênh",
+						"example": "The refugees face a precarious living in the camps.",
+						"viExample": "Những người tị nạn đối mặt với cuộc sống bấp bênh trong các trại tập trung."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "spurious",
+		"pos": "adjective",
+		"ipa": "/ˈspjʊəriəs/",
+		"cefrLevel": "C1",
+		"frequency": 9700,
+		"isCommon": false,
+		"wordForms": [{ "form": "spuriously", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Not being what it purports to be; false or fake",
+				"viDef": "giả mạo, sai lệch",
+				"synonyms": ["bogus", "fake", "factitious"],
+				"antonyms": ["authentic", "genuine"],
+				"examples": [
+					{
+						"text": "The court rejected the spurious claim for damages.",
+						"viText": "Tòa án đã bác bỏ yêu cầu đòi bồi thường thiệt hại sai lệch."
+					},
+					{
+						"text": "Don't be fooled by spurious arguments.",
+						"viText": "Đừng bị lừa bởi những lập luận sai lệch."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "spurious correlation",
+						"meaning": "A connection that seems real but is accidental",
+						"viMeaning": "tương quan ảo",
+						"example": "The graph showed a spurious correlation between cheese and car sales.",
+						"viExample": "Biểu đồ cho thấy một sự tương quan ảo giữa phô mai và doanh số bán xe."
+					},
+					{
+						"phrase": "spurious reasoning",
+						"meaning": "Logic that is incorrect or deceptive",
+						"viMeaning": "lập luận sai lệch",
+						"example": "His theory was based on spurious reasoning.",
+						"viExample": "Lý thuyết của ông ta dựa trên lập luận sai lệch."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "substantiate",
+		"pos": "verb",
+		"ipa": "/səbˈstænʃieɪt/",
+		"cefrLevel": "C1",
+		"frequency": 9100,
+		"isCommon": false,
+		"wordForms": [{ "form": "substantiation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Provide evidence to support or prove the truth of",
+				"viDef": "chứng minh, xác thực",
+				"synonyms": ["prove", "uphold", "justify"],
+				"antonyms": ["disprove", "refute"],
+				"examples": [
+					{
+						"text": "We need more data to substantiate these findings.",
+						"viText": "Chúng tôi cần thêm dữ liệu để xác thực những phát hiện này."
+					},
+					{
+						"text": "They were unable to substantiate the allegations against him.",
+						"viText": "Họ đã không thể chứng minh các cáo buộc chống lại anh ta."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fully substantiate",
+						"meaning": "To provide complete proof for something",
+						"viMeaning": "chứng minh đầy đủ",
+						"example": "The investigation fully substantiated the witness's story.",
+						"viExample": "Cuộc điều tra đã chứng minh đầy đủ câu chuyện của nhân chứng."
+					},
+					{
+						"phrase": "substantiate a claim",
+						"meaning": "To give facts that support a statement",
+						"viMeaning": "xác thực một yêu cầu/khẳng định",
+						"example": "The lawyer tried to substantiate the client's claim.",
+						"viExample": "Luật sư đã cố gắng xác thực khẳng định của khách hàng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "tenuous",
+		"pos": "adjective",
+		"ipa": "/ˈtenjuəs/",
+		"cefrLevel": "C1",
+		"frequency": 9500,
+		"isCommon": false,
+		"wordForms": [{ "form": "tenuously", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Very weak or slight",
+				"viDef": "mong manh, yếu ớt",
+				"synonyms": ["flimsy", "fragile", "uncertain"],
+				"antonyms": ["strong", "solid"],
+				"examples": [
+					{
+						"text": "The link between the two events is tenuous at best.",
+						"viText": "Mối liên hệ giữa hai sự kiện này cùng lắm là mong manh."
+					},
+					{
+						"text": "He has a tenuous hold on power.",
+						"viText": "Ông ta đang nắm giữ quyền lực một cách lỏng lẻo."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "tenuous link",
+						"meaning": "A very small connection between ideas",
+						"viMeaning": "mối liên hệ mong manh",
+						"example": "There is only a tenuous link between diet and this disease.",
+						"viExample": "Chỉ có một mối liên hệ mong manh giữa chế độ ăn và căn bệnh này."
+					},
+					{
+						"phrase": "tenuous situation",
+						"meaning": "A state of affairs that could easily change",
+						"viMeaning": "tình thế mong manh",
+						"example": "The peace agreement is in a tenuous situation.",
+						"viExample": "Hiệp định hòa bình đang ở trong một tình thế mong manh."
+					}
+				]
+			}
+		]
+	}
+]

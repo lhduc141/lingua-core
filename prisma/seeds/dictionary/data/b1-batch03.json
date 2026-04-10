@@ -1,0 +1,938 @@
+[
+	{
+		"headword": "economy",
+		"pos": "noun",
+		"ipa": "/ɪˈkɒnəmi/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "economic", "pos": "adjective" },
+			{ "form": "economical", "pos": "adjective" },
+			{ "form": "economist", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The system of trade and industry in a country",
+				"viDef": "nền kinh tế",
+				"synonyms": ["wealth", "financial system"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The global economy is facing a period of uncertainty.",
+						"viText": "Nền kinh tế toàn cầu đang đối mặt với một giai đoạn bất ổn."
+					},
+					{
+						"text": "Tourism is a vital part of the local economy.",
+						"viText": "Du lịch là một phần thiết yếu của nền kinh tế địa phương."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "boost the economy",
+						"meaning": "To improve the financial state of a country",
+						"viMeaning": "thúc đẩy kinh tế",
+						"example": "Lower taxes can help boost the economy.",
+						"viExample": "Thuế thấp hơn có thể giúp thúc đẩy nền kinh tế."
+					},
+					{
+						"phrase": "growing economy",
+						"meaning": "An economy that is increasing in size",
+						"viMeaning": "nền kinh tế đang phát triển",
+						"example": "Vietnam has a rapidly growing economy.",
+						"viExample": "Việt Nam có một nền kinh tế đang phát triển nhanh chóng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "government",
+		"pos": "noun",
+		"ipa": "/ˈɡʌvənmənt/",
+		"cefrLevel": "B1",
+		"frequency": 3010,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "govern", "pos": "verb" },
+			{ "form": "governor", "pos": "noun" },
+			{ "form": "governmental", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The group of people who rule a country or state",
+				"viDef": "chính phủ",
+				"synonyms": ["administration", "regime"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The government has announced new measures to combat poverty.",
+						"viText": "Chính phủ đã công bố các biện pháp mới để chống nghèo đói."
+					},
+					{
+						"text": "Local government is responsible for schools and roads.",
+						"viText": "Chính quyền địa phương chịu trách nhiệm về trường học và đường xá."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "form a government",
+						"meaning": "To create a group to rule a country",
+						"viMeaning": "thành lập chính phủ",
+						"example": "The winning party will form a government.",
+						"viExample": "Đảng chiến thắng sẽ thành lập chính phủ."
+					},
+					{
+						"phrase": "government policy",
+						"meaning": "A plan of action by a government",
+						"viMeaning": "chính sách chính phủ",
+						"example": "The public is unhappy with the current government policy.",
+						"viExample": "Công chúng không hài lòng với chính sách chính phủ hiện tại."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "society",
+		"pos": "noun",
+		"ipa": "/səˈsaɪəti/",
+		"cefrLevel": "B1",
+		"frequency": 3025,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "social", "pos": "adjective" },
+			{ "form": "socialize", "pos": "verb" },
+			{ "form": "societal", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "People living together in an organized community",
+				"viDef": "xã hội",
+				"synonyms": ["community", "public"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Technology has a huge impact on modern society.",
+						"viText": "Công nghệ có tác động to lớn đến xã hội hiện đại."
+					},
+					{
+						"text": "We must work together for the benefit of society.",
+						"viText": "Chúng ta phải cùng nhau làm việc vì lợi ích của xã hội."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "multicultural society",
+						"meaning": "A society with many different cultures",
+						"viMeaning": "xã hội đa văn hóa",
+						"example": "Australia is a successful multicultural society.",
+						"viExample": "Úc là một xã hội đa văn hóa thành công."
+					},
+					{
+						"phrase": "civil society",
+						"meaning": "Organizations outside of government and business",
+						"viMeaning": "xã hội dân sự",
+						"example": "Charities play a key role in civil society.",
+						"viExample": "Các tổ chức từ thiện đóng vai trò then chốt trong xã hội dân sự."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "politics",
+		"pos": "noun",
+		"ipa": "/ˈpɒlətɪks/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "political", "pos": "adjective" },
+			{ "form": "politician", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Activities involved in getting and using power in public life",
+				"viDef": "chính trị",
+				"synonyms": ["government", "civics"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He entered politics because he wanted to help people.",
+						"viText": "Anh ấy tham gia chính trị vì muốn giúp đỡ mọi người."
+					},
+					{
+						"text": "I try to avoid discussing politics at dinner.",
+						"viText": "Tôi cố gắng tránh thảo luận chính trị trong bữa tối."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "local politics",
+						"meaning": "Politics at the city or town level",
+						"viMeaning": "chính trị địa phương",
+						"example": "She is very active in local politics.",
+						"viExample": "Cô ấy hoạt động rất tích cực trong chính trị địa phương."
+					},
+					{
+						"phrase": "international politics",
+						"meaning": "Relations between different countries",
+						"viMeaning": "chính trị quốc tế",
+						"example": "The conflict has changed international politics.",
+						"viExample": "Cuộc xung đột đã thay đổi chính trị quốc tế."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "policy",
+		"pos": "noun",
+		"ipa": "/ˈpɒləsi/",
+		"cefrLevel": "B1",
+		"frequency": 3150,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A set of ideas or a plan of what to do",
+				"viDef": "chính sách",
+				"synonyms": ["plan", "strategy", "guideline"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The school has a strict policy on bullying.",
+						"viText": "Trường học có một chính sách nghiêm ngặt về việc bắt nạt."
+					},
+					{
+						"text": "What is your company's policy regarding remote work?",
+						"viText": "Chính sách của công ty bạn về làm việc từ xa là gì?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "foreign policy",
+						"meaning": "A government's strategy in dealing with other nations",
+						"viMeaning": "chính sách đối ngoại",
+						"example": "Trade is a major part of foreign policy.",
+						"viExample": "Thương mại là một phần chính của chính sách đối ngoại."
+					},
+					{
+						"phrase": "insurance policy",
+						"meaning": "An agreement with an insurance company",
+						"viMeaning": "hợp đồng bảo hiểm",
+						"example": "Check your insurance policy for health coverage.",
+						"viExample": "Kiểm tra hợp đồng bảo hiểm của bạn để biết phạm vi bảo hiểm y tế."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "education",
+		"pos": "noun",
+		"ipa": "/ˌedjuˈkeɪʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3015,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "educate", "pos": "verb" },
+			{ "form": "educational", "pos": "adjective" },
+			{ "form": "educator", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The process of teaching and learning, usually in schools",
+				"viDef": "giáo dục",
+				"synonyms": ["schooling", "training", "learning"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Every child has the right to a good education.",
+						"viText": "Mọi đứa trẻ đều có quyền có một nền giáo dục tốt."
+					},
+					{
+						"text": "She decided to continue her education after graduation.",
+						"viText": "Cô ấy quyết định tiếp tục con đường giáo dục của mình sau khi tốt nghiệp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "higher education",
+						"meaning": "Learning at university or college level",
+						"viMeaning": "giáo dục đại học",
+						"example": "More students are pursuing higher education.",
+						"viExample": "Ngày càng có nhiều sinh viên theo đuổi giáo dục đại học."
+					},
+					{
+						"phrase": "vocational education",
+						"meaning": "Training for a specific job or trade",
+						"viMeaning": "giáo dục nghề nghiệp",
+						"example": "Vocational education focuses on practical skills.",
+						"viExample": "Giáo dục nghề nghiệp tập trung vào các kỹ năng thực hành."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "technology",
+		"pos": "noun",
+		"ipa": "/tekˈnɒlədʒi/",
+		"cefrLevel": "B1",
+		"frequency": 3035,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "technological", "pos": "adjective" },
+			{ "form": "technologist", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Scientific knowledge used in practical ways in industry",
+				"viDef": "công nghệ",
+				"synonyms": ["machinery", "equipment"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Modern technology makes our lives much easier.",
+						"viText": "Công nghệ hiện đại làm cho cuộc sống của chúng ta dễ dàng hơn nhiều."
+					},
+					{
+						"text": "The company is investing in new technology.",
+						"viText": "Công ty đang đầu tư vào công nghệ mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "advanced technology",
+						"meaning": "The most modern and developed scientific methods",
+						"viMeaning": "công nghệ tiên tiến",
+						"example": "The hospital uses advanced technology for surgery.",
+						"viExample": "Bệnh viện sử dụng công nghệ tiên tiến để phẫu thuật."
+					},
+					{
+						"phrase": "information technology",
+						"meaning": "Using computers and software to manage data",
+						"viMeaning": "công nghệ thông tin",
+						"example": "He works in the information technology department.",
+						"viExample": "Anh ấy làm việc ở bộ phận công nghệ thông tin."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "research",
+		"pos": "noun",
+		"ipa": "/rɪˈsɜːtʃ/",
+		"cefrLevel": "B1",
+		"frequency": 3060,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "research", "pos": "verb" },
+			{ "form": "researcher", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Detailed study of a subject to discover new information",
+				"viDef": "nghiên cứu",
+				"synonyms": ["investigation", "study", "analysis"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The team is conducting research on climate change.",
+						"viText": "Nhóm nghiên cứu đang thực hiện nghiên cứu về biến đổi khí hậu."
+					},
+					{
+						"text": "Recent research suggests that tea is good for health.",
+						"viText": "Nghiên cứu gần đây cho thấy trà tốt cho sức khỏe."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "market research",
+						"meaning": "Collecting info about what people want to buy",
+						"viMeaning": "nghiên cứu thị trường",
+						"example": "We did market research before launching the product.",
+						"viExample": "Chúng tôi đã thực hiện nghiên cứu thị trường trước khi tung sản phẩm."
+					},
+					{
+						"phrase": "scientific research",
+						"meaning": "Research using scientific methods",
+						"viMeaning": "nghiên cứu khoa học",
+						"example": "The government funds scientific research.",
+						"viExample": "Chính phủ tài trợ cho nghiên cứu khoa học."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "development",
+		"pos": "noun",
+		"ipa": "/dɪˈveləpmənt/",
+		"cefrLevel": "B1",
+		"frequency": 3045,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "develop", "pos": "verb" },
+			{ "form": "developer", "pos": "noun" },
+			{ "form": "developing", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The process of growing, changing, or becoming more advanced",
+				"viDef": "sự phát triển",
+				"synonyms": ["growth", "evolution", "improvement"],
+				"antonyms": ["decline", "deterioration"],
+				"examples": [
+					{
+						"text": "The child's development is monitored by a doctor.",
+						"viText": "Sự phát triển của đứa trẻ được theo dõi bởi bác sĩ."
+					},
+					{
+						"text": "Software development is a fast-growing industry.",
+						"viText": "Phát triển phần mềm là một ngành công nghiệp tăng trưởng nhanh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "economic development",
+						"meaning": "The process where a country gets wealthier",
+						"viMeaning": "phát triển kinh tế",
+						"example": "The city has seen rapid economic development.",
+						"viExample": "Thành phố đã chứng kiến sự phát triển kinh tế nhanh chóng."
+					},
+					{
+						"phrase": "sustainable development",
+						"meaning": "Growth that does not damage the environment",
+						"viMeaning": "phát triển bền vững",
+						"example": "The company is committed to sustainable development.",
+						"viExample": "Công ty cam kết phát triển bền vững."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "progress",
+		"pos": "noun",
+		"ipa": "/ˈprəʊɡres/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "progress", "pos": "verb" },
+			{ "form": "progressive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The process of improving or getting closer to completion",
+				"viDef": "sự tiến bộ, tiến triển",
+				"synonyms": ["advancement", "improvement"],
+				"antonyms": ["regression"],
+				"examples": [
+					{
+						"text": "She is making great progress with her piano lessons.",
+						"viText": "Cô ấy đang có tiến bộ vượt bậc với các bài học piano."
+					},
+					{
+						"text": "We are satisfied with the progress of the building.",
+						"viText": "Chúng tôi hài lòng với tiến độ của tòa nhà."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make progress",
+						"meaning": "To improve or move toward a goal",
+						"viMeaning": "tiến bộ",
+						"example": "It's slow but we are making progress.",
+						"viExample": "Dù chậm nhưng chúng tôi đang tiến bộ."
+					},
+					{
+						"phrase": "steady progress",
+						"meaning": "Consistent and continuous improvement",
+						"viMeaning": "tiến bộ đều đặn",
+						"example": "The patient is showing steady progress.",
+						"viExample": "Bệnh nhân đang cho thấy sự tiến triển đều đặn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "challenge",
+		"pos": "noun",
+		"ipa": "/ˈtʃælɪndʒ/",
+		"cefrLevel": "B1",
+		"frequency": 3120,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "challenge", "pos": "verb" },
+			{ "form": "challenging", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A new or difficult task that tests ability",
+				"viDef": "thử thách, thách thức",
+				"synonyms": ["difficulty", "obstacle"],
+				"antonyms": ["easiness"],
+				"examples": [
+					{
+						"text": "Climbing the mountain was a huge challenge for them.",
+						"viText": "Leo ngọn núi đó là một thử thách lớn đối với họ."
+					},
+					{
+						"text": "I’m looking for a new challenge in my career.",
+						"viText": "Tôi đang tìm kiếm một thử thách mới trong sự nghiệp của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "face a challenge",
+						"meaning": "To deal with a difficult situation",
+						"viMeaning": "đối mặt với thử thách",
+						"example": "The company faces a major financial challenge.",
+						"viExample": "Công ty đối mặt với một thách thức tài chính lớn."
+					},
+					{
+						"phrase": "accept a challenge",
+						"meaning": "To agree to do a difficult task",
+						"viMeaning": "chấp nhận thử thách",
+						"example": "He was brave enough to accept the challenge.",
+						"viExample": "Anh ấy đã đủ dũng cảm để chấp nhận thử thách."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "opportunity",
+		"pos": "noun",
+		"ipa": "/ˌɒpəˈtjuːnəti/",
+		"cefrLevel": "B1",
+		"frequency": 3055,
+		"isCommon": false,
+		"wordForms": [{ "form": "opportune", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A chance to do something that you want",
+				"viDef": "cơ hội",
+				"synonyms": ["chance", "opening"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "This job is a great opportunity for me.",
+						"viText": "Công việc này là một cơ hội tuyệt vời đối với tôi."
+					},
+					{
+						"text": "Don't miss the opportunity to travel abroad.",
+						"viText": "Đừng bỏ lỡ cơ hội đi du lịch nước ngoài."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "take an opportunity",
+						"meaning": "To use a chance that is given",
+						"viMeaning": "nắm bắt cơ hội",
+						"example": "I took the opportunity to ask for a raise.",
+						"viExample": "Tôi đã nắm bắt cơ hội để yêu cầu tăng lương."
+					},
+					{
+						"phrase": "job opportunity",
+						"meaning": "A chance to get a job",
+						"viMeaning": "cơ hội việc làm",
+						"example": "The new factory will create many job opportunities.",
+						"viExample": "Nhà máy mới sẽ tạo ra nhiều cơ hội việc làm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "responsibility",
+		"pos": "noun",
+		"ipa": "/rɪˌspɒnsəˈbɪləti/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "responsible", "pos": "adjective" },
+			{ "form": "responsibly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that is your job or duty to do",
+				"viDef": "trách nhiệm",
+				"synonyms": ["duty", "obligation", "task"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Parenting is a lifelong responsibility.",
+						"viText": "Nuôi dạy con cái là một trách nhiệm cả đời."
+					},
+					{
+						"text": "It is your responsibility to keep the room clean.",
+						"viText": "Trách nhiệm của bạn là giữ cho căn phòng sạch sẽ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "take responsibility",
+						"meaning": "To admit being responsible for something",
+						"viMeaning": "nhận trách nhiệm",
+						"example": "He refused to take responsibility for the error.",
+						"viExample": "Anh ta từ chối nhận trách nhiệm về sai sót đó."
+					},
+					{
+						"phrase": "sense of responsibility",
+						"meaning": "A feeling that you should do your duty",
+						"viMeaning": "ý thức trách nhiệm",
+						"example": "She has a strong sense of responsibility toward her staff.",
+						"viExample": "Cô ấy có ý thức trách nhiệm mạnh mẽ đối với nhân viên của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "relationship",
+		"pos": "noun",
+		"ipa": "/rɪˈleɪʃnʃɪp/",
+		"cefrLevel": "B1",
+		"frequency": 3070,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "relate", "pos": "verb" },
+			{ "form": "relative", "pos": "noun" },
+			{ "form": "relatively", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The way in which two or more people behave",
+				"viDef": "mối quan hệ",
+				"synonyms": ["connection", "bond", "link"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "They have a very close working relationship.",
+						"viText": "Họ có một mối quan hệ công việc rất gần gũi."
+					},
+					{
+						"text": "I have a good relationship with my parents.",
+						"viText": "Tôi có mối quan hệ tốt với bố mẹ mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "build a relationship",
+						"meaning": "To create a connection over time",
+						"viMeaning": "xây dựng mối quan hệ",
+						"example": "It takes time to build a trustful relationship.",
+						"viExample": "Mất thời gian để xây dựng một mối quan hệ tin cậy."
+					},
+					{
+						"phrase": "serious relationship",
+						"meaning": "A romantic bond that is committed",
+						"viMeaning": "mối quan hệ nghiêm túc",
+						"example": "Are you looking for a serious relationship?",
+						"viExample": "Bạn có đang tìm kiếm một mối quan hệ nghiêm túc không?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "expectation",
+		"pos": "noun",
+		"ipa": "/ˌekspekˈteɪʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3350,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "expect", "pos": "verb" },
+			{ "form": "expectancy", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A belief that something will or should happen",
+				"viDef": "sự kỳ vọng",
+				"synonyms": ["anticipation", "hope"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The movie didn't live up to my expectations.",
+						"viText": "Bộ phim đã không như sự kỳ vọng của tôi."
+					},
+					{
+						"text": "Public expectations for the new government are high.",
+						"viText": "Kỳ vọng của công chúng vào chính phủ mới là rất cao."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "meet expectations",
+						"meaning": "To be as good as someone hoped",
+						"viMeaning": "đáp ứng kỳ vọng",
+						"example": "The service did not meet our expectations.",
+						"viExample": "Dịch vụ đã không đáp ứng được kỳ vọng của chúng tôi."
+					},
+					{
+						"phrase": "high expectations",
+						"meaning": "Believing that something will be very good",
+						"viMeaning": "kỳ vọng cao",
+						"example": "My parents have high expectations for my grades.",
+						"viExample": "Bố mẹ tôi có kỳ vọng cao vào điểm số của tôi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "satisfaction",
+		"pos": "noun",
+		"ipa": "/ˌsætɪsˈfækʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "satisfy", "pos": "verb" },
+			{ "form": "satisfactory", "pos": "adjective" },
+			{ "form": "satisfied", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A pleasant feeling you get when you achieve something",
+				"viDef": "sự hài lòng",
+				"synonyms": ["contentment", "pleasure"],
+				"antonyms": ["dissatisfaction"],
+				"examples": [
+					{
+						"text": "Helping others gives me a lot of satisfaction.",
+						"viText": "Giúp đỡ người khác mang lại cho tôi rất nhiều sự hài lòng."
+					},
+					{
+						"text": "The company guarantees 100% customer satisfaction.",
+						"viText": "Công ty đảm bảo 100% sự hài lòng của khách hàng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "job satisfaction",
+						"meaning": "The feeling of enjoying your work",
+						"viMeaning": "sự hài lòng trong công việc",
+						"example": "Flexible hours increase job satisfaction.",
+						"viExample": "Giờ giấc linh hoạt giúp tăng sự hài lòng trong công việc."
+					},
+					{
+						"phrase": "express satisfaction",
+						"meaning": "To say that you are happy with something",
+						"viMeaning": "bày tỏ sự hài lòng",
+						"example": "The manager expressed satisfaction with the report.",
+						"viExample": "Quản lý đã bày tỏ sự hài lòng với bản báo cáo."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "motivation",
+		"pos": "noun",
+		"ipa": "/ˌməʊtɪˈveɪʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "motivate", "pos": "verb" },
+			{ "form": "motivator", "pos": "noun" },
+			{ "form": "motivational", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The reason why you want to do something",
+				"viDef": "động lực",
+				"synonyms": ["inspiration", "drive", "incentive"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "He lacks the motivation to study.", "viText": "Anh ấy thiếu động lực để học tập." },
+					{
+						"text": "Money is her main motivation for working.",
+						"viText": "Tiền bạc là động lực chính để cô ấy làm việc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "lose motivation",
+						"meaning": "To stop feeling interested in doing something",
+						"viMeaning": "mất động lực",
+						"example": "Don't lose motivation even if you fail.",
+						"viExample": "Đừng mất động lực ngay cả khi bạn thất bại."
+					},
+					{
+						"phrase": "high motivation",
+						"meaning": "Having a very strong desire to succeed",
+						"viMeaning": "động lực cao",
+						"example": "She has high motivation to learn English.",
+						"viExample": "Cô ấy có động lực cao để học tiếng Anh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "commitment",
+		"pos": "noun",
+		"ipa": "/kəˈmɪtmənt/",
+		"cefrLevel": "B1",
+		"frequency": 3450,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "commit", "pos": "verb" },
+			{ "form": "committed", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A promise or decision to do something",
+				"viDef": "sự cam kết",
+				"synonyms": ["promise", "dedication"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Marriage requires a high level of commitment.",
+						"viText": "Hôn nhân đòi hỏi một sự cam kết cao."
+					},
+					{
+						"text": "I can't make a long-term commitment right now.",
+						"viText": "Tôi không thể đưa ra một cam kết dài hạn ngay lúc này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "full commitment",
+						"meaning": "Giving all your energy to something",
+						"viMeaning": "sự cam kết hoàn toàn",
+						"example": "The project needs your full commitment.",
+						"viExample": "Dự án cần sự cam kết hoàn toàn của bạn."
+					},
+					{
+						"phrase": "financial commitment",
+						"meaning": "A promise to pay money",
+						"viMeaning": "cam kết tài chính",
+						"example": "Buying a house is a big financial commitment.",
+						"viExample": "Mua một ngôi nhà là một cam kết tài chính lớn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "priority",
+		"pos": "noun",
+		"ipa": "/praɪˈɒrəti/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "prioritize", "pos": "verb" },
+			{ "form": "prioritization", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that is very important and must be dealt with",
+				"viDef": "sự ưu tiên",
+				"synonyms": ["precedence", "preference"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Safety is our number one priority.",
+						"viText": "An toàn là ưu tiên số một của chúng tôi."
+					},
+					{
+						"text": "You need to decide what your priorities are.",
+						"viText": "Bạn cần quyết định các ưu tiên của mình là gì."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "top priority",
+						"meaning": "The most important thing to do",
+						"viMeaning": "ưu tiên hàng đầu",
+						"example": "Education is the government's top priority.",
+						"viExample": "Giáo dục là ưu tiên hàng đầu của chính phủ."
+					},
+					{
+						"phrase": "set priorities",
+						"meaning": "To decide which tasks are most important",
+						"viMeaning": "thiết lập ưu tiên",
+						"example": "Learning to set priorities can reduce stress.",
+						"viExample": "Học cách thiết lập ưu tiên có thể giảm bớt căng thẳng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "perspective",
+		"pos": "noun",
+		"ipa": "/pəˈspektɪv/",
+		"cefrLevel": "B1",
+		"frequency": 3600,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A particular way of thinking about something",
+				"viDef": "quan điểm, góc nhìn",
+				"synonyms": ["viewpoint", "outlook", "angle"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Travel gives you a different perspective on life.",
+						"viText": "Du lịch mang lại cho bạn một góc nhìn khác về cuộc sống."
+					},
+					{
+						"text": "Try to see it from my perspective.",
+						"viText": "Hãy thử nhìn nhận nó từ góc nhìn của tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "global perspective",
+						"meaning": "Thinking about things as they affect the whole world",
+						"viMeaning": "góc nhìn toàn cầu",
+						"example": "We need a global perspective on environmental issues.",
+						"viExample": "Chúng ta cần một góc nhìn toàn cầu về các vấn đề môi trường."
+					},
+					{
+						"phrase": "gain perspective",
+						"meaning": "To understand a situation better",
+						"viMeaning": "có được cái nhìn khách quan",
+						"example": "Taking a break helped him gain perspective on the problem.",
+						"viExample": "Nghỉ ngơi một chút giúp anh ấy có được cái nhìn khách quan về vấn đề."
+					}
+				]
+			}
+		]
+	}
+]

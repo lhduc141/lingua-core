@@ -1,0 +1,912 @@
+[
+	{
+		"headword": "assertion",
+		"pos": "noun",
+		"ipa": "/əˈsɜːʃn/",
+		"cefrLevel": "B2",
+		"frequency": 6150,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "assert", "pos": "verb" },
+			{ "form": "assertive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A confident and forceful statement of fact or belief",
+				"viDef": "sự khẳng định, quyết đoán",
+				"synonyms": ["declaration", "contention", "statement"],
+				"antonyms": ["denial", "contradiction"],
+				"examples": [
+					{
+						"text": "The report's main assertion is that the economy is recovering.",
+						"viText": "Khẳng định chính của báo cáo là nền kinh tế đang hồi phục."
+					},
+					{
+						"text": "He made an assertion that the data was tampered with.",
+						"viText": "Anh ta đưa ra một khẳng định rằng dữ liệu đã bị can thiệp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make an assertion",
+						"meaning": "To state something strongly as being true",
+						"viMeaning": "đưa ra lời khẳng định",
+						"example": "You cannot just make an assertion without any proof.",
+						"viExample": "Bạn không thể chỉ đưa ra lời khẳng định mà không có bằng chứng."
+					},
+					{
+						"phrase": "bold assertion",
+						"meaning": "A brave or risky statement of fact",
+						"viMeaning": "khẳng định táo bạo",
+						"example": "It was a bold assertion given the lack of evidence.",
+						"viExample": "Đó là một lời khẳng định táo bạo khi thiếu bằng chứng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "bias",
+		"pos": "noun",
+		"ipa": "/ˈbaɪəs/",
+		"cefrLevel": "B2",
+		"frequency": 5400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "biased", "pos": "adjective" },
+			{ "form": "unbiased", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Prejudice in favor of or against one thing or person",
+				"viDef": "thành kiến, sự thiên vị",
+				"synonyms": ["prejudice", "partiality", "favoritism"],
+				"antonyms": ["objectivity", "impartiality"],
+				"examples": [
+					{
+						"text": "The judge was accused of showing bias toward the defendant.",
+						"viText": "Thẩm phán bị cáo buộc thể hiện sự thiên vị đối với bị cáo."
+					},
+					{
+						"text": "Researchers must avoid personal bias when analyzing results.",
+						"viText": "Các nhà nghiên cứu phải tránh thành kiến cá nhân khi phân tích kết quả."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "political bias",
+						"meaning": "Favoring one political party over others",
+						"viMeaning": "thành kiến chính trị",
+						"example": "Some newspapers are known for their strong political bias.",
+						"viExample": "Một số tờ báo nổi tiếng với thành kiến chính trị mạnh mẽ."
+					},
+					{
+						"phrase": "unconscious bias",
+						"meaning": "Prejudice held without the person being aware of it",
+						"viMeaning": "định kiến vô thức",
+						"example": "Training can help employees recognize their unconscious bias.",
+						"viExample": "Đào tạo có thể giúp nhân viên nhận ra định kiến vô thức của họ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "capacity",
+		"pos": "noun",
+		"ipa": "/kəˈpæsəti/",
+		"cefrLevel": "B2",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [{ "form": "capacitance", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The maximum amount that something can contain or produce",
+				"viDef": "sức chứa, công suất",
+				"synonyms": ["volume", "size", "limit"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The stadium has a seating capacity of 50,000.",
+						"viText": "Sân vận động có sức chứa 50.000 chỗ ngồi."
+					},
+					{
+						"text": "The factory is currently operating at full capacity.",
+						"viText": "Nhà máy hiện đang hoạt động hết công suất."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "full capacity",
+						"meaning": "Using the maximum possible power or space",
+						"viMeaning": "hết công suất",
+						"example": "The machine was running at full capacity all day.",
+						"viExample": "Máy móc đã chạy hết công suất cả ngày."
+					},
+					{
+						"phrase": "intellectual capacity",
+						"meaning": "A person's ability to learn and understand things",
+						"viMeaning": "năng lực trí tuệ",
+						"example": "He has a great intellectual capacity for mathematics.",
+						"viExample": "Anh ấy có năng lực trí tuệ tuyệt vời đối với toán học."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "context",
+		"pos": "noun",
+		"ipa": "/ˈkɒntekst/",
+		"cefrLevel": "B2",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "contextual", "pos": "adjective" },
+			{ "form": "contextualize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The circumstances that form the setting for an event",
+				"viDef": "ngữ cảnh, bối cảnh",
+				"synonyms": ["background", "situation", "setting"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "To understand the law, you must look at its historical context.",
+						"viText": "Để hiểu luật, bạn phải xem xét bối cảnh lịch sử của nó."
+					},
+					{
+						"text": "His comments were taken out of context by the media.",
+						"viText": "Những bình luận của anh ấy đã bị truyền thông tách ra khỏi ngữ cảnh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "social context",
+						"meaning": "The environment of people and culture surrounding something",
+						"viMeaning": "bối cảnh xã hội",
+						"example": "The book examines the social context of the revolution.",
+						"viExample": "Cuốn sách xem xét bối cảnh xã hội của cuộc cách mạng."
+					},
+					{
+						"phrase": "out of context",
+						"meaning": "Without the surrounding information needed for understanding",
+						"viMeaning": "ngoài ngữ cảnh",
+						"example": "Don't quote me out of context.",
+						"viExample": "Đừng trích dẫn lời tôi ngoài ngữ cảnh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "correlation",
+		"pos": "noun",
+		"ipa": "/ˌkɒrəˈleɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 6500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "correlate", "pos": "verb" },
+			{ "form": "correlated", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A mutual relationship or connection between two or more things",
+				"viDef": "sự tương quan",
+				"synonyms": ["connection", "link", "association"],
+				"antonyms": ["difference", "disconnection"],
+				"examples": [
+					{
+						"text": "There is a strong correlation between smoking and lung cancer.",
+						"viText": "Có một sự tương quan mạnh mẽ giữa hút thuốc và ung thư phổi."
+					},
+					{
+						"text": "The study found no correlation between wealth and happiness.",
+						"viText": "Nghiên cứu không tìm thấy mối tương quan nào giữa sự giàu có và hạnh phúc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "strong correlation",
+						"meaning": "A very clear and high connection between variables",
+						"viMeaning": "tương quan mạnh mẽ",
+						"example": "Scientists found a strong correlation between the two events.",
+						"viExample": "Các nhà khoa học đã tìm thấy một sự tương quan mạnh mẽ giữa hai sự kiện."
+					},
+					{
+						"phrase": "direct correlation",
+						"meaning": "When one thing changes exactly as the other does",
+						"viMeaning": "tương quan trực tiếp",
+						"example": "There is a direct correlation between diet and health.",
+						"viExample": "Có một sự tương quan trực tiếp giữa chế độ ăn uống và sức khỏe."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "criterion",
+		"pos": "noun",
+		"ipa": "/kraɪˈtɪəriən/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A principle or standard by which something is judged",
+				"viDef": "tiêu chí, tiêu chuẩn",
+				"synonyms": ["standard", "measure", "benchmark"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The main criterion for joining the club is age.",
+						"viText": "Tiêu chí chính để tham gia câu lạc bộ là độ tuổi."
+					},
+					{
+						"text": "Academic ability is not the only criterion for success.",
+						"viText": "Khả năng học thuật không phải là tiêu chí duy nhất cho sự thành công."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "selection criteria",
+						"meaning": "The standards used to choose something or someone",
+						"viMeaning": "tiêu chí lựa chọn",
+						"example": "The selection criteria for the job were very strict.",
+						"viExample": "Các tiêu chí lựa chọn cho công việc này rất nghiêm ngặt."
+					},
+					{
+						"phrase": "meet the criteria",
+						"meaning": "To satisfy the necessary requirements or standards",
+						"viMeaning": "đáp ứng tiêu chí",
+						"example": "Only a few candidates meet the criteria for the position.",
+						"viExample": "Chỉ có vài ứng viên đáp ứng được các tiêu chí cho vị trí này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "debate",
+		"pos": "noun",
+		"ipa": "/dɪˈbeɪt/",
+		"cefrLevel": "B2",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "debate", "pos": "verb" },
+			{ "form": "debatable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A formal discussion on a particular topic in public",
+				"viDef": "cuộc tranh luận",
+				"synonyms": ["discussion", "argument", "dispute"],
+				"antonyms": ["agreement"],
+				"examples": [
+					{
+						"text": "The proposed new law is the subject of much debate.",
+						"viText": "Đạo luật mới được đề xuất là chủ đề của nhiều cuộc tranh luận."
+					},
+					{
+						"text": "There was a heated debate about the future of nuclear power.",
+						"viText": "Đã có một cuộc tranh luận sôi nổi về tương lai của năng lượng hạt nhân."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "heated debate",
+						"meaning": "A discussion where people have strong, angry feelings",
+						"viMeaning": "tranh luận sôi nổi/gay gắt",
+						"example": "The issue triggered a heated debate in Parliament.",
+						"viExample": "Vấn đề này đã gây ra một cuộc tranh luận gay gắt trong Nghị viện."
+					},
+					{
+						"phrase": "public debate",
+						"meaning": "Discussion of a topic among people in society",
+						"viMeaning": "tranh luận công khai",
+						"example": "There needs to be more public debate on climate change.",
+						"viExample": "Cần có nhiều cuộc tranh luận công khai hơn về biến đổi khí hậu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "dimension",
+		"pos": "noun",
+		"ipa": "/daɪˈmenʃn/",
+		"cefrLevel": "B2",
+		"frequency": 5300,
+		"isCommon": false,
+		"wordForms": [{ "form": "dimensional", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A measurable extent of some kind, such as length",
+				"viDef": "kích thước, chiều, khía cạnh",
+				"synonyms": ["measurement", "aspect", "feature"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We need to measure the dimensions of the room first.",
+						"viText": "Chúng ta cần đo kích thước của căn phòng trước."
+					},
+					{
+						"text": "There is a spiritual dimension to her poetry.",
+						"viText": "Có một khía cạnh tâm linh trong thơ của cô ấy."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "new dimension",
+						"meaning": "A new aspect that changes how you see something",
+						"viMeaning": "khía cạnh mới",
+						"example": "The new evidence adds a new dimension to the investigation.",
+						"viExample": "Bằng chứng mới thêm một khía cạnh mới cho cuộc điều tra."
+					},
+					{
+						"phrase": "social dimension",
+						"meaning": "The part of a situation relating to society",
+						"viMeaning": "khía cạnh xã hội",
+						"example": "The project ignores the social dimension of urban planning.",
+						"viExample": "Dự án bỏ qua khía cạnh xã hội của quy hoạch đô thị."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "domain",
+		"pos": "noun",
+		"ipa": "/dəˈmeɪn/",
+		"cefrLevel": "B2",
+		"frequency": 5500,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An area of territory owned or controlled by someone",
+				"viDef": "lĩnh vực, phạm vi",
+				"synonyms": ["field", "area", "realm"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The care of the house is usually the woman's domain.",
+						"viText": "Việc chăm sóc ngôi nhà thường là lĩnh vực của phụ nữ."
+					},
+					{
+						"text": "Physics is a domain that requires a lot of math.",
+						"viText": "Vật lý là một lĩnh vực đòi hỏi nhiều toán học."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "public domain",
+						"meaning": "Information available to everyone, not protected by copyright",
+						"viMeaning": "phạm vi công cộng",
+						"example": "These historical photos are now in the public domain.",
+						"viExample": "Những bức ảnh lịch sử này hiện đã thuộc phạm vi công cộng."
+					},
+					{
+						"phrase": "specific domain",
+						"meaning": "A particular area of interest or knowledge",
+						"viMeaning": "lĩnh vực cụ thể",
+						"example": "The expert works in the specific domain of cybersecurity.",
+						"viExample": "Chuyên gia làm việc trong lĩnh vực cụ thể về an ninh mạng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "framework",
+		"pos": "noun",
+		"ipa": "/ˈfreɪmwɜːk/",
+		"cefrLevel": "B2",
+		"frequency": 4200,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A supporting structure or a set of rules/ideas",
+				"viDef": "khung, khuôn khổ",
+				"synonyms": ["structure", "system", "scheme"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The bridge has a solid steel framework.",
+						"viText": "Cây cầu có một khung thép vững chắc."
+					},
+					{
+						"text": "The agreement provides a framework for future cooperation.",
+						"viText": "Thỏa thuận cung cấp một khuôn khổ cho sự hợp tác tương lai."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "legal framework",
+						"meaning": "A system of laws and rules",
+						"viMeaning": "khuôn khổ pháp lý",
+						"example": "We operate within a strict legal framework.",
+						"viExample": "Chúng tôi hoạt động trong một khuôn khổ pháp lý nghiêm ngặt."
+					},
+					{
+						"phrase": "conceptual framework",
+						"meaning": "A set of ideas used to organize research",
+						"viMeaning": "khung khái niệm",
+						"example": "The researcher developed a conceptual framework for the study.",
+						"viExample": "Nhà nghiên cứu đã phát triển một khung khái niệm cho nghiên cứu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "hypothesis",
+		"pos": "noun",
+		"ipa": "/haɪˈpɒθəsɪs/",
+		"cefrLevel": "B2",
+		"frequency": 5800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "hypothetical", "pos": "adjective" },
+			{ "form": "hypothesize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A proposed explanation made on basis of limited evidence",
+				"viDef": "giả thuyết",
+				"synonyms": ["theory", "thesis", "supposition"],
+				"antonyms": ["fact", "proof"],
+				"examples": [
+					{
+						"text": "The scientists are testing a new hypothesis about space.",
+						"viText": "Các nhà khoa học đang kiểm tra một giả thuyết mới về không gian."
+					},
+					{
+						"text": "There is little evidence to support this hypothesis.",
+						"viText": "Có ít bằng chứng để hỗ trợ giả thuyết này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "test a hypothesis",
+						"meaning": "To perform experiments to see if an idea is true",
+						"viMeaning": "kiểm chứng giả thuyết",
+						"example": "We need more data to test this hypothesis.",
+						"viExample": "Chúng ta cần thêm dữ liệu để kiểm chứng giả thuyết này."
+					},
+					{
+						"phrase": "working hypothesis",
+						"meaning": "An idea that is accepted for now as true",
+						"viMeaning": "giả thuyết tạm thời",
+						"example": "The police have a working hypothesis about the crime.",
+						"viExample": "Cảnh sát có một giả thuyết tạm thời về tội ác."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "implication",
+		"pos": "noun",
+		"ipa": "/ˌɪmplɪˈkeɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 4500,
+		"isCommon": false,
+		"wordForms": [{ "form": "imply", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The conclusion that can be drawn from something",
+				"viDef": "hệ quả, sự ngụ ý",
+				"synonyms": ["consequence", "result", "inference"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The study has important implications for the future of education.",
+						"viText": "Nghiên cứu có những hệ quả quan trọng cho tương lai của giáo dục."
+					},
+					{
+						"text": "By implication, he was saying that it was my fault.",
+						"viText": "Bằng sự ngụ ý, anh ta đang nói rằng đó là lỗi của tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "serious implication",
+						"meaning": "A result that could cause significant problems",
+						"viMeaning": "hệ quả nghiêm trọng",
+						"example": "The decision has serious implications for the environment.",
+						"viExample": "Quyết định có những hệ quả nghiêm trọng đối với môi trường."
+					},
+					{
+						"phrase": "practical implication",
+						"meaning": "A real-world effect of an idea or policy",
+						"viMeaning": "hệ quả thực tiễn",
+						"example": "The report discusses the practical implications of the new law.",
+						"viExample": "Bản báo cáo thảo luận về những hệ quả thực tiễn của luật mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "inference",
+		"pos": "noun",
+		"ipa": "/ˈɪnfərəns/",
+		"cefrLevel": "B2",
+		"frequency": 6600,
+		"isCommon": false,
+		"wordForms": [{ "form": "infer", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A conclusion reached on the basis of evidence and reasoning",
+				"viDef": "sự suy luận",
+				"synonyms": ["deduction", "conclusion", "reasoning"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "What inference can we draw from these facts?",
+						"viText": "Chúng ta có thể rút ra suy luận gì từ những sự thật này?"
+					},
+					{
+						"text": "The program uses logical inference to solve problems.",
+						"viText": "Chương trình sử dụng suy luận logic để giải quyết vấn đề."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "draw an inference",
+						"meaning": "To make a conclusion based on information",
+						"viMeaning": "rút ra suy luận",
+						"example": "It is difficult to draw an inference from such limited data.",
+						"viExample": "Thật khó để rút ra một suy luận từ dữ liệu hạn chế như vậy."
+					},
+					{
+						"phrase": "logical inference",
+						"meaning": "A conclusion that follows sensible thinking",
+						"viMeaning": "suy luận logic",
+						"example": "His conclusion was a logical inference from the evidence.",
+						"viExample": "Kết luận của anh ấy là một sự suy luận logic từ bằng chứng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "insight",
+		"pos": "noun",
+		"ipa": "/ˈɪnsaɪt/",
+		"cefrLevel": "B2",
+		"frequency": 4300,
+		"isCommon": false,
+		"wordForms": [{ "form": "insightful", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The capacity to gain an accurate and deep understanding",
+				"viDef": "sự thấu suốt, cái nhìn sâu sắc",
+				"synonyms": ["understanding", "wisdom", "intuition"],
+				"antonyms": ["ignorance"],
+				"examples": [
+					{
+						"text": "The book gives us a fascinating insight into Chinese culture.",
+						"viText": "Cuốn sách cho chúng ta một cái nhìn sâu sắc thú vị về văn hóa Trung Hoa."
+					},
+					{
+						"text": "He has a lot of insight into the software market.",
+						"viText": "Anh ấy có nhiều sự thấu hiểu về thị trường phần mềm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "valuable insight",
+						"meaning": "Useful deep understanding of a topic",
+						"viMeaning": "cái nhìn sâu sắc quý giá",
+						"example": "The research provides valuable insight into consumer behavior.",
+						"viExample": "Nghiên cứu cung cấp cái nhìn sâu sắc quý giá về hành vi người tiêu dùng."
+					},
+					{
+						"phrase": "gain insight",
+						"meaning": "To learn or understand something deeply",
+						"viMeaning": "có được cái nhìn sâu sắc",
+						"example": "We hope to gain insight into how the brain works.",
+						"viExample": "Chúng tôi hy vọng có được cái nhìn sâu sắc về cách bộ não hoạt động."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "interpretation",
+		"pos": "noun",
+		"ipa": "/ɪnˌtɜːprəˈteɪʃn/",
+		"cefrLevel": "B2",
+		"frequency": 4100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "interpret", "pos": "verb" },
+			{ "form": "interpretive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The action of explaining the meaning of something",
+				"viDef": "sự giải thích, sự diễn giải",
+				"synonyms": ["explanation", "analysis", "version"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "There are many possible interpretations of the poem.",
+						"viText": "Có nhiều cách diễn giải có thể có cho bài thơ."
+					},
+					{
+						"text": "The rules are open to interpretation.",
+						"viText": "Các quy tắc này có thể được diễn giải theo nhiều cách."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "literal interpretation",
+						"meaning": "Understanding something exactly as it is written",
+						"viMeaning": "diễn giải theo nghĩa đen",
+						"example": "A literal interpretation of the law can sometimes be unfair.",
+						"viExample": "Một sự diễn giải luật theo nghĩa đen đôi khi có thể không công bằng."
+					},
+					{
+						"phrase": "subject to interpretation",
+						"meaning": "Meaning different things to different people",
+						"viMeaning": "tùy theo cách diễn giải",
+						"example": "The evidence is still subject to interpretation.",
+						"viExample": "Bằng chứng vẫn còn tùy thuộc vào cách diễn giải."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "mechanism",
+		"pos": "noun",
+		"ipa": "/ˈmekənɪzəm/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "mechanic", "pos": "noun" },
+			{ "form": "mechanical", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A system of parts working together in a machine",
+				"viDef": "cơ chế, cơ cấu",
+				"synonyms": ["apparatus", "structure", "system"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The locking mechanism of the safe is very complex.",
+						"viText": "Cơ chế khóa của két sắt rất phức tạp."
+					},
+					{
+						"text": "There is no mechanism for dealing with these complaints.",
+						"viText": "Không có cơ chế nào để giải quyết những khiếu nại này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "defense mechanism",
+						"meaning": "A way to protect oneself from harm or anxiety",
+						"viMeaning": "cơ chế phòng vệ",
+						"example": "Laughter can be a defense mechanism against sadness.",
+						"viExample": "Tiếng cười có thể là một cơ chế phòng vệ chống lại nỗi buồn."
+					},
+					{
+						"phrase": "coping mechanism",
+						"meaning": "A strategy to manage stressful situations",
+						"viMeaning": "cơ chế đối phó",
+						"example": "Exercise is a healthy coping mechanism for stress.",
+						"viExample": "Tập thể dục là một cơ chế đối phó lành mạnh với căng thẳng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "norm",
+		"pos": "noun",
+		"ipa": "/nɔːm/",
+		"cefrLevel": "B2",
+		"frequency": 5700,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "normal", "pos": "adjective" },
+			{ "form": "normalize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that is usual, typical, or standard",
+				"viDef": "chuẩn mực, quy tắc",
+				"synonyms": ["standard", "average", "rule"],
+				"antonyms": ["exception"],
+				"examples": [
+					{
+						"text": "Smaller families have become the norm in many countries.",
+						"viText": "Gia đình ít con đã trở thành chuẩn mực ở nhiều quốc gia."
+					},
+					{
+						"text": "You must follow the social norms of the local community.",
+						"viText": "Bạn phải tuân theo các chuẩn mực xã hội của cộng đồng địa phương."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "social norms",
+						"meaning": "The unwritten rules of behavior in a society",
+						"viMeaning": "chuẩn mực xã hội",
+						"example": "Social norms change over time.",
+						"viExample": "Các chuẩn mực xã hội thay đổi theo thời gian."
+					},
+					{
+						"phrase": "above the norm",
+						"meaning": "Higher or better than the average",
+						"viMeaning": "trên mức bình thường",
+						"example": "Her test scores were well above the norm.",
+						"viExample": "Điểm kiểm tra của cô ấy cao hơn hẳn mức bình thường."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "parameter",
+		"pos": "noun",
+		"ipa": "/pəˈræmɪtə(r)/",
+		"cefrLevel": "B2",
+		"frequency": 6900,
+		"isCommon": false,
+		"wordForms": [{ "form": "parametric", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A limit or boundary that defines how something should be",
+				"viDef": "thông số, giới hạn",
+				"synonyms": ["boundary", "limit", "criterion"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We had to work within the parameters set by the board.",
+						"viText": "Chúng tôi phải làm việc trong các giới hạn do ban quản trị đặt ra."
+					},
+					{
+						"text": "The computer uses these parameters to calculate the result.",
+						"viText": "Máy tính sử dụng các thông số này để tính toán kết quả."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "set parameters",
+						"meaning": "To establish the limits for an activity",
+						"viMeaning": "thiết lập thông số/giới hạn",
+						"example": "The manager set the parameters for the project.",
+						"viExample": "Người quản lý đã thiết lập các giới hạn cho dự án."
+					},
+					{
+						"phrase": "within parameters",
+						"meaning": "Staying inside the allowed boundaries",
+						"viMeaning": "trong phạm vi cho phép",
+						"example": "The results of the test were all within normal parameters.",
+						"viExample": "Kết quả của bài kiểm tra đều nằm trong các giới hạn bình thường."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "scope",
+		"pos": "noun",
+		"ipa": "/skəʊp/",
+		"cefrLevel": "B2",
+		"frequency": 5150,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The extent of the area or subject matter covered",
+				"viDef": "phạm vi, quy mô",
+				"synonyms": ["range", "extent", "reach"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The full scope of the problem is still unknown.",
+						"viText": "Toàn bộ quy mô của vấn đề vẫn chưa được biết đến."
+					},
+					{
+						"text": "That question is outside the scope of this meeting.",
+						"viText": "Câu hỏi đó nằm ngoài phạm vi của cuộc họp này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "limited scope",
+						"meaning": "Covering only a small range of things",
+						"viMeaning": "phạm vi hạn chế",
+						"example": "The study was of limited scope.",
+						"viExample": "Nghiên cứu có phạm vi hạn chế."
+					},
+					{
+						"phrase": "beyond the scope",
+						"meaning": "Not included in a particular area of study or work",
+						"viMeaning": "vượt ngoài phạm vi",
+						"example": "This topic is beyond the scope of my expertise.",
+						"viExample": "Chủ đề này vượt ngoài phạm vi chuyên môn của tôi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sequence",
+		"pos": "noun",
+		"ipa": "/ˈsiːkwəns/",
+		"cefrLevel": "B2",
+		"frequency": 5050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "sequential", "pos": "adjective" },
+			{ "form": "sequentially", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A particular order in which related events follow each other",
+				"viDef": "trình tự, chuỗi",
+				"synonyms": ["order", "series", "string"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Can you remember the sequence of events that night?",
+						"viText": "Bạn có thể nhớ lại trình tự các sự kiện đêm đó không?"
+					},
+					{
+						"text": "The computer performs a sequence of complicated tasks.",
+						"viText": "Máy tính thực hiện một chuỗi các tác vụ phức tạp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "in sequence",
+						"meaning": "Following a logical or numerical order",
+						"viMeaning": "theo trình tự",
+						"example": "Please arrange the files in sequence.",
+						"viExample": "Vui lòng sắp xếp các tệp theo trình tự."
+					},
+					{
+						"phrase": "logical sequence",
+						"meaning": "An order that makes sense",
+						"viMeaning": "trình tự logic",
+						"example": "The chapters follow a logical sequence.",
+						"viExample": "Các chương theo một trình tự logic."
+					}
+				]
+			}
+		]
+	}
+]

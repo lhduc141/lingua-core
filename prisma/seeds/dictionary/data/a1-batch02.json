@@ -1,0 +1,828 @@
+[
+	{
+		"headword": "eat",
+		"pos": "verb",
+		"ipa": "/iːt/",
+		"cefrLevel": "A1",
+		"frequency": 80,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "eater", "pos": "noun" },
+			{ "form": "eatable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to put food into the mouth and chew and swallow it",
+				"viDef": "ăn",
+				"synonyms": ["consume", "devour"],
+				"antonyms": ["fast", "starve"],
+				"examples": [
+					{ "text": "I eat an apple every day.", "viText": "Tôi ăn một quả táo mỗi ngày." },
+					{ "text": "What did you eat for lunch?", "viText": "Bạn đã ăn gì cho bữa trưa?" }
+				],
+				"collocations": [
+					{
+						"phrase": "eat out",
+						"meaning": "eat a meal at a restaurant",
+						"viMeaning": "đi ăn ngoài",
+						"example": "We eat out on Fridays.",
+						"viExample": "Chúng tôi đi ăn ngoài vào thứ Sáu."
+					},
+					{
+						"phrase": "eat well",
+						"meaning": "have a healthy and nutritious diet",
+						"viMeaning": "ăn uống tốt",
+						"example": "It is important to eat well.",
+						"viExample": "Ăn uống tốt là điều quan trọng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "drink",
+		"pos": "verb",
+		"ipa": "/drɪŋk/",
+		"cefrLevel": "A1",
+		"frequency": 120,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "drinker", "pos": "noun" },
+			{ "form": "drinkable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to take a liquid into the mouth and swallow it",
+				"viDef": "uống",
+				"synonyms": ["gulp", "sip"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "Drink plenty of water every day.", "viText": "Hãy uống nhiều nước mỗi ngày." },
+					{ "text": "He does not drink coffee.", "viText": "Anh ấy không uống cà phê." }
+				],
+				"collocations": [
+					{
+						"phrase": "drink up",
+						"meaning": "finish your drink completely",
+						"viMeaning": "uống hết đi",
+						"example": "Drink up, we need to leave soon.",
+						"viExample": "Uống hết đi, chúng ta cần đi sớm."
+					},
+					{
+						"phrase": "drink water",
+						"meaning": "consume clear liquid for hydration",
+						"viMeaning": "uống nước",
+						"example": "I try to drink water often.",
+						"viExample": "Tôi cố gắng uống nước thường xuyên."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sleep",
+		"pos": "verb",
+		"ipa": "/sliːp/",
+		"cefrLevel": "A1",
+		"frequency": 140,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "sleeper", "pos": "noun" },
+			{ "form": "sleepless", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to rest with your eyes closed and mind inactive",
+				"viDef": "ngủ",
+				"synonyms": ["rest", "slumber"],
+				"antonyms": ["wake", "arise"],
+				"examples": [
+					{ "text": "I usually sleep for eight hours.", "viText": "Tôi thường ngủ tám tiếng." },
+					{ "text": "The baby is trying to sleep.", "viText": "Em bé đang cố gắng ngủ." }
+				],
+				"collocations": [
+					{
+						"phrase": "fall asleep",
+						"meaning": "begin to sleep",
+						"viMeaning": "chìm vào giấc ngủ",
+						"example": "I fall asleep quickly at night.",
+						"viExample": "Tôi chìm vào giấc ngủ nhanh chóng vào ban đêm."
+					},
+					{
+						"phrase": "sleep well",
+						"meaning": "have a good rest",
+						"viMeaning": "ngủ ngon",
+						"example": "Did you sleep well last night?",
+						"viExample": "Đêm qua bạn có ngủ ngon không?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "work",
+		"pos": "verb",
+		"ipa": "/wɜːk/",
+		"cefrLevel": "A1",
+		"frequency": 35,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "worker", "pos": "noun" },
+			{ "form": "workable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to perform an activity to achieve a result",
+				"viDef": "làm việc",
+				"synonyms": ["labor", "toil"],
+				"antonyms": ["rest", "relax"],
+				"examples": [
+					{ "text": "I work in an office.", "viText": "Tôi làm việc trong một văn phòng." },
+					{ "text": "She works hard every day.", "viText": "Cô ấy làm việc chăm chỉ mỗi ngày." }
+				],
+				"collocations": [
+					{
+						"phrase": "work hard",
+						"meaning": "put a lot of effort into a job",
+						"viMeaning": "làm việc chăm chỉ",
+						"example": "You need to work hard to succeed.",
+						"viExample": "Bạn cần làm việc chăm chỉ để thành công."
+					},
+					{
+						"phrase": "work out",
+						"meaning": "exercise the body to improve fitness",
+						"viMeaning": "tập thể dục",
+						"example": "I work out at the gym.",
+						"viExample": "Tôi tập thể dục ở phòng gym."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "play",
+		"pos": "verb",
+		"ipa": "/pleɪ/",
+		"cefrLevel": "A1",
+		"frequency": 115,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "player", "pos": "noun" },
+			{ "form": "playful", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to engage in activity for enjoyment and recreation",
+				"viDef": "chơi",
+				"synonyms": ["amuse", "recreate"],
+				"antonyms": ["work"],
+				"examples": [
+					{ "text": "Children love to play outside.", "viText": "Trẻ em thích chơi ngoài trời." },
+					{ "text": "I play tennis on weekends.", "viText": "Tôi chơi quần vợt vào cuối tuần." }
+				],
+				"collocations": [
+					{
+						"phrase": "play a game",
+						"meaning": "participate in a recreational activity",
+						"viMeaning": "chơi một trò chơi",
+						"example": "Let's play a game together.",
+						"viExample": "Hãy cùng nhau chơi một trò chơi."
+					},
+					{
+						"phrase": "play music",
+						"meaning": "perform or broadcast musical sounds",
+						"viMeaning": "chơi nhạc",
+						"example": "He likes to play music loudly.",
+						"viExample": "Anh ấy thích bật nhạc lớn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "walk",
+		"pos": "verb",
+		"ipa": "/wɔːk/",
+		"cefrLevel": "A1",
+		"frequency": 250,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "walker", "pos": "noun" },
+			{ "form": "walkable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to move at a regular pace using your feet",
+				"viDef": "đi bộ",
+				"synonyms": ["stroll", "step"],
+				"antonyms": ["run"],
+				"examples": [
+					{ "text": "We walk to school every morning.", "viText": "Chúng tôi đi bộ đến trường mỗi sáng." },
+					{ "text": "I like to walk in the park.", "viText": "Tôi thích đi bộ trong công viên." }
+				],
+				"collocations": [
+					{
+						"phrase": "go for a walk",
+						"meaning": "take a short journey on foot",
+						"viMeaning": "đi dạo",
+						"example": "Let's go for a walk tonight.",
+						"viExample": "Tối nay hãy đi dạo nhé."
+					},
+					{
+						"phrase": "walk the dog",
+						"meaning": "take a dog out for exercise",
+						"viMeaning": "dắt chó đi dạo",
+						"example": "I walk the dog daily.",
+						"viExample": "Tôi dắt chó đi dạo hàng ngày."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "run",
+		"pos": "verb",
+		"ipa": "/rʌn/",
+		"cefrLevel": "A1",
+		"frequency": 160,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "runner", "pos": "noun" },
+			{ "form": "runnable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to move at a speed faster than a walk",
+				"viDef": "chạy",
+				"synonyms": ["sprint", "dash"],
+				"antonyms": ["walk", "crawl"],
+				"examples": [
+					{ "text": "I run in the park every morning.", "viText": "Tôi chạy trong công viên mỗi sáng." },
+					{ "text": "He had to run to catch the bus.", "viText": "Anh ấy phải chạy để bắt kịp xe buýt." }
+				],
+				"collocations": [
+					{
+						"phrase": "run away",
+						"meaning": "escape from a place or person",
+						"viMeaning": "chạy trốn",
+						"example": "The thief tried to run away.",
+						"viExample": "Tên trộm cố gắng chạy trốn."
+					},
+					{
+						"phrase": "run out of",
+						"meaning": "have nothing left of something",
+						"viMeaning": "hết sạch",
+						"example": "We run out of milk today.",
+						"viExample": "Hôm nay chúng ta hết sạch sữa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "read",
+		"pos": "verb",
+		"ipa": "/riːd/",
+		"cefrLevel": "A1",
+		"frequency": 180,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "reader", "pos": "noun" },
+			{ "form": "readable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to look at and comprehend the meaning of written matter",
+				"viDef": "đọc",
+				"synonyms": ["peruse", "study"],
+				"antonyms": ["write"],
+				"examples": [
+					{ "text": "I want to read this book.", "viText": "Tôi muốn đọc cuốn sách này." },
+					{ "text": "She can read very fast.", "viText": "Cô ấy có thể đọc rất nhanh." }
+				],
+				"collocations": [
+					{
+						"phrase": "read aloud",
+						"meaning": "speak the written words audibly",
+						"viMeaning": "đọc to",
+						"example": "Please read the text aloud.",
+						"viExample": "Làm ơn đọc to đoạn văn."
+					},
+					{
+						"phrase": "read a book",
+						"meaning": "look at and understand written words",
+						"viMeaning": "đọc sách",
+						"example": "I read a book at night.",
+						"viExample": "Tôi đọc sách vào ban đêm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "write",
+		"pos": "verb",
+		"ipa": "/raɪt/",
+		"cefrLevel": "A1",
+		"frequency": 190,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "writer", "pos": "noun" },
+			{ "form": "writable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to mark letters or words on a surface",
+				"viDef": "viết",
+				"synonyms": ["pen", "draft"],
+				"antonyms": ["read"],
+				"examples": [
+					{ "text": "Please write your name here.", "viText": "Vui lòng viết tên của bạn ở đây." },
+					{ "text": "I write a letter to my friend.", "viText": "Tôi viết một lá thư cho bạn tôi." }
+				],
+				"collocations": [
+					{
+						"phrase": "write down",
+						"meaning": "record information on paper",
+						"viMeaning": "ghi chú",
+						"example": "Write down the address, please.",
+						"viExample": "Vui lòng ghi lại địa chỉ."
+					},
+					{
+						"phrase": "write an email",
+						"meaning": "create an electronic message",
+						"viMeaning": "viết email",
+						"example": "I need to write an email now.",
+						"viExample": "Tôi cần viết một email bây giờ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "talk",
+		"pos": "verb",
+		"ipa": "/tɔːk/",
+		"cefrLevel": "A1",
+		"frequency": 175,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "talker", "pos": "noun" },
+			{ "form": "talkative", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to speak in order to give information or express ideas",
+				"viDef": "nói chuyện",
+				"synonyms": ["speak", "converse"],
+				"antonyms": ["listen", "ignore"],
+				"examples": [
+					{ "text": "I need to talk to you.", "viText": "Tôi cần nói chuyện với bạn." },
+					{ "text": "They talk for a long time.", "viText": "Họ nói chuyện trong một thời gian dài." }
+				],
+				"collocations": [
+					{
+						"phrase": "talk about",
+						"meaning": "discuss a specific subject with someone",
+						"viMeaning": "nói về",
+						"example": "What did you talk about?",
+						"viExample": "Bạn đã nói về cái gì?"
+					},
+					{
+						"phrase": "small talk",
+						"meaning": "polite conversation about unimportant things",
+						"viMeaning": "chuyện phiếm",
+						"example": "We made small talk at the party.",
+						"viExample": "Chúng tôi đã nói chuyện phiếm ở bữa tiệc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "man",
+		"pos": "noun",
+		"ipa": "/mæn/",
+		"cefrLevel": "A1",
+		"frequency": 40,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "manly", "pos": "adjective" },
+			{ "form": "manhood", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "an adult male human being",
+				"viDef": "người đàn ông",
+				"synonyms": ["male", "gentleman"],
+				"antonyms": ["woman"],
+				"examples": [
+					{
+						"text": "The man in the black coat is my father.",
+						"viText": "Người đàn ông mặc áo khoác đen là bố tôi."
+					},
+					{ "text": "He is a very kind man.", "viText": "Ông ấy là một người đàn ông rất tốt bụng." }
+				],
+				"collocations": [
+					{
+						"phrase": "young man",
+						"meaning": "a male who is not old",
+						"viMeaning": "thanh niên",
+						"example": "He is a smart young man.",
+						"viExample": "Cậu ấy là một thanh niên thông minh."
+					},
+					{
+						"phrase": "old man",
+						"meaning": "an elderly male",
+						"viMeaning": "ông lão",
+						"example": "The old man walks slowly.",
+						"viExample": "Ông lão đi lại chậm chạp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "woman",
+		"pos": "noun",
+		"ipa": "/ˈwʊmən/",
+		"cefrLevel": "A1",
+		"frequency": 45,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "womanly", "pos": "adjective" },
+			{ "form": "womanhood", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "an adult female human being",
+				"viDef": "người phụ nữ",
+				"synonyms": ["female", "lady"],
+				"antonyms": ["man"],
+				"examples": [
+					{ "text": "She is a beautiful woman.", "viText": "Cô ấy là một người phụ nữ xinh đẹp." },
+					{ "text": "The woman smiled at me.", "viText": "Người phụ nữ đã mỉm cười với tôi." }
+				],
+				"collocations": [
+					{
+						"phrase": "young woman",
+						"meaning": "a female who is not old",
+						"viMeaning": "cô gái trẻ",
+						"example": "The young woman is reading a book.",
+						"viExample": "Cô gái trẻ đang đọc sách."
+					},
+					{
+						"phrase": "independent woman",
+						"meaning": "a woman who relies on herself",
+						"viMeaning": "phụ nữ độc lập",
+						"example": "She is a strong, independent woman.",
+						"viExample": "Cô ấy là một người phụ nữ mạnh mẽ, độc lập."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "child",
+		"pos": "noun",
+		"ipa": "/tʃaɪld/",
+		"cefrLevel": "A1",
+		"frequency": 65,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "childish", "pos": "adjective" },
+			{ "form": "childhood", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a young human being below the age of puberty",
+				"viDef": "đứa trẻ",
+				"synonyms": ["kid", "youngster"],
+				"antonyms": ["adult"],
+				"examples": [
+					{ "text": "The child is playing in the garden.", "viText": "Đứa trẻ đang chơi trong vườn." },
+					{
+						"text": "Every child needs love and care.",
+						"viText": "Mọi đứa trẻ đều cần tình yêu và sự chăm sóc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "only child",
+						"meaning": "a child with no brothers or sisters",
+						"viMeaning": "con một",
+						"example": "He is an only child.",
+						"viExample": "Cậu ấy là con một."
+					},
+					{
+						"phrase": "small child",
+						"meaning": "a very young human",
+						"viMeaning": "trẻ nhỏ",
+						"example": "A small child is crying.",
+						"viExample": "Một đứa trẻ nhỏ đang khóc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "boy",
+		"pos": "noun",
+		"ipa": "/bɔɪ/",
+		"cefrLevel": "A1",
+		"frequency": 220,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "boyish", "pos": "adjective" },
+			{ "form": "boyhood", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a male child or young man",
+				"viDef": "cậu bé",
+				"synonyms": ["lad", "youth"],
+				"antonyms": ["girl"],
+				"examples": [
+					{ "text": "The boy likes to play football.", "viText": "Cậu bé thích chơi bóng đá." },
+					{ "text": "He is a very smart boy.", "viText": "Cậu ấy là một cậu bé rất thông minh." }
+				],
+				"collocations": [
+					{
+						"phrase": "little boy",
+						"meaning": "a young male child",
+						"viMeaning": "cậu bé nhỏ",
+						"example": "The little boy is sleeping now.",
+						"viExample": "Cậu bé nhỏ đang ngủ bây giờ."
+					},
+					{
+						"phrase": "baby boy",
+						"meaning": "a male infant",
+						"viMeaning": "bé trai",
+						"example": "She had a baby boy yesterday.",
+						"viExample": "Cô ấy đã sinh một bé trai hôm qua."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "girl",
+		"pos": "noun",
+		"ipa": "/ɡɜːl/",
+		"cefrLevel": "A1",
+		"frequency": 230,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "girlish", "pos": "adjective" },
+			{ "form": "girlhood", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a female child or young woman",
+				"viDef": "cô bé",
+				"synonyms": ["lass", "young woman"],
+				"antonyms": ["boy"],
+				"examples": [
+					{ "text": "The girl is wearing a red dress.", "viText": "Cô bé đang mặc một chiếc váy đỏ." },
+					{ "text": "She is a brave girl.", "viText": "Cô ấy là một cô bé dũng cảm." }
+				],
+				"collocations": [
+					{
+						"phrase": "little girl",
+						"meaning": "a young female child",
+						"viMeaning": "cô bé nhỏ",
+						"example": "The little girl is singing.",
+						"viExample": "Cô bé nhỏ đang hát."
+					},
+					{
+						"phrase": "teenage girl",
+						"meaning": "a girl aged between 13 and 19",
+						"viMeaning": "thiếu nữ",
+						"example": "The teenage girl is studying hard.",
+						"viExample": "Thiếu nữ đang học hành chăm chỉ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "dog",
+		"pos": "noun",
+		"ipa": "/dɒɡ/",
+		"cefrLevel": "A1",
+		"frequency": 300,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "doggy", "pos": "noun" },
+			{ "form": "doglike", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a domesticated carnivorous mammal that barks",
+				"viDef": "con chó",
+				"synonyms": ["hound", "canine"],
+				"antonyms": ["cat"],
+				"examples": [
+					{ "text": "My dog loves to run.", "viText": "Con chó của tôi thích chạy." },
+					{ "text": "The dog barked loudly at night.", "viText": "Con chó sủa to vào ban đêm." }
+				],
+				"collocations": [
+					{
+						"phrase": "walk the dog",
+						"meaning": "take a dog out for exercise",
+						"viMeaning": "dắt chó đi dạo",
+						"example": "I walk the dog every evening.",
+						"viExample": "Tôi dắt chó đi dạo mỗi buổi tối."
+					},
+					{
+						"phrase": "wild dog",
+						"meaning": "a dog living in the wild",
+						"viMeaning": "chó hoang",
+						"example": "We saw a wild dog today.",
+						"viExample": "Hôm nay chúng tôi thấy một con chó hoang."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "cat",
+		"pos": "noun",
+		"ipa": "/kæt/",
+		"cefrLevel": "A1",
+		"frequency": 320,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "catty", "pos": "adjective" },
+			{ "form": "catlike", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a small domesticated carnivorous mammal with soft fur",
+				"viDef": "con mèo",
+				"synonyms": ["feline", "kitty"],
+				"antonyms": ["dog"],
+				"examples": [
+					{ "text": "The cat is sleeping on the sofa.", "viText": "Con mèo đang ngủ trên ghế sofa." },
+					{ "text": "She has a cute black cat.", "viText": "Cô ấy có một con mèo đen dễ thương." }
+				],
+				"collocations": [
+					{
+						"phrase": "feed the cat",
+						"meaning": "give food to the cat",
+						"viMeaning": "cho mèo ăn",
+						"example": "Did you feed the cat yet?",
+						"viExample": "Bạn đã cho mèo ăn chưa?"
+					},
+					{
+						"phrase": "stray cat",
+						"meaning": "a cat without a home",
+						"viMeaning": "mèo hoang",
+						"example": "I adopted a stray cat.",
+						"viExample": "Tôi đã nhận nuôi một con mèo hoang."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "car",
+		"pos": "noun",
+		"ipa": "/kɑː(r)/",
+		"cefrLevel": "A1",
+		"frequency": 110,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "carless", "pos": "adjective" },
+			{ "form": "carmaker", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a four-wheeled road vehicle powered by an engine",
+				"viDef": "xe hơi",
+				"synonyms": ["automobile", "vehicle"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "I drive my car to work.", "viText": "Tôi lái xe hơi đi làm." },
+					{ "text": "They bought a new red car.", "viText": "Họ đã mua một chiếc xe hơi màu đỏ mới." }
+				],
+				"collocations": [
+					{
+						"phrase": "drive a car",
+						"meaning": "operate and control a car",
+						"viMeaning": "lái xe hơi",
+						"example": "He can drive a car well.",
+						"viExample": "Anh ấy có thể lái xe hơi giỏi."
+					},
+					{
+						"phrase": "rent a car",
+						"meaning": "pay to use a car temporarily",
+						"viMeaning": "thuê xe hơi",
+						"example": "We rent a car for the trip.",
+						"viExample": "Chúng tôi thuê một chiếc xe hơi cho chuyến đi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "bus",
+		"pos": "noun",
+		"ipa": "/bʌs/",
+		"cefrLevel": "A1",
+		"frequency": 340,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "busboy", "pos": "noun" },
+			{ "form": "busload", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a large motor vehicle carrying passengers by road",
+				"viDef": "xe buýt",
+				"synonyms": ["coach", "minibus"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "I take the bus to school.", "viText": "Tôi đi xe buýt đến trường." },
+					{ "text": "The bus is always late.", "viText": "Xe buýt luôn đến muộn." }
+				],
+				"collocations": [
+					{
+						"phrase": "catch the bus",
+						"meaning": "get on a bus before it leaves",
+						"viMeaning": "bắt xe buýt",
+						"example": "I have to catch the bus.",
+						"viExample": "Tôi phải bắt xe buýt."
+					},
+					{
+						"phrase": "bus stop",
+						"meaning": "a place where buses stop for passengers",
+						"viMeaning": "trạm xe buýt",
+						"example": "Wait at the bus stop for me.",
+						"viExample": "Hãy đợi tôi ở trạm xe buýt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "money",
+		"pos": "noun",
+		"ipa": "/ˈmʌni/",
+		"cefrLevel": "A1",
+		"frequency": 75,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "moneyless", "pos": "adjective" },
+			{ "form": "monetary", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a current medium of exchange like coins and banknotes",
+				"viDef": "tiền",
+				"synonyms": ["cash", "currency"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "I need to save some money.", "viText": "Tôi cần tiết kiệm một ít tiền." },
+					{ "text": "Do you have any money left?", "viText": "Bạn còn chút tiền nào không?" }
+				],
+				"collocations": [
+					{
+						"phrase": "make money",
+						"meaning": "earn money from doing work",
+						"viMeaning": "kiếm tiền",
+						"example": "He wants to make a lot of money.",
+						"viExample": "Anh ấy muốn kiếm thật nhiều tiền."
+					},
+					{
+						"phrase": "spend money",
+						"meaning": "use money to pay for things",
+						"viMeaning": "tiêu tiền",
+						"example": "Don't spend money on useless things.",
+						"viExample": "Đừng tiêu tiền vào những thứ vô ích."
+					}
+				]
+			}
+		]
+	}
+]

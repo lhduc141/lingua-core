@@ -1,0 +1,922 @@
+[
+	{
+		"headword": "conceive",
+		"pos": "verb",
+		"ipa": "/kənˈsiːv/",
+		"cefrLevel": "B2",
+		"frequency": 5400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "conception", "pos": "noun" },
+			{ "form": "conceivable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To form a plan or idea in the mind",
+				"viDef": "hình thành, tưởng tượng",
+				"synonyms": ["imagine", "devise", "formulate"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He conceived the idea for the novel during his travels.",
+						"viText": "Anh ấy đã hình thành ý tưởng cho cuốn tiểu thuyết trong những chuyến đi của mình."
+					},
+					{
+						"text": "It is hard to conceive of a world without electricity.",
+						"viText": "Thật khó để tưởng tượng một thế giới không có điện."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "originally conceived",
+						"meaning": "First thought of at the beginning",
+						"viMeaning": "được hình thành ban đầu",
+						"example": "The project was originally conceived as a small experiment.",
+						"viExample": "Dự án ban đầu được hình thành như một thí nghiệm nhỏ."
+					},
+					{
+						"phrase": "conceive a plan",
+						"meaning": "To develop a strategy or method",
+						"viMeaning": "nghĩ ra một kế hoạch",
+						"example": "They met to conceive a plan for the new business.",
+						"viExample": "Họ đã gặp nhau để nghĩ ra một kế hoạch cho doanh nghiệp mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "deduce",
+		"pos": "verb",
+		"ipa": "/dɪˈdjuːs/",
+		"cefrLevel": "B2",
+		"frequency": 6600,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "deduction", "pos": "noun" },
+			{ "form": "deductive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To arrive at a fact by reasoning from evidence",
+				"viDef": "suy luận, luận ra",
+				"synonyms": ["infer", "conclude", "gather"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "What can we deduce from these statistics?",
+						"viText": "Chúng ta có thể suy luận được gì từ những số liệu thống kê này?"
+					},
+					{
+						"text": "The police deduced that the thief entered through the window.",
+						"viText": "Cảnh sát luận ra rằng kẻ trộm đã đột nhập qua cửa sổ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "logically deduce",
+						"meaning": "To use clear reasoning to reach a conclusion",
+						"viMeaning": "suy luận một cách logic",
+						"example": "You can logically deduce the answer from the clues.",
+						"viExample": "Bạn có thể suy luận một cách logic câu trả lời từ các manh mối."
+					},
+					{
+						"phrase": "possible to deduce",
+						"meaning": "Something that can be understood from information",
+						"viMeaning": "có thể suy luận được",
+						"example": "It is not possible to deduce his motives from his actions.",
+						"viExample": "Không thể suy luận được động cơ của anh ta từ hành động của anh ta."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "differentiate",
+		"pos": "verb",
+		"ipa": "/ˌdɪfəˈrenʃieɪt/",
+		"cefrLevel": "B2",
+		"frequency": 5900,
+		"isCommon": false,
+		"wordForms": [{ "form": "differentiation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To recognize or show the difference between things",
+				"viDef": "phân biệt",
+				"synonyms": ["distinguish", "discriminate", "separate"],
+				"antonyms": ["confuse"],
+				"examples": [
+					{
+						"text": "The law does not differentiate between men and women.",
+						"viText": "Luật pháp không phân biệt giữa nam và nữ."
+					},
+					{
+						"text": "It is important to differentiate between facts and opinions.",
+						"viText": "Điều quan trọng là phải phân biệt giữa sự thật và ý kiến."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "differentiate between",
+						"meaning": "To tell the difference between two things",
+						"viMeaning": "phân biệt giữa",
+						"example": "Children learn to differentiate between right and wrong.",
+						"viExample": "Trẻ em học cách phân biệt giữa đúng và sai."
+					},
+					{
+						"phrase": "differentiate itself",
+						"meaning": "To make itself different from others",
+						"viMeaning": "tạo sự khác biệt",
+						"example": "The brand needs to differentiate itself from competitors.",
+						"viExample": "Thương hiệu cần tạo sự khác biệt so với các đối thủ cạnh tranh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "encounter",
+		"pos": "verb",
+		"ipa": "/ɪnˈkaʊntə(r)/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [{ "form": "encounter", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To unexpectedly experience or be faced with something",
+				"viDef": "gặp phải, chạm trán",
+				"synonyms": ["meet", "face", "confront"],
+				"antonyms": ["avoid", "evade"],
+				"examples": [
+					{
+						"text": "We encountered several problems during the project.",
+						"viText": "Chúng tôi đã gặp phải một vài vấn đề trong suốt dự án."
+					},
+					{
+						"text": "You might encounter some resistance to these changes.",
+						"viText": "Bạn có thể gặp phải một số phản kháng đối với những thay đổi này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "encounter difficulties",
+						"meaning": "To face hard situations unexpectedly",
+						"viMeaning": "gặp khó khăn",
+						"example": "The hikers encountered difficulties in the heavy snow.",
+						"viExample": "Những người đi bộ đường dài đã gặp khó khăn trong trận tuyết dày."
+					},
+					{
+						"phrase": "first encounter",
+						"meaning": "The first time meeting someone or something",
+						"viMeaning": "lần gặp đầu tiên",
+						"example": "I remember my first encounter with a computer.",
+						"viExample": "Tôi nhớ lần đầu tiên mình chạm trán với một chiếc máy tính."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "formulate",
+		"pos": "verb",
+		"ipa": "/ˈfɔːmjuleɪt/",
+		"cefrLevel": "B2",
+		"frequency": 5800,
+		"isCommon": false,
+		"wordForms": [{ "form": "formulation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To create or prepare something methodically",
+				"viDef": "đề ra, xây dựng",
+				"synonyms": ["devise", "prepare", "develop"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The government is trying to formulate a new policy.",
+						"viText": "Chính phủ đang cố gắng đề ra một chính sách mới."
+					},
+					{
+						"text": "Scientists need to formulate a hypothesis before testing.",
+						"viText": "Các nhà khoa học cần xây dựng một giả thuyết trước khi thử nghiệm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "formulate a strategy",
+						"meaning": "To plan a set of actions",
+						"viMeaning": "xây dựng chiến lược",
+						"example": "The team met to formulate a strategy for the game.",
+						"viExample": "Cả đội đã họp để xây dựng chiến lược cho trận đấu."
+					},
+					{
+						"phrase": "carefully formulate",
+						"meaning": "To develop something with great attention",
+						"viMeaning": "xây dựng cẩn thận",
+						"example": "She carefully formulated her answer to the difficult question.",
+						"viExample": "Cô ấy đã xây dựng cẩn thận câu trả lời cho câu hỏi khó."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "speculate",
+		"pos": "verb",
+		"ipa": "/ˈspekjuleɪt/",
+		"cefrLevel": "B2",
+		"frequency": 6300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "speculation", "pos": "noun" },
+			{ "form": "speculative", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To form a theory without firm evidence",
+				"viDef": "suy đoán, đồn đoán",
+				"synonyms": ["guess", "surmise", "conjecture"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Critics speculate that the company will go bankrupt.",
+						"viText": "Các nhà phê bình suy đoán rằng công ty sẽ phá sản."
+					},
+					{
+						"text": "It's useless to speculate on what might have happened.",
+						"viText": "Thật vô ích khi suy đoán về những gì có thể đã xảy ra."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "wildly speculate",
+						"meaning": "To make guesses without any real basis",
+						"viMeaning": "đồn đoán bừa bãi",
+						"example": "The media began to wildly speculate about the star's health.",
+						"viExample": "Truyền thông bắt đầu đồn đoán bừa bãi về sức khỏe của ngôi sao."
+					},
+					{
+						"phrase": "speculate on",
+						"meaning": "To guess about a specific subject",
+						"viMeaning": "suy đoán về",
+						"example": "Economists speculate on the future of oil prices.",
+						"viExample": "Các nhà kinh tế suy đoán về tương lai của giá dầu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "validate",
+		"pos": "verb",
+		"ipa": "/ˈvælɪdeɪt/",
+		"cefrLevel": "B2",
+		"frequency": 6900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "validation", "pos": "noun" },
+			{ "form": "valid", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To check or prove the validity or accuracy of",
+				"viDef": "xác nhận, phê chuẩn",
+				"synonyms": ["confirm", "verify", "authenticate"],
+				"antonyms": ["invalidate"],
+				"examples": [
+					{
+						"text": "The study was conducted to validate the new theory.",
+						"viText": "Nghiên cứu được tiến hành để xác nhận lý thuyết mới."
+					},
+					{
+						"text": "You need to validate your ticket at the machine.",
+						"viText": "Bạn cần xác nhận vé của mình tại máy."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "validate a claim",
+						"meaning": "To prove that a statement is true",
+						"viMeaning": "xác thực một yêu cầu/khẳng định",
+						"example": "The evidence helps to validate his claim of innocence.",
+						"viExample": "Bằng chứng giúp xác thực lời khẳng định vô tội của anh ta."
+					},
+					{
+						"phrase": "externally validate",
+						"meaning": "To have someone outside confirm the results",
+						"viMeaning": "xác thực khách quan/bên ngoài",
+						"example": "The data was externally validated by an independent lab.",
+						"viExample": "Dữ liệu đã được xác thực khách quan bởi một phòng thí nghiệm độc lập."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "verify",
+		"pos": "verb",
+		"ipa": "/ˈverɪfaɪ/",
+		"cefrLevel": "B2",
+		"frequency": 5500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "verification", "pos": "noun" },
+			{ "form": "verifiable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make sure that something is true or accurate",
+				"viDef": "kiểm chứng, xác minh",
+				"synonyms": ["confirm", "check", "substantiate"],
+				"antonyms": ["disprove"],
+				"examples": [
+					{
+						"text": "Please verify that all the information is correct.",
+						"viText": "Vui lòng xác minh rằng tất cả thông tin là chính xác."
+					},
+					{
+						"text": "The experiment results were difficult to verify.",
+						"viText": "Kết quả thí nghiệm rất khó để kiểm chứng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "verify identity",
+						"meaning": "To prove who a person is",
+						"viMeaning": "xác minh danh tính",
+						"example": "The bank needs to verify your identity before opening an account.",
+						"viExample": "Ngân hàng cần xác minh danh tính của bạn trước khi mở tài khoản."
+					},
+					{
+						"phrase": "independently verify",
+						"meaning": "To check something using a separate source",
+						"viMeaning": "xác minh độc lập",
+						"example": "The news report could not be independently verified.",
+						"viExample": "Báo cáo tin tức đã không thể được xác minh độc lập."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "contradict",
+		"pos": "verb",
+		"ipa": "/ˌkɒntrəˈdɪkt/",
+		"cefrLevel": "B2",
+		"frequency": 6200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "contradiction", "pos": "noun" },
+			{ "form": "contradictory", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To say the opposite of what someone else has said",
+				"viDef": "mâu thuẫn, phủ nhận",
+				"synonyms": ["deny", "refute", "counter"],
+				"antonyms": ["agree", "confirm"],
+				"examples": [
+					{
+						"text": "The witness's story contradicts the evidence.",
+						"viText": "Câu chuyện của nhân chứng mâu thuẫn với bằng chứng."
+					},
+					{
+						"text": "He tends to contradict everything I say.",
+						"viText": "Anh ấy có xu hướng phủ nhận mọi điều tôi nói."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "directly contradict",
+						"meaning": "To say something that is the exact opposite",
+						"viMeaning": "mâu thuẫn trực tiếp",
+						"example": "Her account of the accident directly contradicts his.",
+						"viExample": "Lời kể của cô ấy về vụ tai nạn mâu thuẫn trực tiếp với lời kể của anh ấy."
+					},
+					{
+						"phrase": "contradict yourself",
+						"meaning": "To say two things that cannot both be true",
+						"viMeaning": "tự mâu thuẫn",
+						"example": "Be careful not to contradict yourself during the interview.",
+						"viExample": "Hãy cẩn thận đừng để tự mâu thuẫn trong lúc phỏng vấn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "exemplify",
+		"pos": "verb",
+		"ipa": "/ɪɡˈzemplɪfaɪ/",
+		"cefrLevel": "B2",
+		"frequency": 6800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "exemplification", "pos": "noun" },
+			{ "form": "exemplary", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To be a typical example of something",
+				"viDef": "minh họa, làm ví dụ",
+				"synonyms": ["illustrate", "embody", "represent"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "This building exemplifies the modern style of architecture.",
+						"viText": "Tòa nhà này minh họa cho phong cách kiến trúc hiện đại."
+					},
+					{
+						"text": "His paintings exemplify the beauty of the countryside.",
+						"viText": "Những bức tranh của ông ấy làm ví dụ cho vẻ đẹp của vùng nông thôn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "perfectly exemplify",
+						"meaning": "To be an ideal representative of a quality",
+						"viMeaning": "minh họa hoàn hảo",
+						"example": "She perfectly exemplifies the spirit of the team.",
+						"viExample": "Cô ấy minh họa hoàn hảo cho tinh thần của cả đội."
+					},
+					{
+						"phrase": "exemplify a trend",
+						"meaning": "To show a common movement in society",
+						"viMeaning": "minh họa cho một xu hướng",
+						"example": "His success exemplifies a trend toward self-employment.",
+						"viExample": "Thành công của anh ấy minh họa cho xu hướng tự kinh doanh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "highlight",
+		"pos": "verb",
+		"ipa": "/ˈhaɪlaɪt/",
+		"cefrLevel": "B2",
+		"frequency": 5050,
+		"isCommon": false,
+		"wordForms": [{ "form": "highlight", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To pick out and emphasize something important",
+				"viDef": "làm nổi bật, nhấn mạnh",
+				"synonyms": ["emphasize", "underline", "stress"],
+				"antonyms": ["ignore", "downplay"],
+				"examples": [
+					{
+						"text": "The report highlights the need for better security.",
+						"viText": "Bản báo cáo nhấn mạnh sự cần thiết của an ninh tốt hơn."
+					},
+					{
+						"text": "I used a yellow pen to highlight the main points.",
+						"viText": "Tôi đã dùng bút vàng để làm nổi bật các điểm chính."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "highlight the importance",
+						"meaning": "To show why something is significant",
+						"viMeaning": "nhấn mạnh tầm quan trọng",
+						"example": "The teacher wanted to highlight the importance of reading.",
+						"viExample": "Giáo viên muốn nhấn mạnh tầm quan trọng của việc đọc sách."
+					},
+					{
+						"phrase": "clearly highlight",
+						"meaning": "To make something very obvious",
+						"viMeaning": "làm nổi bật rõ ràng",
+						"example": "The graphs clearly highlight the increase in sales.",
+						"viExample": "Các biểu đồ làm nổi bật rõ ràng sự gia tăng doanh số."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "imply",
+		"pos": "verb",
+		"ipa": "/ɪmˈplaɪ/",
+		"cefrLevel": "B2",
+		"frequency": 5200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "implication", "pos": "noun" },
+			{ "form": "implicit", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To suggest something without saying it directly",
+				"viDef": "ngụ ý, ám chỉ",
+				"synonyms": ["suggest", "hint", "insinuate"],
+				"antonyms": ["state", "declare"],
+				"examples": [
+					{
+						"text": "Are you implying that I am lying?",
+						"viText": "Bạn đang ngụ ý rằng tôi đang nói dối sao?"
+					},
+					{
+						"text": "The silence seemed to imply agreement.",
+						"viText": "Sự im lặng dường như ngụ ý sự đồng ý."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "strongly imply",
+						"meaning": "To give a very clear hint about something",
+						"viMeaning": "ngụ ý mạnh mẽ",
+						"example": "Her words strongly imply that she is unhappy.",
+						"viExample": "Lời nói của cô ấy ngụ ý mạnh mẽ rằng cô ấy đang không vui."
+					},
+					{
+						"phrase": "necessarily imply",
+						"meaning": "When one fact must mean another is true",
+						"viMeaning": "nhất thiết ngụ ý",
+						"example": "Being rich does not necessarily imply being happy.",
+						"viExample": "Giàu có không nhất thiết ngụ ý là hạnh phúc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "indicate",
+		"pos": "verb",
+		"ipa": "/ˈɪndɪkeɪt/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "indication", "pos": "noun" },
+			{ "form": "indicative", "pos": "adjective" },
+			{ "form": "indicator", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To point out or show something",
+				"viDef": "chỉ ra, cho biết",
+				"synonyms": ["show", "signal", "point out"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Research indicates that the climate is changing.",
+						"viText": "Nghiên cứu cho thấy khí hậu đang thay đổi."
+					},
+					{
+						"text": "The map indicates where the treasure is buried.",
+						"viText": "Bản đồ chỉ ra nơi kho báu được chôn cất."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "clearly indicate",
+						"meaning": "To show something in an obvious way",
+						"viMeaning": "chỉ ra rõ ràng",
+						"example": "The results clearly indicate a trend toward remote work.",
+						"viExample": "Kết quả chỉ ra rõ ràng xu hướng làm việc từ xa."
+					},
+					{
+						"phrase": "indicate a preference",
+						"meaning": "To show what someone likes more",
+						"viMeaning": "cho biết sự ưu tiên",
+						"example": "Please indicate your preference for tea or coffee.",
+						"viExample": "Vui lòng cho biết sự ưu tiên của bạn đối với trà hay cà phê."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "outline",
+		"pos": "verb",
+		"ipa": "/ˈaʊtlaɪn/",
+		"cefrLevel": "B2",
+		"frequency": 5300,
+		"isCommon": false,
+		"wordForms": [{ "form": "outline", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To give a summary of the main points",
+				"viDef": "phác thảo, tóm tắt",
+				"synonyms": ["summarize", "sketch", "draft"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The manager outlined the goals for the next year.",
+						"viText": "Người quản lý đã tóm tắt các mục tiêu cho năm tới."
+					},
+					{
+						"text": "She outlined the main arguments in her essay.",
+						"viText": "Cô ấy đã phác thảo các luận điểm chính trong bài tiểu luận của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "briefly outline",
+						"meaning": "To give a very short summary",
+						"viMeaning": "phác thảo ngắn gọn",
+						"example": "Could you briefly outline your proposal?",
+						"viExample": "Bạn có thể phác thảo ngắn gọn đề xuất của mình không?"
+					},
+					{
+						"phrase": "outline a plan",
+						"meaning": "To describe the steps of a future activity",
+						"viMeaning": "phác thảo kế hoạch",
+						"example": "The architect outlined a plan for the new house.",
+						"viExample": "Kiến trúc sư đã phác thảo kế hoạch cho ngôi nhà mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "acknowledge",
+		"pos": "verb",
+		"ipa": "/əkˈnɒlɪdʒ/",
+		"cefrLevel": "B2",
+		"frequency": 5150,
+		"isCommon": false,
+		"wordForms": [{ "form": "acknowledgment", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To accept or admit that something is true",
+				"viDef": "công nhận, thừa nhận",
+				"synonyms": ["admit", "recognize", "accept"],
+				"antonyms": ["deny", "ignore"],
+				"examples": [
+					{
+						"text": "He finally acknowledged that he had made a mistake.",
+						"viText": "Cuối cùng anh ấy đã thừa nhận rằng mình đã phạm lỗi."
+					},
+					{
+						"text": "The government refused to acknowledge the new leader.",
+						"viText": "Chính phủ từ chối công nhận nhà lãnh đạo mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "acknowledge receipt",
+						"meaning": "To confirm that you have received something",
+						"viMeaning": "xác nhận đã nhận",
+						"example": "Please acknowledge receipt of this email.",
+						"viExample": "Vui lòng xác nhận đã nhận được email này."
+					},
+					{
+						"phrase": "widely acknowledged",
+						"meaning": "Accepted as true by most people",
+						"viMeaning": "được công nhận rộng rãi",
+						"example": "It is widely acknowledged that smoking is harmful.",
+						"viExample": "Việc hút thuốc có hại là điều được công nhận rộng rãi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "characterize",
+		"pos": "verb",
+		"ipa": "/ˈkærəktəraɪz/",
+		"cefrLevel": "B2",
+		"frequency": 6500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "characterization", "pos": "noun" },
+			{ "form": "characteristic", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To describe the typical features of someone or something",
+				"viDef": "mô tả đặc điểm",
+				"synonyms": ["define", "portray", "describe"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The city is characterized by its tall skyscrapers.",
+						"viText": "Thành phố được đặc trưng bởi những tòa nhà chọc trời cao lớn."
+					},
+					{
+						"text": "How would you characterize your management style?",
+						"viText": "Bạn sẽ mô tả phong cách quản lý của mình như thế nào?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "characterize as",
+						"meaning": "To describe someone in a specific way",
+						"viMeaning": "mô tả như là",
+						"example": "The media characterized him as a hero.",
+						"viExample": "Truyền thông đã mô tả anh ấy như một người hùng."
+					},
+					{
+						"phrase": "best characterize",
+						"meaning": "To describe something in the most accurate way",
+						"viMeaning": "mô tả chính xác nhất",
+						"example": "What words best characterize the current economy?",
+						"viExample": "Những từ nào mô tả chính xác nhất nền kinh tế hiện tại?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "demonstrate",
+		"pos": "verb",
+		"ipa": "/ˈdemənstreɪt/",
+		"cefrLevel": "B2",
+		"frequency": 5050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "demonstration", "pos": "noun" },
+			{ "form": "demonstrative", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To clearly show that something is true by evidence",
+				"viDef": "chứng minh, giải thích",
+				"synonyms": ["show", "prove", "illustrate"],
+				"antonyms": ["disprove"],
+				"examples": [
+					{
+						"text": "The study demonstrates that the drug is effective.",
+						"viText": "Nghiên cứu chứng minh rằng loại thuốc này có hiệu quả."
+					},
+					{
+						"text": "Let me demonstrate how to use this machine.",
+						"viText": "Để tôi giải thích cách sử dụng chiếc máy này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "demonstrate skills",
+						"meaning": "To show that you have certain abilities",
+						"viMeaning": "thể hiện kỹ năng",
+						"example": "The candidate needs to demonstrate leadership skills.",
+						"viExample": "Ứng viên cần thể hiện các kỹ năng lãnh đạo."
+					},
+					{
+						"phrase": "clearly demonstrate",
+						"meaning": "To show something in an obvious way",
+						"viMeaning": "chứng minh rõ ràng",
+						"example": "The evidence clearly demonstrates his innocence.",
+						"viExample": "Bằng chứng chứng minh rõ ràng sự vô tội của anh ta."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "emphasize",
+		"pos": "verb",
+		"ipa": "/ˈemfəsaɪz/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "emphasis", "pos": "noun" },
+			{ "form": "emphatic", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To give special importance to something",
+				"viDef": "nhấn mạnh",
+				"synonyms": ["stress", "highlight", "underline"],
+				"antonyms": ["ignore", "understate"],
+				"examples": [
+					{
+						"text": "The teacher emphasized the importance of hard work.",
+						"viText": "Giáo viên đã nhấn mạnh tầm quan trọng của việc chăm chỉ."
+					},
+					{
+						"text": "I want to emphasize that this is a team effort.",
+						"viText": "Tôi muốn nhấn mạnh rằng đây là nỗ lực của cả đội."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "strongly emphasize",
+						"meaning": "To stress a point very firmly",
+						"viMeaning": "nhấn mạnh mạnh mẽ",
+						"example": "The report strongly emphasizes the need for change.",
+						"viExample": "Bản báo cáo nhấn mạnh mạnh mẽ sự cần thiết phải thay đổi."
+					},
+					{
+						"phrase": "emphasize a point",
+						"meaning": "To make a specific idea more clear and important",
+						"viMeaning": "nhấn mạnh một quan điểm",
+						"example": "He repeated his words to emphasize a point.",
+						"viExample": "Anh ấy đã lặp lại lời nói để nhấn mạnh một quan điểm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "justify",
+		"pos": "verb",
+		"ipa": "/ˈdʒʌstɪfaɪ/",
+		"cefrLevel": "B2",
+		"frequency": 5450,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "justification", "pos": "noun" },
+			{ "form": "justifiable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To show or prove to be right or reasonable",
+				"viDef": "bào chữa, biện minh",
+				"synonyms": ["explain", "defend", "warrant"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "How can you justify the cost of the trip?",
+						"viText": "Làm sao bạn có thể biện minh cho chi phí của chuyến đi?"
+					},
+					{
+						"text": "The results justify the hard work we put in.",
+						"viText": "Kết quả đã chứng minh cho sự làm việc chăm chỉ của chúng tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "justify the expense",
+						"meaning": "To show that a cost was worth it",
+						"viMeaning": "biện minh cho chi phí",
+						"example": "The long-term benefits justify the initial expense.",
+						"viExample": "Lợi ích lâu dài đã biện minh cho chi phí ban đầu."
+					},
+					{
+						"phrase": "fully justify",
+						"meaning": "To give complete and strong reasons for something",
+						"viMeaning": "hoàn toàn có lý",
+						"example": "The evidence fully justifies the decision.",
+						"viExample": "Bằng chứng đã hoàn toàn chứng minh cho quyết định đó là có lý."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "suggest",
+		"pos": "verb",
+		"ipa": "/səˈdʒest/",
+		"cefrLevel": "B2",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "suggestion", "pos": "noun" },
+			{ "form": "suggestive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To put forward an idea or plan for consideration",
+				"viDef": "gợi ý, đề xuất",
+				"synonyms": ["propose", "recommend", "advise"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "I suggest that we go for a walk.", "viText": "Tôi gợi ý chúng ta nên đi dạo." },
+					{
+						"text": "Research suggests that this method is effective.",
+						"viText": "Nghiên cứu cho thấy phương pháp này có hiệu quả."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "strongly suggest",
+						"meaning": "To give a very firm idea or hint",
+						"viMeaning": "gợi ý mạnh mẽ",
+						"example": "The evidence strongly suggests that he is guilty.",
+						"viExample": "Bằng chứng gợi ý mạnh mẽ rằng anh ta có tội."
+					},
+					{
+						"phrase": "suggest an alternative",
+						"meaning": "To offer a different choice",
+						"viMeaning": "đề xuất một phương án thay thế",
+						"example": "If you don't like this plan, I can suggest an alternative.",
+						"viExample": "Nếu bạn không thích kế hoạch này, tôi có thể đề xuất một phương án thay thế."
+					}
+				]
+			}
+		]
+	}
+]

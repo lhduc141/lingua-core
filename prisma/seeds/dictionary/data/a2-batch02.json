@@ -1,0 +1,912 @@
+[
+	{
+		"headword": "manager",
+		"pos": "noun",
+		"ipa": "/ˈmænɪdʒə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "manage", "pos": "verb" },
+			{ "form": "management", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person who is in charge of an organization or group",
+				"viDef": "người quản lý",
+				"synonyms": ["boss", "director", "head"],
+				"antonyms": ["employee", "staff"],
+				"examples": [
+					{
+						"text": "I need to speak with the hotel manager about my room.",
+						"viText": "Tôi cần nói chuyện với quản lý khách sạn về phòng của mình."
+					},
+					{
+						"text": "She was promoted to sales manager last month.",
+						"viText": "Cô ấy đã được thăng chức lên quản lý bán hàng vào tháng trước."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "project manager",
+						"meaning": "A person in charge of a specific project",
+						"viMeaning": "quản lý dự án",
+						"example": "The project manager assigned tasks to everyone.",
+						"viExample": "Quản lý dự án đã giao nhiệm vụ cho mọi người."
+					},
+					{
+						"phrase": "general manager",
+						"meaning": "A person with high-level responsibility for a whole company",
+						"viMeaning": "tổng quản lý",
+						"example": "The general manager made the final decision.",
+						"viExample": "Tổng quản lý đã đưa ra quyết định cuối cùng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "company",
+		"pos": "noun",
+		"ipa": "/ˈkʌmpəni/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "companion", "pos": "noun" },
+			{ "form": "accompany", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An organization that sells goods or services to make money",
+				"viDef": "công ty",
+				"synonyms": ["firm", "business", "corporation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He works for a large software company in the city.",
+						"viText": "Anh ấy làm việc cho một công ty phần mềm lớn trong thành phố."
+					},
+					{
+						"text": "The company was founded ten years ago.",
+						"viText": "Công ty được thành lập cách đây mười năm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "international company",
+						"meaning": "A company that operates in many countries",
+						"viMeaning": "công ty quốc tế",
+						"example": "It is hard to get a job at an international company.",
+						"viExample": "Thật khó để có được một công việc tại một công ty quốc tế."
+					},
+					{
+						"phrase": "start a company",
+						"meaning": "To begin a new business organization",
+						"viMeaning": "thành lập công ty",
+						"example": "They want to start a company together.",
+						"viExample": "Họ muốn cùng nhau thành lập một công ty."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "job",
+		"pos": "noun",
+		"ipa": "/dʒɒb/",
+		"cefrLevel": "A2",
+		"frequency": 1020,
+		"isCommon": true,
+		"wordForms": [{ "form": "jobless", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The regular work that a person does to earn money",
+				"viDef": "công việc, nghề nghiệp",
+				"synonyms": ["occupation", "profession", "work"],
+				"antonyms": ["unemployment"],
+				"examples": [
+					{
+						"text": "She is looking for a part-time job.",
+						"viText": "Cô ấy đang tìm kiếm một công việc bán thời gian."
+					},
+					{
+						"text": "He quit his job to travel the world.",
+						"viText": "Anh ấy đã bỏ việc để đi du lịch thế giới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "job interview",
+						"meaning": "A formal meeting to see if someone is right for work",
+						"viMeaning": "phỏng vấn xin việc",
+						"example": "I have a job interview tomorrow morning.",
+						"viExample": "Tôi có một buổi phỏng vấn xin việc vào sáng mai."
+					},
+					{
+						"phrase": "full-time job",
+						"meaning": "A job for the whole of a normal working week",
+						"viMeaning": "việc làm toàn thời gian",
+						"example": "It is difficult to find a full-time job these days.",
+						"viExample": "Dạo này thật khó để tìm được một công việc toàn thời gian."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "salary",
+		"pos": "noun",
+		"ipa": "/ˈsæləri/",
+		"cefrLevel": "A2",
+		"frequency": 2200,
+		"isCommon": true,
+		"wordForms": [{ "form": "salaried", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Money that employees receive for doing their job",
+				"viDef": "tiền lương",
+				"synonyms": ["pay", "wage", "income"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The company offers a very high starting salary.",
+						"viText": "Công ty đưa ra mức lương khởi điểm rất cao."
+					},
+					{
+						"text": "Her salary is paid directly into her bank account.",
+						"viText": "Lương của cô ấy được trả trực tiếp vào tài khoản ngân hàng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "annual salary",
+						"meaning": "The total amount of money earned in one year",
+						"viMeaning": "lương hàng năm",
+						"example": "What is the average annual salary for a teacher?",
+						"viExample": "Mức lương hàng năm trung bình của giáo viên là bao nhiêu?"
+					},
+					{
+						"phrase": "salary increase",
+						"meaning": "An amount of extra money added to your pay",
+						"viMeaning": "tăng lương",
+						"example": "I am hoping for a salary increase this year.",
+						"viExample": "Tôi hy vọng được tăng lương trong năm nay."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "holiday",
+		"pos": "noun",
+		"ipa": "/ˈhɒlədeɪ/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A period of time when you do not work or go to school",
+				"viDef": "ngày lễ, kỳ nghỉ",
+				"synonyms": ["vacation", "break"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Where are you going for your summer holiday?",
+						"viText": "Bạn định đi đâu vào kỳ nghỉ hè?"
+					},
+					{
+						"text": "Monday is a public holiday in my country.",
+						"viText": "Thứ Hai là một ngày lễ công cộng ở đất nước tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "bank holiday",
+						"meaning": "An official public holiday",
+						"viMeaning": "ngày lễ quốc gia",
+						"example": "The banks are closed on the bank holiday.",
+						"viExample": "Các ngân hàng đóng cửa vào ngày lễ quốc gia."
+					},
+					{
+						"phrase": "on holiday",
+						"meaning": "Away from work or home for a vacation",
+						"viMeaning": "đang đi nghỉ",
+						"example": "Mr. Smith is away on holiday this week.",
+						"viExample": "Ông Smith đang đi nghỉ tuần này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "birthday",
+		"pos": "noun",
+		"ipa": "/ˈbɜːθdeɪ/",
+		"cefrLevel": "A2",
+		"frequency": 1250,
+		"isCommon": true,
+		"wordForms": [{ "form": "birth", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The day on which a person was born",
+				"viDef": "sinh nhật",
+				"synonyms": [],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Happy birthday! I hope you have a great day.",
+						"viText": "Chúc mừng sinh nhật! Hy vọng bạn có một ngày tuyệt vời."
+					},
+					{
+						"text": "My birthday is on the fifth of June.",
+						"viText": "Sinh nhật của tôi vào ngày 5 tháng 6."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "birthday present",
+						"meaning": "A gift given to someone on their birthday",
+						"viMeaning": "quà sinh nhật",
+						"example": "What did you get for your birthday present?",
+						"viExample": "Bạn đã nhận được gì làm quà sinh nhật vậy?"
+					},
+					{
+						"phrase": "birthday cake",
+						"meaning": "A cake eaten to celebrate a birthday",
+						"viMeaning": "bánh sinh nhật",
+						"example": "She blew out the candles on her birthday cake.",
+						"viExample": "Cô ấy đã thổi nến trên chiếc bánh sinh nhật của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "party",
+		"pos": "noun",
+		"ipa": "/ˈpɑːti/",
+		"cefrLevel": "A2",
+		"frequency": 1080,
+		"isCommon": true,
+		"wordForms": [{ "form": "partier", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A social occasion where people eat, drink, and dance",
+				"viDef": "bữa tiệc",
+				"synonyms": ["celebration", "gathering"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We are having a surprise party for his graduation.",
+						"viText": "Chúng tôi đang tổ chức một bữa tiệc bất ngờ cho lễ tốt nghiệp của anh ấy."
+					},
+					{
+						"text": "Are you coming to my birthday party?",
+						"viText": "Bạn có đến dự tiệc sinh nhật của tôi không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "throw a party",
+						"meaning": "To organize and host a party",
+						"viMeaning": "tổ chức tiệc",
+						"example": "They threw a huge party to celebrate their anniversary.",
+						"viExample": "Họ đã tổ chức một bữa tiệc lớn để kỷ niệm ngày cưới."
+					},
+					{
+						"phrase": "dinner party",
+						"meaning": "A formal occasion where people eat dinner together",
+						"viMeaning": "tiệc tối",
+						"example": "We invited our neighbors to a dinner party.",
+						"viExample": "Chúng tôi đã mời hàng xóm đến dự một bữa tiệc tối."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "invitation",
+		"pos": "noun",
+		"ipa": "/ˌɪnvɪˈteɪʃn/",
+		"cefrLevel": "A2",
+		"frequency": 2400,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "invite", "pos": "verb" },
+			{ "form": "invitational", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A written or spoken request to go somewhere or do something",
+				"viDef": "lời mời, thiệp mời",
+				"synonyms": ["request", "summons"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Thank you for the invitation to your wedding.",
+						"viText": "Cảm ơn lời mời đến đám cưới của bạn."
+					},
+					{
+						"text": "Did you receive an invitation to the meeting?",
+						"viText": "Bạn có nhận được lời mời tham dự cuộc họp không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "wedding invitation",
+						"meaning": "An invitation to a wedding ceremony",
+						"viMeaning": "thiệp mời đám cưới",
+						"example": "I sent out the wedding invitations last week.",
+						"viExample": "Tôi đã gửi thiệp mời đám cưới vào tuần trước."
+					},
+					{
+						"phrase": "accept an invitation",
+						"meaning": "To say yes to a request to go somewhere",
+						"viMeaning": "chấp nhận lời mời",
+						"example": "I am happy to accept your invitation.",
+						"viExample": "Tôi rất vui lòng chấp nhận lời mời của bạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "gift",
+		"pos": "noun",
+		"ipa": "/ɡɪft/",
+		"cefrLevel": "A2",
+		"frequency": 1350,
+		"isCommon": true,
+		"wordForms": [{ "form": "gifted", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that you give to someone, usually on special occasions",
+				"viDef": "món quà",
+				"synonyms": ["present", "donation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The book was a gift from my best friend.",
+						"viText": "Cuốn sách là món quà từ người bạn thân nhất của tôi."
+					},
+					{
+						"text": "They gave her a beautiful gift for her retirement.",
+						"viText": "Họ đã tặng bà ấy một món quà đẹp nhân dịp bà nghỉ hưu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "birthday gift",
+						"meaning": "A present given on a birthday",
+						"viMeaning": "quà sinh nhật",
+						"example": "I bought a special birthday gift for my mother.",
+						"viExample": "Tôi đã mua một món quà sinh nhật đặc biệt cho mẹ."
+					},
+					{
+						"phrase": "gift shop",
+						"meaning": "A shop that sells items suitable for presents",
+						"viMeaning": "cửa hàng quà lưu niệm",
+						"example": "The museum has a small gift shop.",
+						"viExample": "Bảo tàng có một cửa hàng quà lưu niệm nhỏ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "wedding",
+		"pos": "noun",
+		"ipa": "/ˈwedɪŋ/",
+		"cefrLevel": "A2",
+		"frequency": 1600,
+		"isCommon": true,
+		"wordForms": [{ "form": "wed", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A ceremony where two people get married",
+				"viDef": "đám cưới",
+				"synonyms": ["marriage", "nuptials"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We are going to a wedding this Saturday.",
+						"viText": "Chúng tôi sẽ đi dự một đám cưới vào thứ Bảy này."
+					},
+					{
+						"text": "The wedding was held in a beautiful garden.",
+						"viText": "Đám cưới được tổ chức trong một khu vườn xinh đẹp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "wedding dress",
+						"meaning": "A dress worn by a woman on her wedding day",
+						"viMeaning": "váy cưới",
+						"example": "She looked stunning in her white wedding dress.",
+						"viExample": "Cô ấy trông thật lộng lẫy trong chiếc váy cưới màu trắng."
+					},
+					{
+						"phrase": "wedding anniversary",
+						"meaning": "The date on which a wedding took place each year",
+						"viMeaning": "kỷ niệm ngày cưới",
+						"example": "They are celebrating their 10th wedding anniversary.",
+						"viExample": "Họ đang kỷ niệm 10 năm ngày cưới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "culture",
+		"pos": "noun",
+		"ipa": "/ˈkʌltʃə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1400,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "cultural", "pos": "adjective" },
+			{ "form": "culturally", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The habits, traditions, and beliefs of a country or group",
+				"viDef": "văn hóa",
+				"synonyms": ["customs", "heritage"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I enjoy learning about different cultures around the world.",
+						"viText": "Tôi thích tìm hiểu về các nền văn hóa khác nhau trên thế giới."
+					},
+					{
+						"text": "Food is an important part of Vietnamese culture.",
+						"viText": "Ẩm thực là một phần quan trọng của văn hóa Việt Nam."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "popular culture",
+						"meaning": "Cultural activities that are liked by many ordinary people",
+						"viMeaning": "văn hóa đại chúng",
+						"example": "Modern movies are a big part of popular culture.",
+						"viExample": "Phim ảnh hiện đại là một phần lớn của văn hóa đại chúng."
+					},
+					{
+						"phrase": "cultural heritage",
+						"meaning": "Traditions and objects passed down from earlier generations",
+						"viMeaning": "di sản văn hóa",
+						"example": "We must protect our country's cultural heritage.",
+						"viExample": "Chúng ta phải bảo vệ di sản văn hóa của đất nước."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "tradition",
+		"pos": "noun",
+		"ipa": "/trəˈdɪʃn/",
+		"cefrLevel": "A2",
+		"frequency": 1800,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "traditional", "pos": "adjective" },
+			{ "form": "traditionally", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A custom or belief that has existed for a long time",
+				"viDef": "truyền thống",
+				"synonyms": ["custom", "practice"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "It is a tradition to eat mooncakes during Mid-Autumn Festival.",
+						"viText": "Ăn bánh trung thu vào dịp Tết Trung Thu là một truyền thống."
+					},
+					{
+						"text": "This family tradition has been kept for many generations.",
+						"viText": "Truyền thống gia đình này đã được giữ gìn qua nhiều thế hệ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "local tradition",
+						"meaning": "A tradition belonging to a specific area",
+						"viMeaning": "truyền thống địa phương",
+						"example": "The festival is based on an old local tradition.",
+						"viExample": "Lễ hội dựa trên một truyền thống địa phương lâu đời."
+					},
+					{
+						"phrase": "break with tradition",
+						"meaning": "To do something different from what is usually done",
+						"viMeaning": "phá bỏ truyền thống",
+						"example": "They decided to break with tradition and have a small wedding.",
+						"viExample": "Họ quyết định phá bỏ truyền thống và tổ chức một đám cưới nhỏ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "language",
+		"pos": "noun",
+		"ipa": "/ˈlæŋɡwɪdʒ/",
+		"cefrLevel": "A2",
+		"frequency": 1040,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "linguist", "pos": "noun" },
+			{ "form": "linguistic", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A system of communication used by people of a country",
+				"viDef": "ngôn ngữ",
+				"synonyms": ["speech", "tongue"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "How many languages can you speak fluently?",
+						"viText": "Bạn có thể nói trôi chảy bao nhiêu ngôn ngữ?"
+					},
+					{
+						"text": "English is a very common language for business.",
+						"viText": "Tiếng Anh là một ngôn ngữ rất phổ biến trong kinh doanh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "foreign language",
+						"meaning": "A language that is not your native one",
+						"viMeaning": "ngoại ngữ",
+						"example": "Learning a foreign language takes a lot of practice.",
+						"viExample": "Học một ngoại ngữ cần rất nhiều sự luyện tập."
+					},
+					{
+						"phrase": "native language",
+						"meaning": "The language you learn first as a child",
+						"viMeaning": "tiếng mẹ đẻ",
+						"example": "My native language is Vietnamese.",
+						"viExample": "Tiếng mẹ đẻ của tôi là tiếng Việt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "memory",
+		"pos": "noun",
+		"ipa": "/ˈmeməri/",
+		"cefrLevel": "A2",
+		"frequency": 1500,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "memorable", "pos": "adjective" },
+			{ "form": "memorize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The ability to remember things",
+				"viDef": "trí nhớ, kỷ niệm",
+				"synonyms": ["recollection", "mind"],
+				"antonyms": ["forgetfulness"],
+				"examples": [
+					{ "text": "I have a very bad memory for names.", "viText": "Tôi có trí nhớ rất tệ về tên gọi." },
+					{
+						"text": "The trip left me with many happy memories.",
+						"viText": "Chuyến đi đã để lại cho tôi nhiều kỷ niệm hạnh phúc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "good memory",
+						"meaning": "The ability to remember things easily",
+						"viMeaning": "trí nhớ tốt",
+						"example": "He has a good memory for numbers.",
+						"viExample": "Anh ấy có trí nhớ tốt về các con số."
+					},
+					{
+						"phrase": "in memory of",
+						"meaning": "To honor someone who has died",
+						"viMeaning": "để tưởng nhớ",
+						"example": "The statue was built in memory of the king.",
+						"viExample": "Bức tượng được xây dựng để tưởng nhớ vị vua."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "dream",
+		"pos": "noun",
+		"ipa": "/driːm/",
+		"cefrLevel": "A2",
+		"frequency": 1200,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "dreamer", "pos": "noun" },
+			{ "form": "dreamy", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Thoughts or images that happen during sleep",
+				"viDef": "giấc mơ, ước mơ",
+				"synonyms": ["ambition", "fantasy"],
+				"antonyms": ["reality"],
+				"examples": [
+					{
+						"text": "I had a very strange dream last night.",
+						"viText": "Tôi đã có một giấc mơ rất lạ vào đêm qua."
+					},
+					{
+						"text": "It is my dream to become a famous doctor.",
+						"viText": "Ước mơ của tôi là trở thành một bác sĩ nổi tiếng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "bad dream",
+						"meaning": "A frightening or unpleasant dream",
+						"viMeaning": "ác mộng",
+						"example": "The child woke up after a bad dream.",
+						"viExample": "Đứa trẻ thức dậy sau một cơn ác mộng."
+					},
+					{
+						"phrase": "dream come true",
+						"meaning": "Something that happens that you wanted for a long time",
+						"viMeaning": "giấc mơ thành hiện thực",
+						"example": "Buying this house is a dream come true.",
+						"viExample": "Mua được ngôi nhà này là một giấc mơ thành hiện thực."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "change",
+		"pos": "verb",
+		"ipa": "/tʃeɪndʒ/",
+		"cefrLevel": "A2",
+		"frequency": 1030,
+		"isCommon": true,
+		"wordForms": [{ "form": "changeable", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make or become different",
+				"viDef": "thay đổi",
+				"synonyms": ["alter", "modify"],
+				"antonyms": ["keep", "remain"],
+				"examples": [
+					{
+						"text": "The weather changes very quickly in this area.",
+						"viText": "Thời tiết thay đổi rất nhanh ở khu vực này."
+					},
+					{
+						"text": "She decided to change her hair color.",
+						"viText": "Cô ấy quyết định thay đổi màu tóc của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "change your mind",
+						"meaning": "To decide to do something different",
+						"viMeaning": "thay đổi ý định",
+						"example": "He was going to go out, but he changed his mind.",
+						"viExample": "Anh ấy định ra ngoài, nhưng rồi lại thay đổi ý định."
+					},
+					{
+						"phrase": "change planes",
+						"meaning": "To get off one plane and get on another",
+						"viMeaning": "đổi máy bay",
+						"example": "We have to change planes in Dubai.",
+						"viExample": "Chúng tôi phải đổi máy bay tại Dubai."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "problem",
+		"pos": "noun",
+		"ipa": "/ˈprɒbləm/",
+		"cefrLevel": "A2",
+		"frequency": 1015,
+		"isCommon": true,
+		"wordForms": [{ "form": "problematic", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A situation that is difficult to deal with",
+				"viDef": "vấn đề, khó khăn",
+				"synonyms": ["issue", "difficulty"],
+				"antonyms": ["solution"],
+				"examples": [
+					{
+						"text": "I am having a problem with my laptop.",
+						"viText": "Tôi đang gặp vấn đề với máy tính xách tay của mình."
+					},
+					{
+						"text": "No problem! I can help you with that.",
+						"viText": "Không vấn đề gì! Tôi có thể giúp bạn việc đó."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "solve a problem",
+						"meaning": "To find an answer to a difficulty",
+						"viMeaning": "giải quyết vấn đề",
+						"example": "We need to solve this problem quickly.",
+						"viExample": "Chúng ta cần giải quyết vấn đề này thật nhanh."
+					},
+					{
+						"phrase": "health problem",
+						"meaning": "An illness or physical difficulty",
+						"viMeaning": "vấn đề sức khỏe",
+						"example": "Smoking can cause many health problems.",
+						"viExample": "Hút thuốc có thể gây ra nhiều vấn đề sức khỏe."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "solution",
+		"pos": "noun",
+		"ipa": "/səˈluːʃn/",
+		"cefrLevel": "A2",
+		"frequency": 1900,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "solve", "pos": "verb" },
+			{ "form": "soluble", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A way of solving a problem or difficult situation",
+				"viDef": "giải pháp",
+				"synonyms": ["answer", "remedy"],
+				"antonyms": ["problem"],
+				"examples": [
+					{
+						"text": "There is no easy solution to this conflict.",
+						"viText": "Không có giải pháp dễ dàng nào cho cuộc xung đột này."
+					},
+					{
+						"text": "We are still looking for a better solution.",
+						"viText": "Chúng tôi vẫn đang tìm kiếm một giải pháp tốt hơn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "find a solution",
+						"meaning": "To discover a way to fix a problem",
+						"viMeaning": "tìm ra giải pháp",
+						"example": "I hope we can find a solution soon.",
+						"viExample": "Tôi hy vọng chúng ta có thể sớm tìm ra giải pháp."
+					},
+					{
+						"phrase": "perfect solution",
+						"meaning": "The best possible way to fix something",
+						"viMeaning": "giải pháp hoàn hảo",
+						"example": "This tool is the perfect solution for your work.",
+						"viExample": "Công cụ này là giải pháp hoàn hảo cho công việc của bạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "careful",
+		"pos": "adjective",
+		"ipa": "/ˈkeəfl/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "care", "pos": "noun" },
+			{ "form": "carefully", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Giving attention to what you are doing to avoid danger",
+				"viDef": "cẩn thận",
+				"synonyms": ["cautious", "attentive"],
+				"antonyms": ["careless"],
+				"examples": [
+					{
+						"text": "Be careful when you cross the busy street.",
+						"viText": "Hãy cẩn thận khi bạn băng qua đường đông đúc."
+					},
+					{
+						"text": "You should be more careful with your money.",
+						"viText": "Bạn nên cẩn thận hơn với tiền bạc của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "careful consideration",
+						"meaning": "Thinking about something very deeply",
+						"viMeaning": "cân nhắc kỹ lưỡng",
+						"example": "The plan needs careful consideration.",
+						"viExample": "Kế hoạch này cần được cân nhắc kỹ lưỡng."
+					},
+					{
+						"phrase": "be careful about",
+						"meaning": "To act with caution regarding something",
+						"viMeaning": "cẩn thận về",
+						"example": "He is very careful about what he eats.",
+						"viExample": "Anh ấy rất cẩn thận về những gì mình ăn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "excited",
+		"pos": "adjective",
+		"ipa": "/ɪkˈsaɪtɪd/",
+		"cefrLevel": "A2",
+		"frequency": 1250,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "excite", "pos": "verb" },
+			{ "form": "excitement", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Feeling very happy and enthusiastic",
+				"viDef": "hào hứng, phấn khích",
+				"synonyms": ["thrilled", "eager"],
+				"antonyms": ["bored", "calm"],
+				"examples": [
+					{
+						"text": "I am so excited about our holiday next week!",
+						"viText": "Tôi rất hào hứng về kỳ nghỉ của chúng ta vào tuần tới!"
+					},
+					{
+						"text": "The children were excited to see the presents.",
+						"viText": "Lũ trẻ đã rất phấn khích khi thấy những món quà."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "excited about",
+						"meaning": "Feeling happy regarding a future event",
+						"viMeaning": "hào hứng về",
+						"example": "Are you excited about your new job?",
+						"viExample": "Bạn có hào hứng với công việc mới của mình không?"
+					},
+					{
+						"phrase": "get excited",
+						"meaning": "To start feeling very enthusiastic",
+						"viMeaning": "trở nên phấn khích",
+						"example": "Don't get too excited before the news is official.",
+						"viExample": "Đừng quá phấn khích trước khi tin tức được chính thức."
+					}
+				]
+			}
+		]
+	}
+]

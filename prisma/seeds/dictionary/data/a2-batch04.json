@@ -1,0 +1,864 @@
+[
+	{
+		"headword": "prepare",
+		"pos": "verb",
+		"ipa": "/prɪˈpeə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1300,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "preparation", "pos": "noun" },
+			{ "form": "prepared", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To get something ready for use or for an event",
+				"viDef": "chuẩn bị",
+				"synonyms": ["arrange", "organize"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I need to prepare for my English exam tomorrow.",
+						"viText": "Tôi cần chuẩn bị cho kỳ thi tiếng Anh vào ngày mai."
+					},
+					{
+						"text": "She is preparing dinner for the whole family.",
+						"viText": "Cô ấy đang chuẩn bị bữa tối cho cả gia đình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "prepare for",
+						"meaning": "To get ready for a specific event or task",
+						"viMeaning": "chuẩn bị cho",
+						"example": "How do you prepare for a job interview?",
+						"viExample": "Bạn chuẩn bị cho một buổi phỏng vấn xin việc như thế nào?"
+					},
+					{
+						"phrase": "prepare a meal",
+						"meaning": "To cook or get food ready to eat",
+						"viMeaning": "chuẩn bị bữa ăn",
+						"example": "It takes an hour to prepare this meal.",
+						"viExample": "Mất một giờ để chuẩn bị bữa ăn này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "practice",
+		"pos": "verb",
+		"ipa": "/ˈpræktɪs/",
+		"cefrLevel": "A2",
+		"frequency": 1450,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "practical", "pos": "adjective" },
+			{ "form": "practically", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To do something regularly to become better at it",
+				"viDef": "luyện tập, thực hành",
+				"synonyms": ["exercise", "rehearse"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "You should practice speaking English every day.",
+						"viText": "Bạn nên luyện tập nói tiếng Anh mỗi ngày."
+					},
+					{
+						"text": "I practice the piano for two hours each evening.",
+						"viText": "Tôi luyện tập đàn piano hai tiếng mỗi tối."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "daily practice",
+						"meaning": "The act of practicing every day",
+						"viMeaning": "luyện tập hàng ngày",
+						"example": "Daily practice is key to learning a language.",
+						"viExample": "Luyện tập hàng ngày là chìa khóa để học một ngôn ngữ."
+					},
+					{
+						"phrase": "put into practice",
+						"meaning": "To use an idea or skill in a real situation",
+						"viMeaning": "đưa vào thực tế",
+						"example": "I want to put my coding skills into practice.",
+						"viExample": "Tôi muốn đưa kỹ năng lập trình của mình vào thực tế."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "finish",
+		"pos": "verb",
+		"ipa": "/ˈfɪnɪʃ/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "finished", "pos": "adjective" },
+			{ "form": "finisher", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To complete something or reach the end of it",
+				"viDef": "hoàn thành, kết thúc",
+				"synonyms": ["complete", "end"],
+				"antonyms": ["start", "begin"],
+				"examples": [
+					{
+						"text": "I usually finish work at 5 PM.",
+						"viText": "Tôi thường kết thúc công việc lúc 5 giờ chiều."
+					},
+					{ "text": "Did you finish reading that book yet?", "viText": "Bạn đã đọc xong cuốn sách đó chưa?" }
+				],
+				"collocations": [
+					{
+						"phrase": "finish line",
+						"meaning": "The line that marks the end of a race",
+						"viMeaning": "vạch đích",
+						"example": "The runner crossed the finish line first.",
+						"viExample": "Vận động viên chạy bộ đã băng qua vạch đích đầu tiên."
+					},
+					{
+						"phrase": "just finish",
+						"meaning": "To have completed something very recently",
+						"viMeaning": "vừa mới xong",
+						"example": "I just finished my homework.",
+						"viExample": "Tôi vừa mới làm xong bài tập về nhà."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "wait",
+		"pos": "verb",
+		"ipa": "/weɪt/",
+		"cefrLevel": "A2",
+		"frequency": 1080,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "waiter", "pos": "noun" },
+			{ "form": "waiting", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To stay in a place until something happens",
+				"viDef": "chờ đợi",
+				"synonyms": ["stay", "remain"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "We are waiting for the bus.", "viText": "Chúng tôi đang chờ xe buýt." },
+					{ "text": "Wait a minute, I forgot my keys!", "viText": "Chờ một chút, tôi quên chìa khóa rồi!" }
+				],
+				"collocations": [
+					{
+						"phrase": "waiting room",
+						"meaning": "A room where people sit while waiting for someone",
+						"viMeaning": "phòng chờ",
+						"example": "The hospital waiting room was very crowded.",
+						"viExample": "Phòng chờ của bệnh viện rất đông đúc."
+					},
+					{
+						"phrase": "wait in line",
+						"meaning": "To stand in a queue for your turn",
+						"viMeaning": "xếp hàng chờ",
+						"example": "We had to wait in line for thirty minutes.",
+						"viExample": "Chúng tôi đã phải xếp hàng chờ trong ba mươi phút."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "watch",
+		"pos": "verb",
+		"ipa": "/wɒtʃ/",
+		"cefrLevel": "A2",
+		"frequency": 1120,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "watchful", "pos": "adjective" },
+			{ "form": "watcher", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To look at something for a period of time",
+				"viDef": "xem, quan sát",
+				"synonyms": ["observe", "view"],
+				"antonyms": ["ignore"],
+				"examples": [
+					{
+						"text": "Do you want to watch a movie tonight?",
+						"viText": "Bạn có muốn xem phim tối nay không?"
+					},
+					{
+						"text": "I like to watch the birds in the park.",
+						"viText": "Tôi thích ngắm nhìn những chú chim trong công viên."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "watch TV",
+						"meaning": "To look at programs on a television",
+						"viMeaning": "xem tivi",
+						"example": "He spends too much time watching TV.",
+						"viExample": "Anh ấy dành quá nhiều thời gian để xem tivi."
+					},
+					{
+						"phrase": "watch out",
+						"meaning": "Used to warn someone of danger",
+						"viMeaning": "cẩn thận, coi chừng",
+						"example": "Watch out! There is a car coming.",
+						"viExample": "Coi chừng! Có một chiếc xe đang đi tới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "hear",
+		"pos": "verb",
+		"ipa": "/hɪə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [{ "form": "hearing", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To receive sound through your ears",
+				"viDef": "nghe",
+				"synonyms": ["listen"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I can hear the music from next door.",
+						"viText": "Tôi có thể nghe thấy tiếng nhạc từ nhà bên cạnh."
+					},
+					{ "text": "Did you hear what he said?", "viText": "Bạn có nghe thấy anh ấy nói gì không?" }
+				],
+				"collocations": [
+					{
+						"phrase": "hear from",
+						"meaning": "To receive a letter or call from someone",
+						"viMeaning": "nhận tin từ",
+						"example": "I hope to hear from you soon.",
+						"viExample": "Tôi hy vọng sớm nhận được tin từ bạn."
+					},
+					{
+						"phrase": "hard of hearing",
+						"meaning": "Unable to hear very well",
+						"viMeaning": "nặng tai",
+						"example": "My grandfather is getting hard of hearing.",
+						"viExample": "Ông tôi đang bắt đầu bị nặng tai."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "feel",
+		"pos": "verb",
+		"ipa": "/fiːl/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [{ "form": "feeling", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To experience an emotion or physical sensation",
+				"viDef": "cảm thấy",
+				"synonyms": ["experience", "sense"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "I feel very happy today.", "viText": "Hôm nay tôi cảm thấy rất hạnh phúc." },
+					{ "text": "Do you feel the cold wind?", "viText": "Bạn có cảm thấy gió lạnh không?" }
+				],
+				"collocations": [
+					{
+						"phrase": "feel like",
+						"meaning": "To want to do or have something",
+						"viMeaning": "muốn, cảm thấy thích",
+						"example": "I feel like eating pizza tonight.",
+						"viExample": "Tôi cảm thấy thích ăn pizza tối nay."
+					},
+					{
+						"phrase": "feel better",
+						"meaning": "To recover from being sick or sad",
+						"viMeaning": "cảm thấy tốt hơn",
+						"example": "I hope you feel better soon.",
+						"viExample": "Tôi hy vọng bạn sớm cảm thấy tốt hơn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "become",
+		"pos": "verb",
+		"ipa": "/bɪˈkʌm/",
+		"cefrLevel": "A2",
+		"frequency": 1040,
+		"isCommon": true,
+		"wordForms": [{ "form": "becoming", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To begin to be something or change into something",
+				"viDef": "trở thành, trở nên",
+				"synonyms": ["grow", "turn into"],
+				"antonyms": ["remain"],
+				"examples": [
+					{
+						"text": "He wants to become a famous doctor.",
+						"viText": "Anh ấy muốn trở thành một bác sĩ nổi tiếng."
+					},
+					{
+						"text": "The weather became very cold in the evening.",
+						"viText": "Thời tiết trở nên rất lạnh vào buổi tối."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "become aware",
+						"meaning": "To start to know or notice something",
+						"viMeaning": "nhận thức được",
+						"example": "I slowly became aware of the problem.",
+						"viExample": "Tôi dần dần nhận thức được vấn đề."
+					},
+					{
+						"phrase": "become popular",
+						"meaning": "To start being liked by many people",
+						"viMeaning": "trở nên phổ biến",
+						"example": "This song has become very popular.",
+						"viExample": "Bài hát này đã trở nên rất phổ biến."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "happen",
+		"pos": "verb",
+		"ipa": "/ˈhæpən/",
+		"cefrLevel": "A2",
+		"frequency": 1180,
+		"isCommon": true,
+		"wordForms": [{ "form": "happening", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To take place, especially without being planned",
+				"viDef": "xảy ra",
+				"synonyms": ["occur", "take place"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "What happened to your arm?", "viText": "Chuyện gì đã xảy ra với cánh tay của bạn vậy?" },
+					{ "text": "Accidents can happen at any time.", "viText": "Tai nạn có thể xảy ra bất cứ lúc nào." }
+				],
+				"collocations": [
+					{
+						"phrase": "happen to",
+						"meaning": "To occur to a person or thing",
+						"viMeaning": "xảy ra với",
+						"example": "I don't know what happened to my phone.",
+						"viExample": "Tôi không biết chuyện gì đã xảy ra với điện thoại của mình."
+					},
+					{
+						"phrase": "as it happens",
+						"meaning": "Used to introduce a surprising fact",
+						"viMeaning": "tình cờ là",
+						"example": "As it happens, I have a spare key.",
+						"viExample": "Tình cờ là tôi có một chiếc chìa khóa dự phòng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "stay",
+		"pos": "verb",
+		"ipa": "/steɪ/",
+		"cefrLevel": "A2",
+		"frequency": 1200,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To continue to be in a place or state",
+				"viDef": "ở lại, duy trì",
+				"synonyms": ["remain", "wait"],
+				"antonyms": ["leave", "depart"],
+				"examples": [
+					{
+						"text": "We stayed at a hotel near the airport.",
+						"viText": "Chúng tôi đã ở tại một khách sạn gần sân bay."
+					},
+					{
+						"text": "Please stay here until I return.",
+						"viText": "Làm ơn hãy ở đây cho đến khi tôi quay lại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "stay healthy",
+						"meaning": "To maintain good physical condition",
+						"viMeaning": "giữ gìn sức khỏe",
+						"example": "Eating fruit helps you stay healthy.",
+						"viExample": "Ăn trái cây giúp bạn giữ gìn sức khỏe."
+					},
+					{
+						"phrase": "stay in touch",
+						"meaning": "To continue to communicate with someone",
+						"viMeaning": "giữ liên lạc",
+						"example": "Let's stay in touch after the course.",
+						"viExample": "Hãy giữ liên lạc sau khóa học nhé."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "leave",
+		"pos": "verb",
+		"ipa": "/liːv/",
+		"cefrLevel": "A2",
+		"frequency": 1030,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To go away from a place or person",
+				"viDef": "rời đi, bỏ lại",
+				"synonyms": ["depart", "quit"],
+				"antonyms": ["arrive", "stay"],
+				"examples": [
+					{ "text": "The train leaves at 9 AM.", "viText": "Chuyến tàu rời đi lúc 9 giờ sáng." },
+					{
+						"text": "Don't leave your umbrella on the bus.",
+						"viText": "Đừng để quên ô của bạn trên xe buýt."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "leave home",
+						"meaning": "To go out of your house",
+						"viMeaning": "rời khỏi nhà",
+						"example": "I usually leave home at 7:30.",
+						"viExample": "Tôi thường rời khỏi nhà lúc 7:30."
+					},
+					{
+						"phrase": "leave a message",
+						"meaning": "To give information for someone later",
+						"viMeaning": "để lại lời nhắn",
+						"example": "Can I leave a message for Mr. Tan?",
+						"viExample": "Tôi có thể để lại lời nhắn cho ông Tân được không?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "return",
+		"pos": "verb",
+		"ipa": "/rɪˈtɜːn/",
+		"cefrLevel": "A2",
+		"frequency": 1550,
+		"isCommon": true,
+		"wordForms": [{ "form": "returnable", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To come or go back to a place",
+				"viDef": "trở lại, quay lại",
+				"synonyms": ["go back", "come back"],
+				"antonyms": ["leave", "depart"],
+				"examples": [
+					{
+						"text": "He will return from his trip tomorrow.",
+						"viText": "Anh ấy sẽ trở về sau chuyến đi vào ngày mai."
+					},
+					{
+						"text": "I need to return this book to the library.",
+						"viText": "Tôi cần trả lại cuốn sách này cho thư viện."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "return home",
+						"meaning": "To go back to the place where you live",
+						"viMeaning": "trở về nhà",
+						"example": "What time did you return home last night?",
+						"viExample": "Tối qua bạn trở về nhà lúc mấy giờ?"
+					},
+					{
+						"phrase": "return ticket",
+						"meaning": "A ticket for a journey there and back",
+						"viMeaning": "vé khứ hồi",
+						"example": "A return ticket is cheaper than two singles.",
+						"viExample": "Một chiếc vé khứ hồi rẻ hơn hai chiếc vé một chiều."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "arrive",
+		"pos": "verb",
+		"ipa": "/əˈraɪv/",
+		"cefrLevel": "A2",
+		"frequency": 1400,
+		"isCommon": true,
+		"wordForms": [{ "form": "arrival", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To reach a place at the end of a journey",
+				"viDef": "đến nơi",
+				"synonyms": ["reach", "show up"],
+				"antonyms": ["leave", "depart"],
+				"examples": [
+					{ "text": "The plane arrived two hours late.", "viText": "Máy bay đã đến muộn hai giờ." },
+					{ "text": "What time does the bus arrive in Da Lat?", "viText": "Mấy giờ xe buýt đến Đà Lạt?" }
+				],
+				"collocations": [
+					{
+						"phrase": "arrive at",
+						"meaning": "To reach a specific place like a building",
+						"viMeaning": "đến (địa điểm nhỏ)",
+						"example": "We arrived at the hotel at midnight.",
+						"viExample": "Chúng tôi đã đến khách sạn lúc nửa đêm."
+					},
+					{
+						"phrase": "arrive in",
+						"meaning": "To reach a city or a country",
+						"viMeaning": "đến (thành phố/quốc gia)",
+						"example": "They arrived in Hanoi yesterday.",
+						"viExample": "Họ đã đến Hà Nội vào ngày hôm qua."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "meet",
+		"pos": "verb",
+		"ipa": "/miːt/",
+		"cefrLevel": "A2",
+		"frequency": 1025,
+		"isCommon": true,
+		"wordForms": [{ "form": "meeting", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To see and talk to someone for the first time",
+				"viDef": "gặp gỡ, làm quen",
+				"synonyms": ["encounter"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "Nice to meet you!", "viText": "Rất vui được gặp bạn!" },
+					{
+						"text": "We met at a party three years ago.",
+						"viText": "Chúng tôi đã gặp nhau tại một bữa tiệc ba năm trước."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "meet a friend",
+						"meaning": "To see someone you know to spend time together",
+						"viMeaning": "gặp bạn bè",
+						"example": "I'm meeting a friend for coffee later.",
+						"viExample": "Lát nữa tôi sẽ gặp một người bạn để uống cà phê."
+					},
+					{
+						"phrase": "meet the needs",
+						"meaning": "To provide what is necessary",
+						"viMeaning": "đáp ứng nhu cầu",
+						"example": "The new plan will meet the needs of everyone.",
+						"viExample": "Kế hoạch mới sẽ đáp ứng nhu cầu của mọi người."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "invite",
+		"pos": "verb",
+		"ipa": "/ɪnˈvaɪt/",
+		"cefrLevel": "A2",
+		"frequency": 1900,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "invitation", "pos": "noun" },
+			{ "form": "inviting", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To ask someone to come to a social event",
+				"viDef": "mời",
+				"synonyms": ["request", "ask"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "They invited us to their wedding.",
+						"viText": "Họ đã mời chúng tôi đến đám cưới của họ."
+					},
+					{
+						"text": "I want to invite all my friends to the party.",
+						"viText": "Tôi muốn mời tất cả bạn bè của mình đến bữa tiệc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "invite for",
+						"meaning": "To ask someone for a specific activity",
+						"viMeaning": "mời làm gì",
+						"example": "He invited her for dinner on Friday.",
+						"viExample": "Anh ấy đã mời cô ấy ăn tối vào thứ Sáu."
+					},
+					{
+						"phrase": "kindly invite",
+						"meaning": "To ask someone in a polite way",
+						"viMeaning": "trân trọng kính mời",
+						"example": "We kindly invite you to our annual meeting.",
+						"viExample": "Chúng tôi trân trọng kính mời bạn đến buổi họp hàng năm của chúng tôi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "visit",
+		"pos": "verb",
+		"ipa": "/ˈvɪzɪt/",
+		"cefrLevel": "A2",
+		"frequency": 1250,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "visitor", "pos": "noun" },
+			{ "form": "visiting", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To go to see a person or a place",
+				"viDef": "thăm, ghé thăm",
+				"synonyms": ["call on", "drop by"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I am going to visit my grandparents this weekend.",
+						"viText": "Tôi định đi thăm ông bà vào cuối tuần này."
+					},
+					{
+						"text": "Many tourists visit the old town every year.",
+						"viText": "Nhiều khách du lịch ghé thăm phố cổ mỗi năm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "visit a doctor",
+						"meaning": "To see a medical professional for treatment",
+						"viMeaning": "đi khám bác sĩ",
+						"example": "You should visit a doctor if the cough continues.",
+						"viExample": "Bạn nên đi khám bác sĩ nếu cơn ho vẫn tiếp tục."
+					},
+					{
+						"phrase": "official visit",
+						"meaning": "A formal trip by an important person",
+						"viMeaning": "chuyến thăm chính thức",
+						"example": "The president made an official visit to France.",
+						"viExample": "Tổng thống đã có một chuyến thăm chính thức tới Pháp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "call",
+		"pos": "verb",
+		"ipa": "/kɔːl/",
+		"cefrLevel": "A2",
+		"frequency": 1015,
+		"isCommon": true,
+		"wordForms": [{ "form": "caller", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To phone someone or to shout to get attention",
+				"viDef": "gọi điện, gọi tên",
+				"synonyms": ["phone", "shout"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "I'll call you when I get home.", "viText": "Tôi sẽ gọi cho bạn khi tôi về đến nhà." },
+					{
+						"text": "He called my name from across the street.",
+						"viText": "Anh ấy gọi tên tôi từ bên kia đường."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "call back",
+						"meaning": "To phone someone again later",
+						"viMeaning": "gọi lại",
+						"example": "I'm busy now, can I call you back later?",
+						"viExample": "Bây giờ tôi đang bận, tôi có thể gọi lại cho bạn sau không?"
+					},
+					{
+						"phrase": "phone call",
+						"meaning": "An instance of speaking to someone on the phone",
+						"viMeaning": "cuộc điện thoại",
+						"example": "I missed an important phone call this morning.",
+						"viExample": "Tôi đã lỡ một cuộc điện thoại quan trọng sáng nay."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "send",
+		"pos": "verb",
+		"ipa": "/send/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [{ "form": "sender", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To cause something to go to another place",
+				"viDef": "gửi",
+				"synonyms": ["dispatch", "mail"],
+				"antonyms": ["receive", "get"],
+				"examples": [
+					{
+						"text": "I will send you an email with the details.",
+						"viText": "Tôi sẽ gửi cho bạn một email với các chi tiết."
+					},
+					{
+						"text": "Don't forget to send a postcard to your parents.",
+						"viText": "Đừng quên gửi một tấm bưu thiếp cho bố mẹ bạn nhé."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "send a message",
+						"meaning": "To give information via text or internet",
+						"viMeaning": "gửi tin nhắn",
+						"example": "He sent a message to say he was late.",
+						"viExample": "Anh ấy đã gửi một tin nhắn để nói rằng mình đến muộn."
+					},
+					{
+						"phrase": "send money",
+						"meaning": "To transfer funds to another person",
+						"viMeaning": "gửi tiền",
+						"example": "She sends money to her family every month.",
+						"viExample": "Cô ấy gửi tiền cho gia đình mỗi tháng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "receive",
+		"pos": "verb",
+		"ipa": "/rɪˈsiːv/",
+		"cefrLevel": "A2",
+		"frequency": 1350,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "receiver", "pos": "noun" },
+			{ "form": "reception", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To get something that is sent or given to you",
+				"viDef": "nhận",
+				"synonyms": ["get", "obtain"],
+				"antonyms": ["send", "give"],
+				"examples": [
+					{
+						"text": "I received many gifts on my birthday.",
+						"viText": "Tôi đã nhận được nhiều món quà vào ngày sinh nhật của mình."
+					},
+					{
+						"text": "Did you receive my email yesterday?",
+						"viText": "Bạn có nhận được email của tôi ngày hôm qua không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "receive treatment",
+						"meaning": "To be given medical care",
+						"viMeaning": "nhận điều trị",
+						"example": "He is receiving treatment for a back injury.",
+						"viExample": "Anh ấy đang nhận điều trị cho một chấn thương lưng."
+					},
+					{
+						"phrase": "receive an award",
+						"meaning": "To be given a prize for something good",
+						"viMeaning": "nhận giải thưởng",
+						"example": "The actress received an award for her performance.",
+						"viExample": "Nữ diễn viên đã nhận được một giải thưởng cho màn trình diễn của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "map",
+		"pos": "noun",
+		"ipa": "/mæp/",
+		"cefrLevel": "A2",
+		"frequency": 1700,
+		"isCommon": true,
+		"wordForms": [{ "form": "mapping", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A drawing that shows where places are",
+				"viDef": "bản đồ",
+				"synonyms": ["chart", "plan"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "I used a map to find the museum.", "viText": "Tôi đã sử dụng bản đồ để tìm bảo tàng." },
+					{
+						"text": "There is a map of the city on the wall.",
+						"viText": "Có một tấm bản đồ thành phố trên tường."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "google maps",
+						"meaning": "A popular digital map service",
+						"viMeaning": "ứng dụng bản đồ Google",
+						"example": "I always use Google Maps when I drive.",
+						"viExample": "Tôi luôn sử dụng Google Maps khi lái xe."
+					},
+					{
+						"phrase": "read a map",
+						"meaning": "To understand the information on a map",
+						"viMeaning": "xem bản đồ",
+						"example": "It is an important skill to know how to read a map.",
+						"viExample": "Biết cách xem bản đồ là một kỹ năng quan trọng."
+					}
+				]
+			}
+		]
+	}
+]

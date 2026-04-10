@@ -1,0 +1,901 @@
+[
+	{
+		"headword": "colour",
+		"pos": "noun",
+		"ipa": "/ˈkʌlə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "colourful", "pos": "adjective" },
+			{ "form": "colourless", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Red, blue, green, yellow, etc.",
+				"viDef": "màu sắc",
+				"synonyms": ["shade", "hue", "tint"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "What is your favorite colour?", "viText": "Màu sắc yêu thích của bạn là gì?" },
+					{
+						"text": "The walls are painted in a light colour.",
+						"viText": "Những bức tường được sơn màu sáng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "bright colour",
+						"meaning": "A strong and easily noticed colour",
+						"viMeaning": "màu sắc tươi sáng",
+						"example": "She likes wearing bright colours like red and orange.",
+						"viExample": "Cô ấy thích mặc những màu sắc tươi sáng như đỏ và cam."
+					},
+					{
+						"phrase": "change colour",
+						"meaning": "To become a different colour",
+						"viMeaning": "đổi màu",
+						"example": "The leaves change colour in the autumn.",
+						"viExample": "Lá cây đổi màu vào mùa thu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "design",
+		"pos": "noun",
+		"ipa": "/dɪˈzaɪn/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "design", "pos": "verb" },
+			{ "form": "designer", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A drawing or plan of something before it is made",
+				"viDef": "thiết kế, kiểu dáng",
+				"synonyms": ["plan", "pattern", "style"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I really like the design of this new car.",
+						"viText": "Tôi rất thích thiết kế của chiếc xe mới này."
+					},
+					{
+						"text": "She is studying fashion design in London.",
+						"viText": "Cô ấy đang học thiết kế thời trang ở Luân Đôn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "graphic design",
+						"meaning": "The art of combining text and pictures in advertisements",
+						"viMeaning": "thiết kế đồ họa",
+						"example": "He works in graphic design for a magazine.",
+						"viExample": "Anh ấy làm việc trong lĩnh vực thiết kế đồ họa cho một tạp chí."
+					},
+					{
+						"phrase": "modern design",
+						"meaning": "A style that is current and new",
+						"viMeaning": "thiết kế hiện đại",
+						"example": "The hotel features a very sleek modern design.",
+						"viExample": "Khách sạn có thiết kế hiện đại rất mượt mà."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "style",
+		"pos": "noun",
+		"ipa": "/staɪl/",
+		"cefrLevel": "A2",
+		"frequency": 1200,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "stylish", "pos": "adjective" },
+			{ "form": "stylist", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A particular way of doing, making, or saying something",
+				"viDef": "phong cách, kiểu",
+				"synonyms": ["fashion", "manner", "type"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "I like your hair style today.", "viText": "Tôi thích kiểu tóc của bạn hôm nay." },
+					{
+						"text": "Her style of painting is very unique.",
+						"viText": "Phong cách vẽ tranh của cô ấy rất độc đáo."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "life style",
+						"meaning": "The way in which a person lives",
+						"viMeaning": "lối sống",
+						"example": "Exercise is part of a healthy life style.",
+						"viExample": "Tập thể dục là một phần của lối sống lành mạnh."
+					},
+					{
+						"phrase": "in style",
+						"meaning": "Fashionable at a particular time",
+						"viMeaning": "hợp thời trang",
+						"example": "Short skirts are in style this summer.",
+						"viExample": "Váy ngắn đang hợp mốt vào mùa hè này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "fashion",
+		"pos": "noun",
+		"ipa": "/ˈfæʃn/",
+		"cefrLevel": "A2",
+		"frequency": 1400,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "fashionable", "pos": "adjective" },
+			{ "form": "fashionably", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A popular style of clothes, hair, or behavior",
+				"viDef": "thời trang",
+				"synonyms": ["trend", "vogue"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She is very interested in Italian fashion.",
+						"viText": "Cô ấy rất quan tâm đến thời trang Ý."
+					},
+					{
+						"text": "Trends in fashion change every year.",
+						"viText": "Xu hướng thời trang thay đổi mỗi năm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fashion show",
+						"meaning": "An event where models wear new clothes",
+						"viMeaning": "buổi trình diễn thời trang",
+						"example": "We went to a fashion show last night.",
+						"viExample": "Chúng tôi đã đi xem một buổi trình diễn thời trang tối qua."
+					},
+					{
+						"phrase": "out of fashion",
+						"meaning": "No longer popular or trendy",
+						"viMeaning": "lỗi mốt",
+						"example": "Those boots are out of fashion now.",
+						"viExample": "Đôi bốt đó giờ đã lỗi mốt rồi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "clothing",
+		"pos": "noun",
+		"ipa": "/ˈkləʊðɪŋ/",
+		"cefrLevel": "A2",
+		"frequency": 1300,
+		"isCommon": true,
+		"wordForms": [{ "form": "clothes", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Things that you wear, such as shirts and trousers",
+				"viDef": "quần áo, y phục",
+				"synonyms": ["apparel", "garments", "wear"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "You should wear warm clothing in the winter.",
+						"viText": "Bạn nên mặc quần áo ấm vào mùa đông."
+					},
+					{ "text": "The shop sells baby clothing.", "viText": "Cửa hàng bán quần áo trẻ em." }
+				],
+				"collocations": [
+					{
+						"phrase": "protective clothing",
+						"meaning": "Clothes that keep you safe from danger",
+						"viMeaning": "quần áo bảo hộ",
+						"example": "Workers must wear protective clothing on site.",
+						"viExample": "Công nhân phải mặc quần áo bảo hộ tại công trường."
+					},
+					{
+						"phrase": "casual clothing",
+						"meaning": "Clothes worn for informal occasions",
+						"viMeaning": "quần áo thường ngày",
+						"example": "I prefer casual clothing like jeans and T-shirts.",
+						"viExample": "Tôi thích quần áo thường ngày như quần jean và áo thun."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "material",
+		"pos": "noun",
+		"ipa": "/məˈtɪəriəl/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [{ "form": "materialistic", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Physical substance used to make things like clothes",
+				"viDef": "chất liệu, vật liệu",
+				"synonyms": ["fabric", "substance", "cloth"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "Cotton is a natural material.", "viText": "Bông là một chất liệu tự nhiên." },
+					{
+						"text": "What material is this dress made of?",
+						"viText": "Chiếc váy này được làm từ chất liệu gì?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "raw material",
+						"meaning": "Basic substance used to produce goods",
+						"viMeaning": "nguyên liệu thô",
+						"example": "Oil is an important raw material for many industries.",
+						"viExample": "Dầu mỏ là một nguyên liệu thô quan trọng cho nhiều ngành công nghiệp."
+					},
+					{
+						"phrase": "reading material",
+						"meaning": "Books, magazines, or newspapers for reading",
+						"viMeaning": "tài liệu đọc",
+						"example": "I brought some reading material for the flight.",
+						"viExample": "Tôi đã mang theo một ít tài liệu để đọc trên chuyến bay."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "size",
+		"pos": "noun",
+		"ipa": "/saɪz/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [{ "form": "sizeable", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "How big or small something is",
+				"viDef": "kích cỡ",
+				"synonyms": ["dimension", "magnitude"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "What size shoes do you wear?", "viText": "Bạn đi giày cỡ bao nhiêu?" },
+					{
+						"text": "The apartment is small in size but very cozy.",
+						"viText": "Căn hộ có kích thước nhỏ nhưng rất ấm cúng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "medium size",
+						"meaning": "Neither large nor small",
+						"viMeaning": "kích cỡ trung bình",
+						"example": "I'll take the medium size, please.",
+						"viExample": "Làm ơn cho tôi lấy kích cỡ trung bình."
+					},
+					{
+						"phrase": "full size",
+						"meaning": "The largest or standard size of something",
+						"viMeaning": "kích thước đầy đủ",
+						"example": "The map is shown in full size on this page.",
+						"viExample": "Bản đồ được hiển thị ở kích thước đầy đủ trên trang này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "shape",
+		"pos": "noun",
+		"ipa": "/ʃeɪp/",
+		"cefrLevel": "A2",
+		"frequency": 1250,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "shapeless", "pos": "adjective" },
+			{ "form": "shaping", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The physical form or outline of something",
+				"viDef": "hình dạng",
+				"synonyms": ["form", "figure", "outline"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "The table has a round shape.", "viText": "Chiếc bàn có hình tròn." },
+					{
+						"text": "I can see the shape of a house in the distance.",
+						"viText": "Tôi có thể thấy hình dáng một ngôi nhà ở đằng xa."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "in good shape",
+						"meaning": "Being healthy or in good condition",
+						"viMeaning": "có phong độ/tình trạng tốt",
+						"example": "He exercises every day to stay in good shape.",
+						"viExample": "Anh ấy tập thể dục mỗi ngày để giữ vóc dáng tốt."
+					},
+					{
+						"phrase": "different shapes",
+						"meaning": "Various forms of objects",
+						"viMeaning": "nhiều hình dạng khác nhau",
+						"example": "The cookies come in many different shapes.",
+						"viExample": "Bánh quy có nhiều hình dạng khác nhau."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "pattern",
+		"pos": "noun",
+		"ipa": "/ˈpætən/",
+		"cefrLevel": "A2",
+		"frequency": 1600,
+		"isCommon": true,
+		"wordForms": [{ "form": "patterned", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A repeated decorative design on a surface",
+				"viDef": "họa tiết, hoa văn",
+				"synonyms": ["design", "motif", "arrangement"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I like the flower pattern on your shirt.",
+						"viText": "Tôi thích họa tiết hoa trên áo của bạn."
+					},
+					{
+						"text": "The wallpaper has a geometric pattern.",
+						"viText": "Giấy dán tường có họa tiết hình học."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "behavior pattern",
+						"meaning": "The usual way someone acts in a situation",
+						"viMeaning": "mô hình hành vi",
+						"example": "Scientists study the behavior patterns of birds.",
+						"viExample": "Các nhà khoa học nghiên cứu mô hình hành vi của các loài chim."
+					},
+					{
+						"phrase": "weather pattern",
+						"meaning": "The regular way weather changes in an area",
+						"viMeaning": "quy luật thời tiết",
+						"example": "The weather patterns are changing due to global warming.",
+						"viExample": "Quy luật thời tiết đang thay đổi do nóng lên toàn cầu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "modern",
+		"pos": "adjective",
+		"ipa": "/ˈmɒdn/",
+		"cefrLevel": "A2",
+		"frequency": 1080,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "modernize", "pos": "verb" },
+			{ "form": "modernity", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the present or recent times",
+				"viDef": "hiện đại",
+				"synonyms": ["contemporary", "current", "new"],
+				"antonyms": ["ancient", "traditional", "old"],
+				"examples": [
+					{
+						"text": "We live in a very modern house.",
+						"viText": "Chúng tôi sống trong một ngôi nhà rất hiện đại."
+					},
+					{
+						"text": "Modern technology makes our lives much easier.",
+						"viText": "Công nghệ hiện đại làm cho cuộc sống của chúng ta dễ dàng hơn nhiều."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "modern art",
+						"meaning": "Art from the late 19th century to the present",
+						"viMeaning": "nghệ thuật hiện đại",
+						"example": "She enjoys visiting galleries of modern art.",
+						"viExample": "Cô ấy thích ghé thăm các phòng trưng bày nghệ thuật hiện đại."
+					},
+					{
+						"phrase": "modern world",
+						"meaning": "The society we live in today",
+						"viMeaning": "thế giới hiện đại",
+						"example": "Computers are essential in the modern world.",
+						"viExample": "Máy tính là thiết yếu trong thế giới hiện đại."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "traditional",
+		"pos": "adjective",
+		"ipa": "/trəˈdɪʃənl/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "tradition", "pos": "noun" },
+			{ "form": "traditionally", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Following customs passed down from the past",
+				"viDef": "truyền thống",
+				"synonyms": ["conventional", "customary"],
+				"antonyms": ["modern", "unconventional"],
+				"examples": [
+					{
+						"text": "Ao dai is a traditional Vietnamese dress.",
+						"viText": "Áo dài là trang phục truyền thống của Việt Nam."
+					},
+					{
+						"text": "They had a traditional wedding ceremony.",
+						"viText": "Họ đã tổ chức một lễ cưới truyền thống."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "traditional food",
+						"meaning": "Dishes that have been eaten for generations",
+						"viMeaning": "món ăn truyền thống",
+						"example": "Banh chung is a traditional food for Tet.",
+						"viExample": "Bánh chưng là món ăn truyền thống vào dịp Tết."
+					},
+					{
+						"phrase": "traditional values",
+						"meaning": "Beliefs that are important to a culture's history",
+						"viMeaning": "giá trị truyền thống",
+						"example": "Many families still hold on to traditional values.",
+						"viExample": "Nhiều gia đình vẫn giữ vững các giá trị truyền thống."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "popular",
+		"pos": "adjective",
+		"ipa": "/ˈpɒpjələ(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1020,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "popularity", "pos": "noun" },
+			{ "form": "popularly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Liked, enjoyed, or supported by many people",
+				"viDef": "phổ biến, được yêu thích",
+				"synonyms": ["common", "favorite", "trendy"],
+				"antonyms": ["unpopular"],
+				"examples": [
+					{
+						"text": "Football is a very popular sport in Vietnam.",
+						"viText": "Bóng đá là một môn thể thao rất phổ biến ở Việt Nam."
+					},
+					{
+						"text": "This cafe is popular with young people.",
+						"viText": "Quán cà phê này được giới trẻ yêu thích."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "popular belief",
+						"meaning": "A general idea that many people think is true",
+						"viMeaning": "quan niệm phổ biến",
+						"example": "Contrary to popular belief, it's not always hot here.",
+						"viExample": "Trái với quan niệm phổ biến, ở đây không phải lúc nào cũng nóng."
+					},
+					{
+						"phrase": "become popular",
+						"meaning": "To start being liked by a large number of people",
+						"viMeaning": "trở nên phổ biến",
+						"example": "The new app became popular almost overnight.",
+						"viExample": "Ứng dụng mới đã trở nên phổ biến gần như chỉ sau một đêm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "trend",
+		"pos": "noun",
+		"ipa": "/trend/",
+		"cefrLevel": "A2",
+		"frequency": 2200,
+		"isCommon": true,
+		"wordForms": [{ "form": "trendy", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A general direction in which something is changing",
+				"viDef": "xu hướng",
+				"synonyms": ["tendency", "fashion", "movement"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "There is a trend towards healthy eating lately.",
+						"viText": "Dạo gần đây có một xu hướng ăn uống lành mạnh."
+					},
+					{
+						"text": "I don't follow the latest fashion trends.",
+						"viText": "Tôi không theo dõi các xu hướng thời trang mới nhất."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "social trend",
+						"meaning": "A change in the way a society behaves",
+						"viMeaning": "xu hướng xã hội",
+						"example": "Remote work is a growing social trend.",
+						"viExample": "Làm việc từ xa là một xu hướng xã hội đang phát triển."
+					},
+					{
+						"phrase": "set a trend",
+						"meaning": "To start a new fashion or way of doing something",
+						"viMeaning": "tạo ra xu hướng",
+						"example": "The movie star set a new trend in hairstyles.",
+						"viExample": "Ngôi sao điện ảnh đã tạo ra một xu hướng kiểu tóc mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "exhibition",
+		"pos": "noun",
+		"ipa": "/ˌeksɪˈbɪʃn/",
+		"cefrLevel": "A2",
+		"frequency": 2100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "exhibit", "pos": "verb" },
+			{ "form": "exhibitor", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A public display of works of art or items of interest",
+				"viDef": "triển lãm",
+				"synonyms": ["show", "display", "expo"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We went to a photo exhibition at the gallery.",
+						"viText": "Chúng tôi đã đi xem một cuộc triển lãm ảnh tại phòng trưng bày."
+					},
+					{
+						"text": "The exhibition features ancient Vietnamese ceramics.",
+						"viText": "Cuộc triển lãm trưng bày đồ gốm Việt Nam cổ đại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "art exhibition",
+						"meaning": "A display of paintings or sculptures",
+						"viMeaning": "triển lãm nghệ thuật",
+						"example": "There is a new art exhibition opening today.",
+						"viExample": "Có một cuộc triển lãm nghệ thuật mới khai mạc hôm nay."
+					},
+					{
+						"phrase": "visit an exhibition",
+						"meaning": "To go and look at a public display",
+						"viMeaning": "đi xem triển lãm",
+						"example": "Many tourists visit the exhibition every year.",
+						"viExample": "Nhiều du khách đi xem triển lãm mỗi năm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "museum",
+		"pos": "noun",
+		"ipa": "/mjuˈziːəm/",
+		"cefrLevel": "A2",
+		"frequency": 1350,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A building where objects of historical or artistic interest are kept",
+				"viDef": "bảo tàng",
+				"synonyms": [],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The history museum is free on Sundays.",
+						"viText": "Bảo tàng lịch sử miễn phí vào các ngày Chủ Nhật."
+					},
+					{
+						"text": "You shouldn't take photos inside the museum.",
+						"viText": "Bạn không nên chụp ảnh bên trong bảo tàng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "local museum",
+						"meaning": "A museum in a specific neighborhood or town",
+						"viMeaning": "bảo tàng địa phương",
+						"example": "I visited the local museum to learn about the city.",
+						"viExample": "Tôi đã ghé thăm bảo tàng địa phương để tìm hiểu về thành phố."
+					},
+					{
+						"phrase": "museum guide",
+						"meaning": "A person or book that explains the objects in a museum",
+						"viMeaning": "hướng dẫn bảo tàng",
+						"example": "The museum guide gave us a lot of information.",
+						"viExample": "Hướng dẫn viên bảo tàng đã cho chúng tôi rất nhiều thông tin."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "gallery",
+		"pos": "noun",
+		"ipa": "/ˈɡæləri/",
+		"cefrLevel": "A2",
+		"frequency": 1900,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A room or building used for showing works of art",
+				"viDef": "phòng trưng bày, triển lãm",
+				"synonyms": ["museum", "studio"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The art gallery is located in the city center.",
+						"viText": "Phòng trưng bày nghệ thuật nằm ở trung tâm thành phố."
+					},
+					{
+						"text": "They bought a beautiful painting at the gallery.",
+						"viText": "Họ đã mua một bức tranh đẹp tại phòng trưng bày."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "art gallery",
+						"meaning": "A place where paintings and sculptures are displayed",
+						"viMeaning": "phòng triển lãm nghệ thuật",
+						"example": "We spent the afternoon at an art gallery.",
+						"viExample": "Chúng tôi đã dành buổi chiều tại một phòng triển lãm nghệ thuật."
+					},
+					{
+						"phrase": "picture gallery",
+						"meaning": "A gallery specifically for paintings",
+						"viMeaning": "phòng trưng bày tranh",
+						"example": "The palace has a famous picture gallery.",
+						"viExample": "Cung điện có một phòng trưng bày tranh nổi tiếng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "tour",
+		"pos": "noun",
+		"ipa": "/tʊə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "tour", "pos": "verb" },
+			{ "form": "tourism", "pos": "noun" },
+			{ "form": "tourist", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A journey to visit several places for pleasure",
+				"viDef": "chuyến du lịch, tham quan",
+				"synonyms": ["trip", "excursion", "journey"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We went on a bus tour of the city.",
+						"viText": "Chúng tôi đã đi một chuyến tham quan thành phố bằng xe buýt."
+					},
+					{
+						"text": "He is on a world tour with his band.",
+						"viText": "Anh ấy đang trong một chuyến lưu diễn thế giới cùng ban nhạc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "guided tour",
+						"meaning": "A tour with a person explaining the sights",
+						"viMeaning": "tour có hướng dẫn",
+						"example": "We took a guided tour of the old castle.",
+						"viExample": "Chúng tôi đã tham gia một chuyến tham quan lâu đài cổ có hướng dẫn."
+					},
+					{
+						"phrase": "walking tour",
+						"meaning": "A tour where people walk to see different places",
+						"viMeaning": "tour đi bộ",
+						"example": "A walking tour is a great way to see the sights.",
+						"viExample": "Tour đi bộ là một cách tuyệt vời để ngắm cảnh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "guide",
+		"pos": "noun",
+		"ipa": "/ɡaɪd/",
+		"cefrLevel": "A2",
+		"frequency": 1250,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "guide", "pos": "verb" },
+			{ "form": "guidance", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person who shows the way or explains a place",
+				"viDef": "hướng dẫn viên, cẩm nang",
+				"synonyms": ["advisor", "manual", "leader"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The tour guide was very knowledgeable about the history.",
+						"viText": "Hướng dẫn viên du lịch rất am hiểu về lịch sử."
+					},
+					{
+						"text": "I bought a travel guide for my trip to Japan.",
+						"viText": "Tôi đã mua một cuốn cẩm nang du lịch cho chuyến đi Nhật Bản."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "tour guide",
+						"meaning": "A person who takes people on sightseeing trips",
+						"viMeaning": "hướng dẫn viên du lịch",
+						"example": "The tour guide showed us all the famous landmarks.",
+						"viExample": "Hướng dẫn viên du lịch đã cho chúng tôi xem tất cả các địa danh nổi tiếng."
+					},
+					{
+						"phrase": "study guide",
+						"meaning": "A book that helps students learn a subject",
+						"viMeaning": "tài liệu hướng dẫn học tập",
+						"example": "I'm using a study guide for my chemistry exam.",
+						"viExample": "Tôi đang dùng tài liệu hướng dẫn học tập cho kỳ thi hóa học."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "souvenir",
+		"pos": "noun",
+		"ipa": "/ˌsuːvəˈnɪə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 2700,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something you buy to remember a place or holiday",
+				"viDef": "quà lưu niệm",
+				"synonyms": ["keepsake", "memento"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I bought a small souvenir for my sister in Paris.",
+						"viText": "Tôi đã mua một món quà lưu niệm nhỏ cho em gái ở Paris."
+					},
+					{
+						"text": "The fridge magnets are a popular souvenir.",
+						"viText": "Nam châm dán tủ lạnh là một món quà lưu niệm phổ biến."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "souvenir shop",
+						"meaning": "A shop that sells items for tourists to remember a visit",
+						"viMeaning": "cửa hàng quà lưu niệm",
+						"example": "There are many souvenir shops near the museum.",
+						"viExample": "Có nhiều cửa hàng quà lưu niệm gần bảo tàng."
+					},
+					{
+						"phrase": "cheap souvenir",
+						"meaning": "A memento that does not cost much money",
+						"viMeaning": "quà lưu niệm rẻ tiền",
+						"example": "He bought some cheap souvenirs to give to his friends.",
+						"viExample": "Anh ấy đã mua vài món quà lưu niệm rẻ tiền để tặng bạn bè."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "local",
+		"pos": "adjective",
+		"ipa": "/ˈləʊkl/",
+		"cefrLevel": "A2",
+		"frequency": 1030,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "locally", "pos": "adverb" },
+			{ "form": "locality", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the area nearby where you are",
+				"viDef": "địa phương",
+				"synonyms": ["nearby", "regional"],
+				"antonyms": ["international", "global"],
+				"examples": [
+					{
+						"text": "I like to eat at local restaurants.",
+						"viText": "Tôi thích ăn tại các nhà hàng địa phương."
+					},
+					{
+						"text": "She reads the local newspaper every morning.",
+						"viText": "Cô ấy đọc báo địa phương mỗi sáng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "local people",
+						"meaning": "The people who live in a specific area",
+						"viMeaning": "người dân địa phương",
+						"example": "The local people were very helpful to the lost tourist.",
+						"viExample": "Người dân địa phương đã rất nhiệt tình giúp đỡ du khách bị lạc."
+					},
+					{
+						"phrase": "local food",
+						"meaning": "Dishes that are special to a particular region",
+						"viMeaning": "đặc sản địa phương",
+						"example": "Trying the local food is the best part of traveling.",
+						"viExample": "Thử các món đặc sản địa phương là phần tuyệt nhất của việc đi du lịch."
+					}
+				]
+			}
+		]
+	}
+]

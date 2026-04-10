@@ -1,0 +1,899 @@
+[
+	{
+		"headword": "accurate",
+		"pos": "adjective",
+		"ipa": "/ˈækjərət/",
+		"cefrLevel": "B1",
+		"frequency": 3150,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "accuracy", "pos": "noun" },
+			{ "form": "accurately", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Correct, exact, and without any mistakes",
+				"viDef": "chính xác",
+				"synonyms": ["precise", "exact"],
+				"antonyms": ["inaccurate", "wrong"],
+				"examples": [
+					{
+						"text": "The report was accurate and well-researched.",
+						"viText": "Bản báo cáo đã chính xác và được nghiên cứu kỹ lưỡng."
+					},
+					{ "text": "Is this clock accurate?", "viText": "Chiếc đồng hồ này có chạy chính xác không?" }
+				],
+				"collocations": [
+					{
+						"phrase": "highly accurate",
+						"meaning": "Extremely precise and correct",
+						"viMeaning": "cực kỳ chính xác",
+						"example": "Modern GPS is highly accurate.",
+						"viExample": "Hệ thống GPS hiện đại cực kỳ chính xác."
+					},
+					{
+						"phrase": "accurate description",
+						"meaning": "A correct account of something",
+						"viMeaning": "mô tả chính xác",
+						"example": "He gave an accurate description of the thief.",
+						"viExample": "Anh ta đã đưa ra một bản mô tả chính xác về tên trộm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "effective",
+		"pos": "adjective",
+		"ipa": "/ɪˈfektɪv/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "effect", "pos": "noun" },
+			{ "form": "effectively", "pos": "adverb" },
+			{ "form": "effectiveness", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Producing the result that was wanted or intended",
+				"viDef": "hiệu quả",
+				"synonyms": ["successful", "efficient"],
+				"antonyms": ["ineffective"],
+				"examples": [
+					{
+						"text": "This is an effective way to learn vocabulary.",
+						"viText": "Đây là một cách hiệu quả để học từ vựng."
+					},
+					{ "text": "The new medicine is very effective.", "viText": "Loại thuốc mới này rất hiệu quả." }
+				],
+				"collocations": [
+					{
+						"phrase": "highly effective",
+						"meaning": "Working very well",
+						"viMeaning": "rất hiệu quả",
+						"example": "The campaign was highly effective.",
+						"viExample": "Chiến dịch đã rất hiệu quả."
+					},
+					{
+						"phrase": "effective communication",
+						"meaning": "Sharing information successfully",
+						"viMeaning": "giao tiếp hiệu quả",
+						"example": "Effective communication is key in business.",
+						"viExample": "Giao tiếp hiệu quả là chìa khóa trong kinh doanh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "appropriate",
+		"pos": "adjective",
+		"ipa": "/əˈprəʊpriət/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "appropriately", "pos": "adverb" },
+			{ "form": "appropriateness", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Suitable or right for a particular situation",
+				"viDef": "phù hợp, thích hợp",
+				"synonyms": ["suitable", "proper"],
+				"antonyms": ["inappropriate"],
+				"examples": [
+					{
+						"text": "Is this movie appropriate for small children?",
+						"viText": "Bộ phim này có phù hợp cho trẻ nhỏ không?"
+					},
+					{
+						"text": "Please wear appropriate clothes to the interview.",
+						"viText": "Làm ơn hãy mặc quần áo phù hợp đi phỏng vấn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "highly appropriate",
+						"meaning": "Very suitable for the context",
+						"viMeaning": "rất phù hợp",
+						"example": "His comments were highly appropriate.",
+						"viExample": "Những lời bình luận của anh ấy rất phù hợp."
+					},
+					{
+						"phrase": "appropriate behavior",
+						"meaning": "Acting correctly in a situation",
+						"viMeaning": "hành vi phù hợp",
+						"example": "The school has rules for appropriate behavior.",
+						"viExample": "Trường học có các quy định về hành vi phù hợp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "relevant",
+		"pos": "adjective",
+		"ipa": "/ˈreləvənt/",
+		"cefrLevel": "B1",
+		"frequency": 3400,
+		"isCommon": false,
+		"wordForms": [{ "form": "relevance", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Connected with what is happening or being discussed",
+				"viDef": "liên quan, xác đáng",
+				"synonyms": ["related", "applicable"],
+				"antonyms": ["irrelevant"],
+				"examples": [
+					{
+						"text": "Please include all relevant information in your CV.",
+						"viText": "Làm ơn hãy bao gồm tất cả thông tin liên quan trong hồ sơ của bạn."
+					},
+					{
+						"text": "Her experience is relevant to this job.",
+						"viText": "Kinh nghiệm của cô ấy có liên quan đến công việc này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "highly relevant",
+						"meaning": "Very closely connected to the topic",
+						"viMeaning": "rất liên quan",
+						"example": "The data is highly relevant to our research.",
+						"viExample": "Dữ liệu này rất liên quan đến nghiên cứu của chúng tôi."
+					},
+					{
+						"phrase": "relevant factor",
+						"meaning": "An important fact to consider",
+						"viMeaning": "yếu tố liên quan",
+						"example": "Cost is a relevant factor in our decision.",
+						"viExample": "Chi phí là một yếu tố liên quan trong quyết định của chúng tôi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "consistent",
+		"pos": "adjective",
+		"ipa": "/kənˈsɪstənt/",
+		"cefrLevel": "B1",
+		"frequency": 3800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "consistently", "pos": "adverb" },
+			{ "form": "consistency", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Always behaving or happening in a similar way",
+				"viDef": "nhất quán, kiên trì",
+				"synonyms": ["steady", "constant"],
+				"antonyms": ["inconsistent"],
+				"examples": [
+					{
+						"text": "She has been a consistent worker for years.",
+						"viText": "Cô ấy đã là một nhân viên làm việc ổn định trong nhiều năm."
+					},
+					{
+						"text": "The results are consistent with our theory.",
+						"viText": "Các kết quả nhất quán với lý thuyết của chúng tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "consistent performance",
+						"meaning": "Doing well on a regular basis",
+						"viMeaning": "phong độ ổn định",
+						"example": "He is famous for his consistent performance.",
+						"viExample": "Anh ấy nổi tiếng vì phong độ ổn định của mình."
+					},
+					{
+						"phrase": "remain consistent",
+						"meaning": "To stay the same over time",
+						"viMeaning": "vẫn giữ sự nhất quán",
+						"example": "His message has remained consistent.",
+						"viExample": "Thông điệp của anh ấy vẫn giữ được sự nhất quán."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sufficient",
+		"pos": "adjective",
+		"ipa": "/səˈfɪʃnt/",
+		"cefrLevel": "B1",
+		"frequency": 4100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "sufficiently", "pos": "adverb" },
+			{ "form": "sufficiency", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Enough for a particular purpose",
+				"viDef": "đủ",
+				"synonyms": ["enough", "adequate"],
+				"antonyms": ["insufficient"],
+				"examples": [
+					{
+						"text": "We have sufficient evidence to go to court.",
+						"viText": "Chúng tôi có đủ bằng chứng để ra tòa."
+					},
+					{ "text": "The food was sufficient for everyone.", "viText": "Thức ăn đã đủ cho tất cả mọi người." }
+				],
+				"collocations": [
+					{
+						"phrase": "sufficient time",
+						"meaning": "Enough hours or days to finish something",
+						"viMeaning": "đủ thời gian",
+						"example": "Did you have sufficient time to finish?",
+						"viExample": "Bạn có đủ thời gian để hoàn thành không?"
+					},
+					{
+						"phrase": "deemed sufficient",
+						"meaning": "Thought to be enough",
+						"viMeaning": "được coi là đủ",
+						"example": "The explanation was deemed sufficient.",
+						"viExample": "Lời giải thích đã được coi là đủ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "reasonable",
+		"pos": "adjective",
+		"ipa": "/ˈriːznəbl/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "reasonably", "pos": "adverb" },
+			{ "form": "reason", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Based on good judgment and common sense",
+				"viDef": "hợp lý",
+				"synonyms": ["fair", "sensible"],
+				"antonyms": ["unreasonable"],
+				"examples": [
+					{
+						"text": "The price of the car seems very reasonable.",
+						"viText": "Giá của chiếc xe có vẻ rất hợp lý."
+					},
+					{
+						"text": "He was a reasonable man to deal with.",
+						"viText": "Anh ta là một người hợp lý để làm việc cùng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reasonable price",
+						"meaning": "A cost that is not too high",
+						"viMeaning": "giá cả hợp lý",
+						"example": "The hotel offers rooms at a reasonable price.",
+						"viExample": "Khách sạn cung cấp phòng với giá cả hợp lý."
+					},
+					{
+						"phrase": "entirely reasonable",
+						"meaning": "Completely fair or logical",
+						"viMeaning": "hoàn toàn hợp lý",
+						"example": "Your request is entirely reasonable.",
+						"viExample": "Yêu cầu của bạn hoàn toàn hợp lý."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "obvious",
+		"pos": "adjective",
+		"ipa": "/ˈɒbviəs/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [{ "form": "obviously", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Easy to see, recognize, or understand",
+				"viDef": "rõ ràng, hiển nhiên",
+				"synonyms": ["clear", "evident"],
+				"antonyms": ["unclear", "obscure"],
+				"examples": [
+					{ "text": "It was obvious that she was unhappy.", "viText": "Rõ ràng là cô ấy đã không vui." },
+					{
+						"text": "The solution to the problem is obvious.",
+						"viText": "Giải pháp cho vấn đề là hiển nhiên."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "obvious choice",
+						"meaning": "A selection that everyone would agree with",
+						"viMeaning": "lựa chọn hiển nhiên",
+						"example": "He was the obvious choice for captain.",
+						"viExample": "Anh ấy là lựa chọn hiển nhiên cho vị trí đội trưởng."
+					},
+					{
+						"phrase": "for obvious reasons",
+						"meaning": "Because of facts that everyone knows",
+						"viMeaning": "vì những lý do rõ ràng",
+						"example": "He didn't come, for obvious reasons.",
+						"viExample": "Anh ta đã không đến, vì những lý do rõ ràng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "complex",
+		"pos": "adjective",
+		"ipa": "/ˈkɒmpleks/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [{ "form": "complexity", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having many parts and difficult to understand",
+				"viDef": "phức tạp",
+				"synonyms": ["complicated", "intricate"],
+				"antonyms": ["simple"],
+				"examples": [
+					{ "text": "The brain is a very complex organ.", "viText": "Não bộ là một cơ quan rất phức tạp." },
+					{
+						"text": "The situation is more complex than it looks.",
+						"viText": "Tình hình này phức tạp hơn vẻ ngoài của nó."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "highly complex",
+						"meaning": "Extremely difficult or detailed",
+						"viMeaning": "cực kỳ phức tạp",
+						"example": "Modern software is highly complex.",
+						"viExample": "Phần mềm hiện đại cực kỳ phức tạp."
+					},
+					{
+						"phrase": "complex problem",
+						"meaning": "An issue that is hard to solve",
+						"viMeaning": "vấn đề phức tạp",
+						"example": "Climate change is a complex problem.",
+						"viExample": "Biến đổi khí hậu là một vấn đề phức tạp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "specific",
+		"pos": "adjective",
+		"ipa": "/spəˈsɪfɪk/",
+		"cefrLevel": "B1",
+		"frequency": 3030,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "specifically", "pos": "adverb" },
+			{ "form": "specification", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Particular and clearly defined",
+				"viDef": "cụ thể, riêng biệt",
+				"synonyms": ["particular", "precise"],
+				"antonyms": ["general", "vague"],
+				"examples": [
+					{
+						"text": "Could you be more specific about your plans?",
+						"viText": "Bạn có thể nói cụ thể hơn về kế hoạch của mình không?"
+					},
+					{
+						"text": "This drug is for a specific type of cancer.",
+						"viText": "Loại thuốc này dành cho một loại ung thư cụ thể."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "specific purpose",
+						"meaning": "A particular reason for doing something",
+						"viMeaning": "mục đích cụ thể",
+						"example": "This tool was built for a specific purpose.",
+						"viExample": "Công cụ này được chế tạo cho một mục đích cụ thể."
+					},
+					{
+						"phrase": "specific information",
+						"meaning": "Exact details about a subject",
+						"viMeaning": "thông tin cụ thể",
+						"example": "The website provides specific information.",
+						"viExample": "Trang web cung cấp thông tin cụ thể."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "aspect",
+		"pos": "noun",
+		"ipa": "/ˈæspekt/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "One part of a situation, problem, or subject",
+				"viDef": "khía cạnh",
+				"synonyms": ["feature", "side", "part"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We need to consider every aspect of the case.",
+						"viText": "Chúng ta cần xem xét mọi khía cạnh của vụ án."
+					},
+					{
+						"text": "I like every aspect of my new job.",
+						"viText": "Tôi thích mọi khía cạnh của công việc mới của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "key aspect",
+						"meaning": "A very important part of something",
+						"viMeaning": "khía cạnh then chốt",
+						"example": "Security is a key aspect of the project.",
+						"viExample": "An ninh là một khía cạnh then chốt của dự án."
+					},
+					{
+						"phrase": "important aspect",
+						"meaning": "A significant part of a topic",
+						"viMeaning": "khía cạnh quan trọng",
+						"example": "This is an important aspect of local culture.",
+						"viExample": "Đây là một khía cạnh quan trọng của văn hóa địa phương."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "factor",
+		"pos": "noun",
+		"ipa": "/ˈfæktə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "One of several things that cause or influence something",
+				"viDef": "yếu tố",
+				"synonyms": ["element", "cause"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Price is a major factor in our decision.",
+						"viText": "Giá cả là một yếu tố chính trong quyết định của chúng tôi."
+					},
+					{
+						"text": "Smoking is a factor in heart disease.",
+						"viText": "Hút thuốc là một yếu tố gây bệnh tim."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "deciding factor",
+						"meaning": "The thing that makes a final result certain",
+						"viMeaning": "yếu tố quyết định",
+						"example": "Location was the deciding factor for us.",
+						"viExample": "Vị trí là yếu tố quyết định đối với chúng tôi."
+					},
+					{
+						"phrase": "contributing factor",
+						"meaning": "Something that helps a result happen",
+						"viMeaning": "yếu tố góp phần",
+						"example": "Stress was a contributing factor to his illness.",
+						"viExample": "Căng thẳng là một yếu tố góp phần vào bệnh tình của anh ấy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "issue",
+		"pos": "noun",
+		"ipa": "/ˈɪʃuː/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [{ "form": "issue", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An important topic or problem that people discuss",
+				"viDef": "vấn đề",
+				"synonyms": ["problem", "matter"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Environment is a major global issue.",
+						"viText": "Môi trường là một vấn đề toàn cầu lớn."
+					},
+					{
+						"text": "We discussed the issue for several hours.",
+						"viText": "Chúng tôi đã thảo luận vấn đề này trong vài giờ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "address an issue",
+						"meaning": "To deal with a problem",
+						"viMeaning": "giải quyết vấn đề",
+						"example": "The government must address the housing issue.",
+						"viExample": "Chính phủ phải giải quyết vấn đề nhà ở."
+					},
+					{
+						"phrase": "social issue",
+						"meaning": "A problem affecting many people in society",
+						"viMeaning": "vấn đề xã hội",
+						"example": "Poverty is a complex social issue.",
+						"viExample": "Nghèo đói là một vấn đề xã hội phức tạp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "concern",
+		"pos": "noun",
+		"ipa": "/kənˈsɜːn/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "concern", "pos": "verb" },
+			{ "form": "concerned", "pos": "adjective" },
+			{ "form": "concerning", "pos": "preposition" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A feeling of worry about a situation",
+				"viDef": "mối lo ngại",
+				"synonyms": ["worry", "anxiety"],
+				"antonyms": ["indifference"],
+				"examples": [
+					{
+						"text": "There is growing concern about the rising prices.",
+						"viText": "Có mối lo ngại ngày càng tăng về việc tăng giá."
+					},
+					{
+						"text": "His health is a cause for concern.",
+						"viText": "Sức khỏe của anh ấy là một nguyên nhân gây lo ngại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "express concern",
+						"meaning": "To say that you are worried",
+						"viMeaning": "bày tỏ sự lo ngại",
+						"example": "The public expressed concern about safety.",
+						"viExample": "Công chúng đã bày tỏ sự lo ngại về an toàn."
+					},
+					{
+						"phrase": "major concern",
+						"meaning": "A primary thing someone is worried about",
+						"viMeaning": "mối quan tâm/lo ngại chính",
+						"example": "Pollution is a major concern for the city.",
+						"viExample": "Ô nhiễm là một mối lo ngại chính của thành phố."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "topic",
+		"pos": "noun",
+		"ipa": "/ˈtɒpɪk/",
+		"cefrLevel": "B1",
+		"frequency": 3150,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A subject that is written or talked about",
+				"viDef": "chủ đề",
+				"synonyms": ["subject", "matter"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The main topic of conversation was the weather.",
+						"viText": "Chủ đề chính của cuộc trò chuyện là thời tiết."
+					},
+					{
+						"text": "Choose a topic for your research paper.",
+						"viText": "Hãy chọn một chủ đề cho bài nghiên cứu của bạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "hot topic",
+						"meaning": "A subject that many people are interested in",
+						"viMeaning": "chủ đề nóng hổi",
+						"example": "AI is currently a hot topic.",
+						"viExample": "AI hiện đang là một chủ đề nóng hổi."
+					},
+					{
+						"phrase": "discuss a topic",
+						"meaning": "To talk about a particular subject",
+						"viMeaning": "thảo luận một chủ đề",
+						"example": "We will discuss this topic next week.",
+						"viExample": "Chúng ta sẽ thảo luận chủ đề này vào tuần tới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "theme",
+		"pos": "noun",
+		"ipa": "/θiːm/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [{ "form": "thematic", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The main subject or idea in a book or movie",
+				"viDef": "chủ đề tư tưởng",
+				"synonyms": ["subject", "motif"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The theme of the story is love and loss.",
+						"viText": "Chủ đề của câu chuyện là tình yêu và sự mất mát."
+					},
+					{ "text": "The party had a Hawaiian theme.", "viText": "Bữa tiệc có chủ đề Hawaii." }
+				],
+				"collocations": [
+					{
+						"phrase": "central theme",
+						"meaning": "The most important idea in a work",
+						"viMeaning": "chủ đề trung tâm",
+						"example": "War is the central theme of the novel.",
+						"viExample": "Chiến tranh là chủ đề trung tâm của cuốn tiểu thuyết."
+					},
+					{
+						"phrase": "theme park",
+						"meaning": "A large park with rides based on a subject",
+						"viMeaning": "công viên giải trí",
+						"example": "They spent the day at a theme park.",
+						"viExample": "Họ đã dành cả ngày tại một công viên giải trí."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "concept",
+		"pos": "noun",
+		"ipa": "/ˈkɒnsept/",
+		"cefrLevel": "B1",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "conceptual", "pos": "adjective" },
+			{ "form": "conceptualize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A principle or idea of something abstract",
+				"viDef": "khái niệm",
+				"synonyms": ["idea", "notion"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He struggled to understand the basic concepts of physics.",
+						"viText": "Anh ấy đã vật lộn để hiểu các khái niệm cơ bản của vật lý."
+					},
+					{
+						"text": "The concept of time travel is fascinating.",
+						"viText": "Khái niệm về du hành thời gian rất thú vị."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "basic concept",
+						"meaning": "A simple and fundamental idea",
+						"viMeaning": "khái niệm cơ bản",
+						"example": "You need to learn the basic concepts first.",
+						"viExample": "Bạn cần học các khái niệm cơ bản trước."
+					},
+					{
+						"phrase": "key concept",
+						"meaning": "A very important idea in a subject",
+						"viMeaning": "khái niệm then chốt",
+						"example": "This is a key concept in marketing.",
+						"viExample": "Đây là một khái niệm then chốt trong tiếp thị."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "theory",
+		"pos": "noun",
+		"ipa": "/ˈθɪəri/",
+		"cefrLevel": "B1",
+		"frequency": 3060,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "theoretical", "pos": "adjective" },
+			{ "form": "theorize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A set of ideas that explain how something works",
+				"viDef": "lý thuyết",
+				"synonyms": ["hypothesis", "belief"],
+				"antonyms": ["practice"],
+				"examples": [
+					{
+						"text": "Einstein's theory of relativity changed physics.",
+						"viText": "Lý thuyết tương đối của Einstein đã thay đổi vật lý."
+					},
+					{
+						"text": "In theory, the plan should work.",
+						"viText": "Về lý thuyết, kế hoạch này sẽ thành công."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "scientific theory",
+						"meaning": "An explanation based on scientific facts",
+						"viMeaning": "lý thuyết khoa học",
+						"example": "Evolution is a well-known scientific theory.",
+						"viExample": "Tiến hóa là một lý thuyết khoa học nổi tiếng."
+					},
+					{
+						"phrase": "develop a theory",
+						"meaning": "To create a set of explanatory ideas",
+						"viMeaning": "xây dựng lý thuyết",
+						"example": "The researchers developed a new theory.",
+						"viExample": "Các nhà nghiên cứu đã xây dựng một lý thuyết mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "principle",
+		"pos": "noun",
+		"ipa": "/ˈprɪnsəpl/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [{ "form": "principled", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A basic idea or rule that explains how something happens",
+				"viDef": "nguyên tắc",
+				"synonyms": ["rule", "standard"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The machine works on the principle of steam power.",
+						"viText": "Máy móc hoạt động dựa trên nguyên tắc năng lượng hơi nước."
+					},
+					{
+						"text": "He refused to lie because it was against his principles.",
+						"viText": "Anh ta từ chối nói dối vì nó đi ngược lại các nguyên tắc của anh ta."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "basic principle",
+						"meaning": "A fundamental rule or idea",
+						"viMeaning": "nguyên tắc cơ bản",
+						"example": "Let's stick to the basic principles.",
+						"viExample": "Hãy bám sát các nguyên tắc cơ bản."
+					},
+					{
+						"phrase": "in principle",
+						"meaning": "Agreeing with an idea but not the details",
+						"viMeaning": "về nguyên tắc",
+						"example": "I agree with you in principle.",
+						"viExample": "Về nguyên tắc, tôi đồng ý với bạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "process",
+		"pos": "noun",
+		"ipa": "/ˈprəʊses/",
+		"cefrLevel": "B1",
+		"frequency": 3010,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "process", "pos": "verb" },
+			{ "form": "processor", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A series of actions taken to achieve a result",
+				"viDef": "quá trình, quy trình",
+				"synonyms": ["procedure", "method"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Learning a language is a long process.",
+						"viText": "Học một ngôn ngữ là một quá trình dài."
+					},
+					{
+						"text": "The hiring process took two months.",
+						"viText": "Quy trình tuyển dụng đã mất hai tháng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "natural process",
+						"meaning": "Something that happens in nature over time",
+						"viMeaning": "quá trình tự nhiên",
+						"example": "Aging is a natural process.",
+						"viExample": "Lão hóa là một quá trình tự nhiên."
+					},
+					{
+						"phrase": "in the process of",
+						"meaning": "Doing something at the moment",
+						"viMeaning": "đang trong quá trình",
+						"example": "We are in the process of moving house.",
+						"viExample": "Chúng tôi đang trong quá trình chuyển nhà."
+					}
+				]
+			}
+		]
+	}
+]

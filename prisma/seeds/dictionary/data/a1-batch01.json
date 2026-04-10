@@ -1,0 +1,1062 @@
+[
+	{
+		"headword": "table",
+		"pos": "noun",
+		"ipa": "/ˈteɪbl/",
+		"cefrLevel": "A1",
+		"frequency": 200,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "tabular",
+				"pos": "adjective"
+			},
+			{
+				"form": "tabletop",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a piece of furniture with a flat top and legs",
+				"viDef": "cái bàn",
+				"synonyms": ["desk", "counter"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Put your books on the table.",
+						"viText": "Đặt sách của bạn lên bàn."
+					},
+					{
+						"text": "We bought a new dining table.",
+						"viText": "Chúng tôi đã mua một chiếc bàn ăn mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "set the table",
+						"meaning": "prepare the table for a meal",
+						"viMeaning": "dọn bàn ăn",
+						"example": "Please set the table for dinner.",
+						"viExample": "Vui lòng dọn bàn cho bữa tối."
+					},
+					{
+						"phrase": "book a table",
+						"meaning": "reserve a table at a restaurant",
+						"viMeaning": "đặt bàn",
+						"example": "I booked a table for two.",
+						"viExample": "Tôi đã đặt một bàn cho hai người."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "chair",
+		"pos": "noun",
+		"ipa": "/tʃeə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 400,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "chairperson",
+				"pos": "noun"
+			},
+			{
+				"form": "chairless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a seat for one person that has a back",
+				"viDef": "cái ghế",
+				"synonyms": ["seat", "armchair"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Please sit on this chair.",
+						"viText": "Vui lòng ngồi trên chiếc ghế này."
+					},
+					{
+						"text": "The wooden chair is very old.",
+						"viText": "Chiếc ghế gỗ này rất cũ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "pull up a chair",
+						"meaning": "move a chair closer to sit",
+						"viMeaning": "kéo ghế lại ngồi",
+						"example": "Pull up a chair and listen.",
+						"viExample": "Kéo ghế lại ngồi và nghe nào."
+					},
+					{
+						"phrase": "comfortable chair",
+						"meaning": "a chair that feels nice to sit in",
+						"viMeaning": "ghế thoải mái",
+						"example": "I need a comfortable chair for work.",
+						"viExample": "Tôi cần một chiếc ghế thoải mái để làm việc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "book",
+		"pos": "noun",
+		"ipa": "/bʊk/",
+		"cefrLevel": "A1",
+		"frequency": 150,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "booklet",
+				"pos": "noun"
+			},
+			{
+				"form": "bookish",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a set of printed pages fastened together inside a cover",
+				"viDef": "quyển sách",
+				"synonyms": ["novel", "publication"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I like to read a good book.",
+						"viText": "Tôi thích đọc một quyển sách hay."
+					},
+					{
+						"text": "The book is on the desk.",
+						"viText": "Quyển sách nằm trên bàn làm việc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "read a book",
+						"meaning": "look at and understand written words",
+						"viMeaning": "đọc sách",
+						"example": "She reads a book every night.",
+						"viExample": "Cô ấy đọc sách mỗi tối."
+					},
+					{
+						"phrase": "write a book",
+						"meaning": "create a new book by writing",
+						"viMeaning": "viết sách",
+						"example": "He wants to write a book.",
+						"viExample": "Anh ấy muốn viết một cuốn sách."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "water",
+		"pos": "noun",
+		"ipa": "/ˈwɔːtə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 100,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "watery",
+				"pos": "adjective"
+			},
+			{
+				"form": "waterproof",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a clear liquid essential for the life of most animals",
+				"viDef": "nước",
+				"synonyms": ["liquid", "fluid"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Can I have some water, please?",
+						"viText": "Cho tôi xin một ít nước được không?"
+					},
+					{
+						"text": "The water in the lake is cold.",
+						"viText": "Nước trong hồ rất lạnh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "drink water",
+						"meaning": "consume clear liquid",
+						"viMeaning": "uống nước",
+						"example": "You should drink water every day.",
+						"viExample": "Bạn nên uống nước mỗi ngày."
+					},
+					{
+						"phrase": "cold water",
+						"meaning": "water at a low temperature",
+						"viMeaning": "nước lạnh",
+						"example": "I prefer washing my face with cold water.",
+						"viExample": "Tôi thích rửa mặt bằng nước lạnh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "food",
+		"pos": "noun",
+		"ipa": "/fuːd/",
+		"cefrLevel": "A1",
+		"frequency": 300,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "foodie",
+				"pos": "noun"
+			},
+			{
+				"form": "foodstuff",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "things that people or animals eat",
+				"viDef": "thức ăn",
+				"synonyms": ["meal", "groceries"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I really love Italian food.",
+						"viText": "Tôi thực sự yêu thích thức ăn Ý."
+					},
+					{
+						"text": "We need to buy some food.",
+						"viText": "Chúng ta cần mua một ít thức ăn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fast food",
+						"meaning": "food that is prepared and served quickly",
+						"viMeaning": "thức ăn nhanh",
+						"example": "Eating too much fast food is bad.",
+						"viExample": "Ăn quá nhiều thức ăn nhanh là không tốt."
+					},
+					{
+						"phrase": "healthy food",
+						"meaning": "food that is good for your body",
+						"viMeaning": "thức ăn lành mạnh",
+						"example": "Vegetables are considered healthy food.",
+						"viExample": "Rau quả được coi là thức ăn lành mạnh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "house",
+		"pos": "noun",
+		"ipa": "/haʊs/",
+		"cefrLevel": "A1",
+		"frequency": 180,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "housing",
+				"pos": "noun"
+			},
+			{
+				"form": "household",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a building for human habitation, especially one that is lived in",
+				"viDef": "ngôi nhà",
+				"synonyms": ["home", "residence"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "They bought a big house last year.",
+						"viText": "Họ đã mua một ngôi nhà lớn vào năm ngoái."
+					},
+					{
+						"text": "My house is near the park.",
+						"viText": "Nhà tôi ở gần công viên."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "buy a house",
+						"meaning": "purchase a home to live in",
+						"viMeaning": "mua nhà",
+						"example": "We plan to buy a house soon.",
+						"viExample": "Chúng tôi dự định sẽ sớm mua một ngôi nhà."
+					},
+					{
+						"phrase": "clean the house",
+						"meaning": "remove dirt and dust from the home",
+						"viMeaning": "dọn dẹp nhà cửa",
+						"example": "I always clean the house on weekends.",
+						"viExample": "Tôi luôn dọn dẹp nhà cửa vào cuối tuần."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "school",
+		"pos": "noun",
+		"ipa": "/skuːl/",
+		"cefrLevel": "A1",
+		"frequency": 120,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "schooling",
+				"pos": "noun"
+			},
+			{
+				"form": "scholar",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "an institution for educating children",
+				"viDef": "trường học",
+				"synonyms": ["academy", "college"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "My son goes to a local school.",
+						"viText": "Con trai tôi học ở một trường địa phương."
+					},
+					{
+						"text": "School starts at eight in the morning.",
+						"viText": "Trường học bắt đầu lúc tám giờ sáng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "go to school",
+						"meaning": "attend educational classes at a school",
+						"viMeaning": "đi học",
+						"example": "I go to school by bus.",
+						"viExample": "Tôi đi học bằng xe buýt."
+					},
+					{
+						"phrase": "high school",
+						"meaning": "a school for older teenagers",
+						"viMeaning": "trường trung học",
+						"example": "She is a high school student.",
+						"viExample": "Cô ấy là học sinh trung học."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "family",
+		"pos": "noun",
+		"ipa": "/ˈfæməli/",
+		"cefrLevel": "A1",
+		"frequency": 90,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "familiar",
+				"pos": "adjective"
+			},
+			{
+				"form": "familiarity",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a group consisting of parents and children living together",
+				"viDef": "gia đình",
+				"synonyms": ["relatives", "kin"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I have a large family.",
+						"viText": "Tôi có một gia đình lớn."
+					},
+					{
+						"text": "Family is the most important thing.",
+						"viText": "Gia đình là điều quan trọng nhất."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "whole family",
+						"meaning": "everyone in the family",
+						"viMeaning": "cả gia đình",
+						"example": "The whole family went on a trip.",
+						"viExample": "Cả gia đình đã đi du lịch."
+					},
+					{
+						"phrase": "family member",
+						"meaning": "one person in a family group",
+						"viMeaning": "thành viên gia đình",
+						"example": "He is my favorite family member.",
+						"viExample": "Anh ấy là thành viên gia đình tôi yêu thích nhất."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "friend",
+		"pos": "noun",
+		"ipa": "/frend/",
+		"cefrLevel": "A1",
+		"frequency": 110,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "friendly",
+				"pos": "adjective"
+			},
+			{
+				"form": "friendship",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a person you know well and like a lot",
+				"viDef": "người bạn",
+				"synonyms": ["buddy", "companion"],
+				"antonyms": ["enemy", "stranger"],
+				"examples": [
+					{
+						"text": "She is a good friend of mine.",
+						"viText": "Cô ấy là một người bạn tốt của tôi."
+					},
+					{
+						"text": "I went to the cinema with a friend.",
+						"viText": "Tôi đã đi xem phim với một người bạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make friends",
+						"meaning": "become friends with new people",
+						"viMeaning": "kết bạn",
+						"example": "It is easy to make friends here.",
+						"viExample": "Rất dễ để kết bạn ở đây."
+					},
+					{
+						"phrase": "close friend",
+						"meaning": "a very good and trusted friend",
+						"viMeaning": "bạn thân",
+						"example": "He is my close friend from childhood.",
+						"viExample": "Anh ấy là bạn thân của tôi từ thuở nhỏ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "happy",
+		"pos": "adjective",
+		"ipa": "/ˈhæpi/",
+		"cefrLevel": "A1",
+		"frequency": 350,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "happiness",
+				"pos": "noun"
+			},
+			{
+				"form": "happily",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "feeling or showing pleasure or contentment",
+				"viDef": "hạnh phúc, vui vẻ",
+				"synonyms": ["joyful", "cheerful"],
+				"antonyms": ["sad", "unhappy"],
+				"examples": [
+					{
+						"text": "I am so happy to see you.",
+						"viText": "Tôi rất vui khi được gặp bạn."
+					},
+					{
+						"text": "They look very happy together.",
+						"viText": "Họ trông rất hạnh phúc bên nhau."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "feel happy",
+						"meaning": "experience a sense of joy",
+						"viMeaning": "cảm thấy vui",
+						"example": "I always feel happy around you.",
+						"viExample": "Tôi luôn cảm thấy vui khi ở bên bạn."
+					},
+					{
+						"phrase": "make someone happy",
+						"meaning": "cause someone to feel joy",
+						"viMeaning": "làm ai đó vui",
+						"example": "Her smile makes me happy.",
+						"viExample": "Nụ cười của cô ấy làm tôi vui."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "big",
+		"pos": "adjective",
+		"ipa": "/bɪɡ/",
+		"cefrLevel": "A1",
+		"frequency": 140,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "bigness",
+				"pos": "noun"
+			},
+			{
+				"form": "biggish",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "of considerable size or extent",
+				"viDef": "to lớn",
+				"synonyms": ["large", "huge"],
+				"antonyms": ["small", "tiny"],
+				"examples": [
+					{
+						"text": "They live in a big city.",
+						"viText": "Họ sống ở một thành phố lớn."
+					},
+					{
+						"text": "He has a big dog.",
+						"viText": "Anh ấy có một con chó lớn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "big deal",
+						"meaning": "something very important",
+						"viMeaning": "chuyện lớn",
+						"example": "It is not a big deal.",
+						"viExample": "Đó không phải là chuyện lớn."
+					},
+					{
+						"phrase": "big difference",
+						"meaning": "a large change or distinction",
+						"viMeaning": "sự khác biệt lớn",
+						"example": "There is a big difference between them.",
+						"viExample": "Có một sự khác biệt lớn giữa họ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "small",
+		"pos": "adjective",
+		"ipa": "/smɔːl/",
+		"cefrLevel": "A1",
+		"frequency": 210,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "smallness",
+				"pos": "noun"
+			},
+			{
+				"form": "smallish",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "of a size that is less than normal or usual",
+				"viDef": "nhỏ bé",
+				"synonyms": ["little", "tiny"],
+				"antonyms": ["big", "large"],
+				"examples": [
+					{
+						"text": "She has a small car.",
+						"viText": "Cô ấy có một chiếc xe nhỏ."
+					},
+					{
+						"text": "The box is too small for this.",
+						"viText": "Cái hộp quá nhỏ cho thứ này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "small town",
+						"meaning": "a little town with few people",
+						"viMeaning": "thị trấn nhỏ",
+						"example": "I grew up in a small town.",
+						"viExample": "Tôi lớn lên ở một thị trấn nhỏ."
+					},
+					{
+						"phrase": "small amount",
+						"meaning": "a little bit of something",
+						"viMeaning": "một lượng nhỏ",
+						"example": "Add a small amount of salt.",
+						"viExample": "Thêm một lượng nhỏ muối."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "good",
+		"pos": "adjective",
+		"ipa": "/ɡʊd/",
+		"cefrLevel": "A1",
+		"frequency": 50,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "goodness",
+				"pos": "noun"
+			},
+			{
+				"form": "goodly",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to be desired or approved of",
+				"viDef": "tốt, hay",
+				"synonyms": ["excellent", "fine"],
+				"antonyms": ["bad", "poor"],
+				"examples": [
+					{
+						"text": "That is a very good idea.",
+						"viText": "Đó là một ý tưởng rất hay."
+					},
+					{
+						"text": "The food here is really good.",
+						"viText": "Thức ăn ở đây thực sự rất ngon."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "good morning",
+						"meaning": "greeting used in the morning",
+						"viMeaning": "chào buổi sáng",
+						"example": "Good morning, how are you today?",
+						"viExample": "Chào buổi sáng, hôm nay bạn thế nào?"
+					},
+					{
+						"phrase": "good luck",
+						"meaning": "used to wish someone success",
+						"viMeaning": "chúc may mắn",
+						"example": "Good luck with your English test!",
+						"viExample": "Chúc may mắn với bài kiểm tra tiếng Anh của bạn!"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "bad",
+		"pos": "adjective",
+		"ipa": "/bæd/",
+		"cefrLevel": "A1",
+		"frequency": 230,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "badly",
+				"pos": "adverb"
+			},
+			{
+				"form": "badness",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "of poor quality or a low standard",
+				"viDef": "tồi tệ, xấu",
+				"synonyms": ["awful", "terrible"],
+				"antonyms": ["good", "excellent"],
+				"examples": [
+					{
+						"text": "I had a really bad day.",
+						"viText": "Tôi đã có một ngày thực sự tồi tệ."
+					},
+					{
+						"text": "The weather is bad today.",
+						"viText": "Thời tiết hôm nay rất xấu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "bad news",
+						"meaning": "negative or unpleasant information",
+						"viMeaning": "tin xấu",
+						"example": "I have some bad news for you.",
+						"viExample": "Tôi có một vài tin xấu cho bạn."
+					},
+					{
+						"phrase": "feel bad",
+						"meaning": "feel guilty, sorry, or ill",
+						"viMeaning": "cảm thấy tồi tệ",
+						"example": "I feel bad about what happened.",
+						"viExample": "Tôi cảm thấy tồi tệ về những gì đã xảy ra."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "day",
+		"pos": "noun",
+		"ipa": "/deɪ/",
+		"cefrLevel": "A1",
+		"frequency": 40,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "daily",
+				"pos": "adjective"
+			},
+			{
+				"form": "daylight",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a period of twenty-four hours",
+				"viDef": "ngày",
+				"synonyms": ["daytime"],
+				"antonyms": ["night"],
+				"examples": [
+					{
+						"text": "Have a nice day at work!",
+						"viText": "Chúc một ngày làm việc tốt lành!"
+					},
+					{
+						"text": "I will see you the next day.",
+						"viText": "Tôi sẽ gặp bạn vào ngày hôm sau."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "all day",
+						"meaning": "during the entire day",
+						"viMeaning": "cả ngày",
+						"example": "It rained all day yesterday.",
+						"viExample": "Hôm qua trời mưa cả ngày."
+					},
+					{
+						"phrase": "every day",
+						"meaning": "each day without exception",
+						"viMeaning": "mỗi ngày",
+						"example": "I drink coffee every day.",
+						"viExample": "Tôi uống cà phê mỗi ngày."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "time",
+		"pos": "noun",
+		"ipa": "/taɪm/",
+		"cefrLevel": "A1",
+		"frequency": 30,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "timely",
+				"pos": "adjective"
+			},
+			{
+				"form": "timeless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the indefinite continued progress of existence and events",
+				"viDef": "thời gian",
+				"synonyms": ["moment", "period"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Do you have the time?",
+						"viText": "Bạn có biết mấy giờ rồi không?"
+					},
+					{
+						"text": "It is time to go home.",
+						"viText": "Đã đến lúc về nhà rồi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "free time",
+						"meaning": "time when you are not working",
+						"viMeaning": "thời gian rảnh",
+						"example": "What do you do in your free time?",
+						"viExample": "Bạn làm gì vào thời gian rảnh?"
+					},
+					{
+						"phrase": "spend time",
+						"meaning": "use time doing a particular activity",
+						"viMeaning": "dành thời gian",
+						"example": "I spend time reading books.",
+						"viExample": "Tôi dành thời gian để đọc sách."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "go",
+		"pos": "verb",
+		"ipa": "/ɡəʊ/",
+		"cefrLevel": "A1",
+		"frequency": 25,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "goer",
+				"pos": "noun"
+			},
+			{
+				"form": "outgoing",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to move from one place to another",
+				"viDef": "đi",
+				"synonyms": ["move", "depart"],
+				"antonyms": ["stay", "stop"],
+				"examples": [
+					{
+						"text": "I want to go to the park.",
+						"viText": "Tôi muốn đi đến công viên."
+					},
+					{
+						"text": "We need to go now.",
+						"viText": "Chúng ta cần đi bây giờ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "go out",
+						"meaning": "leave home to go to a social event",
+						"viMeaning": "đi ra ngoài chơi",
+						"example": "Let's go out for dinner.",
+						"viExample": "Hãy ra ngoài ăn tối nhé."
+					},
+					{
+						"phrase": "go shopping",
+						"meaning": "visit stores to buy goods",
+						"viMeaning": "đi mua sắm",
+						"example": "They go shopping every weekend.",
+						"viExample": "Họ đi mua sắm vào mỗi cuối tuần."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "come",
+		"pos": "verb",
+		"ipa": "/kʌm/",
+		"cefrLevel": "A1",
+		"frequency": 45,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "comer",
+				"pos": "noun"
+			},
+			{
+				"form": "incoming",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to move or travel towards the speaker",
+				"viDef": "đến, tới",
+				"synonyms": ["arrive", "approach"],
+				"antonyms": ["go", "leave"],
+				"examples": [
+					{
+						"text": "Please come to my party tomorrow.",
+						"viText": "Làm ơn hãy đến bữa tiệc của tôi vào ngày mai."
+					},
+					{
+						"text": "Come here and look at this.",
+						"viText": "Lại đây và nhìn xem cái này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "come back",
+						"meaning": "return to a place",
+						"viMeaning": "quay lại",
+						"example": "When will you come back?",
+						"viExample": "Khi nào bạn sẽ quay lại?"
+					},
+					{
+						"phrase": "come from",
+						"meaning": "originate in or be born in",
+						"viMeaning": "đến từ",
+						"example": "Where do you come from?",
+						"viExample": "Bạn đến từ đâu?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "see",
+		"pos": "verb",
+		"ipa": "/siː/",
+		"cefrLevel": "A1",
+		"frequency": 60,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "seer",
+				"pos": "noun"
+			},
+			{
+				"form": "sight",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to perceive with the eyes",
+				"viDef": "nhìn thấy",
+				"synonyms": ["watch", "observe"],
+				"antonyms": ["miss", "ignore"],
+				"examples": [
+					{
+						"text": "I can see the mountains from here.",
+						"viText": "Tôi có thể nhìn thấy những ngọn núi từ đây."
+					},
+					{
+						"text": "Did you see that beautiful bird?",
+						"viText": "Bạn có nhìn thấy con chim đẹp đó không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "let me see",
+						"meaning": "give me a moment to think or check",
+						"viMeaning": "để tôi xem",
+						"example": "Let me see if I have time.",
+						"viExample": "Để tôi xem tôi có thời gian không."
+					},
+					{
+						"phrase": "see a doctor",
+						"meaning": "consult a medical professional",
+						"viMeaning": "đi khám bác sĩ",
+						"example": "You should see a doctor soon.",
+						"viExample": "Bạn nên đi khám bác sĩ sớm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "say",
+		"pos": "verb",
+		"ipa": "/seɪ/",
+		"cefrLevel": "A1",
+		"frequency": 55,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "saying",
+				"pos": "noun"
+			},
+			{
+				"form": "unsaid",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "to utter words so as to convey information",
+				"viDef": "nói",
+				"synonyms": ["speak", "tell"],
+				"antonyms": ["listen"],
+				"examples": [
+					{
+						"text": "What did you just say?",
+						"viText": "Bạn vừa nói gì vậy?"
+					},
+					{
+						"text": "They say it will rain tomorrow.",
+						"viText": "Họ nói ngày mai trời sẽ mưa."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "say sorry",
+						"meaning": "apologize to someone",
+						"viMeaning": "nói lời xin lỗi",
+						"example": "You need to say sorry to him.",
+						"viExample": "Bạn cần nói lời xin lỗi với anh ấy."
+					},
+					{
+						"phrase": "say nothing",
+						"meaning": "remain silent",
+						"viMeaning": "không nói gì",
+						"example": "He chose to say nothing about it.",
+						"viExample": "Anh ấy đã chọn không nói gì về điều đó."
+					}
+				]
+			}
+		]
+	}
+]

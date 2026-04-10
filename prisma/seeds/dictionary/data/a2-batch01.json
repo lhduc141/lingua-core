@@ -1,0 +1,876 @@
+[
+	{
+		"headword": "travel",
+		"pos": "verb",
+		"ipa": "/ˈtrævl/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "traveler", "pos": "noun" },
+			{ "form": "traveling", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To go from one place to another, typically over a distance",
+				"viDef": "du lịch, đi lại",
+				"synonyms": ["journey", "tour", "voyage"],
+				"antonyms": ["stay", "settle"],
+				"examples": [
+					{
+						"text": "I love to travel to different countries every summer.",
+						"viText": "Tôi thích đi du lịch đến các quốc gia khác nhau vào mỗi mùa hè."
+					},
+					{
+						"text": "They travel by train to visit their grandparents.",
+						"viText": "Họ đi bằng tàu hỏa để đến thăm ông bà."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "travel agent",
+						"meaning": "A person or business that arranges travel for customers",
+						"viMeaning": "đại lý du lịch",
+						"example": "The travel agent booked our flights to Paris.",
+						"viExample": "Đại lý du lịch đã đặt chuyến bay của chúng tôi đến Paris."
+					},
+					{
+						"phrase": "air travel",
+						"meaning": "The act of traveling by plane",
+						"viMeaning": "di chuyển bằng đường hàng không",
+						"example": "Air travel is much faster than driving.",
+						"viExample": "Di chuyển bằng đường hàng không nhanh hơn nhiều so với lái xe."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "hotel",
+		"pos": "noun",
+		"ipa": "/həʊˈtel/",
+		"cefrLevel": "A2",
+		"frequency": 1250,
+		"isCommon": true,
+		"wordForms": [{ "form": "hotelier", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A building where people pay for a room to sleep",
+				"viDef": "khách sạn",
+				"synonyms": ["inn", "hostel", "lodging"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We stayed at a luxury hotel near the beach.",
+						"viText": "Chúng tôi đã ở tại một khách sạn sang trọng gần bãi biển."
+					},
+					{
+						"text": "Is there a cheap hotel in this city?",
+						"viText": "Có khách sạn nào rẻ ở thành phố này không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "book a hotel",
+						"meaning": "To reserve a room in a hotel",
+						"viMeaning": "đặt phòng khách sạn",
+						"example": "You should book a hotel before you arrive.",
+						"viExample": "Bạn nên đặt phòng khách sạn trước khi đến."
+					},
+					{
+						"phrase": "five-star hotel",
+						"meaning": "A hotel of the highest quality",
+						"viMeaning": "khách sạn năm sao",
+						"example": "The wedding was held in a five-star hotel.",
+						"viExample": "Đám cưới được tổ chức tại một khách sạn năm sao."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "airport",
+		"pos": "noun",
+		"ipa": "/ˈeəpɔːt/",
+		"cefrLevel": "A2",
+		"frequency": 1400,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A place where airplanes land and take off",
+				"viDef": "sân bay",
+				"synonyms": ["airfield", "airstrip"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We arrived at the airport two hours before our flight.",
+						"viText": "Chúng tôi đã đến sân bay hai giờ trước chuyến bay."
+					},
+					{ "text": "The airport is very crowded today.", "viText": "Sân bay hôm nay rất đông đúc." }
+				],
+				"collocations": [
+					{
+						"phrase": "international airport",
+						"meaning": "An airport that serves flights to other countries",
+						"viMeaning": "sân bay quốc tế",
+						"example": "Tan Son Nhat is a large international airport.",
+						"viExample": "Tân Sơn Nhất là một sân bay quốc tế lớn."
+					},
+					{
+						"phrase": "airport security",
+						"meaning": "Systems and people that protect an airport",
+						"viMeaning": "an ninh sân bay",
+						"example": "We had to go through airport security quickly.",
+						"viExample": "Chúng tôi đã phải đi qua an ninh sân bay một cách nhanh chóng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "restaurant",
+		"pos": "noun",
+		"ipa": "/ˈrestrɒnt/",
+		"cefrLevel": "A2",
+		"frequency": 1300,
+		"isCommon": true,
+		"wordForms": [{ "form": "restaurateur", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A place where people pay to sit and eat meals",
+				"viDef": "nhà hàng",
+				"synonyms": ["eatery", "bistro", "diner"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "They are having dinner at an Italian restaurant.",
+						"viText": "Họ đang ăn tối tại một nhà hàng Ý."
+					},
+					{
+						"text": "This restaurant is famous for its seafood.",
+						"viText": "Nhà hàng này nổi tiếng với hải sản."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fast-food restaurant",
+						"meaning": "A restaurant that serves food quickly",
+						"viMeaning": "nhà hàng thức ăn nhanh",
+						"example": "Kids usually love eating at a fast-food restaurant.",
+						"viExample": "Trẻ em thường thích ăn tại nhà hàng thức ăn nhanh."
+					},
+					{
+						"phrase": "fancy restaurant",
+						"meaning": "An expensive and formal restaurant",
+						"viMeaning": "nhà hàng sang trọng",
+						"example": "He took her to a fancy restaurant for her birthday.",
+						"viExample": "Anh ấy đưa cô ấy đến một nhà hàng sang trọng vào dịp sinh nhật."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "menu",
+		"pos": "noun",
+		"ipa": "/ˈmenjuː/",
+		"cefrLevel": "A2",
+		"frequency": 1600,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A list of food and drinks available at a restaurant",
+				"viDef": "thực đơn",
+				"synonyms": ["bill of fare"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "Can I see the menu, please?", "viText": "Làm ơn cho tôi xem thực đơn được không?" },
+					{
+						"text": "There are many vegetarian options on the menu.",
+						"viText": "Có nhiều lựa chọn ăn chay trên thực đơn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "lunch menu",
+						"meaning": "A list of food served during lunch time",
+						"viMeaning": "thực đơn bữa trưa",
+						"example": "The lunch menu is cheaper than the dinner menu.",
+						"viExample": "Thực đơn bữa trưa rẻ hơn thực đơn bữa tối."
+					},
+					{
+						"phrase": "set menu",
+						"meaning": "A complete meal for a fixed price",
+						"viMeaning": "thực đơn theo set",
+						"example": "We decided to order the three-course set menu.",
+						"viExample": "Chúng tôi quyết định đặt thực đơn ba món theo set."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ticket",
+		"pos": "noun",
+		"ipa": "/ˈtɪkɪt/",
+		"cefrLevel": "A2",
+		"frequency": 1450,
+		"isCommon": true,
+		"wordForms": [{ "form": "ticketing", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A piece of paper or electronic document for travel/entry",
+				"viDef": "vé",
+				"synonyms": ["pass", "voucher"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I bought a ticket for the concert online.",
+						"viText": "Tôi đã mua một chiếc vé cho buổi hòa nhạc trực tuyến."
+					},
+					{
+						"text": "You must show your ticket to the bus driver.",
+						"viText": "Bạn phải xuất trình vé cho tài xế xe buýt."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "one-way ticket",
+						"meaning": "A ticket for a trip in only one direction",
+						"viMeaning": "vé một chiều",
+						"example": "I only need a one-way ticket to London.",
+						"viExample": "Tôi chỉ cần một chiếc vé một chiều đến Luân Đôn."
+					},
+					{
+						"phrase": "parking ticket",
+						"meaning": "A fine for parking a car illegally",
+						"viMeaning": "vé phạt đỗ xe",
+						"example": "He got a parking ticket for leaving his car there.",
+						"viExample": "Anh ấy đã bị nhận vé phạt đỗ xe vì để xe ở đó."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "shopping",
+		"pos": "noun",
+		"ipa": "/ˈʃɒpɪŋ/",
+		"cefrLevel": "A2",
+		"frequency": 1200,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "shopper", "pos": "noun" },
+			{ "form": "shop", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The activity of buying things from shops",
+				"viDef": "việc mua sắm",
+				"synonyms": ["purchasing"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She goes shopping every Saturday morning.",
+						"viText": "Cô ấy đi mua sắm vào mỗi sáng thứ Bảy."
+					},
+					{
+						"text": "We did some window shopping while waiting for the bus.",
+						"viText": "Chúng tôi đã đi ngắm đồ qua kính khi đang chờ xe buýt."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "shopping mall",
+						"meaning": "A large building with many different shops",
+						"viMeaning": "trung tâm thương mại",
+						"example": "The new shopping mall is very big.",
+						"viExample": "Trung tâm thương mại mới rất lớn."
+					},
+					{
+						"phrase": "online shopping",
+						"meaning": "Buying goods or services over the internet",
+						"viMeaning": "mua sắm trực tuyến",
+						"example": "Online shopping is very convenient nowadays.",
+						"viExample": "Mua sắm trực tuyến ngày nay rất tiện lợi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "bank",
+		"pos": "noun",
+		"ipa": "/bæŋk/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "banker", "pos": "noun" },
+			{ "form": "banking", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An organization where people keep and borrow money",
+				"viDef": "ngân hàng",
+				"synonyms": ["financial institution"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I need to go to the bank to withdraw some cash.",
+						"viText": "Tôi cần đến ngân hàng để rút một ít tiền mặt."
+					},
+					{ "text": "The bank is closed on Sundays.", "viText": "Ngân hàng đóng cửa vào Chủ Nhật." }
+				],
+				"collocations": [
+					{
+						"phrase": "bank account",
+						"meaning": "An arrangement with a bank to keep money there",
+						"viMeaning": "tài khoản ngân hàng",
+						"example": "I opened a new bank account yesterday.",
+						"viExample": "Tôi đã mở một tài khoản ngân hàng mới vào hôm qua."
+					},
+					{
+						"phrase": "bank loan",
+						"meaning": "Money borrowed from a bank that must be paid back",
+						"viMeaning": "khoản vay ngân hàng",
+						"example": "They took out a bank loan to buy a house.",
+						"viExample": "Họ đã vay ngân hàng một khoản để mua nhà."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "hospital",
+		"pos": "noun",
+		"ipa": "/ˈhɒspɪtl/",
+		"cefrLevel": "A2",
+		"frequency": 1350,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "hospitality", "pos": "noun" },
+			{ "form": "hospitalize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A place where sick or injured people receive medical treatment",
+				"viDef": "bệnh viện",
+				"synonyms": ["medical center", "clinic"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She works as a nurse at the city hospital.",
+						"viText": "Cô ấy làm y tá tại bệnh viện thành phố."
+					},
+					{
+						"text": "My grandfather is in the hospital for a check-up.",
+						"viText": "Ông tôi đang ở bệnh viện để kiểm tra sức khỏe."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "public hospital",
+						"meaning": "A hospital run by the government",
+						"viMeaning": "bệnh viện công",
+						"example": "The public hospital is always very busy.",
+						"viExample": "Bệnh viện công lúc nào cũng rất bận rộn."
+					},
+					{
+						"phrase": "go to hospital",
+						"meaning": "To visit a hospital for treatment",
+						"viMeaning": "đi bệnh viện",
+						"example": "You should go to hospital if the pain continues.",
+						"viExample": "Bạn nên đi bệnh viện nếu cơn đau vẫn tiếp tục."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "doctor",
+		"pos": "noun",
+		"ipa": "/ˈdɒktə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1180,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "doctoral", "pos": "adjective" },
+			{ "form": "doctorate", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person trained to treat people who are ill",
+				"viDef": "bác sĩ",
+				"synonyms": ["physician", "GP"],
+				"antonyms": ["patient"],
+				"examples": [
+					{
+						"text": "The doctor gave me some medicine for my cold.",
+						"viText": "Bác sĩ đã cho tôi một ít thuốc trị cảm lạnh."
+					},
+					{
+						"text": "You should see a doctor about that cough.",
+						"viText": "Bạn nên đi khám bác sĩ về cái ho đó."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "family doctor",
+						"meaning": "A doctor who treats all members of a family",
+						"viMeaning": "bác sĩ gia đình",
+						"example": "Our family doctor has known us for years.",
+						"viExample": "Bác sĩ gia đình của chúng tôi đã biết chúng tôi nhiều năm rồi."
+					},
+					{
+						"phrase": "doctor's appointment",
+						"meaning": "An arranged time to see a doctor",
+						"viMeaning": "cuộc hẹn với bác sĩ",
+						"example": "I have a doctor's appointment at 10 AM.",
+						"viExample": "Tôi có một cuộc hẹn với bác sĩ vào lúc 10 giờ sáng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "medicine",
+		"pos": "noun",
+		"ipa": "/ˈmedsn/",
+		"cefrLevel": "A2",
+		"frequency": 1700,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "medical", "pos": "adjective" },
+			{ "form": "medicate", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A substance used to treat an illness or injury",
+				"viDef": "thuốc, y học",
+				"synonyms": ["drug", "medication", "cure"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Take this medicine twice a day after meals.",
+						"viText": "Uống thuốc này hai lần một ngày sau bữa ăn."
+					},
+					{
+						"text": "He is studying medicine at university.",
+						"viText": "Anh ấy đang học y khoa tại trường đại học."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "take medicine",
+						"meaning": "To swallow or use a drug to get better",
+						"viMeaning": "uống thuốc",
+						"example": "Don't forget to take your medicine.",
+						"viExample": "Đừng quên uống thuốc của bạn nhé."
+					},
+					{
+						"phrase": "modern medicine",
+						"meaning": "The type of medicine practiced nowadays",
+						"viMeaning": "y học hiện đại",
+						"example": "Modern medicine can cure many diseases.",
+						"viExample": "Y học hiện đại có thể chữa khỏi nhiều bệnh tật."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "weather",
+		"pos": "noun",
+		"ipa": "/ˈweðə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1220,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The state of the atmosphere at a place and time",
+				"viDef": "thời tiết",
+				"synonyms": ["climate"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "The weather is very hot today.", "viText": "Thời tiết hôm nay rất nóng." },
+					{ "text": "What is the weather like in London?", "viText": "Thời tiết ở Luân Đôn như thế nào?" }
+				],
+				"collocations": [
+					{
+						"phrase": "weather forecast",
+						"meaning": "A description of what the weather will be like",
+						"viMeaning": "dự báo thời tiết",
+						"example": "The weather forecast says it will rain tomorrow.",
+						"viExample": "Dự báo thời tiết nói rằng ngày mai trời sẽ mưa."
+					},
+					{
+						"phrase": "bad weather",
+						"meaning": "Unpleasant conditions like rain or snow",
+						"viMeaning": "thời tiết xấu",
+						"example": "The flight was delayed because of bad weather.",
+						"viExample": "Chuyến bay đã bị hoãn vì thời tiết xấu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "season",
+		"pos": "noun",
+		"ipa": "/ˈsiːzn/",
+		"cefrLevel": "A2",
+		"frequency": 1550,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "seasonal", "pos": "adjective" },
+			{ "form": "seasonally", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "One of the four main periods of the year",
+				"viDef": "mùa",
+				"synonyms": ["period", "time"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "My favorite season is spring.", "viText": "Mùa yêu thích của tôi là mùa xuân." },
+					{ "text": "There are four seasons in many countries.", "viText": "Có bốn mùa ở nhiều quốc gia." }
+				],
+				"collocations": [
+					{
+						"phrase": "rainy season",
+						"meaning": "The time of year when it rains a lot",
+						"viMeaning": "mùa mưa",
+						"example": "In Vietnam, the rainy season starts in May.",
+						"viExample": "Ở Việt Nam, mùa mưa bắt đầu vào tháng Năm."
+					},
+					{
+						"phrase": "holiday season",
+						"meaning": "The period of time when most people take holidays",
+						"viMeaning": "mùa lễ hội",
+						"example": "The shops are very busy during the holiday season.",
+						"viExample": "Các cửa hàng rất bận rộn trong mùa lễ hội."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "forest",
+		"pos": "noun",
+		"ipa": "/ˈfɒrɪst/",
+		"cefrLevel": "A2",
+		"frequency": 1850,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "forester", "pos": "noun" },
+			{ "form": "forestry", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A large area of land covered with trees",
+				"viDef": "rừng",
+				"synonyms": ["woods", "jungle"],
+				"antonyms": ["desert"],
+				"examples": [
+					{ "text": "We went for a walk in the forest.", "viText": "Chúng tôi đã đi dạo trong rừng." },
+					{
+						"text": "Many wild animals live in the forest.",
+						"viText": "Nhiều động vật hoang dã sống trong rừng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "pine forest",
+						"meaning": "A forest consisting mainly of pine trees",
+						"viMeaning": "rừng thông",
+						"example": "Da Lat is famous for its beautiful pine forests.",
+						"viExample": "Đà Lạt nổi tiếng với những rừng thông đẹp."
+					},
+					{
+						"phrase": "tropical forest",
+						"meaning": "A forest in a hot, wet part of the world",
+						"viMeaning": "rừng nhiệt đới",
+						"example": "The Amazon is a huge tropical forest.",
+						"viExample": "Amazon là một khu rừng nhiệt đới khổng lồ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "mountain",
+		"pos": "noun",
+		"ipa": "/ˈmaʊntən/",
+		"cefrLevel": "A2",
+		"frequency": 1650,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "mountainous", "pos": "adjective" },
+			{ "form": "mountaineer", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A very high hill, often with rocks or snow",
+				"viDef": "núi",
+				"synonyms": ["peak", "height"],
+				"antonyms": ["valley", "plain"],
+				"examples": [
+					{
+						"text": "Mount Everest is the highest mountain in the world.",
+						"viText": "Đỉnh Everest là ngọn núi cao nhất thế giới."
+					},
+					{
+						"text": "We climbed a small mountain last weekend.",
+						"viText": "Chúng tôi đã leo một ngọn núi nhỏ vào cuối tuần trước."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mountain range",
+						"meaning": "A group of mountains that are connected",
+						"viMeaning": "dãy núi",
+						"example": "The Himalayas is a famous mountain range.",
+						"viExample": "Himalaya là một dãy núi nổi tiếng."
+					},
+					{
+						"phrase": "climb a mountain",
+						"meaning": "To go up a mountain",
+						"viMeaning": "leo núi",
+						"example": "It took them three days to climb the mountain.",
+						"viExample": "Họ đã mất ba ngày để leo lên ngọn núi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "river",
+		"pos": "noun",
+		"ipa": "/ˈrɪvə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1420,
+		"isCommon": true,
+		"wordForms": [{ "form": "riverside", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A large natural stream of water flowing to the sea",
+				"viDef": "sông",
+				"synonyms": ["stream", "brook"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "The Mekong River is very long.", "viText": "Sông Mê Kông rất dài." },
+					{ "text": "They often go fishing by the river.", "viText": "Họ thường đi câu cá bên bờ sông." }
+				],
+				"collocations": [
+					{
+						"phrase": "river bank",
+						"meaning": "The land along the side of a river",
+						"viMeaning": "bờ sông",
+						"example": "They sat on the river bank and had a picnic.",
+						"viExample": "Họ ngồi trên bờ sông và đi dã ngoại."
+					},
+					{
+						"phrase": "cross a river",
+						"meaning": "To go from one side of a river to another",
+						"viMeaning": "băng qua sông",
+						"example": "We had to cross the river by boat.",
+						"viExample": "Chúng tôi đã phải băng qua sông bằng thuyền."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "beach",
+		"pos": "noun",
+		"ipa": "/biːtʃ/",
+		"cefrLevel": "A2",
+		"frequency": 1280,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "beachfront", "pos": "noun" },
+			{ "form": "beachy", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An area of sand or stones next to the sea",
+				"viDef": "bãi biển",
+				"synonyms": ["seaside", "shore", "coast"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We spent the whole day at the beach.",
+						"viText": "Chúng tôi đã dành cả ngày ở bãi biển."
+					},
+					{
+						"text": "The children are playing with sand on the beach.",
+						"viText": "Lũ trẻ đang chơi với cát trên bãi biển."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sandy beach",
+						"meaning": "A beach covered with sand",
+						"viMeaning": "bãi biển đầy cát",
+						"example": "I prefer a sandy beach to a rocky one.",
+						"viExample": "Tôi thích bãi biển đầy cát hơn là bãi biển đầy đá."
+					},
+					{
+						"phrase": "go to the beach",
+						"meaning": "To visit the seaside for fun",
+						"viMeaning": "đi biển",
+						"example": "Let's go to the beach this weekend!",
+						"viExample": "Hãy đi biển vào cuối tuần này đi!"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "island",
+		"pos": "noun",
+		"ipa": "/ˈaɪlənd/",
+		"cefrLevel": "A2",
+		"frequency": 1750,
+		"isCommon": true,
+		"wordForms": [{ "form": "islander", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A piece of land completely surrounded by water",
+				"viDef": "hòn đảo",
+				"synonyms": ["isle"],
+				"antonyms": ["mainland"],
+				"examples": [
+					{
+						"text": "Phu Quoc is a beautiful island in Vietnam.",
+						"viText": "Phú Quốc là một hòn đảo xinh đẹp ở Việt Nam."
+					},
+					{ "text": "They traveled to the island by ferry.", "viText": "Họ đã đi đến đảo bằng phà." }
+				],
+				"collocations": [
+					{
+						"phrase": "desert island",
+						"meaning": "An island where no people live",
+						"viMeaning": "đảo hoang",
+						"example": "He dreamt of living on a desert island.",
+						"viExample": "Anh ấy đã mơ về việc sống trên một hòn đảo hoang."
+					},
+					{
+						"phrase": "tropical island",
+						"meaning": "An island in a warm, sunny part of the world",
+						"viMeaning": "đảo nhiệt đới",
+						"example": "The resort is located on a tropical island.",
+						"viExample": "Khu nghỉ dưỡng nằm trên một hòn đảo nhiệt đới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "meeting",
+		"pos": "noun",
+		"ipa": "/ˈmiːtɪŋ/",
+		"cefrLevel": "A2",
+		"frequency": 1120,
+		"isCommon": true,
+		"wordForms": [{ "form": "meet", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An occasion when people come together to discuss something",
+				"viDef": "cuộc họp",
+				"synonyms": ["gathering", "discussion", "conference"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I have an important meeting at 9 o'clock.",
+						"viText": "Tôi có một cuộc họp quan trọng vào lúc 9 giờ."
+					},
+					{ "text": "The meeting lasted for two hours.", "viText": "Cuộc họp đã kéo dài trong hai giờ." }
+				],
+				"collocations": [
+					{
+						"phrase": "business meeting",
+						"meaning": "A meeting to discuss professional matters",
+						"viMeaning": "cuộc họp kinh doanh",
+						"example": "She is busy in a business meeting right now.",
+						"viExample": "Cô ấy đang bận họp kinh doanh ngay bây giờ."
+					},
+					{
+						"phrase": "attend a meeting",
+						"meaning": "To go to a meeting",
+						"viMeaning": "tham dự cuộc họp",
+						"example": "All staff must attend the meeting.",
+						"viExample": "Tất cả nhân viên phải tham dự cuộc họp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "office",
+		"pos": "noun",
+		"ipa": "/ˈɒfɪs/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "officer", "pos": "noun" },
+			{ "form": "official", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A room or building where people work at desks",
+				"viDef": "văn phòng",
+				"synonyms": ["workplace"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "My office is on the fourth floor.", "viText": "Văn phòng của tôi ở tầng bốn." },
+					{
+						"text": "He usually stays at the office until 7 PM.",
+						"viText": "Anh ấy thường ở lại văn phòng cho đến 7 giờ tối."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "office worker",
+						"meaning": "A person who works in an office",
+						"viMeaning": "nhân viên văn phòng",
+						"example": "Many office workers eat lunch at their desks.",
+						"viExample": "Nhiều nhân viên văn phòng ăn trưa tại bàn làm việc."
+					},
+					{
+						"phrase": "post office",
+						"meaning": "A place where you can send letters and buy stamps",
+						"viMeaning": "bưu điện",
+						"example": "Is there a post office near here?",
+						"viExample": "Có bưu điện nào gần đây không?"
+					}
+				]
+			}
+		]
+	}
+]

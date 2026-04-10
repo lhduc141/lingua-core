@@ -1,0 +1,1062 @@
+[
+	{
+		"headword": "love",
+		"pos": "verb",
+		"ipa": "/lʌv/",
+		"cefrLevel": "A1",
+		"frequency": 85,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "lover",
+				"pos": "noun"
+			},
+			{
+				"form": "lovable",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "feel deep affection for someone or something",
+				"viDef": "yêu, thích",
+				"synonyms": ["adore", "cherish"],
+				"antonyms": ["hate"],
+				"examples": [
+					{
+						"text": "I love my family very much.",
+						"viText": "Tôi rất yêu gia đình mình."
+					},
+					{
+						"text": "She loves reading books at night.",
+						"viText": "Cô ấy thích đọc sách vào ban đêm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fall in love",
+						"meaning": "begin to feel romantic love",
+						"viMeaning": "phải lòng",
+						"example": "They fell in love very quickly.",
+						"viExample": "Họ đã phải lòng nhau rất nhanh."
+					},
+					{
+						"phrase": "love at first sight",
+						"meaning": "loving someone immediately upon meeting",
+						"viMeaning": "tiếng sét ái tình",
+						"example": "For them, it was love at first sight.",
+						"viExample": "Với họ, đó là tiếng sét ái tình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "have",
+		"pos": "verb",
+		"ipa": "/hæv/",
+		"cefrLevel": "A1",
+		"frequency": 10,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "haver",
+				"pos": "noun"
+			},
+			{
+				"form": "have-not",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "possess, own, or hold something",
+				"viDef": "có",
+				"synonyms": ["possess", "own"],
+				"antonyms": ["lack"],
+				"examples": [
+					{
+						"text": "I have a new computer.",
+						"viText": "Tôi có một cái máy tính mới."
+					},
+					{
+						"text": "They have two small dogs.",
+						"viText": "Họ có hai con chó nhỏ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "have a look",
+						"meaning": "look at something briefly",
+						"viMeaning": "nhìn thử",
+						"example": "Can I have a look at your book?",
+						"viExample": "Tôi có thể xem thử sách của bạn không?"
+					},
+					{
+						"phrase": "have fun",
+						"meaning": "enjoy yourself doing something",
+						"viMeaning": "chơi vui vẻ",
+						"example": "Have fun at the party tonight!",
+						"viExample": "Đi chơi tiệc vui vẻ nhé!"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "make",
+		"pos": "verb",
+		"ipa": "/meɪk/",
+		"cefrLevel": "A1",
+		"frequency": 22,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "maker",
+				"pos": "noun"
+			},
+			{
+				"form": "makable",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "form something by putting parts together",
+				"viDef": "làm, tạo ra",
+				"synonyms": ["create", "build"],
+				"antonyms": ["destroy"],
+				"examples": [
+					{
+						"text": "I will make a cake today.",
+						"viText": "Tôi sẽ làm một cái bánh hôm nay."
+					},
+					{
+						"text": "Please do not make a noise.",
+						"viText": "Làm ơn đừng làm ồn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make a decision",
+						"meaning": "decide about something",
+						"viMeaning": "đưa ra quyết định",
+						"example": "You need to make a decision soon.",
+						"viExample": "Bạn cần sớm đưa ra quyết định."
+					},
+					{
+						"phrase": "make friends",
+						"meaning": "become friendly with new people",
+						"viMeaning": "kết bạn",
+						"example": "It is easy to make friends here.",
+						"viExample": "Rất dễ để kết bạn ở đây."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "take",
+		"pos": "verb",
+		"ipa": "/teɪk/",
+		"cefrLevel": "A1",
+		"frequency": 35,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "taker",
+				"pos": "noun"
+			},
+			{
+				"form": "takeaway",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "reach for and hold something with your hands",
+				"viDef": "cầm, lấy",
+				"synonyms": ["grab", "hold"],
+				"antonyms": ["give", "leave"],
+				"examples": [
+					{
+						"text": "Please take a pen and write.",
+						"viText": "Hãy lấy một cây bút và viết."
+					},
+					{
+						"text": "I will take an umbrella with me.",
+						"viText": "Tôi sẽ mang theo một chiếc ô."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "take a break",
+						"meaning": "stop working to rest",
+						"viMeaning": "nghỉ ngơi",
+						"example": "Let's take a break for ten minutes.",
+						"viExample": "Hãy nghỉ ngơi mười phút nhé."
+					},
+					{
+						"phrase": "take a picture",
+						"meaning": "use a camera to create an image",
+						"viMeaning": "chụp ảnh",
+						"example": "Can you take a picture of us?",
+						"viExample": "Bạn có thể chụp một bức ảnh cho chúng tôi không?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "give",
+		"pos": "verb",
+		"ipa": "/ɡɪv/",
+		"cefrLevel": "A1",
+		"frequency": 48,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "giver",
+				"pos": "noun"
+			},
+			{
+				"form": "giveaway",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "freely transfer the possession of something to someone",
+				"viDef": "cho, tặng",
+				"synonyms": ["provide", "offer"],
+				"antonyms": ["take", "receive"],
+				"examples": [
+					{
+						"text": "I will give you a present.",
+						"viText": "Tôi sẽ tặng bạn một món quà."
+					},
+					{
+						"text": "Please give me some water.",
+						"viText": "Làm ơn cho tôi một ít nước."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "give up",
+						"meaning": "stop trying to do something",
+						"viMeaning": "từ bỏ",
+						"example": "Never give up on your dreams.",
+						"viExample": "Đừng bao giờ từ bỏ ước mơ của bạn."
+					},
+					{
+						"phrase": "give advice",
+						"meaning": "offer an opinion or suggestion",
+						"viMeaning": "cho lời khuyên",
+						"example": "My mother always gives good advice.",
+						"viExample": "Mẹ tôi luôn cho những lời khuyên hay."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "get",
+		"pos": "verb",
+		"ipa": "/ɡet/",
+		"cefrLevel": "A1",
+		"frequency": 39,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "getter",
+				"pos": "noun"
+			},
+			{
+				"form": "getaway",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "come to have or hold something",
+				"viDef": "nhận được, lấy",
+				"synonyms": ["obtain", "acquire"],
+				"antonyms": ["lose"],
+				"examples": [
+					{
+						"text": "Did you get my message?",
+						"viText": "Bạn có nhận được tin nhắn của tôi không?"
+					},
+					{
+						"text": "I need to get a new phone.",
+						"viText": "Tôi cần mua một chiếc điện thoại mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "get married",
+						"meaning": "become a husband or wife",
+						"viMeaning": "kết hôn",
+						"example": "They will get married next year.",
+						"viExample": "Họ sẽ kết hôn vào năm sau."
+					},
+					{
+						"phrase": "get ready",
+						"meaning": "prepare for an action or event",
+						"viMeaning": "chuẩn bị sẵn sàng",
+						"example": "Get ready for school now.",
+						"viExample": "Hãy chuẩn bị sẵn sàng đi học ngay."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "put",
+		"pos": "verb",
+		"ipa": "/pʊt/",
+		"cefrLevel": "A1",
+		"frequency": 82,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "putter",
+				"pos": "noun"
+			},
+			{
+				"form": "putdown",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "move to or place in a particular position",
+				"viDef": "đặt, để",
+				"synonyms": ["place", "set"],
+				"antonyms": ["remove"],
+				"examples": [
+					{
+						"text": "Put the book on the table.",
+						"viText": "Đặt cuốn sách lên bàn."
+					},
+					{
+						"text": "Where did you put my keys?",
+						"viText": "Bạn đã để chìa khóa của tôi ở đâu?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "put on",
+						"meaning": "dress yourself in clothing",
+						"viMeaning": "mặc vào",
+						"example": "Put on your coat, it is cold.",
+						"viExample": "Mặc áo khoác vào, trời lạnh đấy."
+					},
+					{
+						"phrase": "put away",
+						"meaning": "store something in its usual place",
+						"viMeaning": "cất đi",
+						"example": "Please put your toys away.",
+						"viExample": "Vui lòng cất đồ chơi của bạn đi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ask",
+		"pos": "verb",
+		"ipa": "/ɑːsk/",
+		"cefrLevel": "A1",
+		"frequency": 95,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "asker",
+				"pos": "noun"
+			},
+			{
+				"form": "asking",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "say something to obtain an answer or information",
+				"viDef": "hỏi, yêu cầu",
+				"synonyms": ["inquire", "question"],
+				"antonyms": ["answer", "reply"],
+				"examples": [
+					{
+						"text": "Can I ask you a question?",
+						"viText": "Tôi có thể hỏi bạn một câu được không?"
+					},
+					{
+						"text": "She asked me for some money.",
+						"viText": "Cô ấy đã hỏi xin tôi một ít tiền."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ask for help",
+						"meaning": "request assistance from someone",
+						"viMeaning": "xin giúp đỡ",
+						"example": "Do not hesitate to ask for help.",
+						"viExample": "Đừng ngần ngại xin giúp đỡ."
+					},
+					{
+						"phrase": "ask out",
+						"meaning": "invite someone on a romantic date",
+						"viMeaning": "mời đi chơi hẹn hò",
+						"example": "He finally asked her out.",
+						"viExample": "Cuối cùng anh ấy cũng mời cô ấy đi hẹn hò."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "answer",
+		"pos": "verb",
+		"ipa": "/ˈɑːnsə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 155,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "answerer",
+				"pos": "noun"
+			},
+			{
+				"form": "answerable",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "say or write something in reaction to a question",
+				"viDef": "trả lời",
+				"synonyms": ["reply", "respond"],
+				"antonyms": ["ask", "question"],
+				"examples": [
+					{
+						"text": "Please answer the question honestly.",
+						"viText": "Vui lòng trả lời câu hỏi một cách thành thật."
+					},
+					{
+						"text": "Nobody answered the phone.",
+						"viText": "Không ai trả lời điện thoại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "answer the door",
+						"meaning": "go to open the door when someone knocks",
+						"viMeaning": "ra mở cửa",
+						"example": "Can you answer the door, please?",
+						"viExample": "Bạn có thể ra mở cửa giúp tôi không?"
+					},
+					{
+						"phrase": "right answer",
+						"meaning": "the correct solution to a question",
+						"viMeaning": "câu trả lời đúng",
+						"example": "You gave the right answer.",
+						"viExample": "Bạn đã đưa ra câu trả lời đúng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "beautiful",
+		"pos": "adjective",
+		"ipa": "/ˈbjuːtɪfl/",
+		"cefrLevel": "A1",
+		"frequency": 350,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "beautifully",
+				"pos": "adverb"
+			},
+			{
+				"form": "beauty",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "pleasing the senses or mind aesthetically",
+				"viDef": "xinh đẹp",
+				"synonyms": ["pretty", "gorgeous"],
+				"antonyms": ["ugly", "hideous"],
+				"examples": [
+					{
+						"text": "She wore a beautiful dress.",
+						"viText": "Cô ấy mặc một chiếc váy rất đẹp."
+					},
+					{
+						"text": "The flowers in the garden are beautiful.",
+						"viText": "Những bông hoa trong vườn rất đẹp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "beautiful girl",
+						"meaning": "a very pretty young female",
+						"viMeaning": "cô gái xinh đẹp",
+						"example": "She is a very beautiful girl.",
+						"viExample": "Cô ấy là một cô gái rất xinh đẹp."
+					},
+					{
+						"phrase": "beautiful day",
+						"meaning": "a day with nice weather",
+						"viMeaning": "ngày đẹp trời",
+						"example": "It is a beautiful day to go outside.",
+						"viExample": "Đó là một ngày đẹp trời để ra ngoài."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "tired",
+		"pos": "adjective",
+		"ipa": "/ˈtaɪəd/",
+		"cefrLevel": "A1",
+		"frequency": 450,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "tiredness",
+				"pos": "noun"
+			},
+			{
+				"form": "tirelessly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "in need of sleep or rest",
+				"viDef": "mệt mỏi",
+				"synonyms": ["exhausted", "weary"],
+				"antonyms": ["energetic", "awake"],
+				"examples": [
+					{
+						"text": "I feel very tired today.",
+						"viText": "Hôm nay tôi cảm thấy rất mệt."
+					},
+					{
+						"text": "He is tired after working all day.",
+						"viText": "Anh ấy mệt mỏi sau khi làm việc cả ngày."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "feel tired",
+						"meaning": "experience a lack of energy",
+						"viMeaning": "cảm thấy mệt",
+						"example": "I feel tired and need to sleep.",
+						"viExample": "Tôi cảm thấy mệt và cần phải ngủ."
+					},
+					{
+						"phrase": "tired of",
+						"meaning": "bored or annoyed with something",
+						"viMeaning": "chán ngấy",
+						"example": "I am tired of eating the same food.",
+						"viExample": "Tôi chán ngấy việc ăn mãi một món."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "hungry",
+		"pos": "adjective",
+		"ipa": "/ˈhʌŋɡri/",
+		"cefrLevel": "A1",
+		"frequency": 550,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "hunger",
+				"pos": "noun"
+			},
+			{
+				"form": "hungrily",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "feeling or displaying the need for food",
+				"viDef": "đói bụng",
+				"synonyms": ["starving", "famished"],
+				"antonyms": ["full", "stuffed"],
+				"examples": [
+					{
+						"text": "I am very hungry right now.",
+						"viText": "Bây giờ tôi rất đói."
+					},
+					{
+						"text": "The hungry baby started to cry.",
+						"viText": "Đứa bé đói bụng bắt đầu khóc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "feel hungry",
+						"meaning": "have a physical desire for food",
+						"viMeaning": "cảm thấy đói",
+						"example": "Do you feel hungry yet?",
+						"viExample": "Bạn đã cảm thấy đói chưa?"
+					},
+					{
+						"phrase": "go hungry",
+						"meaning": "suffer from lack of food",
+						"viMeaning": "chịu đói",
+						"example": "Many animals go hungry in winter.",
+						"viExample": "Nhiều loài động vật phải chịu đói vào mùa đông."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "clean",
+		"pos": "adjective",
+		"ipa": "/kliːn/",
+		"cefrLevel": "A1",
+		"frequency": 410,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "cleanness",
+				"pos": "noun"
+			},
+			{
+				"form": "cleanly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "free from dirt, marks, or stains",
+				"viDef": "sạch sẽ",
+				"synonyms": ["pure", "spotless"],
+				"antonyms": ["dirty", "filthy"],
+				"examples": [
+					{
+						"text": "Your room is very clean.",
+						"viText": "Phòng của bạn rất sạch sẽ."
+					},
+					{
+						"text": "We need clean water to drink.",
+						"viText": "Chúng ta cần nước sạch để uống."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "clean the house",
+						"meaning": "remove dirt and dust from your home",
+						"viMeaning": "dọn dẹp nhà cửa",
+						"example": "I must clean the house today.",
+						"viExample": "Tôi phải dọn dẹp nhà cửa hôm nay."
+					},
+					{
+						"phrase": "keep clean",
+						"meaning": "maintain something in a clean state",
+						"viMeaning": "giữ sạch sẽ",
+						"example": "Please keep the kitchen clean.",
+						"viExample": "Làm ơn giữ cho nhà bếp sạch sẽ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "dirty",
+		"pos": "adjective",
+		"ipa": "/ˈdɜːti/",
+		"cefrLevel": "A1",
+		"frequency": 620,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "dirtiness",
+				"pos": "noun"
+			},
+			{
+				"form": "dirt",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "covered or marked with an unclean substance",
+				"viDef": "bẩn, dơ",
+				"synonyms": ["filthy", "messy"],
+				"antonyms": ["clean", "pure"],
+				"examples": [
+					{
+						"text": "Wash your dirty hands.",
+						"viText": "Hãy rửa đôi tay bẩn của bạn."
+					},
+					{
+						"text": "My shoes are dirty from the mud.",
+						"viText": "Giày của tôi bị bẩn do bùn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "get dirty",
+						"meaning": "become covered in dirt",
+						"viMeaning": "bị bẩn",
+						"example": "Don't let your clothes get dirty.",
+						"viExample": "Đừng để quần áo của bạn bị bẩn."
+					},
+					{
+						"phrase": "dirty clothes",
+						"meaning": "garments that need to be washed",
+						"viMeaning": "quần áo bẩn",
+						"example": "Put your dirty clothes in the basket.",
+						"viExample": "Hãy bỏ quần áo bẩn của bạn vào rổ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "easy",
+		"pos": "adjective",
+		"ipa": "/ˈiːzi/",
+		"cefrLevel": "A1",
+		"frequency": 380,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "easily",
+				"pos": "adverb"
+			},
+			{
+				"form": "easiness",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "achieved without great effort, present few difficulties",
+				"viDef": "dễ dàng",
+				"synonyms": ["simple", "effortless"],
+				"antonyms": ["hard", "difficult"],
+				"examples": [
+					{
+						"text": "This test is very easy.",
+						"viText": "Bài kiểm tra này rất dễ."
+					},
+					{
+						"text": "It is easy to learn this game.",
+						"viText": "Trò chơi này rất dễ học."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "easy to do",
+						"meaning": "not difficult to perform",
+						"viMeaning": "dễ làm",
+						"example": "This math problem is easy to do.",
+						"viExample": "Bài toán này rất dễ làm."
+					},
+					{
+						"phrase": "take it easy",
+						"meaning": "relax and avoid working too hard",
+						"viMeaning": "thư giãn đi",
+						"example": "You are stressed, just take it easy.",
+						"viExample": "Bạn đang căng thẳng, hãy thư giãn đi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "hard",
+		"pos": "adjective",
+		"ipa": "/hɑːd/",
+		"cefrLevel": "A1",
+		"frequency": 290,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "hardness",
+				"pos": "noun"
+			},
+			{
+				"form": "hardly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "requiring a great deal of endurance or effort",
+				"viDef": "khó khăn, cứng",
+				"synonyms": ["difficult", "tough"],
+				"antonyms": ["easy", "soft"],
+				"examples": [
+					{
+						"text": "English grammar can be hard.",
+						"viText": "Ngữ pháp tiếng Anh có thể rất khó."
+					},
+					{
+						"text": "The chair is too hard to sit on.",
+						"viText": "Cái ghế quá cứng để ngồi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "work hard",
+						"meaning": "put a lot of effort into a job",
+						"viMeaning": "làm việc chăm chỉ",
+						"example": "She works hard every single day.",
+						"viExample": "Cô ấy làm việc chăm chỉ mỗi ngày."
+					},
+					{
+						"phrase": "hard time",
+						"meaning": "a difficult period or situation",
+						"viMeaning": "thời gian khó khăn",
+						"example": "We had a hard time finding it.",
+						"viExample": "Chúng tôi đã có một thời gian khó khăn để tìm nó."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "right",
+		"pos": "adjective",
+		"ipa": "/raɪt/",
+		"cefrLevel": "A1",
+		"frequency": 140,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "rightly",
+				"pos": "adverb"
+			},
+			{
+				"form": "rightness",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "morally good, justified, or acceptable",
+				"viDef": "đúng",
+				"synonyms": ["correct", "accurate"],
+				"antonyms": ["wrong", "left"],
+				"examples": [
+					{
+						"text": "That is the right answer.",
+						"viText": "Đó là câu trả lời đúng."
+					},
+					{
+						"text": "You made the right choice.",
+						"viText": "Bạn đã đưa ra lựa chọn đúng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "be right",
+						"meaning": "be correct in a statement or opinion",
+						"viMeaning": "nói đúng",
+						"example": "I think you might be right.",
+						"viExample": "Tôi nghĩ bạn có thể đúng."
+					},
+					{
+						"phrase": "right hand",
+						"meaning": "the hand on the right side",
+						"viMeaning": "tay phải",
+						"example": "He writes with his right hand.",
+						"viExample": "Anh ấy viết bằng tay phải."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "wrong",
+		"pos": "adjective",
+		"ipa": "/rɒŋ/",
+		"cefrLevel": "A1",
+		"frequency": 280,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "wrongly",
+				"pos": "adverb"
+			},
+			{
+				"form": "wrongness",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "not correct or true; incorrect",
+				"viDef": "sai",
+				"synonyms": ["incorrect", "mistaken"],
+				"antonyms": ["right", "correct"],
+				"examples": [
+					{
+						"text": "I got the wrong number.",
+						"viText": "Tôi đã gọi sai số."
+					},
+					{
+						"text": "Your answer to the question is wrong.",
+						"viText": "Câu trả lời của bạn cho câu hỏi là sai."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "go wrong",
+						"meaning": "make a mistake or fail",
+						"viMeaning": "trở nên tồi tệ, sai lầm",
+						"example": "Everything started to go wrong.",
+						"viExample": "Mọi thứ bắt đầu trở nên sai lầm."
+					},
+					{
+						"phrase": "wrong way",
+						"meaning": "the incorrect direction or method",
+						"viMeaning": "sai đường, sai cách",
+						"example": "We are driving the wrong way.",
+						"viExample": "Chúng ta đang lái xe sai đường."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "long",
+		"pos": "adjective",
+		"ipa": "/lɒŋ/",
+		"cefrLevel": "A1",
+		"frequency": 170,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "length",
+				"pos": "noun"
+			},
+			{
+				"form": "lengthy",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "measuring a great distance from end to end",
+				"viDef": "dài",
+				"synonyms": ["extended", "prolonged"],
+				"antonyms": ["short", "brief"],
+				"examples": [
+					{
+						"text": "She has long black hair.",
+						"viText": "Cô ấy có mái tóc đen dài."
+					},
+					{
+						"text": "It was a very long movie.",
+						"viText": "Đó là một bộ phim rất dài."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "long time",
+						"meaning": "a large amount of time passed",
+						"viMeaning": "thời gian dài",
+						"example": "I waited for a long time.",
+						"viExample": "Tôi đã đợi trong một thời gian dài."
+					},
+					{
+						"phrase": "as long as",
+						"meaning": "provided that or on the condition that",
+						"viMeaning": "miễn là",
+						"example": "You can stay as long as you want.",
+						"viExample": "Bạn có thể ở lại bao lâu tùy thích."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "short",
+		"pos": "adjective",
+		"ipa": "/ʃɔːt/",
+		"cefrLevel": "A1",
+		"frequency": 310,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "shortness",
+				"pos": "noun"
+			},
+			{
+				"form": "shortly",
+				"pos": "adverb"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "measuring a small distance from end to end",
+				"viDef": "ngắn, thấp",
+				"synonyms": ["brief", "little"],
+				"antonyms": ["long", "tall"],
+				"examples": [
+					{
+						"text": "My father is tall, but I am short.",
+						"viText": "Bố tôi cao, nhưng tôi thì thấp."
+					},
+					{
+						"text": "She wrote a short story.",
+						"viText": "Cô ấy đã viết một câu chuyện ngắn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "short break",
+						"meaning": "a brief pause from work",
+						"viMeaning": "nghỉ giải lao ngắn",
+						"example": "Let's take a short break.",
+						"viExample": "Hãy nghỉ giải lao ngắn nhé."
+					},
+					{
+						"phrase": "short time",
+						"meaning": "a small amount of time",
+						"viMeaning": "thời gian ngắn",
+						"example": "He finished the test in a short time.",
+						"viExample": "Anh ấy đã hoàn thành bài kiểm tra trong thời gian ngắn."
+					}
+				]
+			}
+		]
+	}
+]

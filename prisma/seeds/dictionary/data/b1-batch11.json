@@ -1,0 +1,923 @@
+[
+	{
+		"headword": "scientific",
+		"pos": "adjective",
+		"ipa": "/ˌsaɪənˈtɪfɪk/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "science", "pos": "noun" },
+			{ "form": "scientist", "pos": "noun" },
+			{ "form": "scientifically", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to science or based on its methods",
+				"viDef": "thuộc về khoa học",
+				"synonyms": ["technical", "empirical"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "They used scientific methods to test the water quality.",
+						"viText": "Họ đã sử dụng các phương pháp khoa học để kiểm tra chất lượng nước."
+					},
+					{
+						"text": "There is no scientific evidence to support this claim.",
+						"viText": "Không có bằng chứng khoa học nào hỗ trợ cho khẳng định này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "scientific research",
+						"meaning": "Detailed study to discover new facts",
+						"viMeaning": "nghiên cứu khoa học",
+						"example": "The government funds scientific research into cancer.",
+						"viExample": "Chính phủ tài trợ cho nghiên cứu khoa học về ung thư."
+					},
+					{
+						"phrase": "scientific community",
+						"meaning": "Scientists as a group worldwide",
+						"viMeaning": "cộng đồng khoa học",
+						"example": "The discovery was welcomed by the scientific community.",
+						"viExample": "Khám phá này được cộng đồng khoa học hoan nghênh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "research",
+		"pos": "noun",
+		"ipa": "/rɪˈsɜːtʃ/",
+		"cefrLevel": "B1",
+		"frequency": 3010,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "research", "pos": "verb" },
+			{ "form": "researcher", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A detailed study to discover new information",
+				"viDef": "nghiên cứu",
+				"synonyms": ["investigation", "study"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I am doing some research for my history project.",
+						"viText": "Tôi đang thực hiện một số nghiên cứu cho dự án lịch sử của mình."
+					},
+					{
+						"text": "The research shows that exercise improves memory.",
+						"viText": "Nghiên cứu cho thấy tập thể dục giúp cải thiện trí nhớ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "conduct research",
+						"meaning": "To carry out a study",
+						"viMeaning": "tiến hành nghiên cứu",
+						"example": "They are conducting research on climate change.",
+						"viExample": "Họ đang tiến hành nghiên cứu về biến đổi khí hậu."
+					},
+					{
+						"phrase": "market research",
+						"meaning": "Collecting info about consumer needs",
+						"viMeaning": "nghiên cứu thị trường",
+						"example": "We need to do more market research.",
+						"viExample": "Chúng ta cần thực hiện nhiều nghiên cứu thị trường hơn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "experiment",
+		"pos": "noun",
+		"ipa": "/ɪkˈsperɪmənt/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "experiment", "pos": "verb" },
+			{ "form": "experimental", "pos": "adjective" },
+			{ "form": "experimentation", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A scientific test done to learn something new",
+				"viDef": "thí nghiệm",
+				"synonyms": ["test", "trial"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We did an experiment in the chemistry lab.",
+						"viText": "Chúng tôi đã làm một thí nghiệm trong phòng hóa học."
+					},
+					{
+						"text": "The scientists are performing an experiment on mice.",
+						"viText": "Các nhà khoa học đang thực hiện một thí nghiệm trên chuột."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "carry out an experiment",
+						"meaning": "To perform a scientific test",
+						"viMeaning": "thực hiện thí nghiệm",
+						"example": "They carried out an experiment to test the theory.",
+						"viExample": "Họ đã thực hiện một thí nghiệm để kiểm tra lý thuyết."
+					},
+					{
+						"phrase": "laboratory experiment",
+						"meaning": "A test done in a controlled lab",
+						"viMeaning": "thí nghiệm phòng lab",
+						"example": "Results from the laboratory experiment were positive.",
+						"viExample": "Kết quả từ thí nghiệm phòng lab rất khả quan."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "discover",
+		"pos": "verb",
+		"ipa": "/dɪˈskʌvə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "discovery", "pos": "noun" },
+			{ "form": "discoverer", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To find information or a place for the first time",
+				"viDef": "khám phá, tìm ra",
+				"synonyms": ["find", "uncover"],
+				"antonyms": ["hide", "lose"],
+				"examples": [
+					{
+						"text": "Scientists discovered a new planet last year.",
+						"viText": "Các nhà khoa học đã khám phá ra một hành tinh mới vào năm ngoái."
+					},
+					{
+						"text": "I discovered that she had lied to me.",
+						"viText": "Tôi đã phát hiện ra rằng cô ấy đã nói dối tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "accidentally discover",
+						"meaning": "To find something without planning to",
+						"viMeaning": "tình cờ khám phá",
+						"example": "Penicillin was accidentally discovered in 1928.",
+						"viExample": "Penicillin đã được tình cờ khám phá vào năm 1928."
+					},
+					{
+						"phrase": "discover a secret",
+						"meaning": "To find out hidden information",
+						"viMeaning": "phát hiện bí mật",
+						"example": "She was shocked to discover his secret.",
+						"viExample": "Cô ấy đã sốc khi phát hiện ra bí mật của anh ta."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "prove",
+		"pos": "verb",
+		"ipa": "/pruːv/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "proof", "pos": "noun" },
+			{ "form": "proven", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To use facts to show that something is true",
+				"viDef": "chứng minh",
+				"synonyms": ["demonstrate", "verify"],
+				"antonyms": ["disprove"],
+				"examples": [
+					{
+						"text": "He managed to prove his innocence in court.",
+						"viText": "Anh ấy đã xoay xở để chứng minh sự vô tội của mình trước tòa."
+					},
+					{
+						"text": "Scientists are trying to prove their hypothesis.",
+						"viText": "Các nhà khoa học đang cố gắng chứng minh giả thuyết của họ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "prove a point",
+						"meaning": "To show that your opinion is correct",
+						"viMeaning": "chứng minh một quan điểm",
+						"example": "He worked hard just to prove a point.",
+						"viExample": "Anh ấy làm việc chăm chỉ chỉ để chứng minh một quan điểm."
+					},
+					{
+						"phrase": "scientifically prove",
+						"meaning": "To show truth using science",
+						"viMeaning": "chứng minh khoa học",
+						"example": "This theory has been scientifically proven.",
+						"viExample": "Lý thuyết này đã được chứng minh về mặt khoa học."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "measure",
+		"pos": "verb",
+		"ipa": "/ˈmeʒə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3060,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "measurement", "pos": "noun" },
+			{ "form": "measurable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To find the size, weight, or amount of something",
+				"viDef": "đo lường",
+				"synonyms": ["quantify", "gauge"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He measured the room before buying a rug.",
+						"viText": "Anh ấy đã đo căn phòng trước khi mua một tấm thảm."
+					},
+					{ "text": "This device measures your heart rate.", "viText": "Thiết bị này đo nhịp tim của bạn." }
+				],
+				"collocations": [
+					{
+						"phrase": "measure success",
+						"meaning": "To judge how successful something is",
+						"viMeaning": "đo lường thành công",
+						"example": "It is difficult to measure the success of the campaign.",
+						"viExample": "Rất khó để đo lường thành công của chiến dịch."
+					},
+					{
+						"phrase": "accurately measure",
+						"meaning": "To find the exact size or amount",
+						"viMeaning": "đo lường chính xác",
+						"example": "Scientists need to accurately measure the temperature.",
+						"viExample": "Các nhà khoa học cần đo lường nhiệt độ một cách chính xác."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "calculate",
+		"pos": "verb",
+		"ipa": "/ˈkælkjuleɪt/",
+		"cefrLevel": "B1",
+		"frequency": 4300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "calculation", "pos": "noun" },
+			{ "form": "calculator", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To find a number or amount using mathematics",
+				"viDef": "tính toán",
+				"synonyms": ["compute", "estimate"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I need to calculate the total cost of the trip.",
+						"viText": "Tôi cần tính toán tổng chi phí của chuyến đi."
+					},
+					{
+						"text": "The software calculates the taxes automatically.",
+						"viText": "Phần mềm tự động tính toán thuế."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "calculate risk",
+						"meaning": "To estimate potential danger",
+						"viMeaning": "tính toán rủi ro",
+						"example": "Investors always try to calculate risk.",
+						"viExample": "Các nhà đầu tư luôn cố gắng tính toán rủi ro."
+					},
+					{
+						"phrase": "mathematically calculate",
+						"meaning": "To use math to find an answer",
+						"viMeaning": "tính toán bằng toán học",
+						"example": "The distance was mathematically calculated.",
+						"viExample": "Khoảng cách đã được tính toán bằng toán học."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "result",
+		"pos": "noun",
+		"ipa": "/rɪˈzʌlt/",
+		"cefrLevel": "B1",
+		"frequency": 3015,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "result", "pos": "verb" },
+			{ "form": "resultant", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that happens because of an action or situation",
+				"viDef": "kết quả",
+				"synonyms": ["outcome", "consequence"],
+				"antonyms": ["cause"],
+				"examples": [
+					{
+						"text": "The result of the test was positive.",
+						"viText": "Kết quả của bài kiểm tra rất tích cực."
+					},
+					{
+						"text": "His success was the result of hard work.",
+						"viText": "Thành công của anh ấy là kết quả của sự làm việc chăm chỉ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "test results",
+						"meaning": "The outcome of a medical or academic exam",
+						"viMeaning": "kết quả kiểm tra",
+						"example": "I am waiting for my blood test results.",
+						"viExample": "Tôi đang đợi kết quả xét nghiệm máu của mình."
+					},
+					{
+						"phrase": "final result",
+						"meaning": "The ultimate outcome of a process",
+						"viMeaning": "kết quả cuối cùng",
+						"example": "The final result was better than expected.",
+						"viExample": "Kết quả cuối cùng tốt hơn mong đợi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "conclusion",
+		"pos": "noun",
+		"ipa": "/kənˈkluːʒn/",
+		"cefrLevel": "B1",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "conclude", "pos": "verb" },
+			{ "form": "conclusive", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A final decision reached by reasoning",
+				"viDef": "kết luận",
+				"synonyms": ["ending", "judgment"],
+				"antonyms": ["beginning", "start"],
+				"examples": [
+					{
+						"text": "The doctor came to the conclusion that she needed rest.",
+						"viText": "Bác sĩ đã đi đến kết luận rằng cô ấy cần nghỉ ngơi."
+					},
+					{
+						"text": "The report's conclusion was that the plan failed.",
+						"viText": "Kết luận của báo cáo là kế hoạch đã thất bại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reach a conclusion",
+						"meaning": "To make a final decision",
+						"viMeaning": "đi đến kết luận",
+						"example": "The jury has reached a conclusion.",
+						"viExample": "Bồi thẩm đoàn đã đi đến kết luận."
+					},
+					{
+						"phrase": "draw a conclusion",
+						"meaning": "To infer something from evidence",
+						"viMeaning": "rút ra kết luận",
+						"example": "What conclusion can we draw from this data?",
+						"viExample": "Chúng ta có thể rút ra kết luận gì từ dữ liệu này?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "hypothesis",
+		"pos": "noun",
+		"ipa": "/haɪˈpɒθəsɪs/",
+		"cefrLevel": "B1",
+		"frequency": 4800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "hypothesize", "pos": "verb" },
+			{ "form": "hypothetical", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An idea that is suggested to explain something",
+				"viDef": "giả thuyết",
+				"synonyms": ["theory", "supposition"],
+				"antonyms": ["fact"],
+				"examples": [
+					{
+						"text": "The scientists formed a hypothesis to explain the phenomenon.",
+						"viText": "Các nhà khoa học đã hình thành một giả thuyết để giải thích hiện tượng này."
+					},
+					{
+						"text": "We need more data to test this hypothesis.",
+						"viText": "Chúng ta cần thêm dữ liệu để kiểm tra giả thuyết này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "test a hypothesis",
+						"meaning": "To perform experiments to see if an idea is true",
+						"viMeaning": "kiểm tra giả thuyết",
+						"example": "The next step is to test the hypothesis.",
+						"viExample": "Bước tiếp theo là kiểm tra giả thuyết."
+					},
+					{
+						"phrase": "scientific hypothesis",
+						"meaning": "A suggested explanation used in science",
+						"viMeaning": "giả thuyết khoa học",
+						"example": "A scientific hypothesis must be testable.",
+						"viExample": "Một giả thuyết khoa học phải có khả năng kiểm chứng được."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "medicine",
+		"pos": "noun",
+		"ipa": "/ˈmedsn/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "medical", "pos": "adjective" },
+			{ "form": "medicate", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A substance used to treat an illness",
+				"viDef": "thuốc",
+				"synonyms": ["drug", "medication", "cure"],
+				"antonyms": ["poison"],
+				"examples": [
+					{
+						"text": "Did you take your medicine this morning?",
+						"viText": "Sáng nay bạn đã uống thuốc chưa?"
+					},
+					{ "text": "This medicine is for your cough.", "viText": "Loại thuốc này là để trị ho." }
+				],
+				"collocations": [
+					{
+						"phrase": "modern medicine",
+						"meaning": "Current medical science and practices",
+						"viMeaning": "y học hiện đại",
+						"example": "Modern medicine has saved many lives.",
+						"viExample": "Y học hiện đại đã cứu sống nhiều người."
+					},
+					{
+						"phrase": "practice medicine",
+						"meaning": "To work as a doctor",
+						"viMeaning": "hành nghề y",
+						"example": "She wants to practice medicine in rural areas.",
+						"viExample": "Cô ấy muốn hành nghề y ở các vùng nông thôn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "surgery",
+		"pos": "noun",
+		"ipa": "/ˈsɜːdʒəri/",
+		"cefrLevel": "B1",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "surgeon", "pos": "noun" },
+			{ "form": "surgical", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Medical treatment where a doctor cuts open the body",
+				"viDef": "phẫu thuật",
+				"synonyms": ["operation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The patient needs urgent surgery on his heart.",
+						"viText": "Bệnh nhân cần phẫu thuật tim khẩn cấp."
+					},
+					{
+						"text": "He is recovering well after his surgery.",
+						"viText": "Anh ấy đang hồi phục tốt sau cuộc phẫu thuật."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "undergo surgery",
+						"meaning": "To have an operation performed on you",
+						"viMeaning": "trải qua phẫu thuật",
+						"example": "She will undergo surgery tomorrow.",
+						"viExample": "Cô ấy sẽ trải qua phẫu thuật vào ngày mai."
+					},
+					{
+						"phrase": "minor surgery",
+						"meaning": "A small medical operation",
+						"viMeaning": "tiểu phẫu",
+						"example": "It was only a minor surgery.",
+						"viExample": "Đó chỉ là một cuộc tiểu phẫu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "treatment",
+		"pos": "noun",
+		"ipa": "/ˈtriːtmənt/",
+		"cefrLevel": "B1",
+		"frequency": 3030,
+		"isCommon": false,
+		"wordForms": [{ "form": "treat", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The use of medicine or care to cure an illness",
+				"viDef": "điều trị, sự đối xử",
+				"synonyms": ["care", "therapy", "remedy"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He is receiving treatment for a broken leg.",
+						"viText": "Anh ấy đang được điều trị gãy chân."
+					},
+					{
+						"text": "This hospital provides excellent treatment.",
+						"viText": "Bệnh viện này cung cấp sự điều trị tuyệt vời."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "medical treatment",
+						"meaning": "Care given by doctors or nurses",
+						"viMeaning": "điều trị y tế",
+						"example": "The cost of medical treatment is rising.",
+						"viExample": "Chi phí điều trị y tế đang tăng lên."
+					},
+					{
+						"phrase": "effective treatment",
+						"meaning": "A cure that works well",
+						"viMeaning": "điều trị hiệu quả",
+						"example": "We are still looking for an effective treatment.",
+						"viExample": "Chúng tôi vẫn đang tìm kiếm một phương pháp điều trị hiệu quả."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "patient",
+		"pos": "noun",
+		"ipa": "/ˈpeɪʃnt/",
+		"cefrLevel": "B1",
+		"frequency": 3025,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "patience", "pos": "noun" },
+			{ "form": "patiently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person receiving medical care",
+				"viDef": "bệnh nhân",
+				"synonyms": ["sick person", "case"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "The nurse is checking on the patient.", "viText": "Y tá đang kiểm tra bệnh nhân." },
+					{ "text": "Patients must wait in the lobby.", "viText": "Bệnh nhân phải đợi ở sảnh." }
+				],
+				"collocations": [
+					{
+						"phrase": "treat a patient",
+						"meaning": "To give medical care to someone",
+						"viMeaning": "điều trị bệnh nhân",
+						"example": "Doctors treat hundreds of patients every day.",
+						"viExample": "Các bác sĩ điều trị cho hàng trăm bệnh nhân mỗi ngày."
+					},
+					{
+						"phrase": "cancer patient",
+						"meaning": "Someone suffering from cancer",
+						"viMeaning": "bệnh nhân ung thư",
+						"example": "The hospital has a ward for cancer patients.",
+						"viExample": "Bệnh viện có một khu dành cho bệnh nhân ung thư."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "symptom",
+		"pos": "noun",
+		"ipa": "/ˈsɪmptəm/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [{ "form": "symptomatic", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A physical feeling that shows you have an illness",
+				"viDef": "triệu chứng",
+				"synonyms": ["sign", "indication"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "A high fever is a symptom of the flu.",
+						"viText": "Sốt cao là một triệu chứng của bệnh cúm."
+					},
+					{
+						"text": "If symptoms persist, see a doctor.",
+						"viText": "Nếu các triệu chứng kéo dài, hãy đi khám bác sĩ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "show symptoms",
+						"meaning": "To have signs of an illness",
+						"viMeaning": "có triệu chứng",
+						"example": "He started to show symptoms of a cold.",
+						"viExample": "Anh ấy bắt đầu có các triệu chứng cảm lạnh."
+					},
+					{
+						"phrase": "relieve symptoms",
+						"meaning": "To make an illness feel less painful",
+						"viMeaning": "giảm triệu chứng",
+						"example": "Aspirin can help relieve symptoms of pain.",
+						"viExample": "Aspirin có thể giúp giảm các triệu chứng đau."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "diagnosis",
+		"pos": "noun",
+		"ipa": "/ˌdaɪəɡˈnəʊsɪs/",
+		"cefrLevel": "B1",
+		"frequency": 4500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "diagnose", "pos": "verb" },
+			{ "form": "diagnostic", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The identification of an illness through examination",
+				"viDef": "sự chẩn đoán",
+				"synonyms": ["identification", "opinion"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The doctor's diagnosis was correct.",
+						"viText": "Sự chẩn đoán của bác sĩ đã chính xác."
+					},
+					{
+						"text": "Early diagnosis is key to surviving the disease.",
+						"viText": "Chẩn đoán sớm là chìa khóa để sống sót qua căn bệnh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "early diagnosis",
+						"meaning": "Finding an illness soon after it starts",
+						"viMeaning": "chẩn đoán sớm",
+						"example": "Early diagnosis can save lives.",
+						"viExample": "Chẩn đoán sớm có thể cứu sống nhiều người."
+					},
+					{
+						"phrase": "confirm a diagnosis",
+						"meaning": "To verify that an identification is true",
+						"viMeaning": "xác nhận chẩn đoán",
+						"example": "Further tests are needed to confirm the diagnosis.",
+						"viExample": "Cần thêm các xét nghiệm để xác nhận chẩn đoán."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "healthy",
+		"pos": "adjective",
+		"ipa": "/ˈhelθi/",
+		"cefrLevel": "B1",
+		"frequency": 3010,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "health", "pos": "noun" },
+			{ "form": "healthily", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having good health and not being ill",
+				"viDef": "khỏe mạnh, lành mạnh",
+				"synonyms": ["well", "fit", "wholesome"],
+				"antonyms": ["ill", "sick", "unhealthy"],
+				"examples": [
+					{ "text": "She eats a very healthy diet.", "viText": "Cô ấy ăn một chế độ ăn uống rất lành mạnh." },
+					{
+						"text": "He looks much healthier than before.",
+						"viText": "Anh ấy trông khỏe mạnh hơn trước nhiều."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "healthy lifestyle",
+						"meaning": "Ways of living that promote good health",
+						"viMeaning": "lối sống lành mạnh",
+						"example": "Exercise is part of a healthy lifestyle.",
+						"viExample": "Tập thể dục là một phần của lối sống lành mạnh."
+					},
+					{
+						"phrase": "stay healthy",
+						"meaning": "To remain in good physical condition",
+						"viMeaning": "giữ sức khỏe",
+						"example": "It's important to stay healthy during winter.",
+						"viExample": "Việc giữ sức khỏe trong mùa đông là rất quan trọng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "condition",
+		"pos": "noun",
+		"ipa": "/kənˈdɪʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "conditional", "pos": "adjective" },
+			{ "form": "condition", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The state that something or someone is in",
+				"viDef": "điều kiện, tình trạng",
+				"synonyms": ["state", "status", "situation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The car is in excellent condition.",
+						"viText": "Chiếc xe đang trong tình trạng tuyệt vời."
+					},
+					{
+						"text": "He has a serious heart condition.",
+						"viText": "Anh ấy có một tình trạng bệnh tim nghiêm trọng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "medical condition",
+						"meaning": "An illness or health problem",
+						"viMeaning": "tình trạng bệnh lý",
+						"example": "He has a pre-existing medical condition.",
+						"viExample": "Anh ấy có một tình trạng bệnh lý từ trước."
+					},
+					{
+						"phrase": "critical condition",
+						"meaning": "A very dangerous state of health",
+						"viMeaning": "tình trạng nguy kịch",
+						"example": "The patient is in critical condition.",
+						"viExample": "Bệnh nhân đang trong tình trạng nguy kịch."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "prevent",
+		"pos": "verb",
+		"ipa": "/prɪˈvent/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "prevention", "pos": "noun" },
+			{ "form": "preventable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To stop something from happening",
+				"viDef": "ngăn chặn, phòng ngừa",
+				"synonyms": ["stop", "avoid", "block"],
+				"antonyms": ["allow", "cause"],
+				"examples": [
+					{
+						"text": "Vaccines help prevent serious diseases.",
+						"viText": "Vắc-xin giúp phòng ngừa các bệnh nghiêm trọng."
+					},
+					{
+						"text": "Tight security prevented the escape.",
+						"viText": "An ninh thắt chặt đã ngăn chặn cuộc chạy trốn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "prevent accidents",
+						"meaning": "To stop crashes or injuries from occurring",
+						"viMeaning": "phòng tránh tai nạn",
+						"example": "The new rules aim to prevent accidents.",
+						"viExample": "Các quy tắc mới nhằm phòng tránh tai nạn."
+					},
+					{
+						"phrase": "prevent from",
+						"meaning": "To keep someone from doing an action",
+						"viMeaning": "ngăn cản làm gì",
+						"example": "Rain prevented them from playing tennis.",
+						"viExample": "Mưa đã ngăn cản họ chơi tennis."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "cure",
+		"pos": "verb",
+		"ipa": "/kjʊə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "cure", "pos": "noun" },
+			{ "form": "curable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make someone with an illness healthy again",
+				"viDef": "chữa khỏi",
+				"synonyms": ["heal", "remedy"],
+				"antonyms": ["harm", "infect"],
+				"examples": [
+					{
+						"text": "The doctors were able to cure her.",
+						"viText": "Các bác sĩ đã có thể chữa khỏi cho cô ấy."
+					},
+					{
+						"text": "This antibiotic will cure the infection.",
+						"viText": "Loại kháng sinh này sẽ chữa khỏi nhiễm trùng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "cure a disease",
+						"meaning": "To successfully treat an illness",
+						"viMeaning": "chữa khỏi bệnh",
+						"example": "Scientists hope to cure this disease one day.",
+						"viExample": "Các nhà khoa học hy vọng một ngày nào đó sẽ chữa khỏi căn bệnh này."
+					},
+					{
+						"phrase": "miracle cure",
+						"meaning": "A treatment that works unexpectedly well",
+						"viMeaning": "liều thuốc thần kỳ",
+						"example": "There is no miracle cure for old age.",
+						"viExample": "Không có liều thuốc thần kỳ nào cho tuổi già."
+					}
+				]
+			}
+		]
+	}
+]

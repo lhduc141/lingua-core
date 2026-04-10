@@ -1,0 +1,885 @@
+[
+	{
+		"headword": "neighbourhood",
+		"pos": "noun",
+		"ipa": "/ˈneɪbəhʊd/",
+		"cefrLevel": "A2",
+		"frequency": 2450,
+		"isCommon": true,
+		"wordForms": [{ "form": "neighbour", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The area around a house or the people living there",
+				"viDef": "khu dân cư, vùng lân cận",
+				"synonyms": ["district", "vicinity"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We live in a very quiet and friendly neighbourhood.",
+						"viText": "Chúng tôi sống trong một khu dân cư rất yên tĩnh và thân thiện."
+					},
+					{
+						"text": "There are many nice cafes in this neighbourhood.",
+						"viText": "Có nhiều quán cà phê đẹp trong khu vực lân cận này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "safe neighbourhood",
+						"meaning": "An area where there is very little crime",
+						"viMeaning": "khu dân cư an toàn",
+						"example": "Parents always look for a safe neighbourhood to raise children.",
+						"viExample": "Cha mẹ luôn tìm kiếm một khu dân cư an toàn để nuôi dạy con cái."
+					},
+					{
+						"phrase": "in the neighbourhood",
+						"meaning": "Located nearby or in the surrounding area",
+						"viMeaning": "ở vùng lân cận",
+						"example": "Is there a good library in the neighbourhood?",
+						"viExample": "Có thư viện nào tốt ở vùng lân cận này không?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "area",
+		"pos": "noun",
+		"ipa": "/ˈeəriə/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A particular part of a place, piece of land, or country",
+				"viDef": "khu vực, diện tích",
+				"synonyms": ["region", "zone", "sector"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "This area of the city is famous for its markets.",
+						"viText": "Khu vực này của thành phố nổi tiếng với các khu chợ."
+					},
+					{
+						"text": "The play area is for children under five.",
+						"viText": "Khu vực vui chơi dành cho trẻ em dưới năm tuổi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "residential area",
+						"meaning": "A part of town where people live, not shops/factories",
+						"viMeaning": "khu dân cư",
+						"example": "It is much quieter in a residential area.",
+						"viExample": "Trong khu dân cư thì yên tĩnh hơn nhiều."
+					},
+					{
+						"phrase": "local area",
+						"meaning": "The place near where you live",
+						"viMeaning": "khu vực địa phương",
+						"example": "She knows all the best shops in the local area.",
+						"viExample": "Cô ấy biết tất cả các cửa hàng tốt nhất ở khu vực địa phương."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "location",
+		"pos": "noun",
+		"ipa": "/ləʊˈkeɪʃn/",
+		"cefrLevel": "A2",
+		"frequency": 1800,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "locate", "pos": "verb" },
+			{ "form": "localized", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A specific place or position",
+				"viDef": "vị trí, địa điểm",
+				"synonyms": ["site", "spot", "position"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The hotel is in a perfect location near the beach.",
+						"viText": "Khách sạn nằm ở một vị trí hoàn hảo gần bãi biển."
+					},
+					{
+						"text": "Please send me your current location on Zalo.",
+						"viText": "Vui lòng gửi cho tôi vị trí hiện tại của bạn qua Zalo."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "central location",
+						"meaning": "A place that is in the middle of an area",
+						"viMeaning": "vị trí trung tâm",
+						"example": "The office has a central location, making it easy to reach.",
+						"viExample": "Văn phòng có vị trí trung tâm, giúp việc đi lại dễ dàng."
+					},
+					{
+						"phrase": "secret location",
+						"meaning": "A place that is not known by many people",
+						"viMeaning": "địa điểm bí mật",
+						"example": "The movie was filmed in a secret location.",
+						"viExample": "Bộ phim được quay tại một địa điểm bí mật."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "map",
+		"pos": "noun",
+		"ipa": "/mæp/",
+		"cefrLevel": "A2",
+		"frequency": 1700,
+		"isCommon": true,
+		"wordForms": [{ "form": "mapping", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A drawing of a particular area showing roads, rivers, or towns",
+				"viDef": "bản đồ",
+				"synonyms": ["chart", "plan"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I used a map to find my way through the city.",
+						"viText": "Tôi đã dùng bản đồ để tìm đường đi qua thành phố."
+					},
+					{
+						"text": "The treasure map led them to the hidden cave.",
+						"viText": "Tấm bản đồ kho báu đã dẫn họ đến hang động bí mật."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "street map",
+						"meaning": "A map showing the position of roads in a town",
+						"viMeaning": "bản đồ đường phố",
+						"example": "You can buy a street map at the tourist office.",
+						"viExample": "Bạn có thể mua bản đồ đường phố tại văn phòng du lịch."
+					},
+					{
+						"phrase": "read a map",
+						"meaning": "To understand the information shown on a map",
+						"viMeaning": "xem bản đồ",
+						"example": "He is very good at reading a map while driving.",
+						"viExample": "Anh ấy rất giỏi xem bản đồ khi đang lái xe."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "distance",
+		"pos": "noun",
+		"ipa": "/ˈdɪstəns/",
+		"cefrLevel": "A2",
+		"frequency": 1550,
+		"isCommon": true,
+		"wordForms": [{ "form": "distant", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The amount of space between two places",
+				"viDef": "khoảng cách",
+				"synonyms": ["gap", "space"],
+				"antonyms": ["closeness"],
+				"examples": [
+					{
+						"text": "What is the distance between Hanoi and Ho Chi Minh City?",
+						"viText": "Khoảng cách giữa Hà Nội và Thành phố Hồ Chí Minh là bao nhiêu?"
+					},
+					{
+						"text": "The school is a short distance from my house.",
+						"viText": "Trường học cách nhà tôi một khoảng cách ngắn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "walking distance",
+						"meaning": "Close enough to reach by walking",
+						"viMeaning": "khoảng cách đi bộ được",
+						"example": "The supermarket is within walking distance.",
+						"viExample": "Siêu thị nằm trong khoảng cách có thể đi bộ được."
+					},
+					{
+						"phrase": "long distance",
+						"meaning": "A great amount of space",
+						"viMeaning": "khoảng cách xa",
+						"example": "He traveled a long distance to see his family.",
+						"viExample": "Anh ấy đã đi một khoảng cách xa để gặp gia đình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "kilometre",
+		"pos": "noun",
+		"ipa": "/ˈkɪləmiːtə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 2850,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A unit of measurement equal to 1,000 metres",
+				"viDef": "ki-lô-mét",
+				"synonyms": [],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The nearest gas station is five kilometres away.",
+						"viText": "Trạm xăng gần nhất cách đây năm ki-lô-mét."
+					},
+					{ "text": "I run three kilometres every morning.", "viText": "Tôi chạy bộ ba ki-lô-mét mỗi sáng." }
+				],
+				"collocations": [
+					{
+						"phrase": "square kilometre",
+						"meaning": "A unit used to measure the size of an area",
+						"viMeaning": "ki-lô-mét vuông",
+						"example": "The island is only ten square kilometres.",
+						"viExample": "Hòn đảo chỉ rộng mười ki-lô-mét vuông."
+					},
+					{
+						"phrase": "kilometres per hour",
+						"meaning": "A unit used to measure speed",
+						"viMeaning": "ki-lô-mét trên giờ",
+						"example": "The speed limit is 50 kilometres per hour.",
+						"viExample": "Tốc độ giới hạn là 50 ki-lô-mét trên giờ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "transport",
+		"pos": "noun",
+		"ipa": "/ˈtrænspɔːt/",
+		"cefrLevel": "A2",
+		"frequency": 1300,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "transport", "pos": "verb" },
+			{ "form": "transportation", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A system or method for moving people or goods",
+				"viDef": "giao thông, vận tải",
+				"synonyms": ["transit", "conveyance"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Public transport in this city is very reliable.",
+						"viText": "Giao thông công cộng ở thành phố này rất đáng tin cậy."
+					},
+					{
+						"text": "What form of transport do you use to get to work?",
+						"viText": "Bạn sử dụng loại hình giao thông nào để đi làm?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "public transport",
+						"meaning": "Buses, trains, etc. that everyone can use",
+						"viMeaning": "giao thông công cộng",
+						"example": "I prefer using public transport to avoid traffic.",
+						"viExample": "Tôi thích sử dụng giao thông công cộng để tránh kẹt xe."
+					},
+					{
+						"phrase": "means of transport",
+						"meaning": "A specific vehicle or method of travel",
+						"viMeaning": "phương tiện giao thông",
+						"example": "The bicycle is a cheap means of transport.",
+						"viExample": "Xe đạp là một phương tiện giao thông rẻ tiền."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "traffic",
+		"pos": "noun",
+		"ipa": "/ˈtræfɪk/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [{ "form": "trafficking", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The number of vehicles moving along roads",
+				"viDef": "giao thông, xe cộ",
+				"synonyms": [],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "There is a lot of traffic on the way to work.",
+						"viText": "Có rất nhiều xe cộ trên đường đi làm."
+					},
+					{
+						"text": "The traffic was moving very slowly because of the rain.",
+						"viText": "Giao thông di chuyển rất chậm vì trời mưa."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "traffic jam",
+						"meaning": "A large number of vehicles that cannot move",
+						"viMeaning": "kẹt xe",
+						"example": "I was late because I was stuck in a traffic jam.",
+						"viExample": "Tôi đã đến muộn vì bị kẹt xe."
+					},
+					{
+						"phrase": "traffic lights",
+						"meaning": "Sets of red, yellow, and green lights controlling roads",
+						"viMeaning": "đèn giao thông",
+						"example": "Turn left at the next traffic lights.",
+						"viExample": "Rẽ trái ở cột đèn giao thông tiếp theo."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "parking",
+		"pos": "noun",
+		"ipa": "/ˈpɑːkɪŋ/",
+		"cefrLevel": "A2",
+		"frequency": 1950,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "park", "pos": "verb" },
+			{ "form": "parkland", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The act of leaving a car in a specific place",
+				"viDef": "việc đỗ xe",
+				"synonyms": [],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Is there any free parking near here?",
+						"viText": "Có chỗ đỗ xe miễn phí nào gần đây không?"
+					},
+					{
+						"text": "Parking is difficult in the city centre.",
+						"viText": "Việc đỗ xe rất khó khăn ở trung tâm thành phố."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "parking lot",
+						"meaning": "An area of ground where cars can be left",
+						"viMeaning": "bãi đỗ xe",
+						"example": "The parking lot was completely full.",
+						"viExample": "Bãi đỗ xe đã hoàn toàn đầy chỗ."
+					},
+					{
+						"phrase": "no parking",
+						"meaning": "A sign indicating you cannot leave your car there",
+						"viMeaning": "cấm đỗ xe",
+						"example": "There is a 'No Parking' sign in front of the gate.",
+						"viExample": "Có biển 'Cấm đỗ xe' ở trước cổng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "petrol",
+		"pos": "noun",
+		"ipa": "/ˈpetrəl/",
+		"cefrLevel": "A2",
+		"frequency": 2350,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A liquid used as fuel for cars and other vehicles",
+				"viDef": "xăng",
+				"synonyms": ["gasoline", "fuel"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "I need to stop and get some petrol.", "viText": "Tôi cần dừng lại và đổ một ít xăng." },
+					{ "text": "The price of petrol has gone up again.", "viText": "Giá xăng lại tăng lên lần nữa rồi." }
+				],
+				"collocations": [
+					{
+						"phrase": "petrol station",
+						"meaning": "A place where you can buy fuel for your car",
+						"viMeaning": "trạm xăng",
+						"example": "Is there a petrol station on this road?",
+						"viExample": "Có trạm xăng nào trên con đường này không?"
+					},
+					{
+						"phrase": "petrol engine",
+						"meaning": "A motor that uses petrol to create power",
+						"viMeaning": "động cơ xăng",
+						"example": "His new car has a powerful petrol engine.",
+						"viExample": "Chiếc xe mới của anh ấy có một động cơ xăng mạnh mẽ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "queue",
+		"pos": "noun",
+		"ipa": "/kjuː/",
+		"cefrLevel": "A2",
+		"frequency": 2900,
+		"isCommon": true,
+		"wordForms": [{ "form": "queue", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A line of people waiting for something",
+				"viDef": "hàng đợi, sự xếp hàng",
+				"synonyms": ["line", "row"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "There was a long queue at the ticket office.",
+						"viText": "Có một hàng dài người đợi ở phòng bán vé."
+					},
+					{
+						"text": "We had to wait in a queue for twenty minutes.",
+						"viText": "Chúng tôi đã phải xếp hàng chờ trong hai mươi phút."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "jump the queue",
+						"meaning": "To go to the front of a line unfairly",
+						"viMeaning": "chen hàng",
+						"example": "It is rude to jump the queue.",
+						"viExample": "Chen hàng là hành động thô lỗ."
+					},
+					{
+						"phrase": "queue up",
+						"meaning": "To stand in a line to wait for something",
+						"viMeaning": "xếp hàng",
+						"example": "People started to queue up before the shop opened.",
+						"viExample": "Mọi người bắt đầu xếp hàng trước khi cửa hàng mở cửa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "supermarket",
+		"pos": "noun",
+		"ipa": "/ˈsuːpəmɑːkɪt/",
+		"cefrLevel": "A2",
+		"frequency": 1400,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A large shop that sells food and household goods",
+				"viDef": "siêu thị",
+				"synonyms": ["grocery store"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I buy my groceries at the local supermarket.",
+						"viText": "Tôi mua thực phẩm tại siêu thị địa phương."
+					},
+					{
+						"text": "The supermarket is very crowded on weekends.",
+						"viText": "Siêu thị rất đông đúc vào cuối tuần."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "supermarket chain",
+						"meaning": "A group of supermarkets owned by the same company",
+						"viMeaning": "chuỗi siêu thị",
+						"example": "This is the largest supermarket chain in Vietnam.",
+						"viExample": "Đây là chuỗi siêu thị lớn nhất Việt Nam."
+					},
+					{
+						"phrase": "online supermarket",
+						"meaning": "A service where you buy groceries via the internet",
+						"viMeaning": "siêu thị trực tuyến",
+						"example": "I prefer using an online supermarket to save time.",
+						"viExample": "Tôi thích dùng siêu thị trực tuyến để tiết kiệm thời gian."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "product",
+		"pos": "noun",
+		"ipa": "/ˈprɒdʌkt/",
+		"cefrLevel": "A2",
+		"frequency": 1200,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "produce", "pos": "verb" },
+			{ "form": "production", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that is made to be sold",
+				"viDef": "sản phẩm",
+				"synonyms": ["item", "goods", "merchandise"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "This company makes high-quality electronic products.",
+						"viText": "Công ty này sản xuất các sản phẩm điện tử chất lượng cao."
+					},
+					{
+						"text": "Please read the label on the product carefully.",
+						"viText": "Vui lòng đọc kỹ nhãn trên sản phẩm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "dairy product",
+						"meaning": "Food made from milk, such as cheese or butter",
+						"viMeaning": "sản phẩm sữa",
+						"example": "Milk and cheese are dairy products.",
+						"viExample": "Sữa và phô mai là các sản phẩm từ sữa."
+					},
+					{
+						"phrase": "new product",
+						"meaning": "Something that has just been released for sale",
+						"viMeaning": "sản phẩm mới",
+						"example": "The company is launching a new product next month.",
+						"viExample": "Công ty sẽ ra mắt một sản phẩm mới vào tháng tới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "brand",
+		"pos": "noun",
+		"ipa": "/brænd/",
+		"cefrLevel": "A2",
+		"frequency": 2150,
+		"isCommon": true,
+		"wordForms": [{ "form": "branding", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A type of product made by a particular company",
+				"viDef": "nhãn hiệu, thương hiệu",
+				"synonyms": ["label", "make"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "What is your favorite brand of coffee?",
+						"viText": "Nhãn hiệu cà phê yêu thích của bạn là gì?"
+					},
+					{
+						"text": "I only buy this brand of shoes because they last.",
+						"viText": "Tôi chỉ mua nhãn hiệu giày này vì chúng bền."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "brand name",
+						"meaning": "The name given to a product by its manufacturer",
+						"viMeaning": "tên thương hiệu",
+						"example": "He only wears clothes with famous brand names.",
+						"viExample": "Anh ấy chỉ mặc quần áo có tên thương hiệu nổi tiếng."
+					},
+					{
+						"phrase": "luxury brand",
+						"meaning": "An expensive and high-quality type of product",
+						"viMeaning": "thương hiệu xa xỉ",
+						"example": "Rolex is a famous luxury brand of watches.",
+						"viExample": "Rolex là một thương hiệu đồng hồ xa xỉ nổi tiếng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "quality",
+		"pos": "noun",
+		"ipa": "/ˈkwɒləti/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [{ "form": "qualify", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "How good or bad something is",
+				"viDef": "chất lượng",
+				"synonyms": ["standard", "excellence"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The quality of the food in this restaurant is excellent.",
+						"viText": "Chất lượng đồ ăn ở nhà hàng này rất tuyệt vời."
+					},
+					{
+						"text": "We focus on quality rather than quantity.",
+						"viText": "Chúng tôi tập trung vào chất lượng hơn là số lượng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "high quality",
+						"meaning": "Being very good or of a superior standard",
+						"viMeaning": "chất lượng cao",
+						"example": "This shirt is made of high quality cotton.",
+						"viExample": "Chiếc áo này được làm từ vải cotton chất lượng cao."
+					},
+					{
+						"phrase": "air quality",
+						"meaning": "The condition of the air around us",
+						"viMeaning": "chất lượng không khí",
+						"example": "The air quality in the city is getting worse.",
+						"viExample": "Chất lượng không khí trong thành phố đang trở nên tệ hơn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "cheap",
+		"pos": "adjective",
+		"ipa": "/tʃiːp/",
+		"cefrLevel": "A2",
+		"frequency": 1080,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "cheaply", "pos": "adverb" },
+			{ "form": "cheapness", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Not costing a lot of money",
+				"viDef": "rẻ",
+				"synonyms": ["inexpensive", "affordable"],
+				"antonyms": ["expensive", "costly"],
+				"examples": [
+					{ "text": "Food is quite cheap in this market.", "viText": "Đồ ăn ở khu chợ này khá rẻ." },
+					{
+						"text": "I bought a cheap flight to Da Nang.",
+						"viText": "Tôi đã mua được một chuyến bay giá rẻ đến Đà Nẵng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "cheap and cheerful",
+						"meaning": "Not expensive but pleasant",
+						"viMeaning": "ngon bổ rẻ",
+						"example": "We went to a cheap and cheerful Italian restaurant.",
+						"viExample": "Chúng tôi đã đến một nhà hàng Ý tiêu chí ngon bổ rẻ."
+					},
+					{
+						"phrase": "very cheap",
+						"meaning": "Costing very little money",
+						"viMeaning": "rất rẻ",
+						"example": "This second-hand book was very cheap.",
+						"viExample": "Cuốn sách cũ này đã rất rẻ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "expensive",
+		"pos": "adjective",
+		"ipa": "/ɪkˈspensɪv/",
+		"cefrLevel": "A2",
+		"frequency": 1120,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "expense", "pos": "noun" },
+			{ "form": "expensively", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Costing a lot of money",
+				"viDef": "đắt, đắt tiền",
+				"synonyms": ["costly", "dear"],
+				"antonyms": ["cheap", "inexpensive"],
+				"examples": [
+					{
+						"text": "Eating out every night is very expensive.",
+						"viText": "Đi ăn ngoài mỗi tối rất đắt đỏ."
+					},
+					{ "text": "That is an expensive watch.", "viText": "Đó là một chiếc đồng hồ đắt tiền." }
+				],
+				"collocations": [
+					{
+						"phrase": "too expensive",
+						"meaning": "Costing more than someone wants to pay",
+						"viMeaning": "quá đắt",
+						"example": "I didn't buy the dress because it was too expensive.",
+						"viExample": "Tôi đã không mua chiếc váy đó vì nó quá đắt."
+					},
+					{
+						"phrase": "less expensive",
+						"meaning": "Costing a smaller amount of money",
+						"viMeaning": "ít đắt hơn",
+						"example": "Travelling by bus is less expensive than by taxi.",
+						"viExample": "Đi bằng xe buýt thì ít đắt hơn đi bằng taxi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "discount",
+		"pos": "noun",
+		"ipa": "/ˈdɪskaʊnt/",
+		"cefrLevel": "A2",
+		"frequency": 2250,
+		"isCommon": true,
+		"wordForms": [{ "form": "discount", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A reduction in the usual price of something",
+				"viDef": "sự giảm giá, chiết khấu",
+				"synonyms": ["reduction", "concession"],
+				"antonyms": ["increase"],
+				"examples": [
+					{
+						"text": "Students get a 10% discount in this shop.",
+						"viText": "Sinh viên được giảm giá 10% tại cửa hàng này."
+					},
+					{
+						"text": "There is a big discount on all summer clothes.",
+						"viText": "Đang có đợt giảm giá lớn cho tất cả quần áo mùa hè."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "give a discount",
+						"meaning": "To offer a lower price to a customer",
+						"viMeaning": "giảm giá cho ai",
+						"example": "The manager agreed to give us a discount.",
+						"viExample": "Người quản lý đã đồng ý giảm giá cho chúng tôi."
+					},
+					{
+						"phrase": "special discount",
+						"meaning": "An unusual or extra reduction in price",
+						"viMeaning": "giảm giá đặc biệt",
+						"example": "Members receive a special discount on all products.",
+						"viExample": "Thành viên nhận được ưu đãi giảm giá đặc biệt cho tất cả sản phẩm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "receipt",
+		"pos": "noun",
+		"ipa": "/rɪˈsiːt/",
+		"cefrLevel": "A2",
+		"frequency": 2650,
+		"isCommon": true,
+		"wordForms": [{ "form": "receive", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A piece of paper proving that you have paid",
+				"viDef": "hóa đơn, biên lai",
+				"synonyms": ["voucher", "slip"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "Can I have a receipt, please?", "viText": "Làm ơn cho tôi xin hóa đơn được không?" },
+					{
+						"text": "Keep your receipt in case you want to return the item.",
+						"viText": "Hãy giữ hóa đơn phòng khi bạn muốn trả lại món hàng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sales receipt",
+						"meaning": "A document showing the details of a purchase",
+						"viMeaning": "hóa đơn bán hàng",
+						"example": "The sales receipt shows the date of purchase.",
+						"viExample": "Hóa đơn bán hàng cho thấy ngày mua hàng."
+					},
+					{
+						"phrase": "on receipt of",
+						"meaning": "Immediately after receiving something",
+						"viMeaning": "khi nhận được",
+						"example": "Payment is due on receipt of the bill.",
+						"viExample": "Thanh toán đến hạn ngay khi nhận được hóa đơn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "payment",
+		"pos": "noun",
+		"ipa": "/ˈpeɪmənt/",
+		"cefrLevel": "A2",
+		"frequency": 1650,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "pay", "pos": "verb" },
+			{ "form": "payable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An amount of money paid for something",
+				"viDef": "sự thanh toán, tiền thanh toán",
+				"synonyms": ["remittance", "settlement"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The shop accepts payment by credit card.",
+						"viText": "Cửa hàng chấp nhận thanh toán bằng thẻ tín dụng."
+					},
+					{
+						"text": "You can make a monthly payment for the car.",
+						"viText": "Bạn có thể thực hiện thanh toán hàng tháng cho chiếc xe."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "online payment",
+						"meaning": "Paying for goods or services using the internet",
+						"viMeaning": "thanh toán trực tuyến",
+						"example": "Online payment is fast and convenient.",
+						"viExample": "Thanh toán trực tuyến rất nhanh chóng và tiện lợi."
+					},
+					{
+						"phrase": "late payment",
+						"meaning": "Money that is paid after the deadline",
+						"viMeaning": "thanh toán chậm",
+						"example": "There is a fee for late payment of the bill.",
+						"viExample": "Có một khoản phí cho việc thanh toán hóa đơn chậm."
+					}
+				]
+			}
+		]
+	}
+]

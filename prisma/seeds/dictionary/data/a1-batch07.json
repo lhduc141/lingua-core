@@ -1,0 +1,1062 @@
+[
+	{
+		"headword": "market",
+		"pos": "noun",
+		"ipa": "/ˈmɑːkɪt/",
+		"cefrLevel": "A1",
+		"frequency": 500,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "marketable",
+				"pos": "adjective"
+			},
+			{
+				"form": "marketing",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a regular gathering of people for the purchase and sale of provisions",
+				"viDef": "chợ",
+				"synonyms": ["bazaar", "mart"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We went to the market to buy fruit.",
+						"viText": "Chúng tôi đã đến chợ để mua trái cây."
+					},
+					{
+						"text": "The market is very crowded today.",
+						"viText": "Hôm nay chợ rất đông đúc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "flea market",
+						"meaning": "a street market selling second-hand goods",
+						"viMeaning": "chợ trời",
+						"example": "I found this old watch at a flea market.",
+						"viExample": "Tôi tìm thấy chiếc đồng hồ cũ này ở một khu chợ trời."
+					},
+					{
+						"phrase": "farmers' market",
+						"meaning": "a market where farmers sell their products directly",
+						"viMeaning": "chợ nông sản",
+						"example": "Buy fresh vegetables at the farmers' market.",
+						"viExample": "Hãy mua rau tươi ở chợ nông sản."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "shop",
+		"pos": "noun",
+		"ipa": "/ʃɒp/",
+		"cefrLevel": "A1",
+		"frequency": 400,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "shopper",
+				"pos": "noun"
+			},
+			{
+				"form": "shopaholic",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a building or part of a building where goods are sold",
+				"viDef": "cửa hàng",
+				"synonyms": ["store", "boutique"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She works in a small flower shop.",
+						"viText": "Cô ấy làm việc trong một cửa hàng hoa nhỏ."
+					},
+					{
+						"text": "I need to go to the shop to buy milk.",
+						"viText": "Tôi cần đến cửa hàng để mua sữa."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "coffee shop",
+						"meaning": "a small restaurant that serves coffee and light meals",
+						"viMeaning": "quán cà phê",
+						"example": "Let's meet at the coffee shop.",
+						"viExample": "Hãy gặp nhau ở quán cà phê."
+					},
+					{
+						"phrase": "gift shop",
+						"meaning": "a shop that sells souvenirs and small presents",
+						"viMeaning": "cửa hàng quà tặng",
+						"example": "We bought presents from the gift shop.",
+						"viExample": "Chúng tôi đã mua quà từ cửa hàng quà tặng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "price",
+		"pos": "noun",
+		"ipa": "/praɪs/",
+		"cefrLevel": "A1",
+		"frequency": 350,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "priceless",
+				"pos": "adjective"
+			},
+			{
+				"form": "pricey",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the amount of money expected in payment for something",
+				"viDef": "giá cả",
+				"synonyms": ["cost", "value"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The price of the book is high.",
+						"viText": "Giá của cuốn sách này rất cao."
+					},
+					{
+						"text": "What is the price of this car?",
+						"viText": "Giá của chiếc xe này là bao nhiêu?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "high price",
+						"meaning": "a large amount of money",
+						"viMeaning": "giá cao",
+						"example": "They charge a very high price.",
+						"viExample": "Họ tính một mức giá rất cao."
+					},
+					{
+						"phrase": "half price",
+						"meaning": "fifty percent of the usual cost",
+						"viMeaning": "nửa giá",
+						"example": "I bought this shirt for half price.",
+						"viExample": "Tôi đã mua chiếc áo này với nửa giá."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "buy",
+		"pos": "verb",
+		"ipa": "/baɪ/",
+		"cefrLevel": "A1",
+		"frequency": 150,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "buyer",
+				"pos": "noun"
+			},
+			{
+				"form": "buyable",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "obtain in exchange for payment",
+				"viDef": "mua",
+				"synonyms": ["purchase", "acquire"],
+				"antonyms": ["sell"],
+				"examples": [
+					{
+						"text": "I want to buy a new house.",
+						"viText": "Tôi muốn mua một ngôi nhà mới."
+					},
+					{
+						"text": "Where did you buy that shirt?",
+						"viText": "Bạn đã mua chiếc áo đó ở đâu?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "buy online",
+						"meaning": "purchase goods over the internet",
+						"viMeaning": "mua hàng trực tuyến",
+						"example": "Many people prefer to buy online.",
+						"viExample": "Nhiều người thích mua hàng trực tuyến."
+					},
+					{
+						"phrase": "buy time",
+						"meaning": "delay an event in order to have more time to react",
+						"viMeaning": "câu giờ",
+						"example": "We need to buy some time to think.",
+						"viExample": "Chúng ta cần câu giờ để suy nghĩ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sell",
+		"pos": "verb",
+		"ipa": "/sel/",
+		"cefrLevel": "A1",
+		"frequency": 200,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "seller",
+				"pos": "noun"
+			},
+			{
+				"form": "sellable",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "give or hand over something in exchange for money",
+				"viDef": "bán",
+				"synonyms": ["trade", "vend"],
+				"antonyms": ["buy", "purchase"],
+				"examples": [
+					{
+						"text": "He wants to sell his old car.",
+						"viText": "Anh ấy muốn bán chiếc xe hơi cũ của mình."
+					},
+					{
+						"text": "They sell fresh vegetables here.",
+						"viText": "Họ bán rau tươi ở đây."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sell out",
+						"meaning": "sell all of a product so none is left",
+						"viMeaning": "bán hết sạch",
+						"example": "The tickets will sell out quickly.",
+						"viExample": "Vé sẽ được bán hết sạch nhanh chóng."
+					},
+					{
+						"phrase": "best-selling",
+						"meaning": "selling in very large numbers",
+						"viMeaning": "bán chạy nhất",
+						"example": "It is a best-selling novel.",
+						"viExample": "Đó là một cuốn tiểu thuyết bán chạy nhất."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "find",
+		"pos": "verb",
+		"ipa": "/faɪnd/",
+		"cefrLevel": "A1",
+		"frequency": 100,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "finder",
+				"pos": "noun"
+			},
+			{
+				"form": "finding",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "discover or perceive by chance or unexpectedly",
+				"viDef": "tìm thấy",
+				"synonyms": ["discover", "locate"],
+				"antonyms": ["lose", "misplace"],
+				"examples": [
+					{
+						"text": "I cannot find my keys anywhere.",
+						"viText": "Tôi không thể tìm thấy chìa khóa của mình ở đâu cả."
+					},
+					{
+						"text": "Did you find what you wanted?",
+						"viText": "Bạn đã tìm thấy thứ bạn muốn chưa?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "find out",
+						"meaning": "discover a fact or piece of information",
+						"viMeaning": "tìm ra, phát hiện ra",
+						"example": "I need to find out the truth.",
+						"viExample": "Tôi cần phải tìm ra sự thật."
+					},
+					{
+						"phrase": "find time",
+						"meaning": "make enough time to do something",
+						"viMeaning": "dành thời gian",
+						"example": "I hope you can find time to read.",
+						"viExample": "Tôi hy vọng bạn có thể dành thời gian để đọc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "use",
+		"pos": "verb",
+		"ipa": "/juːz/",
+		"cefrLevel": "A1",
+		"frequency": 80,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "useful",
+				"pos": "adjective"
+			},
+			{
+				"form": "user",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "take, hold, or deploy as a means of accomplishing something",
+				"viDef": "sử dụng",
+				"synonyms": ["utilize", "apply"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Can I use your pen for a moment?",
+						"viText": "Tôi có thể sử dụng bút của bạn một lát không?"
+					},
+					{
+						"text": "You should use a dictionary to learn words.",
+						"viText": "Bạn nên sử dụng từ điển để học từ vựng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make use of",
+						"meaning": "use something that is available in order to achieve something",
+						"viMeaning": "tận dụng",
+						"example": "We should make use of this free time.",
+						"viExample": "Chúng ta nên tận dụng thời gian rảnh này."
+					},
+					{
+						"phrase": "easy to use",
+						"meaning": "simple and not complicated to operate",
+						"viMeaning": "dễ sử dụng",
+						"example": "This new machine is very easy to use.",
+						"viExample": "Cái máy mới này rất dễ sử dụng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "try",
+		"pos": "verb",
+		"ipa": "/traɪ/",
+		"cefrLevel": "A1",
+		"frequency": 110,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "trier",
+				"pos": "noun"
+			},
+			{
+				"form": "trying",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "make an attempt or effort to do something",
+				"viDef": "cố gắng, thử",
+				"synonyms": ["attempt", "strive"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "You should try to sleep early.",
+						"viText": "Bạn nên cố gắng ngủ sớm."
+					},
+					{
+						"text": "Let me try to fix the computer.",
+						"viText": "Để tôi thử sửa máy tính xem sao."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "try on",
+						"meaning": "put on a piece of clothing to see if it fits",
+						"viMeaning": "mặc thử",
+						"example": "Can I try this shirt on?",
+						"viExample": "Tôi có thể mặc thử chiếc áo này không?"
+					},
+					{
+						"phrase": "try out",
+						"meaning": "test something to see if it works or is effective",
+						"viMeaning": "dùng thử",
+						"example": "I want to try out the new software.",
+						"viExample": "Tôi muốn dùng thử phần mềm mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "show",
+		"pos": "verb",
+		"ipa": "/ʃəʊ/",
+		"cefrLevel": "A1",
+		"frequency": 120,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "showing",
+				"pos": "noun"
+			},
+			{
+				"form": "showy",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "allow or cause to be visible",
+				"viDef": "cho thấy, chỉ cho xem",
+				"synonyms": ["display", "reveal"],
+				"antonyms": ["hide", "conceal"],
+				"examples": [
+					{
+						"text": "Please show me your ticket.",
+						"viText": "Vui lòng cho tôi xem vé của bạn."
+					},
+					{
+						"text": "The map shows the way to the station.",
+						"viText": "Bản đồ chỉ đường đến nhà ga."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "show up",
+						"meaning": "arrive or turn up for an appointment or gathering",
+						"viMeaning": "xuất hiện, đến",
+						"example": "He didn't show up for the meeting.",
+						"viExample": "Anh ấy đã không đến dự cuộc họp."
+					},
+					{
+						"phrase": "show off",
+						"meaning": "display someone or something that is a source of pride",
+						"viMeaning": "khoe khoang",
+						"example": "He just wants to show off his new car.",
+						"viExample": "Anh ta chỉ muốn khoe chiếc xe hơi mới của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "tell",
+		"pos": "verb",
+		"ipa": "/tel/",
+		"cefrLevel": "A1",
+		"frequency": 90,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "teller",
+				"pos": "noun"
+			},
+			{
+				"form": "telling",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "communicate information, facts, or news to someone",
+				"viDef": "kể, bảo",
+				"synonyms": ["inform", "relate"],
+				"antonyms": ["ask", "listen"],
+				"examples": [
+					{
+						"text": "Tell me a story, please.",
+						"viText": "Kể cho tôi nghe một câu chuyện đi."
+					},
+					{
+						"text": "I will tell you the truth.",
+						"viText": "Tôi sẽ kể cho bạn nghe sự thật."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "tell a lie",
+						"meaning": "say something that is not true",
+						"viMeaning": "nói dối",
+						"example": "You should never tell a lie.",
+						"viExample": "Bạn không bao giờ nên nói dối."
+					},
+					{
+						"phrase": "tell a joke",
+						"meaning": "say something funny to cause amusement",
+						"viMeaning": "kể chuyện cười",
+						"example": "My father always tells a joke at dinner.",
+						"viExample": "Bố tôi luôn kể chuyện cười vào bữa tối."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "letter",
+		"pos": "noun",
+		"ipa": "/ˈletə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 300,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "lettering",
+				"pos": "noun"
+			},
+			{
+				"form": "letterless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a written, typed, or printed communication sent in an envelope",
+				"viDef": "bức thư, chữ cái",
+				"synonyms": ["message", "note"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I sent a letter to my friend.",
+						"viText": "Tôi đã gửi một bức thư cho bạn tôi."
+					},
+					{
+						"text": "A is the first letter of the alphabet.",
+						"viText": "A là chữ cái đầu tiên của bảng chữ cái."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "write a letter",
+						"meaning": "compose a written message to someone",
+						"viMeaning": "viết một bức thư",
+						"example": "I need to write a letter to my mother.",
+						"viExample": "Tôi cần viết một bức thư cho mẹ tôi."
+					},
+					{
+						"phrase": "capital letter",
+						"meaning": "a large letter used at the beginning of a sentence",
+						"viMeaning": "chữ in hoa",
+						"example": "Start your name with a capital letter.",
+						"viExample": "Bắt đầu tên của bạn bằng một chữ in hoa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "game",
+		"pos": "noun",
+		"ipa": "/ɡeɪm/",
+		"cefrLevel": "A1",
+		"frequency": 250,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "gamer",
+				"pos": "noun"
+			},
+			{
+				"form": "gaming",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a form of play or sport, especially a competitive one",
+				"viDef": "trò chơi",
+				"synonyms": ["match", "pastime"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We played a board game together.",
+						"viText": "Chúng tôi đã cùng nhau chơi một trò chơi trên bàn."
+					},
+					{
+						"text": "Football is a very popular game.",
+						"viText": "Bóng đá là một trò chơi rất phổ biến."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "video game",
+						"meaning": "a game played by electronically manipulating images on a screen",
+						"viMeaning": "trò chơi điện tử",
+						"example": "He plays a video game every night.",
+						"viExample": "Anh ấy chơi trò chơi điện tử mỗi tối."
+					},
+					{
+						"phrase": "play a game",
+						"meaning": "participate in a recreational activity",
+						"viMeaning": "chơi một trò chơi",
+						"example": "Let's play a game of chess.",
+						"viExample": "Hãy chơi một ván cờ vua nhé."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sport",
+		"pos": "noun",
+		"ipa": "/spɔːt/",
+		"cefrLevel": "A1",
+		"frequency": 450,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "sporty",
+				"pos": "adjective"
+			},
+			{
+				"form": "sportsmanship",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "an activity involving physical exertion and skill",
+				"viDef": "môn thể thao",
+				"synonyms": ["athletics", "game"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Swimming is my favorite sport.",
+						"viText": "Bơi lội là môn thể thao yêu thích của tôi."
+					},
+					{
+						"text": "Do you play any sport?",
+						"viText": "Bạn có chơi môn thể thao nào không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "water sport",
+						"meaning": "a sport played in or on water",
+						"viMeaning": "thể thao dưới nước",
+						"example": "Surfing is an exciting water sport.",
+						"viExample": "Lướt sóng là một môn thể thao dưới nước thú vị."
+					},
+					{
+						"phrase": "winter sport",
+						"meaning": "a sport done on snow or ice",
+						"viMeaning": "thể thao mùa đông",
+						"example": "Skiing is a popular winter sport.",
+						"viExample": "Trượt tuyết là một môn thể thao mùa đông phổ biến."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "swim",
+		"pos": "verb",
+		"ipa": "/swɪm/",
+		"cefrLevel": "A1",
+		"frequency": 600,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "swimmer",
+				"pos": "noun"
+			},
+			{
+				"form": "swimming",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "propel the body through water by using the limbs",
+				"viDef": "bơi",
+				"synonyms": ["dive", "float"],
+				"antonyms": ["sink"],
+				"examples": [
+					{
+						"text": "I want to swim in the pool.",
+						"viText": "Tôi muốn bơi trong hồ."
+					},
+					{
+						"text": "Can you swim fast?",
+						"viText": "Bạn có thể bơi nhanh không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "go for a swim",
+						"meaning": "engage in the activity of swimming",
+						"viMeaning": "đi bơi",
+						"example": "Let's go for a swim tomorrow.",
+						"viExample": "Ngày mai hãy đi bơi nhé."
+					},
+					{
+						"phrase": "swim across",
+						"meaning": "travel from one side of a body of water to the other by swimming",
+						"viMeaning": "bơi qua",
+						"example": "He decided to swim across the river.",
+						"viExample": "Anh ấy quyết định bơi qua sông."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "dance",
+		"pos": "verb",
+		"ipa": "/dɑːns/",
+		"cefrLevel": "A1",
+		"frequency": 700,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "dancer",
+				"pos": "noun"
+			},
+			{
+				"form": "dancing",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "move rhythmically to music, typically following a set sequence",
+				"viDef": "nhảy múa",
+				"synonyms": ["groove", "jig"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We will dance at the party.",
+						"viText": "Chúng tôi sẽ khiêu vũ tại bữa tiệc."
+					},
+					{
+						"text": "She loves to dance with her friends.",
+						"viText": "Cô ấy thích nhảy múa cùng bạn bè."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "dance class",
+						"meaning": "a lesson where people learn how to dance",
+						"viMeaning": "lớp học nhảy",
+						"example": "I take a dance class every Friday.",
+						"viExample": "Tôi tham gia một lớp học nhảy mỗi thứ Sáu."
+					},
+					{
+						"phrase": "dance floor",
+						"meaning": "an area in a club or restaurant set aside for dancing",
+						"viMeaning": "sàn nhảy",
+						"example": "They were the first on the dance floor.",
+						"viExample": "Họ là những người đầu tiên bước lên sàn nhảy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sing",
+		"pos": "verb",
+		"ipa": "/sɪŋ/",
+		"cefrLevel": "A1",
+		"frequency": 650,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "singer",
+				"pos": "noun"
+			},
+			{
+				"form": "singing",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "make musical sounds with the voice",
+				"viDef": "hát",
+				"synonyms": ["chant", "hum"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The birds sing beautifully in the morning.",
+						"viText": "Những chú chim hót rất hay vào buổi sáng."
+					},
+					{
+						"text": "Can you sing a song for us?",
+						"viText": "Bạn có thể hát một bài cho chúng tôi không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sing a song",
+						"meaning": "perform a musical piece with the voice",
+						"viMeaning": "hát một bài hát",
+						"example": "She will sing a song at the concert.",
+						"viExample": "Cô ấy sẽ hát một bài hát tại buổi hòa nhạc."
+					},
+					{
+						"phrase": "sing along",
+						"meaning": "join in singing a song that is already playing",
+						"viMeaning": "hát theo",
+						"example": "Everyone started to sing along with the band.",
+						"viExample": "Mọi người bắt đầu hát theo ban nhạc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "listen",
+		"pos": "verb",
+		"ipa": "/ˈlɪsn/",
+		"cefrLevel": "A1",
+		"frequency": 200,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "listener",
+				"pos": "noun"
+			},
+			{
+				"form": "listening",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "give one's attention to a sound",
+				"viDef": "lắng nghe",
+				"synonyms": ["hear", "attend"],
+				"antonyms": ["ignore"],
+				"examples": [
+					{
+						"text": "Listen to the teacher carefully.",
+						"viText": "Hãy lắng nghe giáo viên cẩn thận."
+					},
+					{
+						"text": "I like to listen to music.",
+						"viText": "Tôi thích nghe nhạc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "listen carefully",
+						"meaning": "pay close attention to what you hear",
+						"viMeaning": "nghe cẩn thận",
+						"example": "You need to listen carefully to these instructions.",
+						"viExample": "Bạn cần phải nghe cẩn thận những hướng dẫn này."
+					},
+					{
+						"phrase": "listen up",
+						"meaning": "used to tell people to pay attention",
+						"viMeaning": "lắng nghe đây",
+						"example": "Listen up, I have an announcement to make.",
+						"viExample": "Lắng nghe đây, tôi có một thông báo."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "cook",
+		"pos": "verb",
+		"ipa": "/kʊk/",
+		"cefrLevel": "A1",
+		"frequency": 500,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "cooker",
+				"pos": "noun"
+			},
+			{
+				"form": "cooking",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "prepare food, a dish, or a meal by combining and heating ingredients",
+				"viDef": "nấu ăn",
+				"synonyms": ["prepare", "bake"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "My mother cooks very well.",
+						"viText": "Mẹ tôi nấu ăn rất ngon."
+					},
+					{
+						"text": "I will cook dinner tonight.",
+						"viText": "Tôi sẽ nấu bữa tối vào tối nay."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "cook a meal",
+						"meaning": "prepare food for eating",
+						"viMeaning": "nấu một bữa ăn",
+						"example": "It takes time to cook a healthy meal.",
+						"viExample": "Phải mất thời gian để nấu một bữa ăn tốt cho sức khỏe."
+					},
+					{
+						"phrase": "home-cooked",
+						"meaning": "food prepared at home",
+						"viMeaning": "nấu tại nhà",
+						"example": "I miss my mother's home-cooked food.",
+						"viExample": "Tôi nhớ thức ăn nấu tại nhà của mẹ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "drive",
+		"pos": "verb",
+		"ipa": "/draɪv/",
+		"cefrLevel": "A1",
+		"frequency": 260,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "driver",
+				"pos": "noun"
+			},
+			{
+				"form": "driving",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "operate and control the direction and speed of a motor vehicle",
+				"viDef": "lái xe",
+				"synonyms": ["steer", "ride"],
+				"antonyms": ["walk", "stop"],
+				"examples": [
+					{
+						"text": "I can drive a car now.",
+						"viText": "Bây giờ tôi có thể lái xe hơi."
+					},
+					{
+						"text": "Drive carefully on the wet road.",
+						"viText": "Hãy lái xe cẩn thận trên con đường ướt."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "drive a car",
+						"meaning": "operate an automobile",
+						"viMeaning": "lái xe hơi",
+						"example": "He learned to drive a car last year.",
+						"viExample": "Anh ấy đã học lái xe hơi vào năm ngoái."
+					},
+					{
+						"phrase": "go for a drive",
+						"meaning": "take a journey in a car for pleasure",
+						"viMeaning": "đi dạo bằng xe hơi",
+						"example": "Let's go for a drive in the country.",
+						"viExample": "Hãy đi dạo bằng xe hơi về vùng nông thôn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sit",
+		"pos": "verb",
+		"ipa": "/sɪt/",
+		"cefrLevel": "A1",
+		"frequency": 190,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "sitter",
+				"pos": "noun"
+			},
+			{
+				"form": "sitting",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "adopt or be in a position in which one's weight is supported by one's buttocks",
+				"viDef": "ngồi",
+				"synonyms": ["rest", "perch"],
+				"antonyms": ["stand", "rise"],
+				"examples": [
+					{
+						"text": "Please sit on the chair.",
+						"viText": "Vui lòng ngồi trên ghế."
+					},
+					{
+						"text": "The cat is sitting on the mat.",
+						"viText": "Con mèo đang ngồi trên tấm thảm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sit down",
+						"meaning": "move from a standing position to a sitting one",
+						"viMeaning": "ngồi xuống",
+						"example": "Come in and sit down.",
+						"viExample": "Vào đi và ngồi xuống."
+					},
+					{
+						"phrase": "sit still",
+						"meaning": "remain seated without moving",
+						"viMeaning": "ngồi yên",
+						"example": "The child cannot sit still for a minute.",
+						"viExample": "Đứa trẻ không thể ngồi yên trong một phút."
+					}
+				]
+			}
+		]
+	}
+]

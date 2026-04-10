@@ -1,0 +1,1062 @@
+[
+	{
+		"headword": "tree",
+		"pos": "noun",
+		"ipa": "/triː/",
+		"cefrLevel": "A1",
+		"frequency": 300,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "treeless",
+				"pos": "adjective"
+			},
+			{
+				"form": "treetop",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a woody perennial plant with a trunk and branches",
+				"viDef": "cái cây",
+				"synonyms": ["timber", "plant"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The bird is resting in the tree.",
+						"viText": "Con chim đang nghỉ ngơi trên cây."
+					},
+					{
+						"text": "They planted a new tree today.",
+						"viText": "Hôm nay họ đã trồng một cái cây mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "climb a tree",
+						"meaning": "go up the trunk of a tree",
+						"viMeaning": "leo cây",
+						"example": "He likes to climb a tree.",
+						"viExample": "Anh ấy thích leo cây."
+					},
+					{
+						"phrase": "tall tree",
+						"meaning": "a tree of great height",
+						"viMeaning": "cây cao",
+						"example": "That is a very tall tree.",
+						"viExample": "Đó là một cái cây rất cao."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "flower",
+		"pos": "noun",
+		"ipa": "/ˈflaʊə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 450,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "flowery",
+				"pos": "adjective"
+			},
+			{
+				"form": "flowerless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the seed-bearing part of a plant with colorful petals",
+				"viDef": "bông hoa",
+				"synonyms": ["blossom", "bloom"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She bought a beautiful red flower.",
+						"viText": "Cô ấy đã mua một bông hoa đỏ tuyệt đẹp."
+					},
+					{
+						"text": "The flower smells very nice.",
+						"viText": "Bông hoa có mùi rất thơm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "pick a flower",
+						"meaning": "remove a flower from a plant",
+						"viMeaning": "hái hoa",
+						"example": "Do not pick a flower here.",
+						"viExample": "Đừng hái hoa ở đây."
+					},
+					{
+						"phrase": "smell a flower",
+						"meaning": "inhale the scent of a bloom",
+						"viMeaning": "ngửi hoa",
+						"example": "I stopped to smell a flower.",
+						"viExample": "Tôi dừng lại để ngửi một bông hoa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sun",
+		"pos": "noun",
+		"ipa": "/sʌn/",
+		"cefrLevel": "A1",
+		"frequency": 200,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "sunny",
+				"pos": "adjective"
+			},
+			{
+				"form": "sunless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the star around which the earth orbits",
+				"viDef": "mặt trời",
+				"synonyms": ["sunlight", "sunshine"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The sun is shining brightly today.",
+						"viText": "Hôm nay mặt trời đang chiếu sáng rực rỡ."
+					},
+					{
+						"text": "The sun rises in the east.",
+						"viText": "Mặt trời mọc ở hướng đông."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "in the sun",
+						"meaning": "exposed to the light of the sun",
+						"viMeaning": "dưới ánh nắng",
+						"example": "Don't sit in the sun too long.",
+						"viExample": "Đừng ngồi dưới ánh nắng quá lâu."
+					},
+					{
+						"phrase": "morning sun",
+						"meaning": "sunlight in the early part of the day",
+						"viMeaning": "nắng sớm",
+						"example": "The morning sun is very warm.",
+						"viExample": "Nắng sớm rất ấm áp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "rain",
+		"pos": "noun",
+		"ipa": "/reɪn/",
+		"cefrLevel": "A1",
+		"frequency": 400,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "rainy",
+				"pos": "adjective"
+			},
+			{
+				"form": "rainless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "moisture condensed from the atmosphere that falls visibly",
+				"viDef": "cơn mưa",
+				"synonyms": ["rainfall", "drizzle"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I like walking in the rain.",
+						"viText": "Tôi thích đi dạo dưới cơn mưa."
+					},
+					{
+						"text": "The rain stopped an hour ago.",
+						"viText": "Cơn mưa đã tạnh một giờ trước."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "heavy rain",
+						"meaning": "rain that falls intensely and heavily",
+						"viMeaning": "mưa to",
+						"example": "We could not drive in heavy rain.",
+						"viExample": "Chúng tôi không thể lái xe trong mưa to."
+					},
+					{
+						"phrase": "catch in the rain",
+						"meaning": "be outside when it starts raining",
+						"viMeaning": "mắc mưa",
+						"example": "I did not want to catch in the rain.",
+						"viExample": "Tôi không muốn bị mắc mưa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "wind",
+		"pos": "noun",
+		"ipa": "/wɪnd/",
+		"cefrLevel": "A1",
+		"frequency": 500,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "windy",
+				"pos": "adjective"
+			},
+			{
+				"form": "windless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the perceptible natural movement of the air",
+				"viDef": "gió",
+				"synonyms": ["breeze", "gale"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The wind is blowing strongly today.",
+						"viText": "Hôm nay gió thổi rất mạnh."
+					},
+					{
+						"text": "The cold wind made me shiver.",
+						"viText": "Cơn gió lạnh làm tôi run rẩy."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "strong wind",
+						"meaning": "air moving with great force",
+						"viMeaning": "gió mạnh",
+						"example": "A strong wind destroyed the old house.",
+						"viExample": "Một cơn gió mạnh đã phá hủy ngôi nhà cũ."
+					},
+					{
+						"phrase": "wind blows",
+						"meaning": "the movement of the air",
+						"viMeaning": "gió thổi",
+						"example": "Listen to how the wind blows.",
+						"viExample": "Hãy lắng nghe xem gió thổi như thế nào."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "bag",
+		"pos": "noun",
+		"ipa": "/bæɡ/",
+		"cefrLevel": "A1",
+		"frequency": 600,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "baggy",
+				"pos": "adjective"
+			},
+			{
+				"form": "bagless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a container made of flexible material with an opening",
+				"viDef": "cái túi",
+				"synonyms": ["sack", "carrier"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I carry my books in a bag.",
+						"viText": "Tôi mang sách trong một chiếc túi."
+					},
+					{
+						"text": "Her new bag is very heavy.",
+						"viText": "Chiếc túi mới của cô ấy rất nặng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "plastic bag",
+						"meaning": "a bag made of thin plastic material",
+						"viMeaning": "túi nilon",
+						"example": "Do not use a plastic bag.",
+						"viExample": "Đừng sử dụng túi nilon."
+					},
+					{
+						"phrase": "pack a bag",
+						"meaning": "put things into a bag for travel",
+						"viMeaning": "sửa soạn túi xách",
+						"example": "I need to pack a bag tonight.",
+						"viExample": "Tôi cần sửa soạn túi xách vào tối nay."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "pen",
+		"pos": "noun",
+		"ipa": "/pen/",
+		"cefrLevel": "A1",
+		"frequency": 800,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "penman",
+				"pos": "noun"
+			},
+			{
+				"form": "penmanship",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "an instrument for writing or drawing with ink",
+				"viDef": "cái bút",
+				"synonyms": ["ballpoint", "marker"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Can I borrow your pen?",
+						"viText": "Tôi có thể mượn bút của bạn không?"
+					},
+					{
+						"text": "I need a blue pen to write this.",
+						"viText": "Tôi cần một cây bút xanh để viết cái này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "write with a pen",
+						"meaning": "use a pen to make marks",
+						"viMeaning": "viết bằng bút",
+						"example": "Always write with a pen on tests.",
+						"viExample": "Luôn viết bằng bút trong các bài kiểm tra."
+					},
+					{
+						"phrase": "red pen",
+						"meaning": "a pen that uses red ink",
+						"viMeaning": "bút đỏ",
+						"example": "The teacher used a red pen.",
+						"viExample": "Giáo viên đã sử dụng một cây bút đỏ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "paper",
+		"pos": "noun",
+		"ipa": "/ˈpeɪpə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 250,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "papery",
+				"pos": "adjective"
+			},
+			{
+				"form": "paperless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "material manufactured in thin sheets from wood pulp",
+				"viDef": "tờ giấy",
+				"synonyms": ["document", "sheet"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Please write your name on this paper.",
+						"viText": "Vui lòng viết tên của bạn lên tờ giấy này."
+					},
+					{
+						"text": "I need a blank piece of paper.",
+						"viText": "Tôi cần một mẩu giấy trắng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "blank paper",
+						"meaning": "paper with nothing written on it",
+						"viMeaning": "giấy trắng",
+						"example": "He stared at the blank paper.",
+						"viExample": "Anh ấy chằm chằm nhìn vào tờ giấy trắng."
+					},
+					{
+						"phrase": "sheet of paper",
+						"meaning": "a single rectangular piece of paper",
+						"viMeaning": "tờ giấy",
+						"example": "Give me one sheet of paper.",
+						"viExample": "Cho tôi một tờ giấy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "colour",
+		"pos": "noun",
+		"ipa": "/ˈkʌlə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 350,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "colourful",
+				"pos": "adjective"
+			},
+			{
+				"form": "colourless",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "the property possessed by an object of producing different sensations",
+				"viDef": "màu sắc",
+				"synonyms": ["hue", "shade"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "What is your favourite colour?",
+						"viText": "Màu sắc yêu thích của bạn là gì?"
+					},
+					{
+						"text": "The colour of the sky is blue.",
+						"viText": "Màu của bầu trời là màu xanh dương."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "bright colour",
+						"meaning": "a colour that reflects a lot of light",
+						"viMeaning": "màu sáng",
+						"example": "She likes to wear a bright colour.",
+						"viExample": "Cô ấy thích mặc một màu sáng."
+					},
+					{
+						"phrase": "change colour",
+						"meaning": "become a different hue or shade",
+						"viMeaning": "đổi màu",
+						"example": "Leaves change colour in the autumn.",
+						"viExample": "Lá cây đổi màu vào mùa thu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "picture",
+		"pos": "noun",
+		"ipa": "/ˈpɪktʃə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 280,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "pictorial",
+				"pos": "adjective"
+			},
+			{
+				"form": "picturesque",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a painting, drawing or photograph on paper or screen",
+				"viDef": "bức tranh, ảnh",
+				"synonyms": ["image", "photo"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I will draw a picture of you.",
+						"viText": "Tôi sẽ vẽ một bức tranh về bạn."
+					},
+					{
+						"text": "The picture hangs on the bedroom wall.",
+						"viText": "Bức tranh treo trên tường phòng ngủ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "take a picture",
+						"meaning": "use a camera to create a photograph",
+						"viMeaning": "chụp ảnh",
+						"example": "Can you take a picture for us?",
+						"viExample": "Bạn có thể chụp một bức ảnh cho chúng tôi không?"
+					},
+					{
+						"phrase": "draw a picture",
+						"meaning": "create an image using a pencil or pen",
+						"viMeaning": "vẽ một bức tranh",
+						"example": "The child loves to draw a picture.",
+						"viExample": "Đứa trẻ thích vẽ một bức tranh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "mother",
+		"pos": "noun",
+		"ipa": "/ˈmʌðə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 150,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "motherly",
+				"pos": "adjective"
+			},
+			{
+				"form": "motherhood",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a woman in relation to her child or children",
+				"viDef": "người mẹ",
+				"synonyms": ["mom", "mummy"],
+				"antonyms": ["father"],
+				"examples": [
+					{
+						"text": "My mother is a very kind woman.",
+						"viText": "Mẹ tôi là một người phụ nữ rất tốt bụng."
+					},
+					{
+						"text": "I bought a nice gift for my mother.",
+						"viText": "Tôi đã mua một món quà xinh xắn cho mẹ tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "single mother",
+						"meaning": "a mother raising children without a partner",
+						"viMeaning": "bà mẹ đơn thân",
+						"example": "She is a strong single mother.",
+						"viExample": "Cô ấy là một bà mẹ đơn thân mạnh mẽ."
+					},
+					{
+						"phrase": "expectant mother",
+						"meaning": "a woman who is pregnant",
+						"viMeaning": "bà mẹ mang thai",
+						"example": "The seat is for an expectant mother.",
+						"viExample": "Ghế này dành cho bà mẹ mang thai."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "father",
+		"pos": "noun",
+		"ipa": "/ˈfɑːðə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 160,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "fatherly",
+				"pos": "adjective"
+			},
+			{
+				"form": "fatherhood",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a man in relation to his child or children",
+				"viDef": "người cha",
+				"synonyms": ["dad", "daddy"],
+				"antonyms": ["mother"],
+				"examples": [
+					{
+						"text": "My father works in a large hospital.",
+						"viText": "Bố tôi làm việc trong một bệnh viện lớn."
+					},
+					{
+						"text": "He is a very strict but loving father.",
+						"viText": "Ông ấy là một người cha rất nghiêm khắc nhưng đầy tình yêu thương."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "single father",
+						"meaning": "a father raising children without a partner",
+						"viMeaning": "ông bố đơn thân",
+						"example": "He does his best as a single father.",
+						"viExample": "Anh ấy làm hết sức mình với tư cách là một ông bố đơn thân."
+					},
+					{
+						"phrase": "become a father",
+						"meaning": "to have a child for the first time",
+						"viMeaning": "trở thành một người cha",
+						"example": "He will become a father next month.",
+						"viExample": "Anh ấy sẽ trở thành một người cha vào tháng tới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sister",
+		"pos": "noun",
+		"ipa": "/ˈsɪstə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 450,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "sisterly",
+				"pos": "adjective"
+			},
+			{
+				"form": "sisterhood",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a woman or girl in relation to other children of her parents",
+				"viDef": "chị em gái",
+				"synonyms": ["sibling"],
+				"antonyms": ["brother"],
+				"examples": [
+					{
+						"text": "I have one older sister.",
+						"viText": "Tôi có một người chị gái."
+					},
+					{
+						"text": "Her sister is a famous doctor.",
+						"viText": "Chị gái của cô ấy là một bác sĩ nổi tiếng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "older sister",
+						"meaning": "a sister who is older than you",
+						"viMeaning": "chị gái",
+						"example": "My older sister goes to college.",
+						"viExample": "Chị gái tôi đi học đại học."
+					},
+					{
+						"phrase": "younger sister",
+						"meaning": "a sister who is younger than you",
+						"viMeaning": "em gái",
+						"example": "I help my younger sister with homework.",
+						"viExample": "Tôi giúp em gái làm bài tập về nhà."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "brother",
+		"pos": "noun",
+		"ipa": "/ˈbrʌðə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 460,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "brotherly",
+				"pos": "adjective"
+			},
+			{
+				"form": "brotherhood",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a man or boy in relation to other children of his parents",
+				"viDef": "anh em trai",
+				"synonyms": ["sibling"],
+				"antonyms": ["sister"],
+				"examples": [
+					{
+						"text": "My younger brother likes playing video games.",
+						"viText": "Em trai tôi thích chơi trò chơi điện tử."
+					},
+					{
+						"text": "He is a very good brother to me.",
+						"viText": "Anh ấy là một người anh rất tốt đối với tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "older brother",
+						"meaning": "a brother who is older than you",
+						"viMeaning": "anh trai",
+						"example": "His older brother bought him a car.",
+						"viExample": "Anh trai cậu ấy đã mua cho cậu ấy một chiếc xe hơi."
+					},
+					{
+						"phrase": "younger brother",
+						"meaning": "a brother who is younger than you",
+						"viMeaning": "em trai",
+						"example": "She took care of her younger brother.",
+						"viExample": "Cô ấy đã chăm sóc em trai của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "baby",
+		"pos": "noun",
+		"ipa": "/ˈbeɪbi/",
+		"cefrLevel": "A1",
+		"frequency": 550,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "babyish",
+				"pos": "adjective"
+			},
+			{
+				"form": "babyhood",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a very young child, especially one newly born",
+				"viDef": "em bé",
+				"synonyms": ["infant", "newborn"],
+				"antonyms": ["adult"],
+				"examples": [
+					{
+						"text": "The baby is sleeping safely in the room.",
+						"viText": "Em bé đang ngủ an toàn trong phòng."
+					},
+					{
+						"text": "She just had a beautiful baby boy.",
+						"viText": "Cô ấy vừa sinh một bé trai kháu khỉnh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "have a baby",
+						"meaning": "give birth to a child",
+						"viMeaning": "sinh em bé",
+						"example": "They plan to have a baby soon.",
+						"viExample": "Họ dự định sẽ sớm sinh em bé."
+					},
+					{
+						"phrase": "cry like a baby",
+						"meaning": "weep openly and without restraint",
+						"viMeaning": "khóc như em bé",
+						"example": "He started to cry like a baby.",
+						"viExample": "Anh ấy bắt đầu khóc như một em bé."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "teacher",
+		"pos": "noun",
+		"ipa": "/ˈtiːtʃə(r)/",
+		"cefrLevel": "A1",
+		"frequency": 310,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "teachable",
+				"pos": "adjective"
+			},
+			{
+				"form": "teaching",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a person who teaches, especially in a school",
+				"viDef": "giáo viên",
+				"synonyms": ["educator", "tutor"],
+				"antonyms": ["student", "pupil"],
+				"examples": [
+					{
+						"text": "My math teacher is very patient.",
+						"viText": "Giáo viên toán của tôi rất kiên nhẫn."
+					},
+					{
+						"text": "The English teacher gave us some homework.",
+						"viText": "Giáo viên tiếng Anh đã giao cho chúng tôi một số bài tập về nhà."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "head teacher",
+						"meaning": "the teacher in charge of a school",
+						"viMeaning": "hiệu trưởng",
+						"example": "The head teacher spoke at the meeting.",
+						"viExample": "Hiệu trưởng đã phát biểu tại cuộc họp."
+					},
+					{
+						"phrase": "ask the teacher",
+						"meaning": "request information from an educator",
+						"viMeaning": "hỏi giáo viên",
+						"example": "If you don't understand, ask the teacher.",
+						"viExample": "Nếu bạn không hiểu, hãy hỏi giáo viên."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "student",
+		"pos": "noun",
+		"ipa": "/ˈstjuːdnt/",
+		"cefrLevel": "A1",
+		"frequency": 290,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "studious",
+				"pos": "adjective"
+			},
+			{
+				"form": "studentship",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a person who is studying at a school or college",
+				"viDef": "học sinh",
+				"synonyms": ["pupil", "learner"],
+				"antonyms": ["teacher"],
+				"examples": [
+					{
+						"text": "He is a very hard-working student.",
+						"viText": "Cậu ấy là một học sinh rất chăm chỉ."
+					},
+					{
+						"text": "The student is reading a science book.",
+						"viText": "Học sinh đang đọc một cuốn sách khoa học."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "university student",
+						"meaning": "a person studying at a university",
+						"viMeaning": "sinh viên đại học",
+						"example": "She is a first-year university student.",
+						"viExample": "Cô ấy là sinh viên đại học năm nhất."
+					},
+					{
+						"phrase": "exchange student",
+						"meaning": "a student from another country studying temporarily",
+						"viMeaning": "du học sinh trao đổi",
+						"example": "We hosted an exchange student from Japan.",
+						"viExample": "Chúng tôi đã đón tiếp một du học sinh trao đổi từ Nhật Bản."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "class",
+		"pos": "noun",
+		"ipa": "/klɑːs/",
+		"cefrLevel": "A1",
+		"frequency": 240,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "classmate",
+				"pos": "noun"
+			},
+			{
+				"form": "classroom",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a group of students who are taught together",
+				"viDef": "lớp học",
+				"synonyms": ["course", "lesson"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Our English class starts exactly at eight.",
+						"viText": "Lớp học tiếng Anh của chúng tôi bắt đầu đúng lúc tám giờ."
+					},
+					{
+						"text": "There are thirty students in my class.",
+						"viText": "Có ba mươi học sinh trong lớp của tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "go to class",
+						"meaning": "attend a scheduled educational session",
+						"viMeaning": "đi học",
+						"example": "I need to go to class now.",
+						"viExample": "Tôi cần phải đi học bây giờ."
+					},
+					{
+						"phrase": "class teacher",
+						"meaning": "the main teacher responsible for a class",
+						"viMeaning": "giáo viên chủ nhiệm",
+						"example": "Our class teacher is very supportive.",
+						"viExample": "Giáo viên chủ nhiệm của chúng tôi rất hỗ trợ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "lesson",
+		"pos": "noun",
+		"ipa": "/ˈlesn/",
+		"cefrLevel": "A1",
+		"frequency": 700,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "lessonless",
+				"pos": "adjective"
+			},
+			{
+				"form": "microlesson",
+				"pos": "noun"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a period of learning or teaching about a subject",
+				"viDef": "bài học",
+				"synonyms": ["session", "class"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The piano lesson was very hard today.",
+						"viText": "Bài học piano hôm nay rất khó."
+					},
+					{
+						"text": "I learned a valuable life lesson.",
+						"viText": "Tôi đã học được một bài học cuộc sống quý giá."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "learn a lesson",
+						"meaning": "gain knowledge from a negative experience",
+						"viMeaning": "rút ra bài học",
+						"example": "He will learn a lesson from his mistake.",
+						"viExample": "Anh ấy sẽ rút ra bài học từ sai lầm của mình."
+					},
+					{
+						"phrase": "take a lesson",
+						"meaning": "participate in an educational session",
+						"viMeaning": "tham gia một tiết học",
+						"example": "I plan to take a lesson in French.",
+						"viExample": "Tôi dự định tham gia một tiết học tiếng Pháp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "test",
+		"pos": "noun",
+		"ipa": "/test/",
+		"cefrLevel": "A1",
+		"frequency": 500,
+		"isCommon": true,
+		"wordForms": [
+			{
+				"form": "tester",
+				"pos": "noun"
+			},
+			{
+				"form": "testable",
+				"pos": "adjective"
+			}
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "a procedure intended to establish quality, performance, or knowledge",
+				"viDef": "bài kiểm tra",
+				"synonyms": ["exam", "quiz"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I have a difficult math test tomorrow.",
+						"viText": "Tôi có một bài kiểm tra toán khó vào ngày mai."
+					},
+					{
+						"text": "He passed the driving test easily.",
+						"viText": "Anh ấy đã vượt qua bài kiểm tra lái xe một cách dễ dàng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "pass a test",
+						"meaning": "achieve the required standard in an exam",
+						"viMeaning": "qua bài kiểm tra",
+						"example": "Study hard if you want to pass a test.",
+						"viExample": "Hãy học chăm chỉ nếu bạn muốn qua bài kiểm tra."
+					},
+					{
+						"phrase": "fail a test",
+						"meaning": "not achieve the required standard in an exam",
+						"viMeaning": "trượt bài kiểm tra",
+						"example": "If you don't study, you will fail a test.",
+						"viExample": "Nếu bạn không học, bạn sẽ trượt bài kiểm tra."
+					}
+				]
+			}
+		]
+	}
+]

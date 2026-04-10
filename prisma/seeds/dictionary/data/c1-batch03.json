@@ -1,0 +1,889 @@
+[
+	{
+		"headword": "vacillate",
+		"pos": "verb",
+		"ipa": "/ˈvæsəleɪt/",
+		"cefrLevel": "C1",
+		"frequency": 9200,
+		"isCommon": false,
+		"wordForms": [{ "form": "vacillation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To waver between different opinions or actions; be indecisive",
+				"viDef": "do dự, dao động",
+				"synonyms": ["dither", "waver", "hesitate"],
+				"antonyms": ["decide", "persist"],
+				"examples": [
+					{
+						"text": "He vacillated between staying and going until it was too late.",
+						"viText": "Anh ấy cứ do dự giữa việc ở lại hay đi cho đến khi quá muộn."
+					},
+					{
+						"text": "The government vacillated for months before taking action.",
+						"viText": "Chính phủ đã do dự suốt nhiều tháng trước khi hành động."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "vacillate between",
+						"meaning": "To move back and forth between two choices",
+						"viMeaning": "dao động giữa",
+						"example": "Investors often vacillate between optimism and fear.",
+						"viExample": "Các nhà đầu tư thường dao động giữa sự lạc quan và nỗi sợ hãi."
+					},
+					{
+						"phrase": "tendency to vacillate",
+						"meaning": "A habit of being unable to choose quickly",
+						"viMeaning": "khuynh hướng do dự",
+						"example": "Her tendency to vacillate made her a poor leader.",
+						"viExample": "Khuynh hướng do dự khiến cô ấy trở thành một nhà lãnh đạo tồi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "propensity",
+		"pos": "noun",
+		"ipa": "/prəˈpensəti/",
+		"cefrLevel": "C1",
+		"frequency": 8400,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An inclination or natural tendency to behave in a particular way",
+				"viDef": "thiên hướng, xu hướng",
+				"synonyms": ["tendency", "inclination", "proclivity"],
+				"antonyms": ["disinclination", "aversion"],
+				"examples": [
+					{
+						"text": "He has a propensity for getting into trouble.",
+						"viText": "Anh ta có thiên hướng hay vướng vào rắc rối."
+					},
+					{
+						"text": "The study showed a propensity for violence in certain groups.",
+						"viText": "Nghiên cứu chỉ ra xu hướng bạo lực ở một số nhóm nhất định."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "propensity to",
+						"meaning": "A natural habit to do something",
+						"viMeaning": "có xu hướng làm gì",
+						"example": "There is a natural propensity to avoid risk.",
+						"viExample": "Có một thiên hướng tự nhiên là né tránh rủi ro."
+					},
+					{
+						"phrase": "increased propensity",
+						"meaning": "A higher likelihood of a certain behavior",
+						"viMeaning": "thiên hướng gia tăng",
+						"example": "Stress leads to an increased propensity for illness.",
+						"viExample": "Căng thẳng dẫn đến thiên hướng dễ mắc bệnh hơn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "acquiesce",
+		"pos": "verb",
+		"ipa": "/ˌækwiˈes/",
+		"cefrLevel": "C1",
+		"frequency": 9600,
+		"isCommon": false,
+		"wordForms": [{ "form": "acquiescence", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Accept something reluctantly but without protest",
+				"viDef": "bằng lòng, ưng thuận",
+				"synonyms": ["comply", "concede", "yield"],
+				"antonyms": ["forbid", "protest"],
+				"examples": [
+					{
+						"text": "The council finally acquiesced to the residents' demands.",
+						"viText": "Hội đồng cuối cùng đã chấp thuận các yêu cầu của người dân."
+					},
+					{
+						"text": "He was forced to acquiesce in their decision.",
+						"viText": "Anh ta buộc phải bằng lòng với quyết định của họ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "acquiesce to",
+						"meaning": "To agree to a request or demand",
+						"viMeaning": "đồng ý với",
+						"example": "It is hard to acquiesce to such unfair terms.",
+						"viExample": "Thật khó để chấp thuận những điều khoản bất công như vậy."
+					},
+					{
+						"phrase": "ready to acquiesce",
+						"meaning": "Willing to go along with others",
+						"viMeaning": "sẵn sàng bằng lòng",
+						"example": "She was too tired to argue and ready to acquiesce.",
+						"viExample": "Cô ấy quá mệt mỏi để tranh cãi và sẵn sàng bằng lòng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "galvanize",
+		"pos": "verb",
+		"ipa": "/ˈɡælvənaɪz/",
+		"cefrLevel": "C1",
+		"frequency": 8800,
+		"isCommon": false,
+		"wordForms": [{ "form": "galvanization", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Shock or excite someone into taking action",
+				"viDef": "kích động, thúc đẩy",
+				"synonyms": ["inspire", "stimulate", "jolt"],
+				"antonyms": ["deter", "discourage"],
+				"examples": [
+					{
+						"text": "The urgency of the situation helped to galvanize the team.",
+						"viText": "Sự khẩn cấp của tình hình đã giúp thúc đẩy cả nhóm hành động."
+					},
+					{
+						"text": "Her speech was intended to galvanize public opinion.",
+						"viText": "Bài phát biểu của cô ấy nhằm mục đích kích động dư luận."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "galvanize into action",
+						"meaning": "To make someone start doing something immediately",
+						"viMeaning": "thúc đẩy hành động",
+						"example": "The crisis galvanized the government into action.",
+						"viExample": "Cuộc khủng hoảng đã thúc đẩy chính phủ phải hành động."
+					},
+					{
+						"phrase": "galvanize support",
+						"meaning": "To gather people to back a cause",
+						"viMeaning": "huy động sự ủng hộ",
+						"example": "The charity worked to galvanize support for the homeless.",
+						"viExample": "Tổ chức từ thiện đã nỗ lực huy động sự ủng hộ cho người vô gia cư."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "impetus",
+		"pos": "noun",
+		"ipa": "/ˈɪmpɪtəs/",
+		"cefrLevel": "C1",
+		"frequency": 7900,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The force or energy with which a body moves",
+				"viDef": "sức thúc đẩy, xung lực",
+				"synonyms": ["momentum", "stimulus", "drive"],
+				"antonyms": ["hindrance", "deterrent"],
+				"examples": [
+					{
+						"text": "The discovery gave fresh impetus to the research.",
+						"viText": "Phát hiện này đã tạo ra xung lực mới cho cuộc nghiên cứu."
+					},
+					{
+						"text": "The document provided the impetus for change.",
+						"viText": "Tài liệu này đã tạo ra sức thúc đẩy cho sự thay đổi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "provide the impetus",
+						"meaning": "To give the initial energy needed for a start",
+						"viMeaning": "tạo đà/động lực",
+						"example": "New funding provided the impetus for the project.",
+						"viExample": "Nguồn kinh phí mới đã tạo động lực cho dự án."
+					},
+					{
+						"phrase": "gain impetus",
+						"meaning": "To become stronger or more effective over time",
+						"viMeaning": "có thêm đà",
+						"example": "The movement gained impetus after the election.",
+						"viExample": "Phong trào đã có thêm đà sau cuộc bầu cử."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "intransigent",
+		"pos": "adjective",
+		"ipa": "/ɪnˈtrænzɪdʒənt/",
+		"cefrLevel": "C1",
+		"frequency": 9900,
+		"isCommon": false,
+		"wordForms": [{ "form": "intransigence", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Unwilling or refusing to change one's views",
+				"viDef": "ngoan cố, không khoan nhượng",
+				"synonyms": ["uncompromising", "stubborn", "obdurate"],
+				"antonyms": ["compliant", "flexible"],
+				"examples": [
+					{
+						"text": "He remained intransigent, refusing to listen to reason.",
+						"viText": "Anh ta vẫn ngoan cố, từ chối lắng nghe lẽ phải."
+					},
+					{
+						"text": "The two sides are stuck because of their intransigent positions.",
+						"viText": "Hai bên đang bế tắc vì những lập trường không khoan nhượng của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "intransigent attitude",
+						"meaning": "A stubborn mindset that resists negotiation",
+						"viMeaning": "thái độ ngoan cố",
+						"example": "Her intransigent attitude made a deal impossible.",
+						"viExample": "Thái độ ngoan cố của cô ấy khiến thỏa thuận không thể thực hiện được."
+					},
+					{
+						"phrase": "remain intransigent",
+						"meaning": "To continue refusing to change one's mind",
+						"viMeaning": "vẫn giữ thái độ ngoan cố",
+						"example": "Management remained intransigent despite the strike.",
+						"viExample": "Ban quản lý vẫn giữ thái độ không khoan nhượng bất chấp cuộc đình công."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "juxtapose",
+		"pos": "verb",
+		"ipa": "/ˌdʒʌkstəˈpəʊz/",
+		"cefrLevel": "C1",
+		"frequency": 9100,
+		"isCommon": false,
+		"wordForms": [{ "form": "juxtaposition", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Place or deal with close together for contrasting effect",
+				"viDef": "đặt cạnh nhau (để so sánh)",
+				"synonyms": ["contrast", "collocate"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The exhibition juxtaposes modern art with classical sculpture.",
+						"viText": "Triển lãm đặt nghệ thuật hiện đại cạnh những bức tượng cổ điển."
+					},
+					{
+						"text": "In the film, scenes of wealth are juxtaposed with poverty.",
+						"viText": "Trong phim, các cảnh giàu sang được đặt cạnh sự nghèo khó."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "juxtapose with",
+						"meaning": "To put one thing next to another for comparison",
+						"viMeaning": "đặt cạnh với",
+						"example": "Black is often juxtaposed with white for dramatic effect.",
+						"viExample": "Màu đen thường được đặt cạnh màu trắng để tạo hiệu ứng kịch tính."
+					},
+					{
+						"phrase": "juxtapose A and B",
+						"meaning": "To contrast two specific items",
+						"viMeaning": "so sánh A và B",
+						"example": "He liked to juxtapose ancient and modern styles.",
+						"viExample": "Anh ấy thích đặt các phong cách cổ điển và hiện đại cạnh nhau."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "nascent",
+		"pos": "adjective",
+		"ipa": "/ˈnæsnt/",
+		"cefrLevel": "C1",
+		"frequency": 9700,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Just coming into existence and beginning to show signs of potential",
+				"viDef": "mới phôi thai, mới hình thành",
+				"synonyms": ["emerging", "budding", "developing"],
+				"antonyms": ["mature", "dying"],
+				"examples": [
+					{
+						"text": "The nascent space tourism industry is growing fast.",
+						"viText": "Ngành du lịch vũ trụ mới hình thành đang phát triển nhanh chóng."
+					},
+					{
+						"text": "A nascent democracy faces many internal challenges.",
+						"viText": "Một nền dân chủ mới phôi thai đối mặt với nhiều thách thức nội bộ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "nascent stage",
+						"meaning": "The very beginning phase of something",
+						"viMeaning": "giai đoạn sơ khai",
+						"example": "The project is still in its nascent stage.",
+						"viExample": "Dự án vẫn đang ở giai đoạn sơ khai."
+					},
+					{
+						"phrase": "nascent market",
+						"meaning": "A new area of business with future potential",
+						"viMeaning": "thị trường mới nổi",
+						"example": "Companies are competing for dominance in this nascent market.",
+						"viExample": "Các công ty đang cạnh tranh để thống trị thị trường mới nổi này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "obfuscate",
+		"pos": "verb",
+		"ipa": "/ˈɒbfʌskeɪt/",
+		"cefrLevel": "C1",
+		"frequency": 9850,
+		"isCommon": false,
+		"wordForms": [{ "form": "obfuscation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Make obscure, unclear, or unintelligible",
+				"viDef": "làm mờ mịt, gây khó hiểu",
+				"synonyms": ["confuse", "obscure", "muddy"],
+				"antonyms": ["clarify", "simplify"],
+				"examples": [
+					{
+						"text": "The politician tried to obfuscate the issue with complex language.",
+						"viText": "Chính trị gia đã cố gắng làm khó hiểu vấn đề bằng ngôn từ phức tạp."
+					},
+					{
+						"text": "Technical jargon often serves to obfuscate the truth.",
+						"viText": "Thuật ngữ chuyên môn thường dùng để che đậy sự thật."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "deliberately obfuscate",
+						"meaning": "To purposely make something hard to understand",
+						"viMeaning": "cố tình gây khó hiểu",
+						"example": "The lawyer was accused of trying to deliberately obfuscate the facts.",
+						"viExample": "Luật sư bị cáo buộc cố tình làm sai lệch sự thật."
+					},
+					{
+						"phrase": "obfuscate the meaning",
+						"meaning": "To hide the true intent of a message",
+						"viMeaning": "làm lu mờ ý nghĩa",
+						"example": "Long sentences can often obfuscate the meaning of a text.",
+						"viExample": "Những câu dài thường có thể làm lu mờ ý nghĩa của văn bản."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "polarize",
+		"pos": "verb",
+		"ipa": "/ˈpəʊləraɪz/",
+		"cefrLevel": "C1",
+		"frequency": 8500,
+		"isCommon": false,
+		"wordForms": [{ "form": "polarization", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Divide or cause to divide into two sharply contrasting groups",
+				"viDef": "gây phân cực",
+				"synonyms": ["divide", "split", "separate"],
+				"antonyms": ["unite", "unify"],
+				"examples": [
+					{
+						"text": "The election has served to polarize the country.",
+						"viText": "Cuộc bầu cử đã làm phân cực đất nước."
+					},
+					{
+						"text": "Social media tends to polarize public opinion.",
+						"viText": "Mạng xã hội có xu hướng làm phân cực dư luận."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "deeply polarize",
+						"meaning": "To divide people into very angry opposing groups",
+						"viMeaning": "phân cực sâu sắc",
+						"example": "The issue of immigration deeply polarizes the nation.",
+						"viExample": "Vấn đề nhập cư làm phân cực sâu sắc quốc gia."
+					},
+					{
+						"phrase": "polarize the community",
+						"meaning": "To cause a split within a local group",
+						"viMeaning": "gây chia rẽ cộng đồng",
+						"example": "The decision to build the mall polarized the community.",
+						"viExample": "Quyết định xây trung tâm thương mại đã gây chia rẽ cộng đồng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "recalcitrant",
+		"pos": "adjective",
+		"ipa": "/rɪˈkælsɪtrənt/",
+		"cefrLevel": "C1",
+		"frequency": 9950,
+		"isCommon": false,
+		"wordForms": [{ "form": "recalcitrance", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having an obstinately uncooperative attitude toward authority",
+				"viDef": "ngoan cố, cứng đầu",
+				"synonyms": ["uncooperative", "defiant", "stubborn"],
+				"antonyms": ["amenable", "docile"],
+				"examples": [
+					{
+						"text": "The teacher had to deal with a recalcitrant student.",
+						"viText": "Giáo viên đã phải đối phó với một học sinh cứng đầu."
+					},
+					{
+						"text": "The recalcitrant horse refused to move.",
+						"viText": "Con ngựa bướng bỉnh đã từ chối di chuyển."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "recalcitrant behavior",
+						"meaning": "Actions that show a refusal to obey",
+						"viMeaning": "hành vi ngoan cố",
+						"example": "Such recalcitrant behavior will lead to suspension.",
+						"viExample": "Hành vi ngoan cố như vậy sẽ dẫn đến đình chỉ học."
+					},
+					{
+						"phrase": "recalcitrant member",
+						"meaning": "A person in a group who refuses to cooperate",
+						"viMeaning": "thành viên bướng bỉnh",
+						"example": "The recalcitrant member was asked to leave the committee.",
+						"viExample": "Thành viên bướng bỉnh đã bị yêu cầu rời khỏi ủy ban."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "reticent",
+		"pos": "adjective",
+		"ipa": "/ˈretɪsnt/",
+		"cefrLevel": "C1",
+		"frequency": 8200,
+		"isCommon": false,
+		"wordForms": [{ "form": "reticence", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Not revealing one's thoughts or feelings readily",
+				"viDef": "kín đáo, ít nói",
+				"synonyms": ["reserved", "withdrawn", "silent"],
+				"antonyms": ["talkative", "expansive"],
+				"examples": [
+					{
+						"text": "He was reticent about his private life.",
+						"viText": "Anh ta rất kín tiếng về đời tư của mình."
+					},
+					{
+						"text": "She is usually reticent in the presence of strangers.",
+						"viText": "Cô ấy thường ít nói khi có mặt người lạ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reticent about",
+						"meaning": "Unwilling to share details about a specific topic",
+						"viMeaning": "kín tiếng về",
+						"example": "They were reticent about the details of the agreement.",
+						"viExample": "Họ đã kín tiếng về các chi tiết của thỏa thuận."
+					},
+					{
+						"phrase": "somewhat reticent",
+						"meaning": "A bit quiet or shy",
+						"viMeaning": "hơi ít nói",
+						"example": "The boy was somewhat reticent at first.",
+						"viExample": "Cậu bé lúc đầu hơi ít nói."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "taciturn",
+		"pos": "adjective",
+		"ipa": "/ˈtæsɪtɜːn/",
+		"cefrLevel": "C1",
+		"frequency": 9900,
+		"isCommon": false,
+		"wordForms": [{ "form": "taciturnity", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "(of a person) reserved or uncommunicative in speech; saying little",
+				"viDef": "lầm lì, ít nói",
+				"synonyms": ["silent", "quiet", "laconic"],
+				"antonyms": ["garrulous", "talkative"],
+				"examples": [
+					{
+						"text": "He was a taciturn man who rarely spoke to his neighbors.",
+						"viText": "Ông ta là một người lầm lì, hiếm khi nói chuyện với hàng xóm."
+					},
+					{
+						"text": "The taciturn guard ignored our questions.",
+						"viText": "Người bảo vệ lầm lì đã phớt lờ các câu hỏi của chúng tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "taciturn nature",
+						"meaning": "A personality that is naturally quiet",
+						"viMeaning": "bản tính ít nói",
+						"example": "Despite his taciturn nature, he was a very kind man.",
+						"viExample": "Mặc dù bản tính ít nói, ông ấy là một người rất tử tế."
+					},
+					{
+						"phrase": "become taciturn",
+						"meaning": "To stop talking much due to stress or age",
+						"viMeaning": "trở nên lầm lì",
+						"example": "He became taciturn after the loss of his wife.",
+						"viExample": "Anh ta trở nên lầm lì sau khi mất vợ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "unequivocal",
+		"pos": "adjective",
+		"ipa": "/ˌʌnɪˈkwɪvəkl/",
+		"cefrLevel": "C1",
+		"frequency": 8600,
+		"isCommon": false,
+		"wordForms": [{ "form": "unequivocally", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Leaving no doubt; unambiguous",
+				"viDef": "rõ ràng, dứt khoát",
+				"synonyms": ["clear", "plain", "absolute"],
+				"antonyms": ["equivocal", "ambiguous"],
+				"examples": [
+					{
+						"text": "The president gave an unequivocal rejection of the proposal.",
+						"viText": "Tổng thống đã đưa ra lời từ chối dứt khoát đối với đề xuất này."
+					},
+					{
+						"text": "The message from the voters was unequivocal.",
+						"viText": "Thông điệp từ các cử tri là rất rõ ràng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "unequivocal support",
+						"meaning": "Full and clear backing without any conditions",
+						"viMeaning": "ủng hộ vô điều kiện",
+						"example": "The project has the unequivocal support of the board.",
+						"viExample": "Dự án có sự ủng hộ tuyệt đối từ ban quản trị."
+					},
+					{
+						"phrase": "unequivocal evidence",
+						"meaning": "Proof that is so clear it cannot be doubted",
+						"viMeaning": "bằng chứng rõ ràng",
+						"example": "There is now unequivocal evidence of global warming.",
+						"viExample": "Hiện nay đã có bằng chứng rõ ràng về sự nóng lên toàn cầu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "vicarious",
+		"pos": "adjective",
+		"ipa": "/vɪˈkeəriəs/",
+		"cefrLevel": "C1",
+		"frequency": 9300,
+		"isCommon": false,
+		"wordForms": [{ "form": "vicariously", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Experienced through the feelings or actions of another person",
+				"viDef": "gián tiếp (qua trải nghiệm người khác)",
+				"synonyms": ["indirect", "secondary", "derivative"],
+				"antonyms": ["direct", "personal"],
+				"examples": [
+					{
+						"text": "He gets a vicarious thrill from watching action movies.",
+						"viText": "Anh ấy có cảm giác phấn khích gián tiếp khi xem phim hành động."
+					},
+					{
+						"text": "Many parents live vicariously through their children's success.",
+						"viText": "Nhiều bậc cha mẹ sống gián tiếp thông qua thành công của con cái."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "vicarious pleasure",
+						"meaning": "Feeling happy because of someone else's good luck",
+						"viMeaning": "niềm vui gián tiếp",
+						"example": "She felt a vicarious pleasure in her friend's wedding.",
+						"viExample": "Cô ấy cảm thấy một niềm vui gián tiếp trong đám cưới của bạn mình."
+					},
+					{
+						"phrase": "vicarious experience",
+						"meaning": "Learning about something without doing it yourself",
+						"viMeaning": "trải nghiệm gián tiếp",
+						"example": "Books provide a vicarious experience of travel.",
+						"viExample": "Sách vở cung cấp một trải nghiệm du lịch gián tiếp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "zealous",
+		"pos": "adjective",
+		"ipa": "/ˈzeləs/",
+		"cefrLevel": "C1",
+		"frequency": 9150,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "zeal", "pos": "noun" },
+			{ "form": "zealously", "pos": "adverb" },
+			{ "form": "zealot", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having or showing great energy or enthusiasm in pursuit of a cause",
+				"viDef": "sốt sắng, hăng hái",
+				"synonyms": ["fervent", "passionate", "eager"],
+				"antonyms": ["apathetic", "indifferent"],
+				"examples": [
+					{
+						"text": "The council was zealous in its efforts to clean up the city.",
+						"viText": "Hội đồng rất sốt sắng trong nỗ lực dọn dẹp thành phố."
+					},
+					{
+						"text": "She is a zealous supporter of environmental protection.",
+						"viText": "Cô ấy là một người ủng hộ hăng hái cho việc bảo vệ môi trường."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "zealous advocate",
+						"meaning": "A person who strongly and energetically supports an idea",
+						"viMeaning": "người ủng hộ nhiệt thành",
+						"example": "He was a zealous advocate for prison reform.",
+						"viExample": "Ông ấy là một người ủng hộ nhiệt thành cho cải cách nhà tù."
+					},
+					{
+						"phrase": "overly zealous",
+						"meaning": "Being too enthusiastic in a way that causes problems",
+						"viMeaning": "quá sốt sắng",
+						"example": "The police were overly zealous in enforcing the new law.",
+						"viExample": "Cảnh sát đã quá sốt sắng trong việc thực thi luật mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "abdicate",
+		"pos": "verb",
+		"ipa": "/ˈæbdɪkeɪt/",
+		"cefrLevel": "C1",
+		"frequency": 9800,
+		"isCommon": false,
+		"wordForms": [{ "form": "abdication", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Renounce one's throne; fail to fulfill a duty",
+				"viDef": "thoái vị, từ bỏ (trách nhiệm)",
+				"synonyms": ["resign", "relinquish", "quit"],
+				"antonyms": ["accept", "assume"],
+				"examples": [
+					{
+						"text": "The king decided to abdicate in favor of his son.",
+						"viText": "Nhà vua quyết định thoái vị để nhường ngôi cho con trai."
+					},
+					{
+						"text": "The government has abdicated its responsibility for education.",
+						"viText": "Chính phủ đã từ bỏ trách nhiệm của mình đối với giáo dục."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "abdicate responsibility",
+						"meaning": "To stop performing a duty that you should do",
+						"viMeaning": "từ bỏ trách nhiệm",
+						"example": "You cannot simply abdicate responsibility for your own children.",
+						"viExample": "Bạn không thể đơn giản là từ bỏ trách nhiệm đối với con cái mình."
+					},
+					{
+						"phrase": "forced to abdicate",
+						"meaning": "When a ruler is made to leave their position",
+						"viMeaning": "buộc phải thoái vị",
+						"example": "The emperor was forced to abdicate after the revolution.",
+						"viExample": "Vị hoàng đế buộc phải thoái vị sau cuộc cách mạng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ameliorate",
+		"pos": "verb",
+		"ipa": "/əˈmiːliəreɪt/",
+		"cefrLevel": "C1",
+		"frequency": 8950,
+		"isCommon": false,
+		"wordForms": [{ "form": "amelioration", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Make (something bad or unsatisfactory) better",
+				"viDef": "cải thiện, làm tốt hơn",
+				"synonyms": ["improve", "enhance", "better"],
+				"antonyms": ["exacerbate", "worsen"],
+				"examples": [
+					{
+						"text": "Steps were taken to ameliorate the working conditions.",
+						"viText": "Các bước đã được thực hiện để cải thiện điều kiện làm việc."
+					},
+					{
+						"text": "The new law will help ameliorate the housing crisis.",
+						"viText": "Luật mới sẽ giúp cải thiện cuộc khủng hoảng nhà ở."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ameliorate the effects",
+						"meaning": "To reduce the negative impact of something",
+						"viMeaning": "giảm nhẹ các tác động",
+						"example": "International aid helped ameliorate the effects of the drought.",
+						"viExample": "Viện trợ quốc tế đã giúp giảm nhẹ tác động của đợt hạn hán."
+					},
+					{
+						"phrase": "seek to ameliorate",
+						"meaning": "To try to make a bad situation better",
+						"viMeaning": "tìm cách cải thiện",
+						"example": "The charity seeks to ameliorate the lives of refugees.",
+						"viExample": "Tổ chức từ thiện tìm cách cải thiện cuộc sống của những người tị nạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "capricious",
+		"pos": "adjective",
+		"ipa": "/kəˈprɪʃəs/",
+		"cefrLevel": "C1",
+		"frequency": 9650,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "caprice", "pos": "noun" },
+			{ "form": "capriciously", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Given to sudden and unaccountable changes of mood or behavior",
+				"viDef": "thất thường, thay đổi nhanh",
+				"synonyms": ["fickle", "unpredictable", "erratic"],
+				"antonyms": ["stable", "consistent"],
+				"examples": [
+					{
+						"text": "The court was guided by a capricious judge.",
+						"viText": "Tòa án được dẫn dắt bởi một vị thẩm phán thất thường."
+					},
+					{
+						"text": "A capricious breeze kept changing the direction of the fire.",
+						"viText": "Một làn gió thất thường liên tục thay đổi hướng của đám cháy."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "capricious nature",
+						"meaning": "A character that is very unpredictable",
+						"viMeaning": "bản chất thất thường",
+						"example": "She found it hard to deal with his capricious nature.",
+						"viExample": "Cô ấy thấy thật khó để đối phó với bản tính thất thường của anh ta."
+					},
+					{
+						"phrase": "capricious climate",
+						"meaning": "Weather that changes very quickly",
+						"viMeaning": "khí hậu thất thường",
+						"example": "The island has a capricious climate with sudden rain.",
+						"viExample": "Hòn đảo có khí hậu thất thường với những cơn mưa bất chợt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "convoluted",
+		"pos": "adjective",
+		"ipa": "/ˈkɒnvəluːtɪd/",
+		"cefrLevel": "C1",
+		"frequency": 8700,
+		"isCommon": false,
+		"wordForms": [{ "form": "convolution", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "(of an argument, story, or sentence) extremely complex and difficult to follow",
+				"viDef": "rắc rối, phức tạp",
+				"synonyms": ["complicated", "complex", "involved"],
+				"antonyms": ["simple", "straightforward"],
+				"examples": [
+					{
+						"text": "The book has a convoluted plot that is hard to remember.",
+						"viText": "Cuốn sách có một cốt truyện rắc rối rất khó nhớ."
+					},
+					{
+						"text": "His explanation was so convoluted that no one understood it.",
+						"viText": "Lời giải thích của anh ta quá phức tạp đến mức không ai hiểu được."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "convoluted argument",
+						"meaning": "A line of reasoning that is too complex to be clear",
+						"viMeaning": "lập luận rắc rối",
+						"example": "I gave up trying to follow his convoluted argument.",
+						"viExample": "Tôi đã từ bỏ việc cố gắng theo dõi lập luận rắc rối của anh ta."
+					},
+					{
+						"phrase": "convoluted system",
+						"meaning": "A set of rules that is unnecessarily difficult",
+						"viMeaning": "hệ thống phức tạp",
+						"example": "The tax system is becoming increasingly convoluted.",
+						"viExample": "Hệ thống thuế đang ngày càng trở nên rắc rối."
+					}
+				]
+			}
+		]
+	}
+]

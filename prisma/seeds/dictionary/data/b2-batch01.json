@@ -1,0 +1,932 @@
+[
+	{
+		"headword": "alleviate",
+		"pos": "verb",
+		"ipa": "/əˈliːvieɪt/",
+		"cefrLevel": "B2",
+		"frequency": 5800,
+		"isCommon": false,
+		"wordForms": [{ "form": "alleviation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make suffering, deficiency, or a problem less severe",
+				"viDef": "làm giảm bớt, xoa dịu",
+				"synonyms": ["relieve", "ease", "mitigate"],
+				"antonyms": ["aggravate", "exacerbate"],
+				"examples": [
+					{
+						"text": "The new medicine helps to alleviate the symptoms of the flu.",
+						"viText": "Loại thuốc mới giúp làm giảm các triệu chứng của bệnh cúm."
+					},
+					{
+						"text": "Measures were taken to alleviate poverty in the region.",
+						"viText": "Các biện pháp đã được thực hiện để giảm bớt đói nghèo trong khu vực."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "alleviate pain",
+						"meaning": "To reduce physical suffering",
+						"viMeaning": "giảm đau",
+						"example": "A warm bath can help alleviate back pain.",
+						"viExample": "Tắm nước ấm có thể giúp giảm đau lưng."
+					},
+					{
+						"phrase": "alleviate pressure",
+						"meaning": "To reduce the amount of stress or demand",
+						"viMeaning": "giảm bớt áp lực",
+						"example": "The manager hired more staff to alleviate pressure on the team.",
+						"viExample": "Người quản lý đã thuê thêm nhân viên để giảm bớt áp lực cho nhóm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "articulate",
+		"pos": "adjective",
+		"ipa": "/ɑːˈtɪkjələt/",
+		"cefrLevel": "B2",
+		"frequency": 6200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "articulation", "pos": "noun" },
+			{ "form": "articulate", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having the ability to speak fluently and coherently",
+				"viDef": "ăn nói lưu loát, rõ ràng",
+				"synonyms": ["eloquent", "fluent", "lucid"],
+				"antonyms": ["inarticulate", "hesitant"],
+				"examples": [
+					{
+						"text": "She is an articulate speaker who expresses her ideas clearly.",
+						"viText": "Cô ấy là một người nói năng lưu loát, người diễn đạt ý tưởng của mình một cách rõ ràng."
+					},
+					{
+						"text": "We need an articulate person to represent our group.",
+						"viText": "Chúng tôi cần một người có khả năng diễn đạt tốt để đại diện cho nhóm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "highly articulate",
+						"meaning": "Very skilled at expressing ideas in words",
+						"viMeaning": "cực kỳ lưu loát",
+						"example": "The professor is a highly articulate advocate for education.",
+						"viExample": "Vị giáo sư là một người ủng hộ giáo dục cực kỳ lưu loát."
+					},
+					{
+						"phrase": "articulate speech",
+						"meaning": "Speech that is clear and easy to understand",
+						"viMeaning": "lời nói rõ ràng",
+						"example": "Her articulate speech impressed the entire audience.",
+						"viExample": "Bài phát biểu rõ ràng của cô ấy đã gây ấn tượng với toàn bộ khán giả."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "comprehensive",
+		"pos": "adjective",
+		"ipa": "/ˌkɒmprɪˈhensɪv/",
+		"cefrLevel": "B2",
+		"frequency": 5150,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "comprehensively", "pos": "adverb" },
+			{ "form": "comprehensiveness", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Including all or nearly all elements or aspects of something",
+				"viDef": "toàn diện, bao quát",
+				"synonyms": ["thorough", "complete", "exhaustive"],
+				"antonyms": ["partial", "selective"],
+				"examples": [
+					{
+						"text": "The study offers a comprehensive overview of the current market.",
+						"viText": "Nghiên cứu đưa ra một cái nhìn toàn diện về thị trường hiện tại."
+					},
+					{
+						"text": "We offer a comprehensive insurance policy for all travelers.",
+						"viText": "Chúng tôi cung cấp một chính sách bảo hiểm toàn diện cho tất cả khách du lịch."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "comprehensive study",
+						"meaning": "A very detailed and complete investigation",
+						"viMeaning": "nghiên cứu toàn diện",
+						"example": "They conducted a comprehensive study of the local climate.",
+						"viExample": "Họ đã tiến hành một nghiên cứu toàn diện về khí hậu địa phương."
+					},
+					{
+						"phrase": "comprehensive list",
+						"meaning": "A list containing all necessary items",
+						"viMeaning": "danh sách đầy đủ",
+						"example": "Please provide a comprehensive list of all participants.",
+						"viExample": "Vui lòng cung cấp một danh sách đầy đủ tất cả những người tham gia."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "controversial",
+		"pos": "adjective",
+		"ipa": "/ˌkɒntrəˈvɜːʃl/",
+		"cefrLevel": "B2",
+		"frequency": 5300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "controversy", "pos": "noun" },
+			{ "form": "controversially", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Giving rise or likely to give rise to public disagreement",
+				"viDef": "gây tranh cãi",
+				"synonyms": ["disputed", "contentious", "debated"],
+				"antonyms": ["uncontroversial", "certain"],
+				"examples": [
+					{
+						"text": "The government's decision to raise taxes was highly controversial.",
+						"viText": "Quyết định tăng thuế của chính phủ đã gây ra nhiều tranh cãi."
+					},
+					{
+						"text": "He is a controversial figure in the world of politics.",
+						"viText": "Ông ấy là một nhân vật gây tranh cãi trong giới chính trị."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "highly controversial",
+						"meaning": "Causing a lot of public disagreement",
+						"viMeaning": "gây tranh cãi dữ dội",
+						"example": "The movie deals with a highly controversial subject.",
+						"viExample": "Bộ phim đề cập đến một chủ đề gây tranh cãi dữ dội."
+					},
+					{
+						"phrase": "controversial issue",
+						"meaning": "A topic that people disagree about",
+						"viMeaning": "vấn đề gây tranh cãi",
+						"example": "Abortion remains a controversial issue in many countries.",
+						"viExample": "Phá thai vẫn là một vấn đề gây tranh cãi ở nhiều quốc gia."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "inevitable",
+		"pos": "adjective",
+		"ipa": "/ɪnˈevɪtəbl/",
+		"cefrLevel": "B2",
+		"frequency": 5400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "inevitability", "pos": "noun" },
+			{ "form": "inevitably", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Certain to happen and impossible to avoid",
+				"viDef": "không thể tránh khỏi",
+				"synonyms": ["unavoidable", "certain", "inescapable"],
+				"antonyms": ["avoidable", "uncertain"],
+				"examples": [
+					{
+						"text": "Accidents are the inevitable result of carelessness.",
+						"viText": "Tai nạn là kết quả tất yếu của sự bất cẩn."
+					},
+					{
+						"text": "Change is inevitable in a growing company.",
+						"viText": "Thay đổi là điều không thể tránh khỏi trong một công ty đang phát triển."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "inevitable consequence",
+						"meaning": "A result that will definitely happen",
+						"viMeaning": "hệ quả tất yếu",
+						"example": "Failure is the inevitable consequence of lack of preparation.",
+						"viExample": "Thất bại là hệ quả tất yếu của việc thiếu chuẩn bị."
+					},
+					{
+						"phrase": "seem inevitable",
+						"meaning": "To appear as if it must happen",
+						"viMeaning": "có vẻ không tránh khỏi",
+						"example": "Victory began to seem inevitable as the game progressed.",
+						"viExample": "Chiến thắng bắt đầu có vẻ không thể tránh khỏi khi trận đấu tiếp diễn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sophisticated",
+		"pos": "adjective",
+		"ipa": "/səˈfɪstɪkeɪtɪd/",
+		"cefrLevel": "B2",
+		"frequency": 5200,
+		"isCommon": false,
+		"wordForms": [{ "form": "sophistication", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having a high degree of complexity and refinement",
+				"viDef": "tinh vi, phức tạp, sành điệu",
+				"synonyms": ["advanced", "complex", "refined"],
+				"antonyms": ["simple", "primitive"],
+				"examples": [
+					{
+						"text": "The hospital uses sophisticated equipment to diagnose diseases.",
+						"viText": "Bệnh viện sử dụng các thiết bị tinh vi để chẩn đoán bệnh."
+					},
+					{
+						"text": "She has a sophisticated taste in art and music.",
+						"viText": "Cô ấy có gu thẩm mỹ sành điệu về nghệ thuật và âm nhạc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sophisticated system",
+						"meaning": "A system that is very complex",
+						"viMeaning": "hệ thống tinh vi",
+						"example": "The bank has a sophisticated security system.",
+						"viExample": "Ngân hàng có một hệ thống an ninh tinh vi."
+					},
+					{
+						"phrase": "highly sophisticated",
+						"meaning": "Extremely advanced or complex",
+						"viMeaning": "cực kỳ phức tạp",
+						"example": "Modern computers are highly sophisticated machines.",
+						"viExample": "Máy tính hiện đại là những cỗ máy cực kỳ phức tạp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ambiguous",
+		"pos": "adjective",
+		"ipa": "/æmˈbɪɡjuəs/",
+		"cefrLevel": "B2",
+		"frequency": 6500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "ambiguity", "pos": "noun" },
+			{ "form": "ambiguously", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Open to more than one interpretation; not clear",
+				"viDef": "mơ hồ, nhập nhằng",
+				"synonyms": ["equivocal", "unclear", "vague"],
+				"antonyms": ["clear", "unambiguous"],
+				"examples": [
+					{
+						"text": "His reply to my question was somewhat ambiguous.",
+						"viText": "Câu trả lời của anh ấy cho câu hỏi của tôi có phần mơ hồ."
+					},
+					{
+						"text": "The law is ambiguous about who is responsible.",
+						"viText": "Luật pháp còn mập mờ về việc ai là người chịu trách nhiệm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ambiguous meaning",
+						"meaning": "A meaning that can be understood in different ways",
+						"viMeaning": "nghĩa mơ hồ",
+						"example": "Avoid using words with an ambiguous meaning in your essay.",
+						"viExample": "Tránh sử dụng những từ có nghĩa mơ hồ trong bài tiểu luận của bạn."
+					},
+					{
+						"phrase": "somewhat ambiguous",
+						"meaning": "To be slightly unclear",
+						"viMeaning": "hơi mơ hồ",
+						"example": "The results of the test were somewhat ambiguous.",
+						"viExample": "Kết quả của bài kiểm tra có phần hơi mơ hồ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "fundamental",
+		"pos": "adjective",
+		"ipa": "/ˌfʌndəˈmentl/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "fundamentally", "pos": "adverb" },
+			{ "form": "fundamentals", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Forming a necessary base or core; of central importance",
+				"viDef": "cơ bản, cơ sở, chủ yếu",
+				"synonyms": ["basic", "essential", "central"],
+				"antonyms": ["secondary", "minor"],
+				"examples": [
+					{
+						"text": "Freedom of speech is a fundamental right in many countries.",
+						"viText": "Tự do ngôn luận là một quyền cơ bản ở nhiều quốc gia."
+					},
+					{
+						"text": "There are fundamental differences between the two theories.",
+						"viText": "Có những điểm khác biệt cơ bản giữa hai lý thuyết."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fundamental change",
+						"meaning": "A basic and important change",
+						"viMeaning": "thay đổi cơ bản",
+						"example": "The company needs a fundamental change in its management.",
+						"viExample": "Công ty cần một sự thay đổi cơ bản trong cách quản lý."
+					},
+					{
+						"phrase": "fundamental principle",
+						"meaning": "A basic rule or belief",
+						"viMeaning": "nguyên tắc cơ bản",
+						"example": "Honesty is a fundamental principle of our company.",
+						"viExample": "Trung thực là một nguyên tắc cơ bản của công ty chúng tôi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "prevalent",
+		"pos": "adjective",
+		"ipa": "/ˈprevələnt/",
+		"cefrLevel": "B2",
+		"frequency": 6800,
+		"isCommon": false,
+		"wordForms": [{ "form": "prevalence", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Widespread in a particular area or at a particular time",
+				"viDef": "phổ biến, thịnh hành",
+				"synonyms": ["common", "widespread", "ubiquitous"],
+				"antonyms": ["rare", "uncommon"],
+				"examples": [
+					{
+						"text": "These beliefs are still prevalent in some rural communities.",
+						"viText": "Những niềm tin này vẫn còn phổ biến ở một số cộng đồng nông thôn."
+					},
+					{
+						"text": "Flu is more prevalent during the winter months.",
+						"viText": "Bệnh cúm phổ biến hơn trong những tháng mùa đông."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "widely prevalent",
+						"meaning": "Very common among many people",
+						"viMeaning": "phổ biến rộng rãi",
+						"example": "Malaria is widely prevalent in tropical regions.",
+						"viExample": "Bệnh sốt rét phổ biến rộng rãi ở các vùng nhiệt đới."
+					},
+					{
+						"phrase": "prevalent view",
+						"meaning": "The opinion held by most people",
+						"viMeaning": "quan điểm phổ biến",
+						"example": "The prevalent view is that the economy will improve.",
+						"viExample": "Quan điểm phổ biến là nền kinh tế sẽ được cải thiện."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "legitimate",
+		"pos": "adjective",
+		"ipa": "/ləˈdʒɪtɪmət/",
+		"cefrLevel": "B2",
+		"frequency": 5900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "legitimacy", "pos": "noun" },
+			{ "form": "legitimately", "pos": "adverb" },
+			{ "form": "legitimize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Conforming to the law or to rules",
+				"viDef": "hợp pháp, chính đáng",
+				"synonyms": ["legal", "valid", "lawful"],
+				"antonyms": ["illegitimate", "illegal"],
+				"examples": [
+					{
+						"text": "The business is a perfectly legitimate enterprise.",
+						"viText": "Doanh nghiệp này là một doanh nghiệp hoàn toàn hợp pháp."
+					},
+					{
+						"text": "He has a legitimate reason for being late.",
+						"viText": "Anh ấy có một lý do chính đáng cho việc đến muộn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "legitimate concern",
+						"meaning": "A worry that is reasonable and valid",
+						"viMeaning": "mối lo ngại chính đáng",
+						"example": "The residents have a legitimate concern about safety.",
+						"viExample": "Người dân có một mối lo ngại chính đáng về sự an toàn."
+					},
+					{
+						"phrase": "legitimate business",
+						"meaning": "A company that follows the law",
+						"viMeaning": "kinh doanh hợp pháp",
+						"example": "They are trying to run a legitimate business.",
+						"viExample": "Họ đang cố gắng điều hành một doanh nghiệp hợp pháp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "accumulate",
+		"pos": "verb",
+		"ipa": "/əˈkjuːmjəleɪt/",
+		"cefrLevel": "B2",
+		"frequency": 5700,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "accumulation", "pos": "noun" },
+			{ "form": "accumulative", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To gather or acquire an increasing number or quantity",
+				"viDef": "tích lũy, gom góp",
+				"synonyms": ["gather", "collect", "amass"],
+				"antonyms": ["dissipate", "scatter"],
+				"examples": [
+					{
+						"text": "Dust tends to accumulate if you don't clean regularly.",
+						"viText": "Bụi bẩn có xu hướng tích tụ nếu bạn không dọn dẹp thường xuyên."
+					},
+					{
+						"text": "We have accumulated a lot of data over the years.",
+						"viText": "Chúng tôi đã tích lũy được rất nhiều dữ liệu qua nhiều năm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "accumulate wealth",
+						"meaning": "To gradually get more money and assets",
+						"viMeaning": "tích lũy giàu sang",
+						"example": "His primary goal was to accumulate wealth.",
+						"viExample": "Mục tiêu chính của ông là tích lũy sự giàu có."
+					},
+					{
+						"phrase": "accumulate evidence",
+						"meaning": "To collect proof over time",
+						"viMeaning": "tích lũy bằng chứng",
+						"example": "The police are still accumulating evidence against him.",
+						"viExample": "Cảnh sát vẫn đang tích lũy bằng chứng chống lại anh ta."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "anticipate",
+		"pos": "verb",
+		"ipa": "/ænˈtɪsɪpeɪt/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "anticipation", "pos": "noun" },
+			{ "form": "anticipatory", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To expect or predict something will happen",
+				"viDef": "dự đoán, lường trước",
+				"synonyms": ["expect", "foresee", "predict"],
+				"antonyms": ["doubt"],
+				"examples": [
+					{
+						"text": "We anticipate that sales will rise next year.",
+						"viText": "Chúng tôi dự đoán rằng doanh số sẽ tăng vào năm tới."
+					},
+					{
+						"text": "They didn't anticipate any problems with the new system.",
+						"viText": "Họ đã không lường trước bất kỳ vấn đề nào với hệ thống mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "eagerly anticipate",
+						"meaning": "To look forward to something with excitement",
+						"viMeaning": "háo hức chờ đợi",
+						"example": "Fans are eagerly anticipating the artist's new album.",
+						"viExample": "Người hâm mộ đang háo hức chờ đợi album mới của nghệ sĩ."
+					},
+					{
+						"phrase": "anticipate needs",
+						"meaning": "To realize what will be required beforehand",
+						"viMeaning": "đoán trước nhu cầu",
+						"example": "A good waiter should anticipate the guests' needs.",
+						"viExample": "Một người phục vụ tốt nên đoán trước được nhu cầu của khách."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "collaborate",
+		"pos": "verb",
+		"ipa": "/kəˈlæbəreɪt/",
+		"cefrLevel": "B2",
+		"frequency": 6000,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "collaboration", "pos": "noun" },
+			{ "form": "collaborative", "pos": "adjective" },
+			{ "form": "collaborator", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To work jointly on an activity or project",
+				"viDef": "hợp tác, cộng tác",
+				"synonyms": ["cooperate", "team up", "work together"],
+				"antonyms": ["compete", "resist"],
+				"examples": [
+					{
+						"text": "Researchers from different universities collaborated on the study.",
+						"viText": "Các nhà nghiên cứu từ các trường đại học khác nhau đã hợp tác trong nghiên cứu."
+					},
+					{
+						"text": "The two companies agreed to collaborate on a new project.",
+						"viText": "Hai công ty đã đồng ý hợp tác trong một dự án mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "collaborate closely",
+						"meaning": "To work very together very carefully",
+						"viMeaning": "hợp tác chặt chẽ",
+						"example": "We need to collaborate closely to meet the deadline.",
+						"viExample": "Chúng ta cần hợp tác chặt chẽ để kịp thời hạn."
+					},
+					{
+						"phrase": "collaborate with",
+						"meaning": "To work together with someone specific",
+						"viMeaning": "hợp tác với",
+						"example": "She collaborated with a famous designer for her collection.",
+						"viExample": "Cô ấy đã hợp tác với một nhà thiết kế nổi tiếng cho bộ sưu tập của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "deteriorate",
+		"pos": "verb",
+		"ipa": "/dɪˈtɪəriəreɪt/",
+		"cefrLevel": "B2",
+		"frequency": 6600,
+		"isCommon": false,
+		"wordForms": [{ "form": "deterioration", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To become progressively worse",
+				"viDef": "xấu đi, suy giảm",
+				"synonyms": ["decline", "worsen", "degenerate"],
+				"antonyms": ["improve", "recover"],
+				"examples": [
+					{
+						"text": "The weather conditions began to deteriorate rapidly.",
+						"viText": "Điều kiện thời tiết bắt đầu xấu đi nhanh chóng."
+					},
+					{
+						"text": "His health deteriorated after he stopped taking the medicine.",
+						"viText": "Sức khỏe của anh ấy đã suy giảm sau khi anh ấy ngừng uống thuốc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "rapidly deteriorate",
+						"meaning": "To get worse very quickly",
+						"viMeaning": "suy giảm nhanh chóng",
+						"example": "The situation in the city is rapidly deteriorating.",
+						"viExample": "Tình hình trong thành phố đang suy giảm nhanh chóng."
+					},
+					{
+						"phrase": "deteriorate into",
+						"meaning": "To worsen until it becomes something else",
+						"viMeaning": "xấu đi thành",
+						"example": "The argument soon deteriorated into a fight.",
+						"viExample": "Cuộc tranh cãi sớm trở nên tồi tệ thành một cuộc ẩu đả."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "facilitate",
+		"pos": "verb",
+		"ipa": "/fəˈsɪlɪteɪt/",
+		"cefrLevel": "B2",
+		"frequency": 6100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "facilitation", "pos": "noun" },
+			{ "form": "facilitator", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make an action or process easy or easier",
+				"viDef": "tạo điều kiện, làm cho dễ dàng",
+				"synonyms": ["ease", "assist", "expedite"],
+				"antonyms": ["hinder", "impede"],
+				"examples": [
+					{
+						"text": "The new software is designed to facilitate better communication.",
+						"viText": "Phần mềm mới được thiết kế để tạo điều kiện giao tiếp tốt hơn."
+					},
+					{
+						"text": "Structured lessons facilitate learning for students.",
+						"viText": "Các bài học có cấu trúc giúp việc học của học sinh trở nên dễ dàng hơn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "facilitate development",
+						"meaning": "To help something grow or progress",
+						"viMeaning": "tạo điều kiện phát triển",
+						"example": "The government hopes to facilitate economic development.",
+						"viExample": "Chính phủ hy vọng sẽ tạo điều kiện cho phát triển kinh tế."
+					},
+					{
+						"phrase": "facilitate trade",
+						"meaning": "To make buying and selling easier",
+						"viMeaning": "thúc đẩy giao thương",
+						"example": "The treaty was signed to facilitate trade between the nations.",
+						"viExample": "Hiệp ước đã được ký kết để thúc đẩy giao thương giữa các quốc gia."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "generate",
+		"pos": "verb",
+		"ipa": "/ˈdʒenəreɪt/",
+		"cefrLevel": "B2",
+		"frequency": 5050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "generation", "pos": "noun" },
+			{ "form": "generator", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To produce or create something",
+				"viDef": "tạo ra, phát sinh",
+				"synonyms": ["produce", "create", "cause"],
+				"antonyms": ["destroy", "end"],
+				"examples": [
+					{
+						"text": "The wind turbines generate electricity for the local area.",
+						"viText": "Các tuabin gió tạo ra điện cho khu vực địa phương."
+					},
+					{
+						"text": "The new marketing campaign generated a lot of interest.",
+						"viText": "Chiến dịch tiếp thị mới đã tạo ra rất nhiều sự quan tâm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "generate income",
+						"meaning": "To produce money or profit",
+						"viMeaning": "tạo ra thu nhập",
+						"example": "The investment is expected to generate significant income.",
+						"viExample": "Khoản đầu tư được kỳ vọng sẽ tạo ra thu nhập đáng kể."
+					},
+					{
+						"phrase": "generate ideas",
+						"meaning": "To come up with new thoughts",
+						"viMeaning": "tạo ra ý tưởng",
+						"example": "Brainstorming sessions help the team generate ideas.",
+						"viExample": "Các buổi động não giúp nhóm tạo ra các ý tưởng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "integrate",
+		"pos": "verb",
+		"ipa": "/ˈɪntɪɡreɪt/",
+		"cefrLevel": "B2",
+		"frequency": 5500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "integration", "pos": "noun" },
+			{ "form": "integrated", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To combine things so they work together",
+				"viDef": "tích hợp, hội nhập",
+				"synonyms": ["combine", "merge", "incorporate"],
+				"antonyms": ["separate", "segregate"],
+				"examples": [
+					{
+						"text": "We need to integrate the new data into our system.",
+						"viText": "Chúng tôi cần tích hợp dữ liệu mới vào hệ thống của mình."
+					},
+					{
+						"text": "It can be difficult for immigrants to integrate into a new society.",
+						"viText": "Có thể khó khăn cho những người nhập cư để hòa nhập vào một xã hội mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fully integrate",
+						"meaning": "To combine completely and successfully",
+						"viMeaning": "tích hợp hoàn toàn",
+						"example": "The software is now fully integrated with the mobile app.",
+						"viExample": "Phần mềm hiện đã được tích hợp hoàn toàn với ứng dụng di động."
+					},
+					{
+						"phrase": "integrate into",
+						"meaning": "To become part of something larger",
+						"viMeaning": "hòa nhập vào",
+						"example": "He found it easy to integrate into the local community.",
+						"viExample": "Anh ấy thấy dễ dàng để hòa nhập vào cộng đồng địa phương."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "manipulate",
+		"pos": "verb",
+		"ipa": "/məˈnɪpjuleɪt/",
+		"cefrLevel": "B2",
+		"frequency": 6300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "manipulation", "pos": "noun" },
+			{ "form": "manipulative", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To control or influence a person or situation cleverly",
+				"viDef": "thao túng, điều khiển",
+				"synonyms": ["control", "influence", "exploit"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She knows how to manipulate people to get what she wants.",
+						"viText": "Cô ấy biết cách thao túng mọi người để đạt được những gì mình muốn."
+					},
+					{
+						"text": "The data was manipulated to support the researcher's theory.",
+						"viText": "Dữ liệu đã bị thao túng để ủng hộ lý thuyết của nhà nghiên cứu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "manipulate data",
+						"meaning": "To change information for a specific purpose",
+						"viMeaning": "thao túng dữ liệu",
+						"example": "It is unethical to manipulate data in scientific studies.",
+						"viExample": "Thao túng dữ liệu trong các nghiên cứu khoa học là không đạo đức."
+					},
+					{
+						"phrase": "skillfully manipulate",
+						"meaning": "To control something with expert ability",
+						"viMeaning": "thao túng khéo léo",
+						"example": "The pianist skillfully manipulated the keys.",
+						"viExample": "Người nghệ sĩ piano đã điều khiển các phím đàn một cách khéo léo."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "optimize",
+		"pos": "verb",
+		"ipa": "/ˈɒptɪmaɪz/",
+		"cefrLevel": "B2",
+		"frequency": 6900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "optimization", "pos": "noun" },
+			{ "form": "optimum", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make the best or most effective use of",
+				"viDef": "tối ưu hóa",
+				"synonyms": ["improve", "enhance", "perfect"],
+				"antonyms": ["worsen"],
+				"examples": [
+					{
+						"text": "We need to optimize our website for search engines.",
+						"viText": "Chúng tôi cần tối ưu hóa trang web của mình cho các công cụ tìm kiếm."
+					},
+					{
+						"text": "The company is looking for ways to optimize its production processes.",
+						"viText": "Công ty đang tìm cách tối ưu hóa các quy trình sản xuất của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "optimize performance",
+						"meaning": "To make something work as well as possible",
+						"viMeaning": "tối ưu hóa hiệu suất",
+						"example": "Athletes use special diets to optimize their performance.",
+						"viExample": "Các vận động viên sử dụng chế độ ăn uống đặc biệt để tối ưu hóa hiệu suất của họ."
+					},
+					{
+						"phrase": "optimize resources",
+						"meaning": "To use available tools most efficiently",
+						"viMeaning": "tối ưu hóa nguồn lực",
+						"example": "The manager's job is to optimize resources within the team.",
+						"viExample": "Công việc của người quản lý là tối ưu hóa các nguồn lực trong nhóm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "perceive",
+		"pos": "verb",
+		"ipa": "/pəˈsiːv/",
+		"cefrLevel": "B2",
+		"frequency": 5250,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "perception", "pos": "noun" },
+			{ "form": "perceptible", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To become aware or conscious of something",
+				"viDef": "nhận thức, cảm nhận",
+				"synonyms": ["notice", "observe", "recognize"],
+				"antonyms": ["ignore", "miss"],
+				"examples": [
+					{
+						"text": "I perceived a change in her behavior lately.",
+						"viText": "Tôi nhận thấy một sự thay đổi trong hành vi của cô ấy gần đây."
+					},
+					{
+						"text": "People perceive risk differently depending on their experience.",
+						"viText": "Mọi người nhận thức rủi ro khác nhau tùy thuộc vào kinh nghiệm của họ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "perceive as",
+						"meaning": "To regard or understand something as being a certain way",
+						"viMeaning": "coi như là",
+						"example": "The public perceived the speech as a sign of weakness.",
+						"viExample": "Công chúng coi bài phát biểu đó như là một dấu hiệu của sự yếu đuối."
+					},
+					{
+						"phrase": "easily perceived",
+						"meaning": "Simple to notice or understand",
+						"viMeaning": "dễ dàng nhận thấy",
+						"example": "The difference between the two products is easily perceived.",
+						"viExample": "Sự khác biệt giữa hai sản phẩm là rất dễ nhận thấy."
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,885 @@
+[
+	{
+		"headword": "anachronistic",
+		"pos": "adjective",
+		"ipa": "/əˌnækrəˈnɪstɪk/",
+		"cefrLevel": "C1",
+		"frequency": 9200,
+		"isCommon": false,
+		"wordForms": [{ "form": "anachronism", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Belonging to a period other than that in which it exists",
+				"viDef": "lỗi thời, sai thời điểm",
+				"synonyms": ["archaic", "outdated", "antiquated"],
+				"antonyms": ["contemporary", "modern"],
+				"examples": [
+					{
+						"text": "The use of a typewriter in a modern office seems anachronistic.",
+						"viText": "Việc sử dụng máy đánh chữ trong một văn phòng hiện đại có vẻ lỗi thời."
+					},
+					{
+						"text": "The film was criticized for its anachronistic costumes.",
+						"viText": "Bộ phim bị chỉ trích vì trang phục sai lệch thời đại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "hopelessly anachronistic",
+						"meaning": "Completely out of touch with the present time",
+						"viMeaning": "lỗi thời vô vọng",
+						"example": "His views on gender roles are hopelessly anachronistic.",
+						"viExample": "Quan điểm của ông về vai trò giới tính đã lỗi thời một cách vô vọng."
+					},
+					{
+						"phrase": "anachronistic detail",
+						"meaning": "An object or event that does not fit the historical setting",
+						"viMeaning": "chi tiết sai thời đại",
+						"example": "A wristwatch in a movie about the Middle Ages is an anachronistic detail.",
+						"viExample": "Chiếc đồng hồ đeo tay trong phim về thời Trung cổ là một chi tiết sai thời đại."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "bellicose",
+		"pos": "adjective",
+		"ipa": "/ˈbelɪkəʊs/",
+		"cefrLevel": "C1",
+		"frequency": 9900,
+		"isCommon": false,
+		"wordForms": [{ "form": "bellicosity", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Demonstrating aggression and willingness to fight",
+				"viDef": "hiếu chiến",
+				"synonyms": ["belligerent", "hostile", "pugnacious"],
+				"antonyms": ["peaceful", "pacific"],
+				"examples": [
+					{
+						"text": "The leader's bellicose rhetoric alarmed neighboring countries.",
+						"viText": "Những lời lẽ hiếu chiến của nhà lãnh đạo đã làm các nước láng giềng lo ngại."
+					},
+					{
+						"text": "He took a bellicose stance during the negotiations.",
+						"viText": "Anh ta đã có một thái độ hiếu chiến trong suốt cuộc đàm phán."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "bellicose statement",
+						"meaning": "A declaration that sounds like a threat of war",
+						"viMeaning": "tuyên bố hiếu chiến",
+						"example": "The general made several bellicose statements to the press.",
+						"viExample": "Vị tướng đã đưa ra vài tuyên bố hiếu chiến trước báo giới."
+					},
+					{
+						"phrase": "increasingly bellicose",
+						"meaning": "Becoming more aggressive and warlike",
+						"viMeaning": "ngày càng hiếu chiến",
+						"example": "The tone of the debate grew increasingly bellicose.",
+						"viExample": "Tông giọng của cuộc tranh luận ngày càng trở nên hiếu chiến."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "byzantine",
+		"pos": "adjective",
+		"ipa": "/baɪˈzæntaɪn/",
+		"cefrLevel": "C1",
+		"frequency": 9600,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Excessively complicated, and typically involving a great deal of administrative detail",
+				"viDef": "phức tạp, rắc rối",
+				"synonyms": ["convoluted", "intricate", "complex"],
+				"antonyms": ["simple", "straightforward"],
+				"examples": [
+					{
+						"text": "The company's byzantine structure makes decision-making very slow.",
+						"viText": "Cấu trúc rắc rối của công ty khiến việc ra quyết định rất chậm chạp."
+					},
+					{
+						"text": "The new tax regulations are incredibly byzantine.",
+						"viText": "Các quy định thuế mới cực kỳ phức tạp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "byzantine bureaucracy",
+						"meaning": "A government system with too many rules and departments",
+						"viMeaning": "bộ máy hành chính rắc rối",
+						"example": "It took months to navigate the byzantine bureaucracy.",
+						"viExample": "Mất hàng tháng trời để vượt qua bộ máy hành chính rắc rối đó."
+					},
+					{
+						"phrase": "byzantine maze",
+						"meaning": "A situation that is very difficult to find a way out of",
+						"viMeaning": "mê cung rắc rối",
+						"example": "They were lost in a byzantine maze of legal rules.",
+						"viExample": "Họ bị lạc trong một mê cung rắc rối của các quy tắc pháp lý."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "circumspect",
+		"pos": "adjective",
+		"ipa": "/ˈsɜːkəmspekt/",
+		"cefrLevel": "C1",
+		"frequency": 9400,
+		"isCommon": false,
+		"wordForms": [{ "form": "circumspection", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Wary and unwilling to take risks",
+				"viDef": "thận trọng, cẩn mật",
+				"synonyms": ["cautious", "wary", "guarded"],
+				"antonyms": ["reckless", "impudent"],
+				"examples": [
+					{
+						"text": "The officials were very circumspect in their statements to the press.",
+						"viText": "Các quan chức đã rất thận trọng trong các phát biểu trước báo giới."
+					},
+					{
+						"text": "He is usually circumspect about making financial investments.",
+						"viText": "Anh ấy thường thận trọng trong việc đầu tư tài chính."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "be circumspect",
+						"meaning": "To act with care and thought",
+						"viMeaning": "hành động thận trọng",
+						"example": "You should be circumspect when dealing with strangers.",
+						"viExample": "Bạn nên thận trọng khi đối phó với người lạ."
+					},
+					{
+						"phrase": "circumspect approach",
+						"meaning": "A way of doing something that avoids danger",
+						"viMeaning": "cách tiếp cận thận trọng",
+						"example": "The company took a circumspect approach to the new market.",
+						"viExample": "Công ty đã thực hiện một cách tiếp cận thận trọng đối với thị trường mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "cogitate",
+		"pos": "verb",
+		"ipa": "/ˈkɒdʒɪteɪt/",
+		"cefrLevel": "C1",
+		"frequency": 9980,
+		"isCommon": false,
+		"wordForms": [{ "form": "cogitation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Think deeply about something; meditate or reflect",
+				"viDef": "suy ngẫm, ngẫm nghĩ",
+				"synonyms": ["ponder", "reflect", "contemplate"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He sat alone for hours to cogitate on the meaning of life.",
+						"viText": "Anh ta ngồi một mình hàng giờ để suy ngẫm về ý nghĩa cuộc sống."
+					},
+					{
+						"text": "She needed time to cogitate before making a final decision.",
+						"viText": "Cô ấy cần thời gian để ngẫm nghĩ trước khi đưa ra quyết định cuối cùng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "cogitate on",
+						"meaning": "To think deeply about a specific subject",
+						"viMeaning": "suy ngẫm về",
+						"example": "The scientists continued to cogitate on the strange results.",
+						"viExample": "Các nhà khoa học tiếp tục suy ngẫm về những kết quả kỳ lạ."
+					},
+					{
+						"phrase": "deeply cogitate",
+						"meaning": "To reflect with great focus",
+						"viMeaning": "ngẫm nghĩ sâu xa",
+						"example": "He had to deeply cogitate to solve the complex riddle.",
+						"viExample": "Anh ta phải ngẫm nghĩ sâu xa để giải câu đố phức tạp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "contrite",
+		"pos": "adjective",
+		"ipa": "/kənˈtraɪt/",
+		"cefrLevel": "C1",
+		"frequency": 9300,
+		"isCommon": false,
+		"wordForms": [{ "form": "contrition", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Feeling or expressing remorse or penitence",
+				"viDef": "ăn năn, hối lỗi",
+				"synonyms": ["remorseful", "repentant", "penitent"],
+				"antonyms": ["unrepentant", "defiant"],
+				"examples": [
+					{
+						"text": "He looked very contrite after realizing his mistake.",
+						"viText": "Anh ta trông rất hối lỗi sau khi nhận ra sai lầm của mình."
+					},
+					{
+						"text": "The defendant gave a contrite apology to the victim's family.",
+						"viText": "Bị cáo đã gửi lời xin lỗi hối lỗi tới gia đình nạn nhân."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "contrite heart",
+						"meaning": "A sincere feeling of being sorry for doing wrong",
+						"viMeaning": "trái tim hối lỗi",
+						"example": "She prayed with a contrite heart for forgiveness.",
+						"viExample": "Cô cầu nguyện với một trái tim hối lỗi để được tha thứ."
+					},
+					{
+						"phrase": "appear contrite",
+						"meaning": "To look as if you are sorry",
+						"viMeaning": "tỏ vẻ hối lỗi",
+						"example": "He did not appear contrite at all during the hearing.",
+						"viExample": "Anh ta chẳng hề tỏ vẻ hối lỗi chút nào trong suốt buổi điều trần."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "dissemble",
+		"pos": "verb",
+		"ipa": "/dɪˈsembl/",
+		"cefrLevel": "C1",
+		"frequency": 9950,
+		"isCommon": false,
+		"wordForms": [{ "form": "dissembler", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Conceal one's true motives, feelings, or beliefs",
+				"viDef": "che giấu, lấp liếm",
+				"synonyms": ["disguise", "feign", "mask"],
+				"antonyms": ["reveal", "expose"],
+				"examples": [
+					{
+						"text": "She was unable to dissemble her happiness when she won.",
+						"viText": "Cô ấy không thể che giấu được niềm hạnh phúc khi giành chiến thắng."
+					},
+					{
+						"text": "He tried to dissemble his real intentions during the meeting.",
+						"viText": "Anh ta đã cố gắng che giấu ý định thực sự của mình trong cuộc họp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "dissemble the truth",
+						"meaning": "To hide what is actually happening",
+						"viMeaning": "che giấu sự thật",
+						"example": "The company was accused of trying to dissemble the truth about the leaks.",
+						"viExample": "Công ty bị cáo buộc cố gắng che giấu sự thật về vụ rò rỉ."
+					},
+					{
+						"phrase": "expertly dissemble",
+						"meaning": "To be very good at hiding one's feelings",
+						"viMeaning": "che giấu khéo léo",
+						"example": "Spies are trained to expertly dissemble in any situation.",
+						"viExample": "Gián điệp được huấn luyện để che giấu cảm xúc khéo léo trong mọi tình huống."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ebullient",
+		"pos": "adjective",
+		"ipa": "/ɪˈbʌliənt/",
+		"cefrLevel": "C1",
+		"frequency": 9900,
+		"isCommon": false,
+		"wordForms": [{ "form": "ebullience", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Cheerful and full of energy",
+				"viDef": "phấn khởi, sôi nổi",
+				"synonyms": ["exuberant", "buoyant", "jovial"],
+				"antonyms": ["depressed", "gloomy"],
+				"examples": [
+					{
+						"text": "She was ebullient after receiving the good news.",
+						"viText": "Cô ấy đã rất phấn khởi sau khi nhận được tin tốt."
+					},
+					{
+						"text": "The ebullient crowd cheered as the team scored.",
+						"viText": "Đám đông sôi nổi đã reo hò khi đội nhà ghi bàn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ebullient personality",
+						"meaning": "A character that is always happy and energetic",
+						"viMeaning": "tính cách sôi nổi",
+						"example": "His ebullient personality made him popular at parties.",
+						"viExample": "Tính cách sôi nổi khiến anh ấy được yêu mến trong các bữa tiệc."
+					},
+					{
+						"phrase": "ebullient mood",
+						"meaning": "A state of feeling very joyful",
+						"viMeaning": "tâm trạng phấn khởi",
+						"example": "The victory put the whole city in an ebullient mood.",
+						"viExample": "Chiến thắng đã đưa cả thành phố vào một tâm trạng phấn khởi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "enervate",
+		"pos": "verb",
+		"ipa": "/ˈenəveɪt/",
+		"cefrLevel": "C1",
+		"frequency": 9950,
+		"isCommon": false,
+		"wordForms": [{ "form": "enervating", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Cause (someone) to feel drained of energy or vitality",
+				"viDef": "làm kiệt sức, làm yếu đi",
+				"synonyms": ["exhaust", "fatigue", "weaken"],
+				"antonyms": ["invigorate", "energize"],
+				"examples": [
+					{
+						"text": "The hot sun began to enervate the runners.",
+						"viText": "Cái nắng gắt bắt đầu làm những người chạy bộ kiệt sức."
+					},
+					{
+						"text": "Long hours of sitting can enervate the body and mind.",
+						"viText": "Ngồi lâu nhiều giờ có thể làm yếu đi cả cơ thể và trí óc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "enervate the spirit",
+						"meaning": "To make someone lose their will or enthusiasm",
+						"viMeaning": "làm nản chí",
+						"example": "Constant failure can enervate the spirit of even the strongest people.",
+						"viExample": "Thất bại liên tục có thể làm nản chí ngay cả những người mạnh mẽ nhất."
+					},
+					{
+						"phrase": "enervating heat",
+						"meaning": "Very hot weather that makes you feel tired",
+						"viMeaning": "cái nóng làm kiệt sức",
+						"example": "We struggled to work in the enervating heat of July.",
+						"viExample": "Chúng tôi đã phải vật lộn làm việc trong cái nóng làm kiệt sức của tháng Bảy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "fastidious",
+		"pos": "adjective",
+		"ipa": "/fæˈstɪdiəs/",
+		"cefrLevel": "C1",
+		"frequency": 8500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "fastidiously", "pos": "adverb" },
+			{ "form": "fastidiousness", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Very attentive to and concerned about accuracy and detail",
+				"viDef": "khó tính, tỉ mỉ",
+				"synonyms": ["meticulous", "scrupulous", "punctilious"],
+				"antonyms": ["careless", "sloppy"],
+				"examples": [
+					{
+						"text": "She is very fastidious about keeping her house clean.",
+						"viText": "Cô ấy rất kỹ tính trong việc giữ cho ngôi nhà của mình sạch sẽ."
+					},
+					{
+						"text": "He chose his words with fastidious care.",
+						"viText": "Anh ta đã chọn từ ngữ với một sự cẩn trọng tỉ mỉ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "fastidious attention",
+						"meaning": "Focusing on every small detail with care",
+						"viMeaning": "sự chú ý tỉ mỉ",
+						"example": "The painting required fastidious attention to detail.",
+						"viExample": "Bức tranh đòi hỏi sự chú ý tỉ mỉ đến từng chi tiết."
+					},
+					{
+						"phrase": "extremely fastidious",
+						"meaning": "Very difficult to please regarding quality or order",
+						"viMeaning": "cực kỳ khó tính",
+						"example": "The chef is extremely fastidious about the quality of ingredients.",
+						"viExample": "Vị đầu bếp cực kỳ kỹ tính về chất lượng nguyên liệu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "inimitable",
+		"pos": "adjective",
+		"ipa": "/ɪˈnɪmɪtəbl/",
+		"cefrLevel": "C1",
+		"frequency": 9600,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "So good or unusual as to be impossible to copy",
+				"viDef": "độc nhất vô nhị, không thể bắt chước",
+				"synonyms": ["unique", "peerless", "unparalleled"],
+				"antonyms": ["common", "ordinary"],
+				"examples": [
+					{
+						"text": "The comedian performed in his own inimitable style.",
+						"viText": "Người diễn viên hài đã biểu diễn theo phong cách độc đáo không thể bắt chước của riêng mình."
+					},
+					{
+						"text": "She has an inimitable way of telling stories.",
+						"viText": "Cô ấy có một cách kể chuyện độc nhất vô nhị."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "truly inimitable",
+						"meaning": "Being completely unique and original",
+						"viMeaning": "thực sự độc đáo",
+						"example": "His talent is truly inimitable and cannot be replaced.",
+						"viExample": "Tài năng của anh ấy thực sự độc nhất vô nhị và không thể thay thế."
+					},
+					{
+						"phrase": "inimitable voice",
+						"meaning": "A way of speaking or singing that belongs to only one person",
+						"viMeaning": "giọng ca/tiếng nói độc nhất",
+						"example": "The singer was famous for her inimitable voice.",
+						"viExample": "Nữ ca sĩ nổi tiếng với giọng hát không thể trộn lẫn của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "insidious",
+		"pos": "adjective",
+		"ipa": "/ɪnˈsɪdiəs/",
+		"cefrLevel": "C1",
+		"frequency": 8800,
+		"isCommon": false,
+		"wordForms": [{ "form": "insidiously", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Proceeding in a gradual, subtle way, but with harmful effects",
+				"viDef": "âm mưu, xảo quyệt, ngấm ngầm",
+				"synonyms": ["stealthy", "subtle", "surreptitious"],
+				"antonyms": ["straightforward", "obvious"],
+				"examples": [
+					{
+						"text": "The disease is insidious, showing no symptoms for years.",
+						"viText": "Căn bệnh này tiến triển ngấm ngầm, không biểu hiện triệu chứng trong nhiều năm."
+					},
+					{
+						"text": "The influence of social media on kids can be insidious.",
+						"viText": "Ảnh hưởng của mạng xã hội lên trẻ em có thể rất xảo quyệt."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "insidious nature",
+						"meaning": "A quality of being harmful but hard to notice",
+						"viMeaning": "bản chất ngấm ngầm",
+						"example": "Cancer is known for its insidious nature.",
+						"viExample": "Ung thư được biết đến với bản chất tiến triển ngấm ngầm."
+					},
+					{
+						"phrase": "insidious threat",
+						"meaning": "A danger that grows without people realizing it",
+						"viMeaning": "mối đe dọa ngấm ngầm",
+						"example": "Fake news is an insidious threat to democracy.",
+						"viExample": "Tin giả là một mối đe dọa ngấm ngầm đối với nền dân chủ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "lament",
+		"pos": "verb",
+		"ipa": "/ləˈment/",
+		"cefrLevel": "C1",
+		"frequency": 7500,
+		"isCommon": false,
+		"wordForms": [{ "form": "lamentation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A passionate expression of grief or sorrow; to mourn",
+				"viDef": "than thở, thương tiếc",
+				"synonyms": ["mourn", "grieve", "wail"],
+				"antonyms": ["celebrate", "rejoice"],
+				"examples": [
+					{
+						"text": "She lamented the loss of her childhood home.",
+						"viText": "Cô than thở về việc mất đi ngôi nhà thời thơ ấu của mình."
+					},
+					{
+						"text": "Many people lamented the death of the famous actor.",
+						"viText": "Nhiều người đã thương tiếc cho cái chết của nam diễn viên nổi tiếng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "lament the fact",
+						"meaning": "To be sad about a specific situation",
+						"viMeaning": "than thở về sự việc",
+						"example": "We all lament the fact that the old park was destroyed.",
+						"viExample": "Tất cả chúng ta đều than thở về việc công viên cũ đã bị phá hủy."
+					},
+					{
+						"phrase": "deeply lament",
+						"meaning": "To feel great sorrow for a loss",
+						"viMeaning": "vô cùng thương tiếc",
+						"example": "The family deeply lamented his passing.",
+						"viExample": "Gia đình vô cùng thương tiếc cho sự ra đi của ông."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "mendacious",
+		"pos": "adjective",
+		"ipa": "/menˈdeɪʃəs/",
+		"cefrLevel": "C1",
+		"frequency": 9985,
+		"isCommon": false,
+		"wordForms": [{ "form": "mendacity", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Not telling the truth; lying",
+				"viDef": "điêu ngoa, hay nói dối",
+				"synonyms": ["lying", "untruthful", "dishonest"],
+				"antonyms": ["truthful", "honest"],
+				"examples": [
+					{
+						"text": "The report was criticized for its mendacious claims.",
+						"viText": "Bản báo cáo bị chỉ trích vì những tuyên bố điêu ngoa."
+					},
+					{
+						"text": "He gave a mendacious account of what happened that night.",
+						"viText": "Anh ta đã kể một câu chuyện dối trá về những gì đã xảy ra đêm đó."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mendacious propaganda",
+						"meaning": "Information used to trick people for political reasons",
+						"viMeaning": "tuyên truyền dối trá",
+						"example": "The regime spread mendacious propaganda to keep power.",
+						"viExample": "Chế độ này đã lan truyền những lời tuyên truyền dối trá để giữ vững quyền lực."
+					},
+					{
+						"phrase": "mendacious behavior",
+						"meaning": "A habit of not being honest",
+						"viMeaning": "hành vi gian dối",
+						"example": "His mendacious behavior finally led to his downfall.",
+						"viExample": "Hành vi gian dối của anh ta cuối cùng đã dẫn đến sự sụp đổ của chính mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "morose",
+		"pos": "adjective",
+		"ipa": "/məˈrəʊs/",
+		"cefrLevel": "C1",
+		"frequency": 9100,
+		"isCommon": false,
+		"wordForms": [{ "form": "morosely", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Sullen and ill-tempered",
+				"viDef": "rầu rĩ, buồn bực",
+				"synonyms": ["gloomy", "sullen", "sulky"],
+				"antonyms": ["cheerful", "happy"],
+				"examples": [
+					{
+						"text": "He became morose after losing his job.",
+						"viText": "Anh ta trở nên rầu rĩ sau khi mất việc."
+					},
+					{
+						"text": "She sat in the corner, looking morose and silent.",
+						"viText": "Cô ngồi trong góc, vẻ mặt rầu rĩ và im lặng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "become morose",
+						"meaning": "To turn into a sad and quiet state",
+						"viMeaning": "trở nên rầu rĩ",
+						"example": "The boy became morose after his dog died.",
+						"viExample": "Cậu bé trở nên rầu rĩ sau khi con chó của mình chết."
+					},
+					{
+						"phrase": "morose silence",
+						"meaning": "Not talking because of being in a bad mood",
+						"viMeaning": "sự im lặng rầu rĩ",
+						"example": "They ate dinner in a morose silence.",
+						"viExample": "Họ ăn tối trong một sự im lặng rầu rĩ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "obstinate",
+		"pos": "adjective",
+		"ipa": "/ˈɒbstɪnət/",
+		"cefrLevel": "C1",
+		"frequency": 8600,
+		"isCommon": false,
+		"wordForms": [{ "form": "obstinacy", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Stubbornly refusing to change one's opinion or chosen course of action",
+				"viDef": "bướng bỉnh, ngoan cố",
+				"synonyms": ["stubborn", "unyielding", "dogged"],
+				"antonyms": ["compliant", "flexible"],
+				"examples": [
+					{
+						"text": "He is an obstinate old man who won't listen to advice.",
+						"viText": "Ông ta là một ông già bướng bỉnh, người không bao giờ nghe lời khuyên."
+					},
+					{
+						"text": "The obstinate problem of poverty requires a new solution.",
+						"viText": "Vấn đề ngoan cố của nghèo đói đòi hỏi một giải pháp mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "obstinate refusal",
+						"meaning": "Firmly saying no and not changing your mind",
+						"viMeaning": "sự từ chối ngoan cố",
+						"example": "Despite the evidence, he maintained his obstinate refusal.",
+						"viExample": "Bất chấp bằng chứng, anh ta vẫn duy trì sự từ chối ngoan cố của mình."
+					},
+					{
+						"phrase": "obstinate problem",
+						"meaning": "A difficulty that is very hard to fix",
+						"viMeaning": "vấn đề nan giải",
+						"example": "Inflation remained an obstinate problem for the country.",
+						"viExample": "Lạm phát vẫn là một vấn đề nan giải đối với đất nước."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "querulous",
+		"pos": "adjective",
+		"ipa": "/ˈkwerələs/",
+		"cefrLevel": "C1",
+		"frequency": 9980,
+		"isCommon": false,
+		"wordForms": [{ "form": "querulously", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Complaining in a petulant or whining manner",
+				"viDef": "hay cáu kỉnh, hay than vãn",
+				"synonyms": ["petulant", "whining", "irritable"],
+				"antonyms": ["cheerful", "content"],
+				"examples": [
+					{
+						"text": "The patient became querulous and difficult to please.",
+						"viText": "Bệnh nhân trở nên cáu kỉnh và rất khó để làm hài lòng."
+					},
+					{
+						"text": "He spoke in a querulous voice about the cold weather.",
+						"viText": "Anh ta nói bằng một giọng than vãn về thời tiết lạnh giá."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "querulous voice",
+						"meaning": "A sound that shows someone is complaining",
+						"viMeaning": "giọng than vãn",
+						"example": "The child asked for more toys in a querulous voice.",
+						"viExample": "Đứa trẻ đòi thêm đồ chơi bằng một giọng than vãn."
+					},
+					{
+						"phrase": "querulous tone",
+						"meaning": "A way of speaking that indicates annoyance",
+						"viMeaning": "tông giọng cáu kỉnh",
+						"example": "I was tired of her constant querulous tone.",
+						"viExample": "Tôi đã mệt mỏi với cái tông giọng cáu kỉnh liên tục của cô ấy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "salient",
+		"pos": "adjective",
+		"ipa": "/ˈseɪliənt/",
+		"cefrLevel": "C1",
+		"frequency": 7900,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Most noticeable or important",
+				"viDef": "nổi bật, quan trọng nhất",
+				"synonyms": ["prominent", "conspicuous", "main"],
+				"antonyms": ["insignificant", "minor"],
+				"examples": [
+					{
+						"text": "She pointed out the salient features of the proposal.",
+						"viText": "Cô đã chỉ ra những đặc điểm nổi bật nhất của đề xuất."
+					},
+					{
+						"text": "He missed the most salient point of the argument.",
+						"viText": "Anh ta đã bỏ lỡ điểm quan trọng nhất của cuộc tranh luận."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "salient point",
+						"meaning": "The main idea or the most important fact",
+						"viMeaning": "điểm nổi bật/chính",
+						"example": "Please summarize the salient points of the meeting.",
+						"viExample": "Vui lòng tóm tắt các điểm chính của cuộc họp."
+					},
+					{
+						"phrase": "salient feature",
+						"meaning": "A characteristic that is very easy to see",
+						"viMeaning": "đặc điểm nổi bật",
+						"example": "Tall trees are the salient feature of this forest.",
+						"viExample": "Cây cao là đặc điểm nổi bật của khu rừng này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sentient",
+		"pos": "adjective",
+		"ipa": "/ˈsentiənt/",
+		"cefrLevel": "C1",
+		"frequency": 9600,
+		"isCommon": false,
+		"wordForms": [{ "form": "sentience", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Able to perceive or feel things",
+				"viDef": "có cảm giác, có tri giác",
+				"synonyms": ["conscious", "aware", "perceptive"],
+				"antonyms": ["insentient", "unconscious"],
+				"examples": [
+					{
+						"text": "Animals are sentient beings and deserve respect.",
+						"viText": "Động vật là những sinh vật có tri giác và xứng đáng được tôn trọng."
+					},
+					{
+						"text": "The movie explores the idea of a sentient computer.",
+						"viText": "Bộ phim khám phá ý tưởng về một chiếc máy tính có tri giác."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sentient being",
+						"meaning": "A living creature that can experience feelings",
+						"viMeaning": "sinh vật có tri giác",
+						"example": "As sentient beings, we have a responsibility to others.",
+						"viExample": "Là những sinh vật có tri giác, chúng ta có trách nhiệm với những người khác."
+					},
+					{
+						"phrase": "sentient life",
+						"meaning": "Existence that involves awareness",
+						"viMeaning": "sự sống có tri giác",
+						"example": "Scientists are searching for sentient life on other planets.",
+						"viExample": "Các nhà khoa học đang tìm kiếm sự sống có tri giác trên các hành tinh khác."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "vindicate",
+		"pos": "verb",
+		"ipa": "/ˈvɪndɪkeɪt/",
+		"cefrLevel": "C1",
+		"frequency": 9100,
+		"isCommon": false,
+		"wordForms": [{ "form": "vindication", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Clear (someone) of blame or suspicion",
+				"viDef": "minh oan, xác nhận đúng",
+				"synonyms": ["acquit", "exonerate", "justify"],
+				"antonyms": ["convict", "condemn"],
+				"examples": [
+					{
+						"text": "The new evidence helped to vindicate the prisoner.",
+						"viText": "Bằng chứng mới đã giúp minh oan cho tù nhân."
+					},
+					{
+						"text": "The success of the project vindicated his decision to start it.",
+						"viText": "Sự thành công của dự án đã xác nhận quyết định bắt đầu nó của anh là đúng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "vindicate a claim",
+						"meaning": "To prove that a statement made earlier was true",
+						"viMeaning": "xác thực một yêu cầu",
+						"example": "The final results vindicated her claim about the growth.",
+						"viExample": "Kết quả cuối cùng đã xác thực lời khẳng định của cô về sự tăng trưởng."
+					},
+					{
+						"phrase": "fully vindicate",
+						"meaning": "To completely clear someone of any doubt",
+						"viMeaning": "minh oan hoàn toàn",
+						"example": "The court's decision fully vindicated him.",
+						"viExample": "Quyết định của tòa án đã minh oan hoàn toàn cho anh ta."
+					}
+				]
+			}
+		]
+	}
+]

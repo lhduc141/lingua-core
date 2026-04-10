@@ -1,0 +1,900 @@
+[
+	{
+		"headword": "exacerbate",
+		"pos": "verb",
+		"ipa": "/ɪɡˈzæsəbeɪt/",
+		"cefrLevel": "C1",
+		"frequency": 8200,
+		"isCommon": false,
+		"wordForms": [{ "form": "exacerbation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make a problem, bad situation, or negative feeling worse",
+				"viDef": "làm trầm trọng thêm",
+				"synonyms": ["aggravate", "worsen", "inflame"],
+				"antonyms": ["alleviate", "mitigate"],
+				"examples": [
+					{
+						"text": "The high humidity will only exacerbate your breathing difficulties.",
+						"viText": "Độ ẩm cao sẽ chỉ làm trầm trọng thêm tình trạng khó thở của bạn."
+					},
+					{
+						"text": "His aggressive comments only served to exacerbate the tension.",
+						"viText": "Những lời bình luận hung hăng của anh ta chỉ làm căng thẳng thêm trầm trọng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "exacerbate the problem",
+						"meaning": "To cause an existing issue to become more severe",
+						"viMeaning": "làm vấn đề tệ hơn",
+						"example": "Ignoring the leak will only exacerbate the problem.",
+						"viExample": "Bỏ qua vết rò rỉ sẽ chỉ làm vấn đề thêm trầm trọng."
+					},
+					{
+						"phrase": "further exacerbate",
+						"meaning": "To continue making a bad situation even worse",
+						"viMeaning": "càng làm trầm trọng hơn",
+						"example": "The budget cuts will further exacerbate the staffing crisis.",
+						"viExample": "Việc cắt giảm ngân sách sẽ càng làm trầm trọng hơn cuộc khủng hoảng nhân sự."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "mitigate",
+		"pos": "verb",
+		"ipa": "/ˈmɪtɪɡeɪt/",
+		"cefrLevel": "C1",
+		"frequency": 7800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "mitigation", "pos": "noun" },
+			{ "form": "mitigatory", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make something less severe, serious, or painful",
+				"viDef": "giảm nhẹ, làm dịu bớt",
+				"synonyms": ["alleviate", "reduce", "diminish"],
+				"antonyms": ["exacerbate", "intensify"],
+				"examples": [
+					{
+						"text": "Drainage schemes have helped to mitigate the effects of flooding.",
+						"viText": "Các hệ thống thoát nước đã giúp giảm nhẹ tác động của lũ lụt."
+					},
+					{
+						"text": "The government implemented measures to mitigate the economic crisis.",
+						"viText": "Chính phủ đã thực hiện các biện pháp để giảm bớt cuộc khủng hoảng kinh tế."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mitigate risk",
+						"meaning": "To take actions to reduce potential danger or failure",
+						"viMeaning": "giảm thiểu rủi ro",
+						"example": "Diversifying your investments helps to mitigate risk.",
+						"viExample": "Đa dạng hóa các khoản đầu tư giúp giảm thiểu rủi ro."
+					},
+					{
+						"phrase": "mitigating factors",
+						"meaning": "Facts that make an offense or crime seem less serious",
+						"viMeaning": "tình tiết giảm nhẹ",
+						"example": "The judge considered his difficult childhood as a mitigating factor.",
+						"viExample": "Thẩm phán đã xem xét tuổi thơ khó khăn của anh ta như một tình tiết giảm nhẹ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "paradigm",
+		"pos": "noun",
+		"ipa": "/ˈpærədaɪm/",
+		"cefrLevel": "C1",
+		"frequency": 7500,
+		"isCommon": false,
+		"wordForms": [{ "form": "paradigmatic", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A typical example or pattern of something; a model",
+				"viDef": "nền tảng, mô hình",
+				"synonyms": ["model", "pattern", "prototype"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The discovery led to a paradigm shift in modern physics.",
+						"viText": "Khám phá này đã dẫn đến một sự thay đổi hệ tư tưởng trong vật lý hiện đại."
+					},
+					{
+						"text": "He is the paradigm of a successful young entrepreneur.",
+						"viText": "Anh ấy là hình mẫu điển hình của một doanh nhân trẻ thành đạt."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "paradigm shift",
+						"meaning": "A fundamental change in approach or underlying assumptions",
+						"viMeaning": "sự thay đổi tư duy/hệ hình",
+						"example": "The internet caused a paradigm shift in how we shop.",
+						"viExample": "Internet đã tạo ra một sự thay đổi hệ hình trong cách chúng ta mua sắm."
+					},
+					{
+						"phrase": "dominant paradigm",
+						"meaning": "The most widely accepted way of thinking in a field",
+						"viMeaning": "mô hình chủ đạo",
+						"example": "The dominant paradigm in medicine is slowly evolving.",
+						"viExample": "Mô hình chủ đạo trong y học đang dần phát triển."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ambivalent",
+		"pos": "adjective",
+		"ipa": "/æmˈbɪvələnt/",
+		"cefrLevel": "C1",
+		"frequency": 8900,
+		"isCommon": false,
+		"wordForms": [{ "form": "ambivalence", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having mixed feelings or contradictory ideas about something",
+				"viDef": "phân vân, mâu thuẫn",
+				"synonyms": ["equivocal", "uncertain", "unsure"],
+				"antonyms": ["decisive", "certain"],
+				"examples": [
+					{
+						"text": "She was ambivalent about her decision to move abroad.",
+						"viText": "Cô ấy cảm thấy mâu thuẫn về quyết định chuyển ra nước ngoài."
+					},
+					{
+						"text": "The public remains ambivalent toward the new tax policy.",
+						"viText": "Công chúng vẫn còn mâu thuẫn đối với chính sách thuế mới."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "deeply ambivalent",
+						"meaning": "Having very strong mixed feelings",
+						"viMeaning": "rất phân vân",
+						"example": "He felt deeply ambivalent about his father's success.",
+						"viExample": "Anh ấy cảm thấy rất mâu thuẫn về thành công của cha mình."
+					},
+					{
+						"phrase": "ambivalent attitude",
+						"meaning": "A state of mind that shows conflicting emotions",
+						"viMeaning": "thái độ nước đôi",
+						"example": "She has an ambivalent attitude toward fame.",
+						"viExample": "Cô ấy có một thái độ mâu thuẫn đối với sự nổi tiếng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "proliferate",
+		"pos": "verb",
+		"ipa": "/prəˈlɪfəreɪt/",
+		"cefrLevel": "C1",
+		"frequency": 9200,
+		"isCommon": false,
+		"wordForms": [{ "form": "proliferation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Increase rapidly in numbers; multiply",
+				"viDef": "tăng nhanh, sinh sôi",
+				"synonyms": ["burgeon", "multiply", "escalate"],
+				"antonyms": ["decrease", "dwindle"],
+				"examples": [
+					{
+						"text": "Small businesses have started to proliferate in the city center.",
+						"viText": "Các doanh nghiệp nhỏ đã bắt đầu mọc lên nhanh chóng ở trung tâm thành phố."
+					},
+					{
+						"text": "Rumors about the merger began to proliferate on social media.",
+						"viText": "Những tin đồn về vụ sáp nhập bắt đầu lan truyền nhanh chóng trên mạng xã hội."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "rapidly proliferate",
+						"meaning": "To grow in number at a very fast pace",
+						"viMeaning": "tăng lên nhanh chóng",
+						"example": "Fast food outlets rapidly proliferate in urban areas.",
+						"viExample": "Các cửa hàng thức ăn nhanh mọc lên nhanh chóng ở khu vực đô thị."
+					},
+					{
+						"phrase": "proliferate across",
+						"meaning": "To spread or increase throughout a wide area",
+						"viMeaning": "lan rộng khắp",
+						"example": "New technologies proliferate across different industries.",
+						"viExample": "Các công nghệ mới lan rộng khắp các ngành công nghiệp khác nhau."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "tenacious",
+		"pos": "adjective",
+		"ipa": "/təˈneɪʃəs/",
+		"cefrLevel": "C1",
+		"frequency": 9500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "tenacity", "pos": "noun" },
+			{ "form": "tenaciously", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Tending to keep a firm hold of something; persistent",
+				"viDef": "kiên trì, bền bỉ",
+				"synonyms": ["persistent", "determined", "resolute"],
+				"antonyms": ["irresolute", "weak"],
+				"examples": [
+					{
+						"text": "She is a tenacious advocate for human rights.",
+						"viText": "Cô ấy là một người ủng hộ kiên cường cho quyền con người."
+					},
+					{
+						"text": "The disease has a tenacious grip on the local population.",
+						"viText": "Căn bệnh này đang đeo bám dai dẳng người dân địa phương."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "tenacious grip",
+						"meaning": "A very strong and firm hold on something",
+						"viMeaning": "sự kìm kẹp chặt chẽ",
+						"example": "The climber maintained a tenacious grip on the rock.",
+						"viExample": "Người leo núi duy trì một sự bám chặt kiên cố trên tảng đá."
+					},
+					{
+						"phrase": "tenacious personality",
+						"meaning": "A character that does not give up easily",
+						"viMeaning": "tính cách kiên cường",
+						"example": "His tenacious personality helped him survive the crisis.",
+						"viExample": "Tính cách kiên cường đã giúp anh ấy vượt qua cuộc khủng hoảng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "nuanced",
+		"pos": "adjective",
+		"ipa": "/ˈnjuːɑːnst/",
+		"cefrLevel": "C1",
+		"frequency": 8600,
+		"isCommon": false,
+		"wordForms": [{ "form": "nuance", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Characterized by subtle shades of meaning or expression",
+				"viDef": "sắc thái, tinh tế",
+				"synonyms": ["subtle", "refined", "delicate"],
+				"antonyms": ["obvious", "oversimplified"],
+				"examples": [
+					{
+						"text": "The actor gave a nuanced performance that won an award.",
+						"viText": "Nam diễn viên đã có một màn trình diễn đầy sắc thái và giành được giải thưởng."
+					},
+					{
+						"text": "We need a more nuanced approach to this complex problem.",
+						"viText": "Chúng ta cần một cách tiếp cận tinh tế hơn đối với vấn đề phức tạp này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "nuanced understanding",
+						"meaning": "A deep and detailed comprehension of something",
+						"viMeaning": "sự thấu hiểu tinh tế",
+						"example": "The book provides a nuanced understanding of historical events.",
+						"viExample": "Cuốn sách cung cấp một sự thấu hiểu sâu sắc về các sự kiện lịch sử."
+					},
+					{
+						"phrase": "richly nuanced",
+						"meaning": "Having many subtle and important details",
+						"viMeaning": "giàu sắc thái",
+						"example": "The poem is richly nuanced with cultural references.",
+						"viExample": "Bài thơ giàu sắc thái với các tham chiếu văn hóa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "eloquent",
+		"pos": "adjective",
+		"ipa": "/ˈeləkwənt/",
+		"cefrLevel": "C1",
+		"frequency": 8100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "eloquence", "pos": "noun" },
+			{ "form": "eloquently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Fluent or persuasive in speaking or writing",
+				"viDef": "hùng hồn, hùng biện",
+				"synonyms": ["articulate", "fluent", "persuasive"],
+				"antonyms": ["inarticulate"],
+				"examples": [
+					{
+						"text": "The president gave an eloquent speech on racial equality.",
+						"viText": "Tổng thống đã có một bài phát biểu hùng hồn về bình đẳng chủng tộc."
+					},
+					{
+						"text": "Her eyes were more eloquent than any words could be.",
+						"viText": "Đôi mắt của cô ấy còn hùng hồn hơn bất kỳ lời nói nào."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "eloquent speaker",
+						"meaning": "Someone who talks very clearly and persuasively",
+						"viMeaning": "diễn giả hùng biện",
+						"example": "He is known as an eloquent speaker and great leader.",
+						"viExample": "Ông được biết đến là một diễn giả hùng hồn và một nhà lãnh đạo vĩ đại."
+					},
+					{
+						"phrase": "eloquent testimony",
+						"meaning": "A clear and powerful piece of evidence",
+						"viMeaning": "bằng chứng đanh thép",
+						"example": "The ruins are an eloquent testimony to the ancient city's glory.",
+						"viExample": "Những tàn tích là bằng chứng hùng hồn cho vinh quang của thành phố cổ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "catalyst",
+		"pos": "noun",
+		"ipa": "/ˈkætəlɪst/",
+		"cefrLevel": "C1",
+		"frequency": 7900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "catalytic", "pos": "adjective" },
+			{ "form": "catalyze", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that causes or speeds up a significant change",
+				"viDef": "chất xúc tác",
+				"synonyms": ["stimulus", "spark", "incentive"],
+				"antonyms": ["hindrance"],
+				"examples": [
+					{
+						"text": "The protest acted as a catalyst for political reform.",
+						"viText": "Cuộc biểu tình đóng vai trò như một chất xúc tác cho cải cách chính trị."
+					},
+					{
+						"text": "A catalyst is used in chemistry to speed up reactions.",
+						"viText": "Chất xúc tác được dùng trong hóa học để đẩy nhanh các phản ứng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "act as a catalyst",
+						"meaning": "To trigger a series of events or changes",
+						"viMeaning": "đóng vai trò xúc tác",
+						"example": "New technology often acts as a catalyst for social change.",
+						"viExample": "Công nghệ mới thường đóng vai trò là chất xúc tác cho sự thay đổi xã hội."
+					},
+					{
+						"phrase": "primary catalyst",
+						"meaning": "The main cause of a major shift",
+						"viMeaning": "chất xúc tác chính",
+						"example": "High unemployment was the primary catalyst for the riot.",
+						"viExample": "Tỷ lệ thất nghiệp cao là chất xúc tác chính cho cuộc bạo động."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "autonomy",
+		"pos": "noun",
+		"ipa": "/ɔːˈtɒnəmi/",
+		"cefrLevel": "C1",
+		"frequency": 7200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "autonomous", "pos": "adjective" },
+			{ "form": "autonomously", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The right or condition of self-government",
+				"viDef": "quyền tự trị, tự chủ",
+				"synonyms": ["independence", "self-rule", "freedom"],
+				"antonyms": ["dependence", "subjugation"],
+				"examples": [
+					{
+						"text": "The region was granted autonomy after years of protest.",
+						"viText": "Khu vực này đã được trao quyền tự trị sau nhiều năm biểu tình."
+					},
+					{
+						"text": "Teachers should have more autonomy in the classroom.",
+						"viText": "Giáo viên nên có nhiều quyền tự chủ hơn trong lớp học."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "individual autonomy",
+						"meaning": "The ability of a person to make their own choices",
+						"viMeaning": "tự chủ cá nhân",
+						"example": "Individual autonomy is a core value in our society.",
+						"viExample": "Tự chủ cá nhân là một giá trị cốt lõi trong xã hội chúng ta."
+					},
+					{
+						"phrase": "greater autonomy",
+						"meaning": "More power to control one's own affairs",
+						"viMeaning": "quyền tự chủ lớn hơn",
+						"example": "The branch office was given greater autonomy over its budget.",
+						"viExample": "Văn phòng chi nhánh được trao quyền tự chủ lớn hơn đối với ngân sách của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "discrepancy",
+		"pos": "noun",
+		"ipa": "/dɪˈskrepənsi/",
+		"cefrLevel": "C1",
+		"frequency": 8400,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A lack of compatibility or similarity between two facts",
+				"viDef": "sự khác biệt, sai sót",
+				"synonyms": ["inconsistency", "difference", "divergence"],
+				"antonyms": ["similarity", "consistency"],
+				"examples": [
+					{
+						"text": "There was a discrepancy between the two bank statements.",
+						"viText": "Có một sự khác biệt giữa hai bản sao kê ngân hàng."
+					},
+					{
+						"text": "Officials are investigating the discrepancy in the election results.",
+						"viText": "Các quan chức đang điều tra sự khác biệt trong kết quả bầu cử."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "major discrepancy",
+						"meaning": "A very large and important difference",
+						"viMeaning": "sai lệch lớn",
+						"example": "Investigators found a major discrepancy in the company accounts.",
+						"viExample": "Các nhà điều tra đã tìm thấy một sai lệch lớn trong tài khoản công ty."
+					},
+					{
+						"phrase": "notice a discrepancy",
+						"meaning": "To see that two things do not match",
+						"viMeaning": "nhận thấy sự khác biệt",
+						"example": "I noticed a discrepancy between your report and the data.",
+						"viExample": "Tôi nhận thấy sự khác biệt giữa báo cáo của bạn và dữ liệu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ephemeral",
+		"pos": "adjective",
+		"ipa": "/ɪˈfemərəl/",
+		"cefrLevel": "C1",
+		"frequency": 9800,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Lasting for a very short time",
+				"viDef": "phù du, chóng tàn",
+				"synonyms": ["transitory", "fleeting", "short-lived"],
+				"antonyms": ["permanent", "eternal"],
+				"examples": [
+					{
+						"text": "Fame is often ephemeral and can disappear overnight.",
+						"viText": "Sự nổi tiếng thường phù du và có thể biến mất trong một đêm."
+					},
+					{
+						"text": "The beauty of the sunset was ephemeral but unforgettable.",
+						"viText": "Vẻ đẹp của hoàng hôn tuy chóng tàn nhưng không thể quên."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ephemeral nature",
+						"meaning": "The quality of something being temporary",
+						"viMeaning": "bản chất phù du",
+						"example": "The ephemeral nature of fashion means trends change fast.",
+						"viExample": "Bản chất phù du của thời trang có nghĩa là xu hướng thay đổi nhanh chóng."
+					},
+					{
+						"phrase": "highly ephemeral",
+						"meaning": "Extremely short-lasting",
+						"viMeaning": "cực kỳ ngắn ngủi",
+						"example": "Digital content is often highly ephemeral in nature.",
+						"viExample": "Nội dung số thường có bản chất cực kỳ ngắn ngủi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "scrutinize",
+		"pos": "verb",
+		"ipa": "/ˈskruːtɪnaɪz/",
+		"cefrLevel": "C1",
+		"frequency": 8700,
+		"isCommon": false,
+		"wordForms": [{ "form": "scrutiny", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Examine or inspect closely and thoroughly",
+				"viDef": "xem xét kỹ lưỡng",
+				"synonyms": ["inspect", "examine", "analyze"],
+				"antonyms": ["ignore", "glance"],
+				"examples": [
+					{
+						"text": "The evidence will be carefully scrutinized by the judge.",
+						"viText": "Bằng chứng sẽ được thẩm phán xem xét cẩn thận."
+					},
+					{
+						"text": "Customers should scrutinize the terms and conditions before signing.",
+						"viText": "Khách hàng nên xem xét kỹ các điều khoản và điều kiện trước khi ký."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "closely scrutinize",
+						"meaning": "To look at something with great detail",
+						"viMeaning": "xem xét kỹ",
+						"example": "The tax office will closely scrutinize your income.",
+						"viExample": "Cục thuế sẽ xem xét kỹ thu nhập của bạn."
+					},
+					{
+						"phrase": "scrutinize the data",
+						"meaning": "To analyze information very carefully",
+						"viMeaning": "nghiên cứu kỹ dữ liệu",
+						"example": "Scientists must scrutinize the data for any errors.",
+						"viExample": "Các nhà khoa học phải kiểm tra kỹ dữ liệu để tìm lỗi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "volatile",
+		"pos": "adjective",
+		"ipa": "/ˈvɒlətaɪl/",
+		"cefrLevel": "C1",
+		"frequency": 8300,
+		"isCommon": false,
+		"wordForms": [{ "form": "volatility", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Liable to change rapidly and unpredictably",
+				"viDef": "biến động, không ổn định",
+				"synonyms": ["unstable", "unpredictable", "changeable"],
+				"antonyms": ["stable", "calm"],
+				"examples": [
+					{
+						"text": "The political situation in the region remains highly volatile.",
+						"viText": "Tình hình chính trị trong khu vực vẫn cực kỳ bất ổn."
+					},
+					{
+						"text": "Oil prices have been very volatile over the past month.",
+						"viText": "Giá dầu đã biến động rất mạnh trong tháng qua."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "volatile market",
+						"meaning": "A financial market where prices change fast",
+						"viMeaning": "thị trường biến động",
+						"example": "Investing in a volatile market involves high risk.",
+						"viExample": "Đầu tư vào một thị trường biến động đi kèm với rủi ro cao."
+					},
+					{
+						"phrase": "highly volatile",
+						"meaning": "Extremely likely to change suddenly",
+						"viMeaning": "cực kỳ bất ổn",
+						"example": "The chemical mixture is highly volatile and dangerous.",
+						"viExample": "Hỗn hợp hóa học này cực kỳ dễ bay hơi và nguy hiểm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "paradox",
+		"pos": "noun",
+		"ipa": "/ˈpærədɒks/",
+		"cefrLevel": "C1",
+		"frequency": 8500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "paradoxical", "pos": "adjective" },
+			{ "form": "paradoxically", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A seemingly absurd or self-contradictory statement",
+				"viDef": "nghịch lý",
+				"synonyms": ["contradiction", "inconsistency", "puzzle"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "It is a paradox that the richer we get, the less happy we seem.",
+						"viText": "Thật là một nghịch lý khi chúng ta càng giàu thì dường như càng ít hạnh phúc hơn."
+					},
+					{
+						"text": "The classic paradox of time travel fascinates many scientists.",
+						"viText": "Nghịch lý du hành thời gian kinh điển thu hút nhiều nhà khoa học."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "apparent paradox",
+						"meaning": "Something that seems like a contradiction but might not be",
+						"viMeaning": "nghịch lý rõ ràng",
+						"example": "The study revealed an apparent paradox in the data.",
+						"viExample": "Nghiên cứu đã tiết lộ một nghịch lý rõ ràng trong dữ liệu."
+					},
+					{
+						"phrase": "central paradox",
+						"meaning": "The main contradiction at the heart of an idea",
+						"viMeaning": "nghịch lý trung tâm",
+						"example": "The central paradox of his life was his love for war and peace.",
+						"viExample": "Nghịch lý trung tâm của đời ông là tình yêu dành cho cả chiến tranh và hòa bình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "circumvent",
+		"pos": "verb",
+		"ipa": "/ˌsɜːkəmˈvent/",
+		"cefrLevel": "C1",
+		"frequency": 9100,
+		"isCommon": false,
+		"wordForms": [{ "form": "circumvention", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Find a way around (an obstacle or overcome a problem)",
+				"viDef": "né tránh, lách luật",
+				"synonyms": ["avoid", "bypass", "evade"],
+				"antonyms": ["confront", "face"],
+				"examples": [
+					{
+						"text": "They found a way to circumvent the security system.",
+						"viText": "Họ đã tìm ra cách để vượt qua hệ thống an ninh."
+					},
+					{
+						"text": "Businesses often try to circumvent strict government regulations.",
+						"viText": "Các doanh nghiệp thường cố gắng lách các quy định khắt khe của chính phủ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "circumvent the law",
+						"meaning": "To find a gap in rules to avoid following them",
+						"viMeaning": "lách luật",
+						"example": "He was accused of trying to circumvent the law.",
+						"viExample": "Anh ta bị cáo buộc cố gắng lách luật."
+					},
+					{
+						"phrase": "effectively circumvent",
+						"meaning": "To successfully go around a barrier",
+						"viMeaning": "né tránh hiệu quả",
+						"example": "The hackers effectively circumvented the firewall.",
+						"viExample": "Các hacker đã vượt qua tường lửa một cách hiệu quả."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "culminate",
+		"pos": "verb",
+		"ipa": "/ˈkʌlmɪneɪt/",
+		"cefrLevel": "C1",
+		"frequency": 8000,
+		"isCommon": false,
+		"wordForms": [{ "form": "culmination", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Reach a climax or point of highest development",
+				"viDef": "lên đến đỉnh điểm, kết thúc bằng",
+				"synonyms": ["climax", "end", "peak"],
+				"antonyms": ["start", "begin"],
+				"examples": [
+					{
+						"text": "The festival will culminate in a spectacular fireworks display.",
+						"viText": "Lễ hội sẽ kết thúc bằng một màn bắn pháo hoa ngoạn mục."
+					},
+					{
+						"text": "His career culminated in being appointed as the CEO.",
+						"viText": "Sự nghiệp của ông đã lên đến đỉnh điểm khi ông được bổ nhiệm làm CEO."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "culminate in",
+						"meaning": "To end with a specific result or event",
+						"viMeaning": "kết thúc tại/bằng",
+						"example": "Years of research culminated in a major discovery.",
+						"viExample": "Nhiều năm nghiên cứu đã kết thúc bằng một khám phá lớn."
+					},
+					{
+						"phrase": "culminate with",
+						"meaning": "To have a final event as a conclusion",
+						"viMeaning": "đạt đỉnh điểm với",
+						"example": "The concert culminated with the band's most famous song.",
+						"viExample": "Buổi hòa nhạc lên đến đỉnh điểm với bài hát nổi tiếng nhất của ban nhạc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "encompass",
+		"pos": "verb",
+		"ipa": "/ɪnˈkʌmpəs/",
+		"cefrLevel": "C1",
+		"frequency": 7700,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Surround and have or hold within; include comprehensively",
+				"viDef": "bao gồm, bao trùm",
+				"synonyms": ["include", "cover", "embrace"],
+				"antonyms": ["exclude"],
+				"examples": [
+					{
+						"text": "The new curriculum will encompass a wide range of subjects.",
+						"viText": "Chương trình học mới sẽ bao gồm nhiều môn học đa dạng."
+					},
+					{
+						"text": "The forest encompasses over 5,000 acres of land.",
+						"viText": "Khu rừng bao phủ hơn 5.000 mẫu Anh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "encompass a variety",
+						"meaning": "To include many different types of something",
+						"viMeaning": "bao gồm nhiều loại",
+						"example": "The festival encompasses a variety of musical styles.",
+						"viExample": "Lễ hội bao gồm nhiều phong cách âm nhạc khác nhau."
+					},
+					{
+						"phrase": "broadly encompass",
+						"meaning": "To cover a wide area or set of ideas",
+						"viMeaning": "bao quát rộng rãi",
+						"example": "The term can broadly encompass several different concepts.",
+						"viExample": "Thuật ngữ này có thể bao quát rộng rãi một vài khái niệm khác nhau."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "eradicate",
+		"pos": "verb",
+		"ipa": "/ɪˈrædɪkeɪt/",
+		"cefrLevel": "C1",
+		"frequency": 8800,
+		"isCommon": false,
+		"wordForms": [{ "form": "eradication", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Destroy completely; put an end to",
+				"viDef": "diệt trừ, xóa bỏ hoàn toàn",
+				"synonyms": ["eliminate", "extinguish", "uproot"],
+				"antonyms": ["create", "establish"],
+				"examples": [
+					{
+						"text": "The government aims to eradicate poverty within a decade.",
+						"viText": "Chính phủ đặt mục tiêu xóa nghèo trong vòng một thập kỷ."
+					},
+					{
+						"text": "Vaccination programs have helped to eradicate smallpox.",
+						"viText": "Các chương trình tiêm chủng đã giúp xóa sổ bệnh đậu mùa."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "completely eradicate",
+						"meaning": "To totally get rid of something negative",
+						"viMeaning": "xóa bỏ hoàn toàn",
+						"example": "We must completely eradicate corruption in the system.",
+						"viExample": "Chúng ta phải xóa bỏ hoàn toàn tham nhũng trong hệ thống."
+					},
+					{
+						"phrase": "eradicate a disease",
+						"meaning": "To stop an illness from ever occurring again",
+						"viMeaning": "diệt trừ dịch bệnh",
+						"example": "Scientists are working to eradicate polio worldwide.",
+						"viExample": "Các nhà khoa học đang nỗ lực diệt trừ bệnh bại liệt trên toàn thế giới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "indispensable",
+		"pos": "adjective",
+		"ipa": "/ˌɪndɪˈspensəbl/",
+		"cefrLevel": "C1",
+		"frequency": 7400,
+		"isCommon": false,
+		"wordForms": [{ "form": "indispensably", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Absolutely necessary; essential",
+				"viDef": "không thể thiếu, thiết yếu",
+				"synonyms": ["essential", "vital", "crucial"],
+				"antonyms": ["dispensable", "redundant"],
+				"examples": [
+					{
+						"text": "A good dictionary is indispensable for language learners.",
+						"viText": "Một cuốn từ điển tốt là không thể thiếu đối với người học ngôn ngữ."
+					},
+					{
+						"text": "Computers have become an indispensable part of modern life.",
+						"viText": "Máy tính đã trở thành một phần không thể thiếu của cuộc sống hiện đại."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "indispensable tool",
+						"meaning": "Something that is required to do a job properly",
+						"viMeaning": "công cụ không thể thiếu",
+						"example": "The internet is an indispensable tool for research.",
+						"viExample": "Internet là một công cụ không thể thiếu cho nghiên cứu."
+					},
+					{
+						"phrase": "prove indispensable",
+						"meaning": "To show itself to be completely necessary over time",
+						"viMeaning": "tỏ ra không thể thiếu",
+						"example": "Her help proved indispensable during the busy season.",
+						"viExample": "Sự giúp đỡ của cô ấy đã tỏ ra là không thể thiếu trong mùa bận rộn."
+					}
+				]
+			}
+		]
+	}
+]

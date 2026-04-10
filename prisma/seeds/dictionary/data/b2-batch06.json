@@ -1,0 +1,914 @@
+[
+	{
+		"headword": "profound",
+		"pos": "adjective",
+		"ipa": "/prəˈfaʊnd/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "profoundly", "pos": "adverb" },
+			{ "form": "profundity", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Very great or intense; showing great knowledge or insight",
+				"viDef": "sâu sắc, thâm thúy",
+				"synonyms": ["deep", "intense", "insightful"],
+				"antonyms": ["superficial", "slight"],
+				"examples": [
+					{
+						"text": "The discovery had a profound effect on modern medicine.",
+						"viText": "Phát hiện này đã có một ảnh hưởng sâu sắc đến y học hiện đại."
+					},
+					{
+						"text": "He offered a profound apology for his behavior.",
+						"viText": "Anh ấy đã đưa ra lời xin lỗi chân thành sâu sắc về hành vi của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "profound impact",
+						"meaning": "A very strong and lasting effect",
+						"viMeaning": "tác động sâu sắc",
+						"example": "The invention of the internet had a profound impact on society.",
+						"viExample": "Sự ra đời của internet đã có một tác động sâu sắc đến xã hội."
+					},
+					{
+						"phrase": "profound understanding",
+						"meaning": "A deep and complete knowledge of something",
+						"viMeaning": "sự hiểu biết sâu sắc",
+						"example": "She has a profound understanding of human nature.",
+						"viExample": "Cô ấy có một sự hiểu biết sâu sắc về bản chất con người."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "subtle",
+		"pos": "adjective",
+		"ipa": "/ˈsʌtl/",
+		"cefrLevel": "B2",
+		"frequency": 5400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "subtlety", "pos": "noun" },
+			{ "form": "subtly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Small but important; not obvious or noticeable",
+				"viDef": "tinh tế, khó nhận ra",
+				"synonyms": ["delicate", "understated", "fine"],
+				"antonyms": ["obvious", "crude"],
+				"examples": [
+					{
+						"text": "There are subtle differences between the two versions.",
+						"viText": "Có những điểm khác biệt tinh tế giữa hai phiên bản."
+					},
+					{
+						"text": "The soup had a subtle flavor of ginger.",
+						"viText": "Món súp có hương vị gừng thoang thoảng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "subtle hint",
+						"meaning": "An indirect suggestion that is not obvious",
+						"viMeaning": "gợi ý tinh tế",
+						"example": "She dropped a subtle hint about her birthday plans.",
+						"viExample": "Cô ấy đã đưa ra một gợi ý tinh tế về kế hoạch sinh nhật của mình."
+					},
+					{
+						"phrase": "subtle change",
+						"meaning": "A minor adjustment that is hard to see",
+						"viMeaning": "thay đổi nhỏ/tinh tế",
+						"example": "I noticed a subtle change in his attitude.",
+						"viExample": "Tôi nhận thấy một sự thay đổi nhỏ trong thái độ của anh ấy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "rigorous",
+		"pos": "adjective",
+		"ipa": "/ˈrɪɡərəs/",
+		"cefrLevel": "B2",
+		"frequency": 6200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "rigor", "pos": "noun" },
+			{ "form": "rigorously", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Extremely thorough, exhaustive, or accurate",
+				"viDef": "nghiêm ngặt, khắt khe",
+				"synonyms": ["strict", "thorough", "stringent"],
+				"antonyms": ["lax", "loose"],
+				"examples": [
+					{
+						"text": "The candidates must undergo a rigorous selection process.",
+						"viText": "Các ứng viên phải trải qua một quy trình tuyển chọn khắt khe."
+					},
+					{
+						"text": "Scientists apply rigorous testing to ensure safety.",
+						"viText": "Các nhà khoa học áp dụng các thử nghiệm nghiêm ngặt để đảm bảo an toàn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "rigorous standards",
+						"meaning": "Very high and strict rules or requirements",
+						"viMeaning": "tiêu chuẩn nghiêm ngặt",
+						"example": "The laboratory maintains rigorous standards of cleanliness.",
+						"viExample": "Phòng thí nghiệm duy trì các tiêu chuẩn vệ sinh nghiêm ngặt."
+					},
+					{
+						"phrase": "rigorous analysis",
+						"meaning": "A very detailed and careful examination",
+						"viMeaning": "phân tích kỹ lưỡng",
+						"example": "The data requires rigorous analysis before publication.",
+						"viExample": "Dữ liệu cần được phân tích kỹ lưỡng trước khi công bố."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "arbitrary",
+		"pos": "adjective",
+		"ipa": "/ˈɑːbɪtrəri/",
+		"cefrLevel": "B2",
+		"frequency": 6800,
+		"isCommon": false,
+		"wordForms": [{ "form": "arbitrarily", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Based on random choice rather than reason or system",
+				"viDef": "tùy tiện, ngẫu nhiên",
+				"synonyms": ["random", "chance", "unpredictable"],
+				"antonyms": ["rational", "systematic"],
+				"examples": [
+					{
+						"text": "The decision to close the park seemed completely arbitrary.",
+						"viText": "Quyết định đóng cửa công viên có vẻ hoàn toàn tùy tiện."
+					},
+					{
+						"text": "They chose an arbitrary number for the test.",
+						"viText": "Họ đã chọn một con số ngẫu nhiên cho bài kiểm tra."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "arbitrary decision",
+						"meaning": "A choice made without a fair reason",
+						"viMeaning": "quyết định tùy tiện",
+						"example": "Workers complained about the manager's arbitrary decisions.",
+						"viExample": "Công nhân phàn nàn về những quyết định tùy tiện của người quản lý."
+					},
+					{
+						"phrase": "purely arbitrary",
+						"meaning": "Entirely based on chance or whim",
+						"viMeaning": "hoàn toàn ngẫu nhiên",
+						"example": "The order of the names was purely arbitrary.",
+						"viExample": "Thứ tự của các cái tên là hoàn toàn ngẫu nhiên."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "inherent",
+		"pos": "adjective",
+		"ipa": "/ɪnˈhɪərənt/",
+		"cefrLevel": "B2",
+		"frequency": 5950,
+		"isCommon": false,
+		"wordForms": [{ "form": "inherently", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Existing in something as a permanent or essential attribute",
+				"viDef": "vốn có, cố hữu",
+				"synonyms": ["intrinsic", "innate", "natural"],
+				"antonyms": ["acquired", "extrinsic"],
+				"examples": [
+					{
+						"text": "There are inherent risks in every investment.",
+						"viText": "Luôn có những rủi ro vốn có trong mọi khoản đầu tư."
+					},
+					{
+						"text": "The desire for freedom is inherent in all humans.",
+						"viText": "Khát vọng tự do là vốn có ở tất cả con người."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "inherent danger",
+						"meaning": "A risk that is a natural part of something",
+						"viMeaning": "nguy hiểm tiềm tàng/vốn có",
+						"example": "Mountain climbing has many inherent dangers.",
+						"viExample": "Leo núi có nhiều mối nguy hiểm vốn có."
+					},
+					{
+						"phrase": "inherent quality",
+						"meaning": "A basic characteristic of a person or thing",
+						"viMeaning": "phẩm chất vốn có",
+						"example": "Hard work is an inherent quality of successful people.",
+						"viExample": "Chăm chỉ là một phẩm chất vốn có của những người thành công."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "peripheral",
+		"pos": "adjective",
+		"ipa": "/pəˈrɪfərəl/",
+		"cefrLevel": "B2",
+		"frequency": 6700,
+		"isCommon": false,
+		"wordForms": [{ "form": "periphery", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Relating to the edge; of secondary importance",
+				"viDef": "ngoại vi, thứ yếu",
+				"synonyms": ["marginal", "outer", "secondary"],
+				"antonyms": ["central", "core"],
+				"examples": [
+					{
+						"text": "These are peripheral issues that don't affect the main plan.",
+						"viText": "Đây là những vấn đề thứ yếu không ảnh hưởng đến kế hoạch chính."
+					},
+					{
+						"text": "The company focuses on core business, not peripheral activities.",
+						"viText": "Công ty tập trung vào kinh doanh cốt lõi, không phải hoạt động phụ trợ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "peripheral vision",
+						"meaning": "The ability to see things at the side",
+						"viMeaning": "tầm nhìn ngoại vi",
+						"example": "Drivers need good peripheral vision to see pedestrians.",
+						"viExample": "Người lái xe cần tầm nhìn ngoại vi tốt để thấy người đi bộ."
+					},
+					{
+						"phrase": "peripheral device",
+						"meaning": "Hardware added to a computer like a printer",
+						"viMeaning": "thiết bị ngoại vi",
+						"example": "A mouse is a common peripheral device.",
+						"viExample": "Chuột là một thiết bị ngoại vi phổ biến."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "preliminary",
+		"pos": "adjective",
+		"ipa": "/prɪˈlɪmɪnəri/",
+		"cefrLevel": "B2",
+		"frequency": 5600,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Coming before a main event or activity",
+				"viDef": "sơ bộ, mở đầu",
+				"synonyms": ["initial", "introductory", "preparatory"],
+				"antonyms": ["final", "closing"],
+				"examples": [
+					{
+						"text": "The preliminary results of the study are encouraging.",
+						"viText": "Kết quả sơ bộ của nghiên cứu rất đáng khích lệ."
+					},
+					{
+						"text": "We had some preliminary discussions before the meeting.",
+						"viText": "Chúng tôi đã có một vài cuộc thảo luận sơ bộ trước cuộc họp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "preliminary stage",
+						"meaning": "The first part of a process",
+						"viMeaning": "giai đoạn sơ bộ",
+						"example": "The project is still in its preliminary stage.",
+						"viExample": "Dự án vẫn đang ở giai đoạn sơ bộ."
+					},
+					{
+						"phrase": "preliminary investigation",
+						"meaning": "An early search for facts before a full trial",
+						"viMeaning": "điều tra sơ bộ",
+						"example": "The police launched a preliminary investigation into the fire.",
+						"viExample": "Cảnh sát đã khởi động một cuộc điều tra sơ bộ về vụ hỏa hoạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "redundant",
+		"pos": "adjective",
+		"ipa": "/rɪˈdʌndənt/",
+		"cefrLevel": "B2",
+		"frequency": 6300,
+		"isCommon": false,
+		"wordForms": [{ "form": "redundancy", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "No longer needed or useful; unnecessary",
+				"viDef": "dư thừa, bị sa thải",
+				"synonyms": ["unnecessary", "surplus", "superfluous"],
+				"antonyms": ["essential", "necessary"],
+				"examples": [
+					{
+						"text": "The new technology made the old machines redundant.",
+						"viText": "Công nghệ mới đã làm cho những cỗ máy cũ trở nên dư thừa."
+					},
+					{
+						"text": "Many workers were made redundant when the factory closed.",
+						"viText": "Nhiều công nhân đã bị sa thải khi nhà máy đóng cửa."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make redundant",
+						"meaning": "To dismiss workers because they are no longer needed",
+						"viMeaning": "sa thải (do dư thừa)",
+						"example": "The airline had to make 200 staff redundant.",
+						"viExample": "Hãng hàng không đã phải sa thải 200 nhân viên."
+					},
+					{
+						"phrase": "become redundant",
+						"meaning": "To no longer be of any use",
+						"viMeaning": "trở nên dư thừa",
+						"example": "Hand-written records are becoming redundant in offices.",
+						"viExample": "Hồ sơ viết tay đang trở nên dư thừa trong các văn phòng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "simultaneous",
+		"pos": "adjective",
+		"ipa": "/ˌsɪmlˈteɪniəs/",
+		"cefrLevel": "B2",
+		"frequency": 6500,
+		"isCommon": false,
+		"wordForms": [{ "form": "simultaneously", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Occurring, operating, or done at the same time",
+				"viDef": "đồng thời",
+				"synonyms": ["concurrent", "coincident"],
+				"antonyms": ["asynchronous"],
+				"examples": [
+					{
+						"text": "The broadcast was available for simultaneous translation.",
+						"viText": "Buổi phát sóng có sẵn phần dịch thuật đồng thời."
+					},
+					{
+						"text": "There were simultaneous explosions in several parts of the city.",
+						"viText": "Có những vụ nổ đồng thời ở một vài nơi trong thành phố."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "simultaneous interpretation",
+						"meaning": "Translating speech while someone is still talking",
+						"viMeaning": "dịch song song/đuổi",
+						"example": "The conference provided simultaneous interpretation in five languages.",
+						"viExample": "Hội nghị cung cấp dịch thuật song song bằng năm thứ tiếng."
+					},
+					{
+						"phrase": "simultaneous release",
+						"meaning": "Publishing something in different places at once",
+						"viMeaning": "phát hành đồng thời",
+						"example": "The movie will have a simultaneous release in theaters and online.",
+						"viExample": "Bộ phim sẽ được phát hành đồng thời tại rạp và trực tuyến."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "straightforward",
+		"pos": "adjective",
+		"ipa": "/ˌstreɪtˈfɔːwəd/",
+		"cefrLevel": "B2",
+		"frequency": 5200,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Uncomplicated and easy to do or understand",
+				"viDef": "thẳng thắn, dễ hiểu",
+				"synonyms": ["simple", "easy", "direct"],
+				"antonyms": ["complex", "complicated"],
+				"examples": [
+					{ "text": "The instructions are very straightforward.", "viText": "Các hướng dẫn rất dễ hiểu." },
+					{
+						"text": "He is a very straightforward person who speaks his mind.",
+						"viText": "Anh ấy là một người rất thẳng thắn, luôn nói ra suy nghĩ của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "straightforward task",
+						"meaning": "A piece of work that is easy to finish",
+						"viMeaning": "nhiệm vụ đơn giản",
+						"example": "Assembling the chair was a straightforward task.",
+						"viExample": "Lắp ráp chiếc ghế là một nhiệm vụ đơn giản."
+					},
+					{
+						"phrase": "fairly straightforward",
+						"meaning": "Reasonably simple to comprehend",
+						"viMeaning": "khá dễ hiểu",
+						"example": "The process of applying is fairly straightforward.",
+						"viExample": "Quy trình nộp đơn khá là dễ hiểu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ambitious",
+		"pos": "adjective",
+		"ipa": "/æmˈbɪʃəs/",
+		"cefrLevel": "B2",
+		"frequency": 5300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "ambition", "pos": "noun" },
+			{ "form": "ambitiously", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having a strong desire for success or achievement",
+				"viDef": "có tham vọng",
+				"synonyms": ["aspiring", "determined", "purposeful"],
+				"antonyms": ["lazy", "unambitious"],
+				"examples": [
+					{
+						"text": "She is an ambitious lawyer who wants to be a judge.",
+						"viText": "Cô ấy là một luật sư đầy tham vọng, người muốn trở thành thẩm phán."
+					},
+					{
+						"text": "The company has ambitious plans to expand overseas.",
+						"viText": "Công ty có những kế hoạch đầy tham vọng để mở rộng ra nước ngoài."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ambitious goal",
+						"meaning": "A target that is difficult to reach",
+						"viMeaning": "mục tiêu đầy tham vọng",
+						"example": "They set an ambitious goal to double their profits.",
+						"viExample": "Họ đã đặt ra một mục tiêu đầy tham vọng là gấp đôi lợi nhuận."
+					},
+					{
+						"phrase": "highly ambitious",
+						"meaning": "Extremely determined to be successful",
+						"viMeaning": "rất có tham vọng",
+						"example": "He is highly ambitious and works long hours.",
+						"viExample": "Anh ấy rất có tham vọng và làm việc nhiều giờ liền."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "compassionate",
+		"pos": "adjective",
+		"ipa": "/kəmˈpæʃənət/",
+		"cefrLevel": "B2",
+		"frequency": 6900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "compassion", "pos": "noun" },
+			{ "form": "compassionately", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Feeling or showing sympathy and concern for others",
+				"viDef": "lòng trắc ẩn, nhân ái",
+				"synonyms": ["sympathetic", "kind", "caring"],
+				"antonyms": ["cruel", "indifferent"],
+				"examples": [
+					{
+						"text": "The nurse was very compassionate toward the elderly patients.",
+						"viText": "Nữ y tá rất tận tâm và trắc ẩn đối với các bệnh nhân lớn tuổi."
+					},
+					{
+						"text": "We need a more compassionate approach to the refugee crisis.",
+						"viText": "Chúng ta cần một cách tiếp cận nhân đạo hơn đối với cuộc khủng hoảng tị nạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "compassionate leave",
+						"meaning": "Time off work allowed due to family trouble",
+						"viMeaning": "nghỉ phép nhân đạo",
+						"example": "He was granted compassionate leave to attend the funeral.",
+						"viExample": "Anh ấy đã được nghỉ phép nhân đạo để tham dự đám tang."
+					},
+					{
+						"phrase": "deeply compassionate",
+						"meaning": "Showing a very strong sense of sympathy",
+						"viMeaning": "giàu lòng trắc ẩn",
+						"example": "She is a deeply compassionate person who volunteers often.",
+						"viExample": "Cô ấy là một người giàu lòng trắc ẩn và thường xuyên làm tình nguyện."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "decisive",
+		"pos": "adjective",
+		"ipa": "/dɪˈsaɪsɪv/",
+		"cefrLevel": "B2",
+		"frequency": 5500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "decisiveness", "pos": "noun" },
+			{ "form": "decisively", "pos": "adverb" },
+			{ "form": "decide", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Settling an issue; producing a definite result",
+				"viDef": "quyết đoán, kiên quyết",
+				"synonyms": ["firm", "conclusive", "determined"],
+				"antonyms": ["indecisive", "hesitant"],
+				"examples": [
+					{
+						"text": "A decisive victory in the battle changed the war.",
+						"viText": "Một chiến thắng quyết định trong trận chiến đã thay đổi cuộc chiến."
+					},
+					{
+						"text": "We need a decisive leader who can make tough choices.",
+						"viText": "Chúng ta cần một nhà lãnh đạo quyết đoán, người có thể đưa ra những lựa chọn khó khăn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "decisive action",
+						"meaning": "Doing something quickly and effectively to solve a problem",
+						"viMeaning": "hành động quyết đoán",
+						"example": "The government took decisive action to stop the crisis.",
+						"viExample": "Chính phủ đã có hành động quyết đoán để ngăn chặn cuộc khủng hoảng."
+					},
+					{
+						"phrase": "decisive factor",
+						"meaning": "The main reason that determines a result",
+						"viMeaning": "yếu tố quyết định",
+						"example": "Price was the decisive factor in my decision to buy.",
+						"viExample": "Giá cả là yếu tố quyết định trong quyết định mua hàng của tôi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "diligent",
+		"pos": "adjective",
+		"ipa": "/ˈdɪlɪdʒənt/",
+		"cefrLevel": "B2",
+		"frequency": 6700,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "diligence", "pos": "noun" },
+			{ "form": "diligently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having or showing care and conscientiousness in work",
+				"viDef": "siêng năng, cần cù",
+				"synonyms": ["industrious", "hard-working", "meticulous"],
+				"antonyms": ["lazy", "negligent"],
+				"examples": [
+					{
+						"text": "The student was very diligent in her studies.",
+						"viText": "Học sinh đó rất siêng năng trong việc học của mình."
+					},
+					{
+						"text": "A diligent worker is always valued by the company.",
+						"viText": "Một nhân viên cần cù luôn được công ty coi trọng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "diligent effort",
+						"meaning": "A lot of hard work applied to a task",
+						"viMeaning": "nỗ lực chăm chỉ",
+						"example": "Through diligent effort, he finished the project early.",
+						"viExample": "Thông qua nỗ lực chăm chỉ, anh ấy đã hoàn thành dự án sớm."
+					},
+					{
+						"phrase": "diligent search",
+						"meaning": "A very careful and thorough looking for something",
+						"viMeaning": "tìm kiếm kỹ lưỡng",
+						"example": "The police conducted a diligent search for the evidence.",
+						"viExample": "Cảnh sát đã tiến hành một cuộc tìm kiếm kỹ lưỡng các bằng chứng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "empathetic",
+		"pos": "adjective",
+		"ipa": "/ˌempəˈθetɪk/",
+		"cefrLevel": "B2",
+		"frequency": 6950,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "empathy", "pos": "noun" },
+			{ "form": "empathize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Showing an ability to understand and share others' feelings",
+				"viDef": "đồng cảm, thấu cảm",
+				"synonyms": ["compassionate", "sensitive", "understanding"],
+				"antonyms": ["uncaring", "apathetic"],
+				"examples": [
+					{
+						"text": "A good therapist must be empathetic and non-judgmental.",
+						"viText": "Một nhà trị liệu giỏi phải biết đồng cảm và không phán xét."
+					},
+					{
+						"text": "The manager was empathetic when the employee shared their problems.",
+						"viText": "Người quản lý đã rất thấu cảm khi nhân viên chia sẻ các vấn đề của họ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "empathetic listener",
+						"meaning": "Someone who understands how the speaker feels",
+						"viMeaning": "người biết lắng nghe thấu cảm",
+						"example": "She is an empathetic listener who makes people feel heard.",
+						"viExample": "Cô ấy là một người lắng nghe thấu cảm giúp mọi người cảm thấy được thấu hiểu."
+					},
+					{
+						"phrase": "empathetic response",
+						"meaning": "A reaction that shows you understand someone's pain",
+						"viMeaning": "phản hồi thấu cảm",
+						"example": "He gave an empathetic response to the sad news.",
+						"viExample": "Anh ấy đã có một phản hồi thấu cảm trước tin buồn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "impulsive",
+		"pos": "adjective",
+		"ipa": "/ɪmˈpʌlsɪv/",
+		"cefrLevel": "B2",
+		"frequency": 6600,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "impulse", "pos": "noun" },
+			{ "form": "impulsively", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Acting or done without forethought",
+				"viDef": "hấp tấp, bốc đồng",
+				"synonyms": ["spontaneous", "hasty", "reckless"],
+				"antonyms": ["cautious", "deliberate"],
+				"examples": [
+					{
+						"text": "Buying that car was an impulsive decision.",
+						"viText": "Mua chiếc xe đó là một quyết định bốc đồng."
+					},
+					{
+						"text": "He is very impulsive and often says things he regrets.",
+						"viText": "Anh ấy rất bốc đồng và thường nói những điều mình thấy hối hận."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "impulsive buying",
+						"meaning": "Purchasing things without planning to do so",
+						"viMeaning": "mua sắm bốc đồng",
+						"example": "Stores use colorful displays to encourage impulsive buying.",
+						"viExample": "Các cửa hàng sử dụng cách trưng bày sặc sỡ để khuyến khích mua sắm bốc đồng."
+					},
+					{
+						"phrase": "act impulsive",
+						"meaning": "To behave without thinking of the results",
+						"viMeaning": "hành động bốc đồng",
+						"example": "Don't act impulsive when you are angry.",
+						"viExample": "Đừng hành động bốc đồng khi bạn đang tức giận."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "insightful",
+		"pos": "adjective",
+		"ipa": "/ˈɪnsaɪtfʊl/",
+		"cefrLevel": "B2",
+		"frequency": 6400,
+		"isCommon": false,
+		"wordForms": [{ "form": "insight", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having or showing a very clear understanding of something",
+				"viDef": "sâu sắc, thấu suốt",
+				"synonyms": ["perceptive", "wise", "discerning"],
+				"antonyms": ["shallow", "dull"],
+				"examples": [
+					{
+						"text": "The critic wrote an insightful review of the film.",
+						"viText": "Nhà phê bình đã viết một bài đánh giá sâu sắc về bộ phim."
+					},
+					{
+						"text": "She offered some insightful comments during the debate.",
+						"viText": "Cô ấy đã đưa ra một vài bình luận sâu sắc trong suốt cuộc tranh luận."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "insightful analysis",
+						"meaning": "A study that reveals deep truths about a topic",
+						"viMeaning": "phân tích sâu sắc",
+						"example": "The book provides an insightful analysis of the war.",
+						"viExample": "Cuốn sách cung cấp một phân tích sâu sắc về cuộc chiến."
+					},
+					{
+						"phrase": "highly insightful",
+						"meaning": "Showing extremely good judgment or understanding",
+						"viMeaning": "rất sâu sắc",
+						"example": "His speech was highly insightful and inspiring.",
+						"viExample": "Bài phát biểu của anh ấy rất sâu sắc và đầy cảm hứng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "pragmatic",
+		"pos": "adjective",
+		"ipa": "/præɡˈmætɪk/",
+		"cefrLevel": "B2",
+		"frequency": 5800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "pragmatism", "pos": "noun" },
+			{ "form": "pragmatically", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Dealing with things sensibly based on practical considerations",
+				"viDef": "thực tế, thực dụng",
+				"synonyms": ["practical", "realistic", "sensible"],
+				"antonyms": ["idealistic", "impractical"],
+				"examples": [
+					{
+						"text": "We need to take a pragmatic approach to this problem.",
+						"viText": "Chúng ta cần có một cách tiếp cận thực tế đối với vấn đề này."
+					},
+					{
+						"text": "A pragmatic leader focuses on what actually works.",
+						"viText": "Một nhà lãnh đạo thực tế tập trung vào những gì thực sự hiệu quả."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "pragmatic solution",
+						"meaning": "A result that is easy to implement and useful",
+						"viMeaning": "giải pháp thực tế",
+						"example": "The committee found a pragmatic solution to the budget issue.",
+						"viExample": "Ủy ban đã tìm ra một giải pháp thực tế cho vấn đề ngân sách."
+					},
+					{
+						"phrase": "pragmatic view",
+						"meaning": "An opinion based on facts rather than ideals",
+						"viMeaning": "quan điểm thực tế",
+						"example": "She has a very pragmatic view of the business world.",
+						"viExample": "Cô ấy có một cái nhìn rất thực tế về thế giới kinh doanh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "rational",
+		"pos": "adjective",
+		"ipa": "/ˈræʃnəl/",
+		"cefrLevel": "B2",
+		"frequency": 5150,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "rationality", "pos": "noun" },
+			{ "form": "rationally", "pos": "adverb" },
+			{ "form": "rationalize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Based on or in accordance with reason or logic",
+				"viDef": "hợp lý, có lý trí",
+				"synonyms": ["logical", "sensible", "coherent"],
+				"antonyms": ["irrational", "illogical"],
+				"examples": [
+					{
+						"text": "There must be a rational explanation for what happened.",
+						"viText": "Chắc hẳn phải có một lời giải thích hợp lý cho những gì đã xảy ra."
+					},
+					{
+						"text": "He tried to stay rational despite his anger.",
+						"viText": "Anh ấy đã cố gắng giữ lý trí mặc cho sự tức giận của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "rational behavior",
+						"meaning": "Actions that are sensible and well-thought-out",
+						"viMeaning": "hành vi có lý trí",
+						"example": "Economics assumes that people engage in rational behavior.",
+						"viExample": "Kinh tế học giả định rằng con người tham gia vào các hành vi có lý trí."
+					},
+					{
+						"phrase": "perfectly rational",
+						"meaning": "Entirely logical and making complete sense",
+						"viMeaning": "hoàn toàn hợp lý",
+						"example": "His fear of spiders is perfectly rational.",
+						"viExample": "Nỗi sợ nhện của anh ta là hoàn toàn hợp lý."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "resilient",
+		"pos": "adjective",
+		"ipa": "/rɪˈzɪliənt/",
+		"cefrLevel": "B2",
+		"frequency": 6000,
+		"isCommon": false,
+		"wordForms": [{ "form": "resilience", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Able to withstand or recover quickly from difficult conditions",
+				"viDef": "kiên cường, đàn hồi",
+				"synonyms": ["tough", "strong", "flexible"],
+				"antonyms": ["vulnerable", "weak"],
+				"examples": [
+					{
+						"text": "The local economy is surprisingly resilient.",
+						"viText": "Nền kinh tế địa phương kiên cường một cách đáng ngạc nhiên."
+					},
+					{
+						"text": "He is a resilient person who never gives up.",
+						"viText": "Anh ấy là một người kiên cường, người không bao giờ bỏ cuộc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "resilient system",
+						"meaning": "A structure that can survive failures",
+						"viMeaning": "hệ thống kiên cường",
+						"example": "The city needs a more resilient power grid.",
+						"viExample": "Thành phố cần một mạng lưới điện kiên cường hơn."
+					},
+					{
+						"phrase": "highly resilient",
+						"meaning": "Very capable of bouncing back from trouble",
+						"viMeaning": "rất kiên cường",
+						"example": "Children are often highly resilient in new environments.",
+						"viExample": "Trẻ em thường rất kiên cường trong các môi trường mới."
+					}
+				]
+			}
+		]
+	}
+]

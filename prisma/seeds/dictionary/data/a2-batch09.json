@@ -1,0 +1,855 @@
+[
+	{
+		"headword": "recently",
+		"pos": "adverb",
+		"ipa": "/ˈriːsntli/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [{ "form": "recent", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Not long ago; in the past few days or weeks",
+				"viDef": "gần đây",
+				"synonyms": ["lately", "afresh"],
+				"antonyms": ["long ago"],
+				"examples": [
+					{
+						"text": "I have recently started learning how to play the guitar.",
+						"viText": "Gần đây tôi đã bắt đầu học cách chơi đàn ghi-ta."
+					},
+					{
+						"text": "Have you seen any good movies recently?",
+						"viText": "Gần đây bạn có xem bộ phim nào hay không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "until recently",
+						"meaning": "Up to a time in the near past",
+						"viMeaning": "cho đến gần đây",
+						"example": "Until recently, I didn't know he was famous.",
+						"viExample": "Cho đến gần đây, tôi không biết anh ấy nổi tiếng."
+					},
+					{
+						"phrase": "more recently",
+						"meaning": "At a time even closer to the present",
+						"viMeaning": "gần đây hơn",
+						"example": "More recently, the company has focused on green energy.",
+						"viExample": "Gần đây hơn, công ty đã tập trung vào năng lượng sạch."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "already",
+		"pos": "adverb",
+		"ipa": "/ɔːlˈredi/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Before the present time or earlier than expected",
+				"viDef": "đã... rồi",
+				"synonyms": ["previously", "beforehand"],
+				"antonyms": ["yet"],
+				"examples": [
+					{ "text": "I have already finished my homework.", "viText": "Tôi đã làm xong bài tập về nhà rồi." },
+					{ "text": "Is it 10 o'clock already?", "viText": "Đã 10 giờ rồi sao?" }
+				],
+				"collocations": [
+					{
+						"phrase": "already exist",
+						"meaning": "To be present before a certain time",
+						"viMeaning": "đã tồn tại",
+						"example": "The problem already existed before I arrived.",
+						"viExample": "Vấn đề đã tồn tại từ trước khi tôi đến."
+					},
+					{
+						"phrase": "know already",
+						"meaning": "To have the information before being told",
+						"viMeaning": "đã biết rồi",
+						"example": "I know already, you don't need to tell me.",
+						"viExample": "Tôi biết rồi, bạn không cần phải nói với tôi đâu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "still",
+		"pos": "adverb",
+		"ipa": "/stɪl/",
+		"cefrLevel": "A2",
+		"frequency": 1020,
+		"isCommon": true,
+		"wordForms": [{ "form": "stillness", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Continuing to happen or exist until now",
+				"viDef": "vẫn, vẫn còn",
+				"synonyms": ["even now", "yet"],
+				"antonyms": ["no longer"],
+				"examples": [
+					{ "text": "It is still raining outside.", "viText": "Ngoài trời vẫn còn đang mưa." },
+					{ "text": "I still live in the same house.", "viText": "Tôi vẫn sống trong cùng một ngôi nhà." }
+				],
+				"collocations": [
+					{
+						"phrase": "still waiting",
+						"meaning": "Continuing to wait for something",
+						"viMeaning": "vẫn đang chờ",
+						"example": "I am still waiting for his reply.",
+						"viExample": "Tôi vẫn đang chờ câu trả lời của anh ấy."
+					},
+					{
+						"phrase": "better still",
+						"meaning": "Used to suggest an even better alternative",
+						"viMeaning": "còn tốt hơn nữa",
+						"example": "You can call him, or better still, go see him.",
+						"viExample": "Bạn có thể gọi cho anh ấy, hoặc tốt hơn nữa là đến gặp anh ấy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "usually",
+		"pos": "adverb",
+		"ipa": "/ˈjuːʒuəli/",
+		"cefrLevel": "A2",
+		"frequency": 1080,
+		"isCommon": true,
+		"wordForms": [{ "form": "usual", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "In the way that most often happens",
+				"viDef": "thường xuyên, luôn luôn",
+				"synonyms": ["normally", "typically"],
+				"antonyms": ["rarely", "unusually"],
+				"examples": [
+					{ "text": "I usually get up at 6 AM.", "viText": "Tôi thường thức dậy lúc 6 giờ sáng." },
+					{ "text": "She usually walks to school.", "viText": "Cô ấy thường đi bộ đến trường." }
+				],
+				"collocations": [
+					{
+						"phrase": "as usually",
+						"meaning": "In the way that is normal for someone",
+						"viMeaning": "như thường lệ",
+						"example": "He was late, as usually.",
+						"viExample": "Anh ấy đã đến muộn, như thường lệ."
+					},
+					{
+						"phrase": "usually happen",
+						"meaning": "To occur in most cases",
+						"viMeaning": "thường xảy ra",
+						"example": "This usually happens when the weather is cold.",
+						"viExample": "Điều này thường xảy ra khi thời tiết lạnh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "finally",
+		"pos": "adverb",
+		"ipa": "/ˈfaɪnəli/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "final", "pos": "adjective" },
+			{ "form": "finalize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "After a long time or at the end",
+				"viDef": "cuối cùng",
+				"synonyms": ["at last", "eventually"],
+				"antonyms": ["firstly"],
+				"examples": [
+					{
+						"text": "The bus finally arrived after an hour.",
+						"viText": "Chiếc xe buýt cuối cùng cũng đến sau một giờ."
+					},
+					{
+						"text": "Finally, I would like to thank my parents.",
+						"viText": "Cuối cùng, tôi muốn cảm ơn bố mẹ tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "finally decide",
+						"meaning": "To reach a decision after much thought",
+						"viMeaning": "cuối cùng quyết định",
+						"example": "We finally decided to move to Hanoi.",
+						"viExample": "Cuối cùng chúng tôi đã quyết định chuyển đến Hà Nội."
+					},
+					{
+						"phrase": "finally finish",
+						"meaning": "To complete something after much effort",
+						"viMeaning": "cuối cùng đã xong",
+						"example": "I finally finished my project last night.",
+						"viExample": "Cuối cùng tôi đã hoàn thành dự án vào tối qua."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "together",
+		"pos": "adverb",
+		"ipa": "/təˈɡeðə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1010,
+		"isCommon": true,
+		"wordForms": [{ "form": "togetherness", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "With each other or in one group",
+				"viDef": "cùng nhau",
+				"synonyms": ["jointly", "collectively"],
+				"antonyms": ["separately", "alone"],
+				"examples": [
+					{ "text": "We went to the cinema together.", "viText": "Chúng tôi đã cùng nhau đi xem phim." },
+					{
+						"text": "Let's work together to finish this.",
+						"viText": "Hãy cùng nhau làm việc để hoàn thành việc này."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "get together",
+						"meaning": "To meet socially",
+						"viMeaning": "tụ họp",
+						"example": "We should get together for coffee sometime.",
+						"viExample": "Lúc nào đó chúng ta nên tụ họp đi uống cà phê."
+					},
+					{
+						"phrase": "live together",
+						"meaning": "To share a home with someone",
+						"viMeaning": "sống cùng nhau",
+						"example": "They have lived together for three years.",
+						"viExample": "Họ đã sống cùng nhau được ba năm rồi."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "probably",
+		"pos": "adverb",
+		"ipa": "/ˈprɒbəbli/",
+		"cefrLevel": "A2",
+		"frequency": 1120,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "probable", "pos": "adjective" },
+			{ "form": "probability", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Used to say that something is likely to happen",
+				"viDef": "có lẽ, có khả năng",
+				"synonyms": ["likely", "perhaps"],
+				"antonyms": ["improbably"],
+				"examples": [
+					{
+						"text": "I'll probably be late for dinner tonight.",
+						"viText": "Có lẽ tối nay tôi sẽ đi ăn tối muộn."
+					},
+					{ "text": "It will probably rain this afternoon.", "viText": "Có khả năng chiều nay trời sẽ mưa." }
+				],
+				"collocations": [
+					{
+						"phrase": "most probably",
+						"meaning": "Very likely",
+						"viMeaning": "rất có khả năng",
+						"example": "The meeting will most probably be canceled.",
+						"viExample": "Cuộc họp rất có khả năng sẽ bị hủy."
+					},
+					{
+						"phrase": "probably not",
+						"meaning": "Used to say something is unlikely",
+						"viMeaning": "có lẽ là không",
+						"example": "Will you go? Probably not.",
+						"viExample": "Bạn sẽ đi chứ? Có lẽ là không."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "quite",
+		"pos": "adverb",
+		"ipa": "/kwaɪt/",
+		"cefrLevel": "A2",
+		"frequency": 1040,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To a certain degree; rather",
+				"viDef": "khá",
+				"synonyms": ["fairly", "pretty", "rather"],
+				"antonyms": [],
+				"examples": [
+					{ "text": "The test was quite difficult.", "viText": "Bài kiểm tra khá là khó." },
+					{ "text": "I'm quite tired after work.", "viText": "Tôi khá mệt sau khi đi làm về." }
+				],
+				"collocations": [
+					{
+						"phrase": "quite a lot",
+						"meaning": "A large amount or number",
+						"viMeaning": "khá nhiều",
+						"example": "I have quite a lot of work to do.",
+						"viExample": "Tôi có khá nhiều việc phải làm."
+					},
+					{
+						"phrase": "quite well",
+						"meaning": "To a good level",
+						"viMeaning": "khá tốt",
+						"example": "He speaks English quite well.",
+						"viExample": "Anh ấy nói tiếng Anh khá tốt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ago",
+		"pos": "adverb",
+		"ipa": "/əˈɡəʊ/",
+		"cefrLevel": "A2",
+		"frequency": 1015,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Back in time from the present",
+				"viDef": "cách đây",
+				"synonyms": ["before", "previously"],
+				"antonyms": ["hence", "later"],
+				"examples": [
+					{ "text": "I met him two years ago.", "viText": "Tôi đã gặp anh ấy cách đây hai năm." },
+					{ "text": "The plane landed ten minutes ago.", "viText": "Máy bay đã hạ cánh cách đây mười phút." }
+				],
+				"collocations": [
+					{
+						"phrase": "long ago",
+						"meaning": "In the distant past",
+						"viMeaning": "cách đây rất lâu",
+						"example": "This castle was built long ago.",
+						"viExample": "Lâu đài này được xây dựng từ cách đây rất lâu."
+					},
+					{
+						"phrase": "short time ago",
+						"meaning": "Not long before the present",
+						"viMeaning": "cách đây không lâu",
+						"example": "He left just a short time ago.",
+						"viExample": "Anh ấy vừa mới rời đi cách đây không lâu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "study",
+		"pos": "verb",
+		"ipa": "/ˈstʌdi/",
+		"cefrLevel": "A2",
+		"frequency": 1120,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "student", "pos": "noun" },
+			{ "form": "studious", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To spend time learning about a subject",
+				"viDef": "học, nghiên cứu",
+				"synonyms": ["learn", "research"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She is studying hard for her final exams.",
+						"viText": "Cô ấy đang học hành chăm chỉ cho kỳ thi cuối kỳ."
+					},
+					{ "text": "I want to study law at university.", "viText": "Tôi muốn học luật tại trường đại học." }
+				],
+				"collocations": [
+					{
+						"phrase": "study abroad",
+						"meaning": "To go to another country to learn",
+						"viMeaning": "du học",
+						"example": "He wants to study abroad in Australia.",
+						"viExample": "Anh ấy muốn đi du học ở Úc."
+					},
+					{
+						"phrase": "case study",
+						"meaning": "A detailed report about a person or situation",
+						"viMeaning": "nghiên cứu tình huống",
+						"example": "We analyzed a case study in business class.",
+						"viExample": "Chúng tôi đã phân tích một nghiên cứu tình huống trong lớp kinh doanh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "subject",
+		"pos": "noun",
+		"ipa": "/ˈsʌbdʒɪkt/",
+		"cefrLevel": "A2",
+		"frequency": 1300,
+		"isCommon": true,
+		"wordForms": [{ "form": "subjective", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An area of knowledge studied in school",
+				"viDef": "môn học, chủ đề",
+				"synonyms": ["topic", "field"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Math is my favorite subject at school.",
+						"viText": "Toán là môn học yêu thích của tôi ở trường."
+					},
+					{ "text": "What subject are you studying today?", "viText": "Hôm nay bạn đang học môn gì vậy?" }
+				],
+				"collocations": [
+					{
+						"phrase": "core subject",
+						"meaning": "An important subject that all students must study",
+						"viMeaning": "môn học chính",
+						"example": "English is a core subject in our curriculum.",
+						"viExample": "Tiếng Anh là một môn học chính trong chương trình học của chúng tôi."
+					},
+					{
+						"phrase": "change the subject",
+						"meaning": "To start talking about something different",
+						"viMeaning": "thay đổi chủ đề",
+						"example": "I didn't want to talk about money, so I changed the subject.",
+						"viExample": "Tôi không muốn nói về tiền bạc, nên tôi đã thay đổi chủ đề."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "university",
+		"pos": "noun",
+		"ipa": "/ˌjuːnɪˈvɜːsəti/",
+		"cefrLevel": "A2",
+		"frequency": 1250,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A place where people study for a degree",
+				"viDef": "trường đại học",
+				"synonyms": ["college", "academy"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He is a student at Ho Chi Minh City University.",
+						"viText": "Anh ấy là sinh viên trường Đại học Thành phố Hồ Chí Minh."
+					},
+					{
+						"text": "She graduated from university last year.",
+						"viText": "Cô ấy đã tốt nghiệp đại học vào năm ngoái."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "university degree",
+						"meaning": "A qualification given by a university",
+						"viMeaning": "bằng đại học",
+						"example": "You need a university degree to get this job.",
+						"viExample": "Bạn cần có bằng đại học để có được công việc này."
+					},
+					{
+						"phrase": "go to university",
+						"meaning": "To be a student at a university",
+						"viMeaning": "đi học đại học",
+						"example": "Most of my friends are going to university.",
+						"viExample": "Hầu hết bạn bè của tôi đều đi học đại học."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "grade",
+		"pos": "noun",
+		"ipa": "/ɡreɪd/",
+		"cefrLevel": "A2",
+		"frequency": 1450,
+		"isCommon": true,
+		"wordForms": [{ "form": "grader", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A mark given for school work or an exam",
+				"viDef": "điểm số, lớp (học)",
+				"synonyms": ["mark", "score", "level"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "He got a high grade in the English test.",
+						"viText": "Anh ấy đạt điểm cao trong bài kiểm tra tiếng Anh."
+					},
+					{ "text": "My sister is in the fifth grade.", "viText": "Em gái tôi đang học lớp năm." }
+				],
+				"collocations": [
+					{
+						"phrase": "get a good grade",
+						"meaning": "To receive a high mark",
+						"viMeaning": "đạt điểm tốt",
+						"example": "I worked hard to get a good grade.",
+						"viExample": "Tôi đã nỗ lực để đạt được điểm tốt."
+					},
+					{
+						"phrase": "passing grade",
+						"meaning": "The minimum mark needed to pass",
+						"viMeaning": "điểm đỗ",
+						"example": "Do you know what the passing grade is?",
+						"viExample": "Bạn có biết điểm đỗ là bao nhiêu không?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "exam",
+		"pos": "noun",
+		"ipa": "/ɪɡˈzæm/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "examine", "pos": "verb" },
+			{ "form": "examiner", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A formal test of knowledge or ability",
+				"viDef": "kỳ thi, bài kiểm tra",
+				"synonyms": ["test", "assessment"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I have an important English exam tomorrow.",
+						"viText": "Ngày mai tôi có một kỳ thi tiếng Anh quan trọng."
+					},
+					{
+						"text": "She passed the exam with flying colors.",
+						"viText": "Cô ấy đã vượt qua kỳ thi với kết quả rực rỡ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "take an exam",
+						"meaning": "To do a formal test",
+						"viMeaning": "đi thi",
+						"example": "I'm nervous about taking the entrance exam.",
+						"viExample": "Tôi lo lắng về việc đi thi đầu vào."
+					},
+					{
+						"phrase": "final exam",
+						"meaning": "An exam at the end of a course",
+						"viMeaning": "thi cuối kỳ",
+						"example": "We have three final exams next week.",
+						"viExample": "Tuần tới chúng tôi có ba môn thi cuối kỳ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "certificate",
+		"pos": "noun",
+		"ipa": "/səˈtɪfɪkət/",
+		"cefrLevel": "A2",
+		"frequency": 2400,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "certify", "pos": "verb" },
+			{ "form": "certified", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An official document proving a fact or qualification",
+				"viDef": "chứng chỉ, giấy chứng nhận",
+				"synonyms": ["document", "diploma"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "You will receive a certificate after finishing the course.",
+						"viText": "Bạn sẽ nhận được chứng chỉ sau khi hoàn thành khóa học."
+					},
+					{
+						"text": "He showed me his birth certificate.",
+						"viText": "Anh ấy đã cho tôi xem giấy khai sinh của anh ấy."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "birth certificate",
+						"meaning": "A document showing when and where someone was born",
+						"viMeaning": "giấy khai sinh",
+						"example": "You need a copy of your birth certificate.",
+						"viExample": "Bạn cần một bản sao giấy khai sinh."
+					},
+					{
+						"phrase": "marriage certificate",
+						"meaning": "A document proving two people are married",
+						"viMeaning": "giấy chứng nhận kết hôn",
+						"example": "They lost their marriage certificate in the move.",
+						"viExample": "Họ đã làm mất giấy chứng nhận kết hôn khi chuyển nhà."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "skill",
+		"pos": "noun",
+		"ipa": "/skɪl/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "skillful", "pos": "adjective" },
+			{ "form": "skilled", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The ability to do something well",
+				"viDef": "kỹ năng",
+				"synonyms": ["ability", "talent", "expertise"],
+				"antonyms": ["incompetence"],
+				"examples": [
+					{
+						"text": "Reading is an important skill for students.",
+						"viText": "Đọc là một kỹ năng quan trọng đối với sinh viên."
+					},
+					{ "text": "He has great communication skills.", "viText": "Anh ấy có kỹ năng giao tiếp tuyệt vời." }
+				],
+				"collocations": [
+					{
+						"phrase": "computer skills",
+						"meaning": "Ability to use a computer well",
+						"viMeaning": "kỹ năng máy tính",
+						"example": "This job requires basic computer skills.",
+						"viExample": "Công việc này yêu cầu kỹ năng máy tính cơ bản."
+					},
+					{
+						"phrase": "language skills",
+						"meaning": "Ability to speak and write a language",
+						"viMeaning": "kỹ năng ngôn ngữ",
+						"example": "She wants to improve her English language skills.",
+						"viExample": "Cô ấy muốn cải thiện kỹ năng ngôn ngữ tiếng Anh của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "knowledge",
+		"pos": "noun",
+		"ipa": "/ˈnɒlɪdʒ/",
+		"cefrLevel": "A2",
+		"frequency": 1200,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "know", "pos": "verb" },
+			{ "form": "knowledgeable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Information and understanding that you have in your mind",
+				"viDef": "kiến thức",
+				"synonyms": ["information", "understanding"],
+				"antonyms": ["ignorance"],
+				"examples": [
+					{ "text": "She has a good knowledge of history.", "viText": "Cô ấy có kiến thức tốt về lịch sử." },
+					{
+						"text": "Books are a great source of knowledge.",
+						"viText": "Sách là một nguồn kiến thức tuyệt vời."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "basic knowledge",
+						"meaning": "Understanding the most important facts of something",
+						"viMeaning": "kiến thức cơ bản",
+						"example": "Do you have a basic knowledge of first aid?",
+						"viExample": "Bạn có kiến thức cơ bản về sơ cứu không?"
+					},
+					{
+						"phrase": "scientific knowledge",
+						"meaning": "Understanding based on science",
+						"viMeaning": "kiến thức khoa học",
+						"example": "Modern technology is based on scientific knowledge.",
+						"viExample": "Công nghệ hiện đại dựa trên kiến thức khoa học."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "experience",
+		"pos": "noun",
+		"ipa": "/ɪkˈspɪəriəns/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "experience", "pos": "verb" },
+			{ "form": "experienced", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Knowledge or skill gained by doing something",
+				"viDef": "kinh nghiệm, trải nghiệm",
+				"synonyms": ["expertise", "background"],
+				"antonyms": ["inexperience"],
+				"examples": [
+					{
+						"text": "She has many years of experience in teaching.",
+						"viText": "Cô ấy có nhiều năm kinh nghiệm trong ngành dạy học."
+					},
+					{
+						"text": "Travel is a wonderful life experience.",
+						"viText": "Du lịch là một trải nghiệm cuộc sống tuyệt vời."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "work experience",
+						"meaning": "Time spent working to learn about a job",
+						"viMeaning": "kinh nghiệm làm việc",
+						"example": "He's looking for some work experience in a bank.",
+						"viExample": "Anh ấy đang tìm kiếm kinh nghiệm làm việc trong một ngân hàng."
+					},
+					{
+						"phrase": "past experience",
+						"meaning": "Something that happened to you before",
+						"viMeaning": "kinh nghiệm trong quá khứ",
+						"example": "Based on past experience, we should leave early.",
+						"viExample": "Dựa trên kinh nghiệm trong quá khứ, chúng ta nên đi sớm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "abroad",
+		"pos": "adverb",
+		"ipa": "/əˈbrɔːd/",
+		"cefrLevel": "A2",
+		"frequency": 2200,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "In or to a foreign country",
+				"viDef": "ở nước ngoài",
+				"synonyms": ["overseas"],
+				"antonyms": ["at home"],
+				"examples": [
+					{
+						"text": "She wants to go abroad to study English.",
+						"viText": "Cô ấy muốn đi ra nước ngoài để học tiếng Anh."
+					},
+					{ "text": "Have you ever traveled abroad?", "viText": "Bạn đã bao giờ đi du lịch nước ngoài chưa?" }
+				],
+				"collocations": [
+					{
+						"phrase": "study abroad",
+						"meaning": "To go to another country for education",
+						"viMeaning": "du học",
+						"example": "Many students study abroad to experience new cultures.",
+						"viExample": "Nhiều sinh viên đi du học để trải nghiệm những nền văn hóa mới."
+					},
+					{
+						"phrase": "live abroad",
+						"meaning": "To have your home in a different country",
+						"viMeaning": "sống ở nước ngoài",
+						"example": "He has lived abroad for most of his life.",
+						"viExample": "Anh ấy đã sống ở nước ngoài trong phần lớn cuộc đời mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "culture",
+		"pos": "noun",
+		"ipa": "/ˈkʌltʃə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1400,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "cultural", "pos": "adjective" },
+			{ "form": "culturally", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The habits, traditions, and beliefs of a group",
+				"viDef": "văn hóa",
+				"synonyms": ["customs", "heritage"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "I enjoy learning about different cultures.",
+						"viText": "Tôi thích tìm hiểu về các nền văn hóa khác nhau."
+					},
+					{
+						"text": "Food is an important part of Vietnamese culture.",
+						"viText": "Ẩm thực là một phần quan trọng của văn hóa Việt Nam."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "popular culture",
+						"meaning": "Music, films, etc. that are liked by many people",
+						"viMeaning": "văn hóa đại chúng",
+						"example": "K-pop is a big part of modern popular culture.",
+						"viExample": "K-pop là một phần lớn của văn hóa đại chúng hiện đại."
+					},
+					{
+						"phrase": "cultural differences",
+						"meaning": "Ways in which two groups of people are not the same",
+						"viMeaning": "sự khác biệt văn hóa",
+						"example": "It is important to respect cultural differences.",
+						"viExample": "Việc tôn trọng sự khác biệt văn hóa là rất quan trọng."
+					}
+				]
+			}
+		]
+	}
+]

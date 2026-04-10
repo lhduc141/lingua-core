@@ -1,0 +1,928 @@
+[
+	{
+		"headword": "rationalize",
+		"pos": "verb",
+		"ipa": "/ˈræʃnəlaɪz/",
+		"cefrLevel": "B2",
+		"frequency": 6800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "rationalization", "pos": "noun" },
+			{ "form": "rational", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Attempt to explain or justify behavior with logical reasons",
+				"viDef": "hợp lý hóa",
+				"synonyms": ["justify", "explain", "account for"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She tried to rationalize her decision to quit the job.",
+						"viText": "Cô ấy cố gắng hợp lý hóa quyết định nghỉ việc của mình."
+					},
+					{
+						"text": "He rationalized his failure by blaming his teammates.",
+						"viText": "Anh ấy hợp lý hóa thất bại của mình bằng cách đổ lỗi cho đồng đội."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "rationalize behavior",
+						"meaning": "To find a logical reason for how one acts",
+						"viMeaning": "hợp lý hóa hành vi",
+						"example": "It is easy to rationalize bad behavior when you are stressed.",
+						"viExample": "Thật dễ dàng để hợp lý hóa hành vi xấu khi bạn bị căng thẳng."
+					},
+					{
+						"phrase": "rationalize the process",
+						"meaning": "To make a system more logical or efficient",
+						"viMeaning": "tối ưu hóa quy trình",
+						"example": "The company needs to rationalize its production process.",
+						"viExample": "Công ty cần hợp lý hóa quy trình sản xuất của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "stimulate",
+		"pos": "verb",
+		"ipa": "/ˈstɪmjuleɪt/",
+		"cefrLevel": "B2",
+		"frequency": 5400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "stimulation", "pos": "noun" },
+			{ "form": "stimulant", "pos": "noun" },
+			{ "form": "stimulating", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To encourage interest or activity in something",
+				"viDef": "kích thích, khuyến khích",
+				"synonyms": ["encourage", "inspire", "prompt"],
+				"antonyms": ["discourage", "stifle"],
+				"examples": [
+					{
+						"text": "The government lowered interest rates to stimulate the economy.",
+						"viText": "Chính phủ đã hạ lãi suất để kích thích nền kinh tế."
+					},
+					{
+						"text": "Good teachers know how to stimulate their students' interest.",
+						"viText": "Những giáo viên giỏi biết cách kích thích sự hứng thú của học sinh."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "stimulate growth",
+						"meaning": "To cause something to develop or increase",
+						"viMeaning": "kích thích tăng trưởng",
+						"example": "New investments will stimulate economic growth.",
+						"viExample": "Các khoản đầu tư mới sẽ kích thích tăng trưởng kinh tế."
+					},
+					{
+						"phrase": "stimulate discussion",
+						"meaning": "To make people start talking about a topic",
+						"viMeaning": "khơi dậy thảo luận",
+						"example": "The lecture was intended to stimulate discussion among students.",
+						"viExample": "Bài giảng nhằm mục đích khơi dậy sự thảo luận giữa các sinh viên."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "substitute",
+		"pos": "verb",
+		"ipa": "/ˈsʌbstɪtjuːt/",
+		"cefrLevel": "B2",
+		"frequency": 5900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "substitution", "pos": "noun" },
+			{ "form": "substitute", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To use something or someone instead of another",
+				"viDef": "thay thế",
+				"synonyms": ["replace", "exchange", "swap"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "You can substitute honey for sugar in this recipe.",
+						"viText": "Bạn có thể dùng mật ong thay thế cho đường trong công thức này."
+					},
+					{
+						"text": "The coach decided to substitute the tired player.",
+						"viText": "Huấn luyện viên đã quyết định thay thế cầu thủ đang mệt."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "substitute A for B",
+						"meaning": "Use A instead of B",
+						"viMeaning": "dùng A thay thế cho B",
+						"example": "They substituted margarine for butter to save money.",
+						"viExample": "Họ dùng bơ thực vật thay cho bơ thường để tiết kiệm tiền."
+					},
+					{
+						"phrase": "direct substitute",
+						"meaning": "A near-identical replacement",
+						"viMeaning": "vật thay thế trực tiếp",
+						"example": "There is no direct substitute for experience.",
+						"viExample": "Không có gì có thể thay thế trực tiếp cho kinh nghiệm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "transform",
+		"pos": "verb",
+		"ipa": "/trænsˈfɔːm/",
+		"cefrLevel": "B2",
+		"frequency": 5100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "transformation", "pos": "noun" },
+			{ "form": "transformative", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To make a thorough or dramatic change in form",
+				"viDef": "biến đổi, thay đổi hoàn toàn",
+				"synonyms": ["convert", "alter", "reshape"],
+				"antonyms": ["preserve", "maintain"],
+				"examples": [
+					{
+						"text": "The old warehouse was transformed into a luxury hotel.",
+						"viText": "Nhà kho cũ đã được biến đổi thành một khách sạn sang trọng."
+					},
+					{
+						"text": "The internet has transformed the way we communicate.",
+						"viText": "Internet đã thay đổi hoàn toàn cách chúng ta giao tiếp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "completely transform",
+						"meaning": "To change something in its entirety",
+						"viMeaning": "biến đổi hoàn toàn",
+						"example": "The new manager completely transformed the company culture.",
+						"viExample": "Người quản lý mới đã biến đổi hoàn toàn văn hóa công ty."
+					},
+					{
+						"phrase": "transform lives",
+						"meaning": "To significantly improve how people live",
+						"viMeaning": "thay đổi cuộc đời",
+						"example": "Access to clean water can transform lives in rural areas.",
+						"viExample": "Tiếp cận nước sạch có thể thay đổi cuộc sống ở vùng nông thôn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "abstract",
+		"pos": "adjective",
+		"ipa": "/ˈæbstrækt/",
+		"cefrLevel": "B2",
+		"frequency": 6200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "abstraction", "pos": "noun" },
+			{ "form": "abstractly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Existing in thought but not having physical existence",
+				"viDef": "trừu tượng",
+				"synonyms": ["theoretical", "conceptual"],
+				"antonyms": ["concrete", "actual"],
+				"examples": [
+					{
+						"text": "Truth and beauty are abstract concepts.",
+						"viText": "Sự thật và vẻ đẹp là những khái niệm trừu tượng."
+					},
+					{
+						"text": "The artist's style is quite abstract and difficult to interpret.",
+						"viText": "Phong cách của họa sĩ khá trừu tượng và khó giải thích."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "abstract idea",
+						"meaning": "A thought that is not based on reality",
+						"viMeaning": "ý tưởng trừu tượng",
+						"example": "It is hard to explain such an abstract idea to children.",
+						"viExample": "Thật khó để giải thích một ý tưởng trừu tượng như vậy cho trẻ em."
+					},
+					{
+						"phrase": "highly abstract",
+						"meaning": "Very theoretical and far from practical reality",
+						"viMeaning": "cực kỳ trừu tượng",
+						"example": "The mathematical formula was highly abstract.",
+						"viExample": "Công thức toán học đó cực kỳ trừu tượng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "coherent",
+		"pos": "adjective",
+		"ipa": "/kəʊˈhɪərənt/",
+		"cefrLevel": "B2",
+		"frequency": 6500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "coherence", "pos": "noun" },
+			{ "form": "coherently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Logical and consistent; easy to understand",
+				"viDef": "mạch lạc, chặt chẽ",
+				"synonyms": ["logical", "reasoned", "clear"],
+				"antonyms": ["incoherent", "confused"],
+				"examples": [
+					{
+						"text": "She was able to give a coherent account of the accident.",
+						"viText": "Cô ấy đã có thể kể lại một cách mạch lạc về vụ tai nạn."
+					},
+					{
+						"text": "The government lacks a coherent policy on energy.",
+						"viText": "Chính phủ thiếu một chính sách nhất quán về năng lượng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "coherent argument",
+						"meaning": "A set of reasons that make sense together",
+						"viMeaning": "lập luận mạch lạc",
+						"example": "He failed to present a coherent argument for his theory.",
+						"viExample": "Anh ta đã thất bại trong việc đưa ra một lập luận mạch lạc cho lý thuyết của mình."
+					},
+					{
+						"phrase": "perfectly coherent",
+						"meaning": "Entirely logical and understandable",
+						"viMeaning": "hoàn toàn mạch lạc",
+						"example": "Even after the surgery, his speech was perfectly coherent.",
+						"viExample": "Ngay cả sau ca phẫu thuật, lời nói của anh ấy vẫn hoàn toàn mạch lạc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "compelling",
+		"pos": "adjective",
+		"ipa": "/kəmˈpelɪŋ/",
+		"cefrLevel": "B2",
+		"frequency": 6100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "compel", "pos": "verb" },
+			{ "form": "compellingly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Evoking interest, attention, or admiration in a powerful way",
+				"viDef": "hấp dẫn, thuyết phục",
+				"synonyms": ["persuasive", "convincing", "gripping"],
+				"antonyms": ["weak", "unconvincing"],
+				"examples": [
+					{
+						"text": "The lawyer presented a compelling case for her client.",
+						"viText": "Luật sư đã trình bày một lập luận thuyết phục cho thân chủ của mình."
+					},
+					{
+						"text": "The novel was so compelling that I couldn't put it down.",
+						"viText": "Cuốn tiểu thuyết hấp dẫn đến mức tôi không thể đặt nó xuống."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "compelling evidence",
+						"meaning": "Proof that is very strong and convincing",
+						"viMeaning": "bằng chứng thuyết phục",
+						"example": "There is compelling evidence that the climate is changing.",
+						"viExample": "Có bằng chứng thuyết phục cho thấy khí hậu đang thay đổi."
+					},
+					{
+						"phrase": "compelling reason",
+						"meaning": "A very strong motive for doing something",
+						"viMeaning": "lý do chính đáng/thuyết phục",
+						"example": "She had no compelling reason to stay in the city.",
+						"viExample": "Cô ấy không có lý do thuyết phục nào để ở lại thành phố."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "concise",
+		"pos": "adjective",
+		"ipa": "/kənˈsaɪs/",
+		"cefrLevel": "B2",
+		"frequency": 6900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "conciseness", "pos": "noun" },
+			{ "form": "concisely", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Giving a lot of information clearly and in few words",
+				"viDef": "ngắn gọn, súc tích",
+				"synonyms": ["brief", "succinct", "pithy"],
+				"antonyms": ["wordy", "verbose"],
+				"examples": [
+					{
+						"text": "Make your answers as concise as possible.",
+						"viText": "Hãy đưa ra câu trả lời ngắn gọn nhất có thể."
+					},
+					{
+						"text": "The report provided a concise summary of the main points.",
+						"viText": "Bản báo cáo đã cung cấp một bản tóm tắt súc tích các điểm chính."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "clear and concise",
+						"meaning": "Both easy to understand and brief",
+						"viMeaning": "rõ ràng và súc tích",
+						"example": "The instructions were clear and concise.",
+						"viExample": "Các hướng dẫn rất rõ ràng và súc tích."
+					},
+					{
+						"phrase": "concise style",
+						"meaning": "A way of writing that uses few words",
+						"viMeaning": "phong cách súc tích",
+						"example": "His concise style makes his books very readable.",
+						"viExample": "Phong cách súc tích giúp sách của ông ấy rất dễ đọc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "explicit",
+		"pos": "adjective",
+		"ipa": "/ɪkˈsplɪsɪt/",
+		"cefrLevel": "B2",
+		"frequency": 6300,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "explicity", "pos": "noun" },
+			{ "form": "explicitly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Stated clearly and in detail, leaving no room for doubt",
+				"viDef": "rõ ràng, dứt khoát",
+				"synonyms": ["clear", "direct", "plain"],
+				"antonyms": ["implicit", "vague"],
+				"examples": [
+					{
+						"text": "The teacher gave explicit instructions on how to finish the task.",
+						"viText": "Giáo viên đã đưa ra hướng dẫn rõ ràng về cách hoàn thành nhiệm vụ."
+					},
+					{
+						"text": "She was explicit about her reasons for leaving.",
+						"viText": "Cô ấy đã nói rõ ràng về lý do rời đi của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "explicit consent",
+						"meaning": "Clear and documented permission",
+						"viMeaning": "sự đồng ý rõ ràng",
+						"example": "You need the owner's explicit consent to use these photos.",
+						"viExample": "Bạn cần sự đồng ý rõ ràng của chủ sở hữu để sử dụng những bức ảnh này."
+					},
+					{
+						"phrase": "explicit details",
+						"meaning": "Very specific and clear information",
+						"viMeaning": "chi tiết rõ ràng",
+						"example": "The report provided explicit details about the incident.",
+						"viExample": "Bản báo cáo cung cấp các chi tiết rõ ràng về sự cố."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "implicit",
+		"pos": "adjective",
+		"ipa": "/ɪmˈplɪsɪt/",
+		"cefrLevel": "B2",
+		"frequency": 6700,
+		"isCommon": false,
+		"wordForms": [{ "form": "implicitly", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Suggested though not directly expressed",
+				"viDef": "ngầm hiểu, ẩn ý",
+				"synonyms": ["implied", "indirect", "hinted"],
+				"antonyms": ["explicit"],
+				"examples": [
+					{
+						"text": "There was an implicit threat in his voice.",
+						"viText": "Có một sự đe dọa ngầm trong giọng nói của anh ta."
+					},
+					{
+						"text": "The agreement was implicit rather than written down.",
+						"viText": "Thỏa thuận này mang tính ngầm định hơn là được viết ra."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "implicit trust",
+						"meaning": "Total belief in someone without needing proof",
+						"viMeaning": "tin tưởng tuyệt đối",
+						"example": "The children had implicit trust in their parents.",
+						"viExample": "Lũ trẻ tin tưởng tuyệt đối vào cha mẹ chúng."
+					},
+					{
+						"phrase": "implicit in",
+						"meaning": "Being a natural part of something",
+						"viMeaning": "ẩn chứa trong",
+						"example": "The risks are implicit in any new investment.",
+						"viExample": "Những rủi ro luôn ẩn chứa trong bất kỳ khoản đầu tư mới nào."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "objective",
+		"pos": "adjective",
+		"ipa": "/əbˈdʒektɪv/",
+		"cefrLevel": "B2",
+		"frequency": 5200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "objectivity", "pos": "noun" },
+			{ "form": "objectively", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Not influenced by personal feelings or opinions",
+				"viDef": "khách quan",
+				"synonyms": ["impartial", "unbiased", "fair"],
+				"antonyms": ["subjective", "biased"],
+				"examples": [
+					{
+						"text": "The judge must remain objective throughout the trial.",
+						"viText": "Thẩm phán phải giữ khách quan trong suốt phiên tòa."
+					},
+					{
+						"text": "We need an objective assessment of the situation.",
+						"viText": "Chúng ta cần một sự đánh giá khách quan về tình hình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "objective criteria",
+						"meaning": "Standards based on facts not opinions",
+						"viMeaning": "tiêu chí khách quan",
+						"example": "The candidates were chosen based on objective criteria.",
+						"viExample": "Các ứng viên được chọn dựa trên các tiêu chí khách quan."
+					},
+					{
+						"phrase": "purely objective",
+						"meaning": "Entirely focused on facts",
+						"viMeaning": "hoàn toàn khách quan",
+						"example": "Science aims to be purely objective.",
+						"viExample": "Khoa học hướng tới sự khách quan hoàn toàn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "plausible",
+		"pos": "adjective",
+		"ipa": "/ˈplɔːzəbl/",
+		"cefrLevel": "B2",
+		"frequency": 6600,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "plausibility", "pos": "noun" },
+			{ "form": "plausibly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Seeming reasonable or probable",
+				"viDef": "hợp lý, đáng tin",
+				"synonyms": ["believable", "likely", "feasible"],
+				"antonyms": ["implausible", "unlikely"],
+				"examples": [
+					{
+						"text": "His excuse for being late sounds plausible.",
+						"viText": "Lời xin lỗi cho việc đến muộn của anh ấy nghe có vẻ hợp lý."
+					},
+					{
+						"text": "Is there a plausible explanation for the disappearance?",
+						"viText": "Có một lời giải thích hợp lý nào cho sự biến mất không?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "plausible excuse",
+						"meaning": "A reason that people will likely believe",
+						"viMeaning": "lý do hợp lý",
+						"example": "She couldn't think of a plausible excuse for her absence.",
+						"viExample": "Cô ấy không thể nghĩ ra một lý do hợp lý cho sự vắng mặt của mình."
+					},
+					{
+						"phrase": "perfectly plausible",
+						"meaning": "Entirely reasonable to believe",
+						"viMeaning": "hoàn toàn hợp lý",
+						"example": "The theory is perfectly plausible given the current data.",
+						"viExample": "Lý thuyết này hoàn toàn hợp lý với dữ liệu hiện tại."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "reluctant",
+		"pos": "adjective",
+		"ipa": "/rɪˈlʌktənt/",
+		"cefrLevel": "B2",
+		"frequency": 5500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "reluctance", "pos": "noun" },
+			{ "form": "reluctantly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Unwilling and hesitant; disinclined",
+				"viDef": "miễn cưỡng, bất đắc dĩ",
+				"synonyms": ["unwilling", "hesitant", "resistant"],
+				"antonyms": ["eager", "willing"],
+				"examples": [
+					{
+						"text": "Many parents are reluctant to let their children go out alone.",
+						"viText": "Nhiều bậc cha mẹ miễn cưỡng để con cái ra ngoài một mình."
+					},
+					{
+						"text": "She was reluctant to admit she was wrong.",
+						"viText": "Cô ấy đã miễn cưỡng thừa nhận mình sai."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "reluctant to",
+						"meaning": "Not wanting to do something",
+						"viMeaning": "ngại làm gì",
+						"example": "The government is reluctant to raise taxes.",
+						"viExample": "Chính phủ ngại việc tăng thuế."
+					},
+					{
+						"phrase": "reluctant agreement",
+						"meaning": "Saying yes without really wanting to",
+						"viMeaning": "sự đồng ý miễn cưỡng",
+						"example": "They reached a reluctant agreement after hours of talk.",
+						"viExample": "Họ đã đạt được một sự đồng ý miễn cưỡng sau nhiều giờ nói chuyện."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "systematic",
+		"pos": "adjective",
+		"ipa": "/ˌsɪstəˈmætɪk/",
+		"cefrLevel": "B2",
+		"frequency": 5800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "system", "pos": "noun" },
+			{ "form": "systematically", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Done or acting according to a fixed plan or system",
+				"viDef": "có hệ thống, bài bản",
+				"synonyms": ["methodical", "organized", "ordered"],
+				"antonyms": ["disordered", "random"],
+				"examples": [
+					{
+						"text": "We need a systematic approach to solve this problem.",
+						"viText": "Chúng ta cần một phương pháp tiếp cận có hệ thống để giải quyết vấn đề này."
+					},
+					{
+						"text": "The police conducted a systematic search of the building.",
+						"viText": "Cảnh sát đã tiến hành một cuộc khám xét có hệ thống tòa nhà."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "systematic approach",
+						"meaning": "A planned way of doing something",
+						"viMeaning": "cách tiếp cận có hệ thống",
+						"example": "A systematic approach ensures nothing is missed.",
+						"viExample": "Một cách tiếp cận có hệ thống đảm bảo không bỏ sót điều gì."
+					},
+					{
+						"phrase": "highly systematic",
+						"meaning": "Extremely well-organized",
+						"viMeaning": "rất bài bản",
+						"example": "She is highly systematic in her research methods.",
+						"viExample": "Cô ấy rất bài bản trong các phương pháp nghiên cứu của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "transparent",
+		"pos": "adjective",
+		"ipa": "/trænsˈpærənt/",
+		"cefrLevel": "B2",
+		"frequency": 6000,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "transparency", "pos": "noun" },
+			{ "form": "transparently", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Allowing light to pass through; easy to perceive",
+				"viDef": "trong suốt, minh bạch",
+				"synonyms": ["clear", "see-through", "obvious"],
+				"antonyms": ["opaque", "cloudy"],
+				"examples": [
+					{
+						"text": "The water in the lake is so transparent you can see the bottom.",
+						"viText": "Nước hồ trong suốt đến mức bạn có thể nhìn thấy đáy."
+					},
+					{
+						"text": "The company promises to be transparent about its finances.",
+						"viText": "Công ty hứa sẽ minh bạch về tài chính của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "transparent process",
+						"meaning": "A system where everything is open and honest",
+						"viMeaning": "quy trình minh bạch",
+						"example": "The recruitment should be a transparent process.",
+						"viExample": "Việc tuyển dụng nên là một quy trình minh bạch."
+					},
+					{
+						"phrase": "perfectly transparent",
+						"meaning": "Completely clear or easy to understand",
+						"viMeaning": "hoàn toàn minh bạch/trong suốt",
+						"example": "His lies were perfectly transparent to everyone.",
+						"viExample": "Lời nói dối của anh ta hoàn toàn lộ liễu với mọi người."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "versatile",
+		"pos": "adjective",
+		"ipa": "/ˈvɜːsətaɪl/",
+		"cefrLevel": "B2",
+		"frequency": 6400,
+		"isCommon": false,
+		"wordForms": [{ "form": "versatility", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Able to adapt or be adapted to many different functions",
+				"viDef": "linh hoạt, đa năng",
+				"synonyms": ["adaptable", "flexible", "all-purpose"],
+				"antonyms": ["inflexible", "limited"],
+				"examples": [
+					{
+						"text": "Eggs are a versatile ingredient in cooking.",
+						"viText": "Trứng là một nguyên liệu linh hoạt trong nấu ăn."
+					},
+					{
+						"text": "He is a versatile actor who can play many roles.",
+						"viText": "Anh ấy là một diễn viên đa năng có thể đóng nhiều vai."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "highly versatile",
+						"meaning": "Extremely useful in many different ways",
+						"viMeaning": "cực kỳ đa năng",
+						"example": "This tool is highly versatile for home repairs.",
+						"viExample": "Công cụ này cực kỳ đa năng cho việc sửa chữa nhà cửa."
+					},
+					{
+						"phrase": "versatile performer",
+						"meaning": "Someone skilled at many different activities",
+						"viMeaning": "người biểu diễn đa tài",
+						"example": "She is a versatile performer who sings and dances.",
+						"viExample": "Cô ấy là một nghệ sĩ đa tài vừa hát vừa nhảy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "vulnerable",
+		"pos": "adjective",
+		"ipa": "/ˈvʌlnərəbl/",
+		"cefrLevel": "B2",
+		"frequency": 5300,
+		"isCommon": false,
+		"wordForms": [{ "form": "vulnerability", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Exposed to the possibility of being attacked or harmed",
+				"viDef": "dễ bị tổn thương",
+				"synonyms": ["exposed", "helpless", "defenseless"],
+				"antonyms": ["resilient", "protected"],
+				"examples": [
+					{
+						"text": "Older people are especially vulnerable to the flu.",
+						"viText": "Người già đặc biệt dễ bị tổn thương bởi bệnh cúm."
+					},
+					{
+						"text": "The city is vulnerable to flooding during storms.",
+						"viText": "Thành phố dễ bị ngập lụt trong các trận bão."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "vulnerable group",
+						"meaning": "A segment of society needing protection",
+						"viMeaning": "nhóm đối tượng dễ bị tổn thương",
+						"example": "Charities help vulnerable groups like the homeless.",
+						"viExample": "Các tổ chức từ thiện giúp đỡ các nhóm dễ bị tổn thương như người vô gia cư."
+					},
+					{
+						"phrase": "highly vulnerable",
+						"meaning": "Very likely to be harmed",
+						"viMeaning": "rất dễ bị tổn thương",
+						"example": "Small businesses are highly vulnerable to economic changes.",
+						"viExample": "Các doanh nghiệp nhỏ rất dễ bị tổn thương trước những thay đổi kinh tế."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "widespread",
+		"pos": "adjective",
+		"ipa": "/ˈwaɪdspred/",
+		"cefrLevel": "B2",
+		"frequency": 5050,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Found or distributed over a large area or many people",
+				"viDef": "lan rộng, phổ biến",
+				"synonyms": ["common", "prevalent", "general"],
+				"antonyms": ["local", "limited"],
+				"examples": [
+					{
+						"text": "There is widespread concern about the new law.",
+						"viText": "Có sự lo ngại rộng rãi về đạo luật mới."
+					},
+					{
+						"text": "The storm caused widespread damage to the coast.",
+						"viText": "Cơn bão đã gây ra thiệt hại trên diện rộng cho vùng bờ biển."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "widespread support",
+						"meaning": "Agreement from a large number of people",
+						"viMeaning": "sự ủng hộ rộng rãi",
+						"example": "The proposal has widespread support in the community.",
+						"viExample": "Đề xuất có sự ủng hộ rộng rãi trong cộng đồng."
+					},
+					{
+						"phrase": "become widespread",
+						"meaning": "To start happening in many places",
+						"viMeaning": "trở nên phổ biến",
+						"example": "Smartphone use became widespread in the 2010s.",
+						"viExample": "Việc sử dụng điện thoại thông minh đã trở nên phổ biến trong những năm 2010."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "elaborate",
+		"pos": "verb",
+		"ipa": "/ɪˈlæbəreɪt/",
+		"cefrLevel": "B2",
+		"frequency": 6000,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "elaboration", "pos": "noun" },
+			{ "form": "elaborate", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To add more detail to what has already been said",
+				"viDef": "nói thêm, giải thích chi tiết",
+				"synonyms": ["expand", "detail", "explain"],
+				"antonyms": ["simplify", "summarize"],
+				"examples": [
+					{
+						"text": "Could you elaborate on that point?",
+						"viText": "Bạn có thể giải thích chi tiết hơn về điểm đó không?"
+					},
+					{
+						"text": "He refused to elaborate on his plans for the future.",
+						"viText": "Anh ấy từ chối nói thêm về các kế hoạch tương lai của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "elaborate further",
+						"meaning": "To give even more information",
+						"viMeaning": "giải thích thêm nữa",
+						"example": "The spokesperson declined to elaborate further on the case.",
+						"viExample": "Người phát ngôn từ chối giải thích thêm về vụ việc."
+					},
+					{
+						"phrase": "elaborate on",
+						"meaning": "To provide details about a specific topic",
+						"viMeaning": "chi tiết hóa về",
+						"example": "She will elaborate on the project's budget tomorrow.",
+						"viExample": "Cô ấy sẽ chi tiết hóa về ngân sách dự án vào ngày mai."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "fluctuate",
+		"pos": "verb",
+		"ipa": "/ˈflʌktʃueɪt/",
+		"cefrLevel": "B2",
+		"frequency": 6700,
+		"isCommon": false,
+		"wordForms": [{ "form": "fluctuation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "To rise and fall irregularly in number or amount",
+				"viDef": "dao động, biến động",
+				"synonyms": ["vary", "shift", "waver"],
+				"antonyms": ["stabilize", "stay"],
+				"examples": [
+					{
+						"text": "Oil prices fluctuate daily on the world market.",
+						"viText": "Giá dầu biến động hàng ngày trên thị trường thế giới."
+					},
+					{
+						"text": "My weight tends to fluctuate by a few kilos.",
+						"viText": "Cân nặng của tôi có xu hướng dao động vài ký."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "wildly fluctuate",
+						"meaning": "To change in large and unpredictable amounts",
+						"viMeaning": "biến động dữ dội",
+						"example": "The exchange rate has been wildly fluctuating recently.",
+						"viExample": "Tỷ giá hối đoái gần đây đã biến động dữ dội."
+					},
+					{
+						"phrase": "fluctuate between",
+						"meaning": "To change within two specific points",
+						"viMeaning": "dao động trong khoảng",
+						"example": "The temperature fluctuated between 20 and 25 degrees.",
+						"viExample": "Nhiệt độ dao động trong khoảng từ 20 đến 25 độ."
+					}
+				]
+			}
+		]
+	}
+]

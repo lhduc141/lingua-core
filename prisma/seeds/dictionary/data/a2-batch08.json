@@ -1,0 +1,915 @@
+[
+	{
+		"headword": "polite",
+		"pos": "adjective",
+		"ipa": "/pəˈlaɪt/",
+		"cefrLevel": "A2",
+		"frequency": 2100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "politely", "pos": "adverb" },
+			{ "form": "politeness", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having or showing behavior that is respectful and considerate",
+				"viDef": "lịch sự",
+				"synonyms": ["well-mannered", "courteous"],
+				"antonyms": ["rude", "impolite"],
+				"examples": [
+					{
+						"text": "The shop assistant was very polite and helpful.",
+						"viText": "Nhân viên bán hàng rất lịch sự và nhiệt tình giúp đỡ."
+					},
+					{
+						"text": "It is polite to say thank you when you receive a gift.",
+						"viText": "Nói lời cảm ơn khi nhận quà là hành động lịch sự."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "polite request",
+						"meaning": "Asking for something in a respectful way",
+						"viMeaning": "lời yêu cầu lịch sự",
+						"example": "He made a polite request for more information.",
+						"viExample": "Anh ấy đã đưa ra một lời yêu cầu lịch sự để biết thêm thông tin."
+					},
+					{
+						"phrase": "polite conversation",
+						"meaning": "Talking about safe topics to be social",
+						"viMeaning": "cuộc trò chuyện xã giao",
+						"example": "They spent the evening in polite conversation.",
+						"viExample": "Họ đã dành cả buổi tối để trò chuyện xã giao."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "honest",
+		"pos": "adjective",
+		"ipa": "/ˈɒnɪst/",
+		"cefrLevel": "A2",
+		"frequency": 1800,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "honestly", "pos": "adverb" },
+			{ "form": "honesty", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Telling the truth and not hiding the facts",
+				"viDef": "trung thực, thành thật",
+				"synonyms": ["truthful", "sincere"],
+				"antonyms": ["dishonest"],
+				"examples": [
+					{
+						"text": "Thank you for giving me your honest opinion.",
+						"viText": "Cảm ơn bạn đã cho tôi ý kiến thành thật."
+					},
+					{
+						"text": "She is an honest person who never tells lies.",
+						"viText": "Cô ấy là một người trung thực, không bao giờ nói dối."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "honest mistake",
+						"meaning": "A mistake made without wanting to deceive anyone",
+						"viMeaning": "sai sót vô ý",
+						"example": "I forgot to call you, but it was an honest mistake.",
+						"viExample": "Tôi quên gọi cho bạn, nhưng đó là một sai sót vô ý thôi."
+					},
+					{
+						"phrase": "to be honest",
+						"meaning": "A phrase used before saying what you really think",
+						"viMeaning": "thành thật mà nói",
+						"example": "To be honest, I don't really like this film.",
+						"viExample": "Thành thật mà nói, tôi không thích bộ phim này lắm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "kind",
+		"pos": "adjective",
+		"ipa": "/kaɪnd/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "kindly", "pos": "adverb" },
+			{ "form": "kindness", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Caring about others and wanting to help them",
+				"viDef": "tốt bụng",
+				"synonyms": ["caring", "friendly"],
+				"antonyms": ["cruel", "unkind"],
+				"examples": [
+					{
+						"text": "It was very kind of you to help me with my bags.",
+						"viText": "Bạn thật tốt bụng khi giúp tôi xách túi."
+					},
+					{ "text": "She has a very kind heart.", "viText": "Cô ấy có một trái tim rất nhân hậu." }
+				],
+				"collocations": [
+					{
+						"phrase": "kind words",
+						"meaning": "Something nice said to encourage someone",
+						"viMeaning": "lời nói tử tế",
+						"example": "Her kind words made me feel much better.",
+						"viExample": "Những lời nói tử tế của cô ấy khiến tôi cảm thấy tốt hơn nhiều."
+					},
+					{
+						"phrase": "kind to animals",
+						"meaning": "Treating living creatures with care",
+						"viMeaning": "tử tế với động vật",
+						"example": "Children should learn to be kind to animals.",
+						"viExample": "Trẻ em nên học cách đối xử tử tế với động vật."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "brave",
+		"pos": "adjective",
+		"ipa": "/breɪv/",
+		"cefrLevel": "A2",
+		"frequency": 2400,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "bravery", "pos": "noun" },
+			{ "form": "bravely", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Willing to do things that are dangerous or difficult",
+				"viDef": "dũng cảm",
+				"synonyms": ["courageous", "fearless"],
+				"antonyms": ["cowardly"],
+				"examples": [
+					{
+						"text": "The brave firefighter saved the cat from the tree.",
+						"viText": "Người lính cứu hỏa dũng cảm đã cứu con mèo khỏi cái cây."
+					},
+					{
+						"text": "You were very brave at the dentist today.",
+						"viText": "Hôm nay con đã rất dũng cảm khi đi khám nha sĩ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "brave act",
+						"meaning": "Doing something courageous",
+						"viMeaning": "hành động dũng cảm",
+						"example": "Saving the boy was a very brave act.",
+						"viExample": "Cứu cậu bé là một hành động rất dũng cảm."
+					},
+					{
+						"phrase": "brave face",
+						"meaning": "Trying to look happy when you are sad",
+						"viMeaning": "vẻ mặt can trường",
+						"example": "She put on a brave face despite the bad news.",
+						"viExample": "Cô ấy giữ vẻ mặt can trường bất chấp tin xấu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "clever",
+		"pos": "adjective",
+		"ipa": "/ˈklevə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1900,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "cleverness", "pos": "noun" },
+			{ "form": "cleverly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Quick at learning and understanding things",
+				"viDef": "thông minh",
+				"synonyms": ["smart", "intelligent"],
+				"antonyms": ["stupid", "foolish"],
+				"examples": [
+					{
+						"text": "She is a clever girl who finishes her homework quickly.",
+						"viText": "Cô ấy là một cô bé thông minh, làm bài tập về nhà rất nhanh."
+					},
+					{
+						"text": "What a clever idea to fix the broken chair!",
+						"viText": "Thật là một ý tưởng thông minh để sửa chiếc ghế hỏng!"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "clever solution",
+						"meaning": "A smart way to fix a problem",
+						"viMeaning": "giải pháp thông minh",
+						"example": "He found a clever solution to the traffic problem.",
+						"viExample": "Anh ấy đã tìm ra một giải pháp thông minh cho vấn đề giao thông."
+					},
+					{
+						"phrase": "very clever",
+						"meaning": "Highly intelligent",
+						"viMeaning": "rất thông minh",
+						"example": "The dog is very clever and knows many tricks.",
+						"viExample": "Con chó này rất thông minh và biết nhiều trò."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "funny",
+		"pos": "adjective",
+		"ipa": "/ˈfʌni/",
+		"cefrLevel": "A2",
+		"frequency": 1150,
+		"isCommon": true,
+		"wordForms": [{ "form": "funnily", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Making you smile or laugh",
+				"viDef": "vui nhộn, buồn cười",
+				"synonyms": ["amusing", "humorous"],
+				"antonyms": ["serious", "boring"],
+				"examples": [
+					{
+						"text": "He told a very funny joke at the party.",
+						"viText": "Anh ấy đã kể một câu chuyện đùa rất buồn cười tại bữa tiệc."
+					},
+					{
+						"text": "That movie was so funny, we laughed all night.",
+						"viText": "Bộ phim đó rất vui, chúng tôi đã cười cả đêm."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "funny story",
+						"meaning": "A tale that causes laughter",
+						"viMeaning": "câu chuyện buồn cười",
+						"example": "She told us a funny story about her cat.",
+						"viExample": "Cô ấy đã kể cho chúng tôi nghe một câu chuyện buồn cười về con mèo của mình."
+					},
+					{
+						"phrase": "funny face",
+						"meaning": "Making a silly expression to be amusing",
+						"viMeaning": "làm mặt xấu/hài hước",
+						"example": "The clown made a funny face to entertain the kids.",
+						"viExample": "Chú hề làm mặt hài hước để giải trí cho bọn trẻ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "serious",
+		"pos": "adjective",
+		"ipa": "/ˈsɪəriəs/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "seriously", "pos": "adverb" },
+			{ "form": "seriousness", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Thinking or acting in a quiet and careful way",
+				"viDef": "nghiêm túc",
+				"synonyms": ["solemn", "earnest"],
+				"antonyms": ["funny", "cheerful"],
+				"examples": [
+					{
+						"text": "You look very serious today. Is something wrong?",
+						"viText": "Hôm nay trông bạn rất nghiêm túc. Có chuyện gì không ổn sao?"
+					},
+					{
+						"text": "This is a serious matter, so please listen carefully.",
+						"viText": "Đây là một vấn đề nghiêm túc, nên hãy lắng nghe cẩn thận."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "serious problem",
+						"meaning": "A difficult situation that needs attention",
+						"viMeaning": "vấn đề nghiêm trọng",
+						"example": "Pollution is a serious problem in big cities.",
+						"viExample": "Ô nhiễm là một vấn đề nghiêm trọng ở các thành phố lớn."
+					},
+					{
+						"phrase": "get serious",
+						"meaning": "To start focusing properly on something",
+						"viMeaning": "trở nên nghiêm túc",
+						"example": "We need to get serious about our studies.",
+						"viExample": "Chúng ta cần nghiêm túc hơn với việc học của mình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "shy",
+		"pos": "adjective",
+		"ipa": "/ʃaɪ/",
+		"cefrLevel": "A2",
+		"frequency": 2800,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "shyness", "pos": "noun" },
+			{ "form": "shyly", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Nervous and uncomfortable about meeting or talking to people",
+				"viDef": "nhút nhát, e thẹn",
+				"synonyms": ["timid", "reserved"],
+				"antonyms": ["confident", "outgoing"],
+				"examples": [
+					{
+						"text": "He is too shy to speak in front of the class.",
+						"viText": "Cậu ấy quá nhút nhát để nói trước lớp."
+					},
+					{
+						"text": "The shy child hid behind her mother's leg.",
+						"viText": "Đứa trẻ nhút nhát nấp sau chân mẹ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "shy smile",
+						"meaning": "A quiet and nervous expression of happiness",
+						"viMeaning": "nụ cười e thẹn",
+						"example": "She gave him a shy smile.",
+						"viExample": "Cô ấy mỉm cười e thẹn với anh ấy."
+					},
+					{
+						"phrase": "feel shy",
+						"meaning": "To experience nervousness around others",
+						"viMeaning": "cảm thấy ngại",
+						"example": "I always feel shy when I meet new people.",
+						"viExample": "Tôi luôn cảm thấy ngại khi gặp người lạ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "friendly",
+		"pos": "adjective",
+		"ipa": "/ˈfrendli/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [{ "form": "friendliness", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Behaving in a kind and pleasant way towards others",
+				"viDef": "thân thiện",
+				"synonyms": ["amiable", "kind"],
+				"antonyms": ["unfriendly", "hostile"],
+				"examples": [
+					{
+						"text": "The local people are very friendly to tourists.",
+						"viText": "Người dân địa phương rất thân thiện với khách du lịch."
+					},
+					{
+						"text": "It is important to have a friendly relationship with neighbors.",
+						"viText": "Việc có mối quan hệ thân thiện với hàng xóm là rất quan trọng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "friendly atmosphere",
+						"meaning": "A pleasant feeling in a place",
+						"viMeaning": "không khí thân thiện",
+						"example": "The restaurant has a very friendly atmosphere.",
+						"viExample": "Nhà hàng có một bầu không khí rất thân thiện."
+					},
+					{
+						"phrase": "environmentally friendly",
+						"meaning": "Not harmful to the natural world",
+						"viMeaning": "thân thiện với môi trường",
+						"example": "We should use environmentally friendly products.",
+						"viExample": "Chúng ta nên sử dụng các sản phẩm thân thiện với môi trường."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "rude",
+		"pos": "adjective",
+		"ipa": "/ruːd/",
+		"cefrLevel": "A2",
+		"frequency": 2500,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "rudely", "pos": "adverb" },
+			{ "form": "rudeness", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Not polite; behaving in a way that hurts people",
+				"viDef": "thô lỗ, mất lịch sự",
+				"synonyms": ["impolite", "disrespectful"],
+				"antonyms": ["polite", "civil"],
+				"examples": [
+					{
+						"text": "It is rude to interrupt someone when they are talking.",
+						"viText": "Thật thô lỗ khi ngắt lời ai đó lúc họ đang nói."
+					},
+					{
+						"text": "The waiter was very rude to us.",
+						"viText": "Người phục vụ đã rất thô lỗ với chúng tôi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "rude behavior",
+						"meaning": "Actions that are impolite",
+						"viMeaning": "hành vi thô lỗ",
+						"example": "I will not tolerate such rude behavior.",
+						"viExample": "Tôi sẽ không chấp nhận hành vi thô lỗ như vậy."
+					},
+					{
+						"phrase": "rude remark",
+						"meaning": "An impolite comment made about someone",
+						"viMeaning": "lời nhận xét khiếm nhã",
+						"example": "He made a rude remark about her dress.",
+						"viExample": "Anh ấy đã đưa ra một lời nhận xét khiếm nhã về chiếc váy của cô ấy."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "mistake",
+		"pos": "noun",
+		"ipa": "/mɪˈsteɪk/",
+		"cefrLevel": "A2",
+		"frequency": 1100,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "mistake", "pos": "verb" },
+			{ "form": "mistaken", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An action or decision that is not correct",
+				"viDef": "lỗi, sai lầm",
+				"synonyms": ["error", "fault"],
+				"antonyms": ["correction"],
+				"examples": [
+					{
+						"text": "I made a few mistakes in the English test.",
+						"viText": "Tôi đã mắc một vài lỗi trong bài kiểm tra tiếng Anh."
+					},
+					{
+						"text": "It was a mistake to leave the house without an umbrella.",
+						"viText": "Thật là một sai lầm khi rời nhà mà không mang ô."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "make a mistake",
+						"meaning": "To do something wrong",
+						"viMeaning": "mắc lỗi",
+						"example": "Don't be afraid to make a mistake when speaking.",
+						"viExample": "Đừng sợ mắc lỗi khi nói."
+					},
+					{
+						"phrase": "by mistake",
+						"meaning": "Happening accidentally and not on purpose",
+						"viMeaning": "do nhầm lẫn",
+						"example": "I took your bag by mistake.",
+						"viExample": "Tôi đã lấy nhầm túi của bạn do nhầm lẫn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "opinion",
+		"pos": "noun",
+		"ipa": "/əˈpɪnjən/",
+		"cefrLevel": "A2",
+		"frequency": 1200,
+		"isCommon": true,
+		"wordForms": [{ "form": "opinionated", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Your feelings or thoughts about someone or something",
+				"viDef": "ý kiến, quan điểm",
+				"synonyms": ["view", "belief"],
+				"antonyms": ["fact"],
+				"examples": [
+					{
+						"text": "In my opinion, this is the best cafe in town.",
+						"viText": "Theo ý kiến của tôi, đây là quán cà phê tốt nhất thị trấn."
+					},
+					{
+						"text": "What is your opinion on the new rule?",
+						"viText": "Ý kiến của bạn về quy định mới là gì?"
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "public opinion",
+						"meaning": "The thoughts of most people in a society",
+						"viMeaning": "dư luận",
+						"example": "Public opinion is divided on this issue.",
+						"viExample": "Dư luận đang bị chia rẽ về vấn đề này."
+					},
+					{
+						"phrase": "ask an opinion",
+						"meaning": "To request someone's thoughts on a topic",
+						"viMeaning": "hỏi ý kiến",
+						"example": "I need to ask my teacher's opinion about the project.",
+						"viExample": "Tôi cần hỏi ý kiến giáo viên về dự án."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "reason",
+		"pos": "noun",
+		"ipa": "/ˈriːzn/",
+		"cefrLevel": "A2",
+		"frequency": 1030,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "reasonable", "pos": "adjective" },
+			{ "form": "reasonably", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The cause or explanation for why something happens",
+				"viDef": "lý do",
+				"synonyms": ["cause", "motive"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The reason for his absence was illness.",
+						"viText": "Lý do cho sự vắng mặt của anh ấy là do bị bệnh."
+					},
+					{
+						"text": "I don't know the reason why she is crying.",
+						"viText": "Tôi không biết lý do tại sao cô ấy lại khóc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "main reason",
+						"meaning": "The most important explanation",
+						"viMeaning": "lý do chính",
+						"example": "The main reason I study English is for work.",
+						"viExample": "Lý do chính tôi học tiếng Anh là vì công việc."
+					},
+					{
+						"phrase": "for no reason",
+						"meaning": "Without any clear explanation",
+						"viMeaning": "không có lý do gì",
+						"example": "The computer just stopped for no reason.",
+						"viExample": "Máy tính bỗng nhiên dừng lại mà không có lý do gì."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "result",
+		"pos": "noun",
+		"ipa": "/rɪˈzʌlt/",
+		"cefrLevel": "A2",
+		"frequency": 1080,
+		"isCommon": true,
+		"wordForms": [{ "form": "result", "pos": "verb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that happens because of something else",
+				"viDef": "kết quả",
+				"synonyms": ["outcome", "consequence"],
+				"antonyms": ["cause"],
+				"examples": [
+					{
+						"text": "What was the result of the football match?",
+						"viText": "Kết quả của trận bóng đá là gì?"
+					},
+					{
+						"text": "My exam results were better than I expected.",
+						"viText": "Kết quả kỳ thi của tôi tốt hơn tôi mong đợi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "test result",
+						"meaning": "The score or outcome of a medical or school test",
+						"viMeaning": "kết quả kiểm tra",
+						"example": "The doctor will call you with your test results.",
+						"viExample": "Bác sĩ sẽ gọi cho bạn để báo kết quả kiểm tra."
+					},
+					{
+						"phrase": "result in",
+						"meaning": "To cause something to happen",
+						"viMeaning": "dẫn đến kết quả",
+						"example": "The heavy rain resulted in a flood.",
+						"viExample": "Trận mưa lớn đã dẫn đến kết quả là lũ lụt."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "effect",
+		"pos": "noun",
+		"ipa": "/ɪˈfekt/",
+		"cefrLevel": "A2",
+		"frequency": 1500,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "effective", "pos": "adjective" },
+			{ "form": "effectively", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A change that is caused by an action or cause",
+				"viDef": "tác động, hiệu quả",
+				"synonyms": ["impact", "influence"],
+				"antonyms": ["cause"],
+				"examples": [
+					{
+						"text": "The medicine had a positive effect on his health.",
+						"viText": "Thuốc đã có tác động tích cực đến sức khỏe của anh ấy."
+					},
+					{
+						"text": "Global warming has a bad effect on the environment.",
+						"viText": "Sự nóng lên toàn cầu có tác động xấu đến môi trường."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "side effect",
+						"meaning": "An unwanted result of a drug or medicine",
+						"viMeaning": "tác dụng phụ",
+						"example": "Does this medicine have any side effects?",
+						"viExample": "Thuốc này có tác dụng phụ nào không?"
+					},
+					{
+						"phrase": "take effect",
+						"meaning": "To start to produce a result",
+						"viMeaning": "có hiệu lực",
+						"example": "The new law will take effect next month.",
+						"viExample": "Luật mới sẽ có hiệu lực vào tháng tới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "cause",
+		"pos": "noun",
+		"ipa": "/kɔːz/",
+		"cefrLevel": "A2",
+		"frequency": 1180,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "causation", "pos": "noun" },
+			{ "form": "cause", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The person or thing that makes something happen",
+				"viDef": "nguyên nhân",
+				"synonyms": ["origin", "source"],
+				"antonyms": ["effect", "result"],
+				"examples": [
+					{
+						"text": "Smoking is a leading cause of lung cancer.",
+						"viText": "Hút thuốc là nguyên nhân hàng đầu dẫn đến ung thư phổi."
+					},
+					{
+						"text": "The police are looking for the cause of the fire.",
+						"viText": "Cảnh sát đang tìm nguyên nhân của vụ hỏa hoạn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "common cause",
+						"meaning": "A reason that happens often",
+						"viMeaning": "nguyên nhân phổ biến",
+						"example": "Speeding is a common cause of accidents.",
+						"viExample": "Chạy quá tốc độ là một nguyên nhân phổ biến của các vụ tai nạn."
+					},
+					{
+						"phrase": "cause and effect",
+						"meaning": "The relationship between an event and its result",
+						"viMeaning": "nguyên nhân và kết quả",
+						"example": "The teacher explained the link between cause and effect.",
+						"viExample": "Giáo viên đã giải thích mối liên hệ giữa nguyên nhân và kết quả."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "purpose",
+		"pos": "noun",
+		"ipa": "/ˈpɜːpəs/",
+		"cefrLevel": "A2",
+		"frequency": 1350,
+		"isCommon": true,
+		"wordForms": [{ "form": "purposeful", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The reason why something is done or used",
+				"viDef": "mục đích",
+				"synonyms": ["aim", "goal", "objective"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The purpose of this meeting is to discuss the budget.",
+						"viText": "Mục đích của cuộc họp này là để thảo luận về ngân sách."
+					},
+					{ "text": "What is the purpose of this new tool?", "viText": "Mục đích của công cụ mới này là gì?" }
+				],
+				"collocations": [
+					{
+						"phrase": "on purpose",
+						"meaning": "Doing something because you want to, not accidentally",
+						"viMeaning": "cố tình",
+						"example": "He broke the vase on purpose.",
+						"viExample": "Anh ấy đã cố tình làm vỡ chiếc bình."
+					},
+					{
+						"phrase": "main purpose",
+						"meaning": "The primary reason for an action",
+						"viMeaning": "mục đích chính",
+						"example": "My main purpose for visiting Hanoi is to see family.",
+						"viExample": "Mục đích chính của tôi khi đến Hà Nội là thăm gia đình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "situation",
+		"pos": "noun",
+		"ipa": "/ˌsɪtʃuˈeɪʃn/",
+		"cefrLevel": "A2",
+		"frequency": 1050,
+		"isCommon": true,
+		"wordForms": [
+			{ "form": "situate", "pos": "verb" },
+			{ "form": "situational", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The set of things that are happening at a particular time",
+				"viDef": "tình huống, hoàn cảnh",
+				"synonyms": ["circumstances", "case"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "It was a very difficult situation for everyone involved.",
+						"viText": "Đó là một tình huống rất khó khăn cho tất cả những người liên quan."
+					},
+					{
+						"text": "We need to assess the situation before making a choice.",
+						"viText": "Chúng ta cần đánh giá tình hình trước khi đưa ra lựa chọn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "current situation",
+						"meaning": "How things are at the present time",
+						"viMeaning": "tình hình hiện tại",
+						"example": "The current situation in the country is improving.",
+						"viExample": "Tình hình hiện tại ở đất nước đang được cải thiện."
+					},
+					{
+						"phrase": "social situation",
+						"meaning": "Events where people gather and interact",
+						"viMeaning": "tình huống giao tiếp",
+						"example": "He feels nervous in new social situations.",
+						"viExample": "Anh ấy cảm thấy lo lắng trong các tình huống giao tiếp mới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "event",
+		"pos": "noun",
+		"ipa": "/ɪˈvent/",
+		"cefrLevel": "A2",
+		"frequency": 1120,
+		"isCommon": true,
+		"wordForms": [{ "form": "eventful", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Something that happens, especially something important or planned",
+				"viDef": "sự kiện",
+				"synonyms": ["occurrence", "occasion"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The school organises many sports events every year.",
+						"viText": "Trường tổ chức nhiều sự kiện thể thao mỗi năm."
+					},
+					{
+						"text": "The wedding was the biggest event of the summer.",
+						"viText": "Đám cưới là sự kiện lớn nhất của mùa hè."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "special event",
+						"meaning": "A unique or formal occasion",
+						"viMeaning": "sự kiện đặc biệt",
+						"example": "We are planning a special event for his birthday.",
+						"viExample": "Chúng tôi đang lên kế hoạch cho một sự kiện đặc biệt vào ngày sinh nhật của anh ấy."
+					},
+					{
+						"phrase": "current events",
+						"meaning": "Important things happening in the news now",
+						"viMeaning": "thời sự",
+						"example": "Students should keep up with current events.",
+						"viExample": "Học sinh nên theo dõi các tin tức thời sự."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "career",
+		"pos": "noun",
+		"ipa": "/kəˈrɪə(r)/",
+		"cefrLevel": "A2",
+		"frequency": 1600,
+		"isCommon": true,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The series of jobs that a person has in their life",
+				"viDef": "sự nghiệp",
+				"synonyms": ["profession", "occupation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "She started her career as a primary school teacher.",
+						"viText": "Cô ấy đã bắt đầu sự nghiệp của mình với tư cách là giáo viên tiểu học."
+					},
+					{
+						"text": "He wants to have a successful career in law.",
+						"viText": "Anh ấy muốn có một sự nghiệp thành công trong ngành luật."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "career path",
+						"meaning": "The direction of someone's professional life",
+						"viMeaning": "lộ trình nghề nghiệp",
+						"example": "Choosing a career path can be difficult.",
+						"viExample": "Lựa chọn một lộ trình nghề nghiệp có thể rất khó khăn."
+					},
+					{
+						"phrase": "change career",
+						"meaning": "To start doing a completely different type of job",
+						"viMeaning": "chuyển nghề",
+						"example": "Many people decide to change career in their thirties.",
+						"viExample": "Nhiều người quyết định chuyển nghề khi ở độ tuổi ba mươi."
+					}
+				]
+			}
+		]
+	}
+]

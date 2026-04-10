@@ -1,0 +1,927 @@
+[
+	{
+		"headword": "volunteer",
+		"pos": "noun",
+		"ipa": "/ˌvɒlənˈtɪə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "volunteer", "pos": "verb" },
+			{ "form": "voluntary", "pos": "adjective" },
+			{ "form": "voluntarily", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person who does work without being paid",
+				"viDef": "tình nguyện viên",
+				"synonyms": ["helper", "unpaid worker"],
+				"antonyms": ["employee"],
+				"examples": [
+					{
+						"text": "The museum relies on volunteers to help visitors.",
+						"viText": "Bảo tàng dựa vào các tình nguyện viên để giúp đỡ khách tham quan."
+					},
+					{
+						"text": "I worked as a volunteer for a local charity.",
+						"viText": "Tôi đã làm việc như một tình nguyện viên cho một tổ chức từ thiện địa phương."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "volunteer work",
+						"meaning": "Work that is done without payment",
+						"viMeaning": "công việc tình nguyện",
+						"example": "She does a lot of volunteer work at the hospital.",
+						"viExample": "Cô ấy làm rất nhiều công việc tình nguyện tại bệnh viện."
+					},
+					{
+						"phrase": "call for volunteers",
+						"meaning": "To ask people to offer their help",
+						"viMeaning": "kêu gọi tình nguyện viên",
+						"example": "The school issued a call for volunteers for the event.",
+						"viExample": "Trường học đã đưa ra lời kêu gọi tình nguyện viên cho sự kiện."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "community",
+		"pos": "noun",
+		"ipa": "/kəˈmjuːnəti/",
+		"cefrLevel": "B1",
+		"frequency": 3010,
+		"isCommon": false,
+		"wordForms": [{ "form": "communal", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A group of people living in the same area",
+				"viDef": "cộng đồng",
+				"synonyms": ["society", "neighborhood", "district"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The local community is very supportive of the project.",
+						"viText": "Cộng đồng địa phương rất ủng hộ dự án này."
+					},
+					{
+						"text": "He is a well-known member of the business community.",
+						"viText": "Ông ấy là một thành viên nổi tiếng của cộng đồng doanh nghiệp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "community center",
+						"meaning": "A place where people in an area meet",
+						"viMeaning": "trung tâm cộng đồng",
+						"example": "The meeting will be held at the community center.",
+						"viExample": "Cuộc họp sẽ được tổ chức tại trung tâm cộng đồng."
+					},
+					{
+						"phrase": "sense of community",
+						"meaning": "A feeling of belonging to a group",
+						"viMeaning": "ý thức cộng đồng",
+						"example": "Small villages often have a strong sense of community.",
+						"viExample": "Các ngôi làng nhỏ thường có ý thức cộng đồng mạnh mẽ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "charity",
+		"pos": "noun",
+		"ipa": "/ˈtʃærəti/",
+		"cefrLevel": "B1",
+		"frequency": 3150,
+		"isCommon": false,
+		"wordForms": [{ "form": "charitable", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An organization that gives money or help to people",
+				"viDef": "tổ chức từ thiện",
+				"synonyms": ["non-profit", "foundation"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The money will go to a local charity.",
+						"viText": "Số tiền này sẽ được chuyển đến một tổ chức từ thiện địa phương."
+					},
+					{
+						"text": "She raised thousands of pounds for charity.",
+						"viText": "Cô ấy đã gây quỹ được hàng ngàn bảng cho mục đích từ thiện."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "charity event",
+						"meaning": "An activity organized to raise money for help",
+						"viMeaning": "sự kiện từ thiện",
+						"example": "We are planning a charity event for next month.",
+						"viExample": "Chúng tôi đang lên kế hoạch cho một sự kiện từ thiện vào tháng tới."
+					},
+					{
+						"phrase": "give to charity",
+						"meaning": "To donate money to organizations that help",
+						"viMeaning": "làm từ thiện",
+						"example": "He gives a percentage of his income to charity.",
+						"viExample": "Anh ấy dành một tỷ lệ thu nhập của mình để làm từ thiện."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "donation",
+		"pos": "noun",
+		"ipa": "/dəʊˈneɪʃn/",
+		"cefrLevel": "B1",
+		"frequency": 4100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "donate", "pos": "verb" },
+			{ "form": "donor", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Money or goods given to help a person or organization",
+				"viDef": "khoản quyên góp",
+				"synonyms": ["gift", "contribution", "offering"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "We received a large donation from an anonymous businessman.",
+						"viText": "Chúng tôi đã nhận được một khoản quyên góp lớn từ một doanh nhân ẩn danh."
+					},
+					{
+						"text": "Please make a small donation to help the homeless.",
+						"viText": "Làm ơn hãy quyên góp một chút để giúp đỡ những người vô gia cư."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "blood donation",
+						"meaning": "Giving blood to be used in hospitals",
+						"viMeaning": "hiến máu",
+						"example": "Blood donation saves thousands of lives every year.",
+						"viExample": "Hiến máu cứu sống hàng ngàn người mỗi năm."
+					},
+					{
+						"phrase": "make a donation",
+						"meaning": "To give something to a cause",
+						"viMeaning": "quyên góp",
+						"example": "You can make a donation online.",
+						"viExample": "Bạn có thể thực hiện quyên góp trực tuyến."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "poverty",
+		"pos": "noun",
+		"ipa": "/ˈpɒvəti/",
+		"cefrLevel": "B1",
+		"frequency": 3300,
+		"isCommon": false,
+		"wordForms": [{ "form": "poor", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The state of being extremely poor",
+				"viDef": "sự nghèo đói",
+				"synonyms": ["hardship", "need", "penury"],
+				"antonyms": ["wealth", "riches"],
+				"examples": [
+					{
+						"text": "Many people in the region live in extreme poverty.",
+						"viText": "Nhiều người trong vùng sống trong cảnh nghèo đói cùng cực."
+					},
+					{
+						"text": "The government is trying to reduce poverty.",
+						"viText": "Chính phủ đang cố gắng giảm nghèo."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "poverty line",
+						"meaning": "The minimum level of income needed for life",
+						"viMeaning": "ngưỡng nghèo",
+						"example": "Millions of families live below the poverty line.",
+						"viExample": "Hàng triệu gia đình sống dưới ngưỡng nghèo."
+					},
+					{
+						"phrase": "eradicate poverty",
+						"meaning": "To completely get rid of being poor",
+						"viMeaning": "xóa nghèo",
+						"example": "Global goals aim to eradicate poverty by 2030.",
+						"viExample": "Các mục tiêu toàn cầu nhằm xóa nghèo vào năm 2030."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "welfare",
+		"pos": "noun",
+		"ipa": "/ˈwelfeə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3600,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Help given by the state to people in need",
+				"viDef": "phúc lợi",
+				"synonyms": ["well-being", "benefit", "assistance"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The government is responsible for the welfare of its citizens.",
+						"viText": "Chính phủ chịu trách nhiệm về phúc lợi của công dân."
+					},
+					{
+						"text": "She is concerned about the welfare of the children.",
+						"viText": "Cô ấy lo lắng về phúc lợi của những đứa trẻ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "animal welfare",
+						"meaning": "The well-being and protection of animals",
+						"viMeaning": "phúc lợi động vật",
+						"example": "The charity works to improve animal welfare.",
+						"viExample": "Tổ chức từ thiện hoạt động để cải thiện phúc lợi động vật."
+					},
+					{
+						"phrase": "social welfare",
+						"meaning": "Services provided by the state for the public",
+						"viMeaning": "phúc lợi xã hội",
+						"example": "The social welfare system helps those without jobs.",
+						"viExample": "Hệ thống phúc lợi xã hội giúp đỡ những người không có việc làm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "support",
+		"pos": "noun",
+		"ipa": "/səˈpɔːt/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "support", "pos": "verb" },
+			{ "form": "supportive", "pos": "adjective" },
+			{ "form": "supporter", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Help and encouragement given to someone",
+				"viDef": "sự ủng hộ, hỗ trợ",
+				"synonyms": ["help", "assistance", "backing"],
+				"antonyms": ["opposition"],
+				"examples": [
+					{
+						"text": "I need your support to win this election.",
+						"viText": "Tôi cần sự ủng hộ của bạn để thắng cuộc bầu cử này."
+					},
+					{
+						"text": "The hospital provides emotional support for patients.",
+						"viText": "Bệnh viện cung cấp sự hỗ trợ tinh thần cho bệnh nhân."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "financial support",
+						"meaning": "Money provided to help someone",
+						"viMeaning": "hỗ trợ tài chính",
+						"example": "They receive financial support from the government.",
+						"viExample": "Họ nhận được hỗ trợ tài chính từ chính phủ."
+					},
+					{
+						"phrase": "technical support",
+						"meaning": "Help with using machines or computers",
+						"viMeaning": "hỗ trợ kỹ thuật",
+						"example": "Call technical support if you have computer problems.",
+						"viExample": "Hãy gọi hỗ trợ kỹ thuật nếu bạn gặp vấn đề với máy tính."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "campaign",
+		"pos": "noun",
+		"ipa": "/kæmˈpeɪn/",
+		"cefrLevel": "B1",
+		"frequency": 3080,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "campaign", "pos": "verb" },
+			{ "form": "campaigner", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Planned activities to achieve a specific goal",
+				"viDef": "chiến dịch",
+				"synonyms": ["operation", "strategy", "drive"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "They launched a campaign to save the local park.",
+						"viText": "Họ đã phát động một chiến dịch để cứu công viên địa phương."
+					},
+					{
+						"text": "The advertising campaign was very successful.",
+						"viText": "Chiến dịch quảng cáo đã rất thành công."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "election campaign",
+						"meaning": "Activities to help someone win an election",
+						"viMeaning": "chiến dịch bầu cử",
+						"example": "The election campaign lasted for three months.",
+						"viExample": "Chiến dịch bầu cử đã kéo dài trong ba tháng."
+					},
+					{
+						"phrase": "marketing campaign",
+						"meaning": "A series of ads to sell a product",
+						"viMeaning": "chiến dịch tiếp thị",
+						"example": "We need a new marketing campaign for this product.",
+						"viExample": "Chúng ta cần một chiến dịch tiếp thị mới cho sản phẩm này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "protest",
+		"pos": "noun",
+		"ipa": "/ˈprəʊtest/",
+		"cefrLevel": "B1",
+		"frequency": 3400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "protest", "pos": "verb" },
+			{ "form": "protester", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A strong complaint expressing disagreement or opposition",
+				"viDef": "cuộc biểu tình, phản đối",
+				"synonyms": ["objection", "complaint", "demonstration"],
+				"antonyms": ["agreement"],
+				"examples": [
+					{
+						"text": "The students held a protest against the fee increase.",
+						"viText": "Các sinh viên đã tổ chức một cuộc biểu tình phản đối việc tăng học phí."
+					},
+					{
+						"text": "There were violent protests in the city streets.",
+						"viText": "Đã có những cuộc biểu tình bạo lực trên đường phố."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "peaceful protest",
+						"meaning": "Opposition expressed without using violence",
+						"viMeaning": "biểu tình ôn hòa",
+						"example": "They organized a peaceful protest in the square.",
+						"viExample": "Họ đã tổ chức một cuộc biểu tình ôn hòa tại quảng trường."
+					},
+					{
+						"phrase": "formal protest",
+						"meaning": "An official letter or statement of disagreement",
+						"viMeaning": "phản đối chính thức",
+						"example": "The company lodged a formal protest with the council.",
+						"viExample": "Công ty đã gửi một thư phản đối chính thức lên hội đồng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "rights",
+		"pos": "noun",
+		"ipa": "/raɪts/",
+		"cefrLevel": "B1",
+		"frequency": 3030,
+		"isCommon": false,
+		"wordForms": [{ "form": "rightful", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Legal or moral entitlements to have or do something",
+				"viDef": "quyền lợi, quyền",
+				"synonyms": ["privilege", "claim", "freedom"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "Everyone should have the right to free education.",
+						"viText": "Mọi người nên có quyền được giáo dục miễn phí."
+					},
+					{
+						"text": "She fought for women's rights in the workplace.",
+						"viText": "Cô ấy đã đấu tranh cho quyền lợi của phụ nữ tại nơi làm việc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "human rights",
+						"meaning": "Basic rights belonging to every person",
+						"viMeaning": "quyền con người",
+						"example": "The organization works to protect human rights.",
+						"viExample": "Tổ chức này hoạt động để bảo vệ quyền con người."
+					},
+					{
+						"phrase": "legal rights",
+						"meaning": "Entitlements given to people by law",
+						"viMeaning": "quyền lợi hợp pháp",
+						"example": "You should know your legal rights before signing.",
+						"viExample": "Bạn nên biết quyền lợi hợp pháp của mình trước khi ký."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "justice",
+		"pos": "noun",
+		"ipa": "/ˈdʒʌstɪs/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "justify", "pos": "verb" },
+			{ "form": "just", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Fairness in the way people are treated",
+				"viDef": "sự công bằng, tư pháp",
+				"synonyms": ["fairness", "equity", "law"],
+				"antonyms": ["injustice"],
+				"examples": [
+					{
+						"text": "The victims are still seeking justice for the crime.",
+						"viText": "Các nạn nhân vẫn đang tìm kiếm công lý cho vụ tội ác."
+					},
+					{
+						"text": "He is committed to social justice.",
+						"viText": "Anh ấy cam kết với sự công bằng xã hội."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "criminal justice",
+						"meaning": "The system of law for dealing with crimes",
+						"viMeaning": "tư pháp hình sự",
+						"example": "She is studying the criminal justice system.",
+						"viExample": "Cô ấy đang nghiên cứu hệ thống tư pháp hình sự."
+					},
+					{
+						"phrase": "bring to justice",
+						"meaning": "To catch and punish a criminal",
+						"viMeaning": "đưa ra ánh sáng công lý",
+						"example": "The police are working to bring the killer to justice.",
+						"viExample": "Cảnh sát đang nỗ lực đưa kẻ giết người ra ánh sáng công lý."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "equality",
+		"pos": "noun",
+		"ipa": "/iˈkwɒləti/",
+		"cefrLevel": "B1",
+		"frequency": 3800,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "equal", "pos": "adjective" },
+			{ "form": "equally", "pos": "adverb" },
+			{ "form": "equalize", "pos": "verb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The state of being equal in rights and status",
+				"viDef": "sự bình đẳng",
+				"synonyms": ["fairness", "parity", "uniformity"],
+				"antonyms": ["inequality"],
+				"examples": [
+					{
+						"text": "We are fighting for equality in the workplace.",
+						"viText": "Chúng tôi đang đấu tranh cho sự bình đẳng tại nơi làm việc."
+					},
+					{
+						"text": "The law guarantees equality for all citizens.",
+						"viText": "Luật pháp đảm bảo sự bình đẳng cho mọi công dân."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "gender equality",
+						"meaning": "The state of men and women being equal",
+						"viMeaning": "bình đẳng giới",
+						"example": "Gender equality is a major goal for many countries.",
+						"viExample": "Bình đẳng giới là một mục tiêu lớn của nhiều quốc gia."
+					},
+					{
+						"phrase": "racial equality",
+						"meaning": "People of all races having equal rights",
+						"viMeaning": "bình đẳng sắc tộc",
+						"example": "The movement sought to achieve racial equality.",
+						"viExample": "Phong trào đã tìm cách đạt được sự bình đẳng sắc tộc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "freedom",
+		"pos": "noun",
+		"ipa": "/ˈfriːdəm/",
+		"cefrLevel": "B1",
+		"frequency": 3050,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "free", "pos": "adjective" },
+			{ "form": "freely", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "The power or right to act and speak freely",
+				"viDef": "sự tự do",
+				"synonyms": ["liberty", "independence"],
+				"antonyms": ["slavery", "captivity"],
+				"examples": [
+					{
+						"text": "Everyone should have the freedom of speech.",
+						"viText": "Mọi người nên có quyền tự do ngôn luận."
+					},
+					{
+						"text": "He regained his freedom after five years in prison.",
+						"viText": "Anh ta đã lấy lại được sự tự do sau năm năm ở tù."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "freedom of speech",
+						"meaning": "The right to express opinions without censorship",
+						"viMeaning": "tự do ngôn luận",
+						"example": "Freedom of speech is a basic human right.",
+						"viExample": "Tự do ngôn luận là một quyền cơ bản của con người."
+					},
+					{
+						"phrase": "academic freedom",
+						"meaning": "The right of teachers to teach and research",
+						"viMeaning": "tự do học thuật",
+						"example": "The university protects academic freedom.",
+						"viExample": "Trường đại học bảo vệ sự tự do học thuật."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "democracy",
+		"pos": "noun",
+		"ipa": "/dɪˈmɒkrəsi/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "democratic", "pos": "adjective" },
+			{ "form": "democrat", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A system of government where people vote for leaders",
+				"viDef": "nền dân chủ",
+				"synonyms": ["republic", "self-government"],
+				"antonyms": ["dictatorship"],
+				"examples": [
+					{
+						"text": "The country is moving towards a full democracy.",
+						"viText": "Đất nước đang tiến tới một nền dân chủ đầy đủ."
+					},
+					{
+						"text": "In a democracy, every vote counts.",
+						"viText": "Trong một nền dân chủ, mỗi lá phiếu đều có giá trị."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "liberal democracy",
+						"meaning": "A democracy that protects individual rights",
+						"viMeaning": "dân chủ tự do",
+						"example": "Many Western nations are liberal democracies.",
+						"viExample": "Nhiều quốc gia phương Tây là các nền dân chủ tự do."
+					},
+					{
+						"phrase": "spread of democracy",
+						"meaning": "The expansion of democratic systems worldwide",
+						"viMeaning": "sự lan tỏa của dân chủ",
+						"example": "The spread of democracy has increased global stability.",
+						"viExample": "Sự lan tỏa của dân chủ đã làm tăng tính ổn định toàn cầu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "conflict",
+		"pos": "noun",
+		"ipa": "/ˈkɒnflɪkt/",
+		"cefrLevel": "B1",
+		"frequency": 3100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "conflict", "pos": "verb" },
+			{ "form": "conflicting", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A serious disagreement or argument",
+				"viDef": "xung đột, mâu thuẫn",
+				"synonyms": ["dispute", "quarrel", "fight"],
+				"antonyms": ["agreement", "peace"],
+				"examples": [
+					{
+						"text": "The regional conflict has lasted for decades.",
+						"viText": "Cuộc xung đột khu vực đã kéo dài trong nhiều thập kỷ."
+					},
+					{
+						"text": "There was a conflict of interest in the project.",
+						"viText": "Đã có một sự xung đột lợi ích trong dự án."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "armed conflict",
+						"meaning": "A fight involving weapons and armies",
+						"viMeaning": "xung đột vũ trang",
+						"example": "The area is currently experiencing armed conflict.",
+						"viExample": "Khu vực này hiện đang trải qua xung đột vũ trang."
+					},
+					{
+						"phrase": "resolve a conflict",
+						"meaning": "To find a solution to a disagreement",
+						"viMeaning": "giải quyết xung đột",
+						"example": "They are trying to resolve the conflict peacefully.",
+						"viExample": "Họ đang cố gắng giải quyết xung đột một cách hòa bình."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "peace",
+		"pos": "noun",
+		"ipa": "/piːs/",
+		"cefrLevel": "B1",
+		"frequency": 3020,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "peaceful", "pos": "adjective" },
+			{ "form": "peacefully", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A state of quiet and calm without war",
+				"viDef": "hòa bình, sự yên tĩnh",
+				"synonyms": ["tranquility", "calm", "harmony"],
+				"antonyms": ["war", "conflict"],
+				"examples": [
+					{
+						"text": "The countries finally signed a peace treaty.",
+						"viText": "Các quốc gia cuối cùng đã ký một hiệp ước hòa bình."
+					},
+					{
+						"text": "I enjoy the peace and quiet of the countryside.",
+						"viText": "Tôi tận hưởng sự hòa bình và yên tĩnh của vùng nông thôn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "peace treaty",
+						"meaning": "An agreement to end a war",
+						"viMeaning": "hiệp ước hòa bình",
+						"example": "A peace treaty was signed after years of war.",
+						"viExample": "Một hiệp ước hòa bình đã được ký kết sau nhiều năm chiến tranh."
+					},
+					{
+						"phrase": "world peace",
+						"meaning": "Freedom from war everywhere in the world",
+						"viMeaning": "hòa bình thế giới",
+						"example": "The organization works towards achieving world peace.",
+						"viExample": "Tổ chức này hoạt động hướng tới việc đạt được hòa bình thế giới."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "disaster",
+		"pos": "noun",
+		"ipa": "/dɪˈzɑːstə(r)/",
+		"cefrLevel": "B1",
+		"frequency": 3500,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "disastrous", "pos": "adjective" },
+			{ "form": "disastrously", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An event that causes great damage or suffering",
+				"viDef": "thảm họa",
+				"synonyms": ["catastrophe", "tragedy", "accident"],
+				"antonyms": ["success", "blessing"],
+				"examples": [
+					{
+						"text": "The earthquake was a major natural disaster.",
+						"viText": "Trận động đất là một thảm họa thiên nhiên lớn."
+					},
+					{
+						"text": "The party was a total disaster from the start.",
+						"viText": "Bữa tiệc là một thảm họa hoàn toàn ngay từ đầu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "natural disaster",
+						"meaning": "An event like a flood or earthquake",
+						"viMeaning": "thảm họa thiên nhiên",
+						"example": "The region is prone to natural disasters.",
+						"viExample": "Khu vực này rất dễ xảy ra thảm họa thiên nhiên."
+					},
+					{
+						"phrase": "disaster relief",
+						"meaning": "Help given to people after a catastrophe",
+						"viMeaning": "cứu trợ thảm họa",
+						"example": "Donations were sent for disaster relief.",
+						"viExample": "Các khoản quyên góp đã được gửi đi để cứu trợ thảm họa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "crisis",
+		"pos": "noun",
+		"ipa": "/ˈkraɪsɪs/",
+		"cefrLevel": "B1",
+		"frequency": 3200,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A time of great danger, difficulty, or doubt",
+				"viDef": "cuộc khủng hoảng",
+				"synonyms": ["emergency", "catastrophe", "critical point"],
+				"antonyms": ["stability"],
+				"examples": [
+					{
+						"text": "The country is facing a severe economic crisis.",
+						"viText": "Đất nước đang đối mặt với một cuộc khủng hoảng kinh tế nghiêm trọng."
+					},
+					{
+						"text": "The manager handled the crisis very well.",
+						"viText": "Người quản lý đã xử lý cuộc khủng hoảng rất tốt."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "financial crisis",
+						"meaning": "A situation where money systems fail",
+						"viMeaning": "khủng hoảng tài chính",
+						"example": "The 2008 financial crisis affected many people.",
+						"viExample": "Cuộc khủng hoảng tài chính năm 2008 đã ảnh hưởng đến nhiều người."
+					},
+					{
+						"phrase": "energy crisis",
+						"meaning": "A serious shortage of power or fuel",
+						"viMeaning": "khủng hoảng năng lượng",
+						"example": "The government is trying to avoid an energy crisis.",
+						"viExample": "Chính phủ đang cố gắng tránh một cuộc khủng hoảng năng lượng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "solution",
+		"pos": "noun",
+		"ipa": "/səˈluːʃn/",
+		"cefrLevel": "B1",
+		"frequency": 3040,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "solve", "pos": "verb" },
+			{ "form": "solvable", "pos": "adjective" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A way of solving a problem or difficulty",
+				"viDef": "giải pháp",
+				"synonyms": ["answer", "resolution", "remedy"],
+				"antonyms": ["problem"],
+				"examples": [
+					{
+						"text": "We need to find a permanent solution to the problem.",
+						"viText": "Chúng ta cần tìm một giải pháp lâu dài cho vấn đề này."
+					},
+					{
+						"text": "There is no simple solution to the traffic issue.",
+						"viText": "Không có giải pháp đơn giản cho vấn đề giao thông."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "effective solution",
+						"meaning": "A way of fixing something that works well",
+						"viMeaning": "giải pháp hiệu quả",
+						"example": "This seems to be an effective solution.",
+						"viExample": "Đây dường như là một giải pháp hiệu quả."
+					},
+					{
+						"phrase": "propose a solution",
+						"meaning": "To suggest a way to fix a problem",
+						"viMeaning": "đề xuất giải pháp",
+						"example": "The engineer proposed a solution to the leak.",
+						"viExample": "Kỹ sư đã đề xuất một giải pháp cho vụ rò rỉ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "reform",
+		"pos": "noun",
+		"ipa": "/rɪˈfɔːm/",
+		"cefrLevel": "B1",
+		"frequency": 3700,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "reform", "pos": "verb" },
+			{ "form": "reformer", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "An improvement made by changing a system",
+				"viDef": "cuộc cải cách",
+				"synonyms": ["improvement", "change", "refinement"],
+				"antonyms": [],
+				"examples": [
+					{
+						"text": "The government is planning major education reforms.",
+						"viText": "Chính phủ đang lên kế hoạch cho những cuộc cải cách giáo dục lớn."
+					},
+					{
+						"text": "Economic reform is necessary for the country's growth.",
+						"viText": "Cải cách kinh tế là cần thiết cho sự tăng trưởng của đất nước."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "social reform",
+						"meaning": "Changes aimed at improving people's lives",
+						"viMeaning": "cải cách xã hội",
+						"example": "The 19th century was a time of great social reform.",
+						"viExample": "Thế kỷ 19 là thời kỳ của những cuộc cải cách xã hội lớn."
+					},
+					{
+						"phrase": "land reform",
+						"meaning": "Changes in how land is owned or distributed",
+						"viMeaning": "cải cách ruộng đất",
+						"example": "The country underwent significant land reform.",
+						"viExample": "Đất nước đã trải qua một cuộc cải cách ruộng đất đáng kể."
+					}
+				]
+			}
+		]
+	}
+]

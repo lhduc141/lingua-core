@@ -1,0 +1,900 @@
+[
+	{
+		"headword": "equivocate",
+		"pos": "verb",
+		"ipa": "/ɪˈkwɪvəkeɪt/",
+		"cefrLevel": "C1",
+		"frequency": 9800,
+		"isCommon": false,
+		"wordForms": [{ "form": "equivocation", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Use ambiguous language so as to conceal the truth",
+				"viDef": "nói mập mờ, lấp liếm",
+				"synonyms": ["prevaricate", "hedge", "waver"],
+				"antonyms": ["confront", "state clearly"],
+				"examples": [
+					{
+						"text": "The politician began to equivocate when asked about the tax hike.",
+						"viText": "Chính trị gia bắt đầu nói mập mờ khi được hỏi về việc tăng thuế."
+					},
+					{
+						"text": "Don't equivocate; just give me a straight answer.",
+						"viText": "Đừng nói quanh co nữa; hãy cho tôi một câu trả lời thẳng thắn."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "equivocate on",
+						"meaning": "To be unclear about a specific subject",
+						"viMeaning": "mập mờ về",
+						"example": "The government continues to equivocate on environmental policy.",
+						"viExample": "Chính phủ tiếp tục mập mờ về chính sách môi trường."
+					},
+					{
+						"phrase": "refuse to equivocate",
+						"meaning": "To insist on being direct and honest",
+						"viMeaning": "từ chối nói quanh co",
+						"example": "She refused to equivocate and told the truth about the incident.",
+						"viExample": "Cô ấy từ chối nói quanh co và đã nói sự thật về vụ việc."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "facetious",
+		"pos": "adjective",
+		"ipa": "/fəˈsiːʃəs/",
+		"cefrLevel": "C1",
+		"frequency": 9400,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "facetiously", "pos": "adverb" },
+			{ "form": "facetiousness", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Treating serious issues with deliberately inappropriate humor",
+				"viDef": "khôi hài không đúng chỗ",
+				"synonyms": ["flippant", "glib", "jocular"],
+				"antonyms": ["serious", "solemn"],
+				"examples": [
+					{
+						"text": "I’m sorry, I was being facetious when I said I’d quit.",
+						"viText": "Tôi xin lỗi, tôi chỉ đang đùa cợt khi nói rằng mình sẽ nghỉ việc."
+					},
+					{
+						"text": "Stop being facetious; this is a very serious matter.",
+						"viText": "Đừng có đùa cợt kiểu đó nữa; đây là một vấn đề rất nghiêm túc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "facetious remark",
+						"meaning": "A comment that is meant to be funny but is annoying",
+						"viMeaning": "lời nhận xét đùa cợt",
+						"example": "His facetious remark during the funeral was very disrespectful.",
+						"viExample": "Lời nhận xét đùa cợt của anh ta trong đám tang thật là khiếm nhã."
+					},
+					{
+						"phrase": "purely facetious",
+						"meaning": "Completely meant as a joke",
+						"viMeaning": "hoàn toàn là đùa cợt",
+						"example": "My suggestion was purely facetious, not a real plan.",
+						"viExample": "Gợi ý của tôi hoàn toàn là đùa thôi, không phải kế hoạch thật đâu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "garrulous",
+		"pos": "adjective",
+		"ipa": "/ˈɡærələs/",
+		"cefrLevel": "C1",
+		"frequency": 9900,
+		"isCommon": false,
+		"wordForms": [{ "form": "garrulity", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Excessively talkative, especially on trivial matters",
+				"viDef": "ba hoa, lắm lời",
+				"synonyms": ["loquacious", "verbose", "chatty"],
+				"antonyms": ["taciturn", "reticent"],
+				"examples": [
+					{
+						"text": "The garrulous neighbor kept me talking for over an hour.",
+						"viText": "Người hàng xóm ba hoa đã giữ tôi nói chuyện hơn một giờ đồng hồ."
+					},
+					{
+						"text": "He became more garrulous after drinking a few glasses of wine.",
+						"viText": "Anh ta trở nên lắm lời hơn sau khi uống vài ly rượu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "increasingly garrulous",
+						"meaning": "Becoming more talkative over time",
+						"viMeaning": "ngày càng ba hoa",
+						"example": "He grew increasingly garrulous as he got older.",
+						"viExample": "Ông ấy ngày càng trở nên lắm lời hơn khi về già."
+					},
+					{
+						"phrase": "garrulous nature",
+						"meaning": "A personality trait of talking too much",
+						"viMeaning": "bản tính hay nói",
+						"example": "Her garrulous nature often annoyed her co-workers.",
+						"viExample": "Bản tính hay nói của cô ấy thường làm đồng nghiệp khó chịu."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "iconoclast",
+		"pos": "noun",
+		"ipa": "/aɪˈkɒnəklæst/",
+		"cefrLevel": "C1",
+		"frequency": 9700,
+		"isCommon": false,
+		"wordForms": [{ "form": "iconoclastic", "pos": "adjective" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A person who attacks cherished beliefs or institutions",
+				"viDef": "người bài trừ thần tượng",
+				"synonyms": ["rebel", "heretic", "nonconformist"],
+				"antonyms": ["conformist", "believer"],
+				"examples": [
+					{
+						"text": "As an iconoclast, he enjoyed challenging traditional art styles.",
+						"viText": "Là một người bài trừ truyền thống, anh ấy thích thách thức các phong cách nghệ thuật cũ."
+					},
+					{
+						"text": "The filmmaker was known as a political iconoclast.",
+						"viText": "Nhà làm phim được biết đến như một người bài trừ các thiết chế chính trị."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "cultural iconoclast",
+						"meaning": "Someone who challenges a society's deep values",
+						"viMeaning": "người bài trừ văn hóa",
+						"example": "The singer was a cultural iconoclast of the 1960s.",
+						"viExample": "Ca sĩ này là một người bài trừ các giá trị văn hóa những năm 1960."
+					},
+					{
+						"phrase": "intellectual iconoclast",
+						"meaning": "A thinker who rejects established theories",
+						"viMeaning": "nhà tư tưởng phá cách",
+						"example": "The scientist was an intellectual iconoclast who changed the field.",
+						"viExample": "Nhà khoa học là một người có tư tưởng phá cách đã thay đổi lĩnh vực này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "ignominious",
+		"pos": "adjective",
+		"ipa": "/ˌɪɡnəˈmɪniəs/",
+		"cefrLevel": "C1",
+		"frequency": 9850,
+		"isCommon": false,
+		"wordForms": [{ "form": "ignominy", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Deserving or causing public disgrace or shame",
+				"viDef": "nhục nhã, ô nhục",
+				"synonyms": ["shameful", "humiliating", "dishonorable"],
+				"antonyms": ["glorious", "admirable"],
+				"examples": [
+					{
+						"text": "The team suffered an ignominious defeat in the final.",
+						"viText": "Đội bóng đã phải chịu một thất bại nhục nhã trong trận chung kết."
+					},
+					{
+						"text": "His political career came to an ignominious end.",
+						"viText": "Sự nghiệp chính trị của ông ta đã kết thúc trong ô nhục."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "ignominious defeat",
+						"meaning": "A loss that is very embarrassing",
+						"viMeaning": "thất bại nhục nhã",
+						"example": "They faced an ignominious defeat at the hands of their rivals.",
+						"viExample": "Họ đã đối mặt với một thất bại nhục nhã dưới tay đối thủ."
+					},
+					{
+						"phrase": "ignominious exit",
+						"meaning": "Leaving a place or position in shame",
+						"viMeaning": "sự rời đi nhục nhã",
+						"example": "The CEO made an ignominious exit after the scandal.",
+						"viExample": "Vị CEO đã phải rời đi trong ô nhục sau vụ bê bối."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "inveterate",
+		"pos": "adjective",
+		"ipa": "/ɪnˈvetərət/",
+		"cefrLevel": "C1",
+		"frequency": 9600,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Having a long-established habit that is unlikely to change",
+				"viDef": "thâm căn cố đế, kinh niên",
+				"synonyms": ["ingrained", "habitual", "chronic"],
+				"antonyms": ["occasional"],
+				"examples": [
+					{
+						"text": "He is an inveterate liar who cannot be trusted.",
+						"viText": "Anh ta là một kẻ nói dối kinh niên, không thể tin tưởng được."
+					},
+					{
+						"text": "She is an inveterate traveler who is never home.",
+						"viText": "Cô ấy là một người đam mê du lịch đến mức chẳng bao giờ ở nhà."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "inveterate gambler",
+						"meaning": "Someone who cannot stop betting",
+						"viMeaning": "con bạc kinh niên",
+						"example": "The inveterate gambler lost his entire fortune.",
+						"viExample": "Con bạc kinh niên đó đã mất sạch gia sản."
+					},
+					{
+						"phrase": "inveterate habit",
+						"meaning": "A deep-seated behavior",
+						"viMeaning": "thói quen thâm căn cố đế",
+						"example": "Complaining had become an inveterate habit for him.",
+						"viExample": "Than vãn đã trở thành một thói quen thâm căn cố đế của anh ta."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "loquacious",
+		"pos": "adjective",
+		"ipa": "/ləˈkweɪʃəs/",
+		"cefrLevel": "C1",
+		"frequency": 9950,
+		"isCommon": false,
+		"wordForms": [{ "form": "loquacity", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Tending to talk a great deal; talkative",
+				"viDef": "nói nhiều, huyên thuyên",
+				"synonyms": ["garrulous", "voluble", "chatty"],
+				"antonyms": ["taciturn", "reticent"],
+				"examples": [
+					{
+						"text": "The loquacious host kept the guests entertained all night.",
+						"viText": "Người chủ nhà hiếu khách đã tiếp chuyện thực khách cả đêm."
+					},
+					{
+						"text": "He becomes quite loquacious after a few drinks.",
+						"viText": "Anh ta trở nên khá huyên thuyên sau vài ly rượu."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "unusually loquacious",
+						"meaning": "More talkative than normal",
+						"viMeaning": "nói nhiều bất thường",
+						"example": "She was unusually loquacious during the meeting.",
+						"viExample": "Cô ấy đã nói nhiều bất thường trong suốt cuộc họp."
+					},
+					{
+						"phrase": "loquacious person",
+						"meaning": "Someone who loves to talk",
+						"viMeaning": "người hay nói",
+						"example": "Being a loquacious person, he was perfect for the talk show.",
+						"viExample": "Là một người hay nói, anh ấy hoàn hảo cho chương trình trò chuyện này."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "magnanimous",
+		"pos": "adjective",
+		"ipa": "/mæɡˈnænɪməs/",
+		"cefrLevel": "C1",
+		"frequency": 9100,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "magnanimity", "pos": "noun" },
+			{ "form": "magnanimously", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Generous or forgiving, especially toward a rival",
+				"viDef": "hào hiệp, độ lượng",
+				"synonyms": ["generous", "charitable", "noble"],
+				"antonyms": ["mean-spirited", "selfish"],
+				"examples": [
+					{
+						"text": "He was magnanimous in victory and shook his rival's hand.",
+						"viText": "Anh ấy đã rất độ lượng khi chiến thắng và đã bắt tay đối thủ."
+					},
+					{
+						"text": "It was a magnanimous gesture to offer help to his enemy.",
+						"viText": "Đó là một nghĩa cử hào hiệp khi đề nghị giúp đỡ kẻ thù của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "magnanimous gesture",
+						"meaning": "An act of kindness toward someone who doesn't expect it",
+						"viMeaning": "nghĩa cử cao đẹp",
+						"example": "Forgiving the debt was a magnanimous gesture.",
+						"viExample": "Xóa nợ là một nghĩa cử cao đẹp."
+					},
+					{
+						"phrase": "magnanimous spirit",
+						"meaning": "A noble and forgiving character",
+						"viMeaning": "tâm hồn độ lượng",
+						"example": "Her magnanimous spirit inspired everyone in the group.",
+						"viExample": "Tâm hồn độ lượng của cô ấy đã truyền cảm hứng cho mọi người trong nhóm."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "nefarious",
+		"pos": "adjective",
+		"ipa": "/nɪˈfeəriəs/",
+		"cefrLevel": "C1",
+		"frequency": 9750,
+		"isCommon": false,
+		"wordForms": [{ "form": "nefariously", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "(typically of an action) wicked or criminal",
+				"viDef": "hung ác, bất chính",
+				"synonyms": ["wicked", "evil", "villainous"],
+				"antonyms": ["good", "admirable"],
+				"examples": [
+					{
+						"text": "The hacker had nefarious intentions when he broke into the system.",
+						"viText": "Tên hacker đã có những ý đồ bất chính khi đột nhập vào hệ thống."
+					},
+					{
+						"text": "They were involved in a nefarious plot to steal the jewels.",
+						"viText": "Họ đã tham gia vào một âm mưu bất chính để đánh cắp trang sức."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "nefarious activities",
+						"meaning": "Illegal or wicked behaviors",
+						"viMeaning": "hoạt động bất chính",
+						"example": "The police are monitoring his nefarious activities.",
+						"viExample": "Cảnh sát đang giám sát các hoạt động bất chính của ông ta."
+					},
+					{
+						"phrase": "nefarious purposes",
+						"meaning": "Evil reasons for doing something",
+						"viMeaning": "mục đích xấu xa",
+						"example": "The chemicals were used for nefarious purposes.",
+						"viExample": "Các hóa chất đã được sử dụng cho những mục đích xấu xa."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "obsequious",
+		"pos": "adjective",
+		"ipa": "/əbˈsiːkwiəs/",
+		"cefrLevel": "C1",
+		"frequency": 9900,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "obsequiously", "pos": "adverb" },
+			{ "form": "obsequiousness", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Obedient or attentive to an excessive or servile degree",
+				"viDef": "khúm núm, xun xoe",
+				"synonyms": ["servile", "ingratiating", "fawning"],
+				"antonyms": ["domineering", "arrogant"],
+				"examples": [
+					{
+						"text": "The waiter was obsequious, constantly checking if we needed anything.",
+						"viText": "Người bồi bàn rất xun xoe, liên tục kiểm tra xem chúng tôi có cần gì không."
+					},
+					{
+						"text": "He was surrounded by obsequious assistants who never disagreed.",
+						"viText": "Anh ta bị bao quanh bởi những trợ lý khúm núm, những người chẳng bao giờ phản đối."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "obsequious smile",
+						"meaning": "A fake smile meant to please someone in power",
+						"viMeaning": "nụ cười xun xoe",
+						"example": "He greeted the boss with an obsequious smile.",
+						"viExample": "Anh ta chào sếp với một nụ cười xun xoe."
+					},
+					{
+						"phrase": "obsequious behavior",
+						"meaning": "Acting like a servant to gain favor",
+						"viMeaning": "hành vi khúm núm",
+						"example": "Everyone was disgusted by his obsequious behavior.",
+						"viExample": "Mọi người đều ghê tởm hành vi khúm núm của anh ta."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "pedantic",
+		"pos": "adjective",
+		"ipa": "/pɪˈdæntɪk/",
+		"cefrLevel": "C1",
+		"frequency": 9200,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "pedantry", "pos": "noun" },
+			{ "form": "pedantically", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Excessively concerned with minor details and rules",
+				"viDef": "tầm chương trích cú, nệ luật",
+				"synonyms": ["fastidious", "punctilious", "meticulous"],
+				"antonyms": ["careless", "informal"],
+				"examples": [
+					{
+						"text": "Stop being so pedantic; a small spelling error doesn't matter.",
+						"viText": "Đừng có nệ luật quá; một lỗi chính tả nhỏ không quan trọng đâu."
+					},
+					{
+						"text": "The professor's pedantic style made the lectures boring.",
+						"viText": "Phong cách nệ luật của vị giáo sư đã làm các bài giảng trở nên nhàm chán."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "pedantic detail",
+						"meaning": "Focusing on tiny, unimportant points",
+						"viMeaning": "chi tiết vụn vặt",
+						"example": "He corrected every pedantic detail in the report.",
+						"viExample": "Anh ta đã sửa từng chi tiết vụn vặt trong bản báo cáo."
+					},
+					{
+						"phrase": "pedantic approach",
+						"meaning": "A way of working that follows rules too strictly",
+						"viMeaning": "cách tiếp cận nệ luật",
+						"example": "The manager's pedantic approach slowed down the project.",
+						"viExample": "Cách tiếp cận nệ luật của người quản lý đã làm chậm dự án."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "perfidious",
+		"pos": "adjective",
+		"ipa": "/pəˈfɪdiəs/",
+		"cefrLevel": "C1",
+		"frequency": 9980,
+		"isCommon": false,
+		"wordForms": [{ "form": "perfidy", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Deceitful and untrustworthy",
+				"viDef": "phản bội, xảo trá",
+				"synonyms": ["treacherous", "disloyal", "deceitful"],
+				"antonyms": ["faithful", "loyal"],
+				"examples": [
+					{
+						"text": "He was a perfidious lover who cheated on her multiple times.",
+						"viText": "Anh ta là một kẻ tình nhân xảo trá đã lừa dối cô nhiều lần."
+					},
+					{
+						"text": "The king was betrayed by his perfidious advisors.",
+						"viText": "Nhà vua đã bị phản bội bởi những cố vấn xảo trá của mình."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "perfidious act",
+						"meaning": "A behavior that breaks trust or loyalty",
+						"viMeaning": "hành động phản bội",
+						"example": "Stealing trade secrets is a perfidious act.",
+						"viExample": "Đánh cắp bí mật thương mại là một hành động phản bội."
+					},
+					{
+						"phrase": "perfidious nature",
+						"meaning": "A personality that cannot be trusted",
+						"viMeaning": "bản chất xảo trá",
+						"example": "Her perfidious nature was revealed when she told his secrets.",
+						"viExample": "Bản chất xảo trá của cô ấy đã lộ ra khi cô nói ra những bí mật của anh."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "recriminate",
+		"pos": "verb",
+		"ipa": "/rɪˈkrɪmɪneɪt/",
+		"cefrLevel": "C1",
+		"frequency": 9950,
+		"isCommon": false,
+		"wordForms": [{ "form": "recrimination", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Make counter-accusations",
+				"viDef": "buộc tội lẫn nhau",
+				"synonyms": ["counter-accuse", "retaliate"],
+				"antonyms": ["agree", "forgive"],
+				"examples": [
+					{
+						"text": "After the project failed, the team members began to recriminate.",
+						"viText": "Sau khi dự án thất bại, các thành viên trong nhóm bắt đầu buộc tội lẫn nhau."
+					},
+					{
+						"text": "There is no point in recriminating now; we need a solution.",
+						"viText": "Bây giờ buộc tội lẫn nhau chẳng ích gì; chúng ta cần một giải pháp."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "mutual recrimination",
+						"meaning": "Two people or groups blaming each other",
+						"viMeaning": "buộc tội lẫn nhau",
+						"example": "The divorce ended in mutual recrimination.",
+						"viExample": "Vụ ly hôn đã kết thúc trong sự buộc tội lẫn nhau."
+					},
+					{
+						"phrase": "bitter recrimination",
+						"meaning": "Angry and hurtful blaming",
+						"viMeaning": "sự buộc tội cay nghiệt",
+						"example": "The meeting dissolved into bitter recrimination.",
+						"viExample": "Cuộc họp đã tan vỡ trong sự buộc tội cay nghiệt lẫn nhau."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "sanguine",
+		"pos": "adjective",
+		"ipa": "/ˈsæŋɡwɪn/",
+		"cefrLevel": "C1",
+		"frequency": 8800,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Optimistic or positive, especially in a difficult situation",
+				"viDef": "lạc quan, đầy hy vọng",
+				"synonyms": ["optimistic", "hopeful", "buoyant"],
+				"antonyms": ["pessimistic", "gloomy"],
+				"examples": [
+					{
+						"text": "He is sanguine about the company’s future despite the losses.",
+						"viText": "Anh ấy lạc quan về tương lai công ty bất chấp những thua lỗ."
+					},
+					{
+						"text": "She has a sanguine personality and always sees the bright side.",
+						"viText": "Cô ấy có một tính cách lạc quan và luôn nhìn vào mặt tích cực."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "sanguine about",
+						"meaning": "To feel positive regarding a specific outcome",
+						"viMeaning": "lạc quan về",
+						"example": "The investors are sanguine about the new product's success.",
+						"viExample": "Các nhà đầu tư đang lạc quan về sự thành công của sản phẩm mới."
+					},
+					{
+						"phrase": "remain sanguine",
+						"meaning": "To stay hopeful even when things go wrong",
+						"viMeaning": "vẫn giữ lạc quan",
+						"example": "Despite the delay, he remained sanguine about the deadline.",
+						"viExample": "Bất chấp sự trì hoãn, anh ấy vẫn lạc quan về thời hạn."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "solipsistic",
+		"pos": "adjective",
+		"ipa": "/ˌsɒlɪpˈsɪstɪk/",
+		"cefrLevel": "C1",
+		"frequency": 9985,
+		"isCommon": false,
+		"wordForms": [{ "form": "solipsism", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Very self-centered; believing only one's self exists",
+				"viDef": "duy kỷ, cực kỳ ích kỷ",
+				"synonyms": ["self-absorbed", "egocentric"],
+				"antonyms": ["altruistic", "selfless"],
+				"examples": [
+					{
+						"text": "He has a solipsistic view of the world, ignoring everyone's needs.",
+						"viText": "Anh ta có cái nhìn duy kỷ về thế giới, phớt lờ nhu cầu của mọi người."
+					},
+					{
+						"text": "The artist's work was criticized for being too solipsistic.",
+						"viText": "Tác phẩm của người họa sĩ bị chỉ trích là quá duy kỷ."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "solipsistic world",
+						"meaning": "A mental state where only one's own ideas matter",
+						"viMeaning": "thế giới duy kỷ",
+						"example": "He lives in a solipsistic world of his own thoughts.",
+						"viExample": "Anh ta sống trong một thế giới duy kỷ với những suy nghĩ của riêng mình."
+					},
+					{
+						"phrase": "increasingly solipsistic",
+						"meaning": "Becoming more focused only on oneself",
+						"viMeaning": "ngày càng duy kỷ",
+						"example": "Fame made the actor increasingly solipsistic.",
+						"viExample": "Sự nổi tiếng làm nam diễn viên ngày càng trở nên duy kỷ."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "supercilious",
+		"pos": "adjective",
+		"ipa": "/ˌsuːpəˈsɪliəs/",
+		"cefrLevel": "C1",
+		"frequency": 9950,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "superciliously", "pos": "adverb" },
+			{ "form": "superciliousness", "pos": "noun" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Behaving as though one thinks one is superior to others",
+				"viDef": "kiêu kỳ, khinh khỉnh",
+				"synonyms": ["arrogant", "haughty", "disdainful"],
+				"antonyms": ["humble", "modest"],
+				"examples": [
+					{
+						"text": "The supercilious sales assistant ignored the customer.",
+						"viText": "Người trợ lý bán hàng khinh khỉnh đã phớt lờ khách hàng."
+					},
+					{
+						"text": "He gave us a supercilious look and walked away.",
+						"viText": "Anh ta nhìn chúng tôi một cách khinh khỉnh rồi bỏ đi."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "supercilious attitude",
+						"meaning": "A mindset that shows you think you are better than others",
+						"viMeaning": "thái độ kiêu kỳ",
+						"example": "Her supercilious attitude made her unpopular at work.",
+						"viExample": "Thái độ kiêu kỳ của cô ấy khiến cô không được lòng mọi người ở nơi làm việc."
+					},
+					{
+						"phrase": "supercilious smile",
+						"meaning": "A grin that expresses contempt",
+						"viMeaning": "nụ cười khinh khỉnh",
+						"example": "He had a supercilious smile on his face throughout the meeting.",
+						"viExample": "Anh ta luôn nở một nụ cười khinh khỉnh trong suốt cuộc họp."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "trepidation",
+		"pos": "noun",
+		"ipa": "/ˌtrepɪˈdeɪʃn/",
+		"cefrLevel": "C1",
+		"frequency": 8600,
+		"isCommon": false,
+		"wordForms": [],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "A feeling of fear or agitation about something that may happen",
+				"viDef": "sự lo âu, bồn chồn",
+				"synonyms": ["apprehension", "dread", "anxiety"],
+				"antonyms": ["confidence", "calm"],
+				"examples": [
+					{
+						"text": "She walked onto the stage with a sense of trepidation.",
+						"viText": "Cô bước lên sân khấu với một cảm giác lo âu."
+					},
+					{
+						"text": "There was some trepidation about the new changes in the office.",
+						"viText": "Có một sự bồn chồn lo lắng về những thay đổi mới trong văn phòng."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "great trepidation",
+						"meaning": "A high level of fear regarding a future event",
+						"viMeaning": "sự lo sợ tột độ",
+						"example": "The soldiers waited for the attack with great trepidation.",
+						"viExample": "Những người lính chờ đợi cuộc tấn công với sự lo sợ tột độ."
+					},
+					{
+						"phrase": "sense of trepidation",
+						"meaning": "A general feeling of being nervous about what's next",
+						"viMeaning": "cảm giác bồn chồn",
+						"example": "He opened the envelope with a sense of trepidation.",
+						"viExample": "Anh mở phong bì với một cảm giác bồn chồn lo lắng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "venerate",
+		"pos": "verb",
+		"ipa": "/ˈvenəreɪt/",
+		"cefrLevel": "C1",
+		"frequency": 9300,
+		"isCommon": false,
+		"wordForms": [{ "form": "veneration", "pos": "noun" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "Regard with great respect; revere",
+				"viDef": "tôn kính, kính trọng",
+				"synonyms": ["revere", "worship", "hallow"],
+				"antonyms": ["despise", "dishonor"],
+				"examples": [
+					{
+						"text": "In many cultures, people venerate their ancestors.",
+						"viText": "Trong nhiều nền văn hóa, người ta tôn kính tổ tiên của mình."
+					},
+					{
+						"text": "The local saint is venerated by the entire village.",
+						"viText": "Vị thánh địa phương được cả ngôi làng tôn kính."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "highly venerated",
+						"meaning": "Respected by many people at a very high level",
+						"viMeaning": "được tôn kính cao",
+						"example": "He is a highly venerated figure in the history of science.",
+						"viExample": "Ông là một nhân vật được tôn kính cao trong lịch sử khoa học."
+					},
+					{
+						"phrase": "venerate as",
+						"meaning": "To treat someone like a specific respected figure",
+						"viMeaning": "tôn kính như là",
+						"example": "The leader was venerated as a hero by his followers.",
+						"viExample": "Nhà lãnh đạo được những người theo chân tôn kính như một vị anh hùng."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "wanton",
+		"pos": "adjective",
+		"ipa": "/ˈwɒntən/",
+		"cefrLevel": "C1",
+		"frequency": 9950,
+		"isCommon": false,
+		"wordForms": [{ "form": "wantonly", "pos": "adverb" }],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "(of a cruel or violent action) deliberate and unprovoked",
+				"viDef": "vô cớ, tùy tiện, dâm đãng",
+				"synonyms": ["malicious", "gratuitous", "reckless"],
+				"antonyms": ["justifiable", "careful"],
+				"examples": [
+					{
+						"text": "The building was destroyed in an act of wanton violence.",
+						"viText": "Tòa nhà đã bị phá hủy trong một hành động bạo lực vô cớ."
+					},
+					{
+						"text": "She was criticized for her wanton disregard for the rules.",
+						"viText": "Cô ấy bị chỉ trích vì sự coi thường các quy tắc một cách tùy tiện."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "wanton destruction",
+						"meaning": "Ruining something for no good reason",
+						"viMeaning": "sự phá hoại vô cớ",
+						"example": "The war resulted in the wanton destruction of historical sites.",
+						"viExample": "Cuộc chiến đã dẫn đến sự phá hoại vô cớ các di tích lịch sử."
+					},
+					{
+						"phrase": "wanton disregard",
+						"meaning": "Completely ignoring safety or rules on purpose",
+						"viMeaning": "sự coi thường tùy tiện",
+						"example": "He showed a wanton disregard for the lives of others.",
+						"viExample": "Anh ta đã thể hiện một sự coi thường tùy tiện đối với mạng sống của người khác."
+					}
+				]
+			}
+		]
+	},
+	{
+		"headword": "acrimonious",
+		"pos": "adjective",
+		"ipa": "/ˌækrɪˈməʊniəs/",
+		"cefrLevel": "C1",
+		"frequency": 9150,
+		"isCommon": false,
+		"wordForms": [
+			{ "form": "acrimony", "pos": "noun" },
+			{ "form": "acrimoniously", "pos": "adverb" }
+		],
+		"senses": [
+			{
+				"order": 1,
+				"shortDef": "(typically of a speech or debate) angry and bitter",
+				"viDef": "cay nghiệt, chua chát",
+				"synonyms": ["bitter", "rancorous", "caustic"],
+				"antonyms": ["harmonious", "peaceful"],
+				"examples": [
+					{
+						"text": "Their marriage ended after an acrimonious divorce.",
+						"viText": "Cuộc hôn nhân của họ kết thúc sau một vụ ly hôn cay nghiệt."
+					},
+					{
+						"text": "The meeting became acrimonious as they began to argue about money.",
+						"viText": "Cuộc họp trở nên cay nghiệt khi họ bắt đầu tranh cãi về tiền bạc."
+					}
+				],
+				"collocations": [
+					{
+						"phrase": "acrimonious debate",
+						"meaning": "A discussion where people are very angry at each other",
+						"viMeaning": "cuộc tranh luận gay gắt",
+						"example": "The proposal triggered an acrimonious debate in parliament.",
+						"viExample": "Đề xuất này đã gây ra một cuộc tranh luận gay gắt trong nghị viện."
+					},
+					{
+						"phrase": "increasingly acrimonious",
+						"meaning": "Becoming more bitter as time goes on",
+						"viMeaning": "ngày càng cay nghiệt",
+						"example": "The relationship between the two countries grew increasingly acrimonious.",
+						"viExample": "Mối quan hệ giữa hai nước ngày càng trở nên cay nghiệt."
+					}
+				]
+			}
+		]
+	}
+]
