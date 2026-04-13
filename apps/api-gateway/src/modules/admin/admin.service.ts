@@ -1,13 +1,20 @@
-import { PrismaService } from '../../../../../prisma/prisma.service';
-import { CreatePassageDto } from './dto/create-passage.dto';
-import { CreateQuestionDto } from './dto/create-question.dto';
-import { CreateLessonDto } from './dto/create-lesson.dto';
-import { CreateQuestionSetDto } from './dto/create-question-set.dto';
-import { BulkImportDictionaryDto } from './dto/bulk-import-dictionary.dto';
-import { ListUsersDto } from './dto/list-users.dto';
 import { Injectable, Logger } from '@nestjs/common';
-import { BadRequestException, NotFoundException } from '@app/shared';
-import { PassageSelect, UserSelect } from '../../../../../prisma/selects';
+import { BadRequestException, NotFoundException, PagingDataDto, ResponseDto } from '@app/shared';
+import { PrismaService } from '../../../../../prisma/prisma.service';
+import { LessonSelect, PassageSelect, PlacementSessionSelect, UserSelect } from '../../../../../prisma/selects';
+import {
+	BulkImportDictionaryDto,
+	CreateLessonDto,
+	CreatePassageDto,
+	CreateQuestionDto,
+	CreateQuestionSetDto,
+	ListAdminLessonsDto,
+	ListPlacementSessionsDto,
+	ListUsersDto,
+	QuestionType,
+	UpdateLessonStatusDto,
+} from './dto';
+import { SkillPerfRow } from './interface';
 
 @Injectable()
 export class AdminService {
@@ -16,11 +23,9 @@ export class AdminService {
 	constructor(private prisma: PrismaService) {}
 
 	// PASSAGE MANAGEMENT
-
 	async createPassage(dto: CreatePassageDto) {
 		try {
 			const wordCount = dto.wordCount ?? this.calculateWordCount(dto.content);
-
 			const passage = await this.prisma.passage.create({
 				data: {
 					title: dto.title,
@@ -32,9 +37,7 @@ export class AdminService {
 				},
 				select: PassageSelect.create,
 			});
-
 			this.logger.log(`Passage created: ${passage.passageId}`);
-
 			return passage;
 		} catch (error) {
 			this.logger.error(`Failed to create passage: ${error.message}`, error.stack);
@@ -43,7 +46,6 @@ export class AdminService {
 	}
 
 	// QUESTION MANAGEMENT
-
 	async createQuestion(dto: CreateQuestionDto) {
 		try {
 			const isMcqType = ['mcq_single', 'mcq_multi', 'fill_blank', 'cloze_bank'].includes(dto.type);
@@ -51,23 +53,19 @@ export class AdminService {
 			if (isMcqType && (!dto.options || dto.options.length === 0))
 				throw new BadRequestException(`Question type ${dto.type} requires at least one option`);
 
-			if (isMcqType && dto.type === 'mcq_single') {
+			if (isMcqType && dto.type === QuestionType.MCQ_SINGLE) {
 				const correctCount = dto.options?.filter((opt) => opt.isCorrect).length || 0;
 				if (correctCount !== 1) throw new BadRequestException('MCQ Single must have exactly 1 correct answer');
 			}
 
-			if (isMcqType && dto.type === 'mcq_multi') {
+			if (isMcqType && dto.type === QuestionType.MCQ_MULTI) {
 				const correctCount = dto.options?.filter((opt) => opt.isCorrect).length || 0;
 				if (correctCount < 1) throw new BadRequestException('MCQ Multi must have at least 1 correct answer');
 			}
 
 			if (dto.passageId) {
-				const passage = await this.prisma.passage.findUnique({
-					where: { passageId: dto.passageId },
-				});
-				if (!passage) {
-					throw new NotFoundException(`Passage ${dto.passageId} not found`);
-				}
+				const passage = await this.prisma.passage.findUnique({ where: { passageId: dto.passageId } });
+				if (!passage) throw new NotFoundException(`Passage ${dto.passageId} not found`);
 			}
 
 			const question = await this.prisma.question.create({
@@ -79,14 +77,7 @@ export class AdminService {
 					timeLimitSec: dto.timeLimitSec,
 					maxScore: dto.maxScore ?? 1,
 					sourceTag: dto.sourceTag,
-
-					translations: {
-						create: {
-							locale: 'en',
-							stemText: dto.stemText,
-						},
-					},
-
+					translations: { create: { locale: 'en', stemText: dto.stemText } },
 					options: dto.options
 						? {
 								create: dto.options.map((opt, index) => ({
@@ -106,16 +97,11 @@ export class AdminService {
 				},
 				include: {
 					translations: true,
-					options: {
-						include: {
-							translations: true,
-						},
-					},
+					options: { include: { translations: true } },
 				},
 			});
 
 			this.logger.log(`Question created: ${question.questionId} (type: ${question.type})`);
-
 			return {
 				questionId: question.questionId,
 				type: question.type,
@@ -127,7 +113,10 @@ export class AdminService {
 		}
 	}
 
+	// ==========================================
 	// LESSON MANAGEMENT
+	// ==========================================
+
 	async createLesson(dto: CreateLessonDto) {
 		try {
 			if (dto.questionIds && dto.questionIds.length > 0) {
@@ -137,7 +126,6 @@ export class AdminService {
 				if (questions.length !== dto.questionIds.length)
 					throw new BadRequestException('Some questions not found');
 			}
-
 			if (dto.prerequisites && dto.prerequisites.length > 0) {
 				const prereqLessons = await this.prisma.lesson.findMany({
 					where: { lessonId: { in: dto.prerequisites } },
@@ -151,116 +139,72 @@ export class AdminService {
 					skillName: dto.skillName,
 					title: dto.title,
 					description: dto.description,
-
 					theoryContent: dto.theoryContent ? ({ sections: dto.theoryContent } as any) : null,
 					prerequisites: (dto.prerequisites || null) as any,
-
 					cefrLevel: dto.cefrLevel,
 					estimatedMinutes: dto.estimatedMinutes,
 					status: (dto.status ?? 'draft') as any,
-
 					lessonQuestions: dto.questionIds
-						? {
-								create: dto.questionIds.map((qId, index) => ({
-									questionId: qId,
-									position: index + 1,
-								})),
-							}
+						? { create: dto.questionIds.map((qId, index) => ({ questionId: qId, position: index + 1 })) }
 						: undefined,
 				},
-				include: {
-					lessonQuestions: {
-						include: { question: true },
-					},
-				},
+				include: { lessonQuestions: { include: { question: true } } },
 			});
 
 			return {
 				lessonId: lesson.lessonId,
 				skillName: lesson.skillName,
 				title: lesson.title,
-				questionCount: lesson.lessonQuestions.length,
+				status: lesson.status,
 			};
 		} catch (error) {
+			this.logger.error(`Failed to create lesson: ${error.message}`, error.stack);
 			throw error;
 		}
 	}
 
-	// PRACTICE SESSION MANAGEMENT
+	// ==========================================
+	// QUESTION SET MANAGEMENT
+	// ==========================================
 
 	async createQuestionSet(dto: CreateQuestionSetDto) {
 		try {
-			const questions = await this.prisma.question.findMany({
-				where: { questionId: { in: dto.questionIds } },
-			});
-			if (questions.length !== dto.questionIds.length) throw new BadRequestException('Some questions not found');
-
 			const questionSet = await this.prisma.questionSet.create({
 				data: {
-					skillName: dto.skillName,
 					title: dto.title,
 					description: dto.description,
+					skillName: dto.skillName as any,
 					cefrLevel: dto.cefrLevel,
 					estimatedMinutes: dto.estimatedMinutes,
-					isActive: dto.isActive ?? true,
-
-					items: {
-						create: dto.questionIds.map((qId, index) => ({
-							questionId: qId,
-							position: index + 1,
-						})),
-					},
-				},
-				include: {
-					items: {
-						include: { question: true },
-					},
+					items: dto.questionIds
+						? { create: dto.questionIds.map((qId, index) => ({ questionId: qId, position: index + 1 })) }
+						: undefined,
 				},
 			});
-
-			return {
-				questionSetId: questionSet.questionSetId,
-				skillName: questionSet.skillName,
-				title: questionSet.title,
-				questionCount: questionSet.items.length,
-			};
+			return { questionSetId: questionSet.questionSetId, title: questionSet.title };
 		} catch (error) {
-			throw error;
+			this.logger.error(`Failed to create question set: ${error.message}`, error.stack);
+			throw new BadRequestException('Failed to create question set');
 		}
 	}
 
 	// DICTIONARY IMPORT
 	async bulkImportDictionary(dto: BulkImportDictionaryDto) {
 		try {
-			const decoded = Buffer.from(dto.data, 'base64').toString('utf-8');
+			const raw = Buffer.from(dto.data, 'base64').toString('utf-8');
+			const entries = JSON.parse(raw);
 
-			let entries: any[] = [];
-
-			if (dto.format === 'json') entries = JSON.parse(decoded);
-			else if (dto.format === 'csv') {
-				const lines = decoded.split('\n');
-				const headers = lines[0].split(',');
-
-				entries = lines.slice(1).map((line) => {
-					const values = line.split(',');
-					const entry: any = {};
-					headers.forEach((header, index) => {
-						entry[header.trim()] = values[index]?.trim();
-					});
-					return entry;
-				});
-			}
-
-			const results = {
-				imported: 0,
-				failed: 0,
-				errors: [] as any[],
-			};
+			const results = { imported: 0, skipped: 0, failed: 0, errors: [] as any[] };
 
 			for (let i = 0; i < entries.length; i++) {
 				const entry = entries[i];
-
 				try {
+					const existing = await this.prisma.dictEntry.findFirst({ where: { headword: entry.headword } });
+					if (existing) {
+						results.skipped++;
+						continue;
+					}
+
 					await this.prisma.$transaction(async (tx) => {
 						const dictEntry = await tx.dictEntry.create({
 							data: {
@@ -269,66 +213,67 @@ export class AdminService {
 								pos: entry.pos,
 								ipa: entry.ipa,
 								cefrLevel: entry.cefrLevel,
-								frequency: entry.frequency ? parseInt(entry.frequency) : null,
-								isCommon: entry.isCommon === 'true' || entry.isCommon === true,
-								// variants: entry.variants || null,
+								source: 'manual',
 							},
 						});
 
-						if (entry.senses && Array.isArray(entry.senses)) {
-							for (const sense of entry.senses) {
-								const dictSense = await tx.dictSense.create({
-									data: {
-										entryId: dictEntry.entryId,
-										order: sense.order,
-										shortDef: sense.shortDef,
-										viDef: sense.viDef,
-										synonyms: sense.synonyms || null,
-										antonyms: sense.antonyms || null,
-									},
+						if (entry.wordForms) {
+							for (const wf of entry.wordForms) {
+								await tx.wordForm.upsert({
+									where: { form: wf.form },
+									update: {},
+									create: { entryId: dictEntry.entryId, form: wf.form, pos: wf.pos },
 								});
+							}
+						}
 
-								if (sense.examples) {
-									for (const ex of sense.examples) {
-										await tx.dictExample.create({
-											data: {
-												senseId: dictSense.senseId,
-												example: ex.example,
-												translation: ex.translation,
-											},
-										});
-									}
+						for (const sense of entry.senses) {
+							const dictSense = await tx.dictSense.create({
+								data: {
+									entryId: dictEntry.entryId,
+									order: sense.order,
+									shortDef: sense.shortDef,
+									viDef: sense.viDef,
+									synonyms: sense.synonyms || null,
+									antonyms: sense.antonyms || null,
+								},
+							});
+
+							if (sense.examples) {
+								for (const ex of sense.examples) {
+									await tx.dictExample.create({
+										data: {
+											senseId: dictSense.senseId,
+											example: ex.example,
+											translation: ex.translation,
+										},
+									});
 								}
+							}
 
-								if (sense.collocations) {
-									for (const coll of sense.collocations) {
-										await tx.collocation.create({
-											data: {
-												entryId: dictEntry.entryId,
-												senseId: dictSense.senseId,
-												phrase: coll.phrase,
-												meaning: coll.meaning,
-												viMeaning: coll.viMeaning,
-												example: coll.example,
-												viExample: coll.viExample,
-												frequency: coll.frequency,
-												cefrLevel: coll.cefrLevel,
-											},
-										});
-									}
+							if (sense.collocations) {
+								for (const coll of sense.collocations) {
+									await tx.collocation.create({
+										data: {
+											entryId: dictEntry.entryId,
+											senseId: dictSense.senseId,
+											phrase: coll.phrase,
+											meaning: coll.meaning,
+											viMeaning: coll.viMeaning,
+											example: coll.example,
+											viExample: coll.viExample,
+											frequency: coll.frequency,
+											cefrLevel: coll.cefrLevel,
+										},
+									});
 								}
 							}
 						}
 					});
-
 					results.imported++;
 				} catch (error) {
 					results.failed++;
-					results.errors.push({
-						row: i + 1,
-						headword: entry.headword,
-						error: error.message,
-					});
+					results.errors.push({ row: i + 1, headword: entry.headword, error: error.message });
 				}
 			}
 
@@ -338,17 +283,12 @@ export class AdminService {
 		}
 	}
 
-	// ==========================================
 	// USER MANAGEMENT
-	// ==========================================
-
 	async listUsers(query: ListUsersDto) {
 		try {
 			const { search, isActive, isAdmin, limit = 50, offset = 0 } = query;
 
-			const where: any = {
-				deletedAt: null,
-			};
+			const where: any = { deletedAt: null };
 
 			if (search) {
 				where.OR = [
@@ -356,14 +296,8 @@ export class AdminService {
 					{ googleName: { contains: search, mode: 'insensitive' } },
 				];
 			}
-
-			if (isActive !== undefined) {
-				where.isActive = isActive;
-			}
-
-			if (isAdmin !== undefined) {
-				where.isAdmin = isAdmin;
-			}
+			if (isActive !== undefined) where.isActive = isActive;
+			if (isAdmin !== undefined) where.isAdmin = isAdmin;
 
 			const [users, total] = await Promise.all([
 				this.prisma.user.findMany({
@@ -375,20 +309,20 @@ export class AdminService {
 				}),
 				this.prisma.user.count({ where }),
 			]);
+			const rows = users.map((u) => ({
+				...u,
+				cefrLevel: u.placementSessions[0]?.cefrLevel ?? null,
+				placementSessions: undefined,
+			}));
 
-			return {
-				users,
-				total,
-				limit,
-				offset,
-			};
+			return { users: rows, total, limit, offset };
 		} catch (error) {
 			this.logger.error(`Failed to list users: ${error.message}`, error.stack);
 			throw error;
 		}
 	}
 
-	// SYSTEM STATISTICS
+	// SYSTEM STATISTICS (EXTENDED)
 	async getSystemStats() {
 		try {
 			const startOfWeek = this.getStartOfWeek();
@@ -403,35 +337,51 @@ export class AdminService {
 				totalPassages,
 				totalDictEntries,
 				exerciseRecordsThisWeek,
+				pendingGrading,
+				surveyDone,
+				placementDone,
+				cefrGroups,
 			] = await Promise.all([
 				this.prisma.user.count({ where: { deletedAt: null } }),
 				this.prisma.user.count({ where: { isActive: true, deletedAt: null } }),
-				this.prisma.user.count({
-					where: {
-						createdAt: { gte: startOfWeek },
-						deletedAt: null,
-					},
-				}),
-
+				this.prisma.user.count({ where: { createdAt: { gte: startOfWeek }, deletedAt: null } }),
 				this.prisma.lesson.count({ where: { deletedAt: null } }),
 				this.prisma.questionSet.count({ where: { deletedAt: null } }),
 				this.prisma.question.count({ where: { deletedAt: null } }),
 				this.prisma.passage.count({ where: { deletedAt: null } }),
 				this.prisma.dictEntry.count({ where: { deletedAt: null } }),
-
-				this.prisma.exerciseRecord.count({
-					where: {
-						createdAt: { gte: startOfWeek },
-					},
+				this.prisma.exerciseRecord.count({ where: { createdAt: { gte: startOfWeek } } }),
+				this.prisma.exerciseRecord.count({ where: { status: 'submitted' as any } }),
+				this.prisma.onboardingSurvey.count({ where: { isActive: true, deletedAt: null } }),
+				this.prisma.placementSession.count({ where: { status: 'completed' } }),
+				this.prisma.placementSession.groupBy({
+					by: ['cefrLevel'],
+					where: { status: 'completed', cefrLevel: { not: null } },
+					_count: { cefrLevel: true },
 				}),
 			]);
 
+			const skillPerfRows = await this.prisma.$queryRaw<SkillPerfRow[]>`
+                SELECT l.skill_name as "skillName",
+                       ROUND(AVG(er.score)::numeric, 1)::float as "avgScore",
+                       COUNT(*)::int as "count"
+                FROM exercise_records er
+                JOIN lessons l ON l.lesson_id = er.ref_id
+                WHERE er.status = 'scored'
+                  AND er.ref_type = 'lesson'
+                  AND er.score IS NOT NULL
+                  AND er.deleted_at IS NULL
+                GROUP BY l.skill_name
+            `;
+
+			const cefrDistribution = Object.fromEntries(cefrGroups.map((g) => [g.cefrLevel, g._count.cefrLevel]));
+
+			const skillPerformance = Object.fromEntries(
+				skillPerfRows.map((r) => [r.skillName, { avgScore: r.avgScore, count: r.count }]),
+			);
+
 			return {
-				users: {
-					total: totalUsers,
-					active: activeUsers,
-					newThisWeek: newUsersThisWeek,
-				},
+				users: { total: totalUsers, active: activeUsers, newThisWeek: newUsersThisWeek },
 				content: {
 					lessons: totalLessons,
 					questionSets: totalQuestionSet,
@@ -439,9 +389,10 @@ export class AdminService {
 					passages: totalPassages,
 					dictionaryEntries: totalDictEntries,
 				},
-				activity: {
-					exerciseRecordsThisWeek,
-				},
+				activity: { exerciseRecordsThisWeek, pendingGrading },
+				funnel: { totalUsers, surveyDone, placementDone },
+				cefrDistribution,
+				skillPerformance,
 			};
 		} catch (error) {
 			this.logger.error(`Failed to get system stats: ${error.message}`, error.stack);
@@ -449,10 +400,101 @@ export class AdminService {
 		}
 	}
 
-	// PRIVATE HELPER METHODS
+	// ADMIN LESSON MANAGEMENT
+	async listAdminLessons(dto: ListAdminLessonsDto) {
+		try {
+			const { pageIndex, pageSize, skill, cefrLevel, status } = dto;
+			const skip = (pageIndex - 1) * pageSize;
+
+			const where: any = { deletedAt: null };
+			if (skill) where.skillName = skill;
+			if (cefrLevel) where.cefrLevel = cefrLevel;
+			if (status) where.status = status;
+
+			const [rows, count] = await Promise.all([
+				this.prisma.lesson.findMany({
+					where,
+					select: LessonSelect.adminList,
+					orderBy: [{ cefrLevel: 'asc' }, { skillName: 'asc' }, { title: 'asc' }],
+					skip,
+					take: pageSize,
+				}),
+				this.prisma.lesson.count({ where }),
+			]);
+
+			const lessons = rows.map((l) => ({
+				...l,
+				questionCount: l._count.lessonQuestions,
+				_count: undefined,
+			}));
+
+			return ResponseDto.success(Object, new PagingDataDto({ count, rows: lessons }));
+		} catch (error) {
+			this.logger.error(`Failed to list admin lessons: ${error.message}`, error.stack);
+			throw error;
+		}
+	}
+
+	async updateLessonStatus(lessonId: string, dto: UpdateLessonStatusDto) {
+		try {
+			const lesson = await this.prisma.lesson.findFirst({ where: { lessonId, deletedAt: null } });
+			if (!lesson) throw new NotFoundException(`Lesson ${lessonId} not found`);
+
+			const updated = await this.prisma.lesson.update({
+				where: { lessonId },
+				data: { status: dto.status as any },
+				select: { lessonId: true, title: true, status: true },
+			});
+
+			this.logger.log(`Lesson ${lessonId} status updated to ${dto.status}`);
+			return updated;
+		} catch (error) {
+			this.logger.error(`Failed to update lesson status: ${error.message}`, error.stack);
+			throw error;
+		}
+	}
+
+	// PLACEMENT SESSIONS
+	async listPlacementSessions(dto: ListPlacementSessionsDto) {
+		try {
+			const { pageIndex, pageSize, cefrLevel, status } = dto;
+			const skip = (pageIndex - 1) * pageSize;
+
+			const where: any = {};
+			if (cefrLevel) where.cefrLevel = cefrLevel;
+			if (status) where.status = status;
+
+			const [rows, count] = await Promise.all([
+				this.prisma.placementSession.findMany({
+					where,
+					select: PlacementSessionSelect.adminList,
+					orderBy: { startedAt: 'desc' },
+					skip,
+					take: pageSize,
+				}),
+				this.prisma.placementSession.count({ where }),
+			]);
+
+			// Flatten Decimal → number
+			const sessions = rows.map((s) => ({
+				...s,
+				confidence: s.confidence !== null ? Number(s.confidence) : null,
+				finalTheta: s.finalTheta !== null ? Number(s.finalTheta) : null,
+			}));
+
+			return ResponseDto.success(Object, new PagingDataDto({ count, rows: sessions }));
+		} catch (error) {
+			this.logger.error(`Failed to list placement sessions: ${error.message}`, error.stack);
+			throw error;
+		}
+	}
+
+	// PRIVATE HELPERS
 	private calculateWordCount(content: string): number {
-		const words = content.trim().split(/\s+/);
-		return words.filter((word) => word.length > 0).length;
+		return content
+			.trim()
+			.split(/\s+/)
+			.filter((w) => w.length > 0).length;
 	}
 
 	private getStartOfWeek(): Date {

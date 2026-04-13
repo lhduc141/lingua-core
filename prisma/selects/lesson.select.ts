@@ -13,6 +13,19 @@ export const LessonSelect = {
 		status: true,
 	} satisfies Prisma.LessonSelect,
 
+	//Admin Select
+	adminList: {
+		lessonId: true,
+		skillName: true,
+		title: true,
+		cefrLevel: true,
+		estimatedMinutes: true,
+		status: true,
+		_count: {
+			select: { lessonQuestions: true },
+		},
+	} satisfies Prisma.LessonSelect,
+
 	detail: {
 		lessonId: true,
 		skillName: true,

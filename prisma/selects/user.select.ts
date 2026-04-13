@@ -42,6 +42,14 @@ export const UserSelect = {
 		googleAvatarUrl: true,
 		isActive: true,
 		isAdmin: true,
+
+		placementSessions: {
+			where: { status: 'completed' },
+			select: { cefrLevel: true },
+			orderBy: { completedAt: 'desc' },
+			take: 1,
+		},
+
 		createdAt: true,
 		lastLoginAt: true,
 	} satisfies Prisma.UserSelect,
