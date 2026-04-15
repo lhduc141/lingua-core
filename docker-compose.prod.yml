@@ -1,10 +1,4 @@
-# LINGUAPANDA - PRODUCTION DOCKER COMPOSE
-# Architecture: Modular Monorepo with 2 Services
-# - api-gateway: HTTP server (port 3000)
-# - ai-service: TCP microservice (port 4001)
-
 services:
-  # DATABASE: PostgreSQL
   postgres:
     image: postgres:17-alpine
     container_name: linguapanda_postgres
@@ -18,68 +12,46 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - ./backups:/backups
-#    ports:
-#      - "5432:5432"  # Exposed for admin tools (optional: remove for security)
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U linguapanda_prod -d linguapanda_prod"]
+      test: [ "CMD-SHELL", "pg_isready -U linguapanda_prod -d linguapanda_prod" ]
       interval: 10s
       timeout: 5s
       retries: 5
       start_period: 10s
     networks:
       - linguapanda_network
-    deploy:
-      resources:
-        limits:
-          cpus: '1.5'
-          memory: 2G
-        reservations:
-          cpus: '0.5'
-          memory: 1G
     logging:
       driver: "json-file"
       options:
         max-size: "10m"
         max-file: "3"
 
-  # CACHE: Redis
   redis:
     image: redis:7-alpine
     container_name: linguapanda_redis
     restart: unless-stopped
     command: >
-      redis-server 
+      redis-server
       --requirepass ${REDIS_PASSWORD:-R3d1sP4ss_Pr0d_2025!Secur3}
       --appendonly yes
       --appendfsync everysec
       --maxmemory 512mb
       --maxmemory-policy allkeys-lru
-      --save 900 1
-      --save 300 10
-      --save 60 10000
     volumes:
       - redis_data:/data
-    ports:
-      - "6379:6379"  # Exposed for monitoring (optional: remove for security)
     healthcheck:
-      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
+      test: [ "CMD", "redis-cli", "-a", "${REDIS_PASSWORD:-R3d1sP4ss_Pr0d_2025!Secur3}", "ping" ]
       interval: 10s
       timeout: 3s
       retries: 5
     networks:
       - linguapanda_network
-    deploy:
-      resources:
-        limits:
-          cpus: '0.5'
-          memory: 512M
     logging:
       driver: "json-file"
       options:
         max-size: "10m"
         max-file: "3"
 
-  # SERVICE 1: API Gateway (HTTP Server)
   api-gateway:
     build:
       context: .
@@ -87,8 +59,6 @@ services:
       args:
         SERVICE_NAME: api-gateway
         SERVICE_PORT: 3000
-      # cache_from:
-      #   - linguapanda-api-gateway:latest  # Use for faster rebuilds
     image: linguapanda-api-gateway:${IMAGE_TAG:-latest}
     container_name: linguapanda_api_gateway
     restart: unless-stopped
@@ -99,7 +69,7 @@ services:
       - DATABASE_URL=${DATABASE_URL}
       - REDIS_HOST=redis
       - REDIS_PORT=6379
-      - REDIS_PASSWORD=${REDIS_PASSWORD}
+      - REDIS_PASSWORD=${REDIS_PASSWORD:-R3d1sP4ss_Pr0d_2025!Secur3}
       - AI_SERVICE_HOST=ai-service
       - AI_SERVICE_PORT=4001
     ports:
@@ -112,37 +82,26 @@ services:
       ai-service:
         condition: service_started
     healthcheck:
-      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/health"]
+      test: [ "CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/health" ]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 60s
     networks:
       - linguapanda_network
-    deploy:
-      resources:
-        limits:
-          cpus: '1.0'
-          memory: 1G
-        reservations:
-          cpus: '0.3'
-          memory: 512M
     logging:
       driver: "json-file"
       options:
         max-size: "50m"
         max-file: "5"
 
-  # SERVICE 2: AI Service (TCP Microservice)
   ai-service:
     build:
-      context: .                      # Build context = ROOT (for monorepo)
+      context: .
       dockerfile: Dockerfile
       args:
         SERVICE_NAME: ai-service
         SERVICE_PORT: 4001
-      # cache_from:
-      #   - linguapanda-ai-service:latest
     image: linguapanda-ai-service:${IMAGE_TAG:-latest}
     container_name: linguapanda_ai_service
     restart: unless-stopped
@@ -150,109 +109,30 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=4001
-      - LLM_API_KEY=${LLM_API_KEY}
-      - LLM_MODEL=${LLM_MODEL:-gemini-2.0-flash-exp}
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - LLM_MODEL=${LLM_MODEL:-llama-3.3-70b-versatile}
       - REDIS_HOST=redis
       - REDIS_PORT=6379
-      - REDIS_PASSWORD=${REDIS_PASSWORD}
+      - REDIS_PASSWORD=${REDIS_PASSWORD:-R3d1sP4ss_Pr0d_2025!Secur3}
     ports:
-      - "4001:4001"  # TCP port for microservice communication
+      - "4001:4001"
     depends_on:
       redis:
         condition: service_healthy
-    healthcheck:
-      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:4001/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 40s
     networks:
       - linguapanda_network
-    deploy:
-      resources:
-        limits:
-          cpus: '0.5'
-          memory: 512M
-        reservations:
-          cpus: '0.2'
-          memory: 256M
     logging:
       driver: "json-file"
       options:
         max-size: "50m"
         max-file: "5"
 
-  # REVERSE PROXY: Nginx
-  nginx:
-    image: nginx:alpine
-    container_name: linguapanda_nginx
-    restart: unless-stopped
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./nginx/conf.d:/etc/nginx/conf.d:ro
-      - ./nginx/ssl:/etc/nginx/ssl:ro
-      - nginx_logs:/var/log/nginx
-    depends_on:
-      - api-gateway
-    networks:
-      - linguapanda_network
-    deploy:
-      resources:
-        limits:
-          cpus: '0.3'
-          memory: 128M
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "10m"
-        max-file: "3"
-    # Only start if nginx config exists
-    profiles:
-      - with-nginx
-
-  # MONITORING: Portainer
-  portainer:
-    image: portainer/portainer-ce:latest
-    container_name: linguapanda_portainer
-    restart: unless-stopped
-    ports:
-      - "9443:9443"
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - portainer_data:/data
-    networks:
-      - linguapanda_network
-    deploy:
-      resources:
-        limits:
-          cpus: '0.2'
-          memory: 256M
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "10m"
-        max-file: "3"
-
-# NETWORKS
 networks:
   linguapanda_network:
     driver: bridge
-    ipam:
-      driver: default
-      config:
-        - subnet: 172.25.0.0/16
-          gateway: 172.25.0.1
 
-# VOLUMES
 volumes:
   postgres_data:
     driver: local
   redis_data:
-    driver: local
-  nginx_logs:
-    driver: local
-  portainer_data:
     driver: local
