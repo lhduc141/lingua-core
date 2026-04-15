@@ -61,5 +61,3 @@ docker-compose*.yml
 # PRISMA CONFIG - IMPORTANT!
 prisma.config.ts
 
-# PRISMA MIGRATIONS
-prisma/migrations
