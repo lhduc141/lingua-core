@@ -4,6 +4,7 @@ export interface AnswerResult {
 	isCorrect: boolean | null;
 	earnedScore: number | null;
 	maxScore: number;
+	gradingStatus: string;
 
 	stemText: string | null;
 

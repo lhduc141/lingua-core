@@ -459,6 +459,7 @@ export class AssessmentsService implements OnModuleInit {
 				questionId: ans.questionId,
 				questionType,
 				stemText: ans.question.translations?.[0]?.stemText ?? null,
+				gradingStatus: ans.gradingStatus as string,
 
 				isCorrect,
 				earnedScore,
@@ -496,7 +497,7 @@ export class AssessmentsService implements OnModuleInit {
 		const where: any = {
 			userId,
 			deletedAt: null,
-			status: { not: 'draft' }, // chỉ hiện bài đã bắt đầu
+			status: { in: ['submitted', 'scored'] as any[] }, // chỉ hiện bài đã bắt đầu
 			...(refType && { refType }),
 		};
 
@@ -734,16 +735,23 @@ export class AssessmentsService implements OnModuleInit {
 			totalQuestions = session?.items.length ?? 0;
 		}
 
+		const correctCount = await this.prisma.answer.count({
+			where: { exerciseRecordId: assessment.exerciseRecordId, correct: true, deletedAt: null },
+		});
+
 		return {
 			exerciseRecordId: assessment.exerciseRecordId,
 			refType: assessment.refType,
 			refId: assessment.refId,
-			refTitle,
+			title: refTitle,
 			skillName,
 			cefrLevel,
 			status: assessment.status,
 			score: assessment.score !== null ? Number(assessment.score) : null,
 			totalQuestions,
+
+			correctCount,
+
 			startedAt: assessment.startedAt,
 			completedAt: assessment.completedAt,
 		};

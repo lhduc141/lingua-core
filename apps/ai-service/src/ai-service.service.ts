@@ -1,32 +1,32 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { GenerativeModel, GoogleGenerativeAI } from '@google/generative-ai';
 import { AiDictionaryOutput } from '../../api-gateway/src/modules/dictionary/interface/ai-dictionary-output.interface';
+import { Groq } from 'groq-sdk';
+
+const RETRY_DELAYS = [2000, 5000, 10000];
 
 @Injectable()
 export class AiServiceService {
 	private readonly logger = new Logger(AiServiceService.name);
-	private genAI: GoogleGenerativeAI;
-	private model: GenerativeModel;
+
+	private groq: Groq;
+	private model: string;
 
 	constructor(private configService: ConfigService) {
-		const geminiKey = this.configService.get<string>('LLM_API_KEY');
-		if (!geminiKey) throw new Error('LLM_API_KEY is not defined');
+		const apiKey = this.configService.get<string>('GROQ_API_KEY');
+		if (!apiKey) throw new Error('GROQ_API_KEY is not defined');
 
-		this.genAI = new GoogleGenerativeAI(geminiKey);
-		this.model = this.genAI.getGenerativeModel({
-			model: this.configService.get<string>('LLM_MODEL') || 'gemini-1.5-pro-latest',
-			generationConfig: {
-				maxOutputTokens: 6000,
-				temperature: 0.3,
-			},
-		});
+		this.groq = new Groq({ apiKey });
+		this.model = this.configService.get<string>('LLM_MODEL') || 'llama-3.3-70b-versatile';
+
+		this.logger.log(`AI Service initialized | model=${this.model}`);
 	}
+
+	// ─── Core helpers ─────────────────────────────────────────────────────────
 
 	async ask(prompt: string): Promise<string> {
 		try {
-			const result = await this.model.generateContent(prompt);
-			return result.response.text();
+			return await this.callGroq(prompt);
 		} catch (error) {
 			return `Error: ${error.message}`;
 		}
@@ -35,10 +35,9 @@ export class AiServiceService {
 	async evaluateSurvey(survey: any) {
 		const prompt = this.buildSurveyPrompt(survey);
 		try {
-			const result = await this.model.generateContent(prompt);
-			const raw = result.response.text();
+			const raw = await this.callGroq(prompt, true);
 			try {
-				return JSON.parse(raw);
+				return JSON.parse(this.cleanJson(raw));
 			} catch {
 				return {
 					user_profile_summary: 'Unknown',
@@ -56,49 +55,24 @@ export class AiServiceService {
 		}
 	}
 
+	// ─── Public methods ───────────────────────────────────────────────────────
+
 	async generateDictionaryEntry(word: string): Promise<AiDictionaryOutput> {
 		const prompt = this.buildDictionaryPrompt(word);
-
-		const result = await this.model.generateContent(prompt);
-		const raw = result.response.text();
-
-		// Gemini đôi khi wrap trong ```json ... ``` — strip ra
-		const clean = raw
-			.replace(/```json\s*/gi, '')
-			.replace(/```\s*/g, '')
-			.trim();
-
-		return JSON.parse(clean) as AiDictionaryOutput;
+		const raw = await this.callGroq(prompt, true);
+		return JSON.parse(this.cleanJson(raw)) as AiDictionaryOutput;
 	}
 
 	async gradeSubmission(questionType: string, userText: string) {
 		const prompt = this.buildGradingPrompt(questionType, userText);
-		const result = await this.model.generateContent(prompt);
-		const raw = result.response.text();
-		const clean = raw
-			.replace(/```json\s*/gi, '')
-			.replace(/```\s*/g, '')
-			.trim();
-		const parsed = JSON.parse(clean);
-		return parsed;
+		const raw = await this.callGroq(prompt, true);
+		return JSON.parse(this.cleanJson(raw));
 	}
 
 	async generatePlanItems(payload: any) {
 		const prompt = this.buildPlanGenerationPrompt(payload);
-		const result = await this.model.generateContent({
-			contents: [{ role: 'user', parts: [{ text: prompt }] }],
-			generationConfig: {
-				maxOutputTokens: 8192, // ← tăng từ default lên max
-				temperature: 0.3,
-				responseMimeType: 'application/json', // ← force JSON output
-			},
-		});
-		const raw = result.response.text();
-		const clean = raw
-			.replace(/```json\s*/gi, '')
-			.replace(/```\s*/g, '')
-			.trim();
-
+		const raw = await this.callGroq(prompt, true);
+		const clean = this.cleanJson(raw);
 		try {
 			return JSON.parse(clean);
 		} catch (err) {
@@ -109,15 +83,48 @@ export class AiServiceService {
 
 	async generateWeeklyReview(payload: any) {
 		const prompt = this.buildWeeklyReviewPrompt(payload);
-		const result = await this.model.generateContent(prompt);
-		const raw = result.response.text();
-		const clean = raw
+		const raw = await this.callGroq(prompt, true);
+		return JSON.parse(this.cleanJson(raw));
+	}
+
+	private async callGroq(prompt: string, jsonMode = false): Promise<string> {
+		let lastError: any;
+		for (let attempt = 0; attempt <= RETRY_DELAYS.length; attempt++) {
+			try {
+				const completion = await this.groq.chat.completions.create({
+					model: this.model,
+					messages: [{ role: 'user', content: prompt }],
+					temperature: 0.3,
+					max_tokens: 8192,
+					...(jsonMode && { response_format: { type: 'json_object' } }),
+				});
+				return completion.choices[0]?.message?.content ?? '';
+			} catch (error) {
+				lastError = error;
+				const status = error?.status ?? error?.statusCode;
+				const retryable = status === 503 || status === 429 || status === 500;
+
+				if (!retryable || attempt >= RETRY_DELAYS.length) {
+					this.logger.error(`callGroq failed (attempt ${attempt + 1}): ${error.message}`);
+					throw error;
+				}
+
+				const delay = RETRY_DELAYS[attempt]!;
+				this.logger.warn(`callGroq got ${status}, retry in ${delay}ms (${attempt + 1}/${RETRY_DELAYS.length})`);
+				await new Promise((r) => setTimeout(r, delay));
+			}
+		}
+		throw lastError;
+	}
+
+	private cleanJson(raw: string): string {
+		return raw
 			.replace(/```json\s*/gi, '')
 			.replace(/```\s*/g, '')
 			.trim();
-
-		return JSON.parse(clean);
 	}
+
+	// ─── Prompt builders (giữ nguyên) ────────────────────────────────────────
 
 	private buildDictionaryPrompt(word: string): string {
 		return `You are an expert English dictionary system for Vietnamese learners (A1-B2 CEFR).
@@ -272,7 +279,7 @@ export class AiServiceService {
 			3. Keep rationale under 10 words. Set description to null unless custom_activity.
 			4. Total daily time ≤ ${dailyMinutes} mins.
 			5. Focus skills (allocate 60% tasks): ${JSON.stringify(goals?.focusSkills || [])}
-   B			ase skill (always include, 40% tasks): reading
+			Base skill (always include, 40% tasks): reading
 			
 			RESPOND ONLY WITH JSON (no markdown):
 			{"planItems":[{"day":1,"position":1,"itemType":"lesson","refId":"uuid","title":"...","description":null,"rationale":"Short reason.","estimatedMinutes":25,"skillName":"reading"}]}`;
