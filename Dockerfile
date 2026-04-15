@@ -4,7 +4,6 @@
 FROM node:20-alpine AS deps
 WORKDIR /app
 
-# Helpful for native modules on Alpine (safe to have)
 RUN apk add --no-cache libc6-compat openssl
 
 COPY package.json pnpm-lock.yaml* ./
@@ -19,7 +18,6 @@ RUN pnpm install --frozen-lockfile --prod
 FROM node:20-alpine AS builder
 WORKDIR /app
 
-# Build tools (needed for some native deps during install/build)
 RUN apk add --no-cache \
     libc6-compat \
     openssl \
@@ -45,7 +43,7 @@ RUN if [ -z "$SERVICE_NAME" ]; then \
 
 # Prisma is only relevant for api-gateway (DB service)
 RUN if [ "$SERVICE_NAME" = "api-gateway" ]; then \
-      pnpm exec prisma generate && echo "Prisma client generated"; \
+      pnpm exec prisma generate --schema=./prisma/schema.prisma && echo "Prisma client generated"; \
     else \
       echo "Skipping Prisma generate for ${SERVICE_NAME}"; \
     fi
@@ -76,7 +74,6 @@ ENV SERVICE_NAME=${SERVICE_NAME}
 ENV PORT=${SERVICE_PORT}
 ENV NODE_ENV=production
 
-# Copy production dependencies
 RUN if [ "$SERVICE_NAME" = "api-gateway" ]; then \
       echo "Using node_modules from builder (includes Prisma client)"; \
     else \
@@ -92,14 +89,8 @@ RUN if [ "$SERVICE_NAME" = "api-gateway" ]; then \
       rm -rf ./node_modules_builder; \
     fi
 
-# Copy package.json (optional but nice for tooling/metadata)
 COPY --from=builder --chown=nodejs:nodejs /app/package.json ./
-
-# Copy Prisma schema (harmless even if ai-service doesn't use it)
-# ai-service doesn't use DB, and your project doesn't have node_modules/.prisma anyway (JS-only prisma client)
 COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
-
-# Copy built app
 COPY --from=builder --chown=nodejs:nodejs /app/dist/apps/${SERVICE_NAME} ./dist
 
 USER nodejs
