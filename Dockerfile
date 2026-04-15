@@ -43,7 +43,7 @@ RUN if [ -z "$SERVICE_NAME" ]; then \
 
 # Prisma is only relevant for api-gateway (DB service)
 RUN if [ "$SERVICE_NAME" = "api-gateway" ]; then \
-      DATABASE_URL="postgresql://dummy:dummy@localhost:5432/dummy" pnpm exec prisma generate && echo "Prisma client generated"; \
+      DATABASE_URL="postgresql://dummy:dummy@localhost:5432/dummy" pnpm exec prisma generate --schema=./prisma/ && echo "Prisma client generated"; \
     else \
       echo "Skipping Prisma generate for ${SERVICE_NAME}"; \
     fi
