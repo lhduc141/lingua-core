@@ -1,0 +1,130 @@
+name: Deploy Core to VPS
+
+on:
+  workflow_dispatch:
+    inputs:
+      skip_heal_check:
+        description: 'Skip health check after deploy'
+        required: false
+        default: 'false'
+
+env:
+  NODE_ENV: production
+  TZ: Asia/Ho_Chi_Minh
+  HOST: 0.0.0.0
+  PAYLOAD_LIMIT: 10mb
+  DATABASE_HOST: postgres
+  AI_SERVICE_HOST: ai-service
+  AI_SERVICE_PORT: 4001
+  REDIS_HOST: redis
+  REDIS_PORT: 6379
+  REDIS_DB: 0
+  REDIS_PREFIX: "lingua:"
+  JWT_ALG: HS256
+  JWT_KID: lingua-key-prod-1
+  JWT_ISS: linguapanda-api
+  JWT_AUD: linguapanda-client
+  JWT_ACCESS_TTL: 604800
+  JWT_REFRESH_TTL: 2592000
+  JWT_SERVICE_TTL: 300
+  LLM_MODEL: llama-3.3-70b-versatile
+  LOG_LEVEL: info
+
+jobs:
+  deploy:
+    name: Deploy to VPS
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Print deploy info
+        run: |
+          echo "Triggered by: ${{ github.actor }}"
+          echo "Commit: ${{ github.sha }}"
+          echo "Time: $(date '+%Y-%m-%d %H:%M:%S %Z')"
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Pull latest code
+        run: |
+          ssh -i ~/.ssh/deploy_key ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }} bash -s << 'ENDSSH'
+          set -e
+          cd /root/lingua-core
+          git fetch origin release
+          git reset --hard origin/release
+          echo "Commit: $(git rev-parse --short HEAD) -- $(git log -1 --pretty=format:'%s')"
+          ENDSSH
+
+      - name: Build and restart app containers
+        run: |
+          ssh -i ~/.ssh/deploy_key ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }} bash -s << 'ENDSSH'
+          set -e
+          cd /root/lingua-core
+
+          echo "Building api-gateway"
+          docker compose -f docker-compose.prod.yml build api-gateway --no-cache
+
+          echo "Building ai-service"
+          docker compose -f docker-compose.prod.yml build ai-service --no-cache
+
+          echo "Restarting app containers"
+          docker compose -f docker-compose.prod.yml up -d --no-deps api-gateway ai-service
+
+          echo "Waiting for startup"
+          sleep 10
+
+          echo "Container status:"
+          docker compose -f docker-compose.prod.yml ps
+          ENDSSH
+
+      - name: Health check
+        if: ${{ github.event.inputs.skip_heal_check != 'true' }}
+        run: |
+          sleep 5
+          RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" \
+            https://api.lingua-panda.io.vn/api/v1/health/db || echo "000")
+          echo "Health check /health/db: $RESPONSE"
+          if [ "$RESPONSE" = "200" ]; then
+            echo "Health check PASSED"
+          else
+            echo "Health check FAILED -- status $RESPONSE"
+            exit 1
+          fi
+
+      - name: Print logs
+        if: always()
+        run: |
+          ssh -i ~/.ssh/deploy_key ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }} bash -s << 'ENDSSH'
+          echo "=== api-gateway (last 30 lines) ==="
+          docker logs linguapanda_api_gateway --tail 30 2>&1
+          echo "=== ai-service (last 10 lines) ==="
+          docker logs linguapanda_ai_service --tail 10 2>&1
+          ENDSSH
+
+      - name: Cleanup old images
+        if: success()
+        run: |
+          ssh -i ~/.ssh/deploy_key ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }} bash -s << 'ENDSSH'
+          docker image prune -f
+          echo "Disk usage: $(df -h / | tail -1 | awk '{print $5}')"
+          ENDSSH
+
+      - name: Rollback on failure
+        if: failure()
+        run: |
+          echo "Deploy failed -- rolling back to previous commit"
+          ssh -i ~/.ssh/deploy_key ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }} bash -s << 'ENDSSH'
+          set -e
+          cd /root/lingua-core
+          git reset --hard HEAD~1
+          echo "Rolled back to: $(git rev-parse --short HEAD)"
+          docker compose -f docker-compose.prod.yml build api-gateway --no-cache
+          docker compose -f docker-compose.prod.yml up -d --no-deps api-gateway ai-service
+          sleep 10
+          docker compose -f docker-compose.prod.yml ps
+          ENDSSH
