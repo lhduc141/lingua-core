@@ -65,19 +65,16 @@ jobs:
           ssh -i ~/.ssh/deploy_key ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }} bash -s << 'ENDSSH'
           set -e
           cd /root/lingua-core
-
-          echo "Building api-gateway"
-          docker compose -f docker-compose.prod.yml build api-gateway --no-cache
-
-          echo "Building ai-service"
-          docker compose -f docker-compose.prod.yml build ai-service --no-cache
-
+          
+          echo "Building containers..."
+          docker compose -f docker-compose.prod.yml build api-gateway ai-service
+          
           echo "Restarting app containers"
           docker compose -f docker-compose.prod.yml up -d --no-deps api-gateway ai-service
-
+          
           echo "Waiting for startup"
           sleep 10
-
+          
           echo "Container status:"
           docker compose -f docker-compose.prod.yml ps
           ENDSSH
@@ -123,7 +120,7 @@ jobs:
           cd /root/lingua-core
           git reset --hard HEAD~1
           echo "Rolled back to: $(git rev-parse --short HEAD)"
-          docker compose -f docker-compose.prod.yml build api-gateway --no-cache
+          docker compose -f docker-compose.prod.yml build api-gateway 
           docker compose -f docker-compose.prod.yml up -d --no-deps api-gateway ai-service
           sleep 10
           docker compose -f docker-compose.prod.yml ps
