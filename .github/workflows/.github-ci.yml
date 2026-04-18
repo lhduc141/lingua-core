@@ -19,6 +19,9 @@ jobs:
       - name: Install dependencies
         run: npm install -g pnpm && pnpm install --frozen-lockfile
 
+      - name: Generate Prisma client
+        run: DATABASE_URL="postgresql://dummy:dummy@localhost:5432/dummy" pnpm exec prisma generate --schema=./prisma/
+
       - name: Type check
         run: pnpm tsc --noEmit
 
