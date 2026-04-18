@@ -1,4 +1,4 @@
-name: Deploy Core to VPS
+name: CD VPS
 
 on:
   workflow_dispatch:
