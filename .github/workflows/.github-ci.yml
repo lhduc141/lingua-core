@@ -23,7 +23,7 @@ jobs:
         run: DATABASE_URL="postgresql://dummy:dummy@localhost:5432/dummy" pnpm exec prisma generate --schema=./prisma/
 
       - name: Type check
-        run: pnpm tsc --noEmit --skipLibCheck
+        run: pnpm tsc --noEmit --skipLibCheck -p apps/api-gateway/tsconfig.app.json
 
       - name: Build Check
         run: pnpm run build api-gateway
