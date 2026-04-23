@@ -17,6 +17,9 @@ export interface DashboardOverview {
 	totalAssessments: number;
 	totalStudyMinutes: number;
 	recentActivity: RecentActivityItem[];
+
+	lessonsCompleted: number;
+	practiceCompleted: number;
 }
 
 export interface SkillSummaryItem {

@@ -40,6 +40,8 @@ export class DashboardService {
 			totalAssessments,
 			totalStudyMinutes,
 			recentActivity,
+			lessonsCompleted,
+			practiceCompleted,
 		] = await Promise.all([
 			this.getCefrData(userId),
 			this.getPlanProgress(userId),
@@ -49,6 +51,8 @@ export class DashboardService {
 			this.getTotalAssessments(userId),
 			this.getTotalStudyMinutes(userId),
 			this.getRecentActivity(userId),
+			this.getLessonsCompleted(userId),
+			this.getPracticeCompleted(userId),
 		]);
 
 		const overview: DashboardOverview = {
@@ -71,6 +75,8 @@ export class DashboardService {
 			totalAssessments,
 			totalStudyMinutes,
 			recentActivity,
+			lessonsCompleted,
+			practiceCompleted,
 		};
 
 		return ResponseDto.success(Object, overview);
@@ -190,7 +196,6 @@ export class DashboardService {
 		return ResponseDto.success(Object, result);
 	}
 
-	// PRIVATE: CEFR data
 	private async getCefrData(userId: string): Promise<{ cefrLevel: string | null; confidence: number | null }> {
 		const session = await this.prisma.placementSession.findFirst({
 			where: { userId, status: 'completed' },
@@ -205,7 +210,6 @@ export class DashboardService {
 		};
 	}
 
-	// PRIVATE: Current plan progress
 	private async getPlanProgress(userId: string) {
 		const latestItem = await this.prisma.learningPlanItem.findFirst({
 			where: { userId, deletedAt: null, planCycle: { not: null } },
@@ -227,7 +231,6 @@ export class DashboardService {
 		};
 	}
 
-	// PRIVATE: Skill summary
 	private async getSkillSummary(userId: string): Promise<Record<string, SkillSummaryItem>> {
 		const summary: Record<string, SkillSummaryItem> = {};
 
@@ -248,7 +251,6 @@ export class DashboardService {
 		return summary;
 	}
 
-	// PRIVATE: Score history for a specific skill
 	private async getScoreHistoryForSkill(userId: string, skillName: string): Promise<ScoreHistoryPoint[]> {
 		const [lessons, questionSets] = await Promise.all([
 			this.prisma.lesson.findMany({
@@ -291,7 +293,6 @@ export class DashboardService {
 		}));
 	}
 
-	// PRIVATE: Calculate streak
 	private async calculateStreak(userId: string): Promise<{ currentDays: number; longestDays: number }> {
 		const [recordDates, planDates] = await Promise.all([
 			this.prisma.exerciseRecord.findMany({
@@ -360,19 +361,16 @@ export class DashboardService {
 		return { currentDays, longestDays: Math.max(longestDays, currentDays) };
 	}
 
-	// PRIVATE: Vocabulary count
 	private async getVocabularyCount(userId: string): Promise<number> {
 		return this.prisma.userVocabulary.count({ where: { userId, deletedAt: null } });
 	}
 
-	// PRIVATE: Total exercise records
 	private async getTotalAssessments(userId: string): Promise<number> {
 		return this.prisma.exerciseRecord.count({
 			where: { userId, deletedAt: null, status: { in: ['scored', 'submitted'] } },
 		});
 	}
 
-	// PRIVATE: Total study minutes
 	private async getTotalStudyMinutes(userId: string): Promise<number> {
 		const records = await this.prisma.exerciseRecord.findMany({
 			where: {
@@ -394,7 +392,6 @@ export class DashboardService {
 		return total;
 	}
 
-	// PRIVATE: Recent activity
 	private async getRecentActivity(userId: string): Promise<RecentActivityItem[]> {
 		const [recentRecords, recentPlanItems] = await Promise.all([
 			this.prisma.exerciseRecord.findMany({
@@ -465,7 +462,6 @@ export class DashboardService {
 		return activities.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 10);
 	}
 
-	// PRIVATE: Activity calendar
 	private async getActivityCalendar(userId: string, since: Date): Promise<ActivityDay[]> {
 		const [records, planItems] = await Promise.all([
 			this.prisma.exerciseRecord.findMany({
@@ -526,7 +522,6 @@ export class DashboardService {
 		return Array.from(dayMap.values()).sort((a, b) => a.date.localeCompare(b.date));
 	}
 
-	// PRIVATE: Calculate trend
 	private calculateTrend(scores: number[]): 'up' | 'down' | 'stable' | 'new' {
 		if (scores.length === 0) return 'new';
 		if (scores.length === 1) return 'stable';
@@ -542,5 +537,17 @@ export class DashboardService {
 		if (diff > 5) return 'up';
 		if (diff < -5) return 'down';
 		return 'stable';
+	}
+
+	private async getLessonsCompleted(userId: string): Promise<number> {
+		return this.prisma.exerciseRecord.count({
+			where: { userId, deletedAt: null, refType: 'lesson', status: { in: ['scored', 'submitted'] } },
+		});
+	}
+
+	private async getPracticeCompleted(userId: string): Promise<number> {
+		return this.prisma.exerciseRecord.count({
+			where: { userId, deletedAt: null, refType: 'question_set', status: { in: ['scored', 'submitted'] } },
+		});
 	}
 }
