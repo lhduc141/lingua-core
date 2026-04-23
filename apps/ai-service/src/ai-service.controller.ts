@@ -37,4 +37,9 @@ export class AiServiceController {
 	async generateWeeklyReview(@Payload() payload: any) {
 		return this.aiService.generateWeeklyReview(payload);
 	}
+
+	@MessagePattern('ai.audio.transcribe')
+	async transcribeAudio(@Payload() payload: { buffer: Buffer; mimetype: string; originalname: string }) {
+		return this.aiService.transcribeAudio(payload);
+	}
 }

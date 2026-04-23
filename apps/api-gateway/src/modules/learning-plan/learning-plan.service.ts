@@ -27,6 +27,7 @@ import { PlanTask } from './interface/plan-task.interface';
 @Injectable()
 export class LearningPlanService implements OnModuleInit {
 	UUID_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+	DAY_NAMES = ['SUNDAY', 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY'];
 
 	private readonly logger = new Logger(LearningPlanService.name);
 	private readonly ASSESSED_TO_CEFR: Record<string, string> = {
@@ -189,6 +190,9 @@ export class LearningPlanService implements OnModuleInit {
 		const previousWeekReview = weekNumber === 2 ? await this.getLatestReviewData(userId, planCycle) : null;
 		const latestFeedback = weekNumber === 2 ? await this.getLatestUserFeedback(userId, planCycle) : null;
 
+		const todayStr = new Date().toISOString().slice(0, 10); // "2026-04-21"
+		const startDate = new Date(todayStr + 'T00:00:00.000Z');
+
 		const aiPayload = {
 			cefrLevel: catSession.cefrLevel,
 			goals: {
@@ -204,8 +208,20 @@ export class LearningPlanService implements OnModuleInit {
 			previousWeekReview,
 			userFeedback: latestFeedback,
 			availableContent,
+			restDayNumbers: [] as number[],
 		};
 
+		const availableDays = (survey.availableDays ?? []) as string[];
+		if (availableDays.length > 0) {
+			for (let i = 0; i < 7; i++) {
+				const d = new Date(startDate);
+				d.setDate(d.getDate() + i);
+				const weekday = this.DAY_NAMES[d.getDay()];
+				if (!availableDays.includes(weekday!)) {
+					aiPayload.restDayNumbers.push(i + 1);
+				}
+			}
+		}
 		let aiResult: { planItems: AiPlanItem[] };
 		try {
 			aiResult = await this.aiClient.generatePlan(aiPayload);
@@ -217,11 +233,7 @@ export class LearningPlanService implements OnModuleInit {
 			throw new BadRequestException('AI returned empty plan. Please try again.');
 		}
 
-		const startDate = new Date();
-		startDate.setHours(0, 0, 0, 0);
-
 		const now = new Date();
-
 		const planItems = aiResult.planItems
 			.filter((item) => {
 				if (item.itemType === 'custom_activity') return true;
@@ -268,10 +280,12 @@ export class LearningPlanService implements OnModuleInit {
 				};
 			});
 
-		const reviewDueDate = new Date(startDate);
-		reviewDueDate.setDate(reviewDueDate.getDate() + 6);
+		const reviewDueDate = new Date(todayStr + 'T00:00:00.000Z');
+		const daysUntilSunday = (7 - reviewDueDate.getDay()) % 7 || 7;
+		reviewDueDate.setDate(reviewDueDate.getDate() + daysUntilSunday);
 
-		planItems.push({
+		const filteredPlanItems = planItems.filter((item) => item.dueDate < reviewDueDate);
+		filteredPlanItems.push({
 			userId,
 			title: `Weekly Review — Tuần ${weekNumber}`,
 			description: null as any,
@@ -288,16 +302,15 @@ export class LearningPlanService implements OnModuleInit {
 			estimatedMinutes: 10,
 			skillName: null,
 		});
-
-		await this.prisma.learningPlanItem.createMany({ data: planItems });
+		await this.prisma.learningPlanItem.createMany({ data: filteredPlanItems });
 
 		this.logger.log(
-			`Plan generated | userId=${userId} | cycle=${planCycle} | week=${weekNumber} | items=${planItems.length}`,
+			`Plan generated | userId=${userId} | cycle=${planCycle} | week=${weekNumber} | items=${filteredPlanItems.length}`,
 		);
 
 		return ResponseDto.success(
 			Object,
-			{ planCycle, weekNumber, itemsCreated: planItems.length },
+			{ planCycle, weekNumber, itemsCreated: filteredPlanItems.length },
 			`Learning plan cycle ${planCycle} week ${weekNumber} generated successfully.`,
 		);
 	}
@@ -310,17 +323,15 @@ export class LearningPlanService implements OnModuleInit {
 		});
 
 		if (!item) throw new NotFoundException('Review item not found');
-		if (item.itemType !== 'weekly_review') {
-			throw new BadRequestException('This item is not a weekly review');
-		}
-		if (!item.description) {
+		if (item.itemType !== 'weekly_review') throw new BadRequestException('This item is not a weekly review');
+
+		if (!item.description)
 			throw new BadRequestException(
 				'Weekly review has not been generated yet. Please wait until the review date.',
 			);
-		}
-		if (item.feedbackSubmittedAt) {
+
+		if (item.feedbackSubmittedAt)
 			throw new BadRequestException('Feedback has already been submitted for this review');
-		}
 
 		await this.prisma.learningPlanItem.update({
 			where: { itemId },
@@ -332,7 +343,6 @@ export class LearningPlanService implements OnModuleInit {
 		});
 
 		this.logger.log(`Review feedback submitted | userId=${userId} | itemId=${itemId}`);
-
 		return ResponseDto.success(
 			Object,
 			{ itemId, feedbackSubmittedAt: new Date(), canGenerateNextWeek: true },
@@ -349,13 +359,11 @@ export class LearningPlanService implements OnModuleInit {
 
 		if (!item) throw new NotFoundException('Plan item not found');
 
-		if (item.itemType === 'weekly_review') {
+		if (item.itemType === 'weekly_review')
 			throw new BadRequestException('Use POST /learning-plan/review/:itemId/feedback for weekly reviews');
-		}
 
-		if (['completed', 'skipped'].includes(item.status as string)) {
+		if (['completed', 'skipped'].includes(item.status as string))
 			throw new BadRequestException(`Item is already ${item.status}`);
-		}
 
 		const updateData: any = { status: dto.status as any };
 

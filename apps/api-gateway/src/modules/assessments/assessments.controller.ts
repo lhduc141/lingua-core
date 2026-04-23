@@ -1,5 +1,16 @@
-import { Body, Controller, Get, Param, ParseUUIDPipe, Post, Query, UseGuards } from '@nestjs/common';
-import { ApiBearerAuth, ApiNotFoundResponse, ApiOkResponse, ApiOperation, ApiTags } from '@nestjs/swagger';
+import {
+	Body,
+	Controller,
+	Get,
+	Param,
+	ParseUUIDPipe,
+	Post,
+	Query,
+	UploadedFile,
+	UseGuards,
+	UseInterceptors,
+} from '@nestjs/common';
+import { ApiBearerAuth, ApiConsumes, ApiNotFoundResponse, ApiOkResponse, ApiOperation, ApiTags } from '@nestjs/swagger';
 import { AuthGuard } from '../../guards/auth.guard';
 import { ReqUser } from '../../decorators/req-user.decorator';
 import { AssessmentsService } from './assessments.service';
@@ -7,6 +18,7 @@ import { StartLessonAssessmentDto } from './dto/start-lesson-assessment.dto';
 import { StartQuestionSetAssessmentDto } from './dto/start-question-set-assessment.dto';
 import { SubmitAnswerDto } from './dto/submit-answer.dto';
 import { ListAssessmentHistoryDto } from './dto/list-assessment-history.dto';
+import { FileInterceptor } from '@nestjs/platform-express';
 
 @ApiTags('Assessments')
 @Controller('assessments')
@@ -63,5 +75,14 @@ export class AssessmentsController {
 	@ApiNotFoundResponse({ description: 'Assessment not found' })
 	getResult(@ReqUser('userId') userId: string, @Param('assessmentId', ParseUUIDPipe) assessmentId: string) {
 		return this.assessmentsService.getAssessmentResult(userId, assessmentId);
+	}
+
+	@Post('transcribe')
+	@UseInterceptors(FileInterceptor('audio'))
+	@ApiConsumes('multipart/form-data')
+	@ApiOperation({ summary: 'Transcribe audio to text via Whisper' })
+	@ApiOkResponse({ description: 'Transcript returned' })
+	transcribeAudio(@UploadedFile() file: Express.Multer.File) {
+		return this.assessmentsService.transcribeAudio(file);
 	}
 }

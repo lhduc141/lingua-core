@@ -11,6 +11,9 @@ export const LessonSelect = {
 		cefrLevel: true,
 		estimatedMinutes: true,
 		status: true,
+		_count: {
+			select: { lessonQuestions: true },
+		},
 	} satisfies Prisma.LessonSelect,
 
 	//Admin Select

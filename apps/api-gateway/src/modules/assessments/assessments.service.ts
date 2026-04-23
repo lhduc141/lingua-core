@@ -526,6 +526,21 @@ export class AssessmentsService implements OnModuleInit {
 		);
 	}
 
+	async transcribeAudio(file: Express.Multer.File) {
+		if (!file)
+			throw new BadRequestException('No audio file provided');
+
+		this.logger.log(`Transcribing audio | size=${file.size} | mimetype=${file.mimetype}`);
+		const transcript = await this.aiClient.transcribeAudio({
+			buffer: file.buffer,
+			mimetype: file.mimetype,
+			originalname: file.originalname,
+		});
+
+		console.log('transcript result:', transcript, typeof transcript);
+		return ResponseDto.success(Object, { transcript }, 'Transcription successful');
+	}
+
 	// BULLMQ WORKER HANDLER
 	private async handleGradeJob(job: Job<GradeSubjectiveJobData>): Promise<void> {
 		const { answerId, exerciseRecordId, questionType, textAnswer } = job.data;
@@ -564,7 +579,6 @@ export class AssessmentsService implements OnModuleInit {
 
 		await this.tryFinalizeAssessment(exerciseRecordId);
 	}
-
 	private async tryFinalizeAssessment(exerciseRecordId: string): Promise<void> {
 		const pendingAttempts = await this.prisma.answer.count({
 			where: {

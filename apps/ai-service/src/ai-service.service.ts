@@ -2,27 +2,31 @@ import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { AiDictionaryOutput } from '../../api-gateway/src/modules/dictionary/interface/ai-dictionary-output.interface';
 import { Groq } from 'groq-sdk';
+import { lastValueFrom } from 'rxjs';
 
-const RETRY_DELAYS = [2000, 5000, 10000];
+
 
 @Injectable()
 export class AiServiceService {
-	private readonly logger = new Logger(AiServiceService.name);
+	RETRY_DELAYS = [2000, 5000, 10000];
 
-	private groq: Groq;
-	private model: string;
+	private readonly MODELS = ['llama-3.3-70b-versatile', 'llama-3.3-70b-versatile', 'gemma2-9b-it'];
+
+	private readonly logger = new Logger(AiServiceService.name);
+	private readonly groqClients: Groq[];
 
 	constructor(private configService: ConfigService) {
-		const apiKey = this.configService.get<string>('GROQ_API_KEY');
-		if (!apiKey) throw new Error('GROQ_API_KEY is not defined');
+		const keys = [
+			configService.get<string>('GROQ_API_KEY'),
+			configService.get<string>('GROQ_API_KEY_2'),
+			configService.get<string>('GROQ_API_KEY_3'),
+		].filter(Boolean) as string[];
 
-		this.groq = new Groq({ apiKey });
-		this.model = this.configService.get<string>('LLM_MODEL') || 'llama-3.3-70b-versatile';
+		if (keys.length === 0) throw new Error('No GROQ API keys defined');
 
-		this.logger.log(`AI Service initialized | model=${this.model}`);
+		this.groqClients = keys.map((k) => new Groq({ apiKey: k }));
+		this.logger.log(`AI Service initialized | keys=${keys.length} | models=${this.MODELS.length}`);
 	}
-
-	// ─── Core helpers ─────────────────────────────────────────────────────────
 
 	async ask(prompt: string): Promise<string> {
 		try {
@@ -88,33 +92,31 @@ export class AiServiceService {
 	}
 
 	private async callGroq(prompt: string, jsonMode = false): Promise<string> {
-		let lastError: any;
-		for (let attempt = 0; attempt <= RETRY_DELAYS.length; attempt++) {
-			try {
-				const completion = await this.groq.chat.completions.create({
-					model: this.model,
-					messages: [{ role: 'user', content: prompt }],
-					temperature: 0.3,
-					max_tokens: 8192,
-					...(jsonMode && { response_format: { type: 'json_object' } }),
-				});
-				return completion.choices[0]?.message?.content ?? '';
-			} catch (error) {
-				lastError = error;
-				const status = error?.status ?? error?.statusCode;
-				const retryable = status === 503 || status === 429 || status === 500;
-
-				if (!retryable || attempt >= RETRY_DELAYS.length) {
-					this.logger.error(`callGroq failed (attempt ${attempt + 1}): ${error.message}`);
+		for (const model of this.MODELS) {
+			for (let keyIdx = 0; keyIdx < this.groqClients.length; keyIdx++) {
+				try {
+					const completion = await this.groqClients[keyIdx]!.chat.completions.create({
+						model,
+						messages: [{ role: 'user', content: prompt }],
+						temperature: 0.3,
+						max_tokens: 8192,
+						...(jsonMode && { response_format: { type: 'json_object' } }),
+					});
+					if (keyIdx > 0 || model !== this.MODELS[0]) {
+						this.logger.log(`Used fallback: key=${keyIdx} model=${model}`);
+					}
+					return completion.choices[0]?.message?.content ?? '';
+				} catch (error) {
+					const status = error?.status ?? error?.statusCode;
+					if (status === 429 || status === 413) {
+						this.logger.warn(`Skipping: key=${keyIdx} model=${model} status=${status}`);
+						continue;
+					}
 					throw error;
 				}
-
-				const delay = RETRY_DELAYS[attempt]!;
-				this.logger.warn(`callGroq got ${status}, retry in ${delay}ms (${attempt + 1}/${RETRY_DELAYS.length})`);
-				await new Promise((r) => setTimeout(r, delay));
 			}
 		}
-		throw lastError;
+		throw new Error('All API keys and models are rate limited. Please try again later.');
 	}
 
 	private cleanJson(raw: string): string {
@@ -125,7 +127,6 @@ export class AiServiceService {
 	}
 
 	// ─── Prompt builders (giữ nguyên) ────────────────────────────────────────
-
 	private buildDictionaryPrompt(word: string): string {
 		return `You are an expert English dictionary system for Vietnamese learners (A1-B2 CEFR).
 
@@ -239,6 +240,7 @@ export class AiServiceService {
 			userFeedback,
 			availableContent,
 			recentPerformance,
+			restDayNumbers,
 		} = payload;
 		const dailyMinutes = Math.ceil(((goals?.plannedStudyHoursPerWeek || 7) / 7) * 60);
 
@@ -280,9 +282,33 @@ export class AiServiceService {
 			4. Total daily time ≤ ${dailyMinutes} mins.
 			5. Focus skills (allocate 60% tasks): ${JSON.stringify(goals?.focusSkills || [])}
 			Base skill (always include, 40% tasks): reading
-			
+			${
+				(restDayNumbers as number[])?.length > 0
+					? `6. REST DAYS — assign ZERO tasks to days: [${(restDayNumbers as number[]).join(', ')}]. These day numbers must have no planItems.`
+					: ''
+			}
+			7. Only assign tasks to days 1-7 (week1) or 8-14 (week2). DO NOT exceed day 7 or day 14.
+
 			RESPOND ONLY WITH JSON (no markdown):
 			{"planItems":[{"day":1,"position":1,"itemType":"lesson","refId":"uuid","title":"...","description":null,"rationale":"Short reason.","estimatedMinutes":25,"skillName":"reading"}]}`;
+	}
+
+	async transcribeAudio(payload: { buffer: Buffer; mimetype: string; originalname: string }): Promise<string> {
+		const { buffer, mimetype, originalname } = payload;
+
+		const uint8Array = new Uint8Array(Buffer.from(buffer));
+		const blob = new Blob([uint8Array], { type: mimetype });
+		const file = new File([blob], originalname || 'audio.webm', { type: mimetype });
+
+		const transcription = await this.groqClients[0]!.audio.transcriptions.create({
+			file,
+			model: 'whisper-large-v3',
+			language: 'en',
+			response_format: 'text',
+		});
+
+		this.logger.log(`Audio transcribed | chars=${String(transcription).length}`);
+		return transcription as unknown as string;
 	}
 
 	private buildWeeklyReviewPrompt(payload: any): string {

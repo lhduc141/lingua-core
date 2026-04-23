@@ -35,7 +35,9 @@ export class LearningService {
 				where,
 				select: {
 					...LESSON_LIST_SELECT,
-					// ← THÊM JOIN với ExerciseRecord
+					_count: {
+						select: { lessonQuestions: true },
+					},
 					exerciseRecords: {
 						where: {
 							userId: userId,
@@ -62,23 +64,22 @@ export class LearningService {
 			const completedAttempts = attempts.filter((a) => a.status === 'scored');
 
 			const bestScore =
-				completedAttempts.length > 0
-					? Math.max(...completedAttempts.map((a) => Number(a.score) ?? 0))
-					: null;
+				completedAttempts.length > 0 ? Math.max(...completedAttempts.map((a) => Number(a.score) ?? 0)) : null;
 
 			const lastAttempt = attempts[0];
-			const { exerciseRecords, ...lessonData } = lesson;
+			const { exerciseRecords, _count, ...lessonData } = lesson;
 
 			return {
 				...lessonData,
+				questionCount: _count?.lessonQuestions ?? 0,
 				userProgress:
 					attempts.length > 0
 						? {
-							isCompleted: completedAttempts.length > 0,
-							bestScore: bestScore,
-							attemptCount: attempts.length,
-							lastAttemptAt: lastAttempt?.completedAt ?? null,
-						}
+								isCompleted: completedAttempts.length > 0,
+								bestScore: bestScore,
+								attemptCount: attempts.length,
+								lastAttemptAt: lastAttempt?.completedAt ?? null,
+							}
 						: null,
 			};
 		});

@@ -33,4 +33,8 @@ export class AiClientService {
 	generateWeeklyReview(payload: any) {
 		return lastValueFrom(this.client.send('ai.plan.weekly-review', payload));
 	}
+
+	transcribeAudio(payload: { buffer: Buffer; mimetype: string; originalname: string }) {
+		return lastValueFrom(this.client.send('ai.audio.transcribe', payload));
+	}
 }

@@ -2,42 +2,36 @@ import { Exclude, Expose, Transform, Type } from 'class-transformer';
 
 @Exclude()
 export class OnboardingSurveyDto {
-	@Expose()
-	surveyId: string;
+	@Expose() surveyId: string;
+	@Expose() userId: string;
 
-	@Expose()
-	userId: string;
+	// TIER 1
+	@Expose() primaryGoal: string | null;
+	@Expose() plannedStudyHoursPerWeek: number | null;
+	@Expose() primaryFocusSkills: string[];
+	@Expose() availableDays: string[];
 
+	// TIER 2
 	@Expose()
-	targetGoal: string;
-
-	@Expose()
-	@Transform(({ value }) => (value ? value.toISOString().slice(0, 10) : null), {
-		toPlainOnly: true,
-	})
+	@Transform(({ value }) => (value ? value.toISOString().slice(0, 10) : null), { toPlainOnly: true })
 	targetDeadlineDate: Date | null;
 
-	@Expose()
-	plannedStudyHoursPerWeek: number;
+	@Expose() targetGoal: string | null;
+	@Expose() selfAssessedLevel: string | null;
+	@Expose() usageContext: string | null;
+	@Expose() difficulties: string | null;
 
-	@Expose()
-	primaryFocusSkills: string[];
+	// TIER 3
+	@Expose() additionalContext: string | null;
+	@Expose() yearsStudied: number | null;
+	@Expose() previousLearningExperience: string | null;
 
-	@Expose()
-	selfAssessedLevel: string;
+	// CERTIFICATION
+	@Expose() targetCertification: string | null;
+	@Expose() targetScore: string | null;
 
-	@Expose()
-	usageContext: string | null;
-
-	@Expose()
-	difficulties: string | null;
-
-	@Expose()
-	metaJson: any;
-
-	@Expose()
-	@Type(() => OnboardingSurveyAnswerDto)
-	answers: OnboardingSurveyAnswerDto[];
+	// Timestamps
+	@Expose() completedAt: Date | null;
 }
 
 @Exclude()
