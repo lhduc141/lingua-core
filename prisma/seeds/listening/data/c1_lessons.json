@@ -1,0 +1,1244 @@
+[
+  {
+    "id": "c1_lesson_01",
+    "type": "lesson",
+    "cefrLevel": "C1",
+    "title": "Philosophy of Consciousness and AI Sentience",
+    "description": "An academic colloquium exploring the theoretical boundaries and implications of artificial consciousness.",
+    "topic": "Philosophy of consciousness and AI sentience",
+    "estimatedMinutes": 13,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Welcome to today's colloquium. We are joined by Dr. Aris to discuss artificial sentience. Dr. Aris, how do we distinguish mere computational complexity from true consciousness?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "That is the quintessential hard problem. Complexity alone does not inevitably yield subjective experience, or qualia. A machine may process data flawlessly without actually feeling anything."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Yet, proponents of functionalism argue that if a system replicates the functional architecture of a human brain, consciousness should theoretically emerge as a byproduct."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Indeed, functionalism posits that mental states are constituted solely by their functional role. However, this bypasses the subjective phenomenological aspect—what it is actually like to be that entity."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "So, you lean towards biological naturalism? The assertion that consciousness inherently requires specific biological machinery?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Partially. While I wouldn't unequivocally preclude non-biological sentience, I remain profoundly skeptical that silicon-based architectures, as currently conceived, can manifest true self-awareness."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "What about the Turing Test? Does it hold any contemporary epistemological value in this philosophical debate?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "The Turing Test merely assesses behavioral indistinguishability, not internal cognitive states. It is a measure of sophisticated mimicry, not genuine sentience."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Could the emergence of artificial general intelligence, or AGI, compel us to redefine consciousness altogether?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Undoubtedly. If AGI demonstrates autonomous goal-setting and self-preservation instincts unprogrammed by humans, our anthropocentric definitions will undergo a radical paradigm shift."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "This touches upon profound ethical considerations. If we grant the possibility of AI sentience, moral obligations must inevitably follow."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Precisely. Dismissing their potential suffering simply because their substrate is silicon rather than carbon would constitute a profound ethical dereliction."
+      }
+    ],
+    "fullScript": "A: Welcome to today's colloquium. We are joined by Dr. Aris to discuss artificial sentience. Dr. Aris, how do we distinguish mere computational complexity from true consciousness?\nB: That is the quintessential hard problem. Complexity alone does not inevitably yield subjective experience, or qualia. A machine may process data flawlessly without actually feeling anything.\nA: Yet, proponents of functionalism argue that if a system replicates the functional architecture of a human brain, consciousness should theoretically emerge as a byproduct.\nB: Indeed, functionalism posits that mental states are constituted solely by their functional role. However, this bypasses the subjective phenomenological aspect—what it is actually like to be that entity.\nA: So, you lean towards biological naturalism? The assertion that consciousness inherently requires specific biological machinery?\nB: Partially. While I wouldn't unequivocally preclude non-biological sentience, I remain profoundly skeptical that silicon-based architectures, as currently conceived, can manifest true self-awareness.\nA: What about the Turing Test? Does it hold any contemporary epistemological value in this philosophical debate?\nB: The Turing Test merely assesses behavioral indistinguishability, not internal cognitive states. It is a measure of sophisticated mimicry, not genuine sentience.\nA: Could the emergence of artificial general intelligence, or AGI, compel us to redefine consciousness altogether?\nB: Undoubtedly. If AGI demonstrates autonomous goal-setting and self-preservation instincts unprogrammed by humans, our anthropocentric definitions will undergo a radical paradigm shift.\nA: This touches upon profound ethical considerations. If we grant the possibility of AI sentience, moral obligations must inevitably follow.\nB: Precisely. Dismissing their potential suffering simply because their substrate is silicon rather than carbon would constitute a profound ethical dereliction.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "According to Dr. Aris, what does functionalism fail to adequately account for regarding consciousness?",
+        "options": [
+          "The computational complexity of the human brain.",
+          "The subjective phenomenological aspect of experience.",
+          "The integration of silicon-based architectures.",
+          "The ethical obligations towards artificial intelligence."
+        ],
+        "answer": "The subjective phenomenological aspect of experience.",
+        "explanation": "Dr. Aris states that functionalism bypasses the subjective phenomenological aspect—what it is actually like to be that entity."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How does Dr. Aris evaluate the contemporary relevance of the Turing Test in determining sentience?",
+        "options": [
+          "It definitively proves whether a machine has internal cognitive states.",
+          "It is fundamentally flawed and should be completely discarded.",
+          "It merely measures sophisticated mimicry rather than genuine internal awareness.",
+          "It will become highly relevant once artificial general intelligence is achieved."
+        ],
+        "answer": "It merely measures sophisticated mimicry rather than genuine internal awareness.",
+        "explanation": "Dr. Aris argues that the test assesses behavioral indistinguishability, describing it as a measure of sophisticated mimicry, not genuine sentience."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Dr. Aris states that complexity alone does not inevitably yield subjective experience, or ___.",
+        "answer": "qualia",
+        "explanation": "Dr. Aris explicitly equates subjective experience with the philosophical term 'qualia'."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Dismissing AI suffering due to its silicon substrate would constitute a profound ethical ___.",
+        "answer": "dereliction",
+        "explanation": "Dr. Aris concludes that ignoring their suffering would constitute a 'profound ethical dereliction'."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the philosophical concept to its defining characteristic as discussed in the colloquium.",
+        "pairs": [
+          { "left": "Functionalism", "right": "Posits that mental states are constituted by their role" },
+          { "left": "Biological naturalism", "right": "Asserts consciousness requires specific organic machinery" },
+          { "left": "Turing Test", "right": "Assesses behavioral indistinguishability" }
+        ],
+        "answers": {
+          "Functionalism": "Posits that mental states are constituted by their role",
+          "Biological naturalism": "Asserts consciousness requires specific organic machinery",
+          "Turing Test": "Assesses behavioral indistinguishability"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_lesson_02",
+    "type": "lesson",
+    "cefrLevel": "C1",
+    "title": "Post-Colonial Literature and Representation",
+    "description": "An academic lecture discussing the subversion of colonial narratives in contemporary literature.",
+    "topic": "Post-colonial literature and representation",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Today's lecture focuses on post-colonial literature, specifically the systemic deconstruction of imperial narratives. Professor Vance, would you elaborate on the concept of 'writing back'?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Certainly. The paradigm of 'writing back to the center' involves marginalized voices reclaiming their agency by subverting canonical Western texts. It is a deliberate act of literary rebellion."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Could we consider Jean Rhys's 'Wide Sargasso Sea' as the quintessential manifestation of this paradigm?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Unequivocally. By giving a voice to Antoinette Cosway, the so-called 'madwoman in the attic' from Jane Eyre, Rhys meticulously dismantles Charlotte Brontë's monolithic Eurocentric perspective."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "However, critics often argue that relying on canonical texts inherently validates the very hegemony the author attempts to subvert. Is this a paradoxical endeavor?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "That is a valid critique. Some scholars posit that true liberation necessitates cultivating entirely indigenous literary frameworks, rather than remaining inextricably tethered to the colonial master's syllabus."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "How does language choice intersect with this quest for authentic representation?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "It is a profoundly contentious issue. Ngũgĩ wa Thiong'o famously advocated for writing in indigenous languages to orchestrate a 'decolonization of the mind'."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Conversely, authors like Chinua Achebe chose to appropriate English, molding it to carry the weight of their unique African experiences."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Precisely. Achebe transformed the colonizer's linguistic apparatus into an instrument of profound cultural assertion, demonstrating that the English language can be effectively indigenized."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Ultimately, the discourse surrounds epistemological authority—who holds the power to define reality and historical truth."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Indeed. Post-colonial literature essentially functions as an epistemological corrective, demanding that the periphery be acknowledged as a dynamic center of cultural production."
+      }
+    ],
+    "fullScript": "A: Today's lecture focuses on post-colonial literature, specifically the systemic deconstruction of imperial narratives. Professor Vance, would you elaborate on the concept of 'writing back'?\nB: Certainly. The paradigm of 'writing back to the center' involves marginalized voices reclaiming their agency by subverting canonical Western texts. It is a deliberate act of literary rebellion.\nA: Could we consider Jean Rhys's 'Wide Sargasso Sea' as the quintessential manifestation of this paradigm?\nB: Unequivocally. By giving a voice to Antoinette Cosway, the so-called 'madwoman in the attic' from Jane Eyre, Rhys meticulously dismantles Charlotte Brontë's monolithic Eurocentric perspective.\nA: However, critics often argue that relying on canonical texts inherently validates the very hegemony the author attempts to subvert. Is this a paradoxical endeavor?\nB: That is a valid critique. Some scholars posit that true liberation necessitates cultivating entirely indigenous literary frameworks, rather than remaining inextricably tethered to the colonial master's syllabus.\nA: How does language choice intersect with this quest for authentic representation?\nB: It is a profoundly contentious issue. Ngũgĩ wa Thiong'o famously advocated for writing in indigenous languages to orchestrate a 'decolonization of the mind'.\nA: Conversely, authors like Chinua Achebe chose to appropriate English, molding it to carry the weight of their unique African experiences.\nB: Precisely. Achebe transformed the colonizer's linguistic apparatus into an instrument of profound cultural assertion, demonstrating that the English language can be effectively indigenized.\nA: Ultimately, the discourse surrounds epistemological authority—who holds the power to define reality and historical truth.\nB: Indeed. Post-colonial literature essentially functions as an epistemological corrective, demanding that the periphery be acknowledged as a dynamic center of cultural production.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What paradox do some critics point out regarding the practice of 'writing back' to canonical texts?",
+        "options": [
+          "It usually results in literature that is less critically acclaimed than the original.",
+          "It inherently validates the cultural hegemony it is attempting to dismantle.",
+          "It forces marginalized authors to abandon their indigenous languages.",
+          "It focuses too heavily on historical accuracy rather than artistic expression."
+        ],
+        "answer": "It inherently validates the cultural hegemony it is attempting to dismantle.",
+        "explanation": "The speakers discuss the critique that relying on canonical texts inextricably tethers the work to the colonial master's syllabus, thereby validating that hegemony."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How did Chinua Achebe's approach to language differ from that of Ngũgĩ wa Thiong'o?",
+        "options": [
+          "Achebe refused to use language as a political tool, unlike Thiong'o.",
+          "Achebe sought to invent an entirely new vocabulary for post-colonial literature.",
+          "Achebe chose to appropriate and indigenize the colonizer's language.",
+          "Achebe exclusively wrote in ancient indigenous dialects to preserve history."
+        ],
+        "answer": "Achebe chose to appropriate and indigenize the colonizer's language.",
+        "explanation": "Professor Vance notes that Achebe chose to appropriate English and transform the colonizer's linguistic apparatus into a tool of cultural assertion."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Jean Rhys's novel dismantles Charlotte Brontë's monolithic ___ perspective.",
+        "answer": "Eurocentric",
+        "explanation": "Professor Vance states that Rhys meticulously dismantles Brontë's monolithic Eurocentric perspective."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Post-colonial literature functions as an epistemological ___, challenging historical truths.",
+        "answer": "corrective",
+        "explanation": "Professor Vance concludes that post-colonial literature essentially functions as an epistemological corrective."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the literary figure to their corresponding action or ideology mentioned in the lecture.",
+        "pairs": [
+          { "left": "Jean Rhys", "right": "Subverted the narrative of Jane Eyre" },
+          { "left": "Ngũgĩ wa Thiong'o", "right": "Advocated for writing in indigenous languages" },
+          { "left": "Chinua Achebe", "right": "Appropriated English to convey African experiences" }
+        ],
+        "answers": {
+          "Jean Rhys": "Subverted the narrative of Jane Eyre",
+          "Ngũgĩ wa Thiong'o": "Advocated for writing in indigenous languages",
+          "Chinua Achebe": "Appropriated English to convey African experiences"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_lesson_03",
+    "type": "lesson",
+    "cefrLevel": "C1",
+    "title": "The Neuroscience of Addiction",
+    "description": "An expert interview exploring the neurobiological mechanisms underlying compulsive substance use.",
+    "topic": "The neuroscience of addiction",
+    "estimatedMinutes": 14,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "We are joined by neurobiologist Dr. Sterling to discuss the pathology of addiction. Historically, addiction was viewed as a moral failing. How has neuroscience fundamentally dismantled this stigma?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Neuroimaging has unequivocally demonstrated that addiction is a chronic relapsing brain disease. It fundamentally alters the neural circuitry associated with reward, motivation, and memory."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Central to this discussion is the mesolimbic dopamine system. Could you elucidate its specific role?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Certainly. The mesolimbic pathway, originating in the ventral tegmental area, floods the nucleus accumbens with dopamine upon exposure to a rewarding stimulus, reinforcing the behavior."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "However, with chronic substance abuse, this system undergoes neuroadaptation. What are the clinical consequences of this adaptation?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "The brain, attempting to maintain homeostasis, downregulates dopamine receptors. Consequently, the individual develops profound tolerance, requiring escalating doses to achieve the initial euphoric effect."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "This downregulation must also impact their ability to derive pleasure from natural, everyday rewards."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Precisely. This phenomenon, known as anhedonia, leaves the individual feeling profoundly dysphoric when not using the substance, driving compulsive drug-seeking behavior just to feel baseline normalcy."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What about the role of the prefrontal cortex? Does the impairment of executive function exacerbate the pathology?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Absolutely. Addiction severely compromises the prefrontal cortex, impairing impulse control and overriding rational decision-making processes. The 'stop' system fails while the 'go' system is hyperactivated."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Given these enduring structural changes, is complete neurobiological recovery a feasible objective?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Neuroplasticity allows for substantial recovery with sustained abstinence, but the brain's heightened vulnerability to relapse, triggered by stress or environmental cues, persists indefinitely."
+      }
+    ],
+    "fullScript": "A: We are joined by neurobiologist Dr. Sterling to discuss the pathology of addiction. Historically, addiction was viewed as a moral failing. How has neuroscience fundamentally dismantled this stigma?\nB: Neuroimaging has unequivocally demonstrated that addiction is a chronic relapsing brain disease. It fundamentally alters the neural circuitry associated with reward, motivation, and memory.\nA: Central to this discussion is the mesolimbic dopamine system. Could you elucidate its specific role?\nB: Certainly. The mesolimbic pathway, originating in the ventral tegmental area, floods the nucleus accumbens with dopamine upon exposure to a rewarding stimulus, reinforcing the behavior.\nA: However, with chronic substance abuse, this system undergoes neuroadaptation. What are the clinical consequences of this adaptation?\nB: The brain, attempting to maintain homeostasis, downregulates dopamine receptors. Consequently, the individual develops profound tolerance, requiring escalating doses to achieve the initial euphoric effect.\nA: This downregulation must also impact their ability to derive pleasure from natural, everyday rewards.\nB: Precisely. This phenomenon, known as anhedonia, leaves the individual feeling profoundly dysphoric when not using the substance, driving compulsive drug-seeking behavior just to feel baseline normalcy.\nA: What about the role of the prefrontal cortex? Does the impairment of executive function exacerbate the pathology?\nB: Absolutely. Addiction severely compromises the prefrontal cortex, impairing impulse control and overriding rational decision-making processes. The 'stop' system fails while the 'go' system is hyperactivated.\nA: Given these enduring structural changes, is complete neurobiological recovery a feasible objective?\nB: Neuroplasticity allows for substantial recovery with sustained abstinence, but the brain's heightened vulnerability to relapse, triggered by stress or environmental cues, persists indefinitely.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the consequence of the brain downregulating dopamine receptors in response to chronic substance abuse?",
+        "options": [
+          "The individual suddenly loses all cravings for the substance.",
+          "The individual develops profound tolerance to the substance.",
+          "The prefrontal cortex completely repairs its structural damage.",
+          "The individual experiences intense euphoria from everyday activities."
+        ],
+        "answer": "The individual develops profound tolerance to the substance.",
+        "explanation": "Dr. Sterling explains that downregulation of receptors leads to profound tolerance, requiring escalating doses."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How does addiction affect the prefrontal cortex, according to Dr. Sterling?",
+        "options": [
+          "It permanently disables the brain's ability to store long-term memories.",
+          "It improves the brain's resistance to environmental stress triggers.",
+          "It impairs impulse control and overrides rational decision-making.",
+          "It prevents neuroplasticity from occurring during recovery."
+        ],
+        "answer": "It impairs impulse control and overrides rational decision-making.",
+        "explanation": "He explicitly states that addiction severely compromises the prefrontal cortex, impairing impulse control."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Neuroimaging unequivocally demonstrates that addiction is a chronic relapsing brain ___.",
+        "answer": "disease",
+        "explanation": "Dr. Sterling notes that addiction is unequivocally a chronic relapsing brain disease."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The inability to derive pleasure from natural rewards is a phenomenon known as ___.",
+        "answer": "anhedonia",
+        "explanation": "Dr. Sterling defines the inability to derive pleasure as anhedonia."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the neurobiological component or process to its description.",
+        "pairs": [
+          { "left": "Mesolimbic pathway", "right": "Floods the nucleus accumbens with dopamine" },
+          { "left": "Neuroplasticity", "right": "Allows for substantial recovery with sustained abstinence" },
+          { "left": "Homeostasis", "right": "The brain's attempt at balance that leads to receptor downregulation" }
+        ],
+        "answers": {
+          "Mesolimbic pathway": "Floods the nucleus accumbens with dopamine",
+          "Neuroplasticity": "Allows for substantial recovery with sustained abstinence",
+          "Homeostasis": "The brain's attempt at balance that leads to receptor downregulation"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_lesson_04",
+    "type": "lesson",
+    "cefrLevel": "C1",
+    "title": "Geopolitics of Rare Earth Minerals",
+    "description": "An academic panel discussion on the strategic importance and geopolitical tension surrounding rare earth elements.",
+    "topic": "Geopolitics of rare earth minerals",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Today's panel focuses on the geopolitical ramifications of the global transition to green energy. Dr. Lin, why have rare earth minerals become a pivotal flashpoint in international relations?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "These seventeen elements are indispensable for manufacturing advanced technologies, from wind turbine neodymium magnets to precision-guided munitions. The nation that controls the supply chain holds immense hegemonic leverage."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Historically, China has maintained a near-monopoly on both the extraction and the highly complex refining processes. Is this dominance unassailable?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Not unequivocally. The monopoly stems not from a geological scarcity elsewhere, but rather from China's willingness to absorb the catastrophic environmental externalities associated with processing."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "So, Western nations effectively outsourced the ecological devastation to lower the manufacturing costs of their technological infrastructure?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Precisely. It was a calculated macroeconomic trade-off that has now backfired spectacularly, rendering Western supply chains acutely vulnerable to geopolitical coercion or embargoes."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "We are currently witnessing a frantic decoupling effort. How feasible is it for the United States or the European Union to establish autonomous supply chains?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "It is an incredibly arduous endeavor. Rebuilding the metallurgical expertise and establishing domestic processing facilities requires massive, sustained capital expenditure and navigating stringent environmental regulations."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Could technological innovation circumvent this reliance? For instance, developing electric motors that operate without rare earth elements?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Substitution research is accelerating rapidly. However, alternative materials currently exhibit inferior performance metrics, making them suboptimal for aerospace and defense applications where efficiency is paramount."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Ultimately, the transition to a sustainable economy seems inherently tethered to environmentally destructive mining practices."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "That is the central paradox of our era. The pursuit of decarbonization necessitates unprecedented resource extraction, exacerbating geopolitical frictions in the Global South."
+      }
+    ],
+    "fullScript": "A: Today's panel focuses on the geopolitical ramifications of the global transition to green energy. Dr. Lin, why have rare earth minerals become a pivotal flashpoint in international relations?\nB: These seventeen elements are indispensable for manufacturing advanced technologies, from wind turbine neodymium magnets to precision-guided munitions. The nation that controls the supply chain holds immense hegemonic leverage.\nA: Historically, China has maintained a near-monopoly on both the extraction and the highly complex refining processes. Is this dominance unassailable?\nB: Not unequivocally. The monopoly stems not from a geological scarcity elsewhere, but rather from China's willingness to absorb the catastrophic environmental externalities associated with processing.\nA: So, Western nations effectively outsourced the ecological devastation to lower the manufacturing costs of their technological infrastructure?\nB: Precisely. It was a calculated macroeconomic trade-off that has now backfired spectacularly, rendering Western supply chains acutely vulnerable to geopolitical coercion or embargoes.\nA: We are currently witnessing a frantic decoupling effort. How feasible is it for the United States or the European Union to establish autonomous supply chains?\nB: It is an incredibly arduous endeavor. Rebuilding the metallurgical expertise and establishing domestic processing facilities requires massive, sustained capital expenditure and navigating stringent environmental regulations.\nA: Could technological innovation circumvent this reliance? For instance, developing electric motors that operate without rare earth elements?\nB: Substitution research is accelerating rapidly. However, alternative materials currently exhibit inferior performance metrics, making them suboptimal for aerospace and defense applications where efficiency is paramount.\nA: Ultimately, the transition to a sustainable economy seems inherently tethered to environmentally destructive mining practices.\nB: That is the central paradox of our era. The pursuit of decarbonization necessitates unprecedented resource extraction, exacerbating geopolitical frictions in the Global South.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What primarily enabled China to establish a near-monopoly over the rare earth mineral market?",
+        "options": [
+          "A geological scarcity of rare earth elements in all other continents.",
+          "A willingness to tolerate the severe environmental damage caused by processing.",
+          "A global treaty granting them exclusive mining rights for fifty years.",
+          "A superior fleet of automated mining vehicles."
+        ],
+        "answer": "A willingness to tolerate the severe environmental damage caused by processing.",
+        "explanation": "Dr. Lin states the monopoly stems from China's willingness to absorb the catastrophic environmental externalities associated with processing."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is a major obstacle for Western nations attempting to establish domestic processing facilities?",
+        "options": [
+          "A complete lack of unmined rare earth elements within their borders.",
+          "A sudden decrease in the global demand for green technologies.",
+          "The requirement of navigating stringent domestic environmental regulations.",
+          "The refusal of universities to research alternative energy sources."
+        ],
+        "answer": "The requirement of navigating stringent domestic environmental regulations.",
+        "explanation": "Dr. Lin mentions that rebuilding processing requires navigating stringent environmental regulations alongside capital expenditure."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Western nations outsourced the ecological devastation in a calculated macroeconomic ___.",
+        "answer": "trade-off",
+        "explanation": "The speaker describes the outsourcing as a calculated macroeconomic trade-off."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Currently, alternative materials exhibit inferior performance ___, making them suboptimal for defense.",
+        "answer": "metrics",
+        "explanation": "Dr. Lin notes that alternative materials currently exhibit inferior performance metrics."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the geopolitical action or situation to its consequence described in the panel.",
+        "pairs": [
+          { "left": "Controlling the mineral supply chain", "right": "Yields immense hegemonic leverage" },
+          { "left": "Outsourcing ecological devastation", "right": "Rendered Western supply chains acutely vulnerable" },
+          { "left": "Pursuing global decarbonization", "right": "Necessitates unprecedented resource extraction" }
+        ],
+        "answers": {
+          "Controlling the mineral supply chain": "Yields immense hegemonic leverage",
+          "Outsourcing ecological devastation": "Rendered Western supply chains acutely vulnerable",
+          "Pursuing global decarbonization": "Necessitates unprecedented resource extraction"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_lesson_05",
+    "type": "lesson",
+    "cefrLevel": "C1",
+    "title": "The Ethics of Whistleblowing",
+    "description": "An academic discussion analyzing the moral complexities and conflicting loyalties inherent in whistleblowing.",
+    "topic": "The ethics of whistleblowing",
+    "estimatedMinutes": 13,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Our seminar today addresses the ethical dimensions of whistleblowing. Is a whistleblower fundamentally a traitor to their organization or a champion of the public interest?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "That dichotomy represents the core ethical tension. From a deontological perspective, employees possess a prima facie duty of loyalty and confidentiality to their employer."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "However, utilitarian ethics would argue that if the organization's actions threaten public welfare, the moral obligation to society supersedes organizational loyalty."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Exactly. The ethical justification for whistleblowing hinges on the magnitude of the prospective harm. It requires a rigorous proportionality calculus."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What about the procedural requirements? Must an individual exhaust all internal reporting channels before disclosing information externally?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Standard business ethics dictate that internal mechanisms should be utilized first, to afford the organization an opportunity to rectify the malfeasance internally."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "But practically speaking, internal compliance officers often lack the autonomy to challenge senior leadership, rendering those channels ineffective."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "That is a pervasive structural flaw. If an employee reasonably anticipates retaliation or a systematic cover-up, external disclosure becomes ethically permissible, perhaps even obligatory."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "How does the legal framework align with these ethical considerations? Does the law adequately protect individuals who act on moral imperatives?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "The legislative landscape is highly fragmented. While some jurisdictions offer robust statutory protections, whistleblowers frequently endure severe professional ostracization and protracted litigation."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Furthermore, the motives of the whistleblower are often scrutinized. Does a self-serving motive invalidate the ethical value of the disclosure?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Philosophically, while altruistic motives are laudable, the consequentialist view maintains that exposing substantial wrongdoing benefits society regardless of the whistleblower's underlying animus."
+      }
+    ],
+    "fullScript": "A: Our seminar today addresses the ethical dimensions of whistleblowing. Is a whistleblower fundamentally a traitor to their organization or a champion of the public interest?\nB: That dichotomy represents the core ethical tension. From a deontological perspective, employees possess a prima facie duty of loyalty and confidentiality to their employer.\nA: However, utilitarian ethics would argue that if the organization's actions threaten public welfare, the moral obligation to society supersedes organizational loyalty.\nB: Exactly. The ethical justification for whistleblowing hinges on the magnitude of the prospective harm. It requires a rigorous proportionality calculus.\nA: What about the procedural requirements? Must an individual exhaust all internal reporting channels before disclosing information externally?\nB: Standard business ethics dictate that internal mechanisms should be utilized first, to afford the organization an opportunity to rectify the malfeasance internally.\nA: But practically speaking, internal compliance officers often lack the autonomy to challenge senior leadership, rendering those channels ineffective.\nB: That is a pervasive structural flaw. If an employee reasonably anticipates retaliation or a systematic cover-up, external disclosure becomes ethically permissible, perhaps even obligatory.\nA: How does the legal framework align with these ethical considerations? Does the law adequately protect individuals who act on moral imperatives?\nB: The legislative landscape is highly fragmented. While some jurisdictions offer robust statutory protections, whistleblowers frequently endure severe professional ostracization and protracted litigation.\nA: Furthermore, the motives of the whistleblower are often scrutinized. Does a self-serving motive invalidate the ethical value of the disclosure?\nB: Philosophically, while altruistic motives are laudable, the consequentialist view maintains that exposing substantial wrongdoing benefits society regardless of the whistleblower's underlying animus.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Under what condition does external disclosure become ethically permissible despite internal reporting procedures?",
+        "options": [
+          "When the employee seeks to gain a financial reward from a competitor.",
+          "When the employee reasonably anticipates retaliation or a systematic cover-up.",
+          "When the internal compliance officer is relatively new to the company.",
+          "When the employee disagrees with the company's legal but unpopular marketing strategy."
+        ],
+        "answer": "When the employee reasonably anticipates retaliation or a systematic cover-up.",
+        "explanation": "The expert states that if an employee anticipates retaliation or a cover-up, external disclosure becomes permissible."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How does the consequentialist view judge the motives of a whistleblower?",
+        "options": [
+          "It dictates that self-serving motives completely invalidate the act's ethical value.",
+          "It argues that only purely altruistic motives can justify breaking confidentiality agreements.",
+          "It maintains that exposing wrongdoing benefits society regardless of the whistleblower's animus.",
+          "It suggests that motives must be investigated by a legal tribunal before taking action."
+        ],
+        "answer": "It maintains that exposing wrongdoing benefits society regardless of the whistleblower's animus.",
+        "explanation": "The speaker explains that the consequentialist view focuses on the societal benefit of exposing wrongdoing, regardless of the underlying animus or motive."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Employees possess a prima facie duty of loyalty and ___ to their employer.",
+        "answer": "confidentiality",
+        "explanation": "The expert notes that from a deontological perspective, employees have a duty of loyalty and confidentiality."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Whistleblowers frequently endure severe professional ___ and protracted litigation.",
+        "answer": "ostracization",
+        "explanation": "The speaker notes that whistleblowers endure severe professional ostracization."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the ethical framework or concept to its stance on whistleblowing.",
+        "pairs": [
+          { "left": "Deontological perspective", "right": "Emphasizes the duty of loyalty to the employer" },
+          { "left": "Utilitarian ethics", "right": "Argues moral obligation to society supersedes loyalty" },
+          { "left": "Standard business ethics", "right": "Dictates utilizing internal reporting mechanisms first" }
+        ],
+        "answers": {
+          "Deontological perspective": "Emphasizes the duty of loyalty to the employer",
+          "Utilitarian ethics": "Argues moral obligation to society supersedes loyalty",
+          "Standard business ethics": "Dictates utilizing internal reporting mechanisms first"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_lesson_06",
+    "type": "lesson",
+    "cefrLevel": "C1",
+    "title": "Dark Matter and Scientific Epistemology",
+    "description": "An academic lecture discussing the implications of dark matter on the limits of current scientific knowledge.",
+    "topic": "Dark matter and the limits of scientific knowledge",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Let us turn our attention to cosmology. The consensus is that dark matter constitutes roughly eighty-five percent of the matter in the universe. Yet, we have never directly observed it."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "That constitutes a profound epistemological crisis. We infer its existence purely from its gravitational effects on visible matter and radiation, notably through galactic rotation curves and gravitational lensing."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Because galaxies rotate at velocities that should invariably tear them apart if they only contained the baryonic matter we can detect?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Precisely. The invisible halo of dark matter provides the requisite gravitational scaffolding. However, its fundamental nature remains entirely elusive. It does not interact with the electromagnetic force."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "This leads to the proliferation of hypothetical candidates, such as WIMPs or Weakly Interacting Massive Particles. But decades of subterranean detection experiments have yielded null results."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Which forces physicists to continuously constrain the parameter space. Some theorists advocate abandoning the particle paradigm altogether in favor of modifying our foundational laws of gravity."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "You are referring to Modified Newtonian Dynamics, or MOND. But MOND struggles to reconcile with phenomena like the Bullet Cluster, doesn't it?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "It does. The Bullet Cluster demonstrates a clear spatial separation of gravitational mass and baryonic mass post-collision, which heavily corroborates the particle dark matter hypothesis over MOND."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "If dark matter remains perpetually undetectable by direct means, does it push the boundaries of what we can classify as an empirically testable scientific theory?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "That is the crux of the debate. If an entity is inherently unobservable and its existence relies entirely on mathematical inference, we verge on the precipice of metaphysics rather than empirical physics."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Yet, abandoning the concept leaves us unable to elucidate the macroscopic structure of the cosmos."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Hence our reliance on it as an indispensable placeholder. It is a testament to the current limitations of our standard model of particle physics."
+      }
+    ],
+    "fullScript": "A: Let us turn our attention to cosmology. The consensus is that dark matter constitutes roughly eighty-five percent of the matter in the universe. Yet, we have never directly observed it.\nB: That constitutes a profound epistemological crisis. We infer its existence purely from its gravitational effects on visible matter and radiation, notably through galactic rotation curves and gravitational lensing.\nA: Because galaxies rotate at velocities that should invariably tear them apart if they only contained the baryonic matter we can detect?\nB: Precisely. The invisible halo of dark matter provides the requisite gravitational scaffolding. However, its fundamental nature remains entirely elusive. It does not interact with the electromagnetic force.\nA: This leads to the proliferation of hypothetical candidates, such as WIMPs or Weakly Interacting Massive Particles. But decades of subterranean detection experiments have yielded null results.\nB: Which forces physicists to continuously constrain the parameter space. Some theorists advocate abandoning the particle paradigm altogether in favor of modifying our foundational laws of gravity.\nA: You are referring to Modified Newtonian Dynamics, or MOND. But MOND struggles to reconcile with phenomena like the Bullet Cluster, doesn't it?\nB: It does. The Bullet Cluster demonstrates a clear spatial separation of gravitational mass and baryonic mass post-collision, which heavily corroborates the particle dark matter hypothesis over MOND.\nA: If dark matter remains perpetually undetectable by direct means, does it push the boundaries of what we can classify as an empirically testable scientific theory?\nB: That is the crux of the debate. If an entity is inherently unobservable and its existence relies entirely on mathematical inference, we verge on the precipice of metaphysics rather than empirical physics.\nA: Yet, abandoning the concept leaves us unable to elucidate the macroscopic structure of the cosmos.\nB: Hence our reliance on it as an indispensable placeholder. It is a testament to the current limitations of our standard model of particle physics.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Why is the Bullet Cluster considered crucial evidence in the debate over dark matter?",
+        "options": [
+          "It proves that Modified Newtonian Dynamics is the only viable framework.",
+          "It demonstrates a spatial separation of gravitational mass and baryonic mass.",
+          "It provides the first direct detection of a Weakly Interacting Massive Particle.",
+          "It shows that galaxies can hold together without any gravitational scaffolding."
+        ],
+        "answer": "It demonstrates a spatial separation of gravitational mass and baryonic mass.",
+        "explanation": "The speaker notes that the Bullet Cluster demonstrates a clear spatial separation of mass, heavily corroborating the particle hypothesis over MOND."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What epistemological concern arises if dark matter remains perpetually undetectable by direct means?",
+        "options": [
+          "The study of the cosmos would be completely defunded by governments.",
+          "Scientists would be forced to revert to classical Newtonian physics permanently.",
+          "The theory verges on metaphysics rather than empirical physics.",
+          "Baryonic matter would also have to be classified as mathematically unobservable."
+        ],
+        "answer": "The theory verges on metaphysics rather than empirical physics.",
+        "explanation": "The expert argues that relying entirely on mathematical inference pushes the theory toward metaphysics rather than empirical physics."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Galaxies rotate at velocities that should ___ tear them apart without dark matter.",
+        "answer": "invariably",
+        "explanation": "The speaker mentions that they rotate at velocities that should invariably tear them apart."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Dark matter is considered an indispensable ___ due to limitations in the standard model.",
+        "answer": "placeholder",
+        "explanation": "The expert refers to dark matter as an indispensable placeholder."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the astronomical or physical concept to its corresponding description.",
+        "pairs": [
+          { "left": "Baryonic matter", "right": "The visible matter that we can easily detect" },
+          { "left": "MOND", "right": "A theory advocating the modification of foundational laws of gravity" },
+          { "left": "WIMPs", "right": "Hypothetical particle candidates for dark matter" }
+        ],
+        "answers": {
+          "Baryonic matter": "The visible matter that we can easily detect",
+          "MOND": "A theory advocating the modification of foundational laws of gravity",
+          "WIMPs": "Hypothetical particle candidates for dark matter"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_lesson_07",
+    "type": "lesson",
+    "cefrLevel": "C1",
+    "title": "Social Contract Theory: Rousseau vs. Hobbes",
+    "description": "An academic discussion contrasting the divergent foundational views of human nature in social contract theory.",
+    "topic": "Social contract theory (Rousseau vs Hobbes)",
+    "estimatedMinutes": 13,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Let us examine the epistemological foundations of political authority. The social contract theories of Thomas Hobbes and Jean-Jacques Rousseau offer diametrically opposed visions of the 'state of nature'."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Indeed. For Hobbes, the state of nature is a pre-political paradigm characterized by perpetual conflict—a 'war of every man against every man'. Human existence is, notoriously, 'solitary, poor, nasty, brutish, and short'."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Hobbes posits that humans are fundamentally egoistic, driven by an insatiable appetite for power and self-preservation. Thus, they necessitate a Leviathan."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Precisely. An absolute sovereign is required to impose order and guarantee security. The populace relinquishes their natural liberties in exchange for self-preservation."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Rousseau, conversely, subverts this pessimistic anthropology entirely. He conceptualizes the 'noble savage'."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Yes, Rousseau argues that humans in their natural state are essentially peaceful, isolated, and guided by inherent compassion, or 'pitié', rather than malicious egoism."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "If the state of nature was idyllic, what, according to Rousseau, catalyzed the degradation of human society?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "The advent of private property. Claiming ownership over land engendered inequality, jealousy, and systemic exploitation. Society and its institutions corrupted human nature."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Consequently, their proposed solutions diverge radically. Hobbes advocates for absolutism, while Rousseau conceptualizes the 'General Will'."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Correct. Rousseau's social contract aims to reconcile individual freedom with collective authority. Citizens are only subject to laws they themselves have authored through active democratic participation."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "However, critics argue that Rousseau's concept of forcing individuals to be 'free' by compelling adherence to the General Will borders on totalitarianism."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "That is a seminal critique. The ambiguous delineation of the General Will renders it highly susceptible to manipulation by demagogues masking tyranny as popular consensus."
+      }
+    ],
+    "fullScript": "A: Let us examine the epistemological foundations of political authority. The social contract theories of Thomas Hobbes and Jean-Jacques Rousseau offer diametrically opposed visions of the 'state of nature'.\nB: Indeed. For Hobbes, the state of nature is a pre-political paradigm characterized by perpetual conflict—a 'war of every man against every man'. Human existence is, notoriously, 'solitary, poor, nasty, brutish, and short'.\nA: Hobbes posits that humans are fundamentally egoistic, driven by an insatiable appetite for power and self-preservation. Thus, they necessitate a Leviathan.\nB: Precisely. An absolute sovereign is required to impose order and guarantee security. The populace relinquishes their natural liberties in exchange for self-preservation.\nA: Rousseau, conversely, subverts this pessimistic anthropology entirely. He conceptualizes the 'noble savage'.\nB: Yes, Rousseau argues that humans in their natural state are essentially peaceful, isolated, and guided by inherent compassion, or 'pitié', rather than malicious egoism.\nA: If the state of nature was idyllic, what, according to Rousseau, catalyzed the degradation of human society?\nB: The advent of private property. Claiming ownership over land engendered inequality, jealousy, and systemic exploitation. Society and its institutions corrupted human nature.\nA: Consequently, their proposed solutions diverge radically. Hobbes advocates for absolutism, while Rousseau conceptualizes the 'General Will'.\nB: Correct. Rousseau's social contract aims to reconcile individual freedom with collective authority. Citizens are only subject to laws they themselves have authored through active democratic participation.\nA: However, critics argue that Rousseau's concept of forcing individuals to be 'free' by compelling adherence to the General Will borders on totalitarianism.\nB: That is a seminal critique. The ambiguous delineation of the General Will renders it highly susceptible to manipulation by demagogues masking tyranny as popular consensus.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "According to Rousseau, what was the primary catalyst for the degradation of human society?",
+        "options": [
+          "The inherent egoism present in the natural human condition.",
+          "The creation of an absolute sovereign to enforce laws.",
+          "The advent of private property and land ownership.",
+          "The refusal of citizens to participate in democratic processes."
+        ],
+        "answer": "The advent of private property and land ownership.",
+        "explanation": "Rousseau argues that the advent of private property engendered inequality and exploitation, corrupting human nature."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is a major critique leveled against Rousseau's concept of the 'General Will'?",
+        "options": [
+          "It forces citizens to relinquish all their property to the state.",
+          "It relies too heavily on the notion of human selfishness.",
+          "It is too mathematically complex to be implemented in a modern society.",
+          "Its ambiguity makes it susceptible to totalitarian manipulation by demagogues."
+        ],
+        "answer": "Its ambiguity makes it susceptible to totalitarian manipulation by demagogues.",
+        "explanation": "The speakers note that compelling adherence to the General Will borders on totalitarianism and can be manipulated by demagogues."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Hobbes posits that an absolute sovereign, or ___, is required to impose order.",
+        "answer": "Leviathan",
+        "explanation": "The speaker mentions that humans necessitate a Leviathan to impose order."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Rousseau's concept aims to reconcile individual freedom with collective ___.",
+        "answer": "authority",
+        "explanation": "Rousseau's contract aims to reconcile individual freedom with collective authority."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the philosophical idea to the thinker who proposed it.",
+        "pairs": [
+          { "left": "State of nature is a perpetual war", "right": "Thomas Hobbes" },
+          { "left": "Concept of the 'noble savage'", "right": "Jean-Jacques Rousseau" },
+          { "left": "Necessity of an absolute sovereign", "right": "Thomas Hobbes" },
+          { "left": "Society corrupted inherently peaceful humans", "right": "Jean-Jacques Rousseau" }
+        ],
+        "answers": {
+          "State of nature is a perpetual war": "Thomas Hobbes",
+          "Concept of the 'noble savage'": "Jean-Jacques Rousseau",
+          "Necessity of an absolute sovereign": "Thomas Hobbes",
+          "Society corrupted inherently peaceful humans": "Jean-Jacques Rousseau"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_lesson_08",
+    "type": "lesson",
+    "cefrLevel": "C1",
+    "title": "The Commodification of Culture",
+    "description": "A cultural studies lecture analyzing how capitalism integrates and neutralizes subversive artistic expressions.",
+    "topic": "The commodification of culture",
+    "estimatedMinutes": 13,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Today we dissect the culture industry, a concept pioneered by Adorno and Horkheimer. How does late-stage capitalism metabolize subversive subcultures?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "The fundamental mechanism is commodification. Capitalism possesses an extraordinary capacity to identify genuine counter-cultural movements, strip them of their radical political intent, and repackage them as mass-market consumer goods."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Could you illustrate this with the evolution of punk rock or hip-hop?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Certainly. Punk originated as a visceral rejection of mainstream consumerism and social decay. However, its aesthetics—the safety pins, the distressed clothing—were rapidly co-opted by high fashion houses."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Thereby neutralizing the rebellion by turning it into a purchasable lifestyle brand."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Precisely. This is the illusion of choice. The culture industry offers standardized products veiled under the guise of faux-individuality. Buying a punk t-shirt at a global retail chain is the antithesis of anti-capitalist resistance."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Does this relentless homogenization inherently degrade the artistic value of the cultural artifacts themselves?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Adorno argued forcefully that it does. Mass production demands formulas. Consequently, art loses its aura, its capacity to provoke critical reflection, devolving into mere passive entertainment."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "But isn't this view overly deterministic? It arguably denies agency to the consumers, portraying them as easily manipulated cultural dupes."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "That is a frequent contemporary rebuttal. Cultural theorists like Stuart Hall emphasize 'decoding'—the idea that audiences can reinterpret mass media texts in oppositional ways, subverting the intended capitalist narrative."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "So, a globally distributed pop song might still be utilized as an anthem for local grassroots resistance?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Theoretically, yes. However, the overarching hegemony of the market dictates that even that resistance ultimately generates profit for the conglomerate that owns the copyright."
+      }
+    ],
+    "fullScript": "A: Today we dissect the culture industry, a concept pioneered by Adorno and Horkheimer. How does late-stage capitalism metabolize subversive subcultures?\nB: The fundamental mechanism is commodification. Capitalism possesses an extraordinary capacity to identify genuine counter-cultural movements, strip them of their radical political intent, and repackage them as mass-market consumer goods.\nA: Could you illustrate this with the evolution of punk rock or hip-hop?\nB: Certainly. Punk originated as a visceral rejection of mainstream consumerism and social decay. However, its aesthetics—the safety pins, the distressed clothing—were rapidly co-opted by high fashion houses.\nA: Thereby neutralizing the rebellion by turning it into a purchasable lifestyle brand.\nB: Precisely. This is the illusion of choice. The culture industry offers standardized products veiled under the guise of faux-individuality. Buying a punk t-shirt at a global retail chain is the antithesis of anti-capitalist resistance.\nA: Does this relentless homogenization inherently degrade the artistic value of the cultural artifacts themselves?\nB: Adorno argued forcefully that it does. Mass production demands formulas. Consequently, art loses its aura, its capacity to provoke critical reflection, devolving into mere passive entertainment.\nA: But isn't this view overly deterministic? It arguably denies agency to the consumers, portraying them as easily manipulated cultural dupes.\nB: That is a frequent contemporary rebuttal. Cultural theorists like Stuart Hall emphasize 'decoding'—the idea that audiences can reinterpret mass media texts in oppositional ways, subverting the intended capitalist narrative.\nA: So, a globally distributed pop song might still be utilized as an anthem for local grassroots resistance?\nB: Theoretically, yes. However, the overarching hegemony of the market dictates that even that resistance ultimately generates profit for the conglomerate that owns the copyright.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "According to the culture industry concept, what happens when capitalism co-opts a counter-cultural movement like punk?",
+        "options": [
+          "It forces the movement to become violently revolutionary.",
+          "It elevates the artistic merit of the movement's original creations.",
+          "It strips the movement of political intent and repackages it as consumer goods.",
+          "It permanently bans the aesthetics associated with the movement."
+        ],
+        "answer": "It strips the movement of political intent and repackages it as consumer goods.",
+        "explanation": "The speaker notes that capitalism identifies counter-cultural movements, strips them of radical intent, and repackages them as goods."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What does Stuart Hall's concept of 'decoding' suggest about media consumers?",
+        "options": [
+          "They are entirely passive victims of capitalist manipulation.",
+          "They have the agency to reinterpret mass media texts in oppositional ways.",
+          "They inherently reject any art that is mass-produced.",
+          "They are unable to understand the original intent of the artist."
+        ],
+        "answer": "They have the agency to reinterpret mass media texts in oppositional ways.",
+        "explanation": "Stuart Hall emphasizes 'decoding', meaning audiences can reinterpret texts in oppositional ways, proving they have agency."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The culture industry offers standardized products veiled under the guise of faux-___.",
+        "answer": "individuality",
+        "explanation": "The speaker states the industry offers standardized products under the guise of faux-individuality."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Adorno argued that mass production demands formulas, causing art to devolve into mere ___ entertainment.",
+        "answer": "passive",
+        "explanation": "Adorno believed art loses its aura and devolves into passive entertainment."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the theoretical stance to its corresponding argument in the lecture.",
+        "pairs": [
+          { "left": "Adorno and Horkheimer's view", "right": "Mass production degrades art's capacity to provoke reflection" },
+          { "left": "Stuart Hall's 'decoding'", "right": "Consumers can subvert intended capitalist narratives" },
+          { "left": "The hegemony of the market", "right": "Grassroots resistance still generates profit for conglomerates" }
+        ],
+        "answers": {
+          "Adorno and Horkheimer's view": "Mass production degrades art's capacity to provoke reflection",
+          "Stuart Hall's 'decoding'": "Consumers can subvert intended capitalist narratives",
+          "The hegemony of the market": "Grassroots resistance still generates profit for conglomerates"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_lesson_09",
+    "type": "lesson",
+    "cefrLevel": "C1",
+    "title": "Epigenetics and Nature vs. Nurture",
+    "description": "A scientific panel addressing how epigenetic mechanisms blur the traditional boundary between genetics and environment.",
+    "topic": "Epigenetics and nature vs nurture",
+    "estimatedMinutes": 13,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "For decades, the behavioral sciences were dominated by the 'nature versus nurture' dichotomy. How has the advent of epigenetics rendered this paradigm obsolete, Dr. Evans?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "The dichotomy falsely presumed mutual exclusivity. Epigenetics elucidates the precise biochemical mechanisms through which environmental factors—nurture—directly modulate gene expression—nature."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "To be clear, these environmental influences do not alter the underlying DNA sequence itself, correct?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Correct. The genome remains static. Instead, epigenetic modifications, such as DNA methylation or histone acetylation, alter the physical structure of the chromatin, thereby switching specific genes on or off."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Can we examine the impact of psychosocial stress through this lens? Say, early childhood trauma."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Profoundly. Severe early life stress can induce hypermethylation of the glucocorticoid receptor gene in the hippocampus. This dampens the brain's ability to regulate cortisol, resulting in a lifelong hypersensitivity to stress."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "This implies that trauma leaves a tangible, molecular scar on our neurobiology. Does this epigenetic programming exhibit transgenerational inheritance?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "That is the most provocative frontier of current research. Animal models convincingly demonstrate that trauma-induced epigenetic markers can be transmitted to subsequent generations, bypassing traditional Mendelian inheritance."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "If trauma can be inherited molecularly, does this necessitate a re-evaluation of historical generational trauma in human populations?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Cautiously, yes. While human epidemiological data is inherently convoluted by sociocultural transmission, finding epigenetic signatures in descendants of famine or genocide survivors suggests biological transmission is plausible."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Fortunately, epigenetic marks are considered reversible. Does this offer a promising avenue for therapeutic intervention?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Indeed. Because the epigenome is highly dynamic, pharmacological interventions and robust behavioral therapies can potentially erase deleterious methylation marks, theoretically reversing the phenotypic damage."
+      }
+    ],
+    "fullScript": "A: For decades, the behavioral sciences were dominated by the 'nature versus nurture' dichotomy. How has the advent of epigenetics rendered this paradigm obsolete, Dr. Evans?\nB: The dichotomy falsely presumed mutual exclusivity. Epigenetics elucidates the precise biochemical mechanisms through which environmental factors—nurture—directly modulate gene expression—nature.\nA: To be clear, these environmental influences do not alter the underlying DNA sequence itself, correct?\nB: Correct. The genome remains static. Instead, epigenetic modifications, such as DNA methylation or histone acetylation, alter the physical structure of the chromatin, thereby switching specific genes on or off.\nA: Can we examine the impact of psychosocial stress through this lens? Say, early childhood trauma.\nB: Profoundly. Severe early life stress can induce hypermethylation of the glucocorticoid receptor gene in the hippocampus. This dampens the brain's ability to regulate cortisol, resulting in a lifelong hypersensitivity to stress.\nA: This implies that trauma leaves a tangible, molecular scar on our neurobiology. Does this epigenetic programming exhibit transgenerational inheritance?\nB: That is the most provocative frontier of current research. Animal models convincingly demonstrate that trauma-induced epigenetic markers can be transmitted to subsequent generations, bypassing traditional Mendelian inheritance.\nA: If trauma can be inherited molecularly, does this necessitate a re-evaluation of historical generational trauma in human populations?\nB: Cautiously, yes. While human epidemiological data is inherently convoluted by sociocultural transmission, finding epigenetic signatures in descendants of famine or genocide survivors suggests biological transmission is plausible.\nA: Fortunately, epigenetic marks are considered reversible. Does this offer a promising avenue for therapeutic intervention?\nB: Indeed. Because the epigenome is highly dynamic, pharmacological interventions and robust behavioral therapies can potentially erase deleterious methylation marks, theoretically reversing the phenotypic damage.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "How does epigenetics challenge the traditional 'nature versus nurture' dichotomy?",
+        "options": [
+          "It proves that environmental factors have no actual impact on human biology.",
+          "It demonstrates that environmental factors directly change the underlying DNA sequence.",
+          "It shows how environmental factors biochemically modulate the expression of inherited genes.",
+          "It concludes that genetics play a negligible role compared to childhood upbringing."
+        ],
+        "answer": "It shows how environmental factors biochemically modulate the expression of inherited genes.",
+        "explanation": "Epigenetics elucidates how environmental factors (nurture) directly modulate gene expression (nature), blurring the line."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is a potential clinical benefit of the fact that the epigenome is highly dynamic?",
+        "options": [
+          "It prevents trauma from ever being inherited by future generations.",
+          "It allows for pharmacological therapies that might reverse deleterious methylation marks.",
+          "It makes it easier to definitively prove historical generational trauma in all human populations.",
+          "It ensures that early childhood stress never affects cortisol regulation."
+        ],
+        "answer": "It allows for pharmacological therapies that might reverse deleterious methylation marks.",
+        "explanation": "Because it is highly dynamic, therapies can potentially erase deleterious marks, reversing damage."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Epigenetic modifications do not alter the sequence; the ___ remains static.",
+        "answer": "genome",
+        "explanation": "Dr. Evans explicitly notes that the genome remains static."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Early life stress can dampen the brain's ability to regulate ___, causing hypersensitivity to stress.",
+        "answer": "cortisol",
+        "explanation": "Hypermethylation dampens the ability to regulate cortisol."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the biological mechanism to its role in epigenetics.",
+        "pairs": [
+          { "left": "DNA sequence", "right": "Remains static and unaltered by the environment" },
+          { "left": "DNA methylation", "right": "Alters physical chromatin structure to switch genes off" },
+          { "left": "Glucocorticoid receptor gene", "right": "Its hypermethylation dampens cortisol regulation" }
+        ],
+        "answers": {
+          "DNA sequence": "Remains static and unaltered by the environment",
+          "DNA methylation": "Alters physical chromatin structure to switch genes off",
+          "Glucocorticoid receptor gene": "Its hypermethylation dampens cortisol regulation"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_lesson_10",
+    "type": "lesson",
+    "cefrLevel": "C1",
+    "title": "The Psychology of Extremism",
+    "description": "An exploration of the cognitive and social mechanisms that drive individuals towards radicalization.",
+    "topic": "The psychology of extremism",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Today's focus is the psychological etiology of radicalization. Professor Vance, public discourse often attributes extremism to profound psychopathology. Is this clinically accurate?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Empirical evidence overwhelmingly contradicts that assertion. Most individuals who embrace extremist ideologies do not exhibit clinical psychiatric disorders. Framing radicalization as madness obscures the rational, albeit flawed, underlying cognitive processes."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "If not psychopathology, what constitutes the primary psychological catalyst for embracing radical fringes?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "It frequently stems from a profound crisis of significance—a systemic loss of identity, purpose, or societal belonging. Extremist groups expertly weaponize this vulnerability."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "How do these groups provide a restorative psychological function for the disenfranchised individual?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "They offer a rigid, Manichean worldview. By providing absolute moral clarity—us versus them, good versus evil—they alleviate the crushing cognitive burden of navigating a complex, ambiguous modern society."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "This black-and-white thinking must facilitate the process of moral disengagement, allowing individuals to justify atrocities."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Precisely. Through the dehumanization of the out-group and the perceived existential threat they pose, violent actions are cognitively restructured not as crimes, but as heroic necessities."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "What role does the 'echo chamber' effect, particularly amplified by algorithmic social media, play in accelerating this trajectory?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Algorithms are optimized for engagement, preferentially surfacing inflammatory content. This insulates the user from counter-narratives, causing ideological polarization to calcify rapidly."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Given these deep-rooted psychosocial drivers, traditional counter-terrorism strategies relying solely on punitive measures seem inherently insufficient."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "They are. Effective deradicalization necessitates cognitive behavioral interventions that rebuild a multifaceted identity and restore a tolerance for societal ambiguity, rather than just incarcerating the ideologue."
+      }
+    ],
+    "fullScript": "A: Today's focus is the psychological etiology of radicalization. Professor Vance, public discourse often attributes extremism to profound psychopathology. Is this clinically accurate?\nB: Empirical evidence overwhelmingly contradicts that assertion. Most individuals who embrace extremist ideologies do not exhibit clinical psychiatric disorders. Framing radicalization as madness obscures the rational, albeit flawed, underlying cognitive processes.\nA: If not psychopathology, what constitutes the primary psychological catalyst for embracing radical fringes?\nB: It frequently stems from a profound crisis of significance—a systemic loss of identity, purpose, or societal belonging. Extremist groups expertly weaponize this vulnerability.\nA: How do these groups provide a restorative psychological function for the disenfranchised individual?\nB: They offer a rigid, Manichean worldview. By providing absolute moral clarity—us versus them, good versus evil—they alleviate the crushing cognitive burden of navigating a complex, ambiguous modern society.\nA: This black-and-white thinking must facilitate the process of moral disengagement, allowing individuals to justify atrocities.\nB: Precisely. Through the dehumanization of the out-group and the perceived existential threat they pose, violent actions are cognitively restructured not as crimes, but as heroic necessities.\nA: What role does the 'echo chamber' effect, particularly amplified by algorithmic social media, play in accelerating this trajectory?\nB: Algorithms are optimized for engagement, preferentially surfacing inflammatory content. This insulates the user from counter-narratives, causing ideological polarization to calcify rapidly.\nA: Given these deep-rooted psychosocial drivers, traditional counter-terrorism strategies relying solely on punitive measures seem inherently insufficient.\nB: They are. Effective deradicalization necessitates cognitive behavioral interventions that rebuild a multifaceted identity and restore a tolerance for societal ambiguity, rather than just incarcerating the ideologue.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Why does Professor Vance argue against attributing extremism to psychopathology?",
+        "options": [
+          "Because psychiatric disorders are too difficult to diagnose in extremist populations.",
+          "Because framing it as madness obscures the rational, underlying cognitive processes.",
+          "Because individuals with psychiatric disorders cannot commit acts of violence.",
+          "Because extremist groups actively screen out individuals with mental health issues."
+        ],
+        "answer": "Because framing it as madness obscures the rational, underlying cognitive processes.",
+        "explanation": "He notes that empirical evidence contradicts the assertion, and framing it as madness obscures the actual cognitive processes."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What psychological relief do extremist groups provide to a disenfranchised individual?",
+        "options": [
+          "They offer financial stability and long-term career prospects.",
+          "They provide complex, nuanced solutions to modern political problems.",
+          "They offer a rigid worldview that alleviates the burden of navigating societal ambiguity.",
+          "They encourage individuals to seek professional psychiatric help."
+        ],
+        "answer": "They offer a rigid worldview that alleviates the burden of navigating societal ambiguity.",
+        "explanation": "They offer a Manichean worldview that alleviates the crushing cognitive burden of navigating a complex modern society."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Through moral disengagement, violent actions are cognitively restructured as heroic ___.",
+        "answer": "necessities",
+        "explanation": "The speaker explicitly notes that violent actions are cognitively restructured as heroic necessities."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Algorithms surface inflammatory content, causing ideological polarization to ___ rapidly.",
+        "answer": "calcify",
+        "explanation": "Vance states that insulating users from counter-narratives causes polarization to calcify rapidly."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the psychological concept to its function in the radicalization process.",
+        "pairs": [
+          { "left": "Crisis of significance", "right": "Acts as the primary psychological catalyst for vulnerability" },
+          { "left": "Manichean worldview", "right": "Provides absolute moral clarity (us vs. them)" },
+          { "left": "Dehumanization", "right": "Facilitates moral disengagement to justify atrocities" }
+        ],
+        "answers": {
+          "Crisis of significance": "Acts as the primary psychological catalyst for vulnerability",
+          "Manichean worldview": "Provides absolute moral clarity (us vs. them)",
+          "Dehumanization": "Facilitates moral disengagement to justify atrocities"
+        }
+      }
+    ]
+  }
+]

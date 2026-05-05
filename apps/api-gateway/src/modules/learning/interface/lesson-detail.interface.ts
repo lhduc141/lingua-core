@@ -1,5 +1,5 @@
-import { SkillName } from '@prisma/client';
 import { QuestionItem } from './question-item.interface';
+import { SkillName } from '@app/shared';
 
 export interface LessonDetail {
 	lessonId: string;

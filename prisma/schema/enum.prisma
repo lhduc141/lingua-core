@@ -78,6 +78,7 @@ enum SkillName {
   reading  @map("reading")
   writing  @map("writing")
   speaking @map("speaking")
+  listening @map("listening")
 
   @@map("skill_name")
 }

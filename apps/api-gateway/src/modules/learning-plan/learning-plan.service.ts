@@ -26,16 +26,10 @@ import { PlanTask } from './interface/plan-task.interface';
 
 @Injectable()
 export class LearningPlanService implements OnModuleInit {
-	UUID_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
-	DAY_NAMES = ['SUNDAY', 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY'];
-
 	private readonly logger = new Logger(LearningPlanService.name);
-	private readonly ASSESSED_TO_CEFR: Record<string, string> = {
-		beginner: 'A1',
-		elementary: 'A2',
-		intermediate: 'B1',
-		advanced: 'B2',
-	};
+
+	private readonly WEEKDAYS = ['MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY'];
+	private readonly SUPPORTED_SKILLS = ['reading', 'writing', 'speaking', 'listening'];
 
 	constructor(
 		private readonly prisma: PrismaService,
@@ -52,38 +46,46 @@ export class LearningPlanService implements OnModuleInit {
 
 	// 1. GET /learning-plan/current
 	async getCurrentPlan(userId: string) {
-		const latestItem = await this.prisma.learningPlanItem.findFirst({
-			where: { userId, deletedAt: null },
-			orderBy: [{ planCycle: 'desc' }, { weekNumber: 'desc' }],
-			select: LearningPlanSelect.cycleWeek,
-		});
+		const { weekStartDate, weekEndDate, weekDates } = this.getCurrentVNWeekRange();
 
-		if (!latestItem || !latestItem.planCycle) {
-			return ResponseDto.success(Object, null, 'No learning plan found. Generate one first.');
-		}
-
-		const { planCycle, weekNumber } = latestItem;
+		const planCycle = Number(weekStartDate.replaceAll('-', ''));
+		const weekNumber = 1;
 
 		const items = await this.prisma.learningPlanItem.findMany({
-			where: { userId, planCycle, weekNumber, deletedAt: null },
+			where: {
+				userId,
+				deletedAt: null,
+				dueDate: {
+					gte: this.vnDateToDate(weekStartDate),
+					lt: this.vnDateToDate(this.addDays(weekStartDate, 7)),
+				},
+			},
 			select: LearningPlanSelect.task,
 			orderBy: [{ dueDate: 'asc' }, { position: 'asc' }],
 		});
 
 		if (items.length === 0) {
-			return ResponseDto.success(Object, null, 'No plan items found for current week.');
+			return ResponseDto.success(Object, null, 'No learning plan found for current week. Generate one first.');
 		}
 
 		const reviewItem = items.find((i) => i.itemType === 'weekly_review' && !i.description);
 		if (reviewItem && reviewItem.dueDate) {
-			const now = new Date();
-			const dueDate = new Date(reviewItem.dueDate);
-			if (now >= dueDate) {
-				await this.autoGenerateWeeklyReview(userId, reviewItem.itemId, planCycle, weekNumber!);
+			const nowVN = this.vnDateToDate(this.getVNToday());
+			const reviewDueDate = this.vnDateToDate(this.toVNDateStr(new Date(reviewItem.dueDate)));
+
+			const nonReviewItems = items.filter((i) => i.itemType !== 'weekly_review');
+			const allDone =
+				nonReviewItems.length > 0 &&
+				nonReviewItems.every((i) => i.status === 'completed' || i.status === 'skipped');
+
+			if (nowVN >= reviewDueDate || allDone) {
+				await this.autoGenerateWeeklyReview(userId, reviewItem.itemId, planCycle, weekNumber);
+
 				const updated = await this.prisma.learningPlanItem.findFirst({
 					where: { itemId: reviewItem.itemId },
 					select: LearningPlanSelect.task,
 				});
+
 				if (updated) {
 					const idx = items.findIndex((i) => i.itemId === reviewItem.itemId);
 					if (idx >= 0) items[idx] = updated;
@@ -92,18 +94,19 @@ export class LearningPlanService implements OnModuleInit {
 		}
 
 		const dayMap = new Map<string, typeof items>();
+		for (const date of weekDates) {
+			dayMap.set(date.date, []);
+		}
+
 		for (const item of items) {
-			const dateKey = item.dueDate ? new Date(item.dueDate).toISOString().split('T')[0] : 'no-date';
-			if (!dayMap.has(dateKey)) dayMap.set(dateKey, []);
+			const dateKey = item.dueDate ? this.toVNDateStr(new Date(item.dueDate)) : null;
+			if (!dateKey || !dayMap.has(dateKey)) continue;
 			dayMap.get(dateKey)!.push(item);
 		}
 
-		const sortedDates = Array.from(dayMap.keys()).sort();
-		const startDate = sortedDates[0] || '';
-		let dayNumber = weekNumber === 2 ? 8 : 1;
+		const days: PlanDay[] = weekDates.map((date) => {
+			const dayItems = dayMap.get(date.date) ?? [];
 
-		const days: PlanDay[] = sortedDates.map((dateKey) => {
-			const dayItems = dayMap.get(dateKey)!;
 			const tasks: PlanTask[] = dayItems.map((item) => ({
 				itemId: item.itemId,
 				title: item.title,
@@ -123,6 +126,7 @@ export class LearningPlanService implements OnModuleInit {
 
 			const completedTasks = tasks.filter((t) => t.status === 'completed').length;
 			const totalTasks = tasks.length;
+
 			const dayStatus =
 				completedTasks === totalTasks && totalTasks > 0
 					? ('completed' as const)
@@ -130,20 +134,28 @@ export class LearningPlanService implements OnModuleInit {
 						? ('in_progress' as const)
 						: ('pending' as const);
 
-			return { day: dayNumber++, date: dateKey, totalTasks, completedTasks, status: dayStatus, tasks };
+			return {
+				day: date.day,
+				date: date.date,
+				totalTasks,
+				completedTasks,
+				status: dayStatus,
+				tasks,
+			};
 		});
 
 		const totalTasks = items.length;
 		const completedTasks = items.filter((i) => i.status === 'completed').length;
 		const completedDays = days.filter((d) => d.status === 'completed').length;
-		const endDate = sortedDates[sortedDates.length - 1] || startDate;
 
 		const response: CurrentPlanResponse = {
 			planCycle,
-			weekNumber: weekNumber!,
-			startDate,
-			endDate,
-			totalDays: days.length,
+			weekNumber,
+			weekStartDate,
+			weekEndDate,
+			startDate: weekStartDate,
+			endDate: weekEndDate,
+			totalDays: 7,
 			completedDays,
 			overallProgress: totalTasks > 0 ? Math.round((completedTasks / totalTasks) * 1000) / 10 : 0,
 			days,
@@ -153,12 +165,13 @@ export class LearningPlanService implements OnModuleInit {
 	}
 
 	// 2. POST /learning-plan/generate
-	async generatePlan(userId: string, dto: GeneratePlanDto) {
+	async generatePlan(userId: string, _dto: GeneratePlanDto) {
 		const catSession = await this.prisma.placementSession.findFirst({
 			where: { userId, status: 'completed' },
 			orderBy: { completedAt: 'desc' },
 			select: PlacementSessionSelect.latestResult,
 		});
+
 		if (!catSession) {
 			throw new BadRequestException('Please complete a placement test before generating a learning plan.');
 		}
@@ -167,99 +180,259 @@ export class LearningPlanService implements OnModuleInit {
 			where: { userId, isActive: true, deletedAt: null },
 			select: OnboardingSurveySelect.planInput,
 		});
+
 		if (!survey) {
 			throw new BadRequestException('Please complete the onboarding survey before generating a learning plan.');
 		}
 
-		const { planCycle, weekNumber } = await this.determinePlanPhase(userId, dto.phase);
+		const { today, weekStartDate, weekEndDate, weekDates } = this.getCurrentVNWeekRange();
 
-		if (!(planCycle === 1 && weekNumber === 1)) {
-			await this.checkReviewGate(userId);
-		}
+		const planCycle = Number(weekStartDate.replaceAll('-', ''));
+		const weekNumber = 1;
+		const startDateStr = weekStartDate;
 
-		const availableContent = await this.getAvailableContent(
-			catSession.cefrLevel ?? 'B1',
-			(survey?.primaryFocusSkills as string[]) ?? ['reading', 'writing', 'speaking'],
-		);
-		const validRefIds = new Set<string>([
-			...availableContent.lessons.map((l: any) => l.lessonId),
-			...availableContent.questionSets.map((q: any) => q.questionSetId),
-		]);
+		await this.prisma.learningPlanItem.updateMany({
+			where: {
+				userId,
+				deletedAt: null,
+				dueDate: {
+					gte: this.vnDateToDate(weekStartDate),
+					lt: this.vnDateToDate(this.addDays(weekStartDate, 7)),
+				},
+			},
+			data: { deletedAt: new Date() },
+		});
 
 		const recentPerformance = await this.getRecentPerformance(userId);
-		const previousWeekReview = weekNumber === 2 ? await this.getLatestReviewData(userId, planCycle) : null;
-		const latestFeedback = weekNumber === 2 ? await this.getLatestUserFeedback(userId, planCycle) : null;
+		const availableDays = this.normalizeAvailableDays(survey.availableDays);
 
-		const todayStr = new Date().toISOString().slice(0, 10); // "2026-04-21"
-		const startDate = new Date(todayStr + 'T00:00:00.000Z');
+		const rawFocusSkills = Array.isArray(survey.primaryFocusSkills)
+			? survey.primaryFocusSkills.map((skill) => String(skill).trim().toLowerCase())
+			: [];
+
+		const hasAllSkills = rawFocusSkills.some((skill) => ['all', 'all_skills', 'all skills'].includes(skill));
+
+		const sanitizedFocusSkills = rawFocusSkills.filter((skill) => this.SUPPORTED_SKILLS.includes(skill));
+
+		const selectedFocusSkills = hasAllSkills
+			? [...this.SUPPORTED_SKILLS]
+			: sanitizedFocusSkills.length > 0
+				? sanitizedFocusSkills
+				: ['writing', 'speaking'];
+
+		const planSkills = Array.from(new Set(['reading', 'writing', 'speaking', ...selectedFocusSkills])).filter(
+			(skill) => this.SUPPORTED_SKILLS.includes(skill),
+		);
+
+		const rawWeeklyHours = Number(survey.plannedStudyHoursPerWeek ?? 7);
+		const plannedStudyHoursPerWeek = Math.min(Math.max(rawWeeklyHours, 1), 14);
+		const dailyMinutesLimit = Math.max(
+			45,
+			Math.ceil((plannedStudyHoursPerWeek / Math.max(availableDays.length, 1)) * 60),
+		);
+
+		const { lessons, questionSets, shortToFullMap } = await this.getAvailableContent(
+			catSession.cefrLevel ?? 'B1',
+			planSkills,
+			userId,
+			recentPerformance,
+			weekStartDate,
+		);
+
+		const validRefIds = new Set<string>([
+			...lessons.map((l: any) => l.lessonId),
+			...questionSets.map((q: any) => q.questionSetId),
+		]);
+
+		const skillAvgMap: Record<string, { total: number; count: number }> = {};
+		for (const r of recentPerformance) {
+			if (!r.skillName) continue;
+			if (!skillAvgMap[r.skillName]) skillAvgMap[r.skillName] = { total: 0, count: 0 };
+			skillAvgMap[r.skillName].total += r.score;
+			skillAvgMap[r.skillName].count += 1;
+		}
+
+		const skillPerformanceSummary = Object.entries(skillAvgMap).map(([skill, { total, count }]) => ({
+			skill,
+			avg: Math.round(total / count),
+		}));
+
+		const maxAiItems = Math.min(40, availableDays.length * 8);
+
+		const aiLessons = this.shuffle(lessons).slice(0, maxAiItems);
+		const aiQSets = this.shuffle(questionSets).slice(0, maxAiItems);
+
+		const contentGroups: Record<string, string[]> = {};
+
+		for (const l of aiLessons) {
+			const key = `${l.cefrLevel}_${l.skillName}_LESSON`;
+			if (!contentGroups[key]) contentGroups[key] = [];
+			contentGroups[key].push(l.lessonId.split('-')[0]);
+		}
+
+		for (const q of aiQSets) {
+			const key = `${q.cefrLevel}_${q.skillName}_PRACTICE`;
+			if (!contentGroups[key]) contentGroups[key] = [];
+			contentGroups[key].push(q.questionSetId.split('-')[0]);
+		}
+
+		const compactContent = Object.entries(contentGroups)
+			.map(([k, ids]) => `${k}: ${ids.join(',')}`)
+			.join('\n');
+
+		if (!compactContent.trim()) {
+			throw new BadRequestException('No available learning content found for your profile.');
+		}
 
 		const aiPayload = {
 			cefrLevel: catSession.cefrLevel,
 			goals: {
-				primaryGoal: survey.primaryGoal,
-				focusSkills: survey.primaryFocusSkills,
-				plannedStudyHoursPerWeek: survey.plannedStudyHoursPerWeek,
-				availableDays: survey.availableDays,
-				targetGoal: survey.targetGoal,
+				focusSkills: selectedFocusSkills,
+				planSkills,
+				plannedStudyHoursPerWeek,
+				availableDays,
 			},
-			currentCycle: planCycle,
-			weekNumber,
-			recentPerformance,
-			previousWeekReview,
-			userFeedback: latestFeedback,
-			availableContent,
-			restDayNumbers: [] as number[],
+			weekStartDate,
+			weekEndDate,
+			weekDates,
+			skillPerformance: skillPerformanceSummary,
+			compactContent,
+			dailyMinutesLimit,
 		};
 
-		const availableDays = (survey.availableDays ?? []) as string[];
-		if (availableDays.length > 0) {
-			for (let i = 0; i < 7; i++) {
-				const d = new Date(startDate);
-				d.setDate(d.getDate() + i);
-				const weekday = this.DAY_NAMES[d.getDay()];
-				if (!availableDays.includes(weekday!)) {
-					aiPayload.restDayNumbers.push(i + 1);
-				}
-			}
-		}
 		let aiResult: { planItems: AiPlanItem[] };
+
 		try {
 			aiResult = await this.aiClient.generatePlan(aiPayload);
 		} catch (err) {
 			this.logger.error(`AI plan generation failed: ${err.message}`);
 			throw new BadRequestException('AI plan generation failed. Please try again.');
 		}
+
 		if (!aiResult?.planItems || aiResult.planItems.length === 0) {
 			throw new BadRequestException('AI returned empty plan. Please try again.');
 		}
 
 		const now = new Date();
-		const planItems = aiResult.planItems
+
+		const [lessonTitles, qsetTitles] = await Promise.all([
+			this.prisma.lesson.findMany({
+				where: { lessonId: { in: [...validRefIds] }, deletedAt: null },
+				select: { lessonId: true, title: true },
+			}),
+			this.prisma.questionSet.findMany({
+				where: { questionSetId: { in: [...validRefIds] }, deletedAt: null },
+				select: { questionSetId: true, title: true },
+			}),
+		]);
+
+		const titleMap = new Map<string, string>();
+		for (const l of lessonTitles) titleMap.set(l.lessonId, l.title);
+		for (const q of qsetTitles) titleMap.set(q.questionSetId, q.title);
+
+		const weekdayByDay: Record<number, string> = {
+			1: 'MONDAY',
+			2: 'TUESDAY',
+			3: 'WEDNESDAY',
+			4: 'THURSDAY',
+			5: 'FRIDAY',
+			6: 'SATURDAY',
+			7: 'SUNDAY',
+		};
+
+		const allowedSkills = new Set(planSkills);
+		const dayTaskCount = new Map<number, number>();
+		const dayMinutes = new Map<number, number>();
+
+		const validAiItems = aiResult.planItems.filter((item) => {
+			if (item.day < 1 || item.day > 7) {
+				this.logger.warn(`Skipping item with invalid day: ${item.day}`);
+				return false;
+			}
+
+			const itemType = item.itemType as string;
+			if (!['lesson', 'practice_session', 'custom_activity'].includes(itemType)) {
+				this.logger.warn(`Skipping invalid itemType: ${itemType}`);
+				return false;
+			}
+
+			const weekday = weekdayByDay[item.day];
+			if (!availableDays.includes(weekday)) {
+				this.logger.warn(`Skipping item on unavailable day: day=${item.day} weekday=${weekday}`);
+				return false;
+			}
+
+			const itemSkill = item.skillName ? String(item.skillName).toLowerCase() : null;
+			if (itemSkill && !allowedSkills.has(itemSkill)) {
+				this.logger.warn(`Skipping item outside allowed plan skills: ${item.title} | skill=${item.skillName}`);
+				return false;
+			}
+
+			if (item.day === 7 && item.itemType !== 'practice_session') {
+				this.logger.warn(`Skipping Sunday non-practice item: ${item.title}`);
+				return false;
+			}
+
+			const currentCount = dayTaskCount.get(item.day) ?? 0;
+			const maxTasks = item.day === 7 ? 2 : 4;
+
+			if (currentCount >= maxTasks) {
+				this.logger.warn(`Skipping item because day limit reached: day=${item.day}`);
+				return false;
+			}
+
+			const currentMinutes = dayMinutes.get(item.day) ?? 0;
+			const itemMinutes = Math.max(Number(item.estimatedMinutes ?? 0), 0);
+
+			if (currentCount > 0 && currentMinutes + itemMinutes > dailyMinutesLimit) {
+				this.logger.warn(
+					`Skipping item because daily minutes limit reached: day=${item.day} current=${currentMinutes} item=${itemMinutes} limit=${dailyMinutesLimit}`,
+				);
+				return false;
+			}
+
+			dayTaskCount.set(item.day, currentCount + 1);
+			dayMinutes.set(item.day, currentMinutes + itemMinutes);
+
+			return true;
+		});
+
+		const selectedRefIds = new Set<string>();
+
+		const planItems = validAiItems
 			.filter((item) => {
 				if (item.itemType === 'custom_activity') return true;
+
 				if (!item.refId) {
 					this.logger.warn(`Skipping item missing refId: "${item.title}"`);
 					return false;
 				}
-				if (!this.UUID_REGEX.test(item.refId)) {
-					this.logger.warn(`Skipping item with non-UUID refId: "${item.refId}" (${item.title})`);
+
+				const rawRefId = String(item.refId ?? '').trim();
+				const fullId = String(shortToFullMap.get(rawRefId) ?? rawRefId).trim();
+
+				if (!validRefIds.has(fullId)) {
+					this.logger.warn(`Skipping unknown refId: "${fullId}" (${item.title})`);
 					return false;
 				}
-				if (!validRefIds.has(item.refId)) {
-					this.logger.warn(`Skipping item with unknown refId: "${item.refId}" (${item.title})`);
+
+				if (selectedRefIds.has(fullId)) {
+					this.logger.warn(`Skipping duplicate refId in generated plan: "${fullId}" (${item.title})`);
 					return false;
 				}
+
+				item.refId = fullId;
+				selectedRefIds.add(fullId);
 				return true;
 			})
 			.map((item) => {
-				const dayOffset = item.day - (weekNumber === 2 ? 8 : 1);
-				const dueDate = new Date(startDate);
-				dueDate.setDate(dueDate.getDate() + dayOffset);
+				const dayOffset = item.day - 1;
+				const dueDate = this.vnDateToDate(this.addDays(startDateStr, dayOffset));
 
 				return {
 					userId,
-					title: item.title,
-					description: item.description,
+					title: item.refId && titleMap.get(item.refId) ? titleMap.get(item.refId)! : item.title,
+					description: item.description ?? null,
 					rationale: item.rationale,
 					itemType: item.itemType,
 					refType:
@@ -268,7 +441,7 @@ export class LearningPlanService implements OnModuleInit {
 							: item.itemType === 'lesson'
 								? 'lesson'
 								: 'question_set',
-					refId: item.refId,
+					refId: item.itemType === 'custom_activity' ? null : item.refId,
 					dueDate,
 					position: item.position,
 					status: 'pending' as any,
@@ -276,20 +449,46 @@ export class LearningPlanService implements OnModuleInit {
 					weekNumber,
 					generatedAt: now,
 					estimatedMinutes: item.estimatedMinutes,
-					skillName: item.skillName,
+					skillName: item.skillName ? String(item.skillName).toLowerCase() : null,
 				};
 			});
 
-		const reviewDueDate = new Date(todayStr + 'T00:00:00.000Z');
-		const daysUntilSunday = (7 - reviewDueDate.getDay()) % 7 || 7;
-		reviewDueDate.setDate(reviewDueDate.getDate() + daysUntilSunday);
+		const finalPlanItems = planItems.filter((item) => {
+			const dateStr = this.toVNDateStr(new Date(item.dueDate));
+			const weekDate = weekDates.find((d) => d.date === dateStr);
 
-		const filteredPlanItems = planItems.filter((item) => item.dueDate < reviewDueDate);
-		filteredPlanItems.push({
+			if (!weekDate) {
+				this.logger.warn(`Dropping item outside current week: ${item.title} | date=${dateStr}`);
+				return false;
+			}
+
+			if (!availableDays.includes(weekDate.weekday)) {
+				this.logger.warn(`Dropping item on unavailable date: ${item.title} | ${weekDate.weekday}`);
+				return false;
+			}
+
+			if (weekDate.day === 7 && item.itemType !== 'practice_session') {
+				this.logger.warn(`Dropping Sunday non-practice item after mapping: ${item.title}`);
+				return false;
+			}
+
+			return true;
+		});
+
+		if (finalPlanItems.length === 0) {
+			throw new BadRequestException('AI returned no valid plan items after validation.');
+		}
+
+		const reviewDateStr = this.addDays(startDateStr, 6);
+		const reviewDueDate = this.vnDateToDate(reviewDateStr);
+
+		const itemsToCreate = [...finalPlanItems];
+
+		itemsToCreate.push({
 			userId,
-			title: `Weekly Review — Tuần ${weekNumber}`,
+			title: 'Weekly Review',
 			description: null as any,
-			rationale: 'Nhìn lại tiến độ tuần qua và lên kế hoạch tuần tiếp theo.',
+			rationale: 'Review weekly progress.',
 			itemType: 'weekly_review',
 			refType: null,
 			refId: null,
@@ -302,16 +501,23 @@ export class LearningPlanService implements OnModuleInit {
 			estimatedMinutes: 10,
 			skillName: null,
 		});
-		await this.prisma.learningPlanItem.createMany({ data: filteredPlanItems });
+
+		await this.prisma.learningPlanItem.createMany({ data: itemsToCreate });
 
 		this.logger.log(
-			`Plan generated | userId=${userId} | cycle=${planCycle} | week=${weekNumber} | items=${filteredPlanItems.length}`,
+			`Plan generated | userId=${userId} | week=${weekStartDate}..${weekEndDate} | items=${itemsToCreate.length} | today=${today} | pool=L${lessons.length}+Q${questionSets.length} | sent=L${aiLessons.length}+Q${aiQSets.length} | focus=${selectedFocusSkills.join(',')} | planSkills=${planSkills.join(',')} | hours=${plannedStudyHoursPerWeek} | dailyLimit=${dailyMinutesLimit}`,
 		);
 
 		return ResponseDto.success(
 			Object,
-			{ planCycle, weekNumber, itemsCreated: filteredPlanItems.length },
-			`Learning plan cycle ${planCycle} week ${weekNumber} generated successfully.`,
+			{
+				planCycle,
+				weekNumber,
+				weekStartDate,
+				weekEndDate,
+				itemsCreated: itemsToCreate.length,
+			},
+			`Learning plan for ${weekStartDate} to ${weekEndDate} generated successfully.`,
 		);
 	}
 
@@ -325,28 +531,31 @@ export class LearningPlanService implements OnModuleInit {
 		if (!item) throw new NotFoundException('Review item not found');
 		if (item.itemType !== 'weekly_review') throw new BadRequestException('This item is not a weekly review');
 
-		if (!item.description)
-			throw new BadRequestException(
-				'Weekly review has not been generated yet. Please wait until the review date.',
-			);
+		if (!item.description) {
+			throw new BadRequestException('Weekly review has not been generated yet. Please wait until review time.');
+		}
 
-		if (item.feedbackSubmittedAt)
+		if (item.feedbackSubmittedAt) {
 			throw new BadRequestException('Feedback has already been submitted for this review');
+		}
+
+		const feedbackSubmittedAt = new Date();
 
 		await this.prisma.learningPlanItem.update({
 			where: { itemId },
 			data: {
 				userFeedback: dto.userFeedback ?? null,
-				feedbackSubmittedAt: new Date(),
+				feedbackSubmittedAt,
 				status: 'completed' as any,
 			},
 		});
 
 		this.logger.log(`Review feedback submitted | userId=${userId} | itemId=${itemId}`);
+
 		return ResponseDto.success(
 			Object,
-			{ itemId, feedbackSubmittedAt: new Date(), canGenerateNextWeek: true },
-			"Feedback submitted. You can now generate the next week's plan.",
+			{ itemId, feedbackSubmittedAt, canGenerateNextWeek: false },
+			'Feedback submitted.',
 		);
 	}
 
@@ -359,11 +568,13 @@ export class LearningPlanService implements OnModuleInit {
 
 		if (!item) throw new NotFoundException('Plan item not found');
 
-		if (item.itemType === 'weekly_review')
+		if (item.itemType === 'weekly_review') {
 			throw new BadRequestException('Use POST /learning-plan/review/:itemId/feedback for weekly reviews');
+		}
 
-		if (['completed', 'skipped'].includes(item.status as string))
+		if (['completed', 'skipped'].includes(item.status as string)) {
 			throw new BadRequestException(`Item is already ${item.status}`);
+		}
 
 		const updateData: any = { status: dto.status as any };
 
@@ -376,6 +587,7 @@ export class LearningPlanService implements OnModuleInit {
 					PlanJob.GRADE_CUSTOM_ACTIVITY,
 					{ itemId, textAnswer: dto.submittedText },
 				);
+
 				this.logger.log(`Custom activity queued for grading | itemId=${itemId}`);
 			}
 		}
@@ -399,6 +611,7 @@ export class LearningPlanService implements OnModuleInit {
 		});
 
 		const groups = new Map<string, typeof allItems>();
+
 		for (const item of allItems) {
 			const key = `${item.planCycle}-${item.weekNumber}`;
 			if (!groups.has(key)) groups.set(key, []);
@@ -418,8 +631,8 @@ export class LearningPlanService implements OnModuleInit {
 			return {
 				planCycle: Number(cycleStr),
 				weekNumber: Number(weekStr),
-				startDate: startDate.toISOString().split('T')[0],
-				endDate: endDate.toISOString().split('T')[0],
+				startDate: this.toVNDateStr(startDate),
+				endDate: this.toVNDateStr(endDate),
 				totalTasks,
 				completedTasks,
 				skippedTasks,
@@ -433,16 +646,30 @@ export class LearningPlanService implements OnModuleInit {
 		return ResponseDto.success(Object, new PagingDataDto({ count: rows.length, rows: paged }));
 	}
 
-	//6.
+	// 6. DELETE /learning-plan/reset
 	async resetPlan(userId: string) {
-		await this.prisma.learningPlanItem.updateMany({
-			where: { userId, deletedAt: null },
+		const { weekStartDate } = this.getCurrentVNWeekRange();
+
+		const result = await this.prisma.learningPlanItem.updateMany({
+			where: {
+				userId,
+				deletedAt: null,
+				dueDate: {
+					gte: this.vnDateToDate(weekStartDate),
+					lt: this.vnDateToDate(this.addDays(weekStartDate, 7)),
+				},
+			},
 			data: { deletedAt: new Date() },
 		});
-		return ResponseDto.success(Object, null, 'Plan reset successfully.');
+
+		this.logger.warn(
+			`Current week plan reset | userId=${userId} | weekStart=${weekStartDate} | affected=${result.count}`,
+		);
+
+		return ResponseDto.success(Object, { affected: result.count }, 'Current week plan reset successfully.');
 	}
 
-	// PRIVATE: BullMQ Worker — Grade custom activity
+	// PRIVATE: BullMQ Worker
 	private async handleGradeCustomActivity(job: Job<GradeCustomActivityJobData>): Promise<void> {
 		const { itemId, textAnswer } = job.data;
 
@@ -494,7 +721,6 @@ export class LearningPlanService implements OnModuleInit {
 			const completedTasks = weekItems.filter((i) => i.status === 'completed').length;
 			const totalTasks = weekItems.length;
 			const skippedTasks = weekItems.filter((i) => i.status === 'skipped').map((i) => i.title);
-
 			const assessmentResults = await this.getWeekAssessmentResults(userId, weekItems);
 
 			const catSession = await this.prisma.placementSession.findFirst({
@@ -524,88 +750,110 @@ export class LearningPlanService implements OnModuleInit {
 		}
 	}
 
-	// PRIVATE: Gate check
-	private async checkReviewGate(userId: string): Promise<void> {
-		const latestReview = await this.prisma.learningPlanItem.findFirst({
-			where: { userId, itemType: 'weekly_review', deletedAt: null },
-			orderBy: [{ planCycle: 'desc' }, { weekNumber: 'desc' }],
-			select: LearningPlanSelect.reviewGate,
-		});
-
-		if (!latestReview) return;
-
-		if (!latestReview.description) {
-			const dueStr = latestReview.dueDate
-				? new Date(latestReview.dueDate).toISOString().split('T')[0]
-				: 'review date';
-			throw new BadRequestException(`Weekly review chưa sẵn sàng. Vui lòng quay lại sau ngày ${dueStr}.`);
-		}
-
-		if (!latestReview.feedbackSubmittedAt) {
-			throw new BadRequestException('Vui lòng gửi nhận xét tuần trước trước khi tạo kế hoạch mới.');
-		}
-	}
-
-	// PRIVATE: Determine plan cycle + week
-	private async determinePlanPhase(
+	// PRIVATE: Smart content pool
+	private async getAvailableContent(
+		cefrLevel: string,
+		planSkills: string[],
 		userId: string,
-		requestedPhase?: 'week1' | 'week2',
-	): Promise<{ planCycle: number; weekNumber: number }> {
-		const latest = await this.prisma.learningPlanItem.findFirst({
-			where: { userId, deletedAt: null, planCycle: { not: null } },
-			orderBy: [{ planCycle: 'desc' }, { weekNumber: 'desc' }],
-			select: LearningPlanSelect.cycleWeek,
-		});
+		recentPerformance: { skillName: string | null; score: number }[],
+		currentWeekStartDate: string,
+	): Promise<{ lessons: any[]; questionSets: any[]; shortToFullMap: Map<string, string> }> {
+		const skillAvg: Record<string, { total: number; count: number }> = {};
 
-		if (!latest) return { planCycle: 1, weekNumber: 1 };
-
-		const currentCycle = latest.planCycle!;
-		const currentWeek = latest.weekNumber ?? 1;
-
-		if (requestedPhase === 'week2' || currentWeek === 1) {
-			const week2Exists = await this.prisma.learningPlanItem.count({
-				where: { userId, planCycle: currentCycle, weekNumber: 2, deletedAt: null },
-			});
-			if (week2Exists === 0) {
-				return { planCycle: currentCycle, weekNumber: 2 };
-			}
+		for (const r of recentPerformance) {
+			if (!r.skillName) continue;
+			if (!skillAvg[r.skillName]) skillAvg[r.skillName] = { total: 0, count: 0 };
+			skillAvg[r.skillName].total += r.score;
+			skillAvg[r.skillName].count += 1;
 		}
 
-		return { planCycle: currentCycle + 1, weekNumber: 1 };
-	}
+		const levels = ['A1', 'A2', 'B1', 'B2', 'C1'];
+		const safeCefrLevel = levels.includes(cefrLevel) ? cefrLevel : 'B1';
+		const idx = levels.indexOf(safeCefrLevel);
 
-	// PRIVATE: Gather available content for AI
-	private async getAvailableContent(cefrLevel: string, focusSkills: string[]) {
-		const [lessons, questionSets] = await Promise.all([
-			this.prisma.lesson.findMany({
+		const getLevelRange = (skill: string): string[] => {
+			const data = skillAvg[skill];
+			if (!data) return [safeCefrLevel];
+
+			const avg = data.total / data.count;
+			if (avg < 50) return [levels[idx - 1] ?? safeCefrLevel, safeCefrLevel];
+			if (avg >= 75) return [safeCefrLevel, levels[idx + 1] ?? safeCefrLevel];
+			return [safeCefrLevel];
+		};
+
+		const currentWeekEndExclusive = this.addDays(currentWeekStartDate, 7);
+
+		const [usedFromCurrentPlan, usedFromExercise] = await Promise.all([
+			this.prisma.learningPlanItem.findMany({
 				where: {
+					userId,
+					refId: { not: null },
 					deletedAt: null,
-					status: 'published',
-					cefrLevel: { in: [cefrLevel, this.getAdjacentLevel(cefrLevel)] }, // ← chỉ lấy đúng level
-					skillName: { in: focusSkills as any }, // ← chỉ lấy đúng skill
+					dueDate: {
+						gte: this.vnDateToDate(currentWeekStartDate),
+						lt: this.vnDateToDate(currentWeekEndExclusive),
+					},
 				},
-				select: LessonSelect.planAvailable,
-				take: 10, // ← giới hạn số lượng
+				select: { refId: true },
 			}),
-			this.prisma.questionSet.findMany({
+			this.prisma.exerciseRecord.findMany({
 				where: {
+					userId,
 					deletedAt: null,
-					isActive: true,
-					cefrLevel: { in: [cefrLevel, this.getAdjacentLevel(cefrLevel)] },
-					skillName: { in: focusSkills as any },
+					status: { in: ['scored', 'submitted'] },
 				},
-				select: QuestionSetSelect.planAvailable,
-				take: 10,
+				select: { refId: true },
 			}),
 		]);
 
-		return { lessons, questionSets };
-	}
+		const usedRefIds = new Set([
+			...usedFromCurrentPlan.map((i) => i.refId!),
+			...usedFromExercise.map((i) => i.refId),
+		]);
 
-	private getAdjacentLevel(level: string): string {
-		const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-		const idx = levels.indexOf(level);
-		return levels[idx + 1] ?? level; // lấy level cao hơn 1 bậc
+		const [lessonsBySkill, qsetsBySkill] = await Promise.all([
+			Promise.all(
+				planSkills.map((skill) =>
+					this.prisma.lesson.findMany({
+						where: {
+							deletedAt: null,
+							status: 'published',
+							skillName: skill as any,
+							cefrLevel: { in: getLevelRange(skill) as any },
+							lessonId: { notIn: [...usedRefIds] },
+						},
+						select: LessonSelect.planAvailable,
+					}),
+				),
+			),
+			Promise.all(
+				planSkills.map((skill) =>
+					this.prisma.questionSet.findMany({
+						where: {
+							deletedAt: null,
+							isActive: true,
+							skillName: skill as any,
+							cefrLevel: { in: getLevelRange(skill) as any },
+							questionSetId: { notIn: [...usedRefIds] },
+						},
+						select: QuestionSetSelect.planAvailable,
+					}),
+				),
+			),
+		]);
+
+		const lessons = lessonsBySkill.flat();
+		const questionSets = qsetsBySkill.flat();
+
+		const shortToFullMap = new Map<string, string>();
+		for (const l of lessons) shortToFullMap.set(l.lessonId.split('-')[0], l.lessonId);
+		for (const q of questionSets) shortToFullMap.set(q.questionSetId.split('-')[0], q.questionSetId);
+
+		this.logger.log(
+			`Content pool | cefrLevel=${safeCefrLevel} | planSkills=${planSkills.join(',')} | lessons=${lessons.length} | qsets=${questionSets.length} | used=${usedRefIds.size}`,
+		);
+
+		return { lessons, questionSets, shortToFullMap };
 	}
 
 	// PRIVATE: Get recent performance
@@ -613,11 +861,12 @@ export class LearningPlanService implements OnModuleInit {
 		const recentRecords = await this.prisma.exerciseRecord.findMany({
 			where: { userId, status: 'scored', deletedAt: null },
 			orderBy: { completedAt: 'desc' },
-			take: 10,
+			take: 5,
 			select: ExerciseRecordSelect.performance,
 		});
 
 		const results: any[] = [];
+
 		for (const a of recentRecords) {
 			let skillName: string | null = null;
 
@@ -645,50 +894,165 @@ export class LearningPlanService implements OnModuleInit {
 		return results;
 	}
 
-	// PRIVATE: Get latest review data
-	private async getLatestReviewData(userId: string, planCycle: number) {
-		const review = await this.prisma.learningPlanItem.findFirst({
-			where: { userId, planCycle, weekNumber: 1, itemType: 'weekly_review', deletedAt: null },
-			select: LearningPlanSelect.reviewGate,
-		});
-
-		if (!review?.description) return null;
-
-		try {
-			return JSON.parse(review.description);
-		} catch {
-			return null;
-		}
-	}
-
-	// PRIVATE: Get user feedback
-	private async getLatestUserFeedback(userId: string, planCycle: number): Promise<string | null> {
-		const review = await this.prisma.learningPlanItem.findFirst({
-			where: { userId, planCycle, weekNumber: 1, itemType: 'weekly_review', deletedAt: null },
-			select: LearningPlanSelect.feedbackOnly,
-		});
-
-		return review?.userFeedback ?? null;
-	}
-
 	// PRIVATE: Get week assessment results
 	private async getWeekAssessmentResults(userId: string, weekItems: any[]) {
 		const refIds = weekItems.filter((i) => i.refId && i.refType).map((i) => i.refId);
-
 		if (refIds.length === 0) return [];
 
 		const records = await this.prisma.exerciseRecord.findMany({
-			where: { userId, refId: { in: refIds }, status: 'scored', deletedAt: null },
-			select: ExerciseRecordSelect.performance,
+			where: {
+				userId,
+				refId: { in: refIds },
+				status: 'scored' as any,
+				deletedAt: null,
+			},
+			select: {
+				refType: true,
+				refId: true,
+				score: true,
+				completedAt: true,
+				exerciseRecordId: true,
+				answers: {
+					where: {
+						deletedAt: null,
+						gradingStatus: { in: ['auto_scored', 'ai_scored', 'human_reviewed'] as any },
+					},
+					select: {
+						answerId: true,
+						score: true,
+						gradingStatus: true,
+						question: { select: { type: true } },
+						evaluations: {
+							where: { deletedAt: null },
+							take: 1,
+							select: { criteriaJson: true, overallScore: true },
+						},
+					},
+				},
+			},
 		});
 
-		return records.map((a) => {
-			const planItem = weekItems.find((i) => i.refId === a.refId);
+		return records.map((record) => {
+			const planItem = weekItems.find((i) => i.refId === record.refId);
+
+			const subjectiveAnswers =
+				record.answers?.filter(
+					(a) => ['essay', 'speaking'].includes(a.question?.type ?? '') && a.evaluations?.[0],
+				) ?? [];
+
+			const allCorrections: any[] = [];
+			const dimensionMap: Record<string, { scores: number[]; comments: string[] }> = {};
+
+			for (const ans of subjectiveAnswers) {
+				const evalRecord = ans.evaluations[0];
+				if (!evalRecord?.criteriaJson) continue;
+
+				let criteria: any = null;
+
+				try {
+					criteria =
+						typeof evalRecord.criteriaJson === 'string'
+							? JSON.parse(evalRecord.criteriaJson)
+							: evalRecord.criteriaJson;
+				} catch {
+					continue;
+				}
+
+				if (Array.isArray(criteria?.corrections)) {
+					allCorrections.push(...criteria.corrections.slice(0, 3));
+				}
+
+				if (Array.isArray(criteria?.dimensions)) {
+					for (const dim of criteria.dimensions) {
+						const name = dim.name ?? '';
+						if (!dimensionMap[name]) dimensionMap[name] = { scores: [], comments: [] };
+						if (dim.score != null) dimensionMap[name].scores.push(Number(dim.score));
+						if (dim.comment) dimensionMap[name].comments.push(dim.comment);
+					}
+				}
+			}
+
+			const dimensions = Object.entries(dimensionMap).map(([name, { scores, comments }]) => ({
+				name,
+				avgScore:
+					scores.length > 0
+						? Math.round((scores.reduce((a, b) => a + b, 0) / scores.length) * 10) / 10
+						: null,
+				comment: comments[0] ?? null,
+			}));
+
 			return {
 				skillName: planItem?.skillName,
-				score: Number(a.score),
-				date: a.completedAt?.toISOString().split('T')[0],
+				title: planItem?.title ?? null,
+				score: Number(record.score),
+				date: record.completedAt?.toISOString().split('T')[0],
+				corrections: allCorrections.slice(0, 5),
+				dimensions: dimensions.length > 0 ? dimensions : null,
 			};
 		});
+	}
+
+	// ─── DATE HELPERS: VN timezone = UTC+7 ─────────────────────────────────────
+
+	private toVNDateStr(d: Date): string {
+		const vnMs = d.getTime() + 7 * 60 * 60 * 1000;
+		const vn = new Date(vnMs);
+		const y = vn.getUTCFullYear();
+		const m = String(vn.getUTCMonth() + 1).padStart(2, '0');
+		const day = String(vn.getUTCDate()).padStart(2, '0');
+		return `${y}-${m}-${day}`;
+	}
+
+	private getVNToday(): string {
+		return this.toVNDateStr(new Date());
+	}
+
+	private getDayOfWeek(dateStr: string): number {
+		const [y, m, d] = dateStr.split('-').map(Number);
+		return new Date(Date.UTC(y!, m! - 1, d!)).getUTCDay();
+	}
+
+	private addDays(dateStr: string, days: number): string {
+		const [y, m, d] = dateStr.split('-').map(Number);
+		const result = new Date(Date.UTC(y!, m! - 1, d! + days));
+		return result.toISOString().slice(0, 10);
+	}
+
+	private getMondayOfWeek(dateStr: string): string {
+		const dow = this.getDayOfWeek(dateStr);
+		const daysToMonday = dow === 0 ? 6 : dow - 1;
+		return this.addDays(dateStr, -daysToMonday);
+	}
+
+	private vnDateToDate(dateStr: string): Date {
+		return new Date(dateStr + 'T00:00:00+07:00');
+	}
+
+	private getCurrentVNWeekRange() {
+		const today = this.getVNToday();
+		const weekStartDate = this.getMondayOfWeek(today);
+		const weekEndDate = this.addDays(weekStartDate, 6);
+
+		const weekDates = this.WEEKDAYS.map((weekday, index) => ({
+			day: index + 1,
+			weekday,
+			date: this.addDays(weekStartDate, index),
+		}));
+
+		return { today, weekStartDate, weekEndDate, weekDates };
+	}
+
+	private normalizeAvailableDays(rawDays: unknown): string[] {
+		if (!Array.isArray(rawDays) || rawDays.length === 0) {
+			return [...this.WEEKDAYS];
+		}
+
+		const normalized = rawDays.map((d) => String(d).trim().toUpperCase()).filter((d) => this.WEEKDAYS.includes(d));
+
+		return normalized.length > 0 ? normalized : [...this.WEEKDAYS];
+	}
+
+	private shuffle<T>(arr: T[]): T[] {
+		return [...arr].sort(() => Math.random() - 0.5);
 	}
 }

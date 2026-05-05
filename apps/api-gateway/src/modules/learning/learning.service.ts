@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { PrismaService } from '../../../../../prisma/prisma.service';
-import { LESSON_LIST_SELECT, NotFoundException, PagingDataDto, ResponseDto, SKILL_LIST } from '@app/shared';
+import { NotFoundException, PagingDataDto, ResponseDto, SKILL_LIST } from '@app/shared'; // LESSON_LIST_SELECT removed — inline select used instead
 import { ListLessonsDto } from './dto/list-lessons.dto';
 import { LessonSelect, QuestionSetSelect } from '../../../../../prisma/selects';
 import { LessonDetail } from './interface/lesson-detail.interface';
@@ -12,21 +12,20 @@ import { QuestionSetDetail } from './interface/question-set-detail.interface';
 export class LearningService {
 	private readonly logger = new Logger(LearningService.name);
 
-	constructor(private prisma: PrismaService) {
-	}
+	constructor(private prisma: PrismaService) {}
 
 	getSkills() {
 		return ResponseDto.success(Object, SKILL_LIST);
 	}
 
-	async getLessons(dto: ListLessonsDto, userId: string) {  // ← THÊM userId parameter
+	async getLessons(dto: ListLessonsDto, userId: string) {
 		const { skill, cefrLevel, pageIndex, pageSize } = dto;
 		const skip = (pageIndex - 1) * pageSize;
 
-		const where = {
+		const where: any = {
 			deletedAt: null,
-			status: 'published' as const,
-			...(skill && { skillName: skill }),
+			status: 'published',
+			...(skill && skill !== ('all' as any) && { skillName: skill as any }),
 			...(cefrLevel && { cefrLevel }),
 		};
 
@@ -34,22 +33,18 @@ export class LearningService {
 			this.prisma.lesson.findMany({
 				where,
 				select: {
-					...LESSON_LIST_SELECT,
+					lessonId: true,
+					skillName: true,
+					title: true,
+					description: true,
+					cefrLevel: true,
+					estimatedMinutes: true,
+					status: true,
+					createdAt: true,
+					updatedAt: true,
+					deletedAt: true,
 					_count: {
 						select: { lessonQuestions: true },
-					},
-					exerciseRecords: {
-						where: {
-							userId: userId,
-							refType: 'lesson',
-						},
-						select: {
-							exerciseRecordId: true,
-							status: true,
-							score: true,
-							completedAt: true,
-						},
-						orderBy: { createdAt: 'desc' },
 					},
 				},
 				orderBy: [{ cefrLevel: 'asc' }, { createdAt: 'asc' }],
@@ -59,15 +54,46 @@ export class LearningService {
 			this.prisma.lesson.count({ where }),
 		]);
 
+		const lessonIds = lessons.map((lesson) => lesson.lessonId);
+
+		const exerciseRecords =
+			lessonIds.length > 0
+				? await this.prisma.exerciseRecord.findMany({
+						where: {
+							userId,
+							refType: 'lesson' as any,
+							refId: { in: lessonIds },
+							deletedAt: null,
+						},
+						select: {
+							exerciseRecordId: true,
+							refId: true,
+							status: true,
+							score: true,
+							completedAt: true,
+							createdAt: true,
+						},
+						orderBy: { createdAt: 'desc' },
+					})
+				: [];
+
+		const recordsByLessonId = new Map<string, typeof exerciseRecords>();
+
+		for (const record of exerciseRecords) {
+			const list = recordsByLessonId.get(record.refId) ?? [];
+			list.push(record);
+			recordsByLessonId.set(record.refId, list);
+		}
+
 		const rows = lessons.map((lesson) => {
-			const attempts = lesson.exerciseRecords || [];
+			const attempts = recordsByLessonId.get(lesson.lessonId) ?? [];
 			const completedAttempts = attempts.filter((a) => a.status === 'scored');
 
 			const bestScore =
-				completedAttempts.length > 0 ? Math.max(...completedAttempts.map((a) => Number(a.score) ?? 0)) : null;
+				completedAttempts.length > 0 ? Math.max(...completedAttempts.map((a) => Number(a.score) || 0)) : null;
 
 			const lastAttempt = attempts[0];
-			const { exerciseRecords, _count, ...lessonData } = lesson;
+			const { _count, ...lessonData } = lesson;
 
 			return {
 				...lessonData,
@@ -76,7 +102,7 @@ export class LearningService {
 					attempts.length > 0
 						? {
 								isCompleted: completedAttempts.length > 0,
-								bestScore: bestScore,
+								bestScore,
 								attemptCount: attempts.length,
 								lastAttemptAt: lastAttempt?.completedAt ?? null,
 							}
@@ -101,7 +127,7 @@ export class LearningService {
 
 		const result: LessonDetail = {
 			lessonId: lesson.lessonId,
-			skillName: lesson.skillName,
+			skillName: lesson.skillName as any,
 			title: lesson.title,
 			description: lesson.description,
 			cefrLevel: lesson.cefrLevel,
@@ -117,10 +143,11 @@ export class LearningService {
 	async getPracticeSessions(dto: ListQuestionSetsDto) {
 		const { pageIndex, pageSize, skill, cefrLevel } = dto;
 
-		const where = {
+		// skillName: bỏ qua nếu undefined hoặc 'all'
+		const where: any = {
 			deletedAt: null,
 			isActive: true,
-			...(skill && { skillName: skill }),
+			...(skill && skill !== ('all' as any) && { skillName: skill as any }),
 			...(cefrLevel && { cefrLevel }),
 		};
 
@@ -135,9 +162,9 @@ export class LearningService {
 			this.prisma.questionSet.count({ where }),
 		]);
 
-		const rows = sessions.map(({ _count, ...rest }) => ({
+		const rows = (sessions as any[]).map(({ _count, ...rest }) => ({
 			...rest,
-			questionCount: _count.items,
+			questionCount: _count?.items ?? 0,
 		}));
 
 		return ResponseDto.success(Object, new PagingDataDto({ count, rows }));
@@ -153,7 +180,7 @@ export class LearningService {
 
 		const result: QuestionSetDetail = {
 			questionSetId: questionSet.questionSetId,
-			skillName: questionSet.skillName,
+			skillName: questionSet.skillName as any,
 			title: questionSet.title,
 			description: questionSet.description,
 			cefrLevel: questionSet.cefrLevel,

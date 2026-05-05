@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "b1_lesson_01",
+    "title": "Climate Change Discussion",
+    "topic": "environment",
+    "estimatedMinutes": 10,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Do you think climate change is the biggest problem facing our planet?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Absolutely. Rising temperatures are causing extreme weather events worldwide."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "But some people argue that the economy should take priority."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "That's short-sighted. Without a stable climate, the economy will suffer far more."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "What changes do you think individuals can make?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Reducing meat consumption, using public transport, and cutting energy waste."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "But isn't it corporations that cause most pollution?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "True — about seventy percent of emissions come from just one hundred companies."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "So we need stronger government regulation."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Exactly. Both individual action and systemic change are necessary."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What does Speaker B think about prioritizing the economy over climate?",
+        "options": [
+          "It's a good idea",
+          "It's short-sighted",
+          "It's understandable",
+          "It's the right balance"
+        ],
+        "answer": "It's short-sighted"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What percentage of emissions come from 100 companies?",
+        "options": [
+          "50%",
+          "60%",
+          "70%",
+          "80%"
+        ],
+        "answer": "70%"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Rising temperatures cause extreme ___ events.",
+        "answer": "weather"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Both individual action and systemic ___ are necessary.",
+        "answer": "change"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each individual action to its category.",
+        "pairs": [
+          {
+            "left": "Reduce meat",
+            "right": "Diet change"
+          },
+          {
+            "left": "Use public transport",
+            "right": "Travel choice"
+          },
+          {
+            "left": "Cut energy waste",
+            "right": "Home behavior"
+          },
+          {
+            "left": "Government regulation",
+            "right": "Systemic change"
+          }
+        ],
+        "answers": {
+          "Reduce meat": "Diet change",
+          "Use public transport": "Travel choice",
+          "Cut energy waste": "Home behavior",
+          "Government regulation": "Systemic change"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B1",
+    "fullScript": "A: Do you think climate change is the biggest problem facing our planet?\nB: Absolutely. Rising temperatures are causing extreme weather events worldwide.\nA: But some people argue that the economy should take priority.\nB: That's short-sighted. Without a stable climate, the economy will suffer far more.\nA: What changes do you think individuals can make?\nB: Reducing meat consumption, using public transport, and cutting energy waste.\nA: But isn't it corporations that cause most pollution?\nB: True — about seventy percent of emissions come from just one hundred companies.\nA: So we need stronger government regulation.\nB: Exactly. Both individual action and systemic change are necessary."
+  },
+  {
+    "id": "b1_lesson_02",
+    "title": "Technology in Education",
+    "topic": "education",
+    "estimatedMinutes": 10,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Technology is transforming how we teach and learn. Do you see this in your school?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Definitely. We use tablets instead of textbooks now, and lessons are often interactive."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "What are the main benefits?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Students can learn at their own pace, and teachers can track progress in real-time."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "What about disadvantages?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Distraction is a problem. Students sometimes use devices for social media instead of studying."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "And not all students have equal access to technology."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "That's the digital divide. Students from lower-income families are often left behind."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "How can schools address this?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "By providing devices to all students and ensuring reliable internet access."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What do students use instead of textbooks?",
+        "options": [
+          "Computers",
+          "Tablets",
+          "Smartphones",
+          "Laptops"
+        ],
+        "answer": "Tablets"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the 'digital divide'?",
+        "options": [
+          "Difference in internet speeds",
+          "Inequality in technology access",
+          "Gap between old and new technology",
+          "Divide between teachers and students"
+        ],
+        "answer": "Inequality in technology access"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Students can learn at their own ___.",
+        "answer": "pace"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Teachers can track progress in ___.",
+        "answer": "real-time"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match technology benefit or problem.",
+        "pairs": [
+          {
+            "left": "Own pace learning",
+            "right": "Benefit"
+          },
+          {
+            "left": "Distraction",
+            "right": "Problem"
+          },
+          {
+            "left": "Real-time tracking",
+            "right": "Benefit"
+          },
+          {
+            "left": "Digital divide",
+            "right": "Problem"
+          }
+        ],
+        "answers": {
+          "Own pace learning": "Benefit",
+          "Distraction": "Problem",
+          "Real-time tracking": "Benefit",
+          "Digital divide": "Problem"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B1",
+    "fullScript": "A: Technology is transforming how we teach and learn. Do you see this in your school?\nB: Definitely. We use tablets instead of textbooks now, and lessons are often interactive.\nA: What are the main benefits?\nB: Students can learn at their own pace, and teachers can track progress in real-time.\nA: What about disadvantages?\nB: Distraction is a problem. Students sometimes use devices for social media instead of studying.\nA: And not all students have equal access to technology.\nB: That's the digital divide. Students from lower-income families are often left behind.\nA: How can schools address this?\nB: By providing devices to all students and ensuring reliable internet access."
+  },
+  {
+    "id": "b1_lesson_03",
+    "title": "Cultural Differences in Communication",
+    "topic": "culture",
+    "estimatedMinutes": 10,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Have you noticed cultural differences in the way people communicate at work?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Very much so. In some cultures, direct communication is valued. In others, it's considered rude."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Can you give an example?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "In Germany, people tend to be very direct. In Japan, disagreement is often expressed indirectly."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "That could cause misunderstandings in international business."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Absolutely. What's considered professional in one culture may seem aggressive or evasive in another."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "How can we bridge these differences?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "By developing cultural intelligence — learning about other cultures before working with them."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "And being willing to adapt your communication style."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Exactly. Flexibility and empathy are key in cross-cultural communication."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "How do people in Germany typically communicate?",
+        "options": [
+          "Very indirectly",
+          "Very directly",
+          "Very formally",
+          "Very quietly"
+        ],
+        "answer": "Very directly"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "According to Speaker B, what is key in cross-cultural communication?",
+        "options": [
+          "Speaking loudly and clearly",
+          "Flexibility and empathy",
+          "Using formal language",
+          "Avoiding conflict"
+        ],
+        "answer": "Flexibility and empathy"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Developing ___ intelligence means learning about other cultures.",
+        "answer": "cultural"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "In Japan, disagreement is often expressed ___.",
+        "answer": "indirectly"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match country to communication style.",
+        "pairs": [
+          {
+            "left": "Germany",
+            "right": "Direct communication"
+          },
+          {
+            "left": "Japan",
+            "right": "Indirect communication"
+          }
+        ],
+        "answers": {
+          "Germany": "Direct communication",
+          "Japan": "Indirect communication"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B1",
+    "fullScript": "A: Have you noticed cultural differences in the way people communicate at work?\nB: Very much so. In some cultures, direct communication is valued. In others, it's considered rude.\nA: Can you give an example?\nB: In Germany, people tend to be very direct. In Japan, disagreement is often expressed indirectly.\nA: That could cause misunderstandings in international business.\nB: Absolutely. What's considered professional in one culture may seem aggressive or evasive in another.\nA: How can we bridge these differences?\nB: By developing cultural intelligence — learning about other cultures before working with them.\nA: And being willing to adapt your communication style.\nB: Exactly. Flexibility and empathy are key in cross-cultural communication."
+  },
+  {
+    "id": "b1_lesson_04",
+    "title": "Career Planning",
+    "topic": "work",
+    "estimatedMinutes": 10,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "I'm trying to decide what career to pursue after graduation. Any advice?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Think about what skills you enjoy using and what problems you want to solve."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "I love writing and research. But I also enjoy working with people."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "That's a good combination. Journalism, communications, or HR could suit you."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "I've heard the job market is very competitive now."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "It is, but employers value soft skills — communication, adaptability, teamwork."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Should I do an internship before applying for jobs?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Absolutely. Experience is often more valuable than a degree on your CV."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What about networking?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Essential. Many jobs are filled through personal connections, not job advertisements."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What skills does Speaker A enjoy using?",
+        "options": [
+          "Maths and science",
+          "Writing and research",
+          "Design and technology",
+          "Management and strategy"
+        ],
+        "answer": "Writing and research"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "According to Speaker B, what do employers value?",
+        "options": [
+          "Academic grades only",
+          "Technical skills only",
+          "Soft skills",
+          "Foreign languages"
+        ],
+        "answer": "Soft skills"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Many jobs are filled through ___ connections.",
+        "answer": "personal"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Experience is often more valuable than a ___ on your CV.",
+        "answer": "degree"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match soft skill to its meaning.",
+        "pairs": [
+          {
+            "left": "Communication",
+            "right": "Expressing ideas clearly"
+          },
+          {
+            "left": "Adaptability",
+            "right": "Adjusting to new situations"
+          },
+          {
+            "left": "Teamwork",
+            "right": "Working well with others"
+          }
+        ],
+        "answers": {
+          "Communication": "Expressing ideas clearly",
+          "Adaptability": "Adjusting to new situations",
+          "Teamwork": "Working well with others"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B1",
+    "fullScript": "A: I'm trying to decide what career to pursue after graduation. Any advice?\nB: Think about what skills you enjoy using and what problems you want to solve.\nA: I love writing and research. But I also enjoy working with people.\nB: That's a good combination. Journalism, communications, or HR could suit you.\nA: I've heard the job market is very competitive now.\nB: It is, but employers value soft skills — communication, adaptability, teamwork.\nA: Should I do an internship before applying for jobs?\nB: Absolutely. Experience is often more valuable than a degree on your CV.\nA: What about networking?\nB: Essential. Many jobs are filled through personal connections, not job advertisements."
+  },
+  {
+    "id": "b1_lesson_05",
+    "title": "Social Media and Society",
+    "topic": "technology",
+    "estimatedMinutes": 10,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Social media has changed how we communicate. Is that a positive or negative change?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "It's both. Social media connects people globally but also spreads misinformation rapidly."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Mental health is a big concern. Studies show it increases anxiety in young people."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Particularly when users compare themselves to unrealistic images online."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "But it also gives a voice to people who were previously unheard."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "True. Social movements like climate activism have been amplified through social media."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What about privacy? Companies collect enormous amounts of personal data."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "That's a serious issue. Most users don't realize how their data is being used."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What's the solution?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Better regulation and digital literacy education from an early age."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What negative mental health effect is mentioned?",
+        "options": [
+          "Depression",
+          "Increased anxiety",
+          "Loneliness",
+          "Sleep problems"
+        ],
+        "answer": "Increased anxiety"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What solution does Speaker B propose?",
+        "options": [
+          "Ban social media",
+          "Limit usage time",
+          "Better regulation and digital literacy",
+          "Pay users for their data"
+        ],
+        "answer": "Better regulation and digital literacy"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Social media spreads misinformation ___.",
+        "answer": "rapidly"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Social movements like climate activism have been ___ through social media.",
+        "answer": "amplified"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match social media impact to type.",
+        "pairs": [
+          {
+            "left": "Connects people globally",
+            "right": "Positive"
+          },
+          {
+            "left": "Spreads misinformation",
+            "right": "Negative"
+          },
+          {
+            "left": "Amplifies social movements",
+            "right": "Positive"
+          },
+          {
+            "left": "Privacy data collection",
+            "right": "Negative"
+          }
+        ],
+        "answers": {
+          "Connects people globally": "Positive",
+          "Spreads misinformation": "Negative",
+          "Amplifies social movements": "Positive",
+          "Privacy data collection": "Negative"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B1",
+    "fullScript": "A: Social media has changed how we communicate. Is that a positive or negative change?\nB: It's both. Social media connects people globally but also spreads misinformation rapidly.\nA: Mental health is a big concern. Studies show it increases anxiety in young people.\nB: Particularly when users compare themselves to unrealistic images online.\nA: But it also gives a voice to people who were previously unheard.\nB: True. Social movements like climate activism have been amplified through social media.\nA: What about privacy? Companies collect enormous amounts of personal data.\nB: That's a serious issue. Most users don't realize how their data is being used.\nA: What's the solution?\nB: Better regulation and digital literacy education from an early age."
+  },
+  {
+    "id": "b1_lesson_06",
+    "title": "Urban vs Rural Living",
+    "topic": "lifestyle",
+    "estimatedMinutes": 10,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Would you prefer to live in a city or the countryside?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "I'd choose the city for the career opportunities and cultural life."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "But cities are increasingly stressful and expensive."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "That's true. Many young professionals are moving to mid-sized cities instead."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Rural areas offer a better quality of life in many ways."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "If you can work remotely. The pandemic made that more possible for many people."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Do you think cities are becoming less desirable?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Some are, due to high housing costs and pollution. But they still attract talent."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What would be your ideal living situation?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "A village within commuting distance of a city — best of both worlds."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Why does Speaker B prefer the city?",
+        "options": [
+          "Better weather",
+          "Career opportunities and culture",
+          "Lower cost of living",
+          "More space"
+        ],
+        "answer": "Career opportunities and culture"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is Speaker B's ideal living situation?",
+        "options": [
+          "City center apartment",
+          "Remote countryside",
+          "Village near a city",
+          "Suburbs"
+        ],
+        "answer": "Village near a city"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Many young professionals are moving to ___ cities.",
+        "answer": "mid-sized"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Working ___ made rural living more possible.",
+        "answer": "remotely"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match advantage to location.",
+        "pairs": [
+          {
+            "left": "Career opportunities",
+            "right": "City"
+          },
+          {
+            "left": "Better quality of life",
+            "right": "Rural"
+          },
+          {
+            "left": "Cultural life",
+            "right": "City"
+          },
+          {
+            "left": "Lower stress",
+            "right": "Rural"
+          }
+        ],
+        "answers": {
+          "Career opportunities": "City",
+          "Better quality of life": "Rural",
+          "Cultural life": "City",
+          "Lower stress": "Rural"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B1",
+    "fullScript": "A: Would you prefer to live in a city or the countryside?\nB: I'd choose the city for the career opportunities and cultural life.\nA: But cities are increasingly stressful and expensive.\nB: That's true. Many young professionals are moving to mid-sized cities instead.\nA: Rural areas offer a better quality of life in many ways.\nB: If you can work remotely. The pandemic made that more possible for many people.\nA: Do you think cities are becoming less desirable?\nB: Some are, due to high housing costs and pollution. But they still attract talent.\nA: What would be your ideal living situation?\nB: A village within commuting distance of a city — best of both worlds."
+  },
+  {
+    "id": "b1_lesson_07",
+    "title": "Travel and Cultural Exchange",
+    "topic": "travel",
+    "estimatedMinutes": 10,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Have you ever lived abroad?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Yes, I spent a year in Argentina teaching English. It was life-changing."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "What was the most challenging part?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "The language barrier at first, and adjusting to a completely different daily routine."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "And what did you gain from the experience?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Fluency in Spanish, a completely new perspective, and lifelong friendships."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Do you think everyone should experience living abroad?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "If possible, yes. It breaks down stereotypes and develops empathy."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "What advice would you give someone planning to move abroad?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Learn the language before you go and embrace discomfort — that's where growth happens."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Where did Speaker B live abroad?",
+        "options": [
+          "Brazil",
+          "Mexico",
+          "Argentina",
+          "Chile"
+        ],
+        "answer": "Argentina"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What did Speaker B gain from the experience?",
+        "options": [
+          "A new job",
+          "Fluency in Spanish and new friendships",
+          "A degree",
+          "A new home"
+        ],
+        "answer": "Fluency in Spanish and new friendships"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B spent ___ year abroad teaching English.",
+        "answer": "a"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Living abroad breaks down ___ and develops empathy.",
+        "answer": "stereotypes"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match challenge to benefit of living abroad.",
+        "pairs": [
+          {
+            "left": "Language barrier",
+            "right": "Led to Spanish fluency"
+          },
+          {
+            "left": "Different routine",
+            "right": "Developed adaptability"
+          },
+          {
+            "left": "Discomfort",
+            "right": "Where growth happens"
+          }
+        ],
+        "answers": {
+          "Language barrier": "Led to Spanish fluency",
+          "Different routine": "Developed adaptability",
+          "Discomfort": "Where growth happens"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B1",
+    "fullScript": "A: Have you ever lived abroad?\nB: Yes, I spent a year in Argentina teaching English. It was life-changing.\nA: What was the most challenging part?\nB: The language barrier at first, and adjusting to a completely different daily routine.\nA: And what did you gain from the experience?\nB: Fluency in Spanish, a completely new perspective, and lifelong friendships.\nA: Do you think everyone should experience living abroad?\nB: If possible, yes. It breaks down stereotypes and develops empathy.\nA: What advice would you give someone planning to move abroad?\nB: Learn the language before you go and embrace discomfort — that's where growth happens."
+  },
+  {
+    "id": "b1_lesson_08",
+    "title": "Volunteering and Community Service",
+    "topic": "society",
+    "estimatedMinutes": 10,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "I'm thinking about doing some volunteer work. Have you done any?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Yes, I volunteered at a food bank last year. It was very rewarding."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What did you do there?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "We sorted and packed food donations for families in need. It was physically demanding but fulfilling."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "How often did you volunteer?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Every Saturday for six months. About four hours each time."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Did it affect your career?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Positively. It showed employers I have initiative and care about my community."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What skills did you develop?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Teamwork, time management, and empathy for people in difficult situations."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Where did Speaker B volunteer?",
+        "options": [
+          "A hospital",
+          "A food bank",
+          "A school",
+          "An animal shelter"
+        ],
+        "answer": "A food bank"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "For how long did Speaker B volunteer each session?",
+        "options": [
+          "2 hours",
+          "4 hours",
+          "6 hours",
+          "8 hours"
+        ],
+        "answer": "4 hours"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B volunteered every ___ for six months.",
+        "answer": "Saturday"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Volunteering showed employers that Speaker B has ___.",
+        "answer": "initiative"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match skill to its relevance.",
+        "pairs": [
+          {
+            "left": "Teamwork",
+            "right": "Working with others"
+          },
+          {
+            "left": "Time management",
+            "right": "Organizing time effectively"
+          },
+          {
+            "left": "Empathy",
+            "right": "Understanding others' feelings"
+          }
+        ],
+        "answers": {
+          "Teamwork": "Working with others",
+          "Time management": "Organizing time effectively",
+          "Empathy": "Understanding others' feelings"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B1",
+    "fullScript": "A: I'm thinking about doing some volunteer work. Have you done any?\nB: Yes, I volunteered at a food bank last year. It was very rewarding.\nA: What did you do there?\nB: We sorted and packed food donations for families in need. It was physically demanding but fulfilling.\nA: How often did you volunteer?\nB: Every Saturday for six months. About four hours each time.\nA: Did it affect your career?\nB: Positively. It showed employers I have initiative and care about my community.\nA: What skills did you develop?\nB: Teamwork, time management, and empathy for people in difficult situations."
+  },
+  {
+    "id": "b1_lesson_09",
+    "title": "Language Learning Strategies",
+    "topic": "education",
+    "estimatedMinutes": 10,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What's the best way to learn a foreign language quickly?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Immersion is most effective. Surround yourself with the language as much as possible."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Is that possible without living abroad?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Absolutely. Change your phone language, watch films without subtitles, and find language exchange partners."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What about apps like language learning platforms?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Useful for vocabulary and grammar, but they can't replace real conversation practice."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "How important is making mistakes?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Crucial. Fear of making mistakes is the biggest barrier for adult learners."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "How long does it take to become fluent?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "It depends on the language and your native tongue. A thousand hours of study is a common estimate."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What does Speaker B say is most effective for language learning?",
+        "options": [
+          "Grammar study",
+          "Immersion",
+          "Vocabulary apps",
+          "Reading books"
+        ],
+        "answer": "Immersion"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the biggest barrier for adult learners?",
+        "options": [
+          "Grammar complexity",
+          "Lack of time",
+          "Fear of making mistakes",
+          "Poor memory"
+        ],
+        "answer": "Fear of making mistakes"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "A common estimate for fluency is ___ hours of study.",
+        "answer": "a thousand"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Language apps can't replace real ___ practice.",
+        "answer": "conversation"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match immersion strategy to activity.",
+        "pairs": [
+          {
+            "left": "Change phone language",
+            "right": "Daily tech use"
+          },
+          {
+            "left": "Watch films without subtitles",
+            "right": "Entertainment"
+          },
+          {
+            "left": "Language exchange partners",
+            "right": "Speaking practice"
+          }
+        ],
+        "answers": {
+          "Change phone language": "Daily tech use",
+          "Watch films without subtitles": "Entertainment",
+          "Language exchange partners": "Speaking practice"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B1",
+    "fullScript": "A: What's the best way to learn a foreign language quickly?\nB: Immersion is most effective. Surround yourself with the language as much as possible.\nA: Is that possible without living abroad?\nB: Absolutely. Change your phone language, watch films without subtitles, and find language exchange partners.\nA: What about apps like language learning platforms?\nB: Useful for vocabulary and grammar, but they can't replace real conversation practice.\nA: How important is making mistakes?\nB: Crucial. Fear of making mistakes is the biggest barrier for adult learners.\nA: How long does it take to become fluent?\nB: It depends on the language and your native tongue. A thousand hours of study is a common estimate."
+  },
+  {
+    "id": "b1_lesson_10",
+    "title": "Health Care Systems",
+    "topic": "health",
+    "estimatedMinutes": 10,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "How does the healthcare system work in your country?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "We have a universal system — everyone is covered regardless of income."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "How is it funded?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Through taxes. We pay more in tax but don't pay medical bills directly."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "What are the main advantages?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Equality of access. Your health shouldn't depend on your wealth."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "What are the challenges?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Long waiting times and an aging population placing more demands on the system."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "How does it compare to private healthcare?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Private is faster but expensive and inaccessible for low-income people."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "How is universal healthcare funded?",
+        "options": [
+          "Patient fees",
+          "Private insurance",
+          "Taxes",
+          "Government loans"
+        ],
+        "answer": "Taxes"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is a challenge of universal healthcare?",
+        "options": [
+          "High patient fees",
+          "Long waiting times",
+          "Limited doctors",
+          "Too many hospitals"
+        ],
+        "answer": "Long waiting times"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "In a universal system, everyone is covered regardless of ___.",
+        "answer": "income"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Your health shouldn't depend on your ___.",
+        "answer": "wealth"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match healthcare type to characteristic.",
+        "pairs": [
+          {
+            "left": "Universal",
+            "right": "Funded by taxes"
+          },
+          {
+            "left": "Private",
+            "right": "Faster service"
+          },
+          {
+            "left": "Universal",
+            "right": "Equal access"
+          },
+          {
+            "left": "Private",
+            "right": "Expensive"
+          }
+        ],
+        "answers": {
+          "Universal": "Funded by taxes",
+          "Private": "Faster service",
+          "Equal access": "Universal",
+          "Expensive": "Private"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B1",
+    "fullScript": "A: How does the healthcare system work in your country?\nB: We have a universal system — everyone is covered regardless of income.\nA: How is it funded?\nB: Through taxes. We pay more in tax but don't pay medical bills directly.\nA: What are the main advantages?\nB: Equality of access. Your health shouldn't depend on your wealth.\nA: What are the challenges?\nB: Long waiting times and an aging population placing more demands on the system.\nA: How does it compare to private healthcare?\nB: Private is faster but expensive and inaccessible for low-income people."
+  }
+]

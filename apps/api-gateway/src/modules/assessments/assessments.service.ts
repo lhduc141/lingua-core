@@ -76,7 +76,6 @@ export class AssessmentsService implements OnModuleInit {
 			`Lesson assessment started | userId=${userId} | lessonId=${lessonId} | assessmentId=${exerciseRecord.exerciseRecordId}`,
 		);
 
-		// Auto-track: mark plan item as in_progress
 		await this.markPlanItemInProgress(userId, 'lesson', lessonId);
 
 		const questions: AssessmentQuestion[] = lesson.lessonQuestions.map((lq) => ({
@@ -85,7 +84,7 @@ export class AssessmentsService implements OnModuleInit {
 			position: lq.position,
 			maxScore: lq.question.maxScore,
 			stemText: lq.question.translations[0]?.stemText ?? null,
-			contentJson: lq.question.translations[0]?.contentJson ?? null,
+			contentJson: lq.question.translations[0]?.contentJson ?? (lq.question as any).payload?.configJson ?? null,
 			passage: lq.question.passage
 				? {
 						passageId: lq.question.passage.passageId,
@@ -93,6 +92,7 @@ export class AssessmentsService implements OnModuleInit {
 						content: lq.question.passage.content,
 						cefrLevel: lq.question.passage.cefrLevel,
 						wordCount: lq.question.passage.wordCount,
+						audioUrl: lq.question.passage.audioUrl ?? null,
 					}
 				: null,
 			options: lq.question.options.map((o) => ({
@@ -149,7 +149,6 @@ export class AssessmentsService implements OnModuleInit {
 			`Practice assessment started | userId=${userId} | questionSetId=${questionSetId} | exerciseRecordId=${exerciseRecord.exerciseRecordId}`,
 		);
 
-		// Auto-track: mark plan item as in_progress
 		await this.markPlanItemInProgress(userId, 'question_set', questionSetId);
 
 		const questions: AssessmentQuestion[] = questionSet.items.map((sq) => ({
@@ -158,7 +157,7 @@ export class AssessmentsService implements OnModuleInit {
 			position: sq.position,
 			maxScore: sq.question.maxScore,
 			stemText: sq.question.translations[0]?.stemText ?? null,
-			contentJson: sq.question.translations[0]?.contentJson ?? null,
+			contentJson: sq.question.translations[0]?.contentJson ?? (sq.question as any).payload?.configJson ?? null,
 			passage: sq.question.passage
 				? {
 						passageId: sq.question.passage.passageId,
@@ -166,6 +165,7 @@ export class AssessmentsService implements OnModuleInit {
 						content: sq.question.passage.content,
 						cefrLevel: sq.question.passage.cefrLevel,
 						wordCount: sq.question.passage.wordCount,
+						audioUrl: sq.question.passage.audioUrl ?? null,
 					}
 				: null,
 			options: sq.question.options.map((o) => ({
@@ -196,7 +196,6 @@ export class AssessmentsService implements OnModuleInit {
 	async submitAnswer(userId: string, exerciseRecordId: string, dto: SubmitAnswerDto) {
 		const { questionId, answer } = dto;
 
-		// 1. Verify assessment
 		const exerciseRecord = await this.prisma.exerciseRecord.findFirst({
 			where: { exerciseRecordId, userId, deletedAt: null },
 			select: ExerciseRecordSelect.statusRef,
@@ -206,7 +205,6 @@ export class AssessmentsService implements OnModuleInit {
 			throw new BadRequestException(`Assessment is not in progress (status: ${exerciseRecord.status})`);
 		}
 
-		// 2. Verify question thuộc assessment này
 		const questionBelongs = await this.verifyQuestionBelongs(
 			exerciseRecord.refType,
 			exerciseRecord.refId,
@@ -219,9 +217,7 @@ export class AssessmentsService implements OnModuleInit {
 			select: AnswerSelect.idOnly,
 		});
 		if (existing) {
-			await this.prisma.answerDetail.deleteMany({
-				where: { answerId: existing.answerId },
-			});
+			await this.prisma.answerDetail.deleteMany({ where: { answerId: existing.answerId } });
 			await this.createAttemptAnswers(existing.answerId, answer);
 			return ResponseDto.success(
 				Object,
@@ -254,7 +250,6 @@ export class AssessmentsService implements OnModuleInit {
 
 	// 4. COMPLETE ASSESSMENT
 	async completeAssessment(userId: string, exerciseRecordId: string) {
-		// 1. Verify assessment
 		const exerciseRecord = await this.prisma.exerciseRecord.findFirst({
 			where: { exerciseRecordId, userId, deletedAt: null },
 			select: ExerciseRecordSelect.statusRef,
@@ -264,10 +259,8 @@ export class AssessmentsService implements OnModuleInit {
 			throw new BadRequestException(`Assessment already completed (status: ${exerciseRecord.status})`);
 		}
 
-		// 2. Lấy tất cả questionIds của assessment này
 		const allQuestionIds = await this.getAllQuestionIds(exerciseRecord.refType, exerciseRecord.refId);
 
-		// 3. Kiểm tra tất cả câu đã có attempt chưa
 		const answer = await this.prisma.answer.findMany({
 			where: { exerciseRecordId, deletedAt: null },
 			select: AnswerSelect.withAnswers,
@@ -276,14 +269,12 @@ export class AssessmentsService implements OnModuleInit {
 		const unanswered = allQuestionIds.filter((id) => !answeredIds.has(id));
 		if (unanswered.length > 0) throw new BadRequestException(`${unanswered.length} question(s) not answered yet`);
 
-		// 4. Lấy question type để chấm điểm
 		const questions = await this.prisma.question.findMany({
 			where: { questionId: { in: allQuestionIds }, deletedAt: null },
 			select: QuestionSelect.grade,
 		});
 		const questionMap = new Map(questions.map((q) => [q.questionId, q]));
 
-		// 5. Grade objective questions
 		let objectiveTotal = 0;
 		let objectiveScore = 0;
 		const subjectiveAttempts: { answerId: string; type: string; textAnswer: string }[] = [];
@@ -292,7 +283,44 @@ export class AssessmentsService implements OnModuleInit {
 			const q = questionMap.get(attempt.questionId);
 			if (!q) continue;
 
-			if (OBJECTIVE_TYPES.includes(q.type)) {
+			if (q.type === 'dictation') {
+				// Word-level diff — sync, không cần AI, không cần queue
+				const userText = attempt.answerDetails[0]?.textAnswer ?? '';
+				const keys = (q.payload?.answerKeysJson as string[]) ?? [];
+				const expectedText = keys[0] ?? '';
+				const diff = this.gradeDictation(expectedText, userText);
+
+				objectiveTotal++;
+				objectiveScore += diff.score;
+
+				await this.prisma.answer.update({
+					where: { answerId: attempt.answerId },
+					data: {
+						correct: diff.score >= 0.7, // >= 70% từ đúng = pass
+						score: diff.score, // 0-1
+						gradingStatus: 'auto_scored' as any,
+					},
+				});
+
+				// Lưu diff vào AnswerEvaluation — FE đọc qua aiFeedback.corrections
+				await this.prisma.answerEvaluation.create({
+					data: {
+						answerId: attempt.answerId,
+						overallScore: Math.round(diff.score * 10 * 10) / 10, // scale 0-10
+						criteriaJson: {
+							dimensions: [
+								{
+									name: 'Word Accuracy',
+									score: Math.round(diff.score * 10 * 10) / 10,
+									comment: `${Math.round(diff.score * 100)}% of words matched correctly`,
+								},
+							],
+							corrections: diff.corrections,
+							suggestions: diff.suggestions,
+						},
+					},
+				});
+			} else if (OBJECTIVE_TYPES.includes(q.type)) {
 				objectiveTotal++;
 				const isCorrect = this.gradeObjective(q, attempt.answerDetails);
 				const score = isCorrect ? 1.0 : 0.0;
@@ -308,15 +336,10 @@ export class AssessmentsService implements OnModuleInit {
 				});
 			} else if (SUBJECTIVE_TYPES.includes(q.type)) {
 				const textAnswer = attempt.answerDetails[0]?.textAnswer ?? '';
-				subjectiveAttempts.push({
-					answerId: attempt.answerId,
-					type: q.type,
-					textAnswer,
-				});
+				subjectiveAttempts.push({ answerId: attempt.answerId, type: q.type, textAnswer });
 			}
 		}
 
-		// 6. Xác định status + tính score
 		const hasSubjective = subjectiveAttempts.length > 0;
 		const totalQuestions = allQuestionIds.length;
 
@@ -336,10 +359,8 @@ export class AssessmentsService implements OnModuleInit {
 				`Exercise scored | exerciseRecord=${exerciseRecord.exerciseRecordId} | score=${finalScore}%`,
 			);
 
-			// Auto-track: mark plan item as completed
 			await this.markPlanItemCompleted(userId, exerciseRecord.refType, exerciseRecord.refId, finalScore);
 		} else {
-			// Có subjective → submitted, push vào queue
 			const partialScore = totalQuestions > 0 ? (objectiveScore / totalQuestions) * 100 : null;
 
 			await this.prisma.exerciseRecord.update({
@@ -351,7 +372,6 @@ export class AssessmentsService implements OnModuleInit {
 				},
 			});
 
-			// Push từng subjective attempt vào BullMQ
 			for (const sub of subjectiveAttempts) {
 				await this.bullmq.addJob<GradeSubjectiveJobData>(
 					AssessmentQueues.ASSESSMENT_AI,
@@ -370,7 +390,6 @@ export class AssessmentsService implements OnModuleInit {
 			);
 		}
 
-		// 7. Trả về result hiện tại
 		return this.getAssessmentResult(userId, exerciseRecordId);
 	}
 
@@ -392,15 +411,15 @@ export class AssessmentsService implements OnModuleInit {
 
 		const answersResult: AnswerResult[] = exerciseRecord.answers.map((ans) => {
 			const q = ans.question;
-
 			const questionType = q.type as string;
 			const isCorrect = ans.correct;
 			const earnedScore = ans.score !== null ? Number(ans.score) : null;
 			const maxScore = q.maxScore ?? 1;
 
+			// dictation lưu text answer → đọc từ textAnswer branch
 			const userAnswer = (() => {
 				if (ans.answerDetails.length === 0) return null;
-				if (['fill_blank', 'essay', 'speaking'].includes(questionType)) {
+				if (['fill_blank', 'essay', 'speaking', 'matching', 'dictation'].includes(questionType)) {
 					return { textAnswer: ans.answerDetails[0]?.textAnswer ?? undefined };
 				}
 				const optionIds = ans.answerDetails.filter((d) => d.optionId).map((d) => d.optionId as string);
@@ -414,7 +433,8 @@ export class AssessmentsService implements OnModuleInit {
 			const correctAnswer = (() => {
 				if (!isScored) return null;
 
-				if (questionType === 'fill_blank') {
+				// dictation: expected transcript lưu trong answerKeysJson (cùng format fill_blank)
+				if (questionType === 'fill_blank' || questionType === 'dictation') {
 					const keys = q.payload?.answerKeysJson as string[] | null;
 					return keys && keys.length > 0 ? { textAnswers: keys } : null;
 				}
@@ -426,9 +446,15 @@ export class AssessmentsService implements OnModuleInit {
 					return optionIds.length > 0 ? { optionIds, optionTexts } : null;
 				}
 
-				return null; // essay/speaking — không có correct answer cố định
+				if (questionType === 'matching') {
+					const correctMap = q.payload?.answerKeysJson as Record<string, string> | null;
+					return correctMap ? { textAnswers: [JSON.stringify(correctMap)] } : null;
+				}
+
+				return null;
 			})();
 
+			// dictation + essay + speaking đều đọc từ evaluations[0].criteriaJson
 			const aiFeedback = (() => {
 				const evalRecord = ans.evaluations[0];
 				if (!evalRecord) return null;
@@ -460,7 +486,6 @@ export class AssessmentsService implements OnModuleInit {
 				questionType,
 				stemText: ans.question.translations?.[0]?.stemText ?? null,
 				gradingStatus: ans.gradingStatus as string,
-
 				isCorrect,
 				earnedScore,
 				maxScore,
@@ -497,7 +522,7 @@ export class AssessmentsService implements OnModuleInit {
 		const where: any = {
 			userId,
 			deletedAt: null,
-			status: { in: ['submitted', 'scored'] as any[] }, // chỉ hiện bài đã bắt đầu
+			status: { in: ['submitted', 'scored'] as any[] },
 			...(refType && { refType }),
 		};
 
@@ -512,12 +537,10 @@ export class AssessmentsService implements OnModuleInit {
 			this.prisma.exerciseRecord.count({ where }),
 		]);
 
-		// Enrich với title + skillName từ lesson/practice session
 		const rows: AssessmentHistoryItem[] = await Promise.all(
 			rawRows.map((a) => this.enrichHistoryItem(a, skillName)),
 		);
 
-		// Filter theo skillName nếu có (sau khi enrich)
 		const filtered = skillName ? rows.filter((r) => r.skillName === skillName) : rows;
 
 		return ResponseDto.success(
@@ -527,8 +550,7 @@ export class AssessmentsService implements OnModuleInit {
 	}
 
 	async transcribeAudio(file: Express.Multer.File) {
-		if (!file)
-			throw new BadRequestException('No audio file provided');
+		if (!file) throw new BadRequestException('No audio file provided');
 
 		this.logger.log(`Transcribing audio | size=${file.size} | mimetype=${file.mimetype}`);
 		const transcript = await this.aiClient.transcribeAudio({
@@ -541,12 +563,11 @@ export class AssessmentsService implements OnModuleInit {
 		return ResponseDto.success(Object, { transcript }, 'Transcription successful');
 	}
 
-	// BULLMQ WORKER HANDLER
+	// BULLMQ WORKER HANDLER — chỉ xử lý essay và speaking, KHÔNG xử lý dictation
 	private async handleGradeJob(job: Job<GradeSubjectiveJobData>): Promise<void> {
 		const { answerId, exerciseRecordId, questionType, textAnswer } = job.data;
 
 		if (!textAnswer || textAnswer.trim().length === 0) {
-			// Không có text → cho 0 điểm
 			await this.prisma.answer.update({
 				where: { answerId },
 				data: { score: 0, gradingStatus: 'auto_scored' as any },
@@ -568,7 +589,6 @@ export class AssessmentsService implements OnModuleInit {
 			},
 		});
 
-		// Update Attempt.score (normalize 0-10 → 0-1)
 		await this.prisma.answer.update({
 			where: { answerId },
 			data: {
@@ -579,18 +599,14 @@ export class AssessmentsService implements OnModuleInit {
 
 		await this.tryFinalizeAssessment(exerciseRecordId);
 	}
+
 	private async tryFinalizeAssessment(exerciseRecordId: string): Promise<void> {
 		const pendingAttempts = await this.prisma.answer.count({
-			where: {
-				exerciseRecordId,
-				gradingStatus: 'pending',
-				deletedAt: null,
-			},
+			where: { exerciseRecordId, gradingStatus: 'pending', deletedAt: null },
 		});
 
-		if (pendingAttempts > 0) return; // còn câu chưa chấm
+		if (pendingAttempts > 0) return;
 
-		// Tính lại score tổng
 		const allAttempts = await this.prisma.answer.findMany({
 			where: { exerciseRecordId, deletedAt: null },
 			select: AnswerSelect.scoreOnly,
@@ -600,7 +616,7 @@ export class AssessmentsService implements OnModuleInit {
 		const finalScore = allAttempts.length > 0 ? (totalScore / allAttempts.length) * 100 : 0;
 
 		await this.prisma.exerciseRecord.update({
-			where: { exerciseRecordId: exerciseRecordId },
+			where: { exerciseRecordId },
 			data: {
 				status: 'scored' as any,
 				score: Math.round(finalScore * 100) / 100,
@@ -609,9 +625,8 @@ export class AssessmentsService implements OnModuleInit {
 
 		this.logger.log(`Assessment finalized | assessmentId=${exerciseRecordId} | finalScore=${finalScore}%`);
 
-		// Auto-track: mark plan item as completed (async path)
 		const assessment = await this.prisma.exerciseRecord.findUnique({
-			where: { exerciseRecordId: exerciseRecordId },
+			where: { exerciseRecordId },
 			select: ExerciseRecordSelect.userRef,
 		});
 		if (assessment) {
@@ -620,17 +635,121 @@ export class AssessmentsService implements OnModuleInit {
 	}
 
 	// PRIVATE HELPERS
+
+	/**
+	 * LCS word-level diff cho dictation
+	 *
+	 * Ví dụ:
+	 *   expected:  "the cat sat on the mat"
+	 *   user:      "the cat sat in mat"
+	 *
+	 *   LCS match: "the cat sat _ _ mat" → 4/6 từ đúng → score = 0.67
+	 *   corrections:
+	 *     { original: "in",  corrected: "on",  rule: "Wrong word"   }
+	 *     { original: "",    corrected: "the", rule: "Missing word" }
+	 */
+	private gradeDictation(
+		expected: string,
+		userInput: string,
+	): {
+		score: number;
+		corrections: { original: string; corrected: string; rule: string }[];
+		suggestions: string[];
+	} {
+		const normalize = (s: string) =>
+			s
+				.toLowerCase()
+				.replace(/[.,!?;:'"()\-]/g, '')
+				.replace(/\s+/g, ' ')
+				.trim();
+
+		const expWords = expected.trim().split(/\s+/).filter(Boolean);
+		const usrWords = userInput.trim().split(/\s+/).filter(Boolean);
+
+		if (expWords.length === 0) return { score: 1, corrections: [], suggestions: [] };
+
+		if (usrWords.length === 0) {
+			return {
+				score: 0,
+				corrections: expWords.slice(0, 5).map((w) => ({ original: '', corrected: w, rule: 'Missing word' })),
+				suggestions: ['Listen to the audio again before writing.', 'Try writing each word as you hear it.'],
+			};
+		}
+
+		const expNorm = expWords.map(normalize);
+		const usrNorm = usrWords.map(normalize);
+		const m = expNorm.length;
+		const n = usrNorm.length;
+
+		// Build LCS dp table
+		const dp: number[][] = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+		for (let i = 1; i <= m; i++) {
+			for (let j = 1; j <= n; j++) {
+				dp[i][j] =
+					expNorm[i - 1] === usrNorm[j - 1] ? dp[i - 1][j - 1] + 1 : Math.max(dp[i - 1][j], dp[i][j - 1]);
+			}
+		}
+
+		const lcsLength = dp[m][n];
+		const score = lcsLength / m; // 0-1: tỉ lệ từ expected được gõ đúng
+
+		// Backtrack để tách ra missing vs extra words
+		const missingFromUser: string[] = []; // từ expected nhưng user không gõ đúng
+		const extraFromUser: string[] = []; // từ user gõ nhưng không khớp expected
+
+		let i = m,
+			j = n;
+		while (i > 0 || j > 0) {
+			if (i > 0 && j > 0 && expNorm[i - 1] === usrNorm[j - 1]) {
+				i--;
+				j--;
+			} else if (i > 0 && (j === 0 || dp[i - 1][j] >= dp[i][j - 1])) {
+				missingFromUser.push(expWords[i - 1]);
+				i--;
+			} else {
+				extraFromUser.push(usrWords[j - 1]);
+				j--;
+			}
+		}
+
+		missingFromUser.reverse();
+		extraFromUser.reverse();
+
+		// Ghép cặp extra + missing → "Wrong word"; phần dư → "Missing word"
+		const corrections: { original: string; corrected: string; rule: string }[] = [];
+		const pairCount = Math.min(missingFromUser.length, extraFromUser.length);
+
+		for (let k = 0; k < pairCount; k++) {
+			corrections.push({ original: extraFromUser[k], corrected: missingFromUser[k], rule: 'Wrong word' });
+		}
+		for (let k = pairCount; k < missingFromUser.length; k++) {
+			corrections.push({ original: '', corrected: missingFromUser[k], rule: 'Missing word' });
+		}
+
+		const accuracy = Math.round(score * 100);
+		const suggestions =
+			accuracy < 50
+				? ['Listen to the audio multiple times before writing.', 'Focus on catching individual words clearly.']
+				: accuracy < 80
+					? [
+							'Pay attention to smaller words like articles and prepositions.',
+							'Review spelling of common words.',
+						]
+					: [
+							'Great effort! Review the few words you missed.',
+							'Practice punctuation in dictation exercises.',
+						];
+
+		return { score, corrections: corrections.slice(0, 5), suggestions };
+	}
+
 	private async verifyQuestionBelongs(refType: string, refId: string, questionId: string): Promise<boolean> {
 		if (refType === 'lesson') {
-			const link = await this.prisma.lessonQuestion.findFirst({
-				where: { lessonId: refId, questionId },
-			});
+			const link = await this.prisma.lessonQuestion.findFirst({ where: { lessonId: refId, questionId } });
 			return !!link;
 		}
 		if (refType === 'question_set') {
-			const link = await this.prisma.questionSetItem.findFirst({
-				where: { questionSetId: refId, questionId },
-			});
+			const link = await this.prisma.questionSetItem.findFirst({ where: { questionSetId: refId, questionId } });
 			return !!link;
 		}
 		return false;
@@ -656,24 +775,14 @@ export class AssessmentsService implements OnModuleInit {
 
 	private async createAttemptAnswers(answerId: string, answer: SubmitAnswerDto['answer']): Promise<void> {
 		if (answer.optionId) {
-			// mcq_single
-			await this.prisma.answerDetail.create({
-				data: { answerId, position: 1, optionId: answer.optionId },
-			});
+			await this.prisma.answerDetail.create({ data: { answerId, position: 1, optionId: answer.optionId } });
 		} else if (answer.optionIds && answer.optionIds.length > 0) {
-			// mcq_multi
 			await this.prisma.answerDetail.createMany({
-				data: answer.optionIds.map((optionId, i) => ({
-					answerId,
-					position: i + 1,
-					optionId,
-				})),
+				data: answer.optionIds.map((optionId, idx) => ({ answerId, position: idx + 1, optionId })),
 			});
 		} else if (answer.textAnswer !== undefined) {
-			// essay / speaking / fill_blank
-			await this.prisma.answerDetail.create({
-				data: { answerId, position: 1, textAnswer: answer.textAnswer },
-			});
+			// essay / speaking / fill_blank / dictation
+			await this.prisma.answerDetail.create({ data: { answerId, position: 1, textAnswer: answer.textAnswer } });
 		}
 	}
 
@@ -707,7 +816,23 @@ export class AssessmentsService implements OnModuleInit {
 			return keys.map((k) => k.toLowerCase()).includes(userAnswer ?? '');
 		}
 
-		// Các loại khác (matching, ordering) → pending AI grading nếu cần
+		if (question.type === 'matching') {
+			const correctAnswers = question.payload?.answerKeysJson as Record<string, string> | null;
+			if (!correctAnswers) return false;
+			const rawUserAnswer = answers[0]?.textAnswer;
+			if (!rawUserAnswer) return false;
+			try {
+				const userAnswers = JSON.parse(rawUserAnswer) as Record<string, string>;
+				const pairs = Object.entries(correctAnswers);
+				if (pairs.length === 0) return false;
+				return pairs.every(
+					([left, right]) => userAnswers[left]?.trim().toLowerCase() === right.trim().toLowerCase(),
+				);
+			} catch {
+				return false;
+			}
+		}
+
 		return false;
 	}
 
@@ -763,25 +888,16 @@ export class AssessmentsService implements OnModuleInit {
 			status: assessment.status,
 			score: assessment.score !== null ? Number(assessment.score) : null,
 			totalQuestions,
-
 			correctCount,
-
 			startedAt: assessment.startedAt,
 			completedAt: assessment.completedAt,
 		};
 	}
 
-	// Plan item auto-tracking: updateMany → safe (0 match = 0 update, no error)
 	private async markPlanItemInProgress(userId: string, refType: string, refId: string): Promise<void> {
 		try {
 			await this.prisma.learningPlanItem.updateMany({
-				where: {
-					userId,
-					refType,
-					refId,
-					status: 'pending',
-					deletedAt: null,
-				},
+				where: { userId, refType, refId, status: 'pending', deletedAt: null },
 				data: { status: 'in_progress' as any },
 			});
 		} catch (err) {
@@ -789,10 +905,9 @@ export class AssessmentsService implements OnModuleInit {
 		}
 	}
 
-	// score param is 0-100 from Assessment; normalize to 0-10 to match custom activity scale + Decimal(4,2)
 	private async markPlanItemCompleted(userId: string, refType: string, refId: string, score: number): Promise<void> {
 		try {
-			const normalizedScore = Math.round((score / 10) * 100) / 100; // 0-100 → 0-10
+			const normalizedScore = Math.round((score / 10) * 100) / 100;
 			await this.prisma.learningPlanItem.updateMany({
 				where: {
 					userId,
@@ -801,10 +916,7 @@ export class AssessmentsService implements OnModuleInit {
 					status: { in: ['pending', 'in_progress'] },
 					deletedAt: null,
 				},
-				data: {
-					status: 'completed' as any,
-					taskScore: normalizedScore,
-				},
+				data: { status: 'completed' as any, taskScore: normalizedScore },
 			});
 		} catch (err) {
 			this.logger.warn(`Failed to mark plan item completed: ${err.message}`);

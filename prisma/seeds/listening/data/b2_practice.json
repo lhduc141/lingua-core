@@ -1,0 +1,1880 @@
+[
+  {
+    "id": "b2_practice_01",
+    "type": "practice",
+    "cefrLevel": "B2",
+    "title": "Remote Work Policy Debate",
+    "description": "A panel discussion exploring the pros and cons of long-term remote work policies.",
+    "topic": "Remote work policy debate",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Welcome to our panel on remote work. With us is HR director, Mark."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Thank you. The shift to remote work has dramatically changed corporate culture over the last few years."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What is the primary benefit companies are observing right now?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Productivity has actually increased. Employees consistently report fewer distractions compared to an open office environment."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "But what about the drawbacks? I hear isolation is becoming a major issue."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Exactly. Without spontaneous interactions, people feel disconnected. We are testing a hybrid model to fix this."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "How does a hybrid model address the financial concerns of home setups?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "We provide a home office stipend to help cover the costs of ergonomic chairs and better internet connections."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "That sounds helpful. Are there concerns about the blurring of work and life boundaries?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Yes, burnout is rising because employees struggle to disconnect. We introduced strict log-off times at six in the evening."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "How do managers track performance without micromanaging their teams?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "We shifted to outcome-based metrics. It is about what you deliver, not the number of hours you are online."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "That requires a lot of trust. Any final thoughts for companies struggling with this transition?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Communication is key. You must regularly survey your team and be willing to adapt your policies."
+      }
+    ],
+    "fullScript": "A: Welcome to our panel on remote work. With us is HR director, Mark.\nB: Thank you. The shift to remote work has dramatically changed corporate culture over the last few years.\nA: What is the primary benefit companies are observing right now?\nB: Productivity has actually increased. Employees consistently report fewer distractions compared to an open office environment.\nA: But what about the drawbacks? I hear isolation is becoming a major issue.\nB: Exactly. Without spontaneous interactions, people feel disconnected. We are testing a hybrid model to fix this.\nA: How does a hybrid model address the financial concerns of home setups?\nB: We provide a home office stipend to help cover the costs of ergonomic chairs and better internet connections.\nA: That sounds helpful. Are there concerns about the blurring of work and life boundaries?\nB: Yes, burnout is rising because employees struggle to disconnect. We introduced strict log-off times at six in the evening.\nA: How do managers track performance without micromanaging their teams?\nB: We shifted to outcome-based metrics. It is about what you deliver, not the number of hours you are online.\nA: That requires a lot of trust. Any final thoughts for companies struggling with this transition?\nB: Communication is key. You must regularly survey your team and be willing to adapt your policies.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the primary benefit of remote work mentioned by Mark?",
+        "options": [
+          "Lower company expenses",
+          "Increased productivity",
+          "Better communication",
+          "Fewer software issues"
+        ],
+        "answer": "Increased productivity",
+        "explanation": "Mark states that productivity has increased due to fewer distractions."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How is the company trying to solve the problem of employees struggling to disconnect?",
+        "options": [
+          "Offering more vacation days",
+          "Providing a home office stipend",
+          "Introducing strict log-off times",
+          "Moving back to an open office"
+        ],
+        "answer": "Introducing strict log-off times",
+        "explanation": "Mark mentions they introduced strict log-off times at six in the evening to combat burnout."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How are managers advised to track employee performance?",
+        "options": [
+          "By tracking screen time",
+          "By using outcome-based metrics",
+          "By holding daily meetings",
+          "By micromanaging tasks"
+        ],
+        "answer": "By using outcome-based metrics",
+        "explanation": "Mark says they shifted to outcome-based metrics, focusing on what employees deliver."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The shift to remote work has dramatically changed corporate ___ over the last few years.",
+        "answer": "culture",
+        "explanation": "Mark explicitly says the shift has dramatically changed corporate culture."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Employees consistently report fewer ___ compared to an open office.",
+        "answer": "distractions",
+        "explanation": "Mark mentions that employees report fewer distractions."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Without spontaneous interactions, people feel ___.",
+        "answer": "disconnected",
+        "explanation": "Mark says that without spontaneous interactions, people feel disconnected."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Companies provide a home office ___ to help cover equipment costs.",
+        "answer": "stipend",
+        "explanation": "Mark says they provide a home office stipend."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the remote work issue with the company's proposed solution.",
+        "pairs": [
+          { "left": "Feelings of isolation", "right": "Testing a hybrid model" },
+          { "left": "Home setup costs", "right": "Home office stipend" },
+          { "left": "Rising burnout", "right": "Strict log-off times" },
+          { "left": "Micromanagement", "right": "Outcome-based metrics" }
+        ],
+        "answers": {
+          "Feelings of isolation": "Testing a hybrid model",
+          "Home setup costs": "Home office stipend",
+          "Rising burnout": "Strict log-off times",
+          "Micromanagement": "Outcome-based metrics"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the cause with its corresponding effect mentioned in the discussion.",
+        "pairs": [
+          { "left": "Fewer distractions", "right": "Increased productivity" },
+          { "left": "Blurring boundaries", "right": "Rising burnout" },
+          { "left": "Lack of spontaneous interaction", "right": "Feeling disconnected" }
+        ],
+        "answers": {
+          "Fewer distractions": "Increased productivity",
+          "Blurring boundaries": "Rising burnout",
+          "Lack of spontaneous interaction": "Feeling disconnected"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the speaker to the concept they introduced or emphasized.",
+        "pairs": [
+          { "left": "Speaker A (Sarah)", "right": "Asks about drawbacks like isolation" },
+          { "left": "Speaker B (Mark)", "right": "Emphasizes communication and surveying" },
+          { "left": "Employees", "right": "Struggle to disconnect from work" }
+        ],
+        "answers": {
+          "Speaker A (Sarah)": "Asks about drawbacks like isolation",
+          "Speaker B (Mark)": "Emphasizes communication and surveying",
+          "Employees": "Struggle to disconnect from work"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b2_practice_02",
+    "type": "practice",
+    "cefrLevel": "B2",
+    "title": "The Rise of Plant-Based Diets",
+    "description": "A podcast episode discussing the motivations and challenges behind adopting a plant-based diet.",
+    "topic": "Podcast about the rise of plant-based diets",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Today we explore the rise of plant-based diets with nutritionist, David."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Thanks for having me. It is fascinating how rapidly consumer habits are shifting towards vegan options."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Is this shift primarily driven by health concerns or environmental awareness?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Initially it was health, particularly reducing heart disease. Now, reducing one's carbon footprint is an equal motivator."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What is the biggest challenge for people making the switch?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Protein intake is a common worry, though finding alternatives like lentils and tofu is easier than ever."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Are meat alternatives actually healthy? Some argue they are highly processed."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "That is a valid point. Some faux meats have high sodium levels. Whole foods are always the better choice."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "How is the restaurant industry responding to this trend?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Most mainstream chains now offer at least one dedicated plant-based meal to avoid losing group bookings."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Is cost a significant barrier? Plant-based products often seem expensive."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Specialty items are pricey, but staple ingredients like beans and rice are extremely cost-effective."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "So, public education is needed on how to cook these staple ingredients?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Precisely. Knowing how to flavor and prepare whole foods is the key to maintaining a sustainable diet."
+      }
+    ],
+    "fullScript": "A: Today we explore the rise of plant-based diets with nutritionist, David.\nB: Thanks for having me. It is fascinating how rapidly consumer habits are shifting towards vegan options.\nA: Is this shift primarily driven by health concerns or environmental awareness?\nB: Initially it was health, particularly reducing heart disease. Now, reducing one's carbon footprint is an equal motivator.\nA: What is the biggest challenge for people making the switch?\nB: Protein intake is a common worry, though finding alternatives like lentils and tofu is easier than ever.\nA: Are meat alternatives actually healthy? Some argue they are highly processed.\nB: That is a valid point. Some faux meats have high sodium levels. Whole foods are always the better choice.\nA: How is the restaurant industry responding to this trend?\nB: Most mainstream chains now offer at least one dedicated plant-based meal to avoid losing group bookings.\nA: Is cost a significant barrier? Plant-based products often seem expensive.\nB: Specialty items are pricey, but staple ingredients like beans and rice are extremely cost-effective.\nA: So, public education is needed on how to cook these staple ingredients?\nB: Precisely. Knowing how to flavor and prepare whole foods is the key to maintaining a sustainable diet.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What has recently become an equal motivator to health for adopting a plant-based diet?",
+        "options": [
+          "Animal welfare",
+          "Reducing one's carbon footprint",
+          "Lower food costs",
+          "Allergies to meat products"
+        ],
+        "answer": "Reducing one's carbon footprint",
+        "explanation": "David notes that reducing one's carbon footprint is now an equal motivator to health."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why are some meat alternatives considered potentially unhealthy?",
+        "options": [
+          "They lack sufficient vitamins.",
+          "They have high sodium levels.",
+          "They contain hidden animal products.",
+          "They expire very quickly."
+        ],
+        "answer": "They have high sodium levels.",
+        "explanation": "David explains that some faux meats are highly processed and have high sodium levels."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why do mainstream restaurant chains offer dedicated plant-based meals?",
+        "options": [
+          "To win culinary awards",
+          "To reduce their kitchen expenses",
+          "To avoid losing group bookings",
+          "To transition to a fully vegan menu"
+        ],
+        "answer": "To avoid losing group bookings",
+        "explanation": "David states chains offer these meals so they don't lose group bookings."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Consumer habits are rapidly shifting towards ___ options.",
+        "answer": "vegan",
+        "explanation": "David mentions that habits are shifting towards vegan options."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Initially, the shift was driven by health, particularly reducing ___ disease.",
+        "answer": "heart",
+        "explanation": "David specifies reducing heart disease as an initial motivator."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "People often worry about their ___ intake when switching diets.",
+        "answer": "protein",
+        "explanation": "Protein intake is mentioned as a common worry."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Staple ingredients like beans and rice are extremely ___.",
+        "answer": "cost-effective",
+        "explanation": "David says staple ingredients are extremely cost-effective."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the dietary item with its description from the script.",
+        "pairs": [
+          { "left": "Faux meats", "right": "May have high sodium levels" },
+          { "left": "Whole foods", "right": "Always the better choice" },
+          { "left": "Beans and rice", "right": "Extremely cost-effective" },
+          { "left": "Lentils and tofu", "right": "Alternatives for protein intake" }
+        ],
+        "answers": {
+          "Faux meats": "May have high sodium levels",
+          "Whole foods": "Always the better choice",
+          "Beans and rice": "Extremely cost-effective",
+          "Lentils and tofu": "Alternatives for protein intake"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the cause with the effect regarding plant-based diets.",
+        "pairs": [
+          { "left": "Wanting to reduce carbon footprint", "right": "Adopting a plant-based diet" },
+          { "left": "Fear of losing group bookings", "right": "Restaurants adding vegan meals" },
+          { "left": "Buying specialty plant-based items", "right": "Facing higher food costs" }
+        ],
+        "answers": {
+          "Wanting to reduce carbon footprint": "Adopting a plant-based diet",
+          "Fear of losing group bookings": "Restaurants adding vegan meals",
+          "Buying specialty plant-based items": "Facing higher food costs"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the concept to the necessity mentioned.",
+        "pairs": [
+          { "left": "Maintaining a sustainable diet", "right": "Knowing how to flavor whole foods" },
+          { "left": "Initial dietary motivation", "right": "Improving heart health" },
+          { "left": "Addressing dietary challenges", "right": "Finding protein alternatives" }
+        ],
+        "answers": {
+          "Maintaining a sustainable diet": "Knowing how to flavor whole foods",
+          "Initial dietary motivation": "Improving heart health",
+          "Addressing dietary challenges": "Finding protein alternatives"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b2_practice_03",
+    "type": "practice",
+    "cefrLevel": "B2",
+    "title": "Interview with a Climate Scientist",
+    "description": "An expert explains current climate trends and realistic mitigation strategies.",
+    "topic": "Interview with a climate scientist",
+    "estimatedMinutes": 19,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Welcome. We are joined by Dr. Hayes to discuss the latest climate report."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Thank you. The new data shows that global temperatures are rising faster than our previous models predicted."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What is the primary factor accelerating this warming trend?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "It is a combination of increased greenhouse gas emissions and the rapid loss of polar ice, which reduces the earth's reflectivity."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Is there any positive news in the report, or is it entirely pessimistic?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "The positive takeaway is that renewable energy adoption has scaled up globally much quicker than anticipated."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Will transitioning to solar and wind power be enough to reverse the damage?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "No, mitigation alone is insufficient. We must also invest heavily in carbon capture technologies to remove existing carbon."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Many people feel paralyzed by the scale of the problem. What can individuals do?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Individual actions matter, but systemic change is crucial. Voting for climate-conscious policies makes the biggest impact."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "How do developing nations factor into these global policy changes?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Wealthy nations must provide financial support to developing countries so they can build green infrastructure."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Some argue that transitioning economies too quickly will cause job losses."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Actually, the green energy sector is creating more jobs than the fossil fuel industry is losing. It requires retraining, though."
+      }
+    ],
+    "fullScript": "A: Welcome. We are joined by Dr. Hayes to discuss the latest climate report.\nB: Thank you. The new data shows that global temperatures are rising faster than our previous models predicted.\nA: What is the primary factor accelerating this warming trend?\nB: It is a combination of increased greenhouse gas emissions and the rapid loss of polar ice, which reduces the earth's reflectivity.\nA: Is there any positive news in the report, or is it entirely pessimistic?\nB: The positive takeaway is that renewable energy adoption has scaled up globally much quicker than anticipated.\nA: Will transitioning to solar and wind power be enough to reverse the damage?\nB: No, mitigation alone is insufficient. We must also invest heavily in carbon capture technologies to remove existing carbon.\nA: Many people feel paralyzed by the scale of the problem. What can individuals do?\nB: Individual actions matter, but systemic change is crucial. Voting for climate-conscious policies makes the biggest impact.\nA: How do developing nations factor into these global policy changes?\nB: Wealthy nations must provide financial support to developing countries so they can build green infrastructure.\nA: Some argue that transitioning economies too quickly will cause job losses.\nB: Actually, the green energy sector is creating more jobs than the fossil fuel industry is losing. It requires retraining, though.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What does the new climate report indicate about global temperatures?",
+        "options": [
+          "They have stabilized recently.",
+          "They are rising faster than predicted.",
+          "They are cooling in certain regions.",
+          "They match the previous models perfectly."
+        ],
+        "answer": "They are rising faster than predicted.",
+        "explanation": "Dr. Hayes states that temperatures are rising faster than previous models predicted."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "According to Dr. Hayes, what makes the biggest impact on an individual level?",
+        "options": [
+          "Recycling household waste",
+          "Voting for climate-conscious policies",
+          "Installing solar panels",
+          "Driving an electric vehicle"
+        ],
+        "answer": "Voting for climate-conscious policies",
+        "explanation": "He mentions that voting for climate-conscious policies makes the biggest impact."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What does the green energy sector require to handle the job market transition?",
+        "options": [
+          "Lower wages",
+          "Fewer safety regulations",
+          "Retraining programs",
+          "Longer working hours"
+        ],
+        "answer": "Retraining programs",
+        "explanation": "Dr. Hayes notes that while green energy creates jobs, it requires retraining."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The rapid loss of polar ice reduces the earth's ___.",
+        "answer": "reflectivity",
+        "explanation": "Dr. Hayes explains that the loss of polar ice reduces the earth's reflectivity."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Renewable energy adoption has ___ up much quicker than anticipated.",
+        "answer": "scaled",
+        "explanation": "He mentions that renewable energy adoption has scaled up globally."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "We must invest heavily in carbon ___ technologies to remove existing carbon.",
+        "answer": "capture",
+        "explanation": "Dr. Hayes says we must invest in carbon capture technologies."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Wealthy nations must provide ___ support to developing countries.",
+        "answer": "financial",
+        "explanation": "He suggests wealthy nations provide financial support."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the climate-related problem to its required action or consequence.",
+        "pairs": [
+          { "left": "Existing atmospheric carbon", "right": "Invest in capture technologies" },
+          { "left": "Loss of polar ice", "right": "Reduces earth's reflectivity" },
+          { "left": "Developing nations' needs", "right": "Provide financial support" },
+          { "left": "Fossil fuel job losses", "right": "Create green sector retraining" }
+        ],
+        "answers": {
+          "Existing atmospheric carbon": "Invest in capture technologies",
+          "Loss of polar ice": "Reduces earth's reflectivity",
+          "Developing nations' needs": "Provide financial support",
+          "Fossil fuel job losses": "Create green sector retraining"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the phrase with the context it was used in.",
+        "pairs": [
+          { "left": "Previous models", "right": "Underestimated temperature rise" },
+          { "left": "Systemic change", "right": "More crucial than individual acts" },
+          { "left": "Greenhouse gas emissions", "right": "Accelerating warming trends" }
+        ],
+        "answers": {
+          "Previous models": "Underestimated temperature rise",
+          "Systemic change": "More crucial than individual acts",
+          "Greenhouse gas emissions": "Accelerating warming trends"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the emotional/attitudinal description to its topic in the interview.",
+        "pairs": [
+          { "left": "Pessimistic", "right": "Faster rising global temperatures" },
+          { "left": "Positive", "right": "Rapid scaling of renewable energy" },
+          { "left": "Paralyzed", "right": "People facing the scale of the problem" }
+        ],
+        "answers": {
+          "Pessimistic": "Faster rising global temperatures",
+          "Positive": "Rapid scaling of renewable energy",
+          "Paralyzed": "People facing the scale of the problem"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b2_practice_04",
+    "type": "practice",
+    "cefrLevel": "B2",
+    "title": "Business Negotiation Gone Wrong",
+    "description": "A dialogue between a supplier and a buyer failing to reach an agreement.",
+    "topic": "Business negotiation gone wrong",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Let's review the new contract. We need a fifteen percent reduction in your component pricing."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Fifteen percent is impossible for us right now. Global shipping costs have skyrocketed this quarter."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "We understand the market, but our retail competitors are lowering their prices. We must remain competitive."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "If we cut prices by fifteen percent, we would have to compromise on the quality of the raw materials."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Quality is non-negotiable for our brand. Cannot you find efficiencies in your manufacturing process instead?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "We already automated the assembly line last year. There is simply no more overhead left to trim."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "If you cannot meet this price target, we may be forced to look for alternative suppliers in Asia."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "That is your right, but remember that switching suppliers will cause a major delay in your production schedule."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "We have factored potential delays into our risk assessment. We need a final answer by Friday."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "The best we can offer is a five percent discount, and only if you increase your order volume."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Increasing order volume ties up too much of our capital. A five percent discount is insufficient."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Then we have reached an impasse. We cannot operate at a loss just to keep your account."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "It seems so. We will begin contacting other vendors immediately."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Let us know if your circumstances change. We would hate to lose a long-term partnership."
+      }
+    ],
+    "fullScript": "A: Let's review the new contract. We need a fifteen percent reduction in your component pricing.\nB: Fifteen percent is impossible for us right now. Global shipping costs have skyrocketed this quarter.\nA: We understand the market, but our retail competitors are lowering their prices. We must remain competitive.\nB: If we cut prices by fifteen percent, we would have to compromise on the quality of the raw materials.\nA: Quality is non-negotiable for our brand. Cannot you find efficiencies in your manufacturing process instead?\nB: We already automated the assembly line last year. There is simply no more overhead left to trim.\nA: If you cannot meet this price target, we may be forced to look for alternative suppliers in Asia.\nB: That is your right, but remember that switching suppliers will cause a major delay in your production schedule.\nA: We have factored potential delays into our risk assessment. We need a final answer by Friday.\nB: The best we can offer is a five percent discount, and only if you increase your order volume.\nA: Increasing order volume ties up too much of our capital. A five percent discount is insufficient.\nB: Then we have reached an impasse. We cannot operate at a loss just to keep your account.\nA: It seems so. We will begin contacting other vendors immediately.\nB: Let us know if your circumstances change. We would hate to lose a long-term partnership.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Why does the supplier refuse the fifteen percent price reduction initially?",
+        "options": [
+          "They are updating their software.",
+          "Global shipping costs have skyrocketed.",
+          "They dislike the buyer's company.",
+          "They want to switch to a different industry."
+        ],
+        "answer": "Global shipping costs have skyrocketed.",
+        "explanation": "The supplier states that global shipping costs have skyrocketed this quarter."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What counter-offer does the supplier make?",
+        "options": [
+          "A ten percent discount for cash payment",
+          "A five percent discount if order volume increases",
+          "A temporary price freeze",
+          "Free shipping for the next quarter"
+        ],
+        "answer": "A five percent discount if order volume increases",
+        "explanation": "The supplier offers a five percent discount if the buyer increases order volume."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why does the buyer reject the supplier's counter-offer?",
+        "options": [
+          "It violates local trade laws.",
+          "The discount is mathematically incorrect.",
+          "Increasing order volume ties up too much capital.",
+          "They prefer finding new suppliers anyway."
+        ],
+        "answer": "Increasing order volume ties up too much capital.",
+        "explanation": "The buyer explains that increasing order volume ties up too much of their capital."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The buyer states that ___ is non-negotiable for their brand.",
+        "answer": "quality",
+        "explanation": "The buyer explicitly states, 'Quality is non-negotiable for our brand.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The supplier says there is no more ___ left to trim after automating the assembly line.",
+        "answer": "overhead",
+        "explanation": "The supplier mentions 'no more overhead left to trim.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Switching suppliers will cause a major delay in the buyer's production ___.",
+        "answer": "schedule",
+        "explanation": "The supplier warns of a delay in the production schedule."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The supplier says they cannot operate at a ___ just to keep the account.",
+        "answer": "loss",
+        "explanation": "The supplier says, 'We cannot operate at a loss...'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the negotiating party's position to their stated reasoning.",
+        "pairs": [
+          { "left": "Needs lower component prices", "right": "Competitors are lowering retail prices" },
+          { "left": "Refuses 15% price cut", "right": "Would compromise raw material quality" },
+          { "left": "Refuses to increase volume", "right": "Ties up too much capital" },
+          { "left": "Threatens to use Asian suppliers", "right": "Has factored delays into risk assessment" }
+        ],
+        "answers": {
+          "Needs lower component prices": "Competitors are lowering retail prices",
+          "Refuses 15% price cut": "Would compromise raw material quality",
+          "Refuses to increase volume": "Ties up too much capital",
+          "Threatens to use Asian suppliers": "Has factored delays into risk assessment"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the term with the context it was used in the negotiation.",
+        "pairs": [
+          { "left": "Efficiencies", "right": "Finding ways to save in manufacturing" },
+          { "left": "Impasse", "right": "Reaching a point where no agreement is possible" },
+          { "left": "Risk assessment", "right": "Factoring in potential production delays" }
+        ],
+        "answers": {
+          "Efficiencies": "Finding ways to save in manufacturing",
+          "Impasse": "Reaching a point where no agreement is possible",
+          "Risk assessment": "Factoring in potential production delays"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the percentage mentioned with its significance in the dialogue.",
+        "pairs": [
+          { "left": "Fifteen percent", "right": "The initial reduction requested by the buyer" },
+          { "left": "Five percent", "right": "The counter-offer proposed by the supplier" },
+          { "left": "Zero percent", "right": "Not explicitly stated, but implies operating at a loss" }
+        ],
+        "answers": {
+          "Fifteen percent": "The initial reduction requested by the buyer",
+          "Five percent": "The counter-offer proposed by the supplier",
+          "Zero percent": "Not explicitly stated, but implies operating at a loss"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b2_practice_05",
+    "type": "practice",
+    "cefrLevel": "B2",
+    "title": "Documentary about Urban Homelessness",
+    "description": "An interview segment discussing the root causes and potential solutions for urban homelessness.",
+    "topic": "Documentary about urban homelessness",
+    "estimatedMinutes": 19,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "We are standing downtown, where tent cities have expanded. I am here with sociologist, Dr. Lewis."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Thank you. The visibility of homelessness here is a direct result of failed housing policies."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Many residents believe addiction and mental health are the primary drivers. Is that accurate?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Those are aggravating factors, but the root cause is undeniably the severe lack of affordable housing."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "How did housing become so unaffordable in this specific city?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Gentrification displaced low-income families, and zoning laws prevented the construction of high-density apartments."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "What about emergency shelters? Cannot people stay there instead of on the streets?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Shelters are currently operating at maximum capacity, and many individuals feel unsafe in crowded shelter environments."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "What is the 'Housing First' approach that many advocates are demanding?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "It involves providing unconditional permanent housing to people before addressing issues like employment or addiction."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Critics say providing free housing is too expensive for the taxpayers."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Studies show that chronic homelessness costs taxpayers more in emergency medical and legal services than simply providing apartments."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "So, investing in housing actually saves municipal funds in the long run?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Exactly. It is a compassionate policy that also makes complete economic sense."
+      }
+    ],
+    "fullScript": "A: We are standing downtown, where tent cities have expanded. I am here with sociologist, Dr. Lewis.\nB: Thank you. The visibility of homelessness here is a direct result of failed housing policies.\nA: Many residents believe addiction and mental health are the primary drivers. Is that accurate?\nB: Those are aggravating factors, but the root cause is undeniably the severe lack of affordable housing.\nA: How did housing become so unaffordable in this specific city?\nB: Gentrification displaced low-income families, and zoning laws prevented the construction of high-density apartments.\nA: What about emergency shelters? Cannot people stay there instead of on the streets?\nB: Shelters are currently operating at maximum capacity, and many individuals feel unsafe in crowded shelter environments.\nA: What is the 'Housing First' approach that many advocates are demanding?\nB: It involves providing unconditional permanent housing to people before addressing issues like employment or addiction.\nA: Critics say providing free housing is too expensive for the taxpayers.\nB: Studies show that chronic homelessness costs taxpayers more in emergency medical and legal services than simply providing apartments.\nA: So, investing in housing actually saves municipal funds in the long run?\nB: Exactly. It is a compassionate policy that also makes complete economic sense.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "According to Dr. Lewis, what is the undeniable root cause of homelessness?",
+        "options": [
+          "Substance addiction",
+          "Mental health crises",
+          "A severe lack of affordable housing",
+          "A lack of available jobs"
+        ],
+        "answer": "A severe lack of affordable housing",
+        "explanation": "Dr. Lewis states the root cause is undeniably the severe lack of affordable housing."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why don't more homeless individuals stay in emergency shelters?",
+        "options": [
+          "Shelters charge a daily fee.",
+          "Shelters are at maximum capacity and often feel unsafe.",
+          "Shelters are located too far from downtown.",
+          "Shelters require individuals to have a job first."
+        ],
+        "answer": "Shelters are at maximum capacity and often feel unsafe.",
+        "explanation": "Dr. Lewis explains that shelters are at maximum capacity and many feel unsafe there."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What does the 'Housing First' approach prioritize?",
+        "options": [
+          "Providing medical treatment before housing",
+          "Ensuring employment before offering a lease",
+          "Providing unconditional permanent housing first",
+          "Building more emergency overnight shelters"
+        ],
+        "answer": "Providing unconditional permanent housing first",
+        "explanation": "The approach provides unconditional permanent housing before addressing other issues."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Dr. Lewis describes addiction and mental health as ___ factors rather than root causes.",
+        "answer": "aggravating",
+        "explanation": "She calls them 'aggravating factors'."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Gentrification displaced low-income families, and ___ laws prevented building high-density apartments.",
+        "answer": "zoning",
+        "explanation": "She mentions that zoning laws prevented the construction of high-density apartments."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Chronic homelessness costs more in emergency medical and ___ services.",
+        "answer": "legal",
+        "explanation": "She mentions costs in emergency medical and legal services."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Investing in housing is a compassionate policy that makes complete ___ sense.",
+        "answer": "economic",
+        "explanation": "She concludes that the policy makes complete economic sense."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the urban issue to its corresponding effect mentioned in the interview.",
+        "pairs": [
+          { "left": "Failed housing policies", "right": "Increased visibility of homelessness" },
+          { "left": "Gentrification", "right": "Displacement of low-income families" },
+          { "left": "Crowded shelter environments", "right": "Individuals feeling unsafe" },
+          { "left": "Chronic street homelessness", "right": "High costs for medical and legal services" }
+        ],
+        "answers": {
+          "Failed housing policies": "Increased visibility of homelessness",
+          "Gentrification": "Displacement of low-income families",
+          "Crowded shelter environments": "Individuals feeling unsafe",
+          "Chronic street homelessness": "High costs for medical and legal services"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the group of people to their viewpoint or situation.",
+        "pairs": [
+          { "left": "Many local residents", "right": "Believe addiction is the primary driver" },
+          { "left": "Housing advocates", "right": "Demand the 'Housing First' approach" },
+          { "left": "Critics of 'Housing First'", "right": "Argue that free housing is too expensive" }
+        ],
+        "answers": {
+          "Many local residents": "Believe addiction is the primary driver",
+          "Housing advocates": "Demand the 'Housing First' approach",
+          "Critics of 'Housing First'": "Argue that free housing is too expensive"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the term with its definition in the context of the documentary.",
+        "pairs": [
+          { "left": "High-density apartments", "right": "Housing construction blocked by zoning laws" },
+          { "left": "Unconditional housing", "right": "Apartments provided without employment prerequisites" },
+          { "left": "Municipal funds", "right": "City money saved by investing in long-term housing" }
+        ],
+        "answers": {
+          "High-density apartments": "Housing construction blocked by zoning laws",
+          "Unconditional housing": "Apartments provided without employment prerequisites",
+          "Municipal funds": "City money saved by investing in long-term housing"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b2_practice_06",
+    "type": "practice",
+    "cefrLevel": "B2",
+    "title": "Academic Lecture on Cognitive Biases",
+    "description": "A professor and a student discuss how cognitive biases affect daily decision making.",
+    "topic": "Academic lecture on cognitive biases",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Today we are looking at cognitive biases. Can anyone define confirmation bias for the class?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "It is our tendency to seek out information that supports our existing beliefs while ignoring opposing data."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Excellent. This bias is heavily amplified by social media algorithms today."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Because the algorithms show us content we already agree with to keep us engaged online?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Exactly. This creates an echo chamber. Another dangerous bias is the sunk cost fallacy."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Is that when you keep watching a terrible movie just because you already paid for the ticket?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Yes, it is the reluctance to abandon a strategy because you have already invested heavily in it, even when it's failing."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "How do these biases affect professionals like doctors or financial analysts?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Doctors might fixate on an initial diagnosis and ignore new symptoms. We call that anchoring bias."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "So the first piece of information you hear anchors your future judgment?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Precisely. Negotiators use anchoring all the time by starting with an extreme initial offer."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Is there any way to train our brains to completely avoid these cognitive biases?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "We cannot eliminate them entirely, as they are evolutionary shortcuts. But awareness helps us pause and reflect."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "So critical thinking requires deliberately slowing down our intuitive reactions."
+      }
+    ],
+    "fullScript": "A: Today we are looking at cognitive biases. Can anyone define confirmation bias for the class?\nB: It is our tendency to seek out information that supports our existing beliefs while ignoring opposing data.\nA: Excellent. This bias is heavily amplified by social media algorithms today.\nB: Because the algorithms show us content we already agree with to keep us engaged online?\nA: Exactly. This creates an echo chamber. Another dangerous bias is the sunk cost fallacy.\nB: Is that when you keep watching a terrible movie just because you already paid for the ticket?\nA: Yes, it is the reluctance to abandon a strategy because you have already invested heavily in it, even when it's failing.\nB: How do these biases affect professionals like doctors or financial analysts?\nA: Doctors might fixate on an initial diagnosis and ignore new symptoms. We call that anchoring bias.\nB: So the first piece of information you hear anchors your future judgment?\nA: Precisely. Negotiators use anchoring all the time by starting with an extreme initial offer.\nB: Is there any way to train our brains to completely avoid these cognitive biases?\nA: We cannot eliminate them entirely, as they are evolutionary shortcuts. But awareness helps us pause and reflect.\nB: So critical thinking requires deliberately slowing down our intuitive reactions.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What amplifies confirmation bias in modern society?",
+        "options": [
+          "Educational institutions",
+          "Social media algorithms",
+          "Financial regulations",
+          "Traditional newspapers"
+        ],
+        "answer": "Social media algorithms",
+        "explanation": "The professor states that confirmation bias is heavily amplified by social media algorithms."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Which bias involves refusing to abandon a failing strategy because of previous investments?",
+        "options": [
+          "Anchoring bias",
+          "Confirmation bias",
+          "The sunk cost fallacy",
+          "The echo chamber effect"
+        ],
+        "answer": "The sunk cost fallacy",
+        "explanation": "The sunk cost fallacy is defined as reluctance to abandon a strategy because you have already invested heavily in it."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How can people mitigate the effects of cognitive biases?",
+        "options": [
+          "By completely eliminating evolutionary shortcuts",
+          "By relying more on their intuition",
+          "By deliberately slowing down and reflecting",
+          "By using social media more frequently"
+        ],
+        "answer": "By deliberately slowing down and reflecting",
+        "explanation": "Awareness helps us pause and reflect, deliberately slowing down intuitive reactions."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Social media algorithms show us content we agree with to create an ___ chamber.",
+        "answer": "echo",
+        "explanation": "The professor notes this creates an echo chamber."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Doctors suffering from anchoring bias might fixate on an ___ diagnosis.",
+        "answer": "initial",
+        "explanation": "He mentions doctors fixating on an initial diagnosis."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Negotiators use anchoring by starting with an ___ initial offer.",
+        "answer": "extreme",
+        "explanation": "Negotiators use an extreme initial offer to anchor judgment."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Biases cannot be completely eliminated because they are ___ shortcuts.",
+        "answer": "evolutionary",
+        "explanation": "Biases are described as evolutionary shortcuts."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the cognitive bias to its practical example.",
+        "pairs": [
+          { "left": "Confirmation bias", "right": "Only reading news that matches your politics" },
+          { "left": "Sunk cost fallacy", "right": "Watching a bad movie because you paid for it" },
+          { "left": "Anchoring bias", "right": "A doctor ignoring new symptoms after diagnosing" }
+        ],
+        "answers": {
+          "Confirmation bias": "Only reading news that matches your politics",
+          "Sunk cost fallacy": "Watching a bad movie because you paid for it",
+          "Anchoring bias": "A doctor ignoring new symptoms after diagnosing"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the profession or tool to how it utilizes or experiences bias.",
+        "pairs": [
+          { "left": "Social media algorithms", "right": "Shows agreeable content to maintain engagement" },
+          { "left": "Negotiators", "right": "Starts with an extreme opening offer" },
+          { "left": "Doctors", "right": "Risks fixating on the first piece of medical data" }
+        ],
+        "answers": {
+          "Social media algorithms": "Shows agreeable content to maintain engagement",
+          "Negotiators": "Starts with an extreme opening offer",
+          "Doctors": "Risks fixating on the first piece of medical data"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the concept to its definition or consequence in the discussion.",
+        "pairs": [
+          { "left": "Echo chamber", "right": "An environment where only existing beliefs are reflected" },
+          { "left": "Awareness", "right": "The tool that helps us pause and reflect" },
+          { "left": "Intuitive reactions", "right": "Must be deliberately slowed down for critical thinking" }
+        ],
+        "answers": {
+          "Echo chamber": "An environment where only existing beliefs are reflected",
+          "Awareness": "The tool that helps us pause and reflect",
+          "Intuitive reactions": "Must be deliberately slowed down for critical thinking"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b2_practice_07",
+    "type": "practice",
+    "cefrLevel": "B2",
+    "title": "Radio Debate on Universal Basic Income",
+    "description": "Two speakers debate the feasibility and economic impact of Universal Basic Income.",
+    "topic": "Radio debate on universal basic income",
+    "estimatedMinutes": 19,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Welcome to 'Policy Matters'. Today we are debating Universal Basic Income, or UBI. Helen, you support it."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "I do. With artificial intelligence displacing millions of jobs, a guaranteed monthly income is a necessary safety net."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "But handing out free money removes the incentive to work. People might just drop out of the labor force."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Pilot programs show the opposite. People use the funds to go back to school or start small businesses."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "How do we fund such a massive program without causing crippling inflation?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "We would need to restructure the tax code, perhaps introducing a wealth tax or a value-added tax on tech companies."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Taxing corporations too heavily will just drive them overseas, harming the economy further."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "That is a valid concern, which is why international tax agreements are becoming so vital."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Would UBI replace existing welfare programs like food stamps and housing assistance?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Yes, consolidating those complex bureaucracies into one simple payment actually reduces administrative costs."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Some argue that a flat payment ignores the fact that disabled individuals have higher living costs."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "UBI is a foundation, not a ceiling. Supplemental programs for specific needs would still be required."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "It sounds like a massive economic experiment. Are voters ready for this shift?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Public opinion is shifting rapidly as job insecurity grows. The conversation is no longer theoretical."
+      }
+    ],
+    "fullScript": "A: Welcome to 'Policy Matters'. Today we are debating Universal Basic Income, or UBI. Helen, you support it.\nB: I do. With artificial intelligence displacing millions of jobs, a guaranteed monthly income is a necessary safety net.\nA: But handing out free money removes the incentive to work. People might just drop out of the labor force.\nB: Pilot programs show the opposite. People use the funds to go back to school or start small businesses.\nA: How do we fund such a massive program without causing crippling inflation?\nB: We would need to restructure the tax code, perhaps introducing a wealth tax or a value-added tax on tech companies.\nA: Taxing corporations too heavily will just drive them overseas, harming the economy further.\nB: That is a valid concern, which is why international tax agreements are becoming so vital.\nA: Would UBI replace existing welfare programs like food stamps and housing assistance?\nB: Yes, consolidating those complex bureaucracies into one simple payment actually reduces administrative costs.\nA: Some argue that a flat payment ignores the fact that disabled individuals have higher living costs.\nB: UBI is a foundation, not a ceiling. Supplemental programs for specific needs would still be required.\nA: It sounds like a massive economic experiment. Are voters ready for this shift?\nB: Public opinion is shifting rapidly as job insecurity grows. The conversation is no longer theoretical.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What does Helen identify as the primary reason a guaranteed monthly income is needed now?",
+        "options": [
+          "Rising healthcare costs",
+          "Artificial intelligence displacing jobs",
+          "A decline in international trade",
+          "The failure of current banks"
+        ],
+        "answer": "Artificial intelligence displacing jobs",
+        "explanation": "Helen states that with AI displacing millions of jobs, a guaranteed income is a necessary safety net."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "According to Helen, what do pilot programs show people do with UBI funds?",
+        "options": [
+          "They drop out of the labor force immediately.",
+          "They invest exclusively in the stock market.",
+          "They use the funds to return to school or start businesses.",
+          "They travel extensively abroad."
+        ],
+        "answer": "They use the funds to return to school or start businesses.",
+        "explanation": "Helen mentions that pilot programs show people using funds to go back to school or start small businesses."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why does Helen believe replacing existing welfare with UBI is beneficial?",
+        "options": [
+          "It forces people to move to cheaper cities.",
+          "It reduces administrative costs by consolidating bureaucracies.",
+          "It allows the government to track spending.",
+          "It completely eliminates the need for any taxes."
+        ],
+        "answer": "It reduces administrative costs by consolidating bureaucracies.",
+        "explanation": "Consolidating bureaucracies into one payment reduces administrative costs."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The host expresses concern that free money removes the ___ to work.",
+        "answer": "incentive",
+        "explanation": "The host says handing out money removes the incentive to work."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Funding UBI might require a ___ tax on tech companies.",
+        "answer": "value-added",
+        "explanation": "Helen suggests a value-added tax on tech companies."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Taxing corporations too heavily might drive them ___.",
+        "answer": "overseas",
+        "explanation": "The host argues taxing them will drive them overseas."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Helen clarifies that UBI is a foundation, not a ___, for people with higher living costs.",
+        "answer": "ceiling",
+        "explanation": "She states UBI is a foundation, not a ceiling."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the argument to the speaker who presented it.",
+        "pairs": [
+          { "left": "UBI provides a necessary safety net", "right": "Helen (Pro-UBI)" },
+          { "left": "UBI might cause crippling inflation", "right": "Host (Skeptical)" },
+          { "left": "International tax agreements are vital", "right": "Helen (Pro-UBI)" },
+          { "left": "Disabled individuals have higher costs", "right": "Host (Skeptical)" }
+        ],
+        "answers": {
+          "UBI provides a necessary safety net": "Helen (Pro-UBI)",
+          "UBI might cause crippling inflation": "Host (Skeptical)",
+          "International tax agreements are vital": "Helen (Pro-UBI)",
+          "Disabled individuals have higher costs": "Host (Skeptical)"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the proposed funding mechanism to its intended target.",
+        "pairs": [
+          { "left": "Value-added tax", "right": "Tech companies" },
+          { "left": "Consolidating bureaucracies", "right": "Reducing administrative costs" },
+          { "left": "International tax agreements", "right": "Preventing corporations from moving overseas" }
+        ],
+        "answers": {
+          "Value-added tax": "Tech companies",
+          "Consolidating bureaucracies": "Reducing administrative costs",
+          "International tax agreements": "Preventing corporations from moving overseas"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the societal factor with its effect on the UBI debate.",
+        "pairs": [
+          { "left": "Artificial intelligence", "right": "Displaces millions of jobs" },
+          { "left": "Pilot programs", "right": "Show positive economic behavior from recipients" },
+          { "left": "Growing job insecurity", "right": "Rapidly shifting public opinion" }
+        ],
+        "answers": {
+          "Artificial intelligence": "Displaces millions of jobs",
+          "Pilot programs": "Show positive economic behavior from recipients",
+          "Growing job insecurity": "Rapidly shifting public opinion"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b2_practice_08",
+    "type": "practice",
+    "cefrLevel": "B2",
+    "title": "Interview with a Social Entrepreneur",
+    "description": "A founder discusses the challenges of balancing profit with social impact.",
+    "topic": "Interview with a social entrepreneur",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Welcome to our innovation segment. Today we are speaking with Leo, founder of CleanWater Tech."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Thank you. Our mission is to provide affordable water filtration systems to rural communities."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Social enterprises face a unique challenge. How do you balance social impact with profitability?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "It requires a dual bottom line. We have to be financially sustainable to ensure our social mission can scale up."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Do traditional investors hesitate to fund a company that prioritizes impact over maximum profit?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Initially, yes. But the landscape is changing. Impact investing is growing rapidly as investors want ethical portfolios."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "How do you measure success if revenue is not your only metric?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "We track health outcomes. Specifically, we measure the reduction of waterborne diseases in the villages we serve."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What is the biggest operational hurdle your company faces on the ground?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Supply chain logistics. Delivering fragile filtration units to remote areas with poor road infrastructure is incredibly difficult."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Have you considered partnering with local governments to help with distribution?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "We do, but bureaucratic red tape often slows down the deployment. We prefer partnering with local NGOs."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What advice would you give to young entrepreneurs wanting to start a social enterprise?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Fall in love with the problem, not your initial solution. You have to be flexible and iterate based on community feedback."
+      }
+    ],
+    "fullScript": "A: Welcome to our innovation segment. Today we are speaking with Leo, founder of CleanWater Tech.\nB: Thank you. Our mission is to provide affordable water filtration systems to rural communities.\nA: Social enterprises face a unique challenge. How do you balance social impact with profitability?\nB: It requires a dual bottom line. We have to be financially sustainable to ensure our social mission can scale up.\nA: Do traditional investors hesitate to fund a company that prioritizes impact over maximum profit?\nB: Initially, yes. But the landscape is changing. Impact investing is growing rapidly as investors want ethical portfolios.\nA: How do you measure success if revenue is not your only metric?\nB: We track health outcomes. Specifically, we measure the reduction of waterborne diseases in the villages we serve.\nA: What is the biggest operational hurdle your company faces on the ground?\nB: Supply chain logistics. Delivering fragile filtration units to remote areas with poor road infrastructure is incredibly difficult.\nA: Have you considered partnering with local governments to help with distribution?\nB: We do, but bureaucratic red tape often slows down the deployment. We prefer partnering with local NGOs.\nA: What advice would you give to young entrepreneurs wanting to start a social enterprise?\nB: Fall in love with the problem, not your initial solution. You have to be flexible and iterate based on community feedback.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What does Leo's company, CleanWater Tech, primarily do?",
+        "options": [
+          "Builds dams for local governments",
+          "Provides affordable water filtration to rural communities",
+          "Sells bottled water in urban centers",
+          "Develops software for tracking ocean pollution"
+        ],
+        "answer": "Provides affordable water filtration to rural communities",
+        "explanation": "Leo states their mission is to provide affordable water filtration systems to rural communities."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How does CleanWater Tech measure its non-financial success?",
+        "options": [
+          "By counting the number of social media followers",
+          "By tracking the reduction of waterborne diseases",
+          "By monitoring the total volume of water filtered",
+          "By surveying customer satisfaction in urban areas"
+        ],
+        "answer": "By tracking the reduction of waterborne diseases",
+        "explanation": "Leo says they measure the reduction of waterborne diseases in the villages."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why does Leo prefer partnering with local NGOs over local governments?",
+        "options": [
+          "NGOs provide better financial grants.",
+          "Local governments often create bureaucratic red tape.",
+          "NGOs have a global supply chain network.",
+          "Governments do not care about water quality."
+        ],
+        "answer": "Local governments often create bureaucratic red tape.",
+        "explanation": "Leo mentions that bureaucratic red tape from governments often slows down deployment."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Balancing social impact with profitability requires a ___ bottom line.",
+        "answer": "dual",
+        "explanation": "Leo says it requires a 'dual bottom line'."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Impact investing is growing because investors want ___ portfolios.",
+        "answer": "ethical",
+        "explanation": "Investors want ethical portfolios, driving impact investing."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Delivering units to remote areas with poor ___ infrastructure is difficult.",
+        "answer": "road",
+        "explanation": "He cites poor road infrastructure as a hurdle."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Entrepreneurs should fall in love with the ___, not their initial solution.",
+        "answer": "problem",
+        "explanation": "Leo advises falling in love with the problem."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the stakeholder to their described action or preference.",
+        "pairs": [
+          { "left": "Traditional investors", "right": "Used to hesitate funding impact-first companies" },
+          { "left": "Local NGOs", "right": "Preferred partners for distribution" },
+          { "left": "Young entrepreneurs", "right": "Advised to iterate based on feedback" },
+          { "left": "Rural communities", "right": "Recipients of the filtration systems" }
+        ],
+        "answers": {
+          "Traditional investors": "Used to hesitate funding impact-first companies",
+          "Local NGOs": "Preferred partners for distribution",
+          "Young entrepreneurs": "Advised to iterate based on feedback",
+          "Rural communities": "Recipients of the filtration systems"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the challenge to its corresponding business aspect.",
+        "pairs": [
+          { "left": "Balancing impact and profit", "right": "Dual bottom line" },
+          { "left": "Measuring non-financial success", "right": "Tracking health outcomes" },
+          { "left": "Overcoming operational hurdles", "right": "Supply chain logistics" }
+        ],
+        "answers": {
+          "Balancing impact and profit": "Dual bottom line",
+          "Measuring non-financial success": "Tracking health outcomes",
+          "Overcoming operational hurdles": "Supply chain logistics"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the phrase with its underlying meaning in the context of the interview.",
+        "pairs": [
+          { "left": "Financial sustainability", "right": "Making enough money to scale the mission" },
+          { "left": "Bureaucratic red tape", "right": "Administrative delays caused by governments" },
+          { "left": "Iterate based on feedback", "right": "Being flexible and changing the solution" }
+        ],
+        "answers": {
+          "Financial sustainability": "Making enough money to scale the mission",
+          "Bureaucratic red tape": "Administrative delays caused by governments",
+          "Iterate based on feedback": "Being flexible and changing the solution"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b2_practice_09",
+    "type": "practice",
+    "cefrLevel": "B2",
+    "title": "Discussion on Data Privacy",
+    "description": "Two tech experts debate the ethics of data harvesting and surveillance capitalism.",
+    "topic": "Discussion on data privacy and surveillance",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Every time we download a free app, we are paying with our personal data. Is this a fair trade?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Consumers consent to the terms of service. Therefore, they are agreeing to exchange data for convenience."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "But those agreements are deliberately confusing. Nobody actually reads a fifty-page legal document."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "That may be true, but targeted advertising allows small businesses to reach audiences they otherwise could not."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "It goes beyond advertising. This surveillance capitalism is used to predict and manipulate consumer behavior."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "I think manipulate is a strong word. Recommendation algorithms just show people what they already like."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What about data breaches? Companies hoard massive databases, making them prime targets for hackers."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Cybersecurity is improving. And legislation like GDPR in Europe has forced companies to be more transparent."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "GDPR is a start, but many tech giants still find loopholes to track users across different websites."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "If users want total privacy, they can use encrypted browsers and opt out of cookie tracking."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Opting out shouldn't be a tedious process. Privacy should be the default setting, not a premium feature."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "If privacy is default, the internet will stop being free. Users will have to pay subscriptions for search engines."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Many argue they would rather pay a small fee than have their psychological profiles sold to third parties."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "We will see if the market actually supports that model in the coming years."
+      }
+    ],
+    "fullScript": "A: Every time we download a free app, we are paying with our personal data. Is this a fair trade?\nB: Consumers consent to the terms of service. Therefore, they are agreeing to exchange data for convenience.\nA: But those agreements are deliberately confusing. Nobody actually reads a fifty-page legal document.\nB: That may be true, but targeted advertising allows small businesses to reach audiences they otherwise could not.\nA: It goes beyond advertising. This surveillance capitalism is used to predict and manipulate consumer behavior.\nB: I think manipulate is a strong word. Recommendation algorithms just show people what they already like.\nA: What about data breaches? Companies hoard massive databases, making them prime targets for hackers.\nB: Cybersecurity is improving. And legislation like GDPR in Europe has forced companies to be more transparent.\nA: GDPR is a start, but many tech giants still find loopholes to track users across different websites.\nB: If users want total privacy, they can use encrypted browsers and opt out of cookie tracking.\nA: Opting out shouldn't be a tedious process. Privacy should be the default setting, not a premium feature.\nB: If privacy is default, the internet will stop being free. Users will have to pay subscriptions for search engines.\nA: Many argue they would rather pay a small fee than have their psychological profiles sold to third parties.\nB: We will see if the market actually supports that model in the coming years.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is Speaker B's argument regarding terms of service agreements?",
+        "options": [
+          "They are too long and need to be shortened.",
+          "Consumers consent to them, agreeing to the data exchange.",
+          "They are illegal under new European laws.",
+          "Companies should stop using them entirely."
+        ],
+        "answer": "Consumers consent to them, agreeing to the data exchange.",
+        "explanation": "Speaker B argues that because consumers consent, they agree to exchange data for convenience."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is one positive aspect of targeted advertising mentioned by Speaker B?",
+        "options": [
+          "It eliminates the need for terms of service.",
+          "It completely prevents data breaches.",
+          "It allows small businesses to reach new audiences.",
+          "It makes the internet run significantly faster."
+        ],
+        "answer": "It allows small businesses to reach new audiences.",
+        "explanation": "Targeted advertising allows small businesses to reach audiences they otherwise could not."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What does Speaker B predict will happen if privacy becomes the default setting?",
+        "options": [
+          "Cybersecurity threats will increase.",
+          "The internet will stop being free.",
+          "Tech giants will immediately go bankrupt.",
+          "Recommendation algorithms will become more accurate."
+        ],
+        "answer": "The internet will stop being free.",
+        "explanation": "Speaker B asserts that if privacy is default, users will have to pay subscriptions for search engines."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker A claims that terms of service agreements are deliberately ___.",
+        "answer": "confusing",
+        "explanation": "Speaker A describes the agreements as deliberately confusing."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Surveillance capitalism is used to predict and ___ consumer behavior.",
+        "answer": "manipulate",
+        "explanation": "Speaker A claims it is used to predict and manipulate behavior."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Legislation like GDPR has forced companies to be more ___.",
+        "answer": "transparent",
+        "explanation": "Speaker B says GDPR forced companies to be more transparent."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker A argues privacy should be the default setting, not a ___ feature.",
+        "answer": "premium",
+        "explanation": "Speaker A says privacy shouldn't be a premium feature."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the proposed solution or action to its corresponding context.",
+        "pairs": [
+          { "left": "Using encrypted browsers", "right": "For users wanting total privacy" },
+          { "left": "Paying a subscription fee", "right": "Alternative to having profiles sold" },
+          { "left": "Implementing GDPR", "right": "Forces transparency but has loopholes" },
+          { "left": "Hoarding massive databases", "right": "Creates prime targets for hackers" }
+        ],
+        "answers": {
+          "Using encrypted browsers": "For users wanting total privacy",
+          "Paying a subscription fee": "Alternative to having profiles sold",
+          "Implementing GDPR": "Forces transparency but has loopholes",
+          "Hoarding massive databases": "Creates prime targets for hackers"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the speaker's viewpoint to the concept of data usage.",
+        "pairs": [
+          { "left": "Speaker A's view on algorithms", "right": "Used to manipulate behavior" },
+          { "left": "Speaker B's view on algorithms", "right": "Shows people what they already like" },
+          { "left": "Speaker A's view on consent", "right": "Agreements are too long to read" }
+        ],
+        "answers": {
+          "Speaker A's view on algorithms": "Used to manipulate behavior",
+          "Speaker B's view on algorithms": "Shows people what they already like",
+          "Speaker A's view on consent": "Agreements are too long to read"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the technology term to its description in the dialogue.",
+        "pairs": [
+          { "left": "Cookie tracking", "right": "A tracking method users can opt out of" },
+          { "left": "Psychological profiles", "right": "Data sold to third parties" },
+          { "left": "Recommendation algorithms", "right": "Systems suggesting content to users" }
+        ],
+        "answers": {
+          "Cookie tracking": "A tracking method users can opt out of",
+          "Psychological profiles": "Data sold to third parties",
+          "Recommendation algorithms": "Systems suggesting content to users"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b2_practice_10",
+    "type": "practice",
+    "cefrLevel": "B2",
+    "title": "Psychology of Procrastination",
+    "description": "A psychologist explains why we procrastinate and how to overcome it.",
+    "topic": "Podcast about the psychology of procrastination",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Welcome back. Today we are unpacking procrastination with psychologist, Dr. Aris."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Hello. It is a common misconception that procrastination is simply a time management issue."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "If it is not about time management, what is the root cause?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "It is an emotional regulation problem. We avoid tasks that provoke negative emotions like anxiety or boredom."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "So we distract ourselves with social media to temporarily escape those negative feelings?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Exactly. Your brain prefers the short-term mood repair of watching a video over tackling a stressful project."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "But eventually, the deadline approaches, and the stress comes back even worse."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Yes, we call that the procrastination cycle. The guilt and panic compound the original anxiety."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "How can we break this cycle? Are strict schedules the answer?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Schedules help, but self-compassion is surprisingly more effective. Forgiving yourself for delaying reduces the guilt."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "That sounds counterintuitive. Doesn't forgiving yourself encourage you to keep delaying?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Research shows the opposite. Reducing the emotional burden makes it easier to start the task."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What is a practical first step someone can take right now?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Lower your expectations. Tell yourself you will work on the dreaded task for just five minutes."
+      }
+    ],
+    "fullScript": "A: Welcome back. Today we are unpacking procrastination with psychologist, Dr. Aris.\nB: Hello. It is a common misconception that procrastination is simply a time management issue.\nA: If it is not about time management, what is the root cause?\nB: It is an emotional regulation problem. We avoid tasks that provoke negative emotions like anxiety or boredom.\nA: So we distract ourselves with social media to temporarily escape those negative feelings?\nB: Exactly. Your brain prefers the short-term mood repair of watching a video over tackling a stressful project.\nA: But eventually, the deadline approaches, and the stress comes back even worse.\nB: Yes, we call that the procrastination cycle. The guilt and panic compound the original anxiety.\nA: How can we break this cycle? Are strict schedules the answer?\nB: Schedules help, but self-compassion is surprisingly more effective. Forgiving yourself for delaying reduces the guilt.\nA: That sounds counterintuitive. Doesn't forgiving yourself encourage you to keep delaying?\nB: Research shows the opposite. Reducing the emotional burden makes it easier to start the task.\nA: What is a practical first step someone can take right now?\nB: Lower your expectations. Tell yourself you will work on the dreaded task for just five minutes.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is a common misconception about procrastination according to Dr. Aris?",
+        "options": [
+          "It is related to emotional trauma.",
+          "It is purely a time management issue.",
+          "It only affects college students.",
+          "It is caused by physical exhaustion."
+        ],
+        "answer": "It is purely a time management issue.",
+        "explanation": "Dr. Aris states it is a common misconception that procrastination is simply a time management issue."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the actual root cause of procrastination?",
+        "options": [
+          "A lack of organizational software",
+          "An emotional regulation problem",
+          "Too many strict deadlines",
+          "A poor working environment"
+        ],
+        "answer": "An emotional regulation problem",
+        "explanation": "Dr. Aris explains that procrastination is actually an emotional regulation problem."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What strategy does Dr. Aris suggest is surprisingly effective at breaking the cycle?",
+        "options": [
+          "Drinking more caffeine",
+          "Creating extremely strict schedules",
+          "Practicing self-compassion",
+          "Ignoring the deadline entirely"
+        ],
+        "answer": "Practicing self-compassion",
+        "explanation": "He mentions that self-compassion, like forgiving yourself for delaying, is surprisingly effective."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "People avoid tasks that provoke negative emotions like ___ or boredom.",
+        "answer": "anxiety",
+        "explanation": "Dr. Aris specifies negative emotions like anxiety or boredom."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Your brain prefers the short-term mood ___ of watching a video.",
+        "answer": "repair",
+        "explanation": "He refers to the short-term mood repair."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "In the procrastination cycle, the guilt and ___ compound the original anxiety.",
+        "answer": "panic",
+        "explanation": "He says guilt and panic compound the anxiety."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "A practical first step is to ___ your expectations and work for just five minutes.",
+        "answer": "lower",
+        "explanation": "He advises to lower your expectations as a first step."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the action or feeling with its role in procrastination.",
+        "pairs": [
+          { "left": "Distracting with social media", "right": "Temporarily escapes negative feelings" },
+          { "left": "Approaching deadline", "right": "Brings the stress back worse" },
+          { "left": "Forgiving yourself", "right": "Reduces the feeling of guilt" },
+          { "left": "Working for five minutes", "right": "A practical first step to start" }
+        ],
+        "answers": {
+          "Distracting with social media": "Temporarily escapes negative feelings",
+          "Approaching deadline": "Brings the stress back worse",
+          "Forgiving yourself": "Reduces the feeling of guilt",
+          "Working for five minutes": "A practical first step to start"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the term to its explanation in the podcast.",
+        "pairs": [
+          { "left": "Procrastination cycle", "right": "When panic and guilt compound the original stress" },
+          { "left": "Emotional regulation", "right": "The actual psychological core of procrastination" },
+          { "left": "Time management", "right": "What people falsely assume is the main problem" }
+        ],
+        "answers": {
+          "Procrastination cycle": "When panic and guilt compound the original stress",
+          "Emotional regulation": "The actual psychological core of procrastination",
+          "Time management": "What people falsely assume is the main problem"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the cause to its psychological effect.",
+        "pairs": [
+          { "left": "Tackling a stressful project", "right": "Provokes anxiety" },
+          { "left": "Watching a video", "right": "Provides short-term mood repair" },
+          { "left": "Reducing emotional burden", "right": "Makes it easier to start the task" }
+        ],
+        "answers": {
+          "Tackling a stressful project": "Provokes anxiety",
+          "Watching a video": "Provides short-term mood repair",
+          "Reducing emotional burden": "Makes it easier to start the task"
+        }
+      }
+    ]
+  }
+]

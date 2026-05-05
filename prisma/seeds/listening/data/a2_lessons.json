@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "a2_lesson_01",
+    "title": "Planning a Holiday Trip",
+    "topic": "travel",
+    "description": "Two friends plan a summer holiday",
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "I'm thinking about visiting Italy this summer. Have you been there?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Yes, I went to Rome last year. It was amazing!"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What's the best time to visit?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "I recommend going in May or September. It's less crowded and not too hot."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "How long did you stay?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Ten days. I visited Rome, Florence, and Venice."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "That sounds wonderful. How much did you spend?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "About fifteen hundred dollars including flights and accommodation."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Where did Speaker B visit last year?",
+        "options": [
+          "Paris",
+          "Rome",
+          "Berlin",
+          "Madrid"
+        ],
+        "answer": "Rome"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "When does Speaker B recommend visiting?",
+        "options": [
+          "January or February",
+          "May or September",
+          "July or August",
+          "November or December"
+        ],
+        "answer": "May or September"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B stayed for ___ days.",
+        "answer": "ten"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The trip cost about fifteen hundred ___.",
+        "answer": "dollars"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match cities with their country.",
+        "pairs": [
+          {
+            "left": "Rome",
+            "right": "Italy"
+          },
+          {
+            "left": "Florence",
+            "right": "Italy"
+          },
+          {
+            "left": "Venice",
+            "right": "Italy"
+          }
+        ],
+        "answers": {
+          "Rome": "Italy",
+          "Florence": "Italy",
+          "Venice": "Italy"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "A2",
+    "fullScript": "A: I'm thinking about visiting Italy this summer. Have you been there?\nB: Yes, I went to Rome last year. It was amazing!\nA: What's the best time to visit?\nB: I recommend going in May or September. It's less crowded and not too hot.\nA: How long did you stay?\nB: Ten days. I visited Rome, Florence, and Venice.\nA: That sounds wonderful. How much did you spend?\nB: About fifteen hundred dollars including flights and accommodation."
+  },
+  {
+    "id": "a2_lesson_02",
+    "title": "At the Restaurant — Complaining",
+    "topic": "food",
+    "description": "A customer complains about food at a restaurant",
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Excuse me, I ordered the steak but this is chicken."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Oh, I'm very sorry about that. Let me fix that for you."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Also, my soup is cold. It should be hot."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "I apologize. I'll bring you a new soup immediately."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "And my friend is still waiting for her salad. It's been thirty minutes."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "I'm so sorry for the delay. I'll speak to the kitchen right away."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Thank you. We'd also like some more bread please."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Of course. And your meal tonight is on the house. No charge."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What did the man order?",
+        "options": [
+          "Chicken",
+          "Fish",
+          "Steak",
+          "Pasta"
+        ],
+        "answer": "Steak"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is wrong with the soup?",
+        "options": [
+          "It's too salty",
+          "It's cold",
+          "It's the wrong soup",
+          "It's too small"
+        ],
+        "answer": "It's cold"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The friend has been waiting for ___ minutes.",
+        "answer": "thirty"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The waiter says the meal is on the ___.",
+        "answer": "house"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each problem with the solution.",
+        "pairs": [
+          {
+            "left": "Wrong dish",
+            "right": "New steak"
+          },
+          {
+            "left": "Cold soup",
+            "right": "New soup"
+          },
+          {
+            "left": "Waiting friend",
+            "right": "Speak to kitchen"
+          },
+          {
+            "left": "Bread request",
+            "right": "Bring more bread"
+          }
+        ],
+        "answers": {
+          "Wrong dish": "New steak",
+          "Cold soup": "New soup",
+          "Waiting friend": "Speak to kitchen",
+          "Bread request": "Bring more bread"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "A2",
+    "fullScript": "A: Excuse me, I ordered the steak but this is chicken.\nB: Oh, I'm very sorry about that. Let me fix that for you.\nA: Also, my soup is cold. It should be hot.\nB: I apologize. I'll bring you a new soup immediately.\nA: And my friend is still waiting for her salad. It's been thirty minutes.\nB: I'm so sorry for the delay. I'll speak to the kitchen right away.\nA: Thank you. We'd also like some more bread please.\nB: Of course. And your meal tonight is on the house. No charge."
+  },
+  {
+    "id": "a2_lesson_03",
+    "title": "A Job Interview",
+    "topic": "work",
+    "description": "A candidate attends a job interview",
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Good morning. Please sit down. Tell me about yourself."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "I'm David Park. I'm twenty-five years old and I studied business at university."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What experience do you have?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "I worked at a marketing company for two years. I also speak Spanish and French."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Why do you want to work here?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Your company has a great reputation and I love the work you do."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What are your weaknesses?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Sometimes I work too hard! But seriously, I'm learning to delegate better."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the candidate's name?",
+        "options": [
+          "James Park",
+          "David Park",
+          "Michael Park",
+          "Kevin Park"
+        ],
+        "answer": "David Park"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What did he study at university?",
+        "options": [
+          "Law",
+          "Medicine",
+          "Business",
+          "Engineering"
+        ],
+        "answer": "Business"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "He worked at a marketing company for ___ years.",
+        "answer": "two"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "He speaks Spanish and ___.",
+        "answer": "French"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match interview questions with answers.",
+        "pairs": [
+          {
+            "left": "Age",
+            "right": "25"
+          },
+          {
+            "left": "Experience",
+            "right": "2 years marketing"
+          },
+          {
+            "left": "Languages",
+            "right": "Spanish and French"
+          },
+          {
+            "left": "Weakness",
+            "right": "Learning to delegate"
+          }
+        ],
+        "answers": {
+          "Age": "25",
+          "Experience": "2 years marketing",
+          "Languages": "Spanish and French",
+          "Weakness": "Learning to delegate"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "A2",
+    "fullScript": "A: Good morning. Please sit down. Tell me about yourself.\nB: I'm David Park. I'm twenty-five years old and I studied business at university.\nA: What experience do you have?\nB: I worked at a marketing company for two years. I also speak Spanish and French.\nA: Why do you want to work here?\nB: Your company has a great reputation and I love the work you do.\nA: What are your weaknesses?\nB: Sometimes I work too hard! But seriously, I'm learning to delegate better."
+  },
+  {
+    "id": "a2_lesson_04",
+    "title": "Talking About Hobbies",
+    "topic": "leisure",
+    "description": "Two colleagues discuss their hobbies",
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "What do you usually do in your free time?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "I love photography. I take photos every weekend."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "That's interesting! What kind of photos do you take?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Mostly nature and street photography. I have a blog with five hundred followers."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Impressive! How long have you been doing photography?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "For about three years. I started after I bought my first camera."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Do you have any other hobbies?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Yes, I also enjoy cooking. I try a new recipe every week."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the woman's main hobby?",
+        "options": [
+          "Painting",
+          "Photography",
+          "Cooking",
+          "Writing"
+        ],
+        "answer": "Photography"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How many followers does her blog have?",
+        "options": [
+          "50",
+          "150",
+          "500",
+          "5000"
+        ],
+        "answer": "500"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "She has been doing photography for ___ years.",
+        "answer": "three"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "She tries a new ___ every week.",
+        "answer": "recipe"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match hobby with activity.",
+        "pairs": [
+          {
+            "left": "Photography",
+            "right": "Takes nature and street photos"
+          },
+          {
+            "left": "Cooking",
+            "right": "Tries new recipes weekly"
+          },
+          {
+            "left": "Blog",
+            "right": "500 followers"
+          },
+          {
+            "left": "Started",
+            "right": "After buying first camera"
+          }
+        ],
+        "answers": {
+          "Photography": "Takes nature and street photos",
+          "Cooking": "Tries new recipes weekly",
+          "Blog": "500 followers",
+          "Started": "After buying first camera"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "A2",
+    "fullScript": "A: What do you usually do in your free time?\nB: I love photography. I take photos every weekend.\nA: That's interesting! What kind of photos do you take?\nB: Mostly nature and street photography. I have a blog with five hundred followers.\nA: Impressive! How long have you been doing photography?\nB: For about three years. I started after I bought my first camera.\nA: Do you have any other hobbies?\nB: Yes, I also enjoy cooking. I try a new recipe every week."
+  },
+  {
+    "id": "a2_lesson_05",
+    "title": "Health and Exercise",
+    "topic": "health",
+    "description": "A doctor talks to a patient about exercise habits",
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "How often do you exercise, Mr. Chen?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Not very often, doctor. Maybe once or twice a week."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What kind of exercise do you do?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Usually walking. Sometimes I go swimming on weekends."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "I recommend at least thirty minutes of exercise five times a week."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "That sounds like a lot. What kind do you suggest?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Cycling is excellent. It's easy on the joints and very effective."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "OK, I'll try to cycle to work. It's only four kilometers."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "How often does Mr. Chen exercise now?",
+        "options": [
+          "Every day",
+          "3-4 times a week",
+          "Once or twice a week",
+          "Never"
+        ],
+        "answer": "Once or twice a week"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What exercise does the doctor recommend?",
+        "options": [
+          "Running",
+          "Swimming",
+          "Cycling",
+          "Yoga"
+        ],
+        "answer": "Cycling"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The doctor recommends ___ minutes of exercise.",
+        "answer": "thirty"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Mr. Chen's workplace is ___ kilometers away.",
+        "answer": "four"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match exercise type with description.",
+        "pairs": [
+          {
+            "left": "Walking",
+            "right": "Current exercise"
+          },
+          {
+            "left": "Swimming",
+            "right": "Weekend exercise"
+          },
+          {
+            "left": "Cycling",
+            "right": "Doctor's recommendation"
+          },
+          {
+            "left": "5 times/week",
+            "right": "Recommended frequency"
+          }
+        ],
+        "answers": {
+          "Walking": "Current exercise",
+          "Swimming": "Weekend exercise",
+          "Cycling": "Doctor's recommendation",
+          "5 times/week": "Recommended frequency"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "A2",
+    "fullScript": "A: How often do you exercise, Mr. Chen?\nB: Not very often, doctor. Maybe once or twice a week.\nA: What kind of exercise do you do?\nB: Usually walking. Sometimes I go swimming on weekends.\nA: I recommend at least thirty minutes of exercise five times a week.\nB: That sounds like a lot. What kind do you suggest?\nA: Cycling is excellent. It's easy on the joints and very effective.\nB: OK, I'll try to cycle to work. It's only four kilometers."
+  },
+  {
+    "id": "a2_lesson_06",
+    "title": "Using Public Transport",
+    "topic": "transport",
+    "description": "A tourist asks about public transport options",
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Excuse me. I need to get to the airport. What's the best way?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "You can take the train or the bus. The train is faster."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "How long does the train take?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "About thirty minutes. The bus takes over an hour in traffic."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Where do I catch the train?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Central Station, just two blocks from here. Take the yellow line."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "How much is the ticket?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Twelve dollars one way. You can buy it at the ticket machine."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the faster option to the airport?",
+        "options": [
+          "Bus",
+          "Taxi",
+          "Train",
+          "Subway"
+        ],
+        "answer": "Train"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How far is Central Station?",
+        "options": [
+          "One block",
+          "Two blocks",
+          "Three blocks",
+          "Five blocks"
+        ],
+        "answer": "Two blocks"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The train journey takes ___ minutes.",
+        "answer": "thirty"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The one-way ticket costs ___ dollars.",
+        "answer": "twelve"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match transport details.",
+        "pairs": [
+          {
+            "left": "Train time",
+            "right": "30 minutes"
+          },
+          {
+            "left": "Bus time",
+            "right": "Over 1 hour"
+          },
+          {
+            "left": "Train line",
+            "right": "Yellow line"
+          },
+          {
+            "left": "Ticket cost",
+            "right": "$12"
+          }
+        ],
+        "answers": {
+          "Train time": "30 minutes",
+          "Bus time": "Over 1 hour",
+          "Train line": "Yellow line",
+          "Ticket cost": "$12"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "A2",
+    "fullScript": "A: Excuse me. I need to get to the airport. What's the best way?\nB: You can take the train or the bus. The train is faster.\nA: How long does the train take?\nB: About thirty minutes. The bus takes over an hour in traffic.\nA: Where do I catch the train?\nB: Central Station, just two blocks from here. Take the yellow line.\nA: How much is the ticket?\nB: Twelve dollars one way. You can buy it at the ticket machine."
+  },
+  {
+    "id": "a2_lesson_07",
+    "title": "Making an Appointment",
+    "topic": "services",
+    "description": "A patient calls to make a doctor's appointment",
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Good afternoon, Dr. Smith's office. How can I help?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Hello, I'd like to make an appointment to see Dr. Smith."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Is this for a regular check-up or is it urgent?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "It's not urgent. I've had a cough for two weeks."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "I see. We have an opening on Thursday at three o'clock."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Is there anything earlier? I prefer mornings."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Tuesday at nine thirty is available."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Perfect. My name is Robert Green. Can you text me a reminder?"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the doctor's name?",
+        "options": [
+          "Dr. Jones",
+          "Dr. Brown",
+          "Dr. Smith",
+          "Dr. White"
+        ],
+        "answer": "Dr. Smith"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Which appointment does the patient choose?",
+        "options": [
+          "Thursday at 3pm",
+          "Friday at 9am",
+          "Tuesday at 9:30am",
+          "Wednesday at 2pm"
+        ],
+        "answer": "Tuesday at 9:30am"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The patient has had a cough for ___ weeks.",
+        "answer": "two"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The patient's name is Robert ___.",
+        "answer": "Green"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match appointment details.",
+        "pairs": [
+          {
+            "left": "Thursday option",
+            "right": "3:00 PM"
+          },
+          {
+            "left": "Tuesday option",
+            "right": "9:30 AM"
+          },
+          {
+            "left": "Symptom",
+            "right": "Cough for 2 weeks"
+          },
+          {
+            "left": "Patient preference",
+            "right": "Morning appointments"
+          }
+        ],
+        "answers": {
+          "Thursday option": "3:00 PM",
+          "Tuesday option": "9:30 AM",
+          "Symptom": "Cough for 2 weeks",
+          "Patient preference": "Morning appointments"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "A2",
+    "fullScript": "A: Good afternoon, Dr. Smith's office. How can I help?\nB: Hello, I'd like to make an appointment to see Dr. Smith.\nA: Is this for a regular check-up or is it urgent?\nB: It's not urgent. I've had a cough for two weeks.\nA: I see. We have an opening on Thursday at three o'clock.\nB: Is there anything earlier? I prefer mornings.\nA: Tuesday at nine thirty is available.\nB: Perfect. My name is Robert Green. Can you text me a reminder?"
+  },
+  {
+    "id": "a2_lesson_08",
+    "title": "At the Bank",
+    "topic": "services",
+    "description": "A customer opens a bank account",
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Good morning. I'd like to open a bank account."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Of course. We have checking and savings accounts. Which would you prefer?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What's the difference?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "A checking account is for daily use. A savings account earns more interest."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "I'll open a savings account. What do I need?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Your passport and proof of address. And a minimum deposit of one hundred dollars."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Can I also get internet banking?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Yes, it's free with all accounts. I'll set it up for you today."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What type of account does the woman choose?",
+        "options": [
+          "Checking account",
+          "Savings account",
+          "Business account",
+          "Student account"
+        ],
+        "answer": "Savings account"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How much is the minimum deposit?",
+        "options": [
+          "$50",
+          "$100",
+          "$200",
+          "$500"
+        ],
+        "answer": "$100"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "A savings account earns more ___.",
+        "answer": "interest"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Internet banking is ___ with all accounts.",
+        "answer": "free"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match account type to feature.",
+        "pairs": [
+          {
+            "left": "Checking",
+            "right": "For daily use"
+          },
+          {
+            "left": "Savings",
+            "right": "Earns more interest"
+          },
+          {
+            "left": "Documents needed",
+            "right": "Passport + proof of address"
+          },
+          {
+            "left": "Minimum deposit",
+            "right": "$100"
+          }
+        ],
+        "answers": {
+          "Checking": "For daily use",
+          "Savings": "Earns more interest",
+          "Documents needed": "Passport + proof of address",
+          "Minimum deposit": "$100"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "A2",
+    "fullScript": "A: Good morning. I'd like to open a bank account.\nB: Of course. We have checking and savings accounts. Which would you prefer?\nA: What's the difference?\nB: A checking account is for daily use. A savings account earns more interest.\nA: I'll open a savings account. What do I need?\nB: Your passport and proof of address. And a minimum deposit of one hundred dollars.\nA: Can I also get internet banking?\nB: Yes, it's free with all accounts. I'll set it up for you today."
+  },
+  {
+    "id": "a2_lesson_09",
+    "title": "Describing Your Neighborhood",
+    "topic": "places",
+    "description": "A new resident describes their neighborhood",
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "How do you like your new neighborhood?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "I love it! It's very quiet and green. There's a big park nearby."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Is it convenient? Are there shops?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Yes, there's a supermarket five minutes away and several cafés."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "What about transport?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "There are two bus lines and a metro station just ten minutes on foot."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Sounds ideal. Is it expensive to live there?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Rent is higher than the city center but the quality of life is much better."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "How does the woman describe her neighborhood?",
+        "options": [
+          "Noisy and urban",
+          "Quiet and green",
+          "Busy and modern",
+          "Old and expensive"
+        ],
+        "answer": "Quiet and green"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How far is the nearest metro station?",
+        "options": [
+          "5 minutes",
+          "10 minutes",
+          "15 minutes",
+          "20 minutes"
+        ],
+        "answer": "10 minutes"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "There is a supermarket ___ minutes away.",
+        "answer": "five"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "There are ___ bus lines in the area.",
+        "answer": "two"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match facility to location/time.",
+        "pairs": [
+          {
+            "left": "Park",
+            "right": "Nearby"
+          },
+          {
+            "left": "Supermarket",
+            "right": "5 minutes"
+          },
+          {
+            "left": "Metro station",
+            "right": "10 minutes on foot"
+          },
+          {
+            "left": "Cafés",
+            "right": "Several in area"
+          }
+        ],
+        "answers": {
+          "Park": "Nearby",
+          "Supermarket": "5 minutes",
+          "Metro station": "10 minutes on foot",
+          "Cafés": "Several in area"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "A2",
+    "fullScript": "A: How do you like your new neighborhood?\nB: I love it! It's very quiet and green. There's a big park nearby.\nA: Is it convenient? Are there shops?\nB: Yes, there's a supermarket five minutes away and several cafés.\nA: What about transport?\nB: There are two bus lines and a metro station just ten minutes on foot.\nA: Sounds ideal. Is it expensive to live there?\nB: Rent is higher than the city center but the quality of life is much better."
+  },
+  {
+    "id": "a2_lesson_10",
+    "title": "School Life",
+    "topic": "education",
+    "description": "Two students discuss their school timetable",
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "What subjects do you have today?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "First I have maths, then English, and after lunch, science."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Which subject do you like best?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Definitely English. My teacher, Ms. Roberts, is fantastic."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "And which subject is the most difficult for you?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Maths. I find algebra very confusing."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "What time does school finish today?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "At three thirty. Then I have football practice until five."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the woman's favorite subject?",
+        "options": [
+          "Maths",
+          "Science",
+          "English",
+          "History"
+        ],
+        "answer": "English"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What time does school finish?",
+        "options": [
+          "2:30",
+          "3:00",
+          "3:30",
+          "4:00"
+        ],
+        "answer": "3:30"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The woman finds ___ very confusing.",
+        "answer": "algebra"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Football practice finishes at ___.",
+        "answer": "five"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match subject to time of day.",
+        "pairs": [
+          {
+            "left": "Maths",
+            "right": "First"
+          },
+          {
+            "left": "English",
+            "right": "Second"
+          },
+          {
+            "left": "Science",
+            "right": "After lunch"
+          },
+          {
+            "left": "Football",
+            "right": "After school"
+          }
+        ],
+        "answers": {
+          "Maths": "First",
+          "English": "Second",
+          "Science": "After lunch",
+          "Football": "After school"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "A2",
+    "fullScript": "A: What subjects do you have today?\nB: First I have maths, then English, and after lunch, science.\nA: Which subject do you like best?\nB: Definitely English. My teacher, Ms. Roberts, is fantastic.\nA: And which subject is the most difficult for you?\nB: Maths. I find algebra very confusing.\nA: What time does school finish today?\nB: At three thirty. Then I have football practice until five."
+  }
+]

@@ -1,0 +1,1847 @@
+[
+  {
+    "id": "a2_practice_01",
+    "title": "Travel Agency Conversation",
+    "topic": "travel",
+    "estimatedMinutes": 15,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "I'd like to book a holiday to Thailand for two weeks."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Wonderful choice! When are you thinking of travelling?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "In March. The weather should be good then."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Exactly. March is perfect — dry season. Are you travelling alone?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "With my partner. We'd like a mix of beach and culture."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "I suggest Bangkok for three days, then Chiang Mai, then Koh Samui for the beach."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "That sounds perfect. What's the approximate cost?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "For two people, flights and four-star hotels, around three thousand dollars."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Does that include tours and activities?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Not included. I'd budget another five hundred for tours and food."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "OK. Can we get travel insurance through you?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Yes, comprehensive insurance is one hundred and fifty dollars per person."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Where does the man want to travel?",
+        "options": [
+          "Indonesia",
+          "Thailand",
+          "Vietnam",
+          "Malaysia"
+        ],
+        "answer": "Thailand"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "When does he want to go?",
+        "options": [
+          "January",
+          "February",
+          "March",
+          "April"
+        ],
+        "answer": "March"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What type of hotel does the package include?",
+        "options": [
+          "3-star",
+          "4-star",
+          "5-star",
+          "Hostel"
+        ],
+        "answer": "4-star"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The man is travelling with his ___.",
+        "answer": "partner"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Bangkok is recommended for ___ days.",
+        "answer": "three"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The package costs around ___ thousand dollars.",
+        "answer": "three"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Travel insurance costs one hundred and ___ dollars per person.",
+        "answer": "fifty"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match city to activity.",
+        "pairs": [
+          {
+            "left": "Bangkok",
+            "right": "Culture (3 days)"
+          },
+          {
+            "left": "Chiang Mai",
+            "right": "Culture"
+          },
+          {
+            "left": "Koh Samui",
+            "right": "Beach"
+          }
+        ],
+        "answers": {
+          "Bangkok": "Culture (3 days)",
+          "Chiang Mai": "Culture",
+          "Koh Samui": "Beach"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match cost to item.",
+        "pairs": [
+          {
+            "left": "Flights + hotels (2 people)",
+            "right": "$3,000"
+          },
+          {
+            "left": "Tours and food budget",
+            "right": "$500"
+          },
+          {
+            "left": "Insurance per person",
+            "right": "$150"
+          }
+        ],
+        "answers": {
+          "Flights + hotels (2 people)": "$3,000",
+          "Tours and food budget": "$500",
+          "Insurance per person": "$150"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why is March recommended for Thailand?",
+        "options": [
+          "It's cheapest",
+          "It's dry season",
+          "It's less busy",
+          "It's the festival season"
+        ],
+        "answer": "It's dry season"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "A2",
+    "fullScript": "A: I'd like to book a holiday to Thailand for two weeks.\nB: Wonderful choice! When are you thinking of travelling?\nA: In March. The weather should be good then.\nB: Exactly. March is perfect — dry season. Are you travelling alone?\nA: With my partner. We'd like a mix of beach and culture.\nB: I suggest Bangkok for three days, then Chiang Mai, then Koh Samui for the beach.\nA: That sounds perfect. What's the approximate cost?\nB: For two people, flights and four-star hotels, around three thousand dollars.\nA: Does that include tours and activities?\nB: Not included. I'd budget another five hundred for tours and food.\nA: OK. Can we get travel insurance through you?\nB: Yes, comprehensive insurance is one hundred and fifty dollars per person."
+  },
+  {
+    "id": "a2_practice_02",
+    "title": "Reporting a Lost Item",
+    "topic": "services",
+    "estimatedMinutes": 15,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Excuse me, I think I left my bag on the train."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "I'm sorry to hear that. When did you travel?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "About an hour ago. The ten fifteen from Central Station."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "And where were you sitting?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "In carriage four, near the window. Seat twenty-two."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Can you describe the bag?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "It's a black leather backpack. There's a red keyring on the zip."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "What was inside it?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "My laptop, my wallet, and some important documents."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "I'll contact the lost and found. Please fill in this form."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Thank you. How long will it take to hear back?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "We'll call you within twenty-four hours if it's found."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Where did the man lose his bag?",
+        "options": [
+          "On a bus",
+          "On a train",
+          "At a station",
+          "In a taxi"
+        ],
+        "answer": "On a train"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Which carriage was he in?",
+        "options": [
+          "Carriage 2",
+          "Carriage 3",
+          "Carriage 4",
+          "Carriage 5"
+        ],
+        "answer": "Carriage 4"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "When will they contact him?",
+        "options": [
+          "In 2 hours",
+          "In 12 hours",
+          "Within 24 hours",
+          "In 3 days"
+        ],
+        "answer": "Within 24 hours"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The bag is black ___ backpack.",
+        "answer": "leather"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "There is a red ___ on the zip.",
+        "answer": "keyring"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "He was sitting in seat ___.",
+        "answer": "twenty-two"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The bag contained a laptop, wallet, and important ___.",
+        "answer": "documents"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match bag description to detail.",
+        "pairs": [
+          {
+            "left": "Color",
+            "right": "Black"
+          },
+          {
+            "left": "Material",
+            "right": "Leather"
+          },
+          {
+            "left": "Type",
+            "right": "Backpack"
+          },
+          {
+            "left": "Identifier",
+            "right": "Red keyring on zip"
+          }
+        ],
+        "answers": {
+          "Color": "Black",
+          "Material": "Leather",
+          "Type": "Backpack",
+          "Identifier": "Red keyring on zip"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match contents of the bag.",
+        "pairs": [
+          {
+            "left": "Electronic device",
+            "right": "Laptop"
+          },
+          {
+            "left": "For money/cards",
+            "right": "Wallet"
+          },
+          {
+            "left": "Papers",
+            "right": "Important documents"
+          }
+        ],
+        "answers": {
+          "Electronic device": "Laptop",
+          "For money/cards": "Wallet",
+          "Papers": "Important documents"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What does the woman ask the man to do?",
+        "options": [
+          "Wait at the station",
+          "Fill in a form",
+          "Call the police",
+          "Check the train again"
+        ],
+        "answer": "Fill in a form"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "A2",
+    "fullScript": "A: Excuse me, I think I left my bag on the train.\nB: I'm sorry to hear that. When did you travel?\nA: About an hour ago. The ten fifteen from Central Station.\nB: And where were you sitting?\nA: In carriage four, near the window. Seat twenty-two.\nB: Can you describe the bag?\nA: It's a black leather backpack. There's a red keyring on the zip.\nB: What was inside it?\nA: My laptop, my wallet, and some important documents.\nB: I'll contact the lost and found. Please fill in this form.\nA: Thank you. How long will it take to hear back?\nB: We'll call you within twenty-four hours if it's found."
+  },
+  {
+    "id": "a2_practice_03",
+    "title": "Discussing a Movie",
+    "topic": "entertainment",
+    "estimatedMinutes": 15,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Did you see the new superhero film last night?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Yes! I went with my flatmate. What did you think?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "I loved it. The special effects were incredible."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Agreed. But I thought the story was a bit slow in the middle."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Really? I didn't notice. The acting was excellent though."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Yes, the main actor was brilliant. It's his best film in years."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "How long was it?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Two hours forty minutes. Quite long but worth it."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Would you recommend it to others?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Definitely. I'd give it eight out of ten."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Me too. I'm going to see it again next weekend!"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What type of film did they see?",
+        "options": [
+          "Romance",
+          "Horror",
+          "Superhero",
+          "Comedy"
+        ],
+        "answer": "Superhero"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What rating does Speaker B give the film?",
+        "options": [
+          "6/10",
+          "7/10",
+          "8/10",
+          "9/10"
+        ],
+        "answer": "8/10"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How long is the film?",
+        "options": [
+          "1h 40m",
+          "2h 10m",
+          "2h 40m",
+          "3h"
+        ],
+        "answer": "2h 40m"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker A loved the special ___.",
+        "answer": "effects"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B thought the story was slow in the ___.",
+        "answer": "middle"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker A is going to see it again next ___.",
+        "answer": "weekend"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B went with their ___.",
+        "answer": "flatmate"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match opinion to speaker.",
+        "pairs": [
+          {
+            "left": "Loved special effects",
+            "right": "Speaker A"
+          },
+          {
+            "left": "Story was slow in middle",
+            "right": "Speaker B"
+          },
+          {
+            "left": "Acting was excellent",
+            "right": "Speaker A"
+          },
+          {
+            "left": "Main actor was brilliant",
+            "right": "Speaker B"
+          }
+        ],
+        "answers": {
+          "Loved special effects": "Speaker A",
+          "Story was slow in middle": "Speaker B",
+          "Acting was excellent": "Speaker A",
+          "Main actor was brilliant": "Speaker B"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match movie details.",
+        "pairs": [
+          {
+            "left": "Genre",
+            "right": "Superhero"
+          },
+          {
+            "left": "Length",
+            "right": "2h 40min"
+          },
+          {
+            "left": "Rating (B)",
+            "right": "8/10"
+          }
+        ],
+        "answers": {
+          "Genre": "Superhero",
+          "Length": "2h 40min",
+          "Rating (B)": "8/10"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Overall, do both speakers recommend the film?",
+        "options": [
+          "Only Speaker A",
+          "Only Speaker B",
+          "Yes, both recommend it",
+          "Neither recommends it"
+        ],
+        "answer": "Yes, both recommend it"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "A2",
+    "fullScript": "A: Did you see the new superhero film last night?\nB: Yes! I went with my flatmate. What did you think?\nA: I loved it. The special effects were incredible.\nB: Agreed. But I thought the story was a bit slow in the middle.\nA: Really? I didn't notice. The acting was excellent though.\nB: Yes, the main actor was brilliant. It's his best film in years.\nA: How long was it?\nB: Two hours forty minutes. Quite long but worth it.\nA: Would you recommend it to others?\nB: Definitely. I'd give it eight out of ten.\nA: Me too. I'm going to see it again next weekend!"
+  },
+  {
+    "id": "a2_practice_04",
+    "title": "At the Gym",
+    "topic": "health",
+    "estimatedMinutes": 15,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Hi, I'm interested in joining the gym. Can you tell me about membership?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Of course! We have monthly and annual memberships."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What's the monthly cost?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Standard is forty dollars. Premium with classes is sixty."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What classes do you offer?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Yoga, spinning, and boxing. There are twenty classes per week."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What are the opening hours?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Six AM to ten PM on weekdays. Eight to eight on weekends."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Is there parking?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Yes, free parking for members. And we have a pool and sauna too."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Wonderful. I'll take the premium membership, please."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "How much is the standard monthly membership?",
+        "options": [
+          "$30",
+          "$40",
+          "$50",
+          "$60"
+        ],
+        "answer": "$40"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Which membership does the woman choose?",
+        "options": [
+          "Standard",
+          "Premium",
+          "Annual",
+          "Student"
+        ],
+        "answer": "Premium"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What time does the gym close on weekdays?",
+        "options": [
+          "8 PM",
+          "9 PM",
+          "10 PM",
+          "11 PM"
+        ],
+        "answer": "10 PM"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Premium membership costs ___ dollars per month.",
+        "answer": "sixty"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "There are ___ classes per week.",
+        "answer": "twenty"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "On weekends, the gym opens at ___.",
+        "answer": "eight"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Parking is ___ for members.",
+        "answer": "free"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match membership to price.",
+        "pairs": [
+          {
+            "left": "Standard",
+            "right": "$40/month"
+          },
+          {
+            "left": "Premium",
+            "right": "$60/month"
+          }
+        ],
+        "answers": {
+          "Standard": "$40/month",
+          "Premium": "$60/month"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match facility to description.",
+        "pairs": [
+          {
+            "left": "Classes offered",
+            "right": "Yoga, spinning, boxing"
+          },
+          {
+            "left": "Pool",
+            "right": "Available for members"
+          },
+          {
+            "left": "Sauna",
+            "right": "Available for members"
+          },
+          {
+            "left": "Parking",
+            "right": "Free for members"
+          }
+        ],
+        "answers": {
+          "Classes offered": "Yoga, spinning, boxing",
+          "Pool": "Available for members",
+          "Sauna": "Available for members",
+          "Parking": "Free for members"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is included in the Premium membership?",
+        "options": [
+          "Only equipment",
+          "Equipment and pool",
+          "Equipment and classes",
+          "Everything including sauna"
+        ],
+        "answer": "Equipment and classes"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "A2",
+    "fullScript": "A: Hi, I'm interested in joining the gym. Can you tell me about membership?\nB: Of course! We have monthly and annual memberships.\nA: What's the monthly cost?\nB: Standard is forty dollars. Premium with classes is sixty.\nA: What classes do you offer?\nB: Yoga, spinning, and boxing. There are twenty classes per week.\nA: What are the opening hours?\nB: Six AM to ten PM on weekdays. Eight to eight on weekends.\nA: Is there parking?\nB: Yes, free parking for members. And we have a pool and sauna too.\nA: Wonderful. I'll take the premium membership, please."
+  },
+  {
+    "id": "a2_practice_05",
+    "title": "Cooking a Recipe",
+    "topic": "food",
+    "estimatedMinutes": 15,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "I want to make spaghetti bolognese tonight. Do you know how?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Yes! It's easy. First, fry onions and garlic in olive oil for five minutes."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "OK. What next?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Add five hundred grams of minced beef and cook until brown."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Then what?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Pour in a tin of tomatoes and a glass of red wine. Add salt, pepper, and herbs."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "How long does the sauce cook?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Simmer for thirty minutes on low heat. Meanwhile, boil the pasta."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "How much pasta do I need for two people?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "About two hundred grams. Cook it for ten minutes."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Should I add anything on top?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Grated parmesan cheese. It's delicious!"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What dish is the man making?",
+        "options": [
+          "Lasagne",
+          "Carbonara",
+          "Spaghetti bolognese",
+          "Pizza"
+        ],
+        "answer": "Spaghetti bolognese"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How long should the sauce simmer?",
+        "options": [
+          "10 minutes",
+          "20 minutes",
+          "30 minutes",
+          "45 minutes"
+        ],
+        "answer": "30 minutes"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is added on top of the dish?",
+        "options": [
+          "Mozzarella",
+          "Parmesan",
+          "Cheddar",
+          "Cream"
+        ],
+        "answer": "Parmesan"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Fry onions and garlic for ___ minutes.",
+        "answer": "five"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Add ___ grams of minced beef.",
+        "answer": "five hundred"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Cook pasta for ___ minutes.",
+        "answer": "ten"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Use ___ grams of pasta for two people.",
+        "answer": "two hundred"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each cooking step with the ingredient.",
+        "pairs": [
+          {
+            "left": "Step 1: Fry",
+            "right": "Onions and garlic"
+          },
+          {
+            "left": "Step 2: Add",
+            "right": "Minced beef"
+          },
+          {
+            "left": "Step 3: Pour",
+            "right": "Tomatoes and wine"
+          },
+          {
+            "left": "Step 4: Top with",
+            "right": "Parmesan cheese"
+          }
+        ],
+        "answers": {
+          "Step 1: Fry": "Onions and garlic",
+          "Step 2: Add": "Minced beef",
+          "Step 3: Pour": "Tomatoes and wine",
+          "Step 4: Top with": "Parmesan cheese"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match cooking time to action.",
+        "pairs": [
+          {
+            "left": "Onions/garlic",
+            "right": "5 minutes"
+          },
+          {
+            "left": "Sauce simmer",
+            "right": "30 minutes"
+          },
+          {
+            "left": "Pasta",
+            "right": "10 minutes"
+          }
+        ],
+        "answers": {
+          "Onions/garlic": "5 minutes",
+          "Sauce simmer": "30 minutes",
+          "Pasta": "10 minutes"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What liquid is added to the sauce?",
+        "options": [
+          "White wine only",
+          "Tomatoes only",
+          "Tomatoes and red wine",
+          "Cream and tomatoes"
+        ],
+        "answer": "Tomatoes and red wine"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "A2",
+    "fullScript": "A: I want to make spaghetti bolognese tonight. Do you know how?\nB: Yes! It's easy. First, fry onions and garlic in olive oil for five minutes.\nA: OK. What next?\nB: Add five hundred grams of minced beef and cook until brown.\nA: Then what?\nB: Pour in a tin of tomatoes and a glass of red wine. Add salt, pepper, and herbs.\nA: How long does the sauce cook?\nB: Simmer for thirty minutes on low heat. Meanwhile, boil the pasta.\nA: How much pasta do I need for two people?\nB: About two hundred grams. Cook it for ten minutes.\nA: Should I add anything on top?\nB: Grated parmesan cheese. It's delicious!"
+  },
+  {
+    "id": "a2_practice_06",
+    "title": "Planning a School Project",
+    "topic": "education",
+    "estimatedMinutes": 15,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "We need to plan our group project for science class."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Right. The topic is renewable energy. Who does what?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "I can do the research on solar power."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Great. I'll cover wind and water energy."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "We need a presentation too. Can you make the slides?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Sure. And you can write the introduction and conclusion."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "When is the deadline?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Friday. We have three days. We should meet tomorrow to check progress."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Good idea. How about after school at four o'clock?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Perfect. My house or the library?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "The library is better. It's quieter for studying."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What subject is the project for?",
+        "options": [
+          "Geography",
+          "Maths",
+          "Science",
+          "History"
+        ],
+        "answer": "Science"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the project topic?",
+        "options": [
+          "Climate change",
+          "Renewable energy",
+          "Space exploration",
+          "The ocean"
+        ],
+        "answer": "Renewable energy"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Where will they meet tomorrow?",
+        "options": [
+          "At school",
+          "At the girl's house",
+          "At the boy's house",
+          "At the library"
+        ],
+        "answer": "At the library"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The project deadline is ___.",
+        "answer": "Friday"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "They will meet at ___ o'clock.",
+        "answer": "four"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker A researches ___ power.",
+        "answer": "solar"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "They have ___ days to complete the project.",
+        "answer": "three"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each student to their task.",
+        "pairs": [
+          {
+            "left": "Speaker A",
+            "right": "Research on solar power"
+          },
+          {
+            "left": "Speaker B",
+            "right": "Wind and water energy"
+          },
+          {
+            "left": "Speaker B",
+            "right": "Make slides"
+          },
+          {
+            "left": "Speaker A",
+            "right": "Write introduction and conclusion"
+          }
+        ],
+        "answers": {
+          "Research on solar power": "Speaker A",
+          "Wind and water energy": "Speaker B",
+          "Make slides": "Speaker B",
+          "Write introduction and conclusion": "Speaker A"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match project component to person.",
+        "pairs": [
+          {
+            "left": "Presentation slides",
+            "right": "Speaker B"
+          },
+          {
+            "left": "Introduction",
+            "right": "Speaker A"
+          },
+          {
+            "left": "Conclusion",
+            "right": "Speaker A"
+          }
+        ],
+        "answers": {
+          "Presentation slides": "Speaker B",
+          "Introduction": "Speaker A",
+          "Conclusion": "Speaker A"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why does Speaker A prefer the library?",
+        "options": [
+          "It's closer",
+          "It's free",
+          "It's quieter",
+          "It has better internet"
+        ],
+        "answer": "It's quieter"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "A2",
+    "fullScript": "A: We need to plan our group project for science class.\nB: Right. The topic is renewable energy. Who does what?\nA: I can do the research on solar power.\nB: Great. I'll cover wind and water energy.\nA: We need a presentation too. Can you make the slides?\nB: Sure. And you can write the introduction and conclusion.\nA: When is the deadline?\nB: Friday. We have three days. We should meet tomorrow to check progress.\nA: Good idea. How about after school at four o'clock?\nB: Perfect. My house or the library?\nA: The library is better. It's quieter for studying."
+  },
+  {
+    "id": "a2_practice_07",
+    "title": "Visiting a Museum",
+    "topic": "culture",
+    "estimatedMinutes": 15,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Welcome to the City Museum. Can I help you?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Yes, please. Two adult tickets and one child ticket."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "That's twelve dollars for adults and five for children. Total is twenty-nine."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Do you have audio guides?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Yes, three dollars each. Available in ten languages."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "We'll take two in English please. What are the main exhibits?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Ancient history on floor one, modern art on floor two, and natural science on floor three."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Is there a café in the museum?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Yes, on the ground floor near the exit. Open until five."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "What time does the museum close?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Six o'clock. Last entry is at five thirty."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "How many tickets does the family buy?",
+        "options": [
+          "2 adults",
+          "2 adults + 1 child",
+          "3 adults",
+          "1 adult + 2 children"
+        ],
+        "answer": "2 adults + 1 child"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is on floor two?",
+        "options": [
+          "Ancient history",
+          "Modern art",
+          "Natural science",
+          "The café"
+        ],
+        "answer": "Modern art"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What time is last entry?",
+        "options": [
+          "5:00",
+          "5:30",
+          "6:00",
+          "6:30"
+        ],
+        "answer": "5:30"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "An adult ticket costs ___ dollars.",
+        "answer": "twelve"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "A child ticket costs ___ dollars.",
+        "answer": "five"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Audio guides are available in ___ languages.",
+        "answer": "ten"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The museum closes at ___ o'clock.",
+        "answer": "six"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each floor to its exhibit.",
+        "pairs": [
+          {
+            "left": "Floor 1",
+            "right": "Ancient history"
+          },
+          {
+            "left": "Floor 2",
+            "right": "Modern art"
+          },
+          {
+            "left": "Floor 3",
+            "right": "Natural science"
+          },
+          {
+            "left": "Ground floor",
+            "right": "Café"
+          }
+        ],
+        "answers": {
+          "Floor 1": "Ancient history",
+          "Floor 2": "Modern art",
+          "Floor 3": "Natural science",
+          "Ground floor": "Café"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match ticket to price.",
+        "pairs": [
+          {
+            "left": "Adult ticket",
+            "right": "$12"
+          },
+          {
+            "left": "Child ticket",
+            "right": "$5"
+          },
+          {
+            "left": "Audio guide",
+            "right": "$3"
+          },
+          {
+            "left": "Total (2 adults + 1 child)",
+            "right": "$29"
+          }
+        ],
+        "answers": {
+          "Adult ticket": "$12",
+          "Child ticket": "$5",
+          "Audio guide": "$3",
+          "Total (2 adults + 1 child)": "$29"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "In which language do they get the audio guides?",
+        "options": [
+          "Spanish",
+          "French",
+          "English",
+          "German"
+        ],
+        "answer": "English"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "A2",
+    "fullScript": "A: Welcome to the City Museum. Can I help you?\nB: Yes, please. Two adult tickets and one child ticket.\nA: That's twelve dollars for adults and five for children. Total is twenty-nine.\nB: Do you have audio guides?\nA: Yes, three dollars each. Available in ten languages.\nB: We'll take two in English please. What are the main exhibits?\nA: Ancient history on floor one, modern art on floor two, and natural science on floor three.\nB: Is there a café in the museum?\nA: Yes, on the ground floor near the exit. Open until five.\nB: What time does the museum close?\nA: Six o'clock. Last entry is at five thirty."
+  },
+  {
+    "id": "a2_practice_08",
+    "title": "Changing a Flight",
+    "topic": "travel",
+    "estimatedMinutes": 15,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Hello, I need to change my flight booking."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Of course. May I have your booking reference?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "It's AB four seven two."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Thank you. And what would you like to change?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "I need to fly on the fifteenth instead of the fourteenth."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Let me check availability. There's a flight at eight forty-five and one at three fifteen."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "The afternoon one please. Is there a change fee?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "There's a fifty dollar change fee plus the difference in fare."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "How much more is the afternoon flight?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Thirty dollars more. So total change cost is eighty dollars."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "OK. I'll pay by credit card. Can I get an email confirmation?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Yes, you'll receive it within fifteen minutes."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the booking reference?",
+        "options": [
+          "AB274",
+          "AB472",
+          "BA472",
+          "BA274"
+        ],
+        "answer": "AB472"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Which flight does the man choose?",
+        "options": [
+          "8:45 AM",
+          "12:00 PM",
+          "3:15 PM",
+          "6:00 PM"
+        ],
+        "answer": "3:15 PM"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the total change cost?",
+        "options": [
+          "$30",
+          "$50",
+          "$70",
+          "$80"
+        ],
+        "answer": "$80"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The man wants to fly on the ___.",
+        "answer": "fifteenth"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The change fee is ___ dollars.",
+        "answer": "fifty"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The afternoon flight costs ___ dollars more.",
+        "answer": "thirty"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "He will receive email confirmation within ___ minutes.",
+        "answer": "fifteen"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each cost component.",
+        "pairs": [
+          {
+            "left": "Change fee",
+            "right": "$50"
+          },
+          {
+            "left": "Fare difference",
+            "right": "$30"
+          },
+          {
+            "left": "Total",
+            "right": "$80"
+          }
+        ],
+        "answers": {
+          "Change fee": "$50",
+          "Fare difference": "$30",
+          "Total": "$80"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match flight options available.",
+        "pairs": [
+          {
+            "left": "Morning flight",
+            "right": "8:45 AM"
+          },
+          {
+            "left": "Afternoon flight",
+            "right": "3:15 PM"
+          },
+          {
+            "left": "Original date",
+            "right": "14th"
+          },
+          {
+            "left": "New date",
+            "right": "15th"
+          }
+        ],
+        "answers": {
+          "Morning flight": "8:45 AM",
+          "Afternoon flight": "3:15 PM",
+          "Original date": "14th",
+          "New date": "15th"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How does the man pay?",
+        "options": [
+          "Cash",
+          "Debit card",
+          "Credit card",
+          "Bank transfer"
+        ],
+        "answer": "Credit card"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "A2",
+    "fullScript": "A: Hello, I need to change my flight booking.\nB: Of course. May I have your booking reference?\nA: It's AB four seven two.\nB: Thank you. And what would you like to change?\nA: I need to fly on the fifteenth instead of the fourteenth.\nB: Let me check availability. There's a flight at eight forty-five and one at three fifteen.\nA: The afternoon one please. Is there a change fee?\nB: There's a fifty dollar change fee plus the difference in fare.\nA: How much more is the afternoon flight?\nB: Thirty dollars more. So total change cost is eighty dollars.\nA: OK. I'll pay by credit card. Can I get an email confirmation?\nB: Yes, you'll receive it within fifteen minutes."
+  },
+  {
+    "id": "a2_practice_09",
+    "title": "Looking for a Flatmate",
+    "topic": "home",
+    "estimatedMinutes": 15,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Hi, I'm calling about the room for rent."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Great! The room is still available. Are you a student or working?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "I'm a student at City University. In my final year."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Perfect. The room is on the second floor. It's about twelve square meters."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "How much is the rent?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Four fifty a month, bills included. We share the kitchen and bathroom."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "How many people live there now?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Two others. A nurse who works night shifts and a teacher."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Is there internet?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Yes, fast broadband. And we have a washing machine in the basement."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Can I come and view it tomorrow afternoon?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Yes, come at two o'clock."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What does the woman do?",
+        "options": [
+          "She works",
+          "She is a student",
+          "She is retired",
+          "She is a teacher"
+        ],
+        "answer": "She is a student"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How much is the rent?",
+        "options": [
+          "$400",
+          "$450",
+          "$500",
+          "$550"
+        ],
+        "answer": "$450"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "When will the woman visit?",
+        "options": [
+          "Today",
+          "Tomorrow at 2pm",
+          "This weekend",
+          "Next Monday"
+        ],
+        "answer": "Tomorrow at 2pm"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The room is ___ square meters.",
+        "answer": "twelve"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The room is on the ___ floor.",
+        "answer": "second"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "One flatmate is a nurse who works ___ shifts.",
+        "answer": "night"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The washing machine is in the ___.",
+        "answer": "basement"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match current flatmates to occupation.",
+        "pairs": [
+          {
+            "left": "Flatmate 1",
+            "right": "Nurse"
+          },
+          {
+            "left": "Flatmate 2",
+            "right": "Teacher"
+          }
+        ],
+        "answers": {
+          "Flatmate 1": "Nurse",
+          "Flatmate 2": "Teacher"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match shared facilities.",
+        "pairs": [
+          {
+            "left": "Cooking",
+            "right": "Shared kitchen"
+          },
+          {
+            "left": "Bathing",
+            "right": "Shared bathroom"
+          },
+          {
+            "left": "Laundry",
+            "right": "Washing machine in basement"
+          },
+          {
+            "left": "Internet",
+            "right": "Fast broadband"
+          }
+        ],
+        "answers": {
+          "Cooking": "Shared kitchen",
+          "Bathing": "Shared bathroom",
+          "Laundry": "Washing machine in basement",
+          "Internet": "Fast broadband"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Are bills included in the rent?",
+        "options": [
+          "No, bills extra",
+          "Yes, bills included",
+          "Some bills included",
+          "Not mentioned"
+        ],
+        "answer": "Yes, bills included"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "A2",
+    "fullScript": "A: Hi, I'm calling about the room for rent.\nB: Great! The room is still available. Are you a student or working?\nA: I'm a student at City University. In my final year.\nB: Perfect. The room is on the second floor. It's about twelve square meters.\nA: How much is the rent?\nB: Four fifty a month, bills included. We share the kitchen and bathroom.\nA: How many people live there now?\nB: Two others. A nurse who works night shifts and a teacher.\nA: Is there internet?\nB: Yes, fast broadband. And we have a washing machine in the basement.\nA: Can I come and view it tomorrow afternoon?\nB: Yes, come at two o'clock."
+  },
+  {
+    "id": "a2_practice_10",
+    "title": "Community Event",
+    "topic": "community",
+    "estimatedMinutes": 15,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Did you see the poster about the community fun day?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Yes! It's next Sunday at the park. Are you going?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Definitely. What activities will there be?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "There's a market, live music, sports activities, and food stalls."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What time does it start?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Eleven in the morning and it finishes at eight in the evening."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Is it free to enter?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Entry is free but you pay for food and activities."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Will there be things for children?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Yes! A bouncy castle, face painting, and a magic show at three o'clock."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Perfect! My kids will love it. Let's all go together."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "When is the community fun day?",
+        "options": [
+          "This Saturday",
+          "This Sunday",
+          "Next Saturday",
+          "Next Sunday"
+        ],
+        "answer": "Next Sunday"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What time does the event start?",
+        "options": [
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM"
+        ],
+        "answer": "11 AM"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What time is the magic show?",
+        "options": [
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM"
+        ],
+        "answer": "3 PM"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The event finishes at ___ in the evening.",
+        "answer": "eight"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Entry to the event is ___.",
+        "answer": "free"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "There will be face ___ for children.",
+        "answer": "painting"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "There will be a bouncy ___ for children.",
+        "answer": "castle"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each activity at the event.",
+        "pairs": [
+          {
+            "left": "Shopping",
+            "right": "Market"
+          },
+          {
+            "left": "Entertainment",
+            "right": "Live music"
+          },
+          {
+            "left": "Eating",
+            "right": "Food stalls"
+          },
+          {
+            "left": "Exercise",
+            "right": "Sports activities"
+          }
+        ],
+        "answers": {
+          "Shopping": "Market",
+          "Entertainment": "Live music",
+          "Eating": "Food stalls",
+          "Exercise": "Sports activities"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match children's activities.",
+        "pairs": [
+          {
+            "left": "Inflatable",
+            "right": "Bouncy castle"
+          },
+          {
+            "left": "Artistic",
+            "right": "Face painting"
+          },
+          {
+            "left": "Performance",
+            "right": "Magic show"
+          }
+        ],
+        "answers": {
+          "Inflatable": "Bouncy castle",
+          "Artistic": "Face painting",
+          "Performance": "Magic show"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Is food free at the event?",
+        "options": [
+          "Yes, all food is free",
+          "No, you pay for food",
+          "Some food is free",
+          "Not mentioned"
+        ],
+        "answer": "No, you pay for food"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "A2",
+    "fullScript": "A: Did you see the poster about the community fun day?\nB: Yes! It's next Sunday at the park. Are you going?\nA: Definitely. What activities will there be?\nB: There's a market, live music, sports activities, and food stalls.\nA: What time does it start?\nB: Eleven in the morning and it finishes at eight in the evening.\nA: Is it free to enter?\nB: Entry is free but you pay for food and activities.\nA: Will there be things for children?\nB: Yes! A bouncy castle, face painting, and a magic show at three o'clock.\nA: Perfect! My kids will love it. Let's all go together."
+  }
+]

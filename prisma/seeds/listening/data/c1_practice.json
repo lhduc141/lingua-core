@@ -1,0 +1,1972 @@
+[
+  {
+    "id": "c1_practice_01",
+    "type": "practice",
+    "cefrLevel": "C1",
+    "title": "Interview with a Nobel Prize-winning Economist",
+    "description": "An in-depth discussion exploring macroeconomic paradigms, inflation, and structural inequality.",
+    "topic": "In-depth interview with a Nobel Prize-winning economist",
+    "estimatedMinutes": 20,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Professor Sen, your recent Nobel laureate lecture challenged the prevailing consensus on inflation targeting. Could you elaborate?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Certainly. For decades, central banks have dogmatically pursued a two percent inflation target, prioritizing price stability above all else."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Is price stability not the bedrock of a functioning, predictable macroeconomic environment?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "It is necessary, but insufficient. My contention is that this monomaniacal focus often exacerbates structural inequality by suppressing wage growth."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "So, you are suggesting that a slightly higher inflationary environment might actually be conducive to equitable wealth distribution?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Precisely. Moderate inflation can erode the real value of debt, predominantly held by the working class, while stimulating employment."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Critics, primarily monetarists, argue this inevitably leads to hyperinflation and the erosion of purchasing power."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "That is a slippery slope fallacy. Empirical evidence from the post-war boom demonstrates that robust labor markets can coexist with controlled, moderate inflation."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "How does globalization complicate this dynamic? Domestic policies no longer operate in a vacuum."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Globalization has fundamentally flattened the Phillips curve. Domestic labor now competes globally, decoupling domestic inflation from local employment rates."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "If the Phillips curve is obsolete, what metrics should policymakers utilize to guide their decisions?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "We must transition towards targeting nominal GDP growth, ensuring that total economic output expands sufficiently to absorb labor market slack."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Does this necessitate a radical restructuring of central bank mandates across the developed world?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Absolutely. The mandate must explicitly incorporate inclusive growth metrics, moving beyond the archaic obsession with mere price indices."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Such a paradigm shift will undoubtedly face fierce resistance from entrenched financial institutions."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Institutional inertia is formidable, but the escalating socio-economic friction demands a recalibration of our macroeconomic orthodoxy."
+      }
+    ],
+    "fullScript": "A: Professor Sen, your recent Nobel laureate lecture challenged the prevailing consensus on inflation targeting. Could you elaborate?\nB: Certainly. For decades, central banks have dogmatically pursued a two percent inflation target, prioritizing price stability above all else.\nA: Is price stability not the bedrock of a functioning, predictable macroeconomic environment?\nB: It is necessary, but insufficient. My contention is that this monomaniacal focus often exacerbates structural inequality by suppressing wage growth.\nA: So, you are suggesting that a slightly higher inflationary environment might actually be conducive to equitable wealth distribution?\nB: Precisely. Moderate inflation can erode the real value of debt, predominantly held by the working class, while stimulating employment.\nA: Critics, primarily monetarists, argue this inevitably leads to hyperinflation and the erosion of purchasing power.\nB: That is a slippery slope fallacy. Empirical evidence from the post-war boom demonstrates that robust labor markets can coexist with controlled, moderate inflation.\nA: How does globalization complicate this dynamic? Domestic policies no longer operate in a vacuum.\nB: Globalization has fundamentally flattened the Phillips curve. Domestic labor now competes globally, decoupling domestic inflation from local employment rates.\nA: If the Phillips curve is obsolete, what metrics should policymakers utilize to guide their decisions?\nB: We must transition towards targeting nominal GDP growth, ensuring that total economic output expands sufficiently to absorb labor market slack.\nA: Does this necessitate a radical restructuring of central bank mandates across the developed world?\nB: Absolutely. The mandate must explicitly incorporate inclusive growth metrics, moving beyond the archaic obsession with mere price indices.\nA: Such a paradigm shift will undoubtedly face fierce resistance from entrenched financial institutions.\nB: Institutional inertia is formidable, but the escalating socio-economic friction demands a recalibration of our macroeconomic orthodoxy.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What does Professor Sen consider to be the primary drawback of a dogmatic focus on a two percent inflation target?",
+        "options": [
+          "It inevitably leads to uncontrollable hyperinflation.",
+          "It exacerbates structural inequality by suppressing wage growth.",
+          "It forces domestic labor to compete on a global scale.",
+          "It completely ignores the importance of price stability."
+        ],
+        "answer": "It exacerbates structural inequality by suppressing wage growth.",
+        "explanation": "Professor Sen explicitly states that this monomaniacal focus exacerbates structural inequality by suppressing wage growth."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "According to the economist, how can moderate inflation benefit the working class?",
+        "options": [
+          "By increasing the value of their savings accounts.",
+          "By eliminating all forms of corporate taxation.",
+          "By eroding the real value of debt.",
+          "By making the Phillips curve obsolete."
+        ],
+        "answer": "By eroding the real value of debt.",
+        "explanation": "He mentions that moderate inflation can erode the real value of debt, which is predominantly held by the working class."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What alternative metric does Professor Sen suggest policymakers should target instead of inflation?",
+        "options": [
+          "Nominal GDP growth",
+          "Global trade deficits",
+          "The Phillips curve ratio",
+          "Purchasing power parity"
+        ],
+        "answer": "Nominal GDP growth",
+        "explanation": "He advises a transition towards targeting nominal GDP growth."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Professor Sen contends that a monomaniacal focus on price stability often exacerbates structural ___.",
+        "answer": "inequality",
+        "explanation": "He states it exacerbates structural inequality by suppressing wage growth."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Critics argue that allowing higher inflation is a slippery ___ fallacy leading to hyperinflation.",
+        "answer": "slope",
+        "explanation": "He refers to the critics' argument as a slippery slope fallacy."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Globalization has fundamentally flattened the ___ curve.",
+        "answer": "Phillips",
+        "explanation": "He explicitly notes that globalization has fundamentally flattened the Phillips curve."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Central bank mandates must explicitly incorporate inclusive ___ metrics.",
+        "answer": "growth",
+        "explanation": "He suggests the mandate must incorporate inclusive growth metrics."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the economic concept to its characterization in the interview.",
+        "pairs": [
+          { "left": "Price stability", "right": "Necessary but insufficient on its own" },
+          { "left": "Two percent inflation target", "right": "The prevailing consensus central banks dogmatically pursue" },
+          { "left": "Nominal GDP growth", "right": "The metric that should guide future policy decisions" }
+        ],
+        "answers": {
+          "Price stability": "Necessary but insufficient on its own",
+          "Two percent inflation target": "The prevailing consensus central banks dogmatically pursue",
+          "Nominal GDP growth": "The metric that should guide future policy decisions"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the group or phenomenon to its associated action or effect.",
+        "pairs": [
+          { "left": "Working class", "right": "Predominantly holds the debt whose real value is eroded" },
+          { "left": "Monetarists", "right": "Argue that moderate inflation inevitably leads to hyperinflation" },
+          { "left": "Globalization", "right": "Decouples domestic inflation from local employment rates" }
+        ],
+        "answers": {
+          "Working class": "Predominantly holds the debt whose real value is eroded",
+          "Monetarists": "Argue that moderate inflation inevitably leads to hyperinflation",
+          "Globalization": "Decouples domestic inflation from local employment rates"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the obstacle to the proposed macroeconomic shift.",
+        "pairs": [
+          { "left": "Institutional inertia", "right": "Will provide fierce resistance to the paradigm shift" },
+          { "left": "Slippery slope fallacy", "right": "The flawed logic used by critics of moderate inflation" },
+          { "left": "Archaic obsession", "right": "The current focus on mere price indices" }
+        ],
+        "answers": {
+          "Institutional inertia": "Will provide fierce resistance to the paradigm shift",
+          "Slippery slope fallacy": "The flawed logic used by critics of moderate inflation",
+          "Archaic obsession": "The current focus on mere price indices"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_practice_02",
+    "type": "practice",
+    "cefrLevel": "C1",
+    "title": "Algorithmic Bias in Justice Systems",
+    "description": "A documentary excerpt examining the perpetuation of systemic prejudice through predictive policing algorithms.",
+    "topic": "Documentary excerpt on algorithmic bias in justice systems",
+    "estimatedMinutes": 21,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "We are increasingly outsourcing judicial decisions to artificial intelligence. Dr. Vance, how do predictive risk assessment tools function in sentencing?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "These algorithms aggregate vast datasets—criminal records, socioeconomic status, zip codes—to generate a recidivism probability score. Judges use this to determine bail or parole."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Proponents claim this eradicates human prejudice from the bench. Does the empirical data substantiate this claim?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Far from it. The data ingested by these models is inherently contaminated by decades of systemic, racially disproportionate policing."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Are you saying the algorithm functions as a feedback loop, reinforcing historical inequities?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Precisely. It is digital redlining. If police historically over-patrolled minority neighborhoods, the algorithm falsely flags those demographics as inherently higher risk."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Can we not simply instruct the programmers to scrub race from the algorithmic parameters?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Race is often formally excluded, but the algorithm relies on proxy variables. A zip code or education level becomes a covert stand-in for race."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "This seems to violate the fundamental constitutional principle of due process, as defendants cannot interrogate a proprietary algorithm."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Exactly. Because these tools are developed by private tech conglomerates, their inner workings are protected as trade secrets, creating a judicial black box."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "If a defendant cannot cross-examine the mechanism assigning them a high-risk score, transparency is fundamentally compromised."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "It is a profound miscarriage of justice cloaked in the veneer of objective mathematics. We are substituting judicial reasoning with opaque statistical correlation."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Is the solution regulatory oversight, or an outright prohibition of these tools in criminal proceedings?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Mandatory algorithmic audits are a prerequisite, but many legal scholars advocate for a moratorium until transparency can be absolutely guaranteed."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "We must ensure that technology serves justice, rather than automating our most deeply entrenched prejudices."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Indeed. Without rigorous scrutiny, we are simply coding our historical biases into an inescapable digital destiny."
+      }
+    ],
+    "fullScript": "A: We are increasingly outsourcing judicial decisions to artificial intelligence. Dr. Vance, how do predictive risk assessment tools function in sentencing?\nB: These algorithms aggregate vast datasets—criminal records, socioeconomic status, zip codes—to generate a recidivism probability score. Judges use this to determine bail or parole.\nA: Proponents claim this eradicates human prejudice from the bench. Does the empirical data substantiate this claim?\nB: Far from it. The data ingested by these models is inherently contaminated by decades of systemic, racially disproportionate policing.\nA: Are you saying the algorithm functions as a feedback loop, reinforcing historical inequities?\nB: Precisely. It is digital redlining. If police historically over-patrolled minority neighborhoods, the algorithm falsely flags those demographics as inherently higher risk.\nA: Can we not simply instruct the programmers to scrub race from the algorithmic parameters?\nB: Race is often formally excluded, but the algorithm relies on proxy variables. A zip code or education level becomes a covert stand-in for race.\nA: This seems to violate the fundamental constitutional principle of due process, as defendants cannot interrogate a proprietary algorithm.\nB: Exactly. Because these tools are developed by private tech conglomerates, their inner workings are protected as trade secrets, creating a judicial black box.\nA: If a defendant cannot cross-examine the mechanism assigning them a high-risk score, transparency is fundamentally compromised.\nB: It is a profound miscarriage of justice cloaked in the veneer of objective mathematics. We are substituting judicial reasoning with opaque statistical correlation.\nA: Is the solution regulatory oversight, or an outright prohibition of these tools in criminal proceedings?\nB: Mandatory algorithmic audits are a prerequisite, but many legal scholars advocate for a moratorium until transparency can be absolutely guaranteed.\nA: We must ensure that technology serves justice, rather than automating our most deeply entrenched prejudices.\nB: Indeed. Without rigorous scrutiny, we are simply coding our historical biases into an inescapable digital destiny.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What do predictive risk assessment algorithms generate to assist judges in their decisions?",
+        "options": [
+          "A mandatory minimum sentence recommendation.",
+          "A recidivism probability score.",
+          "A comprehensive psychological profile.",
+          "A financial penalty assessment."
+        ],
+        "answer": "A recidivism probability score.",
+        "explanation": "The algorithm aggregates vast datasets to generate a recidivism probability score."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why does scrubbing race from algorithmic parameters fail to eliminate racial bias?",
+        "options": [
+          "Because the algorithms are specifically programmed to ignore that command.",
+          "Because judges manually override the system to include race.",
+          "Because the algorithm relies on proxy variables like zip codes.",
+          "Because race is genetically tied to criminal behavior."
+        ],
+        "answer": "Because the algorithm relies on proxy variables like zip codes.",
+        "explanation": "Dr. Vance notes that the algorithm relies on proxy variables, where a zip code becomes a covert stand-in for race."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What legal obstacle prevents defendants from challenging the algorithm's methodology?",
+        "options": [
+          "The algorithms are developed by the federal government under classified status.",
+          "The inner workings are protected as trade secrets by private tech conglomerates.",
+          "Defendants waive their right to due process during algorithmic sentencing.",
+          "The mathematics involved are too complex for any lawyer to understand."
+        ],
+        "answer": "The inner workings are protected as trade secrets by private tech conglomerates.",
+        "explanation": "The tools' inner workings are protected as trade secrets, preventing cross-examination."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The data ingested by these models is contaminated by decades of racially disproportionate ___.",
+        "answer": "policing",
+        "explanation": "The speaker mentions decades of systemic, racially disproportionate policing."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The algorithm functions as a feedback loop, resulting in a phenomenon described as digital ___.",
+        "answer": "redlining",
+        "explanation": "Dr. Vance calls it digital redlining."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "A zip code or education level becomes a covert ___ for race.",
+        "answer": "stand-in",
+        "explanation": "He says a zip code becomes a covert stand-in for race."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Many legal scholars advocate for a ___ until transparency can be guaranteed.",
+        "answer": "moratorium",
+        "explanation": "He states legal scholars advocate for a moratorium."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the algorithmic characteristic to its consequence in the justice system.",
+        "pairs": [
+          { "left": "Reliance on proxy variables", "right": "Perpetuates racial bias despite formal exclusion of race" },
+          { "left": "Proprietary trade secrets", "right": "Creates a judicial black box preventing cross-examination" },
+          { "left": "Opaque statistical correlation", "right": "Replaces nuanced judicial reasoning" }
+        ],
+        "answers": {
+          "Reliance on proxy variables": "Perpetuates racial bias despite formal exclusion of race",
+          "Proprietary trade secrets": "Creates a judicial black box preventing cross-examination",
+          "Opaque statistical correlation": "Replaces nuanced judicial reasoning"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the proposed solution to the problem it aims to address.",
+        "pairs": [
+          { "left": "Mandatory algorithmic audits", "right": "Identifying embedded biases in the code" },
+          { "left": "A complete moratorium", "right": "Halting usage until transparency is guaranteed" },
+          { "left": "Guaranteeing due process", "right": "Allowing defendants to interrogate the scoring mechanism" }
+        ],
+        "answers": {
+          "Mandatory algorithmic audits": "Identifying embedded biases in the code",
+          "A complete moratorium": "Halting usage until transparency is guaranteed",
+          "Guaranteeing due process": "Allowing defendants to interrogate the scoring mechanism"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the term to its contextual meaning in the documentary.",
+        "pairs": [
+          { "left": "Feedback loop", "right": "Reinforcing historical inequities through cyclical data" },
+          { "left": "Veneer of objective mathematics", "right": "The false appearance of fairness masking underlying prejudice" },
+          { "left": "Digital destiny", "right": "An inescapable future determined by historical biases" }
+        ],
+        "answers": {
+          "Feedback loop": "Reinforcing historical inequities through cyclical data",
+          "Veneer of objective mathematics": "The false appearance of fairness masking underlying prejudice",
+          "Digital destiny": "An inescapable future determined by historical biases"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_practice_03",
+    "type": "practice",
+    "cefrLevel": "C1",
+    "title": "Decline of Liberal Democracy",
+    "description": "An academic roundtable discussing institutional decay, illiberalism, and the rise of populist movements.",
+    "topic": "Academic roundtable on the decline of liberal democracy",
+    "estimatedMinutes": 20,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Welcome to our roundtable. We are witnessing a global democratic recession. Professor Evans, what constitutes the primary vector of this institutional decay?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "It is predominantly the erosion of unwritten democratic norms, specifically mutual toleration and institutional forbearance, rather than outright military coups."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "So democracies are dying at the ballot box, facilitated by elected leaders who systematically dismantle the guardrails of the republic?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Precisely. Autocrats weaponize the legal system to disenfranchise opposition, pack the judiciary, and delegitimize independent media, all under the guise of constitutionality."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "This phenomenon is often labeled 'illiberal democracy'. Is that not an inherent contradiction in terms?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "It is an oxymoron. It describes a system that holds competitive elections but routinely violates civil liberties and the rule of law, hollowing out the liberal component."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What acts as the catalyst for the populace to willingly embrace such populist demagogues?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Economic stagnation and severe wealth stratification breed deep resentment. Populists adeptly exploit this anxiety, channeling it towards scapegoated out-groups or elite establishments."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "They frame themselves as the sole authentic voice of a monolithic 'true people'."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Exactly. This anti-pluralist stance is highly corrosive. By defining their opponents not merely as wrong, but as illegitimate and treasonous, they fracture societal cohesion."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Can robust constitutions effectively immunize a nation against this insidious creep of authoritarianism?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Constitutions are merely parchment without a broad societal consensus willing to enforce them. Legalistic defenses fail when political polarization becomes tribal."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Therefore, the defense of democracy must be fundamentally civic rather than purely legalistic."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Undoubtedly. Rebuilding civic trust and demonstrating that democratic institutions can actually deliver material prosperity to the working class is the only durable antidote."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "So we must address the underlying economic pathology, not merely treat the populist symptoms."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "That is the imperative. If liberal democracy fails to provide equity, the siren song of authoritarian efficiency will only grow louder."
+      }
+    ],
+    "fullScript": "A: Welcome to our roundtable. We are witnessing a global democratic recession. Professor Evans, what constitutes the primary vector of this institutional decay?\nB: It is predominantly the erosion of unwritten democratic norms, specifically mutual toleration and institutional forbearance, rather than outright military coups.\nA: So democracies are dying at the ballot box, facilitated by elected leaders who systematically dismantle the guardrails of the republic?\nB: Precisely. Autocrats weaponize the legal system to disenfranchise opposition, pack the judiciary, and delegitimize independent media, all under the guise of constitutionality.\nA: This phenomenon is often labeled 'illiberal democracy'. Is that not an inherent contradiction in terms?\nB: It is an oxymoron. It describes a system that holds competitive elections but routinely violates civil liberties and the rule of law, hollowing out the liberal component.\nA: What acts as the catalyst for the populace to willingly embrace such populist demagogues?\nB: Economic stagnation and severe wealth stratification breed deep resentment. Populists adeptly exploit this anxiety, channeling it towards scapegoated out-groups or elite establishments.\nA: They frame themselves as the sole authentic voice of a monolithic 'true people'.\nB: Exactly. This anti-pluralist stance is highly corrosive. By defining their opponents not merely as wrong, but as illegitimate and treasonous, they fracture societal cohesion.\nA: Can robust constitutions effectively immunize a nation against this insidious creep of authoritarianism?\nB: Constitutions are merely parchment without a broad societal consensus willing to enforce them. Legalistic defenses fail when political polarization becomes tribal.\nA: Therefore, the defense of democracy must be fundamentally civic rather than purely legalistic.\nB: Undoubtedly. Rebuilding civic trust and demonstrating that democratic institutions can actually deliver material prosperity to the working class is the only durable antidote.\nA: So we must address the underlying economic pathology, not merely treat the populist symptoms.\nB: That is the imperative. If liberal democracy fails to provide equity, the siren song of authoritarian efficiency will only grow louder.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "According to Professor Evans, what is the primary mechanism through which modern democracies decay?",
+        "options": [
+          "Violent military coups orchestrated by foreign adversaries.",
+          "The erosion of unwritten democratic norms by elected leaders.",
+          "The refusal of citizens to vote in competitive elections.",
+          "The intentional rewriting of national constitutions by the judiciary."
+        ],
+        "answer": "The erosion of unwritten democratic norms by elected leaders.",
+        "explanation": "He states the primary vector is the erosion of unwritten democratic norms, rather than outright military coups."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What characterizes an 'illiberal democracy' according to the discussion?",
+        "options": [
+          "It abolishes all forms of voting and elections permanently.",
+          "It holds competitive elections but violates civil liberties and the rule of law.",
+          "It requires all citizens to actively participate in the legal system.",
+          "It distributes wealth equally to completely eliminate stratification."
+        ],
+        "answer": "It holds competitive elections but violates civil liberties and the rule of law.",
+        "explanation": "It holds competitive elections but routinely violates civil liberties, hollowing out the liberal component."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why do robust constitutions fail to prevent authoritarianism on their own?",
+        "options": [
+          "Because they are often written in archaic languages.",
+          "Because they inherently favor populist demagogues.",
+          "Because legalistic defenses fail when political polarization becomes tribal.",
+          "Because they cannot be legally amended during economic crises."
+        ],
+        "answer": "Because legalistic defenses fail when political polarization becomes tribal.",
+        "explanation": "Professor Evans argues that constitutions are merely parchment and legalistic defenses fail when polarization becomes tribal."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Elected autocrats weaponize the legal system to disenfranchise opposition under the guise of ___.",
+        "answer": "constitutionality",
+        "explanation": "He mentions they dismantle guardrails under the guise of constitutionality."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Populists channel public resentment towards scapegoated out-groups or elite ___.",
+        "answer": "establishments",
+        "explanation": "Populists channel anxiety towards scapegoated out-groups or elite establishments."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Populists fracture societal cohesion by defining their opponents as illegitimate and ___.",
+        "answer": "treasonous",
+        "explanation": "Opponents are defined not just as wrong, but as illegitimate and treasonous."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Rebuilding civic trust and delivering material prosperity is the only durable ___.",
+        "answer": "antidote",
+        "explanation": "He calls delivering material prosperity the only durable antidote."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the political tactic to the actor or concept it describes.",
+        "pairs": [
+          { "left": "Weaponizing the legal system", "right": "A tactic used by elected autocrats" },
+          { "left": "Exploiting economic anxiety", "right": "A method used by populists to gain support" },
+          { "left": "Providing material prosperity", "right": "A necessary civic defense against authoritarianism" }
+        ],
+        "answers": {
+          "Weaponizing the legal system": "A tactic used by elected autocrats",
+          "Exploiting economic anxiety": "A method used by populists to gain support",
+          "Providing material prosperity": "A necessary civic defense against authoritarianism"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the democratic norm to its vulnerability.",
+        "pairs": [
+          { "left": "Mutual toleration", "right": "Eroded by politicians labeling opponents as treasonous" },
+          { "left": "Constitutional law", "right": "Fails to protect when society lacks consensus" },
+          { "left": "Competitive elections", "right": "Can still exist in an illiberal system that violates rights" }
+        ],
+        "answers": {
+          "Mutual toleration": "Eroded by politicians labeling opponents as treasonous",
+          "Constitutional law": "Fails to protect when society lacks consensus",
+          "Competitive elections": "Can still exist in an illiberal system that violates rights"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the term to its metaphorical description in the text.",
+        "pairs": [
+          { "left": "Illiberal democracy", "right": "An oxymoron" },
+          { "left": "Constitutions", "right": "Merely parchment without consensus" },
+          { "left": "Authoritarian efficiency", "right": "A siren song appealing during times of inequity" }
+        ],
+        "answers": {
+          "Illiberal democracy": "An oxymoron",
+          "Constitutions": "Merely parchment without consensus",
+          "Authoritarian efficiency": "A siren song appealing during times of inequity"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_practice_04",
+    "type": "practice",
+    "cefrLevel": "C1",
+    "title": "History of the Internet: From ARPANET to Web3",
+    "description": "A long-form podcast tracing the evolution of the internet from a decentralized military project to a corporatized landscape.",
+    "topic": "Long-form podcast on the history of the internet",
+    "estimatedMinutes": 21,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Welcome to 'Digital Epochs'. Today, we trace the internet's trajectory from utopian decentralization to corporate consolidation. My guest is internet historian, Mark."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Thank you. It is crucial to remember the internet's genesis. ARPANET was engineered by the Department of Defense with resilience as its paramount objective."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Because a decentralized, packet-switching network could survive a nuclear strike, unlike traditional centralized communication nodes?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Exactly. This architectural imperative—having no single point of failure—fostered an ethos of open-source collaboration among the early academic pioneers."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "When did this academic, egalitarian utopia begin to transition into a commercialized marketplace?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "The inflection point was the early nineties, catalyzed by Tim Berners-Lee's invention of the World Wide Web and the subsequent lifting of commercial restrictions."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Which precipitated the dot-com bubble. A period characterized by irrational exuberance and speculative frenzy."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Indeed. While the bubble burst spectacularly, it laid the requisite fiber-optic infrastructure for Web 2.0—the era of user-generated content and social media."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Web 2.0 promised democratization, yet paradoxically, it resulted in unprecedented centralization of power among a few tech behemoths."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "That is the defining irony. Companies monetized the network effect, enclosing the open web into proprietary walled gardens fueled by surveillance capitalism."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "This brings us to the current discourse surrounding Web3. Is blockchain technology the panacea for restoring decentralization?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Web3 advocates argue that cryptographic ledgers can wrest control from centralized platforms, redistributing ownership to the users."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "However, critics contend that Web3 is merely financializing every digital interaction, plagued by environmental concerns and rampant grift."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "That skepticism is warranted. Much of Web3 currently replicates existing power hierarchies under the guise of technological determinism."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "So, the battle for the soul of the internet is an ongoing dialectic between open architecture and monopolistic capture."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Precisely. Technology is not inherently emancipatory. Its trajectory is dictated by the political economy that funds and regulates it."
+      }
+    ],
+    "fullScript": "A: Welcome to 'Digital Epochs'. Today, we trace the internet's trajectory from utopian decentralization to corporate consolidation. My guest is internet historian, Mark.\nB: Thank you. It is crucial to remember the internet's genesis. ARPANET was engineered by the Department of Defense with resilience as its paramount objective.\nA: Because a decentralized, packet-switching network could survive a nuclear strike, unlike traditional centralized communication nodes?\nB: Exactly. This architectural imperative—having no single point of failure—fostered an ethos of open-source collaboration among the early academic pioneers.\nA: When did this academic, egalitarian utopia begin to transition into a commercialized marketplace?\nB: The inflection point was the early nineties, catalyzed by Tim Berners-Lee's invention of the World Wide Web and the subsequent lifting of commercial restrictions.\nA: Which precipitated the dot-com bubble. A period characterized by irrational exuberance and speculative frenzy.\nB: Indeed. While the bubble burst spectacularly, it laid the requisite fiber-optic infrastructure for Web 2.0—the era of user-generated content and social media.\nA: Web 2.0 promised democratization, yet paradoxically, it resulted in unprecedented centralization of power among a few tech behemoths.\nB: That is the defining irony. Companies monetized the network effect, enclosing the open web into proprietary walled gardens fueled by surveillance capitalism.\nA: This brings us to the current discourse surrounding Web3. Is blockchain technology the panacea for restoring decentralization?\nB: Web3 advocates argue that cryptographic ledgers can wrest control from centralized platforms, redistributing ownership to the users.\nA: However, critics contend that Web3 is merely financializing every digital interaction, plagued by environmental concerns and rampant grift.\nB: That skepticism is warranted. Much of Web3 currently replicates existing power hierarchies under the guise of technological determinism.\nA: So, the battle for the soul of the internet is an ongoing dialectic between open architecture and monopolistic capture.\nB: Precisely. Technology is not inherently emancipatory. Its trajectory is dictated by the political economy that funds and regulates it.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What was the paramount objective of ARPANET's initial architectural design?",
+        "options": [
+          "To create a global marketplace for digital goods.",
+          "To establish a decentralized network that could survive a nuclear strike.",
+          "To monetize user-generated content for academic institutions.",
+          "To invent a system for cryptographic financial ledgers."
+        ],
+        "answer": "To establish a decentralized network that could survive a nuclear strike.",
+        "explanation": "ARPANET was engineered by the Department of Defense with resilience as its paramount objective, specifically surviving a nuclear strike."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What was the paradoxical outcome of Web 2.0?",
+        "options": [
+          "It promised democratization but resulted in unprecedented centralization of power.",
+          "It completely eliminated the need for fiber-optic infrastructure.",
+          "It successfully restored the open-source collaboration of the early internet.",
+          "It prevented surveillance capitalism from taking root online."
+        ],
+        "answer": "It promised democratization but resulted in unprecedented centralization of power.",
+        "explanation": "The speaker notes that while Web 2.0 promised democratization, it paradoxically resulted in centralization among tech behemoths."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What do critics of Web3 contend about its current state?",
+        "options": [
+          "It successfully redistributes all ownership to the poorest users.",
+          "It is completely immune to environmental concerns.",
+          "It financializes digital interactions and is plagued by rampant grift.",
+          "It operates without any form of cryptographic ledger."
+        ],
+        "answer": "It financializes digital interactions and is plagued by rampant grift.",
+        "explanation": "Critics contend Web3 is financializing digital interaction, plagued by environmental concerns and rampant grift."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The lack of a single point of failure fostered an ethos of ___ collaboration.",
+        "answer": "open-source",
+        "explanation": "Mark states the architecture fostered an ethos of open-source collaboration."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The dot-com bubble was characterized by irrational exuberance and speculative ___.",
+        "answer": "frenzy",
+        "explanation": "The period is described as characterized by speculative frenzy."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Companies monetized the network effect, enclosing the web into proprietary ___ gardens.",
+        "answer": "walled",
+        "explanation": "Mark explains they enclosed the open web into proprietary walled gardens."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The trajectory of technology is dictated by the political ___ that funds and regulates it.",
+        "answer": "economy",
+        "explanation": "He concludes its trajectory is dictated by the political economy."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the era or project to its defining characteristic from the podcast.",
+        "pairs": [
+          { "left": "ARPANET", "right": "Packet-switching network built for resilience" },
+          { "left": "Dot-com Bubble", "right": "Laid fiber-optic infrastructure despite bursting" },
+          { "left": "Web 2.0", "right": "Era of user-generated content and walled gardens" },
+          { "left": "Web3", "right": "Utilizes cryptographic ledgers to theoretically wrest control" }
+        ],
+        "answers": {
+          "ARPANET": "Packet-switching network built for resilience",
+          "Dot-com Bubble": "Laid fiber-optic infrastructure despite bursting",
+          "Web 2.0": "Era of user-generated content and walled gardens",
+          "Web3": "Utilizes cryptographic ledgers to theoretically wrest control"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the concept to its critique.",
+        "pairs": [
+          { "left": "Surveillance capitalism", "right": "The economic model fueling tech behemoths' centralization" },
+          { "left": "Technological determinism", "right": "The guise under which Web3 replicates existing power hierarchies" },
+          { "left": "Irrational exuberance", "right": "The psychological state driving early internet financial speculation" }
+        ],
+        "answers": {
+          "Surveillance capitalism": "The economic model fueling tech behemoths' centralization",
+          "Technological determinism": "The guise under which Web3 replicates existing power hierarchies",
+          "Irrational exuberance": "The psychological state driving early internet financial speculation"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the cause to its effect regarding the internet's evolution.",
+        "pairs": [
+          { "left": "Lifting of commercial restrictions", "right": "Transitioned the internet into a commercialized marketplace" },
+          { "left": "Monetizing the network effect", "right": "Created unprecedented centralization of power" },
+          { "left": "Financializing digital interactions", "right": "Draws criticism towards the Web3 movement" }
+        ],
+        "answers": {
+          "Lifting of commercial restrictions": "Transitioned the internet into a commercialized marketplace",
+          "Monetizing the network effect": "Created unprecedented centralization of power",
+          "Financializing digital interactions": "Draws criticism towards the Web3 movement"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_practice_05",
+    "type": "practice",
+    "cefrLevel": "C1",
+    "title": "Investigative Journalism: The Pharmaceutical Industry",
+    "description": "An investigative discussion dissecting patent monopolies, R&D costs, and drug pricing ethics.",
+    "topic": "Investigative journalism discussion on pharmaceutical industry",
+    "estimatedMinutes": 22,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Joining me is investigative reporter, Sarah. Sarah, your latest exposé scrutinizes the opaque pricing mechanisms of the pharmaceutical industry."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Yes. The industry's perennial justification for exorbitant drug prices is the astronomical cost of research and development, often cited to be in the billions per drug."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Is that figure statistically accurate, or is it an inflated metric utilized for public relations?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "It is highly inflated. It includes 'opportunity costs'—what the money could have earned in the stock market—and ignores the massive public subsidies provided by government grants."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "So, taxpayers essentially fund the foundational research, yet bear the brunt of monopoly pricing once the drug is commercialized?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Exactly. The National Institutes of Health funds basic research, which pharma companies then acquire, patent, and market at predatory margins."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Let us discuss patents. Are they not designed to expire after twenty years, allowing generic competitors to lower market prices?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Theoretically, yes. But corporations employ a tactic known as 'patent evergreening'. They make trivial modifications to a drug—like altering a dosage mechanism—to extend the monopoly."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "This creates a dense patent thicket that generic manufacturers simply cannot afford to litigate against."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Precisely. Furthermore, we uncovered 'pay-for-delay' settlements, where brand-name companies literally pay generic manufacturers to delay their market entry."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "That sounds unequivocally like anti-competitive collusion. Why hasn't antitrust legislation dismantled these practices?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "The industry possesses an unparalleled lobbying apparatus. They outspend almost every other sector to ensure legislative complacency and regulatory capture."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What are the tangible consequences for patients navigating this labyrinthine system?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Rationing life-saving medication. Diabetics rationing insulin, for instance, leads to preventable amputations and fatalities. It is a profound moral failing."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Is international price referencing a viable mechanism to curtail these abuses?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "It is a robust policy tool. Tying domestic prices to an index of what other developed nations pay would significantly mitigate the gouging."
+      }
+    ],
+    "fullScript": "A: Joining me is investigative reporter, Sarah. Sarah, your latest exposé scrutinizes the opaque pricing mechanisms of the pharmaceutical industry.\nB: Yes. The industry's perennial justification for exorbitant drug prices is the astronomical cost of research and development, often cited to be in the billions per drug.\nA: Is that figure statistically accurate, or is it an inflated metric utilized for public relations?\nB: It is highly inflated. It includes 'opportunity costs'—what the money could have earned in the stock market—and ignores the massive public subsidies provided by government grants.\nA: So, taxpayers essentially fund the foundational research, yet bear the brunt of monopoly pricing once the drug is commercialized?\nB: Exactly. The National Institutes of Health funds basic research, which pharma companies then acquire, patent, and market at predatory margins.\nA: Let us discuss patents. Are they not designed to expire after twenty years, allowing generic competitors to lower market prices?\nB: Theoretically, yes. But corporations employ a tactic known as 'patent evergreening'. They make trivial modifications to a drug—like altering a dosage mechanism—to extend the monopoly.\nA: This creates a dense patent thicket that generic manufacturers simply cannot afford to litigate against.\nB: Precisely. Furthermore, we uncovered 'pay-for-delay' settlements, where brand-name companies literally pay generic manufacturers to delay their market entry.\nA: That sounds unequivocally like anti-competitive collusion. Why hasn't antitrust legislation dismantled these practices?\nB: The industry possesses an unparalleled lobbying apparatus. They outspend almost every other sector to ensure legislative complacency and regulatory capture.\nA: What are the tangible consequences for patients navigating this labyrinthine system?\nB: Rationing life-saving medication. Diabetics rationing insulin, for instance, leads to preventable amputations and fatalities. It is a profound moral failing.\nA: Is international price referencing a viable mechanism to curtail these abuses?\nB: It is a robust policy tool. Tying domestic prices to an index of what other developed nations pay would significantly mitigate the gouging.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "According to the investigative reporter, why is the pharmaceutical industry's claimed R&D cost highly inflated?",
+        "options": [
+          "It includes the salaries of politicians they lobby.",
+          "It counts marketing expenses as scientific research.",
+          "It includes opportunity costs and ignores public subsidies.",
+          "It factors in the cost of international manufacturing plants."
+        ],
+        "answer": "It includes opportunity costs and ignores public subsidies.",
+        "explanation": "Sarah states the figure includes opportunity costs and ignores the massive public subsidies provided by government grants."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the primary goal of the tactic known as 'patent evergreening'?",
+        "options": [
+          "To make medications more environmentally friendly to produce.",
+          "To allow generic companies to enter the market sooner.",
+          "To extend a drug's monopoly by making trivial modifications.",
+          "To transfer the patent rights back to the government."
+        ],
+        "answer": "To extend a drug's monopoly by making trivial modifications.",
+        "explanation": "Corporations employ patent evergreening—making trivial modifications to a drug—to extend the monopoly."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What prevents antitrust legislation from dismantling practices like 'pay-for-delay'?",
+        "options": [
+          "The pharmaceutical industry's unparalleled lobbying apparatus.",
+          "A lack of evidence that the practices actually exist.",
+          "The constitutional right to freedom of corporate speech.",
+          "International treaties that protect pharmaceutical pricing."
+        ],
+        "answer": "The pharmaceutical industry's unparalleled lobbying apparatus.",
+        "explanation": "Sarah notes the industry possesses an unparalleled lobbying apparatus to ensure legislative complacency."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The industry's perennial justification for exorbitant prices is the cost of research and ___.",
+        "answer": "development",
+        "explanation": "The justification is the cost of research and development."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Taxpayers fund foundational research, yet bear the brunt of ___ pricing.",
+        "answer": "monopoly",
+        "explanation": "Taxpayers bear the brunt of monopoly pricing."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Brand-name companies use '___-for-delay' settlements to keep generic drugs off the market.",
+        "answer": "pay",
+        "explanation": "They uncover 'pay-for-delay' settlements."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Tying domestic prices to an index of what other nations pay is called international price ___.",
+        "answer": "referencing",
+        "explanation": "The mechanism is referred to as international price referencing."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the pharmaceutical industry practice with its description.",
+        "pairs": [
+          { "left": "Patent evergreening", "right": "Making trivial drug modifications to extend a patent" },
+          { "left": "Pay-for-delay settlements", "right": "Paying generic manufacturers to halt market entry" },
+          { "left": "Regulatory capture", "right": "Using lobbying to ensure legislative complacency" }
+        ],
+        "answers": {
+          "Patent evergreening": "Making trivial drug modifications to extend a patent",
+          "Pay-for-delay settlements": "Paying generic manufacturers to halt market entry",
+          "Regulatory capture": "Using lobbying to ensure legislative complacency"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the entity to its role in the pharmaceutical ecosystem as discussed.",
+        "pairs": [
+          { "left": "National Institutes of Health", "right": "Provides public subsidies and funds basic research" },
+          { "left": "Generic manufacturers", "right": "Unable to litigate against dense patent thickets" },
+          { "left": "Patients (e.g., Diabetics)", "right": "Forced into rationing life-saving medication" }
+        ],
+        "answers": {
+          "National Institutes of Health": "Provides public subsidies and funds basic research",
+          "Generic manufacturers": "Unable to litigate against dense patent thickets",
+          "Patients (e.g., Diabetics)": "Forced into rationing life-saving medication"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the phrase to its synonym or meaning in the context of the interview.",
+        "pairs": [
+          { "left": "Opaque pricing mechanisms", "right": "Systems lacking transparency" },
+          { "left": "Predatory margins", "right": "Extremely high and exploitative profits" },
+          { "left": "Labyrinthine system", "right": "Highly complex and confusing structure" }
+        ],
+        "answers": {
+          "Opaque pricing mechanisms": "Systems lacking transparency",
+          "Predatory margins": "Extremely high and exploitative profits",
+          "Labyrinthine system": "Highly complex and confusing structure"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_practice_06",
+    "type": "practice",
+    "cefrLevel": "C1",
+    "title": "Debate on Genetic Determinism vs Free Will",
+    "description": "An interdisciplinary debate on how behavioral genetics intersects with moral responsibility and free will.",
+    "topic": "Debate on genetic determinism vs free will",
+    "estimatedMinutes": 21,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "We are convening to discuss the philosophical implications of modern genetics. Dr. Hayes, does behavioral genetics necessitate a shift towards hard determinism?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "It certainly challenges our intuitive notion of libertarian free will. If our impulses, predispositions, and cognitive capacities are heavily heritable, the scope of our conscious agency narrows considerably."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "But heritability does not equate to inevitability. To assert that genes wholly dictate destiny is to succumb to a reductionist fallacy."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "I concede that genetics are probabilistic, not deterministic. However, we cannot ignore the neurochemical constraints imposed by our DNA. The 'choices' we make are profoundly circumscribed by our biological hardware."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "If our choices are mere byproducts of biochemical cascades over which we have no authorship, how do we justify moral responsibility or the penal system?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "That is the crux of the compatibilist dilemma. Retributive justice—punishing someone because they 'deserve' it—becomes philosophically untenable if their actions were neurobiologically predetermined."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "So you advocate for a purely consequentialist justice system? One focused solely on deterrence and rehabilitation rather than moral culpability?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Precisely. We quarantine individuals carrying dangerous diseases without assigning moral blame; similarly, we should isolate dangerous individuals to protect society, whilst discarding the archaic notion of 'sin'."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Critics argue that stripping humanity of moral agency degrades our inherent dignity. It reduces us to complex automatons."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "I argue the inverse. Recognizing our biological constraints fosters profound empathy. We judge less harshly when we realize individuals did not author their own neurochemistry."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Yet, subjective experience insists that we are the authors of our actions. Is consciousness merely an epiphenomenon, a passenger mistaking itself for the driver?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Neuroscience increasingly suggests it is exactly that—an after-the-fact rationalization of decisions already synthesized by our subconscious neural networks."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "If society fully internalized this fatalistic view, it could engender widespread nihilism and a collapse of civic duty."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "That is a pragmatic concern, but the potential societal discomfort of a truth does not render it false. We must align our ethics with empirical reality."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Perhaps the concept of free will, even if an illusion, is an evolutionarily necessary fiction for societal cohesion."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "A compelling hypothesis, but building jurisprudence on an illusion is fundamentally precarious."
+      }
+    ],
+    "fullScript": "A: We are convening to discuss the philosophical implications of modern genetics. Dr. Hayes, does behavioral genetics necessitate a shift towards hard determinism?\nB: It certainly challenges our intuitive notion of libertarian free will. If our impulses, predispositions, and cognitive capacities are heavily heritable, the scope of our conscious agency narrows considerably.\nA: But heritability does not equate to inevitability. To assert that genes wholly dictate destiny is to succumb to a reductionist fallacy.\nB: I concede that genetics are probabilistic, not deterministic. However, we cannot ignore the neurochemical constraints imposed by our DNA. The 'choices' we make are profoundly circumscribed by our biological hardware.\nA: If our choices are mere byproducts of biochemical cascades over which we have no authorship, how do we justify moral responsibility or the penal system?\nB: That is the crux of the compatibilist dilemma. Retributive justice—punishing someone because they 'deserve' it—becomes philosophically untenable if their actions were neurobiologically predetermined.\nA: So you advocate for a purely consequentialist justice system? One focused solely on deterrence and rehabilitation rather than moral culpability?\nB: Precisely. We quarantine individuals carrying dangerous diseases without assigning moral blame; similarly, we should isolate dangerous individuals to protect society, whilst discarding the archaic notion of 'sin'.\nA: Critics argue that stripping humanity of moral agency degrades our inherent dignity. It reduces us to complex automatons.\nB: I argue the inverse. Recognizing our biological constraints fosters profound empathy. We judge less harshly when we realize individuals did not author their own neurochemistry.\nA: Yet, subjective experience insists that we are the authors of our actions. Is consciousness merely an epiphenomenon, a passenger mistaking itself for the driver?\nB: Neuroscience increasingly suggests it is exactly that—an after-the-fact rationalization of decisions already synthesized by our subconscious neural networks.\nA: If society fully internalized this fatalistic view, it could engender widespread nihilism and a collapse of civic duty.\nB: That is a pragmatic concern, but the potential societal discomfort of a truth does not render it false. We must align our ethics with empirical reality.\nA: Perhaps the concept of free will, even if an illusion, is an evolutionarily necessary fiction for societal cohesion.\nB: A compelling hypothesis, but building jurisprudence on an illusion is fundamentally precarious.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What does Dr. Hayes identify as the primary challenge behavioral genetics poses to libertarian free will?",
+        "options": [
+          "It proves that the environment has absolutely no effect on development.",
+          "It suggests that our impulses and cognitive capacities are heavily heritable.",
+          "It demonstrates that consciousness does not actually exist.",
+          "It provides a chemical cure for all criminal behavior."
+        ],
+        "answer": "It suggests that our impulses and cognitive capacities are heavily heritable.",
+        "explanation": "Dr. Hayes states that because our impulses and capacities are heavily heritable, conscious agency narrows."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How does Dr. Hayes view the concept of retributive justice in light of neurobiological determinism?",
+        "options": [
+          "It is the only logical way to maintain societal order.",
+          "It becomes philosophically untenable if actions are predetermined.",
+          "It should be expanded to punish individuals for genetic predispositions.",
+          "It perfectly aligns with the principles of behavioral genetics."
+        ],
+        "answer": "It becomes philosophically untenable if actions are predetermined.",
+        "explanation": "He argues retributive justice becomes philosophically untenable if actions are neurobiologically predetermined."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "According to Dr. Hayes, what is a positive social outcome of recognizing biological constraints?",
+        "options": [
+          "It fosters profound empathy and reduces harsh judgment.",
+          "It inevitably leads to widespread societal nihilism.",
+          "It guarantees that criminal activity will decrease.",
+          "It provides the illusion needed for civic duty."
+        ],
+        "answer": "It fosters profound empathy and reduces harsh judgment.",
+        "explanation": "He argues that recognizing biological constraints fosters profound empathy because individuals did not author their neurochemistry."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Asserting that genes wholly dictate destiny is considered a ___ fallacy.",
+        "answer": "reductionist",
+        "explanation": "The interviewer calls asserting genes dictate destiny a reductionist fallacy."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Our choices are profoundly ___ by our biological hardware.",
+        "answer": "circumscribed",
+        "explanation": "Dr. Hayes says choices are profoundly circumscribed by biological hardware."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Consciousness might merely be an ___, an after-the-fact rationalization of decisions.",
+        "answer": "epiphenomenon",
+        "explanation": "The term epiphenomenon is used to describe consciousness mistaking itself for the driver."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Internalizing this fatalistic view could engender widespread ___ and collapse civic duty.",
+        "answer": "nihilism",
+        "explanation": "The interviewer suggests it could engender widespread nihilism."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the philosophical or judicial concept to its description.",
+        "pairs": [
+          { "left": "Libertarian free will", "right": "The intuitive notion of conscious agency challenged by genetics" },
+          { "left": "Retributive justice", "right": "Punishing someone because they inherently deserve it" },
+          { "left": "Consequentialist justice", "right": "Focused solely on deterrence and rehabilitation" },
+          { "left": "Compatibilist dilemma", "right": "The difficulty of reconciling determinism with moral responsibility" }
+        ],
+        "answers": {
+          "Libertarian free will": "The intuitive notion of conscious agency challenged by genetics",
+          "Retributive justice": "Punishing someone because they inherently deserve it",
+          "Consequentialist justice": "Focused solely on deterrence and rehabilitation",
+          "Compatibilist dilemma": "The difficulty of reconciling determinism with moral responsibility"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the metaphor or analogy to its intended meaning in the debate.",
+        "pairs": [
+          { "left": "A passenger mistaking itself for the driver", "right": "Consciousness as an after-the-fact rationalization" },
+          { "left": "Quarantining dangerous diseases", "right": "Isolating criminals for societal protection without moral blame" },
+          { "left": "Biological hardware", "right": "The neurochemical constraints imposed by DNA" }
+        ],
+        "answers": {
+          "A passenger mistaking itself for the driver": "Consciousness as an after-the-fact rationalization",
+          "Quarantining dangerous diseases": "Isolating criminals for societal protection without moral blame",
+          "Biological hardware": "The neurochemical constraints imposed by DNA"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the speaker's viewpoint to the corresponding argument.",
+        "pairs": [
+          { "left": "Dr. Hayes", "right": "Genetics are probabilistic, but profoundly constrain choices" },
+          { "left": "Critics of determinism", "right": "Stripping moral agency reduces humanity to automatons" },
+          { "left": "Interviewer (Speaker A)", "right": "Posits free will might be a necessary fiction for cohesion" }
+        ],
+        "answers": {
+          "Dr. Hayes": "Genetics are probabilistic, but profoundly constrain choices",
+          "Critics of determinism": "Stripping moral agency reduces humanity to automatons",
+          "Interviewer (Speaker A)": "Posits free will might be a necessary fiction for cohesion"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_practice_07",
+    "type": "practice",
+    "cefrLevel": "C1",
+    "title": "Academic Discussion on Postmodern Philosophy",
+    "description": "An intense dialogue unraveling grand narratives, hyperreality, and the crisis of objective truth.",
+    "topic": "Academic discussion on postmodern philosophy",
+    "estimatedMinutes": 21,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Today we traverse the fragmented landscape of postmodernism. Professor Reed, Jean-François Lyotard famously defined postmodern as 'incredulity toward metanarratives.' What does this entail?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "It is the profound skepticism towards overarching, totalizing ideologies—like the Enlightenment's promise of rational progress or Marxism's historical materialism—that claim absolute, universal truth."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "So, in the postmodern condition, all knowledge is localized, contingent, and inherently subjective?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Exactly. Epistemology is decentralized. We abandon the quest for objective reality in favor of multiple, competing discourses, heavily influenced by power dynamics."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "This inevitably brings us to Jean Baudrillard's concept of 'hyperreality'. How does simulation supersede the real?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Baudrillard argued that in our media-saturated epoch, signs and symbols have detached from their referents. The simulation becomes more real than reality itself—the 'simulacrum'."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "For instance, an idealized Instagram lifestyle is a simulacrum; it references a reality that never actually existed."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "A perfect illustration. We consume and interact with these fabricated models, leading to a state where distinguishing authentic experience from mediated spectacle becomes impossible."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Critics charge that this radical relativism is intellectually corrosive. If there is no objective truth, how can we condemn fascism or champion human rights?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "That is the central ethical vulnerability of postmodernism. When deconstruction dismantles every ethical foundation as merely a 'linguistic construct', it risks descending into moral paralysis."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Did Derrida or Foucault offer an exit strategy from this epistemological nihilism?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Foucault emphasized exposing the power structures embedded within discourses, aiming for localized resistance rather than universal emancipation. But the risk of nihilism remains palpable."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Is the contemporary 'post-truth' era, characterized by fake news and alternative facts, the logical culmination of postmodern theory?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Many scholars vehemently argue yes. When the academy delegitimized objective truth, it inadvertently provided the intellectual scaffolding for political demagogues to construct bespoke realities."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "A tragic irony. The philosophy of liberation was weaponized for obfuscation."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Indeed. The tools forged to deconstruct oppressive hierarchies are now utilized to dismantle the very consensus required for democratic governance."
+      }
+    ],
+    "fullScript": "A: Today we traverse the fragmented landscape of postmodernism. Professor Reed, Jean-François Lyotard famously defined postmodern as 'incredulity toward metanarratives.' What does this entail?\nB: It is the profound skepticism towards overarching, totalizing ideologies—like the Enlightenment's promise of rational progress or Marxism's historical materialism—that claim absolute, universal truth.\nA: So, in the postmodern condition, all knowledge is localized, contingent, and inherently subjective?\nB: Exactly. Epistemology is decentralized. We abandon the quest for objective reality in favor of multiple, competing discourses, heavily influenced by power dynamics.\nA: This inevitably brings us to Jean Baudrillard's concept of 'hyperreality'. How does simulation supersede the real?\nB: Baudrillard argued that in our media-saturated epoch, signs and symbols have detached from their referents. The simulation becomes more real than reality itself—the 'simulacrum'.\nA: For instance, an idealized Instagram lifestyle is a simulacrum; it references a reality that never actually existed.\nB: A perfect illustration. We consume and interact with these fabricated models, leading to a state where distinguishing authentic experience from mediated spectacle becomes impossible.\nA: Critics charge that this radical relativism is intellectually corrosive. If there is no objective truth, how can we condemn fascism or champion human rights?\nB: That is the central ethical vulnerability of postmodernism. When deconstruction dismantles every ethical foundation as merely a 'linguistic construct', it risks descending into moral paralysis.\nA: Did Derrida or Foucault offer an exit strategy from this epistemological nihilism?\nB: Foucault emphasized exposing the power structures embedded within discourses, aiming for localized resistance rather than universal emancipation. But the risk of nihilism remains palpable.\nA: Is the contemporary 'post-truth' era, characterized by fake news and alternative facts, the logical culmination of postmodern theory?\nB: Many scholars vehemently argue yes. When the academy delegitimized objective truth, it inadvertently provided the intellectual scaffolding for political demagogues to construct bespoke realities.\nA: A tragic irony. The philosophy of liberation was weaponized for obfuscation.\nB: Indeed. The tools forged to deconstruct oppressive hierarchies are now utilized to dismantle the very consensus required for democratic governance.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What does Lyotard's phrase 'incredulity toward metanarratives' mean in the context of postmodernism?",
+        "options": [
+          "A complete acceptance of the Enlightenment's promise of rational progress.",
+          "A profound skepticism towards overarching ideologies that claim universal truth.",
+          "The belief that all storytelling must be strictly factual and historical.",
+          "An unwavering trust in objective reality and singular discourses."
+        ],
+        "answer": "A profound skepticism towards overarching ideologies that claim universal truth.",
+        "explanation": "Professor Reed explains it is profound skepticism towards overarching, totalizing ideologies that claim absolute, universal truth."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "According to Baudrillard's concept of 'hyperreality', what happens to signs and symbols?",
+        "options": [
+          "They become perfectly aligned with objective, historical facts.",
+          "They are completely eradicated by modern mass media.",
+          "They detach from their referents, making the simulation more real than reality.",
+          "They are used exclusively for localized political resistance."
+        ],
+        "answer": "They detach from their referents, making the simulation more real than reality.",
+        "explanation": "Baudrillard argued signs and symbols detach from referents, creating a simulacrum that is more real than reality itself."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is considered the central ethical vulnerability of postmodernism?",
+        "options": [
+          "It forces people to adhere to strict Marxist materialism.",
+          "It promotes the idea of a universal, objective human rights standard.",
+          "Its radical relativism and deconstruction risk descending into moral paralysis.",
+          "It fails to analyze power dynamics within language."
+        ],
+        "answer": "Its radical relativism and deconstruction risk descending into moral paralysis.",
+        "explanation": "Professor Reed notes that dismantling ethical foundations as linguistic constructs risks descending into moral paralysis."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "In the postmodern condition, all knowledge is localized, contingent, and inherently ___.",
+        "answer": "subjective",
+        "explanation": "Knowledge is described as localized, contingent, and inherently subjective."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The idealized Instagram lifestyle is a ___; it references a reality that never existed.",
+        "answer": "simulacrum",
+        "explanation": "The term used for a copy without an original is simulacrum."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Foucault emphasized exposing the power structures embedded within ___, aiming for localized resistance.",
+        "answer": "discourses",
+        "explanation": "Foucault focused on power structures embedded within discourses."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Delegitimizing objective truth inadvertently provided scaffolding for demagogues to construct ___ realities.",
+        "answer": "bespoke",
+        "explanation": "Demagogues construct bespoke realities."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the postmodern philosopher to their associated concept or action.",
+        "pairs": [
+          { "left": "Jean-François Lyotard", "right": "Defined postmodernism as incredulity toward metanarratives" },
+          { "left": "Jean Baudrillard", "right": "Theorized hyperreality and the simulacrum" },
+          { "left": "Michel Foucault", "right": "Emphasized exposing power structures within discourses" }
+        ],
+        "answers": {
+          "Jean-François Lyotard": "Defined postmodernism as incredulity toward metanarratives",
+          "Jean Baudrillard": "Theorized hyperreality and the simulacrum",
+          "Michel Foucault": "Emphasized exposing power structures within discourses"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the theoretical term to its definition in the dialogue.",
+        "pairs": [
+          { "left": "Metanarratives", "right": "Overarching ideologies claiming universal truth" },
+          { "left": "Hyperreality", "right": "A state where simulation supersedes the real" },
+          { "left": "Post-truth era", "right": "Characterized by alternative facts and bespoke realities" },
+          { "left": "Deconstruction", "right": "Dismantles ethical foundations as mere linguistic constructs" }
+        ],
+        "answers": {
+          "Metanarratives": "Overarching ideologies claiming universal truth",
+          "Hyperreality": "A state where simulation supersedes the real",
+          "Post-truth era": "Characterized by alternative facts and bespoke realities",
+          "Deconstruction": "Dismantles ethical foundations as mere linguistic constructs"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the societal consequence to the philosophical stance.",
+        "pairs": [
+          { "left": "Abandoning objective reality", "right": "Leads to epistemology being decentralized" },
+          { "left": "Interacting with fabricated models", "right": "Makes distinguishing authentic experience impossible" },
+          { "left": "Applying radical relativism", "right": "Makes condemning fascism ethically vulnerable" }
+        ],
+        "answers": {
+          "Abandoning objective reality": "Leads to epistemology being decentralized",
+          "Interacting with fabricated models": "Makes distinguishing authentic experience impossible",
+          "Applying radical relativism": "Makes condemning fascism ethically vulnerable"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_practice_08",
+    "type": "practice",
+    "cefrLevel": "C1",
+    "title": "Quantum Computing Implications",
+    "description": "An expert panel deliberating the transformative power of qubits, superposition, and cryptographic threats.",
+    "topic": "Expert panel on quantum computing implications",
+    "estimatedMinutes": 21,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Welcome. We are exploring the quantum frontier. Dr. Lin, how does a quantum computer fundamentally diverge from classical Von Neumann architecture?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Classical computing relies on bits, strictly binary—zero or one. Quantum computing utilizes qubits, which, through the principle of superposition, can exist as zero, one, or any quantum proportion of both simultaneously."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "This allows for parallel processing on an unprecedented, almost unfathomable scale?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Precisely. Furthermore, qubits exhibit entanglement. Measuring the state of one instantly dictates the state of its entangled partner, regardless of spatial separation."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What is the practical implication of this exponential computational leap for existing global infrastructure?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "The most imminent paradigm shift concerns cryptography. Shor's algorithm, running on a sufficiently stable quantum computer, will trivially factor large primes, rendering RSA encryption obsolete."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Meaning the bedrock of our digital economy—secure banking, military communications, internet privacy—is fundamentally compromised?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Yes, it is termed 'Q-Day'. We are currently witnessing a 'harvest now, decrypt later' strategy by nation-states, hoarding encrypted data until quantum decryption comes online."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "How are cryptographers mitigating this existential cybersecurity threat?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "There is a frantic race to develop post-quantum cryptography—algorithms utilizing complex mathematical structures, like lattice-based cryptography, that are theoretically impervious to quantum attacks."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Beyond the apocalyptic cryptographic scenarios, what are the beneficial applications?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Molecular simulation. Classical computers cannot accurately model complex molecular interactions. Quantum computers will revolutionize drug discovery and materials science by natively simulating quantum mechanics."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "However, achieving 'quantum supremacy' is hindered by the fragility of qubits. They are notoriously susceptible to environmental noise."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Correct. Decoherence is the primary engineering bottleneck. Maintaining superposition requires absolute zero temperatures and flawless error correction protocols."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "So, a fault-tolerant, commercial quantum computer remains decades away?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Perhaps. But progress is non-linear. The transition from theoretical physics to practical engineering is accelerating exponentially."
+      }
+    ],
+    "fullScript": "A: Welcome. We are exploring the quantum frontier. Dr. Lin, how does a quantum computer fundamentally diverge from classical Von Neumann architecture?\nB: Classical computing relies on bits, strictly binary—zero or one. Quantum computing utilizes qubits, which, through the principle of superposition, can exist as zero, one, or any quantum proportion of both simultaneously.\nA: This allows for parallel processing on an unprecedented, almost unfathomable scale?\nB: Precisely. Furthermore, qubits exhibit entanglement. Measuring the state of one instantly dictates the state of its entangled partner, regardless of spatial separation.\nA: What is the practical implication of this exponential computational leap for existing global infrastructure?\nB: The most imminent paradigm shift concerns cryptography. Shor's algorithm, running on a sufficiently stable quantum computer, will trivially factor large primes, rendering RSA encryption obsolete.\nA: Meaning the bedrock of our digital economy—secure banking, military communications, internet privacy—is fundamentally compromised?\nB: Yes, it is termed 'Q-Day'. We are currently witnessing a 'harvest now, decrypt later' strategy by nation-states, hoarding encrypted data until quantum decryption comes online.\nA: How are cryptographers mitigating this existential cybersecurity threat?\nB: There is a frantic race to develop post-quantum cryptography—algorithms utilizing complex mathematical structures, like lattice-based cryptography, that are theoretically impervious to quantum attacks.\nA: Beyond the apocalyptic cryptographic scenarios, what are the beneficial applications?\nB: Molecular simulation. Classical computers cannot accurately model complex molecular interactions. Quantum computers will revolutionize drug discovery and materials science by natively simulating quantum mechanics.\nA: However, achieving 'quantum supremacy' is hindered by the fragility of qubits. They are notoriously susceptible to environmental noise.\nB: Correct. Decoherence is the primary engineering bottleneck. Maintaining superposition requires absolute zero temperatures and flawless error correction protocols.\nA: So, a fault-tolerant, commercial quantum computer remains decades away?\nB: Perhaps. But progress is non-linear. The transition from theoretical physics to practical engineering is accelerating exponentially.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What principle allows a qubit to exist as zero, one, or both simultaneously?",
+        "options": [
+          "Decoherence",
+          "Entanglement",
+          "Superposition",
+          "Lattice-based cryptography"
+        ],
+        "answer": "Superposition",
+        "explanation": "The principle of superposition allows qubits to exist as zero, one, or any proportion of both simultaneously."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the primary threat posed by Shor's algorithm to modern cybersecurity?",
+        "options": [
+          "It will introduce environmental noise to data centers.",
+          "It will trivially factor large primes, rendering RSA encryption obsolete.",
+          "It will permanently alter the physical state of entangled qubits.",
+          "It will force all banking transactions to be publicly broadcast."
+        ],
+        "answer": "It will trivially factor large primes, rendering RSA encryption obsolete.",
+        "explanation": "Shor's algorithm will trivially factor large primes, making RSA encryption obsolete."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the primary engineering bottleneck hindering the achievement of 'quantum supremacy'?",
+        "options": [
+          "The inability to find prime numbers large enough.",
+          "Decoherence caused by the fragility of qubits and environmental noise.",
+          "The lack of mathematical theories for post-quantum cryptography.",
+          "The high cost of classical Von Neumann architecture."
+        ],
+        "answer": "Decoherence caused by the fragility of qubits and environmental noise.",
+        "explanation": "Decoherence is the primary engineering bottleneck because qubits are susceptible to environmental noise."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Measuring the state of one entangled qubit instantly dictates the state of its ___ partner.",
+        "answer": "entangled",
+        "explanation": "The speaker mentions it instantly dictates the state of its entangled partner."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Nation-states are hoarding data in a strategy called '___ now, decrypt later'.",
+        "answer": "harvest",
+        "explanation": "The strategy is termed 'harvest now, decrypt later'."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Quantum computers will natively simulate quantum mechanics, revolutionizing ___ discovery.",
+        "answer": "drug",
+        "explanation": "It will revolutionize drug discovery and materials science."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Maintaining superposition requires flawless error correction and ___ zero temperatures.",
+        "answer": "absolute",
+        "explanation": "Maintaining it requires absolute zero temperatures."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the quantum computing concept to its description.",
+        "pairs": [
+          { "left": "Superposition", "right": "Allows qubits to exist in multiple states simultaneously" },
+          { "left": "Entanglement", "right": "Connects qubits regardless of spatial separation" },
+          { "left": "Decoherence", "right": "The loss of quantum state due to environmental noise" }
+        ],
+        "answers": {
+          "Superposition": "Allows qubits to exist in multiple states simultaneously",
+          "Entanglement": "Connects qubits regardless of spatial separation",
+          "Decoherence": "The loss of quantum state due to environmental noise"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the algorithmic or cryptographic term to its function.",
+        "pairs": [
+          { "left": "Shor's algorithm", "right": "Factors large primes to break encryption" },
+          { "left": "RSA encryption", "right": "The current standard rendered obsolete by quantum tech" },
+          { "left": "Lattice-based cryptography", "right": "A post-quantum structure theoretically impervious to quantum attacks" }
+        ],
+        "answers": {
+          "Shor's algorithm": "Factors large primes to break encryption",
+          "RSA encryption": "The current standard rendered obsolete by quantum tech",
+          "Lattice-based cryptography": "A post-quantum structure theoretically impervious to quantum attacks"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the field or infrastructure to how quantum computing will impact it.",
+        "pairs": [
+          { "left": "Materials science", "right": "Revolutionized by accurate molecular simulations" },
+          { "left": "Secure banking", "right": "Fundamentally compromised by imminent decryption" },
+          { "left": "Classical computing", "right": "Remains strictly binary relying on Von Neumann architecture" }
+        ],
+        "answers": {
+          "Materials science": "Revolutionized by accurate molecular simulations",
+          "Secure banking": "Fundamentally compromised by imminent decryption",
+          "Classical computing": "Remains strictly binary relying on Von Neumann architecture"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_practice_09",
+    "type": "practice",
+    "cefrLevel": "C1",
+    "title": "Podcast Interview with a Behavioral Economist",
+    "description": "An examination of bounded rationality, heuristics, and the ethics of choice architecture.",
+    "topic": "Podcast interview with a behavioral economist",
+    "estimatedMinutes": 20,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Welcome to 'Rational Markets'. We are joined by Dr. Kahneman, exploring the intersection of psychology and economics. Dr. Kahneman, classical economics posits Homo economicus—the perfectly rational actor. Why is this model fundamentally flawed?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "It assumes humans possess infinite cognitive processing power and perfect information. In reality, we operate under 'bounded rationality'. Our cognitive bandwidth is severely limited."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "To compensate for these limitations, we rely on heuristics, correct?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Yes, cognitive shortcuts. They are evolutionarily efficient for split-second decisions but routinely lead to systematic, predictable errors in complex financial environments."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "One prominent error you've extensively documented is the 'availability heuristic'."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Indeed. We judge the probability of an event by the ease with which instances come to mind. Vivid, emotionally salient events—like a plane crash or a stock market plunge—are vastly overestimated in frequency."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "This cognitive bias must heavily influence risk assessment and insurance purchasing."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Profoundly. It leads to the misallocation of resources, protecting against statistically improbable catastrophes while ignoring mundane, highly probable risks."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Let us pivot to 'prospect theory'. How does it subvert expected utility theory?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Prospect theory demonstrates that humans are fundamentally loss-averse. The psychological pain of losing one hundred dollars is roughly twice as intense as the joy of gaining the same amount."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Therefore, our decisions are highly dependent on framing. A medical procedure described as having a ninety percent survival rate is preferred over one with a ten percent mortality rate, despite mathematical equivalence."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Exactly. This understanding birthed the concept of 'nudge theory' or choice architecture. By subtly altering the presentation of choices, policymakers can steer behavior without restricting freedom."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Opt-out organ donation systems being the classic example of a beneficial nudge."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Yes, leveraging the status quo bias to dramatically increase donation rates."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "However, doesn't libertarian paternalism—the philosophy underpinning nudges—carry inherently manipulative undertones?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "It is a valid ethical critique. If the architect's motives are maligned, a nudge devolves into a 'sludge', exploiting cognitive biases for corporate profit or political coercion."
+      }
+    ],
+    "fullScript": "A: Welcome to 'Rational Markets'. We are joined by Dr. Kahneman, exploring the intersection of psychology and economics. Dr. Kahneman, classical economics posits Homo economicus—the perfectly rational actor. Why is this model fundamentally flawed?\nB: It assumes humans possess infinite cognitive processing power and perfect information. In reality, we operate under 'bounded rationality'. Our cognitive bandwidth is severely limited.\nA: To compensate for these limitations, we rely on heuristics, correct?\nB: Yes, cognitive shortcuts. They are evolutionarily efficient for split-second decisions but routinely lead to systematic, predictable errors in complex financial environments.\nA: One prominent error you've extensively documented is the 'availability heuristic'.\nB: Indeed. We judge the probability of an event by the ease with which instances come to mind. Vivid, emotionally salient events—like a plane crash or a stock market plunge—are vastly overestimated in frequency.\nA: This cognitive bias must heavily influence risk assessment and insurance purchasing.\nB: Profoundly. It leads to the misallocation of resources, protecting against statistically improbable catastrophes while ignoring mundane, highly probable risks.\nA: Let us pivot to 'prospect theory'. How does it subvert expected utility theory?\nB: Prospect theory demonstrates that humans are fundamentally loss-averse. The psychological pain of losing one hundred dollars is roughly twice as intense as the joy of gaining the same amount.\nA: Therefore, our decisions are highly dependent on framing. A medical procedure described as having a ninety percent survival rate is preferred over one with a ten percent mortality rate, despite mathematical equivalence.\nB: Exactly. This understanding birthed the concept of 'nudge theory' or choice architecture. By subtly altering the presentation of choices, policymakers can steer behavior without restricting freedom.\nA: Opt-out organ donation systems being the classic example of a beneficial nudge.\nB: Yes, leveraging the status quo bias to dramatically increase donation rates.\nA: However, doesn't libertarian paternalism—the philosophy underpinning nudges—carry inherently manipulative undertones?\nB: It is a valid ethical critique. If the architect's motives are maligned, a nudge devolves into a 'sludge', exploiting cognitive biases for corporate profit or political coercion.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Why is the classical economic model of 'Homo economicus' fundamentally flawed, according to Dr. Kahneman?",
+        "options": [
+          "It assumes that people only care about emotional satisfaction, not money.",
+          "It relies entirely on the availability heuristic to explain decision-making.",
+          "It assumes humans possess infinite cognitive processing power and perfect information.",
+          "It overemphasizes the psychological pain of financial loss."
+        ],
+        "answer": "It assumes humans possess infinite cognitive processing power and perfect information.",
+        "explanation": "Dr. Kahneman states that the model assumes infinite cognitive processing power and perfect information."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What does the 'availability heuristic' cause people to do?",
+        "options": [
+          "Overestimate the frequency of vivid, emotionally salient events.",
+          "Accurately calculate the mathematical probability of a catastrophe.",
+          "Rely strictly on long-term data rather than immediate memory.",
+          "Completely ignore all forms of risk in financial environments."
+        ],
+        "answer": "Overestimate the frequency of vivid, emotionally salient events.",
+        "explanation": "It causes people to vastly overestimate the frequency of vivid, emotionally salient events because they easily come to mind."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "According to prospect theory, how do humans perceive gains and losses?",
+        "options": [
+          "They value gaining a dollar equally to losing a dollar.",
+          "The pain of losing money is roughly twice as intense as the joy of gaining the same amount.",
+          "They are completely indifferent to small financial fluctuations.",
+          "They actually prefer losing money if it guarantees a later reward."
+        ],
+        "answer": "The pain of losing money is roughly twice as intense as the joy of gaining the same amount.",
+        "explanation": "Prospect theory demonstrates humans are fundamentally loss-averse, with the pain of losing being twice as intense."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Due to limited cognitive bandwidth, humans operate under '___ rationality'.",
+        "answer": "bounded",
+        "explanation": "He mentions we operate under 'bounded rationality'."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Heuristics are evolutionarily efficient but lead to ___, predictable errors.",
+        "answer": "systematic",
+        "explanation": "They routinely lead to systematic, predictable errors."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Our decisions are highly dependent on ___, such as survival versus mortality rates.",
+        "answer": "framing",
+        "explanation": "Decisions are highly dependent on framing."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "If the architect's motives are maligned, a nudge devolves into a '___'.",
+        "answer": "sludge",
+        "explanation": "A manipulative nudge devolves into a 'sludge'."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the behavioral economics concept to its definition or example.",
+        "pairs": [
+          { "left": "Heuristics", "right": "Evolutionarily efficient cognitive shortcuts" },
+          { "left": "Status quo bias", "right": "Leveraged in opt-out organ donation systems" },
+          { "left": "Choice architecture", "right": "Subtly altering the presentation of choices" },
+          { "left": "Loss aversion", "right": "The core principle behind prospect theory" }
+        ],
+        "answers": {
+          "Heuristics": "Evolutionarily efficient cognitive shortcuts",
+          "Status quo bias": "Leveraged in opt-out organ donation systems",
+          "Choice architecture": "Subtly altering the presentation of choices",
+          "Loss aversion": "The core principle behind prospect theory"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the psychological bias to its real-world consequence.",
+        "pairs": [
+          { "left": "Availability heuristic", "right": "Misallocation of resources for insurance purchasing" },
+          { "left": "Framing effect", "right": "Preferring a 90% survival rate over a 10% mortality rate" },
+          { "left": "Libertarian paternalism", "right": "Can be used to steer behavior without restricting freedom" }
+        ],
+        "answers": {
+          "Availability heuristic": "Misallocation of resources for insurance purchasing",
+          "Framing effect": "Preferring a 90% survival rate over a 10% mortality rate",
+          "Libertarian paternalism": "Can be used to steer behavior without restricting freedom"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the descriptive term with its antonym or opposing concept discussed.",
+        "pairs": [
+          { "left": "Homo economicus", "right": "Bounded rationality" },
+          { "left": "Beneficial nudge", "right": "Corporate sludge" },
+          { "left": "Statistically improbable catastrophe", "right": "Mundane, highly probable risk" }
+        ],
+        "answers": {
+          "Homo economicus": "Bounded rationality",
+          "Beneficial nudge": "Corporate sludge",
+          "Statistically improbable catastrophe": "Mundane, highly probable risk"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1_practice_10",
+    "type": "practice",
+    "cefrLevel": "C1",
+    "title": "Psychological Effects of Solitary Confinement",
+    "description": "A harrowing documentary segment analyzing sensory deprivation, ontological insecurity, and the ethics of penal isolation.",
+    "topic": "Documentary on the psychological effects of solitary confinement",
+    "estimatedMinutes": 21,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "We are examining the darkest corner of the penal system. Dr. Lewis, a forensic psychologist, what occurs neurologically during prolonged solitary confinement?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "The human brain requires robust environmental and social stimuli to maintain structural integrity. Deprived of this, we observe rapid cognitive atrophy, specifically in the hippocampus, which governs memory and spatial orientation."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "This environment of profound sensory deprivation—does it reliably induce psychosis?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Invariably. Within a remarkably brief period, individuals experience florid hallucinations, extreme paranoia, and a phenomenon known as 'ontological insecurity'—a terrifying dissolution of their sense of reality and self."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Administrators argue that administrative segregation is an indispensable tool for managing the most intractable and violent inmates."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "That utilitarian justification is fundamentally flawed. Rather than pacifying inmates, the extreme psychological trauma exacerbates violent tendencies and behavioral dysregulation."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "So, instead of rehabilitation, the system is actively manufacturing severe psychopathology?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Precisely. It is iatrogenic harm. The penal environment itself is the pathogen causing the psychological disease. It essentially guarantees higher rates of violent recidivism upon release."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "From a human rights perspective, the United Nations has classified solitary confinement exceeding fifteen days as torture."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "The Mandela Rules clearly delineate this. Yet, domestic jurisprudence has historically been extraordinarily deferential to prison administrators, often shielding them from Eighth Amendment litigation."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Because proving 'cruel and unusual punishment' requires demonstrating 'deliberate indifference' by the officials, which is a formidable legal threshold?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Exactly. The psychological devastation is treated as a collateral administrative consequence rather than a deliberate, punitive infliction of suffering."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Are there viable, secure alternatives for managing genuinely dangerous populations without resorting to total isolation?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Yes, step-down programs and specialized therapeutic housing units mitigate violence through intensive clinical intervention rather than sensory starvation."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "It requires a paradigm shift from punitive warehousing to clinical rehabilitation."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "A moral imperative. Continuing to employ sensory deprivation as a management strategy is an egregious abdication of humanity."
+      }
+    ],
+    "fullScript": "A: We are examining the darkest corner of the penal system. Dr. Lewis, a forensic psychologist, what occurs neurologically during prolonged solitary confinement?\nB: The human brain requires robust environmental and social stimuli to maintain structural integrity. Deprived of this, we observe rapid cognitive atrophy, specifically in the hippocampus, which governs memory and spatial orientation.\nA: This environment of profound sensory deprivation—does it reliably induce psychosis?\nB: Invariably. Within a remarkably brief period, individuals experience florid hallucinations, extreme paranoia, and a phenomenon known as 'ontological insecurity'—a terrifying dissolution of their sense of reality and self.\nA: Administrators argue that administrative segregation is an indispensable tool for managing the most intractable and violent inmates.\nB: That utilitarian justification is fundamentally flawed. Rather than pacifying inmates, the extreme psychological trauma exacerbates violent tendencies and behavioral dysregulation.\nA: So, instead of rehabilitation, the system is actively manufacturing severe psychopathology?\nB: Precisely. It is iatrogenic harm. The penal environment itself is the pathogen causing the psychological disease. It essentially guarantees higher rates of violent recidivism upon release.\nA: From a human rights perspective, the United Nations has classified solitary confinement exceeding fifteen days as torture.\nB: The Mandela Rules clearly delineate this. Yet, domestic jurisprudence has historically been extraordinarily deferential to prison administrators, often shielding them from Eighth Amendment litigation.\nA: Because proving 'cruel and unusual punishment' requires demonstrating 'deliberate indifference' by the officials, which is a formidable legal threshold?\nB: Exactly. The psychological devastation is treated as a collateral administrative consequence rather than a deliberate, punitive infliction of suffering.\nA: Are there viable, secure alternatives for managing genuinely dangerous populations without resorting to total isolation?\nB: Yes, step-down programs and specialized therapeutic housing units mitigate violence through intensive clinical intervention rather than sensory starvation.\nA: It requires a paradigm shift from punitive warehousing to clinical rehabilitation.\nB: A moral imperative. Continuing to employ sensory deprivation as a management strategy is an egregious abdication of humanity.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What neurological consequence of sensory deprivation does Dr. Lewis highlight?",
+        "options": [
+          "An abnormal enlargement of the prefrontal cortex.",
+          "Rapid cognitive atrophy, specifically in the hippocampus.",
+          "The permanent deactivation of the central nervous system.",
+          "A complete resistance to future psychological trauma."
+        ],
+        "answer": "Rapid cognitive atrophy, specifically in the hippocampus.",
+        "explanation": "Dr. Lewis notes that without stimuli, we observe rapid cognitive atrophy, specifically in the hippocampus."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why is the utilitarian justification for 'administrative segregation' considered flawed by the expert?",
+        "options": [
+          "It is too expensive to maintain the isolation cells.",
+          "It fails to punish the inmates severely enough.",
+          "It actually exacerbates violent tendencies and behavioral dysregulation.",
+          "It forces inmates to socialize too frequently with guards."
+        ],
+        "answer": "It actually exacerbates violent tendencies and behavioral dysregulation.",
+        "explanation": "Dr. Lewis argues that rather than pacifying inmates, the trauma exacerbates violent tendencies."
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why is it legally difficult for inmates to win Eighth Amendment litigation regarding solitary confinement?",
+        "options": [
+          "The Eighth Amendment explicitly endorses sensory deprivation.",
+          "Prisoners are not legally permitted to file constitutional lawsuits.",
+          "Proving 'deliberate indifference' by officials is a formidable legal threshold.",
+          "The Mandela Rules override all domestic jurisprudence."
+        ],
+        "answer": "Proving 'deliberate indifference' by officials is a formidable legal threshold.",
+        "explanation": "The speaker notes that proving cruel and unusual punishment requires demonstrating 'deliberate indifference', a formidable threshold."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "A terrified dissolution of the sense of reality and self is known as ___ insecurity.",
+        "answer": "ontological",
+        "explanation": "Dr. Lewis calls this terrifying dissolution 'ontological insecurity'."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The system manufacturing severe psychopathology is described as ___ harm.",
+        "answer": "iatrogenic",
+        "explanation": "Dr. Lewis uses the medical term 'iatrogenic harm' to describe this."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The United Nations' ___ Rules delineate limits on solitary confinement.",
+        "answer": "Mandela",
+        "explanation": "He explicitly refers to the Mandela Rules."
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Managing dangerous populations should rely on clinical intervention rather than sensory ___.",
+        "answer": "starvation",
+        "explanation": "He advocates clinical intervention rather than sensory starvation."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the psychological or medical term to its contextual definition.",
+        "pairs": [
+          { "left": "Hippocampus", "right": "Governs memory and spatial orientation" },
+          { "left": "Ontological insecurity", "right": "A terrifying dissolution of reality and self" },
+          { "left": "Iatrogenic harm", "right": "When the penal environment itself acts as a pathogen" },
+          { "left": "Psychosis", "right": "Involves florid hallucinations and extreme paranoia" }
+        ],
+        "answers": {
+          "Hippocampus": "Governs memory and spatial orientation",
+          "Ontological insecurity": "A terrifying dissolution of reality and self",
+          "Iatrogenic harm": "When the penal environment itself acts as a pathogen",
+          "Psychosis": "Involves florid hallucinations and extreme paranoia"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the legal or systemic entity to its corresponding action.",
+        "pairs": [
+          { "left": "United Nations", "right": "Classified isolation exceeding fifteen days as torture" },
+          { "left": "Domestic jurisprudence", "right": "Historically extraordinarily deferential to prison administrators" },
+          { "left": "Eighth Amendment", "right": "Protects against cruel and unusual punishment" }
+        ],
+        "answers": {
+          "United Nations": "Classified isolation exceeding fifteen days as torture",
+          "Domestic jurisprudence": "Historically extraordinarily deferential to prison administrators",
+          "Eighth Amendment": "Protects against cruel and unusual punishment"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the institutional approach to its description.",
+        "pairs": [
+          { "left": "Administrative segregation", "right": "A flawed utilitarian tool for managing intractable inmates" },
+          { "left": "Step-down programs", "right": "A viable, secure alternative for managing dangerous populations" },
+          { "left": "Punitive warehousing", "right": "The current paradigm that needs to shift toward rehabilitation" }
+        ],
+        "answers": {
+          "Administrative segregation": "A flawed utilitarian tool for managing intractable inmates",
+          "Step-down programs": "A viable, secure alternative for managing dangerous populations",
+          "Punitive warehousing": "The current paradigm that needs to shift toward rehabilitation"
+        }
+      }
+    ]
+  }
+]

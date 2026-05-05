@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "a1_practice_01",
+    "type": "practice",
+    "cefrLevel": "A1",
+    "title": "At the Supermarket",
+    "description": "A customer asks a shop assistant for help finding items",
+    "topic": "shopping",
+    "estimatedMinutes": 12,
+    "script": [
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "Excuse me. I'm looking for milk. Where is it?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "Milk is in aisle three, next to the eggs." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "And where can I find bread?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "Bread is in aisle one, near the entrance." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "Thank you. Oh, do you have orange juice?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "Yes, orange juice is in the drinks section. That's aisle five." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "How much is this orange juice?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "It's one dollar ninety-nine. We also have a bigger bottle for three dollars." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "I'll take the small one. Where do I pay?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "The checkout is at the front of the store. Have a nice day!" }
+    ],
+    "fullScript": "A: Excuse me. I'm looking for milk. Where is it?\nB: Milk is in aisle three, next to the eggs.\nA: And where can I find bread?\nB: Bread is in aisle one, near the entrance.\nA: Thank you. Oh, do you have orange juice?\nB: Yes, orange juice is in the drinks section. That's aisle five.\nA: How much is this orange juice?\nB: It's one dollar ninety-nine. We also have a bigger bottle for three dollars.\nA: I'll take the small one. Where do I pay?\nB: The checkout is at the front of the store. Have a nice day!",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Where is the milk?",
+        "options": ["Aisle one", "Aisle two", "Aisle three", "Aisle five"],
+        "answer": "Aisle three",
+        "explanation": "The assistant says 'Milk is in aisle three.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is next to the milk?",
+        "options": ["Bread", "Eggs", "Juice", "Butter"],
+        "answer": "Eggs",
+        "explanation": "The assistant says 'next to the eggs.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How much is the small orange juice?",
+        "options": ["$0.99", "$1.99", "$2.99", "$3.00"],
+        "answer": "$1.99",
+        "explanation": "The assistant says 'It's one dollar ninety-nine.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Bread is in aisle ___, near the entrance.",
+        "answer": "one",
+        "explanation": "The assistant says 'Bread is in aisle one, near the entrance.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Orange juice is in aisle ___.",
+        "answer": "five",
+        "explanation": "The assistant says 'That's aisle five.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The bigger bottle of orange juice costs ___ dollars.",
+        "answer": "three",
+        "explanation": "The assistant says 'a bigger bottle for three dollars.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The checkout is at the ___ of the store.",
+        "answer": "front",
+        "explanation": "The assistant says 'The checkout is at the front of the store.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each product with its location in the store.",
+        "pairs": [
+          { "left": "Milk", "right": "Aisle 3" },
+          { "left": "Bread", "right": "Aisle 1" },
+          { "left": "Orange juice", "right": "Aisle 5" },
+          { "left": "Checkout", "right": "Front of store" }
+        ],
+        "answers": {
+          "Milk": "Aisle 3",
+          "Bread": "Aisle 1",
+          "Orange juice": "Aisle 5",
+          "Checkout": "Front of store"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each item with its price.",
+        "pairs": [
+          { "left": "Small orange juice", "right": "$1.99" },
+          { "left": "Large orange juice", "right": "$3.00" }
+        ],
+        "answers": {
+          "Small orange juice": "$1.99",
+          "Large orange juice": "$3.00"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Which bottle of orange juice does the man choose?",
+        "options": ["The small one", "The large one", "Both", "Neither"],
+        "answer": "The small one",
+        "explanation": "The man says 'I'll take the small one.'"
+      }
+    ]
+  },
+  {
+    "id": "a1_practice_02",
+    "type": "practice",
+    "cefrLevel": "A1",
+    "title": "Booking a Hotel Room",
+    "description": "A traveler calls a hotel to make a reservation",
+    "topic": "travel",
+    "estimatedMinutes": 12,
+    "script": [
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Hello, Grand Hotel. How can I help you?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "Hi, I'd like to book a room please." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Of course. What dates would you like?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "From the fifth to the eighth of June. That's three nights." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Single or double room?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "A double room, please. How much is it per night?" },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "A double room is eighty dollars per night." },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "OK. Does the price include breakfast?" },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Yes, breakfast is included. It's from seven to ten in the morning." },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "Perfect. My name is James Brown. Can I pay when I arrive?" },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Yes, that's fine. We'll see you on June fifth!" }
+    ],
+    "fullScript": "A: Hello, Grand Hotel. How can I help you?\nB: Hi, I'd like to book a room please.\nA: Of course. What dates would you like?\nB: From the fifth to the eighth of June. That's three nights.\nA: Single or double room?\nB: A double room, please. How much is it per night?\nA: A double room is eighty dollars per night.\nB: OK. Does the price include breakfast?\nA: Yes, breakfast is included. It's from seven to ten in the morning.\nB: Perfect. My name is James Brown. Can I pay when I arrive?\nA: Yes, that's fine. We'll see you on June fifth!",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the name of the hotel?",
+        "options": ["City Hotel", "Grand Hotel", "Park Hotel", "Royal Hotel"],
+        "answer": "Grand Hotel",
+        "explanation": "The receptionist says 'Hello, Grand Hotel.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How many nights does the man want to stay?",
+        "options": ["Two nights", "Three nights", "Four nights", "Five nights"],
+        "answer": "Three nights",
+        "explanation": "The man says 'That's three nights.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What type of room does the man book?",
+        "options": ["Single room", "Double room", "Suite", "Family room"],
+        "answer": "Double room",
+        "explanation": "The man says 'A double room, please.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "A double room costs ___ dollars per night.",
+        "answer": "eighty",
+        "explanation": "The receptionist says 'A double room is eighty dollars per night.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Breakfast is served from seven to ___ in the morning.",
+        "answer": "ten",
+        "explanation": "The receptionist says 'It's from seven to ten in the morning.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The man's name is James ___.",
+        "answer": "Brown",
+        "explanation": "The man says 'My name is James Brown.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The man will arrive on June ___.",
+        "answer": "fifth",
+        "explanation": "The receptionist says 'We'll see you on June fifth.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each piece of information about the booking.",
+        "pairs": [
+          { "left": "Check-in date", "right": "June 5th" },
+          { "left": "Check-out date", "right": "June 8th" },
+          { "left": "Room type", "right": "Double" },
+          { "left": "Price per night", "right": "$80" }
+        ],
+        "answers": {
+          "Check-in date": "June 5th",
+          "Check-out date": "June 8th",
+          "Room type": "Double",
+          "Price per night": "$80"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the question with the correct answer.",
+        "pairs": [
+          { "left": "Is breakfast included?", "right": "Yes" },
+          { "left": "Can I pay on arrival?", "right": "Yes" }
+        ],
+        "answers": {
+          "Is breakfast included?": "Yes",
+          "Can I pay on arrival?": "Yes"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "When can the man eat breakfast at the hotel?",
+        "options": ["6:00 - 9:00", "7:00 - 10:00", "8:00 - 11:00", "9:00 - 12:00"],
+        "answer": "7:00 - 10:00",
+        "explanation": "The receptionist says 'It's from seven to ten in the morning.'"
+      }
+    ]
+  },
+  {
+    "id": "a1_practice_03",
+    "type": "practice",
+    "cefrLevel": "A1",
+    "title": "Planning a Birthday Party",
+    "description": "Two friends plan a birthday party together",
+    "topic": "celebrations",
+    "estimatedMinutes": 12,
+    "script": [
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Tom's birthday is next Saturday. Let's plan a party!" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "Great idea! How many people do you want to invite?" },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "About ten people. His close friends and family." },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "Where will the party be? At your house?" },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Yes, at my house. We can use the garden." },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "What time should we start?" },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "At three o'clock in the afternoon. We'll eat at five." },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "What food will you make?" },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Pizza and sandwiches. And of course a birthday cake!" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "I can bring drinks and some balloons." },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Perfect! Tom will be so happy." }
+    ],
+    "fullScript": "A: Tom's birthday is next Saturday. Let's plan a party!\nB: Great idea! How many people do you want to invite?\nA: About ten people. His close friends and family.\nB: Where will the party be? At your house?\nA: Yes, at my house. We can use the garden.\nB: What time should we start?\nA: At three o'clock in the afternoon. We'll eat at five.\nB: What food will you make?\nA: Pizza and sandwiches. And of course a birthday cake!\nB: I can bring drinks and some balloons.\nA: Perfect! Tom will be so happy.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Whose birthday is it?",
+        "options": ["Lisa's", "Tom's", "Mark's", "Sara's"],
+        "answer": "Tom's",
+        "explanation": "The woman says 'Tom's birthday is next Saturday.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "When is the birthday?",
+        "options": ["Next Friday", "Next Saturday", "Next Sunday", "This weekend"],
+        "answer": "Next Saturday",
+        "explanation": "The woman says 'Tom's birthday is next Saturday.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What time will they eat?",
+        "options": ["At three o'clock", "At four o'clock", "At five o'clock", "At six o'clock"],
+        "answer": "At five o'clock",
+        "explanation": "The woman says 'We'll eat at five.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "About ___ people will come to the party.",
+        "answer": "ten",
+        "explanation": "The woman says 'About ten people.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The party will be at the woman's house, in the ___.",
+        "answer": "garden",
+        "explanation": "The woman says 'We can use the garden.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The party starts at ___ o'clock in the afternoon.",
+        "answer": "three",
+        "explanation": "The woman says 'At three o'clock in the afternoon.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The man will bring drinks and some ___.",
+        "answer": "balloons",
+        "explanation": "The man says 'I can bring drinks and some balloons.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each person with what they will bring or prepare.",
+        "pairs": [
+          { "left": "Woman (host)", "right": "Pizza and sandwiches" },
+          { "left": "Woman (host)", "right": "Birthday cake" },
+          { "left": "Man (guest)", "right": "Drinks" },
+          { "left": "Man (guest)", "right": "Balloons" }
+        ],
+        "answers": {
+          "Pizza and sandwiches": "Woman (host)",
+          "Birthday cake": "Woman (host)",
+          "Drinks": "Man (guest)",
+          "Balloons": "Man (guest)"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each party detail with the correct information.",
+        "pairs": [
+          { "left": "Location", "right": "Woman's house / garden" },
+          { "left": "Date", "right": "Next Saturday" },
+          { "left": "Start time", "right": "3:00 PM" },
+          { "left": "Dinner time", "right": "5:00 PM" }
+        ],
+        "answers": {
+          "Location": "Woman's house / garden",
+          "Date": "Next Saturday",
+          "Start time": "3:00 PM",
+          "Dinner time": "5:00 PM"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Who are the guests at the party?",
+        "options": [
+          "Only family members",
+          "Only school friends",
+          "Close friends and family",
+          "Colleagues and neighbors"
+        ],
+        "answer": "Close friends and family",
+        "explanation": "The woman says 'His close friends and family.'"
+      }
+    ]
+  },
+  {
+    "id": "a1_practice_04",
+    "type": "practice",
+    "cefrLevel": "A1",
+    "title": "At the Library",
+    "description": "A student visits the library and asks for help",
+    "topic": "education",
+    "estimatedMinutes": 12,
+    "script": [
+      { "speaker": "A", "voice": "en-US-BrianNeural", "text": "Excuse me. I'm looking for a book about animals." },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "Sure! The nature and science section is on the second floor." },
+      { "speaker": "A", "voice": "en-US-BrianNeural", "text": "Thank you. Can I borrow books here?" },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "Yes. You need a library card. Do you have one?" },
+      { "speaker": "A", "voice": "en-US-BrianNeural", "text": "No, I don't. How do I get one?" },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "Just fill in this form with your name and address." },
+      { "speaker": "A", "voice": "en-US-BrianNeural", "text": "OK. How many books can I borrow at one time?" },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "You can borrow up to five books." },
+      { "speaker": "A", "voice": "en-US-BrianNeural", "text": "And how long can I keep them?" },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "You can keep them for two weeks. After that, you must return them." },
+      { "speaker": "A", "voice": "en-US-BrianNeural", "text": "Great, thank you so much for your help!" }
+    ],
+    "fullScript": "A: Excuse me. I'm looking for a book about animals.\nB: Sure! The nature and science section is on the second floor.\nA: Thank you. Can I borrow books here?\nB: Yes. You need a library card. Do you have one?\nA: No, I don't. How do I get one?\nB: Just fill in this form with your name and address.\nA: OK. How many books can I borrow at one time?\nB: You can borrow up to five books.\nA: And how long can I keep them?\nB: You can keep them for two weeks. After that, you must return them.\nA: Great, thank you so much for your help!",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What kind of book is the man looking for?",
+        "options": ["A history book", "A book about animals", "A recipe book", "A story book"],
+        "answer": "A book about animals",
+        "explanation": "The man says 'I'm looking for a book about animals.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Where is the nature and science section?",
+        "options": ["On the first floor", "On the second floor", "On the third floor", "In the basement"],
+        "answer": "On the second floor",
+        "explanation": "The librarian says 'The nature and science section is on the second floor.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How many books can you borrow at one time?",
+        "options": ["Up to three", "Up to four", "Up to five", "Up to ten"],
+        "answer": "Up to five",
+        "explanation": "The librarian says 'You can borrow up to five books.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "To borrow books, you need a library ___.",
+        "answer": "card",
+        "explanation": "The librarian says 'You need a library card.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "To get a library card, you fill in a form with your name and ___.",
+        "answer": "address",
+        "explanation": "The librarian says 'your name and address.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "You can keep books for ___ weeks.",
+        "answer": "two",
+        "explanation": "The librarian says 'You can keep them for two weeks.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "After two weeks, you must ___ the books.",
+        "answer": "return",
+        "explanation": "The librarian says 'you must return them.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each library rule with the correct detail.",
+        "pairs": [
+          { "left": "Books location", "right": "Second floor" },
+          { "left": "Maximum books to borrow", "right": "Five books" },
+          { "left": "Loan period", "right": "Two weeks" },
+          { "left": "Required item", "right": "Library card" }
+        ],
+        "answers": {
+          "Books location": "Second floor",
+          "Maximum books to borrow": "Five books",
+          "Loan period": "Two weeks",
+          "Required item": "Library card"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the question with the correct answer from the conversation.",
+        "pairs": [
+          { "left": "Can I borrow books here?", "right": "Yes, with a library card" },
+          { "left": "How do I get a library card?", "right": "Fill in a form" }
+        ],
+        "answers": {
+          "Can I borrow books here?": "Yes, with a library card",
+          "How do I get a library card?": "Fill in a form"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Does the man have a library card?",
+        "options": ["Yes, he has one", "No, he doesn't have one", "He lost it", "He forgot it at home"],
+        "answer": "No, he doesn't have one",
+        "explanation": "The man says 'No, I don't.' when asked if he has a library card."
+      }
+    ]
+  },
+  {
+    "id": "a1_practice_05",
+    "type": "practice",
+    "cefrLevel": "A1",
+    "title": "Weekend Plans",
+    "description": "Two coworkers discuss their weekend plans",
+    "topic": "leisure",
+    "estimatedMinutes": 12,
+    "script": [
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "Do you have any plans for this weekend?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "Yes! On Saturday, I'm going to the cinema with my sister." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "Oh nice! What film are you going to see?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "A new action movie. It starts at seven in the evening." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "Sounds fun! What about Sunday?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "On Sunday I'm going to cook lunch for my family." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "What are you going to cook?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "Pasta. It's my mother's favorite. What about you?" },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "I'm going to play football on Saturday morning." },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "Oh really? Do you play every week?" },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "Yes, with my friends from university. It's great exercise!" }
+    ],
+    "fullScript": "A: Do you have any plans for this weekend?\nB: Yes! On Saturday, I'm going to the cinema with my sister.\nA: Oh nice! What film are you going to see?\nB: A new action movie. It starts at seven in the evening.\nA: Sounds fun! What about Sunday?\nB: On Sunday I'm going to cook lunch for my family.\nA: What are you going to cook?\nB: Pasta. It's my mother's favorite. What about you?\nA: I'm going to play football on Saturday morning.\nB: Oh really? Do you play every week?\nA: Yes, with my friends from university. It's great exercise!",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Where is the woman going on Saturday?",
+        "options": ["To the park", "To the cinema", "To a restaurant", "To the gym"],
+        "answer": "To the cinema",
+        "explanation": "The woman says 'I'm going to the cinema with my sister.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What type of film are they going to see?",
+        "options": ["A comedy", "A romance", "An action movie", "A horror film"],
+        "answer": "An action movie",
+        "explanation": "The woman says 'A new action movie.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Who does the man play football with?",
+        "options": ["His family", "His colleagues", "His friends from university", "His neighbors"],
+        "answer": "His friends from university",
+        "explanation": "The man says 'with my friends from university.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The film starts at ___ in the evening.",
+        "answer": "seven",
+        "explanation": "The woman says 'It starts at seven in the evening.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "On Sunday, the woman is going to cook ___.",
+        "answer": "pasta",
+        "explanation": "The woman says 'Pasta.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Pasta is the woman's ___ favorite food.",
+        "answer": "mother's",
+        "explanation": "The woman says 'It's my mother's favorite.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The man plays football with friends on Saturday ___.",
+        "answer": "morning",
+        "explanation": "The man says 'on Saturday morning.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each person with their weekend activity.",
+        "pairs": [
+          { "left": "Woman - Saturday", "right": "Go to the cinema" },
+          { "left": "Woman - Sunday", "right": "Cook lunch for family" },
+          { "left": "Man - Saturday morning", "right": "Play football" },
+          { "left": "Woman - at cinema", "right": "With her sister" }
+        ],
+        "answers": {
+          "Go to the cinema": "Woman - Saturday",
+          "Cook lunch for family": "Woman - Sunday",
+          "Play football": "Man - Saturday morning",
+          "With her sister": "Woman - at cinema"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each activity with the correct day and time.",
+        "pairs": [
+          { "left": "Football", "right": "Saturday morning" },
+          { "left": "Cinema", "right": "Saturday evening" },
+          { "left": "Cooking", "right": "Sunday" }
+        ],
+        "answers": {
+          "Football": "Saturday morning",
+          "Cinema": "Saturday evening",
+          "Cooking": "Sunday"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How often does the man play football?",
+        "options": ["Every day", "Every week", "Every month", "Sometimes"],
+        "answer": "Every week",
+        "explanation": "The man says 'Yes' when asked if he plays every week."
+      }
+    ]
+  },
+  {
+    "id": "a1_practice_06",
+    "type": "practice",
+    "cefrLevel": "A1",
+    "title": "Describing Your Home",
+    "description": "A person describes their apartment to a friend",
+    "topic": "home",
+    "estimatedMinutes": 12,
+    "script": [
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Tell me about your new apartment. Is it nice?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "Yes, I love it! It's on the fourth floor." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "How many rooms does it have?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "It has two bedrooms, a living room, a kitchen, and one bathroom." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "That sounds perfect. Is it a big apartment?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "It's medium sized. About sixty square meters." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Is it far from the city center?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "No, it's only ten minutes by subway." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "How much is the rent?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "Eight hundred dollars a month. It includes water and electricity." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "That's a great deal! I'd love to see it sometime." }
+    ],
+    "fullScript": "A: Tell me about your new apartment. Is it nice?\nB: Yes, I love it! It's on the fourth floor.\nA: How many rooms does it have?\nB: It has two bedrooms, a living room, a kitchen, and one bathroom.\nA: That sounds perfect. Is it a big apartment?\nB: It's medium sized. About sixty square meters.\nA: Is it far from the city center?\nB: No, it's only ten minutes by subway.\nA: How much is the rent?\nB: Eight hundred dollars a month. It includes water and electricity.\nA: That's a great deal! I'd love to see it sometime.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What floor is the apartment on?",
+        "options": ["Second floor", "Third floor", "Fourth floor", "Fifth floor"],
+        "answer": "Fourth floor",
+        "explanation": "The man says 'It's on the fourth floor.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How many bedrooms does the apartment have?",
+        "options": ["One", "Two", "Three", "Four"],
+        "answer": "Two",
+        "explanation": "The man says 'It has two bedrooms.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How far is the apartment from the city center?",
+        "options": ["5 minutes", "10 minutes", "20 minutes", "30 minutes"],
+        "answer": "10 minutes",
+        "explanation": "The man says 'it's only ten minutes by subway.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The apartment is about ___ square meters.",
+        "answer": "sixty",
+        "explanation": "The man says 'About sixty square meters.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The rent is ___ dollars a month.",
+        "answer": "eight hundred",
+        "explanation": "The man says 'Eight hundred dollars a month.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The apartment is ten minutes away by ___.",
+        "answer": "subway",
+        "explanation": "The man says 'ten minutes by subway.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The rent includes water and ___.",
+        "answer": "electricity",
+        "explanation": "The man says 'It includes water and electricity.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each room in the apartment.",
+        "pairs": [
+          { "left": "Sleep in", "right": "Bedroom (x2)" },
+          { "left": "Cook in", "right": "Kitchen" },
+          { "left": "Relax in", "right": "Living room" },
+          { "left": "Wash in", "right": "Bathroom (x1)" }
+        ],
+        "answers": {
+          "Sleep in": "Bedroom (x2)",
+          "Cook in": "Kitchen",
+          "Relax in": "Living room",
+          "Wash in": "Bathroom (x1)"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each apartment feature with the detail.",
+        "pairs": [
+          { "left": "Floor", "right": "4th" },
+          { "left": "Size", "right": "60 sq meters" },
+          { "left": "Monthly rent", "right": "$800" },
+          { "left": "Transport to city", "right": "10 min subway" }
+        ],
+        "answers": {
+          "Floor": "4th",
+          "Size": "60 sq meters",
+          "Monthly rent": "$800",
+          "Transport to city": "10 min subway"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What does the monthly rent include?",
+        "options": [
+          "Only water",
+          "Only electricity",
+          "Water and electricity",
+          "Water, electricity and internet"
+        ],
+        "answer": "Water and electricity",
+        "explanation": "The man says 'It includes water and electricity.'"
+      }
+    ]
+  },
+  {
+    "id": "a1_practice_07",
+    "type": "practice",
+    "cefrLevel": "A1",
+    "title": "Talking About Pets",
+    "description": "A child talks to a neighbor about their pet dog",
+    "topic": "animals",
+    "estimatedMinutes": 12,
+    "script": [
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Oh, what a cute dog! What is his name?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "His name is Max. He's three years old." },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "What type of dog is he?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "He's a Golden Retriever. They are very friendly dogs." },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Does he like to play?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "Oh yes! He loves to play with a ball in the garden." },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "How many times do you walk him every day?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "I walk him twice a day. In the morning and in the evening." },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "What does he eat?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "He eats special dog food twice a day. He also loves carrots as a snack!" },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Carrots? That's funny! Can I give him one?" }
+    ],
+    "fullScript": "A: Oh, what a cute dog! What is his name?\nB: His name is Max. He's three years old.\nA: What type of dog is he?\nB: He's a Golden Retriever. They are very friendly dogs.\nA: Does he like to play?\nB: Oh yes! He loves to play with a ball in the garden.\nA: How many times do you walk him every day?\nB: I walk him twice a day. In the morning and in the evening.\nA: What does he eat?\nB: He eats special dog food twice a day. He also loves carrots as a snack!\nA: Carrots? That's funny! Can I give him one?",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the dog's name?",
+        "options": ["Buddy", "Max", "Rocky", "Charlie"],
+        "answer": "Max",
+        "explanation": "The man says 'His name is Max.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How old is the dog?",
+        "options": ["One year old", "Two years old", "Three years old", "Four years old"],
+        "answer": "Three years old",
+        "explanation": "The man says 'He's three years old.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What type of dog is Max?",
+        "options": ["Labrador", "Poodle", "Golden Retriever", "German Shepherd"],
+        "answer": "Golden Retriever",
+        "explanation": "The man says 'He's a Golden Retriever.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Max loves to play with a ___ in the garden.",
+        "answer": "ball",
+        "explanation": "The man says 'He loves to play with a ball in the garden.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The owner walks Max ___ a day.",
+        "answer": "twice",
+        "explanation": "The man says 'I walk him twice a day.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Max eats special dog food ___ a day.",
+        "answer": "twice",
+        "explanation": "The man says 'He eats special dog food twice a day.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Max loves ___ as a snack.",
+        "answer": "carrots",
+        "explanation": "The man says 'He also loves carrots as a snack!'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each fact about Max with the correct detail.",
+        "pairs": [
+          { "left": "Name", "right": "Max" },
+          { "left": "Breed", "right": "Golden Retriever" },
+          { "left": "Age", "right": "3 years old" },
+          { "left": "Personality", "right": "Very friendly" }
+        ],
+        "answers": {
+          "Name": "Max",
+          "Breed": "Golden Retriever",
+          "Age": "3 years old",
+          "Personality": "Very friendly"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each daily routine of Max.",
+        "pairs": [
+          { "left": "Walk time 1", "right": "In the morning" },
+          { "left": "Walk time 2", "right": "In the evening" },
+          { "left": "Favorite snack", "right": "Carrots" },
+          { "left": "Favorite game", "right": "Play with a ball" }
+        ],
+        "answers": {
+          "In the morning": "Walk time 1",
+          "In the evening": "Walk time 2",
+          "Carrots": "Favorite snack",
+          "Play with a ball": "Favorite game"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Where does Max like to play?",
+        "options": ["In the park", "In the garden", "In the house", "On the street"],
+        "answer": "In the garden",
+        "explanation": "The man says 'He loves to play with a ball in the garden.'"
+      }
+    ]
+  },
+  {
+    "id": "a1_practice_08",
+    "type": "practice",
+    "cefrLevel": "A1",
+    "title": "At the Post Office",
+    "description": "A customer sends a package at the post office",
+    "topic": "services",
+    "estimatedMinutes": 12,
+    "script": [
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "Hello! I'd like to send this package to France." },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "Of course. Please put it on the scale." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "How much does it weigh?" },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "It weighs one and a half kilograms." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "How much will it cost to send?" },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "Standard delivery is fifteen dollars. Express is twenty-five dollars." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "How long does standard delivery take?" },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "About seven to ten business days." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "And express?" },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "Express takes two to three business days." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "I'll choose express, please. The package is a birthday gift." }
+    ],
+    "fullScript": "A: Hello! I'd like to send this package to France.\nB: Of course. Please put it on the scale.\nA: How much does it weigh?\nB: It weighs one and a half kilograms.\nA: How much will it cost to send?\nB: Standard delivery is fifteen dollars. Express is twenty-five dollars.\nA: How long does standard delivery take?\nB: About seven to ten business days.\nA: And express?\nB: Express takes two to three business days.\nA: I'll choose express, please. The package is a birthday gift.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Where does the man want to send the package?",
+        "options": ["Germany", "France", "Spain", "Italy"],
+        "answer": "France",
+        "explanation": "The man says 'I'd like to send this package to France.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How much does the package weigh?",
+        "options": ["0.5 kg", "1 kg", "1.5 kg", "2 kg"],
+        "answer": "1.5 kg",
+        "explanation": "The clerk says 'It weighs one and a half kilograms.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Which delivery option does the man choose?",
+        "options": ["Standard", "Express", "Economy", "Priority"],
+        "answer": "Express",
+        "explanation": "The man says 'I'll choose express, please.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Standard delivery costs ___ dollars.",
+        "answer": "fifteen",
+        "explanation": "The clerk says 'Standard delivery is fifteen dollars.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Express delivery costs ___ dollars.",
+        "answer": "twenty-five",
+        "explanation": "The clerk says 'Express is twenty-five dollars.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Standard delivery takes ___ to ten business days.",
+        "answer": "seven",
+        "explanation": "The clerk says 'About seven to ten business days.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The package is a birthday ___.",
+        "answer": "gift",
+        "explanation": "The man says 'The package is a birthday gift.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each delivery type with its cost and time.",
+        "pairs": [
+          { "left": "Standard - Cost", "right": "$15" },
+          { "left": "Standard - Time", "right": "7-10 business days" },
+          { "left": "Express - Cost", "right": "$25" },
+          { "left": "Express - Time", "right": "2-3 business days" }
+        ],
+        "answers": {
+          "Standard - Cost": "$15",
+          "Standard - Time": "7-10 business days",
+          "Express - Cost": "$25",
+          "Express - Time": "2-3 business days"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each step at the post office.",
+        "pairs": [
+          { "left": "Step 1", "right": "Put package on scale" },
+          { "left": "Step 2", "right": "Choose delivery type" },
+          { "left": "Step 3", "right": "Pay for delivery" }
+        ],
+        "answers": {
+          "Step 1": "Put package on scale",
+          "Step 2": "Choose delivery type",
+          "Step 3": "Pay for delivery"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why is the man sending the package?",
+        "options": [
+          "For business",
+          "It's a birthday gift",
+          "He's moving",
+          "He's returning a product"
+        ],
+        "answer": "It's a birthday gift",
+        "explanation": "The man says 'The package is a birthday gift.'"
+      }
+    ]
+  },
+  {
+    "id": "a1_practice_09",
+    "type": "practice",
+    "cefrLevel": "A1",
+    "title": "Making a Phone Call",
+    "description": "A student calls a friend to make plans",
+    "topic": "communication",
+    "estimatedMinutes": 12,
+    "script": [
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Hello?" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "Hi Sarah! It's Mike. Are you busy?" },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "No, not at all. What's up?" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "I want to go to the swimming pool tomorrow. Do you want to come?" },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Sure! What time?" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "Let's meet at ten in the morning." },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "OK. Where is the swimming pool?" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "It's on Park Street, next to the sports center." },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Oh, I know it! How much does it cost to swim?" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "It's five dollars per person. Students get a discount. It's only three fifty." },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Great! See you tomorrow at ten!" }
+    ],
+    "fullScript": "A: Hello?\nB: Hi Sarah! It's Mike. Are you busy?\nA: No, not at all. What's up?\nB: I want to go to the swimming pool tomorrow. Do you want to come?\nA: Sure! What time?\nB: Let's meet at ten in the morning.\nA: OK. Where is the swimming pool?\nB: It's on Park Street, next to the sports center.\nA: Oh, I know it! How much does it cost to swim?\nB: It's five dollars per person. Students get a discount. It's only three fifty.\nA: Great! See you tomorrow at ten!",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the woman's name?",
+        "options": ["Lisa", "Emma", "Sarah", "Anna"],
+        "answer": "Sarah",
+        "explanation": "The man says 'Hi Sarah!'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Where does Mike want to go?",
+        "options": ["The gym", "The park", "The swimming pool", "The cinema"],
+        "answer": "The swimming pool",
+        "explanation": "Mike says 'I want to go to the swimming pool.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What time will they meet?",
+        "options": ["Nine o'clock", "Ten o'clock", "Eleven o'clock", "Twelve o'clock"],
+        "answer": "Ten o'clock",
+        "explanation": "Mike says 'Let's meet at ten in the morning.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The swimming pool is on ___ Street.",
+        "answer": "Park",
+        "explanation": "Mike says 'It's on Park Street.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The pool is next to the sports ___.",
+        "answer": "center",
+        "explanation": "Mike says 'next to the sports center.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The normal price is ___ dollars per person.",
+        "answer": "five",
+        "explanation": "Mike says 'It's five dollars per person.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Students pay only three dollars and ___.",
+        "answer": "fifty",
+        "explanation": "Mike says 'It's only three fifty.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each detail about the swimming pool.",
+        "pairs": [
+          { "left": "Location", "right": "Park Street" },
+          { "left": "Nearby building", "right": "Sports center" },
+          { "left": "Normal price", "right": "$5" },
+          { "left": "Student price", "right": "$3.50" }
+        ],
+        "answers": {
+          "Location": "Park Street",
+          "Nearby building": "Sports center",
+          "Normal price": "$5",
+          "Student price": "$3.50"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each person with their role in the call.",
+        "pairs": [
+          { "left": "Mike", "right": "Made the invitation" },
+          { "left": "Sarah", "right": "Accepted the invitation" },
+          { "left": "Mike", "right": "Knows the pool location" },
+          { "left": "Sarah", "right": "Already knows the pool" }
+        ],
+        "answers": {
+          "Made the invitation": "Mike",
+          "Accepted the invitation": "Sarah",
+          "Knows the pool location": "Mike",
+          "Already knows the pool": "Sarah"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "When will they go swimming?",
+        "options": ["Today", "Tomorrow", "This weekend", "Next week"],
+        "answer": "Tomorrow",
+        "explanation": "Mike says 'I want to go to the swimming pool tomorrow.'"
+      }
+    ]
+  },
+  {
+    "id": "a1_practice_10",
+    "type": "practice",
+    "cefrLevel": "A1",
+    "title": "At the Restaurant",
+    "description": "A couple orders food at a restaurant",
+    "topic": "food",
+    "estimatedMinutes": 12,
+    "script": [
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Good evening! Welcome. Do you have a reservation?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "Yes, we do. Under the name Miller. A table for two." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Perfect. Please follow me. Here is your table." },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "Thank you. Can we see the menu?" },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Of course. Here you go. Can I get you something to drink?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "Yes, two glasses of water please. And a bottle of red wine." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Of course. Are you ready to order?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "I'll have the grilled chicken. And my wife would like the pasta, please." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Excellent choices! Would you like any starters?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "No, thank you. Just the main course." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Your food will be ready in about twenty minutes." }
+    ],
+    "fullScript": "A: Good evening! Welcome. Do you have a reservation?\nB: Yes, we do. Under the name Miller. A table for two.\nA: Perfect. Please follow me. Here is your table.\nB: Thank you. Can we see the menu?\nA: Of course. Here you go. Can I get you something to drink?\nB: Yes, two glasses of water please. And a bottle of red wine.\nA: Of course. Are you ready to order?\nB: I'll have the grilled chicken. And my wife would like the pasta, please.\nA: Excellent choices! Would you like any starters?\nB: No, thank you. Just the main course.\nA: Your food will be ready in about twenty minutes.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the customer's name?",
+        "options": ["Johnson", "Miller", "Wilson", "Taylor"],
+        "answer": "Miller",
+        "explanation": "The customer says 'Under the name Miller.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How many people are dining?",
+        "options": ["One", "Two", "Three", "Four"],
+        "answer": "Two",
+        "explanation": "The customer says 'A table for two.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How long will the food take?",
+        "options": ["Ten minutes", "Fifteen minutes", "Twenty minutes", "Thirty minutes"],
+        "answer": "Twenty minutes",
+        "explanation": "The waiter says 'Your food will be ready in about twenty minutes.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The man orders grilled ___.",
+        "answer": "chicken",
+        "explanation": "The man says 'I'll have the grilled chicken.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The man's wife orders ___.",
+        "answer": "pasta",
+        "explanation": "The man says 'my wife would like the pasta.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "They order two glasses of water and a bottle of red ___.",
+        "answer": "wine",
+        "explanation": "The man says 'a bottle of red wine.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "They do not want any ___.",
+        "answer": "starters",
+        "explanation": "The man says 'No, thank you. Just the main course.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each person with their food and drink order.",
+        "pairs": [
+          { "left": "Man", "right": "Grilled chicken" },
+          { "left": "Wife", "right": "Pasta" },
+          { "left": "Both", "right": "Water (2 glasses)" },
+          { "left": "Both", "right": "Red wine (1 bottle)" }
+        ],
+        "answers": {
+          "Grilled chicken": "Man",
+          "Pasta": "Wife",
+          "Water (2 glasses)": "Both",
+          "Red wine (1 bottle)": "Both"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each event in the restaurant with the correct order.",
+        "pairs": [
+          { "left": "First", "right": "Check reservation" },
+          { "left": "Second", "right": "Sit at table" },
+          { "left": "Third", "right": "Order drinks" },
+          { "left": "Fourth", "right": "Order food" }
+        ],
+        "answers": {
+          "First": "Check reservation",
+          "Second": "Sit at table",
+          "Third": "Order drinks",
+          "Fourth": "Order food"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Do they order starters?",
+        "options": ["Yes, they order soup", "Yes, they order salad", "No, they don't order any", "It is not mentioned"],
+        "answer": "No, they don't order any",
+        "explanation": "The man says 'No, thank you. Just the main course.'"
+      }
+    ]
+  }
+]

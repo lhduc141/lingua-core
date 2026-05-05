@@ -33,9 +33,14 @@ export const QuestionSelect = {
 				content: true,
 				cefrLevel: true,
 				wordCount: true,
+				audioUrl: true,
 			},
 		},
 	} satisfies Prisma.QuestionSelect,
+
+	payload: {
+		select: { configJson: true },
+	},
 
 	irtParams: {
 		passageId: true,
@@ -57,7 +62,7 @@ export const QuestionSelect = {
 			select: { optionId: true, isCorrect: true },
 		},
 		payload: {
-			select: { answerKeysJson: true },
+			select: { answerKeysJson: true, configJson: true },
 		},
 	} satisfies Prisma.QuestionSelect,
 

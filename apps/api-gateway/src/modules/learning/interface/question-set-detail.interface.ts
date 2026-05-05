@@ -1,4 +1,4 @@
-import { SkillName } from '@prisma/client';
+import { SkillName } from '@app/shared';
 import { QuestionItem } from './question-item.interface';
 
 export interface QuestionSetDetail {

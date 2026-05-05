@@ -12,7 +12,7 @@ import {
 	Min,
 } from 'class-validator';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
-import { SkillName } from '@prisma/client';
+import { SkillName } from '@app/shared';
 
 export class CreateQuestionSetDto {
 	@ApiProperty({

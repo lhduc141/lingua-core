@@ -11,6 +11,7 @@ export interface AssessmentQuestion {
 		content: string;
 		cefrLevel: string | null;
 		wordCount: number | null;
+		audioUrl: string | null;
 	} | null;
 	options: {
 		optionId: string;

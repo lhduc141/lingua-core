@@ -24,7 +24,7 @@ export class LearningPlanController {
 
 	@Get('current')
 	@ApiOperation({ summary: 'Get current learning plan (grouped by day)' })
-	@ApiOkResponse({ description: 'Current plan with daily tasks, auto-generates weekly review if due' })
+	@ApiOkResponse({ description: 'Current week plan from Monday to Sunday with daily tasks' })
 	getCurrent(@ReqUser('userId') userId: string) {
 		return this.planService.getCurrentPlan(userId);
 	}

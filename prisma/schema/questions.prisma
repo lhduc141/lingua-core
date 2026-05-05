@@ -75,6 +75,7 @@ model Passage {
 
   title   String? @default("Untitled")
   content String  @db.Text
+  audioUrl  String? @map("audio_url")
 
   status ContentStatus @default(published)
 

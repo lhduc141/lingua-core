@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "b2_lesson_01",
+    "title": "Economic Inequality",
+    "topic": "economics",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Global wealth inequality has reached record levels. The richest one percent now own more than half the world's wealth."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "That's a staggering statistic. What are the main drivers of this disparity?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Primarily capital returns outpacing wage growth, inheritance concentrating wealth, and tax structures that favor asset holders."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Some argue this inequality is a natural byproduct of innovation and entrepreneurship."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "That argument has merit in isolated cases, but systemic inequality undermines social mobility."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Research shows children's economic outcomes correlate more strongly with parental income than in previous generations."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Which suggests the meritocracy narrative is increasingly disconnected from reality."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "What policy interventions do you think would be most effective?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Progressive wealth taxes, strengthened inheritance laws, and substantial investment in public education."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Though implementing such policies faces enormous political resistance from those who benefit from the current system."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What percentage of wealth does the richest 1% own?",
+        "options": [
+          "Over 30%",
+          "Over 40%",
+          "Over 50%",
+          "Over 60%"
+        ],
+        "answer": "Over 50%"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What does research show about children's economic outcomes?",
+        "options": [
+          "They are unrelated to parents",
+          "They correlate strongly with parental income",
+          "They depend on education alone",
+          "They are improving for all"
+        ],
+        "answer": "They correlate strongly with parental income"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Capital ___ outpaces wage growth as a driver of inequality.",
+        "answer": "returns"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Progressive wealth taxes and improved public ___ are proposed solutions.",
+        "answer": "education"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match driver of inequality to mechanism.",
+        "pairs": [
+          {
+            "left": "Capital returns",
+            "right": "Asset owners gain more than workers"
+          },
+          {
+            "left": "Inheritance",
+            "right": "Wealth passed between generations"
+          },
+          {
+            "left": "Tax structures",
+            "right": "Favor asset holders"
+          }
+        ],
+        "answers": {
+          "Capital returns": "Asset owners gain more than workers",
+          "Inheritance": "Wealth passed between generations",
+          "Tax structures": "Favor asset holders"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B2",
+    "fullScript": "A: Global wealth inequality has reached record levels. The richest one percent now own more than half the world's wealth.\nB: That's a staggering statistic. What are the main drivers of this disparity?\nA: Primarily capital returns outpacing wage growth, inheritance concentrating wealth, and tax structures that favor asset holders.\nB: Some argue this inequality is a natural byproduct of innovation and entrepreneurship.\nA: That argument has merit in isolated cases, but systemic inequality undermines social mobility.\nB: Research shows children's economic outcomes correlate more strongly with parental income than in previous generations.\nA: Which suggests the meritocracy narrative is increasingly disconnected from reality.\nB: What policy interventions do you think would be most effective?\nA: Progressive wealth taxes, strengthened inheritance laws, and substantial investment in public education.\nB: Though implementing such policies faces enormous political resistance from those who benefit from the current system."
+  },
+  {
+    "id": "b2_lesson_02",
+    "title": "Artificial Intelligence and the Future of Work",
+    "topic": "technology",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Automation is projected to displace up to forty percent of current jobs by 2035. How should society respond?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "The narrative around automation is often too pessimistic. History shows new technologies create new categories of work."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "But the pace of this transition is unprecedented. Previous industrial revolutions occurred over decades."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "That's a valid concern. Workers in their forties and fifties will struggle to retrain for entirely new industries."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Which is why some economists advocate for a universal basic income as a buffer."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "UBI has been piloted in Finland and Canada with mixed results. Recipients reported better mental health but labor participation effects were ambiguous."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "What about sector-specific retraining programs?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "More targeted and potentially more effective. Singapore's SkillsFuture program is often cited as a successful model."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-BrianNeural",
+        "text": "Ultimately, the question is whether we can redistribute the productivity gains from automation more equitably."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Precisely. The technology isn't the problem — it's the distribution of its benefits."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What percentage of jobs may be displaced by 2035?",
+        "options": [
+          "20%",
+          "30%",
+          "40%",
+          "50%"
+        ],
+        "answer": "40%"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Which country's retraining program is cited as a model?",
+        "options": [
+          "Finland",
+          "Canada",
+          "Germany",
+          "Singapore"
+        ],
+        "answer": "Singapore"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "UBI stands for Universal Basic ___.",
+        "answer": "Income"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The real issue is the ___ of automation's benefits.",
+        "answer": "distribution"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match country to automation policy.",
+        "pairs": [
+          {
+            "left": "Finland",
+            "right": "UBI pilot"
+          },
+          {
+            "left": "Canada",
+            "right": "UBI pilot"
+          },
+          {
+            "left": "Singapore",
+            "right": "SkillsFuture retraining"
+          }
+        ],
+        "answers": {
+          "Finland": "UBI pilot",
+          "Canada": "UBI pilot",
+          "Singapore": "SkillsFuture retraining"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B2",
+    "fullScript": "A: Automation is projected to displace up to forty percent of current jobs by 2035. How should society respond?\nB: The narrative around automation is often too pessimistic. History shows new technologies create new categories of work.\nA: But the pace of this transition is unprecedented. Previous industrial revolutions occurred over decades.\nB: That's a valid concern. Workers in their forties and fifties will struggle to retrain for entirely new industries.\nA: Which is why some economists advocate for a universal basic income as a buffer.\nB: UBI has been piloted in Finland and Canada with mixed results. Recipients reported better mental health but labor participation effects were ambiguous.\nA: What about sector-specific retraining programs?\nB: More targeted and potentially more effective. Singapore's SkillsFuture program is often cited as a successful model.\nA: Ultimately, the question is whether we can redistribute the productivity gains from automation more equitably.\nB: Precisely. The technology isn't the problem — it's the distribution of its benefits."
+  },
+  {
+    "id": "b2_lesson_03",
+    "title": "Cultural Heritage and Preservation",
+    "topic": "culture",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Should contested colonial-era artifacts be returned to their countries of origin?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "This is one of the most charged debates in the museum world. There are legitimate arguments on both sides."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Advocates for repatriation argue these objects were taken under coercive or illegal circumstances."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "And that they hold profound cultural and spiritual significance that cannot be replicated by copies."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "However, major institutions argue they provide global accessibility and expert conservation."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "A somewhat paternalistic position, particularly when the country of origin has developed excellent museums."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Germany has recently begun returning Benin Bronzes. Is this a turning point?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Potentially. Though the British Museum still resists returning the Elgin Marbles to Greece."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "What's the ideal resolution?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-JennyNeural",
+        "text": "Collaborative agreements — shared stewardship, rotating loans — rather than absolute ownership."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What term describes returning artifacts to their origin country?",
+        "options": [
+          "Replication",
+          "Restoration",
+          "Repatriation",
+          "Redistribution"
+        ],
+        "answer": "Repatriation"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Which country is returning Benin Bronzes?",
+        "options": [
+          "France",
+          "Britain",
+          "Germany",
+          "USA"
+        ],
+        "answer": "Germany"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The Elgin Marbles are disputed between Britain and ___.",
+        "answer": "Greece"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "One proposed solution is shared ___ of artifacts.",
+        "answer": "stewardship"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match argument to position.",
+        "pairs": [
+          {
+            "left": "Coercive acquisition",
+            "right": "Pro-repatriation"
+          },
+          {
+            "left": "Global accessibility",
+            "right": "Pro-retention"
+          },
+          {
+            "left": "Cultural significance",
+            "right": "Pro-repatriation"
+          },
+          {
+            "left": "Expert conservation",
+            "right": "Pro-retention"
+          }
+        ],
+        "answers": {
+          "Coercive acquisition": "Pro-repatriation",
+          "Global accessibility": "Pro-retention",
+          "Cultural significance": "Pro-repatriation",
+          "Expert conservation": "Pro-retention"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B2",
+    "fullScript": "A: Should contested colonial-era artifacts be returned to their countries of origin?\nB: This is one of the most charged debates in the museum world. There are legitimate arguments on both sides.\nA: Advocates for repatriation argue these objects were taken under coercive or illegal circumstances.\nB: And that they hold profound cultural and spiritual significance that cannot be replicated by copies.\nA: However, major institutions argue they provide global accessibility and expert conservation.\nB: A somewhat paternalistic position, particularly when the country of origin has developed excellent museums.\nA: Germany has recently begun returning Benin Bronzes. Is this a turning point?\nB: Potentially. Though the British Museum still resists returning the Elgin Marbles to Greece.\nA: What's the ideal resolution?\nB: Collaborative agreements — shared stewardship, rotating loans — rather than absolute ownership."
+  },
+  {
+    "id": "b2_lesson_04",
+    "title": "Mental Health in the Workplace",
+    "topic": "health",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Burnout has been classified as an occupational phenomenon by the World Health Organization. What's driving it?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "The always-on digital culture. The boundary between professional and personal time has almost completely eroded."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Some would argue that flexibility is the trade-off for that connectivity."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "In theory. But research shows that when managers send emails at ten PM, employees feel implicitly pressured to respond."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "France introduced the right to disconnect legislation. Has it been effective?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Mixed outcomes. The law exists but cultural change is slower than legislative change."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What concrete steps can organizations take beyond policy?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Normalizing conversations about mental health, providing access to counseling, and modeling healthy behavior at leadership level."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Is there a business case for investing in employee wellbeing?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Absolutely. Mental health issues cost the global economy one trillion dollars per year in lost productivity."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Who classified burnout as an occupational phenomenon?",
+        "options": [
+          "The UN",
+          "The WHO",
+          "The IMF",
+          "The OECD"
+        ],
+        "answer": "The WHO"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What did France introduce to address overwork?",
+        "options": [
+          "Mandatory holidays",
+          "Four-day week",
+          "Right to disconnect legislation",
+          "Remote work rules"
+        ],
+        "answer": "Right to disconnect legislation"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Mental health issues cost the global economy one ___ dollars per year.",
+        "answer": "trillion"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The boundary between professional and ___ time has eroded.",
+        "answer": "personal"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match solution to type.",
+        "pairs": [
+          {
+            "left": "Right to disconnect",
+            "right": "Legislative solution"
+          },
+          {
+            "left": "Counseling access",
+            "right": "Organizational solution"
+          },
+          {
+            "left": "Leadership modeling",
+            "right": "Cultural solution"
+          },
+          {
+            "left": "Open conversations",
+            "right": "Cultural solution"
+          }
+        ],
+        "answers": {
+          "Right to disconnect": "Legislative solution",
+          "Counseling access": "Organizational solution",
+          "Leadership modeling": "Cultural solution",
+          "Open conversations": "Cultural solution"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B2",
+    "fullScript": "A: Burnout has been classified as an occupational phenomenon by the World Health Organization. What's driving it?\nB: The always-on digital culture. The boundary between professional and personal time has almost completely eroded.\nA: Some would argue that flexibility is the trade-off for that connectivity.\nB: In theory. But research shows that when managers send emails at ten PM, employees feel implicitly pressured to respond.\nA: France introduced the right to disconnect legislation. Has it been effective?\nB: Mixed outcomes. The law exists but cultural change is slower than legislative change.\nA: What concrete steps can organizations take beyond policy?\nB: Normalizing conversations about mental health, providing access to counseling, and modeling healthy behavior at leadership level.\nA: Is there a business case for investing in employee wellbeing?\nB: Absolutely. Mental health issues cost the global economy one trillion dollars per year in lost productivity."
+  },
+  {
+    "id": "b2_lesson_05",
+    "title": "Sustainable Cities",
+    "topic": "environment",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "By 2050, two-thirds of the world's population will live in cities. How do we make urban environments sustainable?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "The most progressive cities are redesigning themselves around people rather than cars."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Copenhagen is often cited as a model. What have they done differently?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Invested massively in cycling infrastructure, district heating systems, and set a target to be carbon neutral by 2025."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What about cities in the developing world, which lack Copenhagen's resources?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Curitiba in Brazil is a fascinating case — achieved excellent public transport on a fraction of European budgets."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What role does urban density play?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Paradoxically, dense cities often have lower per-capita emissions than sprawling suburbs because of shared infrastructure."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "So the key is integrated planning — transport, housing, green space together?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Exactly. Cities that plan these systems in isolation inevitably create more problems than they solve."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What proportion of people will live in cities by 2050?",
+        "options": [
+          "Half",
+          "Two-thirds",
+          "Three-quarters",
+          "Over 80%"
+        ],
+        "answer": "Two-thirds"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Which city achieved good transport on a limited budget?",
+        "options": [
+          "Copenhagen",
+          "Singapore",
+          "Curitiba",
+          "Amsterdam"
+        ],
+        "answer": "Curitiba"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Copenhagen aims to be carbon ___ by 2025.",
+        "answer": "neutral"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Dense cities often have lower per-capita ___ than suburbs.",
+        "answer": "emissions"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match city to innovation.",
+        "pairs": [
+          {
+            "left": "Copenhagen",
+            "right": "Cycling infrastructure and district heating"
+          },
+          {
+            "left": "Curitiba",
+            "right": "Efficient public transport on low budget"
+          }
+        ],
+        "answers": {
+          "Copenhagen": "Cycling infrastructure and district heating",
+          "Curitiba": "Efficient public transport on low budget"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B2",
+    "fullScript": "A: By 2050, two-thirds of the world's population will live in cities. How do we make urban environments sustainable?\nB: The most progressive cities are redesigning themselves around people rather than cars.\nA: Copenhagen is often cited as a model. What have they done differently?\nB: Invested massively in cycling infrastructure, district heating systems, and set a target to be carbon neutral by 2025.\nA: What about cities in the developing world, which lack Copenhagen's resources?\nB: Curitiba in Brazil is a fascinating case — achieved excellent public transport on a fraction of European budgets.\nA: What role does urban density play?\nB: Paradoxically, dense cities often have lower per-capita emissions than sprawling suburbs because of shared infrastructure.\nA: So the key is integrated planning — transport, housing, green space together?\nB: Exactly. Cities that plan these systems in isolation inevitably create more problems than they solve."
+  },
+  {
+    "id": "b2_lesson_06",
+    "title": "The Future of Education",
+    "topic": "education",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Traditional universities are facing an existential challenge from online learning platforms. Do you think degrees will remain relevant?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "For certain fields, yes — medicine, law, engineering. But for many knowledge-based careers, probably not."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What value does a traditional university still provide that online platforms cannot?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "The social and networking dimension. The relationships formed during university often matter more than the curriculum."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Some argue universities are gatekeepers that perpetuate privilege rather than enable social mobility."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "There's truth in that. Elite universities recruit disproportionately from wealthy backgrounds."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Could microcredentials and portfolio-based hiring replace degrees?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Companies like Google and Apple have already dropped degree requirements for many roles."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "So employers are ahead of educational institutions in adapting?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "In some sectors. The challenge is that cultural attitudes toward degrees change much more slowly than hiring practices."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "For which fields do degrees remain most relevant according to Speaker B?",
+        "options": [
+          "Arts and humanities",
+          "Technology and business",
+          "Medicine, law, and engineering",
+          "Social sciences"
+        ],
+        "answer": "Medicine, law, and engineering"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What have Google and Apple done regarding degrees?",
+        "options": [
+          "Made degrees mandatory",
+          "Dropped degree requirements for many roles",
+          "Created their own universities",
+          "Partnered with universities"
+        ],
+        "answer": "Dropped degree requirements for many roles"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The relationships formed during university often matter more than the ___.",
+        "answer": "curriculum"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Elite universities recruit disproportionately from ___ backgrounds.",
+        "answer": "wealthy"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match university benefit to type.",
+        "pairs": [
+          {
+            "left": "Social networking",
+            "right": "Interpersonal benefit"
+          },
+          {
+            "left": "Degree credential",
+            "right": "Professional benefit"
+          },
+          {
+            "left": "Structured curriculum",
+            "right": "Academic benefit"
+          }
+        ],
+        "answers": {
+          "Social networking": "Interpersonal benefit",
+          "Degree credential": "Professional benefit",
+          "Structured curriculum": "Academic benefit"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B2",
+    "fullScript": "A: Traditional universities are facing an existential challenge from online learning platforms. Do you think degrees will remain relevant?\nB: For certain fields, yes — medicine, law, engineering. But for many knowledge-based careers, probably not.\nA: What value does a traditional university still provide that online platforms cannot?\nB: The social and networking dimension. The relationships formed during university often matter more than the curriculum.\nA: Some argue universities are gatekeepers that perpetuate privilege rather than enable social mobility.\nB: There's truth in that. Elite universities recruit disproportionately from wealthy backgrounds.\nA: Could microcredentials and portfolio-based hiring replace degrees?\nB: Companies like Google and Apple have already dropped degree requirements for many roles.\nA: So employers are ahead of educational institutions in adapting?\nB: In some sectors. The challenge is that cultural attitudes toward degrees change much more slowly than hiring practices."
+  },
+  {
+    "id": "b2_lesson_07",
+    "title": "Global Migration and Identity",
+    "topic": "society",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Immigration is one of the most divisive political issues of our era. Why does it provoke such strong reactions?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Because it touches on deeply personal questions of identity, belonging, and economic security simultaneously."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "The economic evidence largely shows immigration benefits host economies. Why doesn't that shift public opinion?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Because economic anxiety is real even when aggregate statistics are positive. The gains are distributed unequally."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "What about the cultural dimension — concerns about social cohesion?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Research shows that diverse societies with strong integration programs have excellent social cohesion over time."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Canada is often cited as a model for managed immigration."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Yes, their points-based system and multiculturalism policy have created a relatively cohesive diverse society."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-ChristopherNeural",
+        "text": "What's your view on the ethics of restrictive immigration policies?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-AriaNeural",
+        "text": "Philosophical frameworks differ widely. Cosmopolitans would argue birthplace is a morally arbitrary barrier to opportunity."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Why doesn't positive economic data shift immigration opinions?",
+        "options": [
+          "People don't trust economists",
+          "Gains are distributed unequally",
+          "The data is wrong",
+          "Media is biased"
+        ],
+        "answer": "Gains are distributed unequally"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is Canada's immigration system based on?",
+        "options": [
+          "Family connections",
+          "Random selection",
+          "A points-based system",
+          "Employment contracts"
+        ],
+        "answer": "A points-based system"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Immigration touches on identity, belonging, and economic ___.",
+        "answer": "security"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Cosmopolitans argue birthplace is a morally ___ barrier.",
+        "answer": "arbitrary"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match country/approach to description.",
+        "pairs": [
+          {
+            "left": "Canada",
+            "right": "Points system + multiculturalism"
+          },
+          {
+            "left": "Cosmopolitanism",
+            "right": "Birthplace is arbitrary barrier"
+          },
+          {
+            "left": "Integration programs",
+            "right": "Improve social cohesion over time"
+          }
+        ],
+        "answers": {
+          "Canada": "Points system + multiculturalism",
+          "Cosmopolitanism": "Birthplace is arbitrary barrier",
+          "Integration programs": "Improve social cohesion over time"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B2",
+    "fullScript": "A: Immigration is one of the most divisive political issues of our era. Why does it provoke such strong reactions?\nB: Because it touches on deeply personal questions of identity, belonging, and economic security simultaneously.\nA: The economic evidence largely shows immigration benefits host economies. Why doesn't that shift public opinion?\nB: Because economic anxiety is real even when aggregate statistics are positive. The gains are distributed unequally.\nA: What about the cultural dimension — concerns about social cohesion?\nB: Research shows that diverse societies with strong integration programs have excellent social cohesion over time.\nA: Canada is often cited as a model for managed immigration.\nB: Yes, their points-based system and multiculturalism policy have created a relatively cohesive diverse society.\nA: What's your view on the ethics of restrictive immigration policies?\nB: Philosophical frameworks differ widely. Cosmopolitans would argue birthplace is a morally arbitrary barrier to opportunity."
+  },
+  {
+    "id": "b2_lesson_08",
+    "title": "Media Literacy in the Digital Age",
+    "topic": "media",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "The term 'post-truth' was Oxford's word of the year in 2016. Are we genuinely in a post-truth era?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "The mechanisms for spreading misinformation have become extraordinarily powerful, but humans have always been susceptible to motivated reasoning."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What's different now is the algorithmic amplification of emotionally engaging content regardless of accuracy."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Exactly. Platforms optimize for engagement, and outrage is more engaging than nuance."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "How do we rebuild epistemic trust?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Multiple approaches — platform regulation, media literacy education, and supporting quality journalism financially."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Finland has embedded media literacy into the school curriculum from primary level."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "And they consistently score among the lowest for susceptibility to misinformation in European surveys."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Is there a tension between free speech and regulating disinformation?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Inevitably. But most liberal democracies already accept limits on speech that causes direct harm."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "When was 'post-truth' named word of the year?",
+        "options": [
+          "2014",
+          "2015",
+          "2016",
+          "2017"
+        ],
+        "answer": "2016"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Which country embeds media literacy into schools from primary level?",
+        "options": [
+          "Sweden",
+          "Norway",
+          "Finland",
+          "Denmark"
+        ],
+        "answer": "Finland"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Platforms optimize for ___, and outrage is more engaging than nuance.",
+        "answer": "engagement"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Humans have always been susceptible to ___ reasoning.",
+        "answer": "motivated"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match approach to rebuilding trust.",
+        "pairs": [
+          {
+            "left": "Platform regulation",
+            "right": "Legal/structural"
+          },
+          {
+            "left": "Media literacy education",
+            "right": "Educational"
+          },
+          {
+            "left": "Support quality journalism",
+            "right": "Financial"
+          }
+        ],
+        "answers": {
+          "Platform regulation": "Legal/structural",
+          "Media literacy education": "Educational",
+          "Support quality journalism": "Financial"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B2",
+    "fullScript": "A: The term 'post-truth' was Oxford's word of the year in 2016. Are we genuinely in a post-truth era?\nB: The mechanisms for spreading misinformation have become extraordinarily powerful, but humans have always been susceptible to motivated reasoning.\nA: What's different now is the algorithmic amplification of emotionally engaging content regardless of accuracy.\nB: Exactly. Platforms optimize for engagement, and outrage is more engaging than nuance.\nA: How do we rebuild epistemic trust?\nB: Multiple approaches — platform regulation, media literacy education, and supporting quality journalism financially.\nA: Finland has embedded media literacy into the school curriculum from primary level.\nB: And they consistently score among the lowest for susceptibility to misinformation in European surveys.\nA: Is there a tension between free speech and regulating disinformation?\nB: Inevitably. But most liberal democracies already accept limits on speech that causes direct harm."
+  },
+  {
+    "id": "b2_lesson_09",
+    "title": "Work-Life Balance in Modern Society",
+    "topic": "lifestyle",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Several countries are trialing four-day working weeks. What does the evidence show?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "The most comprehensive trials, in Iceland and subsequently across multiple sectors in the UK, showed maintained or improved productivity."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "And the wellbeing outcomes?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Significant improvements in stress levels, sleep quality, and job satisfaction across the board."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Why haven't more organizations adopted it if the evidence is so positive?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Cultural inertia and the assumption that presence equals productivity — particularly resistant in senior leadership."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What about industries where physical presence is non-negotiable — hospitality, healthcare?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "The model looks different there — compressed hours, rotating rosters — but the principles can still apply."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Is work-life balance ultimately a personal responsibility or a structural one?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Both, but systemic structures set the parameters within which individual choices are possible."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Where were the most comprehensive four-day week trials conducted?",
+        "options": [
+          "Finland and Germany",
+          "Iceland and UK",
+          "Sweden and France",
+          "Denmark and Norway"
+        ],
+        "answer": "Iceland and UK"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What does 'cultural inertia' refer to here?",
+        "options": [
+          "Fear of new technology",
+          "Preference for traditional work patterns",
+          "Resistance to remote work",
+          "Lack of management skills"
+        ],
+        "answer": "Preference for traditional work patterns"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Trials showed maintained or improved ___.",
+        "answer": "productivity"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The assumption is that ___ equals productivity.",
+        "answer": "presence"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match wellbeing outcome to improvement.",
+        "pairs": [
+          {
+            "left": "Stress levels",
+            "right": "Significantly reduced"
+          },
+          {
+            "left": "Sleep quality",
+            "right": "Improved"
+          },
+          {
+            "left": "Job satisfaction",
+            "right": "Increased"
+          }
+        ],
+        "answers": {
+          "Stress levels": "Significantly reduced",
+          "Sleep quality": "Improved",
+          "Job satisfaction": "Increased"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B2",
+    "fullScript": "A: Several countries are trialing four-day working weeks. What does the evidence show?\nB: The most comprehensive trials, in Iceland and subsequently across multiple sectors in the UK, showed maintained or improved productivity.\nA: And the wellbeing outcomes?\nB: Significant improvements in stress levels, sleep quality, and job satisfaction across the board.\nA: Why haven't more organizations adopted it if the evidence is so positive?\nB: Cultural inertia and the assumption that presence equals productivity — particularly resistant in senior leadership.\nA: What about industries where physical presence is non-negotiable — hospitality, healthcare?\nB: The model looks different there — compressed hours, rotating rosters — but the principles can still apply.\nA: Is work-life balance ultimately a personal responsibility or a structural one?\nB: Both, but systemic structures set the parameters within which individual choices are possible."
+  },
+  {
+    "id": "b2_lesson_10",
+    "title": "Bioethics and Medical Technology",
+    "topic": "science",
+    "estimatedMinutes": 12,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Gene editing technology like CRISPR raises profound ethical questions. Where do you stand?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "The therapeutic applications for hereditary diseases are genuinely exciting. Sickle cell disease may soon be curable."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "But the line between treatment and enhancement is blurry. If we can edit out disease, why not edit in advantage?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "That's the slippery slope concern. Designer babies would fundamentally alter what it means to be human."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "And create new forms of inequality — genetic advantages accessible only to the wealthy."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Exactly. The technology itself is neutral, but deployment in an unequal society produces deeply unequal outcomes."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "How should this be regulated internationally?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "A global treaty similar to the nuclear non-proliferation framework, though getting all nations to sign would be extremely challenging."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "China's creation of gene-edited babies in 2018 demonstrated the urgency."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "A watershed moment that shocked the scientific community and accelerated calls for international governance."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Which disease may be curable through CRISPR?",
+        "options": [
+          "Cancer",
+          "Diabetes",
+          "Sickle cell disease",
+          "Alzheimer's"
+        ],
+        "answer": "Sickle cell disease"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What happened in China in 2018?",
+        "options": [
+          "CRISPR was invented",
+          "Gene-edited babies were created",
+          "A CRISPR ban was imposed",
+          "A treaty was signed"
+        ],
+        "answer": "Gene-edited babies were created"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The line between treatment and ___ is blurry.",
+        "answer": "enhancement"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "A global treaty similar to nuclear ___ is proposed.",
+        "answer": "non-proliferation"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match concern to ethical category.",
+        "pairs": [
+          {
+            "left": "Designer babies",
+            "right": "Human identity concern"
+          },
+          {
+            "left": "Genetic inequality",
+            "right": "Social justice concern"
+          },
+          {
+            "left": "Unregulated research",
+            "right": "Safety concern"
+          }
+        ],
+        "answers": {
+          "Designer babies": "Human identity concern",
+          "Genetic inequality": "Social justice concern",
+          "Unregulated research": "Safety concern"
+        }
+      }
+    ],
+    "type": "lesson",
+    "cefrLevel": "B2",
+    "fullScript": "A: Gene editing technology like CRISPR raises profound ethical questions. Where do you stand?\nB: The therapeutic applications for hereditary diseases are genuinely exciting. Sickle cell disease may soon be curable.\nA: But the line between treatment and enhancement is blurry. If we can edit out disease, why not edit in advantage?\nB: That's the slippery slope concern. Designer babies would fundamentally alter what it means to be human.\nA: And create new forms of inequality — genetic advantages accessible only to the wealthy.\nB: Exactly. The technology itself is neutral, but deployment in an unequal society produces deeply unequal outcomes.\nA: How should this be regulated internationally?\nB: A global treaty similar to the nuclear non-proliferation framework, though getting all nations to sign would be extremely challenging.\nA: China's creation of gene-edited babies in 2018 demonstrated the urgency.\nB: A watershed moment that shocked the scientific community and accelerated calls for international governance."
+  }
+]

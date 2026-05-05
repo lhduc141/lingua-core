@@ -1,0 +1,1852 @@
+[
+  {
+    "id": "b1_practice_01",
+    "title": "University Life Discussion",
+    "topic": "education",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "How are you finding university life so far?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "It's challenging but exciting. The workload is much heavier than I expected."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What's your biggest challenge?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Time management. Balancing lectures, assignments, and social life is difficult."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Have you joined any clubs or societies?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Yes, the photography club and the debate society. Both are excellent for networking."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "How's student accommodation?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "I live in halls. It's convenient but noisy. I'm planning to move into a shared house next year."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What advice would you give to someone starting university?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Don't miss lectures, use the library, and don't be afraid to ask for help."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What career are you aiming for?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Journalism. I want to cover international news."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "That's ambitious. Is your degree relevant to that?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "I'm studying communications, so yes. But I also need practical experience — hence the debate club."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the student's biggest challenge?",
+        "options": [
+          "Money",
+          "Time management",
+          "Homesickness",
+          "Difficult subjects"
+        ],
+        "answer": "Time management"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Where is the student living now?",
+        "options": [
+          "In a shared house",
+          "With parents",
+          "In university halls",
+          "In a private studio"
+        ],
+        "answer": "In university halls"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What career does Speaker B want?",
+        "options": [
+          "Teaching",
+          "Photography",
+          "Journalism",
+          "Politics"
+        ],
+        "answer": "Journalism"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B joined the photography club and the ___ society.",
+        "answer": "debate"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B is studying ___.",
+        "answer": "communications"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B plans to cover ___ news.",
+        "answer": "international"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B plans to move into a shared ___ next year.",
+        "answer": "house"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match advice to action.",
+        "pairs": [
+          {
+            "left": "Don't miss",
+            "right": "Lectures"
+          },
+          {
+            "left": "Use the",
+            "right": "Library"
+          },
+          {
+            "left": "Ask for",
+            "right": "Help"
+          }
+        ],
+        "answers": {
+          "Don't miss": "Lectures",
+          "Use the": "Library",
+          "Ask for": "Help"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match club to benefit.",
+        "pairs": [
+          {
+            "left": "Photography club",
+            "right": "Creative networking"
+          },
+          {
+            "left": "Debate society",
+            "right": "Practical journalism experience"
+          }
+        ],
+        "answers": {
+          "Photography club": "Creative networking",
+          "Debate society": "Practical journalism experience"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why does Speaker B call their career aim 'ambitious'?",
+        "options": [
+          "Because journalism pays badly",
+          "Because it requires international travel",
+          "Because it's competitive and needs experience",
+          "Because it requires a science degree"
+        ],
+        "answer": "Because it's competitive and needs experience"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "B1",
+    "fullScript": "A: How are you finding university life so far?\nB: It's challenging but exciting. The workload is much heavier than I expected.\nA: What's your biggest challenge?\nB: Time management. Balancing lectures, assignments, and social life is difficult.\nA: Have you joined any clubs or societies?\nB: Yes, the photography club and the debate society. Both are excellent for networking.\nA: How's student accommodation?\nB: I live in halls. It's convenient but noisy. I'm planning to move into a shared house next year.\nA: What advice would you give to someone starting university?\nB: Don't miss lectures, use the library, and don't be afraid to ask for help.\nA: What career are you aiming for?\nB: Journalism. I want to cover international news.\nA: That's ambitious. Is your degree relevant to that?\nB: I'm studying communications, so yes. But I also need practical experience — hence the debate club."
+  },
+  {
+    "id": "b1_practice_02",
+    "title": "Environmental Project",
+    "topic": "environment",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Our community recycling rate has dropped by fifteen percent this year."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "That's concerning. What's causing it?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Research shows people are confused about what can be recycled."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "We need a clearer education campaign. What have other cities done successfully?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Some cities use color-coded bins with pictures. The visual cues really help."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "That could work. What about reward schemes?"
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "In South Korea, people pay more for non-recyclable waste. It reduced waste by thirty percent."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Incentives and penalties together are more effective than information alone."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "We should also target schools. Children influence their parents' behavior at home."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Good point. Young people are often more environmentally motivated than adults."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "I'll present these recommendations to the council next week."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "I'll prepare the data visualizations to support your presentation."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "By how much has the recycling rate dropped?",
+        "options": [
+          "5%",
+          "10%",
+          "15%",
+          "20%"
+        ],
+        "answer": "15%"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What did South Korea's scheme achieve?",
+        "options": [
+          "20% waste reduction",
+          "30% waste reduction",
+          "40% waste reduction",
+          "50% waste reduction"
+        ],
+        "answer": "30% waste reduction"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Who will prepare data visualizations?",
+        "options": [
+          "Speaker A",
+          "Speaker B",
+          "The council",
+          "A researcher"
+        ],
+        "answer": "Speaker B"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "People are confused about what can be ___.",
+        "answer": "recycled"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Color-coded bins with ___ really help people recycle.",
+        "answer": "pictures"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker A will present to the ___ next week.",
+        "answer": "council"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "In South Korea, people pay more for ___ waste.",
+        "answer": "non-recyclable"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match solution to type.",
+        "pairs": [
+          {
+            "left": "Color-coded bins",
+            "right": "Visual education"
+          },
+          {
+            "left": "Reward scheme",
+            "right": "Incentive"
+          },
+          {
+            "left": "Pay more for waste",
+            "right": "Penalty"
+          },
+          {
+            "left": "Schools programme",
+            "right": "Youth education"
+          }
+        ],
+        "answers": {
+          "Color-coded bins": "Visual education",
+          "Reward scheme": "Incentive",
+          "Pay more for waste": "Penalty",
+          "Schools programme": "Youth education"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match problem to cause.",
+        "pairs": [
+          {
+            "left": "Low recycling rate",
+            "right": "Confusion about what to recycle"
+          }
+        ],
+        "answers": {
+          "Low recycling rate": "Confusion about what to recycle"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Why target schools specifically?",
+        "options": [
+          "Children recycle more",
+          "Children influence parent behavior",
+          "Schools produce most waste",
+          "It's required by law"
+        ],
+        "answer": "Children influence parent behavior"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "B1",
+    "fullScript": "A: Our community recycling rate has dropped by fifteen percent this year.\nB: That's concerning. What's causing it?\nA: Research shows people are confused about what can be recycled.\nB: We need a clearer education campaign. What have other cities done successfully?\nA: Some cities use color-coded bins with pictures. The visual cues really help.\nB: That could work. What about reward schemes?\nA: In South Korea, people pay more for non-recyclable waste. It reduced waste by thirty percent.\nB: Incentives and penalties together are more effective than information alone.\nA: We should also target schools. Children influence their parents' behavior at home.\nB: Good point. Young people are often more environmentally motivated than adults.\nA: I'll present these recommendations to the council next week.\nB: I'll prepare the data visualizations to support your presentation."
+  },
+  {
+    "id": "b1_practice_03",
+    "title": "Internship Experience",
+    "topic": "work",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Tell me about your internship last summer."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "I worked at a digital marketing agency for three months."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What were your main responsibilities?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Managing social media accounts, writing content, and analyzing campaign performance."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Did you face any challenges?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "At first, I struggled with the pace. Deadlines were very tight and I made some mistakes."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "How did you handle that?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "I asked my supervisor for feedback, created a priority list, and focused on one task at a time."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What was the most valuable thing you learned?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "That professional communication is different from academic writing — it needs to be concise and persuasive."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Did the internship lead to any opportunities?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Yes, they offered me part-time work during my final year and a graduate position after graduation."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "How long was the internship?",
+        "options": [
+          "One month",
+          "Two months",
+          "Three months",
+          "Six months"
+        ],
+        "answer": "Three months"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What did Speaker B learn about professional writing?",
+        "options": [
+          "It needs more data",
+          "It needs to be concise and persuasive",
+          "It's similar to academic writing",
+          "It needs to be creative"
+        ],
+        "answer": "It needs to be concise and persuasive"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What did the company offer Speaker B?",
+        "options": [
+          "A full-time job immediately",
+          "Part-time work now, graduate job later",
+          "A scholarship",
+          "A promotion"
+        ],
+        "answer": "Part-time work now, graduate job later"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B worked at a digital ___ agency.",
+        "answer": "marketing"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B struggled with the ___ at first.",
+        "answer": "pace"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B asked their ___ for feedback.",
+        "answer": "supervisor"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B focused on ___ task at a time.",
+        "answer": "one"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match responsibility to description.",
+        "pairs": [
+          {
+            "left": "Social media management",
+            "right": "Managing accounts"
+          },
+          {
+            "left": "Content writing",
+            "right": "Writing content"
+          },
+          {
+            "left": "Data work",
+            "right": "Analyzing campaign performance"
+          }
+        ],
+        "answers": {
+          "Social media management": "Managing accounts",
+          "Content writing": "Writing content",
+          "Data work": "Analyzing campaign performance"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match problem to solution.",
+        "pairs": [
+          {
+            "left": "Tight deadlines",
+            "right": "Created priority list"
+          },
+          {
+            "left": "Making mistakes",
+            "right": "Asked for feedback"
+          },
+          {
+            "left": "Too many tasks",
+            "right": "Focused on one at a time"
+          }
+        ],
+        "answers": {
+          "Tight deadlines": "Created priority list",
+          "Making mistakes": "Asked for feedback",
+          "Too many tasks": "Focused on one at a time"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "When will Speaker B start the graduate position?",
+        "options": [
+          "Immediately",
+          "During final year",
+          "After graduation",
+          "In two years"
+        ],
+        "answer": "After graduation"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "B1",
+    "fullScript": "A: Tell me about your internship last summer.\nB: I worked at a digital marketing agency for three months.\nA: What were your main responsibilities?\nB: Managing social media accounts, writing content, and analyzing campaign performance.\nA: Did you face any challenges?\nB: At first, I struggled with the pace. Deadlines were very tight and I made some mistakes.\nA: How did you handle that?\nB: I asked my supervisor for feedback, created a priority list, and focused on one task at a time.\nA: What was the most valuable thing you learned?\nB: That professional communication is different from academic writing — it needs to be concise and persuasive.\nA: Did the internship lead to any opportunities?\nB: Yes, they offered me part-time work during my final year and a graduate position after graduation."
+  },
+  {
+    "id": "b1_practice_04",
+    "title": "Digital Nomad Lifestyle",
+    "topic": "lifestyle",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "I've been considering becoming a digital nomad. Have you tried it?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Yes, I worked remotely from Southeast Asia for eight months."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What's the lifestyle actually like?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "It's flexible and exciting, but also quite isolating at times."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What were the practical challenges?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Reliable internet was the biggest issue. And managing time zones for meetings."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "How did you find accommodation?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Mostly monthly rentals through Airbnb. Co-working spaces helped me stay productive."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Did you miss home?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Absolutely. After about six months, I missed routine, familiar food, and my friends."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Would you do it again?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Yes, but for shorter periods — maybe three months at a time."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "How long did Speaker B work as a digital nomad?",
+        "options": [
+          "3 months",
+          "6 months",
+          "8 months",
+          "12 months"
+        ],
+        "answer": "8 months"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What was the biggest practical challenge?",
+        "options": [
+          "Finding accommodation",
+          "Reliable internet",
+          "Language barriers",
+          "Money management"
+        ],
+        "answer": "Reliable internet"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What would Speaker B change if doing it again?",
+        "options": [
+          "Go to different locations",
+          "Stay longer",
+          "Do shorter trips",
+          "Work in an office"
+        ],
+        "answer": "Do shorter trips"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Managing ___ zones for meetings was a challenge.",
+        "answer": "time"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B used ___ spaces to stay productive.",
+        "answer": "co-working"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "After six months, Speaker B missed routine, familiar food, and ___.",
+        "answer": "friends"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B would prefer stays of ___ months.",
+        "answer": "three"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match lifestyle characteristic to type.",
+        "pairs": [
+          {
+            "left": "Flexible and exciting",
+            "right": "Positive aspect"
+          },
+          {
+            "left": "Isolating at times",
+            "right": "Negative aspect"
+          },
+          {
+            "left": "No fixed routine",
+            "right": "Challenge"
+          },
+          {
+            "left": "Travel experience",
+            "right": "Positive aspect"
+          }
+        ],
+        "answers": {
+          "Flexible and exciting": "Positive aspect",
+          "Isolating at times": "Negative aspect",
+          "No fixed routine": "Challenge",
+          "Travel experience": "Positive aspect"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match practical solution used.",
+        "pairs": [
+          {
+            "left": "Accommodation",
+            "right": "Monthly Airbnb rentals"
+          },
+          {
+            "left": "Work environment",
+            "right": "Co-working spaces"
+          }
+        ],
+        "answers": {
+          "Accommodation": "Monthly Airbnb rentals",
+          "Work environment": "Co-working spaces"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Overall, would Speaker B recommend the digital nomad lifestyle?",
+        "options": [
+          "No, not at all",
+          "Yes, but with some changes",
+          "Yes, definitely for long periods",
+          "Not sure"
+        ],
+        "answer": "Yes, but with some changes"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "B1",
+    "fullScript": "A: I've been considering becoming a digital nomad. Have you tried it?\nB: Yes, I worked remotely from Southeast Asia for eight months.\nA: What's the lifestyle actually like?\nB: It's flexible and exciting, but also quite isolating at times.\nA: What were the practical challenges?\nB: Reliable internet was the biggest issue. And managing time zones for meetings.\nA: How did you find accommodation?\nB: Mostly monthly rentals through Airbnb. Co-working spaces helped me stay productive.\nA: Did you miss home?\nB: Absolutely. After about six months, I missed routine, familiar food, and my friends.\nA: Would you do it again?\nB: Yes, but for shorter periods — maybe three months at a time."
+  },
+  {
+    "id": "b1_practice_05",
+    "title": "Food Culture and Tourism",
+    "topic": "food",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Food tourism is one of the fastest-growing travel trends. Why do you think that is?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Because food is the most accessible way to experience a culture. It tells you a lot about a people's history and values."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Can you give an example of food revealing history?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Absolutely. Peruvian cuisine reflects indigenous traditions, Spanish colonization, and Japanese immigration."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "That's fascinating. Have you ever taken a food-focused trip?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Yes, to Japan. I took a cooking class, visited a fish market at four in the morning, and ate at fifty restaurants."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Fifty restaurants in one trip?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Over two weeks. Japan has incredible variety — ramen, sushi, tempura, izakaya food."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What's your most memorable food experience?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "A bowl of tonkotsu ramen at two in the morning in Fukuoka. Unforgettable."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What advice would you give a food tourist visiting your country?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Go to local markets, avoid tourist restaurants, and always ask locals for recommendations."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "According to Speaker B, why is food the most accessible cultural experience?",
+        "options": [
+          "It's cheap",
+          "It tells you about history and values",
+          "Everyone needs to eat",
+          "It's easy to find"
+        ],
+        "answer": "It tells you about history and values"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Where did Speaker B take a food-focused trip?",
+        "options": [
+          "Peru",
+          "Korea",
+          "Japan",
+          "China"
+        ],
+        "answer": "Japan"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the most memorable food experience?",
+        "options": [
+          "Sushi in Tokyo",
+          "Ramen in Fukuoka",
+          "Tempura in Kyoto",
+          "Izakaya in Osaka"
+        ],
+        "answer": "Ramen in Fukuoka"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B visited a fish market at ___ in the morning.",
+        "answer": "four"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B ate at ___ restaurants over two weeks.",
+        "answer": "fifty"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Peruvian cuisine reflects Spanish colonization and ___ immigration.",
+        "answer": "Japanese"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Speaker B advises going to local ___ instead of tourist restaurants.",
+        "answer": "markets"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match food culture influence to Peruvian cuisine.",
+        "pairs": [
+          {
+            "left": "Pre-European history",
+            "right": "Indigenous traditions"
+          },
+          {
+            "left": "European period",
+            "right": "Spanish colonization"
+          },
+          {
+            "left": "Asian migration",
+            "right": "Japanese immigration"
+          }
+        ],
+        "answers": {
+          "Pre-European history": "Indigenous traditions",
+          "European period": "Spanish colonization",
+          "Asian migration": "Japanese immigration"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match Japanese food to its type.",
+        "pairs": [
+          {
+            "left": "Ramen",
+            "right": "Noodle soup"
+          },
+          {
+            "left": "Sushi",
+            "right": "Rice and fish"
+          },
+          {
+            "left": "Tempura",
+            "right": "Fried food"
+          },
+          {
+            "left": "Tonkotsu",
+            "right": "Pork broth ramen"
+          }
+        ],
+        "answers": {
+          "Ramen": "Noodle soup",
+          "Sushi": "Rice and fish",
+          "Tempura": "Fried food",
+          "Tonkotsu": "Pork broth ramen"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the best way to get food recommendations?",
+        "options": [
+          "Use TripAdvisor",
+          "Ask locals",
+          "Visit tourist restaurants",
+          "Read travel blogs"
+        ],
+        "answer": "Ask locals"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "B1",
+    "fullScript": "A: Food tourism is one of the fastest-growing travel trends. Why do you think that is?\nB: Because food is the most accessible way to experience a culture. It tells you a lot about a people's history and values.\nA: Can you give an example of food revealing history?\nB: Absolutely. Peruvian cuisine reflects indigenous traditions, Spanish colonization, and Japanese immigration.\nA: That's fascinating. Have you ever taken a food-focused trip?\nB: Yes, to Japan. I took a cooking class, visited a fish market at four in the morning, and ate at fifty restaurants.\nA: Fifty restaurants in one trip?\nB: Over two weeks. Japan has incredible variety — ramen, sushi, tempura, izakaya food.\nA: What's your most memorable food experience?\nB: A bowl of tonkotsu ramen at two in the morning in Fukuoka. Unforgettable.\nA: What advice would you give a food tourist visiting your country?\nB: Go to local markets, avoid tourist restaurants, and always ask locals for recommendations."
+  },
+  {
+    "id": "b1_practice_06",
+    "title": "Discussing Modern Sports",
+    "topic": "sport",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Esports — competitive video gaming — is now a billion dollar industry. Should it be considered a real sport?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "It requires intense training, strategy, and reflexes. In that sense, yes."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "But there's no physical exertion involved."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Chess isn't physically demanding either, but it's widely considered a sport."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "Fair point. What about the health concerns — long hours sitting at screens?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Professional esports teams now have physiotherapists and sports psychologists on staff."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "How does the money compare to traditional sports?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Top players earn millions. Prize pools for major tournaments exceed fifty million dollars."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "That's extraordinary. Should esports be in the Olympics?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "The International Olympic Committee is already considering it. Several national Olympic committees already recognize it."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-GuyNeural",
+        "text": "I suppose the line between sport and entertainment is blurring."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-MichelleNeural",
+        "text": "Exactly. And that's not necessarily a bad thing."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What does Speaker B compare esports to?",
+        "options": [
+          "Football",
+          "Cricket",
+          "Chess",
+          "Swimming"
+        ],
+        "answer": "Chess"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How much can prize pools exceed for major esports tournaments?",
+        "options": [
+          "$10 million",
+          "$25 million",
+          "$50 million",
+          "$100 million"
+        ],
+        "answer": "$50 million"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Who is considering including esports in the Olympics?",
+        "options": [
+          "FIFA",
+          "The IOC",
+          "UEFA",
+          "Individual countries"
+        ],
+        "answer": "The IOC"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Esports is now a ___ dollar industry.",
+        "answer": "billion"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Professional teams now have ___ on staff.",
+        "answer": "physiotherapists"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The line between sport and ___ is blurring.",
+        "answer": "entertainment"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Esports requires training, strategy, and ___.",
+        "answer": "reflexes"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match argument to position.",
+        "pairs": [
+          {
+            "left": "Requires training and reflexes",
+            "right": "Pro esports argument"
+          },
+          {
+            "left": "No physical exertion",
+            "right": "Against esports argument"
+          },
+          {
+            "left": "Chess has no exertion either",
+            "right": "Counterargument"
+          },
+          {
+            "left": "Teams have physiotherapists",
+            "right": "Health addressed argument"
+          }
+        ],
+        "answers": {
+          "Requires training and reflexes": "Pro esports argument",
+          "No physical exertion": "Against esports argument",
+          "Chess has no exertion either": "Counterargument",
+          "Teams have physiotherapists": "Health addressed argument"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match esports fact to category.",
+        "pairs": [
+          {
+            "left": "Industry value",
+            "right": "$1 billion"
+          },
+          {
+            "left": "Top prize pools",
+            "right": "Over $50 million"
+          },
+          {
+            "left": "Player earnings",
+            "right": "Millions"
+          }
+        ],
+        "answers": {
+          "Industry value": "$1 billion",
+          "Top prize pools": "Over $50 million",
+          "Player earnings": "Millions"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Does Speaker B think the blurring of sport and entertainment is bad?",
+        "options": [
+          "Yes, definitely",
+          "No, not necessarily",
+          "They are unsure",
+          "They didn't comment"
+        ],
+        "answer": "No, not necessarily"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "B1",
+    "fullScript": "A: Esports — competitive video gaming — is now a billion dollar industry. Should it be considered a real sport?\nB: It requires intense training, strategy, and reflexes. In that sense, yes.\nA: But there's no physical exertion involved.\nB: Chess isn't physically demanding either, but it's widely considered a sport.\nA: Fair point. What about the health concerns — long hours sitting at screens?\nB: Professional esports teams now have physiotherapists and sports psychologists on staff.\nA: How does the money compare to traditional sports?\nB: Top players earn millions. Prize pools for major tournaments exceed fifty million dollars.\nA: That's extraordinary. Should esports be in the Olympics?\nB: The International Olympic Committee is already considering it. Several national Olympic committees already recognize it.\nA: I suppose the line between sport and entertainment is blurring.\nB: Exactly. And that's not necessarily a bad thing."
+  },
+  {
+    "id": "b1_practice_07",
+    "title": "Sustainable Fashion",
+    "topic": "environment",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "The fashion industry produces twenty percent of global wastewater. Is sustainable fashion realistic?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "It has to be. The industry needs to transform completely."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "But sustainable clothes are much more expensive."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "In the short term. But fast fashion's low prices come at a massive environmental and social cost."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What do you mean by social cost?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Workers in developing countries earn extremely low wages and work in unsafe conditions."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What changes are sustainable brands making?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Using organic cotton, recycled materials, and paying fair wages in certified factories."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Can consumers make a difference?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Enormously. Buying less, choosing quality over quantity, and shopping second-hand."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Second-hand fashion seems to be getting popular."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Hugely. Online platforms for second-hand clothes grew by forty percent last year."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What percentage of global wastewater does fashion produce?",
+        "options": [
+          "10%",
+          "15%",
+          "20%",
+          "25%"
+        ],
+        "answer": "20%"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "By how much did second-hand platforms grow last year?",
+        "options": [
+          "20%",
+          "30%",
+          "40%",
+          "50%"
+        ],
+        "answer": "40%"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the 'social cost' of fast fashion?",
+        "options": [
+          "High consumer prices",
+          "Environmental damage",
+          "Low wages and unsafe conditions",
+          "Lack of choice"
+        ],
+        "answer": "Low wages and unsafe conditions"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Sustainable brands use organic ___ and recycled materials.",
+        "answer": "cotton"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Consumers should buy less and choose ___ over quantity.",
+        "answer": "quality"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Fast fashion's low prices come at a massive environmental and ___ cost.",
+        "answer": "social"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Brands pay fair wages in ___ factories.",
+        "answer": "certified"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match sustainable practice to benefit.",
+        "pairs": [
+          {
+            "left": "Organic cotton",
+            "right": "Less chemical pollution"
+          },
+          {
+            "left": "Recycled materials",
+            "right": "Less waste"
+          },
+          {
+            "left": "Fair wages",
+            "right": "Social justice"
+          },
+          {
+            "left": "Second-hand buying",
+            "right": "Extends garment life"
+          }
+        ],
+        "answers": {
+          "Organic cotton": "Less chemical pollution",
+          "Recycled materials": "Less waste",
+          "Fair wages": "Social justice",
+          "Second-hand buying": "Extends garment life"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match consumer action to description.",
+        "pairs": [
+          {
+            "left": "Buy less",
+            "right": "Reduce consumption"
+          },
+          {
+            "left": "Choose quality",
+            "right": "Long-lasting items"
+          },
+          {
+            "left": "Shop second-hand",
+            "right": "Reuse existing clothes"
+          }
+        ],
+        "answers": {
+          "Buy less": "Reduce consumption",
+          "Choose quality": "Long-lasting items",
+          "Shop second-hand": "Reuse existing clothes"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Does Speaker B think sustainable fashion is realistic?",
+        "options": [
+          "No, it's too expensive",
+          "Yes, the industry must transform",
+          "Maybe, if prices drop",
+          "Only for wealthy consumers"
+        ],
+        "answer": "Yes, the industry must transform"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "B1",
+    "fullScript": "A: The fashion industry produces twenty percent of global wastewater. Is sustainable fashion realistic?\nB: It has to be. The industry needs to transform completely.\nA: But sustainable clothes are much more expensive.\nB: In the short term. But fast fashion's low prices come at a massive environmental and social cost.\nA: What do you mean by social cost?\nB: Workers in developing countries earn extremely low wages and work in unsafe conditions.\nA: What changes are sustainable brands making?\nB: Using organic cotton, recycled materials, and paying fair wages in certified factories.\nA: Can consumers make a difference?\nB: Enormously. Buying less, choosing quality over quantity, and shopping second-hand.\nA: Second-hand fashion seems to be getting popular.\nB: Hugely. Online platforms for second-hand clothes grew by forty percent last year."
+  },
+  {
+    "id": "b1_practice_08",
+    "title": "Remote Working Policies",
+    "topic": "work",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Our company is deciding whether to implement a permanent remote working policy. What factors should we consider?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Employee wellbeing, productivity data, and client needs are the three main areas."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "Studies show productivity increased for many workers during remote working."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Yes, but that varies significantly by role. Creative and collaborative roles often suffer."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What about employee preferences?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Surveys show most employees prefer a hybrid model — around three days home, two in office."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What are the risks of going fully remote?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Isolation, difficulty onboarding new staff, and weakened company culture."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What about costs?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Significant office space savings but increased technology and equipment costs for home setups."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-AriaNeural",
+        "text": "What's your recommendation?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-ChristopherNeural",
+        "text": "A structured hybrid model with clear guidelines and regular in-person team days."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What three areas should the company consider?",
+        "options": [
+          "Cost, time, and space",
+          "Wellbeing, productivity, and client needs",
+          "Technology, staff, and budget",
+          "Culture, performance, and communication"
+        ],
+        "answer": "Wellbeing, productivity, and client needs"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What hybrid model do most employees prefer?",
+        "options": [
+          "1 day home",
+          "2 days home",
+          "3 days home, 2 office",
+          "4 days home"
+        ],
+        "answer": "3 days home, 2 office"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the final recommendation?",
+        "options": [
+          "Fully remote",
+          "Fully in-office",
+          "Structured hybrid model",
+          "Individual choice"
+        ],
+        "answer": "Structured hybrid model"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Creative and ___ roles often suffer with remote working.",
+        "answer": "collaborative"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Fully remote risks include isolation and weakened company ___.",
+        "answer": "culture"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Remote working saves on office ___ costs.",
+        "answer": "space"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Remote working increases technology and ___ costs.",
+        "answer": "equipment"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match risk to type.",
+        "pairs": [
+          {
+            "left": "Isolation",
+            "right": "Wellbeing risk"
+          },
+          {
+            "left": "Onboarding difficulty",
+            "right": "Operational risk"
+          },
+          {
+            "left": "Weak culture",
+            "right": "Organizational risk"
+          }
+        ],
+        "answers": {
+          "Isolation": "Wellbeing risk",
+          "Onboarding difficulty": "Operational risk",
+          "Weak culture": "Organizational risk"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match cost change to type.",
+        "pairs": [
+          {
+            "left": "Office space",
+            "right": "Decreases"
+          },
+          {
+            "left": "Technology equipment",
+            "right": "Increases"
+          }
+        ],
+        "answers": {
+          "Office space": "Decreases",
+          "Technology equipment": "Increases"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "For which roles does remote working NOT work well?",
+        "options": [
+          "Data analysis",
+          "Administrative roles",
+          "Creative and collaborative roles",
+          "Finance roles"
+        ],
+        "answer": "Creative and collaborative roles"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "B1",
+    "fullScript": "A: Our company is deciding whether to implement a permanent remote working policy. What factors should we consider?\nB: Employee wellbeing, productivity data, and client needs are the three main areas.\nA: Studies show productivity increased for many workers during remote working.\nB: Yes, but that varies significantly by role. Creative and collaborative roles often suffer.\nA: What about employee preferences?\nB: Surveys show most employees prefer a hybrid model — around three days home, two in office.\nA: What are the risks of going fully remote?\nB: Isolation, difficulty onboarding new staff, and weakened company culture.\nA: What about costs?\nB: Significant office space savings but increased technology and equipment costs for home setups.\nA: What's your recommendation?\nB: A structured hybrid model with clear guidelines and regular in-person team days."
+  },
+  {
+    "id": "b1_practice_09",
+    "title": "A Radio Interview About Mental Health",
+    "topic": "health",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Welcome back. Today I'm speaking with Dr. Patel, a psychiatrist. Welcome to the show."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Thank you. Happy to be here."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Mental health issues are rising globally. What's driving this?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Multiple factors — social media pressure, economic uncertainty, and reduced community connection."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Which age group is most affected?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Teenagers and young adults, particularly since the widespread adoption of smartphones."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What warning signs should people watch for?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Changes in sleep, appetite, energy, or mood lasting more than two weeks."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "What's the most important message for listeners?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Mental health is as important as physical health. Seeking help is a sign of strength, not weakness."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "How accessible is mental healthcare?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Unfortunately, there's a significant global shortage of mental health professionals."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-JennyNeural",
+        "text": "Where can listeners get support?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-BrianNeural",
+        "text": "Start with your GP. There are also many free online resources and crisis helplines available twenty-four hours."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Who is being interviewed?",
+        "options": [
+          "A psychologist",
+          "A psychiatrist",
+          "A therapist",
+          "A nurse"
+        ],
+        "answer": "A psychiatrist"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Which age group is most affected by rising mental health issues?",
+        "options": [
+          "Children under 12",
+          "Teenagers and young adults",
+          "Middle-aged adults",
+          "Elderly people"
+        ],
+        "answer": "Teenagers and young adults"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the first step for getting mental health support?",
+        "options": [
+          "Call a helpline",
+          "See a psychiatrist",
+          "Visit your GP",
+          "Go to hospital"
+        ],
+        "answer": "Visit your GP"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Warning signs lasting more than ___ weeks should be taken seriously.",
+        "answer": "two"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Seeking help is a sign of ___, not weakness.",
+        "answer": "strength"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "There is a global ___ of mental health professionals.",
+        "answer": "shortage"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Crisis helplines are available ___ hours a day.",
+        "answer": "twenty-four"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match factor to mental health concern.",
+        "pairs": [
+          {
+            "left": "Social media pressure",
+            "right": "Self-esteem issues"
+          },
+          {
+            "left": "Economic uncertainty",
+            "right": "Stress and anxiety"
+          },
+          {
+            "left": "Reduced community",
+            "right": "Loneliness and isolation"
+          }
+        ],
+        "answers": {
+          "Social media pressure": "Self-esteem issues",
+          "Economic uncertainty": "Stress and anxiety",
+          "Reduced community": "Loneliness and isolation"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match warning sign to category.",
+        "pairs": [
+          {
+            "left": "Changed sleep patterns",
+            "right": "Physical symptom"
+          },
+          {
+            "left": "Changed appetite",
+            "right": "Physical symptom"
+          },
+          {
+            "left": "Low energy",
+            "right": "Physical symptom"
+          },
+          {
+            "left": "Mood changes",
+            "right": "Emotional symptom"
+          }
+        ],
+        "answers": {
+          "Changed sleep patterns": "Physical symptom",
+          "Changed appetite": "Physical symptom",
+          "Low energy": "Physical symptom",
+          "Mood changes": "Emotional symptom"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What is the key message about mental health?",
+        "options": [
+          "It is not serious",
+          "It is as important as physical health",
+          "Only professionals can help",
+          "It cannot be treated"
+        ],
+        "answer": "It is as important as physical health"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "B1",
+    "fullScript": "A: Welcome back. Today I'm speaking with Dr. Patel, a psychiatrist. Welcome to the show.\nB: Thank you. Happy to be here.\nA: Mental health issues are rising globally. What's driving this?\nB: Multiple factors — social media pressure, economic uncertainty, and reduced community connection.\nA: Which age group is most affected?\nB: Teenagers and young adults, particularly since the widespread adoption of smartphones.\nA: What warning signs should people watch for?\nB: Changes in sleep, appetite, energy, or mood lasting more than two weeks.\nA: What's the most important message for listeners?\nB: Mental health is as important as physical health. Seeking help is a sign of strength, not weakness.\nA: How accessible is mental healthcare?\nB: Unfortunately, there's a significant global shortage of mental health professionals.\nA: Where can listeners get support?\nB: Start with your GP. There are also many free online resources and crisis helplines available twenty-four hours."
+  },
+  {
+    "id": "b1_practice_10",
+    "title": "Community Radio Discussion",
+    "topic": "community",
+    "estimatedMinutes": 18,
+    "script": [
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Welcome to Community Voices. Today we're discussing urban regeneration in the city center."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Thank you for having me. This is a topic very close to my heart."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "Tell us about the regeneration project you've been involved in."
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "We've transformed an abandoned warehouse district into a creative hub with studios, cafés, and green spaces."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "How has it affected the local community?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Created over three hundred jobs and attracted younger residents back to the area."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What about concerns over gentrification?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "We've tried to address this by ensuring thirty percent of housing remains affordable."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What was the biggest challenge?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "Getting community buy-in. We held over forty consultation meetings with local residents."
+      },
+      {
+        "speaker": "A",
+        "voice": "en-US-MichelleNeural",
+        "text": "What's the long-term vision?"
+      },
+      {
+        "speaker": "B",
+        "voice": "en-US-GuyNeural",
+        "text": "To create a self-sustaining creative economy that benefits both new and existing residents."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What was transformed in the regeneration project?",
+        "options": [
+          "A disused railway",
+          "An abandoned warehouse district",
+          "A derelict park",
+          "An old factory site"
+        ],
+        "answer": "An abandoned warehouse district"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How many jobs were created?",
+        "options": [
+          "Over 100",
+          "Over 200",
+          "Over 300",
+          "Over 500"
+        ],
+        "answer": "Over 300"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How many consultation meetings were held?",
+        "options": [
+          "Over 10",
+          "Over 20",
+          "Over 40",
+          "Over 60"
+        ],
+        "answer": "Over 40"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The area was transformed into a creative ___.",
+        "answer": "hub"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "___ percent of housing remains affordable.",
+        "answer": "thirty"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The project attracted ___ residents back to the area.",
+        "answer": "younger"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The long-term vision is a self-sustaining creative ___.",
+        "answer": "economy"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match new feature to the regenerated area.",
+        "pairs": [
+          {
+            "left": "Creative work",
+            "right": "Studios"
+          },
+          {
+            "left": "Social spaces",
+            "right": "Cafés"
+          },
+          {
+            "left": "Nature/leisure",
+            "right": "Green spaces"
+          }
+        ],
+        "answers": {
+          "Creative work": "Studios",
+          "Social spaces": "Cafés",
+          "Nature/leisure": "Green spaces"
+        }
+      },
+      {
+        "type": "matching",
+        "stemText": "Match community concern to solution.",
+        "pairs": [
+          {
+            "left": "Gentrification",
+            "right": "30% affordable housing"
+          },
+          {
+            "left": "Lack of buy-in",
+            "right": "40+ consultation meetings"
+          }
+        ],
+        "answers": {
+          "Gentrification": "30% affordable housing",
+          "Lack of buy-in": "40+ consultation meetings"
+        }
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Who benefits from the long-term vision?",
+        "options": [
+          "Only new residents",
+          "Only existing residents",
+          "Only businesses",
+          "Both new and existing residents"
+        ],
+        "answer": "Both new and existing residents"
+      }
+    ],
+    "type": "practice",
+    "cefrLevel": "B1",
+    "fullScript": "A: Welcome to Community Voices. Today we're discussing urban regeneration in the city center.\nB: Thank you for having me. This is a topic very close to my heart.\nA: Tell us about the regeneration project you've been involved in.\nB: We've transformed an abandoned warehouse district into a creative hub with studios, cafés, and green spaces.\nA: How has it affected the local community?\nB: Created over three hundred jobs and attracted younger residents back to the area.\nA: What about concerns over gentrification?\nB: We've tried to address this by ensuring thirty percent of housing remains affordable.\nA: What was the biggest challenge?\nB: Getting community buy-in. We held over forty consultation meetings with local residents.\nA: What's the long-term vision?\nB: To create a self-sustaining creative economy that benefits both new and existing residents."
+  }
+]

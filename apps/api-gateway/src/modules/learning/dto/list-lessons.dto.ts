@@ -1,6 +1,6 @@
 import { ApiPropertyOptional } from '@nestjs/swagger';
 import { IsEnum, IsOptional, IsString } from 'class-validator';
-import { SkillName } from '@prisma/client';
+import { SkillName } from '@app/shared';
 import { CefrLevel, PagingDto } from '@app/shared';
 
 export class ListLessonsDto extends PagingDto {

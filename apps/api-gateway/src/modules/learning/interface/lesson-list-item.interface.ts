@@ -1,4 +1,4 @@
-import { SkillName } from '@prisma/client';
+import { SkillName } from '@app/shared';
 
 export interface LessonListItem {
 	lessonId: string;

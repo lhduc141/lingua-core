@@ -1,0 +1,629 @@
+[
+  {
+    "id": "a1_lesson_01",
+    "type": "lesson",
+    "cefrLevel": "A1",
+    "title": "At the Coffee Shop",
+    "description": "A simple conversation ordering coffee and paying",
+    "topic": "daily_life",
+    "estimatedMinutes": 8,
+    "script": [
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "Hi! Can I have a coffee, please?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "Of course! Small, medium, or large?" },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "Medium, please. How much is it?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "It's three dollars and fifty cents." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "Here you go. Can I have a receipt?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "Sure! Your coffee will be ready in two minutes." }
+    ],
+    "fullScript": "A: Hi! Can I have a coffee, please?\nB: Of course! Small, medium, or large?\nA: Medium, please. How much is it?\nB: It's three dollars and fifty cents.\nA: Here you go. Can I have a receipt?\nB: Sure! Your coffee will be ready in two minutes.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What does the man want to buy?",
+        "options": ["Tea", "Coffee", "Juice", "Water"],
+        "answer": "Coffee",
+        "explanation": "The man says 'Can I have a coffee, please?'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "What size does the man choose?",
+        "options": ["Small", "Medium", "Large", "Extra large"],
+        "answer": "Medium",
+        "explanation": "The man says 'Medium, please.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The coffee costs three dollars and fifty ___.",
+        "answer": "cents",
+        "explanation": "The woman says 'It's three dollars and fifty cents.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The coffee will be ready in two ___.",
+        "answer": "minutes",
+        "explanation": "The woman says 'Your coffee will be ready in two minutes.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each speaker with what they said.",
+        "pairs": [
+          { "left": "Speaker A", "right": "Can I have a receipt?" },
+          { "left": "Speaker B", "right": "Small, medium, or large?" },
+          { "left": "Speaker A", "right": "How much is it?" },
+          { "left": "Speaker B", "right": "Your coffee will be ready in two minutes." }
+        ],
+        "answers": {
+          "Can I have a receipt?": "Speaker A",
+          "Small, medium, or large?": "Speaker B",
+          "How much is it?": "Speaker A",
+          "Your coffee will be ready in two minutes.": "Speaker B"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a1_lesson_02",
+    "type": "lesson",
+    "cefrLevel": "A1",
+    "title": "Meeting Someone New",
+    "description": "Two people introduce themselves at a class",
+    "topic": "greetings",
+    "estimatedMinutes": 8,
+    "script": [
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Hi! My name is Lisa. What's your name?" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "Hello, Lisa. I'm Tom. Nice to meet you." },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Nice to meet you too. Where are you from?" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "I'm from Canada. And you?" },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "I'm from Japan. How old are you?" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "I'm twenty-two. This is my first English class." }
+    ],
+    "fullScript": "A: Hi! My name is Lisa. What's your name?\nB: Hello, Lisa. I'm Tom. Nice to meet you.\nA: Nice to meet you too. Where are you from?\nB: I'm from Canada. And you?\nA: I'm from Japan. How old are you?\nB: I'm twenty-two. This is my first English class.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the woman's name?",
+        "options": ["Tom", "Lisa", "Sara", "Emma"],
+        "answer": "Lisa",
+        "explanation": "The woman says 'My name is Lisa.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Where is Tom from?",
+        "options": ["Japan", "America", "Canada", "England"],
+        "answer": "Canada",
+        "explanation": "Tom says 'I'm from Canada.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Lisa is from ___.",
+        "answer": "Japan",
+        "explanation": "Lisa says 'I'm from Japan.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Tom is ___ years old.",
+        "answer": "twenty-two",
+        "explanation": "Tom says 'I'm twenty-two.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each person with the correct information.",
+        "pairs": [
+          { "left": "Lisa", "right": "From Japan" },
+          { "left": "Tom", "right": "From Canada" },
+          { "left": "Tom", "right": "Twenty-two years old" },
+          { "left": "Lisa", "right": "Asked about age" }
+        ],
+        "answers": {
+          "From Japan": "Lisa",
+          "From Canada": "Tom",
+          "Twenty-two years old": "Tom",
+          "Asked about age": "Lisa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a1_lesson_03",
+    "type": "lesson",
+    "cefrLevel": "A1",
+    "title": "Asking for Directions",
+    "description": "A tourist asks for directions to the train station",
+    "topic": "places",
+    "estimatedMinutes": 8,
+    "script": [
+      { "speaker": "A", "voice": "en-US-BrianNeural", "text": "Excuse me. Where is the train station?" },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "Go straight, then turn left at the bank." },
+      { "speaker": "A", "voice": "en-US-BrianNeural", "text": "Turn left at the bank. Is it far?" },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "No, it's about five minutes on foot." },
+      { "speaker": "A", "voice": "en-US-BrianNeural", "text": "Thank you very much." },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "You're welcome. Have a good trip!" }
+    ],
+    "fullScript": "A: Excuse me. Where is the train station?\nB: Go straight, then turn left at the bank.\nA: Turn left at the bank. Is it far?\nB: No, it's about five minutes on foot.\nA: Thank you very much.\nB: You're welcome. Have a good trip!",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "Where does the man want to go?",
+        "options": ["The bank", "The hotel", "The train station", "The airport"],
+        "answer": "The train station",
+        "explanation": "The man asks 'Where is the train station?'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How long does it take to walk there?",
+        "options": ["Two minutes", "Five minutes", "Ten minutes", "Fifteen minutes"],
+        "answer": "Five minutes",
+        "explanation": "The woman says 'it's about five minutes on foot.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Turn ___ at the bank.",
+        "answer": "left",
+        "explanation": "The woman says 'turn left at the bank.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The station is five minutes on ___.",
+        "answer": "foot",
+        "explanation": "The woman says 'five minutes on foot.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the direction instruction with the correct order.",
+        "pairs": [
+          { "left": "First", "right": "Go straight" },
+          { "left": "Second", "right": "Turn left at the bank" },
+          { "left": "Result", "right": "Reach the train station" },
+          { "left": "Time", "right": "Five minutes walking" }
+        ],
+        "answers": {
+          "Go straight": "First",
+          "Turn left at the bank": "Second",
+          "Reach the train station": "Result",
+          "Five minutes walking": "Time"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a1_lesson_04",
+    "type": "lesson",
+    "cefrLevel": "A1",
+    "title": "Shopping for Clothes",
+    "description": "A customer looks for a shirt in a clothing store",
+    "topic": "shopping",
+    "estimatedMinutes": 8,
+    "script": [
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Hello! Can I help you?" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "Yes, please. I'm looking for a blue shirt." },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "What size do you need?" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "I need a medium, please." },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Here is a blue shirt. It's twenty dollars." },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "Perfect! I'll take it. Can I pay by card?" },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Yes, of course. The card machine is here." }
+    ],
+    "fullScript": "A: Hello! Can I help you?\nB: Yes, please. I'm looking for a blue shirt.\nA: What size do you need?\nB: I need a medium, please.\nA: Here is a blue shirt. It's twenty dollars.\nB: Perfect! I'll take it. Can I pay by card?\nA: Yes, of course. The card machine is here.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What color shirt does the man want?",
+        "options": ["Red", "Green", "Blue", "White"],
+        "answer": "Blue",
+        "explanation": "The man says 'I'm looking for a blue shirt.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How much does the shirt cost?",
+        "options": ["Ten dollars", "Fifteen dollars", "Twenty dollars", "Twenty-five dollars"],
+        "answer": "Twenty dollars",
+        "explanation": "The woman says 'It's twenty dollars.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The man needs a ___ size shirt.",
+        "answer": "medium",
+        "explanation": "The man says 'I need a medium, please.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The man wants to pay by ___.",
+        "answer": "card",
+        "explanation": "The man says 'Can I pay by card?'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the question with the correct answer from the conversation.",
+        "pairs": [
+          { "left": "What is the man looking for?", "right": "A blue shirt" },
+          { "left": "What size does he need?", "right": "Medium" },
+          { "left": "How much is it?", "right": "Twenty dollars" },
+          { "left": "How does he pay?", "right": "By card" }
+        ],
+        "answers": {
+          "What is the man looking for?": "A blue shirt",
+          "What size does he need?": "Medium",
+          "How much is it?": "Twenty dollars",
+          "How does he pay?": "By card"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a1_lesson_05",
+    "type": "lesson",
+    "cefrLevel": "A1",
+    "title": "Talking About Family",
+    "description": "A student describes her family to a new friend",
+    "topic": "family",
+    "estimatedMinutes": 8,
+    "script": [
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "Do you have a big family?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "Yes! I have two brothers and one sister." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "How old are they?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "My brothers are fifteen and eighteen. My sister is ten." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "Do your parents live with you?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "Yes, we all live together in a house near the park." }
+    ],
+    "fullScript": "A: Do you have a big family?\nB: Yes! I have two brothers and one sister.\nA: How old are they?\nB: My brothers are fifteen and eighteen. My sister is ten.\nA: Do your parents live with you?\nB: Yes, we all live together in a house near the park.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "How many brothers does the woman have?",
+        "options": ["One", "Two", "Three", "Four"],
+        "answer": "Two",
+        "explanation": "The woman says 'I have two brothers and one sister.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Where does the family live?",
+        "options": ["Near a school", "Near a park", "Near a hospital", "Near a station"],
+        "answer": "Near a park",
+        "explanation": "The woman says 'in a house near the park.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The woman's sister is ___ years old.",
+        "answer": "ten",
+        "explanation": "The woman says 'My sister is ten.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The older brother is ___ years old.",
+        "answer": "eighteen",
+        "explanation": "The woman says 'My brothers are fifteen and eighteen.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each family member with their age.",
+        "pairs": [
+          { "left": "Older brother", "right": "18 years old" },
+          { "left": "Younger brother", "right": "15 years old" },
+          { "left": "Sister", "right": "10 years old" },
+          { "left": "All family", "right": "Live together" }
+        ],
+        "answers": {
+          "18 years old": "Older brother",
+          "15 years old": "Younger brother",
+          "10 years old": "Sister",
+          "Live together": "All family"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a1_lesson_06",
+    "type": "lesson",
+    "cefrLevel": "A1",
+    "title": "My Daily Routine",
+    "description": "A person describes their morning routine",
+    "topic": "daily_routine",
+    "estimatedMinutes": 8,
+    "script": [
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "What time do you wake up every day?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "I wake up at seven o'clock in the morning." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "What do you do first?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "First, I brush my teeth and take a shower." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Do you eat breakfast?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "Yes, I eat eggs and toast. Then I go to work by bus." }
+    ],
+    "fullScript": "A: What time do you wake up every day?\nB: I wake up at seven o'clock in the morning.\nA: What do you do first?\nB: First, I brush my teeth and take a shower.\nA: Do you eat breakfast?\nB: Yes, I eat eggs and toast. Then I go to work by bus.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What time does the man wake up?",
+        "options": ["Six o'clock", "Seven o'clock", "Eight o'clock", "Nine o'clock"],
+        "answer": "Seven o'clock",
+        "explanation": "The man says 'I wake up at seven o'clock.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How does the man go to work?",
+        "options": ["By car", "By train", "By bus", "On foot"],
+        "answer": "By bus",
+        "explanation": "The man says 'I go to work by bus.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The man eats eggs and ___ for breakfast.",
+        "answer": "toast",
+        "explanation": "The man says 'I eat eggs and toast.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "First, he brushes his teeth and takes a ___.",
+        "answer": "shower",
+        "explanation": "The man says 'I brush my teeth and take a shower.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match the morning activity with the correct order.",
+        "pairs": [
+          { "left": "First activity", "right": "Brush teeth and shower" },
+          { "left": "Second activity", "right": "Eat breakfast" },
+          { "left": "Third activity", "right": "Go to work" },
+          { "left": "Wake up time", "right": "Seven o'clock" }
+        ],
+        "answers": {
+          "Brush teeth and shower": "First activity",
+          "Eat breakfast": "Second activity",
+          "Go to work": "Third activity",
+          "Seven o'clock": "Wake up time"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a1_lesson_07",
+    "type": "lesson",
+    "cefrLevel": "A1",
+    "title": "Talking About the Weather",
+    "description": "Two friends talk about today's weather and plans",
+    "topic": "weather",
+    "estimatedMinutes": 8,
+    "script": [
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "It's very cold today, isn't it?" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "Yes! The temperature is only five degrees." },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "Is it going to snow?" },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "The forecast says yes. It will snow this afternoon." },
+      { "speaker": "A", "voice": "en-US-JennyNeural", "text": "I don't like snow. I prefer sunny weather." },
+      { "speaker": "B", "voice": "en-US-GuyNeural", "text": "Me too! Let's stay inside and drink hot chocolate." }
+    ],
+    "fullScript": "A: It's very cold today, isn't it?\nB: Yes! The temperature is only five degrees.\nA: Is it going to snow?\nB: The forecast says yes. It will snow this afternoon.\nA: I don't like snow. I prefer sunny weather.\nB: Me too! Let's stay inside and drink hot chocolate.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the temperature today?",
+        "options": ["Three degrees", "Five degrees", "Ten degrees", "Fifteen degrees"],
+        "answer": "Five degrees",
+        "explanation": "The man says 'The temperature is only five degrees.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "When will it snow?",
+        "options": ["In the morning", "At noon", "This afternoon", "Tonight"],
+        "answer": "This afternoon",
+        "explanation": "The man says 'It will snow this afternoon.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The woman prefers ___ weather.",
+        "answer": "sunny",
+        "explanation": "The woman says 'I prefer sunny weather.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "They plan to stay inside and drink hot ___.",
+        "answer": "chocolate",
+        "explanation": "The man says 'drink hot chocolate.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each weather word with its meaning.",
+        "pairs": [
+          { "left": "Cold", "right": "Low temperature" },
+          { "left": "Snow", "right": "White frozen water from sky" },
+          { "left": "Sunny", "right": "Clear sky with sunshine" },
+          { "left": "Forecast", "right": "Prediction of weather" }
+        ],
+        "answers": {
+          "Cold": "Low temperature",
+          "Snow": "White frozen water from sky",
+          "Sunny": "Clear sky with sunshine",
+          "Forecast": "Prediction of weather"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a1_lesson_08",
+    "type": "lesson",
+    "cefrLevel": "A1",
+    "title": "Favorite Food",
+    "description": "Two students discuss their favorite foods",
+    "topic": "food",
+    "estimatedMinutes": 8,
+    "script": [
+      { "speaker": "A", "voice": "en-US-BrianNeural", "text": "What is your favorite food?" },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "I love pizza! I eat it every week. What about you?" },
+      { "speaker": "A", "voice": "en-US-BrianNeural", "text": "My favorite food is sushi. I'm from Japan." },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "Oh, I love sushi too! Do you cook it at home?" },
+      { "speaker": "A", "voice": "en-US-BrianNeural", "text": "Sometimes. But it's difficult. I usually go to a restaurant." },
+      { "speaker": "B", "voice": "en-US-AriaNeural", "text": "There is a good Japanese restaurant near my house!" }
+    ],
+    "fullScript": "A: What is your favorite food?\nB: I love pizza! I eat it every week. What about you?\nA: My favorite food is sushi. I'm from Japan.\nB: Oh, I love sushi too! Do you cook it at home?\nA: Sometimes. But it's difficult. I usually go to a restaurant.\nB: There is a good Japanese restaurant near my house!",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What is the woman's favorite food?",
+        "options": ["Sushi", "Pizza", "Pasta", "Burger"],
+        "answer": "Pizza",
+        "explanation": "The woman says 'I love pizza!'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "Where does the man usually eat sushi?",
+        "options": ["At home", "At school", "At a restaurant", "At a friend's house"],
+        "answer": "At a restaurant",
+        "explanation": "The man says 'I usually go to a restaurant.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The man's favorite food is ___.",
+        "answer": "sushi",
+        "explanation": "The man says 'My favorite food is sushi.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The woman eats pizza every ___.",
+        "answer": "week",
+        "explanation": "The woman says 'I eat it every week.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each person with the correct information.",
+        "pairs": [
+          { "left": "Man", "right": "Favorite food is sushi" },
+          { "left": "Woman", "right": "Favorite food is pizza" },
+          { "left": "Man", "right": "From Japan" },
+          { "left": "Woman", "right": "Has a Japanese restaurant nearby" }
+        ],
+        "answers": {
+          "Favorite food is sushi": "Man",
+          "Favorite food is pizza": "Woman",
+          "From Japan": "Man",
+          "Has a Japanese restaurant nearby": "Woman"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a1_lesson_09",
+    "type": "lesson",
+    "cefrLevel": "A1",
+    "title": "Numbers and Prices",
+    "description": "A customer buys items at a market",
+    "topic": "numbers",
+    "estimatedMinutes": 8,
+    "script": [
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "How much are these apples?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "They are two dollars for one kilogram." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "I'll take two kilograms. And how much are the oranges?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "Oranges are three dollars per kilogram." },
+      { "speaker": "A", "voice": "en-US-GuyNeural", "text": "OK, one kilogram of oranges too. That's seven dollars total?" },
+      { "speaker": "B", "voice": "en-US-JennyNeural", "text": "Exactly right! Here's your change." }
+    ],
+    "fullScript": "A: How much are these apples?\nB: They are two dollars for one kilogram.\nA: I'll take two kilograms. And how much are the oranges?\nB: Oranges are three dollars per kilogram.\nA: OK, one kilogram of oranges too. That's seven dollars total?\nB: Exactly right! Here's your change.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "How much do apples cost per kilogram?",
+        "options": ["One dollar", "Two dollars", "Three dollars", "Four dollars"],
+        "answer": "Two dollars",
+        "explanation": "The woman says 'They are two dollars for one kilogram.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How many kilograms of apples does the man buy?",
+        "options": ["One", "Two", "Three", "Four"],
+        "answer": "Two",
+        "explanation": "The man says 'I'll take two kilograms.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "Oranges cost ___ dollars per kilogram.",
+        "answer": "three",
+        "explanation": "The woman says 'Oranges are three dollars per kilogram.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The total cost is ___ dollars.",
+        "answer": "seven",
+        "explanation": "The man calculates 'That's seven dollars total' and the woman confirms."
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each fruit with its price.",
+        "pairs": [
+          { "left": "Apples (1 kg)", "right": "$2" },
+          { "left": "Oranges (1 kg)", "right": "$3" },
+          { "left": "Apples (2 kg)", "right": "$4" },
+          { "left": "Total (2kg apples + 1kg oranges)", "right": "$7" }
+        ],
+        "answers": {
+          "Apples (1 kg)": "$2",
+          "Oranges (1 kg)": "$3",
+          "Apples (2 kg)": "$4",
+          "Total (2kg apples + 1kg oranges)": "$7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a1_lesson_10",
+    "type": "lesson",
+    "cefrLevel": "A1",
+    "title": "At the Doctor",
+    "description": "A patient describes symptoms to a doctor",
+    "topic": "health",
+    "estimatedMinutes": 8,
+    "script": [
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Good morning. How can I help you today?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "Good morning, doctor. I have a headache and a sore throat." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "Do you have a fever?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "Yes, I think so. I feel very hot." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "How long have you felt like this?" },
+      { "speaker": "B", "voice": "en-US-BrianNeural", "text": "Since yesterday. I didn't sleep well last night." },
+      { "speaker": "A", "voice": "en-US-AriaNeural", "text": "I see. You need to rest and drink lots of water." }
+    ],
+    "fullScript": "A: Good morning. How can I help you today?\nB: Good morning, doctor. I have a headache and a sore throat.\nA: Do you have a fever?\nB: Yes, I think so. I feel very hot.\nA: How long have you felt like this?\nB: Since yesterday. I didn't sleep well last night.\nA: I see. You need to rest and drink lots of water.",
+    "questions": [
+      {
+        "type": "mcq_single",
+        "stemText": "What problems does the patient have?",
+        "options": [
+          "Headache and stomachache",
+          "Headache and sore throat",
+          "Fever and stomachache",
+          "Sore throat and earache"
+        ],
+        "answer": "Headache and sore throat",
+        "explanation": "The patient says 'I have a headache and a sore throat.'"
+      },
+      {
+        "type": "mcq_single",
+        "stemText": "How long has the patient been sick?",
+        "options": ["Since this morning", "Since yesterday", "For two days", "For a week"],
+        "answer": "Since yesterday",
+        "explanation": "The patient says 'Since yesterday.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The doctor says the patient needs to rest and drink lots of ___.",
+        "answer": "water",
+        "explanation": "The doctor says 'drink lots of water.'"
+      },
+      {
+        "type": "fill_blank",
+        "stemText": "The patient didn't sleep well last ___.",
+        "answer": "night",
+        "explanation": "The patient says 'I didn't sleep well last night.'"
+      },
+      {
+        "type": "matching",
+        "stemText": "Match each symptom with the correct description.",
+        "pairs": [
+          { "left": "Headache", "right": "Pain in the head" },
+          { "left": "Sore throat", "right": "Pain when swallowing" },
+          { "left": "Fever", "right": "High body temperature" },
+          { "left": "Treatment", "right": "Rest and drink water" }
+        ],
+        "answers": {
+          "Headache": "Pain in the head",
+          "Sore throat": "Pain when swallowing",
+          "Fever": "High body temperature",
+          "Treatment": "Rest and drink water"
+        }
+      }
+    ]
+  }
+]

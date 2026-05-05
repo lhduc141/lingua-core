@@ -1,7 +1,7 @@
 import { PagingDto } from '@app/shared';
 import { ApiPropertyOptional } from '@nestjs/swagger';
 import { IsEnum, IsOptional } from 'class-validator';
-import { SkillName } from '@prisma/client';
+import { SkillName } from '@app/shared';
 
 export class ListAssessmentHistoryDto extends PagingDto {
 	@ApiPropertyOptional({ enum: ['lesson', 'question_set'] })

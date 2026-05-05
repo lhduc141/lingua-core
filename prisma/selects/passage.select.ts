@@ -9,5 +9,6 @@ export const PassageSelect = {
 		cefrLevel: true,
 		topic: true,
 		sourceTag: true,
+		audioUrl: true,
 	} satisfies Prisma.PassageSelect,
 } as const;
