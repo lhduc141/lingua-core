@@ -1,34 +1,16 @@
 name: CD VPS
 
 on:
+  workflow_run:
+    workflows: ["CI VPS"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
     inputs:
-      skip_heal_check:
+      skip_health_check:
         description: 'Skip health check after deploy'
         required: false
         default: 'false'
-
-env:
-  NODE_ENV: production
-  TZ: Asia/Ho_Chi_Minh
-  HOST: 0.0.0.0
-  PAYLOAD_LIMIT: 10mb
-  DATABASE_HOST: postgres
-  AI_SERVICE_HOST: ai-service
-  AI_SERVICE_PORT: 4001
-  REDIS_HOST: redis
-  REDIS_PORT: 6379
-  REDIS_DB: 0
-  REDIS_PREFIX: "lingua:"
-  JWT_ALG: HS256
-  JWT_KID: lingua-key-prod-1
-  JWT_ISS: linguapanda-api
-  JWT_AUD: linguapanda-client
-  JWT_ACCESS_TTL: 604800
-  JWT_REFRESH_TTL: 2592000
-  JWT_SERVICE_TTL: 300
-  LLM_MODEL: llama-3.3-70b-versatile
-  LOG_LEVEL: info
 
 jobs:
   deploy:
@@ -36,10 +18,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
+    # Chỉ deploy khi CI success, hoặc khi trigger manual
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'workflow_run' &&
+       github.event.workflow_run.conclusion == 'success')
+
     steps:
       - name: Print deploy info
         run: |
           echo "Triggered by: ${{ github.actor }}"
+          echo "Event: ${{ github.event_name }}"
           echo "Commit: ${{ github.sha }}"
           echo "Time: $(date '+%Y-%m-%d %H:%M:%S %Z')"
 
@@ -55,41 +44,58 @@ jobs:
           ssh -i ~/.ssh/deploy_key ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }} bash -s << 'ENDSSH'
           set -e
           cd /root/lingua-core
-          git fetch origin release
-          git reset --hard origin/release
-          echo "Commit: $(git rev-parse --short HEAD) -- $(git log -1 --pretty=format:'%s')"
+          git fetch origin main
+          git reset --hard origin/main
+          echo "Deployed commit: $(git rev-parse --short HEAD) -- $(git log -1 --pretty=format:'%s')"
           ENDSSH
+
+      - name: Run Prisma migrations
+        run: |
+          ssh -i ~/.ssh/deploy_key ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }} bash -s << 'ENDSSH'
+          set -e
+          cd /root/lingua-core
+
+          echo "Running Prisma migrations..."
+          docker compose -f docker-compose.prod.yml run --rm \
+            -e DATABASE_URL="${DATABASE_URL}" \
+            api-gateway \
+            sh -c "npx prisma migrate deploy --schema=./prisma/schema.prisma"
+
+          echo "Migrations complete"
+          ENDSSH
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
       - name: Build and restart app containers
         run: |
           ssh -i ~/.ssh/deploy_key ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }} bash -s << 'ENDSSH'
           set -e
           cd /root/lingua-core
-          
+
           echo "Building containers..."
           docker compose -f docker-compose.prod.yml build api-gateway ai-service
-          
-          echo "Restarting app containers"
+
+          echo "Restarting app containers..."
           docker compose -f docker-compose.prod.yml up -d --no-deps api-gateway ai-service
-          
-          echo "Waiting for startup"
-          sleep 10
-          
+
+          echo "Waiting for startup..."
+          sleep 15
+
           echo "Container status:"
           docker compose -f docker-compose.prod.yml ps
           ENDSSH
 
       - name: Health check
-        if: ${{ github.event.inputs.skip_heal_check != 'true' }}
+        if: ${{ github.event.inputs.skip_health_check != 'true' }}
         run: |
           sleep 5
           RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" \
             https://api.lingua-panda.io.vn/health/db || echo "000")
           echo "Health check /health/db: $RESPONSE"
           if [ "$RESPONSE" = "200" ]; then
-            echo "Health check PASSED"
+            echo "✅ Health check PASSED"
           else
-            echo "Health check FAILED -- status $RESPONSE"
+            echo "❌ Health check FAILED -- status $RESPONSE"
             exit 1
           fi
 
@@ -120,7 +126,7 @@ jobs:
           cd /root/lingua-core
           git reset --hard HEAD~1
           echo "Rolled back to: $(git rev-parse --short HEAD)"
-          docker compose -f docker-compose.prod.yml build api-gateway 
+          docker compose -f docker-compose.prod.yml build api-gateway ai-service
           docker compose -f docker-compose.prod.yml up -d --no-deps api-gateway ai-service
           sleep 10
           docker compose -f docker-compose.prod.yml ps
