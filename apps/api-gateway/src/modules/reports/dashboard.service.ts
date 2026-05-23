@@ -21,7 +21,7 @@ import {
 	StudyTimeData,
 } from './interface/dashboard.interface';
 
-const VALID_SKILLS = ['reading', 'writing', 'speaking', 'listening'];
+const VALID_SKILLS = ['reading', 'writing', 'speaking' /*, 'listening'*/]; // MVP: hidden
 
 @Injectable()
 export class DashboardService {

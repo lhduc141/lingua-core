@@ -2,7 +2,7 @@ export const SKILL_LIST = [
 	{ name: 'reading', label: 'Reading', icon: 'book' },
 	{ name: 'writing', label: 'Writing', icon: 'pen' },
 	{ name: 'speaking', label: 'Speaking', icon: 'mic' },
-	{ name: 'listening', label: 'Listening', icon: 'headphones' },
+	// { name: 'listening', label: 'Listening', icon: 'headphones' },
 ];
 
 export const LESSON_LIST_SELECT = {

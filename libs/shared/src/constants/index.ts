@@ -7,6 +7,11 @@ export * from './default-cat-config.constant';
 export * from './exposure-limit.constant';
 export * from './learning.constant';
 
+//RAG
+export * from './ielts-descriptors.constant'
+export * from './ielts-writing-band-description.constant'
+export * from './ielts-speaking-band-description.constant'
+
 export const DEFAULT_PAGE_INDEX = 1;
 export const DEFAULT_PAGE_SIZE = 20;
 export const DEFAULT_SKIP = 0;

@@ -23,8 +23,18 @@ export class AiServiceController {
 
 	// Grading
 	@MessagePattern('ai.grading.evaluate')
-	async gradeSubmission(@Payload() payload: { questionType: string; userText: string }) {
-		return this.aiService.gradeSubmission(payload.questionType, payload.userText);
+	async gradeSubmission(
+		@Payload()
+		payload: {
+			questionType: string;
+			userText: string;
+			stemText?: string;
+			cefrLevel?: string;
+			minWords?: number;
+			maxWords?: number;
+		},
+	) {
+		return this.aiService.gradeSubmission(payload);
 	}
 
 	// Learning Plan

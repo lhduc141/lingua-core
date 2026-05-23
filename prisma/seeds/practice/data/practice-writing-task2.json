@@ -1,0 +1,554 @@
+{
+	"practiceSets": [
+		{
+			"cefrLevel": "A2",
+			"title": "Daily Exercise Habits",
+			"description": "Write a short essay giving your opinion on the importance of exercising every day.",
+			"estimatedMinutes": 20,
+			"essay": {
+				"prompt": "Some people think that doing exercise every day is very important for a healthy life. Do you agree or disagree? Give reasons for your answer. Write at least 80 words.",
+				"minWords": 80,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "Favorite Type of Food",
+			"description": "Write about whether you prefer traditional Vietnamese food or fast food.",
+			"estimatedMinutes": 20,
+			"essay": {
+				"prompt": "Many people prefer eating traditional food, while others like fast food better. Which type of food do you prefer and why? Give reasons and examples. Write at least 80 words.",
+				"minWords": 80,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "The Importance of Learning English",
+			"description": "Discuss if English is the most important subject for students to learn.",
+			"estimatedMinutes": 20,
+			"essay": {
+				"prompt": "English is the most important subject for students to learn at school. Do you agree or disagree? Give reasons for your opinion. Write at least 80 words.",
+				"minWords": 80,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "Living in a City vs Countryside",
+			"description": "Compare living in a big city with living in the countryside and state your preference.",
+			"estimatedMinutes": 20,
+			"essay": {
+				"prompt": "Some people like living in a big city, but others prefer the quiet countryside. Where do you prefer to live? Give reasons for your choice. Write at least 80 words.",
+				"minWords": 80,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "Technology in Daily Life",
+			"description": "Give your opinion on whether using technology every day is a good thing.",
+			"estimatedMinutes": 20,
+			"essay": {
+				"prompt": "We use technology like mobile phones and computers every day. Do you think this is a good thing or a bad thing? Explain your answer. Write at least 80 words.",
+				"minWords": 80,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "The Best Way to Spend Free Time",
+			"description": "Discuss different ways to relax and state your favorite free time activity.",
+			"estimatedMinutes": 20,
+			"essay": {
+				"prompt": "Some people think reading is the best way to relax in their free time, while others prefer playing sports. Discuss both views and give your own opinion. Write at least 80 words.",
+				"minWords": 80,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "The Importance of Family",
+			"description": "Write about whether family is more important than friends.",
+			"estimatedMinutes": 20,
+			"essay": {
+				"prompt": "Many people believe that family is much more important than friends. Do you agree or disagree with this statement? Give reasons for your answer. Write at least 80 words.",
+				"minWords": 80,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "Social Media and Young People",
+			"description": "Give your opinion on young people spending a lot of time on social media.",
+			"estimatedMinutes": 20,
+			"essay": {
+				"prompt": "Young people today spend a lot of time on social media platforms like Facebook and TikTok. Is this a positive or negative trend? Write at least 80 words.",
+				"minWords": 80,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "Studying at Home vs at School",
+			"description": "Discuss the differences between studying at home and studying in a classroom.",
+			"estimatedMinutes": 20,
+			"essay": {
+				"prompt": "Some students prefer studying at home instead of going to school. What are the good and bad points of studying at home? Write at least 80 words.",
+				"minWords": 80,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "The Environment and Small Actions",
+			"description": "Write about how small everyday actions can help protect the environment.",
+			"estimatedMinutes": 20,
+			"essay": {
+				"prompt": "Small actions like picking up trash and turning off lights can help protect the environment. Do you agree or disagree? Give examples to support your answer. Write at least 80 words.",
+				"minWords": 80,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Online Learning Advantages and Disadvantages",
+			"description": "Discuss the pros and cons of taking classes on the internet.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Nowadays, many students take classes online instead of in a traditional classroom. What are the advantages and disadvantages of online learning? Give reasons for your answer and include any relevant examples. Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Should Students Wear Uniforms?",
+			"description": "Write an opinion essay on whether school uniforms should be mandatory.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Some people think that all high school students should be required to wear uniforms. Do you agree or disagree with this statement? Give reasons for your answer and include examples. Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "The Impact of Smartphones on Communication",
+			"description": "Evaluate if smartphones have improved or harmed how people communicate.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Smartphones have completely changed the way people communicate with each other. Is this a positive or negative development? Give reasons and examples from your own experience. Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Fast Food and Health Problems",
+			"description": "Identify the causes of fast food consumption and propose solutions for health issues.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "The consumption of fast food is increasing around the world, leading to many health problems. What are the causes of this trend, and what solutions can you suggest? Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Tourism: Benefits and Drawbacks",
+			"description": "Discuss both the positive and negative effects of tourism on a country.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Tourism brings huge economic benefits to a country but can also cause environmental and cultural problems. Discuss both the benefits and drawbacks of tourism. Give your own opinion. Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Working from Home",
+			"description": "Argue whether the benefits of remote work outweigh its disadvantages.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Many companies now allow their employees to work from home. Do the advantages of this trend outweigh the disadvantages? Give reasons for your answer and include examples. Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Gender Roles in Modern Society",
+			"description": "Discuss whether men and women share domestic responsibilities equally today.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "In modern society, men and women share household chores and childcare equally. To what extent do you agree or disagree with this statement? Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "The Importance of Learning a Second Language",
+			"description": "Give your opinion on how essential a second language is for career success.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Learning a second language, like English, is essential for a successful career in today's globalized world. Do you agree or disagree? Give reasons and examples to support your view. Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Volunteering and Community Service",
+			"description": "Write about whether young people should be forced to do unpaid community work.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Some people think that all young people should do unpaid work in their community in their free time. To what extent do you agree or disagree? Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Public Transport vs Private Cars",
+			"description": "Discuss if governments should force people to use public transport.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Governments should encourage people to use public transport instead of private cars to reduce traffic and pollution. Do you agree or disagree? Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "The Role of Money in Happiness",
+			"description": "Give your opinion on whether wealth is the key to a happy life.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Many people believe that having a lot of money is the most important factor in achieving happiness. Do you agree or disagree with this opinion? Give examples from your own experience. Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Social Media and Mental Health",
+			"description": "Explain the causes of mental health issues from social media and suggest solutions.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "The overuse of social media is causing mental health issues among teenagers. What are the causes of this problem, and how can it be solved? Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Should Zoos Exist?",
+			"description": "Discuss both sides of keeping animals in zoos and give your opinion.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Some people think that zoos are cruel and should be closed, while others believe they are useful for protecting animals. Discuss both views and give your own opinion. Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Gap Year Before University",
+			"description": "Examine the pros and cons of taking a year off before college.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Some students choose to take a gap year to travel or work before starting university. What are the advantages and disadvantages of doing this? Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Exercise and Stress Reduction",
+			"description": "Argue whether physical exercise is the best method to relieve stress.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Regular exercise is the best way to reduce stress in modern life. To what extent do you agree or disagree with this statement? Give reasons for your answer. Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Reading Books vs Watching Videos",
+			"description": "Discuss if reading books is outdated compared to watching video content.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "In the digital age, reading books is no longer necessary because people can easily watch videos to get information. Do you agree or disagree? Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "The Effect of Music on Mood",
+			"description": "Evaluate how important music is to human emotions and daily life.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Music has a significant impact on people's moods and emotions. How important is music in our daily lives? Give reasons and examples from your own experience. Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Environmental Responsibility of Individuals",
+			"description": "Write about whether ordinary people are responsible for protecting the environment.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Protecting the environment is the responsibility of individuals rather than just the government. Do you agree or disagree? Give reasons and examples to support your answer. Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Living Alone vs With Family",
+			"description": "Assess whether the trend of living independently is positive or negative.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "More and more people are choosing to live alone rather than with their families. Is this a positive or negative development? Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "The Importance of Sleep for Students",
+			"description": "Identify why students lack sleep and propose ways to improve their sleep habits.",
+			"estimatedMinutes": 30,
+			"essay": {
+				"prompt": "Lack of sleep is a major problem for many students today. What are the causes of this problem, and how can it be solved? Give reasons and examples. Write at least 150 words.",
+				"minWords": 150,
+				"maxWords": 220
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Should University Education be Free?",
+			"description": "Argue whether higher education should be fully funded by the state.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "Some people believe that university education should be free for everyone, regardless of their background or financial situation. To what extent do you agree or disagree? Give specific reasons and examples to support your view. Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Artificial Intelligence Replacing Human Jobs",
+			"description": "Evaluate the pros and cons of AI taking over human employment.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "Artificial intelligence is advancing rapidly and may soon replace human workers in many industries. Do the advantages of this technological shift outweigh the disadvantages? Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Climate Change: Individual vs Government Responsibility",
+			"description": "Discuss who holds the primary responsibility for fighting climate change.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "Some people think that climate change can only be solved by government action, while others believe individuals must take primary responsibility. Discuss both views and give your own opinion. Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Capital Punishment: For or Against",
+			"description": "Debate the moral and practical arguments regarding the death penalty.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "Capital punishment is necessary to deter severe crimes and protect society. To what extent do you agree or disagree with this statement? Provide reasons and examples to support your argument. Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Immigration: Economic Benefits and Social Challenges",
+			"description": "Analyze the multifaceted impacts of immigration on host nations.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "Immigration brings significant economic benefits to the host country but also creates complex social challenges. Discuss both sides of this issue and give your own opinion. Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Social Media Censorship",
+			"description": "Discuss whether governments should regulate fake news on social platforms.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "Governments should heavily censor social media platforms to stop the spread of fake news and harmful content. Do you agree or disagree? Support your position with examples. Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "The Digital Divide and Inequality",
+			"description": "Argue the extent to which technology exacerbates social and economic divides.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "The increasing reliance on technology has created a digital divide that worsens social and economic inequality globally. To what extent do you agree or disagree? Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Obesity as a Public Health Crisis",
+			"description": "Identify the root causes of the obesity epidemic and propose government interventions.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "Obesity has become a public health crisis in many developed and developing countries. What are the primary causes of this epidemic, and what actions can governments take to address the issue? Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Space Exploration vs Solving Earth's Problems",
+			"description": "Debate whether funds for space programs should be reallocated to terrestrial issues.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "Instead of spending billions of dollars on space exploration, governments should use this money to solve pressing problems on Earth, such as poverty and disease. Do you agree or disagree? Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Nuclear Energy: Solution or Risk?",
+			"description": "Assess if nuclear power is the best answer to global energy demands.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "Nuclear energy is the only viable solution to meet global energy demands without exacerbating climate change. To what extent do you agree or disagree with this viewpoint? Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Gender Pay Gap in the Workplace",
+			"description": "Explain the causes of the gender pay gap and suggest viable solutions.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "Despite progress in recent years, a significant gender pay gap still exists in the workplace. What are the main causes of this inequality, and how can it be resolved? Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "The Role of Art in Society",
+			"description": "Discuss whether arts funding should be cut during economic hardships.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "In times of economic crisis, governments should cut funding for the arts and redirect it to essential public services like healthcare and education. Do you agree or disagree? Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Globalisation and Cultural Identity",
+			"description": "Analyze if global interconnectedness is destroying local cultures.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "Globalisation is leading to the loss of local cultural identities as countries become increasingly similar. To what extent do you agree or disagree with this statement? Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Elderly Care: Family vs Government",
+			"description": "Debate who should bear the primary responsibility for caring for the elderly.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "With the global population aging rapidly, some argue that the government should be responsible for elderly care, while others believe it is the duty of the family. Discuss both views and give your opinion. Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Children and Screen Time Limits",
+			"description": "Argue whether parents must strictly regulate their children's digital consumption.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "Parents must impose strict limits on the amount of screen time their children are allowed each day to ensure healthy physical and mental development. Do you agree or disagree? Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Renewable Energy Transition Challenges",
+			"description": "Evaluate the feasibility of poorer countries shifting to green energy entirely.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "Transitioning completely to renewable energy sources is too expensive and impractical for most developing nations. To what extent do you agree or disagree? Provide reasons for your answer. Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Brain Drain and Developing Countries",
+			"description": "Examine why skilled professionals emigrate and how to mitigate the damage.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "The emigration of highly skilled professionals, known as brain drain, is severely harming the development of poorer countries. What are the causes of this trend, and what solutions can be implemented? Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Consumerism and Environmental Impact",
+			"description": "Discuss if modern buying habits are the main cause of ecological damage.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "The modern culture of consumerism is the primary driver of environmental destruction globally. To what extent do you agree or disagree with this perspective? Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Privacy in the Digital Age",
+			"description": "Argue whether complete data privacy is an outdated concept.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "In the digital age, true privacy is impossible to maintain, and people must simply accept that their personal data will be monitored. Do you agree or disagree? Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Universal Basic Income",
+			"description": "Analyze the pros and cons of providing a guaranteed income to all citizens.",
+			"estimatedMinutes": 40,
+			"essay": {
+				"prompt": "A Universal Basic Income (UBI) should be provided to all citizens to eradicate poverty and offset the impact of automation. Discuss the advantages and disadvantages of this proposal. Write at least 220 words.",
+				"minWords": 220,
+				"maxWords": 320
+			}
+		}
+	]
+}

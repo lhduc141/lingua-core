@@ -38,7 +38,6 @@ export class AssessmentsService implements OnModuleInit {
 		private readonly aiClient: AiClientService,
 	) {}
 
-	//  Register BullMQ Worker khi module khởi động
 	onModuleInit() {
 		this.bullmq.registerWorker<GradeSubjectiveJobData>(
 			AssessmentQueues.ASSESSMENT_AI,
@@ -275,16 +274,30 @@ export class AssessmentsService implements OnModuleInit {
 		});
 		const questionMap = new Map(questions.map((q) => [q.questionId, q]));
 
+		// RAG: Fetch user's current CEFR level
+		const placementSession = await this.prisma.placementSession.findFirst({
+			where: { userId, status: 'completed' as any },
+			orderBy: { completedAt: 'desc' },
+			select: { cefrLevel: true },
+		});
+		const userCefrLevel = placementSession?.cefrLevel ?? 'B1';
+
 		let objectiveTotal = 0;
 		let objectiveScore = 0;
-		const subjectiveAttempts: { answerId: string; type: string; textAnswer: string }[] = [];
+		const subjectiveAttempts: {
+			answerId: string;
+			type: string;
+			textAnswer: string;
+			stemText: string;
+			minWords: number;
+			maxWords: number;
+		}[] = [];
 
 		for (const attempt of answer) {
 			const q = questionMap.get(attempt.questionId);
 			if (!q) continue;
 
 			if (q.type === 'dictation') {
-				// Word-level diff — sync, không cần AI, không cần queue
 				const userText = attempt.answerDetails[0]?.textAnswer ?? '';
 				const keys = (q.payload?.answerKeysJson as string[]) ?? [];
 				const expectedText = keys[0] ?? '';
@@ -296,17 +309,17 @@ export class AssessmentsService implements OnModuleInit {
 				await this.prisma.answer.update({
 					where: { answerId: attempt.answerId },
 					data: {
-						correct: diff.score >= 0.7, // >= 70% từ đúng = pass
-						score: diff.score, // 0-1
+						correct: diff.score >= 0.7,
+						score: diff.score,
 						gradingStatus: 'auto_scored' as any,
 					},
 				});
 
-				// Lưu diff vào AnswerEvaluation — FE đọc qua aiFeedback.corrections
+				// Lưu diff vào AnswerEvaluation
 				await this.prisma.answerEvaluation.create({
 					data: {
 						answerId: attempt.answerId,
-						overallScore: Math.round(diff.score * 10 * 10) / 10, // scale 0-10
+						overallScore: Math.round(diff.score * 10 * 10) / 10,
 						criteriaJson: {
 							dimensions: [
 								{
@@ -336,7 +349,15 @@ export class AssessmentsService implements OnModuleInit {
 				});
 			} else if (SUBJECTIVE_TYPES.includes(q.type)) {
 				const textAnswer = attempt.answerDetails[0]?.textAnswer ?? '';
-				subjectiveAttempts.push({ answerId: attempt.answerId, type: q.type, textAnswer });
+				const scoringJson = q.payload?.scoringJson as any;
+				subjectiveAttempts.push({
+					answerId: attempt.answerId,
+					type: q.type,
+					textAnswer,
+					stemText: q.translations?.[0]?.stemText ?? '',
+					minWords: scoringJson?.minWords ?? 0,
+					maxWords: scoringJson?.maxWords ?? 9999,
+				});
 			}
 		}
 
@@ -381,6 +402,11 @@ export class AssessmentsService implements OnModuleInit {
 						exerciseRecordId,
 						questionType: sub.type,
 						textAnswer: sub.textAnswer,
+						stemText: sub.stemText,
+						cefrLevel: userCefrLevel,
+						minWords: sub.minWords,
+						maxWords: sub.maxWords,
+						userId,
 					},
 				);
 			}
@@ -416,7 +442,6 @@ export class AssessmentsService implements OnModuleInit {
 			const earnedScore = ans.score !== null ? Number(ans.score) : null;
 			const maxScore = q.maxScore ?? 1;
 
-			// dictation lưu text answer → đọc từ textAnswer branch
 			const userAnswer = (() => {
 				if (ans.answerDetails.length === 0) return null;
 				if (['fill_blank', 'essay', 'speaking', 'matching', 'dictation'].includes(questionType)) {
@@ -433,7 +458,6 @@ export class AssessmentsService implements OnModuleInit {
 			const correctAnswer = (() => {
 				if (!isScored) return null;
 
-				// dictation: expected transcript lưu trong answerKeysJson (cùng format fill_blank)
 				if (questionType === 'fill_blank' || questionType === 'dictation') {
 					const keys = q.payload?.answerKeysJson as string[] | null;
 					return keys && keys.length > 0 ? { textAnswers: keys } : null;
@@ -454,7 +478,8 @@ export class AssessmentsService implements OnModuleInit {
 				return null;
 			})();
 
-			// dictation + essay + speaking đều đọc từ evaluations[0].criteriaJson
+			// ─── BUILD aiFeedback ─────────────────────────────────────────────────────
+			// FIX: map đầy đủ format mới + backward compat với data cũ trong DB
 			const aiFeedback = (() => {
 				const evalRecord = ans.evaluations[0];
 				if (!evalRecord) return null;
@@ -470,13 +495,36 @@ export class AssessmentsService implements OnModuleInit {
 				}
 
 				return {
-					overallScore: Number(evalRecord.overallScore),
+					// ── Core scores ───────────────────────────────────────────────
+					overallScore: Number(criteria?.overallScore ?? evalRecord.overallScore),
+					estimatedIeltsBand: criteria?.estimatedIeltsBand ?? null,
+					internalScore: criteria?.internalScore ?? Number(evalRecord.overallScore),
+					scoreConfidence: criteria?.scoreConfidence ?? 'medium',
+					scoreRationale: criteria?.scoreRationale ?? '',
+					// ── Band info ─────────────────────────────────────────────────
+					assessmentType: criteria?.assessmentType ?? null,
+					currentLevel: criteria?.currentLevel ?? null,
+					targetLevel: criteria?.targetLevel ?? null,
+					currentBand: criteria?.currentBand ?? null,
+					targetBand: criteria?.targetBand ?? null,
+
+					wordCount: criteria?.wordCount ?? 0,
+					wordCountStatus: criteria?.wordCountStatus ?? '',
+
+					criterionBands: criteria?.criterionBands ?? [],
+					corrections: criteria?.corrections ?? [],
+					priorityFixes: criteria?.priorityFixes ?? [],
+					nextLevelGaps: criteria?.nextLevelGaps ?? [],
+					nextBandTarget: criteria?.nextBandTarget ?? null,
+					styleImprovements: criteria?.styleImprovements ?? [],
+					correctedText: criteria?.correctedText ?? null,
+					pronunciationConfidence: criteria?.pronunciationConfidence ?? null,
+
 					dimensions: (criteria?.dimensions ?? []).map((d: any) => ({
 						name: d.name ?? '',
 						score: Number(d.score ?? 0),
 						feedback: d.comment ?? d.feedback ?? '',
 					})),
-					corrections: criteria?.corrections ?? [],
 					suggestions: criteria?.suggestions ?? [],
 				};
 			})();
@@ -563,9 +611,60 @@ export class AssessmentsService implements OnModuleInit {
 		return ResponseDto.success(Object, { transcript }, 'Transcription successful');
 	}
 
-	// BULLMQ WORKER HANDLER — chỉ xử lý essay và speaking, KHÔNG xử lý dictation
+	// BULLMQ WORKER HANDLER
+	private async checkAndUpdateCefrLevel(userId: string, currentLevel: string): Promise<void> {
+		try {
+			const NEXT_LEVEL: Record<string, string | null> = {
+				A1: 'A2',
+				A2: 'B1',
+				B1: 'B2',
+				B2: 'C1',
+				C1: null,
+			};
+			const nextLevel = NEXT_LEVEL[currentLevel];
+			if (!nextLevel) return;
+
+			const recentEvals = await this.prisma.answerEvaluation.findMany({
+				where: {
+					answer: {
+						userId,
+						question: { type: { in: ['essay', 'speaking'] as any } },
+						deletedAt: null,
+					},
+				},
+				orderBy: { createdAt: 'desc' },
+				take: 3,
+				select: { overallScore: true },
+			});
+
+			if (recentEvals.length < 3) return;
+
+			const allHigh = recentEvals.every((e) => Number(e.overallScore) >= 7.5);
+			if (!allHigh) return;
+
+			await this.prisma.placementSession.updateMany({
+				where: { userId, status: 'completed' as any },
+				data: { cefrLevel: nextLevel as any },
+			});
+
+			this.logger.log(`🎉 Level up! userId=${userId} | ${currentLevel} → ${nextLevel}`);
+		} catch (err) {
+			this.logger.warn(`checkAndUpdateCefrLevel failed | userId=${userId} | error=${err.message}`);
+		}
+	}
+
 	private async handleGradeJob(job: Job<GradeSubjectiveJobData>): Promise<void> {
-		const { answerId, exerciseRecordId, questionType, textAnswer } = job.data;
+		const {
+			answerId,
+			exerciseRecordId,
+			questionType,
+			textAnswer,
+			stemText,
+			cefrLevel,
+			minWords,
+			maxWords,
+			userId,
+		} = job.data;
 
 		if (!textAnswer || textAnswer.trim().length === 0) {
 			await this.prisma.answer.update({
@@ -575,16 +674,45 @@ export class AssessmentsService implements OnModuleInit {
 			return;
 		}
 
-		const result = await this.aiClient.gradeSubmission({ questionType, userText: textAnswer });
+		const result = await this.aiClient.gradeSubmission({
+			questionType,
+			userText: textAnswer,
+			stemText,
+			cefrLevel,
+			minWords,
+			maxWords,
+		});
 
+		// ─── FIX: Lưu đầy đủ format mới vào criteriaJson ─────────────────────────
 		await this.prisma.answerEvaluation.create({
 			data: {
 				answerId,
-				overallScore: result.overallScore,
+				overallScore: result.overallScore ?? result.internalScore ?? 0,
 				criteriaJson: {
-					dimensions: result.dimensions,
-					corrections: result.corrections,
-					suggestions: result.suggestions,
+					// Core metadata
+					assessmentType: result.assessmentType ?? null,
+					currentLevel: result.currentLevel ?? null,
+					targetLevel: result.targetLevel ?? null,
+					currentBand: result.currentBand ?? null,
+					targetBand: result.targetBand ?? null,
+					// Scores
+					estimatedIeltsBand: result.estimatedIeltsBand ?? null,
+					internalScore: result.internalScore ?? result.overallScore ?? 0,
+					overallScore: result.overallScore ?? result.internalScore ?? 0,
+					scoreConfidence: result.scoreConfidence ?? 'medium',
+					scoreRationale: result.scoreRationale ?? '',
+					// Word info
+					wordCount: result.wordCount ?? 0,
+					wordCountStatus: result.wordCountStatus ?? '',
+					// Grading content
+					criterionBands: result.criterionBands ?? [],
+					corrections: result.corrections ?? [],
+					priorityFixes: result.priorityFixes ?? [],
+					nextLevelGaps: result.nextLevelGaps ?? [],
+					nextBandTarget: result.nextBandTarget ?? null,
+					styleImprovements: result.styleImprovements ?? [],
+					correctedText: result.correctedText ?? null,
+					pronunciationConfidence: result.pronunciationConfidence ?? null,
 				},
 			},
 		});
@@ -592,12 +720,13 @@ export class AssessmentsService implements OnModuleInit {
 		await this.prisma.answer.update({
 			where: { answerId },
 			data: {
-				score: result.overallScore / 10,
+				score: (result.overallScore ?? result.internalScore ?? 0) / 10,
 				gradingStatus: 'auto_scored' as any,
 			},
 		});
 
 		await this.tryFinalizeAssessment(exerciseRecordId);
+		await this.checkAndUpdateCefrLevel(userId, cefrLevel);
 	}
 
 	private async tryFinalizeAssessment(exerciseRecordId: string): Promise<void> {
@@ -638,15 +767,6 @@ export class AssessmentsService implements OnModuleInit {
 
 	/**
 	 * LCS word-level diff cho dictation
-	 *
-	 * Ví dụ:
-	 *   expected:  "the cat sat on the mat"
-	 *   user:      "the cat sat in mat"
-	 *
-	 *   LCS match: "the cat sat _ _ mat" → 4/6 từ đúng → score = 0.67
-	 *   corrections:
-	 *     { original: "in",  corrected: "on",  rule: "Wrong word"   }
-	 *     { original: "",    corrected: "the", rule: "Missing word" }
 	 */
 	private gradeDictation(
 		expected: string,
@@ -681,7 +801,6 @@ export class AssessmentsService implements OnModuleInit {
 		const m = expNorm.length;
 		const n = usrNorm.length;
 
-		// Build LCS dp table
 		const dp: number[][] = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
 		for (let i = 1; i <= m; i++) {
 			for (let j = 1; j <= n; j++) {
@@ -691,11 +810,10 @@ export class AssessmentsService implements OnModuleInit {
 		}
 
 		const lcsLength = dp[m][n];
-		const score = lcsLength / m; // 0-1: tỉ lệ từ expected được gõ đúng
+		const score = lcsLength / m;
 
-		// Backtrack để tách ra missing vs extra words
-		const missingFromUser: string[] = []; // từ expected nhưng user không gõ đúng
-		const extraFromUser: string[] = []; // từ user gõ nhưng không khớp expected
+		const missingFromUser: string[] = [];
+		const extraFromUser: string[] = [];
 
 		let i = m,
 			j = n;
@@ -715,7 +833,6 @@ export class AssessmentsService implements OnModuleInit {
 		missingFromUser.reverse();
 		extraFromUser.reverse();
 
-		// Ghép cặp extra + missing → "Wrong word"; phần dư → "Missing word"
 		const corrections: { original: string; corrected: string; rule: string }[] = [];
 		const pairCount = Math.min(missingFromUser.length, extraFromUser.length);
 
@@ -781,7 +898,6 @@ export class AssessmentsService implements OnModuleInit {
 				data: answer.optionIds.map((optionId, idx) => ({ answerId, position: idx + 1, optionId })),
 			});
 		} else if (answer.textAnswer !== undefined) {
-			// essay / speaking / fill_blank / dictation
 			await this.prisma.answerDetail.create({ data: { answerId, position: 1, textAnswer: answer.textAnswer } });
 		}
 	}

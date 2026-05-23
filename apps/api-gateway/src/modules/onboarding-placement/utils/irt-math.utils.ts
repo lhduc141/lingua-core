@@ -10,7 +10,7 @@ export class IrtMathUtils {
 		return c + (1 - c) * this.logistic(a, b, theta);
 	}
 
-	// Tính đạo hàm: dP/d(theta) => cần cho Newton Rapshon
+	// Tính đạo hàm: dP/d(theta)
 	static calculateDerivative(theta: number, a: number, b: number, c: number): number {
 		const psi = this.logistic(a, b, theta);
 		return a * (1 - c) * psi * (1 - psi);
@@ -22,7 +22,6 @@ export class IrtMathUtils {
 		const Q = 1 - P;
 		const dP = this.calculateDerivative(theta, a, b, c);
 
-		// Avoid division by near-zero
 		if (P < 0.001 || Q < 0.001) return 0;
 
 		return (dP * dP) / (P * Q);
@@ -43,8 +42,8 @@ export class IrtMathUtils {
 		let theta = initialTheta;
 
 		for (let iter = 0; iter < 50; iter++) {
-			let L1 = 0; // ∂L/∂θ
-			let L2 = 0; // ∂²L/∂θ² (expected information, negative)
+			let L1 = 0;
+			let L2 = 0;
 
 			for (const r of responses) {
 				const P = this.calculate3PLProbability(theta, r.a, r.b, r.c);
@@ -54,7 +53,7 @@ export class IrtMathUtils {
 				if (P < 0.001 || Q < 0.001) continue;
 
 				L1 += (dP / (P * Q)) * (r.correct - P);
-				L2 -= (dP * dP) / (P * Q); // = -I_i(θ)
+				L2 -= (dP * dP) / (P * Q);
 			}
 
 			if (Math.abs(L2) < 1e-10) break;
@@ -62,7 +61,6 @@ export class IrtMathUtils {
 			const delta = L1 / L2;
 			theta = theta - delta;
 
-			// Clamp to reasonable ability range
 			theta = Math.max(-4, Math.min(4, theta));
 
 			if (Math.abs(delta) < 0.001) break;
@@ -79,16 +77,6 @@ export class IrtMathUtils {
 		return parseFloat((1 / Math.sqrt(totalInfo)).toFixed(4));
 	}
 
-	/**
-	 * Map theta estimate to CEFR level with 95% confidence interval.
-	 *
-	 * Theta → CEFR boundaries:
-	 *   θ < -1.5   → A1
-	 *   -1.5 ≤ θ < -0.5 → A2
-	 *   -0.5 ≤ θ < 0.5  → B1
-	 *   0.5  ≤ θ < 1.5  → B2
-	 *   θ ≥ 1.5    → C1
-	 */
 	static mapThetaToCEFR(theta: number, se: number): CefrAssignment {
 		const level = this.thetaToLevel(theta);
 		const lowerTheta = theta - 1.96 * se;

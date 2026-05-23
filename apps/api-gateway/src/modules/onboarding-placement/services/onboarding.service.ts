@@ -1,5 +1,3 @@
-// onboarding.service.ts
-
 import type { JwtPayloadDto } from '@app/jwt';
 import { NotFoundException, ResponseDto } from '@app/shared';
 import { Injectable, Logger } from '@nestjs/common';

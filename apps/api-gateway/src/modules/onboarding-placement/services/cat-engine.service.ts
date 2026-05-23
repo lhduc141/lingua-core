@@ -20,7 +20,7 @@ const MAX_QUESTIONS_PER_PASSAGE = 4;
 @Injectable()
 export class CatEngineService {
 	private readonly logger = new Logger(CatEngineService.name);
-	private readonly SOURCE_TAG = 'placement_test_v1'; // Query "placement test" question
+	private readonly SOURCE_TAG = 'placement_test_v1';
 
 	constructor(private readonly prisma: PrismaService) {}
 
@@ -29,8 +29,8 @@ export class CatEngineService {
 		currentTheta: number,
 		excludeIds: string[],
 		totalCompletedSessions: number,
-		questionOrder: number, // Đang ở câu thứ mấy
-		answeredPassageIds: string[], // Passage nào đã dùng
+		questionOrder: number,
+		answeredPassageIds: string[],
 	): Promise<FormattedQuestion | null> {
 		//? Phase Check
 		const isGrammarPhase = questionOrder <= GRAMMAR_PHASE_END;
@@ -97,16 +97,6 @@ export class CatEngineService {
 		return this.formatQuestion(winnerRow);
 	}
 
-	//TODO 2. Ability Estimation
-	/**
-	 * Build an IrtResponse array from PlacementAttempt records.
-	 *
-	 * This combines DB rows (which have Prisma Decimal types) into
-	 * the plain-number format needed by IrtMathUtils.
-	 *
-	 * Always pass ALL attempts from the session (not just new ones)
-	 * to get the full MLE over the entire response pattern.
-	 */
 	buildResponses(
 		attempts: Array<{
 			isCorrect: boolean;
@@ -125,26 +115,14 @@ export class CatEngineService {
 		}));
 	}
 
-	/** Run Newton-Raphson MLE to estimate theta from all responses. */
 	estimateTheta(responses: IrtResponse[], currentTheta: number): number {
 		return IrtMathUtils.estimateThetaMLE(responses, currentTheta);
 	}
 
-	/** Calculate SE(θ) from IRT parameters of all administered items. */
 	calculateSE(theta: number, params: IrtParameters[]): number {
 		return IrtMathUtils.calculateSE(theta, params);
 	}
 
-	// 3. Stopping Criteria
-
-	/**
-	 * Evaluate whether the CAT session should terminate.
-	 *
-	 * Priority:
-	 *   1. max_questions — hard cap, always enforced first
-	 *   2. se_threshold  — precision-based early stop
-	 *   3. continue      — test must continue
-	 */
 	checkStoppingCriteria(questionsAnswered: number, se: number): StopDecision {
 		if (questionsAnswered >= DEFAULT_CAT_CONFIG.maxQuestions) {
 			return { shouldStop: true, reason: 'max_questions' };
@@ -155,13 +133,10 @@ export class CatEngineService {
 		return { shouldStop: false, reason: 'continue' };
 	}
 
-	// 4. CEFR Mapping
-
 	mapToCefr(theta: number, se: number): CefrAssignment {
 		return IrtMathUtils.mapThetaToCEFR(theta, se);
 	}
 
-	// 5. Helpers
 	extractIrtParams(q: { irtDifficulty: any; irtDiscrimination: any; irtGuessing: any }): IrtParameters {
 		return {
 			a: this.toFloat(q.irtDiscrimination, 1.0),
@@ -198,7 +173,6 @@ export class CatEngineService {
 					optionId: o.optionId,
 					position: o.position,
 					text: optTrans?.optionText ?? null,
-					// isCorrect intentionally omitted
 				};
 			}),
 		};

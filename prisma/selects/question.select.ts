@@ -1,7 +1,6 @@
 import { Prisma } from '@prisma/client';
 
 export const QuestionSelect = {
-	// isCorrect không được include — bảo mật đáp án
 	detail: {
 		questionId: true,
 		type: true,
@@ -62,7 +61,17 @@ export const QuestionSelect = {
 			select: { optionId: true, isCorrect: true },
 		},
 		payload: {
-			select: { answerKeysJson: true, configJson: true },
+			select: {
+				answerKeysJson: true,
+				configJson: true,
+				scoringJson: true, // RAG: minWords, maxWords
+			},
+		},
+		translations: {
+			// RAG: stemText ~ Đề bài
+			take: 1,
+			where: { locale: 'en' },
+			select: { stemText: true },
 		},
 	} satisfies Prisma.QuestionSelect,
 

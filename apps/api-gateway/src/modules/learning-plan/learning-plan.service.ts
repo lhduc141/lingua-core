@@ -29,7 +29,7 @@ export class LearningPlanService implements OnModuleInit {
 	private readonly logger = new Logger(LearningPlanService.name);
 
 	private readonly WEEKDAYS = ['MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY'];
-	private readonly SUPPORTED_SKILLS = ['reading', 'writing', 'speaking', 'listening'];
+	private readonly SUPPORTED_SKILLS = ['reading', 'writing', 'speaking' /*, 'listening'*/]; 
 
 	constructor(
 		private readonly prisma: PrismaService,

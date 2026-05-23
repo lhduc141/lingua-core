@@ -26,7 +26,14 @@ export class AiClientService {
 		return lastValueFrom(this.client.send('ai.writing.grade', payload));
 	}
 
-	gradeSubmission(payload: { questionType: string; userText: string }) {
+	gradeSubmission(payload: {
+		questionType: string;
+		userText: string;
+		stemText?: string;
+		cefrLevel?: string;
+		minWords?: number;
+		maxWords?: number;
+	}) {
 		return lastValueFrom(this.client.send('ai.grading.evaluate', payload));
 	}
 
