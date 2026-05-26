@@ -5,10 +5,12 @@ export * from './transform';
 export * from './validations';
 export * from './exceptions';
 export * from './interceptors';
+export * from './interfaces'
 
 export * from './converters';
 export * from './helpers';
 export * from './sequelize-logger';
 // export * from './utils';
+
 
 export class AllExceptionsFilter {}

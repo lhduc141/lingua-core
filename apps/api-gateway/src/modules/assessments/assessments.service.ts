@@ -1,6 +1,6 @@
 import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
 import { PrismaService } from '../../../../../prisma/prisma.service';
-import { BadRequestException, NotFoundException, PagingDataDto, ResponseDto } from '@app/shared';
+import { BadRequestException, NotFoundException, PagingDataDto, PronunciationScores, ResponseDto } from '@app/shared';
 import { BullmqService } from '@app/bullmq';
 import { AiClientService } from '@app/ai-client';
 import {
@@ -27,6 +27,15 @@ import { AnswerResult } from './interface/answer-result.interface';
 
 const SUBJECTIVE_TYPES = ['essay', 'speaking', 'short_answer'];
 const OBJECTIVE_TYPES = ['mcq_single', 'mcq_multi', 'fill_blank', 'matching', 'ordering', 'cloze_bank'];
+
+/**
+ * Race a promise against a timeout.
+ * If the promise does not resolve within `ms` milliseconds, resolve with `fallback`.
+ * Used to prevent Azure Pronunciation from blocking the transcribe response indefinitely.
+ */
+function withTimeout<T>(promise: Promise<T>, ms: number, fallback: T): Promise<T> {
+	return Promise.race([promise, new Promise<T>((resolve) => setTimeout(() => resolve(fallback), ms))]);
+}
 
 @Injectable()
 export class AssessmentsService implements OnModuleInit {
@@ -291,6 +300,7 @@ export class AssessmentsService implements OnModuleInit {
 			stemText: string;
 			minWords: number;
 			maxWords: number;
+			pronunciationScores: any | null;
 		}[] = [];
 
 		for (const attempt of answer) {
@@ -357,6 +367,15 @@ export class AssessmentsService implements OnModuleInit {
 					stemText: q.translations?.[0]?.stemText ?? '',
 					minWords: scoringJson?.minWords ?? 0,
 					maxWords: scoringJson?.maxWords ?? 9999,
+					pronunciationScores: (() => {
+						const pronDetail = attempt.answerDetails.find((d) => d.position === 2);
+						if (!pronDetail?.textAnswer) return null;
+						try {
+							return JSON.parse(pronDetail.textAnswer);
+						} catch {
+							return null;
+						}
+					})(),
 				});
 			}
 		}
@@ -407,6 +426,7 @@ export class AssessmentsService implements OnModuleInit {
 						minWords: sub.minWords,
 						maxWords: sub.maxWords,
 						userId,
+						pronunciationScores: sub.pronunciationScores ?? null,
 					},
 				);
 			}
@@ -520,6 +540,9 @@ export class AssessmentsService implements OnModuleInit {
 					correctedText: criteria?.correctedText ?? null,
 					pronunciationConfidence: criteria?.pronunciationConfidence ?? null,
 
+					// ── Pronunciation scores (speaking only) — from Azure SDK ─────
+					pronunciationScores: (criteria?.pronunciationScores ?? null) as PronunciationScores | null,
+
 					dimensions: (criteria?.dimensions ?? []).map((d: any) => ({
 						name: d.name ?? '',
 						score: Number(d.score ?? 0),
@@ -597,18 +620,47 @@ export class AssessmentsService implements OnModuleInit {
 		);
 	}
 
+	// 7. TRANSCRIBE AUDIO
 	async transcribeAudio(file: Express.Multer.File) {
 		if (!file) throw new BadRequestException('No audio file provided');
 
-		this.logger.log(`Transcribing audio | size=${file.size} | mimetype=${file.mimetype}`);
-		const transcript = await this.aiClient.transcribeAudio({
+		this.logger.log(`[Transcribe] Received | size=${file.size} | mimetype=${file.mimetype}`);
+
+		// [1] Groq Whisper — always runs first, returns transcript quickly
+		const transcriptRaw = await this.aiClient.transcribeAudio({
 			buffer: file.buffer,
 			mimetype: file.mimetype,
 			originalname: file.originalname,
 		});
 
-		console.log('transcript result:', transcript, typeof transcript);
-		return ResponseDto.success(Object, { transcript }, 'Transcription successful');
+		const transcript =
+			typeof transcriptRaw === 'string' ? transcriptRaw : ((transcriptRaw as any)?.transcript ?? '');
+
+		this.logger.log(`[Transcribe] Whisper done | transcript length=${transcript.length}`);
+
+		// [2] Azure Pronunciation — wrapped with 8s timeout
+		let pronunciationScores: PronunciationScores | null = null;
+		if (transcript.trim()) {
+			pronunciationScores = await withTimeout(
+				this.aiClient.assessPronunciation({
+					buffer: file.buffer,
+					mimetype: file.mimetype,
+					referenceText: transcript,
+				}),
+				25000,
+				null,
+			);
+
+			if (pronunciationScores) {
+				this.logger.log(`[Transcribe] Azure done | composite=${pronunciationScores.pronComposite}`);
+			} else {
+				this.logger.warn(
+					'[Transcribe] Azure returned null (timeout or error) — transcript still returned to FE',
+				);
+			}
+		}
+
+		return ResponseDto.success(Object, { transcript, pronunciationScores }, 'Transcription successful');
 	}
 
 	// BULLMQ WORKER HANDLER
@@ -664,6 +716,7 @@ export class AssessmentsService implements OnModuleInit {
 			minWords,
 			maxWords,
 			userId,
+			pronunciationScores,
 		} = job.data;
 
 		if (!textAnswer || textAnswer.trim().length === 0) {
@@ -683,7 +736,57 @@ export class AssessmentsService implements OnModuleInit {
 			maxWords,
 		});
 
-		// ─── FIX: Lưu đầy đủ format mới vào criteriaJson ─────────────────────────
+		// Merge Pronunciation band vao criterionBands cho speaking
+		if (questionType === 'speaking') {
+			const pronBand: any = pronunciationScores
+				? {
+						name: 'Pronunciation',
+						bandEstimate: pronunciationScores.estimatedBand,
+						internalScore: Math.round((pronunciationScores.pronComposite / 100) * 10 * 2) / 2,
+						summary: `Accuracy: ${pronunciationScores.accuracyScore}% | Fluency: ${pronunciationScores.fluencyScore}% | Composite: ${pronunciationScores.pronComposite}%`,
+						strengths:
+							pronunciationScores.pronComposite >= 75
+								? ['Pronunciation is generally clear and intelligible']
+								: [],
+						weaknesses: (pronunciationScores.words ?? [])
+							.filter((w: any) => w.errorType && w.errorType !== 'None' && w.accuracyScore < 60)
+							.slice(0, 2)
+							.map((w: any) => `"${w.word}" — accuracy ${w.accuracyScore}%`),
+						subCriteria: [],
+					}
+				: {
+						name: 'Pronunciation',
+						bandEstimate: null,
+						internalScore: 0,
+						summary:
+							'Pronunciation could not be assessed — audio format incompatible or Azure unavailable.',
+						strengths: [],
+						weaknesses: [],
+						subCriteria: [],
+					};
+
+			result.criterionBands = [...(result.criterionBands ?? []), pronBand];
+
+			const validBands = result.criterionBands
+				.map((c: any) => Number(c.bandEstimate))
+				.filter((n: number) => !isNaN(n) && n >= 0 && n <= 9);
+
+			if (validBands.length === 4) {
+				result.estimatedIeltsBand =
+					Math.round((validBands.reduce((s: number, b: number) => s + b, 0) / 4) * 2) / 2;
+			} else {
+				const llmBands = (result.criterionBands ?? [])
+					.filter((c: any) => c.name !== 'Pronunciation')
+					.map((c: any) => Number(c.bandEstimate))
+					.filter((n: number) => !isNaN(n) && n >= 0 && n <= 9);
+
+				if (llmBands.length === 3) {
+					result.estimatedIeltsBand =
+						Math.round((llmBands.reduce((s: number, b: number) => s + b, 0) / 3) * 2) / 2;
+				}
+			}
+		}
+
 		await this.prisma.answerEvaluation.create({
 			data: {
 				answerId,
@@ -695,15 +798,18 @@ export class AssessmentsService implements OnModuleInit {
 					targetLevel: result.targetLevel ?? null,
 					currentBand: result.currentBand ?? null,
 					targetBand: result.targetBand ?? null,
+
 					// Scores
 					estimatedIeltsBand: result.estimatedIeltsBand ?? null,
 					internalScore: result.internalScore ?? result.overallScore ?? 0,
 					overallScore: result.overallScore ?? result.internalScore ?? 0,
 					scoreConfidence: result.scoreConfidence ?? 'medium',
 					scoreRationale: result.scoreRationale ?? '',
+
 					// Word info
 					wordCount: result.wordCount ?? 0,
 					wordCountStatus: result.wordCountStatus ?? '',
+
 					// Grading content
 					criterionBands: result.criterionBands ?? [],
 					corrections: result.corrections ?? [],
@@ -712,7 +818,10 @@ export class AssessmentsService implements OnModuleInit {
 					nextBandTarget: result.nextBandTarget ?? null,
 					styleImprovements: result.styleImprovements ?? [],
 					correctedText: result.correctedText ?? null,
+
+					// Pronunciation (speaking only — raw Azure scores stored for result page)
 					pronunciationConfidence: result.pronunciationConfidence ?? null,
+					pronunciationScores: (pronunciationScores ?? null) as any,
 				},
 			},
 		});
@@ -898,7 +1007,19 @@ export class AssessmentsService implements OnModuleInit {
 				data: answer.optionIds.map((optionId, idx) => ({ answerId, position: idx + 1, optionId })),
 			});
 		} else if (answer.textAnswer !== undefined) {
-			await this.prisma.answerDetail.create({ data: { answerId, position: 1, textAnswer: answer.textAnswer } });
+			await this.prisma.answerDetail.create({
+				data: { answerId, position: 1, textAnswer: answer.textAnswer },
+			});
+
+			if ((answer as any).pronunciationScores) {
+				await this.prisma.answerDetail.create({
+					data: {
+						answerId,
+						position: 2,
+						textAnswer: JSON.stringify((answer as any).pronunciationScores),
+					},
+				});
+			}
 		}
 	}
 

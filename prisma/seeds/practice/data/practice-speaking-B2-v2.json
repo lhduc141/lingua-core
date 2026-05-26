@@ -1,0 +1,690 @@
+{
+	"skill": "speaking",
+	"cefrLevel": "B2",
+	"practiceSets": [
+		{
+			"title": "Globalisation and Cultural Change",
+			"description": "Examine the impact of global integration on indigenous traditions and national identities.",
+			"estimatedMinutes": 18,
+			"mcqQuestions": [
+				{
+					"stemText": "The rapid spread of international brands has led to the ___ of many local cultures.",
+					"options": ["homogenisation", "clarification", "preservation", "illustration"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Many sociologists argue that globalisation accelerates the ___ of traditional languages.",
+					"options": ["growth", "revival", "erosion", "emergence"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Immigrants often face immense pressure to ___ into the dominant culture.",
+					"options": ["isolate", "assimilate", "dominate", "alienate"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Protecting a nation's cultural ___ is vital for maintaining historical continuity.",
+					"options": ["dividend", "heritage", "liability", "currency"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Globalisation fosters a sense of interconnectedness, making the world seem like a global ___.",
+					"options": ["village", "empire", "continent", "territory"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Some fear that local customs will inevitably be ___ by Western media.",
+					"options": ["upheld", "underpinned", "overshadowed", "highlighted"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The fusion of different culinary traditions is a prime example of cultural ___.",
+					"options": ["stagnation", "segregation", "exchange", "isolation"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Opponents of globalisation often advocate for policies that protect ___ businesses.",
+					"options": ["multinational", "indigenous", "transnational", "expatriate"],
+					"correctIndex": 1
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a situation where you observed a stark contrast between traditional culture and modern global trends. You should say: where and when this happened, what specific traditions and modern trends were involved, how people reacted to this juxtaposition, and explain whether you feel this cultural shift is a positive or negative development.",
+					"durationSeconds": 90
+				},
+				{
+					"prompt": "To what extent do you agree that globalisation inevitably leads to the total loss of national identity? Discuss the advantages and disadvantages of a highly interconnected global society, providing examples from your own country.",
+					"durationSeconds": 90
+				}
+			]
+		},
+		{
+			"title": "Artificial Intelligence and the Job Market",
+			"description": "Discuss the disruptive potential of automation and its long-term economic consequences.",
+			"estimatedMinutes": 18,
+			"mcqQuestions": [
+				{
+					"stemText": "The implementation of advanced robotics has made many manual jobs completely ___.",
+					"options": ["lucrative", "obsolete", "prevalent", "indispensable"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "To survive in the modern workforce, employees must constantly engage in ___.",
+					"options": ["downsizing", "outsourcing", "upskilling", "offshoring"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Widespread ___ of routine tasks could lead to massive structural unemployment.",
+					"options": ["automation", "stagnation", "inflation", "regulation"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Many fear that artificial intelligence will eventually ___ human workers in the service sector.",
+					"options": ["complement", "substitute", "collaborate", "assist"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The gig economy has been greatly facilitated by the advent of ___ technologies.",
+					"options": ["conservative", "disruptive", "traditional", "predictable"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "A universal basic income is often proposed to mitigate the ___ caused by job losses.",
+					"options": ["prosperity", "equality", "hardship", "stability"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Professionals must remain ___ to adapt to the rapidly shifting technological landscape.",
+					"options": ["rigid", "inflexible", "agile", "stubborn"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Those whose skills are easily replicated by algorithms are highly ___ to being laid off.",
+					"options": ["immune", "resistant", "vulnerable", "secured"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a profession or industry that you believe will be drastically altered by artificial intelligence in the next decade. You should say: what the profession is, how AI is currently being integrated into it, what the daily work will look like in the future, and explain how current professionals should prepare for this transition.",
+					"durationSeconds": 90
+				},
+				{
+					"prompt": "Some argue that artificial intelligence will ultimately create more jobs than it destroys, while others foresee an unprecedented unemployment crisis. What are the main arguments for both perspectives, and how far do you think governments should intervene?",
+					"durationSeconds": 90
+				}
+			]
+		},
+		{
+			"title": "Climate Change and Individual Responsibility",
+			"description": "Evaluate the effectiveness of personal eco-friendly habits versus sweeping governmental policies.",
+			"estimatedMinutes": 18,
+			"mcqQuestions": [
+				{
+					"stemText": "Individuals can significantly reduce their carbon ___ by adopting a plant-based diet.",
+					"options": ["blueprint", "fingerprint", "footprint", "outline"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "We must transition to renewable energy sources to ___ the worst effects of global warming.",
+					"options": ["aggravate", "mitigate", "exacerbate", "accelerate"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The accumulation of greenhouse gases in the atmosphere is the primary ___ of climate change.",
+					"options": ["catalyst", "deterrent", "bystander", "remedy"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Many eco-conscious consumers actively avoid single-use plastics to prevent ecological ___.",
+					"options": ["conservation", "degradation", "preservation", "restoration"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Governments are urged to implement strict regulations on industrial ___.",
+					"options": ["emissions", "omissions", "admissions", "submissions"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Adopting a highly ___ lifestyle often requires significant personal sacrifices.",
+					"options": ["detrimental", "sustainable", "disposable", "transient"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The rapid melting of polar ice caps is an alarming indicator of a shifting climate ___.",
+					"options": ["paradigm", "plateau", "vacuum", "mirage"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "To combat environmental crises effectively, a collective ___ is absolutely vital.",
+					"options": ["apathy", "indifference", "endeavour", "hesitation"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe an initiative or action that you or your community has taken to reduce your environmental impact. You should say: what the specific action was, what challenges were faced in implementing it, how people responded to the change, and explain why you believe such grassroots movements are or are not effective.",
+					"durationSeconds": 90
+				},
+				{
+					"prompt": "How far is it true that individual actions, such as recycling or taking public transport, are largely futile without sweeping governmental regulations and corporate accountability? To what extent do you agree?",
+					"durationSeconds": 90
+				}
+			]
+		},
+		{
+			"title": "Gender Equality in the Workplace",
+			"description": "Analyze systemic biases, equal opportunities, and the representation of women in leadership.",
+			"estimatedMinutes": 18,
+			"mcqQuestions": [
+				{
+					"stemText": "Many ambitious women still struggle to break through the invisible ___ in corporate hierarchies.",
+					"options": ["glass door", "glass ceiling", "iron curtain", "brick wall"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The persistent gender pay ___ remains a contentious issue in modern economics.",
+					"options": ["gap", "hole", "space", "chasm"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Progressive companies are actively striving to cultivate a more ___ working environment.",
+					"options": ["exclusive", "divisive", "inclusive", "intrusive"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Unconscious bias often influences recruitment and promotion processes ___.",
+					"options": ["subtly", "blatantly", "transparently", "fairly"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Fathers are increasingly being encouraged to take ___ leave when they have a new child.",
+					"options": ["maternity", "paternity", "fraternity", "sick"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Advocates for equality argue that diverse leadership teams yield better corporate ___.",
+					"options": ["stagnation", "liability", "performance", "redundancy"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Some organizations implement strict quotas to ensure equitable ___ on their boards of directors.",
+					"options": ["marginalisation", "representation", "segregation", "discrimination"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Overcoming deeply entrenched societal ___ is a monumental task for equality campaigners.",
+					"options": ["innovations", "stereotypes", "epiphanies", "breakthroughs"],
+					"correctIndex": 1
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a situation where you witnessed or learned about a successful diversity or equality initiative at a workplace. You should say: what the initiative involved, what specific problems it aimed to address, how the employees reacted to the changes, and explain what long-term impact it had on the organizational culture.",
+					"durationSeconds": 90
+				},
+				{
+					"prompt": "To what extent do you agree that mandatory gender quotas are necessary to achieve balance in senior leadership and political roles? What are the potential drawbacks of such affirmative action policies?",
+					"durationSeconds": 90
+				}
+			]
+		},
+		{
+			"title": "The Digital Divide in Education",
+			"description": "Explore the disparities in technological access and their impact on academic success.",
+			"estimatedMinutes": 18,
+			"mcqQuestions": [
+				{
+					"stemText": "Students from low-income families are often ___ when learning shifts online.",
+					"options": ["privileged", "disadvantaged", "empowered", "accelerated"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "A lack of reliable broadband access exacerbates the educational ___ between rural and urban areas.",
+					"options": ["disparity", "parity", "harmony", "equilibrium"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "To thrive in the 21st century, children must develop a high degree of technological ***.",
+					"options": ["ignorance", "illiteracy", "literacy", "apathy"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Schools in affluent districts are typically well-*** with the latest hardware.",
+					"options": ["deprived", "equipped", "stripped", "drained"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The rapid pivot to distance learning was entirely ___ on having stable internet connections.",
+					"options": ["independent", "reliant", "ignorant", "resistant"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Governments must implement initiatives to bridge the widening digital ___.",
+					"options": ["bridge", "divide", "connection", "link"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Interactive e-learning platforms can highly ___ student engagement if used correctly.",
+					"options": ["diminish", "hinder", "stimulate", "suppress"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Providing subsidized laptops to students is a ___ step toward educational equity.",
+					"options": ["pragmatic", "futile", "superficial", "detrimental"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a time when a lack of access to technology negatively impacted your or someone else's learning experience. You should say: what the circumstances were, what specific technological barriers existed, how this affected academic progress or motivation, and explain how the situation was eventually managed or resolved.",
+					"durationSeconds": 90
+				},
+				{
+					"prompt": "What are the long-term consequences of the digital divide on social mobility and economic inequality? How far is it the responsibility of the government, rather than private schools, to ensure equal digital access for all students?",
+					"durationSeconds": 90
+				}
+			]
+		},
+		{
+			"title": "Mental Health Awareness in Modern Society",
+			"description": "Discuss the psychological pressures of contemporary life and the fading stigma of therapy.",
+			"estimatedMinutes": 18,
+			"mcqQuestions": [
+				{
+					"stemText": "Historically, there has been a profound social ___ attached to seeking psychiatric help.",
+					"options": ["prestige", "stigma", "glory", "honour"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The relentless pace of corporate life frequently leads to chronic stress and ___.",
+					"options": ["burnout", "vitality", "enthusiasm", "vigour"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Building psychological ___ is essential for coping with life's inevitable setbacks.",
+					"options": ["fragility", "vulnerability", "resilience", "susceptibility"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Many progressive employers now offer comprehensive wellness programs to boost employee ___.",
+					"options": ["apathy", "well-being", "fatigue", "turnover"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Open conversations about depression can be incredibly ___ for those suffering in silence.",
+					"options": ["therapeutic", "detrimental", "damaging", "toxic"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "A severe lack of work-life balance is a major ___ factor to anxiety disorders.",
+					"options": ["mitigating", "alleviating", "contributing", "diminishing"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Cognitive behavioural therapy is a widely recognised ___ for various mental health conditions.",
+					"options": ["symptom", "catalyst", "treatment", "disease"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "We must strive to ___ mental health illnesses, treating them just like physical ailments.",
+					"options": ["stigmatise", "normalise", "marginalise", "penalise"],
+					"correctIndex": 1
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a recent campaign, public discussion, or piece of media that significantly changed your perspective on mental health. You should say: what the core message of this campaign was, how it was delivered to the public, why it resonated with you personally, and explain how society's attitude toward this issue is shifting.",
+					"durationSeconds": 90
+				},
+				{
+					"prompt": "To what extent do you agree that modern lifestyles, with their heavy reliance on technology and social media, are inherently detrimental to our psychological well-being? What practical steps can individuals take to protect their mental health in a hyper-connected world?",
+					"durationSeconds": 90
+				}
+			]
+		},
+		{
+			"title": "Urbanisation and Its Consequences",
+			"description": "Evaluate the social, economic, and environmental impacts of rapid metropolitan growth.",
+			"estimatedMinutes": 18,
+			"mcqQuestions": [
+				{
+					"stemText": "The rapid, uncontrolled expansion of city boundaries into the countryside is known as urban ___.",
+					"options": ["sprawl", "decay", "renewal", "planning"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "A massive influx of rural migrants can place severe strain on a city's existing ___.",
+					"options": ["agriculture", "infrastructure", "wilderness", "folklore"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The process of wealthier residents moving into and renovating poorer neighbourhoods is called ___.",
+					"options": ["segregation", "marginalisation", "gentrification", "stagnation"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Due to skyrocketing property prices, affordable housing has become increasingly ___.",
+					"options": ["abundant", "scarce", "surplus", "ubiquitous"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Metropolitan areas frequently suffer from severe air pollution and heavy traffic ___.",
+					"options": ["congestion", "flow", "circulation", "movement"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Overpopulation in urban centers often exacerbates issues of poverty and social ___.",
+					"options": ["cohesion", "harmony", "alienation", "integration"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "City planners must prioritise sustainable development to ensure long-term ___.",
+					"options": ["viability", "futility", "obsolescence", "deterioration"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The concrete jungle of a modern city can leave residents feeling entirely ___ from nature.",
+					"options": ["immersed", "disconnected", "entwined", "integrated"],
+					"correctIndex": 1
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a significant change or development in the infrastructure of a city you are familiar with. You should say: what the development was, why the authorities decided to implement it, how it affected the daily lives of the local residents, and explain whether you view this change as a success or a failure.",
+					"durationSeconds": 90
+				},
+				{
+					"prompt": "What are the main advantages and disadvantages of rapid urban expansion in developing nations? How far is it true that the quality of life in rural areas is declining as a direct result of urbanisation?",
+					"durationSeconds": 90
+				}
+			]
+		},
+		{
+			"title": "The Ethics of Social Media Influencers",
+			"description": "Analyze the responsibility, transparency, and psychological impact of online personalities.",
+			"estimatedMinutes": 18,
+			"mcqQuestions": [
+				{
+					"stemText": "Audiences are increasingly demanding greater ___ regarding paid sponsorships.",
+					"options": ["obscurity", "transparency", "deception", "ambiguity"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Many critics argue that influencers promote an entirely ___ standard of beauty and lifestyle.",
+					"options": ["attainable", "realistic", "unrealistic", "genuine"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "A celebrity's ___ can dramatically boost the sales of a relatively unknown product.",
+					"options": ["condemnation", "endorsement", "boycott", "criticism"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Young, highly ___ followers are particularly vulnerable to covert marketing tactics.",
+					"options": ["cynical", "skeptical", "impressionable", "critical"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "When an influencer fails to disclose a financial partnership, it borders on psychological ___.",
+					"options": ["empowerment", "manipulation", "liberation", "enlightenment"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Followers often feel a false sense of intimacy, known as a ___ relationship, with creators.",
+					"options": ["parasocial", "reciprocal", "mutual", "symmetrical"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The pressure to constantly curate a perfect image can be highly ___ to an influencer's mental health.",
+					"options": ["beneficial", "detrimental", "advantageous", "constructive"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Some content creators are praised for their ___, sharing their genuine struggles and flaws.",
+					"options": ["hypocrisy", "fabrication", "authenticity", "deceit"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe an instance where an online influencer or celebrity significantly swayed public opinion on a controversial topic or product. You should say: who the person was and what they promoted, how they communicated their message to their audience, what the public reaction was, and explain whether you think their influence was used ethically.",
+					"durationSeconds": 90
+				},
+				{
+					"prompt": "How far is it true that social media influencers should be held legally accountable for the safety and efficacy of the products they promote? To what extent do you agree that influencer marketing is more deceptive than traditional television advertising?",
+					"durationSeconds": 90
+				}
+			]
+		},
+		{
+			"title": "Economic Inequality and Social Mobility",
+			"description": "Discuss wealth distribution, systemic poverty, and the myth of meritocracy.",
+			"estimatedMinutes": 18,
+			"mcqQuestions": [
+				{
+					"stemText": "The heavily skewed ___ of wealth is a primary driver of societal unrest.",
+					"options": ["distribution", "contribution", "attribution", "retribution"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Families living below the poverty ___ struggle to afford basic necessities like food and heating.",
+					"options": ["limit", "line", "mark", "border"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Upward social ___ is becoming increasingly difficult for the younger generation to achieve.",
+					"options": ["mobility", "stagnation", "rigidity", "paralysis"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Children from ___ backgrounds often have access to superior educational resources and networks.",
+					"options": ["destitute", "impoverished", "affluent", "disadvantaged"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Many argue that the concept of a pure meritocracy is largely an ___ in modern society.",
+					"options": ["illusion", "absolute", "objective", "inevitability"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Systemic inequalities leave marginalized communities feeling completely ___ by the political system.",
+					"options": ["empowered", "enfranchised", "disenfranchised", "represented"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Universal basic income is proposed as a radical measure to ___ extreme poverty.",
+					"options": ["perpetuate", "alleviate", "aggravate", "exacerbate"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The widening gap between different ___ statuses causes deep divisions within the community.",
+					"options": ["socioeconomic", "astronomical", "biological", "geographical"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a policy, charity, or program in your country that is aimed at helping disadvantaged communities. You should say: what the initiative is and who it targets, how it operates on a practical level, what successes or failures it has experienced, and explain why you think poverty is such a difficult cycle to break.",
+					"durationSeconds": 90
+				},
+				{
+					"prompt": "To what extent do you agree that hard work and determination alone are no longer enough to guarantee upward social mobility? Discuss the role that inherited wealth and family background play in determining a person's future success.",
+					"durationSeconds": 90
+				}
+			]
+		},
+		{
+			"title": "The Future of Healthcare",
+			"description": "Examine the shift toward telehealth, preventative medicine, and medical technologies.",
+			"estimatedMinutes": 18,
+			"mcqQuestions": [
+				{
+					"stemText": "Modern healthcare systems are increasingly shifting their focus toward ___ medicine.",
+					"options": ["reactive", "preventative", "retroactive", "passive"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The widespread adoption of ___ allows doctors to consult with patients remotely.",
+					"options": ["telemetry", "telepathy", "telehealth", "telekinesis"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Due to medical advancements, the average global life ___ has risen significantly.",
+					"options": ["expectancy", "span", "duration", "length"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "A more ___ approach to health considers the patient's mental, physical, and social well-being.",
+					"options": ["fragmented", "holistic", "compartmentalised", "specialised"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The sudden outbreak quickly escalated into a full-blown international ___.",
+					"options": ["epidemic", "vaccine", "diagnosis", "prescription"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Breakthroughs in genetic engineering are highly ___, raising complex ethical questions.",
+					"options": ["mundane", "controversial", "conventional", "orthodox"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Ageing populations are placing an unprecedented ___ on public healthcare infrastructure.",
+					"options": ["relief", "surplus", "burden", "blessing"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "AI algorithms can now analyse medical scans with astonishing ___, outperforming some specialists.",
+					"options": ["ambiguity", "inaccuracy", "precision", "vagueness"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a recent technological advancement in medicine or healthcare that you find particularly promising. You should say: what the technology is, how it is used to treat or diagnose patients, what the potential risks or drawbacks might be, and explain how it could revolutionise the medical field in the future.",
+					"durationSeconds": 90
+				},
+				{
+					"prompt": "What are the advantages and disadvantages of relying heavily on telemedicine rather than face-to-face medical consultations? Do you believe that healthcare should be entirely free and managed by the state, or should it be a privatised industry?",
+					"durationSeconds": 90
+				}
+			]
+		},
+		{
+			"title": "Creativity vs. Standardised Education",
+			"description": "Debate the value of critical thinking against the rigid structures of modern schooling.",
+			"estimatedMinutes": 18,
+			"mcqQuestions": [
+				{
+					"stemText": "Many educators argue that ___ learning fails to develop a student's analytical skills.",
+					"options": ["experiential", "rote", "active", "dynamic"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "A highly rigid ___ leaves little room for teachers to explore students' individual interests.",
+					"options": ["extracurricular", "recess", "curriculum", "campus"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Standardised testing places immense pressure on students and often ___ their innate creativity.",
+					"options": ["nurtures", "fosters", "stifles", "cultivates"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Employers increasingly value candidates who possess strong ___ thinking abilities.",
+					"options": ["critical", "superficial", "passive", "dogmatic"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Progressive schools employ highly ___ teaching methods to keep children engaged.",
+					"options": ["outdated", "archaic", "innovative", "obsolete"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "An education system focused solely on memorisation is fundamentally ___ for the 21st century.",
+					"options": ["optimal", "inadequate", "sufficient", "exemplary"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Art and music programs are frequently ___ when school budgets are slashed.",
+					"options": ["expanded", "prioritised", "marginalised", "celebrated"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Encouraging students to think outside the ___ is essential for fostering true innovation.",
+					"options": ["lines", "box", "square", "book"],
+					"correctIndex": 1
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe an educational experience, either inside or outside of school, that strongly encouraged you to think outside the box. You should say: what the context of the lesson or project was, what unorthodox methods the teacher or mentor used, how you and your peers responded, and explain why this approach was more effective than traditional learning.",
+					"durationSeconds": 90
+				},
+				{
+					"prompt": "To what extent do you agree that the current standardised education system stifles innate creativity in children? Discuss how schools might balance the need to test core academic competencies with the need to foster artistic and innovative thinking.",
+					"durationSeconds": 90
+				}
+			]
+		},
+		{
+			"title": "Sustainable Consumption and Lifestyle",
+			"description": "Reflect on ethical consumerism, the fast fashion industry, and ecological footprints.",
+			"estimatedMinutes": 18,
+			"mcqQuestions": [
+				{
+					"stemText": "The rise of ___ fashion has led to millions of tons of clothing ending up in landfills.",
+					"options": ["slow", "ethical", "fast", "haute"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Practising ethical ___ involves purchasing products that are sourced fairly and sustainably.",
+					"options": ["capitalism", "consumerism", "minimalism", "vandalism"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Replacing plastic bags with fully ___ alternatives is a vital step for supermarkets.",
+					"options": ["indestructible", "toxic", "biodegradable", "synthetic"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The modern culture of ___ drives the depletion of our planet's finite natural resources.",
+					"options": ["conservation", "preservation", "overconsumption", "sustainability"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Many young people are embracing ___, choosing to live with fewer material possessions.",
+					"options": ["materialism", "hoarding", "minimalism", "consumerism"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Corporations are frequently accused of ___, making misleading claims about their environmental practices.",
+					"options": ["greenwashing", "brainwashing", "whitewashing", "backwashing"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Purchasing second-hand goods is an excellent way to promote a ___ economy.",
+					"options": ["linear", "stagnant", "circular", "disposable"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Adopting a zero-waste lifestyle requires profound ___ to one's daily shopping habits.",
+					"options": ["additions", "alterations", "continuations", "repetitions"],
+					"correctIndex": 1
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a major change you or someone you know has made to adopt a more sustainable and ethical lifestyle. You should say: what specific habits or purchasing patterns were altered, what motivated this profound shift in behaviour, what practical difficulties were encountered, and explain the psychological or financial impact of living this way.",
+					"durationSeconds": 90
+				},
+				{
+					"prompt": "How far is it true that the primary responsibility for sustainable consumption lies with multinational corporations rather than individual consumers? To what extent do you agree that higher taxes should be imposed on products that harm the environment?",
+					"durationSeconds": 90
+				}
+			]
+		}
+	]
+}

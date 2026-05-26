@@ -1,3 +1,5 @@
+import { PronunciationScores } from '@app/shared';
+
 export interface GradeSubjectiveJobData {
 	answerId: string;
 	exerciseRecordId: string;
@@ -10,4 +12,6 @@ export interface GradeSubjectiveJobData {
 	minWords: number;
 	maxWords: number;
 	userId: string;
+
+	pronunciationScores?: PronunciationScores | null;
 }

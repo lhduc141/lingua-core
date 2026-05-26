@@ -1,0 +1,747 @@
+{
+	"skill": "speaking",
+	"cefrLevel": "A2",
+	"practiceSets": [
+		{
+			"title": "Talking About Hobbies and Free Time",
+			"description": "Practice talking about what you enjoy doing when you are not working or studying.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "I like to ___ old coins from different countries.",
+					"options": ["collect", "spend", "play", "make"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "My sister plays a musical ___ very well.",
+					"options": ["song", "instrument", "machine", "noise"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I usually ___ on the sofa after a long day at work.",
+					"options": ["run", "worry", "relax", "stand"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "She is very ___ and loves painting pictures.",
+					"options": ["lazy", "creative", "boring", "angry"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Photography is a great ___ if you like taking pictures.",
+					"options": ["job", "sport", "hobby", "book"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "When it rains, I prefer doing activities ___.",
+					"options": ["outside", "indoors", "away", "far"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "My brother won the tennis ___ last week.",
+					"options": ["tournament", "player", "ball", "court"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I ___ a lot of time reading books on the weekend.",
+					"options": ["pay", "cost", "take", "spend"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe your favorite hobby. Explain how you started doing it and how often you practice it now.",
+					"durationSeconds": 60
+				},
+				{
+					"prompt": "Do you prefer hobbies that you can do indoors or outdoors? Tell me about why you like that kind of activity.",
+					"durationSeconds": 60
+				}
+			]
+		},
+		{
+			"title": "Describing a Recent Trip or Journey",
+			"description": "Practice talking about a holiday or travel experience you had recently.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "I packed all my clothes into a large ___.",
+					"options": ["pocket", "suitcase", "wallet", "envelope"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "You must show your ___ before you get on the airplane.",
+					"options": ["notebook", "receipt", "passport", "menu"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "We went ___ in the city and saw many famous buildings.",
+					"options": ["sightseeing", "shopping", "sleeping", "swimming"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I bought a small ___ to remember my trip to Paris.",
+					"options": ["ticket", "souvenir", "luggage", "journey"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The train was late, so we had a long ___ at the station.",
+					"options": ["delay", "hurry", "fast", "quick"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We decided to ___ the old town and walk through the small streets.",
+					"options": ["forget", "leave", "explore", "build"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The ___ from my house to the airport takes one hour.",
+					"options": ["tour", "journey", "holiday", "vacation"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I lost my plane ___ and could not get on the flight.",
+					"options": ["bag", "seat", "ticket", "door"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a recent trip you took. Tell me where you went, who you traveled with, and how you got there.",
+					"durationSeconds": 60
+				},
+				{
+					"prompt": "Tell me about the best part of your journey. Why was this experience so special or important to you?",
+					"durationSeconds": 60
+				}
+			]
+		},
+		{
+			"title": "Your Dream Job",
+			"description": "Practice talking about the kind of work you would love to do in the future.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "My brother earns a very good ___ at his new job.",
+					"options": ["salary", "price", "cost", "bill"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The shop assistant was very polite to the ___.",
+					"options": ["manager", "customer", "worker", "boss"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Nurses and police officers have to wear a ___ at work.",
+					"options": ["suit", "dress", "uniform", "skirt"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "If you want to be a designer, you need to be very ___.",
+					"options": ["lazy", "creative", "bored", "slow"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The ___ told everyone what to do in the meeting.",
+					"options": ["manager", "building", "desk", "computer"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I want to learn new computer ___ for my career.",
+					"options": ["hobbies", "skills", "books", "games"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "A good secretary is always very ___ and keeps everything tidy.",
+					"options": ["messy", "angry", "organized", "tired"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "My father works in a large ___ in the city center.",
+					"options": ["office", "garden", "kitchen", "street"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe the kind of job you would like to have in the future. Explain what you would do every day and why you want this job.",
+					"durationSeconds": 60
+				},
+				{
+					"prompt": "Do you think it is more important to earn a lot of money or to be happy at work? Explain your reasons.",
+					"durationSeconds": 60
+				}
+			]
+		},
+		{
+			"title": "Health and Exercise Habits",
+			"description": "Practice talking about how you stay fit and the healthy choices you make.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "Eating fruit and vegetables is very ___.",
+					"options": ["sick", "tired", "healthy", "bad"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I go to the ___ three times a week to lift weights.",
+					"options": ["cinema", "gym", "restaurant", "bank"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "You need to ___ your arms and legs before you run.",
+					"options": ["stretch", "break", "cut", "hide"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Drinking a lot of water is a good ___.",
+					"options": ["mistake", "habit", "problem", "job"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "After I sleep well, I have a lot of ___ in the morning.",
+					"options": ["energy", "food", "money", "time"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The doctor gave me some ___ for my headache.",
+					"options": ["candy", "medicine", "water", "books"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "If you want to lose weight, you should change your ___.",
+					"options": ["clothes", "friends", "diet", "house"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "My grandfather is 80 years old, but he is still very ___.",
+					"options": ["lazy", "active", "slow", "bored"],
+					"correctIndex": 1
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe what you do to stay healthy and active. Talk about the food you eat and the exercise you do.",
+					"durationSeconds": 60
+				},
+				{
+					"prompt": "Tell me about a time when you were sick or hurt. How did you feel, and what did you do to get better?",
+					"durationSeconds": 60
+				}
+			]
+		},
+		{
+			"title": "Shopping and Money",
+			"description": "Practice talking about buying things, prices, and how you manage your money.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "This watch was very ___, so I did not buy it.",
+					"options": ["cheap", "expensive", "ugly", "old"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I got a 20% ___ on these shoes because they were on sale.",
+					"options": ["discount", "receipt", "price", "coin"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Please keep the ___ in case you want to return the shirt.",
+					"options": ["tag", "bag", "receipt", "money"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I keep my credit cards and money in my ___.",
+					"options": ["pocket", "wallet", "basket", "box"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I cannot ___ to buy a new car this year.",
+					"options": ["spend", "pay", "afford", "cost"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Can I ___ ten dollars from you? I will pay you back tomorrow.",
+					"options": ["lend", "borrow", "give", "take"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The store only accepts ___ today, no credit cards.",
+					"options": ["cash", "checks", "coins", "paper"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The ___ was very unhappy with the bad service.",
+					"options": ["worker", "manager", "customer", "seller"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a place where you usually go shopping. Explain what you buy there and why you like this shop.",
+					"durationSeconds": 60
+				},
+				{
+					"prompt": "Tell me about a time you bought something that cost a lot of money. Do you think it was a good idea to buy it?",
+					"durationSeconds": 60
+				}
+			]
+		},
+		{
+			"title": "Comparing Two Places You Know",
+			"description": "Practice describing the differences between two cities, towns, or neighborhoods.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "New York is very ___; there are people everywhere.",
+					"options": ["empty", "quiet", "crowded", "small"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The village is very ___, with no loud cars or traffic.",
+					"options": ["peaceful", "noisy", "dirty", "busy"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "This city has very ___ buildings made of glass.",
+					"options": ["old", "modern", "ancient", "historic"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "My hometown is very ___; people still wear old-style clothes.",
+					"options": ["modern", "new", "traditional", "fast"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "We stayed in a hotel with a beautiful ___ of the mountains.",
+					"options": ["picture", "look", "view", "window"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "There is a lot of ___ on the roads in the morning.",
+					"options": ["cars", "traffic", "buses", "driving"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The ___ between my house and the school is two kilometers.",
+					"options": ["length", "road", "distance", "way"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I do not like living near the airport because it is too ___.",
+					"options": ["noisy", "quiet", "calm", "safe"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Compare your hometown with another city or town you have visited. Describe how the buildings, people, and streets are different.",
+					"durationSeconds": 60
+				},
+				{
+					"prompt": "Do you prefer living in a busy, modern city or a quiet, traditional village? Tell me the reasons for your choice.",
+					"durationSeconds": 60
+				}
+			]
+		},
+		{
+			"title": "Describing a Friend or Family Member",
+			"description": "Practice talking about people you are close to, their appearance, and personality.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "My aunt is very ___; she loves talking to everyone.",
+					"options": ["quiet", "chatty", "sad", "angry"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "A person who always tells the truth is ___.",
+					"options": ["funny", "honest", "lazy", "bad"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "My best friend is very ___; she always gives me great presents.",
+					"options": ["mean", "cheap", "generous", "selfish"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "He is a very ___ student who never laughs in class.",
+					"options": ["funny", "happy", "serious", "silly"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "My brother is so ___; he always makes me laugh.",
+					"options": ["sad", "boring", "funny", "quiet"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "A cousin is a type of ___ in your family.",
+					"options": ["friend", "relative", "neighbor", "boss"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "She is very ___ and always smiles at new people.",
+					"options": ["friendly", "angry", "mean", "rude"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "He is very ___; he always helps me clean the house.",
+					"options": ["lazy", "tired", "helpful", "slow"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a close friend or a family member. Tell me what they look like and describe their personality.",
+					"durationSeconds": 60
+				},
+				{
+					"prompt": "Tell me about a time when this friend or family member helped you with a big problem or an important task.",
+					"durationSeconds": 60
+				}
+			]
+		},
+		{
+			"title": "Technology in Daily Life",
+			"description": "Practice talking about phones, computers, and how you use the internet.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "I need to charge my phone because the ___ is low.",
+					"options": ["screen", "keyboard", "battery", "glass"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I use a special ___ on my phone to learn English.",
+					"options": ["application", "machine", "internet", "battery"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "You can use the ___ to find information for your homework.",
+					"options": ["television", "internet", "camera", "radio"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I dropped my phone and broke the glass ___.",
+					"options": ["button", "mouse", "screen", "cable"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I need to ___ this picture from the internet to my computer.",
+					"options": ["upload", "download", "type", "print"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I type fast on my computer ___.",
+					"options": ["screen", "mouse", "keyboard", "cable"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I sent a text ___ to my friend to say I was late.",
+					"options": ["message", "call", "photo", "book"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I cannot ___ my laptop to the Wi-Fi in the cafe.",
+					"options": ["turn", "connect", "break", "play"],
+					"correctIndex": 1
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe how you use technology, such as your mobile phone or computer, on a normal day.",
+					"durationSeconds": 60
+				},
+				{
+					"prompt": "Do you think people today spend too much time looking at screens? Explain why you feel this way.",
+					"durationSeconds": 60
+				}
+			]
+		},
+		{
+			"title": "Food and Eating Habits",
+			"description": "Practice talking about cooking, favorite dishes, and trying different foods.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "This soup is very ___; it has a lot of chili peppers.",
+					"options": ["sweet", "cold", "spicy", "dry"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "My mother makes the best ___ cake in the world.",
+					"options": ["restaurant", "homemade", "factory", "shop"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "After dinner, we usually eat ice cream for ___.",
+					"options": ["breakfast", "lunch", "snack", "dessert"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "I need a good ___ to learn how to cook this chicken.",
+					"options": ["recipe", "menu", "bill", "plate"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Salt is a very important ___ in most meals.",
+					"options": ["food", "ingredient", "drink", "meal"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I was hungry, so I ate an apple as a quick ___.",
+					"options": ["dinner", "snack", "drink", "soup"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "This pasta is absolutely ___; I love it!",
+					"options": ["terrible", "bad", "delicious", "boring"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Sushi is a ___ food from Japan.",
+					"options": ["modern", "traditional", "new", "fast"],
+					"correctIndex": 1
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe your favorite meal of the day. Explain what you usually eat and drink, and who cooks it.",
+					"durationSeconds": 60
+				},
+				{
+					"prompt": "Tell me about a time you tried a completely new kind of food or dish. Did you enjoy eating it or not? Explain why.",
+					"durationSeconds": 60
+				}
+			]
+		},
+		{
+			"title": "Transportation and Getting Around",
+			"description": "Practice talking about trains, buses, traffic, and commuting to places.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "There were 50 ___ waiting on the bus.",
+					"options": ["drivers", "passengers", "pilots", "cars"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I take the ___ to work because it is faster than the bus.",
+					"options": ["subway", "bicycle", "plane", "boat"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The train leaves from ___ number four.",
+					"options": ["station", "seat", "platform", "window"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I bought a ticket for my ___ to London.",
+					"options": ["flight", "drive", "walk", "car"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We were late because there was a lot of ___ on the road.",
+					"options": ["traffic", "people", "buses", "trains"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "You have to pay the bus ___ before you sit down.",
+					"options": ["bill", "receipt", "fare", "money"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I lock my ___ outside the shop when I go in.",
+					"options": ["car", "bicycle", "train", "plane"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "We must go to the train ___ to buy our tickets.",
+					"options": ["airport", "stop", "station", "road"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe the transport you usually use to get to work or school. Tell me how long the journey takes and what you see on the way.",
+					"durationSeconds": 60
+				},
+				{
+					"prompt": "Do you prefer traveling long distances by train, bus, or car? Explain the reasons for your choice.",
+					"durationSeconds": 60
+				}
+			]
+		},
+		{
+			"title": "Weekend Plans and Activities",
+			"description": "Practice discussing how you organize your weekends and what you do for fun.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "We need to ___ a meeting for next Saturday.",
+					"options": ["arrange", "do", "play", "go"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I usually ___ on Sunday morning by listening to music.",
+					"options": ["work", "worry", "relax", "run"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Let's go to the ___ to watch the new action film.",
+					"options": ["supermarket", "cinema", "hospital", "bank"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "We had a ___ time at the beach; the weather was perfect.",
+					"options": ["brilliant", "terrible", "boring", "sad"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Do you have any ___ for the weekend?",
+					"options": ["ideas", "plans", "books", "rules"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I like ___ activities like hiking and playing football.",
+					"options": ["indoor", "boring", "outdoor", "sleepy"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "We saw a beautiful art ___ at the museum.",
+					"options": ["exhibition", "movie", "book", "song"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I want to ___ all my friends to my birthday party.",
+					"options": ["ask", "tell", "invite", "say"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe what you usually do on a typical weekend. Explain who you spend time with and how you choose to relax.",
+					"durationSeconds": 60
+				},
+				{
+					"prompt": "Tell me about a very special weekend you had recently. What activities did you do, and what made it so good?",
+					"durationSeconds": 60
+				}
+			]
+		},
+		{
+			"title": "Describing a Celebration or Holiday",
+			"description": "Practice talking about festivals, parties, and cultural events you enjoy.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "We clean and ___ our house before the New Year.",
+					"options": ["decorate", "break", "sell", "leave"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Many people go to the music ___ in the summer.",
+					"options": ["meeting", "festival", "school", "hospital"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "How do you usually ___ your birthday?",
+					"options": ["celebrate", "forget", "worry", "work"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We invited 20 ___ to our dinner party.",
+					"options": ["guests", "workers", "waiters", "enemies"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "At midnight, we watched the fireworks in the ___.",
+					"options": ["ground", "sky", "house", "sea"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I bought a small ___ for my friend's birthday.",
+					"options": ["gift", "bill", "mistake", "job"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The children wore a scary ___ for Halloween.",
+					"options": ["shoe", "costume", "book", "bag"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "During the festival, we eat ___ food from our country.",
+					"options": ["modern", "new", "fast", "traditional"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe an important holiday or festival in your country. Explain how people prepare for it and how they celebrate.",
+					"durationSeconds": 60
+				},
+				{
+					"prompt": "Tell me about the best party or celebration you went to last year. Who was there and what made it so fun?",
+					"durationSeconds": 60
+				}
+			]
+		},
+		{
+			"title": "Learning Something New",
+			"description": "Practice talking about studying, gaining new skills, and the challenges of learning.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "I need to ___ speaking English every day.",
+					"options": ["forget", "practice", "stop", "leave"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "If you are a ___, you are just starting to learn.",
+					"options": ["expert", "teacher", "beginner", "master"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Do not worry if you make a ___; you will learn from it.",
+					"options": ["mistake", "cake", "friend", "noise"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I study hard because I want to ___ my grades.",
+					"options": ["worsen", "lower", "improve", "drop"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Cooking is a very useful ___ to have.",
+					"options": ["book", "skill", "job", "sport"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "If I do not know a word, I look in the ___.",
+					"options": ["dictionary", "notebook", "map", "newspaper"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "My driving ___ is at four o'clock today.",
+					"options": ["party", "lesson", "game", "movie"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Actors have to ___ all the words for the play.",
+					"options": ["forget", "write", "memorize", "sing"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a new skill or hobby you are learning right now. Explain what you do to practice and why you chose to learn it.",
+					"durationSeconds": 60
+				},
+				{
+					"prompt": "Do you think it is easier to learn something new when you are a child or when you are an adult? Tell me why.",
+					"durationSeconds": 60
+				}
+			]
+		}
+	]
+}

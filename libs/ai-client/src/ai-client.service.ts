@@ -1,6 +1,7 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
 import { lastValueFrom } from 'rxjs';
+import { PronunciationScores } from '@app/shared';
 
 @Injectable()
 export class AiClientService {
@@ -43,5 +44,13 @@ export class AiClientService {
 
 	transcribeAudio(payload: { buffer: Buffer; mimetype: string; originalname: string }) {
 		return lastValueFrom(this.client.send('ai.audio.transcribe', payload));
+	}
+
+	assessPronunciation(payload: {
+		buffer: Buffer | { type: 'Buffer'; data: number[] } | number[] | Uint8Array;
+		mimetype: string;
+		referenceText: string;
+	}): Promise<PronunciationScores | null> {
+		return lastValueFrom(this.client.send('ai.pronunciation.assess', payload));
 	}
 }

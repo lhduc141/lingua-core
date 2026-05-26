@@ -23,9 +23,17 @@ export class AiServiceService {
 	private readonly logger = new Logger(AiServiceService.name);
 	private readonly groqClients: Groq[];
 
-	private readonly REQUIRED_CRITERIA = [
+	// Writing: 4 criteria
+	private readonly REQUIRED_WRITING_CRITERIA = [
 		'Task Response',
 		'Coherence & Cohesion',
+		'Lexical Resource',
+		'Grammatical Range & Accuracy',
+	] as const;
+
+	// Speaking: 3 criteria từ LLM (Pronunciation thêm từ Azure sau)
+	private readonly REQUIRED_SPEAKING_CRITERIA = [
+		'Fluency & Coherence',
 		'Lexical Resource',
 		'Grammatical Range & Accuracy',
 	] as const;
@@ -36,6 +44,7 @@ export class AiServiceService {
 		'punctuation',
 		'formatting',
 		'duplication',
+		'vocabulary',
 	]);
 
 	private readonly ALLOWED_SEVERITIES = new Set(['low', 'medium', 'high']);
@@ -93,20 +102,20 @@ export class AiServiceService {
 	}
 
 	async gradeSubmission(payload: GradingPayload) {
-		// [1] Pre-check
-		const isWriting = payload.questionType !== 'speaking' && payload.questionType !== 'dictation';
+		const isSpeaking = payload.questionType === 'speaking';
+		const isWriting = !isSpeaking && payload.questionType !== 'dictation';
 
+		// [1] Pre-check surface issues (writing only)
 		const surfaceIssues: SurfaceIssue[] = isWriting ? this.detectSurfaceIssues(payload.userText) : [];
 
 		// [2] Build prompt
-		const prompt =
-			payload.questionType === 'speaking'
-				? buildSpeakingGradingPrompt(payload)
-				: payload.questionType === 'dictation'
-					? buildDictationGradingPrompt(payload)
-					: buildWritingGradingPrompt(payload, surfaceIssues);
+		const prompt = isSpeaking
+			? buildSpeakingGradingPrompt(payload)
+			: payload.questionType === 'dictation'
+				? buildDictationGradingPrompt(payload)
+				: buildWritingGradingPrompt(payload, surfaceIssues);
 
-		// [3] Goi AI
+		// [3] Call AI
 		const raw = await this.callGroq(prompt, true, 6000);
 		const result = JSON.parse(this.cleanJson(raw));
 
@@ -118,14 +127,19 @@ export class AiServiceService {
 				warnings.push(`Surface issues detected: ${surfaceIssues.map((s) => s.type).join(', ')}`);
 			}
 
-			warnings.push(...this.normalizeCriterionBands(result));
+			// Pass questionType so each validator uses the correct criteria
+			warnings.push(...this.normalizeCriterionBands(result, payload.questionType));
 			warnings.push(...this.validateEvidenceQuotes(result, payload.userText));
 			warnings.push(...this.normalizeCorrections(result, payload.userText));
 			warnings.push(...this.normalizeStyleImprovements(result, payload.userText));
 			warnings.push(...this.validateBandConsistency(result));
-			warnings.push(...this.applyTaskResponseCaps(result)); // [NEW]
 
-			result.estimatedIeltsBand = this.computeOverallBand(result);
+			// Task Response caps apply to writing only
+			if (!isSpeaking) {
+				warnings.push(...this.applyTaskResponseCaps(result));
+			}
+
+			result.estimatedIeltsBand = this.computeOverallBand(result, payload.questionType);
 			result.nextBandTarget = this.computeNextBandTarget(result.estimatedIeltsBand);
 
 			this.downgradeConfidence(result, warnings);
@@ -145,7 +159,6 @@ export class AiServiceService {
 				` focusSkills=${JSON.stringify(payload.goals?.focusSkills ?? [])}` +
 				` planSkills=${JSON.stringify(payload.goals?.planSkills ?? [])}`,
 		);
-
 		this.logger.debug(`[generatePlan] PROMPT:\n${prompt}`);
 
 		const raw = await this.callGroq(prompt, true);
@@ -176,6 +189,8 @@ export class AiServiceService {
 		}
 	}
 
+	// ─── Groq Whisper transcription ───────────────────────────────────────────
+	// Called via TCP MessagePattern 'ai.audio.transcribe' from api-gateway
 	async transcribeAudio(payload: {
 		buffer: Buffer | { type: 'Buffer'; data: number[] } | number[] | Uint8Array;
 		mimetype: string;
@@ -187,15 +202,168 @@ export class AiServiceService {
 			audioBuffer.byteOffset,
 			audioBuffer.byteOffset + audioBuffer.byteLength,
 		) as ArrayBuffer;
+
 		const file = new File([arrayBuffer], payload.originalname || 'audio.webm', {
 			type: payload.mimetype || 'audio/webm',
 		});
+
+		this.logger.log(`[Whisper] Sending audio | size=${audioBuffer.length} | type=${payload.mimetype}`);
+
 		const result = await client.audio.transcriptions.create({
 			file,
 			model: 'whisper-large-v3',
 			response_format: 'json',
 		});
+
+		this.logger.log(`[Whisper] Transcript received | length=${result.text?.length ?? 0}`);
+
 		return result.text;
+	}
+
+	// ─── Azure Pronunciation Assessment ──────────────────────────────────────
+	// Called via TCP MessagePattern 'ai.pronunciation.assess' from api-gateway
+	async assessPronunciation(payload: {
+		buffer: Buffer | { type: 'Buffer'; data: number[] } | number[] | Uint8Array;
+		mimetype: string;
+		referenceText: string;
+	}): Promise<any> {
+		const key = this.configService.get<string>('AZURE_SPEECH_KEY');
+		const region = this.configService.get<string>('AZURE_SPEECH_REGION');
+
+		if (!key || !region) {
+			this.logger.warn('[Azure] Credentials not configured — skipping pronunciation assessment');
+			return null;
+		}
+
+		this.logger.log(
+			`[Azure] Starting pronunciation assessment | region=${region} | refText length=${payload.referenceText?.length ?? 0}`,
+		);
+
+		try {
+			// @ts-ignore — requires: npm install microsoft-cognitiveservices-speech-sdk
+			const sdk = await import('microsoft-cognitiveservices-speech-sdk');
+
+			const speechConfig = sdk.SpeechConfig.fromSubscription(key, region);
+			speechConfig.speechRecognitionLanguage = 'en-US';
+
+			const pronunciationConfig = new sdk.PronunciationAssessmentConfig(
+				payload.referenceText,
+				sdk.PronunciationAssessmentGradingSystem.HundredMark,
+				sdk.PronunciationAssessmentGranularity.Word,
+				true,
+			);
+
+			// Convert WebM/Opus → raw PCM s16le 16kHz mono
+			const rawBuffer = this.normalizeAudioBuffer(payload.buffer);
+			const pcmBuffer = await this.convertToPcm(rawBuffer);
+
+			if (!pcmBuffer) {
+				this.logger.warn('[Azure] PCM conversion failed — skipping pronunciation assessment');
+				return null;
+			}
+
+			this.logger.log(`[Azure] PCM ready | bytes=${pcmBuffer.length}`);
+
+			const format = sdk.AudioStreamFormat.getWaveFormatPCM(16000, 16, 1);
+			const pushStream = sdk.AudioInputStream.createPushStream(format);
+			pushStream.write(
+				pcmBuffer.buffer.slice(
+					pcmBuffer.byteOffset,
+					pcmBuffer.byteOffset + pcmBuffer.byteLength,
+				) as ArrayBuffer,
+			);
+			pushStream.close();
+
+			const audioConfig = sdk.AudioConfig.fromStreamInput(pushStream);
+			const recognizer = new sdk.SpeechRecognizer(speechConfig, audioConfig);
+			pronunciationConfig.applyTo(recognizer);
+
+			this.logger.log('[Azure] Calling recognizeOnceAsync...');
+
+			return new Promise((resolve) => {
+				// settled flag — đảm bảo Promise chỉ resolve 1 lần duy nhất
+				let settled = false;
+
+				const finish = (value: any) => {
+					if (settled) return;
+					settled = true;
+					clearTimeout(timer);
+					try {
+						recognizer.close();
+					} catch {}
+					resolve(value);
+				};
+
+				// Hard 20s timeout — nếu Azure không trả về trong 20s → resolve null
+				const timer = setTimeout(() => {
+					this.logger.warn('[Azure] recognizeOnceAsync timed out after 20s — resolving null');
+					finish(null);
+				}, 20000);
+
+				recognizer.recognizeOnceAsync(
+					(result) => {
+						// Late callback — timeout đã resolve rồi, bỏ qua hoàn toàn
+						if (settled) {
+							this.logger.warn('[Azure] Late callback ignored after timeout');
+							return;
+						}
+
+						this.logger.log(`[Azure] recognizeOnceAsync returned | reason=${result.reason}`);
+
+						if (result.reason !== sdk.ResultReason.RecognizedSpeech) {
+							this.logger.warn(
+								`[Azure] Recognition not successful | reason=${result.reason} | errorDetails=${result.errorDetails ?? 'none'}`,
+							);
+							finish(null);
+							return;
+						}
+
+						const pron = sdk.PronunciationAssessmentResult.fromResult(result);
+
+						const accuracyScore = pron.accuracyScore ?? 0;
+						const fluencyScore = pron.fluencyScore ?? 0;
+						const completenessScore = pron.completenessScore ?? 0;
+						const prosodyScore = (pron as any).prosodyScore ?? null;
+
+						const pronComposite = Math.round(
+							0.45 * accuracyScore + 0.3 * fluencyScore + 0.25 * (prosodyScore ?? accuracyScore),
+						);
+
+						const estimatedBand = this.mapPronScoreToBand(pronComposite);
+
+						const words = (pron.detailResult?.Words ?? []).map((w: any) => ({
+							word: w.Word ?? '',
+							accuracyScore: w.PronunciationAssessment?.AccuracyScore ?? 0,
+							errorType: w.PronunciationAssessment?.ErrorType ?? null,
+							offset: w.Offset ?? null,
+							duration: w.Duration ?? null,
+						}));
+
+						this.logger.log(
+							`[Azure] Scores parsed | composite=${pronComposite} | accuracy=${accuracyScore} | fluency=${fluencyScore} | words=${words.length}`,
+						);
+
+						finish({
+							accuracyScore,
+							fluencyScore,
+							completenessScore,
+							prosodyScore,
+							pronComposite,
+							estimatedBand,
+							words,
+						});
+					},
+					(error) => {
+						// Error callback từ Azure SDK
+						this.logger.error(`[Azure] recognizeOnceAsync error: ${error}`);
+						finish(null);
+					},
+				);
+			});
+		} catch (error) {
+			this.logger.error(`[Azure] assessPronunciation failed: ${error.message}`);
+			return null;
+		}
 	}
 
 	// PRE-CHECK
@@ -216,13 +384,12 @@ export class AiServiceService {
 		if (mergedWords?.length) {
 			issues.push({
 				type: 'formatting',
-				problem: `Possible merged words (missing space) — e.g. "${mergedWords[0]}"`,
+				problem: `Possible merged words — e.g. "${mergedWords[0]}"`,
 				text: mergedWords[0],
 			});
 		}
 
 		const normalizedText = text.replace(/([.!?])(?=[A-Z])/g, '$1 ');
-
 		const sentences = normalizedText
 			.split(/(?<=[.!?])\s+/)
 			.map((s) => s.trim())
@@ -257,14 +424,17 @@ export class AiServiceService {
 		return Math.max(0, Math.min(9, Math.round(n * 2) / 2));
 	}
 
-	private normalizeCriterionBands(result: any): string[] {
+	private normalizeCriterionBands(result: any, questionType?: string): string[] {
 		const warnings: string[] = [];
 		const input = this.asArray(result.criterionBands);
 		const byName = new Map<string, any>();
 
 		for (const item of input) if (item?.name) byName.set(String(item.name), item);
 
-		result.criterionBands = this.REQUIRED_CRITERIA.map((name) => {
+		const requiredCriteria =
+			questionType === 'speaking' ? this.REQUIRED_SPEAKING_CRITERIA : this.REQUIRED_WRITING_CRITERIA;
+
+		result.criterionBands = requiredCriteria.map((name) => {
 			const c = byName.get(name);
 
 			if (!c) {
@@ -404,6 +574,7 @@ export class AiServiceService {
 		return warnings;
 	}
 
+	// Writing-only: Task Response caps based on topic relevance
 	private applyTaskResponseCaps(result: any): string[] {
 		const warnings: string[] = [];
 		const analysis = result.taskAnalysis;
@@ -420,7 +591,7 @@ export class AiServiceService {
 		}
 
 		if (analysis.hasClearPosition === false) {
-			warnings.push('No clear position detected - TR capped at 6.0');
+			warnings.push('No clear position detected — TR capped at 6.0');
 			if (tr) tr.bandEstimate = Math.min(Number(tr.bandEstimate) || 0, 6);
 			result.scoreConfidence = 'medium';
 			result.requiresReview = true;
@@ -444,25 +615,99 @@ export class AiServiceService {
 		}
 	}
 
-	private computeOverallBand(result: any): number {
+	private computeOverallBand(result: any, questionType?: string): number {
 		const bands: number[] = this.asArray(result.criterionBands)
 			.map((c: any) => Number(c.bandEstimate))
 			.filter((n: number) => !isNaN(n) && n >= 0 && n <= 9);
 
-		if (bands.length !== 4) {
+		const expectedCount = questionType === 'speaking' ? 3 : 4;
+
+		if (bands.length !== expectedCount) {
 			result.scoreConfidence = 'low';
 			result.requiresReview = true;
-			result.reviewReason = 'Incomplete criterion bands — cannot compute reliable IELTS band';
+			result.reviewReason = `Incomplete criterion bands (got ${bands.length}, expected ${expectedCount})`;
 			return this.roundToHalf(result.estimatedIeltsBand ?? 5, 5);
 		}
 
-		const avg = bands.reduce((sum, b) => sum + b, 0) / 4;
+		const avg = bands.reduce((sum, b) => sum + b, 0) / bands.length;
 		return Math.round(avg * 2) / 2;
 	}
 
 	private computeNextBandTarget(estimatedBand: number): number {
 		const normalized = Math.round(estimatedBand * 2) / 2;
 		return Math.min(9, normalized + 0.5);
+	}
+
+	private mapPronScoreToBand(composite: number): number {
+		if (composite >= 95) return 9.0;
+		if (composite >= 90) return 8.5;
+		if (composite >= 85) return 8.0;
+		if (composite >= 80) return 7.5;
+		if (composite >= 75) return 7.0;
+		if (composite >= 70) return 6.5;
+		if (composite >= 65) return 6.0;
+		if (composite >= 60) return 5.5;
+		if (composite >= 55) return 5.0;
+		if (composite >= 50) return 4.5;
+		if (composite >= 40) return 4.0;
+		return 3.5;
+	}
+
+	/**
+	 * Convert WebM/Opus audio buffer to raw PCM s16le 16kHz mono.
+	 *
+	 * IMPORTANT: Output is raw PCM bytes WITHOUT RIFF header.
+	 * This matches what Azure SDK createPushStream(getWaveFormatPCM) expects.
+	 * Using -f wav (with RIFF header) into a PCM PushStream causes Azure to
+	 * misread the header bytes as audio data → no recognition result.
+	 *
+	 * Requires ffmpeg on PATH:
+	 *   - Local: brew install ffmpeg / apt install ffmpeg
+	 *   - Docker: apk add ffmpeg (added to Dockerfile runner stage)
+	 */
+	private async convertToPcm(inputBuffer: Buffer): Promise<Buffer | null> {
+		let inputFile = '';
+		let outFile = '';
+		try {
+			const { execSync } = await import('child_process');
+			const fs = await import('fs');
+			const os = await import('os');
+			const path = await import('path');
+
+			const tmpDir = os.tmpdir();
+			const ts = Date.now();
+			inputFile = path.join(tmpDir, `pron_input_${ts}.webm`);
+			outFile = path.join(tmpDir, `pron_output_${ts}.pcm`);
+
+			fs.writeFileSync(inputFile, inputBuffer);
+			this.logger.log(`[ffmpeg] Converting | input=${inputBuffer.length} bytes → raw PCM s16le 16kHz mono`);
+
+			execSync(`ffmpeg -i "${inputFile}" -ar 16000 -ac 1 -f s16le "${outFile}" -y -loglevel error`, {
+				timeout: 15000,
+			});
+
+			const pcmBuffer = fs.readFileSync(outFile);
+			this.logger.log(`[ffmpeg] Done | output=${pcmBuffer.length} bytes`);
+			return pcmBuffer;
+		} catch (err) {
+			this.logger.error(`[ffmpeg] Conversion failed: ${err.message}`);
+			return null;
+		} finally {
+			// Always cleanup temp files
+			try {
+				const fs = await import('fs');
+				if (inputFile) {
+					try {
+						fs.unlinkSync(inputFile);
+					} catch {}
+				}
+				if (outFile) {
+					try {
+						fs.unlinkSync(outFile);
+					} catch {}
+				}
+			} catch {}
+		}
 	}
 
 	// CORE INFRASTRUCTURE

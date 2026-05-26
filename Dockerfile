@@ -60,7 +60,8 @@ RUN apk add --no-cache \
     libc6-compat \
     openssl \
     dumb-init \
-    tzdata
+    tzdata \
+    ffmpeg
 
 ENV TZ=Asia/Ho_Chi_Minh
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone

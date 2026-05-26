@@ -1,0 +1,747 @@
+{
+	"skill": "speaking",
+	"cefrLevel": "B1",
+	"practiceSets": [
+		{
+			"title": "Environmental Problems in Your City",
+			"description": "Discuss local environmental challenges and propose potential solutions to protect the community.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "We must try to ___ our carbon footprint by driving less.",
+					"options": ["reduce", "destroy", "drop", "fail"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The factory illegally ___ toxic waste into the nearby river.",
+					"options": ["pours", "releases", "drops", "throws"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Air ___ is a major issue in rapidly growing cities.",
+					"options": ["smoke", "dirt", "pollution", "waste"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "We need to ___ down on our use of single-use plastics.",
+					"options": ["put", "bring", "take", "cut"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "Many wild animals are unfortunately losing their natural ___.",
+					"options": ["habitat", "house", "room", "place"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Citizens should ___ paper and glass to protect the environment.",
+					"options": ["replay", "recycle", "return", "reverse"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Global ___ is causing the polar ice caps to melt faster.",
+					"options": ["heating", "burning", "warming", "cooking"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Taking public transport is much more ___ friendly than driving.",
+					"options": ["naturally", "ecologically", "physically", "environmentally"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe an environmental problem in your city. You should say: what the problem is, what causes it, how it affects the local people, and explain what actions could be taken to solve it. Please speak for about 75 seconds.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "In what ways can individuals contribute to protecting the environment in their daily lives? Do you think government laws are more effective than personal actions when fighting climate change?",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "The Importance of Learning English",
+			"description": "Explore the benefits and challenges of acquiring English as a second language.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "English is my second language; my ___ tongue is Vietnamese.",
+					"options": ["mother", "father", "home", "family"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "If you study abroad, you will quickly become ___ in English.",
+					"options": ["flow", "fluent", "fluid", "flying"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "You can easily ___ up a lot of new vocabulary by reading novels.",
+					"options": ["take", "get", "pick", "make"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I always use a digital dictionary to look ___ difficult words.",
+					"options": ["out", "in", "on", "up"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "Speaking a common language helps overcome the language ___.",
+					"options": ["barrier", "wall", "block", "fence"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Even though she speaks perfectly, she has a very strong regional ___.",
+					"options": ["voice", "accent", "sound", "noise"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I need to ___ on my grammar before the speaking test.",
+					"options": ["clean up", "wash up", "brush up", "clear up"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Making mistakes is a completely normal part of the learning ___.",
+					"options": ["way", "method", "system", "process"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe an experience where speaking English helped you. You should say: when it happened, who you were talking to, what the situation was, and explain how you felt about your English communication skills.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Do you think that English will remain the most important international language in the future, or will another language take its place? What are the biggest advantages of being bilingual?",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Social Media and Young People",
+			"description": "Analyze the impact of social networking sites on the daily lives of the younger generation.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "I mostly use social media apps to ___ in touch with old classmates.",
+					"options": ["keep", "make", "do", "take"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Psychologists warn that many teenagers are ___ to their smartphones.",
+					"options": ["attracted", "addicted", "attached", "adapted"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "It is easy to waste hours just ___ through a news feed.",
+					"options": ["rolling", "sliding", "scrolling", "swiping"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Online harassment and sending mean messages is known as ___.",
+					"options": ["hacking", "phishing", "trolling", "cyberbullying"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "Popular online influencers usually have millions of ___.",
+					"options": ["followers", "watchers", "friends", "viewers"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I decided to ___ my account because it was distracting me from studying.",
+					"options": ["destroy", "deactivate", "drop", "decline"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "You should always be careful about the personal information you ___ online.",
+					"options": ["give", "show", "share", "send"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Sometimes it is very healthy to take a ___ from the digital world.",
+					"options": ["stop", "pause", "rest", "break"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a social media platform you use frequently. You should say: what the platform is, how often you use it, what kind of content you post or view, and explain why you prefer it over other applications.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Some people believe that social media has a negative effect on teenagers' mental health and self-esteem. Do you agree with this statement? What can parents do to help teenagers use technology safely?",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Work-Life Balance",
+			"description": "Discuss the modern challenges of managing professional responsibilities alongside personal life.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "If you work constantly without resting, you will eventually ___ out.",
+					"options": ["burn", "fire", "flame", "heat"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I feel exhausted, so I need to ___ some time off next week.",
+					"options": ["make", "take", "do", "have"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "We must work late tonight in order to meet the project ___.",
+					"options": ["timeline", "limit", "deadline", "finish"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "He is feeling very stressed because his boss keeps him ___.",
+					"options": ["underworked", "overpaid", "overlooked", "overworked"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "Having flexible working hours often improves overall job ___.",
+					"options": ["satisfaction", "happiness", "enjoyment", "pleasure"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Many parents struggle to ___ their careers and childcare responsibilities.",
+					"options": ["level", "balance", "equal", "weigh"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "A demanding manager can cause employees a huge amount of ___.",
+					"options": ["fear", "anger", "stress", "panic"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "It is important to prioritize tasks to successfully manage your ___.",
+					"options": ["workforce", "workshop", "workplace", "workload"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a time when you found it difficult to balance work or studies with your personal life. You should say: when it was, why you were so busy, how it affected your health or relationships, and explain how you resolved the situation.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Why do you think so many people struggle to achieve a healthy work-life balance in today's society? Should employers take more responsibility for their employees' mental and physical well-being?",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Travelling Abroad vs. Staying Local",
+			"description": "Compare the unique experiences of international tourism and domestic holidays.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "The Eiffel Tower is the most famous tourist ___ in Paris.",
+					"options": ["attraction", "place", "location", "spot"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Many people say that travelling to new countries helps to ___ the mind.",
+					"options": ["widen", "broaden", "open", "expand"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "We need to ___ off very early tomorrow to catch our flight.",
+					"options": ["go", "start", "set", "leave"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "It is always polite to research and respect the local ___ when visiting abroad.",
+					"options": ["habits", "rules", "laws", "customs"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "Before travelling internationally, you should exchange your ___.",
+					"options": ["currency", "notes", "coins", "cash"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I prefer travelling lightly, so I only carry a small ___.",
+					"options": ["purse", "backpack", "box", "pocket"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Choosing to take a relaxing holiday at home is sometimes called a ___.",
+					"options": ["vacation", "holiday", "staycation", "break"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Exploring a completely foreign culture can be an unforgettable ___.",
+					"options": ["event", "activity", "moment", "experience"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a memorable holiday you took in your own country. You should say: where you went, who you travelled with, what interesting activities you did there, and explain why you remember this domestic trip so well.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "What are the main advantages of travelling abroad compared to having a holiday in your own country? Do you think domestic tourism will become more popular due to environmental or financial concerns?",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Education Systems: School vs. Self-Learning",
+			"description": "Evaluate different approaches to formal education and independently acquiring new skills.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "Students who leave high school before graduating ___ out.",
+					"options": ["drop", "fall", "step", "go"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "For the history exam, we had to learn several dates by ___.",
+					"options": ["mind", "heart", "brain", "head"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Attending university is widely considered a form of ___ education.",
+					"options": ["taller", "upper", "higher", "greater"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I am taking an online evening course to ___ my professional skills.",
+					"options": ["build", "make", "grow", "develop"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "You must pass a difficult entrance ___ to study at that university.",
+					"options": ["exam", "paper", "question", "form"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Internet tutorials are a fantastic way to learn a new subject ___.",
+					"options": ["lonely", "independently", "singly", "personally"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The science teacher gave the class an interesting practical ___.",
+					"options": ["job", "work", "assignment", "duty"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Working effectively in group projects requires good communication and ___.",
+					"options": ["friendship", "talking", "meeting", "cooperation"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a skill you recently learned by yourself outside of school or university. You should say: what the skill is, how you managed to learn it, what difficulties you faced along the way, and explain why you decided to learn it independently.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Do you believe that traditional classroom education is still necessary in the modern age where information is freely available on the internet? How might schools change in the next twenty years?",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "The Role of Technology in Communication",
+			"description": "Discuss how digital devices have fundamentally changed the way we interact with others.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "Despite having video calls, I still prefer ___ communication.",
+					"options": ["face-to-face", "head-to-head", "eye-to-eye", "mouth-to-mouth"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "If the internet connection fails, the online call will ___ down.",
+					"options": ["fall", "break", "cut", "shut"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Messaging applications help distant family members ___ connected.",
+					"options": ["keep", "hold", "stay", "make"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Without hearing someone's tone of voice, written texts are easy to ___.",
+					"options": ["misread", "mistake", "misplace", "misunderstand"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "A smartphone is considered an essential communication ___ in modern society.",
+					"options": ["device", "machine", "engine", "tool"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We often use video conferencing software to chat in real ___.",
+					"options": ["moment", "time", "hour", "period"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Virtual online meetings have largely replaced traditional business ___.",
+					"options": ["parties", "gatherings", "conferences", "festivals"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Technology has completely transformed the nature of human ___.",
+					"options": ["speaking", "talking", "contact", "interaction"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a time when technology helped you communicate with someone far away. You should say: who you contacted, what specific technology or app you used, what you discussed, and explain why this communication was important to you.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "In what ways has the widespread use of smartphones negatively affected our face-to-face communication skills? Do you think this trend of relying on digital communication can be reversed?",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Health and Modern Lifestyle",
+			"description": "Talk about fitness, diet choices, and the specific health challenges of modern living.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "Sitting at a computer desk all day leads to a ___ lifestyle.",
+					"options": ["sedentary", "lazy", "sleepy", "tired"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "If you want to lose weight, you must ___ down on sugary drinks.",
+					"options": ["take", "cut", "put", "bring"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I bought a gym membership so I can ___ out three times a week.",
+					"options": ["play", "do", "work", "make"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Eating a ___ diet with plenty of vegetables is essential for well-being.",
+					"options": ["level", "equal", "flat", "balanced"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "Fast food is very convenient but it usually lacks proper ___.",
+					"options": ["nutrition", "vitamins", "energy", "power"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "A chronic lack of sleep can severely weaken your immune ___.",
+					"options": ["defense", "system", "body", "health"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Practicing yoga is a great way to relieve physical and mental ___.",
+					"options": ["pain", "worry", "tension", "fear"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Doctors always remind their patients that prevention is better than ___.",
+					"options": ["medicine", "healing", "treatment", "cure"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a healthy habit you have started recently. You should say: what the habit is, when you decided to start it, how you incorporate it into your daily routine, and explain what physical or mental benefits you have noticed.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Fast food is becoming increasingly popular globally despite being unhealthy. Why do you think people continue to eat it, and what could governments or schools do to encourage healthier diets?",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Traditions and Cultural Identity",
+			"description": "Reflect on the importance of preserving local customs in a rapidly changing world.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "Ancient traditions are often ___ down from generation to generation.",
+					"options": ["passed", "given", "taken", "handed"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I always love to ___ part in the colorful local festivals.",
+					"options": ["make", "take", "do", "have"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Historical buildings and old monuments are a vital part of our cultural ___.",
+					"options": ["history", "past", "heritage", "story"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Sadly, some beautiful ancient customs are slowly ___ out.",
+					"options": ["fading", "passing", "leaving", "dying"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "Wearing national dress proudly represents a country's cultural ___.",
+					"options": ["identity", "face", "look", "picture"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The lunar new year is considered the major annual ___ in my country.",
+					"options": ["party", "celebration", "meeting", "event"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Community elders play an important role in preserving traditional ___.",
+					"options": ["rules", "ideas", "values", "laws"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Rapid globalization often threatens the uniqueness of local ___.",
+					"options": ["groups", "teams", "clubs", "societies"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a traditional festival or celebration in your country. You should say: when it usually takes place, what activities people do during this festival, what special food is prepared, and explain why this festival remains important to your culture.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Do you think that globalization is causing traditional cultures and customs to disappear? How can local communities protect their unique cultural identity for future generations?",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Money and Financial Planning",
+			"description": "Discuss saving strategies, spending habits, and the importance of financial literacy.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "I am currently trying to ___ up for a deposit on a new car.",
+					"options": ["save", "keep", "hold", "store"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "It will probably take me several years to ___ off my university student loan.",
+					"options": ["give", "pay", "send", "clear"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "He works two different part-time jobs just to make a ___.",
+					"options": ["life", "money", "living", "wage"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Consistently buying things you cannot afford leads to being in ___.",
+					"options": ["trouble", "danger", "poor", "debt"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "Having a reliable emergency fund provides a sense of financial ___.",
+					"options": ["security", "safety", "protection", "peace"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "To save money, you should stick to a strict monthly ___.",
+					"options": ["plan", "budget", "list", "menu"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Putting money into the stock market can be a profitable long-term ___.",
+					"options": ["gamble", "game", "investment", "business"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Banks usually charge a very high rate of ___ on credit card balances.",
+					"options": ["cost", "fee", "tax", "interest"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe something expensive you bought recently that you saved money for. You should say: what the item was, how long it took you to save the money, why you wanted it so much, and explain how you felt when you finally purchased it.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Why is it important to teach young children about money and financial management early on? Do you think financial planning should be a mandatory subject taught in high schools?",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Sports and Competition",
+			"description": "Talk about the role of sports, the value of teamwork, and competitive spirit.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "I recently decided to ___ up playing tennis to improve my fitness.",
+					"options": ["take", "start", "make", "do"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "The severe knee injury forced him to ___ up professional sports completely.",
+					"options": ["stop", "give", "leave", "quit"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Playing together in a local group builds strong team ___.",
+					"options": ["feeling", "mind", "spirit", "soul"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "To succeed, a true ___ athlete must train rigorously every single day.",
+					"options": ["working", "paid", "career", "professional"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "The Olympic Games is recognized as the ultimate global ___.",
+					"options": ["competition", "game", "match", "race"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "It is highly important to play fair and demonstrate good ___ on the field.",
+					"options": ["behavior", "sportsmanship", "manners", "attitude"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The enormous stadium was completely filled with cheering ___.",
+					"options": ["watchers", "viewers", "spectators", "lookers"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Winning a gold medal for your country is a remarkable ___.",
+					"options": ["success", "victory", "win", "achievement"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a thrilling sports event you watched or participated in. You should say: what the event was, when and where it took place, who was competing in it, and explain how you felt about the final result.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Some people argue that highly competitive sports put too much psychological pressure on children. Do you agree with this opinion? What are the potential benefits of playing non-competitive sports?",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "Urban vs. Rural Living",
+			"description": "Compare the daily lifestyle, advantages, and significant drawbacks of city and country life.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "Unfortunately, the ___ of living in the capital city is incredibly high.",
+					"options": ["cost", "price", "value", "money"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Many young professionals enjoy the exciting hustle and ___ of the city center.",
+					"options": ["noise", "bustle", "rush", "hurry"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Sometimes I just want to escape to the peace and ___ of the countryside.",
+					"options": ["calm", "silence", "quiet", "stillness"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "It takes me more than an hour to ___ to work every morning.",
+					"options": ["travel", "journey", "drive", "commute"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "Rural areas often severely lack access to good public ___.",
+					"options": ["transport", "vehicles", "cars", "buses"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Large cities generally offer better career and educational ___ for ambitious people.",
+					"options": ["chances", "opportunities", "openings", "moments"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The fresh air in the countryside is much less ___ than in the industrial town.",
+					"options": ["dirty", "smelly", "polluted", "dusty"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Growing urban areas frequently suffer from heavy traffic ___ during rush hour.",
+					"options": ["jams", "blocks", "queues", "congestion"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a city or town you have lived in or visited recently. You should say: where it is located, what the environment and atmosphere are like, what the main attractions are, and explain whether you would like to live there permanently in the future.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "Many young people are currently moving from rural areas to big cities in search of work. What social or economic problems does this migration cause for both the cities and the countryside left behind?",
+					"durationSeconds": 75
+				}
+			]
+		},
+		{
+			"title": "The Future of Work",
+			"description": "Explore the impact of automation, remote work, and the rapidly changing career landscape.",
+			"estimatedMinutes": 15,
+			"mcqQuestions": [
+				{
+					"stemText": "When the local factory closed down, 500 loyal workers were laid ___.",
+					"options": ["off", "out", "down", "away"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Following the pandemic, many companies now allow their employees to work ___ home.",
+					"options": ["at", "from", "in", "by"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Advanced robots and artificial ___ are already replacing some manual jobs.",
+					"options": ["brains", "minds", "intelligence", "thinking"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Having a permanent, full-time contract provides excellent job ___.",
+					"options": ["safety", "protection", "defense", "security"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "A freelance worker usually enjoys having a very flexible daily ___.",
+					"options": ["schedule", "timetable", "diary", "calendar"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "We must constantly update our technical skills to survive in a changing ___.",
+					"options": ["office", "workplace", "factory", "building"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "In the future, total automation will make certain physical jobs completely ___.",
+					"options": ["old", "past", "obsolete", "finished"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The rapid rise of the gig ___ has changed how independent people find work.",
+					"options": ["market", "business", "trade", "economy"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a job you think will be very important in the future. You should say: what the job is, what specific technical or soft skills will be needed, why it will be so important to society, and explain whether you would be interested in doing this job yourself.",
+					"durationSeconds": 75
+				},
+				{
+					"prompt": "How is artificial intelligence likely to change the types of jobs available to people in the next twenty years? Will this technological shift lead to higher unemployment, or simply create entirely new opportunities?",
+					"durationSeconds": 75
+				}
+			]
+		}
+	]
+}

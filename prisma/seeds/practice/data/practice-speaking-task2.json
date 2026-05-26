@@ -1,0 +1,604 @@
+{
+	"practiceSets": [
+		{
+			"cefrLevel": "A1",
+			"title": "Daily Routine",
+			"description": "Talk about your typical everyday activities.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Talk about your daily routine. What time do you wake up? What do you do in the morning, afternoon, and evening? Speak for about 45 seconds.",
+				"durationSeconds": 45,
+				"minWords": 30,
+				"maxWords": 80
+			}
+		},
+		{
+			"cefrLevel": "A1",
+			"title": "Favorite Food",
+			"description": "Describe what you like to eat.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Talk about your favorite food. What is it? When do you usually eat it? Do you know how to cook it? Speak for about 45 seconds.",
+				"durationSeconds": 45,
+				"minWords": 30,
+				"maxWords": 80
+			}
+		},
+		{
+			"cefrLevel": "A1",
+			"title": "Your Hometown",
+			"description": "Describe the place where you were born or grew up.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Talk about your hometown. Where is it located? Is it big or small? What do you like most about it? Speak for about 45 seconds.",
+				"durationSeconds": 45,
+				"minWords": 30,
+				"maxWords": 80
+			}
+		},
+		{
+			"cefrLevel": "A1",
+			"title": "Free Time",
+			"description": "Discuss what you do when you are not working or studying.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Talk about your hobbies and free time. What do you like to do on the weekends? Who do you spend time with? Speak for about 45 seconds.",
+				"durationSeconds": 45,
+				"minWords": 30,
+				"maxWords": 80
+			}
+		},
+		{
+			"cefrLevel": "A1",
+			"title": "Your Family",
+			"description": "Describe the people in your family.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Talk about your family. How many people are in your family? Who are they? What do you like to do together? Speak for about 45 seconds.",
+				"durationSeconds": 45,
+				"minWords": 30,
+				"maxWords": 80
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "Last Weekend",
+			"description": "Describe your recent weekend activities.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Talk about what you did last weekend. Where did you go, who were you with, and did you enjoy yourself? Speak for about 60 seconds.",
+				"durationSeconds": 60,
+				"minWords": 50,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "Favorite Movie",
+			"description": "Discuss a film that you really enjoyed watching.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Describe your favorite movie. What is the story about? Who are the main characters? Explain why you like this movie so much. Speak for about 60 seconds.",
+				"durationSeconds": 60,
+				"minWords": 50,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "A Great Vacation",
+			"description": "Talk about a memorable holiday trip you have taken.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Talk about a great vacation you had. Where did you go? What was the weather like? What activities did you do there? Speak for about 60 seconds.",
+				"durationSeconds": 60,
+				"minWords": 50,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "Pets and Animals",
+			"description": "Discuss your feelings about keeping animals as pets.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Do you have a pet, or would you like to have one? What kind of animal makes a good pet and why? Speak for about 60 seconds.",
+				"durationSeconds": 60,
+				"minWords": 50,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "Shopping Habits",
+			"description": "Talk about where and how you like to shop.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Talk about your shopping habits. Do you prefer going to large malls or small local shops? What do you usually buy? Speak for about 60 seconds.",
+				"durationSeconds": 60,
+				"minWords": 50,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "Favorite Season",
+			"description": "Describe the time of year you enjoy the most.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Talk about your favorite season of the year. What is the weather like during this season, and what special activities do you do? Speak for about 60 seconds.",
+				"durationSeconds": 60,
+				"minWords": 50,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "Learning English",
+			"description": "Discuss your experience with learning a new language.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Talk about why you are learning English. How long have you been studying it? What is the most difficult part for you? Speak for about 60 seconds.",
+				"durationSeconds": 60,
+				"minWords": 50,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "A Special Festival",
+			"description": "Describe a cultural or national holiday.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Talk about a special festival in your country. When is it celebrated? What special food do people eat, and what do they do? Speak for about 60 seconds.",
+				"durationSeconds": 60,
+				"minWords": 50,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "A Childhood Memory",
+			"description": "Share a distinct memory from when you were a child.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Talk about a happy childhood memory. How old were you? What happened, and why do you still remember it today? Speak for about 60 seconds.",
+				"durationSeconds": 60,
+				"minWords": 50,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "A2",
+			"title": "Dream Job",
+			"description": "Discuss the kind of work you would love to do.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Talk about your dream job. What kind of work would you do? Where would you work? Explain why this is your dream job. Speak for about 60 seconds.",
+				"durationSeconds": 60,
+				"minWords": 50,
+				"maxWords": 120
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "A Memorable Journey",
+			"description": "Describe a trip that had a lasting impact on you.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Describe a memorable journey you have taken. You should say: where you went, how you traveled, who you went with, and explain why this journey was so memorable. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "A Useful Practical Skill",
+			"description": "Discuss a skill you learned that helps you in daily life.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Describe a useful practical skill you learned, such as cooking or driving. You should say: what the skill is, who taught you, how long it took to learn, and explain why it is useful to you. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Importance of Sports",
+			"description": "Give your opinion on why physical activities matter.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Many people believe that playing sports is essential for a healthy lifestyle. Do you agree or disagree? What are the main benefits of team sports compared to individual sports? Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "An Interesting Person",
+			"description": "Describe someone you know or met who fascinated you.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Describe an interesting person you have met recently. You should say: who this person is, how you met them, what you talked about, and explain why you found this person interesting. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Online vs In-Store Shopping",
+			"description": "Compare different ways people buy goods today.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Online shopping has become increasingly popular in recent years. Do you think buying things online is better than going to traditional shops? Compare the advantages of both and give your opinion. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Favorite Piece of Clothing",
+			"description": "Describe an item of clothing you really like wearing.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Describe a piece of clothing you like wearing. You should say: what it looks like, where you got it, when you wear it, and explain why it is your favorite. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Protecting the Environment",
+			"description": "Discuss what ordinary people can do for the planet.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Environmental protection is a global concern. What are some simple things that individuals can do in their daily lives to help protect the environment? Give reasons and examples. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Good News",
+			"description": "Describe a time when you received positive news.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Describe a piece of good news you received. You should say: what the news was, who gave it to you, how you felt when you heard it, and explain what you did next. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Public Transport",
+			"description": "Discuss the advantages and disadvantages of using public transport.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "In many cities, the government is encouraging people to use public transport instead of driving cars. Do you think this is a good idea? What are the main benefits of using buses and trains? Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "A Time You Were Late",
+			"description": "Describe an occasion when you missed an appointment or were delayed.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Describe a time when you were late for an important event. You should say: what the event was, why you were late, what happened when you arrived, and explain how you felt about it. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "The Role of Music",
+			"description": "Discuss how music affects people's lives.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Music plays a significant role in many people's lives. Why do you think people enjoy listening to music? Do you think the type of music people listen to changes as they get older? Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "A Book You Read",
+			"description": "Talk about a book that made an impression on you.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Describe a book you read recently. You should say: what the title is, what it is about, why you decided to read it, and explain how you felt after reading it. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Importance of Sleep",
+			"description": "Discuss why rest and sleep are necessary.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Some people say that modern lifestyles do not allow people to get enough sleep. Do you agree with this? What are the consequences of not getting enough sleep on a daily basis? Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "An Important Decision",
+			"description": "Describe a time when you had to make a tough choice.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Describe an important decision you had to make. You should say: what the decision was, how long it took you to make it, who helped you, and explain if you think it was the right decision. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Technology in Education",
+			"description": "Discuss the impact of computers and tablets in schools.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Technology is now widely used in classrooms. Do you think computers and tablets have improved the way students learn? Are there any disadvantages to using technology in education? Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "A Historical Building",
+			"description": "Describe an old building you have visited.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Describe a historical building you have visited. You should say: where it is, what it looks like, what you learned there, and explain why you think this building is important to history. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Working from Home",
+			"description": "Compare working remotely to working in a traditional office.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Many companies now allow their employees to work from home. What are the advantages and disadvantages of remote work compared to working in an office? Which do you prefer? Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Good Advice",
+			"description": "Describe helpful guidance you received from someone.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Describe a time when someone gave you a piece of good advice. You should say: who gave you the advice, what the advice was, whether you followed it, and explain how this advice helped you. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "Eating Out vs Cooking",
+			"description": "Discuss the pros and cons of restaurants versus home meals.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Some people prefer to eat at restaurants, while others prefer to cook meals at home. Which do you prefer and why? Consider aspects like cost, health, and convenience in your answer. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B1",
+			"title": "A Gift You Gave",
+			"description": "Talk about a present you gave to someone else.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Describe a special gift you gave to someone. You should say: who you gave it to, what the gift was, why you chose it, and explain how the person reacted when they received it. Speak for about 75 seconds.",
+				"durationSeconds": 75,
+				"minWords": 80,
+				"maxWords": 180
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Impact of Social Media",
+			"description": "Evaluate the sociological effects of networking platforms.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Some people believe that social media has done more harm than good to society by isolating individuals. To what extent do you agree or disagree? Give specific reasons and examples from your own knowledge. Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Climate Change Responsibility",
+			"description": "Discuss who should bear the cost of environmental preservation.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Tackling climate change is incredibly expensive. Some argue that developed nations should bear the majority of the cost, rather than developing countries. What is your view on this? Justify your opinion. Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Automation and Employment",
+			"description": "Analyze how AI and robotics affect the job market.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "With the rapid advancement of artificial intelligence and robotics, many traditional jobs are becoming obsolete. Do you view this trend as a positive or negative development for society? Explain your reasoning. Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Space Exploration",
+			"description": "Debate government funding for space programs vs terrestrial issues.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Governments spend billions of dollars on space exploration. Critics argue that this money should be spent on solving problems on Earth, such as poverty and disease. To what extent do you agree with this criticism? Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Advertising to Children",
+			"description": "Discuss the ethics of marketing aimed at youth.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Many companies direct their advertising specifically at children. Some argue this practice is unethical and should be heavily regulated or banned entirely. Do you agree that advertising to children is harmful? Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Globalisation and Culture",
+			"description": "Analyze the loss of cultural identity in a globalized world.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Due to globalisation, many argue that countries are losing their distinct cultural identities, as people everywhere eat the same food and watch the same movies. Do you think the advantages of globalisation outweigh this cultural loss? Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Higher Education vs Experience",
+			"description": "Compare university degrees to hands-on work experience.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "In today's competitive job market, some employers value practical work experience more than a formal university degree. Which do you believe is more important for long-term career success, and why? Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Funding for Arts vs Science",
+			"description": "Debate where public funds should be directed.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "When allocating public funds, some governments prioritize scientific research over the arts. Do you believe the arts are less important than science to the progress of a nation? Provide examples to support your view. Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Aging Populations",
+			"description": "Discuss the economic impacts of a top-heavy demographic.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "In many countries, the proportion of older people is increasing rapidly while birth rates decline. What economic and social challenges does an aging population create, and how can societies adapt? Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "The Future of Newspapers",
+			"description": "Analyze the shift from print to digital media.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "With the rise of free online news, many traditional print newspapers are going out of business. Do you think the disappearance of printed news is a negative trend, or simply a natural technological progression? Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "E-books vs Printed Books",
+			"description": "Discuss the cognitive and practical differences in reading mediums.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "E-books and digital reading devices have fundamentally changed how people consume literature. Some argue that digital reading reduces comprehension compared to physical books. Discuss the pros and cons of both mediums. Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Universal Healthcare",
+			"description": "Debate the provision of free medical care by the state.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Some believe that healthcare should be a fundamental human right provided entirely by the government, while others argue for private healthcare systems. What is your opinion on how healthcare should be funded and managed? Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Tourism and Heritage Sites",
+			"description": "Discuss the damage mass tourism causes to historical landmarks.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Mass tourism brings economic benefits but often causes significant damage to historical and cultural heritage sites. How can governments balance the economic need for tourism with the preservation of their cultural history? Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Remote Work and Society",
+			"description": "Analyze the long-term sociological effects of telecommuting.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "While remote work offers flexibility, psychologists warn it may lead to severe social isolation and a breakdown of community cohesion. Do you think a permanent shift to remote work will damage our social fabric in the long run? Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		},
+		{
+			"cefrLevel": "B2",
+			"title": "Genetically Modified Foods",
+			"description": "Discuss the ethics and safety of GMO agriculture.",
+			"estimatedMinutes": 10,
+			"speakingTask": {
+				"prompt": "Genetically modified crops are seen by some as the only way to feed a growing global population, while others view them as a dangerous threat to ecosystems and human health. What is your perspective on the widespread use of GMOs? Speak for about 90 seconds.",
+				"durationSeconds": 90,
+				"minWords": 100,
+				"maxWords": 250
+			}
+		}
+	]
+}

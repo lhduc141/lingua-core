@@ -52,4 +52,9 @@ export class AiServiceController {
 	async transcribeAudio(@Payload() payload: { buffer: Buffer; mimetype: string; originalname: string }) {
 		return this.aiService.transcribeAudio(payload);
 	}
+
+	@MessagePattern('ai.pronunciation.assess')
+	assessPronunciation(@Payload() payload: any) {
+		return this.aiService.assessPronunciation(payload);
+	}
 }

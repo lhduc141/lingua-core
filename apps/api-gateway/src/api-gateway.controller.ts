@@ -7,8 +7,8 @@ import { ApiTag } from './decorators/api-tag.decorator';
 export class ApiGatewayController {
 	constructor(private readonly appService: ApiGatewayService) {}
 
-	@Get('health/db')
-	async checkHealthDb() {
-		return this.appService.checkHealthDb();
+	@Get('health/services')
+	async checkServices() {
+		return this.appService.checkExternalServices();
 	}
 }

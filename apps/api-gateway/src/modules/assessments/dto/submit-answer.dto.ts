@@ -1,6 +1,6 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Type } from 'class-transformer';
-import { IsOptional, IsString, IsUUID, ValidateNested } from 'class-validator';
+import { IsObject, IsOptional, IsString, IsUUID, ValidateNested } from 'class-validator';
 
 export class AnswerPayloadDto {
 	@ApiPropertyOptional({ description: 'optionId — dùng cho mcq_single' })
@@ -17,6 +17,11 @@ export class AnswerPayloadDto {
 	@IsOptional()
 	@IsString()
 	textAnswer?: string;
+
+	@ApiPropertyOptional({ description: 'pronunciationScores — từ Azure Speech SDK, speaking only' })
+	@IsOptional()
+	@IsObject()
+	pronunciationScores?: Record<string, any> | null;
 }
 
 export class SubmitAnswerDto {

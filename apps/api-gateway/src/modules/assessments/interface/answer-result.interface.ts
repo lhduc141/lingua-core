@@ -1,3 +1,5 @@
+import { PronunciationScores } from '@app/shared';
+
 export interface AnswerResult {
 	questionId: string;
 	questionType: string; // mcq_single | mcq_multi | fill_blank | essay | speaking
@@ -21,16 +23,34 @@ export interface AnswerResult {
 
 	aiFeedback: {
 		overallScore: number;
-		dimensions: Array<{
+		estimatedIeltsBand: number | null;
+		internalScore: number;
+		scoreConfidence: string;
+		scoreRationale: string;
+		assessmentType: string | null;
+		currentLevel: string | null;
+		targetLevel: string | null;
+		currentBand: string | null;
+		targetBand: string | null;
+		wordCount: number;
+		wordCountStatus: string;
+		criterionBands: Array<{
 			name: string;
-			score: number;
-			feedback: string; // map từ "comment" trong criteriaJson
+			bandEstimate: number | null;
+			internalScore: number;
+			summary?: string;
+			strengths?: string[];
+			weaknesses?: string[];
 		}>;
-		corrections: Array<{
-			original: string;
-			corrected: string;
-			rule: string;
-		}>;
-		suggestions: string[];
+		corrections: Array<{ original: string; corrected: string; rule: string }>;
+		priorityFixes: string[];
+		nextLevelGaps: string[];
+		nextBandTarget: number | null;
+		styleImprovements: string[];
+		correctedText: string | null;
+		pronunciationConfidence: string | null;
+		pronunciationScores: PronunciationScores | null;
+		dimensions?: Array<{ name: string; score: number; feedback: string }>;
+		suggestions?: string[];
 	} | null;
 }

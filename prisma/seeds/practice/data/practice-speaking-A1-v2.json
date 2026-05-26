@@ -1,0 +1,690 @@
+{
+	"skill": "speaking",
+	"cefrLevel": "A1",
+	"practiceSets": [
+		{
+			"title": "Describing Yourself and Your Family",
+			"description": "Practice talking about who you are and the people in your family.",
+			"estimatedMinutes": 12,
+			"mcqQuestions": [
+				{
+					"stemText": "My mother and father are my ___.",
+					"options": ["parents", "children", "brothers", "sisters"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I have a ___.",
+					"options": ["tall", "friendly", "sister", "old"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "My grandmother is very ___.",
+					"options": ["boy", "girl", "old", "young"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "We live in a big ___.",
+					"options": ["house", "family", "name", "time"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "My brother is tall and ___.",
+					"options": ["thin", "green", "book", "short"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I ___ two brothers.",
+					"options": ["has", "am", "have", "is"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "She ___ my sister.",
+					"options": ["is", "am", "are", "have"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "They ___ very friendly.",
+					"options": ["is", "am", "has", "are"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe your family members. Please talk about who they are and what they look like. You have 45 seconds to speak.",
+					"durationSeconds": 45
+				},
+				{
+					"prompt": "Tell me about yourself. What is your name, how old are you, and what things do you like to do? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				}
+			]
+		},
+		{
+			"title": "Your Home and Bedroom",
+			"description": "Practice talking about the rooms in your house and the things in your bedroom.",
+			"estimatedMinutes": 12,
+			"mcqQuestions": [
+				{
+					"stemText": "I sleep in my ___.",
+					"options": ["kitchen", "bed", "car", "garden"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "We cook food in the ___.",
+					"options": ["kitchen", "bathroom", "bedroom", "living room"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "My house has three ___.",
+					"options": ["bedrooms", "sleeps", "kitchens", "foods"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I watch TV in the ___.",
+					"options": ["bathroom", "roof", "living room", "wall"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "There is a big ___ on the floor.",
+					"options": ["rug", "lamp", "wall", "ceiling"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I put my clothes in the ___.",
+					"options": ["closet", "table", "window", "door"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I wash my hands in the ___.",
+					"options": ["bedroom", "living room", "hall", "bathroom"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "The cat is sleeping ___ the bed.",
+					"options": ["of", "under", "in", "at"],
+					"correctIndex": 1
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe your house or apartment. What rooms does it have and what does it look like from the outside? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				},
+				{
+					"prompt": "Tell me about your bedroom. What furniture is in it, and why do you like spending time there? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				}
+			]
+		},
+		{
+			"title": "Food You Like and Dislike",
+			"description": "Practice talking about your favorite foods and the meals you eat every day.",
+			"estimatedMinutes": 12,
+			"mcqQuestions": [
+				{
+					"stemText": "I eat an ___ every day.",
+					"options": ["milk", "water", "apple", "cheese"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I like to drink ___.",
+					"options": ["bread", "water", "meat", "rice"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "We eat dinner at ___.",
+					"options": ["morning", "afternoon", "week", "night"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "Pizza is my favorite ___.",
+					"options": ["drink", "color", "food", "animal"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I do not like to eat ___.",
+					"options": ["fish", "juice", "milk", "water"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Apples are ___ and delicious.",
+					"options": ["square", "red", "sad", "tall"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I drink milk from a ___.",
+					"options": ["plate", "spoon", "fork", "glass"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "I use a knife to cut ___.",
+					"options": ["water", "soup", "meat", "milk"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a meal you eat every day. What foods do you usually have on your plate? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				},
+				{
+					"prompt": "Tell me about a food you really like and a food you do not like. Why do you feel this way? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				}
+			]
+		},
+		{
+			"title": "Your Daily Routine",
+			"description": "Practice talking about the things you do every morning, afternoon, and night.",
+			"estimatedMinutes": 12,
+			"mcqQuestions": [
+				{
+					"stemText": "I wake ___ at 7 o'clock.",
+					"options": ["in", "up", "on", "at"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I brush my ___ in the morning.",
+					"options": ["hair", "face", "teeth", "hands"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I have ___ at 8 o'clock in the morning.",
+					"options": ["dinner", "lunch", "bed", "breakfast"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "I go to ___ by bus.",
+					"options": ["school", "bed", "shower", "breakfast"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "In the afternoon, I do my ___.",
+					"options": ["homework", "breakfast", "face", "sleep"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I eat ___ with my family at 7 PM.",
+					"options": ["lunch", "breakfast", "dinner", "morning"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I read a book before I go to ___.",
+					"options": ["morning", "sleep", "eat", "school"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I take a ___ every day.",
+					"options": ["breakfast", "teeth", "shower", "bed"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe what you do in the morning before you leave your house. Talk about the things you do step by step. You have 45 seconds to speak.",
+					"durationSeconds": 45
+				},
+				{
+					"prompt": "Tell me about your evening routine. What do you do after dinner before you go to sleep? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				}
+			]
+		},
+		{
+			"title": "Weather and Seasons",
+			"description": "Practice talking about sunny days, rain, and the different times of the year.",
+			"estimatedMinutes": 12,
+			"mcqQuestions": [
+				{
+					"stemText": "The sun is very ___.",
+					"options": ["cold", "wet", "hot", "snow"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I wear a thick coat in the ___.",
+					"options": ["summer", "sun", "hot", "winter"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "It is ___ today. Take an umbrella.",
+					"options": ["raining", "sunny", "hot", "dry"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "In summer, the weather is ___.",
+					"options": ["cold", "snowing", "warm", "ice"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The sky is very ___ today.",
+					"options": ["blue", "green", "red", "yellow"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I like to play in the ___.",
+					"options": ["sun", "snow", "rain", "hot"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Autumn is a nice ___.",
+					"options": ["weather", "day", "season", "rain"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The wind is very ___.",
+					"options": ["tall", "short", "strong", "small"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe the weather today in your city. Is it hot, cold, or raining right now? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				},
+				{
+					"prompt": "Tell me about your favorite season. What is the weather like, and what do you like to do in that season? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				}
+			]
+		},
+		{
+			"title": "Animals and Pets",
+			"description": "Practice talking about common animals, pets, and the things they do.",
+			"estimatedMinutes": 12,
+			"mcqQuestions": [
+				{
+					"stemText": "A dog is a good ___.",
+					"options": ["food", "pet", "toy", "car"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Cats like to drink ___.",
+					"options": ["milk", "bread", "meat", "apple"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Birds can ___ in the sky.",
+					"options": ["run", "swim", "fly", "walk"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "My rabbit has long ___.",
+					"options": ["hands", "ears", "arms", "wings"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "The fish lives in the ___.",
+					"options": ["tree", "house", "water", "bed"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I like to ___ my dog.",
+					"options": ["fly", "read", "walk", "write"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "A horse is very ___.",
+					"options": ["small", "short", "big", "little"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I give food to my cat every ___.",
+					"options": ["day", "year", "month", "week"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe an animal you think is very interesting. What does it look like and what does it eat? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				},
+				{
+					"prompt": "Tell me about a pet you have or a pet you want to have in the future. Why do you like this animal? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				}
+			]
+		},
+		{
+			"title": "Numbers and Telling Time",
+			"description": "Practice saying numbers, dates, and times of the day clearly.",
+			"estimatedMinutes": 12,
+			"mcqQuestions": [
+				{
+					"stemText": "One, two, ___, four.",
+					"options": ["five", "six", "three", "ten"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I have ___ fingers on my hands.",
+					"options": ["five", "two", "one", "ten"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "It is three ___.",
+					"options": ["time", "hour", "o'clock", "minute"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I go home at half ___ four.",
+					"options": ["past", "to", "in", "on"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "There are seven days in a ___.",
+					"options": ["month", "week", "year", "day"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "My birthday is on the ___ of May.",
+					"options": ["first", "one", "two", "three"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "A clock tells us the ___.",
+					"options": ["day", "week", "time", "year"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Ten and ten makes ___.",
+					"options": ["twelve", "twenty", "thirty", "two"],
+					"correctIndex": 1
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a busy day in your life. What time do you do different things during the day? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				},
+				{
+					"prompt": "Tell me about important numbers in your life, like your age, your phone number, or the date of your birthday. You have 45 seconds to speak.",
+					"durationSeconds": 45
+				}
+			]
+		},
+		{
+			"title": "Colors and Clothes",
+			"description": "Practice talking about what you wear and the colors of different clothes.",
+			"estimatedMinutes": 12,
+			"mcqQuestions": [
+				{
+					"stemText": "The color of the sun is ___.",
+					"options": ["blue", "black", "yellow", "green"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I wear ___ on my feet.",
+					"options": ["hats", "shoes", "shirts", "pants"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "She wears a beautiful ___ to the party.",
+					"options": ["shoe", "sock", "dress", "hat"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I put a ___ on my head.",
+					"options": ["shoe", "sock", "shirt", "hat"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "Grass is usually ___.",
+					"options": ["green", "red", "blue", "purple"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "When it is cold, I wear a ___.",
+					"options": ["t-shirt", "skirt", "jacket", "short"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "My new shirt is ___.",
+					"options": ["tall", "short", "red", "heavy"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I wear warm clothes in ___.",
+					"options": ["summer", "winter", "bed", "water"],
+					"correctIndex": 1
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe the clothes you are wearing right now. What colors are they, and are they comfortable? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				},
+				{
+					"prompt": "Tell me about your favorite clothes. Where do you go when you wear them, and why do you like them? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				}
+			]
+		},
+		{
+			"title": "Your School or Workplace",
+			"description": "Practice talking about the place where you go to study or work.",
+			"estimatedMinutes": 12,
+			"mcqQuestions": [
+				{
+					"stemText": "I learn English at ___.",
+					"options": ["hospital", "park", "school", "store"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The ___ writes on the board.",
+					"options": ["teacher", "doctor", "farmer", "driver"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I write in my ___.",
+					"options": ["bag", "notebook", "desk", "chair"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I sit on a ___ in the classroom.",
+					"options": ["table", "board", "door", "chair"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "We read ___ in the library.",
+					"options": ["pens", "chairs", "books", "bags"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I have a pen in my ___.",
+					"options": ["hair", "bag", "eye", "ear"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "My school is very ___.",
+					"options": ["red", "fast", "big", "slow"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I play with my friends at ___.",
+					"options": ["recess", "class", "book", "pen"],
+					"correctIndex": 0
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe your classroom or your office. What do you see there, and where do you usually sit? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				},
+				{
+					"prompt": "Tell me about a person you talk to at school or work every day. What do you talk about? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				}
+			]
+		},
+		{
+			"title": "Things You Do on Weekends",
+			"description": "Practice talking about your free time and the fun things you do on Saturday and Sunday.",
+			"estimatedMinutes": 12,
+			"mcqQuestions": [
+				{
+					"stemText": "Saturday and Sunday are the ___.",
+					"options": ["morning", "night", "weekend", "afternoon"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "On Saturday, I like to ___ in the park.",
+					"options": ["sleep", "play", "write", "cook"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I go to the cinema to watch a ___.",
+					"options": ["book", "song", "movie", "picture"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "We eat a big breakfast on Sunday ___.",
+					"options": ["morning", "night", "week", "year"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "I ___ my friends on the weekend.",
+					"options": ["read", "write", "visit", "eat"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Sometimes, I ___ games on my computer.",
+					"options": ["read", "do", "play", "make"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "The weekend is a good time to ___.",
+					"options": ["work", "study", "relax", "learn"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I go shopping at the ___.",
+					"options": ["park", "school", "home", "mall"],
+					"correctIndex": 3
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe what you usually do on a Saturday morning. Do you wake up early or sleep late? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				},
+				{
+					"prompt": "Tell me about a really fun weekend you remember. What did you do and who were you with? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				}
+			]
+		},
+		{
+			"title": "Greetings and Introductions",
+			"description": "Practice saying hello, goodbye, and telling people who you are.",
+			"estimatedMinutes": 12,
+			"mcqQuestions": [
+				{
+					"stemText": "When I see my friend, I say ***.",
+					"options": ["goodbye", "please", "hello", "thank you"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "*** is your name?",
+					"options": ["Who", "What", "Where", "How"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "How ___ you?",
+					"options": ["is", "are", "am", "do"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "Nice to ___ you.",
+					"options": ["see", "look", "meet", "watch"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I introduce my ___ to my parents.",
+					"options": ["friend", "car", "book", "house"],
+					"correctIndex": 0
+				},
+				{
+					"stemText": "Good ___, sir.",
+					"options": ["week", "month", "morning", "day"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "When I leave, I say ___.",
+					"options": ["hello", "yes", "goodbye", "no"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I am fine, ___ you.",
+					"options": ["please", "sorry", "thank", "excuse"],
+					"correctIndex": 2
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe how you say hello to your friends. What words do you use, and do you smile or wave? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				},
+				{
+					"prompt": "Tell me about a time you met someone new. How did you introduce yourself to them? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				}
+			]
+		},
+		{
+			"title": "Places in Your Town",
+			"description": "Practice talking about stores, parks, and other buildings in your city.",
+			"estimatedMinutes": 12,
+			"mcqQuestions": [
+				{
+					"stemText": "I buy food at the ___.",
+					"options": ["hospital", "supermarket", "park", "school"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I see a doctor at the ___.",
+					"options": ["cinema", "library", "hospital", "bank"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "Children play in the ___.",
+					"options": ["bank", "park", "store", "hospital"],
+					"correctIndex": 1
+				},
+				{
+					"stemText": "I get money from the ___.",
+					"options": ["park", "cinema", "bank", "library"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I borrow books from the ___.",
+					"options": ["bank", "supermarket", "park", "library"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "We wait for the bus at the bus ___.",
+					"options": ["start", "go", "stop", "wait"],
+					"correctIndex": 2
+				},
+				{
+					"stemText": "I live in a beautiful ___.",
+					"options": ["house", "car", "room", "town"],
+					"correctIndex": 3
+				},
+				{
+					"stemText": "There are many ___ in my city.",
+					"options": ["rivers", "streets", "seas", "oceans"],
+					"correctIndex": 1
+				}
+			],
+			"speakingTasks": [
+				{
+					"prompt": "Describe a place in your town where you like to go. What is there and what can you do? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				},
+				{
+					"prompt": "Tell me about a place in your town you visit with your family or friends. Why do you go there together? You have 45 seconds to speak.",
+					"durationSeconds": 45
+				}
+			]
+		}
+	]
+}
