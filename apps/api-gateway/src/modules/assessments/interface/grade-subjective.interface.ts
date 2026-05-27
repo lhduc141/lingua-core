@@ -14,4 +14,7 @@ export interface GradeSubjectiveJobData {
 	userId: string;
 
 	pronunciationScores?: PronunciationScores | null;
+
+	audioTmpPath?: string;
+	audioMimetype?: string;
 }

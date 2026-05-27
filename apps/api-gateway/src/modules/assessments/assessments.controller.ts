@@ -62,6 +62,20 @@ export class AssessmentsController {
 		return this.assessmentsService.submitAnswer(userId, assessmentId, dto);
 	}
 
+	@Post(':assessmentId/speaking-answer')
+	@UseInterceptors(FileInterceptor('audio'))
+	@ApiConsumes('multipart/form-data')
+	@ApiOperation({ summary: 'Submit speaking audio — fire-and-forget, backend xử lý async' })
+	@ApiOkResponse({ description: 'Answer queued. Redirect sang result page và poll.' })
+	submitSpeakingAnswer(
+		@ReqUser('userId') userId: string,
+		@Param('assessmentId', ParseUUIDPipe) assessmentId: string,
+		@UploadedFile() file: Express.Multer.File,
+		@Body('questionId') questionId: string,
+	) {
+		return this.assessmentsService.submitSpeakingAnswer(userId, assessmentId, questionId, file);
+	}
+
 	@Post(':assessmentId/complete')
 	@ApiOperation({ summary: 'Nộp bài — chấm điểm. Objective: sync. Subjective: AI queue.' })
 	@ApiOkResponse({ description: 'Assessment completed. status=scored hoặc submitted (AI pending)' })
@@ -75,14 +89,5 @@ export class AssessmentsController {
 	@ApiNotFoundResponse({ description: 'Assessment not found' })
 	getResult(@ReqUser('userId') userId: string, @Param('assessmentId', ParseUUIDPipe) assessmentId: string) {
 		return this.assessmentsService.getAssessmentResult(userId, assessmentId);
-	}
-
-	@Post('transcribe')
-	@UseInterceptors(FileInterceptor('audio'))
-	@ApiConsumes('multipart/form-data')
-	@ApiOperation({ summary: 'Transcribe audio to text via Whisper' })
-	@ApiOkResponse({ description: 'Transcript returned' })
-	transcribeAudio(@UploadedFile() file: Express.Multer.File) {
-		return this.assessmentsService.transcribeAudio(file);
 	}
 }

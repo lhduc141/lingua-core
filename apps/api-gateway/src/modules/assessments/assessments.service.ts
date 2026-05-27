@@ -28,15 +28,6 @@ import { AnswerResult } from './interface/answer-result.interface';
 const SUBJECTIVE_TYPES = ['essay', 'speaking', 'short_answer'];
 const OBJECTIVE_TYPES = ['mcq_single', 'mcq_multi', 'fill_blank', 'matching', 'ordering', 'cloze_bank'];
 
-/**
- * Race a promise against a timeout.
- * If the promise does not resolve within `ms` milliseconds, resolve with `fallback`.
- * Used to prevent Azure Pronunciation from blocking the transcribe response indefinitely.
- */
-function withTimeout<T>(promise: Promise<T>, ms: number, fallback: T): Promise<T> {
-	return Promise.race([promise, new Promise<T>((resolve) => setTimeout(() => resolve(fallback), ms))]);
-}
-
 @Injectable()
 export class AssessmentsService implements OnModuleInit {
 	private readonly logger = new Logger(AssessmentsService.name);
@@ -200,7 +191,7 @@ export class AssessmentsService implements OnModuleInit {
 		return ResponseDto.success(Object, response, 'Question set assessment started');
 	}
 
-	// 3. SUBMIT ANSWER
+	// 3. SUBMIT ANSWER (non-speaking)
 	async submitAnswer(userId: string, exerciseRecordId: string, dto: SubmitAnswerDto) {
 		const { questionId, answer } = dto;
 
@@ -256,6 +247,109 @@ export class AssessmentsService implements OnModuleInit {
 		);
 	}
 
+	// 3b. SUBMIT SPEAKING ANSWER — fire-and-forget
+	// Nhận audio file → lưu tmp → tạo Answer record → đẩy BullMQ job → return ngay
+	async submitSpeakingAnswer(
+		userId: string,
+		exerciseRecordId: string,
+		questionId: string,
+		file: Express.Multer.File,
+	) {
+		if (!file) throw new BadRequestException('No audio file provided');
+		if (!questionId) throw new BadRequestException('questionId is required');
+
+		const exerciseRecord = await this.prisma.exerciseRecord.findFirst({
+			where: { exerciseRecordId, userId, deletedAt: null },
+			select: ExerciseRecordSelect.statusRef,
+		});
+		if (!exerciseRecord) throw new NotFoundException('Assessment not found');
+		if (exerciseRecord.status !== 'in_progress') {
+			throw new BadRequestException(`Assessment is not in progress (status: ${exerciseRecord.status})`);
+		}
+
+		const questionBelongs = await this.verifyQuestionBelongs(
+			exerciseRecord.refType,
+			exerciseRecord.refId,
+			questionId,
+		);
+		if (!questionBelongs) throw new BadRequestException('Question does not belong to this assessment');
+
+		// Lưu audio buffer vào tmp file trên server filesystem
+		// Job sẽ đọc file này để chạy Whisper + Azure
+		const fsModule = await import('fs');
+		const osModule = await import('os');
+		const pathModule = await import('path');
+		const tmpPath = pathModule.join(osModule.tmpdir(), `speaking_${exerciseRecordId}_${Date.now()}.webm`);
+		fsModule.writeFileSync(tmpPath, file.buffer);
+		this.logger.log(`[SpeakingAnswer] Audio saved | size=${file.size} | tmpPath=${tmpPath}`);
+
+		// Lấy thông tin câu hỏi để build job data
+		const question = await this.prisma.question.findUnique({
+			where: { questionId },
+			select: QuestionSelect.grade,
+		});
+
+		const placementSession = await this.prisma.placementSession.findFirst({
+			where: { userId, status: 'completed' as any },
+			orderBy: { completedAt: 'desc' },
+			select: { cefrLevel: true },
+		});
+		const cefrLevel = placementSession?.cefrLevel ?? 'B1';
+		const scoringJson = question?.payload?.scoringJson as any;
+
+		// Upsert Answer record (speaking answer có thể được re-submit trước khi complete)
+		const existing = await this.prisma.answer.findFirst({
+			where: { exerciseRecordId, questionId, deletedAt: null },
+			select: AnswerSelect.idOnly,
+		});
+
+		let answerId: string;
+		if (existing) {
+			answerId = existing.answerId;
+			// Xóa AnswerDetail cũ nếu có (từ lần submit trước)
+			await this.prisma.answerDetail.deleteMany({ where: { answerId } });
+			this.logger.log(`[SpeakingAnswer] Re-submit | answerId=${answerId}`);
+		} else {
+			const newAnswer = await this.prisma.answer.create({
+				data: {
+					userId,
+					exerciseRecordId,
+					questionId,
+					gradingStatus: 'pending' as any,
+					submittedAt: new Date(),
+				},
+				select: AnswerSelect.idOnly,
+			});
+			answerId = newAnswer.answerId;
+		}
+
+		// Đẩy job — job sẽ chạy Whisper + Azure + Groq
+		await this.bullmq.addJob<GradeSubjectiveJobData>(AssessmentQueues.ASSESSMENT_AI, AssessmentJob.GRADE_SPEAKING, {
+			answerId,
+			exerciseRecordId,
+			questionType: 'speaking',
+			textAnswer: '', // sẽ được fill bởi job sau Whisper
+			stemText: question?.translations?.[0]?.stemText ?? '',
+			cefrLevel,
+			minWords: scoringJson?.minWords ?? 0,
+			maxWords: scoringJson?.maxWords ?? 9999,
+			userId,
+			pronunciationScores: null,
+			audioTmpPath: tmpPath,
+			audioMimetype: file.mimetype,
+		});
+
+		this.logger.log(
+			`[SpeakingAnswer] Job queued | exerciseRecordId=${exerciseRecordId} | questionId=${questionId} | answerId=${answerId}`,
+		);
+
+		return ResponseDto.success(
+			Object,
+			{ answerId, questionId, gradingStatus: 'pending', saved: true },
+			'Speaking answer queued for processing',
+		);
+	}
+
 	// 4. COMPLETE ASSESSMENT
 	async completeAssessment(userId: string, exerciseRecordId: string) {
 		const exerciseRecord = await this.prisma.exerciseRecord.findFirst({
@@ -293,6 +387,11 @@ export class AssessmentsService implements OnModuleInit {
 
 		let objectiveTotal = 0;
 		let objectiveScore = 0;
+
+		// Speaking answers submitted via /speaking-answer endpoint không có answerDetails
+		// Job đã được queue sẵn trong submitSpeakingAnswer — không queue lại
+		let hasPendingSpeaking = false;
+
 		const subjectiveAttempts: {
 			answerId: string;
 			type: string;
@@ -358,6 +457,14 @@ export class AssessmentsService implements OnModuleInit {
 					},
 				});
 			} else if (SUBJECTIVE_TYPES.includes(q.type)) {
+				// Speaking fire-and-forget: answerDetails rỗng → job đã được queue
+				// Chỉ cần đánh dấu hasPendingSpeaking để set status=submitted
+				if (q.type === 'speaking' && attempt.answerDetails.length === 0) {
+					hasPendingSpeaking = true;
+					continue;
+				}
+
+				// Essay / short_answer (hoặc speaking cũ nếu có answerDetails)
 				const textAnswer = attempt.answerDetails[0]?.textAnswer ?? '';
 				const scoringJson = q.payload?.scoringJson as any;
 				subjectiveAttempts.push({
@@ -380,7 +487,7 @@ export class AssessmentsService implements OnModuleInit {
 			}
 		}
 
-		const hasSubjective = subjectiveAttempts.length > 0;
+		const hasSubjective = subjectiveAttempts.length > 0 || hasPendingSpeaking;
 		const totalQuestions = allQuestionIds.length;
 
 		if (!hasSubjective) {
@@ -412,6 +519,7 @@ export class AssessmentsService implements OnModuleInit {
 				},
 			});
 
+			// Chỉ queue job cho essay/short_answer (không phải speaking fire-and-forget)
 			for (const sub of subjectiveAttempts) {
 				await this.bullmq.addJob<GradeSubjectiveJobData>(
 					AssessmentQueues.ASSESSMENT_AI,
@@ -432,7 +540,7 @@ export class AssessmentsService implements OnModuleInit {
 			}
 
 			this.logger.log(
-				`Assessment submitted | exerciseRecordId=${exerciseRecordId} | subjective=${subjectiveAttempts.length} pending`,
+				`Assessment submitted | exerciseRecordId=${exerciseRecordId} | subjective=${subjectiveAttempts.length} | pendingSpeaking=${hasPendingSpeaking}`,
 			);
 		}
 
@@ -499,7 +607,6 @@ export class AssessmentsService implements OnModuleInit {
 			})();
 
 			// ─── BUILD aiFeedback ─────────────────────────────────────────────────────
-			// FIX: map đầy đủ format mới + backward compat với data cũ trong DB
 			const aiFeedback = (() => {
 				const evalRecord = ans.evaluations[0];
 				if (!evalRecord) return null;
@@ -511,81 +618,73 @@ export class AssessmentsService implements OnModuleInit {
 							? JSON.parse(evalRecord.criteriaJson)
 							: evalRecord.criteriaJson;
 				} catch {
-					criteria = null;
+					return null;
 				}
 
+				if (!criteria) return null;
+
+				// Pronunciation scores (speaking only — raw Azure scores stored for result page)
+				const pronunciationScores = criteria.pronunciationScores ?? null;
+
+				// criterionBands: map to { name, bandEstimate, internalScore, summary, strengths, weaknesses }
+				const criterionBands = (criteria.criterionBands ?? []).map((c: any) => ({
+					name: c.name,
+					bandEstimate: c.bandEstimate ?? null,
+					internalScore: c.internalScore ?? null,
+					summary: c.summary ?? '',
+					strengths: c.strengths ?? [],
+					weaknesses: c.weaknesses ?? [],
+					subCriteria: c.subCriteria ?? [],
+				}));
+
 				return {
-					// ── Core scores ───────────────────────────────────────────────
-					overallScore: Number(criteria?.overallScore ?? evalRecord.overallScore),
-					estimatedIeltsBand: criteria?.estimatedIeltsBand ?? null,
-					internalScore: criteria?.internalScore ?? Number(evalRecord.overallScore),
-					scoreConfidence: criteria?.scoreConfidence ?? 'medium',
-					scoreRationale: criteria?.scoreRationale ?? '',
-					// ── Band info ─────────────────────────────────────────────────
-					assessmentType: criteria?.assessmentType ?? null,
-					currentLevel: criteria?.currentLevel ?? null,
-					targetLevel: criteria?.targetLevel ?? null,
-					currentBand: criteria?.currentBand ?? null,
-					targetBand: criteria?.targetBand ?? null,
-
-					wordCount: criteria?.wordCount ?? 0,
-					wordCountStatus: criteria?.wordCountStatus ?? '',
-
-					criterionBands: criteria?.criterionBands ?? [],
-					corrections: criteria?.corrections ?? [],
-					priorityFixes: criteria?.priorityFixes ?? [],
-					nextLevelGaps: criteria?.nextLevelGaps ?? [],
-					nextBandTarget: criteria?.nextBandTarget ?? null,
-					styleImprovements: criteria?.styleImprovements ?? [],
-					correctedText: criteria?.correctedText ?? null,
-					pronunciationConfidence: criteria?.pronunciationConfidence ?? null,
-
-					// ── Pronunciation scores (speaking only) — from Azure SDK ─────
-					pronunciationScores: (criteria?.pronunciationScores ?? null) as PronunciationScores | null,
-
-					dimensions: (criteria?.dimensions ?? []).map((d: any) => ({
-						name: d.name ?? '',
-						score: Number(d.score ?? 0),
-						feedback: d.comment ?? d.feedback ?? '',
-					})),
-					suggestions: criteria?.suggestions ?? [],
+					overallScore: Number(evalRecord.overallScore ?? 0),
+					estimatedIeltsBand: criteria.estimatedIeltsBand ?? null,
+					nextBandTarget: criteria.nextBandTarget ?? null,
+					scoreConfidence: criteria.scoreConfidence ?? 'medium',
+					wordCount: criteria.wordCount ?? null,
+					wordCountStatus: criteria.wordCountStatus ?? null,
+					criterionBands,
+					corrections: criteria.corrections ?? [],
+					priorityFixes: criteria.priorityFixes ?? [],
+					nextLevelGaps: criteria.nextLevelGaps ?? [],
+					styleImprovements: criteria.styleImprovements ?? [],
+					correctedText: criteria.correctedText ?? null,
+					pronunciationScores,
 				};
 			})();
 
 			return {
+				answerId: ans.answerId,
 				questionId: ans.questionId,
 				questionType,
-				stemText: ans.question.translations?.[0]?.stemText ?? null,
-				gradingStatus: ans.gradingStatus as string,
-				isCorrect,
-				earnedScore,
+				stemText: q.translations[0]?.stemText ?? null,
 				maxScore,
+				earnedScore,
+				isCorrect,
+				gradingStatus: ans.gradingStatus,
 				userAnswer,
 				correctAnswer,
 				aiFeedback,
-			};
+			} as AnswerResult;
 		});
 
-		const message =
-			exerciseRecord.status === 'submitted' ? 'AI đang chấm bài, vui lòng kiểm tra lại sau.' : undefined;
-
-		const result: AssessmentResultResponse = {
-			exerciseRecordId: exerciseRecord.exerciseRecordId,
-			refType: exerciseRecord.refType,
+		const response: AssessmentResultResponse = {
+			exerciseRecordId,
+			refType: exerciseRecord.refType as string,
 			status: exerciseRecord.status as string,
 			score: exerciseRecord.score !== null ? Number(exerciseRecord.score) : null,
 			totalQuestions,
 			correctCount,
 			startedAt: exerciseRecord.startedAt,
 			completedAt: exerciseRecord.completedAt,
-			message,
 			answers: answersResult,
 		};
 
-		return ResponseDto.success(Object, result);
+		return ResponseDto.success(Object, response, 'Assessment result fetched');
 	}
 
-	// 6. HISTORY
+	// 6. GET HISTORY
 	async getHistory(userId: string, dto: ListAssessmentHistoryDto) {
 		const { pageIndex, pageSize, refType, skillName } = dto;
 		const skip = (pageIndex - 1) * pageSize;
@@ -618,49 +717,6 @@ export class AssessmentsService implements OnModuleInit {
 			Object,
 			new PagingDataDto({ count: skillName ? filtered.length : count, rows: filtered }),
 		);
-	}
-
-	// 7. TRANSCRIBE AUDIO
-	async transcribeAudio(file: Express.Multer.File) {
-		if (!file) throw new BadRequestException('No audio file provided');
-
-		this.logger.log(`[Transcribe] Received | size=${file.size} | mimetype=${file.mimetype}`);
-
-		// [1] Groq Whisper — always runs first, returns transcript quickly
-		const transcriptRaw = await this.aiClient.transcribeAudio({
-			buffer: file.buffer,
-			mimetype: file.mimetype,
-			originalname: file.originalname,
-		});
-
-		const transcript =
-			typeof transcriptRaw === 'string' ? transcriptRaw : ((transcriptRaw as any)?.transcript ?? '');
-
-		this.logger.log(`[Transcribe] Whisper done | transcript length=${transcript.length}`);
-
-		// [2] Azure Pronunciation — wrapped with 8s timeout
-		let pronunciationScores: PronunciationScores | null = null;
-		if (transcript.trim()) {
-			pronunciationScores = await withTimeout(
-				this.aiClient.assessPronunciation({
-					buffer: file.buffer,
-					mimetype: file.mimetype,
-					referenceText: transcript,
-				}),
-				25000,
-				null,
-			);
-
-			if (pronunciationScores) {
-				this.logger.log(`[Transcribe] Azure done | composite=${pronunciationScores.pronComposite}`);
-			} else {
-				this.logger.warn(
-					'[Transcribe] Azure returned null (timeout or error) — transcript still returned to FE',
-				);
-			}
-		}
-
-		return ResponseDto.success(Object, { transcript, pronunciationScores }, 'Transcription successful');
 	}
 
 	// BULLMQ WORKER HANDLER
@@ -710,15 +766,103 @@ export class AssessmentsService implements OnModuleInit {
 			answerId,
 			exerciseRecordId,
 			questionType,
-			textAnswer,
 			stemText,
 			cefrLevel,
 			minWords,
 			maxWords,
 			userId,
-			pronunciationScores,
+			audioTmpPath,
+			audioMimetype,
 		} = job.data;
 
+		// textAnswer và pronunciationScores có thể được fill từ audio flow bên dưới
+		let textAnswer = job.data.textAnswer;
+		let pronunciationScores: PronunciationScores | null = job.data.pronunciationScores ?? null;
+
+		// ── Audio flow (fire-and-forget speaking) ──────────────────────────────
+		// Nếu job có audioTmpPath → đây là speaking answer mới
+		// Chạy Whisper → transcript, Azure → pron scores, lưu AnswerDetails
+		if (audioTmpPath) {
+			this.logger.log(`[GradeJob] Audio flow | answerId=${answerId} | tmpPath=${audioTmpPath}`);
+
+			try {
+				const fsModule = await import('fs');
+
+				if (!fsModule.existsSync(audioTmpPath)) {
+					this.logger.error(`[GradeJob] Tmp file not found: ${audioTmpPath} — score=0`);
+					await this.prisma.answer.update({
+						where: { answerId },
+						data: { score: 0, gradingStatus: 'auto_scored' as any },
+					});
+					return;
+				}
+
+				const audioBuffer = fsModule.readFileSync(audioTmpPath);
+
+				// Cleanup tmp file ngay sau khi đọc
+				try {
+					fsModule.unlinkSync(audioTmpPath);
+				} catch {}
+
+				// [1] Whisper → transcript
+				const transcriptRaw = await this.aiClient.transcribeAudio({
+					buffer: audioBuffer,
+					mimetype: audioMimetype ?? 'audio/webm',
+					originalname: 'recording.webm',
+				});
+				textAnswer =
+					typeof transcriptRaw === 'string' ? transcriptRaw : ((transcriptRaw as any)?.transcript ?? '');
+
+				this.logger.log(`[GradeJob] Whisper done | transcript length=${textAnswer.length}`);
+
+				// [2] Azure → pronunciation scores (non-blocking — nếu fail thì grading vẫn tiếp tục)
+				if (textAnswer.trim()) {
+					try {
+						pronunciationScores = await this.aiClient.assessPronunciation({
+							buffer: audioBuffer,
+							mimetype: audioMimetype ?? 'audio/webm',
+							referenceText: textAnswer,
+						});
+						if (pronunciationScores) {
+							this.logger.log(
+								`[GradeJob] Azure done | composite=${pronunciationScores.pronComposite} | words=${pronunciationScores.words?.length ?? 0}`,
+							);
+						} else {
+							this.logger.warn('[GradeJob] Azure returned null — continuing without pron scores');
+						}
+					} catch (err) {
+						this.logger.warn(`[GradeJob] Azure failed — continuing: ${err.message}`);
+						pronunciationScores = null;
+					}
+				}
+
+				// [3] Lưu AnswerDetails vào DB
+				await this.prisma.answerDetail.deleteMany({ where: { answerId } }); // xóa placeholder nếu có
+				const detailsData: { answerId: string; position: number; textAnswer: string }[] = [
+					{ answerId, position: 1, textAnswer },
+				];
+				if (pronunciationScores) {
+					detailsData.push({
+						answerId,
+						position: 2,
+						textAnswer: JSON.stringify(pronunciationScores),
+					});
+				}
+				await this.prisma.answerDetail.createMany({ data: detailsData });
+				this.logger.log(
+					`[GradeJob] AnswerDetails saved | positions=${detailsData.map((d) => d.position).join(',')}`,
+				);
+			} catch (err) {
+				this.logger.error(`[GradeJob] Audio processing failed: ${err.message}`);
+				await this.prisma.answer.update({
+					where: { answerId },
+					data: { score: 0, gradingStatus: 'auto_scored' as any },
+				});
+				return;
+			}
+		}
+
+		// ── Early exit nếu không có text ──────────────────────────────────────
 		if (!textAnswer || textAnswer.trim().length === 0) {
 			await this.prisma.answer.update({
 				where: { answerId },
@@ -727,6 +871,7 @@ export class AssessmentsService implements OnModuleInit {
 			return;
 		}
 
+		// ── Groq grading ──────────────────────────────────────────────────────
 		const result = await this.aiClient.gradeSubmission({
 			questionType,
 			userText: textAnswer,
@@ -736,7 +881,7 @@ export class AssessmentsService implements OnModuleInit {
 			maxWords,
 		});
 
-		// Merge Pronunciation band vao criterionBands cho speaking
+		// Merge Pronunciation band vào criterionBands cho speaking
 		if (questionType === 'speaking') {
 			const pronBand: any = pronunciationScores
 				? {
@@ -792,25 +937,18 @@ export class AssessmentsService implements OnModuleInit {
 				answerId,
 				overallScore: result.overallScore ?? result.internalScore ?? 0,
 				criteriaJson: {
-					// Core metadata
 					assessmentType: result.assessmentType ?? null,
 					currentLevel: result.currentLevel ?? null,
 					targetLevel: result.targetLevel ?? null,
 					currentBand: result.currentBand ?? null,
 					targetBand: result.targetBand ?? null,
-
-					// Scores
 					estimatedIeltsBand: result.estimatedIeltsBand ?? null,
 					internalScore: result.internalScore ?? result.overallScore ?? 0,
 					overallScore: result.overallScore ?? result.internalScore ?? 0,
 					scoreConfidence: result.scoreConfidence ?? 'medium',
 					scoreRationale: result.scoreRationale ?? '',
-
-					// Word info
 					wordCount: result.wordCount ?? 0,
 					wordCountStatus: result.wordCountStatus ?? '',
-
-					// Grading content
 					criterionBands: result.criterionBands ?? [],
 					corrections: result.corrections ?? [],
 					priorityFixes: result.priorityFixes ?? [],
@@ -818,8 +956,6 @@ export class AssessmentsService implements OnModuleInit {
 					nextBandTarget: result.nextBandTarget ?? null,
 					styleImprovements: result.styleImprovements ?? [],
 					correctedText: result.correctedText ?? null,
-
-					// Pronunciation (speaking only — raw Azure scores stored for result page)
 					pronunciationConfidence: result.pronunciationConfidence ?? null,
 					pronunciationScores: (pronunciationScores ?? null) as any,
 				},
@@ -874,9 +1010,6 @@ export class AssessmentsService implements OnModuleInit {
 
 	// PRIVATE HELPERS
 
-	/**
-	 * LCS word-level diff cho dictation
-	 */
 	private gradeDictation(
 		expected: string,
 		userInput: string,
