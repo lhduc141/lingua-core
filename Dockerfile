@@ -8,7 +8,7 @@ RUN apk add --no-cache libc6-compat openssl
 
 COPY package.json pnpm-lock.yaml* ./
 
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN corepack enable && corepack prepare pnpm@9 --activate
 
 # Production deps only
 RUN pnpm install --frozen-lockfile --prod
@@ -27,7 +27,7 @@ RUN apk add --no-cache \
 
 COPY package.json pnpm-lock.yaml* ./
 
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN corepack enable && corepack prepare pnpm@9 --activate
 
 # Full deps (incl dev deps)
 RUN pnpm install --frozen-lockfile
