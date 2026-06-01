@@ -57,14 +57,11 @@ jobs:
 
           echo "Running Prisma migrations..."
           docker compose -f docker-compose.prod.yml run --rm \
-            -e DATABASE_URL="${DATABASE_URL}" \
             api-gateway \
-            sh -c "npx prisma migrate deploy --schema=./prisma/schema.prisma"
+            sh -c "npx prisma migrate deploy --schema=./prisma/"
 
           echo "Migrations complete"
           ENDSSH
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
       - name: Build and restart app containers
         run: |
@@ -93,9 +90,9 @@ jobs:
             https://api.lingua-panda.io.vn/health/db || echo "000")
           echo "Health check /health/db: $RESPONSE"
           if [ "$RESPONSE" = "200" ]; then
-            echo "✅ Health check PASSED"
+            echo "Health check PASSED"
           else
-            echo "❌ Health check FAILED -- status $RESPONSE"
+            echo "Health check FAILED -- status $RESPONSE"
             exit 1
           fi
 

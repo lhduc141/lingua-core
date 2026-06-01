@@ -1,7 +1,7 @@
 # LINGUAPANDA - PRODUCTION DOCKERFILE (MONOREPO, PRISMA ONLY FOR api-gateway)
 
 # STAGE 1: DEPENDENCIES (prod only)
-FROM node:20-alpine AS deps
+FROM node:24-alpine AS deps
 WORKDIR /app
 
 RUN apk add --no-cache libc6-compat openssl
@@ -15,7 +15,7 @@ RUN pnpm install --frozen-lockfile --prod
 
 
 # STAGE 2: BUILDER (full deps + build)
-FROM node:20-alpine AS builder
+FROM node:24-alpine AS builder
 WORKDIR /app
 
 RUN apk add --no-cache \
@@ -53,7 +53,7 @@ RUN pnpm build ${SERVICE_NAME}
 
 
 # STAGE 3: RUNNER (prod runtime)
-FROM node:20-alpine AS runner
+FROM node:24-alpine AS runner
 WORKDIR /app
 
 RUN apk add --no-cache \

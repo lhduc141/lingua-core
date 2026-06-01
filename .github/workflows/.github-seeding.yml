@@ -8,11 +8,13 @@ on:
         required: true
         type: choice
         options:
-          - prisma/seeds/practice/seed-writing-task2.ts
-          - prisma/seeds/practice/seed-practice-from-json.ts
           - prisma/seeds/content/seed-content-from-json.ts
           - prisma/seeds/placement/seed-placement.ts
           - prisma/seeds/dictionary/seed-dictionary.ts
+          - prisma/seeds/practice/seed-practice-from-json.ts
+          - prisma/seeds/practice/seeding-writing-task2.ts
+          - prisma/seeds/practice/seed-speaking-task2.ts
+          - prisma/seeds/listening/seed-listening.ts
 
 jobs:
   seed:
@@ -31,6 +33,7 @@ jobs:
       - name: Run seed on VPS
         run: |
           ssh ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }} << 'EOF'
+            set -e
             cd /root/lingua-core
 
             echo "Running seed: ${{ github.event.inputs.seed_file }}"
@@ -38,5 +41,5 @@ jobs:
             docker exec linguapanda_api_gateway \
               node_modules/.bin/tsx ${{ github.event.inputs.seed_file }}
 
-            echo "Seed complete"
+            echo "Seed complete: ${{ github.event.inputs.seed_file }}"
           EOF

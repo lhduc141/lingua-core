@@ -25,6 +25,10 @@ import { AssessmentResultResponse } from './interface/assessment-result-response
 import { AssessmentHistoryItem } from './interface/assessment-history-item.interface';
 import { AnswerResult } from './interface/answer-result.interface';
 
+import * as fs from 'fs';
+import * as os from 'os';
+import * as path from 'path';
+
 const SUBJECTIVE_TYPES = ['essay', 'speaking', 'short_answer'];
 const OBJECTIVE_TYPES = ['mcq_single', 'mcq_multi', 'fill_blank', 'matching', 'ordering', 'cloze_bank'];
 
@@ -276,11 +280,8 @@ export class AssessmentsService implements OnModuleInit {
 
 		// Lưu audio buffer vào tmp file trên server filesystem
 		// Job sẽ đọc file này để chạy Whisper + Azure
-		const fsModule = await import('fs');
-		const osModule = await import('os');
-		const pathModule = await import('path');
-		const tmpPath = pathModule.join(osModule.tmpdir(), `speaking_${exerciseRecordId}_${Date.now()}.webm`);
-		fsModule.writeFileSync(tmpPath, file.buffer);
+		const tmpPath = path.join(os.tmpdir(), `speaking_${exerciseRecordId}_${Date.now()}.webm`);
+		fs.writeFileSync(tmpPath, file.buffer);
 		this.logger.log(`[SpeakingAnswer] Audio saved | size=${file.size} | tmpPath=${tmpPath}`);
 
 		// Lấy thông tin câu hỏi để build job data
@@ -606,7 +607,7 @@ export class AssessmentsService implements OnModuleInit {
 				return null;
 			})();
 
-			// ─── BUILD aiFeedback ─────────────────────────────────────────────────────
+			//─ BUILD aiFeedback─
 			const aiFeedback = (() => {
 				const evalRecord = ans.evaluations[0];
 				if (!evalRecord) return null;
@@ -775,20 +776,15 @@ export class AssessmentsService implements OnModuleInit {
 			audioMimetype,
 		} = job.data;
 
-		// textAnswer và pronunciationScores có thể được fill từ audio flow bên dưới
 		let textAnswer = job.data.textAnswer;
 		let pronunciationScores: PronunciationScores | null = job.data.pronunciationScores ?? null;
 
-		// ── Audio flow (fire-and-forget speaking) ──────────────────────────────
-		// Nếu job có audioTmpPath → đây là speaking answer mới
-		// Chạy Whisper → transcript, Azure → pron scores, lưu AnswerDetails
+		// Audio flow (fire-and-forget speaking)
 		if (audioTmpPath) {
 			this.logger.log(`[GradeJob] Audio flow | answerId=${answerId} | tmpPath=${audioTmpPath}`);
 
 			try {
-				const fsModule = await import('fs');
-
-				if (!fsModule.existsSync(audioTmpPath)) {
+				if (!fs.existsSync(audioTmpPath)) {
 					this.logger.error(`[GradeJob] Tmp file not found: ${audioTmpPath} — score=0`);
 					await this.prisma.answer.update({
 						where: { answerId },
@@ -797,14 +793,13 @@ export class AssessmentsService implements OnModuleInit {
 					return;
 				}
 
-				const audioBuffer = fsModule.readFileSync(audioTmpPath);
+				const audioBuffer = fs.readFileSync(audioTmpPath);
 
-				// Cleanup tmp file ngay sau khi đọc
 				try {
-					fsModule.unlinkSync(audioTmpPath);
+					fs.unlinkSync(audioTmpPath);
 				} catch {}
 
-				// [1] Whisper → transcript
+				// [1] Whisper to transcript
 				const transcriptRaw = await this.aiClient.transcribeAudio({
 					buffer: audioBuffer,
 					mimetype: audioMimetype ?? 'audio/webm',
@@ -815,7 +810,7 @@ export class AssessmentsService implements OnModuleInit {
 
 				this.logger.log(`[GradeJob] Whisper done | transcript length=${textAnswer.length}`);
 
-				// [2] Azure → pronunciation scores (non-blocking — nếu fail thì grading vẫn tiếp tục)
+				// [2] Azure to pronunciation scores (non-blocking — nếu fail thì grading vẫn tiếp tục)
 				if (textAnswer.trim()) {
 					try {
 						pronunciationScores = await this.aiClient.assessPronunciation({
@@ -862,7 +857,7 @@ export class AssessmentsService implements OnModuleInit {
 			}
 		}
 
-		// ── Early exit nếu không có text ──────────────────────────────────────
+		// Early exit nếu không có text
 		if (!textAnswer || textAnswer.trim().length === 0) {
 			await this.prisma.answer.update({
 				where: { answerId },
@@ -871,7 +866,7 @@ export class AssessmentsService implements OnModuleInit {
 			return;
 		}
 
-		// ── Groq grading ──────────────────────────────────────────────────────
+		// Groq grading
 		const result = await this.aiClient.gradeSubmission({
 			questionType,
 			userText: textAnswer,
