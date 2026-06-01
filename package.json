@@ -108,5 +108,18 @@
 			"^@app/jwt(|/.*)$": "<rootDir>/libs/jwt/src/$1",
 			"^@app/shared(|/.*)$": "<rootDir>/libs/shared/src/$1"
 		}
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"@nestjs/core",
+			"@prisma/client",
+			"@prisma/engines",
+			"argon2",
+			"esbuild",
+			"prisma",
+			"unrs-resolver",
+			"@scarf/scarf",
+			"msgpackr-extract"
+		]
 	}
 }
