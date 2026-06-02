@@ -87,7 +87,7 @@ jobs:
         run: |
           sleep 5
           RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" \
-            https://api.lingua-panda.io.vn/health/db || echo "000")
+            https://api.lingua-panda.io.vn/health/services || echo "000")
           echo "Health check /health/db: $RESPONSE"
           if [ "$RESPONSE" = "200" ]; then
             echo "Health check PASSED"
