@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { AiServiceController } from './ai-service.controller';
 import { AiServiceService } from './ai-service.service';
 import { ConfigModule } from '@nestjs/config';
+import { GrammarCheckService } from './grammar-check/grammar-check.service';
 
 @Module({
 	imports: [
@@ -11,6 +12,6 @@ import { ConfigModule } from '@nestjs/config';
 		}),
 	],
 	controllers: [AiServiceController],
-	providers: [AiServiceService],
+	providers: [AiServiceService, GrammarCheckService],
 })
 export class AiServiceModule {}

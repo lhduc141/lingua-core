@@ -11,6 +11,7 @@ export * from './learning.constant';
 export * from './ielts-descriptors.constant'
 export * from './ielts-writing-band-description.constant'
 export * from './ielts-speaking-band-description.constant'
+export * from './ielts-writing-anchors.constant'
 
 export const DEFAULT_PAGE_INDEX = 1;
 export const DEFAULT_PAGE_SIZE = 20;

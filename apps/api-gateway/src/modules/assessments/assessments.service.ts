@@ -651,7 +651,11 @@ export class AssessmentsService implements OnModuleInit {
 					nextLevelGaps: criteria.nextLevelGaps ?? [],
 					styleImprovements: criteria.styleImprovements ?? [],
 					correctedText: criteria.correctedText ?? null,
+					paragraphFeedback: criteria.paragraphFeedback ?? [],
 					pronunciationScores,
+					validationWarnings: criteria.validationWarnings ?? [],
+					requiresReview: criteria.requiresReview ?? false,
+					reviewReason: criteria.reviewReason ?? null,
 				};
 			})();
 
@@ -951,8 +955,12 @@ export class AssessmentsService implements OnModuleInit {
 					nextBandTarget: result.nextBandTarget ?? null,
 					styleImprovements: result.styleImprovements ?? [],
 					correctedText: result.correctedText ?? null,
+					paragraphFeedback: result.paragraphFeedback ?? [],
 					pronunciationConfidence: result.pronunciationConfidence ?? null,
 					pronunciationScores: (pronunciationScores ?? null) as any,
+					validationWarnings: result.validationWarnings ?? [],
+					requiresReview: result.requiresReview ?? false,
+					reviewReason: result.reviewReason ?? null,
 				},
 			},
 		});

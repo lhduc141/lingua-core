@@ -54,6 +54,23 @@ services:
         max-size: "10m"
         max-file: "3"
 
+  languagetool:
+    image: meyay/languagetool:latest
+    container_name: linguapanda_languagetool
+    restart: unless-stopped
+    environment:
+      - Java_Xms=256m
+      - Java_Xmx=768m
+    ports:
+      - "8081:8010"
+    networks:
+      - linguapanda_network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
   api-gateway:
     build:
       context: .
@@ -118,11 +135,14 @@ services:
       - REDIS_PASSWORD=${REDIS_PASSWORD:-R3d1sP4ss_Pr0d_2025!Secur3}
       - AZURE_SPEECH_KEY=${AZURE_SPEECH_KEY}
       - AZURE_SPEECH_REGION=${AZURE_SPEECH_REGION}
+      - LANGUAGE_TOOL_URL=http://languagetool:8081
     ports:
       - "4001:4001"
     depends_on:
       redis:
         condition: service_healthy
+      languagetool:
+        condition: service_started
     networks:
       - linguapanda_network
     logging:

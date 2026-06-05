@@ -1,0 +1,10 @@
+services:
+  languagetool:
+    image: meyay/languagetool:latest
+    container_name: linguapanda_languagetool_local
+    restart: unless-stopped
+    environment:
+      - Java_Xms=256m
+      - Java_Xmx=512m
+    ports:
+      - "8081:8081"

@@ -13,17 +13,18 @@ import {
 	type GradingPayload,
 	type SurfaceIssue,
 } from './prompts';
+import { GrammarCheckService } from './grammar-check/grammar-check.service';
+import type { GrammarCheckResult } from './grammar-check/grammar-check.interface';
 
 @Injectable()
 export class AiServiceService {
 	RETRY_DELAYS = [2000, 5000, 10000];
 
-	private readonly MODELS = ['llama-3.3-70b-versatile', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
+	private readonly MODELS = ['llama-3.3-70b-versatile', 'llama-3.3-70b-versatile', 'llama-3.3-70b-versatile'];
 
 	private readonly logger = new Logger(AiServiceService.name);
 	private readonly groqClients: Groq[];
 
-	// Writing: 4 criteria
 	private readonly REQUIRED_WRITING_CRITERIA = [
 		'Task Response',
 		'Coherence & Cohesion',
@@ -31,7 +32,6 @@ export class AiServiceService {
 		'Grammatical Range & Accuracy',
 	] as const;
 
-	// Speaking: 3 criteria từ LLM (Pronunciation thêm từ Azure sau)
 	private readonly REQUIRED_SPEAKING_CRITERIA = [
 		'Fluency & Coherence',
 		'Lexical Resource',
@@ -49,7 +49,10 @@ export class AiServiceService {
 
 	private readonly ALLOWED_SEVERITIES = new Set(['low', 'medium', 'high']);
 
-	constructor(private configService: ConfigService) {
+	constructor(
+		private configService: ConfigService,
+		private readonly grammarCheck: GrammarCheckService,
+	) {
 		const keys = [
 			configService.get<string>('GROQ_API_KEY'),
 			configService.get<string>('GROQ_API_KEY_2'),
@@ -108,15 +111,28 @@ export class AiServiceService {
 		// [1] Pre-check surface issues (writing only)
 		const surfaceIssues: SurfaceIssue[] = isWriting ? this.detectSurfaceIssues(payload.userText) : [];
 
+		// [1b] Grammar pre-scan (writing only)
+		let grammarCheckResult: GrammarCheckResult | undefined;
+		if (isWriting) {
+			grammarCheckResult = await this.grammarCheck.check(payload.userText);
+			this.logger.log(
+				`[GrammarCheck] issues=${grammarCheckResult.issues.length} ` +
+					`mediumHigh=${grammarCheckResult.mediumHighCount} ` +
+					`ceiling=${grammarCheckResult.graCeiling ?? 'none'} ` +
+					`sources=[${grammarCheckResult.sources.join(',')}] ` +
+					`ltStatus=${grammarCheckResult.ltStatus}`,
+			);
+		}
+
 		// [2] Build prompt
 		const prompt = isSpeaking
 			? buildSpeakingGradingPrompt(payload)
 			: payload.questionType === 'dictation'
 				? buildDictationGradingPrompt(payload)
-				: buildWritingGradingPrompt(payload, surfaceIssues);
+				: buildWritingGradingPrompt(payload, surfaceIssues, grammarCheckResult);
 
 		// [3] Call AI
-		const raw = await this.callGroq(prompt, true, 6000);
+		const raw = await this.callGroq(prompt, true, 8000);
 		const result = JSON.parse(this.cleanJson(raw));
 
 		// [4] Post-process pipeline
@@ -130,8 +146,22 @@ export class AiServiceService {
 			// Pass questionType so each validator uses the correct criteria
 			warnings.push(...this.normalizeCriterionBands(result, payload.questionType));
 			warnings.push(...this.validateEvidenceQuotes(result, payload.userText));
+			// [Pass 1] Normalize LLM output trước khi check coverage
 			warnings.push(...this.normalizeCorrections(result, payload.userText));
 			warnings.push(...this.normalizeStyleImprovements(result, payload.userText));
+
+			// GRA ceiling enforcement from grammar pre-scan
+			if (grammarCheckResult?.graCeiling != null)
+				warnings.push(...this.applyGraCeiling(result, grammarCheckResult.graCeiling));
+
+			// [Pass 2] Inject missing pre-scan issues vào corrections đã sạch
+			if (grammarCheckResult && grammarCheckResult.mediumHighCount > 0) {
+				warnings.push(...this.validatePreScanCoverage(result, grammarCheckResult));
+			}
+
+			// [Pass 3] Normalize lại để validate injected corrections
+			warnings.push(...this.normalizeCorrections(result, payload.userText));
+
 			warnings.push(...this.validateBandConsistency(result));
 
 			// Task Response caps apply to writing only
@@ -144,7 +174,8 @@ export class AiServiceService {
 
 			this.downgradeConfidence(result, warnings);
 
-			result.overallScore = result.internalScore ?? Math.round((result.estimatedIeltsBand / 9) * 100) / 10;
+			// Recompute từ estimatedIeltsBand đã qua validator — không dùng internalScore cũ từ LLM
+			result.overallScore = Math.round((result.estimatedIeltsBand / 9) * 100) / 10;
 		}
 
 		return result;
@@ -189,8 +220,7 @@ export class AiServiceService {
 		}
 	}
 
-	// ─── Groq Whisper transcription ───────────────────────────────────────────
-	// Called via TCP MessagePattern 'ai.audio.transcribe' from api-gateway
+	// Groq Whisper transcription
 	async transcribeAudio(payload: {
 		buffer: Buffer | { type: 'Buffer'; data: number[] } | number[] | Uint8Array;
 		mimetype: string;
@@ -220,8 +250,7 @@ export class AiServiceService {
 		return result.text;
 	}
 
-	// ─── Azure Pronunciation Assessment ──────────────────────────────────────
-	// Called via TCP MessagePattern 'ai.pronunciation.assess' from api-gateway
+	// Azure Pronunciation Assessment
 	async assessPronunciation(payload: {
 		buffer: Buffer | { type: 'Buffer'; data: number[] } | number[] | Uint8Array;
 		mimetype: string;
@@ -281,7 +310,6 @@ export class AiServiceService {
 			this.logger.log('[Azure] Calling recognizeOnceAsync...');
 
 			return new Promise((resolve) => {
-				// settled flag — đảm bảo Promise chỉ resolve 1 lần duy nhất
 				let settled = false;
 
 				const finish = (value: any) => {
@@ -294,7 +322,6 @@ export class AiServiceService {
 					resolve(value);
 				};
 
-				// Hard 20s timeout — nếu Azure không trả về trong 20s → resolve null
 				const timer = setTimeout(() => {
 					this.logger.warn('[Azure] recognizeOnceAsync timed out after 20s — resolving null');
 					finish(null);
@@ -302,7 +329,6 @@ export class AiServiceService {
 
 				recognizer.recognizeOnceAsync(
 					(result) => {
-						// Late callback — timeout đã resolve rồi, bỏ qua hoàn toàn
 						if (settled) {
 							this.logger.warn('[Azure] Late callback ignored after timeout');
 							return;
@@ -354,7 +380,6 @@ export class AiServiceService {
 						});
 					},
 					(error) => {
-						// Error callback từ Azure SDK
 						this.logger.error(`[Azure] recognizeOnceAsync error: ${error}`);
 						finish(null);
 					},
@@ -367,6 +392,52 @@ export class AiServiceService {
 	}
 
 	// PRE-CHECK
+	private validatePreScanCoverage(result: any, grammarCheck: GrammarCheckResult): string[] {
+		const warnings: string[] = [];
+		const corrections = this.asArray(result.corrections);
+		const styleImprovements = this.asArray(result.styleImprovements);
+
+		const coveredOriginals = new Set<string>([
+			...corrections.map((c: any) => (c.original ?? '').toLowerCase()),
+			...styleImprovements.map((s: any) => (s.original ?? '').toLowerCase()),
+		]);
+
+		const uncovered = grammarCheck.issues.filter(
+			(issue) =>
+				(issue.severity === 'medium' || issue.severity === 'high') &&
+				!coveredOriginals.has(issue.original.toLowerCase()),
+		);
+
+		if (uncovered.length === 0) return warnings;
+
+		warnings.push(
+			`Pre-scan coverage: ${uncovered.length} medium/high issue(s) not in corrections/styleImprovements`,
+		);
+
+		// Auto-inject uncovered issues into corrections if slots remain (max 5 total)
+		const slotsLeft = 5 - corrections.length;
+		if (slotsLeft > 0) {
+			const toInject = uncovered.slice(0, slotsLeft);
+			for (const issue of toInject) {
+				result.corrections.push({
+					type: 'grammar',
+					original: issue.original,
+					corrected: issue.corrected,
+					explanation: issue.explanation,
+					severity: issue.severity,
+				});
+				warnings.push(`Auto-injected correction: "${issue.original}" → "${issue.corrected}"`);
+			}
+		}
+
+		// Downgrade confidence if issues remain uncovered after injection
+		const stillUncovered = uncovered.length - Math.min(slotsLeft, uncovered.length);
+		if (stillUncovered > 0 && result.scoreConfidence === 'high') {
+			result.scoreConfidence = 'medium';
+		}
+
+		return warnings;
+	}
 
 	private detectSurfaceIssues(text: string): SurfaceIssue[] {
 		const issues: SurfaceIssue[] = [];
@@ -413,7 +484,6 @@ export class AiServiceService {
 	}
 
 	// POST-PROCESSING VALIDATORS
-
 	private asArray<T = any>(value: unknown): T[] {
 		return Array.isArray(value) ? value : [];
 	}
@@ -547,6 +617,24 @@ export class AiServiceService {
 		return warnings;
 	}
 
+	// GRA ceiling enforcement based on grammar pre-scan
+	private applyGraCeiling(result: any, ceiling: number): string[] {
+		const warnings: string[] = [];
+		const bands = this.asArray(result.criterionBands);
+		const graBand = bands.find((c: any) => c.name === 'Grammatical Range & Accuracy');
+		if (!graBand) return warnings;
+
+		const current = Number(graBand.bandEstimate);
+		if (Number.isFinite(current) && current > ceiling) {
+			warnings.push(
+				`GRA adjusted from ${current} to ${ceiling} — grammar pre-scan detected multiple medium/high issues`,
+			);
+			graBand.bandEstimate = ceiling;
+			if (result.scoreConfidence === 'high') result.scoreConfidence = 'medium';
+		}
+		return warnings;
+	}
+
 	private validateBandConsistency(result: any): string[] {
 		const warnings: string[] = [];
 		const vaguePattern = /\b(may|some|could|occasional|possibly|might)\b/i;
@@ -653,18 +741,6 @@ export class AiServiceService {
 		return 3.5;
 	}
 
-	/**
-	 * Convert WebM/Opus audio buffer to raw PCM s16le 16kHz mono.
-	 *
-	 * IMPORTANT: Output is raw PCM bytes WITHOUT RIFF header.
-	 * This matches what Azure SDK createPushStream(getWaveFormatPCM) expects.
-	 * Using -f wav (with RIFF header) into a PCM PushStream causes Azure to
-	 * misread the header bytes as audio data → no recognition result.
-	 *
-	 * Requires ffmpeg on PATH:
-	 *   - Local: brew install ffmpeg / apt install ffmpeg
-	 *   - Docker: apk add ffmpeg (added to Dockerfile runner stage)
-	 */
 	private async convertToPcm(inputBuffer: Buffer): Promise<Buffer | null> {
 		let inputFile = '';
 		let outFile = '';
@@ -693,7 +769,6 @@ export class AiServiceService {
 			this.logger.error(`[ffmpeg] Conversion failed: ${err.message}`);
 			return null;
 		} finally {
-			// Always cleanup temp files
 			try {
 				const fs = await import('fs');
 				if (inputFile) {
@@ -711,7 +786,6 @@ export class AiServiceService {
 	}
 
 	// CORE INFRASTRUCTURE
-
 	private normalizeAudioBuffer(input: any): Buffer {
 		if (Buffer.isBuffer(input)) return input;
 		if (input instanceof Uint8Array) return Buffer.from(input);
