@@ -29,7 +29,7 @@ export class LearningPlanService implements OnModuleInit {
 	private readonly logger = new Logger(LearningPlanService.name);
 
 	private readonly WEEKDAYS = ['MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY'];
-	private readonly SUPPORTED_SKILLS = ['reading', 'writing', 'speaking' /*, 'listening'*/]; 
+	private readonly SUPPORTED_SKILLS = ['reading', 'writing', 'speaking' /*, 'listening'*/];
 
 	constructor(
 		private readonly prisma: PrismaService,
@@ -204,6 +204,11 @@ export class LearningPlanService implements OnModuleInit {
 		});
 
 		const recentPerformance = await this.getRecentPerformance(userId);
+		const recentWeaknesses = await this.getRecentWeaknesses(userId);
+		this.logger.log(
+			`Recent weaknesses extracted | userId=${userId} | count=${recentWeaknesses.length}` +
+				(recentWeaknesses.length > 0 ? ` | tags=[${recentWeaknesses.map((w: any) => w.tag).join(',')}]` : ''),
+		);
 		const availableDays = this.normalizeAvailableDays(survey.availableDays);
 
 		const rawFocusSkills = Array.isArray(survey.primaryFocusSkills)
@@ -296,6 +301,7 @@ export class LearningPlanService implements OnModuleInit {
 			weekEndDate,
 			weekDates,
 			skillPerformance: skillPerformanceSummary,
+			recentWeaknesses: recentWeaknesses.length > 0 ? recentWeaknesses : null,
 			compactContent,
 			dailyMinutesLimit,
 		};
@@ -857,6 +863,139 @@ export class LearningPlanService implements OnModuleInit {
 	}
 
 	// PRIVATE: Get recent performance
+	// PRIVATE: Extract recent weaknesses from Writing/Speaking AI feedback
+	private async getRecentWeaknesses(userId: string): Promise<any[]> {
+		const records = await this.prisma.exerciseRecord.findMany({
+			where: { userId, status: 'scored' as any, deletedAt: null },
+			orderBy: { completedAt: 'desc' },
+			take: 5,
+			select: {
+				completedAt: true,
+				answers: {
+					where: {
+						deletedAt: null,
+						gradingStatus: { in: ['auto_scored', 'ai_scored', 'human_reviewed'] as any },
+					},
+					select: {
+						question: { select: { type: true } },
+						evaluations: {
+							where: { deletedAt: null },
+							take: 1,
+							select: { criteriaJson: true },
+						},
+					},
+				},
+			},
+		});
+
+		const CRITERION_TAG_MAP: Record<string, string> = {
+			'Task Response': 'writing_task_response',
+			'Coherence & Cohesion': 'writing_coherence_cohesion',
+			'Lexical Resource': 'writing_vocabulary_range',
+			'Grammatical Range & Accuracy': 'writing_grammar_accuracy',
+			'Fluency & Coherence': 'speaking_fluency_coherence',
+			Pronunciation: 'speaking_pronunciation',
+		};
+
+		const CORRECTION_TAG_MAP: Record<string, string> = {
+			subject_verb_agreement: 'grammar_subject_verb_agreement',
+			gerund_infinitive: 'grammar_verb_patterns',
+			verb_pattern: 'grammar_verb_patterns',
+			article: 'grammar_articles',
+			preposition: 'grammar_prepositions',
+		};
+
+		const getBandSeverity = (band: number): 'low' | 'medium' | 'high' => {
+			if (band < 5.5) return 'high';
+			if (band < 6.0) return 'medium';
+			return 'low';
+		};
+
+		const weaknesses: any[] = [];
+
+		for (const record of records) {
+			const date = record.completedAt?.toISOString().split('T')[0] ?? null;
+
+			for (const ans of record.answers ?? []) {
+				const questionType = ans.question?.type ?? '';
+				if (!['essay', 'speaking'].includes(questionType)) continue;
+
+				const evalRecord = ans.evaluations?.[0];
+				if (!evalRecord?.criteriaJson) continue;
+
+				let criteria: any;
+				try {
+					criteria =
+						typeof evalRecord.criteriaJson === 'string'
+							? JSON.parse(evalRecord.criteriaJson)
+							: evalRecord.criteriaJson;
+				} catch {
+					continue;
+				}
+
+				const skill = questionType === 'essay' ? 'writing' : 'speaking';
+
+				// Extract weak criterion bands (bandEstimate < 6.5)
+				if (Array.isArray(criteria?.criterionBands)) {
+					for (const band of criteria.criterionBands) {
+						const bandScore = Number(band.bandEstimate ?? band.score ?? band.internalScore);
+						if (!Number.isFinite(bandScore) || bandScore >= 6.5) continue;
+
+						const criterionName = String(band.name ?? '');
+
+						// Skill-specific tag: Speaking dùng speaking_* thay vì writing_*
+						let tag = CRITERION_TAG_MAP[criterionName];
+						if (skill === 'speaking') {
+							if (criterionName === 'Lexical Resource') tag = 'speaking_vocabulary_range';
+							if (criterionName === 'Grammatical Range & Accuracy') tag = 'speaking_grammar_accuracy';
+						}
+						if (!tag) continue;
+
+						const existing = weaknesses.find((w) => w.tag === tag);
+						if (!existing) {
+							weaknesses.push({
+								skill,
+								criterion: criterionName,
+								tag,
+								severity: getBandSeverity(bandScore),
+								score: bandScore,
+								evidence: band.summary ?? band.weaknesses?.[0] ?? null,
+								date,
+							});
+						}
+					}
+				}
+
+				// Extract correction-based weaknesses (grammar categories)
+				if (Array.isArray(criteria?.corrections)) {
+					for (const correction of criteria.corrections.slice(0, 5)) {
+						const category = String(correction.category ?? correction.type ?? '');
+						const tag = CORRECTION_TAG_MAP[category];
+						if (!tag) continue;
+
+						const existing = weaknesses.find((w) => w.tag === tag);
+						if (!existing && (correction.severity === 'medium' || correction.severity === 'high')) {
+							weaknesses.push({
+								skill,
+								criterion: 'correction',
+								tag,
+								severity: correction.severity,
+								score: null,
+								evidence:
+									correction.original && correction.corrected
+										? `"${correction.original}" → "${correction.corrected}"`
+										: null,
+								date,
+							});
+						}
+					}
+				}
+			}
+		}
+
+		return weaknesses.slice(0, 6);
+	}
+
 	private async getRecentPerformance(userId: string) {
 		const recentRecords = await this.prisma.exerciseRecord.findMany({
 			where: { userId, status: 'scored', deletedAt: null },
@@ -962,12 +1101,38 @@ export class LearningPlanService implements OnModuleInit {
 					allCorrections.push(...criteria.corrections.slice(0, 3));
 				}
 
+				// Parse legacy dimensions shape (objective grading)
 				if (Array.isArray(criteria?.dimensions)) {
 					for (const dim of criteria.dimensions) {
 						const name = dim.name ?? '';
 						if (!dimensionMap[name]) dimensionMap[name] = { scores: [], comments: [] };
 						if (dim.score != null) dimensionMap[name].scores.push(Number(dim.score));
 						if (dim.comment) dimensionMap[name].comments.push(dim.comment);
+					}
+				}
+
+				// Parse criterionBands shape (Writing/Speaking AI feedback)
+				if (Array.isArray(criteria?.criterionBands)) {
+					for (const band of criteria.criterionBands) {
+						const name = (band.name ?? band.criterion ?? band.dimension ?? '') as string;
+						if (!name) continue;
+
+						if (!dimensionMap[name]) dimensionMap[name] = { scores: [], comments: [] };
+
+						const score = band.bandEstimate ?? band.score ?? band.internalScore ?? null;
+						if (score != null && !Number.isNaN(Number(score))) {
+							dimensionMap[name].scores.push(Number(score));
+						}
+
+						const comment = band.summary ?? band.feedback ?? band.comment ?? band.diagnosis ?? null;
+						if (comment) dimensionMap[name].comments.push(String(comment));
+
+						// Include top weaknesses as additional comment context
+						if (Array.isArray(band.weaknesses)) {
+							for (const weakness of band.weaknesses.slice(0, 2)) {
+								if (weakness) dimensionMap[name].comments.push(String(weakness));
+							}
+						}
 					}
 				}
 			}

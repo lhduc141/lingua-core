@@ -8,20 +8,31 @@ export function buildPlanGenerationPrompt(payload: any): string {
 		weekEndDate,
 		weekDates,
 		skillPerformance,
+		recentWeaknesses,
 		compactContent,
 		dailyMinutesLimit,
 	} = payload;
 
-	const availableDays            = goals?.availableDays ?? [];
-	const focusSkills              = goals?.focusSkills ?? [];
-	const planSkills               = goals?.planSkills ?? [];
+	const availableDays = goals?.availableDays ?? [];
+	const focusSkills = goals?.focusSkills ?? [];
+	const planSkills = goals?.planSkills ?? [];
 	const plannedStudyHoursPerWeek = goals?.plannedStudyHoursPerWeek || 7;
-	const dailyMinutes             =
-		dailyMinutesLimit ??
-		Math.ceil((plannedStudyHoursPerWeek / Math.max(availableDays.length || 1, 1)) * 60);
+	const dailyMinutes =
+		dailyMinutesLimit ?? Math.ceil((plannedStudyHoursPerWeek / Math.max(availableDays.length || 1, 1)) * 60);
 
-	const perfStr      = (skillPerformance ?? []).map((p: any) => `${p.skill}:${p.avg}%`).join(' ') || 'no data yet';
+	const perfStr = (skillPerformance ?? []).map((p: any) => `${p.skill}:${p.avg}%`).join(' ') || 'no data yet';
 	const weekRangeText = (weekDates ?? []).map((d: any) => `day ${d.day} = ${d.weekday}, ${d.date}`).join('\n');
+
+	const weaknessLines =
+		Array.isArray(recentWeaknesses) && recentWeaknesses.length > 0
+			? recentWeaknesses
+					.map((w: any) => {
+						const score = w.score != null ? ` (band ${w.score})` : '';
+						const ev = w.evidence ? ` — e.g. ${w.evidence}` : '';
+						return `- [${w.severity.toUpperCase()}] ${w.skill} / ${w.criterion}${score}${ev}`;
+					})
+					.join('\n')
+			: null;
 
 	return dedent`
 		You are LinguaPanda AI Tutor — adaptive English learning plan generator.
@@ -33,6 +44,13 @@ export function buildPlanGenerationPrompt(payload: any): string {
 		- Planned study time: ${plannedStudyHoursPerWeek} hours/week
 		- Daily time limit: ${dailyMinutes} minutes
 		- Performance: ${perfStr}
+
+		${
+			weaknessLines
+				? `RECENT WEAKNESSES (from AI feedback on latest Writing/Speaking attempts):
+${weaknessLines}`
+				: ''
+		}
 
 		CURRENT WEEK:
 		- weekStartDate: ${weekStartDate}
@@ -82,6 +100,7 @@ export function buildPlanGenerationPrompt(payload: any): string {
 		19. Do NOT reuse the same refId more than once.
 		20. Prefer different shortIds across days.
 		21. If not enough content, use another allowed skill or custom_activity.
+		${weaknessLines ? `22. RECENT WEAKNESSES RULE: Include 1–2 tasks that directly target the weaknesses listed above. If no matching lesson/practice exists for a weakness, use itemType="custom_activity" with a short remedial description (e.g. "Practice subject-verb agreement in 5 sentences", "Repeat speaking answer to improve fluency"). Ensure the rationale references the weakness.` : ''}
 
 		RESPOND ONLY WITH THIS JSON FORMAT:
 		{
