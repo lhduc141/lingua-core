@@ -16,6 +16,19 @@ import {
 import { GrammarCheckService } from './grammar-check/grammar-check.service';
 import type { GrammarCheckResult } from './grammar-check/grammar-check.interface';
 
+type TaskResponseCapResult = {
+	warnings: string[];
+	overallCap: number | null;
+};
+
+type TaskRelevanceResult = {
+	isLikelyOffTopic: boolean;
+	coverage: number;
+	matchedCount: number;
+	totalKeywords: number;
+	reason: string | null;
+};
+
 @Injectable()
 export class AiServiceService {
 	RETRY_DELAYS = [2000, 5000, 10000];
@@ -132,7 +145,7 @@ export class AiServiceService {
 				: buildWritingGradingPrompt(payload, surfaceIssues, grammarCheckResult);
 
 		// [3] Call AI
-		const raw = await this.callGroq(prompt, true, 8000);
+		const raw = await this.callGroq(prompt, true, 6000);
 		const result = JSON.parse(this.cleanJson(raw));
 
 		// [4] Post-process pipeline
@@ -165,16 +178,33 @@ export class AiServiceService {
 			warnings.push(...this.validateBandConsistency(result));
 
 			// Task Response caps apply to writing only
+			// capsResult.overallCap được apply SAU computeOverallBand để tránh bị ghi đè
+			let capsResult: TaskResponseCapResult = { warnings: [], overallCap: null };
 			if (!isSpeaking) {
-				warnings.push(...this.applyTaskResponseCaps(result));
+				const taskRelevance = isWriting
+					? this.detectTaskRelevance(payload.stemText ?? '', payload.userText)
+					: null;
+				capsResult = this.applyTaskResponseCaps(result, taskRelevance);
+				warnings.push(...capsResult.warnings);
 			}
 
+			// computeOverallBand tính average từ criterionBands
 			result.estimatedIeltsBand = this.computeOverallBand(result, payload.questionType);
+
+			// Apply overall cap SAU computeOverallBand — đảm bảo cap không bị average override
+			if (capsResult.overallCap != null) {
+				result.estimatedIeltsBand = Math.min(result.estimatedIeltsBand, capsResult.overallCap);
+				this.logger.log(
+					`[TaskResponseCap] Overall cap applied: estimatedIeltsBand=${result.estimatedIeltsBand} (cap=${capsResult.overallCap})`,
+				);
+			}
+
+			// nextBandTarget và overallScore sau khi đã có estimatedIeltsBand cuối cùng
 			result.nextBandTarget = this.computeNextBandTarget(result.estimatedIeltsBand);
 
 			this.downgradeConfidence(result, warnings);
 
-			// Recompute từ estimatedIeltsBand đã qua validator — không dùng internalScore cũ từ LLM
+			// Recompute overallScore SAU tất cả caps — không dùng internalScore cũ từ LLM
 			result.overallScore = Math.round((result.estimatedIeltsBand / 9) * 100) / 10;
 		}
 
@@ -663,29 +693,258 @@ export class AiServiceService {
 	}
 
 	// Writing-only: Task Response caps based on topic relevance
-	private applyTaskResponseCaps(result: any): string[] {
+	// Trả về warnings + overallCap để apply SAU computeOverallBand
+	private applyTaskResponseCaps(result: any, taskRelevance?: TaskRelevanceResult | null): TaskResponseCapResult {
 		const warnings: string[] = [];
+		let overallCap: number | null = null;
 		const analysis = result.taskAnalysis;
-		if (!analysis) return warnings;
-
 		const tr = this.asArray(result.criterionBands).find((c: any) => c.name === 'Task Response');
 
-		if (analysis.isOnTopic === false) {
-			warnings.push('Off-topic essay detected — TR and overall capped at 4.0');
+		// Deterministic off-topic guard — không phụ thuộc vào LLM taskAnalysis
+		if (taskRelevance?.isLikelyOffTopic) {
+			warnings.push(
+				`Likely off-topic essay detected by keyword relevance guard — ` +
+					`coverage=${(taskRelevance.coverage * 100).toFixed(0)}% ` +
+					`(${taskRelevance.matchedCount}/${taskRelevance.totalKeywords} keywords matched). ` +
+					`${taskRelevance.reason ?? ''}`,
+			);
 			if (tr) tr.bandEstimate = Math.min(Number(tr.bandEstimate) || 0, 4);
-			result.estimatedIeltsBand = Math.min(Number(result.estimatedIeltsBand) || 0, 4);
-			result.scoreConfidence = 'medium';
+			overallCap = overallCap == null ? 4 : Math.min(overallCap, 4);
+			result.scoreConfidence = 'low';
 			result.requiresReview = true;
+			result.reviewReason = 'Essay appears to be off-topic compared with the writing prompt.';
 		}
 
-		if (analysis.hasClearPosition === false) {
-			warnings.push('No clear position detected — TR capped at 6.0');
-			if (tr) tr.bandEstimate = Math.min(Number(tr.bandEstimate) || 0, 6);
-			result.scoreConfidence = 'medium';
-			result.requiresReview = true;
+		// LLM-based taskAnalysis caps (supplement deterministic guard)
+		if (analysis) {
+			if (analysis.isOnTopic === false) {
+				warnings.push('Off-topic essay detected by LLM task analysis — TR and overall capped at 4.0');
+				if (tr) tr.bandEstimate = Math.min(Number(tr.bandEstimate) || 0, 4);
+				overallCap = overallCap == null ? 4 : Math.min(overallCap, 4);
+				result.scoreConfidence = result.scoreConfidence === 'high' ? 'medium' : result.scoreConfidence;
+				result.requiresReview = true;
+			}
+
+			if (analysis.hasClearPosition === false) {
+				warnings.push('No clear position detected — TR capped at 6.0');
+				if (tr) tr.bandEstimate = Math.min(Number(tr.bandEstimate) || 0, 6);
+				// Chỉ cap TR, không cap overall cho hasClearPosition
+				result.scoreConfidence = result.scoreConfidence === 'high' ? 'medium' : result.scoreConfidence;
+				result.requiresReview = true;
+			}
 		}
 
-		return warnings;
+		return { warnings, overallCap };
+	}
+
+	// Deterministic keyword-based task relevance check
+	// Conservative: chỉ flag off-topic khi essay rõ ràng lạc đề, tránh false positive
+	private detectTaskRelevance(stemText: string, essay: string): TaskRelevanceResult {
+		if (!stemText || stemText.trim().length < 10) {
+			return { isLikelyOffTopic: false, coverage: 1, matchedCount: 0, totalKeywords: 0, reason: null };
+		}
+
+		const STOP_WORDS = new Set([
+			'the',
+			'a',
+			'an',
+			'and',
+			'or',
+			'but',
+			'in',
+			'on',
+			'at',
+			'to',
+			'for',
+			'of',
+			'with',
+			'by',
+			'from',
+			'is',
+			'are',
+			'was',
+			'were',
+			'be',
+			'been',
+			'being',
+			'have',
+			'has',
+			'had',
+			'do',
+			'does',
+			'did',
+			'will',
+			'would',
+			'could',
+			'should',
+			'may',
+			'might',
+			'can',
+			'shall',
+			'this',
+			'that',
+			'these',
+			'those',
+			'it',
+			'its',
+			'they',
+			'them',
+			'their',
+			'we',
+			'our',
+			'you',
+			'your',
+			'he',
+			'she',
+			'his',
+			'her',
+			'i',
+			'me',
+			'my',
+			'not',
+			'no',
+			'nor',
+			'so',
+			'yet',
+			'both',
+			'either',
+			'neither',
+			'what',
+			'which',
+			'who',
+			'whom',
+			'how',
+			'when',
+			'where',
+			'why',
+			'all',
+			'each',
+			'every',
+			'more',
+			'most',
+			'much',
+			'many',
+			'some',
+			'any',
+			'few',
+			'other',
+			'such',
+			'than',
+			'then',
+			'about',
+			'also',
+			'into',
+			'through',
+			'during',
+			'while',
+			'after',
+			'before',
+			'between',
+			'under',
+			'over',
+			'up',
+			'down',
+			'out',
+			'off',
+			'there',
+			'here',
+			'now',
+			'just',
+			'very',
+			'only',
+			'well',
+			'back',
+			'even',
+			'still',
+			'way',
+			'time',
+			'people',
+			'man',
+			'men',
+			'one',
+			'two',
+			'new',
+			'good',
+			'great',
+			'first',
+			'last',
+			'long',
+			'big',
+			'high',
+			'low',
+			'old',
+			'right',
+			'large',
+			'small',
+			'next',
+			'write',
+			'discuss',
+			'extent',
+			'agree',
+			'disagree',
+			'opinion',
+			'view',
+			'think',
+			'believe',
+			'give',
+			'reasons',
+			'examples',
+			'essay',
+			'task',
+			'question',
+			'whether',
+		]);
+
+		const extractKeywords = (text: string): string[] => {
+			return text
+				.toLowerCase()
+				.replace(/[^a-z\s]/g, ' ')
+				.split(/\s+/)
+				.filter((w) => w.length >= 5 && !STOP_WORDS.has(w));
+		};
+
+		const stemKeywords = extractKeywords(stemText);
+		const uniqueStemKeywords = [...new Set(stemKeywords)];
+
+		if (uniqueStemKeywords.length < 3) {
+			return { isLikelyOffTopic: false, coverage: 1, matchedCount: 0, totalKeywords: 0, reason: null };
+		}
+
+		const essayLower = essay.toLowerCase();
+		const matched = uniqueStemKeywords.filter((kw) => essayLower.includes(kw));
+		const coverage = matched.length / uniqueStemKeywords.length;
+
+		// Conservative threshold: chỉ flag khi coverage rất thấp
+		// Tránh false positive với bài discuss nhiều khía cạnh
+		const IS_OFF_TOPIC_THRESHOLD = 0.15;
+		const MIN_KEYWORDS_TO_EVALUATE = 4;
+
+		if (uniqueStemKeywords.length < MIN_KEYWORDS_TO_EVALUATE) {
+			return {
+				isLikelyOffTopic: false,
+				coverage,
+				matchedCount: matched.length,
+				totalKeywords: uniqueStemKeywords.length,
+				reason: 'Too few keywords to evaluate — skipping off-topic detection',
+			};
+		}
+
+		const isLikelyOffTopic = coverage < IS_OFF_TOPIC_THRESHOLD;
+
+		this.logger.log(
+			`[TaskRelevance] keywords=${uniqueStemKeywords.length} matched=${matched.length} ` +
+				`coverage=${(coverage * 100).toFixed(0)}% offTopic=${isLikelyOffTopic}`,
+		);
+
+		return {
+			isLikelyOffTopic,
+			coverage,
+			matchedCount: matched.length,
+			totalKeywords: uniqueStemKeywords.length,
+			reason: isLikelyOffTopic
+				? `Only ${matched.length} of ${uniqueStemKeywords.length} topic keywords found in essay`
+				: null,
+		};
 	}
 
 	private downgradeConfidence(result: any, warnings: string[]): void {

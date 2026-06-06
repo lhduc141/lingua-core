@@ -38,6 +38,11 @@ interface CustomRule {
 	getCorrected: (match: RegExpExecArray) => string;
 }
 
+type LtRunResult = {
+	status: 'ok' | 'timeout' | 'error';
+	issues: GrammarIssue[];
+};
+
 // Fix gerund → base verb: handles silent-e verbs and double-consonant correctly
 function gerundToBaseVerb(word: string): string {
 	const irregulars: Record<string, string> = {
@@ -103,12 +108,45 @@ const CUSTOM_RULES: CustomRule[] = [
 	},
 
 	// Rule 3a: simple singular subject-verb agreement — "this problem are"
+	// Plural guard: skip known plural nouns to avoid false positives like "that people do → does"
 	{
 		pattern: /\b(this|that|each|every|one)\s+(\w+)\s+(have|are|were|do)\b/gi,
 		category: 'subject_verb_agreement',
 		severity: 'medium',
 		explanation: "Singular subject requires singular verb form ('has', 'is', 'was', 'does').",
 		getCorrected: (m) => {
+			const noun = m[2].toLowerCase();
+			const PLURAL_NOUNS = new Set([
+				'people',
+				'children',
+				'men',
+				'women',
+				'students',
+				'workers',
+				'adults',
+				'citizens',
+				'governments',
+				'countries',
+				'families',
+				'individuals',
+				'parents',
+				'teachers',
+				'employees',
+				'researchers',
+				'scientists',
+				'experts',
+				'leaders',
+				'authorities',
+				'officials',
+				'voters',
+				'users',
+				'learners',
+				'members',
+			]);
+			// Skip if noun ends with 's' (likely plural) or is a known plural noun
+			if (PLURAL_NOUNS.has(noun) || (noun.endsWith('s') && !noun.endsWith('ss'))) {
+				return m[0]; // return original unchanged — no correction
+			}
 			const verbMap: Record<string, string> = { have: 'has', are: 'is', were: 'was', do: 'does' };
 			return `${m[1]} ${m[2]} ${verbMap[m[3].toLowerCase()] ?? m[3]}`;
 		},
@@ -225,16 +263,17 @@ export class GrammarCheckService {
 	}
 
 	async check(text: string): Promise<GrammarCheckResult> {
-		let ltStatus: GrammarCheckResult['ltStatus'] = 'ok';
-
-		const [ltIssues, customIssues] = await Promise.all([
-			this.runLanguageTool(text).catch((err) => {
-				this.logger.warn(`[GrammarCheck] LanguageTool error: ${(err as Error).message}`);
-				ltStatus = 'error';
-				return [] as GrammarIssue[];
-			}),
+		const [ltResult, customIssues] = await Promise.all([
+			this.runLanguageTool(text),
 			Promise.resolve(this.runCustomRules(text)),
 		]);
+
+		const ltStatus = ltResult.status;
+		const ltIssues = ltResult.issues;
+
+		if (ltStatus !== 'ok') {
+			this.logger.warn(`[GrammarCheck] LanguageTool status=${ltStatus} — using custom rules only`);
+		}
 
 		const merged = this.mergeAndDeduplicate([...ltIssues, ...customIssues]);
 		const mediumHighCount = merged.filter((i) => i.severity === 'medium' || i.severity === 'high').length;
@@ -257,13 +296,13 @@ export class GrammarCheckService {
 		};
 	}
 
-	private async runLanguageTool(text: string): Promise<GrammarIssue[]> {
-		try {
-			const controller = new AbortController();
-			const timer = setTimeout(() => {
-				controller.abort();
-			}, this.timeoutMs);
+	private async runLanguageTool(text: string): Promise<LtRunResult> {
+		const controller = new AbortController();
+		const timer = setTimeout(() => {
+			controller.abort();
+		}, this.timeoutMs);
 
+		try {
 			const body = new URLSearchParams({ text, language: 'en-US', enabledOnly: 'false' });
 
 			const response = await fetch(`${this.ltBaseUrl}/v2/check`, {
@@ -273,23 +312,30 @@ export class GrammarCheckService {
 				signal: controller.signal,
 			});
 
-			clearTimeout(timer);
-
 			if (!response.ok) {
 				this.logger.warn(`[GrammarCheck] LanguageTool HTTP ${response.status}`);
-				return [];
+				return { status: 'error', issues: [] };
 			}
 
 			const data = (await response.json()) as LtResponse;
-			return this.normalizeLtMatches(data.matches ?? [], text);
+			return { status: 'ok', issues: this.normalizeLtMatches(data.matches ?? [], text) };
 		} catch (err) {
-			const msg = (err as Error).message ?? String(err);
-			if (msg.includes('abort') || msg.includes('timed out')) {
+			const e = err as Error;
+			const msg = e.message ?? String(err);
+			const name = e.name ?? '';
+
+			if (
+				name === 'AbortError' ||
+				msg.toLowerCase().includes('abort') ||
+				msg.toLowerCase().includes('timed out')
+			) {
 				this.logger.warn(`[GrammarCheck] LanguageTool timeout after ${this.timeoutMs}ms`);
-			} else {
-				this.logger.warn(`[GrammarCheck] LanguageTool unavailable: ${msg}`);
+				return { status: 'timeout', issues: [] };
 			}
-			return [];
+			this.logger.warn(`[GrammarCheck] LanguageTool unavailable: ${msg}`);
+			return { status: 'error', issues: [] };
+		} finally {
+			clearTimeout(timer);
 		}
 	}
 
