@@ -422,6 +422,52 @@ export class AiServiceService {
 	}
 
 	// PRE-CHECK
+	// private validatePreScanCoverage(result: any, grammarCheck: GrammarCheckResult): string[] {
+	// 	const warnings: string[] = [];
+	// 	const corrections = this.asArray(result.corrections);
+	// 	const styleImprovements = this.asArray(result.styleImprovements);
+	//
+	// 	const coveredOriginals = new Set<string>([
+	// 		...corrections.map((c: any) => (c.original ?? '').toLowerCase()),
+	// 		...styleImprovements.map((s: any) => (s.original ?? '').toLowerCase()),
+	// 	]);
+	//
+	// 	const uncovered = grammarCheck.issues.filter(
+	// 		(issue) =>
+	// 			(issue.severity === 'medium' || issue.severity === 'high') &&
+	// 			!coveredOriginals.has(issue.original.toLowerCase()),
+	// 	);
+	//
+	// 	if (uncovered.length === 0) return warnings;
+	//
+	// 	warnings.push(
+	// 		`Pre-scan coverage: ${uncovered.length} medium/high issue(s) not in corrections/styleImprovements`,
+	// 	);
+	//
+	// 	// Auto-inject uncovered issues into corrections if slots remain (max 5 total)
+	// 	const slotsLeft = 5 - corrections.length;
+	// 	if (slotsLeft > 0) {
+	// 		const toInject = uncovered.slice(0, slotsLeft);
+	// 		for (const issue of toInject) {
+	// 			result.corrections.push({
+	// 				type: 'grammar',
+	// 				original: issue.original,
+	// 				corrected: issue.corrected,
+	// 				explanation: issue.explanation,
+	// 				severity: issue.severity,
+	// 			});
+	// 			warnings.push(`Auto-injected correction: "${issue.original}" → "${issue.corrected}"`);
+	// 		}
+	// 	}
+	//
+	// 	// Downgrade confidence if issues remain uncovered after injection
+	// 	const stillUncovered = uncovered.length - Math.min(slotsLeft, uncovered.length);
+	// 	if (stillUncovered > 0 && result.scoreConfidence === 'high') {
+	// 		result.scoreConfidence = 'medium';
+	// 	}
+	//
+	// 	return warnings;
+	// }
 	private validatePreScanCoverage(result: any, grammarCheck: GrammarCheckResult): string[] {
 		const warnings: string[] = [];
 		const corrections = this.asArray(result.corrections);
@@ -440,30 +486,19 @@ export class AiServiceService {
 
 		if (uncovered.length === 0) return warnings;
 
-		warnings.push(
-			`Pre-scan coverage: ${uncovered.length} medium/high issue(s) not in corrections/styleImprovements`,
-		);
+		warnings.push(`Pre-scan coverage: ${uncovered.length} medium/high issue(s) not confirmed by LLM`);
 
-		// Auto-inject uncovered issues into corrections if slots remain (max 5 total)
-		const slotsLeft = 5 - corrections.length;
-		if (slotsLeft > 0) {
-			const toInject = uncovered.slice(0, slotsLeft);
-			for (const issue of toInject) {
-				result.corrections.push({
-					type: 'grammar',
-					original: issue.original,
-					corrected: issue.corrected,
-					explanation: issue.explanation,
-					severity: issue.severity,
-				});
-				warnings.push(`Auto-injected correction: "${issue.original}" → "${issue.corrected}"`);
-			}
-		}
+		const unconfirmedList = uncovered.map((i) => `"${i.original}" → "${i.corrected}"`).join('; ');
 
-		// Downgrade confidence if issues remain uncovered after injection
-		const stillUncovered = uncovered.length - Math.min(slotsLeft, uncovered.length);
-		if (stillUncovered > 0 && result.scoreConfidence === 'high') {
+		result.validationWarnings = [
+			...(result.validationWarnings ?? []),
+			`Unconfirmed pre-scan issue(s): ${unconfirmedList}`,
+		];
+
+		// Downgrade scoreConfidence if LLM did not confirm medium/high pre-scan issues
+		if (result.scoreConfidence === 'high') {
 			result.scoreConfidence = 'medium';
+			warnings.push('scoreConfidence downgraded to medium — uncovered pre-scan issues');
 		}
 
 		return warnings;
@@ -605,6 +640,8 @@ export class AiServiceService {
 					this.ALLOWED_CORRECTION_TYPES.has(c?.type) &&
 					this.ALLOWED_SEVERITIES.has(c?.severity) &&
 					typeof c?.original === 'string' &&
+					c.original.length > 0 &&
+					c.original.length <= 80 &&
 					userText.includes(c.original) &&
 					typeof c?.corrected === 'string' &&
 					c.corrected.trim() &&

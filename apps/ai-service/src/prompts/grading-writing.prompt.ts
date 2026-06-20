@@ -33,7 +33,7 @@ Output limits:
 - styleImprovements: 0-3. Use [] if no useful upgrade exists.
 - priorityFixes: 0-3. Use [] if there is no clear score-impacting fix.
 - nextLevelGaps: 1-3. Use [] for Band 9.0.
-- paragraphFeedback: required. Provide feedback for each paragraph present.
+- paragraphFeedback: required. One object per paragraph present in the essay.
 `.trim();
 
 const ANTI_INFLATION_BLOCK = `
@@ -70,6 +70,32 @@ GRA CALIBRATION — strictly enforced:
   all count against GRA Accuracy even if not flagged by pre-scan.
 `.trim();
 
+const LANGUAGE_RULES = `
+LANGUAGE RULES — strictly enforced:
+All explanatory, analytical, and feedback text MUST be written in Vietnamese.
+This applies to:
+- paragraphFeedback: taskAchievement, coherenceCohesion, lexicalResource, grammarAccuracy, title
+- criterionBands: summary, strengths[], weaknesses[]
+- subCriteria: diagnosis, howToImprove
+- corrections: explanation
+- styleImprovements: explanation
+- priorityFixes: problem, action, expectedImpact
+- nextLevelGaps: all items
+- scoreRationale: Vietnamese (this field is shown directly to the learner)
+
+Keep in English (do NOT translate):
+- IELTS criterion names: "Task Response", "Coherence & Cohesion", "Lexical Resource", "Grammatical Range & Accuracy"
+- Sub-criterion labels (e.g. "task coverage", "sentence variety", "cohesive devices")
+- paragraphFeedback: type, openingSentence (must be exact verbatim quote from student text)
+- corrections: original, corrected (exact phrases from student text)
+- styleImprovements: original, improved (exact phrases)
+- correctedText (the full corrected essay)
+- Evidence quotes embedded within Vietnamese feedback (quote in English, embed in Vietnamese sentence)
+
+Correct example:
+"taskAchievement": "Đoạn mở bài nêu rõ quan điểm bằng câu 'I partly agree with this view', thể hiện lập trường có sắc thái phù hợp với dạng đề 'To what extent'."
+`.trim();
+
 function buildGrammarAuditBlock(grammarCheck: GrammarCheckResult): string {
 	if (grammarCheck.issues.length === 0) {
 		return `GRAMMAR PRE-SCAN: No issues detected by pre-scan. Assess GRA based on the essay only.`;
@@ -100,9 +126,12 @@ function buildGrammarAuditBlock(grammarCheck: GrammarCheckResult): string {
 		${issueLines}
 
 		RULES based on pre-scan:
-		- All valid pre-scan issues MUST appear in corrections or styleImprovements.
-		  If you exclude a pre-scan issue, note why in scoreRationale.
-		- correctedText MUST NOT silently fix errors absent from corrections/styleImprovements.${ceilingNote}
+		- Pre-scan issues are EVIDENCE only, not mandatory corrections.
+		- Only include a correction if the error is genuinely wrong in full sentence context.
+		- If a pre-scan issue appears to be a false positive (e.g. correct subject-verb agreement
+		  mistakenly flagged due to intervening phrase), OMIT it from corrections entirely.
+		- Do NOT blindly copy pre-scan issues into corrections.
+		- correctedText MUST NOT silently fix phrases absent from corrections/styleImprovements.${ceilingNote}
 	`;
 }
 
@@ -152,6 +181,8 @@ export function buildWritingGradingPrompt(
 		  new arguments or structure. Preserve the student's voice, ideas, and examples.
 		- WORD COUNT: Penalize Task Response ONLY if below minimum. Do NOT penalize for exceeding maximum.
 
+		${LANGUAGE_RULES}
+
 		EVIDENCE-BASED GRADING RULES — strictly enforced:
 		- Do NOT invent weaknesses. If a criterion has no clear weakness, use [].
 		- Any weakness that affects a criterion bandEstimate must cite specific evidence from the essay.
@@ -169,6 +200,8 @@ export function buildWritingGradingPrompt(
 		  Do NOT add new sentences, clauses, or ideas not present in the original.
 		- If fixing requires adding new content → move to styleImprovements instead.
 		- A grammatically correct sentence is NOT a correction target.
+		- corrections.original MUST be a short phrase (a few words to one clause, max ~80 characters).
+		  Do NOT use a full sentence or multiple clauses as original — target the specific error only.
 
 		CORRECTION TYPES — use ONLY:
 		- "grammar": subject-verb agreement, wrong tense, article errors, double subject,
@@ -179,6 +212,8 @@ export function buildWritingGradingPrompt(
 		- "punctuation": missing/wrong punctuation that changes meaning
 		- "formatting": missing space after punctuation (e.g. "success.In"), merged words
 		- "duplication": sentence or paragraph repeated due to copy-paste
+		- "vocabulary": wrong word choice that causes meaning error (e.g. "affect" vs "effect"),
+		  NOT style upgrades — style goes in styleImprovements
 
 		CRITERION INDEPENDENCE — strictly enforced:
 		- Assign each IELTS criterion independently.
@@ -190,6 +225,9 @@ export function buildWritingGradingPrompt(
 		- "help someone do" and "help someone to do" are both correct.
 		- "find better jobs" is correct.
 		- Sentence-initial "Now," is informal, not a grammar error.
+		- Subject-verb agreement: always identify the TRUE grammatical subject of the clause,
+		  not the nearest noun. Prepositional phrases between subject and verb do not change agreement.
+		  Example: "the main reasons for this issue are" — subject is "reasons" (plural), verb "are" is CORRECT.
 
 		SCORE CAP RULES:
 		- Off-topic: estimatedIeltsBand max 4.0
@@ -230,9 +268,19 @@ export function buildWritingGradingPrompt(
 		  Coherence & Cohesion should normally not exceed Band 6.5 for that paragraph.
 
 		PARAGRAPH FEEDBACK — required:
-		For each paragraph present in the student essay (introduction, body paragraphs, conclusion),
-		provide specific feedback citing evidence from that paragraph.
-		Focus on IELTS criteria only: task relevance, idea development, cohesion, vocabulary, grammar.
+		For each paragraph present in the student essay, provide criterion-level analysis in Vietnamese.
+		ALL text in paragraphFeedback (except type and openingSentence) MUST be written in Vietnamese.
+		For each paragraph:
+		- title: Vietnamese name including the main topic for body paragraphs
+		  (e.g. "Mở bài", "Thân bài 1 - Về sự trưởng thành và tài chính", "Kết bài")
+		- taskAchievement: assess how well this paragraph fulfills its role. Cite content as evidence.
+		- coherenceCohesion: name the specific cohesive devices/linkers used in this paragraph.
+		  Assess sentence-to-sentence flow, not just overall structure.
+		- lexicalResource: comment on vocabulary choice, range, and precision.
+		  Quote specific words or phrases from this paragraph.
+		- grammarAccuracy: identify grammar errors in this paragraph with correction.
+		  If no errors found, state clearly (e.g. "Ngữ pháp ổn định, không phát hiện lỗi.").
+		Do NOT generate generic template feedback like "clear topic statement" without citing evidence.
 		Do NOT recommend hooks, calls to action, or statistics.
 
 		STUDENT RESPONSE:
@@ -243,33 +291,39 @@ export function buildWritingGradingPrompt(
 		2. internalScore: 0-10, .5 steps. Calibrated to ${cefrLevel} expectations.
 		3. criterionBands: exactly 4 items — Task Response, Coherence & Cohesion,
 		   Lexical Resource, Grammatical Range & Accuracy — in this order.
-		4. Each criterion: bandEstimate (0-9), internalScore (0-10), summary,
-		   0-2 strengths (cite evidence), 0-2 weaknesses (cite evidence or use []).
+		4. Each criterion: bandEstimate (0-9), internalScore (0-10), summary (Vietnamese),
+		   0-2 strengths (Vietnamese, embed English evidence quotes),
+		   0-2 weaknesses (Vietnamese, embed English evidence quotes or use []).
 		5. subCriteria: max 2 most score-relevant per criterion.
-		   Each: name, score (0-10), evidence (max 1 exact quote or []), diagnosis, howToImprove.
-		6. corrections: genuine errors ONLY (max 5). original MUST be exact phrase from student text.
-		   Each: { "type": "grammar|spelling|punctuation|formatting|duplication",
-		           "original": "exact phrase", "corrected": "...",
-		           "explanation": "...", "severity": "low|medium|high" }
+		   Each: name (English label), score (0-10), evidence (max 1 exact English quote or []),
+		   diagnosis (Vietnamese), howToImprove (Vietnamese).
+		6. corrections: genuine errors ONLY (max 5). original MUST be exact short phrase from student text.
+		   Each: { "type": "grammar|spelling|punctuation|formatting|duplication|vocabulary",
+		           "original": "exact short phrase (max ~80 chars)", "corrected": "...",
+		           "explanation": "Vietnamese explanation", "severity": "low|medium|high" }
 		7. styleImprovements: optional upgrades for correct but improvable phrases (0-3).
 		   original MUST be exact phrase. Use [] if nothing meaningful to improve.
 		   Each: { "original": "exact phrase", "improved": "...",
-		           "explanation": "...", "isMandatory": false }
+		           "explanation": "Vietnamese explanation", "isMandatory": false }
 		8. priorityFixes: score-impacting fixes (0-3). Use [] if essay is strong.
-		   Each: { "priority": 1, "area": "criterion name", "problem": "...",
-		           "action": "...", "expectedImpact": "..." }
-		9. nextLevelGaps: 1-3 specific gaps to reach the next IELTS band above estimated score.
+		   Each: { "priority": 1, "area": "English criterion name",
+		           "problem": "Vietnamese", "action": "Vietnamese", "expectedImpact": "Vietnamese" }
+		9. nextLevelGaps: 1-3 specific gaps in Vietnamese to reach the next IELTS band.
 		10. correctedText: improve specific errors and phrases only. Keep student's arguments,
 		    structure, examples, and voice. Do not paraphrase into a new essay.
-		11. paragraphFeedback: array of paragraph analysis objects. For each paragraph:
+		11. paragraphFeedback: REQUIRED. One object per paragraph present.
+		    Include body_2, body_3 if the essay has those paragraphs.
 		    { "type": "introduction|body_1|body_2|body_3|conclusion",
-		      "openingSentence": "first sentence of this paragraph (exact quote)",
-		      "feedback": "specific actionable feedback citing evidence from this paragraph",
-		      "strengths": ["strength with evidence"],
-		      "improvements": ["improvement with specific suggestion"] }
+		      "title": "Vietnamese — e.g. 'Mở bài', 'Thân bài 1 - Về sự trưởng thành và tài chính'",
+		      "openingSentence": "exact first sentence verbatim from student text",
+		      "taskAchievement": "Vietnamese — role fulfillment with evidence",
+		      "coherenceCohesion": "Vietnamese — specific linkers named, flow assessed",
+		      "lexicalResource": "Vietnamese — vocabulary cited from this paragraph",
+		      "grammarAccuracy": "Vietnamese — errors named+corrected, or confirm no errors" }
 		12. scoreConfidence: "high" only when all bands and evidence are fully consistent.
 		    Use "medium" if any weakness lacks evidence or band is near a boundary.
-		13. Respond ONLY with valid JSON. No markdown. No explanation.
+		13. scoreRationale: Vietnamese — explain overall band in 1-2 sentences for the learner.
+		14. Respond ONLY with valid JSON. No markdown. No explanation.
 
 		${OUTPUT_LIMITS}
 
@@ -299,9 +353,9 @@ export function buildWritingGradingPrompt(
 				{"name":"Grammatical Range & Accuracy","bandEstimate":0,"internalScore":0,"summary":"","strengths":[],"weaknesses":[],"subCriteria":[]}
 			],
 			"paragraphFeedback": [
-				{"type":"introduction","openingSentence":"","feedback":"","strengths":[],"improvements":[]},
-				{"type":"body_1","openingSentence":"","feedback":"","strengths":[],"improvements":[]},
-				{"type":"conclusion","openingSentence":"","feedback":"","strengths":[],"improvements":[]}
+				{"type":"introduction","title":"Mở bài","openingSentence":"","taskAchievement":"","coherenceCohesion":"","lexicalResource":"","grammarAccuracy":""},
+				{"type":"body_1","title":"Thân bài 1 - [chủ đề]","openingSentence":"","taskAchievement":"","coherenceCohesion":"","lexicalResource":"","grammarAccuracy":""},
+				{"type":"conclusion","title":"Kết bài","openingSentence":"","taskAchievement":"","coherenceCohesion":"","lexicalResource":"","grammarAccuracy":""}
 			],
 			"corrections": [],
 			"styleImprovements": [],
