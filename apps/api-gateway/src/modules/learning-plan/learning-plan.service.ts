@@ -23,6 +23,7 @@ import { GradeCustomActivityJobData } from './interface/grade-custom-activity-jo
 import { PlanDay } from './interface/plan-day.interface';
 import { PlanHistoryItem } from './interface/plan-history-item.interface';
 import { PlanTask } from './interface/plan-task.interface';
+import { GradingStatus } from '@prisma/client';
 
 @Injectable()
 export class LearningPlanService implements OnModuleInit {
@@ -874,7 +875,9 @@ export class LearningPlanService implements OnModuleInit {
 				answers: {
 					where: {
 						deletedAt: null,
-						gradingStatus: { in: ['auto_scored', 'ai_scored', 'human_reviewed'] as any },
+						gradingStatus: {
+							in: [GradingStatus.auto_scored, GradingStatus.human_reviewed],
+						},
 					},
 					select: {
 						question: { select: { type: true } },
@@ -1054,7 +1057,9 @@ export class LearningPlanService implements OnModuleInit {
 				answers: {
 					where: {
 						deletedAt: null,
-						gradingStatus: { in: ['auto_scored', 'ai_scored', 'human_reviewed'] as any },
+						gradingStatus: {
+							in: [GradingStatus.auto_scored, GradingStatus.human_reviewed],
+						},
 					},
 					select: {
 						answerId: true,
