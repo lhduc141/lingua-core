@@ -49,6 +49,36 @@ jobs:
           echo "Deployed commit: $(git rev-parse --short HEAD) -- $(git log -1 --pretty=format:'%s')"
           ENDSSH
 
+      - name: Sync secrets to VPS .env
+        run: |
+          ssh -i ~/.ssh/deploy_key ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }} bash -s << ENDSSH
+          set -e
+          cd /root/lingua-core
+
+          update_env() {
+            local key="\$1"
+            local value="\$2"
+            if grep -q "^\${key}=" .env 2>/dev/null; then
+              sed -i "s|^\${key}=.*|\${key}=\${value}|" .env
+            else
+              echo "\${key}=\${value}" >> .env
+            fi
+          }
+
+          update_env "AZURE_SPEECH_KEY" "${{ secrets.AZURE_SPEECH_KEY }}"
+          update_env "AZURE_SPEECH_REGION" "${{ secrets.AZURE_SPEECH_REGION }}"
+          update_env "GROQ_API_KEY" "${{ secrets.GROQ_API_KEY }}"
+          update_env "DATABASE_PASSWORD" "${{ secrets.DATABASE_PASSWORD }}"
+          update_env "REDIS_PASSWORD" "${{ secrets.REDIS_PASSWORD }}"
+          update_env "JWT_SECRET" "${{ secrets.JWT_SECRET }}"
+          update_env "GOOGLE_CLIENT_ID" "${{ secrets.GOOGLE_CLIENT_ID }}"
+          update_env "GOOGLE_CLIENT_SECRET" "${{ secrets.GOOGLE_CLIENT_SECRET }}"
+          update_env "GOOGLE_CALLBACK_URL" "${{ secrets.GOOGLE_CALLBACK_URL }}"
+          update_env "CORS_ORIGIN" "${{ secrets.CORS_ORIGIN }}"
+
+          echo "Secrets synced to .env"
+          ENDSSH
+
       - name: Run Prisma migrations
         run: |
           ssh -i ~/.ssh/deploy_key ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }} bash -s << 'ENDSSH'
