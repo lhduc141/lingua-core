@@ -1,0 +1,10 @@
+{
+  "experimentId": "writing-w-ablation-v1",
+  "expectedRuns": 72,
+  "completed": 72,
+  "succeeded": 70,
+  "failed": 2,
+  "startedAt": "2026-09-12T11:32:08.659Z",
+  "status": "completed",
+  "finishedAt": "2026-09-12T11:36:25.487Z"
+}

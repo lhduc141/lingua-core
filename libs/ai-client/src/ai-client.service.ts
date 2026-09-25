@@ -1,6 +1,6 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
-import { lastValueFrom } from 'rxjs';
+import { lastValueFrom, timeout } from 'rxjs';
 import { PronunciationScores } from '@app/shared';
 
 @Injectable()
@@ -15,8 +15,12 @@ export class AiClientService {
 		return lastValueFrom(this.client.send('ai.placement.cefr', payload));
 	}
 
+	selectPlanContent(payload: any) {
+		return lastValueFrom(this.client.send('ai.plan.select-content', payload).pipe(timeout(200000)));
+	}
+
 	generatePlan(payload: any) {
-		return lastValueFrom(this.client.send('ai.plan.generate', payload));
+		return lastValueFrom(this.client.send('ai.plan.generate', payload).pipe(timeout(200000)));
 	}
 
 	dictionaryLookup(payload: any) {
@@ -34,6 +38,7 @@ export class AiClientService {
 		cefrLevel?: string;
 		minWords?: number;
 		maxWords?: number;
+		aiTraceId?: string;
 	}) {
 		return lastValueFrom(this.client.send('ai.grading.evaluate', payload));
 	}

@@ -1,0 +1,360 @@
+{
+  "synthetic": true,
+  "persist": false,
+  "meta": {
+    "experimentId": "p0-synthetic-compatibility",
+    "runId": "pilot-baseline",
+    "pairId": "pilot-pair",
+    "profileId": "pilot-profile",
+    "condition": "baseline",
+    "repeat": 1
+  },
+  "context": {
+    "cefrLevel": "B1",
+    "contentTargetLevel": "B1",
+    "learnerContext": {
+      "primaryGoal": "communication",
+      "targetGoal": "Improve written English communication",
+      "focusSkills": [
+        "writing"
+      ],
+      "planSkills": [
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "plannedStudyHoursPerWeek": 4,
+      "availableDays": [
+        "MONDAY",
+        "WEDNESDAY",
+        "FRIDAY",
+        "SATURDAY"
+      ],
+      "dailyMinutesLimit": 60
+    },
+    "skillPerformance": [
+      {
+        "skill": "writing",
+        "avg": 60
+      }
+    ],
+    "weekStartDate": "2026-09-14",
+    "weekEndDate": "2026-09-20",
+    "weekDates": [
+      {
+        "day": 1,
+        "weekday": "MONDAY",
+        "date": "2026-09-14"
+      },
+      {
+        "day": 2,
+        "weekday": "TUESDAY",
+        "date": "2026-09-15"
+      },
+      {
+        "day": 3,
+        "weekday": "WEDNESDAY",
+        "date": "2026-09-16"
+      },
+      {
+        "day": 4,
+        "weekday": "THURSDAY",
+        "date": "2026-09-17"
+      },
+      {
+        "day": 5,
+        "weekday": "FRIDAY",
+        "date": "2026-09-18"
+      },
+      {
+        "day": 6,
+        "weekday": "SATURDAY",
+        "date": "2026-09-19"
+      },
+      {
+        "day": 7,
+        "weekday": "SUNDAY",
+        "date": "2026-09-20"
+      }
+    ],
+    "recentWeaknesses": []
+  },
+  "catalog": {
+    "lessons": [],
+    "questionSets": [
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000001",
+        "itemType": "practice_session",
+        "title": "Write a clear position",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ],
+        "questionSetId": "00000000-0000-4000-8000-000000000001"
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000002",
+        "itemType": "practice_session",
+        "title": "Support an argument with examples",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ],
+        "questionSetId": "00000000-0000-4000-8000-000000000002"
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000003",
+        "itemType": "practice_session",
+        "title": "Connect paragraphs",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ],
+        "questionSetId": "00000000-0000-4000-8000-000000000003"
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000004",
+        "itemType": "practice_session",
+        "title": "Order ideas logically",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ],
+        "questionSetId": "00000000-0000-4000-8000-000000000004"
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000005",
+        "itemType": "practice_session",
+        "title": "Use precise vocabulary",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ],
+        "questionSetId": "00000000-0000-4000-8000-000000000005"
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000006",
+        "itemType": "practice_session",
+        "title": "Paraphrase a short claim",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ],
+        "questionSetId": "00000000-0000-4000-8000-000000000006"
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000007",
+        "itemType": "practice_session",
+        "title": "Revise sentence agreement",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ],
+        "questionSetId": "00000000-0000-4000-8000-000000000007"
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000008",
+        "itemType": "practice_session",
+        "title": "Combine clauses accurately",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ],
+        "questionSetId": "00000000-0000-4000-8000-000000000008"
+      }
+    ],
+    "details": [
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000001",
+        "itemType": "practice_session",
+        "title": "Write a clear position",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ]
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000002",
+        "itemType": "practice_session",
+        "title": "Support an argument with examples",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ]
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000003",
+        "itemType": "practice_session",
+        "title": "Connect paragraphs",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ]
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000004",
+        "itemType": "practice_session",
+        "title": "Order ideas logically",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ]
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000005",
+        "itemType": "practice_session",
+        "title": "Use precise vocabulary",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ]
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000006",
+        "itemType": "practice_session",
+        "title": "Paraphrase a short claim",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ]
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000007",
+        "itemType": "practice_session",
+        "title": "Revise sentence agreement",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ]
+      },
+      {
+        "fullRefId": "00000000-0000-4000-8000-000000000008",
+        "itemType": "practice_session",
+        "title": "Combine clauses accurately",
+        "description": "Synthetic English writing practice for provider compatibility only.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Write a short paragraph about studying English and revise it for the stated objective."
+        ]
+      }
+    ]
+  },
+  "config": {
+    "selectorSeed": 17,
+    "plannerSeed": 17,
+    "selectionTarget": 8,
+    "maxRetries": 2,
+    "timeoutMs": 60000
+  }
+}

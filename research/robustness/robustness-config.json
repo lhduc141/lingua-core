@@ -1,0 +1,25 @@
+{
+  "type": "post-hoc robustness extension",
+  "experimentId": "writing-w-ablation-v1-robustness",
+  "originalSeeds": [
+    101,
+    202,
+    303
+  ],
+  "additionalSeeds": [
+    404,
+    505,
+    606,
+    707,
+    808,
+    909,
+    1001
+  ],
+  "purpose": "technical-repeat stability of paired WTR effects",
+  "inheritFrom": "research/freeze/experiment-config.json",
+  "frozenManifestSha256": "8f4c5c0df5f3a676bdba118306ab952c97d3d86e8f5856acf685b974aa7f0e15",
+  "expectedRuns": 168,
+  "expectedPairs": 84,
+  "expectedNominalStageCalls": 336,
+  "outputDirectory": "research/robustness/output"
+}

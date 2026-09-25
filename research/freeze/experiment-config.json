@@ -1,0 +1,27 @@
+{
+  "experimentId": "writing-w-ablation-v1",
+  "selectorModel": "openai/gpt-oss-20b",
+  "plannerModel": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "selectorMaxCompletionTokens": 2000,
+  "plannerMaxCompletionTokens": 4096,
+  "strictJsonSchema": true,
+  "include_reasoning": false,
+  "reasoning_effort": "low",
+  "n": 1,
+  "stream": false,
+  "maxRetries": 2,
+  "timeoutMs": 60000,
+  "selectionTarget": 8,
+  "allowCustomActivity": false,
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "weekStartDate": "2026-09-14",
+  "weekEndDate": "2026-09-20",
+  "expectedProfiles": 12,
+  "expectedRuns": 72,
+  "expectedNominalStageCalls": 144
+}

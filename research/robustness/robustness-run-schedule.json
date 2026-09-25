@@ -1,0 +1,1514 @@
+[
+  {
+    "runIndex": 1,
+    "runId": "A2_TR_seed404_baseline",
+    "pairId": "A2_TR_seed404",
+    "profileId": "A2_TR",
+    "condition": "baseline",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 2,
+    "runId": "A2_TR_seed404_proposed",
+    "pairId": "A2_TR_seed404",
+    "profileId": "A2_TR",
+    "condition": "proposed",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 3,
+    "runId": "A2_TR_seed505_proposed",
+    "pairId": "A2_TR_seed505",
+    "profileId": "A2_TR",
+    "condition": "proposed",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 4,
+    "runId": "A2_TR_seed505_baseline",
+    "pairId": "A2_TR_seed505",
+    "profileId": "A2_TR",
+    "condition": "baseline",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 5,
+    "runId": "A2_TR_seed606_baseline",
+    "pairId": "A2_TR_seed606",
+    "profileId": "A2_TR",
+    "condition": "baseline",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 6,
+    "runId": "A2_TR_seed606_proposed",
+    "pairId": "A2_TR_seed606",
+    "profileId": "A2_TR",
+    "condition": "proposed",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 7,
+    "runId": "A2_TR_seed707_proposed",
+    "pairId": "A2_TR_seed707",
+    "profileId": "A2_TR",
+    "condition": "proposed",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 8,
+    "runId": "A2_TR_seed707_baseline",
+    "pairId": "A2_TR_seed707",
+    "profileId": "A2_TR",
+    "condition": "baseline",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 9,
+    "runId": "A2_TR_seed808_baseline",
+    "pairId": "A2_TR_seed808",
+    "profileId": "A2_TR",
+    "condition": "baseline",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 10,
+    "runId": "A2_TR_seed808_proposed",
+    "pairId": "A2_TR_seed808",
+    "profileId": "A2_TR",
+    "condition": "proposed",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 11,
+    "runId": "A2_TR_seed909_proposed",
+    "pairId": "A2_TR_seed909",
+    "profileId": "A2_TR",
+    "condition": "proposed",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 12,
+    "runId": "A2_TR_seed909_baseline",
+    "pairId": "A2_TR_seed909",
+    "profileId": "A2_TR",
+    "condition": "baseline",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 13,
+    "runId": "A2_TR_seed1001_baseline",
+    "pairId": "A2_TR_seed1001",
+    "profileId": "A2_TR",
+    "condition": "baseline",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 14,
+    "runId": "A2_TR_seed1001_proposed",
+    "pairId": "A2_TR_seed1001",
+    "profileId": "A2_TR",
+    "condition": "proposed",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 15,
+    "runId": "A2_CC_seed404_proposed",
+    "pairId": "A2_CC_seed404",
+    "profileId": "A2_CC",
+    "condition": "proposed",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 16,
+    "runId": "A2_CC_seed404_baseline",
+    "pairId": "A2_CC_seed404",
+    "profileId": "A2_CC",
+    "condition": "baseline",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 17,
+    "runId": "A2_CC_seed505_baseline",
+    "pairId": "A2_CC_seed505",
+    "profileId": "A2_CC",
+    "condition": "baseline",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 18,
+    "runId": "A2_CC_seed505_proposed",
+    "pairId": "A2_CC_seed505",
+    "profileId": "A2_CC",
+    "condition": "proposed",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 19,
+    "runId": "A2_CC_seed606_proposed",
+    "pairId": "A2_CC_seed606",
+    "profileId": "A2_CC",
+    "condition": "proposed",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 20,
+    "runId": "A2_CC_seed606_baseline",
+    "pairId": "A2_CC_seed606",
+    "profileId": "A2_CC",
+    "condition": "baseline",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 21,
+    "runId": "A2_CC_seed707_baseline",
+    "pairId": "A2_CC_seed707",
+    "profileId": "A2_CC",
+    "condition": "baseline",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 22,
+    "runId": "A2_CC_seed707_proposed",
+    "pairId": "A2_CC_seed707",
+    "profileId": "A2_CC",
+    "condition": "proposed",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 23,
+    "runId": "A2_CC_seed808_proposed",
+    "pairId": "A2_CC_seed808",
+    "profileId": "A2_CC",
+    "condition": "proposed",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 24,
+    "runId": "A2_CC_seed808_baseline",
+    "pairId": "A2_CC_seed808",
+    "profileId": "A2_CC",
+    "condition": "baseline",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 25,
+    "runId": "A2_CC_seed909_baseline",
+    "pairId": "A2_CC_seed909",
+    "profileId": "A2_CC",
+    "condition": "baseline",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 26,
+    "runId": "A2_CC_seed909_proposed",
+    "pairId": "A2_CC_seed909",
+    "profileId": "A2_CC",
+    "condition": "proposed",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 27,
+    "runId": "A2_CC_seed1001_proposed",
+    "pairId": "A2_CC_seed1001",
+    "profileId": "A2_CC",
+    "condition": "proposed",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 28,
+    "runId": "A2_CC_seed1001_baseline",
+    "pairId": "A2_CC_seed1001",
+    "profileId": "A2_CC",
+    "condition": "baseline",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 29,
+    "runId": "A2_LR_seed404_baseline",
+    "pairId": "A2_LR_seed404",
+    "profileId": "A2_LR",
+    "condition": "baseline",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 30,
+    "runId": "A2_LR_seed404_proposed",
+    "pairId": "A2_LR_seed404",
+    "profileId": "A2_LR",
+    "condition": "proposed",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 31,
+    "runId": "A2_LR_seed505_proposed",
+    "pairId": "A2_LR_seed505",
+    "profileId": "A2_LR",
+    "condition": "proposed",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 32,
+    "runId": "A2_LR_seed505_baseline",
+    "pairId": "A2_LR_seed505",
+    "profileId": "A2_LR",
+    "condition": "baseline",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 33,
+    "runId": "A2_LR_seed606_baseline",
+    "pairId": "A2_LR_seed606",
+    "profileId": "A2_LR",
+    "condition": "baseline",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 34,
+    "runId": "A2_LR_seed606_proposed",
+    "pairId": "A2_LR_seed606",
+    "profileId": "A2_LR",
+    "condition": "proposed",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 35,
+    "runId": "A2_LR_seed707_proposed",
+    "pairId": "A2_LR_seed707",
+    "profileId": "A2_LR",
+    "condition": "proposed",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 36,
+    "runId": "A2_LR_seed707_baseline",
+    "pairId": "A2_LR_seed707",
+    "profileId": "A2_LR",
+    "condition": "baseline",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 37,
+    "runId": "A2_LR_seed808_baseline",
+    "pairId": "A2_LR_seed808",
+    "profileId": "A2_LR",
+    "condition": "baseline",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 38,
+    "runId": "A2_LR_seed808_proposed",
+    "pairId": "A2_LR_seed808",
+    "profileId": "A2_LR",
+    "condition": "proposed",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 39,
+    "runId": "A2_LR_seed909_proposed",
+    "pairId": "A2_LR_seed909",
+    "profileId": "A2_LR",
+    "condition": "proposed",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 40,
+    "runId": "A2_LR_seed909_baseline",
+    "pairId": "A2_LR_seed909",
+    "profileId": "A2_LR",
+    "condition": "baseline",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 41,
+    "runId": "A2_LR_seed1001_baseline",
+    "pairId": "A2_LR_seed1001",
+    "profileId": "A2_LR",
+    "condition": "baseline",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 42,
+    "runId": "A2_LR_seed1001_proposed",
+    "pairId": "A2_LR_seed1001",
+    "profileId": "A2_LR",
+    "condition": "proposed",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 43,
+    "runId": "A2_GRA_seed404_proposed",
+    "pairId": "A2_GRA_seed404",
+    "profileId": "A2_GRA",
+    "condition": "proposed",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 44,
+    "runId": "A2_GRA_seed404_baseline",
+    "pairId": "A2_GRA_seed404",
+    "profileId": "A2_GRA",
+    "condition": "baseline",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 45,
+    "runId": "A2_GRA_seed505_baseline",
+    "pairId": "A2_GRA_seed505",
+    "profileId": "A2_GRA",
+    "condition": "baseline",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 46,
+    "runId": "A2_GRA_seed505_proposed",
+    "pairId": "A2_GRA_seed505",
+    "profileId": "A2_GRA",
+    "condition": "proposed",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 47,
+    "runId": "A2_GRA_seed606_proposed",
+    "pairId": "A2_GRA_seed606",
+    "profileId": "A2_GRA",
+    "condition": "proposed",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 48,
+    "runId": "A2_GRA_seed606_baseline",
+    "pairId": "A2_GRA_seed606",
+    "profileId": "A2_GRA",
+    "condition": "baseline",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 49,
+    "runId": "A2_GRA_seed707_baseline",
+    "pairId": "A2_GRA_seed707",
+    "profileId": "A2_GRA",
+    "condition": "baseline",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 50,
+    "runId": "A2_GRA_seed707_proposed",
+    "pairId": "A2_GRA_seed707",
+    "profileId": "A2_GRA",
+    "condition": "proposed",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 51,
+    "runId": "A2_GRA_seed808_proposed",
+    "pairId": "A2_GRA_seed808",
+    "profileId": "A2_GRA",
+    "condition": "proposed",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 52,
+    "runId": "A2_GRA_seed808_baseline",
+    "pairId": "A2_GRA_seed808",
+    "profileId": "A2_GRA",
+    "condition": "baseline",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 53,
+    "runId": "A2_GRA_seed909_baseline",
+    "pairId": "A2_GRA_seed909",
+    "profileId": "A2_GRA",
+    "condition": "baseline",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 54,
+    "runId": "A2_GRA_seed909_proposed",
+    "pairId": "A2_GRA_seed909",
+    "profileId": "A2_GRA",
+    "condition": "proposed",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 55,
+    "runId": "A2_GRA_seed1001_proposed",
+    "pairId": "A2_GRA_seed1001",
+    "profileId": "A2_GRA",
+    "condition": "proposed",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 56,
+    "runId": "A2_GRA_seed1001_baseline",
+    "pairId": "A2_GRA_seed1001",
+    "profileId": "A2_GRA",
+    "condition": "baseline",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 57,
+    "runId": "B1_TR_seed404_baseline",
+    "pairId": "B1_TR_seed404",
+    "profileId": "B1_TR",
+    "condition": "baseline",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 58,
+    "runId": "B1_TR_seed404_proposed",
+    "pairId": "B1_TR_seed404",
+    "profileId": "B1_TR",
+    "condition": "proposed",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 59,
+    "runId": "B1_TR_seed505_proposed",
+    "pairId": "B1_TR_seed505",
+    "profileId": "B1_TR",
+    "condition": "proposed",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 60,
+    "runId": "B1_TR_seed505_baseline",
+    "pairId": "B1_TR_seed505",
+    "profileId": "B1_TR",
+    "condition": "baseline",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 61,
+    "runId": "B1_TR_seed606_baseline",
+    "pairId": "B1_TR_seed606",
+    "profileId": "B1_TR",
+    "condition": "baseline",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 62,
+    "runId": "B1_TR_seed606_proposed",
+    "pairId": "B1_TR_seed606",
+    "profileId": "B1_TR",
+    "condition": "proposed",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 63,
+    "runId": "B1_TR_seed707_proposed",
+    "pairId": "B1_TR_seed707",
+    "profileId": "B1_TR",
+    "condition": "proposed",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 64,
+    "runId": "B1_TR_seed707_baseline",
+    "pairId": "B1_TR_seed707",
+    "profileId": "B1_TR",
+    "condition": "baseline",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 65,
+    "runId": "B1_TR_seed808_baseline",
+    "pairId": "B1_TR_seed808",
+    "profileId": "B1_TR",
+    "condition": "baseline",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 66,
+    "runId": "B1_TR_seed808_proposed",
+    "pairId": "B1_TR_seed808",
+    "profileId": "B1_TR",
+    "condition": "proposed",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 67,
+    "runId": "B1_TR_seed909_proposed",
+    "pairId": "B1_TR_seed909",
+    "profileId": "B1_TR",
+    "condition": "proposed",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 68,
+    "runId": "B1_TR_seed909_baseline",
+    "pairId": "B1_TR_seed909",
+    "profileId": "B1_TR",
+    "condition": "baseline",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 69,
+    "runId": "B1_TR_seed1001_baseline",
+    "pairId": "B1_TR_seed1001",
+    "profileId": "B1_TR",
+    "condition": "baseline",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 70,
+    "runId": "B1_TR_seed1001_proposed",
+    "pairId": "B1_TR_seed1001",
+    "profileId": "B1_TR",
+    "condition": "proposed",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 71,
+    "runId": "B1_CC_seed404_proposed",
+    "pairId": "B1_CC_seed404",
+    "profileId": "B1_CC",
+    "condition": "proposed",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 72,
+    "runId": "B1_CC_seed404_baseline",
+    "pairId": "B1_CC_seed404",
+    "profileId": "B1_CC",
+    "condition": "baseline",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 73,
+    "runId": "B1_CC_seed505_baseline",
+    "pairId": "B1_CC_seed505",
+    "profileId": "B1_CC",
+    "condition": "baseline",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 74,
+    "runId": "B1_CC_seed505_proposed",
+    "pairId": "B1_CC_seed505",
+    "profileId": "B1_CC",
+    "condition": "proposed",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 75,
+    "runId": "B1_CC_seed606_proposed",
+    "pairId": "B1_CC_seed606",
+    "profileId": "B1_CC",
+    "condition": "proposed",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 76,
+    "runId": "B1_CC_seed606_baseline",
+    "pairId": "B1_CC_seed606",
+    "profileId": "B1_CC",
+    "condition": "baseline",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 77,
+    "runId": "B1_CC_seed707_baseline",
+    "pairId": "B1_CC_seed707",
+    "profileId": "B1_CC",
+    "condition": "baseline",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 78,
+    "runId": "B1_CC_seed707_proposed",
+    "pairId": "B1_CC_seed707",
+    "profileId": "B1_CC",
+    "condition": "proposed",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 79,
+    "runId": "B1_CC_seed808_proposed",
+    "pairId": "B1_CC_seed808",
+    "profileId": "B1_CC",
+    "condition": "proposed",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 80,
+    "runId": "B1_CC_seed808_baseline",
+    "pairId": "B1_CC_seed808",
+    "profileId": "B1_CC",
+    "condition": "baseline",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 81,
+    "runId": "B1_CC_seed909_baseline",
+    "pairId": "B1_CC_seed909",
+    "profileId": "B1_CC",
+    "condition": "baseline",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 82,
+    "runId": "B1_CC_seed909_proposed",
+    "pairId": "B1_CC_seed909",
+    "profileId": "B1_CC",
+    "condition": "proposed",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 83,
+    "runId": "B1_CC_seed1001_proposed",
+    "pairId": "B1_CC_seed1001",
+    "profileId": "B1_CC",
+    "condition": "proposed",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 84,
+    "runId": "B1_CC_seed1001_baseline",
+    "pairId": "B1_CC_seed1001",
+    "profileId": "B1_CC",
+    "condition": "baseline",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 85,
+    "runId": "B1_LR_seed404_baseline",
+    "pairId": "B1_LR_seed404",
+    "profileId": "B1_LR",
+    "condition": "baseline",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 86,
+    "runId": "B1_LR_seed404_proposed",
+    "pairId": "B1_LR_seed404",
+    "profileId": "B1_LR",
+    "condition": "proposed",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 87,
+    "runId": "B1_LR_seed505_proposed",
+    "pairId": "B1_LR_seed505",
+    "profileId": "B1_LR",
+    "condition": "proposed",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 88,
+    "runId": "B1_LR_seed505_baseline",
+    "pairId": "B1_LR_seed505",
+    "profileId": "B1_LR",
+    "condition": "baseline",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 89,
+    "runId": "B1_LR_seed606_baseline",
+    "pairId": "B1_LR_seed606",
+    "profileId": "B1_LR",
+    "condition": "baseline",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 90,
+    "runId": "B1_LR_seed606_proposed",
+    "pairId": "B1_LR_seed606",
+    "profileId": "B1_LR",
+    "condition": "proposed",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 91,
+    "runId": "B1_LR_seed707_proposed",
+    "pairId": "B1_LR_seed707",
+    "profileId": "B1_LR",
+    "condition": "proposed",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 92,
+    "runId": "B1_LR_seed707_baseline",
+    "pairId": "B1_LR_seed707",
+    "profileId": "B1_LR",
+    "condition": "baseline",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 93,
+    "runId": "B1_LR_seed808_baseline",
+    "pairId": "B1_LR_seed808",
+    "profileId": "B1_LR",
+    "condition": "baseline",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 94,
+    "runId": "B1_LR_seed808_proposed",
+    "pairId": "B1_LR_seed808",
+    "profileId": "B1_LR",
+    "condition": "proposed",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 95,
+    "runId": "B1_LR_seed909_proposed",
+    "pairId": "B1_LR_seed909",
+    "profileId": "B1_LR",
+    "condition": "proposed",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 96,
+    "runId": "B1_LR_seed909_baseline",
+    "pairId": "B1_LR_seed909",
+    "profileId": "B1_LR",
+    "condition": "baseline",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 97,
+    "runId": "B1_LR_seed1001_baseline",
+    "pairId": "B1_LR_seed1001",
+    "profileId": "B1_LR",
+    "condition": "baseline",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 98,
+    "runId": "B1_LR_seed1001_proposed",
+    "pairId": "B1_LR_seed1001",
+    "profileId": "B1_LR",
+    "condition": "proposed",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 99,
+    "runId": "B1_GRA_seed404_proposed",
+    "pairId": "B1_GRA_seed404",
+    "profileId": "B1_GRA",
+    "condition": "proposed",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 100,
+    "runId": "B1_GRA_seed404_baseline",
+    "pairId": "B1_GRA_seed404",
+    "profileId": "B1_GRA",
+    "condition": "baseline",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 101,
+    "runId": "B1_GRA_seed505_baseline",
+    "pairId": "B1_GRA_seed505",
+    "profileId": "B1_GRA",
+    "condition": "baseline",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 102,
+    "runId": "B1_GRA_seed505_proposed",
+    "pairId": "B1_GRA_seed505",
+    "profileId": "B1_GRA",
+    "condition": "proposed",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 103,
+    "runId": "B1_GRA_seed606_proposed",
+    "pairId": "B1_GRA_seed606",
+    "profileId": "B1_GRA",
+    "condition": "proposed",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 104,
+    "runId": "B1_GRA_seed606_baseline",
+    "pairId": "B1_GRA_seed606",
+    "profileId": "B1_GRA",
+    "condition": "baseline",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 105,
+    "runId": "B1_GRA_seed707_baseline",
+    "pairId": "B1_GRA_seed707",
+    "profileId": "B1_GRA",
+    "condition": "baseline",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 106,
+    "runId": "B1_GRA_seed707_proposed",
+    "pairId": "B1_GRA_seed707",
+    "profileId": "B1_GRA",
+    "condition": "proposed",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 107,
+    "runId": "B1_GRA_seed808_proposed",
+    "pairId": "B1_GRA_seed808",
+    "profileId": "B1_GRA",
+    "condition": "proposed",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 108,
+    "runId": "B1_GRA_seed808_baseline",
+    "pairId": "B1_GRA_seed808",
+    "profileId": "B1_GRA",
+    "condition": "baseline",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 109,
+    "runId": "B1_GRA_seed909_baseline",
+    "pairId": "B1_GRA_seed909",
+    "profileId": "B1_GRA",
+    "condition": "baseline",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 110,
+    "runId": "B1_GRA_seed909_proposed",
+    "pairId": "B1_GRA_seed909",
+    "profileId": "B1_GRA",
+    "condition": "proposed",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 111,
+    "runId": "B1_GRA_seed1001_proposed",
+    "pairId": "B1_GRA_seed1001",
+    "profileId": "B1_GRA",
+    "condition": "proposed",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 112,
+    "runId": "B1_GRA_seed1001_baseline",
+    "pairId": "B1_GRA_seed1001",
+    "profileId": "B1_GRA",
+    "condition": "baseline",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 113,
+    "runId": "B2_TR_seed404_baseline",
+    "pairId": "B2_TR_seed404",
+    "profileId": "B2_TR",
+    "condition": "baseline",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 114,
+    "runId": "B2_TR_seed404_proposed",
+    "pairId": "B2_TR_seed404",
+    "profileId": "B2_TR",
+    "condition": "proposed",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 115,
+    "runId": "B2_TR_seed505_proposed",
+    "pairId": "B2_TR_seed505",
+    "profileId": "B2_TR",
+    "condition": "proposed",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 116,
+    "runId": "B2_TR_seed505_baseline",
+    "pairId": "B2_TR_seed505",
+    "profileId": "B2_TR",
+    "condition": "baseline",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 117,
+    "runId": "B2_TR_seed606_baseline",
+    "pairId": "B2_TR_seed606",
+    "profileId": "B2_TR",
+    "condition": "baseline",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 118,
+    "runId": "B2_TR_seed606_proposed",
+    "pairId": "B2_TR_seed606",
+    "profileId": "B2_TR",
+    "condition": "proposed",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 119,
+    "runId": "B2_TR_seed707_proposed",
+    "pairId": "B2_TR_seed707",
+    "profileId": "B2_TR",
+    "condition": "proposed",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 120,
+    "runId": "B2_TR_seed707_baseline",
+    "pairId": "B2_TR_seed707",
+    "profileId": "B2_TR",
+    "condition": "baseline",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 121,
+    "runId": "B2_TR_seed808_baseline",
+    "pairId": "B2_TR_seed808",
+    "profileId": "B2_TR",
+    "condition": "baseline",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 122,
+    "runId": "B2_TR_seed808_proposed",
+    "pairId": "B2_TR_seed808",
+    "profileId": "B2_TR",
+    "condition": "proposed",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 123,
+    "runId": "B2_TR_seed909_proposed",
+    "pairId": "B2_TR_seed909",
+    "profileId": "B2_TR",
+    "condition": "proposed",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 124,
+    "runId": "B2_TR_seed909_baseline",
+    "pairId": "B2_TR_seed909",
+    "profileId": "B2_TR",
+    "condition": "baseline",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 125,
+    "runId": "B2_TR_seed1001_baseline",
+    "pairId": "B2_TR_seed1001",
+    "profileId": "B2_TR",
+    "condition": "baseline",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 126,
+    "runId": "B2_TR_seed1001_proposed",
+    "pairId": "B2_TR_seed1001",
+    "profileId": "B2_TR",
+    "condition": "proposed",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 127,
+    "runId": "B2_CC_seed404_proposed",
+    "pairId": "B2_CC_seed404",
+    "profileId": "B2_CC",
+    "condition": "proposed",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 128,
+    "runId": "B2_CC_seed404_baseline",
+    "pairId": "B2_CC_seed404",
+    "profileId": "B2_CC",
+    "condition": "baseline",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 129,
+    "runId": "B2_CC_seed505_baseline",
+    "pairId": "B2_CC_seed505",
+    "profileId": "B2_CC",
+    "condition": "baseline",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 130,
+    "runId": "B2_CC_seed505_proposed",
+    "pairId": "B2_CC_seed505",
+    "profileId": "B2_CC",
+    "condition": "proposed",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 131,
+    "runId": "B2_CC_seed606_proposed",
+    "pairId": "B2_CC_seed606",
+    "profileId": "B2_CC",
+    "condition": "proposed",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 132,
+    "runId": "B2_CC_seed606_baseline",
+    "pairId": "B2_CC_seed606",
+    "profileId": "B2_CC",
+    "condition": "baseline",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 133,
+    "runId": "B2_CC_seed707_baseline",
+    "pairId": "B2_CC_seed707",
+    "profileId": "B2_CC",
+    "condition": "baseline",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 134,
+    "runId": "B2_CC_seed707_proposed",
+    "pairId": "B2_CC_seed707",
+    "profileId": "B2_CC",
+    "condition": "proposed",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 135,
+    "runId": "B2_CC_seed808_proposed",
+    "pairId": "B2_CC_seed808",
+    "profileId": "B2_CC",
+    "condition": "proposed",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 136,
+    "runId": "B2_CC_seed808_baseline",
+    "pairId": "B2_CC_seed808",
+    "profileId": "B2_CC",
+    "condition": "baseline",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 137,
+    "runId": "B2_CC_seed909_baseline",
+    "pairId": "B2_CC_seed909",
+    "profileId": "B2_CC",
+    "condition": "baseline",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 138,
+    "runId": "B2_CC_seed909_proposed",
+    "pairId": "B2_CC_seed909",
+    "profileId": "B2_CC",
+    "condition": "proposed",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 139,
+    "runId": "B2_CC_seed1001_proposed",
+    "pairId": "B2_CC_seed1001",
+    "profileId": "B2_CC",
+    "condition": "proposed",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 140,
+    "runId": "B2_CC_seed1001_baseline",
+    "pairId": "B2_CC_seed1001",
+    "profileId": "B2_CC",
+    "condition": "baseline",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 141,
+    "runId": "B2_LR_seed404_baseline",
+    "pairId": "B2_LR_seed404",
+    "profileId": "B2_LR",
+    "condition": "baseline",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 142,
+    "runId": "B2_LR_seed404_proposed",
+    "pairId": "B2_LR_seed404",
+    "profileId": "B2_LR",
+    "condition": "proposed",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 143,
+    "runId": "B2_LR_seed505_proposed",
+    "pairId": "B2_LR_seed505",
+    "profileId": "B2_LR",
+    "condition": "proposed",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 144,
+    "runId": "B2_LR_seed505_baseline",
+    "pairId": "B2_LR_seed505",
+    "profileId": "B2_LR",
+    "condition": "baseline",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 145,
+    "runId": "B2_LR_seed606_baseline",
+    "pairId": "B2_LR_seed606",
+    "profileId": "B2_LR",
+    "condition": "baseline",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 146,
+    "runId": "B2_LR_seed606_proposed",
+    "pairId": "B2_LR_seed606",
+    "profileId": "B2_LR",
+    "condition": "proposed",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 147,
+    "runId": "B2_LR_seed707_proposed",
+    "pairId": "B2_LR_seed707",
+    "profileId": "B2_LR",
+    "condition": "proposed",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 148,
+    "runId": "B2_LR_seed707_baseline",
+    "pairId": "B2_LR_seed707",
+    "profileId": "B2_LR",
+    "condition": "baseline",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 149,
+    "runId": "B2_LR_seed808_baseline",
+    "pairId": "B2_LR_seed808",
+    "profileId": "B2_LR",
+    "condition": "baseline",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 150,
+    "runId": "B2_LR_seed808_proposed",
+    "pairId": "B2_LR_seed808",
+    "profileId": "B2_LR",
+    "condition": "proposed",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 151,
+    "runId": "B2_LR_seed909_proposed",
+    "pairId": "B2_LR_seed909",
+    "profileId": "B2_LR",
+    "condition": "proposed",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 152,
+    "runId": "B2_LR_seed909_baseline",
+    "pairId": "B2_LR_seed909",
+    "profileId": "B2_LR",
+    "condition": "baseline",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 153,
+    "runId": "B2_LR_seed1001_baseline",
+    "pairId": "B2_LR_seed1001",
+    "profileId": "B2_LR",
+    "condition": "baseline",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 154,
+    "runId": "B2_LR_seed1001_proposed",
+    "pairId": "B2_LR_seed1001",
+    "profileId": "B2_LR",
+    "condition": "proposed",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 155,
+    "runId": "B2_GRA_seed404_proposed",
+    "pairId": "B2_GRA_seed404",
+    "profileId": "B2_GRA",
+    "condition": "proposed",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 156,
+    "runId": "B2_GRA_seed404_baseline",
+    "pairId": "B2_GRA_seed404",
+    "profileId": "B2_GRA",
+    "condition": "baseline",
+    "seed": 404,
+    "repeat": 4
+  },
+  {
+    "runIndex": 157,
+    "runId": "B2_GRA_seed505_baseline",
+    "pairId": "B2_GRA_seed505",
+    "profileId": "B2_GRA",
+    "condition": "baseline",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 158,
+    "runId": "B2_GRA_seed505_proposed",
+    "pairId": "B2_GRA_seed505",
+    "profileId": "B2_GRA",
+    "condition": "proposed",
+    "seed": 505,
+    "repeat": 5
+  },
+  {
+    "runIndex": 159,
+    "runId": "B2_GRA_seed606_proposed",
+    "pairId": "B2_GRA_seed606",
+    "profileId": "B2_GRA",
+    "condition": "proposed",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 160,
+    "runId": "B2_GRA_seed606_baseline",
+    "pairId": "B2_GRA_seed606",
+    "profileId": "B2_GRA",
+    "condition": "baseline",
+    "seed": 606,
+    "repeat": 6
+  },
+  {
+    "runIndex": 161,
+    "runId": "B2_GRA_seed707_baseline",
+    "pairId": "B2_GRA_seed707",
+    "profileId": "B2_GRA",
+    "condition": "baseline",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 162,
+    "runId": "B2_GRA_seed707_proposed",
+    "pairId": "B2_GRA_seed707",
+    "profileId": "B2_GRA",
+    "condition": "proposed",
+    "seed": 707,
+    "repeat": 7
+  },
+  {
+    "runIndex": 163,
+    "runId": "B2_GRA_seed808_proposed",
+    "pairId": "B2_GRA_seed808",
+    "profileId": "B2_GRA",
+    "condition": "proposed",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 164,
+    "runId": "B2_GRA_seed808_baseline",
+    "pairId": "B2_GRA_seed808",
+    "profileId": "B2_GRA",
+    "condition": "baseline",
+    "seed": 808,
+    "repeat": 8
+  },
+  {
+    "runIndex": 165,
+    "runId": "B2_GRA_seed909_baseline",
+    "pairId": "B2_GRA_seed909",
+    "profileId": "B2_GRA",
+    "condition": "baseline",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 166,
+    "runId": "B2_GRA_seed909_proposed",
+    "pairId": "B2_GRA_seed909",
+    "profileId": "B2_GRA",
+    "condition": "proposed",
+    "seed": 909,
+    "repeat": 9
+  },
+  {
+    "runIndex": 167,
+    "runId": "B2_GRA_seed1001_proposed",
+    "pairId": "B2_GRA_seed1001",
+    "profileId": "B2_GRA",
+    "condition": "proposed",
+    "seed": 1001,
+    "repeat": 10
+  },
+  {
+    "runIndex": 168,
+    "runId": "B2_GRA_seed1001_baseline",
+    "pairId": "B2_GRA_seed1001",
+    "profileId": "B2_GRA",
+    "condition": "baseline",
+    "seed": 1001,
+    "repeat": 10
+  }
+]

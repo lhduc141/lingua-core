@@ -1,3 +1,4 @@
+import { runPlanPipeline } from './plan-pipeline';
 import { AiClientService } from '@app/ai-client';
 import { BullmqService } from '@app/bullmq';
 import { BadRequestException, NotFoundException, PagingDataDto, ResponseDto } from '@app/shared';
@@ -23,7 +24,11 @@ import { GradeCustomActivityJobData } from './interface/grade-custom-activity-jo
 import { PlanDay } from './interface/plan-day.interface';
 import { PlanHistoryItem } from './interface/plan-history-item.interface';
 import { PlanTask } from './interface/plan-task.interface';
+import { PlanContext, PlanDiagnosticWeakness } from './interface/plan-context.interface';
+import { PlanContentCandidate, PlanSelectedContentDetail } from './interface/plan-content-candidate.interface';
+import { PlanContentSelection } from './interface/plan-content-selection.interface';
 import { GradingStatus } from '@prisma/client';
+import { randomUUID } from 'crypto';
 
 @Injectable()
 export class LearningPlanService implements OnModuleInit {
@@ -187,39 +192,24 @@ export class LearningPlanService implements OnModuleInit {
 		}
 
 		const { today, weekStartDate, weekEndDate, weekDates } = this.getCurrentVNWeekRange();
-
 		const planCycle = Number(weekStartDate.replaceAll('-', ''));
 		const weekNumber = 1;
 		const startDateStr = weekStartDate;
 
-		await this.prisma.learningPlanItem.updateMany({
-			where: {
-				userId,
-				deletedAt: null,
-				dueDate: {
-					gte: this.vnDateToDate(weekStartDate),
-					lt: this.vnDateToDate(this.addDays(weekStartDate, 7)),
-				},
-			},
-			data: { deletedAt: new Date() },
-		});
-
 		const recentPerformance = await this.getRecentPerformance(userId);
-		const recentWeaknesses = await this.getRecentWeaknesses(userId);
+		const recentWeaknesses = (await this.getRecentWeaknesses(userId)) as PlanDiagnosticWeakness[];
 		this.logger.log(
 			`Recent weaknesses extracted | userId=${userId} | count=${recentWeaknesses.length}` +
-				(recentWeaknesses.length > 0 ? ` | tags=[${recentWeaknesses.map((w: any) => w.tag).join(',')}]` : ''),
+				(recentWeaknesses.length > 0 ? ` | tags=[${recentWeaknesses.map((w) => w.tag).join(',')}]` : ''),
 		);
-		const availableDays = this.normalizeAvailableDays(survey.availableDays);
 
+		const availableDays = this.normalizeAvailableDays(survey.availableDays);
 		const rawFocusSkills = Array.isArray(survey.primaryFocusSkills)
 			? survey.primaryFocusSkills.map((skill) => String(skill).trim().toLowerCase())
 			: [];
 
 		const hasAllSkills = rawFocusSkills.some((skill) => ['all', 'all_skills', 'all skills'].includes(skill));
-
 		const sanitizedFocusSkills = rawFocusSkills.filter((skill) => this.SUPPORTED_SKILLS.includes(skill));
-
 		const selectedFocusSkills = hasAllSkills
 			? [...this.SUPPORTED_SKILLS]
 			: sanitizedFocusSkills.length > 0
@@ -232,23 +222,15 @@ export class LearningPlanService implements OnModuleInit {
 
 		const rawWeeklyHours = Number(survey.plannedStudyHoursPerWeek ?? 7);
 		const plannedStudyHoursPerWeek = Math.min(Math.max(rawWeeklyHours, 1), 14);
+		if (plannedStudyHoursPerWeek !== rawWeeklyHours) {
+			this.logger.warn(
+				`Study-hour input clamped for planning | userId=${userId} | requested=${rawWeeklyHours} | effective=${plannedStudyHoursPerWeek}`,
+			);
+		}
 		const dailyMinutesLimit = Math.max(
 			45,
 			Math.ceil((plannedStudyHoursPerWeek / Math.max(availableDays.length, 1)) * 60),
 		);
-
-		const { lessons, questionSets, shortToFullMap } = await this.getAvailableContent(
-			catSession.cefrLevel ?? 'B1',
-			planSkills,
-			userId,
-			recentPerformance,
-			weekStartDate,
-		);
-
-		const validRefIds = new Set<string>([
-			...lessons.map((l: any) => l.lessonId),
-			...questionSets.map((q: any) => q.questionSetId),
-		]);
 
 		const skillAvgMap: Record<string, { total: number; count: number }> = {};
 		for (const r of recentPerformance) {
@@ -263,222 +245,92 @@ export class LearningPlanService implements OnModuleInit {
 			avg: Math.round(total / count),
 		}));
 
-		const maxAiItems = Math.min(40, availableDays.length * 8);
+		const proficiencyLevel = catSession.cefrLevel ?? 'B1';
+		const contentTargetLevel = this.getContentTargetLevel(proficiencyLevel);
+		const aiTraceId = randomUUID();
 
-		const aiLessons = this.shuffle(lessons).slice(0, maxAiItems);
-		const aiQSets = this.shuffle(questionSets).slice(0, maxAiItems);
-
-		const contentGroups: Record<string, string[]> = {};
-
-		for (const l of aiLessons) {
-			const key = `${l.cefrLevel}_${l.skillName}_LESSON`;
-			if (!contentGroups[key]) contentGroups[key] = [];
-			contentGroups[key].push(l.lessonId.split('-')[0]);
+		if (contentTargetLevel !== proficiencyLevel) {
+			this.logger.log(
+				`Content-level fallback applied | userId=${userId} | proficiency=${proficiencyLevel} | contentTarget=${contentTargetLevel}`,
+			);
 		}
 
-		for (const q of aiQSets) {
-			const key = `${q.cefrLevel}_${q.skillName}_PRACTICE`;
-			if (!contentGroups[key]) contentGroups[key] = [];
-			contentGroups[key].push(q.questionSetId.split('-')[0]);
-		}
-
-		const compactContent = Object.entries(contentGroups)
-			.map(([k, ids]) => `${k}: ${ids.join(',')}`)
-			.join('\n');
-
-		if (!compactContent.trim()) {
-			throw new BadRequestException('No available learning content found for your profile.');
-		}
-
-		const aiPayload = {
-			cefrLevel: catSession.cefrLevel,
-			goals: {
+		const context: PlanContext = {
+			cefrLevel: proficiencyLevel,
+			contentTargetLevel,
+			learnerContext: {
+				primaryGoal: survey.primaryGoal ? String(survey.primaryGoal) : null,
+				targetGoal: survey.targetGoal ? String(survey.targetGoal) : null,
 				focusSkills: selectedFocusSkills,
 				planSkills,
 				plannedStudyHoursPerWeek,
 				availableDays,
+				dailyMinutesLimit,
 			},
+			skillPerformance: skillPerformanceSummary,
+			recentWeaknesses,
 			weekStartDate,
 			weekEndDate,
 			weekDates,
-			skillPerformance: skillPerformanceSummary,
-			recentWeaknesses: recentWeaknesses.length > 0 ? recentWeaknesses : null,
-			compactContent,
-			dailyMinutesLimit,
 		};
 
-		let aiResult: { planItems: AiPlanItem[] };
+		const { lessons, questionSets } = await this.getAvailableContent(
+			context.contentTargetLevel,
+			planSkills,
+			userId,
+			recentPerformance,
+		);
 
-		try {
-			aiResult = await this.aiClient.generatePlan(aiPayload);
-		} catch (err) {
-			this.logger.error(`AI plan generation failed: ${err.message}`);
-			throw new BadRequestException('AI plan generation failed. Please try again.');
-		}
+		const pipeline = await runPlanPipeline({context, lessons, questionSets}, {
+ mode: 'production', allowCustomActivity: true,
+ resolveDetails: selected => this.getSelectedContentDetails(selected),
+ select: payload => this.aiClient.selectPlanContent({...payload,aiTraceId}),
+ generate: payload => this.aiClient.generatePlan({...payload,aiTraceId}),
+ });
+ const {candidatePool, selectedContentDetails, validatedPlanItems: normalizedAiItems, weeklyMinutes, weeklyMinutesLimit}=pipeline;
+ const now=new Date();
 
-		if (!aiResult?.planItems || aiResult.planItems.length === 0) {
-			throw new BadRequestException('AI returned empty plan. Please try again.');
-		}
-
-		const now = new Date();
-
-		const [lessonTitles, qsetTitles] = await Promise.all([
-			this.prisma.lesson.findMany({
-				where: { lessonId: { in: [...validRefIds] }, deletedAt: null },
-				select: { lessonId: true, title: true },
-			}),
-			this.prisma.questionSet.findMany({
-				where: { questionSetId: { in: [...validRefIds] }, deletedAt: null },
-				select: { questionSetId: true, title: true },
-			}),
-		]);
-
-		const titleMap = new Map<string, string>();
-		for (const l of lessonTitles) titleMap.set(l.lessonId, l.title);
-		for (const q of qsetTitles) titleMap.set(q.questionSetId, q.title);
-
-		const weekdayByDay: Record<number, string> = {
-			1: 'MONDAY',
-			2: 'TUESDAY',
-			3: 'WEDNESDAY',
-			4: 'THURSDAY',
-			5: 'FRIDAY',
-			6: 'SATURDAY',
-			7: 'SUNDAY',
-		};
-
-		const allowedSkills = new Set(planSkills);
-		const dayTaskCount = new Map<number, number>();
-		const dayMinutes = new Map<number, number>();
-
-		const validAiItems = aiResult.planItems.filter((item) => {
-			if (item.day < 1 || item.day > 7) {
-				this.logger.warn(`Skipping item with invalid day: ${item.day}`);
-				return false;
-			}
-
-			const itemType = item.itemType as string;
-			if (!['lesson', 'practice_session', 'custom_activity'].includes(itemType)) {
-				this.logger.warn(`Skipping invalid itemType: ${itemType}`);
-				return false;
-			}
-
-			const weekday = weekdayByDay[item.day];
-			if (!availableDays.includes(weekday)) {
-				this.logger.warn(`Skipping item on unavailable day: day=${item.day} weekday=${weekday}`);
-				return false;
-			}
-
-			const itemSkill = item.skillName ? String(item.skillName).toLowerCase() : null;
-			if (itemSkill && !allowedSkills.has(itemSkill)) {
-				this.logger.warn(`Skipping item outside allowed plan skills: ${item.title} | skill=${item.skillName}`);
-				return false;
-			}
-
-			if (item.day === 7 && item.itemType !== 'practice_session') {
-				this.logger.warn(`Skipping Sunday non-practice item: ${item.title}`);
-				return false;
-			}
-
-			const currentCount = dayTaskCount.get(item.day) ?? 0;
-			const maxTasks = item.day === 7 ? 2 : 4;
-
-			if (currentCount >= maxTasks) {
-				this.logger.warn(`Skipping item because day limit reached: day=${item.day}`);
-				return false;
-			}
-
-			const currentMinutes = dayMinutes.get(item.day) ?? 0;
-			const itemMinutes = Math.max(Number(item.estimatedMinutes ?? 0), 0);
-
-			if (currentCount > 0 && currentMinutes + itemMinutes > dailyMinutesLimit) {
-				this.logger.warn(
-					`Skipping item because daily minutes limit reached: day=${item.day} current=${currentMinutes} item=${itemMinutes} limit=${dailyMinutesLimit}`,
-				);
-				return false;
-			}
-
-			dayTaskCount.set(item.day, currentCount + 1);
-			dayMinutes.set(item.day, currentMinutes + itemMinutes);
-
-			return true;
+		const planItems = normalizedAiItems.map((item) => {
+			const dueDate = this.vnDateToDate(this.addDays(startDateStr, item.day - 1));
+			return {
+				userId,
+				title: item.title,
+				description: item.description ?? null,
+				rationale: item.rationale,
+				itemType: item.itemType,
+				refType:
+					item.itemType === 'custom_activity'
+						? null
+						: item.itemType === 'lesson'
+							? 'lesson'
+							: 'question_set',
+				refId: item.itemType === 'custom_activity' ? null : item.refId,
+				dueDate,
+				position: item.position,
+				status: 'pending' as any,
+				planCycle,
+				weekNumber,
+				generatedAt: now,
+				estimatedMinutes: item.estimatedMinutes,
+				skillName: item.skillName ? String(item.skillName).toLowerCase() : null,
+			};
 		});
-
-		const selectedRefIds = new Set<string>();
-
-		const planItems = validAiItems
-			.filter((item) => {
-				if (item.itemType === 'custom_activity') return true;
-
-				if (!item.refId) {
-					this.logger.warn(`Skipping item missing refId: "${item.title}"`);
-					return false;
-				}
-
-				const rawRefId = String(item.refId ?? '').trim();
-				const fullId = String(shortToFullMap.get(rawRefId) ?? rawRefId).trim();
-
-				if (!validRefIds.has(fullId)) {
-					this.logger.warn(`Skipping unknown refId: "${fullId}" (${item.title})`);
-					return false;
-				}
-
-				if (selectedRefIds.has(fullId)) {
-					this.logger.warn(`Skipping duplicate refId in generated plan: "${fullId}" (${item.title})`);
-					return false;
-				}
-
-				item.refId = fullId;
-				selectedRefIds.add(fullId);
-				return true;
-			})
-			.map((item) => {
-				const dayOffset = item.day - 1;
-				const dueDate = this.vnDateToDate(this.addDays(startDateStr, dayOffset));
-
-				return {
-					userId,
-					title: item.refId && titleMap.get(item.refId) ? titleMap.get(item.refId)! : item.title,
-					description: item.description ?? null,
-					rationale: item.rationale,
-					itemType: item.itemType,
-					refType:
-						item.itemType === 'custom_activity'
-							? null
-							: item.itemType === 'lesson'
-								? 'lesson'
-								: 'question_set',
-					refId: item.itemType === 'custom_activity' ? null : item.refId,
-					dueDate,
-					position: item.position,
-					status: 'pending' as any,
-					planCycle,
-					weekNumber,
-					generatedAt: now,
-					estimatedMinutes: item.estimatedMinutes,
-					skillName: item.skillName ? String(item.skillName).toLowerCase() : null,
-				};
-			});
 
 		const finalPlanItems = planItems.filter((item) => {
 			const dateStr = this.toVNDateStr(new Date(item.dueDate));
 			const weekDate = weekDates.find((d) => d.date === dateStr);
-
 			if (!weekDate) {
 				this.logger.warn(`Dropping item outside current week: ${item.title} | date=${dateStr}`);
 				return false;
 			}
-
 			if (!availableDays.includes(weekDate.weekday)) {
 				this.logger.warn(`Dropping item on unavailable date: ${item.title} | ${weekDate.weekday}`);
 				return false;
 			}
-
 			if (weekDate.day === 7 && item.itemType !== 'practice_session') {
 				this.logger.warn(`Dropping Sunday non-practice item after mapping: ${item.title}`);
 				return false;
 			}
-
 			return true;
 		});
 
@@ -486,11 +338,8 @@ export class LearningPlanService implements OnModuleInit {
 			throw new BadRequestException('AI returned no valid plan items after validation.');
 		}
 
-		const reviewDateStr = this.addDays(startDateStr, 6);
-		const reviewDueDate = this.vnDateToDate(reviewDateStr);
-
+		const reviewDueDate = this.vnDateToDate(this.addDays(startDateStr, 6));
 		const itemsToCreate = [...finalPlanItems];
-
 		itemsToCreate.push({
 			userId,
 			title: 'Weekly Review',
@@ -509,10 +358,31 @@ export class LearningPlanService implements OnModuleInit {
 			skillName: null,
 		});
 
-		await this.prisma.learningPlanItem.createMany({ data: itemsToCreate });
+		// Replace the production plan only after both AI stages and deterministic validation succeeded.
+		await this.prisma.$transaction([
+			this.prisma.learningPlanItem.updateMany({
+				where: {
+					userId,
+					deletedAt: null,
+					dueDate: {
+						gte: this.vnDateToDate(weekStartDate),
+						lt: this.vnDateToDate(this.addDays(weekStartDate, 7)),
+					},
+				},
+				data: { deletedAt: now },
+			}),
+			this.prisma.learningPlanItem.createMany({ data: itemsToCreate }),
+		]);
 
 		this.logger.log(
-			`Plan generated | userId=${userId} | week=${weekStartDate}..${weekEndDate} | items=${itemsToCreate.length} | today=${today} | pool=L${lessons.length}+Q${questionSets.length} | sent=L${aiLessons.length}+Q${aiQSets.length} | focus=${selectedFocusSkills.join(',')} | planSkills=${planSkills.join(',')} | hours=${plannedStudyHoursPerWeek} | dailyLimit=${dailyMinutesLimit}`,
+			`Plan generated (Level 2) | userId=${userId} | week=${weekStartDate}..${weekEndDate}` +
+				` | items=${itemsToCreate.length} | today=${today}` +
+				` | pool=L${lessons.length}+Q${questionSets.length}` +
+				` | candidates=${candidatePool.length} | selected=${selectedContentDetails.length}` +
+				` | proficiency=${context.cefrLevel} | contentTarget=${context.contentTargetLevel}` +
+				` | focus=${selectedFocusSkills.join(',')} | planSkills=${planSkills.join(',')}` +
+				` | hours=${plannedStudyHoursPerWeek} | dailyLimit=${dailyMinutesLimit}` +
+				` | weeklyMinutes=${weeklyMinutes}/${weeklyMinutesLimit}`,
 		);
 
 		return ResponseDto.success(
@@ -523,6 +393,9 @@ export class LearningPlanService implements OnModuleInit {
 				weekStartDate,
 				weekEndDate,
 				itemsCreated: itemsToCreate.length,
+				aiTraceId,
+				proficiencyLevel: context.cefrLevel,
+				contentTargetLevel: context.contentTargetLevel,
 			},
 			`Learning plan for ${weekStartDate} to ${weekEndDate} generated successfully.`,
 		);
@@ -692,6 +565,7 @@ export class LearningPlanService implements OnModuleInit {
 			const result = await this.aiClient.gradeSubmission({
 				questionType: 'essay',
 				userText: textAnswer,
+				aiTraceId: itemId,
 			});
 
 			await this.prisma.learningPlanItem.update({
@@ -737,6 +611,7 @@ export class LearningPlanService implements OnModuleInit {
 			});
 
 			const reviewData = await this.aiClient.generateWeeklyReview({
+				aiTraceId: reviewItemId,
 				cefrLevel: catSession?.cefrLevel ?? 'A2',
 				weekNumber,
 				planItems: weekItems,
@@ -757,14 +632,120 @@ export class LearningPlanService implements OnModuleInit {
 		}
 	}
 
+	private async getSelectedContentDetails(
+		selectedCandidates: PlanContentCandidate[],
+	): Promise<PlanSelectedContentDetail[]> {
+		const selectedByFullId = new Map(selectedCandidates.map((candidate) => [candidate.fullRefId, candidate]));
+		const lessonIds = selectedCandidates.filter((item) => item.itemType === 'lesson').map((item) => item.fullRefId);
+		const questionSetIds = selectedCandidates
+			.filter((item) => item.itemType === 'practice_session')
+			.map((item) => item.fullRefId);
+
+		const [lessons, questionSets] = await Promise.all([
+			lessonIds.length > 0
+				? this.prisma.lesson.findMany({
+					where: { lessonId: { in: lessonIds }, deletedAt: null, status: 'published' },
+					select: LessonSelect.planDetail,
+				})
+				: Promise.resolve([]),
+			questionSetIds.length > 0
+				? this.prisma.questionSet.findMany({
+					where: { questionSetId: { in: questionSetIds }, deletedAt: null, isActive: true },
+					select: QuestionSetSelect.planDetail,
+				})
+				: Promise.resolve([]),
+		]);
+
+		const detailMap = new Map<string, PlanSelectedContentDetail>();
+		for (const lesson of lessons) {
+			const candidate = selectedByFullId.get(lesson.lessonId);
+			if (!candidate) continue;
+			const sampleStems = (lesson.lessonQuestions ?? [])
+				.map((item: any) => item.question?.translations?.[0]?.stemText)
+				.filter(Boolean)
+				.map((stem: string) => this.truncateText(stem, 180));
+			const questionTypes = Array.from(
+				new Set<string>(
+					(lesson.lessonQuestions ?? [])
+						.map((item: any) => String(item.question?.type ?? ''))
+						.filter((value: string) => value.length > 0),
+				),
+			);
+			detailMap.set(lesson.lessonId, {
+				...candidate,
+				description: lesson.description ? this.truncateText(String(lesson.description), 240) : candidate.description,
+				theorySummary: this.summarizeTheoryContent(lesson.theoryContent),
+				questionCount: lesson._count?.lessonQuestions ?? lesson.lessonQuestions?.length ?? 0,
+				questionTypes,
+				sampleStems,
+			});
+		}
+
+		for (const questionSet of questionSets) {
+			const candidate = selectedByFullId.get(questionSet.questionSetId);
+			if (!candidate) continue;
+			const sampleStems = (questionSet.items ?? [])
+				.map((item: any) => item.question?.translations?.[0]?.stemText)
+				.filter(Boolean)
+				.map((stem: string) => this.truncateText(stem, 180));
+			const questionTypes = Array.from(
+				new Set<string>(
+					(questionSet.items ?? [])
+						.map((item: any) => String(item.question?.type ?? ''))
+						.filter((value: string) => value.length > 0),
+				),
+			);
+			detailMap.set(questionSet.questionSetId, {
+				...candidate,
+				description: questionSet.description
+					? this.truncateText(String(questionSet.description), 240)
+					: candidate.description,
+				theorySummary: null,
+				questionCount: questionSet._count?.items ?? questionSet.items?.length ?? 0,
+				questionTypes,
+				sampleStems,
+			});
+		}
+
+		return selectedCandidates.map((candidate) => detailMap.get(candidate.fullRefId)).filter(Boolean) as PlanSelectedContentDetail[];
+	}
+
+	private summarizeTheoryContent(theoryContent: unknown): string | null {
+		if (theoryContent == null) return null;
+		try {
+			if (typeof theoryContent === 'object' && theoryContent && Array.isArray((theoryContent as any).sections)) {
+				const text = (theoryContent as any).sections
+					.slice(0, 3)
+					.map((section: any) => `${section.type ? `${section.type}: ` : ''}${section.content ?? ''}`)
+					.join(' | ');
+				return this.truncateText(text, 500);
+			}
+			return this.truncateText(typeof theoryContent === 'string' ? theoryContent : JSON.stringify(theoryContent), 500);
+		} catch {
+			return null;
+		}
+	}
+
+	private truncateText(value: string, maxChars: number): string {
+		const compact = String(value ?? '').replace(/\s+/g, ' ').trim();
+		return compact.length <= maxChars ? compact : `${compact.slice(0, Math.max(0, maxChars - 1))}…`;
+	}
+
+	private getContentTargetLevel(cefrLevel: string): string {
+		const supported = ['A1', 'A2', 'B1', 'B2', 'C1'];
+		const safeLevel = supported.includes(cefrLevel) ? cefrLevel : 'B1';
+		// Current curriculum/catalog is validated through B2 for reading/writing/speaking.
+		// Preserve the C1 proficiency estimate, but retrieve B2 content rather than returning an empty plan.
+		return safeLevel === 'C1' ? 'B2' : safeLevel;
+	}
+
 	// PRIVATE: Smart content pool
 	private async getAvailableContent(
 		cefrLevel: string,
 		planSkills: string[],
 		userId: string,
 		recentPerformance: { skillName: string | null; score: number }[],
-		currentWeekStartDate: string,
-	): Promise<{ lessons: any[]; questionSets: any[]; shortToFullMap: Map<string, string> }> {
+	): Promise<{ lessons: any[]; questionSets: any[] }> {
 		const skillAvg: Record<string, { total: number; count: number }> = {};
 
 		for (const r of recentPerformance) {
@@ -774,8 +755,10 @@ export class LearningPlanService implements OnModuleInit {
 			skillAvg[r.skillName].count += 1;
 		}
 
-		const levels = ['A1', 'A2', 'B1', 'B2', 'C1'];
-		const safeCefrLevel = levels.includes(cefrLevel) ? cefrLevel : 'B1';
+		// The current reading/writing/speaking learning catalog is intentionally capped at B2.
+		// C1 remains a proficiency result, not a retrieval level, until a validated C1 catalog exists.
+		const levels = ['A1', 'A2', 'B1', 'B2'];
+		const safeCefrLevel = levels.includes(cefrLevel) ? cefrLevel : cefrLevel === 'C1' ? 'B2' : 'B1';
 		const idx = levels.indexOf(safeCefrLevel);
 
 		const getLevelRange = (skill: string): string[] => {
@@ -788,35 +771,19 @@ export class LearningPlanService implements OnModuleInit {
 			return [safeCefrLevel];
 		};
 
-		const currentWeekEndExclusive = this.addDays(currentWeekStartDate, 7);
+		// Preserve the original regeneration behaviour: completed/submitted exercise content is excluded,
+		// while the current week's plan is replaceable and therefore does not constrain the new candidate pool.
+		const usedFromExercise = await this.prisma.exerciseRecord.findMany({
+			where: {
+				userId,
+				deletedAt: null,
+				status: { in: ['scored', 'submitted'] },
+				refType: { in: ['lesson', 'question_set'] },
+			},
+			select: { refId: true },
+		});
 
-		const [usedFromCurrentPlan, usedFromExercise] = await Promise.all([
-			this.prisma.learningPlanItem.findMany({
-				where: {
-					userId,
-					refId: { not: null },
-					deletedAt: null,
-					dueDate: {
-						gte: this.vnDateToDate(currentWeekStartDate),
-						lt: this.vnDateToDate(currentWeekEndExclusive),
-					},
-				},
-				select: { refId: true },
-			}),
-			this.prisma.exerciseRecord.findMany({
-				where: {
-					userId,
-					deletedAt: null,
-					status: { in: ['scored', 'submitted'] },
-				},
-				select: { refId: true },
-			}),
-		]);
-
-		const usedRefIds = new Set([
-			...usedFromCurrentPlan.map((i) => i.refId!),
-			...usedFromExercise.map((i) => i.refId),
-		]);
+		const usedRefIds = new Set(usedFromExercise.map((i) => i.refId));
 
 		const [lessonsBySkill, qsetsBySkill] = await Promise.all([
 			Promise.all(
@@ -829,7 +796,7 @@ export class LearningPlanService implements OnModuleInit {
 							cefrLevel: { in: getLevelRange(skill) as any },
 							lessonId: { notIn: [...usedRefIds] },
 						},
-						select: LessonSelect.planAvailable,
+						select: LessonSelect.planCatalog,
 					}),
 				),
 			),
@@ -843,7 +810,7 @@ export class LearningPlanService implements OnModuleInit {
 							cefrLevel: { in: getLevelRange(skill) as any },
 							questionSetId: { notIn: [...usedRefIds] },
 						},
-						select: QuestionSetSelect.planAvailable,
+						select: QuestionSetSelect.planCatalog,
 					}),
 				),
 			),
@@ -852,22 +819,36 @@ export class LearningPlanService implements OnModuleInit {
 		const lessons = lessonsBySkill.flat();
 		const questionSets = qsetsBySkill.flat();
 
-		const shortToFullMap = new Map<string, string>();
-		for (const l of lessons) shortToFullMap.set(l.lessonId.split('-')[0], l.lessonId);
-		for (const q of questionSets) shortToFullMap.set(q.questionSetId.split('-')[0], q.questionSetId);
-
 		this.logger.log(
-			`Content pool | cefrLevel=${safeCefrLevel} | planSkills=${planSkills.join(',')} | lessons=${lessons.length} | qsets=${questionSets.length} | used=${usedRefIds.size}`,
+			`Content pool | cefrLevel=${safeCefrLevel} | planSkills=${planSkills.join(',')}` +
+				` | lessons=${lessons.length} | qsets=${questionSets.length} | usedExercises=${usedRefIds.size}`,
 		);
 
-		return { lessons, questionSets, shortToFullMap };
+		return { lessons, questionSets };
 	}
 
-	// PRIVATE: Get recent performance
 	// PRIVATE: Extract recent weaknesses from Writing/Speaking AI feedback
 	private async getRecentWeaknesses(userId: string): Promise<any[]> {
 		const records = await this.prisma.exerciseRecord.findMany({
-			where: { userId, status: 'scored' as any, deletedAt: null },
+			where: {
+				userId,
+				status: 'scored' as any,
+				deletedAt: null,
+				refType: { in: ['lesson', 'question_set'] },
+				// Take the five most recent productive-skill records, not merely the five
+				// most recent records of any skill. Otherwise a burst of reading practice
+				// can incorrectly hide recent writing/speaking diagnostic evidence.
+				answers: {
+					some: {
+						deletedAt: null,
+						gradingStatus: {
+							in: [GradingStatus.auto_scored, GradingStatus.human_reviewed],
+						},
+						question: { type: { in: ['essay', 'speaking'] as any } },
+						evaluations: { some: { deletedAt: null } },
+					},
+				},
+			},
 			orderBy: { completedAt: 'desc' },
 			take: 5,
 			select: {
@@ -1001,7 +982,12 @@ export class LearningPlanService implements OnModuleInit {
 
 	private async getRecentPerformance(userId: string) {
 		const recentRecords = await this.prisma.exerciseRecord.findMany({
-			where: { userId, status: 'scored', deletedAt: null },
+			where: {
+				userId,
+				status: 'scored',
+				deletedAt: null,
+				refType: { in: ['lesson', 'question_set'] },
+			},
 			orderBy: { completedAt: 'desc' },
 			take: 5,
 			select: ExerciseRecordSelect.performance,
@@ -1195,7 +1181,7 @@ export class LearningPlanService implements OnModuleInit {
 	}
 
 	private vnDateToDate(dateStr: string): Date {
-		return new Date(dateStr + 'T00:00:00+07:00');
+		return new Date(`${dateStr}T00:00:00.000Z`);
 	}
 
 	private getCurrentVNWeekRange() {

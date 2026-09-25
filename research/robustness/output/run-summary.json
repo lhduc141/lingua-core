@@ -1,0 +1,14 @@
+{
+  "experimentId": "writing-w-ablation-v1-robustness",
+  "type": "post-hoc robustness extension",
+  "expectedRuns": 168,
+  "completed": 168,
+  "succeeded": 168,
+  "failed": 0,
+  "status": "completed",
+  "startedAt": "2026-09-12T16:39:11.854Z",
+  "freezeManifestSha256": "8f4c5c0df5f3a676bdba118306ab952c97d3d86e8f5856acf685b974aa7f0e15",
+  "robustnessConfigSha256": "691d4c35df06a95959e0eea80b4d9bee816750d553291208434cea02ef5311a8",
+  "robustnessScheduleSha256": "58dbdeac2cca58cd4b96a1617f18144d84aef143a8fa597bfa830be9bbdbb6eb",
+  "finishedAt": "2026-09-12T16:49:44.296Z"
+}

@@ -56,6 +56,45 @@ export const QuestionSetSelect = {
 		estimatedMinutes: true,
 	} satisfies Prisma.QuestionSetSelect,
 
+	// Compact semantic metadata used by Stage 1 content selection.
+	planCatalog: {
+		questionSetId: true,
+		title: true,
+		description: true,
+		skillName: true,
+		cefrLevel: true,
+		estimatedMinutes: true,
+	} satisfies Prisma.QuestionSetSelect,
+
+	// Only fetched for content selected by Stage 1. Keep it intentionally bounded.
+	planDetail: {
+		questionSetId: true,
+		title: true,
+		description: true,
+		skillName: true,
+		cefrLevel: true,
+		estimatedMinutes: true,
+		_count: { select: { items: true } },
+		items: {
+			where: { deletedAt: null },
+			orderBy: { position: 'asc' as const },
+			take: 3,
+			select: {
+				position: true,
+				question: {
+					select: {
+						type: true,
+						translations: {
+							where: { locale: 'en' },
+							take: 1,
+							select: { stemText: true },
+						},
+					},
+				},
+			},
+		},
+	} satisfies Prisma.QuestionSetSelect,
+
 	assessmentMeta: {
 		title: true,
 		skillName: true,

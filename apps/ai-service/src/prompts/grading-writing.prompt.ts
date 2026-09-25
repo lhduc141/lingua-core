@@ -9,6 +9,8 @@ export interface GradingPayload {
 	cefrLevel?: string;
 	minWords?: number;
 	maxWords?: number;
+	/** Optional UUID used only for AI-call audit correlation; never included in the grading prompt. */
+	aiTraceId?: string;
 }
 
 export interface SurfaceIssue {

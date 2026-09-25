@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "profiles": 12,
+  "runs": 72,
+  "baseline": 36,
+  "proposed": 36,
+  "pairs": 36,
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "candidatePoolHashes": {
+    "A2": "cd1e16737e9872acc97ca751c5cbab1caf6e744ee17bf4e031c3a211fd82f8c6",
+    "B1": "6e8adb98ed81e11a7e26c709957344a37ab17072dd4f8715fa70c1e777459457",
+    "B2": "473ac6cbf3e8a5e7a78e010a10edcba1475daa12215ebf6888993fcb9adeacb8"
+  },
+  "providerCalls": 0,
+  "dbCalls": 0,
+  "azureCalls": 0,
+  "customActivities": false
+}

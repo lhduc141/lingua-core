@@ -1,0 +1,458 @@
+[
+  {
+    "profileId": "A2_TR",
+    "P": "A2",
+    "C": {
+      "primaryGoal": "communication",
+      "targetGoal": "Improve written English communication",
+      "focusSkills": [
+        "writing"
+      ],
+      "planSkills": [
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "availableDays": [
+        "MONDAY",
+        "WEDNESDAY",
+        "FRIDAY",
+        "SATURDAY"
+      ],
+      "plannedStudyHoursPerWeek": 4,
+      "dailyMinutesLimit": 60
+    },
+    "R": [
+      {
+        "skill": "writing",
+        "avg": 60
+      }
+    ],
+    "baselineWeaknesses": [],
+    "proposedWeakness": {
+      "skill": "writing",
+      "criterion": "Task Response",
+      "tag": "writing_task_response",
+      "severity": "high",
+      "score": 5
+    }
+  },
+  {
+    "profileId": "A2_CC",
+    "P": "A2",
+    "C": {
+      "primaryGoal": "communication",
+      "targetGoal": "Improve written English communication",
+      "focusSkills": [
+        "writing"
+      ],
+      "planSkills": [
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "availableDays": [
+        "MONDAY",
+        "WEDNESDAY",
+        "FRIDAY",
+        "SATURDAY"
+      ],
+      "plannedStudyHoursPerWeek": 4,
+      "dailyMinutesLimit": 60
+    },
+    "R": [
+      {
+        "skill": "writing",
+        "avg": 60
+      }
+    ],
+    "baselineWeaknesses": [],
+    "proposedWeakness": {
+      "skill": "writing",
+      "criterion": "Coherence & Cohesion",
+      "tag": "writing_coherence_cohesion",
+      "severity": "high",
+      "score": 5
+    }
+  },
+  {
+    "profileId": "A2_LR",
+    "P": "A2",
+    "C": {
+      "primaryGoal": "communication",
+      "targetGoal": "Improve written English communication",
+      "focusSkills": [
+        "writing"
+      ],
+      "planSkills": [
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "availableDays": [
+        "MONDAY",
+        "WEDNESDAY",
+        "FRIDAY",
+        "SATURDAY"
+      ],
+      "plannedStudyHoursPerWeek": 4,
+      "dailyMinutesLimit": 60
+    },
+    "R": [
+      {
+        "skill": "writing",
+        "avg": 60
+      }
+    ],
+    "baselineWeaknesses": [],
+    "proposedWeakness": {
+      "skill": "writing",
+      "criterion": "Lexical Resource",
+      "tag": "writing_vocabulary_range",
+      "severity": "high",
+      "score": 5
+    }
+  },
+  {
+    "profileId": "A2_GRA",
+    "P": "A2",
+    "C": {
+      "primaryGoal": "communication",
+      "targetGoal": "Improve written English communication",
+      "focusSkills": [
+        "writing"
+      ],
+      "planSkills": [
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "availableDays": [
+        "MONDAY",
+        "WEDNESDAY",
+        "FRIDAY",
+        "SATURDAY"
+      ],
+      "plannedStudyHoursPerWeek": 4,
+      "dailyMinutesLimit": 60
+    },
+    "R": [
+      {
+        "skill": "writing",
+        "avg": 60
+      }
+    ],
+    "baselineWeaknesses": [],
+    "proposedWeakness": {
+      "skill": "writing",
+      "criterion": "Grammatical Range & Accuracy",
+      "tag": "writing_grammar_accuracy",
+      "severity": "high",
+      "score": 5
+    }
+  },
+  {
+    "profileId": "B1_TR",
+    "P": "B1",
+    "C": {
+      "primaryGoal": "communication",
+      "targetGoal": "Improve written English communication",
+      "focusSkills": [
+        "writing"
+      ],
+      "planSkills": [
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "availableDays": [
+        "MONDAY",
+        "WEDNESDAY",
+        "FRIDAY",
+        "SATURDAY"
+      ],
+      "plannedStudyHoursPerWeek": 4,
+      "dailyMinutesLimit": 60
+    },
+    "R": [
+      {
+        "skill": "writing",
+        "avg": 60
+      }
+    ],
+    "baselineWeaknesses": [],
+    "proposedWeakness": {
+      "skill": "writing",
+      "criterion": "Task Response",
+      "tag": "writing_task_response",
+      "severity": "high",
+      "score": 5
+    }
+  },
+  {
+    "profileId": "B1_CC",
+    "P": "B1",
+    "C": {
+      "primaryGoal": "communication",
+      "targetGoal": "Improve written English communication",
+      "focusSkills": [
+        "writing"
+      ],
+      "planSkills": [
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "availableDays": [
+        "MONDAY",
+        "WEDNESDAY",
+        "FRIDAY",
+        "SATURDAY"
+      ],
+      "plannedStudyHoursPerWeek": 4,
+      "dailyMinutesLimit": 60
+    },
+    "R": [
+      {
+        "skill": "writing",
+        "avg": 60
+      }
+    ],
+    "baselineWeaknesses": [],
+    "proposedWeakness": {
+      "skill": "writing",
+      "criterion": "Coherence & Cohesion",
+      "tag": "writing_coherence_cohesion",
+      "severity": "high",
+      "score": 5
+    }
+  },
+  {
+    "profileId": "B1_LR",
+    "P": "B1",
+    "C": {
+      "primaryGoal": "communication",
+      "targetGoal": "Improve written English communication",
+      "focusSkills": [
+        "writing"
+      ],
+      "planSkills": [
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "availableDays": [
+        "MONDAY",
+        "WEDNESDAY",
+        "FRIDAY",
+        "SATURDAY"
+      ],
+      "plannedStudyHoursPerWeek": 4,
+      "dailyMinutesLimit": 60
+    },
+    "R": [
+      {
+        "skill": "writing",
+        "avg": 60
+      }
+    ],
+    "baselineWeaknesses": [],
+    "proposedWeakness": {
+      "skill": "writing",
+      "criterion": "Lexical Resource",
+      "tag": "writing_vocabulary_range",
+      "severity": "high",
+      "score": 5
+    }
+  },
+  {
+    "profileId": "B1_GRA",
+    "P": "B1",
+    "C": {
+      "primaryGoal": "communication",
+      "targetGoal": "Improve written English communication",
+      "focusSkills": [
+        "writing"
+      ],
+      "planSkills": [
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "availableDays": [
+        "MONDAY",
+        "WEDNESDAY",
+        "FRIDAY",
+        "SATURDAY"
+      ],
+      "plannedStudyHoursPerWeek": 4,
+      "dailyMinutesLimit": 60
+    },
+    "R": [
+      {
+        "skill": "writing",
+        "avg": 60
+      }
+    ],
+    "baselineWeaknesses": [],
+    "proposedWeakness": {
+      "skill": "writing",
+      "criterion": "Grammatical Range & Accuracy",
+      "tag": "writing_grammar_accuracy",
+      "severity": "high",
+      "score": 5
+    }
+  },
+  {
+    "profileId": "B2_TR",
+    "P": "B2",
+    "C": {
+      "primaryGoal": "communication",
+      "targetGoal": "Improve written English communication",
+      "focusSkills": [
+        "writing"
+      ],
+      "planSkills": [
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "availableDays": [
+        "MONDAY",
+        "WEDNESDAY",
+        "FRIDAY",
+        "SATURDAY"
+      ],
+      "plannedStudyHoursPerWeek": 4,
+      "dailyMinutesLimit": 60
+    },
+    "R": [
+      {
+        "skill": "writing",
+        "avg": 60
+      }
+    ],
+    "baselineWeaknesses": [],
+    "proposedWeakness": {
+      "skill": "writing",
+      "criterion": "Task Response",
+      "tag": "writing_task_response",
+      "severity": "high",
+      "score": 5
+    }
+  },
+  {
+    "profileId": "B2_CC",
+    "P": "B2",
+    "C": {
+      "primaryGoal": "communication",
+      "targetGoal": "Improve written English communication",
+      "focusSkills": [
+        "writing"
+      ],
+      "planSkills": [
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "availableDays": [
+        "MONDAY",
+        "WEDNESDAY",
+        "FRIDAY",
+        "SATURDAY"
+      ],
+      "plannedStudyHoursPerWeek": 4,
+      "dailyMinutesLimit": 60
+    },
+    "R": [
+      {
+        "skill": "writing",
+        "avg": 60
+      }
+    ],
+    "baselineWeaknesses": [],
+    "proposedWeakness": {
+      "skill": "writing",
+      "criterion": "Coherence & Cohesion",
+      "tag": "writing_coherence_cohesion",
+      "severity": "high",
+      "score": 5
+    }
+  },
+  {
+    "profileId": "B2_LR",
+    "P": "B2",
+    "C": {
+      "primaryGoal": "communication",
+      "targetGoal": "Improve written English communication",
+      "focusSkills": [
+        "writing"
+      ],
+      "planSkills": [
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "availableDays": [
+        "MONDAY",
+        "WEDNESDAY",
+        "FRIDAY",
+        "SATURDAY"
+      ],
+      "plannedStudyHoursPerWeek": 4,
+      "dailyMinutesLimit": 60
+    },
+    "R": [
+      {
+        "skill": "writing",
+        "avg": 60
+      }
+    ],
+    "baselineWeaknesses": [],
+    "proposedWeakness": {
+      "skill": "writing",
+      "criterion": "Lexical Resource",
+      "tag": "writing_vocabulary_range",
+      "severity": "high",
+      "score": 5
+    }
+  },
+  {
+    "profileId": "B2_GRA",
+    "P": "B2",
+    "C": {
+      "primaryGoal": "communication",
+      "targetGoal": "Improve written English communication",
+      "focusSkills": [
+        "writing"
+      ],
+      "planSkills": [
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "availableDays": [
+        "MONDAY",
+        "WEDNESDAY",
+        "FRIDAY",
+        "SATURDAY"
+      ],
+      "plannedStudyHoursPerWeek": 4,
+      "dailyMinutesLimit": 60
+    },
+    "R": [
+      {
+        "skill": "writing",
+        "avg": 60
+      }
+    ],
+    "baselineWeaknesses": [],
+    "proposedWeakness": {
+      "skill": "writing",
+      "criterion": "Grammatical Range & Accuracy",
+      "tag": "writing_grammar_accuracy",
+      "severity": "high",
+      "score": 5
+    }
+  }
+]

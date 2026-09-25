@@ -1,0 +1,68 @@
+{
+  "catalogIntegrity": "PASS",
+  "uniqueItems": 72,
+  "levels": {
+    "A2": 24,
+    "B1": 24,
+    "B2": 24
+  },
+  "candidatePoolHashMatch": true,
+  "canonicalSnapshotHashMatch": true,
+  "durationsValid": true,
+  "semanticEvidenceAvailable": true,
+  "semanticEvidenceLimitation": "Descriptions/types/sample stems available for all items; truncated evidence and transfer boundaries require human review, not final approval.",
+  "matrixBijection": true,
+  "binaryComplete": true,
+  "sourceDbHashPreserved": true,
+  "coverage": {
+    "relevantItems": {
+      "TR": 25,
+      "CC": 12,
+      "LR": 43,
+      "GRA": 17
+    },
+    "relevantMinutes": {
+      "TR": 675,
+      "CC": 330,
+      "LR": 1155,
+      "GRA": 445
+    },
+    "byCefr": {
+      "A2": {
+        "TR": 6,
+        "CC": 4,
+        "LR": 11,
+        "GRA": 7
+      },
+      "B1": {
+        "TR": 10,
+        "CC": 4,
+        "LR": 14,
+        "GRA": 6
+      },
+      "B2": {
+        "TR": 9,
+        "CC": 4,
+        "LR": 18,
+        "GRA": 4
+      }
+    },
+    "byItemType": {
+      "lesson": {
+        "TR": 16,
+        "CC": 12,
+        "LR": 28,
+        "GRA": 9
+      },
+      "practice_session": {
+        "TR": 9,
+        "CC": 0,
+        "LR": 15,
+        "GRA": 8
+      }
+    },
+    "reviewItems": 58,
+    "allZeroItems": 12
+  },
+  "verdict": "READY FOR HUMAN ANNOTATION REVIEW"
+}

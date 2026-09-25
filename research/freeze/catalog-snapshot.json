@@ -1,0 +1,2764 @@
+{
+  "schemaVersion": 1,
+  "sourceDbSha256": "1818e4db49e2ecabe0fa0889878d4fc2496461bb4e87028074ceb7658dd8230a",
+  "source": "db.zip exported 2026-09-11; user confirmed no catalog changes afterward",
+  "researchScope": {
+    "cefrLevels": [
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "focusSkills": [
+      "writing"
+    ],
+    "planSkills": [
+      "reading",
+      "writing",
+      "speaking"
+    ],
+    "recentPerformance": [
+      {
+        "skillName": "writing",
+        "score": 60
+      }
+    ],
+    "usedContentHistory": [],
+    "maxCandidatesPerLevel": 24,
+    "selectionTarget": 8,
+    "customActivityAllowed": false
+  },
+  "candidatePoolsByCefr": {
+    "A2": [
+      {
+        "refId": "03eb53ef",
+        "fullRefId": "03eb53ef-224e-419c-8359-db1453403c37",
+        "itemType": "lesson",
+        "title": "Describe Your Neighborhood",
+        "description": "Learn to describe your neighborhood using 'there is/are' and prepositions of place. Practice using descriptive adjectives.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "01ecdb33",
+        "fullRefId": "01ecdb33-2c96-4a2f-a670-f97564c98d12",
+        "itemType": "practice_session",
+        "title": "Social Media and Young People",
+        "description": "Give your opinion on young people spending a lot of time on social media.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "0158362d",
+        "fullRefId": "0158362d-33f1-4dd4-ae10-d4c85cce28a8",
+        "itemType": "lesson",
+        "title": "A Trip to Our Local Market",
+        "description": "This lesson helps learners understand descriptions of local markets. They will practice identifying types of goods, the atmosphere, and specific details about the market.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "5203057c",
+        "fullRefId": "5203057c-d56d-42a4-8cd1-676eda1bc1db",
+        "itemType": "practice_session",
+        "title": "Using My Smartphone Every Day",
+        "description": "Learners will read about the common uses of a smartphone in daily life and answer questions about basic technology.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "05b58a7a",
+        "fullRefId": "05b58a7a-3c42-434c-a980-63d57ef654a1",
+        "itemType": "lesson",
+        "title": "Talk About Helping Others",
+        "description": "Learn to discuss ways you help others and why it's important to you.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "01ceee74",
+        "fullRefId": "01ceee74-b045-44f1-9198-a06df7698e27",
+        "itemType": "practice_session",
+        "title": "Describe a Recent Trip",
+        "description": "Learn to use past tenses and travel vocabulary to describe your holiday experiences.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "0b4b597f",
+        "fullRefId": "0b4b597f-b718-487f-86ef-2466bbae0e8c",
+        "itemType": "lesson",
+        "title": "Describe a Festival",
+        "description": "Learn to describe a festival using the simple present and past tenses. Practice using descriptive adjectives and sequencing events.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "0475d138",
+        "fullRefId": "0475d138-b2a1-42bd-950c-3560bc797423",
+        "itemType": "practice_session",
+        "title": "Future with 'going to' Grammar",
+        "description": "Practice forming sentences using 'going to' for future plans and predictions.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "30647e73",
+        "fullRefId": "30647e73-992e-45f6-883f-20599dcaea47",
+        "itemType": "lesson",
+        "title": "Making a New Friend at School",
+        "description": "This lesson helps learners understand social interactions and the process of making new friends. They will practice identifying key events and understanding reasons for actions.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "6087ada1",
+        "fullRefId": "6087ada1-446e-41d4-ac30-be0536691aae",
+        "itemType": "practice_session",
+        "title": "A Train Trip to Da Nang",
+        "description": "Learners will read about a family's train journey and answer questions about their travel experience.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "271ddacc",
+        "fullRefId": "271ddacc-9c30-4996-963e-61a351986be2",
+        "itemType": "lesson",
+        "title": "Describe a Skill You Are Learning",
+        "description": "Practice talking about a new skill you are acquiring, why you chose it, and your progress.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "0efea2c5",
+        "fullRefId": "0efea2c5-a363-499a-a6bb-f80301786299",
+        "itemType": "practice_session",
+        "title": "A Childhood Memory",
+        "description": "Share a distinct memory from when you were a child.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 10
+      },
+      {
+        "refId": "1ea04422",
+        "fullRefId": "1ea04422-f49f-4cac-9602-aecb07ef9c47",
+        "itemType": "lesson",
+        "title": "A Shopping List and Budget",
+        "description": "Learn to create a simple shopping list and estimate costs. Practice using numbers and expressing needs.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "1074d0fd",
+        "fullRefId": "1074d0fd-f0fa-454b-8244-360472ca3981",
+        "itemType": "practice_session",
+        "title": "Studying at Home vs at School",
+        "description": "Discuss the differences between studying at home and studying in a classroom.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "3a4e4ed5",
+        "fullRefId": "3a4e4ed5-bf5a-4ca4-b2d7-9913a9d509a5",
+        "itemType": "lesson",
+        "title": "Taking the Bus to School",
+        "description": "This lesson helps learners understand how to use public transport. They will practice identifying the sequence of actions and specific details about a journey.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "638d1ea8",
+        "fullRefId": "638d1ea8-3bde-4999-af7f-c7aa3bf1caa4",
+        "itemType": "practice_session",
+        "title": "Learning to Play the Guitar",
+        "description": "Learners will read about someone's experience learning a new skill, playing the guitar, and answer questions about the learning process.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "2cbb513f",
+        "fullRefId": "2cbb513f-2f2c-4f43-bf0b-e9b27fcdf3f9",
+        "itemType": "lesson",
+        "title": "Your Opinion on the Internet",
+        "description": "Learn to express your opinions on the internet, including its benefits and drawbacks.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "0f029511",
+        "fullRefId": "0f029511-a08d-4020-b151-85a1891ea8c5",
+        "itemType": "practice_session",
+        "title": "Describe Your Neighborhood",
+        "description": "Learn to describe the facilities and atmosphere of the area where you live.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "26bd3eb0",
+        "fullRefId": "26bd3eb0-22cb-4d8f-b9f9-4314b4155696",
+        "itemType": "lesson",
+        "title": "Plan a Holiday",
+        "description": "Learn to describe your holiday plans using 'going to'. Practice listing activities and expressing preferences.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "2571667f",
+        "fullRefId": "2571667f-7a7d-4cc8-b331-3c95903d0758",
+        "itemType": "practice_session",
+        "title": "Modal Verbs (can, should) Grammar",
+        "description": "Practice using the modal verbs 'can' and 'should' to express ability and advice.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "3a677d8b",
+        "fullRefId": "3a677d8b-3997-48c0-a375-52f122f134eb",
+        "itemType": "lesson",
+        "title": "My Job as a Teacher",
+        "description": "This lesson focuses on understanding descriptions of jobs and workplaces. Learners will practice identifying specific tasks and the environment of a job.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "74b0d4dd",
+        "fullRefId": "74b0d4dd-9325-4415-8d1f-b354ef8c8c93",
+        "itemType": "practice_session",
+        "title": "Exploring Ho Chi Minh City",
+        "description": "Learners will read about different aspects of city life in Ho Chi Minh City and answer comprehension questions.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "3557e6d0",
+        "fullRefId": "3557e6d0-19e7-48a1-9254-03b94815abe3",
+        "itemType": "lesson",
+        "title": "Discuss a Film or Series",
+        "description": "Practice talking about a film or TV series you have seen, including the plot and your opinion.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "refId": "1626ed34",
+        "fullRefId": "1626ed34-e8d5-45ae-b135-958fe64dab13",
+        "itemType": "practice_session",
+        "title": "Your Dream Job",
+        "description": "Practice talking about the kind of work you would love to do in the future.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 15
+      }
+    ],
+    "B1": [
+      {
+        "refId": "0f8aacc6",
+        "fullRefId": "0f8aacc6-3b1c-4cc5-9812-d55182ea9207",
+        "itemType": "lesson",
+        "title": "Write a Report on a School Event",
+        "description": "This lesson teaches you how to write an objective report about a school event, using clear structure and factual language.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "04944225",
+        "fullRefId": "04944225-3cca-40e5-bff4-580a4285743d",
+        "itemType": "practice_session",
+        "title": "Reading Books vs Watching Videos",
+        "description": "Discuss if reading books is outdated compared to watching video content.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "268a2aed",
+        "fullRefId": "268a2aed-37a3-4a8e-b08b-b2751db5c5f9",
+        "itemType": "lesson",
+        "title": "Echoes of the Past: Famous Historical Events",
+        "description": "This lesson introduces significant historical events, helping learners understand chronological order and key figures.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "0b4b002a",
+        "fullRefId": "0b4b002a-067f-43a2-8b75-851ae9ab1378",
+        "itemType": "practice_session",
+        "title": "The Joy of Travel: Exploring New Horizons",
+        "description": "Learners will read about the benefits and experiences of travel and answer comprehension questions.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "1c1c237b",
+        "fullRefId": "1c1c237b-3597-412b-b7a1-23ba594a8ef1",
+        "itemType": "lesson",
+        "title": "Relationships and Communication",
+        "description": "Learn to discuss the importance of relationships and effective communication. Practice expressing feelings and offering advice using appropriate vocabulary.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "01e3659d",
+        "fullRefId": "01e3659d-ac0a-4306-86c7-5229b6e06a93",
+        "itemType": "practice_session",
+        "title": "Discuss Environmental Problems",
+        "description": "Examine the causes of pollution and explore potential solutions for a greener planet.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "1b078f42",
+        "fullRefId": "1b078f42-5819-41e2-be7d-dd024f37ba6b",
+        "itemType": "lesson",
+        "title": "Write About a Current News Event",
+        "description": "This lesson helps you summarize a current news event and express a brief opinion, using factual language and clear structure.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "05a2d95f",
+        "fullRefId": "05a2d95f-fe67-4900-bf7d-bcab50352465",
+        "itemType": "practice_session",
+        "title": "Grammar: Reported Speech",
+        "description": "Practice converting direct speech into reported speech, including necessary tense and pronoun changes.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "292f565b",
+        "fullRefId": "292f565b-a50a-4d06-9ab4-4b48187d7800",
+        "itemType": "lesson",
+        "title": "Moving Forward: The Future of Transport",
+        "description": "This lesson explores innovations in transportation, helping learners understand predictions and identify key technologies.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "55ec3d4b",
+        "fullRefId": "55ec3d4b-cd81-41b6-84ca-88459d468ae7",
+        "itemType": "practice_session",
+        "title": "Healthy Habits for a Better Life",
+        "description": "Learners will read about the importance of a healthy lifestyle and answer comprehension questions.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "23e80c63",
+        "fullRefId": "23e80c63-79dc-4330-80d5-ef96b4d8d621",
+        "itemType": "lesson",
+        "title": "Talk About Sustainable Living",
+        "description": "Learn to explain the concept of sustainable living, give examples of practices, and discuss its importance. Practice using vocabulary related to environmental responsibility.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "02a2850e",
+        "fullRefId": "02a2850e-405f-4338-a744-e3e7ddfdf6ac",
+        "itemType": "practice_session",
+        "title": "Sports and Competition",
+        "description": "Talk about the role of sports, the value of teamwork, and competitive spirit.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 15
+      },
+      {
+        "refId": "1c192cb3",
+        "fullRefId": "1c192cb3-e014-434a-8a16-c4c0360fd98a",
+        "itemType": "lesson",
+        "title": "Write About Healthy Habits",
+        "description": "This lesson helps you describe healthy habits and explain their benefits, using clear language and giving advice.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "084675d7",
+        "fullRefId": "084675d7-7d60-41c7-a858-15ec67a4d248",
+        "itemType": "practice_session",
+        "title": "The Importance of Learning a Second Language",
+        "description": "Give your opinion on how essential a second language is for career success.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "323d6b18",
+        "fullRefId": "323d6b18-dfb9-491d-a6b6-625ac03d2782",
+        "itemType": "lesson",
+        "title": "Urban Buzz vs. Rural Calm: City vs. Countryside Living",
+        "description": "This lesson compares living in the city and the countryside, helping learners understand pros and cons and identify specific characteristics.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "5cb6867d",
+        "fullRefId": "5cb6867d-6b09-45f6-ba0f-a403b9541ceb",
+        "itemType": "practice_session",
+        "title": "Protecting Our Planet: Sustainability Efforts",
+        "description": "Learners will read about environmental challenges and sustainable practices and answer comprehension questions.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "3e1f78ad",
+        "fullRefId": "3e1f78ad-65b6-43a8-905e-64ce0fe2f061",
+        "itemType": "lesson",
+        "title": "Talk About a Role Model",
+        "description": "Learn to describe a role model, explain their admirable qualities, and discuss their influence. Practice using descriptive adjectives and giving reasons.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "03078bcb",
+        "fullRefId": "03078bcb-da66-4586-bbe4-f3d49d627c43",
+        "itemType": "practice_session",
+        "title": "A Gift You Gave",
+        "description": "Talk about a present you gave to someone else.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 10
+      },
+      {
+        "refId": "1c72fb39",
+        "fullRefId": "1c72fb39-1e1c-4d5f-8db4-dd21dbf96dfa",
+        "itemType": "lesson",
+        "title": "Describe Career Goals",
+        "description": "This lesson helps you articulate your career goals clearly, explaining your motivations and the steps you plan to take.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "0d88e60a",
+        "fullRefId": "0d88e60a-1131-485d-9bb5-c06952004d74",
+        "itemType": "practice_session",
+        "title": "Environmental Responsibility of Individuals",
+        "description": "Write about whether ordinary people are responsible for protecting the environment.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "3b42f9c7",
+        "fullRefId": "3b42f9c7-7337-47c4-8926-bd6b2202c255",
+        "itemType": "lesson",
+        "title": "Exploring the Unknown: Popular Science Topics",
+        "description": "This lesson introduces interesting science topics, helping learners understand complex ideas through simplified explanations and identify key concepts.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "5f7f054f",
+        "fullRefId": "5f7f054f-9c6d-4f85-aa28-c29961862954",
+        "itemType": "practice_session",
+        "title": "Navigating the Modern Job Market",
+        "description": "Learners will read about current trends and necessary skills for success in today's work environment.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "65a4aea8",
+        "fullRefId": "65a4aea8-164c-4988-9b00-7190bbb18307",
+        "itemType": "lesson",
+        "title": "Talk About Health Trends",
+        "description": "Learn to describe current health trends and express opinions on their effectiveness. Practice using vocabulary related to health and wellness.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "refId": "049f05ad",
+        "fullRefId": "049f05ad-cce2-45eb-bfce-fe57a99dd7f7",
+        "itemType": "practice_session",
+        "title": "Technology in Education",
+        "description": "Discuss the impact of computers and tablets in schools.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 10
+      }
+    ],
+    "B2": [
+      {
+        "refId": "03083c81",
+        "fullRefId": "03083c81-2ddf-45ea-90ae-b90f412f03b8",
+        "itemType": "lesson",
+        "title": "Analyze a News Article",
+        "description": "This lesson guides learners on how to critically analyze a news article, focusing on identifying bias, evaluating sources, and understanding the article's structure and language ch",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 35
+      },
+      {
+        "refId": "0180c93b",
+        "fullRefId": "0180c93b-f3d7-4d5b-aa73-b5023680a15c",
+        "itemType": "practice_session",
+        "title": "Grammar: Complex Noun Phrases",
+        "description": "Practice forming and understanding complex noun phrases to enhance sentence structure.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "0c646d8d",
+        "fullRefId": "0c646d8d-1d94-4e98-8c15-df7c9233a8f5",
+        "itemType": "lesson",
+        "title": "Exploring Income Inequality in Modern Society",
+        "description": "This lesson examines the causes and effects of income inequality and helps learners practice identifying supporting details in a text.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "17306214",
+        "fullRefId": "17306214-6f73-41f9-b182-e2972bcbc46d",
+        "itemType": "practice_session",
+        "title": "The Enduring Power of Myths",
+        "description": "This set explores the universal significance and cultural role of myths and legends, helping learners practice understanding abstract concepts, identifying details, interpreting vo",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "0b354673",
+        "fullRefId": "0b354673-5baa-408a-bb66-7914ee9e4c3a",
+        "itemType": "lesson",
+        "title": "Art as a Tool for Social Change",
+        "description": "This lesson explores how art can drive social change, practicing analytical and descriptive language about artistic expression.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "04286fce",
+        "fullRefId": "04286fce-9e34-4ce8-b4d9-70bc8fa332bf",
+        "itemType": "practice_session",
+        "title": "Genetically Modified Foods",
+        "description": "Discuss the ethics and safety of GMO agriculture.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 10
+      },
+      {
+        "refId": "08e6954e",
+        "fullRefId": "08e6954e-7372-4bbe-815d-19dabbe92f2d",
+        "itemType": "lesson",
+        "title": "Discuss an Ethical Dilemma at Work",
+        "description": "This lesson focuses on discussing complex ethical issues in a professional context, using appropriate vocabulary and structuring arguments clearly to explore different perspectives",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 35
+      },
+      {
+        "refId": "09ab972e",
+        "fullRefId": "09ab972e-4f73-486b-8b09-9361bd66c4a8",
+        "itemType": "practice_session",
+        "title": "Space Exploration vs Solving Earth's Problems",
+        "description": "Debate whether funds for space programs should be reallocated to terrestrial issues.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 40
+      },
+      {
+        "refId": "360a5740",
+        "fullRefId": "360a5740-be14-47ae-bdaf-a0f90a987d51",
+        "itemType": "lesson",
+        "title": "Unpacking the Psychology of Decision-Making",
+        "description": "This lesson explores how we make decisions and introduces common cognitive biases, while practicing understanding the author's purpose.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "22d69dc0",
+        "fullRefId": "22d69dc0-f97f-4fff-bc7e-bf089d7c3156",
+        "itemType": "practice_session",
+        "title": "The Power of Habit",
+        "description": "This set explores the psychological mechanisms behind habit formation and change, helping learners practice understanding psychological concepts, identifying details, interpreting ",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "427ab7ee",
+        "fullRefId": "427ab7ee-d9fe-49d1-a425-4adf22d93c1f",
+        "itemType": "lesson",
+        "title": "Debate: Remote Work vs. Office Work",
+        "description": "This lesson focuses on debating the advantages and disadvantages of remote and office work, practicing persuasive and comparative language.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "0d9ec35f",
+        "fullRefId": "0d9ec35f-dc70-4800-aea5-4c1a63c02e80",
+        "itemType": "practice_session",
+        "title": "Impact of Social Media",
+        "description": "Evaluate the sociological effects of networking platforms.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 10
+      },
+      {
+        "refId": "15b87fd2",
+        "fullRefId": "15b87fd2-9def-4ff6-8a3f-de7aacf9fa9c",
+        "itemType": "lesson",
+        "title": "Write a Critical Review of a Novel",
+        "description": "This lesson focuses on developing critical analysis skills for literature, structuring a review, and using descriptive and evaluative language to assess a novel's strengths and wea",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 35
+      },
+      {
+        "refId": "0f475693",
+        "fullRefId": "0f475693-e145-4ab4-8e4f-68029693a5ff",
+        "itemType": "practice_session",
+        "title": "Nuclear Energy: Solution or Risk?",
+        "description": "Assess if nuclear power is the best answer to global energy demands.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 40
+      },
+      {
+        "refId": "3af0c5c7",
+        "fullRefId": "3af0c5c7-abe2-4b4d-b3d4-2f2babf0e257",
+        "itemType": "lesson",
+        "title": "Breakthroughs in Modern Medicine",
+        "description": "This lesson explores recent scientific advances in medicine and helps learners practice understanding cause and effect relationships in a text.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "40ec8311",
+        "fullRefId": "40ec8311-05cd-45c4-961f-9f1369e3ff02",
+        "itemType": "practice_session",
+        "title": "The Gig Economy's Rise",
+        "description": "This set helps learners understand the characteristics and implications of the gig economy, practicing main idea identification, detail recall, vocabulary in context, and inferenti",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "477d478e",
+        "fullRefId": "477d478e-e26f-4d8b-9bb9-707b4cc630d3",
+        "itemType": "lesson",
+        "title": "Sustainable Development Goals",
+        "description": "This lesson focuses on discussing the UN's Sustainable Development Goals, practicing descriptive and problem-solving language.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "1347387b",
+        "fullRefId": "1347387b-da4c-4aa2-838f-41516df2563a",
+        "itemType": "practice_session",
+        "title": "Discuss Globalization Effects",
+        "description": "Analyze the multifaceted impact of global interconnectedness on local economies and cultures.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "1f8120a6",
+        "fullRefId": "1f8120a6-ef5f-4e00-b936-866b475b9bc2",
+        "itemType": "lesson",
+        "title": "A Discursive Essay on Immigration",
+        "description": "This lesson focuses on writing a balanced discursive essay on immigration, presenting multiple perspectives, using objective language, and structuring arguments logically.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 35
+      },
+      {
+        "refId": "0fa488a5",
+        "fullRefId": "0fa488a5-82bb-4898-a3ad-1c523e53bf20",
+        "itemType": "practice_session",
+        "title": "Grammar: Inversion and Emphasis",
+        "description": "Practice using inversion for emphasis and dramatic effect in sentences.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "416ec6b0",
+        "fullRefId": "416ec6b0-9fae-419e-ad23-5fac21cbe73e",
+        "itemType": "lesson",
+        "title": "Unlocking the Brain: The Neuroscience of Learning",
+        "description": "This lesson explores how the brain learns and forms memories, and helps learners practice understanding vocabulary in context.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "539f8468",
+        "fullRefId": "539f8468-ef4c-4247-9b27-32cca3055aae",
+        "itemType": "practice_session",
+        "title": "Ethical Dilemmas in AI",
+        "description": "This set explores the ethical considerations surrounding artificial intelligence, helping learners practice understanding complex arguments, identifying specific details, interpret",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "4a03fda7",
+        "fullRefId": "4a03fda7-8347-4cf2-a582-1987dc078fc8",
+        "itemType": "lesson",
+        "title": "Social Inequality and Its Solutions",
+        "description": "This lesson focuses on discussing social inequality and proposing solutions, practicing analytical and problem-solving language.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "refId": "226a70a9",
+        "fullRefId": "226a70a9-4ca6-4712-8a9b-4f342602c5bb",
+        "itemType": "practice_session",
+        "title": "Critique a Media Report",
+        "description": "Develop critical thinking skills by identifying bias and evaluating the credibility of news.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      }
+    ]
+  },
+  "candidatePoolHashesByCefr": {
+    "A2": "cd1e16737e9872acc97ca751c5cbab1caf6e744ee17bf4e031c3a211fd82f8c6",
+    "B1": "6e8adb98ed81e11a7e26c709957344a37ab17072dd4f8715fa70c1e777459457",
+    "B2": "473ac6cbf3e8a5e7a78e010a10edcba1475daa12215ebf6888993fcb9adeacb8"
+  },
+  "catalog": {
+    "lessons": [
+      {
+        "lessonId": "03eb53ef-224e-419c-8359-db1453403c37",
+        "title": "Describe Your Neighborhood",
+        "description": "Learn to describe your neighborhood using 'there is/are' and prepositions of place. Practice using descriptive adjectives.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 25
+      },
+      {
+        "lessonId": "0158362d-33f1-4dd4-ae10-d4c85cce28a8",
+        "title": "A Trip to Our Local Market",
+        "description": "This lesson helps learners understand descriptions of local markets. They will practice identifying types of goods, the atmosphere, and specific details about the market.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "lessonId": "05b58a7a-3c42-434c-a980-63d57ef654a1",
+        "title": "Talk About Helping Others",
+        "description": "Learn to discuss ways you help others and why it's important to you.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "lessonId": "0b4b597f-b718-487f-86ef-2466bbae0e8c",
+        "title": "Describe a Festival",
+        "description": "Learn to describe a festival using the simple present and past tenses. Practice using descriptive adjectives and sequencing events.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 25
+      },
+      {
+        "lessonId": "30647e73-992e-45f6-883f-20599dcaea47",
+        "title": "Making a New Friend at School",
+        "description": "This lesson helps learners understand social interactions and the process of making new friends. They will practice identifying key events and understanding reasons for actions.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "lessonId": "271ddacc-9c30-4996-963e-61a351986be2",
+        "title": "Describe a Skill You Are Learning",
+        "description": "Practice talking about a new skill you are acquiring, why you chose it, and your progress.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "lessonId": "1ea04422-f49f-4cac-9602-aecb07ef9c47",
+        "title": "A Shopping List and Budget",
+        "description": "Learn to create a simple shopping list and estimate costs. Practice using numbers and expressing needs.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 25
+      },
+      {
+        "lessonId": "3a4e4ed5-bf5a-4ca4-b2d7-9913a9d509a5",
+        "title": "Taking the Bus to School",
+        "description": "This lesson helps learners understand how to use public transport. They will practice identifying the sequence of actions and specific details about a journey.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "lessonId": "2cbb513f-2f2c-4f43-bf0b-e9b27fcdf3f9",
+        "title": "Your Opinion on the Internet",
+        "description": "Learn to express your opinions on the internet, including its benefits and drawbacks.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "lessonId": "26bd3eb0-22cb-4d8f-b9f9-4314b4155696",
+        "title": "Plan a Holiday",
+        "description": "Learn to describe your holiday plans using 'going to'. Practice listing activities and expressing preferences.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 25
+      },
+      {
+        "lessonId": "3a677d8b-3997-48c0-a375-52f122f134eb",
+        "title": "My Job as a Teacher",
+        "description": "This lesson focuses on understanding descriptions of jobs and workplaces. Learners will practice identifying specific tasks and the environment of a job.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "lessonId": "3557e6d0-19e7-48a1-9254-03b94815abe3",
+        "title": "Discuss a Film or Series",
+        "description": "Practice talking about a film or TV series you have seen, including the plot and your opinion.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "lessonId": "0f8aacc6-3b1c-4cc5-9812-d55182ea9207",
+        "title": "Write a Report on a School Event",
+        "description": "This lesson teaches you how to write an objective report about a school event, using clear structure and factual language.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "lessonId": "268a2aed-37a3-4a8e-b08b-b2751db5c5f9",
+        "title": "Echoes of the Past: Famous Historical Events",
+        "description": "This lesson introduces significant historical events, helping learners understand chronological order and key figures.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "lessonId": "1c1c237b-3597-412b-b7a1-23ba594a8ef1",
+        "title": "Relationships and Communication",
+        "description": "Learn to discuss the importance of relationships and effective communication. Practice expressing feelings and offering advice using appropriate vocabulary.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "lessonId": "1b078f42-5819-41e2-be7d-dd024f37ba6b",
+        "title": "Write About a Current News Event",
+        "description": "This lesson helps you summarize a current news event and express a brief opinion, using factual language and clear structure.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "lessonId": "292f565b-a50a-4d06-9ab4-4b48187d7800",
+        "title": "Moving Forward: The Future of Transport",
+        "description": "This lesson explores innovations in transportation, helping learners understand predictions and identify key technologies.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "lessonId": "23e80c63-79dc-4330-80d5-ef96b4d8d621",
+        "title": "Talk About Sustainable Living",
+        "description": "Learn to explain the concept of sustainable living, give examples of practices, and discuss its importance. Practice using vocabulary related to environmental responsibility.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "lessonId": "1c192cb3-e014-434a-8a16-c4c0360fd98a",
+        "title": "Write About Healthy Habits",
+        "description": "This lesson helps you describe healthy habits and explain their benefits, using clear language and giving advice.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "lessonId": "323d6b18-dfb9-491d-a6b6-625ac03d2782",
+        "title": "Urban Buzz vs. Rural Calm: City vs. Countryside Living",
+        "description": "This lesson compares living in the city and the countryside, helping learners understand pros and cons and identify specific characteristics.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "lessonId": "3e1f78ad-65b6-43a8-905e-64ce0fe2f061",
+        "title": "Talk About a Role Model",
+        "description": "Learn to describe a role model, explain their admirable qualities, and discuss their influence. Practice using descriptive adjectives and giving reasons.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "lessonId": "1c72fb39-1e1c-4d5f-8db4-dd21dbf96dfa",
+        "title": "Describe Career Goals",
+        "description": "This lesson helps you articulate your career goals clearly, explaining your motivations and the steps you plan to take.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "lessonId": "3b42f9c7-7337-47c4-8926-bd6b2202c255",
+        "title": "Exploring the Unknown: Popular Science Topics",
+        "description": "This lesson introduces interesting science topics, helping learners understand complex ideas through simplified explanations and identify key concepts.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "lessonId": "65a4aea8-164c-4988-9b00-7190bbb18307",
+        "title": "Talk About Health Trends",
+        "description": "Learn to describe current health trends and express opinions on their effectiveness. Practice using vocabulary related to health and wellness.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "lessonId": "03083c81-2ddf-45ea-90ae-b90f412f03b8",
+        "title": "Analyze a News Article",
+        "description": "This lesson guides learners on how to critically analyze a news article, focusing on identifying bias, evaluating sources, and understanding the article's structure and language ch",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 35
+      },
+      {
+        "lessonId": "0c646d8d-1d94-4e98-8c15-df7c9233a8f5",
+        "title": "Exploring Income Inequality in Modern Society",
+        "description": "This lesson examines the causes and effects of income inequality and helps learners practice identifying supporting details in a text.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "lessonId": "0b354673-5baa-408a-bb66-7914ee9e4c3a",
+        "title": "Art as a Tool for Social Change",
+        "description": "This lesson explores how art can drive social change, practicing analytical and descriptive language about artistic expression.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "lessonId": "08e6954e-7372-4bbe-815d-19dabbe92f2d",
+        "title": "Discuss an Ethical Dilemma at Work",
+        "description": "This lesson focuses on discussing complex ethical issues in a professional context, using appropriate vocabulary and structuring arguments clearly to explore different perspectives",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 35
+      },
+      {
+        "lessonId": "360a5740-be14-47ae-bdaf-a0f90a987d51",
+        "title": "Unpacking the Psychology of Decision-Making",
+        "description": "This lesson explores how we make decisions and introduces common cognitive biases, while practicing understanding the author's purpose.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "lessonId": "427ab7ee-d9fe-49d1-a425-4adf22d93c1f",
+        "title": "Debate: Remote Work vs. Office Work",
+        "description": "This lesson focuses on debating the advantages and disadvantages of remote and office work, practicing persuasive and comparative language.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "lessonId": "15b87fd2-9def-4ff6-8a3f-de7aacf9fa9c",
+        "title": "Write a Critical Review of a Novel",
+        "description": "This lesson focuses on developing critical analysis skills for literature, structuring a review, and using descriptive and evaluative language to assess a novel's strengths and wea",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 35
+      },
+      {
+        "lessonId": "3af0c5c7-abe2-4b4d-b3d4-2f2babf0e257",
+        "title": "Breakthroughs in Modern Medicine",
+        "description": "This lesson explores recent scientific advances in medicine and helps learners practice understanding cause and effect relationships in a text.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "lessonId": "477d478e-e26f-4d8b-9bb9-707b4cc630d3",
+        "title": "Sustainable Development Goals",
+        "description": "This lesson focuses on discussing the UN's Sustainable Development Goals, practicing descriptive and problem-solving language.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "lessonId": "1f8120a6-ef5f-4e00-b936-866b475b9bc2",
+        "title": "A Discursive Essay on Immigration",
+        "description": "This lesson focuses on writing a balanced discursive essay on immigration, presenting multiple perspectives, using objective language, and structuring arguments logically.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 35
+      },
+      {
+        "lessonId": "416ec6b0-9fae-419e-ad23-5fac21cbe73e",
+        "title": "Unlocking the Brain: The Neuroscience of Learning",
+        "description": "This lesson explores how the brain learns and forms memories, and helps learners practice understanding vocabulary in context.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "lessonId": "4a03fda7-8347-4cf2-a582-1987dc078fc8",
+        "title": "Social Inequality and Its Solutions",
+        "description": "This lesson focuses on discussing social inequality and proposing solutions, practicing analytical and problem-solving language.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      }
+    ],
+    "questionSets": [
+      {
+        "questionSetId": "01ecdb33-2c96-4a2f-a670-f97564c98d12",
+        "title": "Social Media and Young People",
+        "description": "Give your opinion on young people spending a lot of time on social media.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "questionSetId": "5203057c-d56d-42a4-8cd1-676eda1bc1db",
+        "title": "Using My Smartphone Every Day",
+        "description": "Learners will read about the common uses of a smartphone in daily life and answer questions about basic technology.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "questionSetId": "01ceee74-b045-44f1-9198-a06df7698e27",
+        "title": "Describe a Recent Trip",
+        "description": "Learn to use past tenses and travel vocabulary to describe your holiday experiences.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "questionSetId": "0475d138-b2a1-42bd-950c-3560bc797423",
+        "title": "Future with 'going to' Grammar",
+        "description": "Practice forming sentences using 'going to' for future plans and predictions.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "questionSetId": "6087ada1-446e-41d4-ac30-be0536691aae",
+        "title": "A Train Trip to Da Nang",
+        "description": "Learners will read about a family's train journey and answer questions about their travel experience.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "questionSetId": "0efea2c5-a363-499a-a6bb-f80301786299",
+        "title": "A Childhood Memory",
+        "description": "Share a distinct memory from when you were a child.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 10
+      },
+      {
+        "questionSetId": "1074d0fd-f0fa-454b-8244-360472ca3981",
+        "title": "Studying at Home vs at School",
+        "description": "Discuss the differences between studying at home and studying in a classroom.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "questionSetId": "638d1ea8-3bde-4999-af7f-c7aa3bf1caa4",
+        "title": "Learning to Play the Guitar",
+        "description": "Learners will read about someone's experience learning a new skill, playing the guitar, and answer questions about the learning process.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "questionSetId": "0f029511-a08d-4020-b151-85a1891ea8c5",
+        "title": "Describe Your Neighborhood",
+        "description": "Learn to describe the facilities and atmosphere of the area where you live.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "questionSetId": "2571667f-7a7d-4cc8-b331-3c95903d0758",
+        "title": "Modal Verbs (can, should) Grammar",
+        "description": "Practice using the modal verbs 'can' and 'should' to express ability and advice.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "questionSetId": "74b0d4dd-9325-4415-8d1f-b354ef8c8c93",
+        "title": "Exploring Ho Chi Minh City",
+        "description": "Learners will read about different aspects of city life in Ho Chi Minh City and answer comprehension questions.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20
+      },
+      {
+        "questionSetId": "1626ed34-e8d5-45ae-b135-958fe64dab13",
+        "title": "Your Dream Job",
+        "description": "Practice talking about the kind of work you would love to do in the future.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 15
+      },
+      {
+        "questionSetId": "04944225-3cca-40e5-bff4-580a4285743d",
+        "title": "Reading Books vs Watching Videos",
+        "description": "Discuss if reading books is outdated compared to watching video content.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "questionSetId": "0b4b002a-067f-43a2-8b75-851ae9ab1378",
+        "title": "The Joy of Travel: Exploring New Horizons",
+        "description": "Learners will read about the benefits and experiences of travel and answer comprehension questions.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "questionSetId": "01e3659d-ac0a-4306-86c7-5229b6e06a93",
+        "title": "Discuss Environmental Problems",
+        "description": "Examine the causes of pollution and explore potential solutions for a greener planet.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "questionSetId": "05a2d95f-fe67-4900-bf7d-bcab50352465",
+        "title": "Grammar: Reported Speech",
+        "description": "Practice converting direct speech into reported speech, including necessary tense and pronoun changes.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "questionSetId": "55ec3d4b-cd81-41b6-84ca-88459d468ae7",
+        "title": "Healthy Habits for a Better Life",
+        "description": "Learners will read about the importance of a healthy lifestyle and answer comprehension questions.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "questionSetId": "02a2850e-405f-4338-a744-e3e7ddfdf6ac",
+        "title": "Sports and Competition",
+        "description": "Talk about the role of sports, the value of teamwork, and competitive spirit.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 15
+      },
+      {
+        "questionSetId": "084675d7-7d60-41c7-a858-15ec67a4d248",
+        "title": "The Importance of Learning a Second Language",
+        "description": "Give your opinion on how essential a second language is for career success.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "questionSetId": "5cb6867d-6b09-45f6-ba0f-a403b9541ceb",
+        "title": "Protecting Our Planet: Sustainability Efforts",
+        "description": "Learners will read about environmental challenges and sustainable practices and answer comprehension questions.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "questionSetId": "03078bcb-da66-4586-bbe4-f3d49d627c43",
+        "title": "A Gift You Gave",
+        "description": "Talk about a present you gave to someone else.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 10
+      },
+      {
+        "questionSetId": "0d88e60a-1131-485d-9bb5-c06952004d74",
+        "title": "Environmental Responsibility of Individuals",
+        "description": "Write about whether ordinary people are responsible for protecting the environment.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30
+      },
+      {
+        "questionSetId": "5f7f054f-9c6d-4f85-aa28-c29961862954",
+        "title": "Navigating the Modern Job Market",
+        "description": "Learners will read about current trends and necessary skills for success in today's work environment.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25
+      },
+      {
+        "questionSetId": "049f05ad-cce2-45eb-bfce-fe57a99dd7f7",
+        "title": "Technology in Education",
+        "description": "Discuss the impact of computers and tablets in schools.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 10
+      },
+      {
+        "questionSetId": "0180c93b-f3d7-4d5b-aa73-b5023680a15c",
+        "title": "Grammar: Complex Noun Phrases",
+        "description": "Practice forming and understanding complex noun phrases to enhance sentence structure.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "questionSetId": "17306214-6f73-41f9-b182-e2972bcbc46d",
+        "title": "The Enduring Power of Myths",
+        "description": "This set explores the universal significance and cultural role of myths and legends, helping learners practice understanding abstract concepts, identifying details, interpreting vo",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "questionSetId": "04286fce-9e34-4ce8-b4d9-70bc8fa332bf",
+        "title": "Genetically Modified Foods",
+        "description": "Discuss the ethics and safety of GMO agriculture.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 10
+      },
+      {
+        "questionSetId": "09ab972e-4f73-486b-8b09-9361bd66c4a8",
+        "title": "Space Exploration vs Solving Earth's Problems",
+        "description": "Debate whether funds for space programs should be reallocated to terrestrial issues.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 40
+      },
+      {
+        "questionSetId": "22d69dc0-f97f-4fff-bc7e-bf089d7c3156",
+        "title": "The Power of Habit",
+        "description": "This set explores the psychological mechanisms behind habit formation and change, helping learners practice understanding psychological concepts, identifying details, interpreting ",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "questionSetId": "0d9ec35f-dc70-4800-aea5-4c1a63c02e80",
+        "title": "Impact of Social Media",
+        "description": "Evaluate the sociological effects of networking platforms.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 10
+      },
+      {
+        "questionSetId": "0f475693-e145-4ab4-8e4f-68029693a5ff",
+        "title": "Nuclear Energy: Solution or Risk?",
+        "description": "Assess if nuclear power is the best answer to global energy demands.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 40
+      },
+      {
+        "questionSetId": "40ec8311-05cd-45c4-961f-9f1369e3ff02",
+        "title": "The Gig Economy's Rise",
+        "description": "This set helps learners understand the characteristics and implications of the gig economy, practicing main idea identification, detail recall, vocabulary in context, and inferenti",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "questionSetId": "1347387b-da4c-4aa2-838f-41516df2563a",
+        "title": "Discuss Globalization Effects",
+        "description": "Analyze the multifaceted impact of global interconnectedness on local economies and cultures.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "questionSetId": "0fa488a5-82bb-4898-a3ad-1c523e53bf20",
+        "title": "Grammar: Inversion and Emphasis",
+        "description": "Practice using inversion for emphasis and dramatic effect in sentences.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "questionSetId": "539f8468-ef4c-4247-9b27-32cca3055aae",
+        "title": "Ethical Dilemmas in AI",
+        "description": "This set explores the ethical considerations surrounding artificial intelligence, helping learners practice understanding complex arguments, identifying specific details, interpret",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      },
+      {
+        "questionSetId": "226a70a9-4ca6-4712-8a9b-4f342602c5bb",
+        "title": "Critique a Media Report",
+        "description": "Develop critical thinking skills by identifying bias and evaluating the credibility of news.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30
+      }
+    ],
+    "details": [
+      {
+        "refId": "03eb53ef",
+        "fullRefId": "03eb53ef-224e-419c-8359-db1453403c37",
+        "itemType": "lesson",
+        "title": "Describe Your Neighborhood",
+        "description": "Learn to describe your neighborhood using 'there is/are' and prepositions of place. Practice using descriptive adjectives.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 25,
+        "theorySummary": "rule: To list what your neighborhood has, use 'There is' for singular items (e.g., 'There is a park.') and 'There are' for plural items (e.g., 'There are many shops.'). | example: Correct: 'My house is next to a supermarket.' or 'There is a school on the main street.' (Uses 'next to', 'on' to show position). Incorrect: 'My house supermarket.' (Missing preposition). Prepositions like 'in', 'on', 'near', 'next to', 'opposite' are essential. | tip: Use adjectives to describe the general feeling or…",
+        "questionCount": 6,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "My neighborhood is very ___ and peaceful.",
+          "There ___ a small park where children play.",
+          "There are many local ___ near my house."
+        ]
+      },
+      {
+        "refId": "01ecdb33",
+        "fullRefId": "01ecdb33-2c96-4a2f-a670-f97564c98d12",
+        "itemType": "practice_session",
+        "title": "Social Media and Young People",
+        "description": "Give your opinion on young people spending a lot of time on social media.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": null,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Young people today spend a lot of time on social media platforms like Facebook and TikTok. Is this a positive or negative trend? Write at least 80 words."
+        ]
+      },
+      {
+        "refId": "0158362d",
+        "fullRefId": "0158362d-33f1-4dd4-ae10-d4c85cce28a8",
+        "itemType": "lesson",
+        "title": "A Trip to Our Local Market",
+        "description": "This lesson helps learners understand descriptions of local markets. They will practice identifying types of goods, the atmosphere, and specific details about the market.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": "rule: When reading about a place like a market, look for words that describe what it looks, sounds, and smells like. Pay attention to the types of things sold, the people who are there, and the overall feeling of the place. Adjectives and sensory words are very helpful. | tip: Markets sell many different items. Scan the text for categories of goods (e.g., 'fresh produce,' 'clothes,' 'handicrafts') and specific examples (e.g., 'vegetables,' 'fish,' 'shirts'). This helps you understand the variet…",
+        "questionCount": 11,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "When do the writer and their mother go to the local market?",
+          "What kind of market is it?",
+          "What do the farmers sell at the vegetable stalls?"
+        ]
+      },
+      {
+        "refId": "5203057c",
+        "fullRefId": "5203057c-d56d-42a4-8cd1-676eda1bc1db",
+        "itemType": "practice_session",
+        "title": "Using My Smartphone Every Day",
+        "description": "Learners will read about the common uses of a smartphone in daily life and answer questions about basic technology.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main topic of the passage?",
+          "What does the writer use their smartphone for to communicate?",
+          "What kind of information can the writer find on their smartphone?"
+        ]
+      },
+      {
+        "refId": "05b58a7a",
+        "fullRefId": "05b58a7a-3c42-434c-a980-63d57ef654a1",
+        "itemType": "lesson",
+        "title": "Talk About Helping Others",
+        "description": "Learn to discuss ways you help others and why it's important to you.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": "rule: When talking about helping others, use a warm and empathetic tone of voice. This can involve slightly softer volume and a gentle, rising-falling intonation pattern to show care and sincerity. | example: Use these phrases: 'I often help [person/group] by [action]...', 'It makes me feel [emotion]...', 'It's important to [verb]...', 'I believe in [value]...', 'I try to [action]...' | tip: Don't just state that you help; give a specific example. For instance, instead of 'I help my family', sa…",
+        "questionCount": 5,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "Someone who offers their time for free to help others is a ______.",
+          "It's important to ______ your friends when they are sad.",
+          "Helping others builds a stronger ______."
+        ]
+      },
+      {
+        "refId": "01ceee74",
+        "fullRefId": "01ceee74-b045-44f1-9198-a06df7698e27",
+        "itemType": "practice_session",
+        "title": "Describe a Recent Trip",
+        "description": "Learn to use past tenses and travel vocabulary to describe your holiday experiences.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "Where ___ you go on your last summer holiday?",
+          "I stayed in a small ___ near the beach for three nights.",
+          "We went ___ in the old town to see the famous buildings."
+        ]
+      },
+      {
+        "refId": "0b4b597f",
+        "fullRefId": "0b4b597f-b718-487f-86ef-2466bbae0e8c",
+        "itemType": "lesson",
+        "title": "Describe a Festival",
+        "description": "Learn to describe a festival using the simple present and past tenses. Practice using descriptive adjectives and sequencing events.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 25,
+        "theorySummary": "rule: Use the simple present tense to describe general facts about the festival (e.g., 'It is celebrated in January.'). Use the simple past tense to describe your personal experience at the festival (e.g., 'I went last year.'). | example: Correct: 'The festival is colorful and lively.' or 'We saw beautiful decorations.' (Uses adjectives to make it interesting). Incorrect: 'The festival good.' (Missing 'is'). Adjectives like 'traditional', 'exciting', 'delicious', 'loud', 'bright' are useful. | …",
+        "questionCount": 6,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "Tet is the most important ___ in Vietnam.",
+          "People usually ___ Tet in late January or early February.",
+          "Families ___ their houses with flowers and lights."
+        ]
+      },
+      {
+        "refId": "0475d138",
+        "fullRefId": "0475d138-b2a1-42bd-950c-3560bc797423",
+        "itemType": "practice_session",
+        "title": "Future with 'going to' Grammar",
+        "description": "Practice forming sentences using 'going to' for future plans and predictions.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "I am ___ (visit) my aunt next weekend.",
+          "She is ___ (study) for her exam tonight.",
+          "We are ___ (have) a party on Saturday evening."
+        ]
+      },
+      {
+        "refId": "30647e73",
+        "fullRefId": "30647e73-992e-45f6-883f-20599dcaea47",
+        "itemType": "lesson",
+        "title": "Making a New Friend at School",
+        "description": "This lesson helps learners understand social interactions and the process of making new friends. They will practice identifying key events and understanding reasons for actions.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": "rule: When reading about people meeting, pay attention to who starts the conversation, what they talk about, and what activities they do together. These details show how a relationship develops. Look for dialogue and descriptions of actions. | tip: People do things for reasons. Look for words like 'because,' 'so,' 'to,' or phrases that explain 'why.' For example, if someone 'smiled because she was friendly,' you understand the reason for her action. This helps with inference. | example: Words l…",
+        "questionCount": 11,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "Who is the new girl in the class?",
+          "How did Linh seem at first?",
+          "What did An ask Linh to do first?"
+        ]
+      },
+      {
+        "refId": "6087ada1",
+        "fullRefId": "6087ada1-446e-41d4-ac30-be0536691aae",
+        "itemType": "practice_session",
+        "title": "A Train Trip to Da Nang",
+        "description": "Learners will read about a family's train journey and answer questions about their travel experience.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main topic of the passage?",
+          "How long was the train journey to Da Nang?",
+          "What did the family see from the train window?"
+        ]
+      },
+      {
+        "refId": "271ddacc",
+        "fullRefId": "271ddacc-9c30-4996-963e-61a351986be2",
+        "itemType": "lesson",
+        "title": "Describe a Skill You Are Learning",
+        "description": "Practice talking about a new skill you are acquiring, why you chose it, and your progress.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": "rule: Ensure you pronounce the '-ing' ending clearly, like the 'ng' in 'sing', not like 'ink'. For example, 'learning' should sound like /lɜːrnɪŋ/, not /lɜːrnɪnk/. | example: Use these phrases: 'I'm currently learning to [skill]...', 'It's challenging but fun.', 'I practice by [method]...', 'I decided to learn it because...', 'My goal is to [achieve something]...' | tip: Always explain *why* you are learning a skill or *why* it's important to you. Using 'because' helps you provide clear reasons…",
+        "questionCount": 5,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "To become very good at a skill, you need to ______ it.",
+          "I ______ playing the piano every day to improve.",
+          "Learning a new language can be ______ but rewarding."
+        ]
+      },
+      {
+        "refId": "0efea2c5",
+        "fullRefId": "0efea2c5-a363-499a-a6bb-f80301786299",
+        "itemType": "practice_session",
+        "title": "A Childhood Memory",
+        "description": "Share a distinct memory from when you were a child.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 10,
+        "theorySummary": null,
+        "questionCount": 1,
+        "questionTypes": [
+          "speaking"
+        ],
+        "sampleStems": [
+          "Talk about a happy childhood memory. How old were you? What happened, and why do you still remember it today? Speak for about 60 seconds."
+        ]
+      },
+      {
+        "refId": "1ea04422",
+        "fullRefId": "1ea04422-f49f-4cac-9602-aecb07ef9c47",
+        "itemType": "lesson",
+        "title": "A Shopping List and Budget",
+        "description": "Learn to create a simple shopping list and estimate costs. Practice using numbers and expressing needs.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 25,
+        "theorySummary": "rule: When making a shopping list, write down the item and the quantity you need. For example: 'Milk (1 carton)', 'Apples (2 kg)'. Use simple nouns and numbers. | example: Correct: 'I need to buy some bread.' or 'I want to buy new shoes.' (Clearly states what you require). Incorrect: 'Buy bread.' (Too direct for a personal list, sounds like an order). These phrases are polite and clear. | tip: After listing items, try to guess the price of each item. Then, add them up to get a total budget. Use…",
+        "questionCount": 6,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "I need to ___ some groceries from the market.",
+          "On my shopping ___, I have milk, bread, and eggs.",
+          "A carton of milk usually ___ about 30,000 VND."
+        ]
+      },
+      {
+        "refId": "1074d0fd",
+        "fullRefId": "1074d0fd-f0fa-454b-8244-360472ca3981",
+        "itemType": "practice_session",
+        "title": "Studying at Home vs at School",
+        "description": "Discuss the differences between studying at home and studying in a classroom.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": null,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Some students prefer studying at home instead of going to school. What are the good and bad points of studying at home? Write at least 80 words."
+        ]
+      },
+      {
+        "refId": "3a4e4ed5",
+        "fullRefId": "3a4e4ed5-bf5a-4ca4-b2d7-9913a9d509a5",
+        "itemType": "lesson",
+        "title": "Taking the Bus to School",
+        "description": "This lesson helps learners understand how to use public transport. They will practice identifying the sequence of actions and specific details about a journey.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": "rule: When reading about a process, like taking public transport, pay close attention to the order of actions. Look for words like 'first,' 'then,' 'next,' 'after that,' and 'finally.' These words help you follow the steps correctly and understand the journey. | tip: For travel texts, focus on details like the type of transport, the starting point, the destination, how to pay, and any specific instructions. These are often tested in comprehension questions. Scan for names of places, numbers, an…",
+        "questionCount": 11,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What kind of public transport does the writer use?",
+          "Where does the writer wait for the bus?",
+          "What time does the writer usually arrive at the bus stop?"
+        ]
+      },
+      {
+        "refId": "638d1ea8",
+        "fullRefId": "638d1ea8-3bde-4999-af7f-c7aa3bf1caa4",
+        "itemType": "practice_session",
+        "title": "Learning to Play the Guitar",
+        "description": "Learners will read about someone's experience learning a new skill, playing the guitar, and answer questions about the learning process.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What new skill is the writer learning?",
+          "When did the writer start guitar lessons?",
+          "What is the teacher's name?"
+        ]
+      },
+      {
+        "refId": "2cbb513f",
+        "fullRefId": "2cbb513f-2f2c-4f43-bf0b-e9b27fcdf3f9",
+        "itemType": "lesson",
+        "title": "Your Opinion on the Internet",
+        "description": "Learn to express your opinions on the internet, including its benefits and drawbacks.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": "rule: It's okay to use 'uhm' or 'well' as natural fillers when you need a moment to think or to introduce an opinion. They make your speech sound more natural and less robotic. | example: Use these phrases: 'I think that...', 'In my opinion, the internet is...', 'I believe that...', 'On the one hand... on the other hand...', 'The main advantage/disadvantage is...' | tip: When discussing a topic like the internet, try to mention both positive and negative aspects (advantages and disadvantages). …",
+        "questionCount": 5,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "When you use the internet, you are working ______.",
+          "The internet provides a lot of ______ on any topic.",
+          "Facebook and Zalo are examples of ______ media platforms."
+        ]
+      },
+      {
+        "refId": "0f029511",
+        "fullRefId": "0f029511-a08d-4020-b151-85a1891ea8c5",
+        "itemType": "practice_session",
+        "title": "Describe Your Neighborhood",
+        "description": "Learn to describe the facilities and atmosphere of the area where you live.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "My house is located ___ to a large public park.",
+          "There is a lot of ___ on my street during rush hour.",
+          "The neighbors in my area are very ___ and quiet."
+        ]
+      },
+      {
+        "refId": "26bd3eb0",
+        "fullRefId": "26bd3eb0-22cb-4d8f-b9f9-4314b4155696",
+        "itemType": "lesson",
+        "title": "Plan a Holiday",
+        "description": "Learn to describe your holiday plans using 'going to'. Practice listing activities and expressing preferences.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 25,
+        "theorySummary": "rule: When you talk about plans you have already made, use 'be going to'. For example: 'I am going to visit Da Nang.' or 'We are going to stay for five days.' This shows a definite plan. | example: Correct: 'I want to relax on the beach.' or 'I would like to try local food.' (Shows what you wish to do). Incorrect: 'I relax on the beach.' (Sounds like a habit, not a plan). Use these phrases to talk about your desires. | tip: Think of words like 'travel', 'stay', 'visit', 'relax', 'explore', 'swi…",
+        "questionCount": 6,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "Next summer, I am ___ to travel to Phu Quoc.",
+          "I want to ___ on the beach and read books.",
+          "We are planning to ___ the famous night market."
+        ]
+      },
+      {
+        "refId": "2571667f",
+        "fullRefId": "2571667f-7a7d-4cc8-b331-3c95903d0758",
+        "itemType": "practice_session",
+        "title": "Modal Verbs (can, should) Grammar",
+        "description": "Practice using the modal verbs 'can' and 'should' to express ability and advice.",
+        "skillName": "writing",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "I ___ speak English quite well now.",
+          "You ___ study hard for your exams to get good grades.",
+          "She ___ run very fast, she's a great athlete."
+        ]
+      },
+      {
+        "refId": "3a677d8b",
+        "fullRefId": "3a677d8b-3997-48c0-a375-52f122f134eb",
+        "itemType": "lesson",
+        "title": "My Job as a Teacher",
+        "description": "This lesson focuses on understanding descriptions of jobs and workplaces. Learners will practice identifying specific tasks and the environment of a job.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": "rule: When reading about a job, pay attention to what the person does, where they work, and what skills or qualities are mentioned. These details help you understand the nature of the job. Look for verbs that describe actions and nouns that describe places or tools. | tip: Some questions ask you to match a task with a specific part of the job or a place with an activity. Read the question carefully and then scan the text for keywords from both parts of the question. This helps you find the corr…",
+        "questionCount": 11,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is Mai's job?",
+          "Where does Mai work?",
+          "What does Mai do every morning?"
+        ]
+      },
+      {
+        "refId": "74b0d4dd",
+        "fullRefId": "74b0d4dd-9325-4415-8d1f-b354ef8c8c93",
+        "itemType": "practice_session",
+        "title": "Exploring Ho Chi Minh City",
+        "description": "Learners will read about different aspects of city life in Ho Chi Minh City and answer comprehension questions.",
+        "skillName": "reading",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What city does the writer live in?",
+          "What can you find a lot of on the streets of Ho Chi Minh City?",
+          "What does the writer say about life in the city?"
+        ]
+      },
+      {
+        "refId": "3557e6d0",
+        "fullRefId": "3557e6d0-19e7-48a1-9254-03b94815abe3",
+        "itemType": "lesson",
+        "title": "Discuss a Film or Series",
+        "description": "Practice talking about a film or TV series you have seen, including the plot and your opinion.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 20,
+        "theorySummary": "rule: It's natural to use 'um' or 'uh' occasionally when you're thinking of what to say next. Don't worry about them too much, but try not to overuse them. They show you're processing your thoughts. | example: Use these phrases: 'I recently watched [title]...', 'It's about [plot summary]...', 'I liked the [aspect, e.g., acting/story]...', 'It made me feel [emotion]...', 'The main character is [description]...' | tip: Clearly state your opinion using phrases like 'I think...', 'In my opinion...'…",
+        "questionCount": 5,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the type of a film, like comedy or horror?",
+          "The ______ of the movie was very exciting and kept me interested.",
+          "The main ______ in the film was a brave hero."
+        ]
+      },
+      {
+        "refId": "1626ed34",
+        "fullRefId": "1626ed34-e8d5-45ae-b135-958fe64dab13",
+        "itemType": "practice_session",
+        "title": "Your Dream Job",
+        "description": "Practice talking about the kind of work you would love to do in the future.",
+        "skillName": "speaking",
+        "cefrLevel": "A2",
+        "estimatedMinutes": 15,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "My brother earns a very good ___ at his new job.",
+          "The shop assistant was very polite to the ___.",
+          "Nurses and police officers have to wear a ___ at work."
+        ]
+      },
+      {
+        "refId": "0f8aacc6",
+        "fullRefId": "0f8aacc6-3b1c-4cc5-9812-d55182ea9207",
+        "itemType": "lesson",
+        "title": "Write a Report on a School Event",
+        "description": "This lesson teaches you how to write an objective report about a school event, using clear structure and factual language.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "theorySummary": "rule: A report typically includes: Title, Introduction (what, when, where, why), Main Body (details of the event, activities, participants), and Conclusion/Recommendations (summary, outcomes, suggestions for future events). | example: Since you are reporting on a past event, use the past simple tense. Incorrect: 'Students are playing games.' Correct: 'Students played various games.' (Focus on what happened). | tip: Reports should be factual and objective. Avoid personal opinions or emotional la…",
+        "questionCount": 6,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "The annual school sports day ___ place last Friday.",
+          "Over 200 students ___ in various athletic competitions.",
+          "The event was organized to ___ teamwork and healthy competition."
+        ]
+      },
+      {
+        "refId": "04944225",
+        "fullRefId": "04944225-3cca-40e5-bff4-580a4285743d",
+        "itemType": "practice_session",
+        "title": "Reading Books vs Watching Videos",
+        "description": "Discuss if reading books is outdated compared to watching video content.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "theorySummary": null,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "In the digital age, reading books is no longer necessary because people can easily watch videos to get information. Do you agree or disagree? Write at least 150 words."
+        ]
+      },
+      {
+        "refId": "268a2aed",
+        "fullRefId": "268a2aed-37a3-4a8e-b08b-b2751db5c5f9",
+        "itemType": "lesson",
+        "title": "Echoes of the Past: Famous Historical Events",
+        "description": "This lesson introduces significant historical events, helping learners understand chronological order and key figures.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": "rule: Chronological order means events are presented in the sequence in which they happened over time. Authors use dates, time markers (e.g., 'in 1945,' 'before,' 'after,' 'during,' 'later'), and sequential language to guide the reader through a timeline. This is especially common in historical texts or narratives. | example: If a text says, 'First, the war began in 1939. Then, in 1941, a major country joined. Finally, the war ended in 1945,' you can easily follow the sequence of events. The da…",
+        "questionCount": 11,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main idea of the passage?",
+          "Who invented the printing press?",
+          "When did the Industrial Revolution begin?"
+        ]
+      },
+      {
+        "refId": "0b4b002a",
+        "fullRefId": "0b4b002a-067f-43a2-8b75-851ae9ab1378",
+        "itemType": "practice_session",
+        "title": "The Joy of Travel: Exploring New Horizons",
+        "description": "Learners will read about the benefits and experiences of travel and answer comprehension questions.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main idea of the passage?",
+          "According to the passage, what happens when we travel?",
+          "What does 'broadens horizons' mean in the context of travel?"
+        ]
+      },
+      {
+        "refId": "1c1c237b",
+        "fullRefId": "1c1c237b-3597-412b-b7a1-23ba594a8ef1",
+        "itemType": "lesson",
+        "title": "Relationships and Communication",
+        "description": "Learn to discuss the importance of relationships and effective communication. Practice expressing feelings and offering advice using appropriate vocabulary.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": "rule: When talking about relationships, you'll often express feelings. Use phrases like 'I feel that...', 'It's important to...', 'I value...', 'I appreciate...', 'I find it difficult to...'. For example: 'I feel that honesty is crucial in any relationship.' or 'It's important to listen actively to your friends.' | example: Useful terms include: 'empathy', 'trust', 'respect', 'supportive', 'understanding', 'conflict resolution', 'misunderstanding', 'active listening', 'non-verbal communication'…",
+        "questionCount": 5,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the ability to understand and share the feelings of another?",
+          "Good communication often involves finding a ______ when there's a disagreement.",
+          "A lack of clear communication can lead to ______ between people."
+        ]
+      },
+      {
+        "refId": "01e3659d",
+        "fullRefId": "01e3659d-ac0a-4306-86c7-5229b6e06a93",
+        "itemType": "practice_session",
+        "title": "Discuss Environmental Problems",
+        "description": "Examine the causes of pollution and explore potential solutions for a greener planet.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "If we don't reduce carbon emissions, global temperatures ___ to rise.",
+          "Many species are at risk of ___ due to the destruction of their natural habitats.",
+          "The city's air quality has ___ significantly since the new factory opened."
+        ]
+      },
+      {
+        "refId": "1b078f42",
+        "fullRefId": "1b078f42-5819-41e2-be7d-dd024f37ba6b",
+        "itemType": "lesson",
+        "title": "Write About a Current News Event",
+        "description": "This lesson helps you summarize a current news event and express a brief opinion, using factual language and clear structure.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "theorySummary": "rule: When summarizing a news event, make sure to cover the 'Who, What, When, Where, Why.' This provides the essential information clearly and concisely. Use past simple for completed events. | example: In the main summary, use objective language (facts). Incorrect: 'The terrible storm destroyed everything.' Correct: 'The storm caused significant damage to infrastructure.' (Save opinions for the opinion section). | tip: When you transition from factual reporting to your opinion, use phrases lik…",
+        "questionCount": 6,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "A major earthquake ___ recently in Turkey, causing widespread damage.",
+          "Rescue teams worked tirelessly to ___ survivors from the rubble.",
+          "The international community offered financial ___ and humanitarian aid."
+        ]
+      },
+      {
+        "refId": "05a2d95f",
+        "fullRefId": "05a2d95f-fe67-4900-bf7d-bcab50352465",
+        "itemType": "practice_session",
+        "title": "Grammar: Reported Speech",
+        "description": "Practice converting direct speech into reported speech, including necessary tense and pronoun changes.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "He said that he ___ (be) tired after the long journey.",
+          "She asked me if I ___ (like) coffee or tea.",
+          "They told us that they ___ (visit) us the next day."
+        ]
+      },
+      {
+        "refId": "292f565b",
+        "fullRefId": "292f565b-a50a-4d06-9ab4-4b48187d7800",
+        "itemType": "lesson",
+        "title": "Moving Forward: The Future of Transport",
+        "description": "This lesson explores innovations in transportation, helping learners understand predictions and identify key technologies.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": "rule: Texts often discuss future possibilities, predictions, or emerging trends. Look for words like 'will,' 'might,' 'could,' 'expected to,' 'in the future,' 'foreseeable,' or phrases that suggest potential developments. Understanding these helps you grasp what the author believes is likely to happen. | example: If a text says, 'Electric cars are expected to become more common in the next decade,' it's a prediction about a future trend. The phrase 'expected to become' signals this. | tip: As y…",
+        "questionCount": 11,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main idea of the passage?",
+          "What is one major trend in the future of transport?",
+          "What is the benefit of electric vehicles mentioned in the text?"
+        ]
+      },
+      {
+        "refId": "55ec3d4b",
+        "fullRefId": "55ec3d4b-cd81-41b6-84ca-88459d468ae7",
+        "itemType": "practice_session",
+        "title": "Healthy Habits for a Better Life",
+        "description": "Learners will read about the importance of a healthy lifestyle and answer comprehension questions.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main idea of the passage?",
+          "According to the passage, what kind of foods should be limited for good health?",
+          "What does 'crucial' mean in the first sentence?"
+        ]
+      },
+      {
+        "refId": "23e80c63",
+        "fullRefId": "23e80c63-79dc-4330-80d5-ef96b4d8d621",
+        "itemType": "lesson",
+        "title": "Talk About Sustainable Living",
+        "description": "Learn to explain the concept of sustainable living, give examples of practices, and discuss its importance. Practice using vocabulary related to environmental responsibility.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": "rule: When defining 'sustainable living', start with 'Sustainable living means...' or 'It refers to...'. Then, provide examples using 'For example...', 'For instance...', 'One way to do this is...'. For example: 'Sustainable living means reducing our impact on the environment. For example, by recycling and conserving energy.' | example: Useful terms include: 'eco-friendly', 'renewable energy', 'carbon footprint', 'conservation', 'recycling', 'upcycling', 'waste reduction', 'public transport', '…",
+        "questionCount": 5,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What term describes products or practices that do not harm the environment?",
+          "Reducing your ______ means lowering the amount of greenhouse gases you produce.",
+          "Using solar and wind power are examples of ______ energy sources."
+        ]
+      },
+      {
+        "refId": "02a2850e",
+        "fullRefId": "02a2850e-405f-4338-a744-e3e7ddfdf6ac",
+        "itemType": "practice_session",
+        "title": "Sports and Competition",
+        "description": "Talk about the role of sports, the value of teamwork, and competitive spirit.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 15,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "I recently decided to ___ up playing tennis to improve my fitness.",
+          "The severe knee injury forced him to ___ up professional sports completely.",
+          "Playing together in a local group builds strong team ___."
+        ]
+      },
+      {
+        "refId": "1c192cb3",
+        "fullRefId": "1c192cb3-e014-434a-8a16-c4c0360fd98a",
+        "itemType": "lesson",
+        "title": "Write About Healthy Habits",
+        "description": "This lesson helps you describe healthy habits and explain their benefits, using clear language and giving advice.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "theorySummary": "rule: When giving advice on healthy habits, you can use imperatives (commands) or modal verbs. Examples: 'Eat a balanced diet.' 'You should exercise regularly.' 'It's important to get enough sleep.' | example: Incorrect: 'Exercise is good.' Correct: 'Regular exercise helps to strengthen your heart and improve your mood.' (Explain *how* it's good and *what* benefits it brings). | tip: Instead of 'good for your health,' try 'beneficial,' 'advantageous,' 'promotes well-being.' Instead of 'bad for …",
+        "questionCount": 6,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "Eating a ___ diet is crucial for maintaining good health.",
+          "Regular physical ___ helps to keep your body strong and active.",
+          "It is important to get at least 7-8 hours of ___ every night."
+        ]
+      },
+      {
+        "refId": "084675d7",
+        "fullRefId": "084675d7-7d60-41c7-a858-15ec67a4d248",
+        "itemType": "practice_session",
+        "title": "The Importance of Learning a Second Language",
+        "description": "Give your opinion on how essential a second language is for career success.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "theorySummary": null,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Learning a second language, like English, is essential for a successful career in today's globalized world. Do you agree or disagree? Give reasons and examples to support your vie…"
+        ]
+      },
+      {
+        "refId": "323d6b18",
+        "fullRefId": "323d6b18-dfb9-491d-a6b6-625ac03d2782",
+        "itemType": "lesson",
+        "title": "Urban Buzz vs. Rural Calm: City vs. Countryside Living",
+        "description": "This lesson compares living in the city and the countryside, helping learners understand pros and cons and identify specific characteristics.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": "rule: Many texts discuss the advantages (pros) and disadvantages (cons) of a particular topic, decision, or lifestyle. Authors often use positive language for pros (e.g., 'benefits,' 'advantages,' 'good for') and negative language for cons (e.g., 'drawbacks,' 'challenges,' 'problems'). Identifying these helps you weigh different aspects of a topic. | example: If a text says, 'Living in a big city offers many job opportunities (pro), but the cost of living is very high (con),' it clearly present…",
+        "questionCount": 11,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main purpose of this passage?",
+          "What is one advantage of living in a city?",
+          "What is a disadvantage of city living?"
+        ]
+      },
+      {
+        "refId": "5cb6867d",
+        "fullRefId": "5cb6867d-6b09-45f6-ba0f-a403b9541ceb",
+        "itemType": "practice_session",
+        "title": "Protecting Our Planet: Sustainability Efforts",
+        "description": "Learners will read about environmental challenges and sustainable practices and answer comprehension questions.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main topic of the passage?",
+          "Which of these is NOT mentioned as an environmental challenge?",
+          "What does 'sustainability' mean, according to the passage?"
+        ]
+      },
+      {
+        "refId": "3e1f78ad",
+        "fullRefId": "3e1f78ad-65b6-43a8-905e-64ce0fe2f061",
+        "itemType": "lesson",
+        "title": "Talk About a Role Model",
+        "description": "Learn to describe a role model, explain their admirable qualities, and discuss their influence. Practice using descriptive adjectives and giving reasons.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": "rule: Use adjectives to describe your role model's character (e.g., 'courageous', 'compassionate', 'determined', 'innovative'). Use verbs to describe their actions and impact (e.g., 'inspires', 'motivates', 'achieved', 'contributed'). For example: 'My role model is a very determined person who always works hard to achieve her goals.' | example: Useful terms include: 'inspiration', 'mentor', 'admirable', 'integrity', 'perseverance', 'dedication', 'leadership', 'compassion', 'resilience', 'positi…",
+        "questionCount": 5,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is a person who serves as an example for others to imitate?",
+          "My role model's ______ to helping others is truly inspiring.",
+          "She is an ______ leader, always fair and honest in her decisions."
+        ]
+      },
+      {
+        "refId": "03078bcb",
+        "fullRefId": "03078bcb-da66-4586-bbe4-f3d49d627c43",
+        "itemType": "practice_session",
+        "title": "A Gift You Gave",
+        "description": "Talk about a present you gave to someone else.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 10,
+        "theorySummary": null,
+        "questionCount": 1,
+        "questionTypes": [
+          "speaking"
+        ],
+        "sampleStems": [
+          "Describe a special gift you gave to someone. You should say: who you gave it to, what the gift was, why you chose it, and explain how the person reacted when they received it. Spe…"
+        ]
+      },
+      {
+        "refId": "1c72fb39",
+        "fullRefId": "1c72fb39-1e1c-4d5f-8db4-dd21dbf96dfa",
+        "itemType": "lesson",
+        "title": "Describe Career Goals",
+        "description": "This lesson helps you articulate your career goals clearly, explaining your motivations and the steps you plan to take.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "theorySummary": "rule: When talking about future career plans, use future tenses like 'I will,' 'I am going to,' or 'I hope to.' For example: 'I am going to study IT at university.' or 'I hope to become a software engineer.' | example: Instead of: 'I want to be a doctor.' Correct: 'I want to become a doctor because I am passionate about helping people and making a positive impact on their health.' (Explain the 'why'). | tip: When describing steps to achieve your goals, use strong action verbs: 'enroll,' 'gain,'…",
+        "questionCount": 6,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "My long-term career ___ is to become a successful architect.",
+          "I am currently studying hard to ___ into a good university.",
+          "I hope to ___ valuable experience through internships."
+        ]
+      },
+      {
+        "refId": "0d88e60a",
+        "fullRefId": "0d88e60a-1131-485d-9bb5-c06952004d74",
+        "itemType": "practice_session",
+        "title": "Environmental Responsibility of Individuals",
+        "description": "Write about whether ordinary people are responsible for protecting the environment.",
+        "skillName": "writing",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 30,
+        "theorySummary": null,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Protecting the environment is the responsibility of individuals rather than just the government. Do you agree or disagree? Give reasons and examples to support your answer. Write …"
+        ]
+      },
+      {
+        "refId": "3b42f9c7",
+        "fullRefId": "3b42f9c7-7337-47c4-8926-bd6b2202c255",
+        "itemType": "lesson",
+        "title": "Exploring the Unknown: Popular Science Topics",
+        "description": "This lesson introduces interesting science topics, helping learners understand complex ideas through simplified explanations and identify key concepts.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": "rule: In many texts, especially scientific or informational ones, authors introduce key concepts or terms that are central to the topic. These concepts are often defined, explained, or illustrated with examples. Identifying and understanding these key concepts is crucial for grasping the overall meaning of the text. | example: If a text is about 'renewable energy,' it will likely define what renewable energy is (e.g., energy from natural sources like sun and wind that replenish themselves) and …",
+        "questionCount": 11,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main idea of the passage?",
+          "What is artificial intelligence (AI) described as?",
+          "What is the purpose of the James Webb Space Telescope?"
+        ]
+      },
+      {
+        "refId": "5f7f054f",
+        "fullRefId": "5f7f054f-9c6d-4f85-aa28-c29961862954",
+        "itemType": "practice_session",
+        "title": "Navigating the Modern Job Market",
+        "description": "Learners will read about current trends and necessary skills for success in today's work environment.",
+        "skillName": "reading",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main idea of the passage?",
+          "What is one factor driving changes in the world of work?",
+          "What does 'upskilling' mean?"
+        ]
+      },
+      {
+        "refId": "65a4aea8",
+        "fullRefId": "65a4aea8-164c-4988-9b00-7190bbb18307",
+        "itemType": "lesson",
+        "title": "Talk About Health Trends",
+        "description": "Learn to describe current health trends and express opinions on their effectiveness. Practice using vocabulary related to health and wellness.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 25,
+        "theorySummary": "rule: To talk about trends, use verbs like 'is becoming more popular', 'is on the rise', 'is gaining traction', 'has seen an increase'. For example: 'Mindfulness meditation is becoming more popular these days.' or 'There has been an increase in people adopting plant-based diets.' | example: Useful terms include: 'well-being', 'mental health', 'physical fitness', 'balanced diet', 'mindfulness', 'meditation', 'organic food', 'plant-based diet', 'sedentary lifestyle', 'stress management', 'prevent…",
+        "questionCount": 5,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "Which term describes a lifestyle with little or no physical activity?",
+          "Eating a variety of foods is key to a ______ diet.",
+          "______ is a practice where you focus on the present moment to improve mental well-being."
+        ]
+      },
+      {
+        "refId": "049f05ad",
+        "fullRefId": "049f05ad-cce2-45eb-bfce-fe57a99dd7f7",
+        "itemType": "practice_session",
+        "title": "Technology in Education",
+        "description": "Discuss the impact of computers and tablets in schools.",
+        "skillName": "speaking",
+        "cefrLevel": "B1",
+        "estimatedMinutes": 10,
+        "theorySummary": null,
+        "questionCount": 1,
+        "questionTypes": [
+          "speaking"
+        ],
+        "sampleStems": [
+          "Technology is now widely used in classrooms. Do you think computers and tablets have improved the way students learn? Are there any disadvantages to using technology in education?…"
+        ]
+      },
+      {
+        "refId": "03083c81",
+        "fullRefId": "03083c81-2ddf-45ea-90ae-b90f412f03b8",
+        "itemType": "lesson",
+        "title": "Analyze a News Article",
+        "description": "This lesson guides learners on how to critically analyze a news article, focusing on identifying bias, evaluating sources, and understanding the article's structure and language choices.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 35,
+        "theorySummary": "rule: Objective language presents facts without personal feelings or interpretations, often using neutral vocabulary and direct statements. Subjective language, however, includes opinions, emotions, and loaded words, revealing the writer's bias. Look for adjectives, adverbs, and rhetorical devices that suggest a particular viewpoint. | example: The tone of a news article can be formal, informal, critical, supportive, or neutral. Diction (word choice) heavily influences tone. Example of subjecti…",
+        "questionCount": 6,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "The article's ___ language clearly indicates the author's disapproval of the new legislation.",
+          "To maintain ___, journalists must present facts without personal opinions or emotional appeals.",
+          "The reporter failed to ___ multiple perspectives, which weakened the overall credibility of the piece."
+        ]
+      },
+      {
+        "refId": "0180c93b",
+        "fullRefId": "0180c93b-f3d7-4d5b-aa73-b5023680a15c",
+        "itemType": "practice_session",
+        "title": "Grammar: Complex Noun Phrases",
+        "description": "Practice forming and understanding complex noun phrases to enhance sentence structure.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "The recent discovery of a new planet, ___ by an international team of astronomers, excited the scientific community.",
+          "Her proposal, ___ to improve employee satisfaction, was well-received by the board.",
+          "The challenge of reducing carbon emissions, ___ by many developing nations, requires global cooperation."
+        ]
+      },
+      {
+        "refId": "0c646d8d",
+        "fullRefId": "0c646d8d-1d94-4e98-8c15-df7c9233a8f5",
+        "itemType": "lesson",
+        "title": "Exploring Income Inequality in Modern Society",
+        "description": "This lesson examines the causes and effects of income inequality and helps learners practice identifying supporting details in a text.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": "rule: Supporting details are facts, examples, statistics, or reasons that elaborate on, prove, or explain the main idea of a paragraph or text. They provide the evidence that makes the main idea believable and understandable. | example: If the main idea is 'Exercise has many health benefits,' supporting details might include 'it strengthens your heart,' 'it improves mood,' and 'it helps manage weight.' These specific points back up the general statement. | tip: When searching for supporting det…",
+        "questionCount": 11,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main topic of this passage?",
+          "According to the passage, what is one way technological advancements contribute to income inequality?",
+          "The word 'exacerbated' in paragraph 1 most closely means:"
+        ]
+      },
+      {
+        "refId": "17306214",
+        "fullRefId": "17306214-6f73-41f9-b182-e2972bcbc46d",
+        "itemType": "practice_session",
+        "title": "The Enduring Power of Myths",
+        "description": "This set explores the universal significance and cultural role of myths and legends, helping learners practice understanding abstract concepts, identifying details, interpreting vocabulary, and drawing inferences.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main idea of the passage?",
+          "According to the passage, what do myths provide frameworks for?",
+          "What was one function of myths before scientific understanding?"
+        ]
+      },
+      {
+        "refId": "0b354673",
+        "fullRefId": "0b354673-5baa-408a-bb66-7914ee9e4c3a",
+        "itemType": "lesson",
+        "title": "Art as a Tool for Social Change",
+        "description": "This lesson explores how art can drive social change, practicing analytical and descriptive language about artistic expression.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": "rule: When discussing art, you can use metaphors and similes to make your descriptions more vivid and impactful. For example, 'The painting is a mirror reflecting society's flaws,' or 'Her music acts like a rallying cry for justice.' This adds poetic flair. | example: Impact: 'Art has the power to...', 'It can raise awareness about...', 'It challenges conventional thinking by...', 'It gives a voice to the marginalized...'. Examples: 'A powerful example is...', 'Think of how X movement used art …",
+        "questionCount": 5,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "Art can serve as a powerful __________ for raising awareness about social injustices.",
+          "Many artists use their work to __________ societal norms and provoke critical thought.",
+          "The emotional __________ of art can foster empathy and inspire people to take action."
+        ]
+      },
+      {
+        "refId": "04286fce",
+        "fullRefId": "04286fce-9e34-4ce8-b4d9-70bc8fa332bf",
+        "itemType": "practice_session",
+        "title": "Genetically Modified Foods",
+        "description": "Discuss the ethics and safety of GMO agriculture.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 10,
+        "theorySummary": null,
+        "questionCount": 1,
+        "questionTypes": [
+          "speaking"
+        ],
+        "sampleStems": [
+          "Genetically modified crops are seen by some as the only way to feed a growing global population, while others view them as a dangerous threat to ecosystems and human health. What …"
+        ]
+      },
+      {
+        "refId": "08e6954e",
+        "fullRefId": "08e6954e-7372-4bbe-815d-19dabbe92f2d",
+        "itemType": "lesson",
+        "title": "Discuss an Ethical Dilemma at Work",
+        "description": "This lesson focuses on discussing complex ethical issues in a professional context, using appropriate vocabulary and structuring arguments clearly to explore different perspectives.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 35,
+        "theorySummary": "rule: Begin by clearly stating the ethical dilemma, explaining the conflicting values or principles at play. Use precise language to ensure the reader understands the core conflict and why it presents a difficult choice. Avoid vague descriptions. | example: When discussing an ethical dilemma, consider how different individuals or groups (stakeholders) might be affected or view the situation. Example: 'From the perspective of the employee, prioritizing personal gain might seem rational, whereas …",
+        "questionCount": 6,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "The employee faced an ethical ___ when asked to falsify financial records.",
+          "Maintaining ___ is crucial in the workplace, especially when dealing with sensitive client information.",
+          "The company's ___ code outlines expected behaviors and principles for all staff members."
+        ]
+      },
+      {
+        "refId": "09ab972e",
+        "fullRefId": "09ab972e-4f73-486b-8b09-9361bd66c4a8",
+        "itemType": "practice_session",
+        "title": "Space Exploration vs Solving Earth's Problems",
+        "description": "Debate whether funds for space programs should be reallocated to terrestrial issues.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 40,
+        "theorySummary": null,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Instead of spending billions of dollars on space exploration, governments should use this money to solve pressing problems on Earth, such as poverty and disease. Do you agree or d…"
+        ]
+      },
+      {
+        "refId": "360a5740",
+        "fullRefId": "360a5740-be14-47ae-bdaf-a0f90a987d51",
+        "itemType": "lesson",
+        "title": "Unpacking the Psychology of Decision-Making",
+        "description": "This lesson explores how we make decisions and introduces common cognitive biases, while practicing understanding the author's purpose.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": "rule: The author's purpose is the reason why they wrote the text. Common purposes include to inform (provide facts), to persuade (convince the reader of a viewpoint), to entertain (tell a story), or to explain (describe a process or concept). Recognizing this helps you understand the text's overall goal. | example: If a text uses statistics and expert quotes to argue for stricter environmental laws, its purpose is likely to persuade. If it simply describes the life cycle of a butterfly, its pur…",
+        "questionCount": 11,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the primary purpose of this passage?",
+          "According to the passage, what do we often believe about our choices?",
+          "The word 'subtly' in paragraph 1 most closely means:"
+        ]
+      },
+      {
+        "refId": "22d69dc0",
+        "fullRefId": "22d69dc0-f97f-4fff-bc7e-bf089d7c3156",
+        "itemType": "practice_session",
+        "title": "The Power of Habit",
+        "description": "This set explores the psychological mechanisms behind habit formation and change, helping learners practice understanding psychological concepts, identifying details, interpreting vocabulary, and making inferences.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the primary purpose of habits in our daily lives?",
+          "What are the three key components of the 'habit loop'?",
+          "What is a 'cue' in the context of the habit loop?"
+        ]
+      },
+      {
+        "refId": "427ab7ee",
+        "fullRefId": "427ab7ee-d9fe-49d1-a425-4adf22d93c1f",
+        "itemType": "lesson",
+        "title": "Debate: Remote Work vs. Office Work",
+        "description": "This lesson focuses on debating the advantages and disadvantages of remote and office work, practicing persuasive and comparative language.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": "rule: When comparing two options, use comparative structures (e.g., 'Remote work is MORE flexible THAN office work,' 'Office work is AS productive AS remote work in some cases'). For emphasis, use superlatives ('The MOST significant advantage is...'). | example: Remote advantages: 'It offers greater flexibility...', 'Employees can save time on commuting...', 'It promotes a better work-life balance...'. Office advantages: 'It fosters stronger team collaboration...', 'Spontaneous interactions are…",
+        "questionCount": 5,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "Remote work offers employees greater __________ in managing their schedules and location.",
+          "One of the main __________ of office work is the opportunity for face-to-face collaboration.",
+          "Maintaining a healthy work-life __________ is often cited as a key advantage of working from home."
+        ]
+      },
+      {
+        "refId": "0d9ec35f",
+        "fullRefId": "0d9ec35f-dc70-4800-aea5-4c1a63c02e80",
+        "itemType": "practice_session",
+        "title": "Impact of Social Media",
+        "description": "Evaluate the sociological effects of networking platforms.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 10,
+        "theorySummary": null,
+        "questionCount": 1,
+        "questionTypes": [
+          "speaking"
+        ],
+        "sampleStems": [
+          "Some people believe that social media has done more harm than good to society by isolating individuals. To what extent do you agree or disagree? Give specific reasons and examples…"
+        ]
+      },
+      {
+        "refId": "15b87fd2",
+        "fullRefId": "15b87fd2-9def-4ff6-8a3f-de7aacf9fa9c",
+        "itemType": "lesson",
+        "title": "Write a Critical Review of a Novel",
+        "description": "This lesson focuses on developing critical analysis skills for literature, structuring a review, and using descriptive and evaluative language to assess a novel's strengths and weaknesses.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 35,
+        "theorySummary": "rule: A critical review typically includes: 1. Introduction (title, author, genre, brief summary, overall impression/thesis). 2. Body Paragraphs (analysis of plot, characters, themes, writing style, setting, etc., with specific examples). 3. Conclusion (reiterate overall assessment, recommend or not, final thoughts). | example: Employ a range of evaluative vocabulary to express your judgment. Instead of: 'The plot was good.' Try: 'The plot was *intricately woven* and *masterfully executed*.' In…",
+        "questionCount": 6,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "The novel's ___ was both unpredictable and deeply thought-provoking, keeping readers engaged.",
+          "The author's writing ___ is characterized by vivid imagery and profound philosophical insights.",
+          "The main ___ underwent a significant transformation throughout the story, making them relatable."
+        ]
+      },
+      {
+        "refId": "0f475693",
+        "fullRefId": "0f475693-e145-4ab4-8e4f-68029693a5ff",
+        "itemType": "practice_session",
+        "title": "Nuclear Energy: Solution or Risk?",
+        "description": "Assess if nuclear power is the best answer to global energy demands.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 40,
+        "theorySummary": null,
+        "questionCount": 1,
+        "questionTypes": [
+          "essay"
+        ],
+        "sampleStems": [
+          "Nuclear energy is the only viable solution to meet global energy demands without exacerbating climate change. To what extent do you agree or disagree with this viewpoint? Write at…"
+        ]
+      },
+      {
+        "refId": "3af0c5c7",
+        "fullRefId": "3af0c5c7-abe2-4b4d-b3d4-2f2babf0e257",
+        "itemType": "lesson",
+        "title": "Breakthroughs in Modern Medicine",
+        "description": "This lesson explores recent scientific advances in medicine and helps learners practice understanding cause and effect relationships in a text.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": "rule: Cause and effect is a relationship where one event (the cause) makes another event happen (the effect). Identifying these relationships helps you understand how different parts of a text are connected and why things happen. | example: If a text states, 'Heavy rain caused the river to flood,' the heavy rain is the cause, and the river flooding is the effect. Look for actions and their direct consequences. | tip: Words and phrases like 'because,' 'since,' 'as a result,' 'consequently,' 'the…",
+        "questionCount": 11,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main topic of this passage?",
+          "What is the effect of personalized medicine, according to the passage?",
+          "The word 'unprecedented' in paragraph 1 most closely means:"
+        ]
+      },
+      {
+        "refId": "40ec8311",
+        "fullRefId": "40ec8311-05cd-45c4-961f-9f1369e3ff02",
+        "itemType": "practice_session",
+        "title": "The Gig Economy's Rise",
+        "description": "This set helps learners understand the characteristics and implications of the gig economy, practicing main idea identification, detail recall, vocabulary in context, and inferential reasoning.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main topic of this passage?",
+          "Which characteristic defines the gig economy according to the passage?",
+          "What is one appeal of the gig economy for workers?"
+        ]
+      },
+      {
+        "refId": "477d478e",
+        "fullRefId": "477d478e-e26f-4d8b-9bb9-707b4cc630d3",
+        "itemType": "lesson",
+        "title": "Sustainable Development Goals",
+        "description": "This lesson focuses on discussing the UN's Sustainable Development Goals, practicing descriptive and problem-solving language.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": "rule: When discussing global goals, use reporting verbs to refer to collective efforts or statements: 'The UN has CALLED for action on...', 'Governments are COMMITTED to achieving...', 'Experts EMPHASIZE the need for...'. This adds authority to your speech. | example: SDGs: 'The Sustainable Development Goals aim to...', 'Goal X focuses on...', 'Achieving these goals requires...'. Challenges: 'Significant obstacles include...', 'Progress has been hampered by...', 'Developing countries face parti…",
+        "questionCount": 5,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "The Sustainable Development Goals (SDGs) are a __________ blueprint to achieve peace and prosperity for people and the planet.",
+          "Eradicating poverty and hunger are among the primary __________ of the SDGs.",
+          "Achieving sustainable __________ requires balancing economic growth with environmental protection."
+        ]
+      },
+      {
+        "refId": "1347387b",
+        "fullRefId": "1347387b-da4c-4aa2-838f-41516df2563a",
+        "itemType": "practice_session",
+        "title": "Discuss Globalization Effects",
+        "description": "Analyze the multifaceted impact of global interconnectedness on local economies and cultures.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "Globalization has led to the ___ of many traditional local industries.",
+          "Multi-national corporations often ___ production to countries with lower labor costs.",
+          "Critics argue that globalization promotes cultural ___, making everywhere look the same."
+        ]
+      },
+      {
+        "refId": "1f8120a6",
+        "fullRefId": "1f8120a6-ef5f-4e00-b936-866b475b9bc2",
+        "itemType": "lesson",
+        "title": "A Discursive Essay on Immigration",
+        "description": "This lesson focuses on writing a balanced discursive essay on immigration, presenting multiple perspectives, using objective language, and structuring arguments logically.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 35,
+        "theorySummary": "rule: A discursive essay requires you to explore different sides of an issue. Start with an introduction that outlines the topic and its complexity. Body paragraphs should each present a distinct argument or perspective, supported by evidence or reasoning. Conclude by summarizing the arguments and offering a balanced, nuanced final thought, without necessarily taking a strong personal stance. | example: Maintain an objective tone by using impersonal constructions and avoiding overly emotional l…",
+        "questionCount": 6,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "Immigration can bring significant economic ___ to host countries, including increased labor supply.",
+          "Many immigrants face challenges related to cultural ___ and language barriers.",
+          "The ___ of skilled workers from developing countries can sometimes lead to a 'brain drain'."
+        ]
+      },
+      {
+        "refId": "0fa488a5",
+        "fullRefId": "0fa488a5-82bb-4898-a3ad-1c523e53bf20",
+        "itemType": "practice_session",
+        "title": "Grammar: Inversion and Emphasis",
+        "description": "Practice using inversion for emphasis and dramatic effect in sentences.",
+        "skillName": "writing",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "fill_blank"
+        ],
+        "sampleStems": [
+          "___ did I realize the true extent of the problem until I saw the data.",
+          "___ had the meeting started than the fire alarm went off.",
+          "___ before had such a complex challenge been faced by the team."
+        ]
+      },
+      {
+        "refId": "416ec6b0",
+        "fullRefId": "416ec6b0-9fae-419e-ad23-5fac21cbe73e",
+        "itemType": "lesson",
+        "title": "Unlocking the Brain: The Neuroscience of Learning",
+        "description": "This lesson explores how the brain learns and forms memories, and helps learners practice understanding vocabulary in context.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": "rule: Understanding the meaning of unfamiliar words is crucial for comprehension. Often, you don't need a dictionary; the surrounding words, sentences, and overall topic of the passage provide enough clues to infer the meaning of a new word. | example: If a sentence says, 'The ancient manuscript was so fragile that it crumbled at the slightest touch,' you can infer that 'fragile' means easily broken or delicate, because it 'crumbled at the slightest touch.' | tip: Context clues can take many fo…",
+        "questionCount": 11,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main subject of this passage?",
+          "The word 'unraveling' in paragraph 1 most closely means:",
+          "What is 'neuroplasticity'?"
+        ]
+      },
+      {
+        "refId": "539f8468",
+        "fullRefId": "539f8468-ef4c-4247-9b27-32cca3055aae",
+        "itemType": "practice_session",
+        "title": "Ethical Dilemmas in AI",
+        "description": "This set explores the ethical considerations surrounding artificial intelligence, helping learners practice understanding complex arguments, identifying specific details, interpreting vocabulary, and drawing inferences.",
+        "skillName": "reading",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "What is the main focus of the passage?",
+          "What is 'algorithmic bias' primarily caused by?",
+          "According to the passage, what happens if AI data reflects societal prejudices?"
+        ]
+      },
+      {
+        "refId": "4a03fda7",
+        "fullRefId": "4a03fda7-8347-4cf2-a582-1987dc078fc8",
+        "itemType": "lesson",
+        "title": "Social Inequality and Its Solutions",
+        "description": "This lesson focuses on discussing social inequality and proposing solutions, practicing analytical and problem-solving language.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": "rule: When discussing social issues, you might refer to data or general trends. Use quantifiers like 'a significant proportion of,' 'a growing number of,' 'a minority of,' 'the vast majority of' to describe groups or statistics accurately. | example: Describing: 'Social inequality manifests in...', 'There's a stark disparity between...', 'Certain groups are disproportionately affected by...'. Solutions: 'To address this, we need to...', 'One effective strategy would be...', 'Governments should …",
+        "questionCount": 5,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "Social __________ refers to the unequal distribution of resources, opportunities, and power within a society.",
+          "Policies aimed at reducing the wealth __________ are crucial for fostering a more just society.",
+          "Access to quality education is often seen as a key factor in __________ social mobility."
+        ]
+      },
+      {
+        "refId": "226a70a9",
+        "fullRefId": "226a70a9-4ca6-4712-8a9b-4f342602c5bb",
+        "itemType": "practice_session",
+        "title": "Critique a Media Report",
+        "description": "Develop critical thinking skills by identifying bias and evaluating the credibility of news.",
+        "skillName": "speaking",
+        "cefrLevel": "B2",
+        "estimatedMinutes": 30,
+        "theorySummary": null,
+        "questionCount": 10,
+        "questionTypes": [
+          "mcq_single"
+        ],
+        "sampleStems": [
+          "Readers should be wary of ___ headlines that prioritize clicks over accuracy.",
+          "The journalist was accused of ___ because of her close ties to the politician.",
+          "A reliable news source will always ___ its facts before publishing."
+        ]
+      }
+    ]
+  },
+  "snapshotSha256": "c99e73816aaa69799c9471f887c6e708bb2eca1541bd99e95821dff6434198ce"
+}

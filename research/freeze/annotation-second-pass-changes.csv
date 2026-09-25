@@ -1,0 +1,27 @@
+﻿content_id,title,before,after,reason
+0158362d-33f1-4dd4-ae10-d4c85cce28a8,A Trip to Our Local Market,TR=0;CC=0;LR=0;GRA=0,TR=0;CC=0;LR=1;GRA=0,"Full-source review found an explicit market-vocabulary section, a word-meaning item, and lexical fill blanks."
+5203057c-d56d-42a4-8cd1-676eda1bc1db,Using My Smartphone Every Day,TR=0;CC=0;LR=0;GRA=0,TR=0;CC=0;LR=1;GRA=0,Full-source review found an explicit contextual meaning item for 'communicate'.
+30647e73-992e-45f6-883f-20599dcaea47,Making a New Friend at School,TR=0;CC=1;LR=0;GRA=0,TR=0;CC=1;LR=1;GRA=0,"Full-source review found an explicit friendship-vocabulary section, a contextual word-meaning item, and lexical fill blanks."
+6087ada1-446e-41d4-ac30-be0536691aae,A Train Trip to Da Nang,TR=0;CC=0;LR=0;GRA=0,TR=0;CC=0;LR=1;GRA=0,Full-source review found an explicit contextual meaning item for 'scenery'.
+3a4e4ed5-bf5a-4ca4-b2d7-9913a9d509a5,Taking the Bus to School,TR=0;CC=1;LR=0;GRA=0,TR=0;CC=1;LR=1;GRA=0,"Full-source review found an explicit public-transport vocabulary section, a contextual meaning item, and lexical fill blanks."
+638d1ea8-3bde-4999-af7f-c7aa3bf1caa4,Learning to Play the Guitar,TR=0;CC=0;LR=0;GRA=0,TR=0;CC=0;LR=1;GRA=0,Full-source review found an explicit contextual meaning item for 'rewarding'.
+26bd3eb0-22cb-4d8f-b9f9-4314b4155696,Plan a Holiday,TR=0;CC=0;LR=1;GRA=1,TR=0;CC=1;LR=1;GRA=1,Full-source review found explicit organization guidance using first/then/after that.
+3a677d8b-3997-48c0-a375-52f122f134eb,My Job as a Teacher,TR=0;CC=0;LR=0;GRA=0,TR=0;CC=0;LR=1;GRA=0,"Full-source review found an explicit workplace-vocabulary section, a contextual meaning item, and lexical fill blanks."
+74b0d4dd-9325-4415-8d1f-b354ef8c8c93,Exploring Ho Chi Minh City,TR=0;CC=0;LR=0;GRA=0,TR=0;CC=0;LR=1;GRA=0,Full-source review found an explicit contextual meaning item for 'skyscrapers'.
+1626ed34-e8d5-45ae-b135-958fe64dab13,Your Dream Job,TR=0;CC=0;LR=1;GRA=0,TR=1;CC=0;LR=1;GRA=0,Full-source review found a production prompt requiring a preference judgment and explicit reasons.
+268a2aed-37a3-4a8e-b08b-b2751db5c5f9,Echoes of the Past: Famous Historical Events,TR=0;CC=1;LR=0;GRA=0,TR=0;CC=1;LR=1;GRA=0,Full-source review found an explicit contextual meaning item for 'agrarian' and a lexical fill blank.
+1c1c237b-3597-412b-b7a1-23ba594a8ef1,Relationships and Communication,TR=0;CC=0;LR=1;GRA=0,TR=1;CC=0;LR=1;GRA=1,Full-source review found prompts requiring reasons/solutions and explicit second-conditional instruction for advice.
+01e3659d-ac0a-4306-86c7-5229b6e06a93,Discuss Environmental Problems,TR=0;CC=0;LR=1;GRA=1,TR=1;CC=0;LR=1;GRA=1,Full-source review found a production prompt requiring an opinion and explanation.
+292f565b-a50a-4d06-9ab4-4b48187d7800,Moving Forward: The Future of Transport,TR=0;CC=0;LR=0;GRA=0,TR=0;CC=0;LR=1;GRA=0,Full-source review found explicit technology-term interpretation plus lexical fill blanks.
+02a2850e-405f-4338-a744-e3e7ddfdf6ac,Sports and Competition,TR=0;CC=0;LR=1;GRA=0,TR=1;CC=0;LR=1;GRA=0,Full-source review found a production prompt requiring agreement/disagreement and consideration of benefits.
+323d6b18-dfb9-491d-a6b6-625ac03d2782,Urban Buzz vs. Rural Calm: City vs. Countryside Living,TR=0;CC=0;LR=0;GRA=0,TR=0;CC=0;LR=1;GRA=0,Full-source review found an explicit contextual meaning item for 'bustling' and lexical fill blanks.
+1c72fb39-1e1c-4d5f-8db4-dd21dbf96dfa,Describe Career Goals,TR=1;CC=0;LR=1;GRA=1,TR=1;CC=1;LR=1;GRA=1,Full-source review found explicit introduction/body/conclusion paragraph organization.
+3b42f9c7-7337-47c4-8926-bd6b2202c255,Exploring the Unknown: Popular Science Topics,TR=0;CC=0;LR=0;GRA=0,TR=0;CC=0;LR=1;GRA=0,Full-source review found explicit key-concept vocabulary work and lexical fill blanks.
+65a4aea8-164c-4988-9b00-7190bbb18307,Talk About Health Trends,TR=0;CC=0;LR=1;GRA=0,TR=1;CC=0;LR=1;GRA=0,Full-source review found explicit guidance to support statements with examples plus explanatory speaking prompts.
+03083c81-2ddf-45ea-90ae-b90f412f03b8,Analyze a News Article,TR=0;CC=0;LR=1;GRA=0,TR=1;CC=1;LR=1;GRA=0,Full-source review found explicit analysis-essay structure plus prompts requiring argument/evidence/balance analysis.
+04286fce-9e34-4ce8-b4d9-70bc8fa332bf,Genetically Modified Foods,TR=0;CC=0;LR=0;GRA=0,TR=1;CC=0;LR=0;GRA=0,Full-source review recovered the complete production prompt asking for a position on GMO use.
+08e6954e-7372-4bbe-815d-19dabbe92f2d,Discuss an Ethical Dilemma at Work,TR=1;CC=1;LR=1;GRA=0,TR=1;CC=1;LR=1;GRA=1,Full-source review found explicit Type 2/3 conditional-sentence instruction.
+427ab7ee-d9fe-49d1-a425-4adf22d93c1f,Debate: Remote Work vs. Office Work,TR=1;CC=0;LR=1;GRA=1,TR=1;CC=1;LR=1;GRA=1,Full-source review found explicit transition-word instruction for comparison/contrast organization.
+1347387b-da4c-4aa2-838f-41516df2563a,Discuss Globalization Effects,TR=0;CC=0;LR=1;GRA=0,TR=1;CC=0;LR=1;GRA=0,Full-source review found a production prompt that explicitly requires supporting a view.
+4a03fda7-8347-4cf2-a582-1987dc078fc8,Social Inequality and Its Solutions,TR=0;CC=0;LR=1;GRA=1,TR=1;CC=1;LR=1;GRA=1,Full-source review found prompts requiring proposed/justified solutions and explicit connectors-for-cohesion instruction.
+226a70a9-4ca6-4712-8a9b-4f342602c5bb,Critique a Media Report,TR=0;CC=0;LR=1;GRA=0,TR=1;CC=0;LR=1;GRA=0,Full-source review found explicit critique/evidence evaluation and opinion prompts.

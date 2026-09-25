@@ -32,12 +32,18 @@ export class AiServiceController {
 			cefrLevel?: string;
 			minWords?: number;
 			maxWords?: number;
+			aiTraceId?: string;
 		},
 	) {
 		return this.aiService.gradeSubmission(payload);
 	}
 
 	// Learning Plan
+	@MessagePattern('ai.plan.select-content')
+	async selectPlanContent(@Payload() payload: any) {
+		return this.aiService.selectPlanContent(payload);
+	}
+
 	@MessagePattern('ai.plan.generate')
 	async generatePlanItems(@Payload() payload: any) {
 		return this.aiService.generatePlanItems(payload);

@@ -878,6 +878,7 @@ export class AssessmentsService implements OnModuleInit {
 			cefrLevel,
 			minWords,
 			maxWords,
+			aiTraceId: answerId,
 		});
 
 		// Merge Pronunciation band vào criterionBands cho speaking

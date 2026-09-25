@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-09-12T08:44:42.290847+00:00",
+  "sourceDbSha256": "1818e4db49e2ecabe0fa0889878d4fc2496461bb4e87028074ceb7658dd8230a",
+  "catalogSnapshotSha256": "c99e73816aaa69799c9471f887c6e708bb2eca1541bd99e95821dff6434198ce",
+  "candidatePoolHashesByCefr": {
+    "A2": "cd1e16737e9872acc97ca751c5cbab1caf6e744ee17bf4e031c3a211fd82f8c6",
+    "B1": "6e8adb98ed81e11a7e26c709957344a37ab17072dd4f8715fa70c1e777459457",
+    "B2": "473ac6cbf3e8a5e7a78e010a10edcba1475daa12215ebf6888993fcb9adeacb8"
+  },
+  "counts": {
+    "A2": {
+      "total": 24,
+      "bySkillType": {
+        "reading|lesson": 4,
+        "reading|practice_session": 4,
+        "speaking|lesson": 4,
+        "speaking|practice_session": 4,
+        "writing|lesson": 4,
+        "writing|practice_session": 4
+      }
+    },
+    "B1": {
+      "total": 24,
+      "bySkillType": {
+        "reading|lesson": 4,
+        "reading|practice_session": 4,
+        "speaking|lesson": 4,
+        "speaking|practice_session": 4,
+        "writing|lesson": 4,
+        "writing|practice_session": 4
+      }
+    },
+    "B2": {
+      "total": 24,
+      "bySkillType": {
+        "reading|lesson": 4,
+        "reading|practice_session": 4,
+        "speaking|lesson": 4,
+        "speaking|practice_session": 4,
+        "writing|lesson": 4,
+        "writing|practice_session": 4
+      }
+    }
+  },
+  "totalFrozenItems": 72,
+  "annotationStatus": "FROZEN_AI_ASSISTED_SECOND_PASS",
+  "notes": [
+    "Only content in the deterministic 24-item candidate pool for A2/B1/B2 is included.",
+    "No learner/user/history tables are included in the frozen catalog artifact.",
+    "TR/CC/LR/GRA labels must be frozen before final 72-run experiment outputs are inspected."
+  ],
+  "relevanceMatrixSha256": "54b47eb225a129fd8ac8abce4916e368c6bc532ae0b78f69e7ab52e0e688cbf5",
+  "annotationGuidelineSha256": "803f6a882dea9c71bc531223c61a2857533e82718aae295960dd28a08873650e",
+  "annotationReviewSha256": "8875246ba33bb7e1de63f033cd6438e6fa89eacb8fe857dd256114d324ca9c06",
+  "annotationItemCount": 72,
+  "annotationCoverageSummary": {
+    "relevantItems": {
+      "TR": 35,
+      "CC": 17,
+      "LR": 55,
+      "GRA": 19
+    },
+    "relevantMinutes": {
+      "TR": 915,
+      "CC": 480,
+      "LR": 1415,
+      "GRA": 505
+    },
+    "byCefr": {
+      "A2": {
+        "TR": 7,
+        "CC": 5,
+        "LR": 19,
+        "GRA": 7
+      },
+      "B1": {
+        "TR": 14,
+        "CC": 5,
+        "LR": 18,
+        "GRA": 7
+      },
+      "B2": {
+        "TR": 14,
+        "CC": 7,
+        "LR": 18,
+        "GRA": 5
+      }
+    },
+    "byItemType": {
+      "lesson": {
+        "TR": 20,
+        "CC": 17,
+        "LR": 36,
+        "GRA": 11
+      },
+      "practice_session": {
+        "TR": 15,
+        "CC": 0,
+        "LR": 19,
+        "GRA": 8
+      }
+    },
+    "reviewItems": 0,
+    "allZeroItems": 2
+  },
+  "annotationProvenance": {
+    "method": "AI-assisted item-by-item draft followed by a separate second-pass consistency review against the full frozen db.zip source content",
+    "firstPassSource": "stage-1-annotation-package.zip",
+    "secondPassSourceDbSha256": "1818e4db49e2ecabe0fa0889878d4fc2496461bb4e87028074ceb7658dd8230a",
+    "planOutputsUsed": false,
+    "plannerRationalesUsed": false,
+    "finalExperimentOutputsInspected": false,
+    "humanInterRaterAgreementMeasured": false,
+    "humanAnnotationClaimed": false,
+    "secondPassChanges": 26,
+    "freezeDecision": "Accepted for Stage-2 experiment freeze under transparent AI-assisted annotation protocol"
+  },
+  "secondPassChangesSha256": "c4b80ec2ba345569141a1bab3647bbc766b7e6bc93440535e2558933fa1e57a7",
+  "stage1FrozenAtUtc": "2026-09-12T09:21:22.870755+00:00",
+  "stage2FileHashes": {
+    "research/freeze/profiles.json": "5b4d619d22bc5fbfbf8097bd3ec004056f0159c860e6f212e7f41967ebc36184",
+    "research/freeze/experiment-config.json": "f198359db5c60597c066f50ad670e271feb512dd97b32c72edccb8ff543ef929",
+    "research/freeze/run-schedule.json": "1717eb7f3757901c6875407ba38bf57b49036c453b85308da201e630b01f2056",
+    "apps/ai-service/src/prompts/plan.prompt.ts": "94a2052777c67d2662535f1d19a93a07ebff04302cef817478331d4f4782448b",
+    "apps/ai-service/src/planning/structured-plan.ts": "fac6b23534009d5aa31563878def4f3b7a279e0177fe53889d12df81b7ca652c",
+    "apps/api-gateway/src/modules/learning-plan/plan-pipeline.ts": "d0d96984bb8733860fb3b2a0a7e373ae0e2fb260c0ad79041c5cad200accfcd2",
+    "research/run-experiment.ts": "66eeec3efc065d555d86941b0a0c27efdd2bc2e0bb7b681798b51866a9fd316a",
+    "research/run-pilot.ts": "e32ddb94118e214990383267616d796495387f45e3dab7136a99488b5dfb3d67",
+    "apps/ai-service/src/prompts/dedent.util.ts": "32271596422926e1d2f42fd488f0de4ecf8f5e236373fa95f1ab8a6853d96844",
+    "apps/api-gateway/src/modules/learning-plan/interface/plan-context.interface.ts": "e51f8e02d4d04a27d3eb2270e4c06fa3d0ae7f6a406a4fcf703585ca13199623",
+    "apps/api-gateway/src/modules/learning-plan/interface/plan-content-candidate.interface.ts": "018c0c49e0443f8923f3e97f54760be7ac8f79071d897c3f0ed5aa0d85147f05",
+    "apps/api-gateway/src/modules/learning-plan/interface/ai-plan-item.interface.ts": "784dc8ab9432b6d3d82274535c6de08b62ebe3056db3796cf5ed37d0a8b41567",
+    "pnpm-lock.yaml": "2bdd8336b54fd030b8cd3c50f7a8a54b3e27dca0b7cb6121494358837b4e25dd",
+    "package.json": "a01675851eaede4c3b995331a4a61c99f0a257a4a4d2489e0e194b451f66ef98",
+    "tsconfig.json": "1407a2445c0b8e75eabc768e698e3dab5144c1db5b6ebb04740ad9a4815adb3e"
+  },
+  "experimentId": "writing-w-ablation-v1",
+  "expectedRuns": 72,
+  "expectedNominalStageCalls": 144,
+  "experimentStatus": "FROZEN_READY_TO_RUN"
+}
